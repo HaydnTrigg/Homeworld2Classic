@@ -3,5 +3,5 @@
 /.ninja_lock
 /build.ninja
 /objdiff.json
-/orig/Homeworld2Classic/
+/orig/*
 *.cod
