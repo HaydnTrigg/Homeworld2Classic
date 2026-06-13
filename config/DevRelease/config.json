@@ -1,0 +1,20 @@
+{
+    "progress_categories": {
+        "program": "Program"
+    },
+    "compiler": "compiler\\x86\\cl.exe",
+    "compiler_root": "compiler",
+    "asflags": [],
+    "ldflags": [],
+    "cflags": {
+        "default": {
+            "flags": [
+                "/DDECOMP"
+            ]
+        },
+        "program": {
+            "base": "default",
+            "flags": []
+        }
+    }
+}

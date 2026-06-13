@@ -1,0 +1,4 @@
+Place the following binaries here
+
+Download with DepotDownloader
+DepotDownloader -app 244160 -depot 255551 -manifest 8281447299805993717 -dir .
