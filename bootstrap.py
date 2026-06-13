@@ -36,6 +36,16 @@ OBJDIFF_EXE = Path("build/tools/objdiff-windows-x86_64.exe")
 OBJDIFF_URL = f"https://github.com/HaydnTrigg/objdiff/releases/download/{OBJDIFF_VERSION}/objdiff-windows-x86_64.exe"
 OBJDIFF_SHA1 = "18665D87721982B33D3CA78AA461B157AEB48A5C"
 
+LLVM_VERSION = "7.0.0"
+LLVM_INSTALLER = Path("build/tools/LLVM-7.0.0-win64.exe")
+LLVM_URL = f"https://releases.llvm.org/{LLVM_VERSION}/LLVM-{LLVM_VERSION}-win64.exe"
+LLVM_DIR = Path("compiler/LLVM-7.0.0")
+
+SEVENZIP_MSI = Path("build/tools/7z2601.msi")
+SEVENZIP_MSI_URL = "https://github.com/ip7z/7zip/releases/download/26.01/7z2601.msi"
+SEVENZIP_EXTRACT_DIR = Path("build/tools/7z")
+SEVENZIPEXE = SEVENZIP_EXTRACT_DIR / "Files" / "7-Zip" / "7z.exe"
+
 OUTPUT_DIR = Path(f"build/{CONFIG_ID}")
 DELINK_OUTPUT_DIR = OUTPUT_DIR / "delink"
 
@@ -100,20 +110,23 @@ def run(cmd, cwd=None):
     subprocess.run(cmd, cwd=cwd, check=True)
 
 
-def download_file(url: str, dest: Path, expected_sha1: str):
+def download_file(url: str, dest: Path, expected_sha1: str = None):
     if dest.exists():
-        if sha1_file(dest).lower() == expected_sha1.lower():
-            print(f"{dest} already present and verified.")
+        if expected_sha1 is None or sha1_file(dest).lower() == expected_sha1.lower():
+            print(f"{dest} already present{' and verified' if expected_sha1 else ''}.")
             return
         print(f"SHA1 mismatch for {dest}, re-acquiring...")
         dest.unlink()
     print(f"Downloading {url} -> {dest}")
     dest.parent.mkdir(parents=True, exist_ok=True)
     urllib.request.urlretrieve(url, dest)
-    actual = sha1_file(dest)
-    if actual.lower() != expected_sha1.lower():
-        raise RuntimeError(f"SHA1 mismatch for {dest}: expected {expected_sha1}, got {actual}")
-    print(f"{dest} downloaded and verified.")
+    if expected_sha1:
+        actual = sha1_file(dest)
+        if actual.lower() != expected_sha1.lower():
+            raise RuntimeError(f"SHA1 mismatch for {dest}: expected {expected_sha1}, got {actual}")
+        print(f"{dest} downloaded and verified.")
+    else:
+        print(f"{dest} downloaded.")
 
 
 def verify_hash(required: bool, path_str: str, expected: str):
@@ -326,6 +339,26 @@ if args.objdiff_cli:
 else:
     download_file(OBJDIFF_CLI_URL, OBJDIFF_CLI_EXE, OBJDIFF_CLI_SHA1)
 download_file(OBJDIFF_URL, OBJDIFF_EXE, OBJDIFF_SHA1)
+
+if CONFIG_ID == "HW2C_Exe":
+    if not SEVENZIPEXE.exists():
+        download_file(SEVENZIP_MSI_URL, SEVENZIP_MSI)
+        print(f"Extracting {SEVENZIP_MSI} -> {SEVENZIP_EXTRACT_DIR}/")
+        extract_dir = SEVENZIP_EXTRACT_DIR.resolve()
+        extract_dir.mkdir(parents=True, exist_ok=True)
+        run(["msiexec", "/a", str(SEVENZIP_MSI.resolve()), "/qn", f"TARGETDIR={extract_dir}"])
+    else:
+        print(f"{SEVENZIPEXE} already present, skipping 7zip download.")
+
+    if LLVM_DIR.exists():
+        print(f"{LLVM_DIR} already present, skipping LLVM download and extraction.")
+    else:
+        download_file(LLVM_URL, LLVM_INSTALLER)
+        print(f"Extracting {LLVM_INSTALLER} -> {LLVM_DIR}")
+        LLVM_DIR.mkdir(parents=True, exist_ok=True)
+        run([str(SEVENZIPEXE), "x", str(LLVM_INSTALLER), f"-o{LLVM_DIR}", "-y"])
+
+    verify_hash(True, "compiler/LLVM-7.0.0/bin\clang++.exe", "6270EDF5FE8CA1CA25E6637FAF69CD68F0C81D2E")
 
 if CONFIG_ID == "DevRelease":
     for bin_path, pdb_path in ORIG_BINARIES:

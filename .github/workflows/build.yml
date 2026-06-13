@@ -12,7 +12,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        version: [DevRelease]
+        version: [DevRelease, HW2C_Exe]
 
     steps:
       - name: Checkout Repository
@@ -36,7 +36,7 @@ jobs:
       # Run configure.py
       - name: Bootstrap
         shell: cmd
-        run: bootstrap.bat
+        run: bootstrap.bat --config-id ${{ matrix.version }}
 
       # Run Ninja
       - name: Ninja Build
