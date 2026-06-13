@@ -23,7 +23,7 @@
         "Util.dll": "Util.dll",
         "ZLib.dll": "ZLib.dll"
     },
-    "compiler": "compiler\\x86\\cl.exe",
+    "compiler": "compiler\\bin\\cl.exe",
     "compiler_root": "compiler",
     "asflags": [],
     "ldflags": [],
@@ -66,6 +66,7 @@
         "Console.dll": {
             "base": "common",
             "flags": [
+                //"-FAcs",
                 "-W3",
                 "-Os",
                 "-Oy",
@@ -77,13 +78,13 @@
                 "-DBUILDMACHINE",
                 "-D_WINDLL",
                 "-D_MBCS",
-                "-Gm-",
-                "-FAcs"
+                "-Gm-"
             ]
         },
         "DCDefault.dll": {
             "base": "common",
             "flags": [
+                //"-FAcs",
                 "-W3",
                 "-Oy-",
                 "-D_CRT_SECURE_NO_WARNINGS",
@@ -91,8 +92,7 @@
                 "-DDCDEFAULT_EXPORTS",
                 "-DBUILDMACHINE",
                 "-D_WINDLL",
-                "-Gm-",
-                "-FAcs"
+                "-Gm-"
             ]
         },
         "DCWindow.dll": {
@@ -110,6 +110,7 @@
         "Debug.dll": {
             "base": "common",
             "flags": [
+                //"-FAcs",
                 "-W4",
                 "-Os",
                 "-Oy-",
@@ -117,8 +118,7 @@
                 "-DREI_PC",
                 "-DDEBUG_DLL",
                 "-D_WINDLL",
-                "-Gm-",
-                "-FAcs"
+                "-Gm-"
             ]
         },
         "ExeTie.dll": {
@@ -140,6 +140,7 @@
         "FileIO.dll": {
             "base": "common",
             "flags": [
+                //"-FAcs",
                 "-W3",
                 "-Os",
                 "-Oy",
@@ -150,13 +151,13 @@
                 "-DBUILDMACHINE",
                 "-D_WINDLL",
                 "-Gm-",
-                "-GR",
-                "-FAcs"
+                "-GR"
             ]
         },
         "GL.dll": {
             "base": "common",
             "flags": [
+                //"-FAcs",
                 "-W3",
                 "-Os",
                 "-Oy-",
@@ -164,8 +165,7 @@
                 "-DREI_PC",
                 "-DBUILDMACHINE",
                 "-D_WINDLL",
-                "-Gm-",
-                "-FAcs"
+                "-Gm-"
             ]
         },
         "GSLobby.dll": {
@@ -208,6 +208,7 @@
         "HW2Box.dll": {
             "base": "common",
             "flags": [
+                //"-FAcs",
                 "-W4",
                 "-Os",
                 "-Oy-",
@@ -218,13 +219,13 @@
                 "-D_WINDLL",
                 "-D_MBCS",
                 "-Gm",
-                "-GR",
-                "-FAcs"
+                "-GR"
             ]
         },
         "Localizer.dll": {
             "base": "common",
             "flags": [
+                //"-FAcs",
                 "-W4",
                 "-Os",
                 "-Oy",
@@ -235,13 +236,13 @@
                 "-D_WINDLL",
                 "-D_MBCS",
                 "-Gm-",
-                "-GR",
-                "-FAcs"
+                "-GR"
             ]
         },
         "lua.dll": {
             "base": "common",
             "flags": [
+                //"-FAcs",
                 "-W3",
                 "-Os",
                 "-Oy",
@@ -252,13 +253,13 @@
                 "-D_WINDLL",
                 "-D_MBCS",
                 "-Gm-",
-                "-GR",
-                "-FAcs"
+                "-GR"
             ]
         },
         "LuaConfig.dll": {
             "base": "common",
             "flags": [
+                //"-FAcs",
                 "-W3",
                 "-Os",
                 "-Oy",
@@ -268,13 +269,13 @@
                 "-DLUACONFIG_EXPORTS",
                 "-D_WINDLL",
                 "-Gm-",
-                "-GR",
-                "-FAcs"
+                "-GR"
             ]
         },
         "Memory.dll": {
             "base": "common",
             "flags": [
+                //"-FAcs",
                 "-W4",
                 "-Ot",
                 "-Oy-",
@@ -285,13 +286,13 @@
                 "-DMEMORY_DLL",
                 "-D_WINDLL",
                 "-D_MBCS",
-                "-Gm-",
-                "-FAcs"
+                "-Gm-"
             ]
         },
         "Objects.dll": {
             "base": "common",
             "flags": [
+                //"-FAcs",
                 "-W3",
                 "-Ot",
                 "-Oy",
@@ -301,13 +302,13 @@
                 "-DOBJECTS_DLL",
                 "-DBUILDMACHINE",
                 "-D_WINDLL",
-                "-Gm-",
-                "-FAcs"
+                "-Gm-"
             ]
         },
         "Platform.dll": {
             "base": "common",
             "flags": [
+                //"-FAcs",
                 "-W3",
                 "-Os",
                 "-Oy",
@@ -317,8 +318,7 @@
                 "-DPLATFORM_DLL",
                 "-DBUILDMACHINE",
                 "-D_WINDLL",
-                "-Gm-",
-                "-FAcs"
+                "-Gm-"
             ]
         },
         "Profile.dll": {
@@ -383,6 +383,7 @@
         "Util.dll": {
             "base": "common",
             "flags": [
+                //"-FAcs",
                 "-W3",
                 "-Os",
                 "-Oy",
@@ -392,13 +393,13 @@
                 "-DREI_PC",
                 "-DBUILDMACHINE",
                 "-D_WINDLL",
-                "-Gm-",
-                "-FAcs"
+                "-Gm-"
             ]
         },
         "ZLib.dll": {
             "base": "common",
             "flags": [
+                //"-FAcs",
                 "-W3",
                 "-Os",
                 "-Oy",
@@ -409,8 +410,7 @@
                 "-DZLIB_DLL",
                 "-D_WINDLL",
                 "-D_MBCS",
-                "-Gm-",
-                "-FAcs"
+                "-Gm-"
             ]
         }
     }
