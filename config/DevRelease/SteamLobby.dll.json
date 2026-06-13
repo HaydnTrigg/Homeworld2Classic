@@ -2,6 +2,12 @@
     "SteamLobby.dll": {
         "progress_category": "program",
         "cflags": "program",
-        "objects": {}
+        "objects": {
+            "src\\Intermediate\\Source\\SteamLobby\\Release\\Obj\\SteamTracker.obj": "0002_SteamTracker.obj",
+            "src\\Intermediate\\Source\\SteamLobby\\Release\\Obj\\SteamPeer.obj": "0003_SteamPeer.obj",
+            "src\\Intermediate\\Source\\SteamLobby\\Release\\Obj\\SteamLobbySessionDesc.obj": "0004_SteamLobbySessionDesc.obj",
+            "src\\Intermediate\\Source\\SteamLobby\\Release\\Obj\\SteamLobbyPlayerDesc.obj": "0005_SteamLobbyPlayerDesc.obj",
+            "src\\Intermediate\\Source\\SteamLobby\\Release\\Obj\\Pch.obj": "0006_Pch.obj"
+        }
     }
 }

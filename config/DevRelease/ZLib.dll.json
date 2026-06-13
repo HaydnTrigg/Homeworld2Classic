@@ -2,6 +2,25 @@
     "ZLib.dll": {
         "progress_category": "program",
         "cflags": "program",
-        "objects": {}
+        "objects": {
+            "src\\Intermediate\\Shared\\ZLib\\Release\\Obj\\CompressionMem1.obj": "0002_CompressionMem1.obj",
+            "src\\Intermediate\\Shared\\ZLib\\Release\\Obj\\Compression1.obj": "0003_Compression1.obj",
+            "src\\Intermediate\\Shared\\ZLib\\Release\\Obj\\pch.obj": "0004_pch.obj",
+            "src\\Intermediate\\Shared\\ZLib\\Release\\Obj\\zutil.obj": "0005_zutil.obj",
+            "src\\Intermediate\\Shared\\ZLib\\Release\\Obj\\uncompr.obj": "0006_uncompr.obj",
+            "src\\Intermediate\\Shared\\ZLib\\Release\\Obj\\trees.obj": "0007_trees.obj",
+            "src\\Intermediate\\Shared\\ZLib\\Release\\Obj\\infutil.obj": "0008_infutil.obj",
+            "src\\Intermediate\\Shared\\ZLib\\Release\\Obj\\inftrees.obj": "0009_inftrees.obj",
+            "src\\Intermediate\\Shared\\ZLib\\Release\\Obj\\inflate.obj": "0010_inflate.obj",
+            "src\\Intermediate\\Shared\\ZLib\\Release\\Obj\\inffast.obj": "0011_inffast.obj",
+            "src\\Intermediate\\Shared\\ZLib\\Release\\Obj\\infcodes.obj": "0012_infcodes.obj",
+            "src\\Intermediate\\Shared\\ZLib\\Release\\Obj\\infblock.obj": "0013_infblock.obj",
+            "src\\Intermediate\\Shared\\ZLib\\Release\\Obj\\gzio.obj": "0014_gzio.obj",
+            "src\\Intermediate\\Shared\\ZLib\\Release\\Obj\\deflate.obj": "0015_deflate.obj",
+            "src\\Intermediate\\Shared\\ZLib\\Release\\Obj\\crc32.obj": "0016_crc32.obj",
+            "src\\Intermediate\\Shared\\ZLib\\Release\\Obj\\compress.obj": "0017_compress.obj",
+            "src\\Intermediate\\Shared\\ZLib\\Release\\Obj\\adler32.obj": "0018_adler32.obj",
+            "src\\Intermediate\\Shared\\ZLib\\Release\\Obj\\ZLibInit.obj": "0019_ZLibInit.obj"
+        }
     }
 }

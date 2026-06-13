@@ -2,6 +2,29 @@
     "GL.dll": {
         "progress_category": "program",
         "cflags": "program",
-        "objects": {}
+        "objects": {
+            "src\\Intermediate\\Source\\Render\\GL\\Release\\Obj\\pch1.obj": "0002_pch1.obj",
+            "src\\Intermediate\\Source\\Render\\GL\\Release\\Obj\\r_vertexprogram1.obj": "0003_r_vertexprogram1.obj",
+            "src\\Intermediate\\Source\\Render\\GL\\Release\\Obj\\r_vertexbufferobject1.obj": "0004_r_vertexbufferobject1.obj",
+            "src\\Intermediate\\Source\\Render\\GL\\Release\\Obj\\r_vertexbuffer1.obj": "0005_r_vertexbuffer1.obj",
+            "src\\Intermediate\\Source\\Render\\GL\\Release\\Obj\\r_texture1.obj": "0006_r_texture1.obj",
+            "src\\Intermediate\\Source\\Render\\GL\\Release\\Obj\\r_stats1.obj": "0007_r_stats1.obj",
+            "src\\Intermediate\\Source\\Render\\GL\\Release\\Obj\\r_program1.obj": "0008_r_program1.obj",
+            "src\\Intermediate\\Source\\Render\\GL\\Release\\Obj\\r_primitive1.obj": "0009_r_primitive1.obj",
+            "src\\Intermediate\\Source\\Render\\GL\\Release\\Obj\\r_pbuffer1.obj": "0010_r_pbuffer1.obj",
+            "src\\Intermediate\\Source\\Render\\GL\\Release\\Obj\\r_misc1.obj": "0011_r_misc1.obj",
+            "src\\Intermediate\\Source\\Render\\GL\\Release\\Obj\\r_matrix1.obj": "0012_r_matrix1.obj",
+            "src\\Intermediate\\Source\\Render\\GL\\Release\\Obj\\r_lighting1.obj": "0013_r_lighting1.obj",
+            "src\\Intermediate\\Source\\Render\\GL\\Release\\Obj\\r_glare1.obj": "0014_r_glare1.obj",
+            "src\\Intermediate\\Source\\Render\\GL\\Release\\Obj\\r_combiner1.obj": "0015_r_combiner1.obj",
+            "src\\Intermediate\\Source\\Render\\GL\\Release\\Obj\\r_colour1.obj": "0016_r_colour1.obj",
+            "src\\Intermediate\\Source\\Render\\GL\\Release\\Obj\\r_caps1.obj": "0017_r_caps1.obj",
+            "src\\Intermediate\\Source\\Render\\GL\\Release\\Obj\\r_blend1.obj": "0018_r_blend1.obj",
+            "src\\Intermediate\\Source\\Render\\GL\\Release\\Obj\\interface1.obj": "0019_interface1.obj",
+            "src\\Intermediate\\Source\\Render\\GL\\Release\\Obj\\config1.obj": "0020_config1.obj",
+            "src\\Intermediate\\Source\\Render\\GL\\Release\\Obj\\luaInterface.obj": "0021_luaInterface.obj",
+            "src\\Intermediate\\Source\\Mathlib\\Release\\Obj\\matrix4.obj": "0034_matrix4.obj",
+            "src\\Intermediate\\Source\\Mathlib\\Release\\Obj\\pch.obj": "0035_pch.obj"
+        }
     }
 }

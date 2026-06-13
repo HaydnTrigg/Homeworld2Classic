@@ -2,6 +2,14 @@
     "LuaConfig.dll": {
         "progress_category": "program",
         "cflags": "program",
-        "objects": {}
+        "objects": {
+            "src\\Intermediate\\Shared\\Assist\\Release\\Obj\\pch.obj": "0002_pch.obj",
+            "src\\Intermediate\\Shared\\LuaConfig\\Release\\Obj\\LuaUtils.obj": "0003_LuaUtils.obj",
+            "src\\Intermediate\\Shared\\LuaConfig\\Release\\Obj\\LuaLibMan.obj": "0004_LuaLibMan.obj",
+            "src\\Intermediate\\Shared\\LuaConfig\\Release\\Obj\\LuaConfigSave.obj": "0005_LuaConfigSave.obj",
+            "src\\Intermediate\\Shared\\LuaConfig\\Release\\Obj\\LuaConfig.obj": "0006_LuaConfig.obj",
+            "src\\Intermediate\\Shared\\LuaConfig\\Release\\Obj\\LuaBinding.obj": "0007_LuaBinding.obj",
+            "src\\Intermediate\\Shared\\LuaConfig\\Release\\Obj\\GlobalLua.obj": "0008_GlobalLua.obj"
+        }
     }
 }

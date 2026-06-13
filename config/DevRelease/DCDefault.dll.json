@@ -2,6 +2,8 @@
     "DCDefault.dll": {
         "progress_category": "program",
         "cflags": "program",
-        "objects": {}
+        "objects": {
+            "src\\Intermediate\\Source\\Debug\\DCDefault\\Release\\Obj\\interface.obj": "0002_interface.obj"
+        }
     }
 }

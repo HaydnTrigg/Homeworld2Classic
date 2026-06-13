@@ -2,6 +2,21 @@
     "Memory.dll": {
         "progress_category": "program",
         "cflags": "program",
-        "objects": {}
+        "objects": {
+            "src\\Intermediate\\Shared\\Memory\\Release\\Obj\\mmgr.obj": "0002_mmgr.obj",
+            "src\\Intermediate\\Shared\\Memory\\Release\\Obj\\VMQuery.obj": "0003_VMQuery.obj",
+            "src\\Intermediate\\Shared\\Memory\\Release\\Obj\\mmWriteHeap.obj": "0005_mmWriteHeap.obj",
+            "src\\Intermediate\\Shared\\Memory\\Release\\Obj\\mmThreadLock.obj": "0006_mmThreadLock.obj",
+            "src\\Intermediate\\Shared\\Memory\\Release\\Obj\\mmStackTrace.obj": "0007_mmStackTrace.obj",
+            "src\\Intermediate\\Shared\\Memory\\Release\\Obj\\mmPoolVM.obj": "0008_mmPoolVM.obj",
+            "src\\Intermediate\\Shared\\Memory\\Release\\Obj\\mmPool.obj": "0009_mmPool.obj",
+            "src\\Intermediate\\Shared\\Memory\\Release\\Obj\\mmPeek.obj": "0010_mmPeek.obj",
+            "src\\Intermediate\\Shared\\Memory\\Release\\Obj\\mmInit.obj": "0011_mmInit.obj",
+            "src\\Intermediate\\Shared\\Memory\\Release\\Obj\\mmCRT.obj": "0012_mmCRT.obj",
+            "src\\Intermediate\\Shared\\Memory\\Release\\Obj\\mmCReplacement.obj": "0013_mmCReplacement.obj",
+            "src\\Intermediate\\Shared\\Memory\\Release\\Obj\\MemorySmall.obj": "0014_MemorySmall.obj",
+            "src\\Intermediate\\Shared\\Memory\\Release\\Obj\\MemoryPool.obj": "0015_MemoryPool.obj",
+            "src\\Intermediate\\Shared\\Memory\\Release\\Obj\\Memorylib.obj": "0016_Memorylib.obj"
+        }
     }
 }

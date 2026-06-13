@@ -2,6 +2,9 @@
     "Console.dll": {
         "progress_category": "program",
         "cflags": "program",
-        "objects": {}
+        "objects": {
+            "src\\Intermediate\\Source\\Console\\Release\\Obj\\Interface.obj": "0002_Interface.obj",
+            "src\\Intermediate\\Source\\Console\\Release\\Obj\\Debug.obj": "0003_Debug.obj"
+        }
     }
 }

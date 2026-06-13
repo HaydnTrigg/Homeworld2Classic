@@ -2,6 +2,8 @@
     "ExeTie.dll": {
         "progress_category": "program",
         "cflags": "program",
-        "objects": {}
+        "objects": {
+            "src\\Intermediate\\Tools\\ExeTie\\Release\\Obj\\ExeTie.obj": "0003_ExeTie.obj"
+        }
     }
 }

@@ -2,6 +2,12 @@
     "Localizer.dll": {
         "progress_category": "program",
         "cflags": "program",
-        "objects": {}
+        "objects": {
+            "src\\Intermediate\\Shared\\Localizer\\Release\\Obj\\pch.obj": "0002_pch.obj",
+            "src\\Intermediate\\Shared\\Localizer\\Release\\Obj\\LocalizerUCS.obj": "0003_LocalizerUCS.obj",
+            "src\\Intermediate\\Shared\\Localizer\\Release\\Obj\\LocalizerTxt.obj": "0004_LocalizerTxt.obj",
+            "src\\Intermediate\\Shared\\Localizer\\Release\\Obj\\LocalizerImp.obj": "0005_LocalizerImp.obj",
+            "src\\Intermediate\\Shared\\Localizer\\Release\\Obj\\Localizer.obj": "0006_Localizer.obj"
+        }
     }
 }

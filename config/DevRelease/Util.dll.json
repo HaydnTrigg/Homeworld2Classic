@@ -2,6 +2,11 @@
     "Util.dll": {
         "progress_category": "program",
         "cflags": "program",
-        "objects": {}
+        "objects": {
+            "src\\Intermediate\\Shared\\Assist\\Release\\Obj\\pch.obj": "0002_pch.obj",
+            "src\\Intermediate\\Source\\Util\\Release\\Obj\\statmonitor.obj": "0003_statmonitor.obj",
+            "src\\Intermediate\\Source\\Util\\Release\\Obj\\Dictionary.obj": "0004_Dictionary.obj",
+            "src\\Intermediate\\Source\\Util\\Release\\Obj\\CallGraph.obj": "0005_CallGraph.obj"
+        }
     }
 }

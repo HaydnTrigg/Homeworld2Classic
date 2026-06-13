@@ -2,6 +2,13 @@
     "HW2Box.dll": {
         "progress_category": "program",
         "cflags": "program",
-        "objects": {}
+        "objects": {
+            "src\\Intermediate\\HW2\\HW2Box\\Release\\Obj\\HW2Box.obj": "0002_HW2Box.obj",
+            "src\\Intermediate\\HW2\\HW2Box\\Release\\Obj\\pch.obj": "0003_pch.obj",
+            "src\\Intermediate\\HW2\\HW2Box\\Release\\Obj\\HW2Box_std.obj": "0004_HW2Box_std.obj",
+            "src\\Intermediate\\HW2\\HW2Box\\Release\\Obj\\HW2Box_SSE.obj": "0005_HW2Box_SSE.obj",
+            "src\\Intermediate\\HW2\\HW2Box\\Release\\Obj\\HW2Box_3DNow.obj": "0006_HW2Box_3DNow.obj",
+            "src\\Intermediate\\HW2\\HW2Box\\Release\\Obj\\cpuid.obj": "0007_cpuid.obj"
+        }
     }
 }

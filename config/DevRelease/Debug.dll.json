@@ -2,6 +2,13 @@
     "Debug.dll": {
         "progress_category": "program",
         "cflags": "program",
-        "objects": {}
+        "objects": {
+            "src/Source/Debug/dbSymbols1.obj": "0003_dbSymbols1.obj",
+            "src/Source/Debug/dbCRT1.obj": "0004_dbCRT1.obj",
+            "src/Source/Debug/dbAddrLRU1.obj": "0005_dbAddrLRU1.obj",
+            "src/Source/Debug/db1.obj": "0006_db1.obj",
+            "src/Source/Debug/Interface.obj": "0007_Interface.obj",
+            "src/Source/Debug/dbExt.obj": "0008_dbExt.obj"
+        }
     }
 }

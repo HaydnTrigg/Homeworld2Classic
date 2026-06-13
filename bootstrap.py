@@ -52,7 +52,7 @@ ORIG_BINARIES = [
 ]
 
 DELINK_OUTPUT_DIR = Path("build/DevRelease/delink")
-OUTPUT_DIR = Path("build/DevRelease/obj")
+OUTPUT_DIR = Path("build/DevRelease")
 
 config_path = args.config or "config/DevRelease/config.json"
 
@@ -214,8 +214,8 @@ def get_delink_path(binary_name, src):
     return f"build/DevRelease/delink/{binary_name}/" + to_forward_path(src).rsplit(".", 1)[0] + ".obj"
 
 
-def get_target_path(src):
-    return f"build/DevRelease/obj/" + to_forward_path(src).rsplit(".", 1)[0] + ".obj"
+def get_target_path(lib_name, src):
+    return f"build/DevRelease/{lib_name}/obj/" + to_forward_path(src).rsplit(".", 1)[0] + ".obj"
 
 
 def write_objdiff(config, objects):
@@ -224,9 +224,9 @@ def write_objdiff(config, objects):
         category = lib.get("progress_category", "default")
         for src, target in lib["objects"].items():
             units.append({
-                "name": f"{gameid.lower()}/" + to_forward_path(src).rsplit(".", 1)[0],
+                "name": to_forward_path(src).rsplit(".", 1)[0],
                 "target_path": get_delink_path(lib_name, target or src),
-                "base_path": get_target_path(src),
+                "base_path": get_target_path(lib_name, src),
                 "metadata": {
                     "complete": False,
                     "reverse_fn_order": False,
@@ -269,10 +269,10 @@ def write_ninja(config, objects):
     lines.append("  description = Compiling $in\n\n")
 
     all_objs = []
-    for _, lib in objects.items():
+    for lib_name, lib in objects.items():
         flags_str = " ".join(flatten_cflags(lib["cflags"], config["cflags"]))
         for src in lib["objects"]:
-            obj = get_target_path(src)
+            obj = get_target_path(lib_name, src)
             all_objs.append(obj)
             lines.append(f"build {obj}: compile {to_forward_path(SOURCE_ROOT + '/' + src)}\n")
             lines.append(f"  cflags = {flags_str}\n\n")

@@ -2,6 +2,33 @@
     "lua.dll": {
         "progress_category": "program",
         "cflags": "program",
-        "objects": {}
+        "objects": {
+            "src\\Intermediate\\Foreign\\lua\\Release\\Obj\\LuaMem.obj": "0002_LuaMem.obj",
+            "src\\Intermediate\\Foreign\\lua\\Release\\Obj\\lzio.obj": "0003_lzio.obj",
+            "src\\Intermediate\\Foreign\\lua\\Release\\Obj\\lvm.obj": "0004_lvm.obj",
+            "src\\Intermediate\\Foreign\\lua\\Release\\Obj\\lundump.obj": "0005_lundump.obj",
+            "src\\Intermediate\\Foreign\\lua\\Release\\Obj\\ltm.obj": "0006_ltm.obj",
+            "src\\Intermediate\\Foreign\\lua\\Release\\Obj\\ltable.obj": "0007_ltable.obj",
+            "src\\Intermediate\\Foreign\\lua\\Release\\Obj\\lstrlib.obj": "0008_lstrlib.obj",
+            "src\\Intermediate\\Foreign\\lua\\Release\\Obj\\lstring.obj": "0009_lstring.obj",
+            "src\\Intermediate\\Foreign\\lua\\Release\\Obj\\lstate.obj": "0010_lstate.obj",
+            "src\\Intermediate\\Foreign\\lua\\Release\\Obj\\lprint.obj": "0011_lprint.obj",
+            "src\\Intermediate\\Foreign\\lua\\Release\\Obj\\lparser.obj": "0012_lparser.obj",
+            "src\\Intermediate\\Foreign\\lua\\Release\\Obj\\lobject.obj": "0013_lobject.obj",
+            "src\\Intermediate\\Foreign\\lua\\Release\\Obj\\lmem.obj": "0014_lmem.obj",
+            "src\\Intermediate\\Foreign\\lua\\Release\\Obj\\lmathlib.obj": "0015_lmathlib.obj",
+            "src\\Intermediate\\Foreign\\lua\\Release\\Obj\\llex.obj": "0016_llex.obj",
+            "src\\Intermediate\\Foreign\\lua\\Release\\Obj\\liolib.obj": "0017_liolib.obj",
+            "src\\Intermediate\\Foreign\\lua\\Release\\Obj\\lgc.obj": "0018_lgc.obj",
+            "src\\Intermediate\\Foreign\\lua\\Release\\Obj\\lfunc.obj": "0019_lfunc.obj",
+            "src\\Intermediate\\Foreign\\lua\\Release\\Obj\\ldo.obj": "0020_ldo.obj",
+            "src\\Intermediate\\Foreign\\lua\\Release\\Obj\\ldebug.obj": "0021_ldebug.obj",
+            "src\\Intermediate\\Foreign\\lua\\Release\\Obj\\ldblib.obj": "0022_ldblib.obj",
+            "src\\Intermediate\\Foreign\\lua\\Release\\Obj\\lcode.obj": "0023_lcode.obj",
+            "src\\Intermediate\\Foreign\\lua\\Release\\Obj\\lbaselib.obj": "0024_lbaselib.obj",
+            "src\\Intermediate\\Foreign\\lua\\Release\\Obj\\lauxlib.obj": "0025_lauxlib.obj",
+            "src\\Intermediate\\Foreign\\lua\\Release\\Obj\\lapi.obj": "0026_lapi.obj",
+            "src\\Intermediate\\Shared\\Assist\\Release\\Obj\\pch.obj": "0027_pch.obj"
+        }
     }
 }

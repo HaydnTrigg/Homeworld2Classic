@@ -2,6 +2,10 @@
     "DCWindow.dll": {
         "progress_category": "program",
         "cflags": "program",
-        "objects": {}
+        "objects": {
+            "src\\Intermediate\\Source\\DCWindow\\Release\\Obj\\interface.obj": "0002_interface.obj",
+            "src\\Intermediate\\Source\\DCWindow\\Release\\Obj\\Filter.obj": "0003_Filter.obj",
+            "src\\Intermediate\\Source\\DCWindow\\Release\\Obj\\debugwnd.obj": "0004_debugwnd.obj"
+        }
     }
 }
