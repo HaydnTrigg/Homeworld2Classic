@@ -1,0 +1,125 @@
+name: Build
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  push:
+
+jobs:
+  matching:
+    name: Matching
+    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        version: [DevRelease]
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v6
+        with:
+          token: ${{ secrets.GH_PAT }}
+          submodules: 'recursive'
+
+      # Clone the build repo
+      - name: Checkout Build Binaries
+        uses: actions/checkout@v6
+        with:
+          repository: HaydnTrigg/Homeworld2Classic-Build
+          token: ${{ secrets.GH_PAT }}
+          path: Homeworld2Classic-Build
+
+      # Copy Homeworld2Classic-Build/orig -> ./orig
+      - name: Copy Binary Inputs
+        run: xcopy /E /I /Y Homeworld2Classic-Build\orig orig
+
+      # Run configure.py
+      - name: Bootstrap
+        shell: cmd
+        run: bootstrap.bat
+
+      # Run Ninja
+      - name: Ninja Build
+        run: ninja -k 0
+
+      # Run Ninja
+      - name: Objdiff Report
+        run: build/tools/objdiff-cli-windows-x86_64.exe report generate -f json-pretty -o build/${{ matrix.version }}/report.json
+
+      # Upload progress report
+      - name: Upload Report
+        uses: actions/upload-artifact@v7
+        with:
+          name: ${{ matrix.version }}_report
+          path: build/${{ matrix.version }}/report.json
+
+  publish-reports:
+    name: Publish Reports
+    runs-on: windows-latest
+    needs: [matching]
+    if: (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/ci-testing') && github.event_name == 'push'
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v6
+        with:
+          ref: workflow-reports
+          token: ${{ secrets.GH_PAT }}
+          path: Homeworld2Classic-Reports
+
+      - name: Download Report
+        uses: actions/download-artifact@v8
+        with:
+          name: DevRelease_report
+          path: report-download
+
+      - name: Publish Report
+        shell: powershell
+        env:
+          COMMIT_TITLE: ${{ github.event.head_commit.message }}
+          COMMIT_SHA: ${{ github.sha }}
+        run: |
+          $sha = $env:COMMIT_SHA
+          $reportDir = "Homeworld2Classic-Reports\$sha"
+          New-Item -ItemType Directory -Path $reportDir -Force
+          Copy-Item "report-download\report.json" "$reportDir\report.json"
+
+          $report = Get-Content "report-download\report.json" | ConvertFrom-Json
+
+          function Get-BadgeColor($pct) {
+            if ($pct -lt 25) { return "red" }
+            elseif ($pct -lt 50) { return "orange" }
+            elseif ($pct -lt 75) { return "yellow" }
+            else { return "brightgreen" }
+          }
+
+          $measures = $report.measures
+          $percent = if ($measures.PSObject.Properties['matched_functions_percent']) { [math]::Round($measures.matched_functions_percent, 2) } else { 0 }
+          $percentEncoded = [Uri]::EscapeDataString("$percent%")
+          $badgeUrl = "https://img.shields.io/badge/Matching-$percentEncoded-$(Get-BadgeColor $percent)"
+          if (-not (Test-Path "Homeworld2Classic-Reports\images")) {
+            New-Item -ItemType Directory -Path "Homeworld2Classic-Reports\images" | Out-Null
+          }
+          Invoke-WebRequest -Uri $badgeUrl -OutFile "Homeworld2Classic-Reports\images\objdiff-matching.svg"
+
+          foreach ($category in $report.categories) {
+            $catMeasures = $category.measures
+            $catPercent = if ($catMeasures.PSObject.Properties['matched_functions_percent']) { [math]::Round($catMeasures.matched_functions_percent, 2) } else { 0 }
+            $catPercentEncoded = [Uri]::EscapeDataString("$catPercent%")
+            $catLabel = [Uri]::EscapeDataString($category.name)
+            $catBadgeUrl = "https://img.shields.io/badge/$catLabel-$catPercentEncoded-$(Get-BadgeColor $catPercent)"
+            Invoke-WebRequest -Uri $catBadgeUrl -OutFile "Homeworld2Classic-Reports\images\objdiff-$($category.id).svg"
+          }
+
+          Set-Location Homeworld2Classic-Reports
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          $sourceUrl = "https://github.com/HaydnTrigg/Homeworld2Classic/tree/$sha"
+          "$($env:COMMIT_TITLE)`n`n$sourceUrl" | Set-Content -Path "..\commit_msg.txt" -Encoding utf8
+
+          git add .
+          git commit -F ..\commit_msg.txt
+          git tag -f latest
+          git push origin workflow-reports
+          git push origin refs/tags/latest --force
