@@ -70,12 +70,7 @@ def load_json(path):
 
 config = load_json(config_path)
 
-objects = {}
-for bin_path, _ in ORIG_BINARIES:
-    binary_name = bin_path.name
-    obj_file = Path(f"config/DevRelease/{binary_name}.json")
-    if obj_file.exists():
-        objects.update(load_json(obj_file))
+objects = load_json("config/DevRelease/objects.json")
 
 COMPILER_ROOT = config.get("compiler_root")
 

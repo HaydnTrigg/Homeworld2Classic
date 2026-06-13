@@ -1,9 +1,0 @@
-{
-    "DCDefault.dll": {
-        "progress_category": "DCDefault.dll",
-        "cflags": "DCDefault.dll",
-        "objects": {
-            "src/Source/Debug/DCDefault/interface.cpp": "0002_interface.obj"
-        }
-    }
-}

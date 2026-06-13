@@ -1,9 +1,0 @@
-{
-    "ExeTie.dll": {
-        "progress_category": "ExeTie.dll",
-        "cflags": "ExeTie.dll",
-        "objects": {
-            "src/tools/ExeTie/ExeTie.cpp": "0003_ExeTie.obj"
-        }
-    }
-}
