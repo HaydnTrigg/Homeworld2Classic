@@ -6,7 +6,7 @@ from pathlib import Path
 import argparse
 import re
 
-SOURCE_ROOT = "source/"
+SOURCE_ROOT = "src/"
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--config", required=False)

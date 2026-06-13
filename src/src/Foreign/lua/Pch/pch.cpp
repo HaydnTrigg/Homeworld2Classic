@@ -1,0 +1,230 @@
+﻿#if 0
+/* ---------- headers */
+
+#include "decomp.h"
+#include <time.inl>
+#include <pch.h>
+#include <memory\memorylib.h>
+#include <malloc.h>
+#include <crtdefs.h>
+#include <sal.h>
+#include <concurrencysal.h>
+#include <vadefs.h>
+#include <boost\smart_ptr.hpp>
+#include <boost\scoped_ptr.hpp>
+#include <boost\assert.hpp>
+#include <assert.h>
+#include <intrin.h>
+#include <boost\checked_delete.hpp>
+#include <setjmp.h>
+#include <new>
+#include <exception>
+#include <xstddef>
+#include <cstddef>
+#include <stddef.h>
+#include <yvals.h>
+#include <xkeycheck.h>
+#include <use_ansi.h>
+#include <functional>
+#include <xfunctional>
+#include <xstring>
+#include <memory>
+#include <xmemory>
+#include <xmemory0>
+#include <ctime>
+#include <compiler\compilerconfig.h>
+#include <cstdlib>
+#include <time.h>
+#include <cstdio>
+#include <limits>
+#include <stdio.h>
+#include <ymath.h>
+#include <string.h>
+#include <debug\db.h>
+#include <immintrin.h>
+#include <wmmintrin.h>
+#include <nmmintrin.h>
+#include <xtgmath.h>
+#include <smmintrin.h>
+#include <stdint.h>
+#include <tmmintrin.h>
+#include <type_traits>
+#include <pmmintrin.h>
+#include <emmintrin.h>
+#include <xmmintrin.h>
+#include <mmintrin.h>
+#include <boost\shared_array.hpp>
+#include <xutility>
+#include <xatomic0.h>
+#include <utility>
+#include <boost\scoped_array.hpp>
+#include <iosfwd>
+#include <boost\config.hpp>
+#include <crtdbg.h>
+#include <boost\config\user.hpp>
+#include <boost\config\select_compiler_config.hpp>
+#include <boost\config\compiler\visualc.hpp>
+#include <memory.h>
+#include <boost\config\select_stdlib_config.hpp>
+#include <boost\config\stdlib\dinkumware.hpp>
+#include <boost\config\select_platform_config.hpp>
+#include <boost\config\platform\win32.hpp>
+#include <xrefwrap>
+#include <typeinfo>
+#include <xtr1common>
+#include <boost\detail\workaround.hpp>
+#include <algorithm>
+#include <boost\config\suffix.hpp>
+#include <cstring>
+#include <eh.h>
+#include <cmath>
+#include <math.h>
+#include <swprintf.inl>
+#include <climits>
+#include <tuple>
+#include <cwchar>
+#include <wchar.h>
+#include <ammintrin.h>
+#include <mm3dnow.h>
+#include <stdlib.h>
+#include <limits.h>
+#include <boost\shared_ptr.hpp>
+#include <cfloat>
+#include <boost\throw_exception.hpp>
+#include <float.h>
+#include <crtwrn.h>
+#include <wtime.inl>
+#include <boost\detail\shared_count.hpp>
+#include <boost\detail\lightweight_mutex.hpp>
+#include <boost\detail\lwm_win32.hpp>
+
+/* ---------- constants */
+
+/* ---------- definitions */
+
+typedef _s__CatchableTypeArray _CatchableTypeArray;
+typedef __int32 (*_onexit_t)();
+typedef unsigned short char16_t;
+typedef double max_align_t;
+typedef long long streamoff;
+typedef long _Atomic_flag_t;
+typedef unsigned long _Atomic_counter_t;
+typedef void *nullptr_t;
+typedef void (*new_handler)();
+typedef std::pointer_safety::pointer_safety _Pointer_safety;
+typedef std::integral_constant<bool,1> true_type;
+typedef bool _Bool;
+typedef std::float_denorm_style float_denorm_style;
+typedef std::integral_constant<bool,0> false_type;
+typedef void (*_Prhand)(std::exception const &);
+typedef unsigned long _Atomic_integral_t;
+typedef std::_Container_base0 _Container_base;
+typedef long long streamsize;
+typedef unsigned long _Uint4_t;
+typedef std::_Iterator_base0 _Iterator_base;
+typedef std::float_round_style float_round_style;
+typedef unsigned long long uint_least64_t;
+typedef unsigned long long uintmax_t;
+typedef long _off_t;
+typedef long long fpos_t;
+typedef unsigned long _fsize_t;
+typedef unsigned __int32 rsize_t;
+typedef threadlocaleinfostruct threadlocinfo;
+typedef long long _Longlong;
+typedef unsigned long _Uint32t;
+typedef void (*_se_translator_function)(unsigned __int32, _EXCEPTION_POINTERS *);
+typedef _s__RTTIClassHierarchyDescriptor __RTTIClassHierarchyDescriptor;
+typedef _s__RTTIBaseClassDescriptor2 __RTTIBaseClassDescriptor;
+typedef _HMEMPOOLSHOT *HMEMPOOLSHOT;
+typedef char int8_t;
+typedef long long int_least64_t;
+typedef unsigned __int32 uintptr_t;
+typedef void *_HFILE;
+typedef _HMEMPOOL *HMEMPOOL;
+typedef _lldiv_t lldiv_t;
+typedef __int32 int_least32_t;
+typedef _div_t div_t;
+typedef char int_fast8_t;
+typedef void (*unexpected_function)();
+typedef unsigned short uint16_t;
+typedef __int32 int32_t;
+typedef unsigned char uint_fast8_t;
+typedef wchar_t _Wint_t;
+typedef _s__CatchableType _CatchableType;
+typedef unsigned __int32 uint32_t;
+typedef unsigned long long uint64_t;
+typedef long long intmax_t;
+typedef _HMEMPOOLWALK *HMEMPOOLWALK;
+typedef long long int_fast64_t;
+typedef void (*terminate_handler)();
+typedef char __static_assert_t[1];
+typedef long off_t;
+typedef unsigned char uint8_t;
+typedef __int32 ptrdiff_t;
+typedef wchar_t wide_char_type;
+typedef unsigned short uint_least16_t;
+typedef __int32 (*_CRT_REPORT_HOOKW)(__int32, wchar_t *, __int32 *);
+typedef type_info const &__RTtypeidReturnType;
+typedef _ldiv_t ldiv_t;
+typedef unsigned short wint_t;
+typedef unsigned __int32 uint_least32_t;
+typedef char int_least8_t;
+typedef unsigned __int32 uint_fast32_t;
+typedef void (*unexpected_handler)();
+typedef void (*dbStringOutputCB)(char const **, unsigned __int32, unsigned long);
+typedef short int16_t;
+typedef __int32 int_fast32_t;
+typedef __JUMP_BUFFER _JUMP_BUFFER;
+typedef _heapinfo _HEAPINFO;
+typedef unsigned __int32 dev_t;
+typedef _s__RTTICompleteObjectLocator __RTTICompleteObjectLocator;
+typedef void (*_purecall_handler)();
+typedef __int32 int_fast16_t;
+typedef _EXCEPTION_POINTERS *PEXCEPTION_POINTERS;
+typedef __int32 (*_CRT_REPORT_HOOK)(__int32, char *, __int32 *);
+typedef _s__ThrowInfo _ThrowInfo;
+typedef unsigned long long _ULonglong;
+typedef unsigned short _ino_t;
+typedef __int32 intptr_t;
+typedef unsigned __int32 uint_fast16_t;
+typedef long long int64_t;
+typedef void (*terminate_function)();
+typedef void (*_CRT_DUMP_CLIENT)(void *, unsigned __int32);
+typedef __int32 mbstate_t;
+typedef unsigned long long uint_fast64_t;
+typedef unsigned short wctype_t;
+typedef _GUID const &__rcGUID_t;
+typedef __int32 (*_CRT_ALLOC_HOOK)(__int32, void *, unsigned __int32, __int32, long, unsigned char const *, __int32);
+typedef localeinfo_struct _locale_tstruct;
+typedef void (*MEMCBALLOCPTR)(_HMEMPOOL *const &, MEMBLOCKINFO const &);
+typedef unsigned __int32 _dev_t;
+typedef unsigned char uint_least8_t;
+typedef unsigned short ino_t;
+typedef void (*_PMFN)(void *);
+typedef short int_least16_t;
+typedef unsigned __int32 char32_t;
+typedef void (*_invalid_parameter_handler)(wchar_t const *, wchar_t const *, wchar_t const *, unsigned __int32, unsigned __int32);
+typedef __int32 _Mbstatet;
+typedef _s__RTTIBaseClassArray __RTTIBaseClassArray;
+typedef long __time32_t;
+
+/* ---------- prototypes */
+
+/* ---------- globals */
+
+extern __int32 __@@_PchSym_@00@UsrxplibRkxhsrkUslnvdliowCxozhhrxUhixUrmgvinvwrzgvUulivrtmUofzUivovzhvUlyqUkxsOlyq@F96F8AB671AC0203; // 0x10013100
+
+/* ---------- private variables */
+
+_static
+{
+    extern std::_Ignore ignore; // 0x10013105
+    extern std::_Tuple_alloc_t _Tuple_alloc; // 0x10013104
+    extern std::piecewise_construct_t piecewise_construct; // 0x10013107
+    extern std::allocator_arg_t allocator_arg; // 0x10013106
+}
+
+/* ---------- public code */
+
+/* ---------- private code */
+#endif

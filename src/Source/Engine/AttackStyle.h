@@ -1,0 +1,283 @@
+﻿#if 0
+#ifndef __ATTACKSTYLE_H__
+#define __ATTACKSTYLE_H__
+#pragma once
+
+/* ---------- headers */
+
+/* ---------- constants */
+
+/* ---------- definitions */
+
+class AttackAction
+{
+public:
+    enum AttackActionType
+    {
+        NoAction = 0,
+        PickNewTarget,
+        FlightManeuver,
+        InterpolateTarget,
+        MoveRoundTarget,
+        NUMBER_OF_ATTACK_ACTION_TYPES,
+    };
+    static AttackAction::AttackActionType getAttackActionTypeFromString(char const *pszString);
+    static char const *getStringFromAttackActionType(AttackAction::AttackActionType nType);
+    _inline AttackAction();
+    _inline ~AttackAction();
+    AttackAction::AttackActionType m_Type; // 0x0
+    float m_Param1; // 0x4
+    float m_Param2; // 0x8
+    unsigned __int32 m_fmaneuverID; // 0xC
+    unsigned __int32 m_Priority; // 0x10
+};
+static_assert(sizeof(AttackAction) == 20, "Invalid AttackAction size");
+
+class AttackStyle :
+    public SaveObject
+{
+public:
+    enum AttackStyleType
+    {
+        JustShootStyle = 0,
+        MoveToTargetAndShootStyle,
+        DogFightStyle,
+        CircleStrafeStyle,
+        FlyRoundStyle,
+        FaceTargetStyle,
+        KamikazeStyle,
+        AttackRunStyle,
+        NUMBER_OF_STYLES,
+    };
+    enum BreakStyleType
+    {
+        StraightAndScatter = 0,
+        ClimbAndPeelOff,
+        BreakImmediately,
+        NUMBER_OF_BREAK_STYLES,
+    };
+    enum AttackStyleResult
+    {
+        Done = 0,
+        StillProcessing,
+        DoneAndReplaced,
+    };
+    static char const *getStringForAttackStyle(AttackStyle::AttackStyleType nType);
+    static AttackStyle::AttackStyleType getAttackStyleFromString(char const *pszString);
+    static AttackStyle *CreateAttackStyle(FormationAttackCommand const *pParent, Formation *pAttackers, Selection const &pTargets);
+    static AttackStyle::AttackStyleType getAttackStyleTypeFor(Ship *pAttacker, Sob *pTarget);
+    static char const *getStringForBreakStyle(AttackStyle::BreakStyleType nType);
+    static AttackStyle::BreakStyleType getBreakStyleFromString(char const *pszString);
+    static void exportAttackStyleEnums(LuaConfig &lc);
+    AttackStyle(AttackStyle const &); /* compiler_generated() */
+    AttackStyle(SaveGameData *);
+    AttackStyle(FormationAttackCommand const *, Formation *, Selection const &, __int32);
+    virtual ~AttackStyle() = 0;
+    virtual void SetStateToStart() = 0;
+    virtual bool doesAttackStyleDictateTargetPoint() = 0;
+    virtual AttackStyle::AttackStyleResult update(float) = 0;
+    virtual AttackStyle::AttackStyleType GetType() const = 0;
+    _inline Selection const &getTargetList();
+    virtual Sob *getSobToNotAvoid() const;
+    _inline Sob *getTargetNonDeterministicSafe() const;
+    virtual _inline bool handleMoveRequest(vector3 const &);
+    virtual _inline bool canHandleMoveRequests() const;
+    bool handleNewTargets(Selection const &);
+    _inline __int32 getTargetAttackFamily() const;
+protected:
+    _inline WeaponTargetInfo const &GetCurrentTarget() const;
+    WeaponTargetInfo const &GetAndUpdateCurrentTarget();
+    void updateCurrentTargetPoint(vector3 const &);
+    _inline float GetRangeToCurrentTarget() const;
+    void PickFreshTarget();
+    AttackStyleStatic const *getStaticInfo() const;
+    void RepickAttackPointOnTarget();
+    float getHealthOfOurShips();
+    _inline float getTime();
+    void setTime(float);
+    bool PerformActions();
+    bool ActionFinished();
+    virtual _inline bool chooseInterpolationTarget();
+    virtual _inline bool interpolateTarget(float);
+    FormationAttackCommand const *m_pParent; // 0xC
+    Formation *m_pAttackers; // 0x10
+    Selection m_Targets; // 0x14
+private:
+    WeaponTargetInfo m_CurrentTarget; // 0x48
+    float m_rangeToCurrentTarget; // 0x7C
+    float m_Time; // 0x80
+    float m_nLastRecordedHealth; // 0x84
+    AttackAction::AttackActionType m_currentActionType; // 0x88
+    __int32 m_targetAttackFamily; // 0x8C
+    bool PerformAction(AttackAction *);
+    Sob *findBestTarget();
+    void processActions(float);
+public:
+    virtual bool save(SaveGameData *, SaveType) override;
+    virtual bool restore(SaveGameData *) override;
+    virtual _inline bool isDeterministic() override;
+    virtual void postRestore() override;
+    virtual _inline char const *saveToken() override;
+    void defaultSettings();
+    static SaveData const m_saveData[0];
+    static char const m_saveToken[0];
+    AttackStyle &operator=(AttackStyle const &); /* compiler_generated() */
+};
+static_assert(sizeof(AttackStyle) == 144, "Invalid AttackStyle size");
+
+class AttackStyleStatic
+{
+public:
+    AttackStyleStatic(AttackStyleStatic const &); /* compiler_generated() */
+    AttackStyleStatic();
+    virtual ~AttackStyleStatic();
+    virtual bool loadData(LuaConfig &);
+    static AttackStyleStatic *createStatic(AttackStyle::AttackStyleType type);
+    AttackStyle::BreakStyleType m_BreakType; // 0x4
+    std::list<AttackAction *,std::allocator<AttackAction *> > m_RandomActions; // 0x8
+    std::list<AttackAction *,std::allocator<AttackAction *> > m_BeingAttackedActions; // 0x10
+    std::list<AttackAction *,std::allocator<AttackAction *> > m_FireActions; // 0x18
+    float m_moveAttackMaxDistanceMultiplier; // 0x20
+private:
+    void deleteActions(std::list<AttackAction *,std::allocator<AttackAction *> > &);
+    void loadActions(char const *, std::list<AttackAction *,std::allocator<AttackAction *> > &, LuaConfig &);
+    AttackAction *loadAction(LuaConfig &);
+public:
+    AttackStyleStatic &operator=(AttackStyleStatic const &); /* compiler_generated() */
+};
+static_assert(sizeof(AttackStyleStatic) == 36, "Invalid AttackStyleStatic size");
+
+/* ---------- prototypes */
+
+/* ---------- globals */
+
+/* ---------- public code */
+
+_extern _sub_6BB47E(AttackAction *const);
+_inline AttackAction::AttackAction() // 0x6BB47E
+{
+    mangled_assert("??0AttackAction@@QAE@XZ");
+    todo("implement");
+    _sub_6BB47E(this);
+}
+
+_extern void _sub_6BB603(AttackAction *const);
+_inline AttackAction::~AttackAction() // 0x6BB603
+{
+    mangled_assert("??1AttackAction@@QAE@XZ");
+    todo("implement");
+    _sub_6BB603(this);
+}
+
+_extern Selection const &_sub_6B0F68(AttackStyle *const);
+_inline Selection const &AttackStyle::getTargetList() // 0x6B0F68
+{
+    mangled_assert("?getTargetList@AttackStyle@@QAEABVSelection@@XZ");
+    todo("implement");
+    Selection const & __result = _sub_6B0F68(this);
+    return __result;
+}
+
+_extern Sob *_sub_6B0F6C(AttackStyle const *const);
+_inline Sob *AttackStyle::getTargetNonDeterministicSafe() const // 0x6B0F6C
+{
+    mangled_assert("?getTargetNonDeterministicSafe@AttackStyle@@QBEPAVSob@@XZ");
+    todo("implement");
+    Sob * __result = _sub_6B0F6C(this);
+    return __result;
+}
+
+_extern bool _sub_6AF20F(AttackStyle *const, vector3 const &);
+_inline bool AttackStyle::handleMoveRequest(vector3 const &) // 0x6AF20F
+{
+    mangled_assert("?handleMoveRequest@AttackStyle@@UAE_NABVvector3@@@Z");
+    todo("implement");
+    bool __result = _sub_6AF20F(this, arg);
+    return __result;
+}
+
+_extern bool _sub_6AF102(AttackStyle const *const);
+_inline bool AttackStyle::canHandleMoveRequests() const // 0x6AF102
+{
+    mangled_assert("?canHandleMoveRequests@AttackStyle@@UBE_NXZ");
+    todo("implement");
+    bool __result = _sub_6AF102(this);
+    return __result;
+}
+
+_extern __int32 _sub_6BC896(AttackStyle const *const);
+_inline __int32 AttackStyle::getTargetAttackFamily() const // 0x6BC896
+{
+    mangled_assert("?getTargetAttackFamily@AttackStyle@@QBEHXZ");
+    todo("implement");
+    __int32 __result = _sub_6BC896(this);
+    return __result;
+}
+
+_extern WeaponTargetInfo const &_sub_6AF0F2(AttackStyle const *const);
+_inline WeaponTargetInfo const &AttackStyle::GetCurrentTarget() const // 0x6AF0F2
+{
+    mangled_assert("?GetCurrentTarget@AttackStyle@@IBEABVWeaponTargetInfo@@XZ");
+    todo("implement");
+    WeaponTargetInfo const & __result = _sub_6AF0F2(this);
+    return __result;
+}
+
+_extern float _sub_6AF771(AttackStyle const *const);
+_inline float AttackStyle::GetRangeToCurrentTarget() const // 0x6AF771
+{
+    mangled_assert("?GetRangeToCurrentTarget@AttackStyle@@IBEMXZ");
+    todo("implement");
+    float __result = _sub_6AF771(this);
+    return __result;
+}
+
+_extern float _sub_6B55BA(AttackStyle *const);
+_inline float AttackStyle::getTime() // 0x6B55BA
+{
+    mangled_assert("?getTime@AttackStyle@@IAEMXZ");
+    todo("implement");
+    float __result = _sub_6B55BA(this);
+    return __result;
+}
+
+_extern bool _sub_6AF105(AttackStyle *const);
+_inline bool AttackStyle::chooseInterpolationTarget() // 0x6AF105
+{
+    mangled_assert("?chooseInterpolationTarget@AttackStyle@@MAE_NXZ");
+    todo("implement");
+    bool __result = _sub_6AF105(this);
+    return __result;
+}
+
+_extern bool _sub_6AF214(AttackStyle *const, float);
+_inline bool AttackStyle::interpolateTarget(float) // 0x6AF214
+{
+    mangled_assert("?interpolateTarget@AttackStyle@@MAE_NM@Z");
+    todo("implement");
+    bool __result = _sub_6AF214(this, arg);
+    return __result;
+}
+
+_extern bool _sub_6BC8E7(AttackStyle *const);
+_inline bool AttackStyle::isDeterministic() // 0x6BC8E7
+{
+    mangled_assert("?isDeterministic@AttackStyle@@UAE_NXZ");
+    todo("implement");
+    bool __result = _sub_6BC8E7(this);
+    return __result;
+}
+
+_extern char const *_sub_6BCC4E(AttackStyle *const);
+_inline char const *AttackStyle::saveToken() // 0x6BCC4E
+{
+    mangled_assert("?saveToken@AttackStyle@@UAEPBDXZ");
+    todo("implement");
+    char const * __result = _sub_6BCC4E(this);
+    return __result;
+}
+
+/* ---------- private code */
+
+#endif // __ATTACKSTYLE_H__
+#endif

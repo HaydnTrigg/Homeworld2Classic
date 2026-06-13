@@ -1,0 +1,98 @@
+#ifndef __YACC_H__
+#define __YACC_H__
+#pragma once
+
+/* ---------- headers */
+
+/* ---------- constants */
+
+enum yytokentype
+{
+    VARIABLE = 258, // 0x0102
+    STRING = 259, // 0x0103
+    STATEVARTYPE = 260, // 0x0104
+    LONG = 261, // 0x0105
+    BOOL = 262, // 0x0106
+    FLOAT = 263, // 0x0107
+    COLOUR = 264, // 0x0108
+    VECTOR4 = 265, // 0x0109
+    MATRIX = 266, // 0x010A
+    OPENBRACKET = 267, // 0x010B
+    CLOSEBRACKET = 268, // 0x010C
+    OPENBRACE = 269, // 0x010D
+    CLOSEBRACE = 270, // 0x010E
+    COMMA = 271, // 0x010F
+    WHILE = 272, // 0x0110
+    IF = 273, // 0x0111
+    PRINT = 274, // 0x0112
+    ELSE = 275, // 0x0113
+    IFX = 276, // 0x0114
+    NE = 277, // 0x0115
+    EQ = 278, // 0x0116
+    LE = 279, // 0x0117
+    GE = 280, // 0x0118
+    DEFINE = 281, // 0x0119
+    STATICVAR = 282, // 0x011A
+    STATICOPTVAR = 283, // 0x011B
+    SIMPLE = 284, // 0x011C
+    SETVERTEXCOLOUR = 285, // 0x011D
+    SETCAP = 286, // 0x011E
+    DEPTHWRITE = 287, // 0x011F
+    COLOURWRITE = 288, // 0x0120
+    DEPTHFUNC = 289, // 0x0121
+    SRCBLEND = 290, // 0x0122
+    DESTBLEND = 291, // 0x0123
+    ALPHAFUNC = 292, // 0x0124
+    ALPHAREF = 293, // 0x0125
+    FILLMODE = 294, // 0x0126
+    CULLMODE = 295, // 0x0127
+    LINEWIDTH = 296, // 0x0128
+    POINTSIZE = 297, // 0x0129
+    POLYGONOFFSET = 298, // 0x012A
+    STENCILMASK = 299, // 0x012B
+    STENCILFUNC = 300, // 0x012C
+    STENCILOP = 301, // 0x012D
+    MATERIAL = 302, // 0x012E
+    ACTIVETEXTURE = 303, // 0x012F
+    TEXTURE = 304, // 0x0130
+    TEXTUREMODE = 305, // 0x0131
+    TEXTUREFILTER = 306, // 0x0132
+    TEXTUREWRAP = 307, // 0x0133
+    TEXGENMODE = 308, // 0x0134
+    TEXGENPLANE = 309, // 0x0135
+    TEXTUREMATRIX = 310, // 0x0136
+    COMBINERPARAM = 311, // 0x0137
+    COMBINERSTAGEPARAM = 312, // 0x0138
+    COMBINERINPUT = 313, // 0x0139
+    COMBINEROUTPUT = 314, // 0x013A
+    FINALCOMBINERINPUT = 315, // 0x013B
+    NUMCOMBINERS = 316, // 0x013C
+    CONSTCOLOUR0 = 317, // 0x013D
+    CONSTCOLOUR1 = 318, // 0x013E
+    COLOURSUMCLAMP = 319, // 0x013F
+    COMPOUND = 320, // 0x0140
+    ADDPASS = 321, // 0x0141
+    COMBINESOURCE = 322, // 0x0142
+    COMBINEFUNCTION = 323, // 0x0143
+    COMBINECOLOUR = 324, // 0x0144
+    COMBINECOLOURSTAGE = 325, // 0x0145
+    DISABLEARRAYELEMENT = 326, // 0x0146
+    ENABLEARRAYELEMENT = 327, // 0x0147
+    SETVERTEXPROGRAM = 328, // 0x0148
+    SETFRAGMENTPROGRAM = 329, // 0x0149
+    TEXTUREBIND = 330, // 0x014A
+    SETPROGRAMVARLOCAL = 331, // 0x014B
+    SETPROGRAMVARENV = 332, // 0x014C
+};
+
+/* ---------- definitions */
+
+/* ---------- prototypes */
+
+/* ---------- globals */
+
+/* ---------- public code */
+
+/* ---------- private code */
+
+#endif // __YACC_H__
