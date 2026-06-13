@@ -1,1 +1,1 @@
-python bootstrap.py
+python bootstrap.py %*

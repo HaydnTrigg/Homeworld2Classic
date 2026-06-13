@@ -23,7 +23,7 @@
         "Util.dll": "Util.dll",
         "ZLib.dll": "ZLib.dll"
     },
-    "compiler": "compiler\\bin\\cl.exe",
+    "compiler": "compiler\\VC\\bin\\cl.exe",
     "compiler_root": "compiler",
     "asflags": [],
     "ldflags": [],

@@ -1,7 +1,8 @@
-/build
-/.ninja_log
+*.cod
 /.ninja_lock
+/.ninja_log
+/build
 /build.ninja
+/compiler/*
 /objdiff.json
 /orig/*
-*.cod

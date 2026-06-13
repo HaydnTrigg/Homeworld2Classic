@@ -1,0 +1,1 @@
+bootstrap.bat --config-id HW2C_Exe %*
