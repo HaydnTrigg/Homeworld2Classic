@@ -1,11 +1,11 @@
 {
     "DCWindow.dll": {
-        "progress_category": "program",
-        "cflags": "program",
+        "progress_category": "DCWindow.dll",
+        "cflags": "DCWindow.dll",
         "objects": {
-            "src\\Intermediate\\Source\\DCWindow\\Release\\Obj\\interface.obj": "0002_interface.obj",
-            "src\\Intermediate\\Source\\DCWindow\\Release\\Obj\\Filter.obj": "0003_Filter.obj",
-            "src\\Intermediate\\Source\\DCWindow\\Release\\Obj\\debugwnd.obj": "0004_debugwnd.obj"
+            "src/Source/Debug/DCWindow/interface.cpp": "0002_interface.obj",
+            "src/Source/Debug/Filter.cpp": "0003_Filter.obj",
+            "src/Source/Debug/DCWindow/debugwnd.cpp": "0004_debugwnd.obj"
         }
     }
 }

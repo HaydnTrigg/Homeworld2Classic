@@ -1,10 +1,10 @@
 {
     "Console.dll": {
-        "progress_category": "program",
-        "cflags": "program",
+        "progress_category": "Console.dll",
+        "cflags": "Console.dll",
         "objects": {
-            "src\\Intermediate\\Source\\Console\\Release\\Obj\\Interface.obj": "0002_Interface.obj",
-            "src\\Intermediate\\Source\\Console\\Release\\Obj\\Debug.obj": "0003_Debug.obj"
+            "src/Source/Debug/Interface.cpp": "0002_Interface.obj",
+            "src/Source/Debug/Debug.cpp": "0003_Debug.obj"
         }
     }
 }

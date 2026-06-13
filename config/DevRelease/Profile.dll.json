@@ -1,9 +1,9 @@
 {
     "Profile.dll": {
-        "progress_category": "program",
-        "cflags": "program",
+        "progress_category": "Profile.dll",
+        "cflags": "Profile.dll",
         "objects": {
-            "src\\Intermediate\\Source\\Profile\\Release\\Obj\\Profile.obj": "0002_Profile.obj"
+            "src/Source/profile/Profile.cpp": "0002_Profile.obj"
         }
     }
 }

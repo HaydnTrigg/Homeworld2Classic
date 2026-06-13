@@ -1,15 +1,15 @@
 {
     "LuaConfig.dll": {
-        "progress_category": "program",
-        "cflags": "program",
+        "progress_category": "LuaConfig.dll",
+        "cflags": "LuaConfig.dll",
         "objects": {
-            "src\\Intermediate\\Shared\\Assist\\Release\\Obj\\pch.obj": "0002_pch.obj",
-            "src\\Intermediate\\Shared\\LuaConfig\\Release\\Obj\\LuaUtils.obj": "0003_LuaUtils.obj",
-            "src\\Intermediate\\Shared\\LuaConfig\\Release\\Obj\\LuaLibMan.obj": "0004_LuaLibMan.obj",
-            "src\\Intermediate\\Shared\\LuaConfig\\Release\\Obj\\LuaConfigSave.obj": "0005_LuaConfigSave.obj",
-            "src\\Intermediate\\Shared\\LuaConfig\\Release\\Obj\\LuaConfig.obj": "0006_LuaConfig.obj",
-            "src\\Intermediate\\Shared\\LuaConfig\\Release\\Obj\\LuaBinding.obj": "0007_LuaBinding.obj",
-            "src\\Intermediate\\Shared\\LuaConfig\\Release\\Obj\\GlobalLua.obj": "0008_GlobalLua.obj"
+            "src/src/shared/cross/luaconfig/pch/pch.cpp": "0002_pch.obj",
+            "src/src/shared/cross/luaconfig/LuaUtils.cpp": "0003_LuaUtils.obj",
+            "src/src/shared/cross/luaconfig/LuaLibMan.cpp": "0004_LuaLibMan.obj",
+            "src/src/shared/cross/luaconfig/LuaConfigSave.cpp": "0005_LuaConfigSave.obj",
+            "src/src/shared/cross/luaconfig/LuaConfig.cpp": "0006_LuaConfig.obj",
+            "src/src/shared/cross/luaconfig/LuaBinding.cpp": "0007_LuaBinding.obj",
+            "src/src/shared/cross/luaconfig/GlobalLua.cpp": "0008_GlobalLua.obj"
         }
     }
 }

@@ -6,7 +6,7 @@ from pathlib import Path
 import argparse
 import re
 
-SOURCE_ROOT = "src/"
+SOURCE_ROOT = "."
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--config", required=False)
@@ -57,6 +57,7 @@ OUTPUT_DIR = Path("build/DevRelease")
 config_path = args.config or "config/DevRelease/config.json"
 
 def load_json(path):
+    print(f'Reading {path}')
     with open(path, "r", encoding="utf-8") as f:
         text = f.read()
 

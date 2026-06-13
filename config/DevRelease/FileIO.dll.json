@@ -1,27 +1,27 @@
 {
     "FileIO.dll": {
-        "progress_category": "program",
-        "cflags": "program",
+        "progress_category": "FileIO.dll",
+        "cflags": "FileIO.dll",
         "objects": {
-            "src\\Intermediate\\Shared\\Assist\\Release\\Obj\\pch.obj": "0002_pch.obj",
-            "src\\Intermediate\\Source\\FileIO\\Release\\Obj\\RamStream.obj": "0003_RamStream.obj",
-            "src\\Intermediate\\Source\\FileIO\\Release\\Obj\\MD5.obj": "0004_MD5.obj",
-            "src\\Intermediate\\Source\\FileIO\\Release\\Obj\\LogFile.obj": "0005_LogFile.obj",
-            "src\\Intermediate\\Source\\FileIO\\Release\\Obj\\IFF.obj": "0006_IFF.obj",
-            "src\\Intermediate\\Source\\FileIO\\Release\\Obj\\FileStream.obj": "0007_FileStream.obj",
-            "src\\Intermediate\\Source\\FileIO\\Release\\Obj\\FilePathHDRaw.obj": "0008_FilePathHDRaw.obj",
-            "src\\Intermediate\\Source\\FileIO\\Release\\Obj\\FilePathHD.obj": "0009_FilePathHD.obj",
-            "src\\Intermediate\\Source\\FileIO\\Release\\Obj\\FilePathArchive.obj": "0010_FilePathArchive.obj",
-            "src\\Intermediate\\Source\\FileIO\\Release\\Obj\\FilePath.obj": "0011_FilePath.obj",
-            "src\\Intermediate\\Source\\FileIO\\Release\\Obj\\File.obj": "0012_File.obj",
-            "src\\Intermediate\\Source\\FileIO\\Release\\Obj\\DiskFileStream.obj": "0013_DiskFileStream.obj",
-            "src\\Intermediate\\Source\\FileIO\\Release\\Obj\\CriticalSection.obj": "0014_CriticalSection.obj",
-            "src\\Intermediate\\Source\\FileIO\\Release\\Obj\\CRC.obj": "0015_CRC.obj",
-            "src\\Intermediate\\Source\\FileIO\\Release\\Obj\\ConfigFile.obj": "0016_ConfigFile.obj",
-            "src\\Intermediate\\Source\\FileIO\\Release\\Obj\\ByteStream.obj": "0017_ByteStream.obj",
-            "src\\Intermediate\\Source\\FileIO\\Release\\Obj\\ArchiveStream.obj": "0018_ArchiveStream.obj",
-            "src\\Intermediate\\Source\\FileIO\\Release\\Obj\\ArchiveManager.obj": "0019_ArchiveManager.obj",
-            "src\\Intermediate\\Source\\FileIO\\Release\\Obj\\Archive.obj": "0020_Archive.obj"
+            "src/Source/FileIO/pch/pch.cpp": "0002_pch.obj",
+            "src/Source/FileIO/RamStream.cpp": "0003_RamStream.obj",
+            "src/Source/FileIO/MD5.cpp": "0004_MD5.obj",
+            "src/Source/FileIO/LogFile.cpp": "0005_LogFile.obj",
+            "src/Source/FileIO/IFF.cpp": "0006_IFF.obj",
+            "src/Source/FileIO/FileStream.cpp": "0007_FileStream.obj",
+            "src/Source/FileIO/FilePathHDRaw.cpp": "0008_FilePathHDRaw.obj",
+            "src/Source/FileIO/FilePathHD.cpp": "0009_FilePathHD.obj",
+            "src/Source/FileIO/FilePathArchive.cpp": "0010_FilePathArchive.obj",
+            "src/Source/FileIO/FilePath.cpp": "0011_FilePath.obj",
+            "src/Source/FileIO/File.cpp": "0012_File.obj",
+            "src/Source/FileIO/DiskFileStream.cpp": "0013_DiskFileStream.obj",
+            "src/Source/FileIO/CriticalSection.cpp": "0014_CriticalSection.obj",
+            "src/Source/FileIO/CRC.cpp": "0015_CRC.obj",
+            "src/Source/FileIO/ConfigFile.cpp": "0016_ConfigFile.obj",
+            "src/Source/FileIO/ByteStream.cpp": "0017_ByteStream.obj",
+            "src/Source/FileIO/ArchiveStream.cpp": "0018_ArchiveStream.obj",
+            "src/Source/FileIO/ArchiveManager.cpp": "0019_ArchiveManager.obj",
+            "src/Source/FileIO/Archive.cpp": "0020_Archive.obj"
         }
     }
 }

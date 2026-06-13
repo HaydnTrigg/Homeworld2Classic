@@ -1,20 +1,417 @@
 {
     "progress_categories": {
-        "program": "Program"
+        "Console.dll": "Console.dll",
+        "DCDefault.dll": "DCDefault.dll",
+        "DCWindow.dll": "DCWindow.dll",
+        "Debug.dll": "Debug.dll",
+        "ExeTie.dll": "ExeTie.dll",
+        "FileIO.dll": "FileIO.dll",
+        "GL.dll": "GL.dll",
+        "GSLobby.dll": "GSLobby.dll",
+        "Homeworld2.exe": "Homeworld2.exe",
+        "HW2Box.dll": "HW2Box.dll",
+        "Localizer.dll": "Localizer.dll",
+        "lua.dll": "lua.dll",
+        "LuaConfig.dll": "LuaConfig.dll",
+        "Memory.dll": "Memory.dll",
+        "Objects.dll": "Objects.dll",
+        "Platform.dll": "Platform.dll",
+        "Profile.dll": "Profile.dll",
+        "seDXAudio.dll": "seDXAudio.dll",
+        "seFDAudio.dll": "seFDAudio.dll",
+        "SteamLobby.dll": "SteamLobby.dll",
+        "Util.dll": "Util.dll",
+        "ZLib.dll": "ZLib.dll"
     },
     "compiler": "compiler\\x86\\cl.exe",
     "compiler_root": "compiler",
     "asflags": [],
     "ldflags": [],
     "cflags": {
-        "default": {
+        "decomp": {
             "flags": [
-                "/DDECOMP"
+                "/DDECOMP",
+                "/Z7"
             ]
         },
-        "program": {
-            "base": "default",
-            "flags": []
+        "common": {
+            "base": "decomp",
+            "flags": [
+                //"-Zi",
+                "-nologo",
+                "-WX-",
+                "-O1",
+                "-Ob2",
+                "-DWIN32",
+                "-DNDEBUG",
+                "-D_WINDOWS",
+                "-DREI_RELEASE",
+                "-D_VC80_UPGRADE=0x0700",
+                "-GF",
+                "-EHs",
+                "-EHc",
+                "-MD",
+                "-GS-",
+                "-Gy",
+                "-fp:precise",
+                "-Zc:wchar_t",
+                "-Zc:forScope",
+                "-Gz",
+                "-TP",
+                "-analyze-",
+                "-errorreport:prompt",
+                "-X"
+            ]
+        },
+        "Console.dll": {
+            "base": "common",
+            "flags": [
+                "-W3",
+                "-Os",
+                "-Oy",
+                "-D_CRT_SECURE_NO_WARNINGS",
+                "-D_USRDLL",
+                "-DDEBUG_EXPORTS",
+                "-DREI_PC",
+                "-DDEBUG_DLL",
+                "-DBUILDMACHINE",
+                "-D_WINDLL",
+                "-D_MBCS",
+                "-Gm-",
+                "-FAcs"
+            ]
+        },
+        "DCDefault.dll": {
+            "base": "common",
+            "flags": [
+                "-W3",
+                "-Oy-",
+                "-D_CRT_SECURE_NO_WARNINGS",
+                "-DREI_PC",
+                "-DDCDEFAULT_EXPORTS",
+                "-DBUILDMACHINE",
+                "-D_WINDLL",
+                "-Gm-",
+                "-FAcs"
+            ]
+        },
+        "DCWindow.dll": {
+            "base": "common",
+            "flags": [
+                "-W3",
+                "-Oy-",
+                "-D_CRT_SECURE_NO_WARNINGS",
+                "-DDCWindow_EXPORTS",
+                "-DBUILDMACHINE",
+                "-D_WINDLL",
+                "-Gm-"
+            ]
+        },
+        "Debug.dll": {
+            "base": "common",
+            "flags": [
+                "-W4",
+                "-Os",
+                "-Oy-",
+                "-D_CRT_SECURE_NO_WARNINGS",
+                "-DREI_PC",
+                "-DDEBUG_DLL",
+                "-D_WINDLL",
+                "-Gm-",
+                "-FAcs"
+            ]
+        },
+        "ExeTie.dll": {
+            "base": "common",
+            "flags": [
+                "-W4",
+                "-Os",
+                "-Oy-",
+                "-DREI_PC",
+                "-D_CRT_SECURE_NO_WARNINGS",
+                "-D_USRDLL",
+                "-DEXETIE_EXPORTS",
+                "-D_WINDLL",
+                "-D_MBCS",
+                "-Gm-",
+                "-GR"
+            ]
+        },
+        "FileIO.dll": {
+            "base": "common",
+            "flags": [
+                "-W3",
+                "-Os",
+                "-Oy",
+                "-D_CRT_SECURE_NO_WARNINGS",
+                "-D_SCL_SECURE_NO_WARNINGS",
+                "-DREI_PC",
+                "-DFileIO_EXPORTS",
+                "-DBUILDMACHINE",
+                "-D_WINDLL",
+                "-Gm-",
+                "-GR",
+                "-FAcs"
+            ]
+        },
+        "GL.dll": {
+            "base": "common",
+            "flags": [
+                "-W3",
+                "-Os",
+                "-Oy-",
+                "-D_CRT_SECURE_NO_WARNINGS",
+                "-DREI_PC",
+                "-DBUILDMACHINE",
+                "-D_WINDLL",
+                "-Gm-",
+                "-FAcs"
+            ]
+        },
+        "GSLobby.dll": {
+            "base": "common",
+            "flags": [
+                "-W3",
+                "-Os",
+                "-Oy",
+                "-D_CRT_SECURE_NO_WARNINGS",
+                "-D_USRDLL",
+                "-DREI_PC",
+                "-DLOBBY_EXPORTS",
+                "-Dbuilduser",
+                "-DBUILDMACHINE",
+                "-D_WINDLL",
+                "-D_MBCS",
+                "-Gm-"
+            ]
+        },
+        "Homeworld2.exe": {
+            "base": "common",
+            "flags": [
+                "-W3",
+                "-Os",
+                "-Oy",
+                "-D_CRT_SECURE_NO_WARNINGS",
+                "-D_SCL_SECURE_NO_WARNINGS",
+                "-Dbuilduser",
+                "-DREI_PC",
+                "-DENGINE_DLL",
+                "-DHW2_BuildName=\\\"\\\"",
+                "-DHW2_Builder=\\\"builduser\\\"",
+                "-DNOMINMAX",
+                "-DBUILDMACHINE",
+                "-D_MBCS",
+                "-Gm-",
+                "-GR"
+            ]
+        },
+        "HW2Box.dll": {
+            "base": "common",
+            "flags": [
+                "-W4",
+                "-Os",
+                "-Oy-",
+                "-DREI_PC",
+                "-D_CRT_SECURE_NO_WARNINGS",
+                "-D_USRDLL",
+                "-DHW2BOX_EXPORTS",
+                "-D_WINDLL",
+                "-D_MBCS",
+                "-Gm",
+                "-GR",
+                "-FAcs"
+            ]
+        },
+        "Localizer.dll": {
+            "base": "common",
+            "flags": [
+                "-W4",
+                "-Os",
+                "-Oy",
+                "-D_CRT_SECURE_NO_WARNINGS",
+                "-DREI_PC",
+                "-D_USRDLL",
+                "-DLOCALIZERDLL_EXPORTS",
+                "-D_WINDLL",
+                "-D_MBCS",
+                "-Gm-",
+                "-GR",
+                "-FAcs"
+            ]
+        },
+        "lua.dll": {
+            "base": "common",
+            "flags": [
+                "-W3",
+                "-Os",
+                "-Oy",
+                "-D_CRT_SECURE_NO_WARNINGS",
+                "-D_USRDLL",
+                "-DLUA_EXPORTS",
+                "-DREI_PC",
+                "-D_WINDLL",
+                "-D_MBCS",
+                "-Gm-",
+                "-GR",
+                "-FAcs"
+            ]
+        },
+        "LuaConfig.dll": {
+            "base": "common",
+            "flags": [
+                "-W3",
+                "-Os",
+                "-Oy",
+                "-D_CRT_SECURE_NO_WARNINGS",
+                "-D_SCL_SECURE_NO_WARNINGS",
+                "-DREI_PC",
+                "-DLUACONFIG_EXPORTS",
+                "-D_WINDLL",
+                "-Gm-",
+                "-GR",
+                "-FAcs"
+            ]
+        },
+        "Memory.dll": {
+            "base": "common",
+            "flags": [
+                "-W4",
+                "-Ot",
+                "-Oy-",
+                "-D_CRT_SECURE_NO_WARNINGS",
+                "-DREI_PC",
+                "-D_USRDLL",
+                "-DMemory_EXPORTS",
+                "-DMEMORY_DLL",
+                "-D_WINDLL",
+                "-D_MBCS",
+                "-Gm-",
+                "-FAcs"
+            ]
+        },
+        "Objects.dll": {
+            "base": "common",
+            "flags": [
+                "-W3",
+                "-Ot",
+                "-Oy",
+                "-D_CRT_SECURE_NO_WARNINGS",
+                "-D_SCL_SECURE_NO_WARNINGS",
+                "-DREI_PC",
+                "-DOBJECTS_DLL",
+                "-DBUILDMACHINE",
+                "-D_WINDLL",
+                "-Gm-",
+                "-FAcs"
+            ]
+        },
+        "Platform.dll": {
+            "base": "common",
+            "flags": [
+                "-W3",
+                "-Os",
+                "-Oy",
+                "-D_CRT_SECURE_NO_WARNINGS",
+                "-DREI_PC",
+                "-DHW2_EXE",
+                "-DPLATFORM_DLL",
+                "-DBUILDMACHINE",
+                "-D_WINDLL",
+                "-Gm-",
+                "-FAcs"
+            ]
+        },
+        "Profile.dll": {
+            "base": "common",
+            "flags": [
+                "-W3",
+                "-Ot",
+                "-Oy",
+                "-DREI_PC",
+                "-DPROFILE_DLL",
+                "-DBUILDMACHINE",
+                "-D_WINDLL",
+                "-Gm-",
+                "-GR"
+            ]
+        },
+        "seDXAudio.dll": {
+            "base": "common",
+            "flags": [
+                "-W4",
+                "-Os",
+                "-Oy",
+                "-D_CRT_SECURE_NO_WARNINGS",
+                "-D_USRDLL",
+                "-DREI_PC",
+                "-D_WINDLL",
+                "-D_MBCS",
+                "-Gm-"
+            ]
+        },
+        "seFDAudio.dll": {
+            "base": "common",
+            "flags": [
+                "-W4",
+                "-Os",
+                "-Oy",
+                "-D_CRT_SECURE_NO_WARNINGS",
+                "-D_USRDLL",
+                "-DREI_PC",
+                "-D_WINDLL",
+                "-D_MBCS",
+                "-Gm-"
+            ]
+        },
+        "SteamLobby.dll": {
+            "base": "common",
+            "flags": [
+                "-W3",
+                "-Os",
+                "-Oy",
+                "-D_CRT_SECURE_NO_WARNINGS",
+                "-D_USRDLL",
+                "-DREI_PC",
+                "-DLOBBY_EXPORTS",
+                "-Dbuilduser",
+                "-DBUILDMACHINE",
+                "-D_WINDLL",
+                "-D_MBCS",
+                "-Gm-"
+            ]
+        },
+        "Util.dll": {
+            "base": "common",
+            "flags": [
+                "-W3",
+                "-Os",
+                "-Oy",
+                "-D_CRT_SECURE_NO_WARNINGS",
+                "-D_USRDLL",
+                "-DUTIL_EXPORTS",
+                "-DREI_PC",
+                "-DBUILDMACHINE",
+                "-D_WINDLL",
+                "-Gm-",
+                "-FAcs"
+            ]
+        },
+        "ZLib.dll": {
+            "base": "common",
+            "flags": [
+                "-W3",
+                "-Os",
+                "-Oy",
+                "-DREI_PC",
+                "-D_CRT_SECURE_NO_WARNINGS",
+                "-D_USRDLL",
+                "-DZLIB_EXPORTS",
+                "-DZLIB_DLL",
+                "-D_WINDLL",
+                "-D_MBCS",
+                "-Gm-",
+                "-FAcs"
+            ]
         }
     }
 }

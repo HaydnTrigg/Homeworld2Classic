@@ -1,14 +1,14 @@
 {
     "HW2Box.dll": {
-        "progress_category": "program",
-        "cflags": "program",
+        "progress_category": "HW2Box.dll",
+        "cflags": "HW2Box.dll",
         "objects": {
-            "src\\Intermediate\\HW2\\HW2Box\\Release\\Obj\\HW2Box.obj": "0002_HW2Box.obj",
-            "src\\Intermediate\\HW2\\HW2Box\\Release\\Obj\\pch.obj": "0003_pch.obj",
-            "src\\Intermediate\\HW2\\HW2Box\\Release\\Obj\\HW2Box_std.obj": "0004_HW2Box_std.obj",
-            "src\\Intermediate\\HW2\\HW2Box\\Release\\Obj\\HW2Box_SSE.obj": "0005_HW2Box_SSE.obj",
-            "src\\Intermediate\\HW2\\HW2Box\\Release\\Obj\\HW2Box_3DNow.obj": "0006_HW2Box_3DNow.obj",
-            "src\\Intermediate\\HW2\\HW2Box\\Release\\Obj\\cpuid.obj": "0007_cpuid.obj"
+            "src/src/HW2/Cross/hw2box/HW2Box.cpp": "0002_HW2Box.obj",
+            "src/src/HW2/Cross/hw2box/pch/pch.cpp": "0003_pch.obj",
+            "src/src/HW2/PC/HW2Box/HW2Box_std.cpp": "0004_HW2Box_std.obj",
+            "src/src/HW2/PC/HW2Box/HW2Box_SSE2.cpp": "0005_HW2Box_SSE.obj",
+            "src/src/HW2/PC/HW2Box/HW2Box_SSE.cpp": "0006_HW2Box_3DNow.obj",
+            "src/src/HW2/PC/HW2Box/HW2Box_3DNow.cpp": "0007_cpuid.obj"
         }
     }
 }

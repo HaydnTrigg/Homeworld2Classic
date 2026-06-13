@@ -1,13 +1,13 @@
 {
     "seDXAudio.dll": {
-        "progress_category": "program",
-        "cflags": "program",
+        "progress_category": "seDXAudio.dll",
+        "cflags": "seDXAudio.dll",
         "objects": {
-            "src\\Intermediate\\Source\\seDXAudio\\Release\\Obj\\DXAudio.obj": "0003_DXAudio.obj",
-            "src\\Intermediate\\Source\\seDXAudio\\Release\\Obj\\DXAudioCore.obj": "0004_DXAudioCore.obj",
-            "src\\Intermediate\\Source\\seDXAudio\\Release\\Obj\\dll.obj": "0005_dll.obj",
-            "src\\Intermediate\\Source\\Mathlib\\Release\\Obj\\matrix3.obj": "0012_matrix3.obj",
-            "src\\Intermediate\\Source\\Mathlib\\Release\\Obj\\pch.obj": "0013_pch.obj"
+            "src/src/shared/PC/seDXAudio/DXAudio.cpp": "0003_DXAudio.obj",
+            "src/src/shared/PC/seDXAudio/DXAudioCore.cpp": "0004_DXAudioCore.obj",
+            "src/src/shared/PC/seDXAudio/dll.cpp": "0005_dll.obj",
+            "src/Source/Mathlib/matrix3.cpp": "0012_matrix3.obj",
+            "src/Source/Mathlib/pch.cpp": "0013_pch.obj"
         }
     }
 }

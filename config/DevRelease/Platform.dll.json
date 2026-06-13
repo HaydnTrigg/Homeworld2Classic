@@ -1,23 +1,23 @@
 {
     "Platform.dll": {
-        "progress_category": "program",
-        "cflags": "program",
+        "progress_category": "Platform.dll",
+        "cflags": "Platform.dll",
         "objects": {
-            "src\\Intermediate\\Source\\Platform\\Release\\Obj\\pch.obj": "0002_pch.obj",
-            "src\\Intermediate\\Source\\Platform\\Release\\Obj\\WindowManage.obj": "0003_WindowManage.obj",
-            "src\\Intermediate\\Source\\Platform\\Release\\Obj\\Timer.obj": "0004_Timer.obj",
-            "src\\Intermediate\\Source\\Platform\\Release\\Obj\\SystemUtility.obj": "0005_SystemUtility.obj",
-            "src\\Intermediate\\Source\\Platform\\Release\\Obj\\SystemInput.obj": "0006_SystemInput.obj",
-            "src\\Intermediate\\Source\\Platform\\Release\\Obj\\SystemDialog.obj": "0007_SystemDialog.obj",
-            "src\\Intermediate\\Source\\Platform\\Release\\Obj\\SharedLibrary.obj": "0008_SharedLibrary.obj",
-            "src\\Intermediate\\Source\\Platform\\Release\\Obj\\popuperror.obj": "0009_popuperror.obj",
-            "src\\Intermediate\\Source\\Platform\\Release\\Obj\\PlatInterface.obj": "0010_PlatInterface.obj",
-            "src\\Intermediate\\Source\\Platform\\Release\\Obj\\PathString.obj": "0011_PathString.obj",
-            "src\\Intermediate\\Source\\Platform\\Release\\Obj\\NamedInterface.obj": "0012_NamedInterface.obj",
-            "src\\Intermediate\\Source\\Platform\\Release\\Obj\\main.obj": "0013_main.obj",
-            "src\\Intermediate\\Source\\Platform\\Release\\Obj\\input.obj": "0014_input.obj",
-            "src\\Intermediate\\Source\\Platform\\Release\\Obj\\exceptionhandler.obj": "0015_exceptionhandler.obj",
-            "src\\Intermediate\\Source\\Platform\\Release\\Obj\\CmdLine.obj": "0016_CmdLine.obj"
+            "src/Source/platform/pch.cpp": "0002_pch.obj",
+            "src/Source/platform/WindowManage.cpp": "0003_WindowManage.obj",
+            "src/Source/platform/Timer.cpp": "0004_Timer.obj",
+            "src/Source/platform/SystemUtility.cpp": "0005_SystemUtility.obj",
+            "src/Source/platform/SystemInput.cpp": "0006_SystemInput.obj",
+            "src/Source/platform/SystemDialog.cpp": "0007_SystemDialog.obj",
+            "src/Source/platform/SharedLibrary.cpp": "0008_SharedLibrary.obj",
+            "src/Source/platform/popuperror.cpp": "0009_popuperror.obj",
+            "src/Source/platform/PlatInterface.cpp": "0010_PlatInterface.obj",
+            "src/Source/platform/PathString.cpp": "0011_PathString.obj",
+            "src/Source/platform/NamedInterface.cpp": "0012_NamedInterface.obj",
+            "src/Source/platform/main.cpp": "0013_main.obj",
+            "src/Source/platform/input.cpp": "0014_input.obj",
+            "src/Source/platform/exceptionhandler.cpp": "0015_exceptionhandler.obj",
+            "src/Source/platform/CmdLine.cpp": "0016_CmdLine.obj"
         }
     }
 }

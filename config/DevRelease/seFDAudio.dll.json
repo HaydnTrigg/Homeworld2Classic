@@ -1,18 +1,18 @@
 {
     "seFDAudio.dll": {
-        "progress_category": "program",
-        "cflags": "program",
+        "progress_category": "seFDAudio.dll",
+        "cflags": "seFDAudio.dll",
         "objects": {
-            "src\\Intermediate\\Source\\seFDAudio\\Release\\Obj\\mixfft.obj": "0003_mixfft.obj",
-            "src\\Intermediate\\Source\\seFDAudio\\Release\\Obj\\fquant.obj": "0004_fquant.obj",
-            "src\\Intermediate\\Source\\seFDAudio\\Release\\Obj\\fqeffect.obj": "0005_fqeffect.obj",
-            "src\\Intermediate\\Source\\seFDAudio\\Release\\Obj\\fqcodec.obj": "0006_fqcodec.obj",
-            "src\\Intermediate\\Source\\seFDAudio\\Release\\Obj\\FDAudio.obj": "0007_FDAudio.obj",
-            "src\\Intermediate\\Source\\seFDAudio\\Release\\Obj\\FDAinternal.obj": "0008_FDAinternal.obj",
-            "src\\Intermediate\\Source\\seFDAudio\\Release\\Obj\\dll.obj": "0009_dll.obj",
-            "src\\Intermediate\\Source\\seFDAudio\\Release\\Obj\\dct.obj": "0010_dct.obj",
-            "src\\Intermediate\\Source\\Mathlib\\Release\\Obj\\matrix3.obj": "0017_matrix3.obj",
-            "src\\Intermediate\\Source\\Mathlib\\Release\\Obj\\pch.obj": "0018_pch.obj"
+            "src/src/shared/PC/FDAudio/mixfft.c": "0003_mixfft.obj",
+            "src/src/shared/PC/FDAudio/fquant.cpp": "0004_fquant.obj",
+            "src/src/shared/PC/FDAudio/fqeffect.cpp": "0005_fqeffect.obj",
+            "src/src/shared/PC/FDAudio/fqcodec.cpp": "0006_fqcodec.obj",
+            "src/src/shared/PC/FDAudio/FDAudio.cpp": "0007_FDAudio.obj",
+            "src/src/shared/PC/FDAudio/FDAinternal.cpp": "0008_FDAinternal.obj",
+            "src/src/shared/PC/FDAudio/dll.cpp": "0009_dll.obj",
+            "src/src/shared/PC/FDAudio/dct.cpp": "0010_dct.obj",
+            "src/Source/Mathlib/matrix3.cpp": "0017_matrix3.obj",
+            "src/Source/Mathlib/pch.cpp": "0018_pch.obj"
         }
     }
 }
