@@ -31,7 +31,8 @@
         "decomp": {
             "flags": [
                 "/DDECOMP",
-                "/Z7"
+                "/Z7",
+                "/I$(SOURCE_ROOT)"
             ]
         },
         "common": {

@@ -24,8 +24,9 @@
                 "-fexceptions",
                 "-ffunction-sections",
                 "-fno-stack-protector",
-                "-fomit-frame-pointer",
-                "-fno-common"
+                //"-fomit-frame-pointer",
+                "-fno-common",
+                "-mdynamic-no-pic"
             ]
         },
         "HW2C_Exe": {
