@@ -1,0 +1,10 @@
+<FileList
+       DisplayName = "Windows"
+       PlatformIdentity = "Windows, Version=8.0" 
+       TargetFramework = ".NETCore,version=v4.5;.NETFramework,version=v4.5"
+       MinVSVersion = "11.0">
+
+       <File Reference = "Windows">
+              <ToolboxItems VSCategory = "Toolbox.Default"/>
+       </File>
+</FileList>
