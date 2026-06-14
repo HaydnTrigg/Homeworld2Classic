@@ -38,6 +38,131 @@
         "common": {
             "base": "decomp",
             "flags": [
+                "-nologo",
+                "-WX-",
+                "-O1",
+                "-Ob2",
+                "-DWIN32",
+                "-DNDEBUG",
+                "-D_WINDOWS",
+                "-DREI_RELEASE",
+                "-D_VC80_UPGRADE=0x0700",
+                "-GF",
+                "-EHs",
+                "-EHc",
+                "-MD",
+                "-GS-",
+                "-Gy",
+                "-fp:precise",
+                "-Zc:wchar_t",
+                "-Zc:forScope",
+                "-Gz",
+                "-TC",
+                "-analyze-",
+                "-errorreport:prompt",
+                "-X"
+            ]
+        },
+        "Console.dll": {
+            "base": "common",
+            "flags": []
+        },
+        "DCDefault.dll": {
+            "base": "common",
+            "flags": []
+        },
+        "DCWindow.dll": {
+            "base": "common",
+            "flags": []
+        },
+        "Debug.dll": {
+            "base": "common",
+            "flags": []
+        },
+        "ExeTie.dll": {
+            "base": "common",
+            "flags": []
+        },
+        "FileIO.dll": {
+            "base": "common",
+            "flags": []
+        },
+        "GL.dll": {
+            "base": "common",
+            "flags": []
+        },
+        "GSLobby.dll": {
+            "base": "common",
+            "flags": []
+        },
+        "Homeworld2.exe": {
+            "base": "common",
+            "flags": []
+        },
+        "HW2Box.dll": {
+            "base": "common",
+            "flags": []
+        },
+        "Localizer.dll": {
+            "base": "common",
+            "flags": []
+        },
+        "lua.dll": {
+            "base": "common",
+            "flags": []
+        },
+        "LuaConfig.dll": {
+            "base": "common",
+            "flags": []
+        },
+        "Memory.dll": {
+            "base": "common",
+            "flags": []
+        },
+        "Objects.dll": {
+            "base": "common",
+            "flags": []
+        },
+        "Platform.dll": {
+            "base": "common",
+            "flags": []
+        },
+        "Profile.dll": {
+            "base": "common",
+            "flags": []
+        },
+        "seDXAudio.dll": {
+            "base": "common",
+            "flags": []
+        },
+        "seFDAudio.dll": {
+            "base": "common",
+            "flags": []
+        },
+        "SteamLobby.dll": {
+            "base": "common",
+            "flags": []
+        },
+        "Util.dll": {
+            "base": "common",
+            "flags": []
+        },
+        "ZLib.dll": {
+            "base": "common",
+            "flags": []
+        }
+    },
+    "cxxflags": {
+        "decomp": {
+            "flags": [
+                "/DDECOMP",
+                "/Z7",
+                "/I$(SOURCE_ROOT)"
+            ]
+        },
+        "common": {
+            "base": "decomp",
+            "flags": [
                 //"-Zi",
                 "-nologo",
                 "-WX-",

@@ -3,6 +3,7 @@
         "HW2C_Exe": "HW2C_Exe"
     },
     "compiler": "compiler\\LLVM-7.0.0\\bin\\clang++.exe",
+    "compiler_c": "compiler\\LLVM-7.0.0\\bin\\clang.exe",
     "compiler_root": "compiler",
     "asflags": [],
     "ldflags": [],
@@ -16,23 +17,67 @@
         "common": {
             "base": "decomp",
             "flags": [
-                "-target", "i386-apple-macosx10.9.0",
+                "-target",
+                "i386-apple-macosx10.9.0",
                 "-Os",
                 "-DNDEBUG",
+                "-fexceptions",
+                "-ffunction-sections",
+                "-fno-stack-protector",
+                "-fno-common"
+            ]
+        },
+        "HW2C_Exe": {
+            "base": "common",
+            "flags": []
+        }
+    },
+    "cxxflags": {
+        "decomp": {
+            "flags": [
+                "-DDECOMP",
+                "-I$(SOURCE_ROOT)"
+            ]
+        },
+        "common": {
+            "base": "decomp",
+            "flags": [
+                "-target",
+                "i386-apple-macosx10.9.0",
+                "-DNDEBUG",
+                "-Os",
                 "-std=c++11",
                 "-stdlib=libc++",
                 "-fexceptions",
                 "-ffunction-sections",
                 "-fno-stack-protector",
                 //"-fomit-frame-pointer",
-                "-fno-common",
-                "-mdynamic-no-pic"
+                "-fno-common"
             ]
         },
         "HW2C_Exe": {
             "base": "common",
+            "flags": []
+        }
+    },
+    "objcflags": {
+        "decomp": {
             "flags": [
+                "-DDECOMP",
+                "-I$(SOURCE_ROOT)"
             ]
+        },
+        "common": {
+            "base": "decomp",
+            "flags": [
+                "-target",
+                "i386-apple-macosx10.9.0",
+                "-DNDEBUG"
+            ]
+        },
+        "HW2C_Exe": {
+            "base": "common",
+            "flags": []
         }
     }
 }

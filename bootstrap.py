@@ -5,6 +5,7 @@ import urllib.request
 from pathlib import Path
 import argparse
 import re
+import os
 
 SOURCE_ROOT = "."
 
@@ -256,8 +257,17 @@ def get_delink_path(lib_name, target):
 
 
 def get_target_path(lib_name, src):
-    return f"build/{CONFIG_ID}/{lib_name}/obj/" + to_forward_path(src)
+    base = f"build/{CONFIG_ID}/obj/{lib_name}/" + to_forward_path(src)
+    root, _ = os.path.splitext(base)
 
+    if CONFIG_ID == "DevRelease":
+        return root + ".obj"
+    elif CONFIG_ID == "HW2C_Exe":
+        return root + ".o"
+    else:
+        # Fallback: keep original extension or choose a default
+        return base
+        
 
 def write_objdiff(config, objects):
     units = []
@@ -293,9 +303,25 @@ def write_objdiff(config, objects):
     }
 
 
+_C_EXTENSIONS   = {".c"}
+_OBJC_EXTENSIONS = {".m"}
+# All other extensions (.cpp, .cxx, .cc, .cp, .mm) use the C++ compiler.
+# .mm (Objective-C++) shares cxxflags; only plain .m uses objcflags.
+
+
+def get_flags(flags_key, flags_dict):
+    if not flags_dict or flags_key not in flags_dict:
+        return []
+    return flatten_cflags(flags_key, flags_dict)
+
+
 def write_ninja(config, objects):
     lines = []
     cxx = config.get("compiler", "clang++")
+    cc  = config.get("compiler_c", cxx)
+    is_msvc = cxx.endswith("cl.exe")
+
+    lines.append(f"cc = {cc}\n\n")
     lines.append(f"cxx = {cxx}\n\n")
 
     asflags = " ".join(substitute_flag(f) for f in config.get("asflags", []))
@@ -305,21 +331,48 @@ def write_ninja(config, objects):
     if ldflags:
         lines.append(f"ldflags = {ldflags}\n\n")
 
-    lines.append("rule compile\n")
-    if cxx.endswith("cl.exe"):
-        lines.append("  command = $cxx /c $cflags $in \"/Fo$out\"\n")
+    if is_msvc:
+        lines.append("rule compile_c\n")
+        lines.append("  command = $cc /c $cflags $in \"/Fo$out\"\n")
+        lines.append("  description = Compiling $in\n\n")
+        lines.append("rule compile_cxx\n")
+        lines.append("  command = $cxx /c $cxxflags $in \"/Fo$out\"\n")
+        lines.append("  description = Compiling $in\n\n")
     else:
-        lines.append("  command = $cxx $cflags -c $in -o $out\n")
-    lines.append("  description = Compiling $in\n\n")
+        lines.append("rule compile_c\n")
+        lines.append("  command = $cc $cflags -c $in -o $out\n")
+        lines.append("  description = Compiling $in\n\n")
+        lines.append("rule compile_cxx\n")
+        lines.append("  command = $cxx $cxxflags -c $in -o $out\n")
+        lines.append("  description = Compiling $in\n\n")
+        lines.append("rule compile_objc\n")
+        lines.append("  command = $cxx $objcflags -c $in -o $out\n")
+        lines.append("  description = Compiling $in\n\n")
+
+    c_dict    = config.get("cflags", {})
+    cxx_dict  = config.get("cxxflags", config.get("cflags", {}))
+    objc_dict = config.get("objcflags", config.get("cxxflags", config.get("cflags", {})))
 
     all_objs = []
     for lib_name, lib in objects.items():
-        flags_str = " ".join(flatten_cflags(lib["cflags"], config["cflags"]))
+        flags_key = lib["cflags"]
+        c_flags    = " ".join(get_flags(flags_key, c_dict))
+        cxx_flags  = " ".join(get_flags(flags_key, cxx_dict))
+        objc_flags = " ".join(get_flags(flags_key, objc_dict))
+
         for src in lib["objects"]:
             obj = get_target_path(lib_name, src)
             all_objs.append(obj)
-            lines.append(f"build {obj}: compile {to_forward_path(SOURCE_ROOT + '/' + src)}\n")
-            lines.append(f"  cflags = {flags_str}\n\n")
+            ext = Path(src).suffix.lower()
+            if ext in _C_EXTENSIONS:
+                rule, flags_var, flags_str = "compile_c",    "cflags",    c_flags
+            elif ext in _OBJC_EXTENSIONS:
+                rule, flags_var, flags_str = "compile_objc", "objcflags", objc_flags
+            else:
+                rule, flags_var, flags_str = "compile_cxx",  "cxxflags",  cxx_flags
+
+            lines.append(f"build {obj}: {rule} {to_forward_path(SOURCE_ROOT + '/' + src)}\n")
+            lines.append(f"  {flags_var} = {flags_str}\n\n")
 
     lines.append("build all: phony $\n")
     for obj in all_objs:
