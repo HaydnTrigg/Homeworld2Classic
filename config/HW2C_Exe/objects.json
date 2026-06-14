@@ -770,7 +770,7 @@
             "src/src/HW2/PC/HW2Box/HW2Box_std.cpp": "0764_HW2Box_std.o",
             "src/src/HW2/PC/HW2Box/HW2Box_SSE.cpp": "0765_HW2Box_SSE.o",
             "src/src/HW2/Cross/HW2Box/HW2Box.cpp": "0766_HW2Box.o",
-            "src/src/Foreign/jpeg-6b/jccolor.c": "0767_jccolor.o",
+            /*"src/src/Foreign/jpeg-6b/jccolor.c": "0767_jccolor.o",
             "src/src/Foreign/jpeg-6b/jdatadst.c": "0768_jdatadst.o",
             "src/src/Foreign/jpeg-6b/jfdctfst.c": "0769_jfdctfst.o",
             "src/src/Foreign/jpeg-6b/jcmainct.c": "0770_jcmainct.o",
@@ -792,7 +792,7 @@
             "src/src/Foreign/jpeg-6b/jutils.c": "0786_jutils.o",
             "src/src/Foreign/jpeg-6b/jmemnobs.c": "0787_jmemnobs.o",
             "src/src/Foreign/jpeg-6b/jcdctmgr.c": "0788_jcdctmgr.o",
-            "src/src/Foreign/jpeg-6b/jchuff.c": "0789_jchuff.o",
+            "src/src/Foreign/jpeg-6b/jchuff.c": "0789_jchuff.o",*/
             //"src/src/Foreign/libwebm/mkvparser.cpp": "0790_mkvparser.o",
             //"src/src/Foreign/libwebm/mkvreader.cpp": "0791_mkvreader.o",
             "src/src/Shared/Cross/Localizer/LocalizerImp.cpp": "0792_LocalizerImp.o",

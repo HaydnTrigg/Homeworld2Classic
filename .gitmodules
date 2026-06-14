@@ -15,3 +15,7 @@
 [submodule "src/src/Foreign/libwebm-1.0.0.26"]
 	path = src/src/Foreign/libwebm-1.0.0.26
 	url = https://github.com/webmproject/libwebm.git
+[submodule "src/src/Foreign/jpeg-6b"]
+	path = src/src/Foreign/jpeg-6b
+	url = https://github.com/HaydnTrigg/Homeworld2Classic.git
+	branch = jpeg-6b
