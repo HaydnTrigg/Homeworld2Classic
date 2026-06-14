@@ -1032,7 +1032,7 @@
             "src/src/Shared/PC/Video/WebMVideo.cpp": "1026_WebMVideo.o",
             "src/src/Shared/Cross/Video/VideoInterface.cpp": "1027_VideoInterface.o",
             "src/src/Shared/Cross/ZLib/CompressionMem.cpp": "1028_CompressionMem.o",
-            "src/src/Shared/Cross/ZLib/Compression.cpp": "1029_Compression.o",
+            "src/src/Shared/Cross/ZLib/Compression.cpp": "1029_Compression.o"/*,
             "src/src/Shared/Cross/ZLib/Src/infcodes.c": "1030_infcodes.o",
             "src/src/Shared/Cross/ZLib/Src/trees.c": "1031_trees.o",
             "src/src/Shared/Cross/ZLib/Src/deflate.c": "1032_deflate.o",
@@ -1044,7 +1044,7 @@
             "src/src/Shared/Cross/ZLib/Src/infutil.c": "1038_infutil.o",
             "src/src/Shared/Cross/ZLib/Src/adler32.c": "1039_adler32.o",
             "src/src/Shared/Cross/ZLib/Src/zutil.c": "1040_zutil.o",
-            "src/src/Shared/Cross/ZLib/Src/inffast.c": "1041_inffast.o"
+            "src/src/Shared/Cross/ZLib/Src/inffast.c": "1041_inffast.o"*/
         }
     }
 }
