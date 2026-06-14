@@ -275,10 +275,11 @@ def write_objdiff(config, objects):
     units = []
     for lib_name, lib in objects.items():
         category = lib.get("progress_category", "default")
+        delink_name = lib.get("delink", lib_name)
         for src, target in lib["objects"].items():
             units.append({
                 "name": to_forward_path(src).rsplit(".", 1)[0],
-                "target_path": get_delink_path(lib_name, target or src),
+                "target_path": get_delink_path(delink_name, target or src),
                 "base_path": get_target_path(lib_name, src),
                 "metadata": {
                     "complete": False,

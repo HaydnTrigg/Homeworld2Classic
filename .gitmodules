@@ -12,3 +12,6 @@
 [submodule "src/src/Foreign/lua/lua"]
 	path = src/src/Foreign/lua/lua
 	url = https://github.com/lua/lua.git
+[submodule "src/src/Foreign/libwebm-1.0.0.26"]
+	path = src/src/Foreign/libwebm-1.0.0.26
+	url = https://github.com/webmproject/libwebm.git

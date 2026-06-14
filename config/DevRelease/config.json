@@ -38,7 +38,7 @@
                 "\"/I$(COMPILER_ROOT)/atlmfc/include\"",
                 "\"/I$(SDK_ROOT)/Include/um\"",
                 "\"/I$(SDK_ROOT)/Include/shared\"",
-                "\"/I$(SDK_ROOT)/Include/winr\"t"
+                "\"/I$(SDK_ROOT)/Include/winrt\""
             ]
         },
         "common": {
@@ -223,7 +223,13 @@
             "flags": [
                 "/DDECOMP",
                 "/Z7",
-                "/I$(SOURCE_ROOT)"
+                "/I$(SOURCE_ROOT)",
+                "\"/I$(SOURCE_ROOT)\"",
+                "\"/I$(COMPILER_ROOT)/include\"",
+                "\"/I$(COMPILER_ROOT)/atlmfc/include\"",
+                "\"/I$(SDK_ROOT)/Include/um\"",
+                "\"/I$(SDK_ROOT)/Include/shared\"",
+                "\"/I$(SDK_ROOT)/Include/winrt\""
             ]
         },
         "common": {
@@ -603,6 +609,42 @@
                 "-D_WINDLL",
                 "-D_MBCS",
                 "-Gm-"
+            ]
+        },
+        "libwebm": {
+            "base": "decomp",
+            "flags": [
+                "-c",
+                //"-Zi",
+                "-nologo",
+                "-W3",
+                "-WX-",
+                "-O2",
+                "-Ob1",
+                "-Oy",
+                "-DWIN32",
+                "-D_CRT_SECURE_NO_WARNINGS",
+                "-DNDEBUG",
+                "-D_LIB",
+                "-D_VC80_UPGRADE=0x0700",
+                "-D_MBCS",
+                "-GF",
+                "-Gm-",
+                "-EHs",
+                "-EHc",
+                "-MD",
+                "-GS",
+                "-Gy",
+                "-fp:precise",
+                "-Zc:wchar_t",
+                "-Zc:forScope",
+                "-FAcs",
+                //"-FaR:\HICKORY-PCSHIP\Homeworld2Classic\src\Intermediate\Foreign\libwebm\Release\Obj",
+                "-Gz",
+                "-TP",
+                "-analyze-",
+                "-errorreport:prompt",
+                "-X"
             ]
         }
     }

@@ -1156,9 +1156,16 @@
             "src/Source/Scar/Graphics/LuaFog.cpp": "0833_LuaFog.obj",
             "src/Source/Scar/Graphics/LuaLight.cpp": "0834_LuaLight.obj",
             "src/Source/Scar/Graphics/LuaShadow.cpp": "0835_LuaShadow.obj",
-            "src/Source/Scar/pch.cpp": "0836_pch.obj",
-            "src/src/Foreign/libwebm/mkvparser.cpp": "0849_mkvparser.obj",
-            "src/src/Foreign/libwebm/mkvreader.cpp": "0850_mkvreader.obj"
+            "src/Source/Scar/pch.cpp": "0836_pch.obj"
+        }
+    },
+    "libwebm": {
+        "progress_category": "Homeworld2.exe",
+        "cflags": "libwebm",
+        "delink": "Homeworld2.exe",
+        "objects": {
+            "src/src/Foreign/libwebm-1.0.0.26/mkvparser.cpp": "0849_mkvparser.obj",
+            "src/src/Foreign/libwebm-1.0.0.26/mkvreader.cpp": "0850_mkvreader.obj"
         }
     }
 }
