@@ -2,8 +2,13 @@ name: Build
 
 on:
   pull_request:
+    paths-ignore:
+      - "*.md"
     types: [opened, synchronize, reopened]
   push:
+    paths-ignore:
+      - "*.md"
+  workflow_dispatch:
 
 jobs:
   matching:
@@ -18,20 +23,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v6
         with:
-          token: ${{ secrets.GH_PAT }}
           submodules: 'recursive'
-
-      # Clone the build repo
-      - name: Checkout Build Binaries
-        uses: actions/checkout@v6
-        with:
-          repository: HaydnTrigg/Homeworld2Classic-Build
-          token: ${{ secrets.GH_PAT }}
-          path: Homeworld2Classic-Build
-
-      # Copy Homeworld2Classic-Build/orig -> ./orig
-      - name: Copy Binary Inputs
-        run: xcopy /E /I /Y Homeworld2Classic-Build\orig orig
 
       # Run configure.py
       - name: Bootstrap
@@ -57,13 +49,15 @@ jobs:
     runs-on: windows-latest
     needs: [matching]
     if: (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/ci-testing') && github.event_name == 'push'
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v6
         with:
           ref: workflow-reports
-          token: ${{ secrets.GH_PAT }}
+          token: ${{ github.token }}
           path: Homeworld2Classic-Reports
 
       - name: Download DevRelease Report

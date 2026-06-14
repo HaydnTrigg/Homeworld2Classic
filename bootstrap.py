@@ -1,5 +1,6 @@
 import json
 import hashlib
+import shutil
 import subprocess
 import urllib.request
 from pathlib import Path
@@ -46,6 +47,30 @@ SEVENZIP_MSI = Path("build/tools/7z2601.msi")
 SEVENZIP_MSI_URL = "https://github.com/ip7z/7zip/releases/download/26.01/7z2601.msi"
 SEVENZIP_EXTRACT_DIR = Path("build/tools/7z")
 SEVENZIPEXE = SEVENZIP_EXTRACT_DIR / "Files" / "7-Zip" / "7z.exe"
+
+DOWNLOADS_DIR = Path("build/downloads")
+EXTRACTED_DIR = Path("build/extracted")
+
+GAME_ARCHIVES = [
+    {
+        "config": "HW2C_Exe",
+        "url": "https://debugging.games/_files/Mac/[MAC]%20Homeworld%20Remastered%20[v2.1]%20[2018-06-27].7z",
+        "download": DOWNLOADS_DIR / "[MAC] Homeworld Remastered [v2.1] [2018-06-27].7z",
+        "name": "[MAC] Homeworld Remastered [v2.1] [2018-06-27]",
+    },
+    {
+        "config": "v1.1.1",
+        "url": "https://debugging.games/_files/Mac/[MAC]%20Homeworld%202%20[v1.1.1]%20[2004-08-24].7z",
+        "download": DOWNLOADS_DIR / "[MAC] Homeworld 2 [v1.1.1] [2004-08-24].7z",
+        "name": "[MAC] Homeworld 2 [v1.1.1] [2004-08-24]",
+    },
+    {
+        "config": "DevRelease",
+        "url": "https://debugging.games/_files/Windows/[WIN]%20Homeworld%202%20[2015-02-17]%20[v1.2]%20[Depot%20255551]%20[Manifest%208281447299805993717]%20(PDB+MAP).7z",
+        "download": DOWNLOADS_DIR / "[WIN] Homeworld 2 [2015-02-17] [v1.2] [Depot 255551] [Manifest 8281447299805993717] (PDB+MAP).7z",
+        "name": "[WIN] Homeworld 2 [2015-02-17] [v1.2] [Depot 255551] [Manifest 8281447299805993717] (PDB+MAP)",
+    },
+]
 
 OUTPUT_DIR = Path(f"build/{CONFIG_ID}")
 DELINK_OUTPUT_DIR = OUTPUT_DIR / "delink"
@@ -121,7 +146,12 @@ def download_file(url: str, dest: Path, expected_sha1: str = None):
         dest.unlink()
     print(f"Downloading {url} -> {dest}")
     dest.parent.mkdir(parents=True, exist_ok=True)
-    urllib.request.urlretrieve(url, dest)
+    # 403 Forbidden My Ass
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    })
+    with urllib.request.urlopen(req) as response, open(dest, "wb") as f:
+        shutil.copyfileobj(response, f)
     if expected_sha1:
         actual = sha1_file(dest)
         if actual.lower() != expected_sha1.lower():
@@ -150,79 +180,23 @@ def verify_hash(required: bool, path_str: str, expected: str):
     else:
         print(f"{path} SHA1 verified")
 
-if CONFIG_ID == "DevRelease":
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/autoexec.lua", "D807C88860BB1AD4ABDF2E832495EE2EA655ECB2")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/Console.dll", "209B0C7A9A36A52E54DD611192AB836866CD7313")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/console.pdb", "5AF8A0270887FE4D6DBD19C6E53301ABB356340F")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/DCDefault.dll", "D4BDA8A63EB65AA13248CA4C72484BCC470BF9EB")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/dcdefault.pdb", "14D8E3AD0092CB048503726E809627B7FAA930DB")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/DCWindow.dll", "DC1B66963ACF1BA7BAB1EFFFC88A650314259D22")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/dcwindow.pdb", "0ADBB7776899578DF2407A4B95817F31BD5B3D48")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/Debug.dll", "F3F7E034D4AA359F505ADBD30A678C8A4ADDED75")
-    verify_hash(False, "orig/Homeworld2Classic/Bin/Test/Debug.map", "A50F3A031F2AF2EBCCF26313A531DCFFC0463A8A")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/debug.pdb", "59DCCABFE658A06A403EC95171542E62AF53A090")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/DivxDecoder.dll", "DABD5ECF1FC64C2DCD451646BAC9F9309AADE0B4")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/DivxMediaLib.dll", "7E1F3909E2E598BEDAFBEEF8C8E3248FD6AE14ED")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/ExeTie.dll", "1B26301CFD9FAD649A69A7CEAECA1426E73BC860")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/exetie.pdb", "2E21307328B1883A212FA670A4C54E3B4DE682BC")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/FileIO.dll", "7C38853CF6194A90C97208F88F8F7742FA8F669D")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/fileio.pdb", "6EDD1D6D63B87155D0E14AE4D91814B776C7482B")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/FileParser.dll", "A49300A34E7DC52E58654551B846769363803CA4")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/GL.dll", "B12A5A34D6B1BA6EAE08F199A012E0DA20F5886C")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/gl.pdb", "9C1E5D42950E18B0E93F5C8CC62B02F89989C3E2")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/GSLobby.dll", "FD84820FB0081F36800608AF36B66CAEA5A71830")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/gslobby.pdb", "3848244FC6EAF4D2F87DA4AB31D23706EF1B66E0")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/Homeworld2.exe", "D466E943BBC0DE15E6A03D4528FADAFE9A61E058")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/homeworld2.pdb", "3FFF5AE05735824B2CD0CF99ED977FD9F43411DD")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/HW2Box.dll", "4BF1488669359EBA55C9AFA4EC892C7B0AC7076B")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/HW2Box.idb", "8E21E5E27C1DDE1A204166E6D132DE2A7033549E")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/hw2box.pdb", "13E90C2A1A5F2B1567C4FAF35BE2A79E91948F20")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/Localizer.dll", "5D61D3C7966E929F12B269E34E7D75CA3462623F")
-    verify_hash(False, "orig/Homeworld2Classic/Bin/Test/Localizer.map", "7CB03DD81BF1CE8A75B6F2F141CFAF928EC3E667")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/localizer.pdb", "B8BFF85CA917AE0C1DEFA5369868BFCC162EEA2E")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/lua.dll", "E84BD2F04F24F3C271BFCEDEDB5F311968A8423E")
-    verify_hash(False, "orig/Homeworld2Classic/Bin/Test/lua.map", "2A5EBB640BB81C13A83AF47BB95DEDF12CD906CA")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/lua.pdb", "DE6ED02382C992A1E9386D03BC419FC41CBDEBAC")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/LuaConfig.dll", "803EE5A8B248667F1183C9909A2B213888F07E6F")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/luaconfig.pdb", "8E8D632ADE09932D695C5F2D05C9EBBFA6BC882C")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/Memory.dll", "11BE85168EA7CEDE79014C59194ADC1D36AEE025")
-    verify_hash(False, "orig/Homeworld2Classic/Bin/Test/Memory.map", "08BB534FDC90B63BC6A53D699BF9E0832149278C")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/memory.pdb", "32060B645F111B101EA77F28448231F6EB8943C7")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/Objects.dll", "83166611A3BF9DEF772970D7700978CE54D3BE70")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/objects.pdb", "FF2D84B8E4AC4B128ECAF161A72A4A174EA4B1D6")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/Platform.dll", "CB1BD6F664BA168BECC5DCC3EB7FDE2B09CEEF2E")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/platform.pdb", "868F8A91797E5FCA9089014C2FE6A6AA7EFB7D3A")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/Profile.dll", "D2645A52C9F8AD95B83CF9BC941407F908F90031")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/profile.pdb", "A607E1B6D5F0990695760EDB62765EAD19B91B87")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/seDXAudio.dll", "1F0F0D5800931758C74DE783D186D10A6189CBE6")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/sedxaudio.pdb", "275C89EFA651C3E3D0DBF41943DA314B5EB6308F")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/seFDAudio.dll", "A338AA4DD826EDCEB10F71E6D2A18D3D6B1EB9EB")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/sefdaudio.pdb", "42CDCE1CD71A3835AF8ACBBA44BAEB3456E5A4E6")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/SteamLobby.dll", "B6E66A7FBCA6428CFF6DBA2B45BBA7248C3E2CF2")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/steamlobby.pdb", "355A8D95F6C5775AB8F69F9B5C7F00E6FE94AA81")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/steam_api.dll", "A80ABFB6D95D59536BB83776258D1094054C3595")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/steam_appid.txt", "259C2F70E80A13E01EEA061B007624CD5FBE837E")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/Util.dll", "9B44569B89B4F4B2A751CF36FEBEBC8DC75B9D10")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/util.pdb", "C9786DD63A87F23A848F0099C39A3BCFD2680A0F")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/ZLib.dll", "F6709D5C89EB17D88E3114D08A99C6D54A1A7EF8")
-    verify_hash(False, "orig/Homeworld2Classic/Bin/Test/ZLib.map", "6AEAA188A3C83D0CE607BEC53A464C4009BC4C00")
-    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/zlib.pdb", "C0AF615EC1AEC75E6302B9C1C33AAE60C80FA84C")
-    verify_hash(False, "orig/Homeworld2Classic/Data/English.big", "40CD7736EE2E84DB54D1C2E9E3958ED1BEAEA132")
-    verify_hash(False, "orig/Homeworld2Classic/Data/EnglishSpeech.big", "5E2D0632A14DCB70610AFA405792C19FD7E26E9F")
-    verify_hash(False, "orig/Homeworld2Classic/Data/French.big", "456AF1F18937829AEE9829A889792F24D849C079")
-    verify_hash(False, "orig/Homeworld2Classic/Data/FrenchSpeech.big", "5E2D0632A14DCB70610AFA405792C19FD7E26E9F")
-    verify_hash(False, "orig/Homeworld2Classic/Data/German.big", "DA2937945AB06655BA45671335EE6F98B5C71606")
-    verify_hash(False, "orig/Homeworld2Classic/Data/GermanSpeech.big", "5E2D0632A14DCB70610AFA405792C19FD7E26E9F")
-    verify_hash(False, "orig/Homeworld2Classic/Data/Homeworld2.big", "D604EB8F74BB517AE45D40D723CBB04D4A3B1803")
-    verify_hash(False, "orig/Homeworld2Classic/Data/Italian.big", "8FC43819DFF8BFDC4735F90CB3B7E3A576E10969")
-    verify_hash(False, "orig/Homeworld2Classic/Data/ItalianSpeech.big", "5E2D0632A14DCB70610AFA405792C19FD7E26E9F")
-    verify_hash(False, "orig/Homeworld2Classic/Data/Music.big", "AE96811472C38471E90E9642DB65031822E8B87D")
-    verify_hash(False, "orig/Homeworld2Classic/Data/Spanish.big", "AA05968040229C215C17A1A75ECE4D88D9C13582")
-    verify_hash(False, "orig/Homeworld2Classic/Data/SpanishSpeech.big", "5E2D0632A14DCB70610AFA405792C19FD7E26E9F")
-    verify_hash(True, "compiler/VC/bin/cl.exe", "09239AA81FB405736393B5BB9519D73173B43A6A")
-    verify_hash(True, "compiler/VC/bin/mspdb110.dll", "3C0C109BDA6212CAA4C3241DE98C4F8437B7AFAD")
-elif CONFIG_ID == "HW2C_Exe":
-    verify_hash(True, "orig/HW2C_Exe", "A316A35906A97C478FC65A233FF1A1824BBE2697")
+
+def copy_if_changed(src: Path, dest: Path):
+    if dest.exists() and sha1_file(src).lower() == sha1_file(dest).lower():
+        print(f"  {dest} up to date, skipping.")
+        return
+    print(f"  Copying {src} -> {dest}")
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(src, dest)
+
+
+def sync_extracted_to_orig(extracted_dir: Path, orig_dir: Path = Path("orig")):
+    for src in sorted(extracted_dir.rglob("*")):
+        if src.is_file():
+            rel = src.relative_to(extracted_dir)
+            dest = orig_dir / rel
+            copy_if_changed(src, dest)
+
 
 def substitute_flag(flag):
     substitutions = {
@@ -269,7 +243,7 @@ def get_target_path(lib_name, src):
     else:
         # Fallback: keep original extension or choose a default
         return base
-        
+
 
 def write_objdiff(config, objects):
     units = []
@@ -396,16 +370,33 @@ else:
     download_file(OBJDIFF_CLI_URL, OBJDIFF_CLI_EXE, OBJDIFF_CLI_SHA1)
 download_file(OBJDIFF_URL, OBJDIFF_EXE, OBJDIFF_SHA1)
 
-if CONFIG_ID == "HW2C_Exe":
-    if not SEVENZIPEXE.exists():
-        download_file(SEVENZIP_MSI_URL, SEVENZIP_MSI)
-        print(f"Extracting {SEVENZIP_MSI} -> {SEVENZIP_EXTRACT_DIR}/")
-        extract_dir = SEVENZIP_EXTRACT_DIR.resolve()
-        extract_dir.mkdir(parents=True, exist_ok=True)
-        run(["msiexec", "/a", str(SEVENZIP_MSI.resolve()), "/qn", f"TARGETDIR={extract_dir}"])
-    else:
-        print(f"{SEVENZIPEXE} already present, skipping 7zip download.")
+# Ensure 7zip is available
+if not SEVENZIPEXE.exists():
+    download_file(SEVENZIP_MSI_URL, SEVENZIP_MSI)
+    print(f"Extracting {SEVENZIP_MSI} -> {SEVENZIP_EXTRACT_DIR}/")
+    sevenz_extract_dir = SEVENZIP_EXTRACT_DIR.resolve()
+    sevenz_extract_dir.mkdir(parents=True, exist_ok=True)
+    run(["msiexec", "/a", str(SEVENZIP_MSI.resolve()), "/qn", f"TARGETDIR={sevenz_extract_dir}"])
+else:
+    print(f"{SEVENZIPEXE} already present, skipping 7zip download.")
 
+# Download and extract game archives, then sync files to orig/
+DOWNLOADS_DIR.mkdir(parents=True, exist_ok=True)
+for archive in GAME_ARCHIVES:
+    if archive["config"] != CONFIG_ID:
+        continue
+    download_file(archive["url"], archive["download"])
+    extract_dir = EXTRACTED_DIR / archive["name"]
+    if not extract_dir.exists():
+        print(f"Extracting {archive['download']} -> {extract_dir}/")
+        extract_dir.mkdir(parents=True, exist_ok=True)
+        run([str(SEVENZIPEXE), "x", str(archive["download"].resolve()), f"-o{extract_dir.resolve()}", "-y"])
+    else:
+        print(f"{extract_dir} already extracted, skipping.")
+    print(f"Syncing {extract_dir} -> orig/")
+    sync_extracted_to_orig(extract_dir)
+
+if CONFIG_ID == "HW2C_Exe":
     if LLVM_DIR.exists():
         print(f"{LLVM_DIR} already present, skipping LLVM download and extraction.")
     else:
@@ -415,6 +406,80 @@ if CONFIG_ID == "HW2C_Exe":
         run([str(SEVENZIPEXE), "x", str(LLVM_INSTALLER), f"-o{LLVM_DIR}", "-y"])
 
     verify_hash(True, "compiler/LLVM-7.0.0/bin\clang++.exe", "6270EDF5FE8CA1CA25E6637FAF69CD68F0C81D2E")
+
+if CONFIG_ID == "DevRelease":
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/autoexec.lua", "D807C88860BB1AD4ABDF2E832495EE2EA655ECB2")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/Console.dll", "209B0C7A9A36A52E54DD611192AB836866CD7313")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/console.pdb", "5AF8A0270887FE4D6DBD19C6E53301ABB356340F")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/DCDefault.dll", "D4BDA8A63EB65AA13248CA4C72484BCC470BF9EB")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/dcdefault.pdb", "14D8E3AD0092CB048503726E809627B7FAA930DB")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/DCWindow.dll", "DC1B66963ACF1BA7BAB1EFFFC88A650314259D22")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/dcwindow.pdb", "0ADBB7776899578DF2407A4B95817F31BD5B3D48")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/Debug.dll", "F3F7E034D4AA359F505ADBD30A678C8A4ADDED75")
+    verify_hash(False, "orig/Homeworld2Classic/Bin/Test/Debug.map", "A50F3A031F2AF2EBCCF26313A531DCFFC0463A8A")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/debug.pdb", "59DCCABFE658A06A403EC95171542E62AF53A090")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/DivxDecoder.dll", "DABD5ECF1FC64C2DCD451646BAC9F9309AADE0B4")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/DivxMediaLib.dll", "7E1F3909E2E598BEDAFBEEF8C8E3248FD6AE14ED")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/ExeTie.dll", "1B26301CFD9FAD649A69A7CEAECA1426E73BC860")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/exetie.pdb", "2E21307328B1883A212FA670A4C54E3B4DE682BC")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/FileIO.dll", "7C38853CF6194A90C97208F88F8F7742FA8F669D")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/fileio.pdb", "6EDD1D6D63B87155D0E14AE4D91814B776C7482B")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/FileParser.dll", "A49300A34E7DC52E58654551B846769363803CA4")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/GL.dll", "B12A5A34D6B1BA6EAE08F199A012E0DA20F5886C")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/gl.pdb", "9C1E5D42950E18B0E93F5C8CC62B02F89989C3E2")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/GSLobby.dll", "FD84820FB0081F36800608AF36B66CAEA5A71830")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/gslobby.pdb", "3848244FC6EAF4D2F87DA4AB31D23706EF1B66E0")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/Homeworld2.exe", "D466E943BBC0DE15E6A03D4528FADAFE9A61E058")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/homeworld2.pdb", "3FFF5AE05735824B2CD0CF99ED977FD9F43411DD")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/HW2Box.dll", "4BF1488669359EBA55C9AFA4EC892C7B0AC7076B")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/HW2Box.idb", "8E21E5E27C1DDE1A204166E6D132DE2A7033549E")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/hw2box.pdb", "13E90C2A1A5F2B1567C4FAF35BE2A79E91948F20")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/Localizer.dll", "5D61D3C7966E929F12B269E34E7D75CA3462623F")
+    verify_hash(False, "orig/Homeworld2Classic/Bin/Test/Localizer.map", "7CB03DD81BF1CE8A75B6F2F141CFAF928EC3E667")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/localizer.pdb", "B8BFF85CA917AE0C1DEFA5369868BFCC162EEA2E")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/lua.dll", "E84BD2F04F24F3C271BFCEDEDB5F311968A8423E")
+    verify_hash(False, "orig/Homeworld2Classic/Bin/Test/lua.map", "2A5EBB640BB81C13A83AF47BB95DEDF12CD906CA")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/lua.pdb", "DE6ED02382C992A1E9386D03BC419FC41CBDEBAC")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/LuaConfig.dll", "803EE5A8B248667F1183C9909A2B213888F07E6F")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/luaconfig.pdb", "8E8D632ADE09932D695C5F2D05C9EBBFA6BC882C")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/Memory.dll", "11BE85168EA7CEDE79014C59194ADC1D36AEE025")
+    verify_hash(False, "orig/Homeworld2Classic/Bin/Test/Memory.map", "08BB534FDC90B63BC6A53D699BF9E0832149278C")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/memory.pdb", "32060B645F111B101EA77F28448231F6EB8943C7")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/Objects.dll", "83166611A3BF9DEF772970D7700978CE54D3BE70")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/objects.pdb", "FF2D84B8E4AC4B128ECAF161A72A4A174EA4B1D6")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/Platform.dll", "CB1BD6F664BA168BECC5DCC3EB7FDE2B09CEEF2E")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/platform.pdb", "868F8A91797E5FCA9089014C2FE6A6AA7EFB7D3A")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/Profile.dll", "D2645A52C9F8AD95B83CF9BC941407F908F90031")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/profile.pdb", "A607E1B6D5F0990695760EDB62765EAD19B91B87")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/seDXAudio.dll", "1F0F0D5800931758C74DE783D186D10A6189CBE6")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/sedxaudio.pdb", "275C89EFA651C3E3D0DBF41943DA314B5EB6308F")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/seFDAudio.dll", "A338AA4DD826EDCEB10F71E6D2A18D3D6B1EB9EB")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/sefdaudio.pdb", "42CDCE1CD71A3835AF8ACBBA44BAEB3456E5A4E6")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/SteamLobby.dll", "B6E66A7FBCA6428CFF6DBA2B45BBA7248C3E2CF2")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/steamlobby.pdb", "355A8D95F6C5775AB8F69F9B5C7F00E6FE94AA81")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/steam_api.dll", "A80ABFB6D95D59536BB83776258D1094054C3595")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/steam_appid.txt", "259C2F70E80A13E01EEA061B007624CD5FBE837E")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/Util.dll", "9B44569B89B4F4B2A751CF36FEBEBC8DC75B9D10")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/util.pdb", "C9786DD63A87F23A848F0099C39A3BCFD2680A0F")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/ZLib.dll", "F6709D5C89EB17D88E3114D08A99C6D54A1A7EF8")
+    verify_hash(False, "orig/Homeworld2Classic/Bin/Test/ZLib.map", "6AEAA188A3C83D0CE607BEC53A464C4009BC4C00")
+    verify_hash(True, "orig/Homeworld2Classic/Bin/Test/zlib.pdb", "C0AF615EC1AEC75E6302B9C1C33AAE60C80FA84C")
+    verify_hash(False, "orig/Homeworld2Classic/Data/English.big", "40CD7736EE2E84DB54D1C2E9E3958ED1BEAEA132")
+    verify_hash(False, "orig/Homeworld2Classic/Data/EnglishSpeech.big", "5E2D0632A14DCB70610AFA405792C19FD7E26E9F")
+    verify_hash(False, "orig/Homeworld2Classic/Data/French.big", "456AF1F18937829AEE9829A889792F24D849C079")
+    verify_hash(False, "orig/Homeworld2Classic/Data/FrenchSpeech.big", "5E2D0632A14DCB70610AFA405792C19FD7E26E9F")
+    verify_hash(False, "orig/Homeworld2Classic/Data/German.big", "DA2937945AB06655BA45671335EE6F98B5C71606")
+    verify_hash(False, "orig/Homeworld2Classic/Data/GermanSpeech.big", "5E2D0632A14DCB70610AFA405792C19FD7E26E9F")
+    verify_hash(False, "orig/Homeworld2Classic/Data/Homeworld2.big", "D604EB8F74BB517AE45D40D723CBB04D4A3B1803")
+    verify_hash(False, "orig/Homeworld2Classic/Data/Italian.big", "8FC43819DFF8BFDC4735F90CB3B7E3A576E10969")
+    verify_hash(False, "orig/Homeworld2Classic/Data/ItalianSpeech.big", "5E2D0632A14DCB70610AFA405792C19FD7E26E9F")
+    verify_hash(False, "orig/Homeworld2Classic/Data/Music.big", "AE96811472C38471E90E9642DB65031822E8B87D")
+    verify_hash(False, "orig/Homeworld2Classic/Data/Spanish.big", "AA05968040229C215C17A1A75ECE4D88D9C13582")
+    verify_hash(False, "orig/Homeworld2Classic/Data/SpanishSpeech.big", "5E2D0632A14DCB70610AFA405792C19FD7E26E9F")
+    verify_hash(True, "compiler/VC/bin/cl.exe", "09239AA81FB405736393B5BB9519D73173B43A6A")
+    verify_hash(True, "compiler/VC/bin/mspdb110.dll", "3C0C109BDA6212CAA4C3241DE98C4F8437B7AFAD")
+elif CONFIG_ID == "HW2C_Exe":
+    verify_hash(True, "orig/HW2C_Exe", "A316A35906A97C478FC65A233FF1A1824BBE2697")
 
 if CONFIG_ID == "DevRelease":
     for bin_path, pdb_path in ORIG_BINARIES:
