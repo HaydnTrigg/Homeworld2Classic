@@ -25,6 +25,8 @@
 ![SteamLobby.dll](https://github.com/HaydnTrigg/Homeworld2Classic/raw/refs/heads/workflow-reports/images/DevRelease-objdiff-SteamLobby.dll.svg)
 ![Util.dll](https://github.com/HaydnTrigg/Homeworld2Classic/raw/refs/heads/workflow-reports/images/DevRelease-objdiff-Util.dll.svg)
 ![ZLib.dll](https://github.com/HaydnTrigg/Homeworld2Classic/raw/refs/heads/workflow-reports/images/DevRelease-objdiff-ZLib.dll.svg)
+![JPEG](https://github.com/HaydnTrigg/Homeworld2Classic/raw/refs/heads/workflow-reports/images/DevRelease-objdiff-JPEG.svg)
+![libwebm](https://github.com/HaydnTrigg/Homeworld2Classic/raw/refs/heads/workflow-reports/images/DevRelease-objdiff-libwebm.svg)
 
 ## HW2C_Exe
 

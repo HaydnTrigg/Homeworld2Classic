@@ -21,7 +21,9 @@
         "seFDAudio.dll": "seFDAudio.dll",
         "SteamLobby.dll": "SteamLobby.dll",
         "Util.dll": "Util.dll",
-        "ZLib.dll": "ZLib.dll"
+        "ZLib.dll": "ZLib.dll",
+        "libwebm": "libwebm",
+        "JPEG": "JPEG"
     },
     "compiler": "compiler\\VC\\bin\\cl.exe",
     "compiler_root": "compiler\\VC",
@@ -674,7 +676,7 @@
                 "-fp:precise",
                 "-Zc:wchar_t",
                 "-Zc:forScope",
-                "-FAcs",
+                //"-FAcs",
                 //"-FaR:\HICKORY-PCSHIP\Homeworld2Classic\src\Intermediate\Foreign\libwebm\Release\Obj",
                 "-Gz",
                 "-analyze-",
@@ -710,7 +712,7 @@
                 "-fp:precise",
                 "-Zc:wchar_t",
                 "-Zc:forScope",
-                "-FAcs",
+                //"-FAcs",
                 //"-FaR:\HICKORY-PCSHIP\Homeworld2Classic\src\Intermediate\Foreign\JPEG\Release\Obj\",
                 "-Gz",
                 "-TC",

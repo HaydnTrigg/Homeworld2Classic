@@ -1116,7 +1116,7 @@
         }
     },
     "libwebm": {
-        "progress_category": "Homeworld2.exe",
+        "progress_category": "libwebm",
         "cflags": "libwebm",
         "delink": "Homeworld2.exe",
         "objects": {
@@ -1125,7 +1125,7 @@
         }
     },
     "JPEG": {
-        "progress_category": "Objects.dll",
+        "progress_category": "JPEG",
         "cflags": "JPEG",
         "delink": "Objects.dll",
         "objects": {
