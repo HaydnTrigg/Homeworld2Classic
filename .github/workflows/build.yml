@@ -86,7 +86,8 @@ jobs:
         run: |
           $sha = $env:COMMIT_SHA
 
-          $reportDir = "Homeworld2Classic-Reports\$sha"
+          # $reportDir = "Homeworld2Classic-Reports\$sha"
+          $reportDir = "Homeworld2Classic-Reports"
           New-Item -ItemType Directory -Path $reportDir -Force
 
           $imagesDir = "Homeworld2Classic-Reports\images"
@@ -131,6 +132,6 @@ jobs:
 
           git add .
           git commit -F ..\commit_msg.txt
-          git tag -f latest
+          # git tag -f workflow-reports-latest
           git push origin workflow-reports
-          git push origin refs/tags/latest --force
+          # git push origin refs/tags/workflow-reports-latest --force
