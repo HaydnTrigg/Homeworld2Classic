@@ -24,7 +24,8 @@
         "ZLib.dll": "ZLib.dll"
     },
     "compiler": "compiler\\VC\\bin\\cl.exe",
-    "compiler_root": "compiler",
+    "compiler_root": "compiler\\VC",
+    "sdk_root": "compiler\\Windows Kits\\8.0",
     "asflags": [],
     "ldflags": [],
     "cflags": {
@@ -32,7 +33,12 @@
             "flags": [
                 "/DDECOMP",
                 "/Z7",
-                "/I$(SOURCE_ROOT)"
+                "\"/I$(SOURCE_ROOT)\"",
+                "\"/I$(COMPILER_ROOT)/include\"",
+                "\"/I$(COMPILER_ROOT)/atlmfc/include\"",
+                "\"/I$(SDK_ROOT)/Include/um\"",
+                "\"/I$(SDK_ROOT)/Include/shared\"",
+                "\"/I$(SDK_ROOT)/Include/winr\"t"
             ]
         },
         "common": {
@@ -149,7 +155,67 @@
         },
         "ZLib.dll": {
             "base": "common",
-            "flags": []
+            "flags": [
+                //"-FAcs",
+                "-W3",
+                "-Os",
+                "-Oy",
+                "-DREI_PC",
+                "-D_CRT_SECURE_NO_WARNINGS",
+                "-D_USRDLL",
+                "-DZLIB_EXPORTS",
+                "-DZLIB_DLL",
+                "-D_WINDLL",
+                "-D_MBCS",
+                "-Gm-"
+            ]
+            // CompilandEnv   : cmd = "
+            // -c
+            // -IR:\HICKORY-PCSHIP\Homeworld2Classic\src\src\Foreign\
+            // -IR:\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\Cross\
+            // -IR:\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\Cross\Compiler
+            // -IR:\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\Cross\ZLib\pch\
+            // -Zi
+            // -nologo
+            // -W3
+            // -WX-
+            // -O1
+            // -Ob2
+            // -Os
+            // -Oy
+            // -DREI_PC
+            // -D_CRT_SECURE_NO_WARNINGS
+            // -DWIN32
+            // -DNDEBUG
+            // -D_WINDOWS
+            // -D_USRDLL
+            // -DZLIB_EXPORTS
+            // -DREI_RELEASE
+            // -DZLIB_DLL
+            // -D_VC80_UPGRADE=0x0700
+            // -D_WINDLL
+            // -D_MBCS
+            // -GF
+            // -Gm-
+            // -EHs
+            // -EHc
+            // -MD
+            // -GS-
+            // -Gy
+            // -fp:precise
+            // -Zc:wchar_t
+            // -Zc:forScope
+            // -FAcs
+            // -FaR:\HICKORY-PCSHIP\Homeworld2Classic\src\Intermediate\Shared\ZLib\Release\Obj\
+            // -Gz
+            // -TC
+            // -analyze-
+            // -errorreport:prompt
+            // -I"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include"
+            // -I"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include"
+            // -I"C:\Program Files (x86)\Windows Kits\8.0\Include\um"
+            // -I"C:\Program Files (x86)\Windows Kits\8.0\Include\shared"
+            // -I"C:\Program Files (x86)\Windows Kits\8.0\Include\winrt" -X"
         }
     },
     "cxxflags": {

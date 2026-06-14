@@ -1,3 +1,11 @@
-[submodule "compiler"]
+[submodule "compiler/VC"]
 	path = compiler/VC
 	url = https://github.com/HaydnTrigg/Homeworld2Classic.git
+[submodule "src/src/shared/cross/zlib/src"]
+	path = src/src/shared/cross/zlib/src
+	url = https://github.com/HaydnTrigg/Homeworld2Classic.git
+	branch = zlib
+[submodule "compiler/Windows Kits"]
+	path = compiler/Windows Kits
+	url = https://github.com/HaydnTrigg/Homeworld2Classic.git
+	branch = windows-kits-8.0

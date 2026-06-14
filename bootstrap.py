@@ -23,10 +23,10 @@ args = parser.parse_args()
 CONFIG_ID = args.config_id
 config_path = args.config or f"config/{CONFIG_ID}/config.json"
 
-DELINK_VERSION = "v0.4.0"
+DELINK_VERSION = "v0.5.0"
 DELINK_EXE = Path(args.delink) if args.delink else Path("build/tools/delink-windows-x86_64.exe")
 DELINK_URL = f"https://github.com/HaydnTrigg/delink/releases/download/{DELINK_VERSION}/delink-windows-x86_64.exe"
-DELINK_SHA1 = "AC0F44FE1A8718426F8F86033B92B0765E1E1B7F"
+DELINK_SHA1 = "C19792619EE2A0122FB4E5958F0751EB6BA788C6"
 
 OBJDIFF_VERSION = "v3.7.2-Monkey"
 OBJDIFF_CLI_EXE = Path(args.objdiff_cli) if args.objdiff_cli else Path("build/tools/objdiff-cli-windows-x86_64.exe")
@@ -97,6 +97,7 @@ config = load_json(config_path)
 objects = load_json(f"config/{CONFIG_ID}/objects.json")
 
 COMPILER_ROOT = config.get("compiler_root")
+SDK_ROOT = config.get("sdk_root")
 
 def sha1_file(path: Path) -> str:
     h = hashlib.sha1()
@@ -227,6 +228,7 @@ def substitute_flag(flag):
     substitutions = {
         "$(SOURCE_ROOT)": SOURCE_ROOT,
         "$(COMPILER_ROOT)": COMPILER_ROOT,
+        "$(SDK_ROOT)": SDK_ROOT,
     }
     for token, value in substitutions.items():
         flag = flag.replace(token, value)

@@ -5,6 +5,7 @@
     "compiler": "compiler\\LLVM-7.0.0\\bin\\clang++.exe",
     "compiler_c": "compiler\\LLVM-7.0.0\\bin\\clang.exe",
     "compiler_root": "compiler",
+    "sdk_root": "",
     "asflags": [],
     "ldflags": [],
     "cflags": {
