@@ -9,3 +9,6 @@
 	path = compiler/Windows Kits
 	url = https://github.com/HaydnTrigg/Homeworld2Classic.git
 	branch = windows-kits-8.0
+[submodule "src/src/Foreign/lua/lua"]
+	path = src/src/Foreign/lua/lua
+	url = https://github.com/lua/lua.git
