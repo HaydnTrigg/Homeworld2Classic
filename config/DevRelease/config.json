@@ -33,6 +33,7 @@
     "cflags": {
         "decomp": {
             "flags": [
+                "/DDEVRELEASE",
                 "/DDECOMP",
                 "/Z7",
                 "\"/I$(SOURCE_ROOT)\"",
@@ -261,6 +262,7 @@
     "cxxflags": {
         "decomp": {
             "flags": [
+                "/DDEVRELEASE",
                 "/DDECOMP",
                 "/Z7",
                 "/I$(SOURCE_ROOT)",

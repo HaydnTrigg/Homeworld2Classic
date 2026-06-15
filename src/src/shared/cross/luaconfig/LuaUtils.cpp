@@ -1,19 +1,23 @@
-﻿/* ---------- headers */
+﻿#ifdef DEVRELEASE
+/* ---------- headers */
 
 #include "decomp.h"
+
 #include <assist\typemagic.h>
-#include <limits.h>
-#include <xmemory0>
-#include <new>
-#include <xstddef>
-#include <type_traits>
-#include <iosfwd>
-#include "src\src\Shared\PC\LuaConfig\pch.h"
 #include <LuaConfig\LuaUtils.h>
 #include <LuaConfig\LuaConfig.h>
 #include <lua\lua.h>
-#include <boost\scoped_ptr.hpp>
-#include <xstring>
+
+#include <limits.h>
+
+// #include <xmemory0>
+// #include <new>
+// #include <xstddef>
+// #include <type_traits>
+// #include <iosfwd>
+// #include "src\src\Shared\PC\LuaConfig\pch.h"
+// #include <boost\scoped_ptr.hpp>
+// #include <xstring>
 
 /* ---------- constants */
 
@@ -196,3 +200,4 @@ void __LCMsgWarning::Write(char const *) const // 0x10006D0A
 
 /* ---------- private code */
 #endif
+#endif // DEVRELEASE
