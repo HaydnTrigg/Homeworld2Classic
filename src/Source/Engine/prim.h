@@ -57,39 +57,4 @@ _inline void PrimRectangle::empty() // 0x45A7FC
 /* ---------- private code */
 
 #endif // __PRIM_H__
-/* combined */
-#ifndef __PRIM_H__
-#define __PRIM_H__
-#pragma once
-
-/* ---------- headers */
-
-/* ---------- constants */
-
-/* ---------- definitions */
-
-struct PrimRectangle
-{
-    float x; // 0x0
-    float y; // 0x4
-    float width; // 0x8
-    float height; // 0xC
-    bool isOn(vector2 const &) const;
-    bool isOn(float, float) const;
-    float x1() const;
-    float y1() const;
-    void empty();
-    void include(float, float);
-};
-static_assert(sizeof(PrimRectangle) == 16, "Invalid PrimRectangle size");
-
-/* ---------- prototypes */
-
-/* ---------- globals */
-
-/* ---------- public code */
-
-/* ---------- private code */
-
-#endif // __PRIM_H__
 #endif

@@ -33,24 +33,4 @@ static_assert(sizeof(ConFunctionTable) == 40, "Invalid ConFunctionTable size");
 /* ---------- private code */
 
 #endif // __CONSOLE_H__
-/* combined */
-#ifndef __CONSOLE_H__
-#define __CONSOLE_H__
-#pragma once
-
-/* ---------- headers */
-
-/* ---------- constants */
-
-/* ---------- definitions */
-
-/* ---------- prototypes */
-
-/* ---------- globals */
-
-/* ---------- public code */
-
-/* ---------- private code */
-
-#endif // __CONSOLE_H__
 #endif
