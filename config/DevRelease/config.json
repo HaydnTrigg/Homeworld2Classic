@@ -68,7 +68,9 @@
                 "-TC",
                 "-analyze-",
                 "-errorreport:prompt",
-                "-X"
+                "-X",
+                "\"/I$(SOURCE_ROOT)/src/src/shared/cross\"",
+                "\"/I$(SOURCE_ROOT)/src/src/Foreign\""
             ]
         },
         "Console.dll": {
@@ -247,7 +249,7 @@
                 "-fp:precise",
                 "-Zc:wchar_t",
                 "-Zc:forScope",
-                "-FAcs",
+                //"-FAcs",
                 //"-FaR:\HICKORY-PCSHIP\Homeworld2Classic\src\Intermediate\Foreign\libwebm\Release\Obj",
                 "-Gz",
                 "-analyze-",
@@ -296,7 +298,9 @@
                 "-TP",
                 "-analyze-",
                 "-errorreport:prompt",
-                "-X"
+                "-X",
+                "\"/I$(SOURCE_ROOT)/src/src/shared/cross\"",
+                "\"/I$(SOURCE_ROOT)/src/src/Foreign\""
             ]
         },
         "Console.dll": {

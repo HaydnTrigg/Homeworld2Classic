@@ -1,8 +1,8 @@
-﻿#if 0
-/* ---------- headers */
+﻿/* ---------- headers */
 
 #include "decomp.h"
 #include <assist\typemagic.h>
+#include <limits.h>
 #include <xmemory0>
 #include <new>
 #include <xstddef>
@@ -21,20 +21,6 @@
 
 /* ---------- prototypes */
 
-extern bool __LCGetVal(LuaConfig &L, char const *field, double &v);
-extern bool __LCGetVal(LuaConfig &L, char const *field, float &v);
-extern bool __LCGetVal(LuaConfig &L, char const *field, bool &v);
-extern bool __LCGetVal(LuaConfig &L, char const *field, long &v);
-extern bool __LCGetVal(LuaConfig &L, char const *field, unsigned long &v);
-extern void __LCGetString(LuaConfig &lua, char const *header, char const *field, char const *defstring, char *outstring, unsigned long maxn, __LCMsg const &output);
-extern void __LCGetString(LuaConfig &lua, char const *header, char const *field, char const *defstring, std::basic_string<char,std::char_traits<char>,std::allocator<char> > &outstring, __LCMsg const &output);
-extern void __LCSetVal(LuaConfig &L, char const *field, double v);
-extern void __LCSetVal(LuaConfig &L, char const *field, float v);
-extern void __LCSetVal(LuaConfig &L, char const *field, bool v);
-extern void __LCSetVal(LuaConfig &L, char const *field, long v);
-extern void __LCSetVal(LuaConfig &L, char const *field, unsigned long v);
-extern void LCGetSetString(LuaConfig &lua, char const *header, char const *field, char const *defstring, char *outstring, unsigned long maxn);
-extern void LCGetSetWString(LuaConfig &lua, char const *header, char const *field, wchar_t const *defstring, wchar_t *outstring, unsigned long maxn);
 
 /* ---------- globals */
 
@@ -42,6 +28,7 @@ extern void LCGetSetWString(LuaConfig &lua, char const *header, char const *fiel
 
 /* ---------- public code */
 
+#if 0
 _inline __LCMsgTrace::__LCMsgTrace(__LCMsgTrace const &) // 0x10006C1B
 {
     mangled_assert("??0__LCMsgTrace@@QAE@ABV0@@Z");
@@ -62,37 +49,75 @@ _inline __LCMsgWarning::__LCMsgWarning(__LCMsgWarning const &) // 0x10006C2F
     compiler_generated();
     todo("implement");
 }
+#endif
 
 bool __LCGetVal(LuaConfig &L, char const *field, double &v) // 0x10006EA4
 {
     mangled_assert("?__LCGetVal@@YG_NAAVLuaConfig@@PBDAAN@Z");
-    todo("implement");
+
+    return L.GetDouble(field, v);
 }
 
 bool __LCGetVal(LuaConfig &L, char const *field, float &v) // 0x10006E76
 {
     mangled_assert("?__LCGetVal@@YG_NAAVLuaConfig@@PBDAAM@Z");
-    todo("implement");
+    
+    double d;
+    bool result = L.GetDouble(field, d);
+    if(result)
+    {
+        v = d;
+        result = true;
+    }
+    return result;
 }
 
 bool __LCGetVal(LuaConfig &L, char const *field, bool &v) // 0x10006EB8
 {
     mangled_assert("?__LCGetVal@@YG_NAAVLuaConfig@@PBDAA_N@Z");
-    todo("implement");
+    
+    double d;
+    if(L.GetDouble(field, d))
+    {
+        // $cleanup: Replace with true/false
+        v = d ? 1 : 0;
+        return true;
+    }
+    // $cleanup: Not always returning value
 }
-
 bool __LCGetVal(LuaConfig &L, char const *field, long &v) // 0x10006DE7
 {
     mangled_assert("?__LCGetVal@@YG_NAAVLuaConfig@@PBDAAJ@Z");
-    todo("implement");
+    
+    double d;
+    if(L.GetDouble(field, d) && !(d < LONG_MIN || d > LONG_MAX))
+    {
+        v = static_cast<long>(d);
+        return true;
+    }
+    else
+    {
+        return false;
+    }
 }
 
 bool __LCGetVal(LuaConfig &L, char const *field, unsigned long &v) // 0x10006E2F
 {
     mangled_assert("?__LCGetVal@@YG_NAAVLuaConfig@@PBDAAK@Z");
-    todo("implement");
+    
+    double d;
+    if(L.GetDouble(field, d) && !(d < 0 || d > ULONG_MAX))
+    {
+        v = static_cast<unsigned long>(d);
+        return true;
+    }
+    else
+    {
+        return false;
+    }
 }
 
+#if 0
 void __LCGetString(LuaConfig &lua, char const *header, char const *field, char const *defstring, char *outstring, unsigned long maxn, __LCMsg const &output) // 0x10006D7E
 {
     mangled_assert("?__LCGetString@@YGXAAVLuaConfig@@PBD11PADKABV__LCMsg@@@Z");
