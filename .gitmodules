@@ -19,3 +19,7 @@
 	path = src/src/Foreign/jpeg-6b
 	url = https://github.com/HaydnTrigg/Homeworld2Classic.git
 	branch = jpeg-6b
+[submodule "src/src/Foreign/boost"]
+	path = src/src/Foreign/boost
+	url = https://github.com/HaydnTrigg/Homeworld2Classic.git
+	branch = boost
