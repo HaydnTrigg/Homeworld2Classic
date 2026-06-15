@@ -142,7 +142,6 @@ typedef unsigned __int32 rsize_t;
 typedef long long _Longlong;
 typedef _s__RTTIClassHierarchyDescriptor __RTTIClassHierarchyDescriptor;
 typedef _s__RTTIBaseClassDescriptor2 __RTTIBaseClassDescriptor;
-typedef _HMEMPOOL *HMEMPOOL;
 typedef _lldiv_t lldiv_t;
 typedef void (*unexpected_function)();
 typedef long long time_t;

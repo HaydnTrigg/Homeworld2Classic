@@ -159,10 +159,8 @@ typedef void (*_se_translator_function)(unsigned __int32, _EXCEPTION_POINTERS *)
 typedef unsigned char uint8;
 typedef _s__RTTIClassHierarchyDescriptor __RTTIClassHierarchyDescriptor;
 typedef _s__RTTIBaseClassDescriptor2 __RTTIBaseClassDescriptor;
-typedef _HMEMPOOLSHOT *HMEMPOOLSHOT;
 typedef unsigned __int32 uintptr_t;
 typedef void *_HFILE;
-typedef _HMEMPOOL *HMEMPOOL;
 typedef _lldiv_t lldiv_t;
 typedef _div_t div_t;
 typedef unsigned short uint16;
@@ -171,7 +169,6 @@ typedef long long time_t;
 typedef __int32 int32;
 typedef wchar_t _Wint_t;
 typedef _s__CatchableType _CatchableType;
-typedef _HMEMPOOLWALK *HMEMPOOLWALK;
 typedef void (*terminate_handler)();
 typedef unsigned __int32 udword;
 typedef char __static_assert_t[1];
