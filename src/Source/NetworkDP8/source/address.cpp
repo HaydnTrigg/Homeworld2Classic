@@ -82,7 +82,7 @@
 #include <wnnc.h>
 #include <boost\type_traits\is_float.hpp>
 #include <stdarg.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\source\directplay.h"
+#include "src\Source\NetworkDP8\source\directplay.h"
 #include <boost\type_traits\is_member_pointer.hpp>
 #include <windef.h>
 #include <boost\thread\thread.hpp>
@@ -196,8 +196,8 @@
 #include <sysinfoapi.h>
 #include <boost\bind\mem_fn_template.hpp>
 #include <boost\preprocessor\logical\bool.hpp>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\pch.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\source\address.h"
+#include "src\Source\NetworkDP8\pch.h"
+#include "src\Source\NetworkDP8\source\address.h"
 #include <atlchecked.h>
 #include <boost\next_prior.hpp>
 #include <boost\mpl\aux_\preprocessor\params.hpp>

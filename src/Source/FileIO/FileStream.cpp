@@ -10,7 +10,7 @@
 #include <pch.h>
 #include <boost\config\select_stdlib_config.hpp>
 #include <memory\memorylib.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\FilePath.h"
+#include "src\Source\FileIO\FilePath.h"
 #include <boost\config\stdlib\dinkumware.hpp>
 #include <malloc.h>
 #include <boost\config\select_platform_config.hpp>
@@ -22,10 +22,10 @@
 #include <vadefs.h>
 #include <setjmp.h>
 #include <debug\ctassert.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\FileStream.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\fileioexports.h"
+#include "src\Source\FileIO\FileStream.h"
+#include "src\Source\FileIO\fileioexports.h"
 #include <new>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\ByteStream.h"
+#include "src\Source\FileIO\ByteStream.h"
 #include <exception>
 #include <assist\fixedstring.h>
 #include <set>

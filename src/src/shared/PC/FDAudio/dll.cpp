@@ -4,8 +4,8 @@
 #include "decomp.h"
 #include <mmsystem.h>
 #include <mmsyscom.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\PC\FDAudio\pch.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\PC\FDAudio\FDAudio.h"
+#include "src\src\Shared\PC\FDAudio\pch.h"
+#include "src\src\Shared\PC\FDAudio\FDAudio.h"
 #include <seinterface2\sedevice.h>
 #include <seinterface2\sedefinesshared.h>
 #include <playsoundapi.h>
@@ -18,7 +18,7 @@
 #include <timeapi.h>
 #include <apisetcconv.h>
 #include <mciapi.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\PC\FDAudio\fqeffect.h"
+#include "src\src\Shared\PC\FDAudio\fqeffect.h"
 #include <apiset.h>
 #include <pshpack1.h>
 #include <Mathlib\vector4.h>

@@ -3,7 +3,7 @@
 
 #include "decomp.h"
 #include <swprintf.inl>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Src\Foreign\ToLua\src\tolua.h"
+#include "src\Src\Foreign\ToLua\src\tolua.h"
 #include <memory\memorylib.h>
 #include <malloc.h>
 #include <crtdefs.h>
@@ -11,15 +11,15 @@
 #include <concurrencysal.h>
 #include <vadefs.h>
 #include <stdio.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Src\Foreign\ToLua\src\tolua_rg.h"
+#include "src\Src\Foreign\ToLua\src\tolua_rg.h"
 #include <stdlib.h>
 #include <limits.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Src\Foreign\ToLua\src\tolua_tm.h"
+#include "src\Src\Foreign\ToLua\src\tolua_tm.h"
 #include <string.h>
 #include <memory.h>
 #include <lua.h>
 #include <stddef.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Src\Foreign\ToLua\src\tolua_tt.h"
+#include "src\Src\Foreign\ToLua\src\tolua_tt.h"
 
 /* ---------- constants */
 

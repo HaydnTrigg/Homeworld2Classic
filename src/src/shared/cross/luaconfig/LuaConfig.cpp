@@ -24,7 +24,7 @@
 #include <debug\db.h>
 #include <assist\fixedstring.h>
 #include <vector>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\PC\LuaConfig\pch.h"
+#include "src\src\Shared\PC\LuaConfig\pch.h"
 #include <LuaConfig\LuaConfig.h>
 #include <lua\lua.h>
 #include <boost\scoped_ptr.hpp>

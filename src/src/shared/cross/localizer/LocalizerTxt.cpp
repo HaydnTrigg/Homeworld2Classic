@@ -17,7 +17,7 @@
 #include <xmemory>
 #include <xmemory0>
 #include <limits>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\PC\Localizer\pch.h"
+#include "src\src\Shared\PC\Localizer\pch.h"
 #include <Localizer\LocalizerTxt.h>
 #include <type_traits>
 #include <Localizer\LocalizerImp.h>

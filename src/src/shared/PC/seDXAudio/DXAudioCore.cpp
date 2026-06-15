@@ -6,8 +6,8 @@
 #include <rpcnsip.h>
 #include <mmsystem.h>
 #include <mmsyscom.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\PC\seDXAudio\pch.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\PC\seDXAudio\DXAudio.h"
+#include "src\src\Shared\PC\seDXAudio\pch.h"
+#include "src\src\Shared\PC\seDXAudio\DXAudio.h"
 #include <objidlbase.h>
 #include <seinterface2\sedevice.h>
 #include <oleidl.h>
@@ -22,7 +22,7 @@
 #include <mmeapi.h>
 #include <rpcsal.h>
 #include <poppack.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\PC\seDXAudio\dxaudiotypes.h"
+#include "src\src\Shared\PC\seDXAudio\dxaudiotypes.h"
 #include <dsound.h>
 #include <objbase.h>
 #include <rpc.h>

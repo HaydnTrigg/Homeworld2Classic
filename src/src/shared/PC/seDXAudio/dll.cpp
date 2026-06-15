@@ -4,8 +4,8 @@
 #include "decomp.h"
 #include <mmsystem.h>
 #include <mmsyscom.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\PC\seDXAudio\pch.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\PC\seDXAudio\DXAudio.h"
+#include "src\src\Shared\PC\seDXAudio\pch.h"
+#include "src\src\Shared\PC\seDXAudio\DXAudio.h"
 #include <seinterface2\sedevice.h>
 #include <seinterface2\sedefinesshared.h>
 #include <playsoundapi.h>

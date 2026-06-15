@@ -48,8 +48,8 @@
 #include <iosfwd>
 #include <crtdbg.h>
 #include <share.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\pch.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\source\exception.h"
+#include "src\Source\NetworkDP8\pch.h"
+#include "src\Source\NetworkDP8\source\exception.h"
 #include <string>
 #include <xrefwrap>
 #include <iterator>

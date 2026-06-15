@@ -20,7 +20,7 @@
 #include <xmemory0>
 #include <assist\scoped.h>
 #include <boost\mpl\bool.hpp>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\PC\Localizer\pch.h"
+#include "src\src\Shared\PC\Localizer\pch.h"
 #include <Localizer\LocalizerImp.h>
 #include <type_traits>
 #include <Localizer\Localizer.h>

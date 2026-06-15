@@ -12,7 +12,7 @@
 #include <cstdio>
 #include <excpt.h>
 #include <stdio.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\boost_thread\xtime.hpp"
+#include "src\Source\NetworkDP8\boost_thread\xtime.hpp"
 #include <boost\config.hpp>
 #include <ime_cmodes.h>
 #include <errhandlingapi.h>

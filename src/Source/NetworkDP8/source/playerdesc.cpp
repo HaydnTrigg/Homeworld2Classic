@@ -115,8 +115,8 @@
 #include <interlockedapi.h>
 #include <winioctl.h>
 #include <securitybaseapi.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\pch.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\source\playerdesc.h"
+#include "src\Source\NetworkDP8\pch.h"
+#include "src\Source\NetworkDP8\source\playerdesc.h"
 #include <dplay8.h>
 #include <oleidl.h>
 #include <string>

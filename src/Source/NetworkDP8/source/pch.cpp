@@ -2,7 +2,7 @@
 /* ---------- headers */
 
 #include "decomp.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\source\pch.h"
+#include "src\Source\NetworkDP8\source\pch.h"
 #include <memory\memorylib.h>
 #include <malloc.h>
 #include <crtdefs.h>

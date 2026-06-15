@@ -7,7 +7,7 @@
 #include <iosfwd>
 #include <cstdio>
 #include <stdio.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\boost_thread\exceptions.hpp"
+#include "src\Source\NetworkDP8\boost_thread\exceptions.hpp"
 #include <boost\config.hpp>
 #include <wtime.inl>
 #include <boost\config\user.hpp>

@@ -11,7 +11,7 @@
 #include <winnls.h>
 #include <boost\type_traits\has_trivial_copy.hpp>
 #include <stdio.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\boost_thread\mutex.hpp"
+#include "src\Source\NetworkDP8\boost_thread\mutex.hpp"
 #include <datetimeapi.h>
 #include <boost\type_traits\is_volatile.hpp>
 #include <boost\config.hpp>
@@ -100,7 +100,7 @@
 #include <memoryapi.h>
 #include <boost\limits.hpp>
 #include <type_traits>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\boost_thread\timeconv.inl"
+#include "src\Source\NetworkDP8\boost_thread\timeconv.inl"
 #include <boost\type_traits\is_fundamental.hpp>
 #include <malloc.h>
 #include <boost\type_traits\ice.hpp>

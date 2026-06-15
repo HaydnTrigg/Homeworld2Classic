@@ -21,8 +21,8 @@
 #include <vadefs.h>
 #include <setjmp.h>
 #include <debug\ctassert.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\ConfigFile.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\fileioexports.h"
+#include "src\Source\FileIO\ConfigFile.h"
+#include "src\Source\FileIO\fileioexports.h"
 #include <new>
 #include <exception>
 #include <set>
@@ -108,9 +108,9 @@
 #include <xstring>
 #include <io.h>
 #include <xtr1common>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\FilePathHDRaw.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\FilePath.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\ByteStream.h"
+#include "src\Source\FileIO\FilePathHDRaw.h"
+#include "src\Source\FileIO\FilePath.h"
+#include "src\Source\FileIO\ByteStream.h"
 #include <cstring>
 #include <eh.h>
 #include <assist\fixedstring.h>

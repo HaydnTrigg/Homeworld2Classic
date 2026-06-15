@@ -2,9 +2,9 @@
 /* ---------- headers */
 
 #include "decomp.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\PC\FDAudio\pch.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\PC\FDAudio\dct.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\PC\FDAudio\fqcodec.h"
+#include "src\src\Shared\PC\FDAudio\pch.h"
+#include "src\src\Shared\PC\FDAudio\dct.h"
+#include "src\src\Shared\PC\FDAudio\fqcodec.h"
 #include <math.h>
 
 /* ---------- constants */

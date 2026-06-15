@@ -15,7 +15,7 @@
 #include <boost\mpl\bool.hpp>
 #include <boost\bind.hpp>
 #include <boost\ref.hpp>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\PC\Localizer\pch.h"
+#include "src\src\Shared\PC\Localizer\pch.h"
 #include <Localizer\LocalizerUCS.h>
 #include <boost\utility\addressof.hpp>
 #include <type_traits>

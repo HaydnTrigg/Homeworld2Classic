@@ -21,10 +21,10 @@
 #include <vadefs.h>
 #include <setjmp.h>
 #include <debug\ctassert.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\CRC.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\ByteStream.h"
+#include "src\Source\FileIO\CRC.h"
+#include "src\Source\FileIO\ByteStream.h"
 #include <new>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\fileioexports.h"
+#include "src\Source\FileIO\fileioexports.h"
 #include <exception>
 #include <assist\fixedstring.h>
 #include <set>

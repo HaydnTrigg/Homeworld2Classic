@@ -8,7 +8,7 @@
 #include <type_traits>
 #include <xstring>
 #include <iosfwd>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Src\Shared\PC\seInterface2\pch.h"
+#include "src\Src\Shared\PC\seInterface2\pch.h"
 #include <seInterface2\SampleBase.h>
 
 /* ---------- constants */

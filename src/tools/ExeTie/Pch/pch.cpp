@@ -4,7 +4,7 @@
 #include "decomp.h"
 #include <handleapi.h>
 #include <time.inl>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\tools\ExeTie\Pch\pch.h"
+#include "src\tools\ExeTie\Pch\pch.h"
 #include <threadpoolapiset.h>
 #include <memory\memorylib.h>
 #include <malloc.h>

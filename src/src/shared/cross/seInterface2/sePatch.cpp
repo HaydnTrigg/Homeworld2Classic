@@ -47,7 +47,7 @@
 #include <boost\config\stdlib\dinkumware.hpp>
 #include <boost\config\select_platform_config.hpp>
 #include <boost\config\platform\win32.hpp>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Src\Shared\PC\seInterface2\pch.h"
+#include "src\Src\Shared\PC\seInterface2\pch.h"
 #include <seInterface2\SEInterface.h>
 #include <seInterface2\seinterfacefunc.h>
 #include <seInterface2\seinclude.h>

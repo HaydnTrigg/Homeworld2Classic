@@ -22,8 +22,8 @@
 #include <vadefs.h>
 #include <setjmp.h>
 #include <debug\ctassert.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\IFF.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\fileioexports.h"
+#include "src\Source\FileIO\IFF.h"
+#include "src\Source\FileIO\fileioexports.h"
 #include <new>
 #include <exception>
 #include <set>
@@ -116,7 +116,7 @@
 #include <boost\shared_array.hpp>
 #include <climits>
 #include <cwchar>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\ByteStream.h"
+#include "src\Source\FileIO\ByteStream.h"
 #include <wchar.h>
 #include <assist\fixedstring.h>
 #include <assist\stlexstring.h>

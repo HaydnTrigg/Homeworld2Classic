@@ -144,9 +144,9 @@
 #include <stralign.h>
 #include <jobapi.h>
 #include <apiset.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\pch.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\source\sessioninfo.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\source\address.h"
+#include "src\Source\NetworkDP8\pch.h"
+#include "src\Source\NetworkDP8\source\sessioninfo.h"
+#include "src\Source\NetworkDP8\source\address.h"
 #include <winsvc.h>
 #include <string>
 #include <xrefwrap>

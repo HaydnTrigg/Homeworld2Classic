@@ -12,7 +12,7 @@
 #include <cstdio>
 #include <boost\type_traits\is_convertible.hpp>
 #include <stdio.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\boost_thread\condition.hpp"
+#include "src\Source\NetworkDP8\boost_thread\condition.hpp"
 #include <cderr.h>
 #include <boost\type_traits\is_empty.hpp>
 #include <boost\type_traits\detail\yes_no_type.hpp>
@@ -306,7 +306,7 @@
 #include <boost\limits.hpp>
 #include <cassert>
 #include <boost\utility\base_from_member.hpp>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\boost_thread\timeconv.inl"
+#include "src\Source\NetworkDP8\boost_thread\timeconv.inl"
 #include <assert.h>
 #include <boost\utility_fwd.hpp>
 #include <algorithm>

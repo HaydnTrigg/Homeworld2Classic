@@ -17,7 +17,7 @@
 #include <seInterface2\sedefinesshared.h>
 #include <xutility>
 #include <iosfwd>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Src\Shared\PC\seInterface2\pch.h"
+#include "src\Src\Shared\PC\seInterface2\pch.h"
 #include <seInterface2\SEInterface.h>
 #include <seInterface2\seinterfacefunc.h>
 #include <seInterface2\seinclude.h>

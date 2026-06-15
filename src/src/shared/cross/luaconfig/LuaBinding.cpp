@@ -7,7 +7,7 @@
 #include <xstddef>
 #include <type_traits>
 #include <iosfwd>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\PC\LuaConfig\pch.h"
+#include "src\src\Shared\PC\LuaConfig\pch.h"
 #include <LuaConfig\LuaBinding.h>
 #include <LuaConfig\LuaConfig.h>
 #include <lua\lua.h>

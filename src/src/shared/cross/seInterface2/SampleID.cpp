@@ -14,7 +14,7 @@
 #include <seInterface2\PatchBase.h>
 #include <seInterface2\SoundParams.h>
 #include <seInterface2\sedefinesshared.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Src\Shared\PC\seInterface2\pch.h"
+#include "src\Src\Shared\PC\seInterface2\pch.h"
 #include <seInterface2\SampleID.h>
 #include <seInterface2\SampleBase.h>
 

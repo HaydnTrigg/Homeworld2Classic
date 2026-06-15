@@ -2,14 +2,14 @@
 /* ---------- headers */
 
 #include "decomp.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Src\Foreign\ToLua\src\tolua.h"
+#include "src\Src\Foreign\ToLua\src\tolua.h"
 #include <memory\memorylib.h>
 #include <malloc.h>
 #include <crtdefs.h>
 #include <sal.h>
 #include <concurrencysal.h>
 #include <vadefs.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Src\Foreign\ToLua\src\tolua_tm.h"
+#include "src\Src\Foreign\ToLua\src\tolua_tm.h"
 #include <stdlib.h>
 #include <limits.h>
 #include <string.h>

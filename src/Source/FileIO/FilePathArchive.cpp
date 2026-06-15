@@ -21,12 +21,12 @@
 #include <vadefs.h>
 #include <setjmp.h>
 #include <debug\ctassert.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\FilePathArchive.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\FilePath.h"
+#include "src\Source\FileIO\FilePathArchive.h"
+#include "src\Source\FileIO\FilePath.h"
 #include <new>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\fileioexports.h"
+#include "src\Source\FileIO\fileioexports.h"
 #include <exception>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\ByteStream.h"
+#include "src\Source\FileIO\ByteStream.h"
 #include <set>
 #include <xstddef>
 #include <cstddef>
@@ -136,9 +136,9 @@
 #include <map>
 #include <xtree>
 #include <system_error>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\Archive.h"
+#include "src\Source\FileIO\Archive.h"
 #include <cerrno>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\archiveinternals.h"
+#include "src\Source\FileIO\archiveinternals.h"
 #include <errno.h>
 #include <boost\scoped_array.hpp>
 

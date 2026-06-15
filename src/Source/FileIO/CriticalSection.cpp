@@ -37,10 +37,10 @@
 #include <ime_cmodes.h>
 #include <errhandlingapi.h>
 #include <processenv.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\platform.h"
+#include "src\Source\FileIO\platform.h"
 #include <jobapi.h>
 #include <guiddef.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\fileioexports.h"
+#include "src\Source\FileIO\fileioexports.h"
 #include <new>
 #include <exception>
 #include <apiset.h>

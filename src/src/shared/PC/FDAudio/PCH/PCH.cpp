@@ -8,7 +8,7 @@
 #include <boost\detail\lwm_win32.hpp>
 #include <pshpack4.h>
 #include <winerror.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\PC\FDAudio\PCH\PCH.h"
+#include "src\src\Shared\PC\FDAudio\PCH\PCH.h"
 #include <memory\memorylib.h>
 #include <malloc.h>
 #include <winnt.h>

@@ -56,7 +56,7 @@
 #include <memory>
 #include <wchar.h>
 #include <stdint.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Src\Shared\PC\seInterface2\pch.h"
+#include "src\Src\Shared\PC\seInterface2\pch.h"
 #include <seInterface2\SoundParamManager.h>
 #include <seInterface2\SoundParams.h>
 #include <boost\detail\workaround.hpp>

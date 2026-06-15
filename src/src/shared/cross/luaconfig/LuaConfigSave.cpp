@@ -17,7 +17,7 @@
 #include <string.h>
 #include <debug\db.h>
 #include <vector>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\PC\LuaConfig\pch.h"
+#include "src\src\Shared\PC\LuaConfig\pch.h"
 #include <LuaConfig\LuaConfigSave.h>
 #include <boost\scoped_ptr.hpp>
 #include <fileio\filestream.h>

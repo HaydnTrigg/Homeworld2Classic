@@ -152,7 +152,7 @@
 #include <sdv_driverspecs.h>
 #include <ncrypt.h>
 #include <smmintrin.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\source\address.h"
+#include "src\Source\NetworkDP8\source\address.h"
 #include <type_traits>
 #include <tmmintrin.h>
 #include <threadpoolapiset.h>
@@ -233,7 +233,7 @@
 #include <boost\preprocessor\array\elem.hpp>
 #include <wow64apiset.h>
 #include <ktmw32.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\pch.h"
+#include "src\Source\NetworkDP8\pch.h"
 #include <algorithm>
 #include <boost\preprocessor\array\data.hpp>
 #include <atliface.h>
@@ -261,7 +261,7 @@
 #include <boost\function\detail\prologue.hpp>
 #include <basetsd.h>
 #include <pshpack2.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\source\directplay.h"
+#include "src\Source\NetworkDP8\source\directplay.h"
 #include <boost\throw_exception.hpp>
 #include <libloaderapi.h>
 #include <boost\cstdint.hpp>
@@ -330,7 +330,7 @@
 #include <atlwinverapi.h>
 #include <boost\type_traits\detail\type_trait_undef.hpp>
 #include <prsht.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\source\directplaydeleter.h"
+#include "src\Source\NetworkDP8\source\directplaydeleter.h"
 #include <boost\type_traits\is_convertible.hpp>
 #include <ammintrin.h>
 #include <boost\type_traits\detail\bool_trait_undef.hpp>
@@ -363,7 +363,7 @@
 #include <boost\type_traits\ice.hpp>
 #include <atldef.h>
 #include <atlcomcli.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\source\exception.h"
+#include "src\Source\NetworkDP8\source\exception.h"
 
 /* ---------- constants */
 

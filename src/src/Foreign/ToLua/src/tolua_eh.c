@@ -2,7 +2,7 @@
 /* ---------- headers */
 
 #include "decomp.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Src\Foreign\ToLua\src\tolua.h"
+#include "src\Src\Foreign\ToLua\src\tolua.h"
 #include <memory\memorylib.h>
 #include <malloc.h>
 #include <crtdefs.h>
@@ -10,10 +10,10 @@
 #include <concurrencysal.h>
 #include <vadefs.h>
 #include <swprintf.inl>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Src\Foreign\ToLua\src\tolua_eh.h"
+#include "src\Src\Foreign\ToLua\src\tolua_eh.h"
 #include <stdlib.h>
 #include <limits.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Src\Foreign\ToLua\src\tolua_rg.h"
+#include "src\Src\Foreign\ToLua\src\tolua_rg.h"
 #include <stdio.h>
 #include <string.h>
 #include <memory.h>

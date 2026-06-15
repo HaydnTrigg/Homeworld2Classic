@@ -6,8 +6,8 @@
 #include <mmsystem.h>
 #include <mmsyscom.h>
 #include <memory\memorylib.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\PC\FDAudio\pch.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\PC\FDAudio\FDAudio.h"
+#include "src\src\Shared\PC\FDAudio\pch.h"
+#include "src\src\Shared\PC\FDAudio\FDAudio.h"
 #include <seinterface2\sedevice.h>
 #include <seinterface2\sedefinesshared.h>
 #include <dsound.h>
@@ -30,8 +30,8 @@
 #include <assist\typemagic.h>
 #include <pshpack8.h>
 #include <urlmon.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\PC\FDAudio\fdaudiodata.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\PC\FDAudio\fqcodec.h"
+#include "src\src\Shared\PC\FDAudio\fdaudiodata.h"
+#include "src\src\Shared\PC\FDAudio\fqcodec.h"
 #include <Mathlib\vector3.h>
 #include <util\types.h>
 #include <timeapi.h>
@@ -40,7 +40,7 @@
 #include <mciapi.h>
 #include <servprov.h>
 #include <objidl.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\PC\FDAudio\fqeffect.h"
+#include "src\src\Shared\PC\FDAudio\fqeffect.h"
 #include <guiddef.h>
 #include <memory\memorypool.h>
 #include <apiset.h>
@@ -50,7 +50,7 @@
 #include <Mathlib\fastmath.h>
 #include <joystickapi.h>
 #include <math.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\PC\FDAudio\fquant.h"
+#include "src\src\Shared\PC\FDAudio\fquant.h"
 #include <rpcndr.h>
 #include <rpcnsip.h>
 #include <Mathlib\mathutil.h>

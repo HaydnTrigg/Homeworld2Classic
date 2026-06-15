@@ -4,7 +4,7 @@
 #include "decomp.h"
 #include <assist\typemagic.h>
 #include <debug\ctassert.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Src\Shared\PC\seInterface2\pch.h"
+#include "src\Src\Shared\PC\seInterface2\pch.h"
 #include <seInterface2\SoundParams.h>
 
 /* ---------- constants */

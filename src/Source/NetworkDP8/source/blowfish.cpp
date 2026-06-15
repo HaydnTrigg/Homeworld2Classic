@@ -5,7 +5,7 @@
 #include <wtime.inl>
 #include <crtdefs.h>
 #include <cfloat>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\source\blowfish.h2"
+#include "src\Source\NetworkDP8\source\blowfish.h2"
 #include <float.h>
 #include <crtwrn.h>
 #include <intrin.h>
@@ -31,8 +31,8 @@
 #include <climits>
 #include <cmath>
 #include <math.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\pch.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\source\blowfish.h"
+#include "src\Source\NetworkDP8\pch.h"
+#include "src\Source\NetworkDP8\source\blowfish.h"
 #include <vector>
 #include <xmemory>
 #include <xmemory0>

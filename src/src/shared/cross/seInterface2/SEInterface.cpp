@@ -46,7 +46,7 @@
 #include <rpcdce.h>
 #include <combaseapi.h>
 #include <oaidl.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Src\Shared\PC\seInterface2\pch.h"
+#include "src\Src\Shared\PC\seInterface2\pch.h"
 #include <seInterface2\SEInterface.h>
 #include <mmreg.h>
 #include <propidl.h>

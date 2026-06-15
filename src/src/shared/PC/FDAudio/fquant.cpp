@@ -2,10 +2,10 @@
 /* ---------- headers */
 
 #include "decomp.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\PC\FDAudio\pch.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\PC\FDAudio\fqcodec.h"
+#include "src\src\Shared\PC\FDAudio\pch.h"
+#include "src\src\Shared\PC\FDAudio\fqcodec.h"
 #include <crtdefs.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\PC\FDAudio\fquant.h"
+#include "src\src\Shared\PC\FDAudio\fquant.h"
 #include <assert.h>
 #include <math.h>
 

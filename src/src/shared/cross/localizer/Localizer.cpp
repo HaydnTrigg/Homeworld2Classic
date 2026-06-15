@@ -15,7 +15,7 @@
 #include <algorithm>
 #include <xmemory0>
 #include <boost\mpl\bool.hpp>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\src\Shared\PC\Localizer\pch.h"
+#include "src\src\Shared\PC\Localizer\pch.h"
 #include <Localizer\Localizer.h>
 #include <boost\type.hpp>
 #include <type_traits>

@@ -21,8 +21,8 @@
 #include <vadefs.h>
 #include <setjmp.h>
 #include <debug\ctassert.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\MD5.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\fileioexports.h"
+#include "src\Source\FileIO\MD5.h"
+#include "src\Source\FileIO\fileioexports.h"
 #include <new>
 #include <exception>
 #include <set>
@@ -81,11 +81,11 @@
 #include <xrefwrap>
 #include <boost\throw_exception.hpp>
 #include <ios>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\FilePath.h"
+#include "src\Source\FileIO\FilePath.h"
 #include <xlocnum>
 #include <xdebug>
 #include <memory.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\ByteStream.h"
+#include "src\Source\FileIO\ByteStream.h"
 #include <streambuf>
 #include <assist\fixedstring.h>
 #include <boost\detail\shared_count.hpp>

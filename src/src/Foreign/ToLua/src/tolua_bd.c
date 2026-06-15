@@ -2,7 +2,7 @@
 /* ---------- headers */
 
 #include "decomp.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Src\Foreign\ToLua\src\tolua.h"
+#include "src\Src\Foreign\ToLua\src\tolua.h"
 #include <memory\memorylib.h>
 #include <malloc.h>
 #include <crtdefs.h>

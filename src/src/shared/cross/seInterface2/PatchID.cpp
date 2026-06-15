@@ -14,7 +14,7 @@
 #include <xutility>
 #include <seInterface2\sedefinesshared.h>
 #include <iosfwd>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Src\Shared\PC\seInterface2\pch.h"
+#include "src\Src\Shared\PC\seInterface2\pch.h"
 #include <seInterface2\PatchID.h>
 #include <seInterface2\PatchBase.h>
 #include <seInterface2\SoundParams.h>

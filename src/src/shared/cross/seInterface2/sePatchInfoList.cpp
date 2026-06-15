@@ -12,7 +12,7 @@
 #include <xutility>
 #include <utility>
 #include <algorithm>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Src\Shared\PC\seInterface2\pch.h"
+#include "src\Src\Shared\PC\seInterface2\pch.h"
 #include <seInterface2\sePatchInfoList.h>
 #include <seInterface2\PatchID.h>
 #include <seInterface2\PatchBase.h>

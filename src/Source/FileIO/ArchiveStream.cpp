@@ -21,10 +21,10 @@
 #include <vadefs.h>
 #include <setjmp.h>
 #include <debug\ctassert.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\ArchiveStream.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\ByteStream.h"
+#include "src\Source\FileIO\ArchiveStream.h"
+#include "src\Source\FileIO\ByteStream.h"
 #include <new>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\fileioexports.h"
+#include "src\Source\FileIO\fileioexports.h"
 #include <exception>
 #include <assist\fixedstring.h>
 #include <set>
@@ -111,8 +111,8 @@
 #include <stdexcept>
 #include <xstring>
 #include <xtr1common>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\Archive.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\archiveinternals.h"
+#include "src\Source\FileIO\Archive.h"
+#include "src\Source\FileIO\archiveinternals.h"
 #include <cstring>
 #include <eh.h>
 #include <memory>

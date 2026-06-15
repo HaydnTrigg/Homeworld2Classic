@@ -40,14 +40,14 @@
 #include <securityappcontainer.h>
 #include <imm.h>
 #include <fibersapi.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\LogFile.h"
+#include "src\Source\FileIO\LogFile.h"
 #include <winscard.h>
 #include <winver.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\fileioexports.h"
+#include "src\Source\FileIO\fileioexports.h"
 #include <new>
 #include <wtypes.h>
 #include <verrsrc.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\ByteStream.h"
+#include "src\Source\FileIO\ByteStream.h"
 #include <exception>
 #include <rpcndr.h>
 #include <assist\fixedstring.h>
@@ -242,7 +242,7 @@
 #include <cstdarg>
 #include <processenv.h>
 #include <guiddef.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\platform.h"
+#include "src\Source\FileIO\platform.h"
 #include <stdlib.h>
 #include <limits.h>
 #include <jobapi.h>
@@ -263,7 +263,7 @@
 #include <xtree>
 #include <shellapi.h>
 #include <winnls.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\FileIO\FilePath.h"
+#include "src\Source\FileIO\FilePath.h"
 #include <system_error>
 #include <datetimeapi.h>
 #include <cerrno>

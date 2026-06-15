@@ -9,7 +9,7 @@
 #include <cstdio>
 #include <threadpoolapiset.h>
 #include <stdio.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\boost_thread\thread.hpp"
+#include "src\Source\NetworkDP8\boost_thread\thread.hpp"
 #include <boost\config.hpp>
 #include <msxml.h>
 #include <objidl.h>
@@ -159,7 +159,7 @@
 #include <winsvc.h>
 #include <ioapiset.h>
 #include <namedpipeapi.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\boost_thread\timeconv.inl"
+#include "src\Source\NetworkDP8\boost_thread\timeconv.inl"
 #include <winperf.h>
 #include <dlgs.h>
 #include <memoryapi.h>

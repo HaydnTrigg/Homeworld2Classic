@@ -95,7 +95,7 @@
 #include <heapapi.h>
 #include <processthreadsapi.h>
 #include <ws2def.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\source\directplay.h"
+#include "src\Source\NetworkDP8\source\directplay.h"
 #include <algorithm>
 #include <boost\type_traits\is_integral.hpp>
 #include <boost\type_traits\detail\ice_not.hpp>
@@ -247,7 +247,7 @@
 #include <systemtopologyapi.h>
 #include <pshpack1.h>
 #include <atltransactionmanager.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\pch.h"
+#include "src\Source\NetworkDP8\pch.h"
 #include <cassert>
 #include <math.h>
 #include <ios>
@@ -257,7 +257,7 @@
 #include <xlocnum>
 #include <boost\type_traits\detail\type_trait_def.hpp>
 #include <atliface.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\source\sessionenum.h"
+#include "src\Source\NetworkDP8\source\sessionenum.h"
 #include <streambuf>
 #include <list>
 #include <xiosbase>
@@ -297,7 +297,7 @@
 #include <boost\utility.hpp>
 #include <nb30.h>
 #include <wincrypt.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\source\criticalsection.h"
+#include "src\Source\NetworkDP8\source\criticalsection.h"
 #include <boost\utility\addressof.hpp>
 #include <boost\detail\workaround.hpp>
 #include <timeapi.h>
@@ -340,12 +340,12 @@
 #include <atlwinverapi.h>
 #include <boost\type_traits\is_scalar.hpp>
 #include <prsht.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\source\sessioninfo.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\source\address.h"
+#include "src\Source\NetworkDP8\source\sessioninfo.h"
+#include "src\Source\NetworkDP8\source\address.h"
 #include <boost\type_traits\has_trivial_destructor.hpp>
 #include <pshpack4.h>
 #include <wingdi.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\source\exception.h"
+#include "src\Source\NetworkDP8\source\exception.h"
 #include <boost\type_traits\intrinsics.hpp>
 #include <rpc.h>
 #include <ammintrin.h>

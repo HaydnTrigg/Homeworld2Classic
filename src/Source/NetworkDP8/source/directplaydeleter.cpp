@@ -214,12 +214,12 @@
 #include <wow64apiset.h>
 #include <ktmw32.h>
 #include <atliface.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\pch.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\source\directplaydeleter.h"
+#include "src\Source\NetworkDP8\pch.h"
+#include "src\Source\NetworkDP8\source\directplaydeleter.h"
 #include <winnls.h>
 #include <shellapi.h>
 #include <shlwapi.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Source\NetworkDP8\source\directplay.h"
+#include "src\Source\NetworkDP8\source\directplay.h"
 #include <datetimeapi.h>
 #include <shtypes.h>
 #include <boost\cstdint.hpp>

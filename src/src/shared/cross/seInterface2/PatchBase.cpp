@@ -16,7 +16,7 @@
 #include <iosfwd>
 #include <seInterface2\SEInterface.h>
 #include <seInterface2\seinterfacefunc.h>
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\Src\Shared\PC\seInterface2\pch.h"
+#include "src\Src\Shared\PC\seInterface2\pch.h"
 #include <seInterface2\PatchBase.h>
 #include <seInterface2\SoundParams.h>
 #include <seInterface2\PatchID.h>

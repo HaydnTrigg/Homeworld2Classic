@@ -2,9 +2,8 @@
 /* ---------- headers */
 
 #include "decomp.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\tools\ExeTie\pch.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\tools\ExeTie\ExeTie.h"
-#include "\HICKORY-PCSHIP\Homeworld2Classic\src\tools\ExeTie\ExeTie.pch"
+#include "src\tools\ExeTie\pch.h"
+#include "src\tools\ExeTie\ExeTie.h"
 
 /* ---------- constants */
 
