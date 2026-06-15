@@ -280,10 +280,16 @@ def write_objdiff(config, objects):
     }
 
 
-_C_EXTENSIONS   = {".c"}
+_C_EXTENSIONS    = {".c"}
 _OBJC_EXTENSIONS = {".m"}
 # All other extensions (.cpp, .cxx, .cc, .cp, .mm) use the C++ compiler.
 # .mm (Objective-C++) shares cxxflags; only plain .m uses objcflags.
+
+
+def _strip_arg_quotes(flag: str) -> str:
+    if len(flag) >= 2 and flag[0] == '"' and flag[-1] == '"':
+        return flag[1:-1]
+    return flag
 
 
 def get_flags(flags_key, flags_dict):
@@ -357,6 +363,45 @@ def write_ninja(config, objects):
     lines.append("\ndefault all\n")
 
     return "".join(lines)
+
+def write_compile_commands(config, objects):
+    cxx = config.get("compiler", "clang++")
+    cc  = config.get("compiler_c", cxx)
+    is_msvc = cxx.endswith("cl.exe")
+
+    c_dict    = config.get("cflags", {})
+    cxx_dict  = config.get("cxxflags", config.get("cflags", {}))
+    objc_dict = config.get("objcflags", config.get("cxxflags", config.get("cflags", {})))
+
+    directory = str(Path(SOURCE_ROOT).resolve())
+    entries = []
+
+    for lib_name, lib in objects.items():
+        flags_key = lib["cflags"]
+        c_flags    = [_strip_arg_quotes(f) for f in get_flags(flags_key, c_dict)]
+        cxx_flags  = [_strip_arg_quotes(f) for f in get_flags(flags_key, cxx_dict)]
+        objc_flags = [_strip_arg_quotes(f) for f in get_flags(flags_key, objc_dict)]
+
+        for src in lib["objects"]:
+            ext = Path(src).suffix.lower()
+            if ext in _C_EXTENSIONS:
+                compiler, flags = cc, c_flags
+            elif ext in _OBJC_EXTENSIONS:
+                compiler, flags = cc, objc_flags
+            else:
+                compiler, flags = cxx, cxx_flags
+
+            file_path = str(Path(SOURCE_ROOT, src).resolve())
+            compile_flag = "/c" if is_msvc else "-c"
+
+            entries.append({
+                "directory": directory,
+                "file": file_path,
+                "arguments": [compiler, compile_flag] + flags + [file_path],
+            })
+
+    return entries
+
 
 # Ensure delink and objdiff binaries
 if args.delink:
@@ -508,4 +553,7 @@ with open("build.ninja", "w", encoding="utf-8") as f:
 with open("objdiff.json", "w", encoding="utf-8") as f:
     json.dump(write_objdiff(config, objects), f, indent=2)
 
-print("Generated build.ninja and objdiff.json")
+with open("compile_commands.json", "w", encoding="utf-8") as f:
+    json.dump(write_compile_commands(config, objects), f, indent=2)
+
+print("Generated build.ninja, objdiff.json and compile_commands.json")
