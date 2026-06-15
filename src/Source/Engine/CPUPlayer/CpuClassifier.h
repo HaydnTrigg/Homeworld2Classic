@@ -80,12 +80,10 @@ static_assert(sizeof(CpuClassifier) == 32, "Invalid CpuClassifier size");
 
 /* ---------- public code */
 
-_extern void _sub_5416D5(CpuClassifier *const);
 _inline CpuClassifier::~CpuClassifier() // 0x5416D5
 {
     mangled_assert("??1CpuClassifier@@QAE@XZ");
     todo("implement");
-    _sub_5416D5(this);
 }
 
 /* ---------- private code */

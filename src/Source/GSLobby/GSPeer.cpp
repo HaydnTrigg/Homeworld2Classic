@@ -301,620 +301,455 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_10003237(GSPeer::Data *const);
 _inline GSPeer::Data::Data() // 0x10003237
 {
     mangled_assert("??0Data@GSPeer@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10003237(this);
 }
 
-_extern _sub_1000326E(GSPeer::Dispatch *const, GSPeer *);
 _inline GSPeer::Dispatch::Dispatch(GSPeer *) // 0x1000326E
 {
     mangled_assert("??0Dispatch@GSPeer@@QAE@PAV1@@Z");
     todo("implement");
-    _sub_1000326E(this, arg);
 }
 
-_extern _sub_100032ED(GSLobbyRoomDesc *const, GSLobbyRoomDesc const &);
 _inline GSLobbyRoomDesc::GSLobbyRoomDesc(GSLobbyRoomDesc const &) // 0x100032ED
 {
     mangled_assert("??0GSLobbyRoomDesc@@QAE@ABV0@@Z");
     compiler_generated();
     todo("implement");
-    _sub_100032ED(this, arg);
 }
 
-_extern _sub_10003326(GSPeer *const);
 GSPeer::GSPeer() // 0x10003326
 {
     mangled_assert("??0GSPeer@@QAE@XZ");
     todo("implement");
-    _sub_10003326(this);
 }
 
-_extern void _sub_10003434(std::map<int,GSLobbyRoomDesc,std::less<int>,std::allocator<std::pair<int const ,GSLobbyRoomDesc> > > *const);
 _inline std::map<int,GSLobbyRoomDesc,std::less<int>,std::allocator<std::pair<int const ,GSLobbyRoomDesc> > >::~map<int,GSLobbyRoomDesc,std::less<int>,std::allocator<std::pair<int const ,GSLobbyRoomDesc> > >() // 0x10003434
 {
     mangled_assert("??1?$map@HVGSLobbyRoomDesc@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHVGSLobbyRoomDesc@@@std@@@3@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10003434(this);
 }
 
-_extern void _sub_10003439(std::map<unsigned __int64,GSLobbySessionDesc,std::less<unsigned __int64>,std::allocator<std::pair<unsigned __int64 const ,GSLobbySessionDesc> > > *const);
 _inline std::map<unsigned __int64,GSLobbySessionDesc,std::less<unsigned __int64>,std::allocator<std::pair<unsigned __int64 const ,GSLobbySessionDesc> > >::~map<unsigned __int64,GSLobbySessionDesc,std::less<unsigned __int64>,std::allocator<std::pair<unsigned __int64 const ,GSLobbySessionDesc> > >() // 0x10003439
 {
     mangled_assert("??1?$map@_KVGSLobbySessionDesc@@U?$less@_K@std@@V?$allocator@U?$pair@$$CB_KVGSLobbySessionDesc@@@std@@@3@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10003439(this);
 }
 
-_extern void _sub_1000343E(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,GSLobbyPlayerDesc> *const);
 _inline std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,GSLobbyPlayerDesc>::~pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,GSLobbyPlayerDesc>() // 0x1000343E
 {
     mangled_assert("??1?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VGSLobbyPlayerDesc@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_1000343E(this);
 }
 
-_extern void _sub_10001A9F(std::pair<int,GSLobbyRoomDesc> *const);
 _inline std::pair<int,GSLobbyRoomDesc>::~pair<int,GSLobbyRoomDesc>() // 0x10001A9F
 {
-    _sub_10001A9F(this);
 }
 
-_extern void _sub_1000345B(std::pair<unsigned __int64,GSLobbySessionDesc> *const);
 _inline std::pair<unsigned __int64,GSLobbySessionDesc>::~pair<unsigned __int64,GSLobbySessionDesc>() // 0x1000345B
 {
     mangled_assert("??1?$pair@_KVGSLobbySessionDesc@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_1000345B(this);
 }
 
-_extern void _sub_10003463(GSPeer::Dispatch *const);
 _inline GSPeer::Dispatch::~Dispatch() // 0x10003463
 {
     mangled_assert("??1Dispatch@GSPeer@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10003463(this);
 }
 
-_extern void _sub_1000348F(GSLobbyRoomDesc *const);
 _inline GSLobbyRoomDesc::~GSLobbyRoomDesc() // 0x1000348F
 {
     mangled_assert("??1GSLobbyRoomDesc@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_1000348F(this);
 }
 
-_extern void _sub_10003494(GSPeer *const);
 GSPeer::~GSPeer() // 0x10003494
 {
     mangled_assert("??1GSPeer@@QAE@XZ");
     todo("implement");
-    _sub_10003494(this);
 }
 
-_extern GSLobbyRoomDesc &_sub_100034D1(GSLobbyRoomDesc *const, GSLobbyRoomDesc const &);
 _inline GSLobbyRoomDesc &GSLobbyRoomDesc::operator=(GSLobbyRoomDesc const &) // 0x100034D1
 {
     mangled_assert("??4GSLobbyRoomDesc@@QAEAAV0@ABV0@@Z");
     compiler_generated();
     todo("implement");
-    GSLobbyRoomDesc & __result = _sub_100034D1(this, arg);
-    return __result;
 }
 
-_extern GSPeer &_sub_1000350A(GSPeer *const, GSPeer const &);
 _inline GSPeer &GSPeer::operator=(GSPeer const &) // 0x1000350A
 {
     mangled_assert("??4GSPeer@@QAEAAV0@ABV0@@Z");
     compiler_generated();
     todo("implement");
-    GSPeer & __result = _sub_1000350A(this, arg);
-    return __result;
 }
 
-_extern GSLobbySessionDesc const &_sub_100039B2(GSPeer const *const);
 GSLobbySessionDesc const &GSPeer::GetLocalSession() const // 0x100039B2
 {
     mangled_assert("?GetLocalSession@GSPeer@@QBEABVGSLobbySessionDesc@@XZ");
     todo("implement");
-    GSLobbySessionDesc const & __result = _sub_100039B2(this);
-    return __result;
 }
 
-_extern bool _sub_10004971(GSPeer const *const, unsigned long long, GSLobbySessionDesc &);
 bool GSPeer::SessionGetDesc(unsigned long long, GSLobbySessionDesc &) const // 0x10004971
 {
     mangled_assert("?SessionGetDesc@GSPeer@@QBE_N_KAAVGSLobbySessionDesc@@@Z");
     todo("implement");
-    bool __result = _sub_10004971(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_10004A25(GSPeer const *const, unsigned long long);
 bool GSPeer::SessionUpdate(unsigned long long) const // 0x10004A25
 {
     mangled_assert("?SessionUpdate@GSPeer@@QBE_N_K@Z");
     todo("implement");
-    bool __result = _sub_10004A25(this, arg);
-    return __result;
 }
 
-_extern void _sub_10004494(void *, RoomType, char const *, void *);
 void PlayerJoinedCallback(void *peer, RoomType roomType, char const *nick, void *param) // 0x10004494
 {
     mangled_assert("?PlayerJoinedCallback@@YGXPAXW4RoomType@@PBD0@Z");
     todo("implement");
-    _sub_10004494(peer, roomType, nick, param);
 }
 
-_extern void _sub_100044AD(void *, RoomType, char const *, char const *, void *);
 void PlayerLeftCallback(void *peer, RoomType roomType, char const *nick, char const *reason, void *param) // 0x100044AD
 {
     mangled_assert("?PlayerLeftCallback@@YGXPAXW4RoomType@@PBD20@Z");
     todo("implement");
-    _sub_100044AD(peer, roomType, nick, reason, param);
 }
 
-_extern void _sub_100043F9(void *, RoomType, char const *, __int32, __int32, void *);
 void PlayerFlagsChangedCallback(void *peer, RoomType roomType, char const *nick, __int32 oldFlags, __int32 newFlags, void *param) // 0x100043F9
 {
     mangled_assert("?PlayerFlagsChangedCallback@@YGXPAXW4RoomType@@PBDHH0@Z");
     todo("implement");
-    _sub_100043F9(peer, roomType, nick, oldFlags, newFlags, param);
 }
 
-_extern void _sub_1000465E(void *, __int32, qr2_buffer_s *, void *);
 void QRServerKeyCallback(void *peer, __int32 key, qr2_buffer_s *buffer, void *param) // 0x1000465E
 {
     mangled_assert("?QRServerKeyCallback@@YGXPAXHPAUqr2_buffer_s@@0@Z");
     todo("implement");
-    _sub_1000465E(peer, key, buffer, param);
 }
 
-_extern void _sub_1000465B(void *, __int32, __int32, qr2_buffer_s *, void *);
 void QRPlayerKeyCallback(void *peer, __int32 key, __int32 index, qr2_buffer_s *buffer, void *param) // 0x1000465B
 {
     mangled_assert("?QRPlayerKeyCallback@@YGXPAXHHPAUqr2_buffer_s@@0@Z");
     todo("implement");
-    _sub_1000465B(peer, key, index, buffer, param);
 }
 
-_extern __int32 _sub_100045FC(void *, qr2_key_type, void *);
 __int32 QRCountCallback(void *peer, qr2_key_type type, void *param) // 0x100045FC
 {
     mangled_assert("?QRCountCallback@@YGHPAXW4qr2_key_type@@0@Z");
     todo("implement");
-    __int32 __result = _sub_100045FC(peer, type, param);
-    return __result;
 }
 
-_extern void _sub_10004612(void *, qr2_key_type, qr2_keybuffer_s *, void *);
 void QRKeyListCallback(void *peer, qr2_key_type type, qr2_keybuffer_s *keyBuffer, void *param) // 0x10004612
 {
     mangled_assert("?QRKeyListCallback@@YGXPAXW4qr2_key_type@@PAUqr2_keybuffer_s@@0@Z");
     todo("implement");
-    _sub_10004612(peer, type, keyBuffer, param);
 }
 
-_extern void _sub_1000489E(void *, RoomType, char const *, char const *, char const *, void *);
 void RoomKeyChangedCallback(void *peer, RoomType roomType, char const *nick, char const *key, char const *value, void *param) // 0x1000489E
 {
     mangled_assert("?RoomKeyChangedCallback@@YGXPAXW4RoomType@@PBD220@Z");
     todo("implement");
-    _sub_1000489E(peer, roomType, nick, key, value, param);
 }
 
-_extern void _sub_1000390E(void *, char const *, void *);
 void DisconnectedCallback(void *peer, char const *reason, void *param) // 0x1000390E
 {
     mangled_assert("?DisconnectedCallback@@YGXPAXPBD0@Z");
     todo("implement");
-    _sub_1000390E(peer, reason, param);
 }
 
-_extern void _sub_100043F6(void *, char const *, __int32, void *);
 void PingCallback(void *peer, char const *nick, __int32 ping, void *param) // 0x100043F6
 {
     mangled_assert("?PingCallback@@YGXPAXPBDH0@Z");
     todo("implement");
-    _sub_100043F6(peer, nick, ping, param);
 }
 
-_extern bool _sub_100039F7(GSPeer *const, char const *, char const *, GSEvent *);
 bool GSPeer::Initialize(char const *, char const *, GSEvent *) // 0x100039F7
 {
     mangled_assert("?Initialize@GSPeer@@QAE_NPBD0PAVGSEvent@@@Z");
     todo("implement");
-    bool __result = _sub_100039F7(this, arg, arg, arg);
-    return __result;
 }
 
-_extern void _sub_10004788(GSPeer *const);
 void GSPeer::Release() // 0x10004788
 {
     mangled_assert("?Release@GSPeer@@QAEXXZ");
     todo("implement");
-    _sub_10004788(this);
 }
 
-_extern char const *_sub_100039E9(GSPeer const *const);
 char const *GSPeer::GetActualNickname() const // 0x100039E9
 {
     mangled_assert("?GetActualNickname@GSPeer@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_100039E9(this);
-    return __result;
 }
 
-_extern void _sub_10004A6E(GSPeer *const);
 void GSPeer::Think() // 0x10004A6E
 {
     mangled_assert("?Think@GSPeer@@QAEXXZ");
     todo("implement");
-    _sub_10004A6E(this);
 }
 
-_extern void _sub_100049FA(GSPeer *const, GSLobbySessionDesc const &);
 void GSPeer::SessionHost(GSLobbySessionDesc const &) // 0x100049FA
 {
     mangled_assert("?SessionHost@GSPeer@@QAEXABVGSLobbySessionDesc@@@Z");
     todo("implement");
-    _sub_100049FA(this, arg);
 }
 
-_extern void _sub_100096FE(GSPeer *const, char const *);
 void GSPeer::SessionJoin(char const *) // 0x100096FE
 {
-    _sub_100096FE(this, arg);
 }
 
-_extern void _sub_10004933(GSPeer *const);
 void GSPeer::SessionCancel() // 0x10004933
 {
     mangled_assert("?SessionCancel@GSPeer@@QAEXXZ");
     todo("implement");
-    _sub_10004933(this);
 }
 
-_extern void _sub_10004949(GSPeer *const, GSLobbySessionDesc const &);
 void GSPeer::SessionChangeSettings(GSLobbySessionDesc const &) // 0x10004949
 {
     mangled_assert("?SessionChangeSettings@GSPeer@@QAEXABVGSLobbySessionDesc@@@Z");
     todo("implement");
-    _sub_10004949(this, arg);
 }
 
-_extern void _sub_100049B0(GSPeer *const);
 void GSPeer::SessionGetList() // 0x100049B0
 {
     mangled_assert("?SessionGetList@GSPeer@@QAEXXZ");
     todo("implement");
-    _sub_100049B0(this);
 }
 
-_extern void _sub_100049DD(GSPeer *const);
 void GSPeer::SessionGetListStop() // 0x100049DD
 {
     mangled_assert("?SessionGetListStop@GSPeer@@QAEXXZ");
     todo("implement");
-    _sub_100049DD(this);
 }
 
-_extern void _sub_100047D9(GSPeer *const);
 void GSPeer::RoomGetList() // 0x100047D9
 {
     mangled_assert("?RoomGetList@GSPeer@@QAEXXZ");
     todo("implement");
-    _sub_100047D9(this);
 }
 
-_extern bool _sub_1000479D(GSPeer const *const, unsigned __int32, GSLobbyRoomDesc &);
 bool GSPeer::RoomGetDesc(unsigned __int32, GSLobbyRoomDesc &) const // 0x1000479D
 {
     mangled_assert("?RoomGetDesc@GSPeer@@QBE_NIAAVGSLobbyRoomDesc@@@Z");
     todo("implement");
-    bool __result = _sub_1000479D(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_1000487D(GSPeer *const);
 bool GSPeer::RoomJoinTitle() // 0x1000487D
 {
     mangled_assert("?RoomJoinTitle@GSPeer@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_1000487D(this);
-    return __result;
 }
 
-_extern bool _sub_1000480E(GSPeer *const, unsigned __int32);
 bool GSPeer::RoomJoin(unsigned __int32) // 0x1000480E
 {
     mangled_assert("?RoomJoin@GSPeer@@QAE_NI@Z");
     todo("implement");
-    bool __result = _sub_1000480E(this, arg);
-    return __result;
 }
 
-_extern bool _sub_100048C8(GSPeer *const);
 bool GSPeer::RoomLeave() // 0x100048C8
 {
     mangled_assert("?RoomLeave@GSPeer@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_100048C8(this);
-    return __result;
 }
 
-_extern bool _sub_100048EF(GSPeer *const);
 bool GSPeer::RoomLeaveTitle() // 0x100048EF
 {
     mangled_assert("?RoomLeaveTitle@GSPeer@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_100048EF(this);
-    return __result;
 }
 
-_extern void _sub_10003925(void *, PEERBool, RoomType, __int32, char const *, __int32, void *);
 void EnumPlayersCallback(void *peer, PEERBool success, RoomType roomType, __int32 index, char const *nick, __int32 flags, void *param) // 0x10003925
 {
     mangled_assert("?EnumPlayersCallback@@YGXPAXW4PEERBool@@W4RoomType@@HPBDH0@Z");
     todo("implement");
-    _sub_10003925(peer, success, roomType, index, nick, flags, param);
 }
 
-_extern void _sub_100039B9(void *, PEERBool, RoomType, char const *, __int32, char **, char **, void *);
 void GetRoomKeysCallback(void *peer, PEERBool success, RoomType roomType, char const *nick, __int32 num, char **keys, char **values, void *param) // 0x100039B9
 {
     mangled_assert("?GetRoomKeysCallback@@YGXPAXW4PEERBool@@W4RoomType@@PBDHPAPAD40@Z");
     todo("implement");
-    _sub_100039B9(peer, success, roomType, nick, num, keys, values, param);
 }
 
-_extern void _sub_100045A9(GSPeer *const);
 void GSPeer::PlayerUpdateList() // 0x100045A9
 {
     mangled_assert("?PlayerUpdateList@GSPeer@@QAEXXZ");
     todo("implement");
-    _sub_100045A9(this);
 }
 
-_extern void _sub_1000444B(GSPeer *const, std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > &);
 void GSPeer::PlayerGetList(std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > &) // 0x1000444B
 {
     mangled_assert("?PlayerGetList@GSPeer@@QAEXAAV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@Z");
     todo("implement");
-    _sub_1000444B(this, arg);
 }
 
-_extern char const *_sub_10004486(GSPeer const *const);
 char const *GSPeer::PlayerGetName() const // 0x10004486
 {
     mangled_assert("?PlayerGetName@GSPeer@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_10004486(this);
-    return __result;
 }
 
-_extern bool _sub_100043FC(GSPeer const *const, char const *, GSLobbyPlayerDesc &);
 bool GSPeer::PlayerGetDesc(char const *, GSLobbyPlayerDesc &) const // 0x100043FC
 {
     mangled_assert("?PlayerGetDesc@GSPeer@@QBE_NPBDAAVGSLobbyPlayerDesc@@@Z");
     todo("implement");
-    bool __result = _sub_100043FC(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_10004526(GSPeer *const, GSLobbyRoomType);
 void GSPeer::PlayerSetViewingRoom(GSLobbyRoomType) // 0x10004526
 {
     mangled_assert("?PlayerSetViewingRoom@GSPeer@@QAEXW4GSLobbyRoomType@@@Z");
     todo("implement");
-    _sub_10004526(this, arg);
 }
 
-_extern void _sub_100044DA(GSPeer *const, bool);
 void GSPeer::PlayerSetPlaying(bool) // 0x100044DA
 {
     mangled_assert("?PlayerSetPlaying@GSPeer@@QAEX_N@Z");
     todo("implement");
-    _sub_100044DA(this, arg);
 }
 
-_extern void _sub_100037CA(GSPeer *const, char const *);
 void GSPeer::ChatConnect(char const *) // 0x100037CA
 {
     mangled_assert("?ChatConnect@GSPeer@@QAEXPBD@Z");
     todo("implement");
-    _sub_100037CA(this, arg);
 }
 
-_extern void _sub_1000384D(GSPeer *const);
 void GSPeer::ChatDisconnect() // 0x1000384D
 {
     mangled_assert("?ChatDisconnect@GSPeer@@QAEXXZ");
     todo("implement");
-    _sub_1000384D(this);
 }
 
-_extern void _sub_10003895(GSPeer *const, GSLobbyChatType, char const *, char const *);
 void GSPeer::ChatMessage(GSLobbyChatType, char const *, char const *) // 0x10003895
 {
     mangled_assert("?ChatMessage@GSPeer@@QAEXW4GSLobbyChatType@@PBD1@Z");
     todo("implement");
-    _sub_10003895(this, arg, arg, arg);
 }
 
-_extern bool _sub_1000378C(GSPeer *const, char const *);
 bool GSPeer::CDAuthenticate(char const *) // 0x1000378C
 {
     mangled_assert("?CDAuthenticate@GSPeer@@QAE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_1000378C(this, arg);
-    return __result;
 }
 
-_extern void _sub_10003F9A(GSPeer::Dispatch *const, _SBServer *);
 void GSPeer::Dispatch::OnServerAdded(_SBServer *) // 0x10003F9A
 {
     mangled_assert("?OnServerAdded@Dispatch@GSPeer@@QAEXPAU_SBServer@@@Z");
     todo("implement");
-    _sub_10003F9A(this, arg);
 }
 
-_extern void _sub_10004193(GSPeer::Dispatch *const, _SBServer *);
 void GSPeer::Dispatch::OnServerUpdated(_SBServer *) // 0x10004193
 {
     mangled_assert("?OnServerUpdated@Dispatch@GSPeer@@QAEXPAU_SBServer@@@Z");
     todo("implement");
-    _sub_10004193(this, arg);
 }
 
-_extern void _sub_10004123(GSPeer::Dispatch *const, _SBServer *);
 void GSPeer::Dispatch::OnServerDeleted(_SBServer *) // 0x10004123
 {
     mangled_assert("?OnServerDeleted@Dispatch@GSPeer@@QAEXPAU_SBServer@@@Z");
     todo("implement");
-    _sub_10004123(this, arg);
 }
 
-_extern void _sub_10003ED8(GSPeer::Dispatch *const, char const *, __int32, __int32, __int32, __int32, __int32);
 void GSPeer::Dispatch::OnRoomAdded(char const *, __int32, __int32, __int32, __int32, __int32) // 0x10003ED8
 {
     mangled_assert("?OnRoomAdded@Dispatch@GSPeer@@QAEXPBDHHHHH@Z");
     todo("implement");
-    _sub_10003ED8(this, arg, arg, arg, arg, arg, arg);
 }
 
-_extern void _sub_10003D42(GSPeer::Dispatch *const, char const *, bool);
 void GSPeer::Dispatch::OnPlayerJoined(char const *, bool) // 0x10003D42
 {
     mangled_assert("?OnPlayerJoined@Dispatch@GSPeer@@QAEXPBD_N@Z");
     todo("implement");
-    _sub_10003D42(this, arg, arg);
 }
 
-_extern void _sub_10003E81(GSPeer::Dispatch *const, char const *);
 void GSPeer::Dispatch::OnPlayerLeft(char const *) // 0x10003E81
 {
     mangled_assert("?OnPlayerLeft@Dispatch@GSPeer@@QAEXPBD@Z");
     todo("implement");
-    _sub_10003E81(this, arg);
 }
 
-_extern void _sub_10003DEF(GSPeer::Dispatch *const, char const *, char const *, char const *);
 void GSPeer::Dispatch::OnPlayerKeyChanged(char const *, char const *, char const *) // 0x10003DEF
 {
     mangled_assert("?OnPlayerKeyChanged@Dispatch@GSPeer@@QAEXPBD00@Z");
     todo("implement");
-    _sub_10003DEF(this, arg, arg, arg);
 }
 
-_extern void _sub_10003CE6(GSPeer::Dispatch *const, bool, char const *);
 void GSPeer::Dispatch::OnChatConnect(bool, char const *) // 0x10003CE6
 {
     mangled_assert("?OnChatConnect@Dispatch@GSPeer@@QAEX_NPBD@Z");
     todo("implement");
-    _sub_10003CE6(this, arg, arg);
 }
 
-_extern void _sub_10003CCA(GSPeer::Dispatch *const, bool, char const *);
 void GSPeer::Dispatch::OnCDAuthenticate(bool, char const *) // 0x10003CCA
 {
     mangled_assert("?OnCDAuthenticate@Dispatch@GSPeer@@QAEX_NPBD@Z");
     todo("implement");
-    _sub_10003CCA(this, arg, arg);
 }
 
-_extern void _sub_10003F78(GSPeer::Dispatch *const, GSLobbyRoomType, bool);
 void GSPeer::Dispatch::OnRoomJoin(GSLobbyRoomType, bool) // 0x10003F78
 {
     mangled_assert("?OnRoomJoin@Dispatch@GSPeer@@QAEXW4GSLobbyRoomType@@_N@Z");
     todo("implement");
-    _sub_10003F78(this, arg, arg);
 }
 
 /* ---------- private code */
 
-_extern bool _sub_10003BD1(char const *, char *, unsigned __int32);
 _static bool MakeNiceNick(char const *wanted, char *output, unsigned __int32 len) // 0x10003BD1
 {
     mangled_assert("MakeNiceNick");
     todo("implement");
-    bool __result = _sub_10003BD1(wanted, output, len);
-    return __result;
 }
 
-_extern void _sub_10003C22(void *, __int32, char const *, void *);
 _static void NickErrorCallback(void *peer, __int32 type, char const *nick, void *param) // 0x10003C22
 {
     mangled_assert("NickErrorCallback");
     todo("implement");
-    _sub_10003C22(peer, type, nick, param);
 }
 
-_extern void _sub_100038E4(void *, PEERBool, void *);
 _static void ConnectCallback(void *peer, PEERBool success, void *param) // 0x100038E4
 {
     mangled_assert("ConnectCallback");
     todo("implement");
-    _sub_100038E4(peer, success, param);
 }
 
-_extern void _sub_10003B29(void *, PEERBool, PEERJoinResult, RoomType, void *);
 _static void JoinRoomCallback(void *peer, PEERBool success, PEERJoinResult result, RoomType roomType, void *param) // 0x10003B29
 {
     mangled_assert("JoinRoomCallback");
     todo("implement");
-    _sub_10003B29(peer, success, result, roomType, param);
 }
 
-_extern void _sub_10004916(void *, RoomType, char const *, char const *, MessageType, void *);
 _static void RoomMessageCallback(void *peer, RoomType roomType, char const *nick, char const *message, MessageType messageType, void *param) // 0x10004916
 {
     mangled_assert("RoomMessageCallback");
     todo("implement");
-    _sub_10004916(peer, roomType, nick, message, messageType, param);
 }
 
-_extern void _sub_100044BD(void *, char const *, char const *, MessageType, void *);
 _static void PlayerMessageCallback(void *peer, char const *nick, char const *message, MessageType messageType, void *param) // 0x100044BD
 {
     mangled_assert("PlayerMessageCallback");
     todo("implement");
-    _sub_100044BD(peer, nick, message, messageType, param);
 }
 
-_extern void _sub_10003B81(void *, PEERBool, char const *, _SBServer *, PEERBool, __int32, __int32, void *);
 _static void ListingGamesCallback(void *peer, PEERBool success, char const *name, _SBServer *server, PEERBool staging, __int32 msg, __int32 progress, void *param) // 0x10003B81
 {
     mangled_assert("ListingGamesCallback");
     todo("implement");
-    _sub_10003B81(peer, success, name, server, staging, msg, progress, param);
 }
 
-_extern void _sub_10003B5A(void *, PEERBool, __int32, _SBServer *, char const *, __int32, __int32, __int32, __int32, void *);
 _static void ListGroupRoomsCallback(void *peer, PEERBool success, __int32 groupID, _SBServer *server, char const *name, __int32 numWaiting, __int32 maxWaiting, __int32 numGames, __int32 numPlaying, void *param) // 0x10003B5A
 {
     mangled_assert("ListGroupRoomsCallback");
     todo("implement");
-    _sub_10003B5A(peer, success, groupID, server, name, numWaiting, maxWaiting, numGames, numPlaying, param);
 }
 
-_extern void _sub_10003770(void *, __int32, char const *, void *);
 _static void AuthenticateCDKeyCallback(void *peer, __int32 result, char const *message, void *param) // 0x10003770
 {
     mangled_assert("AuthenticateCDKeyCallback");
     todo("implement");
-    _sub_10003770(peer, result, message, param);
 }
 #endif

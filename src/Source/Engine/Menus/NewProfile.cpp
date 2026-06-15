@@ -114,60 +114,46 @@
 
 /* ---------- public code */
 
-_extern _sub_59534D(UI::NewProfile *const, char const *);
 UI::NewProfile::NewProfile(char const *) // 0x59534D
 {
     mangled_assert("??0NewProfile@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_59534D(this, arg);
 }
 
-_extern void _sub_59537F(UI::NewProfile *const);
 UI::NewProfile::~NewProfile() // 0x59537F
 {
     mangled_assert("??1NewProfile@UI@@UAE@XZ");
     todo("implement");
-    _sub_59537F(this);
 }
 
-_extern void _sub_5953CB(UI::NewProfile *const, bool);
 void UI::NewProfile::EnableCancel(bool) // 0x5953CB
 {
     mangled_assert("?EnableCancel@NewProfile@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_5953CB(this, arg);
 }
 
-_extern void _sub_595563(UI::NewProfile *const, bool);
 void UI::NewProfile::OnActivate(bool) // 0x595563
 {
     mangled_assert("?OnActivate@NewProfile@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_595563(this, arg);
 }
 
-_extern void _sub_595683(UI::NewProfile *const);
 void UI::NewProfile::OnPostLoad() // 0x595683
 {
     mangled_assert("?OnPostLoad@NewProfile@UI@@MAEXXZ");
     todo("implement");
-    _sub_595683(this);
 }
 
-_extern void _sub_5953DB(UI::InterfaceElement *);
 void UI::NewProfile::OnAcceptClicked(UI::InterfaceElement *sender) // 0x5953DB
 {
     mangled_assert("?OnAcceptClicked@NewProfile@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5953DB(sender);
 }
 
-_extern void _sub_59564F(UI::InterfaceElement *);
 void UI::NewProfile::OnCancelClicked(UI::InterfaceElement *sender) // 0x59564F
 {
     mangled_assert("?OnCancelClicked@NewProfile@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_59564F(sender);
 }
 
 /* ---------- private code */

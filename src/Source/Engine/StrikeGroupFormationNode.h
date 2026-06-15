@@ -64,31 +64,22 @@ static_assert(sizeof(StrikeGroupFormationNode) == 84, "Invalid StrikeGroupFormat
 
 /* ---------- public code */
 
-_extern vector3 const &_sub_50AD53(StrikeGroupFormationNode const *const);
 _inline vector3 const &StrikeGroupFormationNode::getVectorFromRoot() const // 0x50AD53
 {
     mangled_assert("?getVectorFromRoot@StrikeGroupFormationNode@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_50AD53(this);
-    return __result;
 }
 
-_extern bool _sub_50AD9C(StrikeGroupFormationNode *const);
 _inline bool StrikeGroupFormationNode::isDeterministic() // 0x50AD9C
 {
     mangled_assert("?isDeterministic@StrikeGroupFormationNode@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_50AD9C(this);
-    return __result;
 }
 
-_extern char const *_sub_50B054(StrikeGroupFormationNode *const);
 _inline char const *StrikeGroupFormationNode::saveToken() // 0x50B054
 {
     mangled_assert("?saveToken@StrikeGroupFormationNode@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_50B054(this);
-    return __result;
 }
 
 /* ---------- private code */

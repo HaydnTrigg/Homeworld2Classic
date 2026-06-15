@@ -128,208 +128,155 @@ _static
 
 /* ---------- public code */
 
-_extern unsigned __int32 _sub_4E1F13(WeaponFire *);
 unsigned __int32 EffectCreate::bulletEffect(WeaponFire *wf) // 0x4E1F13
 {
     mangled_assert("?bulletEffect@EffectCreate@@SGIPAVWeaponFire@@@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_4E1F13(wf);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_4E1D89(WeaponFire *, Sob *);
 unsigned __int32 EffectCreate::beamEffect(WeaponFire *wf, Sob *pShip) // 0x4E1D89
 {
     mangled_assert("?beamEffect@EffectCreate@@SGIPAVWeaponFire@@PAVSob@@@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_4E1D89(wf, pShip);
-    return __result;
 }
 
-_extern void _sub_4E2436(char const *, char const *, float, Sob *, vector3 const &, vector3 const &, float, bool);
 void EffectCreate::hitEffectInternal(char const *fxname, char const *soundname, float scale, Sob *hitSob, vector3 const &hitPosition, vector3 const &hitNormal, float nlips, bool bFarMode) // 0x4E2436
 {
     mangled_assert("?hitEffectInternal@EffectCreate@@CGXPBD0MPAVSob@@ABVvector3@@2M_N@Z");
     todo("implement");
-    _sub_4E2436(fxname, soundname, scale, hitSob, hitPosition, hitNormal, nlips, bFarMode);
 }
 
-_extern void _sub_4E2351(WeaponFireStatic const *, Sob *, float, vector3 const &, vector3 const &);
 void EffectCreate::hitEffect(WeaponFireStatic const *pStatic, Sob *hitSob, float damage, vector3 const &hitPosition, vector3 const &hitNormal) // 0x4E2351
 {
     mangled_assert("?hitEffect@EffectCreate@@SGXPBVWeaponFireStatic@@PAVSob@@MABVvector3@@2@Z");
     todo("implement");
-    _sub_4E2351(pStatic, hitSob, damage, hitPosition, hitNormal);
 }
 
-_extern void _sub_4E218A(char const *, vector3 const &, vector3 const &);
 void EffectCreate::defenseFieldHitEffect(char const *fxname, vector3 const &hitPosition, vector3 const &hitNormal) // 0x4E218A
 {
     mangled_assert("?defenseFieldHitEffect@EffectCreate@@SGXPBDABVvector3@@1@Z");
     todo("implement");
-    _sub_4E218A(fxname, hitPosition, hitNormal);
 }
 
-_extern void _sub_4E1E4A(WeaponFire const *, Sob *, float, vector3 const &, vector3 const &);
 void EffectCreate::blowthroughEffect(WeaponFire const *wf, Sob *hitSob, float damage, vector3 const &hitPosition, vector3 const &hitNormal) // 0x4E1E4A
 {
     mangled_assert("?blowthroughEffect@EffectCreate@@SGXPBVWeaponFire@@PAVSob@@MABVvector3@@2@Z");
     todo("implement");
-    _sub_4E1E4A(wf, hitSob, damage, hitPosition, hitNormal);
 }
 
-_extern void _sub_4E227D(WeaponFireStatic const *, Sob *, vector3 const &, vector3 const &);
 void EffectCreate::fireEffect(WeaponFireStatic const *wfStatic, Sob *pOwner, vector3 const &position, vector3 const &normal) // 0x4E227D
 {
     mangled_assert("?fireEffect@EffectCreate@@SGXPBVWeaponFireStatic@@PAVSob@@ABVvector3@@2@Z");
     todo("implement");
-    _sub_4E227D(wfStatic, pOwner, position, normal);
 }
 
-_extern void _sub_4E2246(WeaponFire *, float, Sob *, char const *);
 void EffectCreate::fireEffect(WeaponFire *wf, float strength, Sob *pOwner, char const *fireEvent) // 0x4E2246
 {
     mangled_assert("?fireEffect@EffectCreate@@SGXPAVWeaponFire@@MPAVSob@@PBD@Z");
     todo("implement");
-    _sub_4E2246(wf, strength, pOwner, fireEvent);
 }
 
-_extern void _sub_4E2BA5(Sob *, char const *, bool);
 void EffectCreate::radiationEffect(Sob *pSob, char const *effectName, bool start) // 0x4E2BA5
 {
     mangled_assert("?radiationEffect@EffectCreate@@SGXPAVSob@@PBD_N@Z");
     todo("implement");
-    _sub_4E2BA5(pSob, effectName, start);
 }
 
-_extern void _sub_4E2031(Sob *, char const *, bool);
 void EffectCreate::chargedDustCloudEffect(Sob *pSob, char const *effectName, bool start) // 0x4E2031
 {
     mangled_assert("?chargedDustCloudEffect@EffectCreate@@SGXPAVSob@@PBD_N@Z");
     todo("implement");
-    _sub_4E2031(pSob, effectName, start);
 }
 
-_extern void _sub_4E22F2(Sob *, char const *, bool);
 void EffectCreate::fullResourcesEffect(Sob *pSob, char const *effectName, bool start) // 0x4E22F2
 {
     mangled_assert("?fullResourcesEffect@EffectCreate@@SGXPAVSob@@PBD_N@Z");
     todo("implement");
-    _sub_4E22F2(pSob, effectName, start);
 }
 
-_extern void _sub_4E2090(Sob *, char const *, bool);
 void EffectCreate::cloakGenEffect(Sob *pSob, char const *effectName, bool start) // 0x4E2090
 {
     mangled_assert("?cloakGenEffect@EffectCreate@@SGXPAVSob@@PBD_N@Z");
     todo("implement");
-    _sub_4E2090(pSob, effectName, start);
 }
 
-_extern void _sub_4E2C04(Sob *, char const *, bool);
 void EffectCreate::repairingEffect(Sob *pSob, char const *effectName, bool start) // 0x4E2C04
 {
     mangled_assert("?repairingEffect@EffectCreate@@SGXPAVSob@@PBD_N@Z");
     todo("implement");
-    _sub_4E2C04(pSob, effectName, start);
 }
 
-_extern void _sub_4E1EBD(Sob *, char const *, bool);
 void EffectCreate::boardingEffect(Sob *pSob, char const *effectName, bool start) // 0x4E1EBD
 {
     mangled_assert("?boardingEffect@EffectCreate@@SGXPAVSob@@PBD_N@Z");
     todo("implement");
-    _sub_4E1EBD(pSob, effectName, start);
 }
 
-_extern void _sub_4E2B53(Sob *, char const *);
 void EffectCreate::missileTrailEffect(Sob *pSob, char const *effectName) // 0x4E2B53
 {
     mangled_assert("?missileTrailEffect@EffectCreate@@SGXPAVSob@@PBD@Z");
     todo("implement");
-    _sub_4E2B53(pSob, effectName);
 }
 
-_extern void _sub_4E20EF(Sob *, char const *);
 void EffectCreate::clusterMissileEffect(Sob *pSob, char const *effectName) // 0x4E20EF
 {
     mangled_assert("?clusterMissileEffect@EffectCreate@@SGXPAVSob@@PBD@Z");
     todo("implement");
-    _sub_4E20EF(pSob, effectName);
 }
 
-_extern void _sub_4E2830(Sob *, char const *);
 void EffectCreate::latchStartEffect(Sob *pSob, char const *effectName) // 0x4E2830
 {
     mangled_assert("?latchStartEffect@EffectCreate@@SGXPAVSob@@PBD@Z");
     todo("implement");
-    _sub_4E2830(pSob, effectName);
 }
 
-_extern void _sub_4E27DE(Sob *, char const *);
 void EffectCreate::latchEndEffect(Sob *pSob, char const *effectName) // 0x4E27DE
 {
     mangled_assert("?latchEndEffect@EffectCreate@@SGXPAVSob@@PBD@Z");
     todo("implement");
-    _sub_4E27DE(pSob, effectName);
 }
 
-_extern void _sub_4E2141(Sob *, char const *);
 void EffectCreate::deathEffect(Sob *pSob, char const *deathName) // 0x4E2141
 {
     mangled_assert("?deathEffect@EffectCreate@@SGXPAVSob@@PBD@Z");
     todo("implement");
-    _sub_4E2141(pSob, deathName);
 }
 
-_extern void _sub_4E2882(vector3 const &, vector3 const &, char const *);
 void EffectCreate::lightningEffect(vector3 const &fromPosition, vector3 const &toPosition, char const *lightningName) // 0x4E2882
 {
     mangled_assert("?lightningEffect@EffectCreate@@SGXABVvector3@@0PBD@Z");
     todo("implement");
-    _sub_4E2882(fromPosition, toPosition, lightningName);
 }
 
-_extern void _sub_4E2CAC(WeaponFire *, float);
 void EffectCreate::setWeaponFireLength(WeaponFire *wf, float length) // 0x4E2CAC
 {
     mangled_assert("?setWeaponFireLength@EffectCreate@@SGXPAVWeaponFire@@M@Z");
     todo("implement");
-    _sub_4E2CAC(wf, length);
 }
 
-_extern void _sub_4E2CF5(WeaponFire *, float);
 void EffectCreate::setWeaponFireScale(WeaponFire *wf, float scale) // 0x4E2CF5
 {
     mangled_assert("?setWeaponFireScale@EffectCreate@@SGXPAVWeaponFire@@M@Z");
     todo("implement");
-    _sub_4E2CF5(wf, scale);
 }
 
-_extern void _sub_4E2C63(WeaponFire *, float);
 void EffectCreate::setWeaponFireFadeT(WeaponFire *wf, float fadeT) // 0x4E2C63
 {
     mangled_assert("?setWeaponFireFadeT@EffectCreate@@SGXPAVWeaponFire@@M@Z");
     todo("implement");
-    _sub_4E2C63(wf, fadeT);
 }
 
-_extern unsigned __int32 _sub_4E2724(Sob *, vector3 const &, matrix3 const &, float const, float const, float const, char const *);
 unsigned __int32 EffectCreate::hyperspaceEffect(Sob *pShip, vector3 const &position, matrix3 const &orientation, float const width, float const height, float const length, char const *name) // 0x4E2724
 {
     mangled_assert("?hyperspaceEffect@EffectCreate@@SGIPAVSob@@ABVvector3@@ABVmatrix3@@MMMPBD@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_4E2724(pShip, position, orientation, width, height, length, name);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern void _sub_4E2B10(vector3 const &, matrix3 &);
 _static void makeDirectionalTransform(vector3 const &forward, matrix3 &transform) // 0x4E2B10
 {
     mangled_assert("makeDirectionalTransform");
     todo("implement");
-    _sub_4E2B10(forward, transform);
 }
 #endif

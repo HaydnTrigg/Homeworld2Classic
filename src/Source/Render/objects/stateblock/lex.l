@@ -30,13 +30,10 @@ extern __int32 yywrap();
 
 /* ---------- public code */
 
-_extern __int32 _sub_100BF950();
 __int32 yywrap() // 0x100BF950
 {
     mangled_assert("_yywrap@0");
     todo("implement");
-    __int32 __result = _sub_100BF950();
-    return __result;
 }
 
 /* ---------- private code */

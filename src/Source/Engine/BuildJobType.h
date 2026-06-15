@@ -59,128 +59,88 @@ static_assert(sizeof(BuildJobType) == 72, "Invalid BuildJobType size");
 
 /* ---------- public code */
 
-_extern unsigned __int32 _sub_52C166(BuildJobType const *const);
 _inline unsigned __int32 BuildJobType::getTypeIdToBuild() const // 0x52C166
 {
     mangled_assert("?getTypeIdToBuild@BuildJobType@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_52C166(this);
-    return __result;
 }
 
-_extern char const *_sub_52C156(BuildJobType const *const);
 _inline char const *BuildJobType::getNameToBuild() const // 0x52C156
 {
     mangled_assert("?getNameToBuild@BuildJobType@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_52C156(this);
-    return __result;
 }
 
-_extern __int32 _sub_52C162(BuildJobType const *const);
 _inline __int32 BuildJobType::getOriginalCost() const // 0x52C162
 {
     mangled_assert("?getOriginalCost@BuildJobType@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_52C162(this);
-    return __result;
 }
 
-_extern Fixed<10> const &_sub_5D00D1(BuildJobType const *const);
 _inline Fixed<10> const &BuildJobType::getCostPerSecond() const // 0x5D00D1
 {
     mangled_assert("?getCostPerSecond@BuildJobType@@QBEABV?$Fixed@$09@@XZ");
     todo("implement");
-    Fixed<10> const & __result = _sub_5D00D1(this);
-    return __result;
 }
 
-_extern __int32 _sub_5D00D5(BuildJobType const *const);
 _inline __int32 BuildJobType::getNumShipsInBatch() const // 0x5D00D5
 {
     mangled_assert("?getNumShipsInBatch@BuildJobType@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_5D00D5(this);
-    return __result;
 }
 
-_extern void _sub_5D0765(BuildJobType *const, __int32);
 _inline void BuildJobType::setNumShipsInBatch(__int32) // 0x5D0765
 {
     mangled_assert("?setNumShipsInBatch@BuildJobType@@QAEXH@Z");
     todo("implement");
-    _sub_5D0765(this, arg);
 }
 
-_extern __int32 _sub_5D00D9(BuildJobType const *const);
 _inline __int32 BuildJobType::getNumShipsRemaining() const // 0x5D00D9
 {
     mangled_assert("?getNumShipsRemaining@BuildJobType@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_5D00D9(this);
-    return __result;
 }
 
-_extern void _sub_5D076F(BuildJobType *const, __int32);
 _inline void BuildJobType::setNumShipsRemaining(__int32) // 0x5D076F
 {
     mangled_assert("?setNumShipsRemaining@BuildJobType@@QAEXH@Z");
     todo("implement");
-    _sub_5D076F(this, arg);
 }
 
-_extern BuildData *_sub_542F52(BuildJobType const *const);
 _inline BuildData *BuildJobType::getBuildData() const // 0x542F52
 {
     mangled_assert("?getBuildData@BuildJobType@@QBEPAVBuildData@@XZ");
     todo("implement");
-    BuildData * __result = _sub_542F52(this);
-    return __result;
 }
 
-_extern bool _sub_52C172(BuildJobType *const);
 _inline bool BuildJobType::getUseUnitCaps() // 0x52C172
 {
     mangled_assert("?getUseUnitCaps@BuildJobType@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_52C172(this);
-    return __result;
 }
 
-_extern __int32 _sub_52C16A(BuildJobType *const);
 _inline __int32 BuildJobType::getUCFamilyIndex() // 0x52C16A
 {
     mangled_assert("?getUCFamilyIndex@BuildJobType@@QAEHXZ");
     todo("implement");
-    __int32 __result = _sub_52C16A(this);
-    return __result;
 }
 
-_extern __int32 _sub_52C16E(BuildJobType *const);
 _inline __int32 BuildJobType::getUCShipTypeIndex() // 0x52C16E
 {
     mangled_assert("?getUCShipTypeIndex@BuildJobType@@QAEHXZ");
     todo("implement");
-    __int32 __result = _sub_52C16E(this);
-    return __result;
 }
 
-_extern bool _sub_5CC99C(BuildJobType *const);
 _inline bool BuildJobType::isDeterministic() // 0x5CC99C
 {
     mangled_assert("?isDeterministic@BuildJobType@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_5CC99C(this);
-    return __result;
 }
 
-_extern char const *_sub_5CCA13(BuildJobType *const);
 _inline char const *BuildJobType::saveToken() // 0x5CCA13
 {
     mangled_assert("?saveToken@BuildJobType@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_5CCA13(this);
-    return __result;
 }
 
 /* ---------- private code */

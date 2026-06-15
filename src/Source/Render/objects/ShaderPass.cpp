@@ -215,352 +215,257 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_10095000(CombinerState *const);
 _inline CombinerState::CombinerState() // 0x10095000
 {
     mangled_assert("??0CombinerState@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10095000(this);
 }
 
-_extern _sub_10095070(ShaderPass *const);
 ShaderPass::ShaderPass() // 0x10095070
 {
     mangled_assert("??0ShaderPass@@QAE@XZ");
     todo("implement");
-    _sub_10095070(this);
 }
 
-_extern void _sub_10095250(ShaderPass *const);
 ShaderPass::~ShaderPass() // 0x10095250
 {
     mangled_assert("??1ShaderPass@@UAE@XZ");
     todo("implement");
-    _sub_10095250(this);
 }
 
-_extern ShaderPass *_sub_10096F30();
 ShaderPass *ShaderPass::create() // 0x10096F30
 {
     mangled_assert("?create@ShaderPass@@SGPAV1@XZ");
     todo("implement");
-    ShaderPass * __result = _sub_10096F30();
-    return __result;
 }
 
-_extern void _sub_10097A00(ShaderPass *const, Parser &, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &);
 void ShaderPass::parsePass(Parser &, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &) // 0x10097A00
 {
     mangled_assert("?parsePass@ShaderPass@@QAEXAAVParser@@AAV?$vector@PAVShaderParam@@V?$allocator@PAVShaderParam@@@std@@@std@@@Z");
     todo("implement");
-    _sub_10097A00(this, arg, arg);
 }
 
-_extern float _sub_10097200(ShaderPass *const, float);
 float ShaderPass::evaluateFunc(float) // 0x10097200
 {
     mangled_assert("?evaluateFunc@ShaderPass@@QAEMM@Z");
     todo("implement");
-    float __result = _sub_10097200(this, arg);
-    return __result;
 }
 
-_extern void _sub_100961F0(ShaderPass *const, float);
 void ShaderPass::beginState(float) // 0x100961F0
 {
     mangled_assert("?beginState@ShaderPass@@QAEXM@Z");
     todo("implement");
-    _sub_100961F0(this, arg);
 }
 
-_extern void _sub_10096F60(ShaderPass *const);
 void ShaderPass::endState() // 0x10096F60
 {
     mangled_assert("?endState@ShaderPass@@QAEXXZ");
     todo("implement");
-    _sub_10096F60(this);
 }
 
-_extern void _sub_10093410(Parsable *, Parser &, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &);
 void ShaderPass_map(Parsable *parsable, Parser &parser, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &params) // 0x10093410
 {
     mangled_assert("?ShaderPass_map@@YGXPAVParsable@@AAVParser@@AAV?$vector@PAVShaderParam@@V?$allocator@PAVShaderParam@@@std@@@std@@@Z");
     todo("implement");
-    _sub_10093410(parsable, parser, params);
 }
 
-_extern void _sub_100934B0(Parsable *, Parser &, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &);
 void ShaderPass_map1(Parsable *parsable, Parser &parser, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &params) // 0x100934B0
 {
     mangled_assert("?ShaderPass_map1@@YGXPAVParsable@@AAVParser@@AAV?$vector@PAVShaderParam@@V?$allocator@PAVShaderParam@@@std@@@std@@@Z");
     todo("implement");
-    _sub_100934B0(parsable, parser, params);
 }
 
-_extern void _sub_10093540(Parsable *, Parser &, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &);
 void ShaderPass_alphaFunc(Parsable *parsable, Parser &parser, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &params) // 0x10093540
 {
     mangled_assert("?ShaderPass_alphaFunc@@YGXPAVParsable@@AAVParser@@AAV?$vector@PAVShaderParam@@V?$allocator@PAVShaderParam@@@std@@@std@@@Z");
     todo("implement");
-    _sub_10093540(parsable, parser, params);
 }
 
-_extern void _sub_10093600(Parsable *, Parser &, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &);
 void ShaderPass_rgbGen(Parsable *parsable, Parser &parser, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &params) // 0x10093600
 {
     mangled_assert("?ShaderPass_rgbGen@@YGXPAVParsable@@AAVParser@@AAV?$vector@PAVShaderParam@@V?$allocator@PAVShaderParam@@@std@@@std@@@Z");
     todo("implement");
-    _sub_10093600(parsable, parser, params);
 }
 
-_extern void _sub_10093690(Parsable *, Parser &, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &);
 void ShaderPass_blendFunc(Parsable *parsable, Parser &parser, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &params) // 0x10093690
 {
     mangled_assert("?ShaderPass_blendFunc@@YGXPAVParsable@@AAVParser@@AAV?$vector@PAVShaderParam@@V?$allocator@PAVShaderParam@@@std@@@std@@@Z");
     todo("implement");
-    _sub_10093690(parsable, parser, params);
 }
 
-_extern void _sub_10093910(Parsable *, Parser &, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &);
 void ShaderPass_depthFunc(Parsable *parsable, Parser &parser, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &params) // 0x10093910
 {
     mangled_assert("?ShaderPass_depthFunc@@YGXPAVParsable@@AAVParser@@AAV?$vector@PAVShaderParam@@V?$allocator@PAVShaderParam@@@std@@@std@@@Z");
     todo("implement");
-    _sub_10093910(parsable, parser, params);
 }
 
-_extern void _sub_10093980(Parsable *, Parser &, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &);
 void ShaderPass_depthWrite(Parsable *parsable, Parser &parser, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &params) // 0x10093980
 {
     mangled_assert("?ShaderPass_depthWrite@@YGXPAVParsable@@AAVParser@@AAV?$vector@PAVShaderParam@@V?$allocator@PAVShaderParam@@@std@@@std@@@Z");
     todo("implement");
-    _sub_10093980(parsable, parser, params);
 }
 
-_extern void _sub_10093E50(Parsable *, Parser &, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &);
 void ShaderPass_lit(Parsable *parsable, Parser &parser, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &params) // 0x10093E50
 {
     mangled_assert("?ShaderPass_lit@@YGXPAVParsable@@AAVParser@@AAV?$vector@PAVShaderParam@@V?$allocator@PAVShaderParam@@@std@@@std@@@Z");
     todo("implement");
-    _sub_10093E50(parsable, parser, params);
 }
 
-_extern void _sub_10093EA0(Parsable *, Parser &, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &);
 void ShaderPass_cull(Parsable *parsable, Parser &parser, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &params) // 0x10093EA0
 {
     mangled_assert("?ShaderPass_cull@@YGXPAVParsable@@AAVParser@@AAV?$vector@PAVShaderParam@@V?$allocator@PAVShaderParam@@@std@@@std@@@Z");
     todo("implement");
-    _sub_10093EA0(parsable, parser, params);
 }
 
-_extern void _sub_10093F20(Parsable *, Parser &, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &);
 void ShaderPass_fill(Parsable *parsable, Parser &parser, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &params) // 0x10093F20
 {
     mangled_assert("?ShaderPass_fill@@YGXPAVParsable@@AAVParser@@AAV?$vector@PAVShaderParam@@V?$allocator@PAVShaderParam@@@std@@@std@@@Z");
     todo("implement");
-    _sub_10093F20(parsable, parser, params);
 }
 
-_extern void _sub_10093F80(Parsable *, Parser &, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &);
 void ShaderPass_ambient(Parsable *parsable, Parser &parser, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &params) // 0x10093F80
 {
     mangled_assert("?ShaderPass_ambient@@YGXPAVParsable@@AAVParser@@AAV?$vector@PAVShaderParam@@V?$allocator@PAVShaderParam@@@std@@@std@@@Z");
     todo("implement");
-    _sub_10093F80(parsable, parser, params);
 }
 
-_extern void _sub_10093FE0(Parsable *, Parser &, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &);
 void ShaderPass_diffuse(Parsable *parsable, Parser &parser, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &params) // 0x10093FE0
 {
     mangled_assert("?ShaderPass_diffuse@@YGXPAVParsable@@AAVParser@@AAV?$vector@PAVShaderParam@@V?$allocator@PAVShaderParam@@@std@@@std@@@Z");
     todo("implement");
-    _sub_10093FE0(parsable, parser, params);
 }
 
-_extern void _sub_10094040(Parsable *, Parser &, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &);
 void ShaderPass_specular(Parsable *parsable, Parser &parser, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &params) // 0x10094040
 {
     mangled_assert("?ShaderPass_specular@@YGXPAVParsable@@AAVParser@@AAV?$vector@PAVShaderParam@@V?$allocator@PAVShaderParam@@@std@@@std@@@Z");
     todo("implement");
-    _sub_10094040(parsable, parser, params);
 }
 
-_extern void _sub_100940A0(Parsable *, Parser &, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &);
 void ShaderPass_shininess(Parsable *parsable, Parser &parser, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &params) // 0x100940A0
 {
     mangled_assert("?ShaderPass_shininess@@YGXPAVParsable@@AAVParser@@AAV?$vector@PAVShaderParam@@V?$allocator@PAVShaderParam@@@std@@@std@@@Z");
     todo("implement");
-    _sub_100940A0(parsable, parser, params);
 }
 
-_extern void _sub_100940D0(Parsable *, Parser &, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &);
 void ShaderPass_vertexCol(Parsable *parsable, Parser &parser, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &params) // 0x100940D0
 {
     mangled_assert("?ShaderPass_vertexCol@@YGXPAVParsable@@AAVParser@@AAV?$vector@PAVShaderParam@@V?$allocator@PAVShaderParam@@@std@@@std@@@Z");
     todo("implement");
-    _sub_100940D0(parsable, parser, params);
 }
 
-_extern void _sub_10094120(Parsable *, Parser &, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &);
 void ShaderPass_lineWidth(Parsable *parsable, Parser &parser, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &params) // 0x10094120
 {
     mangled_assert("?ShaderPass_lineWidth@@YGXPAVParsable@@AAVParser@@AAV?$vector@PAVShaderParam@@V?$allocator@PAVShaderParam@@@std@@@std@@@Z");
     todo("implement");
-    _sub_10094120(parsable, parser, params);
 }
 
-_extern void _sub_100939B0(Parsable *, Parser &, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &);
 void ShaderPass_tcMod(Parsable *parsable, Parser &parser, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &params) // 0x100939B0
 {
     mangled_assert("?ShaderPass_tcMod@@YGXPAVParsable@@AAVParser@@AAV?$vector@PAVShaderParam@@V?$allocator@PAVShaderParam@@@std@@@std@@@Z");
     todo("implement");
-    _sub_100939B0(parsable, parser, params);
 }
 
-_extern void _sub_10093C50(Parsable *, Parser &, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &);
 void ShaderPass_animMap(Parsable *parsable, Parser &parser, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &params) // 0x10093C50
 {
     mangled_assert("?ShaderPass_animMap@@YGXPAVParsable@@AAVParser@@AAV?$vector@PAVShaderParam@@V?$allocator@PAVShaderParam@@@std@@@std@@@Z");
     todo("implement");
-    _sub_10093C50(parsable, parser, params);
 }
 
-_extern void _sub_10093DE0(Parsable *, Parser &, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &);
 void ShaderPass_clampmap(Parsable *parsable, Parser &parser, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &params) // 0x10093DE0
 {
     mangled_assert("?ShaderPass_clampmap@@YGXPAVParsable@@AAVParser@@AAV?$vector@PAVShaderParam@@V?$allocator@PAVShaderParam@@@std@@@std@@@Z");
     todo("implement");
-    _sub_10093DE0(parsable, parser, params);
 }
 
-_extern void _sub_10093E10(Parsable *, Parser &, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &);
 void ShaderPass_tcGen(Parsable *parsable, Parser &parser, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &params) // 0x10093E10
 {
     mangled_assert("?ShaderPass_tcGen@@YGXPAVParsable@@AAVParser@@AAV?$vector@PAVShaderParam@@V?$allocator@PAVShaderParam@@@std@@@std@@@Z");
     todo("implement");
-    _sub_10093E10(parsable, parser, params);
 }
 
-_extern void _sub_10094150(Parsable *, Parser &, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &);
 void ShaderPass_enableCombiner(Parsable *parsable, Parser &parser, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &params) // 0x10094150
 {
     mangled_assert("?ShaderPass_enableCombiner@@YGXPAVParsable@@AAVParser@@AAV?$vector@PAVShaderParam@@V?$allocator@PAVShaderParam@@@std@@@std@@@Z");
     todo("implement");
-    _sub_10094150(parsable, parser, params);
 }
 
-_extern void _sub_10094190(Parsable *, Parser &, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &);
 void ShaderPass_combinerParam(Parsable *parsable, Parser &parser, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &params) // 0x10094190
 {
     mangled_assert("?ShaderPass_combinerParam@@YGXPAVParsable@@AAVParser@@AAV?$vector@PAVShaderParam@@V?$allocator@PAVShaderParam@@@std@@@std@@@Z");
     todo("implement");
-    _sub_10094190(parsable, parser, params);
 }
 
-_extern bool _sub_100978C0(Parser &, CombinerStage &);
 bool matchCombinerStage(Parser &parser, CombinerStage &stage) // 0x100978C0
 {
     mangled_assert("?matchCombinerStage@@YG_NAAVParser@@AAW4CombinerStage@@@Z");
     todo("implement");
-    bool __result = _sub_100978C0(parser, stage);
-    return __result;
 }
 
-_extern bool _sub_100977E0(Parser &, unsigned __int32 &);
 bool matchCombinerPortion(Parser &parser, unsigned __int32 &portion) // 0x100977E0
 {
     mangled_assert("?matchCombinerPortion@@YG_NAAVParser@@AAI@Z");
     todo("implement");
-    bool __result = _sub_100977E0(parser, portion);
-    return __result;
 }
 
-_extern bool _sub_10097910(Parser &, CombinerVariable &);
 bool matchCombinerVariable(Parser &parser, CombinerVariable &var) // 0x10097910
 {
     mangled_assert("?matchCombinerVariable@@YG_NAAVParser@@AAW4CombinerVariable@@@Z");
     todo("implement");
-    bool __result = _sub_10097910(parser, var);
-    return __result;
 }
 
-_extern bool _sub_10097450(Parser &, CombinerInput &);
 bool matchCombinerInput(Parser &parser, CombinerInput &input) // 0x10097450
 {
     mangled_assert("?matchCombinerInput@@YG_NAAVParser@@AAW4CombinerInput@@@Z");
     todo("implement");
-    bool __result = _sub_10097450(parser, input);
-    return __result;
 }
 
-_extern bool _sub_100975E0(Parser &, CombinerMapping &);
 bool matchCombinerMapping(Parser &parser, CombinerMapping &map) // 0x100975E0
 {
     mangled_assert("?matchCombinerMapping@@YG_NAAVParser@@AAW4CombinerMapping@@@Z");
     todo("implement");
-    bool __result = _sub_100975E0(parser, map);
-    return __result;
 }
 
-_extern bool _sub_100973E0(Parser &, unsigned __int32 &);
 bool matchCombinerCompUsage(Parser &parser, unsigned __int32 &compUsage) // 0x100973E0
 {
     mangled_assert("?matchCombinerCompUsage@@YG_NAAVParser@@AAI@Z");
     todo("implement");
-    bool __result = _sub_100973E0(parser, compUsage);
-    return __result;
 }
 
-_extern bool _sub_10097830(Parser &, CombinerScale &);
 bool matchCombinerScale(Parser &parser, CombinerScale &scale) // 0x10097830
 {
     mangled_assert("?matchCombinerScale@@YG_NAAVParser@@AAW4CombinerScale@@@Z");
     todo("implement");
-    bool __result = _sub_10097830(parser, scale);
-    return __result;
 }
 
-_extern bool _sub_10097390(Parser &, CombinerBias &);
 bool matchCombinerBias(Parser &parser, CombinerBias &bias) // 0x10097390
 {
     mangled_assert("?matchCombinerBias@@YG_NAAVParser@@AAW4CombinerBias@@@Z");
     todo("implement");
-    bool __result = _sub_10097390(parser, bias);
-    return __result;
 }
 
-_extern bool _sub_100976F0(Parser &, CombinerOutput &);
 bool matchCombinerOutput(Parser &parser, CombinerOutput &output) // 0x100976F0
 {
     mangled_assert("?matchCombinerOutput@@YG_NAAVParser@@AAW4CombinerOutput@@@Z");
     todo("implement");
-    bool __result = _sub_100976F0(parser, output);
-    return __result;
 }
 
-_extern void _sub_10094350(Parsable *, Parser &, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &);
 void ShaderPass_combinerInput(Parsable *parsable, Parser &parser, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &params) // 0x10094350
 {
     mangled_assert("?ShaderPass_combinerInput@@YGXPAVParsable@@AAVParser@@AAV?$vector@PAVShaderParam@@V?$allocator@PAVShaderParam@@@std@@@std@@@Z");
     todo("implement");
-    _sub_10094350(parsable, parser, params);
 }
 
-_extern void _sub_10094450(Parsable *, Parser &, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &);
 void ShaderPass_combinerOutput(Parsable *parsable, Parser &parser, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &params) // 0x10094450
 {
     mangled_assert("?ShaderPass_combinerOutput@@YGXPAVParsable@@AAVParser@@AAV?$vector@PAVShaderParam@@V?$allocator@PAVShaderParam@@@std@@@std@@@Z");
     todo("implement");
-    _sub_10094450(parsable, parser, params);
 }
 
-_extern void _sub_100945D0(Parsable *, Parser &, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &);
 void ShaderPass_finalCombinerInput(Parsable *parsable, Parser &parser, std::vector<ShaderParam *,std::allocator<ShaderParam *> > &params) // 0x100945D0
 {
     mangled_assert("?ShaderPass_finalCombinerInput@@YGXPAVParsable@@AAVParser@@AAV?$vector@PAVShaderParam@@V?$allocator@PAVShaderParam@@@std@@@std@@@Z");
     todo("implement");
-    _sub_100945D0(parsable, parser, params);
 }
 
 /* ---------- private code */

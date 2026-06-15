@@ -210,67 +210,46 @@ static_assert(sizeof(ShipStatic) == 1456, "Invalid ShipStatic size");
 
 /* ---------- public code */
 
-_extern std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<ShipStatic::spawnSalvage> > > _sub_49064E(ShipStatic const *const);
 _inline std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<ShipStatic::spawnSalvage> > > ShipStatic::spawnSalvageBegin() const // 0x49064E
 {
     mangled_assert("?spawnSalvageBegin@ShipStatic@@QBE?AV?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UspawnSalvage@ShipStatic@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<ShipStatic::spawnSalvage> > > __result = _sub_49064E(this);
-    return __result;
 }
 
-_extern std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<ShipStatic::spawnSalvage> > > _sub_49065D(ShipStatic const *const);
 _inline std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<ShipStatic::spawnSalvage> > > ShipStatic::spawnSalvageEnd() const // 0x49065D
 {
     mangled_assert("?spawnSalvageEnd@ShipStatic@@QBE?AV?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UspawnSalvage@ShipStatic@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<ShipStatic::spawnSalvage> > > __result = _sub_49065D(this);
-    return __result;
 }
 
-_extern ShipHoldStatic *_sub_4CF4CB(ShipStatic *const);
 _inline ShipHoldStatic *ShipStatic::getShipHoldStatic() // 0x4CF4CB
 {
     mangled_assert("?getShipHoldStatic@ShipStatic@@QAEPAVShipHoldStatic@@XZ");
     todo("implement");
-    ShipHoldStatic * __result = _sub_4CF4CB(this);
-    return __result;
 }
 
-_extern ShipHoldStatic const *_sub_48CC3F(ShipStatic const *const);
 _inline ShipHoldStatic const *ShipStatic::getShipHoldStatic() const // 0x48CC3F
 {
     mangled_assert("?getShipHoldStatic@ShipStatic@@QBEPBVShipHoldStatic@@XZ");
     todo("implement");
-    ShipHoldStatic const * __result = _sub_48CC3F(this);
-    return __result;
 }
 
-_extern bool _sub_48E028(ShipStatic const *const);
 _inline bool ShipStatic::isShipHoldActive() const // 0x48E028
 {
     mangled_assert("?isShipHoldActive@ShipStatic@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_48E028(this);
-    return __result;
 }
 
-_extern std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<ShipStatic::spawnDustCloud> > > _sub_48FEC3(ShipStatic const *const);
 _inline std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<ShipStatic::spawnDustCloud> > > ShipStatic::spawnDustCloudBegin() const // 0x48FEC3
 {
     mangled_assert("?spawnDustCloudBegin@ShipStatic@@QBE?AV?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UspawnDustCloud@ShipStatic@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<ShipStatic::spawnDustCloud> > > __result = _sub_48FEC3(this);
-    return __result;
 }
 
-_extern std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<ShipStatic::spawnDustCloud> > > _sub_48FED2(ShipStatic const *const);
 _inline std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<ShipStatic::spawnDustCloud> > > ShipStatic::spawnDustCloudEnd() const // 0x48FED2
 {
     mangled_assert("?spawnDustCloudEnd@ShipStatic@@QBE?AV?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UspawnDustCloud@ShipStatic@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<ShipStatic::spawnDustCloud> > > __result = _sub_48FED2(this);
-    return __result;
 }
 
 /* ---------- private code */

@@ -28,21 +28,16 @@
 
 /* ---------- public code */
 
-_extern void _sub_52E69F(DemandSys *const, unsigned __int32, float);
 void DemandSys::add(unsigned __int32, float) // 0x52E69F
 {
     mangled_assert("?add@DemandSys@@QAEXIM@Z");
     todo("implement");
-    _sub_52E69F(this, arg, arg);
 }
 
-_extern float _sub_52E71A(DemandSys *const, unsigned __int32);
 float DemandSys::get(unsigned __int32) // 0x52E71A
 {
     mangled_assert("?get@DemandSys@@QAEMI@Z");
     todo("implement");
-    float __result = _sub_52E71A(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

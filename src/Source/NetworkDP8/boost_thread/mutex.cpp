@@ -365,175 +365,130 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_6D87B9(boost::mutex *const);
 boost::mutex::mutex() // 0x6D87B9
 {
     mangled_assert("??0mutex@boost@@QAE@XZ");
     todo("implement");
-    _sub_6D87B9(this);
 }
 
-_extern void _sub_6D8891(boost::mutex *const);
 boost::mutex::~mutex() // 0x6D8891
 {
     mangled_assert("??1mutex@boost@@QAE@XZ");
     todo("implement");
-    _sub_6D8891(this);
 }
 
-_extern void _sub_6D88C3(boost::mutex *const);
 void boost::mutex::do_lock() // 0x6D88C3
 {
     mangled_assert("?do_lock@mutex@boost@@AAEXXZ");
     todo("implement");
-    _sub_6D88C3(this);
 }
 
-_extern void _sub_6D898C(boost::mutex *const);
 void boost::mutex::do_unlock() // 0x6D898C
 {
     mangled_assert("?do_unlock@mutex@boost@@AAEXXZ");
     todo("implement");
-    _sub_6D898C(this);
 }
 
-_extern void _sub_6D88B8(boost::mutex *const, void *&);
 void boost::mutex::do_lock(void *&) // 0x6D88B8
 {
     mangled_assert("?do_lock@mutex@boost@@AAEXAAPAX@Z");
     todo("implement");
-    _sub_6D88B8(this, arg);
 }
 
-_extern void _sub_6D8981(boost::mutex *const, void *&);
 void boost::mutex::do_unlock(void *&) // 0x6D8981
 {
     mangled_assert("?do_unlock@mutex@boost@@AAEXAAPAX@Z");
     todo("implement");
-    _sub_6D8981(this, arg);
 }
 
-_extern _sub_6D885B(boost::try_mutex *const);
 boost::try_mutex::try_mutex() // 0x6D885B
 {
     mangled_assert("??0try_mutex@boost@@QAE@XZ");
     todo("implement");
-    _sub_6D885B(this);
 }
 
-_extern void _sub_6D88AF(boost::try_mutex *const);
 boost::try_mutex::~try_mutex() // 0x6D88AF
 {
     mangled_assert("??1try_mutex@boost@@QAE@XZ");
     todo("implement");
-    _sub_6D88AF(this);
 }
 
-_extern void _sub_6D88F1(boost::try_mutex *const);
 void boost::try_mutex::do_lock() // 0x6D88F1
 {
     mangled_assert("?do_lock@try_mutex@boost@@AAEXXZ");
     todo("implement");
-    _sub_6D88F1(this);
 }
 
-_extern bool _sub_6D8971(boost::try_mutex *const);
 bool boost::try_mutex::do_trylock() // 0x6D8971
 {
     mangled_assert("?do_trylock@try_mutex@boost@@AAE_NXZ");
     todo("implement");
-    bool __result = _sub_6D8971(this);
-    return __result;
 }
 
-_extern void _sub_6D89B4(boost::try_mutex *const);
 void boost::try_mutex::do_unlock() // 0x6D89B4
 {
     mangled_assert("?do_unlock@try_mutex@boost@@AAEXXZ");
     todo("implement");
-    _sub_6D89B4(this);
 }
 
-_extern void _sub_6D88E4(boost::try_mutex *const, void *&);
 void boost::try_mutex::do_lock(void *&) // 0x6D88E4
 {
     mangled_assert("?do_lock@try_mutex@boost@@AAEXAAPAX@Z");
     todo("implement");
-    _sub_6D88E4(this, arg);
 }
 
-_extern void _sub_6D89A9(boost::try_mutex *const, void *&);
 void boost::try_mutex::do_unlock(void *&) // 0x6D89A9
 {
     mangled_assert("?do_unlock@try_mutex@boost@@AAEXAAPAX@Z");
     todo("implement");
-    _sub_6D89A9(this, arg);
 }
 
-_extern _sub_6D8825(boost::timed_mutex *const);
 boost::timed_mutex::timed_mutex() // 0x6D8825
 {
     mangled_assert("??0timed_mutex@boost@@QAE@XZ");
     todo("implement");
-    _sub_6D8825(this);
 }
 
-_extern void _sub_6D88A6(boost::timed_mutex *const);
 boost::timed_mutex::~timed_mutex() // 0x6D88A6
 {
     mangled_assert("??1timed_mutex@boost@@QAE@XZ");
     todo("implement");
-    _sub_6D88A6(this);
 }
 
-_extern void _sub_6D88D9(boost::timed_mutex *const);
 void boost::timed_mutex::do_lock() // 0x6D88D9
 {
     mangled_assert("?do_lock@timed_mutex@boost@@AAEXXZ");
     todo("implement");
-    _sub_6D88D9(this);
 }
 
-_extern bool _sub_6D8961(boost::timed_mutex *const);
 bool boost::timed_mutex::do_trylock() // 0x6D8961
 {
     mangled_assert("?do_trylock@timed_mutex@boost@@AAE_NXZ");
     todo("implement");
-    bool __result = _sub_6D8961(this);
-    return __result;
 }
 
-_extern bool _sub_6D88FC(boost::timed_mutex *const, boost::xtime const &);
 bool boost::timed_mutex::do_timedlock(boost::xtime const &) // 0x6D88FC
 {
     mangled_assert("?do_timedlock@timed_mutex@boost@@AAE_NABUxtime@2@@Z");
     todo("implement");
-    bool __result = _sub_6D88FC(this, arg);
-    return __result;
 }
 
-_extern void _sub_6D89A0(boost::timed_mutex *const);
 void boost::timed_mutex::do_unlock() // 0x6D89A0
 {
     mangled_assert("?do_unlock@timed_mutex@boost@@AAEXXZ");
     todo("implement");
-    _sub_6D89A0(this);
 }
 
-_extern void _sub_6D88CC(boost::timed_mutex *const, void *&);
 void boost::timed_mutex::do_lock(void *&) // 0x6D88CC
 {
     mangled_assert("?do_lock@timed_mutex@boost@@AAEXAAPAX@Z");
     todo("implement");
-    _sub_6D88CC(this, arg);
 }
 
-_extern void _sub_6D8995(boost::timed_mutex *const, void *&);
 void boost::timed_mutex::do_unlock(void *&) // 0x6D8995
 {
     mangled_assert("?do_unlock@timed_mutex@boost@@AAEXAAPAX@Z");
     todo("implement");
-    _sub_6D8995(this, arg);
 }
 
 /* ---------- private code */

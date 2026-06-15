@@ -173,132 +173,100 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_570B11(UI::ChatScreen *const, char const *);
 UI::ChatScreen::ChatScreen(char const *) // 0x570B11
 {
     mangled_assert("??0ChatScreen@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_570B11(this, arg);
 }
 
-_extern void _sub_570B39(UI::ChatScreen *const);
 UI::ChatScreen::~ChatScreen() // 0x570B39
 {
     mangled_assert("??1ChatScreen@UI@@UAE@XZ");
     todo("implement");
-    _sub_570B39(this);
 }
 
-_extern void _sub_570FC8(UI::ChatScreen *const, LuaConfig &);
 void UI::ChatScreen::OnLoad(LuaConfig &) // 0x570FC8
 {
     mangled_assert("?OnLoad@ChatScreen@UI@@MAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_570FC8(this, arg);
 }
 
-_extern void _sub_571784(UI::ChatScreen *const);
 void UI::ChatScreen::UpdateChatDestinations() // 0x571784
 {
     mangled_assert("?UpdateChatDestinations@ChatScreen@UI@@MAEXXZ");
     todo("implement");
-    _sub_571784(this);
 }
 
-_extern void _sub_57101F(UI::ChatScreen *const);
 void UI::ChatScreen::OnPostLoad() // 0x57101F
 {
     mangled_assert("?OnPostLoad@ChatScreen@UI@@MAEXXZ");
     todo("implement");
-    _sub_57101F(this);
 }
 
-_extern void _sub_5713C1(UI::ChatScreen *const, unsigned __int32);
 void UI::ChatScreen::Update(unsigned __int32) // 0x5713C1
 {
     mangled_assert("?Update@ChatScreen@UI@@UAEXI@Z");
     todo("implement");
-    _sub_5713C1(this, arg);
 }
 
-_extern void _sub_571336();
 void UI::ChatScreen::Toggle() // 0x571336
 {
     mangled_assert("?Toggle@ChatScreen@UI@@SGXXZ");
     todo("implement");
-    _sub_571336();
 }
 
-_extern void _sub_570D25(UI::ChatScreen *const, bool);
 void UI::ChatScreen::OnActivate(bool) // 0x570D25
 {
     mangled_assert("?OnActivate@ChatScreen@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_570D25(this, arg);
 }
 
-_extern void _sub_570DFC(UI::InterfaceElement *);
 void UI::ChatScreen::OnChatAccept(UI::InterfaceElement *sender) // 0x570DFC
 {
     mangled_assert("?OnChatAccept@ChatScreen@UI@@KGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_570DFC(sender);
 }
 
-_extern void _sub_570F05(UI::InterfaceElement *);
 void UI::ChatScreen::OnChatCancel(UI::InterfaceElement *sender) // 0x570F05
 {
     mangled_assert("?OnChatCancel@ChatScreen@UI@@KGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_570F05(sender);
 }
 
-_extern void _sub_571227(UI::ChatScreen *const, wchar_t const *, __int32);
 void UI::ChatScreen::SendChatMsg(wchar_t const *, __int32) // 0x571227
 {
     mangled_assert("?SendChatMsg@ChatScreen@UI@@QAEXPB_WH@Z");
     todo("implement");
-    _sub_571227(this, arg, arg);
 }
 
-_extern void _sub_570F72(UI::InterfaceElement *);
 void UI::ChatScreen::OnChooseDest(UI::InterfaceElement *sender) // 0x570F72
 {
     mangled_assert("?OnChooseDest@ChatScreen@UI@@KGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_570F72(sender);
 }
 
-_extern void _sub_5712A5(UI::ChatScreen *const, __int32);
 void UI::ChatScreen::SetChatDest(__int32) // 0x5712A5
 {
     mangled_assert("?SetChatDest@ChatScreen@UI@@QAEXH@Z");
     todo("implement");
-    _sub_5712A5(this, arg);
 }
 
-_extern void _sub_570B72(UI::ChatScreen *const);
 void UI::ChatScreen::ActivateChat() // 0x570B72
 {
     mangled_assert("?ActivateChat@ChatScreen@UI@@QAEXXZ");
     todo("implement");
-    _sub_570B72(this);
 }
 
-_extern void _sub_570FB9(UI::ChatScreen *const, unsigned char, UI::KeyModifier const &);
 void UI::ChatScreen::OnKeyPressed(unsigned char, UI::KeyModifier const &) // 0x570FB9
 {
     mangled_assert("?OnKeyPressed@ChatScreen@UI@@MAEXEABVKeyModifier@2@@Z");
     todo("implement");
-    _sub_570FB9(this, arg, arg);
 }
 
-_extern void _sub_570C06(UI::ChatScreen *const);
 void UI::ChatScreen::NextDest() // 0x570C06
 {
     mangled_assert("?NextDest@ChatScreen@UI@@AAEXXZ");
     todo("implement");
-    _sub_570C06(this);
 }
 
 /* ---------- private code */

@@ -52,22 +52,16 @@ static_assert(sizeof(DockQueue) == 20, "Invalid DockQueue size");
 
 /* ---------- public code */
 
-_extern bool _sub_6A597B(DockQueue *const);
 _inline bool DockQueue::isDeterministic() // 0x6A597B
 {
     mangled_assert("?isDeterministic@DockQueue@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6A597B(this);
-    return __result;
 }
 
-_extern char const *_sub_6A5EBB(DockQueue *const);
 _inline char const *DockQueue::saveToken() // 0x6A5EBB
 {
     mangled_assert("?saveToken@DockQueue@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6A5EBB(this);
-    return __result;
 }
 
 /* ---------- private code */

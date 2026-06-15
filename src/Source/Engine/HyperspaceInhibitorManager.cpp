@@ -119,86 +119,64 @@ extern SaveData const HyperspaceInhibitorManager::m_saveData[1]; // 0x78C29C
 
 /* ---------- public code */
 
-_extern _sub_485CCF(HyperspaceInhibitorManager *const, SobID const &);
 HyperspaceInhibitorManager::HyperspaceInhibitorManager(SobID const &) // 0x485CCF
 {
     mangled_assert("??0HyperspaceInhibitorManager@@QAE@ABVSobID@@@Z");
     todo("implement");
-    _sub_485CCF(this, arg);
 }
 
-_extern void _sub_485D69(HyperspaceInhibitorManager *const);
 HyperspaceInhibitorManager::~HyperspaceInhibitorManager() // 0x485D69
 {
     mangled_assert("??1HyperspaceInhibitorManager@@UAE@XZ");
     todo("implement");
-    _sub_485D69(this);
 }
 
-_extern _sub_485D1D(HyperspaceInhibitorManager *const, SaveGameData *);
 HyperspaceInhibitorManager::HyperspaceInhibitorManager(SaveGameData *) // 0x485D1D
 {
     mangled_assert("??0HyperspaceInhibitorManager@@QAE@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_485D1D(this, arg);
 }
 
-_extern void _sub_485DC5(HyperspaceInhibitorManager *const);
 void HyperspaceInhibitorManager::applyHyperspaceModifiers() // 0x485DC5
 {
     mangled_assert("?applyHyperspaceModifiers@HyperspaceInhibitorManager@@QAEXXZ");
     todo("implement");
-    _sub_485DC5(this);
 }
 
-_extern void _sub_485DC6(HyperspaceInhibitorManager *const);
 void HyperspaceInhibitorManager::defaultSettings() // 0x485DC6
 {
     mangled_assert("?defaultSettings@HyperspaceInhibitorManager@@QAEXXZ");
     todo("implement");
-    _sub_485DC6(this);
 }
 
-_extern void _sub_485DCA(HyperspaceInhibitorManager *const);
 void HyperspaceInhibitorManager::postRestore() // 0x485DCA
 {
     mangled_assert("?postRestore@HyperspaceInhibitorManager@@UAEXXZ");
     todo("implement");
-    _sub_485DCA(this);
 }
 
-_extern bool _sub_485DCB(HyperspaceInhibitorManager *const, SaveGameData *);
 bool HyperspaceInhibitorManager::restore(SaveGameData *) // 0x485DCB
 {
     mangled_assert("?restore@HyperspaceInhibitorManager@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_485DCB(this, arg);
-    return __result;
 }
 
-_extern bool _sub_485E09(HyperspaceInhibitorManager *const, SaveGameData *, SaveType);
 bool HyperspaceInhibitorManager::save(SaveGameData *, SaveType) // 0x485E09
 {
     mangled_assert("?save@HyperspaceInhibitorManager@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_485E09(this, arg, arg);
-    return __result;
 }
 
-_extern _sub_485D5A(HyperspaceInhibitorStatic *const, float);
 HyperspaceInhibitorStatic::HyperspaceInhibitorStatic(float) // 0x485D5A
 {
     mangled_assert("??0HyperspaceInhibitorStatic@@QAE@M@Z");
     todo("implement");
-    _sub_485D5A(this, arg);
 }
 
-_extern void _sub_485DA8(HyperspaceInhibitorStatic *const);
 HyperspaceInhibitorStatic::~HyperspaceInhibitorStatic() // 0x485DA8
 {
     mangled_assert("??1HyperspaceInhibitorStatic@@QAE@XZ");
     todo("implement");
-    _sub_485DA8(this);
 }
 
 /* ---------- private code */

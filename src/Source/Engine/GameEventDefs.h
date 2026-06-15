@@ -797,340 +797,256 @@ static_assert(sizeof(NDGameEvent_PlayerNameChanged) == 16, "Invalid NDGameEvent_
 
 /* ---------- public code */
 
-_extern _sub_5CE61A(GameEvent_BuildUnitComplete *const, Player const *, Ship const *, Squadron const *);
 _inline GameEvent_BuildUnitComplete::GameEvent_BuildUnitComplete(Player const *, Ship const *, Squadron const *) // 0x5CE61A
 {
     mangled_assert("??0GameEvent_BuildUnitComplete@@QAE@PBVPlayer@@PBVShip@@PBVSquadron@@@Z");
     todo("implement");
-    _sub_5CE61A(this, arg, arg, arg);
 }
 
-_extern _sub_5CE5CC(GameEvent_BuildSubSystemComplete *const, Player const *, Ship const *, SubSystem *);
 _inline GameEvent_BuildSubSystemComplete::GameEvent_BuildSubSystemComplete(Player const *, Ship const *, SubSystem *) // 0x5CE5CC
 {
     mangled_assert("??0GameEvent_BuildSubSystemComplete@@QAE@PBVPlayer@@PBVShip@@PAVSubSystem@@@Z");
     todo("implement");
-    _sub_5CE5CC(this, arg, arg, arg);
 }
 
-_extern _sub_5CE641(GameEvent_BuildUnitStart *const, Player const *, Ship const *, BuildData *);
 _inline GameEvent_BuildUnitStart::GameEvent_BuildUnitStart(Player const *, Ship const *, BuildData *) // 0x5CE641
 {
     mangled_assert("??0GameEvent_BuildUnitStart@@QAE@PBVPlayer@@PBVShip@@PAVBuildData@@@Z");
     todo("implement");
-    _sub_5CE641(this, arg, arg, arg);
 }
 
-_extern _sub_5CE5F3(GameEvent_BuildUnitCancel *const, Player const *, Ship const *, BuildData *);
 _inline GameEvent_BuildUnitCancel::GameEvent_BuildUnitCancel(Player const *, Ship const *, BuildData *) // 0x5CE5F3
 {
     mangled_assert("??0GameEvent_BuildUnitCancel@@QAE@PBVPlayer@@PBVShip@@PAVBuildData@@@Z");
     todo("implement");
-    _sub_5CE5F3(this, arg, arg, arg);
 }
 
-_extern _sub_5CE668(GameEvent_BuildUnitUnitCaps *const, Player const *, Ship const *, BuildData *);
 _inline GameEvent_BuildUnitUnitCaps::GameEvent_BuildUnitUnitCaps(Player const *, Ship const *, BuildData *) // 0x5CE668
 {
     mangled_assert("??0GameEvent_BuildUnitUnitCaps@@QAE@PBVPlayer@@PBVShip@@PAVBuildData@@@Z");
     todo("implement");
-    _sub_5CE668(this, arg, arg, arg);
 }
 
-_extern _sub_5CE59E(GameEvent_BuildAvailable *const, Player const *, GameEvent_BuildAvailable::BuildEvent, Ship const *, std::list<unsigned int,std::allocator<unsigned int> > const &);
 _inline GameEvent_BuildAvailable::GameEvent_BuildAvailable(Player const *, GameEvent_BuildAvailable::BuildEvent, Ship const *, std::list<unsigned int,std::allocator<unsigned int> > const &) // 0x5CE59E
 {
     mangled_assert("??0GameEvent_BuildAvailable@@QAE@PBVPlayer@@W4BuildEvent@0@PBVShip@@ABV?$list@IV?$allocator@I@std@@@std@@@Z");
     todo("implement");
-    _sub_5CE59E(this, arg, arg, arg, arg);
 }
 
-_extern _sub_4ED02A(GameEvent_Research *const, Player const *, GameEvent_Research::ResearchEvent, ResearchData const &);
 _inline GameEvent_Research::GameEvent_Research(Player const *, GameEvent_Research::ResearchEvent, ResearchData const &) // 0x4ED02A
 {
     mangled_assert("??0GameEvent_Research@@QAE@PBVPlayer@@W4ResearchEvent@0@ABVResearchData@@@Z");
     todo("implement");
-    _sub_4ED02A(this, arg, arg, arg);
 }
 
-_extern _sub_61D354(GameEvent_PlayerKilled *const, Player const *, __int32);
 _inline GameEvent_PlayerKilled::GameEvent_PlayerKilled(Player const *, __int32) // 0x61D354
 {
     mangled_assert("??0GameEvent_PlayerKilled@@QAE@PBVPlayer@@H@Z");
     todo("implement");
-    _sub_61D354(this, arg, arg);
 }
 
-_extern _sub_61D32D(GameEvent_AddSquadronToPlayer *const, Player const *, Squadron &, bool);
 _inline GameEvent_AddSquadronToPlayer::GameEvent_AddSquadronToPlayer(Player const *, Squadron &, bool) // 0x61D32D
 {
     mangled_assert("??0GameEvent_AddSquadronToPlayer@@QAE@PBVPlayer@@AAVSquadron@@_N@Z");
     todo("implement");
-    _sub_61D32D(this, arg, arg, arg);
 }
 
-_extern _sub_61D378(GameEvent_RemoveSquadronFromPlayer *const, Player const *, Squadron &);
 _inline GameEvent_RemoveSquadronFromPlayer::GameEvent_RemoveSquadronFromPlayer(Player const *, Squadron &) // 0x61D378
 {
     mangled_assert("??0GameEvent_RemoveSquadronFromPlayer@@QAE@PBVPlayer@@AAVSquadron@@@Z");
     todo("implement");
-    _sub_61D378(this, arg, arg);
 }
 
-_extern _sub_61D30D(GameEvent_AddShipToSquadron *const, Player const *, Ship *);
 _inline GameEvent_AddShipToSquadron::GameEvent_AddShipToSquadron(Player const *, Ship *) // 0x61D30D
 {
     mangled_assert("??0GameEvent_AddShipToSquadron@@QAE@PBVPlayer@@PAVShip@@@Z");
     todo("implement");
-    _sub_61D30D(this, arg, arg);
 }
 
-_extern _sub_4AC0B9(GameEvent_ShipDocked *const, Player const *, SobID const &, SobID const &);
 _inline GameEvent_ShipDocked::GameEvent_ShipDocked(Player const *, SobID const &, SobID const &) // 0x4AC0B9
 {
     mangled_assert("??0GameEvent_ShipDocked@@QAE@PBVPlayer@@ABVSobID@@1@Z");
     todo("implement");
-    _sub_4AC0B9(this, arg, arg, arg);
 }
 
-_extern _sub_4C0980(GameEvent_CloudEvent *const, Player const *, Ship const *, GameEvent_CloudEvent::CloudEvent const);
 _inline GameEvent_CloudEvent::GameEvent_CloudEvent(Player const *, Ship const *, GameEvent_CloudEvent::CloudEvent const) // 0x4C0980
 {
     mangled_assert("??0GameEvent_CloudEvent@@QAE@PBVPlayer@@PBVShip@@W4CloudEvent@0@@Z");
     todo("implement");
-    _sub_4C0980(this, arg, arg, arg);
 }
 
-_extern _sub_6A1D7B(GameEvent_ShipLaunched *const, Player const *, SobID const &, SobID const &);
 _inline GameEvent_ShipLaunched::GameEvent_ShipLaunched(Player const *, SobID const &, SobID const &) // 0x6A1D7B
 {
     mangled_assert("??0GameEvent_ShipLaunched@@QAE@PBVPlayer@@ABVSobID@@1@Z");
     todo("implement");
-    _sub_6A1D7B(this, arg, arg, arg);
 }
 
-_extern _sub_484509(GameEvent_ShipCaptured *const, Player const *, Ship const *, Ship const *);
 _inline GameEvent_ShipCaptured::GameEvent_ShipCaptured(Player const *, Ship const *, Ship const *) // 0x484509
 {
     mangled_assert("??0GameEvent_ShipCaptured@@QAE@PBVPlayer@@PBVShip@@1@Z");
     todo("implement");
-    _sub_484509(this, arg, arg, arg);
 }
 
-_extern _sub_6A9CBF(GameEvent_ShipCaptureFailed *const, Player const *, Ship const *, Ship const *);
 _inline GameEvent_ShipCaptureFailed::GameEvent_ShipCaptureFailed(Player const *, Ship const *, Ship const *) // 0x6A9CBF
 {
     mangled_assert("??0GameEvent_ShipCaptureFailed@@QAE@PBVPlayer@@PBVShip@@1@Z");
     todo("implement");
-    _sub_6A9CBF(this, arg, arg, arg);
 }
 
-_extern _sub_5DBFC4(GameEvent_PlayerAlliance *const, Player const *, Player const *, GameEvent_PlayerAlliance::AllianceEventData, __int32);
 _inline GameEvent_PlayerAlliance::GameEvent_PlayerAlliance(Player const *, Player const *, GameEvent_PlayerAlliance::AllianceEventData, __int32) // 0x5DBFC4
 {
     mangled_assert("??0GameEvent_PlayerAlliance@@QAE@PBVPlayer@@0W4AllianceEventData@0@H@Z");
     todo("implement");
-    _sub_5DBFC4(this, arg, arg, arg, arg);
 }
 
-_extern _sub_4BDFD5(GameEvent_ShipRemoved *const, Player const *, Sob const *, __int32, unsigned __int32);
 _inline GameEvent_ShipRemoved::GameEvent_ShipRemoved(Player const *, Sob const *, __int32, unsigned __int32) // 0x4BDFD5
 {
     mangled_assert("??0GameEvent_ShipRemoved@@QAE@PBVPlayer@@PBVSob@@HI@Z");
     todo("implement");
-    _sub_4BDFD5(this, arg, arg, arg, arg);
 }
 
-_extern _sub_4B77B0(GameEvent_CommandGiven *const, CommandType const, Player const *, Squadron const *, Selection const &);
 _inline GameEvent_CommandGiven::GameEvent_CommandGiven(CommandType const, Player const *, Squadron const *, Selection const &) // 0x4B77B0
 {
     mangled_assert("??0GameEvent_CommandGiven@@QAE@W4CommandType@@PBVPlayer@@PBVSquadron@@ABVSelection@@@Z");
     todo("implement");
-    _sub_4B77B0(this, arg, arg, arg, arg);
 }
 
-_extern _sub_4B7789(GameEvent_CommandCompelete *const, CommandType const, Player const *, Squadron const *);
 _inline GameEvent_CommandCompelete::GameEvent_CommandCompelete(CommandType const, Player const *, Squadron const *) // 0x4B7789
 {
     mangled_assert("??0GameEvent_CommandCompelete@@QAE@W4CommandType@@PBVPlayer@@PBVSquadron@@@Z");
     todo("implement");
-    _sub_4B7789(this, arg, arg, arg);
 }
 
-_extern _sub_4B7762(GameEvent_CommandCancelled *const, CommandType const, Player const *, Squadron const *);
 _inline GameEvent_CommandCancelled::GameEvent_CommandCancelled(CommandType const, Player const *, Squadron const *) // 0x4B7762
 {
     mangled_assert("??0GameEvent_CommandCancelled@@QAE@W4CommandType@@PBVPlayer@@PBVSquadron@@@Z");
     todo("implement");
-    _sub_4B7762(this, arg, arg, arg);
 }
 
-_extern _sub_6AC23E(GameEvent_CommandCouldNotBeIssued *const, CommandType const, Player const *, Squadron const *);
 _inline GameEvent_CommandCouldNotBeIssued::GameEvent_CommandCouldNotBeIssued(CommandType const, Player const *, Squadron const *) // 0x6AC23E
 {
     mangled_assert("??0GameEvent_CommandCouldNotBeIssued@@QAE@W4CommandType@@PBVPlayer@@PBVSquadron@@@Z");
     todo("implement");
-    _sub_6AC23E(this, arg, arg, arg);
 }
 
-_extern _sub_4B7805(GameEvent_SquadronSpotted *const, Player const *, Squadron const *);
 _inline GameEvent_SquadronSpotted::GameEvent_SquadronSpotted(Player const *, Squadron const *) // 0x4B7805
 {
     mangled_assert("??0GameEvent_SquadronSpotted@@QAE@PBVPlayer@@PBVSquadron@@@Z");
     todo("implement");
-    _sub_4B7805(this, arg, arg);
 }
 
-_extern _sub_484DE2(GameEvent_CloakingStatusChange *const, Player const *, Ship const *, GameEvent_CloakingStatusChange::CloakingStatus);
 _inline GameEvent_CloakingStatusChange::GameEvent_CloakingStatusChange(Player const *, Ship const *, GameEvent_CloakingStatusChange::CloakingStatus) // 0x484DE2
 {
     mangled_assert("??0GameEvent_CloakingStatusChange@@QAE@PBVPlayer@@PBVShip@@W4CloakingStatus@0@@Z");
     todo("implement");
-    _sub_484DE2(this, arg, arg, arg);
 }
 
-_extern _sub_4B77DE(GameEvent_HyperspaceStatus *const, Player const *, Squadron const *, GameEvent_HyperspaceStatus::HyperspaceStatus);
 _inline GameEvent_HyperspaceStatus::GameEvent_HyperspaceStatus(Player const *, Squadron const *, GameEvent_HyperspaceStatus::HyperspaceStatus) // 0x4B77DE
 {
     mangled_assert("??0GameEvent_HyperspaceStatus@@QAE@PBVPlayer@@PBVSquadron@@W4HyperspaceStatus@0@@Z");
     todo("implement");
-    _sub_4B77DE(this, arg, arg, arg);
 }
 
-_extern _sub_485566(GameEvent_DefenseFieldStatusChange *const, Player const *, Ship const *, GameEvent_DefenseFieldStatusChange::DefenseFieldStatus);
 _inline GameEvent_DefenseFieldStatusChange::GameEvent_DefenseFieldStatusChange(Player const *, Ship const *, GameEvent_DefenseFieldStatusChange::DefenseFieldStatus) // 0x485566
 {
     mangled_assert("??0GameEvent_DefenseFieldStatusChange@@QAE@PBVPlayer@@PBVShip@@W4DefenseFieldStatus@0@@Z");
     todo("implement");
-    _sub_485566(this, arg, arg, arg);
 }
 
-_extern _sub_4B7825(GameEvent_TacticsSet *const, Player const *, Squadron const *, SquadronTactics const);
 _inline GameEvent_TacticsSet::GameEvent_TacticsSet(Player const *, Squadron const *, SquadronTactics const) // 0x4B7825
 {
     mangled_assert("??0GameEvent_TacticsSet@@QAE@PBVPlayer@@PBVSquadron@@W4SquadronTactics@@@Z");
     todo("implement");
-    _sub_4B7825(this, arg, arg, arg);
 }
 
-_extern _sub_451B58(NDGameEvent_HotkeyGroupSelected *const, Player const *, Selection const &, unsigned __int32 const);
 _inline NDGameEvent_HotkeyGroupSelected::NDGameEvent_HotkeyGroupSelected(Player const *, Selection const &, unsigned __int32 const) // 0x451B58
 {
     mangled_assert("??0NDGameEvent_HotkeyGroupSelected@@QAE@PBVPlayer@@ABVSelection@@I@Z");
     todo("implement");
-    _sub_451B58(this, arg, arg, arg);
 }
 
-_extern _sub_451B86(NDGameEvent_HotkeyGroupSelected *const, Player const *, Selection const &, unsigned __int32 const, NDGameEvent_HotkeyGroupSelected::KeyAction const);
 _inline NDGameEvent_HotkeyGroupSelected::NDGameEvent_HotkeyGroupSelected(Player const *, Selection const &, unsigned __int32 const, NDGameEvent_HotkeyGroupSelected::KeyAction const) // 0x451B86
 {
     mangled_assert("??0NDGameEvent_HotkeyGroupSelected@@QAE@PBVPlayer@@ABVSelection@@IW4KeyAction@0@@Z");
     todo("implement");
-    _sub_451B86(this, arg, arg, arg, arg);
 }
 
-_extern _sub_45CDFF(NDGameEvent_ShipsSelected *const, Player const *, Selection const &);
 _inline NDGameEvent_ShipsSelected::NDGameEvent_ShipsSelected(Player const *, Selection const &) // 0x45CDFF
 {
     mangled_assert("??0NDGameEvent_ShipsSelected@@QAE@PBVPlayer@@ABVSelection@@@Z");
     todo("implement");
-    _sub_45CDFF(this, arg, arg);
 }
 
-_extern _sub_45CE1F(NDGameEvent_SubSystemSelected *const, Player const *, Selection const &);
 _inline NDGameEvent_SubSystemSelected::NDGameEvent_SubSystemSelected(Player const *, Selection const &) // 0x45CE1F
 {
     mangled_assert("??0NDGameEvent_SubSystemSelected@@QAE@PBVPlayer@@ABVSelection@@@Z");
     todo("implement");
-    _sub_45CE1F(this, arg, arg);
 }
 
-_extern _sub_69037B(GameEvent_StrikeGroupFormed *const, Player const *, StrikeGroup const *);
 _inline GameEvent_StrikeGroupFormed::GameEvent_StrikeGroupFormed(Player const *, StrikeGroup const *) // 0x69037B
 {
     mangled_assert("??0GameEvent_StrikeGroupFormed@@QAE@PBVPlayer@@PBVStrikeGroup@@@Z");
     todo("implement");
-    _sub_69037B(this, arg, arg);
 }
 
-_extern _sub_4868BF(GameEvent_Combat *const, GameEvent_Combat::CombatEvent const, Player const *, Squadron const *, Selection const &);
 _inline GameEvent_Combat::GameEvent_Combat(GameEvent_Combat::CombatEvent const, Player const *, Squadron const *, Selection const &) // 0x4868BF
 {
     mangled_assert("??0GameEvent_Combat@@QAE@W4CombatEvent@0@PBVPlayer@@PBVSquadron@@ABVSelection@@@Z");
     todo("implement");
-    _sub_4868BF(this, arg, arg, arg, arg);
 }
 
-_extern _sub_6A110F(GameEvent_ShipRepairs *const, Player const *, Ship const *, Ship const *, GameEvent_ShipRepairs::RepairStatus);
 _inline GameEvent_ShipRepairs::GameEvent_ShipRepairs(Player const *, Ship const *, Ship const *, GameEvent_ShipRepairs::RepairStatus) // 0x6A110F
 {
     mangled_assert("??0GameEvent_ShipRepairs@@QAE@PBVPlayer@@PBVShip@@1W4RepairStatus@0@@Z");
     todo("implement");
-    _sub_6A110F(this, arg, arg, arg, arg);
 }
 
-_extern _sub_489C33(GameEvent_ResourceCollection *const, Player const *, Ship const *, GameEvent_ResourceCollection::CollectionStatus);
 _inline GameEvent_ResourceCollection::GameEvent_ResourceCollection(Player const *, Ship const *, GameEvent_ResourceCollection::CollectionStatus) // 0x489C33
 {
     mangled_assert("??0GameEvent_ResourceCollection@@QAE@PBVPlayer@@PBVShip@@W4CollectionStatus@0@@Z");
     todo("implement");
-    _sub_489C33(this, arg, arg, arg);
 }
 
-_extern _sub_484530(GameEvent_SpecialSpeech *const, GameEvent_SpecialSpeech::SpecialEvent, Player const *, Ship const *, Ship const *);
 _inline GameEvent_SpecialSpeech::GameEvent_SpecialSpeech(GameEvent_SpecialSpeech::SpecialEvent, Player const *, Ship const *, Ship const *) // 0x484530
 {
     mangled_assert("??0GameEvent_SpecialSpeech@@QAE@W4SpecialEvent@0@PBVPlayer@@PBVShip@@2@Z");
     todo("implement");
-    _sub_484530(this, arg, arg, arg, arg);
 }
 
-_extern _sub_4F02C1(GameEvent_SubSystemEvent *const, GameEvent_SubSystemEvent::SubsysEvent, Player const *, SubSystem const *, Ship const *);
 _inline GameEvent_SubSystemEvent::GameEvent_SubSystemEvent(GameEvent_SubSystemEvent::SubsysEvent, Player const *, SubSystem const *, Ship const *) // 0x4F02C1
 {
     mangled_assert("??0GameEvent_SubSystemEvent@@QAE@W4SubsysEvent@0@PBVPlayer@@PBVSubSystem@@PBVShip@@@Z");
     todo("implement");
-    _sub_4F02C1(this, arg, arg, arg, arg);
 }
 
-_extern _sub_634007(NDGameEvent_BattleStatus *const, Player const *, float const, vector3 const &, bool);
 _inline NDGameEvent_BattleStatus::NDGameEvent_BattleStatus(Player const *, float const, vector3 const &, bool) // 0x634007
 {
     mangled_assert("??0NDGameEvent_BattleStatus@@QAE@PBVPlayer@@MABVvector3@@_N@Z");
     todo("implement");
-    _sub_634007(this, arg, arg, arg, arg);
 }
 
-_extern _sub_610751(NDGameEvent_Objectives *const, Player const *, NDGameEvent_Objectives::EventType, Objective *);
 _inline NDGameEvent_Objectives::NDGameEvent_Objectives(Player const *, NDGameEvent_Objectives::EventType, Objective *) // 0x610751
 {
     mangled_assert("??0NDGameEvent_Objectives@@QAE@PBVPlayer@@W4EventType@0@PAVObjective@@@Z");
     todo("implement");
-    _sub_610751(this, arg, arg, arg);
 }
 
-_extern _sub_51E320(NDGameEvent_RenderModel *const, char const *);
 _inline NDGameEvent_RenderModel::NDGameEvent_RenderModel(char const *) // 0x51E320
 {
     mangled_assert("??0NDGameEvent_RenderModel@@QAE@PBD@Z");
     todo("implement");
-    _sub_51E320(this, arg);
 }
 
-_extern _sub_5CE68F(NDGameEvent_BuildingUnit *const, Player const *, Ship const *);
 _inline NDGameEvent_BuildingUnit::NDGameEvent_BuildingUnit(Player const *, Ship const *) // 0x5CE68F
 {
     mangled_assert("??0NDGameEvent_BuildingUnit@@QAE@PBVPlayer@@PBVShip@@@Z");
     todo("implement");
-    _sub_5CE68F(this, arg, arg);
 }
 
-_extern _sub_61D398(NDGameEvent_PlayerNameChanged *const, Player const *);
 _inline NDGameEvent_PlayerNameChanged::NDGameEvent_PlayerNameChanged(Player const *) // 0x61D398
 {
     mangled_assert("??0NDGameEvent_PlayerNameChanged@@QAE@PBVPlayer@@@Z");
     todo("implement");
-    _sub_61D398(this, arg);
 }
 
 /* ---------- private code */

@@ -201,254 +201,185 @@ _static bool IsSquadDead(Ship const *pShip);
 
 /* ---------- public code */
 
-_extern _sub_50F84E(StatLoggingInternal::GameStat *const);
 _inline StatLoggingInternal::GameStat::GameStat() // 0x50F84E
 {
     mangled_assert("??0GameStat@StatLoggingInternal@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_50F84E(this);
 }
 
-_extern _sub_50F881(GameEventSys::Listener *const);
 _inline GameEventSys::Listener::Listener() // 0x50F881
 {
     mangled_assert("??0Listener@GameEventSys@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_50F881(this);
 }
 
-_extern _sub_50F88A(Player::Observer *const);
 _inline Player::Observer::Observer() // 0x50F88A
 {
     mangled_assert("??0Observer@Player@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_50F88A(this);
 }
 
-_extern _sub_50F893(StatLoggingInternal *const);
 StatLoggingInternal::StatLoggingInternal() // 0x50F893
 {
     mangled_assert("??0StatLoggingInternal@@AAE@XZ");
     todo("implement");
-    _sub_50F893(this);
 }
 
-_extern void _sub_50F8C5(StatLoggingInternal::GameStat *const);
 _inline StatLoggingInternal::GameStat::~GameStat() // 0x50F8C5
 {
     mangled_assert("??1GameStat@StatLoggingInternal@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_50F8C5(this);
 }
 
-_extern void _sub_50F8D0(StatLoggingInternal *const);
 StatLoggingInternal::~StatLoggingInternal() // 0x50F8D0
 {
     mangled_assert("??1StatLoggingInternal@@QAE@XZ");
     todo("implement");
-    _sub_50F8D0(this);
 }
 
-_extern StatLoggingInternal::GameStat const *_sub_50FC55(StatLoggingInternal const *const);
 StatLoggingInternal::GameStat const *StatLoggingInternal::GetStatGame() const // 0x50FC55
 {
     mangled_assert("?GetStatGame@StatLoggingInternal@@QBEPBUGameStat@1@XZ");
     todo("implement");
-    StatLoggingInternal::GameStat const * __result = _sub_50FC55(this);
-    return __result;
 }
 
-_extern StatLoggingInternal::PlayerStat *_sub_50FC59(StatLoggingInternal *const, unsigned __int32);
 StatLoggingInternal::PlayerStat *StatLoggingInternal::GetStatPlayer(unsigned __int32) // 0x50FC59
 {
     mangled_assert("?GetStatPlayer@StatLoggingInternal@@AAEPAUPlayerStat@1@I@Z");
     todo("implement");
-    StatLoggingInternal::PlayerStat * __result = _sub_50FC59(this, arg);
-    return __result;
 }
 
-_extern StatLoggingInternal::ShipStat *_sub_50FCD0(StatLoggingInternal *const, unsigned __int32, unsigned __int32);
 StatLoggingInternal::ShipStat *StatLoggingInternal::GetStatShip(unsigned __int32, unsigned __int32) // 0x50FCD0
 {
     mangled_assert("?GetStatShip@StatLoggingInternal@@AAEPAUShipStat@1@II@Z");
     todo("implement");
-    StatLoggingInternal::ShipStat * __result = _sub_50FCD0(this, arg, arg);
-    return __result;
 }
 
-_extern StatLoggingInternal::PlayerStat const *_sub_50FCCB(StatLoggingInternal const *const, unsigned __int32);
 StatLoggingInternal::PlayerStat const *StatLoggingInternal::GetStatPlayer(unsigned __int32) const // 0x50FCCB
 {
     mangled_assert("?GetStatPlayer@StatLoggingInternal@@QBEPBUPlayerStat@1@I@Z");
     todo("implement");
-    StatLoggingInternal::PlayerStat const * __result = _sub_50FCCB(this, arg);
-    return __result;
 }
 
-_extern StatLoggingInternal::ShipStat const *_sub_50FD41(StatLoggingInternal const *const, unsigned __int32, unsigned __int32);
 StatLoggingInternal::ShipStat const *StatLoggingInternal::GetStatShip(unsigned __int32, unsigned __int32) const // 0x50FD41
 {
     mangled_assert("?GetStatShip@StatLoggingInternal@@QBEPBUShipStat@1@II@Z");
     todo("implement");
-    StatLoggingInternal::ShipStat const * __result = _sub_50FD41(this, arg, arg);
-    return __result;
 }
 
-_extern unsigned __int32 const _sub_50FBEC(StatLoggingInternal const *const, unsigned __int32);
 unsigned __int32 const StatLoggingInternal::GetNumStatShips(unsigned __int32) const // 0x50FBEC
 {
     mangled_assert("?GetNumStatShips@StatLoggingInternal@@QBE?BII@Z");
     todo("implement");
-    unsigned __int32 const __result = _sub_50FBEC(this, arg);
-    return __result;
 }
 
-_extern unsigned __int32 const _sub_50FD90(StatLoggingInternal const *const, unsigned __int32, unsigned __int32);
 unsigned __int32 const StatLoggingInternal::GetStatShipID(unsigned __int32, unsigned __int32) const // 0x50FD90
 {
     mangled_assert("?GetStatShipID@StatLoggingInternal@@QBE?BIII@Z");
     todo("implement");
-    unsigned __int32 const __result = _sub_50FD90(this, arg, arg);
-    return __result;
 }
 
-_extern StatLoggingInternal::RecordState _sub_50FDCC(StatLoggingInternal const *const);
 StatLoggingInternal::RecordState StatLoggingInternal::IsRecording() const // 0x50FDCC
 {
     mangled_assert("?IsRecording@StatLoggingInternal@@ABE?AW4RecordState@1@XZ");
     todo("implement");
-    StatLoggingInternal::RecordState __result = _sub_50FDCC(this);
-    return __result;
 }
 
-_extern void _sub_51064C(StatLoggingInternal *const, Universe const *);
 void StatLoggingInternal::RecordStart(Universe const *) // 0x51064C
 {
     mangled_assert("?RecordStart@StatLoggingInternal@@AAEXPBVUniverse@@@Z");
     todo("implement");
-    _sub_51064C(this, arg);
 }
 
-_extern void _sub_5105B5(StatLoggingInternal *const, Universe const *);
 void StatLoggingInternal::RecordInitial(Universe const *) // 0x5105B5
 {
     mangled_assert("?RecordInitial@StatLoggingInternal@@AAEXPBVUniverse@@@Z");
     todo("implement");
-    _sub_5105B5(this, arg);
 }
 
-_extern void _sub_5106D2(StatLoggingInternal *const, Universe const *);
 void StatLoggingInternal::RecordStop(Universe const *) // 0x5106D2
 {
     mangled_assert("?RecordStop@StatLoggingInternal@@AAEXPBVUniverse@@@Z");
     todo("implement");
-    _sub_5106D2(this, arg);
 }
 
-_extern void _sub_51059A(StatLoggingInternal *const, Universe const *);
 void StatLoggingInternal::RecordFrame(Universe const *) // 0x51059A
 {
     mangled_assert("?RecordFrame@StatLoggingInternal@@AAEXPBVUniverse@@@Z");
     todo("implement");
-    _sub_51059A(this, arg);
 }
 
-_extern void _sub_50F9DF(StatLoggingInternal *const, Player const *, Universe const *);
 void StatLoggingInternal::AddPlayer(Player const *, Universe const *) // 0x50F9DF
 {
     mangled_assert("?AddPlayer@StatLoggingInternal@@AAEXPBVPlayer@@PBVUniverse@@@Z");
     todo("implement");
-    _sub_50F9DF(this, arg, arg);
 }
 
-_extern void _sub_510441(StatLoggingInternal *const, unsigned __int32, Squadron const *);
 void StatLoggingInternal::OnSquadProduced(unsigned __int32, Squadron const *) // 0x510441
 {
     mangled_assert("?OnSquadProduced@StatLoggingInternal@@AAEXIPBVSquadron@@@Z");
     todo("implement");
-    _sub_510441(this, arg, arg);
 }
 
-_extern void _sub_50FE29(StatLoggingInternal *const, GameEventSys::Event const &);
 void StatLoggingInternal::OnEvent(GameEventSys::Event const &) // 0x50FE29
 {
     mangled_assert("?OnEvent@StatLoggingInternal@@EAEXABVEvent@GameEventSys@@@Z");
     todo("implement");
-    _sub_50FE29(this, arg);
 }
 
-_extern void _sub_51058C(StatLoggingInternal *const);
 void StatLoggingInternal::RecordAbort() // 0x51058C
 {
     mangled_assert("?RecordAbort@StatLoggingInternal@@AAEXXZ");
     todo("implement");
-    _sub_51058C(this);
 }
 
-_extern void _sub_510780(StatLoggingInternal *const, Player const *, StatLoggingInternal::PlayerState, __int32);
 void StatLoggingInternal::RmvPlayer(Player const *, StatLoggingInternal::PlayerState, __int32) // 0x510780
 {
     mangled_assert("?RmvPlayer@StatLoggingInternal@@AAEXPBVPlayer@@W4PlayerState@1@H@Z");
     todo("implement");
-    _sub_510780(this, arg, arg, arg);
 }
 
-_extern void _sub_50FBA1(StatLoggingInternal *const, Player const *, ResearchData const &);
 void StatLoggingInternal::AddTech(Player const *, ResearchData const &) // 0x50FBA1
 {
     mangled_assert("?AddTech@StatLoggingInternal@@AAEXPBVPlayer@@ABVResearchData@@@Z");
     todo("implement");
-    _sub_50FBA1(this, arg, arg);
 }
 
-_extern void _sub_5103B9(Player::Observer * const, Player const *, Fixed<10> const &, PlayerResourceType);
 void StatLoggingInternal::OnIncResource(Player const *, Fixed<10> const &, PlayerResourceType) // 0x5103B9
 {
     mangled_assert("?OnIncResource@StatLoggingInternal@@EAEXPBVPlayer@@ABV?$Fixed@$09@@W4PlayerResourceType@@@Z");
     // __shifted(StatLoggingInternal, 4);
     todo("implement");
-    _sub_5103B9(this, arg, arg, arg);
 }
 
-_extern void _sub_50FE09(Player::Observer * const, Player const *, Fixed<10> const &);
 void StatLoggingInternal::OnDecResource(Player const *, Fixed<10> const &) // 0x50FE09
 {
     mangled_assert("?OnDecResource@StatLoggingInternal@@EAEXPBVPlayer@@ABV?$Fixed@$09@@@Z");
     // __shifted(StatLoggingInternal, 4);
     todo("implement");
-    _sub_50FE09(this, arg, arg);
 }
 
 /* ---------- private code */
 
-_extern __int32 _sub_50FC14(Ship const &);
 _static __int32 GetShipCost(Ship const &ship) // 0x50FC14
 {
     mangled_assert("GetShipCost");
     todo("implement");
-    __int32 __result = _sub_50FC14(ship);
-    return __result;
 }
 
-_extern __int32 _sub_50FC30(Squadron const &);
 _static __int32 GetSquadCost(Squadron const &squad) // 0x50FC30
 {
     mangled_assert("GetSquadCost");
     todo("implement");
-    __int32 __result = _sub_50FC30(squad);
-    return __result;
 }
 
-_extern bool _sub_50FDD0(Ship const *);
 _static bool IsSquadDead(Ship const *pShip) // 0x50FDD0
 {
     mangled_assert("IsSquadDead");
     todo("implement");
-    bool __result = _sub_50FDD0(pShip);
-    return __result;
 }
 #endif

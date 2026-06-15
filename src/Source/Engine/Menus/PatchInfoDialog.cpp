@@ -102,36 +102,28 @@ extern UI::PatchInfoDialog *UI::PatchInfoDialog::ms_screen; // 0x846D14
 
 /* ---------- public code */
 
-_extern _sub_59CB1F(UI::PatchInfoDialog *const, char const *);
 UI::PatchInfoDialog::PatchInfoDialog(char const *) // 0x59CB1F
 {
     mangled_assert("??0PatchInfoDialog@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_59CB1F(this, arg);
 }
 
-_extern void _sub_59CB3D(UI::PatchInfoDialog *const);
 UI::PatchInfoDialog::~PatchInfoDialog() // 0x59CB3D
 {
     mangled_assert("??1PatchInfoDialog@UI@@UAE@XZ");
     todo("implement");
-    _sub_59CB3D(this);
 }
 
-_extern void _sub_59CB6B(UI::PatchInfoDialog *const);
 void UI::PatchInfoDialog::OnPostLoad() // 0x59CB6B
 {
     mangled_assert("?OnPostLoad@PatchInfoDialog@UI@@MAEXXZ");
     todo("implement");
-    _sub_59CB6B(this);
 }
 
-_extern void _sub_59CBA4(wchar_t const *);
 void UI::PatchInfoDialog::Show(wchar_t const *message) // 0x59CBA4
 {
     mangled_assert("?Show@PatchInfoDialog@UI@@SGXPB_W@Z");
     todo("implement");
-    _sub_59CBA4(message);
 }
 
 /* ---------- private code */

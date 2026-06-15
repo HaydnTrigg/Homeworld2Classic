@@ -96,28 +96,22 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_100B0BD0(CompoundStateBlockInstance *const, CompoundStateBlockInstance const &);
 CompoundStateBlockInstance::CompoundStateBlockInstance(CompoundStateBlockInstance const &) // 0x100B0BD0
 {
     mangled_assert("??0CompoundStateBlockInstance@@QAE@ABV0@@Z");
     todo("implement");
-    _sub_100B0BD0(this, arg);
 }
 
-_extern _sub_100B0C40(CompoundStateBlockInstance *const, CompoundStateBlock *);
 CompoundStateBlockInstance::CompoundStateBlockInstance(CompoundStateBlock *) // 0x100B0C40
 {
     mangled_assert("??0CompoundStateBlockInstance@@QAE@PAVCompoundStateBlock@@@Z");
     todo("implement");
-    _sub_100B0C40(this, arg);
 }
 
-_extern void _sub_100B0CF0(CompoundStateBlockInstance *const);
 CompoundStateBlockInstance::~CompoundStateBlockInstance() // 0x100B0CF0
 {
     mangled_assert("??1CompoundStateBlockInstance@@QAE@XZ");
     todo("implement");
-    _sub_100B0CF0(this);
 }
 
 /* ---------- private code */

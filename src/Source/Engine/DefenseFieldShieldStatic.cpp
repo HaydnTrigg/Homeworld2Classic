@@ -34,12 +34,10 @@
 
 /* ---------- public code */
 
-_extern _sub_4C3C68(DefenseFieldShieldStatic *const, float, float, float);
 DefenseFieldShieldStatic::DefenseFieldShieldStatic(float, float, float) // 0x4C3C68
 {
     mangled_assert("??0DefenseFieldShieldStatic@@QAE@MMM@Z");
     todo("implement");
-    _sub_4C3C68(this, arg, arg, arg);
 }
 
 /* ---------- private code */

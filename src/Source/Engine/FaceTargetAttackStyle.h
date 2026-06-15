@@ -108,58 +108,40 @@ static_assert(sizeof(FaceTargetAttackStyle) == 228, "Invalid FaceTargetAttackSty
 
 /* ---------- public code */
 
-_extern AttackStyle::AttackStyleType _sub_6B3748(FaceTargetAttackStyle const *const);
 _inline AttackStyle::AttackStyleType FaceTargetAttackStyle::GetType() const // 0x6B3748
 {
     mangled_assert("?GetType@FaceTargetAttackStyle@@UBE?AW4AttackStyleType@AttackStyle@@XZ");
     todo("implement");
-    AttackStyle::AttackStyleType __result = _sub_6B3748(this);
-    return __result;
 }
 
-_extern Sob *_sub_6B408A(FaceTargetAttackStyle const *const);
 _inline Sob *FaceTargetAttackStyle::getSobToNotAvoid() const // 0x6B408A
 {
     mangled_assert("?getSobToNotAvoid@FaceTargetAttackStyle@@UBEPAVSob@@XZ");
     todo("implement");
-    Sob * __result = _sub_6B408A(this);
-    return __result;
 }
 
-_extern bool _sub_6B3A36(FaceTargetAttackStyle *const);
 _inline bool FaceTargetAttackStyle::doesAttackStyleDictateTargetPoint() // 0x6B3A36
 {
     mangled_assert("?doesAttackStyleDictateTargetPoint@FaceTargetAttackStyle@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6B3A36(this);
-    return __result;
 }
 
-_extern FaceTargetStatic const *_sub_6B408D(FaceTargetAttackStyle const *const);
 _inline FaceTargetStatic const *FaceTargetAttackStyle::getStaticInfo() const // 0x6B408D
 {
     mangled_assert("?getStaticInfo@FaceTargetAttackStyle@@IBEPBVFaceTargetStatic@@XZ");
     todo("implement");
-    FaceTargetStatic const * __result = _sub_6B408D(this);
-    return __result;
 }
 
-_extern bool _sub_6B4520(FaceTargetAttackStyle *const);
 _inline bool FaceTargetAttackStyle::isDeterministic() // 0x6B4520
 {
     mangled_assert("?isDeterministic@FaceTargetAttackStyle@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6B4520(this);
-    return __result;
 }
 
-_extern char const *_sub_6B48DE(FaceTargetAttackStyle *const);
 _inline char const *FaceTargetAttackStyle::saveToken() // 0x6B48DE
 {
     mangled_assert("?saveToken@FaceTargetAttackStyle@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6B48DE(this);
-    return __result;
 }
 
 /* ---------- private code */

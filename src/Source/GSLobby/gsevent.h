@@ -79,12 +79,10 @@ static_assert(sizeof(GSEvent) == 4, "Invalid GSEvent size");
 
 /* ---------- public code */
 
-_extern void _sub_46F31A(GSEvent *const);
 _inline GSEvent::~GSEvent() // 0x46F31A
 {
     mangled_assert("??1GSEvent@@UAE@XZ");
     todo("implement");
-    _sub_46F31A(this);
 }
 
 /* ---------- private code */

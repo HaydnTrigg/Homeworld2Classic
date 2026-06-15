@@ -147,130 +147,96 @@ extern SaveData const NebulaGroup::m_saveData[5]; // 0x792378
 
 /* ---------- public code */
 
-_extern _sub_4C11FF(NebulaGroup *const, char const *);
 NebulaGroup::NebulaGroup(char const *) // 0x4C11FF
 {
     mangled_assert("??0NebulaGroup@@AAE@PBD@Z");
     todo("implement");
-    _sub_4C11FF(this, arg);
 }
 
-_extern _sub_4C1270(NebulaGroup *const, SaveGameData *);
 NebulaGroup::NebulaGroup(SaveGameData *) // 0x4C1270
 {
     mangled_assert("??0NebulaGroup@@QAE@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_4C1270(this, arg);
 }
 
-_extern void _sub_4C12C9(NebulaGroup *const);
 _inline NebulaGroup::~NebulaGroup() // 0x4C12C9
 {
     mangled_assert("??1NebulaGroup@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4C12C9(this);
 }
 
-_extern void _sub_4C1311(NebulaGroupBase *const);
 _inline NebulaGroupBase::~NebulaGroupBase() // 0x4C1311
 {
     mangled_assert("??1NebulaGroupBase@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4C1311(this);
 }
 
-_extern void _sub_4C13C8(NebulaGroup *const);
 void NebulaGroup::defaultSettings() // 0x4C13C8
 {
     mangled_assert("?defaultSettings@NebulaGroup@@QAEXXZ");
     todo("implement");
-    _sub_4C13C8(this);
 }
 
-_extern void _sub_4C13F6(NebulaGroup *const);
 void NebulaGroup::postRestore() // 0x4C13F6
 {
     mangled_assert("?postRestore@NebulaGroup@@UAEXXZ");
     todo("implement");
-    _sub_4C13F6(this);
 }
 
-_extern void _sub_4C1352(NebulaGroup *const, Nebula *);
 void NebulaGroup::addNebula(Nebula *) // 0x4C1352
 {
     mangled_assert("?addNebula@NebulaGroup@@AAEXPAVNebula@@@Z");
     todo("implement");
-    _sub_4C1352(this, arg);
 }
 
-_extern char const *_sub_4C13E7(NebulaGroup *const);
 char const *NebulaGroup::getName() // 0x4C13E7
 {
     mangled_assert("?getName@NebulaGroup@@QAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4C13E7(this);
-    return __result;
 }
 
-_extern bool _sub_4C14A2(NebulaGroup *const, float);
 bool NebulaGroup::update(float) // 0x4C14A2
 {
     mangled_assert("?update@NebulaGroup@@UAE_NM@Z");
     todo("implement");
-    bool __result = _sub_4C14A2(this, arg);
-    return __result;
 }
 
-_extern void _sub_4C14E8(NebulaGroup *const, float);
 void NebulaGroup::updateDamaging(float) // 0x4C14E8
 {
     mangled_assert("?updateDamaging@NebulaGroup@@AAEXM@Z");
     todo("implement");
-    _sub_4C14E8(this, arg);
 }
 
-_extern void _sub_4C1635(NebulaGroup *const, float);
 void NebulaGroup::updateFading(float) // 0x4C1635
 {
     mangled_assert("?updateFading@NebulaGroup@@AAEXM@Z");
     todo("implement");
-    _sub_4C1635(this, arg);
 }
 
-_extern void _sub_4C13D5(NebulaGroup *const, float);
 void NebulaGroup::fadeNebula(float) // 0x4C13D5
 {
     mangled_assert("?fadeNebula@NebulaGroup@@QAEXM@Z");
     todo("implement");
-    _sub_4C13D5(this, arg);
 }
 
-_extern void _sub_4C135A(NebulaGroup *const);
 void NebulaGroup::applyMultipliersAndAbilities() // 0x4C135A
 {
     mangled_assert("?applyMultipliersAndAbilities@NebulaGroup@@QAEXXZ");
     todo("implement");
-    _sub_4C135A(this);
 }
 
-_extern bool _sub_4C13F7(NebulaGroup *const, SaveGameData *);
 bool NebulaGroup::restore(SaveGameData *) // 0x4C13F7
 {
     mangled_assert("?restore@NebulaGroup@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_4C13F7(this, arg);
-    return __result;
 }
 
-_extern bool _sub_4C1444(NebulaGroup *const, SaveGameData *, SaveType);
 bool NebulaGroup::save(SaveGameData *, SaveType) // 0x4C1444
 {
     mangled_assert("?save@NebulaGroup@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_4C1444(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

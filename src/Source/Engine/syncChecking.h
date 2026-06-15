@@ -136,47 +136,34 @@ static_assert(sizeof(SyncChecking) == 68, "Invalid SyncChecking size");
 
 /* ---------- public code */
 
-_extern __int32 _sub_642DE3(SyncCheckUser const *const);
 _inline __int32 SyncCheckUser::getLastestFrameAck() const // 0x642DE3
 {
     mangled_assert("?getLastestFrameAck@SyncCheckUser@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_642DE3(this);
-    return __result;
 }
 
-_extern bool _sub_642921(SyncCheckUser const *const);
 _inline bool SyncCheckUser::bManageSyncCheckObj() const // 0x642921
 {
     mangled_assert("?bManageSyncCheckObj@SyncCheckUser@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_642921(this);
-    return __result;
 }
 
-_extern void _sub_6432C0(SyncCheckUser *const, bool);
 _inline void SyncCheckUser::setManageSyncCheckObj(bool) // 0x6432C0
 {
     mangled_assert("?setManageSyncCheckObj@SyncCheckUser@@QAEX_N@Z");
     todo("implement");
-    _sub_6432C0(this, arg);
 }
 
-_extern void _sub_5C6DF3(SyncChecking *const, __int32);
 _inline void SyncChecking::setForceOutOfSync(__int32) // 0x5C6DF3
 {
     mangled_assert("?setForceOutOfSync@SyncChecking@@QAEXH@Z");
     todo("implement");
-    _sub_5C6DF3(this, arg);
 }
 
-_extern __int32 _sub_5C6BE1(SyncChecking *const);
 _inline __int32 SyncChecking::getForceOutOfSync() // 0x5C6BE1
 {
     mangled_assert("?getForceOutOfSync@SyncChecking@@QAEHXZ");
     todo("implement");
-    __int32 __result = _sub_5C6BE1(this);
-    return __result;
 }
 
 /* ---------- private code */

@@ -462,306 +462,227 @@
 
 /* ---------- public code */
 
-_extern _sub_5BDAB4(P2PNetwork *const, Net::Session *);
 P2PNetwork::P2PNetwork(Net::Session *) // 0x5BDAB4
 {
     mangled_assert("??0P2PNetwork@@QAE@PAVSession@Net@@@Z");
     todo("implement");
-    _sub_5BDAB4(this, arg);
 }
 
-_extern _sub_5BDC9B(P2PNetwork::Packet *const, P2PNetwork::Packet const &);
 _inline P2PNetwork::Packet::Packet(P2PNetwork::Packet const &) // 0x5BDC9B
 {
     mangled_assert("??0Packet@P2PNetwork@@QAE@ABU01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_5BDC9B(this, arg);
 }
 
-_extern void _sub_5BDE3F(P2PNetwork *const);
 P2PNetwork::~P2PNetwork() // 0x5BDE3F
 {
     mangled_assert("??1P2PNetwork@@UAE@XZ");
     todo("implement");
-    _sub_5BDE3F(this);
 }
 
-_extern void _sub_5BDEB7(P2PNetwork::Packet *const);
 _inline P2PNetwork::Packet::~Packet() // 0x5BDEB7
 {
     mangled_assert("??1Packet@P2PNetwork@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5BDEB7(this);
 }
 
-_extern void _sub_5BDEBF(P2PNetwork::ReceiveQueue *const);
 _inline P2PNetwork::ReceiveQueue::~ReceiveQueue() // 0x5BDEBF
 {
     mangled_assert("??1ReceiveQueue@P2PNetwork@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5BDEBF(this);
 }
 
-_extern P2PNetwork::Packet &_sub_5BDEFE(P2PNetwork::Packet *const, P2PNetwork::Packet const &);
 _inline P2PNetwork::Packet &P2PNetwork::Packet::operator=(P2PNetwork::Packet const &) // 0x5BDEFE
 {
     mangled_assert("??4Packet@P2PNetwork@@QAEAAU01@ABU01@@Z");
     compiler_generated();
     todo("implement");
-    P2PNetwork::Packet & __result = _sub_5BDEFE(this, arg);
-    return __result;
 }
 
-_extern void _sub_5BE2F7(P2PNetwork *const, unsigned __int32);
 void P2PNetwork::DropPlayer(unsigned __int32) // 0x5BE2F7
 {
     mangled_assert("?DropPlayer@P2PNetwork@@AAEXI@Z");
     todo("implement");
-    _sub_5BE2F7(this, arg);
 }
 
-_extern bool _sub_5BE394(P2PNetwork *const);
 bool P2PNetwork::Execute() // 0x5BE394
 {
     mangled_assert("?Execute@P2PNetwork@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_5BE394(this);
-    return __result;
 }
 
-_extern __int32 _sub_5BE52D(P2PNetwork *const);
 __int32 P2PNetwork::GetSimLoopCount() // 0x5BE52D
 {
     mangled_assert("?GetSimLoopCount@P2PNetwork@@UAEHXZ");
     todo("implement");
-    __int32 __result = _sub_5BE52D(this);
-    return __result;
 }
 
-_extern bool _sub_5BE61B(P2PNetwork *const, unsigned __int32);
 bool P2PNetwork::IsPlayerLagging(unsigned __int32) // 0x5BE61B
 {
     mangled_assert("?IsPlayerLagging@P2PNetwork@@UAE_NI@Z");
     todo("implement");
-    bool __result = _sub_5BE61B(this, arg);
-    return __result;
 }
 
-_extern FrameOrders const *_sub_5BE93E(P2PNetwork const *const);
 FrameOrders const *P2PNetwork::PeekNextFrameOrders() const // 0x5BE93E
 {
     mangled_assert("?PeekNextFrameOrders@P2PNetwork@@UBEPBVFrameOrders@@XZ");
     todo("implement");
-    FrameOrders const * __result = _sub_5BE93E(this);
-    return __result;
 }
 
-_extern bool _sub_5BE979(P2PNetwork *const);
 bool P2PNetwork::PerformSyncChecking() // 0x5BE979
 {
     mangled_assert("?PerformSyncChecking@P2PNetwork@@AAE_NXZ");
     todo("implement");
-    bool __result = _sub_5BE979(this);
-    return __result;
 }
 
-_extern void _sub_5BEBCC(P2PNetwork *const, std::auto_ptr<ChatOrder>);
 void P2PNetwork::SendChatOrder(std::auto_ptr<ChatOrder>) // 0x5BEBCC
 {
     mangled_assert("?SendChatOrder@P2PNetwork@@AAEXV?$auto_ptr@VChatOrder@@@std@@@Z");
     todo("implement");
-    _sub_5BEBCC(this, arg);
 }
 
-_extern void _sub_5BEDA0(P2PNetwork *const, std::auto_ptr<Order>);
 void P2PNetwork::SendOrder(std::auto_ptr<Order>) // 0x5BEDA0
 {
     mangled_assert("?SendOrder@P2PNetwork@@UAEXV?$auto_ptr@VOrder@@@std@@@Z");
     todo("implement");
-    _sub_5BEDA0(this, arg);
 }
 
-_extern __int32 _sub_5BE4C4(P2PNetwork const *const);
 __int32 P2PNetwork::GetHighestPing() const // 0x5BE4C4
 {
     mangled_assert("?GetHighestPing@P2PNetwork@@ABEHXZ");
     todo("implement");
-    __int32 __result = _sub_5BE4C4(this);
-    return __result;
 }
 
-_extern void _sub_5BE6C9(P2PNetwork *const, Net::Message const &);
 void P2PNetwork::OnGameMessage(Net::Message const &) // 0x5BE6C9
 {
     mangled_assert("?OnGameMessage@P2PNetwork@@AAEXABVMessage@Net@@@Z");
     todo("implement");
-    _sub_5BE6C9(this, arg);
 }
 
-_extern void _sub_5BE867(P2PNetwork *const, Net::Message const &);
 void P2PNetwork::OnPlayerDestroyed(Net::Message const &) // 0x5BE867
 {
     mangled_assert("?OnPlayerDestroyed@P2PNetwork@@AAEXABVMessage@Net@@@Z");
     todo("implement");
-    _sub_5BE867(this, arg);
 }
 
-_extern void _sub_5BE84C(P2PNetwork *const, Net::Message const &);
 void P2PNetwork::OnHostMigration(Net::Message const &) // 0x5BE84C
 {
     mangled_assert("?OnHostMigration@P2PNetwork@@AAEXABVMessage@Net@@@Z");
     todo("implement");
-    _sub_5BE84C(this, arg);
 }
 
-_extern void _sub_5BEB51(P2PNetwork *const);
 void P2PNetwork::ProcessNetworkMessages() // 0x5BEB51
 {
     mangled_assert("?ProcessNetworkMessages@P2PNetwork@@AAEXXZ");
     todo("implement");
-    _sub_5BEB51(this);
 }
 
-_extern __int32 _sub_5BF982(Task * const, float);
 __int32 P2PNetwork::taskFunction(float) // 0x5BF982
 {
     mangled_assert("?taskFunction@P2PNetwork@@UAEHM@Z");
     // __shifted(P2PNetwork, 4);
     todo("implement");
-    __int32 __result = _sub_5BF982(this, arg);
-    return __result;
 }
 
-_extern _sub_5BDCBE(P2PNetwork::Packet *const, unsigned __int32, unsigned __int32, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &);
 P2PNetwork::Packet::Packet(unsigned __int32, unsigned __int32, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &) // 0x5BDCBE
 {
     mangled_assert("??0Packet@P2PNetwork@@QAE@IIABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    _sub_5BDCBE(this, arg, arg, arg);
 }
 
-_extern _sub_5BDD3B(P2PNetwork::ReceiveQueue *const, P2PNetwork::ReceiveQueue const &);
 _inline P2PNetwork::ReceiveQueue::ReceiveQueue(P2PNetwork::ReceiveQueue const &) // 0x5BDD3B
 {
     mangled_assert("??0ReceiveQueue@P2PNetwork@@QAE@ABU01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_5BDD3B(this, arg);
 }
 
-_extern _sub_5BDD97(P2PNetwork::ReceiveQueue *const);
 P2PNetwork::ReceiveQueue::ReceiveQueue() // 0x5BDD97
 {
     mangled_assert("??0ReceiveQueue@P2PNetwork@@QAE@XZ");
     todo("implement");
-    _sub_5BDD97(this);
 }
 
-_extern void _sub_5BDDCE(std::_List_buy<P2PNetwork::Packet,std::allocator<P2PNetwork::Packet> > *const);
 _inline std::_List_buy<P2PNetwork::Packet,std::allocator<P2PNetwork::Packet> >::~_List_buy<P2PNetwork::Packet,std::allocator<P2PNetwork::Packet> >() // 0x5BDDCE
 {
     mangled_assert("??1?$_List_buy@UPacket@P2PNetwork@@V?$allocator@UPacket@P2PNetwork@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5BDDCE(this);
 }
 
-_extern void _sub_5BDDFE(std::_Tree_buy<std::pair<unsigned int const ,P2PNetwork::ReceiveQueue>,std::allocator<std::pair<unsigned int const ,P2PNetwork::ReceiveQueue> > > *const);
 _inline std::_Tree_buy<std::pair<unsigned int const ,P2PNetwork::ReceiveQueue>,std::allocator<std::pair<unsigned int const ,P2PNetwork::ReceiveQueue> > >::~_Tree_buy<std::pair<unsigned int const ,P2PNetwork::ReceiveQueue>,std::allocator<std::pair<unsigned int const ,P2PNetwork::ReceiveQueue> > >() // 0x5BDDFE
 {
     mangled_assert("??1?$_Tree_buy@U?$pair@$$CBIUReceiveQueue@P2PNetwork@@@std@@V?$allocator@U?$pair@$$CBIUReceiveQueue@P2PNetwork@@@std@@@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5BDDFE(this);
 }
 
-_extern void _sub_5BDE07(std::_Tree_comp<0,std::_Tmap_traits<unsigned int,P2PNetwork::ReceiveQueue,std::less<unsigned int>,std::allocator<std::pair<unsigned int const ,P2PNetwork::ReceiveQueue> >,0> > *const);
 _inline std::_Tree_comp<0,std::_Tmap_traits<unsigned int,P2PNetwork::ReceiveQueue,std::less<unsigned int>,std::allocator<std::pair<unsigned int const ,P2PNetwork::ReceiveQueue> >,0> >::~_Tree_comp<0,std::_Tmap_traits<unsigned int,P2PNetwork::ReceiveQueue,std::less<unsigned int>,std::allocator<std::pair<unsigned int const ,P2PNetwork::ReceiveQueue> >,0> >() // 0x5BDE07
 {
     mangled_assert("??1?$_Tree_comp@$0A@V?$_Tmap_traits@IUReceiveQueue@P2PNetwork@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIUReceiveQueue@P2PNetwork@@@std@@@4@$0A@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5BDE07(this);
 }
 
-_extern void _sub_5BDE22(std::map<unsigned int,P2PNetwork::ReceiveQueue,std::less<unsigned int>,std::allocator<std::pair<unsigned int const ,P2PNetwork::ReceiveQueue> > > *const);
 _inline std::map<unsigned int,P2PNetwork::ReceiveQueue,std::less<unsigned int>,std::allocator<std::pair<unsigned int const ,P2PNetwork::ReceiveQueue> > >::~map<unsigned int,P2PNetwork::ReceiveQueue,std::less<unsigned int>,std::allocator<std::pair<unsigned int const ,P2PNetwork::ReceiveQueue> > >() // 0x5BDE22
 {
     mangled_assert("??1?$map@IUReceiveQueue@P2PNetwork@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIUReceiveQueue@P2PNetwork@@@std@@@4@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5BDE22(this);
 }
 
-_extern void _sub_5BDE27(std::pair<unsigned int const ,P2PNetwork::ReceiveQueue> *const);
 _inline std::pair<unsigned int const ,P2PNetwork::ReceiveQueue>::~pair<unsigned int const ,P2PNetwork::ReceiveQueue>() // 0x5BDE27
 {
     mangled_assert("??1?$pair@$$CBIUReceiveQueue@P2PNetwork@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5BDE27(this);
 }
 
-_extern void _sub_5BDE2F(std::pair<unsigned int,P2PNetwork::ReceiveQueue> *const);
 _inline std::pair<unsigned int,P2PNetwork::ReceiveQueue>::~pair<unsigned int,P2PNetwork::ReceiveQueue>() // 0x5BDE2F
 {
     mangled_assert("??1?$pair@IUReceiveQueue@P2PNetwork@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5BDE2F(this);
 }
 
-_extern void _sub_5BE191(P2PNetwork::ReceiveQueue *const);
 void P2PNetwork::ReceiveQueue::ConvertPacket() // 0x5BE191
 {
     mangled_assert("?ConvertPacket@ReceiveQueue@P2PNetwork@@AAEXXZ");
     todo("implement");
-    _sub_5BE191(this);
 }
 
-_extern void _sub_5BDE37(std::pair<unsigned long,P2PNetwork::ReceiveQueue> *const);
 _inline std::pair<unsigned long,P2PNetwork::ReceiveQueue>::~pair<unsigned long,P2PNetwork::ReceiveQueue>() // 0x5BDE37
 {
     mangled_assert("??1?$pair@KUReceiveQueue@P2PNetwork@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5BDE37(this);
 }
 
-_extern void _sub_5BE2D3(P2PNetwork::ReceiveQueue *const);
 void P2PNetwork::ReceiveQueue::ConvertPackets() // 0x5BE2D3
 {
     mangled_assert("?ConvertPackets@ReceiveQueue@P2PNetwork@@QAEXXZ");
     todo("implement");
-    _sub_5BE2D3(this);
 }
 
-_extern void _sub_5BE8B4(P2PNetwork::ReceiveQueue *const, std::string);
 void P2PNetwork::ReceiveQueue::OnReceive(std::string) // 0x5BE8B4
 {
     mangled_assert("?OnReceive@ReceiveQueue@P2PNetwork@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    _sub_5BE8B4(this, arg);
 }
 
-_extern bool _sub_5BE11C(P2PNetwork::PacketSortPredicate *const, P2PNetwork::Packet const &, P2PNetwork::Packet const &);
 _inline bool P2PNetwork::PacketSortPredicate::operator()(P2PNetwork::Packet const &, P2PNetwork::Packet const &) // 0x5BE11C
 {
     mangled_assert("??RPacketSortPredicate@P2PNetwork@@QAE_NABUPacket@1@0@Z");
     todo("implement");
-    bool __result = _sub_5BE11C(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_5BE568(P2PNetwork::ReceiveQueue *const, P2PNetwork::Packet const &);
 void P2PNetwork::ReceiveQueue::InsertPacket(P2PNetwork::Packet const &) // 0x5BE568
 {
     mangled_assert("?InsertPacket@ReceiveQueue@P2PNetwork@@AAEXABUPacket@2@@Z");
     todo("implement");
-    _sub_5BE568(this, arg);
 }
 
 /* ---------- private code */

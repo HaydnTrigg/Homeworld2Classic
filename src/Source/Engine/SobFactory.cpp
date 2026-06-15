@@ -202,138 +202,94 @@ _static
 
 /* ---------- public code */
 
-_extern SobFactory *_sub_639015();
 SobFactory *SobFactory::instance() // 0x639015
 {
     mangled_assert("?instance@SobFactory@@SGPAV1@XZ");
     todo("implement");
-    SobFactory * __result = _sub_639015();
-    return __result;
 }
 
-_extern bool _sub_63902C();
 bool SobFactory::shutdown() // 0x63902C
 {
     mangled_assert("?shutdown@SobFactory@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_63902C();
-    return __result;
 }
 
-_extern _sub_63897E(SobFactory *const);
 SobFactory::SobFactory() // 0x63897E
 {
     mangled_assert("??0SobFactory@@AAE@XZ");
     todo("implement");
-    _sub_63897E(this);
 }
 
-_extern Ship *_sub_638B8A(SobFactory *const, char const *, __int32);
 Ship *SobFactory::createShip(char const *, __int32) // 0x638B8A
 {
     mangled_assert("?createShip@SobFactory@@QAEPAVShip@@PBDH@Z");
     todo("implement");
-    Ship * __result = _sub_638B8A(this, arg, arg);
-    return __result;
 }
 
-_extern Squadron *_sub_638DEB(SobFactory *const, char const *, char const *, __int32, unsigned __int32);
 Squadron *SobFactory::createSquadron(char const *, char const *, __int32, unsigned __int32) // 0x638DEB
 {
     mangled_assert("?createSquadron@SobFactory@@QAEPAVSquadron@@PBD0HI@Z");
     todo("implement");
-    Squadron * __result = _sub_638DEB(this, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern SubSystem *_sub_638F51(SobFactory *const, char const *, Player *);
 SubSystem *SobFactory::createSubSystem(char const *, Player *) // 0x638F51
 {
     mangled_assert("?createSubSystem@SobFactory@@QAEPAVSubSystem@@PBDPAVPlayer@@@Z");
     todo("implement");
-    SubSystem * __result = _sub_638F51(this, arg, arg);
-    return __result;
 }
 
-_extern Missile *_sub_638AD0(SobFactory *const, char const *, vector3 const &, matrix3 const &, __int32);
 Missile *SobFactory::createMissile(char const *, vector3 const &, matrix3 const &, __int32) // 0x638AD0
 {
     mangled_assert("?createMissile@SobFactory@@QAEPAVMissile@@PBDABVvector3@@ABVmatrix3@@H@Z");
     todo("implement");
-    Missile * __result = _sub_638AD0(this, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern Missile *_sub_638B1B(SobFactory *const, char const *, vector3 const &, matrix3 const &, SobWithMesh *, WeaponStatic const *, WeaponTargetInfo const &, Player *);
 Missile *SobFactory::createMissile(char const *, vector3 const &, matrix3 const &, SobWithMesh *, WeaponStatic const *, WeaponTargetInfo const &, Player *) // 0x638B1B
 {
     mangled_assert("?createMissile@SobFactory@@QAEPAVMissile@@PBDABVvector3@@ABVmatrix3@@PAVSobWithMesh@@PBVWeaponStatic@@ABVWeaponTargetInfo@@PAVPlayer@@@Z");
     todo("implement");
-    Missile * __result = _sub_638B1B(this, arg, arg, arg, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern Bullet *_sub_638999(SobFactory *const, char const *, Sob *, WeaponTargetInfo const &, vector3 const &, matrix3 const &);
 Bullet *SobFactory::createBullet(char const *, Sob *, WeaponTargetInfo const &, vector3 const &, matrix3 const &) // 0x638999
 {
     mangled_assert("?createBullet@SobFactory@@QAEPAVBullet@@PBDPAVSob@@ABVWeaponTargetInfo@@ABVvector3@@ABVmatrix3@@@Z");
     todo("implement");
-    Bullet * __result = _sub_638999(this, arg, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern InstantHit *_sub_638A67(SobFactory *const, char const *, Sob *, WeaponTargetInfo const &, vector3 const &, matrix3 const &);
 InstantHit *SobFactory::createInstantHit(char const *, Sob *, WeaponTargetInfo const &, vector3 const &, matrix3 const &) // 0x638A67
 {
     mangled_assert("?createInstantHit@SobFactory@@QAEPAVInstantHit@@PBDPAVSob@@ABVWeaponTargetInfo@@ABVvector3@@ABVmatrix3@@@Z");
     todo("implement");
-    InstantHit * __result = _sub_638A67(this, arg, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern SphereBurst *_sub_638D85(SobFactory *const, char const *, Sob *, vector3 const &, matrix3 const &);
 SphereBurst *SobFactory::createSphereBurst(char const *, Sob *, vector3 const &, matrix3 const &) // 0x638D85
 {
     mangled_assert("?createSphereBurst@SobFactory@@QAEPAVSphereBurst@@PBDPAVSob@@ABVvector3@@ABVmatrix3@@@Z");
     todo("implement");
-    SphereBurst * __result = _sub_638D85(this, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern Waypoint *_sub_638FBE(SobFactory *const, vector3 const &);
 Waypoint *SobFactory::createWayPoint(vector3 const &) // 0x638FBE
 {
     mangled_assert("?createWayPoint@SobFactory@@QAEPAVWaypoint@@ABVvector3@@@Z");
     todo("implement");
-    Waypoint * __result = _sub_638FBE(this, arg);
-    return __result;
 }
 
-_extern DefenseField *_sub_638A02(SobFactory *const, vector3 const &, float, SobID const &);
 DefenseField *SobFactory::createDefenseField(vector3 const &, float, SobID const &) // 0x638A02
 {
     mangled_assert("?createDefenseField@SobFactory@@QAEPAVDefenseField@@ABVvector3@@MABVSobID@@@Z");
     todo("implement");
-    DefenseField * __result = _sub_638A02(this, arg, arg, arg);
-    return __result;
 }
 
-_extern SobVis *_sub_638BFB(SobFactory *const, Sob *);
 SobVis *SobFactory::createSobVis(Sob *) // 0x638BFB
 {
     mangled_assert("?createSobVis@SobFactory@@QAEPAVSobVis@@PAVSob@@@Z");
     todo("implement");
-    SobVis * __result = _sub_638BFB(this, arg);
-    return __result;
 }
 
-_extern SobVis *_sub_638CBA(SobFactory *const, Sob *, SaveGameData *);
 SobVis *SobFactory::createSobVis(Sob *, SaveGameData *) // 0x638CBA
 {
     mangled_assert("?createSobVis@SobFactory@@QAEPAVSobVis@@PAVSob@@PAVSaveGameData@@@Z");
     todo("implement");
-    SobVis * __result = _sub_638CBA(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

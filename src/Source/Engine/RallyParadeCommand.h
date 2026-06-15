@@ -66,31 +66,22 @@ static_assert(sizeof(RallyParadeCommand) == 264, "Invalid RallyParadeCommand siz
 
 /* ---------- public code */
 
-_extern CommandType _sub_6A72C7(RallyParadeCommand const *const);
 _inline CommandType RallyParadeCommand::getCommandType() const // 0x6A72C7
 {
     mangled_assert("?getCommandType@RallyParadeCommand@@UBE?AW4CommandType@@XZ");
     todo("implement");
-    CommandType __result = _sub_6A72C7(this);
-    return __result;
 }
 
-_extern bool _sub_6A7386(RallyParadeCommand *const);
 _inline bool RallyParadeCommand::isDeterministic() // 0x6A7386
 {
     mangled_assert("?isDeterministic@RallyParadeCommand@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6A7386(this);
-    return __result;
 }
 
-_extern char const *_sub_6A7435(RallyParadeCommand *const);
 _inline char const *RallyParadeCommand::saveToken() // 0x6A7435
 {
     mangled_assert("?saveToken@RallyParadeCommand@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6A7435(this);
-    return __result;
 }
 
 /* ---------- private code */

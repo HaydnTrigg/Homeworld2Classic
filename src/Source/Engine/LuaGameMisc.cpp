@@ -359,584 +359,440 @@ extern char const *LUALIB_GAMEMISC; // 0x83ABDC
 
 /* ---------- public code */
 
-_extern void _sub_5C6A08();
 void Sound_Reload() // 0x5C6A08
 {
     mangled_assert("?Sound_Reload@@YGXXZ");
     todo("implement");
-    _sub_5C6A08();
 }
 
-_extern void _sub_5C6A14();
 void Sound_ToggleMusic() // 0x5C6A14
 {
     mangled_assert("?Sound_ToggleMusic@@YGXXZ");
     todo("implement");
-    _sub_5C6A14();
 }
 
-_extern void _sub_5C6A20();
 void Sound_ToggleSpeech() // 0x5C6A20
 {
     mangled_assert("?Sound_ToggleSpeech@@YGXXZ");
     todo("implement");
-    _sub_5C6A20();
 }
 
-_extern void _sub_5C6698();
 void Scar_Reload() // 0x5C6698
 {
     mangled_assert("?Scar_Reload@@YGXXZ");
     todo("implement");
-    _sub_5C6698();
 }
 
-_extern void _sub_5C66B6(char const *);
 void Scar_ReloadFile(char const *file) // 0x5C66B6
 {
     mangled_assert("?Scar_ReloadFile@@YGXPBD@Z");
     todo("implement");
-    _sub_5C66B6(file);
 }
 
-_extern void _sub_5C6B69(unsigned __int32);
 void formStrikeGroup(unsigned __int32 strikeID) // 0x5C6B69
 {
     mangled_assert("?formStrikeGroup@@YGXI@Z");
     todo("implement");
-    _sub_5C6B69(strikeID);
 }
 
-_extern void _sub_5C6C4F();
 void leaveStrikeGroup() // 0x5C6C4F
 {
     mangled_assert("?leaveStrikeGroup@@YGXXZ");
     todo("implement");
-    _sub_5C6C4F();
 }
 
-_extern void _sub_5C6EBD(bool);
 void showNISDebug(bool on) // 0x5C6EBD
 {
     mangled_assert("?showNISDebug@@YGX_N@Z");
     todo("implement");
-    _sub_5C6EBD(on);
 }
 
-_extern void _sub_5C6BF4(bool);
 void goblinAlphaInterp(bool on) // 0x5C6BF4
 {
     mangled_assert("?goblinAlphaInterp@@YGX_N@Z");
     todo("implement");
-    _sub_5C6BF4(on);
 }
 
-_extern void _sub_5C6BF9();
 void heal() // 0x5C6BF9
 {
     mangled_assert("?heal@@YGXXZ");
     todo("implement");
-    _sub_5C6BF9();
 }
 
-_extern void _sub_5C6E11(float);
 void setHealth(float percentage) // 0x5C6E11
 {
     mangled_assert("?setHealth@@YGXM@Z");
     todo("implement");
-    _sub_5C6E11(percentage);
 }
 
-_extern void _sub_5C6F04(unsigned __int32);
 void unlock(unsigned __int32 on) // 0x5C6F04
 {
     mangled_assert("?unlock@@YGXI@Z");
     todo("implement");
-    _sub_5C6F04(on);
 }
 
-_extern void _sub_5C6F22(bool);
 void winLose(bool check) // 0x5C6F22
 {
     mangled_assert("?winLose@@YGX_N@Z");
     todo("implement");
-    _sub_5C6F22(check);
 }
 
-_extern void _sub_5C6F13();
 void win() // 0x5C6F13
 {
     mangled_assert("?win@@YGXXZ");
     todo("implement");
-    _sub_5C6F13();
 }
 
-_extern void _sub_5C6CB6();
 void lose() // 0x5C6CB6
 {
     mangled_assert("?lose@@YGXXZ");
     todo("implement");
-    _sub_5C6CB6();
 }
 
-_extern void _sub_5C6DA6();
 void reloadFlightManeuvers() // 0x5C6DA6
 {
     mangled_assert("?reloadFlightManeuvers@@YGXXZ");
     todo("implement");
-    _sub_5C6DA6();
 }
 
-_extern void _sub_5C6A2C(bool);
 void StatMonProfiling(bool on) // 0x5C6A2C
 {
     mangled_assert("?StatMonProfiling@@YGX_N@Z");
     todo("implement");
-    _sub_5C6A2C(on);
 }
 
-_extern void _sub_5C6EF1(bool);
 void toggleNavLights(bool on) // 0x5C6EF1
 {
     mangled_assert("?toggleNavLights@@YGX_N@Z");
     todo("implement");
-    _sub_5C6EF1(on);
 }
 
-_extern void _sub_5C6CC5(unsigned __int32);
 void maxActiveLights(unsigned __int32 max) // 0x5C6CC5
 {
     mangled_assert("?maxActiveLights@@YGXI@Z");
     todo("implement");
-    _sub_5C6CC5(max);
 }
 
-_extern void _sub_5C6EE7(bool);
 void toggleEngineBurns(bool on) // 0x5C6EE7
 {
     mangled_assert("?toggleEngineBurns@@YGX_N@Z");
     todo("implement");
-    _sub_5C6EE7(on);
 }
 
-_extern void _sub_5C6B39(bool);
 void cameraCollision(bool on) // 0x5C6B39
 {
     mangled_assert("?cameraCollision@@YGX_N@Z");
     todo("implement");
-    _sub_5C6B39(on);
 }
 
-_extern void _sub_5C6EEC(bool);
 void toggleGoblins(bool on) // 0x5C6EEC
 {
     mangled_assert("?toggleGoblins@@YGX_N@Z");
     todo("implement");
-    _sub_5C6EEC(on);
 }
 
-_extern void _sub_5C6DFD(float);
 void setGoblinTol(float tmp) // 0x5C6DFD
 {
     mangled_assert("?setGoblinTol@@YGXM@Z");
     todo("implement");
-    _sub_5C6DFD(tmp);
 }
 
-_extern void _sub_5C6DDF(float);
 void setDetailLevel(float tmp) // 0x5C6DDF
 {
     mangled_assert("?setDetailLevel@@YGXM@Z");
     todo("implement");
-    _sub_5C6DDF(tmp);
 }
 
-_extern void _sub_5C6E7D(float);
 void setMinLOD(float tmp) // 0x5C6E7D
 {
     mangled_assert("?setMinLOD@@YGXM@Z");
     todo("implement");
-    _sub_5C6E7D(tmp);
 }
 
-_extern void _sub_5C6E91(__int32);
 void setOutOfSync(__int32 frame) // 0x5C6E91
 {
     mangled_assert("?setOutOfSync@@YGXH@Z");
     todo("implement");
-    _sub_5C6E91(frame);
 }
 
-_extern void _sub_5C6BE9();
 void getSyncCheckingLevel() // 0x5C6BE9
 {
     mangled_assert("?getSyncCheckingLevel@@YGXXZ");
     todo("implement");
-    _sub_5C6BE9();
 }
 
-_extern void _sub_5C6ECF(bool);
 void statMon(bool on) // 0x5C6ECF
 {
     mangled_assert("?statMon@@YGX_N@Z");
     todo("implement");
-    _sub_5C6ECF(on);
 }
 
-_extern void _sub_5C6EDB(bool);
 void statMonLog(bool on) // 0x5C6EDB
 {
     mangled_assert("?statMonLog@@YGX_N@Z");
     todo("implement");
-    _sub_5C6EDB(on);
 }
 
-_extern void _sub_5C6DB2(bool);
 void rulesProfiler(bool on) // 0x5C6DB2
 {
     mangled_assert("?rulesProfiler@@YGX_N@Z");
     todo("implement");
-    _sub_5C6DB2(on);
 }
 
-_extern void _sub_5C6B44(bool);
 void debugRegionMode(bool b) // 0x5C6B44
 {
     mangled_assert("?debugRegionMode@@YGX_N@Z");
     todo("implement");
-    _sub_5C6B44(b);
 }
 
-_extern void _sub_5C6CFC(bool);
 void persistentFeedback(bool enable) // 0x5C6CFC
 {
     mangled_assert("?persistentFeedback@@YGX_N@Z");
     todo("implement");
-    _sub_5C6CFC(enable);
 }
 
-_extern void _sub_5C6D1C(char const *);
 void proposeAlliance(char const *name) // 0x5C6D1C
 {
     mangled_assert("?proposeAlliance@@YGXPBD@Z");
     todo("implement");
-    _sub_5C6D1C(name);
 }
 
-_extern void _sub_5C6DBE(unsigned __int32, unsigned __int32);
 void setAlliance(unsigned __int32 player1, unsigned __int32 player2) // 0x5C6DBE
 {
     mangled_assert("?setAlliance@@YGXII@Z");
     todo("implement");
-    _sub_5C6DBE(player1, player2);
 }
 
-_extern void _sub_5C6B27(unsigned __int32, unsigned __int32);
 void breakAlliance(unsigned __int32 player1, unsigned __int32 player2) // 0x5C6B27
 {
     mangled_assert("?breakAlliance@@YGXII@Z");
     todo("implement");
-    _sub_5C6B27(player1, player2);
 }
 
-_extern void _sub_5C6EA0(unsigned __int32, unsigned __int32, bool);
 void sharedVision(unsigned __int32 player1, unsigned __int32 player2, bool visible) // 0x5C6EA0
 {
     mangled_assert("?sharedVision@@YGXII_N@Z");
     todo("implement");
-    _sub_5C6EA0(player1, player2, visible);
 }
 
-_extern void _sub_5C6CDA(bool);
 void pause(bool pause) // 0x5C6CDA
 {
     mangled_assert("?pause@@YGX_N@Z");
     todo("implement");
-    _sub_5C6CDA(pause);
 }
 
-_extern void _sub_5C6EC2();
 void showSelection() // 0x5C6EC2
 {
     mangled_assert("?showSelection@@YGXXZ");
     todo("implement");
-    _sub_5C6EC2();
 }
 
-_extern void _sub_5C6BD5();
 void gamemisc_dumprules() // 0x5C6BD5
 {
     mangled_assert("?gamemisc_dumprules@@YGXXZ");
     todo("implement");
-    _sub_5C6BD5();
 }
 
-_extern void _sub_5C6A03(bool);
 void ShowShipAvoidance(bool enable) // 0x5C6A03
 {
     mangled_assert("?ShowShipAvoidance@@YGX_N@Z");
     todo("implement");
-    _sub_5C6A03(enable);
 }
 
-_extern void _sub_5C69FE(bool);
 void ShowFormationAvoidance(bool enable) // 0x5C69FE
 {
     mangled_assert("?ShowFormationAvoidance@@YGX_N@Z");
     todo("implement");
-    _sub_5C69FE(enable);
 }
 
-_extern void _sub_5C69F2(bool);
 void ShowAsteroidAvoidance(bool enable) // 0x5C69F2
 {
     mangled_assert("?ShowAsteroidAvoidance@@YGX_N@Z");
     todo("implement");
-    _sub_5C69F2(enable);
 }
 
-_extern void _sub_5C69E3(unsigned __int32);
 void SetTOSettings(unsigned __int32 settings) // 0x5C69E3
 {
     mangled_assert("?SetTOSettings@@YGXI@Z");
     todo("implement");
-    _sub_5C69E3(settings);
 }
 
-_extern void _sub_5C52D9(unsigned __int32);
 void ClearTOSettings(unsigned __int32 settings) // 0x5C52D9
 {
     mangled_assert("?ClearTOSettings@@YGXI@Z");
     todo("implement");
-    _sub_5C52D9(settings);
 }
 
-_extern void _sub_5C66DA(char const *);
 void SelectBuildFacility(char const *facility) // 0x5C66DA
 {
     mangled_assert("?SelectBuildFacility@@YGXPBD@Z");
     todo("implement");
-    _sub_5C66DA(facility);
 }
 
-_extern void _sub_5C696C(unsigned __int32);
 void SendBuildOrder(unsigned __int32 slotIndex) // 0x5C696C
 {
     mangled_assert("?SendBuildOrder@@YGXI@Z");
     todo("implement");
-    _sub_5C696C(slotIndex);
 }
 
-_extern void _sub_5C6983();
 void SendCancelShipOrder() // 0x5C6983
 {
     mangled_assert("?SendCancelShipOrder@@YGXXZ");
     todo("implement");
-    _sub_5C6983();
 }
 
-_extern void _sub_5C6998();
 void SendCancelSubSystemOrder() // 0x5C6998
 {
     mangled_assert("?SendCancelSubSystemOrder@@YGXXZ");
     todo("implement");
-    _sub_5C6998();
 }
 
-_extern void _sub_5C69AD();
 void SendPauseShipOrder() // 0x5C69AD
 {
     mangled_assert("?SendPauseShipOrder@@YGXXZ");
     todo("implement");
-    _sub_5C69AD();
 }
 
-_extern void _sub_5C69C2();
 void SendPauseSubSystemOrder() // 0x5C69C2
 {
     mangled_assert("?SendPauseSubSystemOrder@@YGXXZ");
     todo("implement");
-    _sub_5C69C2();
 }
 
-_extern void _sub_5C6815();
 void SelectNextIdleHarvester() // 0x5C6815
 {
     mangled_assert("?SelectNextIdleHarvester@@YGXXZ");
     todo("implement");
-    _sub_5C6815();
 }
 
-_extern void _sub_5C6A45(char const *, char const *, __int32, __int32);
 void UI_ToggleScreenGameRubrick(char const *screenActive, char const *name, __int32 transType, __int32 gameRubrick) // 0x5C6A45
 {
     mangled_assert("?UI_ToggleScreenGameRubrick@@YGXPBD0HH@Z");
     todo("implement");
-    _sub_5C6A45(screenActive, name, transType, gameRubrick);
 }
 
-_extern void _sub_5C5110(LuaBinding::ObjInternal2<unsigned int,unsigned int,void,LuaBinding::Functor2Free<unsigned int,unsigned int,void> > *const);
 _inline LuaBinding::ObjInternal2<unsigned int,unsigned int,void,LuaBinding::Functor2Free<unsigned int,unsigned int,void> >::~ObjInternal2<unsigned int,unsigned int,void,LuaBinding::Functor2Free<unsigned int,unsigned int,void> >() // 0x5C5110
 {
     mangled_assert("??1?$ObjInternal2@IIXV?$Functor2Free@IIX@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5C5110(this);
 }
 
-_extern void _sub_5C5116(LuaBinding::ObjInternal3<unsigned int,unsigned int,bool,void,LuaBinding::Functor3Free<unsigned int,unsigned int,bool,void> > *const);
 _inline LuaBinding::ObjInternal3<unsigned int,unsigned int,bool,void,LuaBinding::Functor3Free<unsigned int,unsigned int,bool,void> >::~ObjInternal3<unsigned int,unsigned int,bool,void,LuaBinding::Functor3Free<unsigned int,unsigned int,bool,void> >() // 0x5C5116
 {
     mangled_assert("??1?$ObjInternal3@II_NXV?$Functor3Free@II_NX@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5C5116(this);
 }
 
-_extern void _sub_5C511C(LuaBinding::ObjInternal4<char const *,char const *,int,int,void,LuaBinding::Functor4Free<char const *,char const *,int,int,void> > *const);
 _inline LuaBinding::ObjInternal4<char const *,char const *,int,int,void,LuaBinding::Functor4Free<char const *,char const *,int,int,void> >::~ObjInternal4<char const *,char const *,int,int,void,LuaBinding::Functor4Free<char const *,char const *,int,int,void> >() // 0x5C511C
 {
     mangled_assert("??1?$ObjInternal4@PBDPBDHHXV?$Functor4Free@PBDPBDHHX@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5C511C(this);
 }
 
-_extern void _sub_5C56AC();
 void RecorderSwitchPlayer() // 0x5C56AC
 {
     mangled_assert("?RecorderSwitchPlayer@@YGXXZ");
     todo("implement");
-    _sub_5C56AC();
 }
 
-_extern void _sub_5C5674(bool);
 void RecorderPauseUniverse(bool pause) // 0x5C5674
 {
     mangled_assert("?RecorderPauseUniverse@@YGX_N@Z");
     todo("implement");
-    _sub_5C5674(pause);
 }
 
-_extern void _sub_5C5639();
 void RecorderFastForwardToggle() // 0x5C5639
 {
     mangled_assert("?RecorderFastForwardToggle@@YGXXZ");
     todo("implement");
-    _sub_5C5639();
 }
 
-_extern void _sub_5C5250(__int32, __int32);
 void Camera_PanCmd(__int32 keyState, __int32 panCmd) // 0x5C5250
 {
     mangled_assert("?Camera_PanCmd@@YGXHH@Z");
     todo("implement");
-    _sub_5C5250(keyState, panCmd);
 }
 
-_extern void _sub_5C556A(__int32);
 void Enable_Pebble_Distribution(__int32 nr) // 0x5C556A
 {
     mangled_assert("?Enable_Pebble_Distribution@@YGXH@Z");
     todo("implement");
-    _sub_5C556A(nr);
 }
 
-_extern void _sub_5C5634();
 void Pebble_Distribute() // 0x5C5634
 {
     mangled_assert("?Pebble_Distribute@@YGXXZ");
     todo("implement");
-    _sub_5C5634();
 }
 
-_extern void _sub_5C52B5();
 void ClearSelectedFromControlGroups() // 0x5C52B5
 {
     mangled_assert("?ClearSelectedFromControlGroups@@YGXXZ");
     todo("implement");
-    _sub_5C52B5();
 }
 
-_extern void _sub_5C527B();
 void ClearAllControlGroups() // 0x5C527B
 {
     mangled_assert("?ClearAllControlGroups@@YGXXZ");
     todo("implement");
-    _sub_5C527B();
 }
 
 /* ---------- private code */
 
-_extern void _sub_5C6693();
 _static void ReloadEffectEvents() // 0x5C6693
 {
     mangled_assert("ReloadEffectEvents");
     todo("implement");
-    _sub_5C6693();
 }
 
-_extern void _sub_5C55C9(bool);
 _static void LocalPlayerToCpu(bool disableUI) // 0x5C55C9
 {
     mangled_assert("LocalPlayerToCpu");
     todo("implement");
-    _sub_5C55C9(disableUI);
 }
 
-_extern void _sub_5C6A36();
 _static void ToggleGodMode() // 0x5C6A36
 {
     mangled_assert("ToggleGodMode");
     todo("implement");
-    _sub_5C6A36();
 }
 
-_extern void _sub_5C52F4();
 _static void Create360Screenshots() // 0x5C52F4
 {
     mangled_assert("Create360Screenshots");
     todo("implement");
-    _sub_5C52F4();
 }
 
-_extern void _sub_5C5308();
 _static void DestroySelectedAI() // 0x5C5308
 {
     mangled_assert("DestroySelectedAI");
     todo("implement");
-    _sub_5C5308();
 }
 
-_extern void _sub_5C55B6(bool);
 _static void LOD_SetEnabled(bool bEnabled) // 0x5C55B6
 {
     mangled_assert("LOD_SetEnabled");
     todo("implement");
-    _sub_5C55B6(bEnabled);
 }
 
-_extern void _sub_5C559B(float);
 _static void LOD_SetDesiredFPS(float fps) // 0x5C559B
 {
     mangled_assert("LOD_SetDesiredFPS");
     todo("implement");
-    _sub_5C559B(fps);
 }
 
-_extern void _sub_5C5588(bool);
 _static void LOD_SetAllowGoblins(bool bAllow) // 0x5C5588
 {
     mangled_assert("LOD_SetAllowGoblins");
     todo("implement");
-    _sub_5C5588(bAllow);
 }
 
-_extern void _sub_5C5575(bool);
 _static void LODFX_ForceFull(bool bForce) // 0x5C5575
 {
     mangled_assert("LODFX_ForceFull");
     todo("implement");
-    _sub_5C5575(bForce);
 }
 #endif

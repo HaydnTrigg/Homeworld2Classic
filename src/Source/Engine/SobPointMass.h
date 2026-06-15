@@ -56,31 +56,22 @@ static_assert(sizeof(SobPointMass) == 464, "Invalid SobPointMass size");
 
 /* ---------- public code */
 
-_extern SobPointMassStatic const *_sub_4B35B9(SobPointMass const *const);
 _inline SobPointMassStatic const *SobPointMass::getStatic() const // 0x4B35B9
 {
     mangled_assert("?getStatic@SobPointMass@@QBEPBVSobPointMassStatic@@XZ");
     todo("implement");
-    SobPointMassStatic const * __result = _sub_4B35B9(this);
-    return __result;
 }
 
-_extern bool _sub_4B35CB(SobPointMass *const);
 _inline bool SobPointMass::isDeterministic() // 0x4B35CB
 {
     mangled_assert("?isDeterministic@SobPointMass@@MAE_NXZ");
     todo("implement");
-    bool __result = _sub_4B35CB(this);
-    return __result;
 }
 
-_extern char const *_sub_4B3697(SobPointMass *const);
 _inline char const *SobPointMass::saveToken() // 0x4B3697
 {
     mangled_assert("?saveToken@SobPointMass@@MAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4B3697(this);
-    return __result;
 }
 
 /* ---------- private code */

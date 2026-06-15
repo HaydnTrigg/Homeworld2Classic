@@ -96,100 +96,70 @@ static_assert(sizeof(CpuBlobManager) == 60, "Invalid CpuBlobManager size");
 
 /* ---------- public code */
 
-_extern float _sub_526ED8(CpuBlob const *const);
 _inline float CpuBlob::GetRadius() const // 0x526ED8
 {
     mangled_assert("?GetRadius@CpuBlob@@QBEMXZ");
     todo("implement");
-    float __result = _sub_526ED8(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_526E4F(CpuBlob const *const);
 _inline vector3 const &CpuBlob::GetCenter() const // 0x526E4F
 {
     mangled_assert("?GetCenter@CpuBlob@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_526E4F(this);
-    return __result;
 }
 
-_extern std::vector<Squadron *,std::allocator<Squadron *> > const &_sub_526F88(CpuBlob const *const);
 _inline std::vector<Squadron *,std::allocator<Squadron *> > const &CpuBlob::GetSquadList() const // 0x526F88
 {
     mangled_assert("?GetSquadList@CpuBlob@@QBEABV?$vector@PAVSquadron@@V?$allocator@PAVSquadron@@@std@@@std@@XZ");
     todo("implement");
-    std::vector<Squadron *,std::allocator<Squadron *> > const & __result = _sub_526F88(this);
-    return __result;
 }
 
-_extern std::vector<Squadron *,std::allocator<Squadron *> > const &_sub_526ED4(CpuBlob const *const);
 _inline std::vector<Squadron *,std::allocator<Squadron *> > const &CpuBlob::GetEnemyList() const // 0x526ED4
 {
     mangled_assert("?GetEnemyList@CpuBlob@@QBEABV?$vector@PAVSquadron@@V?$allocator@PAVSquadron@@@std@@@std@@XZ");
     todo("implement");
-    std::vector<Squadron *,std::allocator<Squadron *> > const & __result = _sub_526ED4(this);
-    return __result;
 }
 
-_extern void _sub_54078B(CpuBlob *const, vector3 const &);
 _inline void CpuBlob::SetCenter(vector3 const &) // 0x54078B
 {
     mangled_assert("?SetCenter@CpuBlob@@QAEXABVvector3@@@Z");
     todo("implement");
-    _sub_54078B(this, arg);
 }
 
-_extern void _sub_54079C(CpuBlob *const, float);
 _inline void CpuBlob::SetRadius(float) // 0x54079C
 {
     mangled_assert("?SetRadius@CpuBlob@@QAEXM@Z");
     todo("implement");
-    _sub_54079C(this, arg);
 }
 
-_extern void _sub_5262BB(CpuBlob *const);
 _inline CpuBlob::~CpuBlob() // 0x5262BB
 {
     mangled_assert("??1CpuBlob@@QAE@XZ");
     todo("implement");
-    _sub_5262BB(this);
 }
 
-_extern unsigned __int32 _sub_531994(CpuBlobManager const *const);
 _inline unsigned __int32 CpuBlobManager::GetBlobCount() const // 0x531994
 {
     mangled_assert("?GetBlobCount@CpuBlobManager@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_531994(this);
-    return __result;
 }
 
-_extern CpuBlob const &_sub_531988(CpuBlobManager const *const, unsigned __int32);
 _inline CpuBlob const &CpuBlobManager::GetBlobAt(unsigned __int32) const // 0x531988
 {
     mangled_assert("?GetBlobAt@CpuBlobManager@@QBEABVCpuBlob@@I@Z");
     todo("implement");
-    CpuBlob const & __result = _sub_531988(this, arg);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_5319F6(CpuBlobManager const *const);
 _inline unsigned __int32 CpuBlobManager::GetEnemyBlobCount() const // 0x5319F6
 {
     mangled_assert("?GetEnemyBlobCount@CpuBlobManager@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_5319F6(this);
-    return __result;
 }
 
-_extern CpuBlob const &_sub_5319E9(CpuBlobManager const *const, unsigned __int32);
 _inline CpuBlob const &CpuBlobManager::GetEnemyBlobAt(unsigned __int32) const // 0x5319E9
 {
     mangled_assert("?GetEnemyBlobAt@CpuBlobManager@@QBEABVCpuBlob@@I@Z");
     todo("implement");
-    CpuBlob const & __result = _sub_5319E9(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

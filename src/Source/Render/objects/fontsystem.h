@@ -337,12 +337,10 @@ static_assert(sizeof(FontSystem) == 284, "Invalid FontSystem size");
 
 /* ---------- public code */
 
-_extern _sub_1004BAA0(FontSystem::Label *const);
 _inline FontSystem::Label::Label() // 0x1004BAA0
 {
     mangled_assert("??0Label@FontSystem@@QAE@XZ");
     todo("implement");
-    _sub_1004BAA0(this);
 }
 
 /* ---------- private code */

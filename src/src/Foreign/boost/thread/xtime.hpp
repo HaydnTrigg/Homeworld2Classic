@@ -35,13 +35,10 @@ extern _inline __int32 boost::xtime_cmp(boost::xtime const &xt1, boost::xtime co
 
 /* ---------- public code */
 
-_extern __int32 _sub_6D867F(boost::xtime const &, boost::xtime const &);
 _inline __int32 boost::xtime_cmp(boost::xtime const &xt1, boost::xtime const &xt2) // 0x6D867F
 {
     mangled_assert("?xtime_cmp@boost@@YGHABUxtime@1@0@Z");
     todo("implement");
-    __int32 __result = _sub_6D867F(xt1, xt2);
-    return __result;
 }
 
 /* ---------- private code */

@@ -130,170 +130,126 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_6C9E11(SoundManager::Data *const);
 _inline SoundManager::Data::Data() // 0x6C9E11
 {
     mangled_assert("??0Data@SoundManager@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6C9E11(this);
 }
 
-_extern _sub_6C9EC9(SoundManager *const);
 SoundManager::SoundManager() // 0x6C9EC9
 {
     mangled_assert("??0SoundManager@@AAE@XZ");
     todo("implement");
-    _sub_6C9EC9(this);
 }
 
-_extern _sub_6CA1E2(seInterfaceFunc *const);
 _inline seInterfaceFunc::seInterfaceFunc() // 0x6CA1E2
 {
     mangled_assert("??0seInterfaceFunc@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6CA1E2(this);
 }
 
-_extern void _sub_6CA260(std::_Tree_buy<std::pair<int const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<int const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > *const);
 _inline std::_Tree_buy<std::pair<int const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<int const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >::~_Tree_buy<std::pair<int const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<int const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >() // 0x6CA260
 {
     mangled_assert("??1?$_Tree_buy@U?$pair@$$CBHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@V?$allocator@U?$pair@$$CBHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6CA260(this);
 }
 
-_extern void _sub_6CA269(std::_Tree_comp<0,std::_Tmap_traits<int,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<int>,std::allocator<std::pair<int const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,0> > *const);
 _inline std::_Tree_comp<0,std::_Tmap_traits<int,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<int>,std::allocator<std::pair<int const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,0> >::~_Tree_comp<0,std::_Tmap_traits<int,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<int>,std::allocator<std::pair<int const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,0> >() // 0x6CA269
 {
     mangled_assert("??1?$_Tree_comp@$0A@V?$_Tmap_traits@HV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@2@$0A@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6CA269(this);
 }
 
-_extern void _sub_6CA28C(std::map<int,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<int>,std::allocator<std::pair<int const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > *const);
 _inline std::map<int,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<int>,std::allocator<std::pair<int const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >::~map<int,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<int>,std::allocator<std::pair<int const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >() // 0x6CA28C
 {
     mangled_assert("??1?$map@HV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6CA28C(this);
 }
 
-_extern void _sub_6CA291(std::pair<int const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > *const);
 _inline std::pair<int const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::~pair<int const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >() // 0x6CA291
 {
     mangled_assert("??1?$pair@$$CBHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6CA291(this);
 }
 
-_extern void _sub_6CA2A3(SoundManager::Data *const);
 _inline SoundManager::Data::~Data() // 0x6CA2A3
 {
     mangled_assert("??1Data@SoundManager@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6CA2A3(this);
 }
 
-_extern void _sub_6CA339(SoundManager *const);
 SoundManager::~SoundManager() // 0x6CA339
 {
     mangled_assert("??1SoundManager@@AAE@XZ");
     todo("implement");
-    _sub_6CA339(this);
 }
 
-_extern void _sub_6CA35D(SpeechQueue *const);
 _inline SpeechQueue::~SpeechQueue() // 0x6CA35D
 {
     mangled_assert("??1SpeechQueue@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6CA35D(this);
 }
 
-_extern SoundManager *_sub_6CC004();
 SoundManager *SoundManager::i() // 0x6CC004
 {
     mangled_assert("?i@SoundManager@@SGPAV1@XZ");
     todo("implement");
-    SoundManager * __result = _sub_6CC004();
-    return __result;
 }
 
-_extern bool _sub_6CB363();
 bool SoundManager::IsInitialized() // 0x6CB363
 {
     mangled_assert("?IsInitialized@SoundManager@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_6CB363();
-    return __result;
 }
 
-_extern Timer *_sub_6CA90C(SoundManager *const);
 Timer *SoundManager::GetTimer() // 0x6CA90C
 {
     mangled_assert("?GetTimer@SoundManager@@AAEPAVTimer@@XZ");
     todo("implement");
-    Timer * __result = _sub_6CA90C(this);
-    return __result;
 }
 
-_extern void _sub_6CB741(SoundManager *const, LuaConfig &);
 void SoundManager::SaveSettings(LuaConfig &) // 0x6CB741
 {
     mangled_assert("?SaveSettings@SoundManager@@QAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_6CB741(this, arg);
 }
 
-_extern void _sub_6CB36F(SoundManager *const, LuaConfig &);
 void SoundManager::LoadSettings(LuaConfig &) // 0x6CB36F
 {
     mangled_assert("?LoadSettings@SoundManager@@QAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_6CB36F(this, arg);
 }
 
-_extern bool _sub_6CB11B(char const *, bool, __int32 *);
 bool SoundManager::Initialize(char const *driverpath, bool loadLuaConfig, __int32 *hwnd) // 0x6CB11B
 {
     mangled_assert("?Initialize@SoundManager@@SG_NPBD_NPAH@Z");
     todo("implement");
-    bool __result = _sub_6CB11B(driverpath, loadLuaConfig, hwnd);
-    return __result;
 }
 
-_extern bool _sub_6CB855();
 bool SoundManager::Shutdown() // 0x6CB855
 {
     mangled_assert("?Shutdown@SoundManager@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_6CB855();
-    return __result;
 }
 
-_extern bool _sub_6CA912(SoundManager *const, seModeInfo *, char *);
 bool SoundManager::InitDriverSettings(seModeInfo *, char *) // 0x6CA912
 {
     mangled_assert("?InitDriverSettings@SoundManager@@AAE_NPAUseModeInfo@@PAD@Z");
     todo("implement");
-    bool __result = _sub_6CA912(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_6CACA0(SoundManager *const);
 void SoundManager::InitVars() // 0x6CACA0
 {
     mangled_assert("?InitVars@SoundManager@@AAEXXZ");
     todo("implement");
-    _sub_6CACA0(this);
 }
 
 /* ---------- private code */

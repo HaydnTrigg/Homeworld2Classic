@@ -34,13 +34,10 @@ static_assert(sizeof(UI::Pointer) == 416, "Invalid UI::Pointer size");
 
 /* ---------- public code */
 
-_extern UI::Pointer *_sub_57FA2A();
 _inline UI::Pointer *UI::Pointer::GetScreen() // 0x57FA2A
 {
     mangled_assert("?GetScreen@Pointer@UI@@SGPAV12@XZ");
     todo("implement");
-    UI::Pointer * __result = _sub_57FA2A();
-    return __result;
 }
 
 /* ---------- private code */

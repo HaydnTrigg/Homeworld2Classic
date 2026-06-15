@@ -118,28 +118,22 @@ extern void ghiCallPostCallback(GHIConnection *connection);
 
 /* ---------- public code */
 
-_extern void _sub_10016B98(GHIConnection *);
 void ghiCallCompletedCallback(GHIConnection *connection) // 0x10016B98
 {
     mangled_assert("_ghiCallCompletedCallback@4");
     todo("implement");
-    _sub_10016B98(connection);
 }
 
-_extern void _sub_10016C1C(GHIConnection *, char const *, __int32);
 void ghiCallProgressCallback(GHIConnection *connection, char const *buffer, __int32 bufferLen) // 0x10016C1C
 {
     mangled_assert("_ghiCallProgressCallback@12");
     todo("implement");
-    _sub_10016C1C(connection, buffer, bufferLen);
 }
 
-_extern void _sub_10016BE0(GHIConnection *);
 void ghiCallPostCallback(GHIConnection *connection) // 0x10016BE0
 {
     mangled_assert("_ghiCallPostCallback@4");
     todo("implement");
-    _sub_10016BE0(connection);
 }
 
 /* ---------- private code */

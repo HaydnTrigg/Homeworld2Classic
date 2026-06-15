@@ -28,12 +28,10 @@ static_assert(sizeof(SteamEvent) == 4, "Invalid SteamEvent size");
 
 /* ---------- public code */
 
-_extern void _sub_44B19B(SteamEvent *const);
 _inline SteamEvent::~SteamEvent() // 0x44B19B
 {
     mangled_assert("??1SteamEvent@@UAE@XZ");
     todo("implement");
-    _sub_44B19B(this);
 }
 
 /* ---------- private code */

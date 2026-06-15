@@ -63,31 +63,22 @@ static_assert(sizeof(SobZeroMassBody) == 504, "Invalid SobZeroMassBody size");
 
 /* ---------- public code */
 
-_extern bool _sub_4B39AE(SobZeroMassBody *const);
 _inline bool SobZeroMassBody::isDeterministic() // 0x4B39AE
 {
     mangled_assert("?isDeterministic@SobZeroMassBody@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4B39AE(this);
-    return __result;
 }
 
-_extern char const *_sub_4B3A7F(SobZeroMassBody *const);
 _inline char const *SobZeroMassBody::saveToken() // 0x4B3A7F
 {
     mangled_assert("?saveToken@SobZeroMassBody@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4B3A7F(this);
-    return __result;
 }
 
-_extern SobZeroMassBodyStatic const *_sub_4AA2DD(SobZeroMassBody const *const);
 _inline SobZeroMassBodyStatic const *SobZeroMassBody::getStatic() const // 0x4AA2DD
 {
     mangled_assert("?getStatic@SobZeroMassBody@@QBEPBVSobZeroMassBodyStatic@@XZ");
     todo("implement");
-    SobZeroMassBodyStatic const * __result = _sub_4AA2DD(this);
-    return __result;
 }
 
 /* ---------- private code */

@@ -66,56 +66,40 @@ static_assert(sizeof(Nebula) == 656, "Invalid Nebula size");
 
 /* ---------- public code */
 
-_extern NebulaStatic const *_sub_4C1042(Nebula const *const);
 _inline NebulaStatic const *Nebula::getStatic() const // 0x4C1042
 {
     mangled_assert("?getStatic@Nebula@@QBEPBVNebulaStatic@@XZ");
     todo("implement");
-    NebulaStatic const * __result = _sub_4C1042(this);
-    return __result;
 }
 
-_extern vector4 _sub_4C0FF0(Nebula const *const);
 _inline vector4 Nebula::getColour() const // 0x4C0FF0
 {
     mangled_assert("?getColour@Nebula@@QBE?AVvector4@@XZ");
     todo("implement");
-    vector4 __result = _sub_4C0FF0(this);
-    return __result;
 }
 
-_extern void _sub_4C1189(Nebula *const, vector4 const &);
 _inline void Nebula::setColour(vector4 const &) // 0x4C1189
 {
     mangled_assert("?setColour@Nebula@@QAEXABVvector4@@@Z");
     todo("implement");
-    _sub_4C1189(this, arg);
 }
 
-_extern void _sub_4C1491(Nebula *const, float);
 _inline void Nebula::setFading(float) // 0x4C1491
 {
     mangled_assert("?setFading@Nebula@@QAEXM@Z");
     todo("implement");
-    _sub_4C1491(this, arg);
 }
 
-_extern bool _sub_4C1049(Nebula *const);
 _inline bool Nebula::isDeterministic() // 0x4C1049
 {
     mangled_assert("?isDeterministic@Nebula@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4C1049(this);
-    return __result;
 }
 
-_extern char const *_sub_4C1183(Nebula *const);
 _inline char const *Nebula::saveToken() // 0x4C1183
 {
     mangled_assert("?saveToken@Nebula@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4C1183(this);
-    return __result;
 }
 
 /* ---------- private code */

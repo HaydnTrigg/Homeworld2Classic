@@ -67,73 +67,52 @@ static_assert(sizeof(UI::TextListBoxItem) == 1392, "Invalid UI::TextListBoxItem 
 
 /* ---------- public code */
 
-_extern UI::InterfaceElement *_sub_5A4EF5(UI::ListBoxItem *const);
 _inline UI::InterfaceElement *UI::ListBoxItem::clone() // 0x5A4EF5
 {
     mangled_assert("?clone@ListBoxItem@UI@@UAEPAVInterfaceElement@2@XZ");
     todo("implement");
-    UI::InterfaceElement * __result = _sub_5A4EF5(this);
-    return __result;
 }
 
-_extern __int32 _sub_57838E(UI::ListBoxItem const *const);
 _inline __int32 UI::ListBoxItem::GetIndex() const // 0x57838E
 {
     mangled_assert("?GetIndex@ListBoxItem@UI@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_57838E(this);
-    return __result;
 }
 
-_extern void _sub_67D0D3(UI::ListBoxItem *const, __int32);
 _inline void UI::ListBoxItem::SetIndex(__int32) // 0x67D0D3
 {
     mangled_assert("?SetIndex@ListBoxItem@UI@@QAEXH@Z");
     todo("implement");
-    _sub_67D0D3(this, arg);
 }
 
-_extern bool _sub_67C7AC(UI::ListBoxItem const *const);
 _inline bool UI::ListBoxItem::GetSelected() const // 0x67C7AC
 {
     mangled_assert("?GetSelected@ListBoxItem@UI@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_67C7AC(this);
-    return __result;
 }
 
-_extern void _sub_67D0FA(UI::ListBoxItem *const, UI::NewListBox *);
 _inline void UI::ListBoxItem::SetParentListBox(UI::NewListBox *) // 0x67D0FA
 {
     mangled_assert("?SetParentListBox@ListBoxItem@UI@@QAEXPAVNewListBox@2@@Z");
     todo("implement");
-    _sub_67D0FA(this, arg);
 }
 
-_extern void _sub_5940C9(UI::ListBoxItem *const, bool);
 _inline void UI::ListBoxItem::SetSelectable(bool) // 0x5940C9
 {
     mangled_assert("?SetSelectable@ListBoxItem@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_5940C9(this, arg);
 }
 
-_extern bool _sub_572838(UI::ListBoxItem const *const);
 _inline bool UI::ListBoxItem::GetSelectable() const // 0x572838
 {
     mangled_assert("?GetSelectable@ListBoxItem@UI@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_572838(this);
-    return __result;
 }
 
-_extern UI::InterfaceElement *_sub_682D3A(UI::TextListBoxItem *const);
 _inline UI::InterfaceElement *UI::TextListBoxItem::clone() // 0x682D3A
 {
     mangled_assert("?clone@TextListBoxItem@UI@@UAEPAVInterfaceElement@2@XZ");
     todo("implement");
-    UI::InterfaceElement * __result = _sub_682D3A(this);
-    return __result;
 }
 
 /* ---------- private code */

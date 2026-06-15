@@ -418,12 +418,10 @@ static_assert(sizeof(rndTable) == 968, "Invalid rndTable size");
 
 /* ---------- public code */
 
-_extern _sub_10003A27(FogParam *const);
 _inline FogParam::FogParam() // 0x10003A27
 {
     mangled_assert("??0FogParam@@QAE@XZ");
     todo("implement");
-    _sub_10003A27(this);
 }
 
 /* ---------- private code */
@@ -849,20 +847,16 @@ static_assert(sizeof(rndTable) == 968, "Invalid rndTable size");
 
 /* ---------- public code */
 
-_extern _sub_5EE2D9(FogParam *const);
 _inline FogParam::FogParam() // 0x5EE2D9
 {
     mangled_assert("??0FogParam@@QAE@XZ");
     todo("implement");
-    _sub_5EE2D9(this);
 }
 
-_extern _sub_5EE29F(FogParam *const, FogType, float, float, float, vector4 &);
 _inline FogParam::FogParam(FogType, float, float, float, vector4 &) // 0x5EE29F
 {
     mangled_assert("??0FogParam@@QAE@W4FogType@@MMMAAVvector4@@@Z");
     todo("implement");
-    _sub_5EE29F(this, arg, arg, arg, arg, arg);
 }
 
 /* ---------- private code */
@@ -1288,12 +1282,10 @@ static_assert(sizeof(rndTable) == 968, "Invalid rndTable size");
 
 /* ---------- public code */
 
-_extern _sub_1008E780(FogParam *const);
 _inline FogParam::FogParam() // 0x1008E780
 {
     mangled_assert("??0FogParam@@QAE@XZ");
     todo("implement");
-    _sub_1008E780(this);
 }
 
 /* ---------- private code */

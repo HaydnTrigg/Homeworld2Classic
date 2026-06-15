@@ -68,40 +68,28 @@ static_assert(sizeof(Collision::Internal::Span) == 160, "Invalid Collision::Inte
 
 /* ---------- public code */
 
-_extern float _sub_6615F5(Collision::Internal::Span::Proxy const *const);
 _inline float Collision::Internal::Span::Proxy::GetMinX() const // 0x6615F5
 {
     mangled_assert("?GetMinX@Proxy@Span@Internal@Collision@@QBEMXZ");
     todo("implement");
-    float __result = _sub_6615F5(this);
-    return __result;
 }
 
-_extern float _sub_6615F9(Collision::Internal::Span::Proxy const *const);
 _inline float Collision::Internal::Span::Proxy::GetMinZ() const // 0x6615F9
 {
     mangled_assert("?GetMinZ@Proxy@Span@Internal@Collision@@QBEMXZ");
     todo("implement");
-    float __result = _sub_6615F9(this);
-    return __result;
 }
 
-_extern float _sub_6615ED(Collision::Internal::Span::Proxy const *const);
 _inline float Collision::Internal::Span::Proxy::GetMaxX() const // 0x6615ED
 {
     mangled_assert("?GetMaxX@Proxy@Span@Internal@Collision@@QBEMXZ");
     todo("implement");
-    float __result = _sub_6615ED(this);
-    return __result;
 }
 
-_extern float _sub_6615F1(Collision::Internal::Span::Proxy const *const);
 _inline float Collision::Internal::Span::Proxy::GetMaxZ() const // 0x6615F1
 {
     mangled_assert("?GetMaxZ@Proxy@Span@Internal@Collision@@QBEMXZ");
     todo("implement");
-    float __result = _sub_6615F1(this);
-    return __result;
 }
 
 /* ---------- private code */

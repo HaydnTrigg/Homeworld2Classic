@@ -106,145 +106,100 @@ static_assert(sizeof(HierarchyStatic) == 20, "Invalid HierarchyStatic size");
 
 /* ---------- public code */
 
-_extern char const *_sub_4AA22C(HierarchyJoint const *const);
 _inline char const *HierarchyJoint::getName() const // 0x4AA22C
 {
     mangled_assert("?getName@HierarchyJoint@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4AA22C(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_607DD1(HierarchyJoint const *const);
 _inline vector3 const &HierarchyJoint::getOrientationEuler() const // 0x607DD1
 {
     mangled_assert("?getOrientationEuler@HierarchyJoint@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_607DD1(this);
-    return __result;
 }
 
-_extern matrix3 const &_sub_607DCD(HierarchyJoint const *const);
 _inline matrix3 const &HierarchyJoint::getOrientation() const // 0x607DCD
 {
     mangled_assert("?getOrientation@HierarchyJoint@@QBEABVmatrix3@@XZ");
     todo("implement");
-    matrix3 const & __result = _sub_607DCD(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_607DE0(HierarchyJoint const *const);
 _inline vector3 const &HierarchyJoint::getTranslation() const // 0x607DE0
 {
     mangled_assert("?getTranslation@HierarchyJoint@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_607DE0(this);
-    return __result;
 }
 
-_extern matrix4 const &_sub_5D46EC(HierarchyJoint const *const);
 _inline matrix4 const &HierarchyJoint::getConcatCoordSys() const // 0x5D46EC
 {
     mangled_assert("?getConcatCoordSys@HierarchyJoint@@QBEABVmatrix4@@XZ");
     todo("implement");
-    matrix4 const & __result = _sub_5D46EC(this);
-    return __result;
 }
 
-_extern HierarchyJoint const *_sub_5D3735(HierarchyJoint const *const);
 _inline HierarchyJoint const *HierarchyJoint::getMother() const // 0x5D3735
 {
     mangled_assert("?getMother@HierarchyJoint@@QBEPBV1@XZ");
     todo("implement");
-    HierarchyJoint const * __result = _sub_5D3735(this);
-    return __result;
 }
 
-_extern Collision::OBB const &_sub_47CA6D(HierarchyJoint const *const);
 _inline Collision::OBB const &HierarchyJoint::GetOBB() const // 0x47CA6D
 {
     mangled_assert("?GetOBB@HierarchyJoint@@QBEABVOBB@Collision@@XZ");
     todo("implement");
-    Collision::OBB const & __result = _sub_47CA6D(this);
-    return __result;
 }
 
-_extern Collision::Mesh const *_sub_520D31(HierarchyJoint const *const);
 _inline Collision::Mesh const *HierarchyJoint::GetCollisionMesh() const // 0x520D31
 {
     mangled_assert("?GetCollisionMesh@HierarchyJoint@@QBEPBVMesh@Collision@@XZ");
     todo("implement");
-    Collision::Mesh const * __result = _sub_520D31(this);
-    return __result;
 }
 
-_extern void _sub_47D897(HierarchyJoint *const, Collision::OBB const &);
 _inline void HierarchyJoint::SetOBB(Collision::OBB const &) // 0x47D897
 {
     mangled_assert("?SetOBB@HierarchyJoint@@QAEXABVOBB@Collision@@@Z");
     todo("implement");
-    _sub_47D897(this, arg);
 }
 
-_extern void _sub_47D867(HierarchyJoint *const, std::auto_ptr<Collision::Mesh>);
 _inline void HierarchyJoint::SetCollisionMesh(std::auto_ptr<Collision::Mesh>) // 0x47D867
 {
     mangled_assert("?SetCollisionMesh@HierarchyJoint@@QAEXV?$auto_ptr@VMesh@Collision@@@std@@@Z");
     todo("implement");
-    _sub_47D867(this, arg);
 }
 
-_extern void _sub_47E47E(HierarchyJoint *const, std::auto_ptr<DecalRefMesh>);
 _inline void HierarchyJoint::addDecalRefMesh(std::auto_ptr<DecalRefMesh>) // 0x47E47E
 {
     mangled_assert("?addDecalRefMesh@HierarchyJoint@@QAEXV?$auto_ptr@VDecalRefMesh@@@std@@@Z");
     todo("implement");
-    _sub_47E47E(this, arg);
 }
 
-_extern std::vector<DecalRefMesh *,std::allocator<DecalRefMesh *> > const &_sub_521B09(HierarchyJoint const *const);
 _inline std::vector<DecalRefMesh *,std::allocator<DecalRefMesh *> > const &HierarchyJoint::getDecalRefMeshes() const // 0x521B09
 {
     mangled_assert("?getDecalRefMeshes@HierarchyJoint@@QBEABV?$vector@PAVDecalRefMesh@@V?$allocator@PAVDecalRefMesh@@@std@@@std@@XZ");
     todo("implement");
-    std::vector<DecalRefMesh *,std::allocator<DecalRefMesh *> > const & __result = _sub_521B09(this);
-    return __result;
 }
 
-_extern HierarchyJoint const *_sub_517950(HierarchyStatic const *const, unsigned __int32);
 _inline HierarchyJoint const *HierarchyStatic::getJoint(unsigned __int32) const // 0x517950
 {
     mangled_assert("?getJoint@HierarchyStatic@@QBEPBVHierarchyJoint@@I@Z");
     todo("implement");
-    HierarchyJoint const * __result = _sub_517950(this, arg);
-    return __result;
 }
 
-_extern HierarchyJoint *_sub_47EDC7(HierarchyStatic *const);
 _inline HierarchyJoint *HierarchyStatic::getRoot() // 0x47EDC7
 {
     mangled_assert("?getRoot@HierarchyStatic@@QAEPAVHierarchyJoint@@XZ");
     todo("implement");
-    HierarchyJoint * __result = _sub_47EDC7(this);
-    return __result;
 }
 
-_extern HierarchyJoint const *_sub_4B2F9E(HierarchyStatic const *const);
 _inline HierarchyJoint const *HierarchyStatic::getRoot() const // 0x4B2F9E
 {
     mangled_assert("?getRoot@HierarchyStatic@@QBEPBVHierarchyJoint@@XZ");
     todo("implement");
-    HierarchyJoint const * __result = _sub_4B2F9E(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_517A1A(HierarchyStatic const *const);
 _inline unsigned __int32 HierarchyStatic::getNJoints() const // 0x517A1A
 {
     mangled_assert("?getNJoints@HierarchyStatic@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_517A1A(this);
-    return __result;
 }
 
 /* ---------- private code */

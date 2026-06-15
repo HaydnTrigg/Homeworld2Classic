@@ -85,36 +85,28 @@
 
 /* ---------- public code */
 
-_extern _sub_67F8AC(UI::NewFrame *const, UI::InterfaceElement *, char const *);
 UI::NewFrame::NewFrame(UI::InterfaceElement *, char const *) // 0x67F8AC
 {
     mangled_assert("??0NewFrame@UI@@QAE@PAVInterfaceElement@1@PBD@Z");
     todo("implement");
-    _sub_67F8AC(this, arg, arg);
 }
 
-_extern _sub_67F86D(UI::NewFrame *const, LuaConfig &);
 UI::NewFrame::NewFrame(LuaConfig &) // 0x67F86D
 {
     mangled_assert("??0NewFrame@UI@@QAE@AAVLuaConfig@@@Z");
     todo("implement");
-    _sub_67F86D(this, arg);
 }
 
-_extern void _sub_67F8C8(UI::NewFrame *const);
 UI::NewFrame::~NewFrame() // 0x67F8C8
 {
     mangled_assert("??1NewFrame@UI@@UAE@XZ");
     todo("implement");
-    _sub_67F8C8(this);
 }
 
-_extern void _sub_67F8D3(UI::NewFrame *const, Vector_2i const &, Rect_i const &);
 void UI::NewFrame::Draw2(Vector_2i const &, Rect_i const &) // 0x67F8D3
 {
     mangled_assert("?Draw2@NewFrame@UI@@UAEXABUVector_2i@@ABURect_i@@@Z");
     todo("implement");
-    _sub_67F8D3(this, arg, arg);
 }
 
 /* ---------- private code */

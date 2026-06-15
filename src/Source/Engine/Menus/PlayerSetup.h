@@ -97,83 +97,58 @@ static_assert(sizeof(UI::PlayerSetup) == 524, "Invalid UI::PlayerSetup size");
 
 /* ---------- public code */
 
-_extern __int32 _sub_5A0392(UI::PlayerSetup const *const);
 _inline __int32 UI::PlayerSetup::GetHue() const // 0x5A0392
 {
     mangled_assert("?GetHue@PlayerSetup@UI@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_5A0392(this);
-    return __result;
 }
 
-_extern __int32 _sub_5A0399(UI::PlayerSetup const *const);
 _inline __int32 UI::PlayerSetup::GetSaturation() const // 0x5A0399
 {
     mangled_assert("?GetSaturation@PlayerSetup@UI@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_5A0399(this);
-    return __result;
 }
 
-_extern __int32 _sub_5A0405(UI::PlayerSetup const *const);
 _inline __int32 UI::PlayerSetup::GetValue() const // 0x5A0405
 {
     mangled_assert("?GetValue@PlayerSetup@UI@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_5A0405(this);
-    return __result;
 }
 
-_extern bool _sub_5A03CF(UI::PlayerSetup const *const);
 _inline bool UI::PlayerSetup::GetStripeEdit() const // 0x5A03CF
 {
     mangled_assert("?GetStripeEdit@PlayerSetup@UI@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_5A03CF(this);
-    return __result;
 }
 
-_extern void _sub_5A10C8(UI::PlayerSetup *const, bool);
 _inline void UI::PlayerSetup::SetColorPickerPressed(bool) // 0x5A10C8
 {
     mangled_assert("?SetColorPickerPressed@PlayerSetup@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_5A10C8(this, arg);
 }
 
-_extern bool _sub_5A0384(UI::PlayerSetup const *const);
 _inline bool UI::PlayerSetup::GetColorPickerPressed() const // 0x5A0384
 {
     mangled_assert("?GetColorPickerPressed@PlayerSetup@UI@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_5A0384(this);
-    return __result;
 }
 
-_extern void _sub_5A11B4(UI::PlayerSetup *const, bool);
 _inline void UI::PlayerSetup::SetGreyScalePressed(bool) // 0x5A11B4
 {
     mangled_assert("?SetGreyScalePressed@PlayerSetup@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_5A11B4(this, arg);
 }
 
-_extern bool _sub_5A038B(UI::PlayerSetup const *const);
 _inline bool UI::PlayerSetup::GetGreyScalePressed() const // 0x5A038B
 {
     mangled_assert("?GetGreyScalePressed@PlayerSetup@UI@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_5A038B(this);
-    return __result;
 }
 
-_extern char const *_sub_575268(UI::PlayerSetup const *const);
 _inline char const *UI::PlayerSetup::GetEmblemFileName() const // 0x575268
 {
     mangled_assert("?GetEmblemFileName@PlayerSetup@UI@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_575268(this);
-    return __result;
 }
 
 /* ---------- private code */

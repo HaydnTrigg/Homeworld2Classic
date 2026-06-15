@@ -162,115 +162,83 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_100C0160(char const *);
 void yyerror(char const *msg) // 0x100C0160
 {
     mangled_assert("?yyerror@@YGXPBD@Z");
     todo("implement");
-    _sub_100C0160(msg);
 }
 
-_extern Texture *_sub_100BFE20(char const *);
 Texture *loadTexture(char const *name) // 0x100BFE20
 {
     mangled_assert("?loadTexture@@YGPAVTexture@@PBD@Z");
     todo("implement");
-    Texture * __result = _sub_100BFE20(name);
-    return __result;
 }
 
-_extern _sub_100BFB50(MyVal *const);
 _inline MyVal::MyVal() // 0x100BFB50
 {
     mangled_assert("??0MyVal@@QAE@XZ");
     todo("implement");
-    _sub_100BFB50(this);
 }
 
-_extern __int32 _sub_100C01A0();
 __int32 yyparse() // 0x100C01A0
 {
     mangled_assert("?yyparse@@YGHXZ");
     todo("implement");
-    __int32 __result = _sub_100C01A0();
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern void _sub_100C00D0(_iobuf *, __int32, MyVal const *const);
 _static void yy_symbol_value_print(_iobuf *yyoutput, __int32 yytype, MyVal const *const yyvaluep) // 0x100C00D0
 {
     mangled_assert("yy_symbol_value_print");
     todo("implement");
-    _sub_100C00D0(yyoutput, yytype, yyvaluep);
 }
 
-_extern void _sub_100C0090(_iobuf *, __int32, MyVal const *const);
 _static void yy_symbol_print(_iobuf *yyoutput, __int32 yytype, MyVal const *const yyvaluep) // 0x100C0090
 {
     mangled_assert("yy_symbol_print");
     todo("implement");
-    _sub_100C0090(yyoutput, yytype, yyvaluep);
 }
 
-_extern void _sub_100C0020(short *, short *);
 _static void yy_stack_print(short *yybottom, short *yytop) // 0x100C0020
 {
     mangled_assert("yy_stack_print");
     todo("implement");
-    _sub_100C0020(yybottom, yytop);
 }
 
-_extern void _sub_100BFF50(MyVal *, __int32);
 _static void yy_reduce_print(MyVal *yyvsp, __int32 yyrule) // 0x100BFF50
 {
     mangled_assert("yy_reduce_print");
     todo("implement");
-    _sub_100BFF50(yyvsp, yyrule);
 }
 
-_extern unsigned __int32 _sub_100C1C40(char const *);
 _static unsigned __int32 yystrlen(char const *yystr) // 0x100C1C40
 {
     mangled_assert("yystrlen");
     todo("implement");
-    unsigned __int32 __result = _sub_100C1C40(yystr);
-    return __result;
 }
 
-_extern char *_sub_100C1C20(char *, char const *);
 _static char *yystpcpy(char *yydest, char const *yysrc) // 0x100C1C20
 {
     mangled_assert("yystpcpy");
     todo("implement");
-    char * __result = _sub_100C1C20(yydest, yysrc);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_100C1E40(char *, char const *);
 _static unsigned __int32 yytnamerr(char *yyres, char const *yystr) // 0x100C1E40
 {
     mangled_assert("yytnamerr");
     todo("implement");
-    unsigned __int32 __result = _sub_100C1E40(yyres, yystr);
-    return __result;
 }
 
-_extern __int32 _sub_100C1C60(unsigned __int32 *, char **, short *, __int32);
 _static __int32 yysyntax_error(unsigned __int32 *yymsg_alloc, char **yymsg, short *yyssp, __int32 yytoken) // 0x100C1C60
 {
     mangled_assert("yysyntax_error");
     todo("implement");
-    __int32 __result = _sub_100C1C60(yymsg_alloc, yymsg, yyssp, yytoken);
-    return __result;
 }
 
-_extern void _sub_100C00E0(char const *, __int32, MyVal *);
 _static void yydestruct(char const *yymsg, __int32 yytype, MyVal *yyvaluep) // 0x100C00E0
 {
     mangled_assert("yydestruct");
     todo("implement");
-    _sub_100C00E0(yymsg, yytype, yyvaluep);
 }
 #endif

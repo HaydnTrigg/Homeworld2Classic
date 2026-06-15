@@ -72,28 +72,22 @@ extern void physCreateCoordSysFromHeadingAndUp(matrix3 &result, vector3 const &h
 
 /* ---------- public code */
 
-_extern void _sub_5E9F67(matrix3 &, vector3 const &);
 void physCreateCoordSysFromHeading(matrix3 &result, vector3 const &head) // 0x5E9F67
 {
     mangled_assert("?physCreateCoordSysFromHeading@@YGXAAVmatrix3@@ABVvector3@@@Z");
     todo("implement");
-    _sub_5E9F67(result, head);
 }
 
-_extern void _sub_5EA0A6(matrix3 &, vector3 const &, vector3 const &);
 void physCreateCoordSysFromHeadingAndLeft(matrix3 &result, vector3 const &heading, vector3 const &left) // 0x5EA0A6
 {
     mangled_assert("?physCreateCoordSysFromHeadingAndLeft@@YGXAAVmatrix3@@ABVvector3@@1@Z");
     todo("implement");
-    _sub_5EA0A6(result, heading, left);
 }
 
-_extern void _sub_5EA137(matrix3 &, vector3 const &, vector3 const &);
 void physCreateCoordSysFromHeadingAndUp(matrix3 &result, vector3 const &heading, vector3 const &up) // 0x5EA137
 {
     mangled_assert("?physCreateCoordSysFromHeadingAndUp@@YGXAAVmatrix3@@ABVvector3@@1@Z");
     todo("implement");
-    _sub_5EA137(result, heading, up);
 }
 
 /* ---------- private code */

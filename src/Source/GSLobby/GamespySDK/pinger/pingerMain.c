@@ -183,148 +183,107 @@ _static
 
 /* ---------- public code */
 
-_extern PINGERBool _sub_100163EF(char const *, unsigned short, void (*)(unsigned __int32, unsigned short, __int32, char const *, __int32, void *), void *, void (*)(unsigned __int32, unsigned short, char *, __int32, void *), void *);
 PINGERBool pingerInit(char const *localAddress, unsigned short localPort, void (*pinged)(unsigned __int32, unsigned short, __int32, char const *, __int32, void *), void *pingedParam, void (*setData)(unsigned __int32, unsigned short, char *, __int32, void *), void *setDataParam) // 0x100163EF
 {
     mangled_assert("_pingerInit@24");
     todo("implement");
-    PINGERBool __result = _sub_100163EF(localAddress, localPort, pinged, pingedParam, setData, setDataParam);
-    return __result;
 }
 
-_extern void _sub_100165C8();
 void pingerShutdown() // 0x100165C8
 {
     mangled_assert("_pingerShutdown@0");
     todo("implement");
-    _sub_100165C8();
 }
 
-_extern void _sub_10016614();
 void pingerThink() // 0x10016614
 {
     mangled_assert("_pingerThink@0");
     todo("implement");
-    _sub_10016614();
 }
 
-_extern void _sub_100164DF(unsigned __int32, unsigned short, void (*)(unsigned __int32, unsigned short, __int32, char const *, __int32, void *), void *, PINGERBool, unsigned long);
 void pingerPing(unsigned __int32 IP, unsigned short port, void (*reply)(unsigned __int32, unsigned short, __int32, char const *, __int32, void *), void *replyParam, PINGERBool blocking, unsigned long timeout) // 0x100164DF
 {
     mangled_assert("_pingerPing@24");
     todo("implement");
-    _sub_100164DF(IP, port, reply, replyParam, blocking, timeout);
 }
 
 /* ---------- private code */
 
-_extern unsigned short _sub_10015F35();
 _static unsigned short piGetNextID() // 0x10015F35
 {
     mangled_assert("piGetNextID");
     todo("implement");
-    unsigned short __result = _sub_10015F35();
-    return __result;
 }
 
-_extern PINGERBool _sub_10015D7B(unsigned char *, piUDPPing *, char *);
 _static PINGERBool piBytesToPing(unsigned char *buffer, piUDPPing *udpPing, char *data) // 0x10015D7B
 {
     mangled_assert("piBytesToPing");
     todo("implement");
-    PINGERBool __result = _sub_10015D7B(buffer, udpPing, data);
-    return __result;
 }
 
-_extern PINGERBool _sub_100162BA(sockaddr_in *, unsigned short, unsigned short, unsigned short, char const *);
 _static PINGERBool piSendPing(sockaddr_in *to, unsigned short trip, unsigned short ID_A, unsigned short ID_B, char const *data) // 0x100162BA
 {
     mangled_assert("piSendPing");
     todo("implement");
-    PINGERBool __result = _sub_100162BA(to, trip, ID_A, ID_B, data);
-    return __result;
 }
 
-_extern PINGERBool _sub_1001633E(char const *, unsigned short);
 _static PINGERBool piSocketInit(char const *localAddress, unsigned short localPort) // 0x1001633E
 {
     mangled_assert("piSocketInit");
     todo("implement");
-    PINGERBool __result = _sub_1001633E(localAddress, localPort);
-    return __result;
 }
 
-_extern void _sub_1001624D(unsigned __int32, unsigned short, __int32, char const *, __int32, void *, void (*)(unsigned __int32, unsigned short, __int32, char const *, __int32, void *));
 _static void piQueueCallback(unsigned __int32 IP, unsigned short port, __int32 ping, char const *data, __int32 len, void *param, void (*callbackFunc)(unsigned __int32, unsigned short, __int32, char const *, __int32, void *)) // 0x1001624D
 {
     mangled_assert("piQueueCallback");
     todo("implement");
-    _sub_1001624D(IP, port, ping, data, len, param, callbackFunc);
 }
 
-_extern void _sub_10015E06();
 _static void piCallCallbacks() // 0x10015E06
 {
     mangled_assert("piCallCallbacks");
     todo("implement");
-    _sub_10015E06();
 }
 
-_extern __int32 _sub_10015F22(void const *, void const *);
 _static __int32 piFindActivePingCompareFn(void const *elem1, void const *elem2) // 0x10015F22
 {
     mangled_assert("piFindActivePingCompareFn");
     todo("implement");
-    __int32 __result = _sub_10015F22(elem1, elem2);
-    return __result;
 }
 
-_extern piActivePing *_sub_10015EDA(unsigned short, __int32 *);
 _static piActivePing *piFindActivePing(unsigned short ID, __int32 *index) // 0x10015EDA
 {
     mangled_assert("piFindActivePing");
     todo("implement");
-    piActivePing * __result = _sub_10015EDA(ID, index);
-    return __result;
 }
 
-_extern void _sub_1001603F(piUDPPing *, char const *, sockaddr_in *, unsigned long);
 _static void piProcessTrip1(piUDPPing *udpPing, char const *data, sockaddr_in *from, unsigned long recvTime) // 0x1001603F
 {
     mangled_assert("piProcessTrip1");
     todo("implement");
-    _sub_1001603F(udpPing, data, from, recvTime);
 }
 
-_extern void _sub_10016129(piUDPPing *, char const *, sockaddr_in *, unsigned long);
 _static void piProcessTrip2(piUDPPing *udpPing, char const *data, sockaddr_in *from, unsigned long recvTime) // 0x10016129
 {
     mangled_assert("piProcessTrip2");
     todo("implement");
-    _sub_10016129(udpPing, data, from, recvTime);
 }
 
-_extern void _sub_100161EC(piUDPPing *, char const *, sockaddr_in *, unsigned long);
 _static void piProcessTrip3(piUDPPing *udpPing, char const *data, sockaddr_in *from, unsigned long recvTime) // 0x100161EC
 {
     mangled_assert("piProcessTrip3");
     todo("implement");
-    _sub_100161EC(udpPing, data, from, recvTime);
 }
 
-_extern void _sub_10015F59();
 _static void piProcessIncoming() // 0x10015F59
 {
     mangled_assert("piProcessIncoming");
     todo("implement");
-    _sub_10015F59();
 }
 
-_extern void _sub_10015E6B();
 _static void piCheckTimeouts() // 0x10015E6B
 {
     mangled_assert("piCheckTimeouts");
     todo("implement");
-    _sub_10015E6B();
 }
 #endif

@@ -41,13 +41,10 @@ static_assert(sizeof(FamilyListMgr) == 120, "Invalid FamilyListMgr size");
 
 /* ---------- public code */
 
-_extern FamilyListMgr *_sub_47EDEC();
 _inline FamilyListMgr *FamilyListMgr::i() // 0x47EDEC
 {
     mangled_assert("?i@FamilyListMgr@@SGPAV1@XZ");
     todo("implement");
-    FamilyListMgr * __result = _sub_47EDEC();
-    return __result;
 }
 
 /* ---------- private code */

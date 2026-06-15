@@ -130,98 +130,76 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_4EA762(AsteroidGetFunc *const, Asteroid *, vector3 &, float &);
 _inline void AsteroidGetFunc::operator()(Asteroid *, vector3 &, float &) // 0x4EA762
 {
     mangled_assert("??RAsteroidGetFunc@@QAEXPAVAsteroid@@AAVvector3@@AAM@Z");
     todo("implement");
-    _sub_4EA762(this, arg, arg, arg);
 }
 
-_extern _sub_4EA243(BlobGroup<Blob<Asteroid,AsteroidGetFunc> > *const, BlobGroup<Blob<Asteroid,AsteroidGetFunc> > const &);
 _inline BlobGroup<Blob<Asteroid,AsteroidGetFunc> >::BlobGroup<Blob<Asteroid,AsteroidGetFunc> >(BlobGroup<Blob<Asteroid,AsteroidGetFunc> > const &) // 0x4EA243
 {
     mangled_assert("??0?$BlobGroup@V?$Blob@VAsteroid@@UAsteroidGetFunc@@@@@@QAE@ABV0@@Z");
     compiler_generated();
     todo("implement");
-    _sub_4EA243(this, arg);
 }
 
-_extern _sub_4EA255(BlobGroup<Blob<Asteroid,AsteroidGetFunc> > *const);
 _inline BlobGroup<Blob<Asteroid,AsteroidGetFunc> >::BlobGroup<Blob<Asteroid,AsteroidGetFunc> >() // 0x4EA255
 {
     mangled_assert("??0?$BlobGroup@V?$Blob@VAsteroid@@UAsteroidGetFunc@@@@@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4EA255(this);
 }
 
-_extern void _sub_4EA537(BlobGroup<Blob<Asteroid,AsteroidGetFunc> > *const);
 _inline BlobGroup<Blob<Asteroid,AsteroidGetFunc> >::~BlobGroup<Blob<Asteroid,AsteroidGetFunc> >() // 0x4EA537
 {
     mangled_assert("??1?$BlobGroup@V?$Blob@VAsteroid@@UAsteroidGetFunc@@@@@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4EA537(this);
 }
 
-_extern void _sub_4EA53C(Blobber<Asteroid,AsteroidGetFunc> *const);
 _inline Blobber<Asteroid,AsteroidGetFunc>::~Blobber<Asteroid,AsteroidGetFunc>() // 0x4EA53C
 {
     mangled_assert("??1?$Blobber@VAsteroid@@UAsteroidGetFunc@@@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4EA53C(this);
 }
 
-_extern void _sub_4EA9D4(std::vector<std::vector<Asteroid *,std::allocator<Asteroid *> >,std::allocator<std::vector<Asteroid *,std::allocator<Asteroid *> > > > &);
 void GenerateAsteroidGroups(std::vector<std::vector<Asteroid *,std::allocator<Asteroid *> >,std::allocator<std::vector<Asteroid *,std::allocator<Asteroid *> > > > &outGroups) // 0x4EA9D4
 {
     mangled_assert("?GenerateAsteroidGroups@@YGXAAV?$vector@V?$vector@PAVAsteroid@@V?$allocator@PAVAsteroid@@@std@@@std@@V?$allocator@V?$vector@PAVAsteroid@@V?$allocator@PAVAsteroid@@@std@@@std@@@2@@std@@@Z");
     todo("implement");
-    _sub_4EA9D4(outGroups);
 }
 
-_extern void _sub_4EA560(std::_List_buy<Blob<Asteroid,AsteroidGetFunc>,std::allocator<Blob<Asteroid,AsteroidGetFunc> > > *const);
 _inline std::_List_buy<Blob<Asteroid,AsteroidGetFunc>,std::allocator<Blob<Asteroid,AsteroidGetFunc> > >::~_List_buy<Blob<Asteroid,AsteroidGetFunc>,std::allocator<Blob<Asteroid,AsteroidGetFunc> > >() // 0x4EA560
 {
     mangled_assert("??1?$_List_buy@V?$Blob@VAsteroid@@UAsteroidGetFunc@@@@V?$allocator@V?$Blob@VAsteroid@@UAsteroidGetFunc@@@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4EA560(this);
 }
 
-_extern void _sub_4EA569(std::_List_buy<BlobGroup<Blob<Asteroid,AsteroidGetFunc> >,std::allocator<BlobGroup<Blob<Asteroid,AsteroidGetFunc> > > > *const);
 _inline std::_List_buy<BlobGroup<Blob<Asteroid,AsteroidGetFunc> >,std::allocator<BlobGroup<Blob<Asteroid,AsteroidGetFunc> > > >::~_List_buy<BlobGroup<Blob<Asteroid,AsteroidGetFunc> >,std::allocator<BlobGroup<Blob<Asteroid,AsteroidGetFunc> > > >() // 0x4EA569
 {
     mangled_assert("??1?$_List_buy@V?$BlobGroup@V?$Blob@VAsteroid@@UAsteroidGetFunc@@@@@@V?$allocator@V?$BlobGroup@V?$Blob@VAsteroid@@UAsteroidGetFunc@@@@@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4EA569(this);
 }
 
-_extern void _sub_4EA88D(std::vector<Asteroid *,std::allocator<Asteroid *> > const &);
 void GenerateAsteroidGroupOBB(std::vector<Asteroid *,std::allocator<Asteroid *> > const &inGroup) // 0x4EA88D
 {
     mangled_assert("?GenerateAsteroidGroupOBB@@YGXABV?$vector@PAVAsteroid@@V?$allocator@PAVAsteroid@@@std@@@std@@@Z");
     todo("implement");
-    _sub_4EA88D(inGroup);
 }
 
-_extern void _sub_4EAA51(std::vector<std::vector<Asteroid *,std::allocator<Asteroid *> >,std::allocator<std::vector<Asteroid *,std::allocator<Asteroid *> > > > const &);
 void GenerateAsteroidOBBs(std::vector<std::vector<Asteroid *,std::allocator<Asteroid *> >,std::allocator<std::vector<Asteroid *,std::allocator<Asteroid *> > > > const &inGroups) // 0x4EAA51
 {
     mangled_assert("?GenerateAsteroidOBBs@@YGXABV?$vector@V?$vector@PAVAsteroid@@V?$allocator@PAVAsteroid@@@std@@@std@@V?$allocator@V?$vector@PAVAsteroid@@V?$allocator@PAVAsteroid@@@std@@@std@@@2@@std@@@Z");
     todo("implement");
-    _sub_4EAA51(inGroups);
 }
 
-_extern void _sub_4EA848();
 void GenerateAsteroidAvoidance() // 0x4EA848
 {
     mangled_assert("?GenerateAsteroidAvoidance@@YGXXZ");
     todo("implement");
-    _sub_4EA848();
 }
 
 /* ---------- private code */

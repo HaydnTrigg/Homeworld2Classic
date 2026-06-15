@@ -60,30 +60,22 @@ static_assert(sizeof(TacticalOverlay) == 56, "Invalid TacticalOverlay size");
 
 /* ---------- public code */
 
-_extern bool _sub_45159F(TacticalOverlay const *const, TacticalOverlay::TO_Flags const);
 _inline bool TacticalOverlay::isSettingOn(TacticalOverlay::TO_Flags const) const // 0x45159F
 {
     mangled_assert("?isSettingOn@TacticalOverlay@@QBE_NW4TO_Flags@1@@Z");
     todo("implement");
-    bool __result = _sub_45159F(this, arg);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_5C6BE5(TacticalOverlay const *const);
 _inline unsigned __int32 TacticalOverlay::getSettings() const // 0x5C6BE5
 {
     mangled_assert("?getSettings@TacticalOverlay@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_5C6BE5(this);
-    return __result;
 }
 
-_extern void _sub_5A699C(TacticalOverlay *const, unsigned __int32);
 _inline void TacticalOverlay::setSettings(unsigned __int32) // 0x5A699C
 {
     mangled_assert("?setSettings@TacticalOverlay@@QAEXI@Z");
     todo("implement");
-    _sub_5A699C(this, arg);
 }
 
 /* ---------- private code */

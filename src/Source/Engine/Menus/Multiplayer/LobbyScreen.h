@@ -84,39 +84,31 @@ static_assert(sizeof(UI::LobbyScreen) == 420, "Invalid UI::LobbyScreen size");
 
 /* ---------- public code */
 
-_extern void _sub_5B56C7(LobbyEvent * const, bool, unsigned __int32);
 _inline void UI::LobbyScreen::OnLobbyChatConnectResult(bool, unsigned __int32) // 0x5B56C7
 {
     mangled_assert("?OnLobbyChatConnectResult@LobbyScreen@UI@@EAEX_NI@Z");
     // __shifted(UI::LobbyScreen, 412);
     todo("implement");
-    _sub_5B56C7(this, arg, arg);
 }
 
-_extern void _sub_5B57E7(LobbyEvent * const, unsigned long long);
 _inline void UI::LobbyScreen::OnLobbyRoomAdded(unsigned long long) // 0x5B57E7
 {
     mangled_assert("?OnLobbyRoomAdded@LobbyScreen@UI@@EAEX_K@Z");
     // __shifted(UI::LobbyScreen, 412);
     todo("implement");
-    _sub_5B57E7(this, arg);
 }
 
-_extern void _sub_5B56A9(LobbyEvent * const, bool, wchar_t const *);
 _inline void UI::LobbyScreen::OnLobbyCDAuthenticate(bool, wchar_t const *) // 0x5B56A9
 {
     mangled_assert("?OnLobbyCDAuthenticate@LobbyScreen@UI@@EAEX_NPB_W@Z");
     // __shifted(UI::LobbyScreen, 412);
     todo("implement");
-    _sub_5B56A9(this, arg, arg);
 }
 
-_extern void _sub_5B57EA(UI::LobbyScreen *const, bool);
 _inline void UI::LobbyScreen::OnLobbyRoomJoined(bool) // 0x5B57EA
 {
     mangled_assert("?OnLobbyRoomJoined@LobbyScreen@UI@@EAEX_N@Z");
     todo("implement");
-    _sub_5B57EA(this, arg);
 }
 
 /* ---------- private code */

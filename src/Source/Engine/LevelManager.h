@@ -51,12 +51,10 @@ static_assert(sizeof(LevelManager) == 60, "Invalid LevelManager size");
 
 /* ---------- public code */
 
-_extern void _sub_6026F3(LevelManager *const);
 _inline LevelManager::~LevelManager() // 0x6026F3
 {
     mangled_assert("??1LevelManager@@AAE@XZ");
     todo("implement");
-    _sub_6026F3(this);
 }
 
 /* ---------- private code */

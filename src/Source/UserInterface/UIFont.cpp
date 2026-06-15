@@ -69,12 +69,10 @@ extern void UIFont::ApplyFontStyle(UIText &textStyle);
 
 /* ---------- public code */
 
-_extern void _sub_68F757(UIText &);
 void UIFont::ApplyFontStyle(UIText &textStyle) // 0x68F757
 {
     mangled_assert("?ApplyFontStyle@UIFont@@YGXAAUUIText@@@Z");
     todo("implement");
-    _sub_68F757(textStyle);
 }
 
 /* ---------- private code */

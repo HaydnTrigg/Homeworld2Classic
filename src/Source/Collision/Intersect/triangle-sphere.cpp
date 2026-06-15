@@ -24,13 +24,10 @@ extern bool Collision::Intersect(Collision::Triangle const &tri, Collision::Sphe
 
 /* ---------- public code */
 
-_extern bool _sub_6633A4(Collision::Triangle const &, Collision::Sphere const &);
 bool Collision::Intersect(Collision::Triangle const &tri, Collision::Sphere const &sphere) // 0x6633A4
 {
     mangled_assert("?Intersect@Collision@@YG_NABVTriangle@1@ABVSphere@1@@Z");
     todo("implement");
-    bool __result = _sub_6633A4(tri, sphere);
-    return __result;
 }
 
 /* ---------- private code */

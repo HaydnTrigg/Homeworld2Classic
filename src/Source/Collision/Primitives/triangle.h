@@ -30,31 +30,22 @@ static_assert(sizeof(Collision::Triangle) == 36, "Invalid Collision::Triangle si
 
 /* ---------- public code */
 
-_extern vector3 const &_sub_6648A6(Collision::Triangle const *const);
 _inline vector3 const &Collision::Triangle::GetOrigin() const // 0x6648A6
 {
     mangled_assert("?GetOrigin@Triangle@Collision@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_6648A6(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_6622D4(Collision::Triangle const *const);
 _inline vector3 const &Collision::Triangle::GetEdge0() const // 0x6622D4
 {
     mangled_assert("?GetEdge0@Triangle@Collision@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_6622D4(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_6622D8(Collision::Triangle const *const);
 _inline vector3 const &Collision::Triangle::GetEdge1() const // 0x6622D8
 {
     mangled_assert("?GetEdge1@Triangle@Collision@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_6622D8(this);
-    return __result;
 }
 
 /* ---------- private code */

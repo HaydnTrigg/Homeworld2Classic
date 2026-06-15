@@ -72,48 +72,34 @@ static_assert(sizeof(StrikeGroup) == 96, "Invalid StrikeGroup size");
 
 /* ---------- public code */
 
-_extern SquadronList const &_sub_456AB4(StrikeGroup const *const);
 _inline SquadronList const &StrikeGroup::getShipList() const // 0x456AB4
 {
     mangled_assert("?getShipList@StrikeGroup@@QBEABVSquadronList@@XZ");
     todo("implement");
-    SquadronList const & __result = _sub_456AB4(this);
-    return __result;
 }
 
-_extern std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &_sub_50812A(StrikeGroup const *const);
 _inline std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &StrikeGroup::getStrikeGroupName() const // 0x50812A
 {
     mangled_assert("?getStrikeGroupName@StrikeGroup@@QBEABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ");
     todo("implement");
-    std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & __result = _sub_50812A(this);
-    return __result;
 }
 
-_extern void _sub_6508D2(StrikeGroup *const, unsigned __int32);
 _inline void StrikeGroup::setID(unsigned __int32) // 0x6508D2
 {
     mangled_assert("?setID@StrikeGroup@@QAEXI@Z");
     todo("implement");
-    _sub_6508D2(this, arg);
 }
 
-_extern bool _sub_508146(StrikeGroup *const);
 _inline bool StrikeGroup::isDeterministic() // 0x508146
 {
     mangled_assert("?isDeterministic@StrikeGroup@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_508146(this);
-    return __result;
 }
 
-_extern char const *_sub_508430(StrikeGroup *const);
 _inline char const *StrikeGroup::saveToken() // 0x508430
 {
     mangled_assert("?saveToken@StrikeGroup@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_508430(this);
-    return __result;
 }
 
 /* ---------- private code */

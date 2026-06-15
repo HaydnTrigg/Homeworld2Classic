@@ -108,70 +108,52 @@ extern _inline float randf();
 
 /* ---------- public code */
 
-_extern _sub_4E0414(CameraHW *const);
 CameraHW::CameraHW() // 0x4E0414
 {
     mangled_assert("??0CameraHW@@QAE@XZ");
     todo("implement");
-    _sub_4E0414(this);
 }
 
-_extern void _sub_4E0465(CameraHW *const);
 CameraHW::~CameraHW() // 0x4E0465
 {
     mangled_assert("??1CameraHW@@UAE@XZ");
     todo("implement");
-    _sub_4E0465(this);
 }
 
-_extern void _sub_4E0492(CameraHW *const, float const);
 void CameraHW::adjustFloatFactor(float const) // 0x4E0492
 {
     mangled_assert("?adjustFloatFactor@CameraHW@@IAEXM@Z");
     todo("implement");
-    _sub_4E0492(this, arg);
 }
 
-_extern void _sub_4E05C3(CameraHW *const, float const);
 void CameraHW::updateCameraFloat(float const) // 0x4E05C3
 {
     mangled_assert("?updateCameraFloat@CameraHW@@QAEXM@Z");
     todo("implement");
-    _sub_4E05C3(this, arg);
 }
 
-_extern float _sub_4E0542();
 _inline float randf() // 0x4E0542
 {
     mangled_assert("?randf@@YGMXZ");
     todo("implement");
-    float __result = _sub_4E0542();
-    return __result;
 }
 
-_extern void _sub_4E07C0(CameraHW *const, float const);
 void CameraHW::updateCameraShake(float const) // 0x4E07C0
 {
     mangled_assert("?updateCameraShake@CameraHW@@QAEXM@Z");
     todo("implement");
-    _sub_4E07C0(this, arg);
 }
 
-_extern vector3 _sub_4E08AA(CameraHW *const);
 vector3 CameraHW::updateGetTarget() // 0x4E08AA
 {
     mangled_assert("?updateGetTarget@CameraHW@@MAE?AVvector3@@XZ");
     todo("implement");
-    vector3 __result = _sub_4E08AA(this);
-    return __result;
 }
 
-_extern void _sub_4E0572(CameraHW *const);
 void CameraHW::update() // 0x4E0572
 {
     mangled_assert("?update@CameraHW@@UAEXXZ");
     todo("implement");
-    _sub_4E0572(this);
 }
 
 /* ---------- private code */

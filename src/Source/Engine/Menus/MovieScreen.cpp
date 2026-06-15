@@ -253,379 +253,283 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_590B23(UI::MovieSpeech *const);
 UI::MovieSpeech::MovieSpeech() // 0x590B23
 {
     mangled_assert("??0MovieSpeech@UI@@QAE@XZ");
     todo("implement");
-    _sub_590B23(this);
 }
 
-_extern void _sub_590CAB(UI::MovieSpeech *const);
 UI::MovieSpeech::~MovieSpeech() // 0x590CAB
 {
     mangled_assert("??1MovieSpeech@UI@@QAE@XZ");
     todo("implement");
-    _sub_590CAB(this);
 }
 
-_extern bool _sub_591579(UI::MovieSpeech *const, char const *);
 bool UI::MovieSpeech::Load(char const *) // 0x591579
 {
     mangled_assert("?Load@MovieSpeech@UI@@QAE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_591579(this, arg);
-    return __result;
 }
 
-_extern void _sub_591B81(UI::MovieSpeech *const);
 void UI::MovieSpeech::Play() // 0x591B81
 {
     mangled_assert("?Play@MovieSpeech@UI@@QAEXXZ");
     todo("implement");
-    _sub_591B81(this);
 }
 
-_extern void _sub_5919CC(UI::MovieSpeech *const, unsigned __int32);
 void UI::MovieSpeech::OnUpdate(unsigned __int32) // 0x5919CC
 {
     mangled_assert("?OnUpdate@MovieSpeech@UI@@QAEXI@Z");
     todo("implement");
-    _sub_5919CC(this, arg);
 }
 
-_extern void _sub_591E83(UI::MovieSpeech *const);
 void UI::MovieSpeech::Stop() // 0x591E83
 {
     mangled_assert("?Stop@MovieSpeech@UI@@QAEXXZ");
     todo("implement");
-    _sub_591E83(this);
 }
 
-_extern void _sub_591BA1(UI::MovieSpeech *const, char const *);
 void UI::MovieSpeech::SetSpeechFolder(char const *) // 0x591BA1
 {
     mangled_assert("?SetSpeechFolder@MovieSpeech@UI@@QAEXPBD@Z");
     todo("implement");
-    _sub_591BA1(this, arg);
 }
 
-_extern void _sub_590F07(UI::MovieSpeech *const, char const *);
 void UI::MovieSpeech::AddLocalizedText(char const *) // 0x590F07
 {
     mangled_assert("?AddLocalizedText@MovieSpeech@UI@@QAEXPBD@Z");
     todo("implement");
-    _sub_590F07(this, arg);
 }
 
-_extern void _sub_590FBF(UI::MovieSpeech *const, float, char const *);
 void UI::MovieSpeech::AddSpeechEvent(float, char const *) // 0x590FBF
 {
     mangled_assert("?AddSpeechEvent@MovieSpeech@UI@@QAEXMPBD@Z");
     todo("implement");
-    _sub_590FBF(this, arg, arg);
 }
 
-_extern void _sub_5910A7(UI::MovieSpeech *const, float, __int32, char const *, float);
 void UI::MovieSpeech::AddSubtitleEvent(float, __int32, char const *, float) // 0x5910A7
 {
     mangled_assert("?AddSubtitleEvent@MovieSpeech@UI@@QAEXMHPBDM@Z");
     todo("implement");
-    _sub_5910A7(this, arg, arg, arg, arg);
 }
 
-_extern std::basic_string<char,std::char_traits<char>,std::allocator<char> > _sub_59244B(UI::MovieSpeech *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &);
 std::basic_string<char,std::char_traits<char>,std::allocator<char> > UI::MovieSpeech::getSpeechFname(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &) // 0x59244B
 {
     mangled_assert("?getSpeechFname@MovieSpeech@UI@@AAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV34@@Z");
     todo("implement");
-    std::string __result = _sub_59244B(this, arg);
-    return __result;
 }
 
-_extern void _sub_592606(UI::MovieSpeech *const);
 void UI::MovieSpeech::resetLocalizedText() // 0x592606
 {
     mangled_assert("?resetLocalizedText@MovieSpeech@UI@@AAEXXZ");
     todo("implement");
-    _sub_592606(this);
 }
 
-_extern _sub_590B84(UI::MovieTimer *const, UI::Movie *);
 _inline UI::MovieTimer::MovieTimer(UI::Movie *) // 0x590B84
 {
     mangled_assert("??0MovieTimer@UI@@QAE@PAVMovie@1@@Z");
     todo("implement");
-    _sub_590B84(this, arg);
 }
 
-_extern _sub_590B9E(UI::MovieSpeech::SpeechEvent *const, UI::MovieSpeech::SpeechEvent const &);
 _inline UI::MovieSpeech::SpeechEvent::SpeechEvent(UI::MovieSpeech::SpeechEvent const &) // 0x590B9E
 {
     mangled_assert("??0SpeechEvent@MovieSpeech@UI@@QAE@ABU012@@Z");
     compiler_generated();
     todo("implement");
-    _sub_590B9E(this, arg);
 }
 
-_extern void _sub_590D08(UI::MovieTimer *const);
 _inline UI::MovieTimer::~MovieTimer() // 0x590D08
 {
     mangled_assert("??1MovieTimer@UI@@UAE@XZ");
     todo("implement");
-    _sub_590D08(this);
 }
 
-_extern _sub_590BBB(UI::MovieSpeech::SpeechEvent *const);
 _inline UI::MovieSpeech::SpeechEvent::SpeechEvent() // 0x590BBB
 {
     mangled_assert("??0SpeechEvent@MovieSpeech@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_590BBB(this);
 }
 
-_extern void _sub_590D0F(UI::MovieSpeech::SpeechEvent *const);
 _inline UI::MovieSpeech::SpeechEvent::~SpeechEvent() // 0x590D0F
 {
     mangled_assert("??1SpeechEvent@MovieSpeech@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_590D0F(this);
 }
 
-_extern _sub_590BCD(UI::MovieSpeech::SubtitleEvent *const, UI::MovieSpeech::SubtitleEvent const &);
 _inline UI::MovieSpeech::SubtitleEvent::SubtitleEvent(UI::MovieSpeech::SubtitleEvent const &) // 0x590BCD
 {
     mangled_assert("??0SubtitleEvent@MovieSpeech@UI@@QAE@ABU012@@Z");
     compiler_generated();
     todo("implement");
-    _sub_590BCD(this, arg);
 }
 
-_extern void _sub_590D17(UI::MovieSpeech::SubtitleEvent *const);
 _inline UI::MovieSpeech::SubtitleEvent::~SubtitleEvent() // 0x590D17
 {
     mangled_assert("??1SubtitleEvent@MovieSpeech@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_590D17(this);
 }
 
-_extern _sub_590BF8(UI::MovieSpeech::SubtitleEvent *const);
 _inline UI::MovieSpeech::SubtitleEvent::SubtitleEvent() // 0x590BF8
 {
     mangled_assert("??0SubtitleEvent@MovieSpeech@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_590BF8(this);
 }
 
-_extern void _sub_590C0A(LuaBinding::ObjInternal1<char const *,void,LuaBinding::Functor1MemberNonConst<char const *,void,UI::MovieSpeech> > *const);
 _inline LuaBinding::ObjInternal1<char const *,void,LuaBinding::Functor1MemberNonConst<char const *,void,UI::MovieSpeech> >::~ObjInternal1<char const *,void,LuaBinding::Functor1MemberNonConst<char const *,void,UI::MovieSpeech> >() // 0x590C0A
 {
     mangled_assert("??1?$ObjInternal1@PBDXV?$Functor1MemberNonConst@PBDXVMovieSpeech@UI@@@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_590C0A(this);
 }
 
-_extern float _sub_5914BC(UI::MovieTimer const *const);
 _inline float UI::MovieTimer::GetDelta() const // 0x5914BC
 {
     mangled_assert("?GetDelta@MovieTimer@UI@@UBEMXZ");
     todo("implement");
-    float __result = _sub_5914BC(this);
-    return __result;
 }
 
-_extern void _sub_590C10(LuaBinding::ObjInternal2<float,char const *,void,LuaBinding::Functor2MemberNonConst<float,char const *,void,UI::MovieSpeech> > *const);
 _inline LuaBinding::ObjInternal2<float,char const *,void,LuaBinding::Functor2MemberNonConst<float,char const *,void,UI::MovieSpeech> >::~ObjInternal2<float,char const *,void,LuaBinding::Functor2MemberNonConst<float,char const *,void,UI::MovieSpeech> >() // 0x590C10
 {
     mangled_assert("??1?$ObjInternal2@MPBDXV?$Functor2MemberNonConst@MPBDXVMovieSpeech@UI@@@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_590C10(this);
 }
 
-_extern void _sub_590C16(LuaBinding::ObjInternal4<float,int,char const *,float,void,LuaBinding::Functor4MemberNonConst<float,int,char const *,float,void,UI::MovieSpeech> > *const);
 _inline LuaBinding::ObjInternal4<float,int,char const *,float,void,LuaBinding::Functor4MemberNonConst<float,int,char const *,float,void,UI::MovieSpeech> >::~ObjInternal4<float,int,char const *,float,void,LuaBinding::Functor4MemberNonConst<float,int,char const *,float,void,UI::MovieSpeech> >() // 0x590C16
 {
     mangled_assert("??1?$ObjInternal4@MHPBDMXV?$Functor4MemberNonConst@MHPBDMXVMovieSpeech@UI@@@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_590C16(this);
 }
 
-_extern void _sub_591FCE(UI::MovieTimer *const, unsigned __int32);
 _inline void UI::MovieTimer::Update(unsigned __int32) // 0x591FCE
 {
     mangled_assert("?Update@MovieTimer@UI@@QAEXI@Z");
     todo("implement");
-    _sub_591FCE(this, arg);
 }
 
-_extern _sub_590A99(UI::MovieScreen *const, char const *, char const *);
 UI::MovieScreen::MovieScreen(char const *, char const *) // 0x590A99
 {
     mangled_assert("??0MovieScreen@UI@@QAE@PBD0@Z");
     todo("implement");
-    _sub_590A99(this, arg, arg);
 }
 
-_extern void _sub_590C3B(UI::MovieScreen *const);
 UI::MovieScreen::~MovieScreen() // 0x590C3B
 {
     mangled_assert("??1MovieScreen@UI@@UAE@XZ");
     todo("implement");
-    _sub_590C3B(this);
 }
 
-_extern void _sub_5918DD(UI::MovieScreen *const);
 void UI::MovieScreen::OnPostLoad() // 0x5918DD
 {
     mangled_assert("?OnPostLoad@MovieScreen@UI@@MAEXXZ");
     todo("implement");
-    _sub_5918DD(this);
 }
 
-_extern void _sub_591503(UI::MovieScreen *const);
 void UI::MovieScreen::Init() // 0x591503
 {
     mangled_assert("?Init@MovieScreen@UI@@UAEXXZ");
     todo("implement");
-    _sub_591503(this);
 }
 
-_extern void _sub_591EEB(UI::MovieScreen *const);
 void UI::MovieScreen::Uninit() // 0x591EEB
 {
     mangled_assert("?Uninit@MovieScreen@UI@@UAEXXZ");
     todo("implement");
-    _sub_591EEB(this);
 }
 
-_extern void _sub_5917C4(UI::MovieScreen *const, bool);
 void UI::MovieScreen::OnActivate(bool) // 0x5917C4
 {
     mangled_assert("?OnActivate@MovieScreen@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_5917C4(this, arg);
 }
 
-_extern void _sub_5914B7(UI::MovieScreen *const);
 void UI::MovieScreen::Draw() // 0x5914B7
 {
     mangled_assert("?Draw@MovieScreen@UI@@UAEXXZ");
     todo("implement");
-    _sub_5914B7(this);
 }
 
-_extern void _sub_591EEC(UI::MovieScreen *const, unsigned __int32);
 void UI::MovieScreen::Update(unsigned __int32) // 0x591EEC
 {
     mangled_assert("?Update@MovieScreen@UI@@UAEXI@Z");
     todo("implement");
-    _sub_591EEC(this, arg);
 }
 
-_extern void _sub_591807(UI::MovieScreen *const, LuaConfig &);
 void UI::MovieScreen::OnLoad(LuaConfig &) // 0x591807
 {
     mangled_assert("?OnLoad@MovieScreen@UI@@MAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_591807(this, arg);
 }
 
-_extern void _sub_591E65(UI::MovieScreen *const);
 void UI::MovieScreen::Stop() // 0x591E65
 {
     mangled_assert("?Stop@MovieScreen@UI@@QAEXXZ");
     todo("implement");
-    _sub_591E65(this);
 }
 
-_extern void _sub_591B47(UI::MovieScreen *const, unsigned __int32);
 void UI::MovieScreen::Play(unsigned __int32) // 0x591B47
 {
     mangled_assert("?Play@MovieScreen@UI@@QAEXI@Z");
     todo("implement");
-    _sub_591B47(this, arg);
 }
 
-_extern void _sub_591B8A(UI::MovieScreen *const, void (*)());
 void UI::MovieScreen::SetMovieCallback(void (*)()) // 0x591B8A
 {
     mangled_assert("?SetMovieCallback@MovieScreen@UI@@UAEXP6GXXZ@Z");
     todo("implement");
-    _sub_591B8A(this, arg);
 }
 
-_extern bool _sub_591535(UI::MovieScreen const *const);
 bool UI::MovieScreen::IsOpaque() const // 0x591535
 {
     mangled_assert("?IsOpaque@MovieScreen@UI@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_591535(this);
-    return __result;
 }
 
-_extern void _sub_5917EF(UI::MovieScreen *const);
 void UI::MovieScreen::OnDone() // 0x5917EF
 {
     mangled_assert("?OnDone@MovieScreen@UI@@QAEXXZ");
     todo("implement");
-    _sub_5917EF(this);
 }
 
-_extern void _sub_5912FB();
 void UI::Animatic::Done() // 0x5912FB
 {
     mangled_assert("?Done@Animatic@UI@@SGXXZ");
     todo("implement");
-    _sub_5912FB();
 }
 
-_extern void _sub_5919AF(UI::InterfaceElement *, __int32, __int32, unsigned __int32);
 void UI::MovieScreen::OnRootClicked(UI::InterfaceElement *rootFrame, __int32 x, __int32 y, unsigned __int32 b) // 0x5919AF
 {
     mangled_assert("?OnRootClicked@MovieScreen@UI@@CGXPAVInterfaceElement@2@HHI@Z");
     todo("implement");
-    _sub_5919AF(rootFrame, x, y, b);
 }
 
-_extern bool _sub_591C92(char const *, unsigned __int32 const, bool const, bool const, bool const);
 bool UI::Animatic::StartAnimatic(char const *filename, unsigned __int32 const nisHandle, bool const pause, bool const disableInput, bool const restoreInterface) // 0x591C92
 {
     mangled_assert("?StartAnimatic@Animatic@UI@@SG_NPBDI_N11@Z");
     todo("implement");
-    bool __result = _sub_591C92(filename, nisHandle, pause, disableInput, restoreInterface);
-    return __result;
 }
 
-_extern void _sub_591E37();
 void UI::Animatic::Stop() // 0x591E37
 {
     mangled_assert("?Stop@Animatic@UI@@SGXXZ");
     todo("implement");
-    _sub_591E37();
 }
 
-_extern void _sub_591B95(void (*)());
 void UI::Animatic::SetOnDoneCB(void (*cb)()) // 0x591B95
 {
     mangled_assert("?SetOnDoneCB@Animatic@UI@@SGXP6GXXZ@Z");
     todo("implement");
-    _sub_591B95(cb);
 }
 
-_extern bool _sub_59155B();
 bool UI::Animatic::IsRenderingExclusively() // 0x59155B
 {
     mangled_assert("?IsRenderingExclusively@Animatic@UI@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_59155B();
-    return __result;
 }
 
 /* ---------- private code */

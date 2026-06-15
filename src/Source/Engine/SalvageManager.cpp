@@ -172,95 +172,70 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_48932F(SalvageManager *const, Ship *);
 SalvageManager::SalvageManager(Ship *) // 0x48932F
 {
     mangled_assert("??0SalvageManager@@QAE@PAVShip@@@Z");
     todo("implement");
-    _sub_48932F(this, arg);
 }
 
-_extern void _sub_489371(SalvageManager *const);
 SalvageManager::~SalvageManager() // 0x489371
 {
     mangled_assert("??1SalvageManager@@UAE@XZ");
     todo("implement");
-    _sub_489371(this);
 }
 
-_extern void _sub_489473(SalvageManager *const, float);
 void SalvageManager::update(float) // 0x489473
 {
     mangled_assert("?update@SalvageManager@@UAEXM@Z");
     todo("implement");
-    _sub_489473(this, arg);
 }
 
-_extern LatchPointManagerStatic *_sub_4893B1(SalvageManager *const);
 LatchPointManagerStatic *SalvageManager::getStaticData() // 0x4893B1
 {
     mangled_assert("?getStaticData@SalvageManager@@MAEPAVLatchPointManagerStatic@@XZ");
     todo("implement");
-    LatchPointManagerStatic * __result = _sub_4893B1(this);
-    return __result;
 }
 
-_extern _sub_489310(SalvageManager *const, SaveGameData *);
 SalvageManager::SalvageManager(SaveGameData *) // 0x489310
 {
     mangled_assert("??0SalvageManager@@QAE@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_489310(this, arg);
 }
 
-_extern void _sub_4893AA(SalvageManager *const);
 void SalvageManager::defaultSettings() // 0x4893AA
 {
     mangled_assert("?defaultSettings@SalvageManager@@QAEXXZ");
     todo("implement");
-    _sub_4893AA(this);
 }
 
-_extern void _sub_4893D4(SalvageManager *const);
 void SalvageManager::postRestore() // 0x4893D4
 {
     mangled_assert("?postRestore@SalvageManager@@UAEXXZ");
     todo("implement");
-    _sub_4893D4(this);
 }
 
-_extern bool _sub_4893D9(SalvageManager *const, SaveGameData *);
 bool SalvageManager::restore(SaveGameData *) // 0x4893D9
 {
     mangled_assert("?restore@SalvageManager@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_4893D9(this, arg);
-    return __result;
 }
 
-_extern bool _sub_489426(SalvageManager *const, SaveGameData *, SaveType);
 bool SalvageManager::save(SaveGameData *, SaveType) // 0x489426
 {
     mangled_assert("?save@SalvageManager@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_489426(this, arg, arg);
-    return __result;
 }
 
-_extern _sub_48935F(SalvageManagerStatic *const);
 SalvageManagerStatic::SalvageManagerStatic() // 0x48935F
 {
     mangled_assert("??0SalvageManagerStatic@@QAE@XZ");
     todo("implement");
-    _sub_48935F(this);
 }
 
-_extern void _sub_489383(SalvageManagerStatic *const);
 SalvageManagerStatic::~SalvageManagerStatic() // 0x489383
 {
     mangled_assert("??1SalvageManagerStatic@@QAE@XZ");
     todo("implement");
-    _sub_489383(this);
 }
 
 /* ---------- private code */

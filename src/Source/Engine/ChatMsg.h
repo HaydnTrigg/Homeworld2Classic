@@ -79,12 +79,10 @@ static_assert(sizeof(ChatMsg) == 3024, "Invalid ChatMsg size");
 
 /* ---------- public code */
 
-_extern void _sub_5E9BC5(ChatMsg *const);
 _inline ChatMsg::~ChatMsg() // 0x5E9BC5
 {
     mangled_assert("??1ChatMsg@@AAE@XZ");
     todo("implement");
-    _sub_5E9BC5(this);
 }
 
 /* ---------- private code */

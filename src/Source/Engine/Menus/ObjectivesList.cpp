@@ -137,77 +137,59 @@ extern UI::ObjectivesList *UI::ObjectivesList::ms_screen; // 0x846D10
 
 /* ---------- public code */
 
-_extern _sub_59C414(UI::ObjectivesList *const, char const *);
 UI::ObjectivesList::ObjectivesList(char const *) // 0x59C414
 {
     mangled_assert("??0ObjectivesList@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_59C414(this, arg);
 }
 
-_extern void _sub_59C454(UI::ObjectivesList *const);
 UI::ObjectivesList::~ObjectivesList() // 0x59C454
 {
     mangled_assert("??1ObjectivesList@UI@@UAE@XZ");
     todo("implement");
-    _sub_59C454(this);
 }
 
-_extern void _sub_59C64D(UI::ObjectivesList *const);
 void UI::ObjectivesList::OnPostLoad() // 0x59C64D
 {
     mangled_assert("?OnPostLoad@ObjectivesList@UI@@MAEXXZ");
     todo("implement");
-    _sub_59C64D(this);
 }
 
-_extern void _sub_59C882(UI::ObjectivesList *const, unsigned __int32);
 void UI::ObjectivesList::Update(unsigned __int32) // 0x59C882
 {
     mangled_assert("?Update@ObjectivesList@UI@@UAEXI@Z");
     todo("implement");
-    _sub_59C882(this, arg);
 }
 
-_extern void _sub_59C537(GameEventSys::Listener * const, GameEventSys::Event const &);
 void UI::ObjectivesList::OnEvent(GameEventSys::Event const &) // 0x59C537
 {
     mangled_assert("?OnEvent@ObjectivesList@UI@@UAEXABVEvent@GameEventSys@@@Z");
     // __shifted(UI::ObjectivesList, 412);
     todo("implement");
-    _sub_59C537(this, arg);
 }
 
-_extern void _sub_59C4FA(UI::ObjectivesList *const, bool);
 void UI::ObjectivesList::OnActivate(bool) // 0x59C4FA
 {
     mangled_assert("?OnActivate@ObjectivesList@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_59C4FA(this, arg);
 }
 
-_extern void _sub_59C589(UI::InterfaceElement *, __int32);
 void UI::ObjectivesList::OnObjectiveSelect(UI::InterfaceElement *sender, __int32 i) // 0x59C589
 {
     mangled_assert("?OnObjectiveSelect@ObjectivesList@UI@@CGXPAVInterfaceElement@2@H@Z");
     todo("implement");
-    _sub_59C589(sender, i);
 }
 
-_extern void _sub_59C799(UI::ObjectivesList *const, unsigned __int32);
 void UI::ObjectivesList::ShowObjectiveDetails(unsigned __int32) // 0x59C799
 {
     mangled_assert("?ShowObjectiveDetails@ObjectivesList@UI@@IAEXI@Z");
     todo("implement");
-    _sub_59C799(this, arg);
 }
 
-_extern void _sub_59C751(UI::ObjectivesList *const, unsigned __int32);
 void UI::ObjectivesList::SelectObjective(unsigned __int32) // 0x59C751
 {
     mangled_assert("?SelectObjective@ObjectivesList@UI@@QAEXI@Z");
     todo("implement");
-    _sub_59C751(this, arg);
 }
 
 /* ---------- private code */

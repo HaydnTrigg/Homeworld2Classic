@@ -153,36 +153,28 @@
 
 /* ---------- public code */
 
-_extern _sub_59F88A(UI::PlaybackMenu *const, char const *);
 UI::PlaybackMenu::PlaybackMenu(char const *) // 0x59F88A
 {
     mangled_assert("??0PlaybackMenu@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_59F88A(this, arg);
 }
 
-_extern void _sub_59F8A2(UI::PlaybackMenu *const);
 UI::PlaybackMenu::~PlaybackMenu() // 0x59F8A2
 {
     mangled_assert("??1PlaybackMenu@UI@@UAE@XZ");
     todo("implement");
-    _sub_59F8A2(this);
 }
 
-_extern void _sub_59F8D0(UI::PlaybackMenu *const, unsigned __int32);
 void UI::PlaybackMenu::Update(unsigned __int32) // 0x59F8D0
 {
     mangled_assert("?Update@PlaybackMenu@UI@@UAEXI@Z");
     todo("implement");
-    _sub_59F8D0(this, arg);
 }
 
-_extern void _sub_59F8CF(UI::PlaybackMenu *const);
 void UI::PlaybackMenu::OnPostLoad() // 0x59F8CF
 {
     mangled_assert("?OnPostLoad@PlaybackMenu@UI@@MAEXXZ");
     todo("implement");
-    _sub_59F8CF(this);
 }
 
 /* ---------- private code */

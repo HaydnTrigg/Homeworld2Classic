@@ -36,30 +36,23 @@
 
 /* ---------- public code */
 
-_extern SobStatic *_sub_4C6F36(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, SobStatic *);
 SobStatic *DustCloudStatic::Create(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &name, SobStatic *found) // 0x4C6F36
 {
     mangled_assert("?Create@DustCloudStatic@@SGPAVSobStatic@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAV2@@Z");
     todo("implement");
-    SobStatic * __result = _sub_4C6F36(name, found);
-    return __result;
 }
 
-_extern _sub_4C6E73(DustCloudStatic *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, SobType);
 DustCloudStatic::DustCloudStatic(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, SobType) // 0x4C6E73
 {
     mangled_assert("??0DustCloudStatic@@IAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4SobType@@@Z");
     todo("implement");
-    _sub_4C6E73(this, arg, arg);
 }
 
-_extern void _sub_4C6EF9(DustCloudStatic *const);
 _inline DustCloudStatic::~DustCloudStatic() // 0x4C6EF9
 {
     mangled_assert("??1DustCloudStatic@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4C6EF9(this);
 }
 
 /* ---------- private code */

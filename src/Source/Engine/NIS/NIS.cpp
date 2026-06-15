@@ -230,825 +230,607 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_547C81(NISEvent *const, float, __int32, char const *);
 NISEvent::NISEvent(float, __int32, char const *) // 0x547C81
 {
     mangled_assert("??0NISEvent@@QAE@MHPBD@Z");
     todo("implement");
-    _sub_547C81(this, arg, arg, arg);
 }
 
-_extern void _sub_547D60(std::_List_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Curve3D *>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Curve3D *> > > *const);
 _inline std::_List_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Curve3D *>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Curve3D *> > >::~_List_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Curve3D *>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Curve3D *> > >() // 0x547D60
 {
     mangled_assert("??1?$_List_buy@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVCurve3D@@@std@@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVCurve3D@@@std@@@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_547D60(this);
 }
 
-_extern void _sub_547D69(std::_List_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionCamera *>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionCamera *> > > *const);
 _inline std::_List_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionCamera *>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionCamera *> > >::~_List_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionCamera *>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionCamera *> > >() // 0x547D69
 {
     mangled_assert("??1?$_List_buy@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVMotionCamera@@@std@@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVMotionCamera@@@std@@@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_547D69(this);
 }
 
-_extern void _sub_547D72(std::_List_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionFollower *>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionFollower *> > > *const);
 _inline std::_List_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionFollower *>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionFollower *> > >::~_List_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionFollower *>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionFollower *> > >() // 0x547D72
 {
     mangled_assert("??1?$_List_buy@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVMotionFollower@@@std@@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVMotionFollower@@@std@@@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_547D72(this);
 }
 
-_extern void _sub_547D7B(std::_List_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionLeader *>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionLeader *> > > *const);
 _inline std::_List_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionLeader *>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionLeader *> > >::~_List_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionLeader *>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionLeader *> > >() // 0x547D7B
 {
     mangled_assert("??1?$_List_buy@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVMotionLeader@@@std@@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVMotionLeader@@@std@@@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_547D7B(this);
 }
 
-_extern void _sub_547D84(std::_List_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionPath *>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionPath *> > > *const);
 _inline std::_List_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionPath *>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionPath *> > >::~_List_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionPath *>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionPath *> > >() // 0x547D84
 {
     mangled_assert("??1?$_List_buy@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVMotionPath@@@std@@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVMotionPath@@@std@@@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_547D84(this);
 }
 
-_extern void _sub_547D8D(stdext::hash_map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,Curve3D *,stdext::hash_compare<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Curve3D *> > > *const);
 _inline stdext::hash_map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,Curve3D *,stdext::hash_compare<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Curve3D *> > >::~hash_map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,Curve3D *,stdext::hash_compare<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Curve3D *> > >() // 0x547D8D
 {
     mangled_assert("??1?$hash_map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVCurve3D@@V?$hash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@stdext@@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVCurve3D@@@std@@@2@@stdext@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_547D8D(this);
 }
 
-_extern void _sub_547D92(stdext::hash_map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,MotionCamera *,stdext::hash_compare<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionCamera *> > > *const);
 _inline stdext::hash_map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,MotionCamera *,stdext::hash_compare<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionCamera *> > >::~hash_map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,MotionCamera *,stdext::hash_compare<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionCamera *> > >() // 0x547D92
 {
     mangled_assert("??1?$hash_map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVMotionCamera@@V?$hash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@stdext@@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVMotionCamera@@@std@@@2@@stdext@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_547D92(this);
 }
 
-_extern void _sub_547D97(stdext::hash_map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,MotionFollower *,stdext::hash_compare<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionFollower *> > > *const);
 _inline stdext::hash_map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,MotionFollower *,stdext::hash_compare<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionFollower *> > >::~hash_map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,MotionFollower *,stdext::hash_compare<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionFollower *> > >() // 0x547D97
 {
     mangled_assert("??1?$hash_map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVMotionFollower@@V?$hash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@stdext@@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVMotionFollower@@@std@@@2@@stdext@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_547D97(this);
 }
 
-_extern void _sub_547F3C(NISEvent *const);
 NISEvent::~NISEvent() // 0x547F3C
 {
     mangled_assert("??1NISEvent@@QAE@XZ");
     todo("implement");
-    _sub_547F3C(this);
 }
 
-_extern void _sub_547D9C(stdext::hash_map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,MotionLeader *,stdext::hash_compare<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionLeader *> > > *const);
 _inline stdext::hash_map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,MotionLeader *,stdext::hash_compare<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionLeader *> > >::~hash_map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,MotionLeader *,stdext::hash_compare<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionLeader *> > >() // 0x547D9C
 {
     mangled_assert("??1?$hash_map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVMotionLeader@@V?$hash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@stdext@@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVMotionLeader@@@std@@@2@@stdext@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_547D9C(this);
 }
 
-_extern void _sub_547DA1(stdext::hash_map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,MotionPath *,stdext::hash_compare<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionPath *> > > *const);
 _inline stdext::hash_map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,MotionPath *,stdext::hash_compare<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionPath *> > >::~hash_map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,MotionPath *,stdext::hash_compare<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionPath *> > >() // 0x547DA1
 {
     mangled_assert("??1?$hash_map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVMotionPath@@V?$hash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@stdext@@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVMotionPath@@@std@@@2@@stdext@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_547DA1(this);
 }
 
-_extern void _sub_547E00(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Curve3D *> *const);
 _inline std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Curve3D *>::~pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Curve3D *>() // 0x547E00
 {
     mangled_assert("??1?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVCurve3D@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_547E00(this);
 }
 
-_extern void _sub_547E05(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionCamera *> *const);
 _inline std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionCamera *>::~pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionCamera *>() // 0x547E05
 {
     mangled_assert("??1?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVMotionCamera@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_547E05(this);
 }
 
-_extern void _sub_547E0A(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionFollower *> *const);
 _inline std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionFollower *>::~pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionFollower *>() // 0x547E0A
 {
     mangled_assert("??1?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVMotionFollower@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_547E0A(this);
 }
 
-_extern void _sub_547E0F(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionLeader *> *const);
 _inline std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionLeader *>::~pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionLeader *>() // 0x547E0F
 {
     mangled_assert("??1?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVMotionLeader@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_547E0F(this);
 }
 
-_extern void _sub_547E14(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionPath *> *const);
 _inline std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionPath *>::~pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,MotionPath *>() // 0x547E14
 {
     mangled_assert("??1?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVMotionPath@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_547E14(this);
 }
 
-_extern void _sub_547E19(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,Curve3D *> *const);
 _inline std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,Curve3D *>::~pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,Curve3D *>() // 0x547E19
 {
     mangled_assert("??1?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVCurve3D@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_547E19(this);
 }
 
-_extern void _sub_547E1E(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,MotionCamera *> *const);
 _inline std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,MotionCamera *>::~pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,MotionCamera *>() // 0x547E1E
 {
     mangled_assert("??1?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVMotionCamera@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_547E1E(this);
 }
 
-_extern bool _sub_54B0D8(NISEvent const *const, NISScript *);
 bool NISEvent::dispatch(NISScript *) const // 0x54B0D8
 {
     mangled_assert("?dispatch@NISEvent@@QBE_NPAVNISScript@@@Z");
     todo("implement");
-    bool __result = _sub_54B0D8(this, arg);
-    return __result;
 }
 
-_extern void _sub_547E23(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,MotionFollower *> *const);
 _inline std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,MotionFollower *>::~pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,MotionFollower *>() // 0x547E23
 {
     mangled_assert("??1?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVMotionFollower@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_547E23(this);
 }
 
-_extern void _sub_547E28(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,MotionLeader *> *const);
 _inline std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,MotionLeader *>::~pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,MotionLeader *>() // 0x547E28
 {
     mangled_assert("??1?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVMotionLeader@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_547E28(this);
 }
 
-_extern void _sub_547E2D(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,MotionPath *> *const);
 _inline std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,MotionPath *>::~pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,MotionPath *>() // 0x547E2D
 {
     mangled_assert("??1?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVMotionPath@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_547E2D(this);
 }
 
-_extern _sub_547B2B(NIS *const);
 NIS::NIS() // 0x547B2B
 {
     mangled_assert("??0NIS@@QAE@XZ");
     todo("implement");
-    _sub_547B2B(this);
 }
 
-_extern void _sub_547E50(NIS *const);
 NIS::~NIS() // 0x547E50
 {
     mangled_assert("??1NIS@@QAE@XZ");
     todo("implement");
-    _sub_547E50(this);
 }
 
-_extern void _sub_54AFF4(NIS *const);
 void NIS::deleteEvents() // 0x54AFF4
 {
     mangled_assert("?deleteEvents@NIS@@AAEXXZ");
     todo("implement");
-    _sub_54AFF4(this);
 }
 
-_extern void _sub_54B018(NIS *const);
 void NIS::deleteMotion() // 0x54B018
 {
     mangled_assert("?deleteMotion@NIS@@AAEXXZ");
     todo("implement");
-    _sub_54B018(this);
 }
 
-_extern bool _sub_54BE28(NIS *const, char const *);
 bool NIS::load(char const *) // 0x54BE28
 {
     mangled_assert("?load@NIS@@QAE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_54BE28(this, arg);
-    return __result;
 }
 
-_extern bool _sub_54B4E1(NIS *const, char const *, unsigned __int32, __int32 &);
 bool NIS::findSobId(char const *, unsigned __int32, __int32 &) // 0x54B4E1
 {
     mangled_assert("?findSobId@NIS@@AAE_NPBDIAAH@Z");
     todo("implement");
-    bool __result = _sub_54B4E1(this, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_54BEAF(NIS *const, char const *);
 bool NIS::loadScript(char const *) // 0x54BEAF
 {
     mangled_assert("?loadScript@NIS@@AAE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_54BEAF(this, arg);
-    return __result;
 }
 
-_extern void _sub_54B119(NIS *const);
 void NIS::doPreLoad() // 0x54B119
 {
     mangled_assert("?doPreLoad@NIS@@AAEXXZ");
     todo("implement");
-    _sub_54B119(this);
 }
 
-_extern void _sub_54B118(NIS *const);
 void NIS::doPostLoad() // 0x54B118
 {
     mangled_assert("?doPostLoad@NIS@@AAEXXZ");
     todo("implement");
-    _sub_54B118(this);
 }
 
-_extern bool _sub_54BEA2(NIS *const, char const *);
 bool NIS::loadMotion(char const *) // 0x54BEA2
 {
     mangled_assert("?loadMotion@NIS@@AAE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_54BEA2(this, arg);
-    return __result;
 }
 
-_extern bool _sub_54CB1E(NIS *const, vector3 const &, matrix3 const &, float);
 bool NIS::start(vector3 const &, matrix3 const &, float) // 0x54CB1E
 {
     mangled_assert("?start@NIS@@QAE_NABVvector3@@ABVmatrix3@@M@Z");
     todo("implement");
-    bool __result = _sub_54CB1E(this, arg, arg, arg);
-    return __result;
 }
 
-_extern void _sub_54BACD(NIS *const, MotionFollower *);
 void NIS::handleRemainAtEnd(MotionFollower *) // 0x54BACD
 {
     mangled_assert("?handleRemainAtEnd@NIS@@AAEXPAVMotionFollower@@@Z");
     todo("implement");
-    _sub_54BACD(this, arg);
 }
 
-_extern bool _sub_54CC0A(NIS *const);
 bool NIS::stop() // 0x54CC0A
 {
     mangled_assert("?stop@NIS@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_54CC0A(this);
-    return __result;
 }
 
-_extern void _sub_54CAA8(NIS *const);
 void NIS::skipInProgress() // 0x54CAA8
 {
     mangled_assert("?skipInProgress@NIS@@AAEXXZ");
     todo("implement");
-    _sub_54CAA8(this);
 }
 
-_extern bool _sub_54C9A9(NIS *const);
 bool NIS::skip() // 0x54C9A9
 {
     mangled_assert("?skip@NIS@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_54C9A9(this);
-    return __result;
 }
 
-_extern bool _sub_54C3EA(NIS *const, bool);
 bool NIS::pause(bool) // 0x54C3EA
 {
     mangled_assert("?pause@NIS@@QAE_N_N@Z");
     todo("implement");
-    bool __result = _sub_54C3EA(this, arg);
-    return __result;
 }
 
-_extern void _sub_54C706(NIS *const, float);
 void NIS::seek(float) // 0x54C706
 {
     mangled_assert("?seek@NIS@@QAEXM@Z");
     todo("implement");
-    _sub_54C706(this, arg);
 }
 
-_extern void _sub_54C780(NIS *const, float);
 void NIS::seekForward(float) // 0x54C780
 {
     mangled_assert("?seekForward@NIS@@QAEXM@Z");
     todo("implement");
-    _sub_54C780(this, arg);
 }
 
-_extern MotionCamera *_sub_54B875(NIS *const);
 MotionCamera *NIS::getCurrentMotionCamera() // 0x54B875
 {
     mangled_assert("?getCurrentMotionCamera@NIS@@QAEPAVMotionCamera@@XZ");
     todo("implement");
-    MotionCamera * __result = _sub_54B875(this);
-    return __result;
 }
 
-_extern bool _sub_54B657(NIS *const, float &, matrix4 &);
 bool NIS::getCurrentCameraParameters(float &, matrix4 &) // 0x54B657
 {
     mangled_assert("?getCurrentCameraParameters@NIS@@QAE_NAAMAAVmatrix4@@@Z");
     todo("implement");
-    bool __result = _sub_54B657(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_54B98C(NIS *const);
 bool NIS::getWidescreenAtEnd() // 0x54B98C
 {
     mangled_assert("?getWidescreenAtEnd@NIS@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_54B98C(this);
-    return __result;
 }
 
-_extern bool _sub_54B982(NIS *const);
 bool NIS::getStayFadedAtEnd() // 0x54B982
 {
     mangled_assert("?getStayFadedAtEnd@NIS@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_54B982(this);
-    return __result;
 }
 
-_extern MotionLeader *_sub_54B905(NIS *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &);
 MotionLeader *NIS::getMotionLeader(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &) // 0x54B905
 {
     mangled_assert("?getMotionLeader@NIS@@QAEPAVMotionLeader@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    MotionLeader * __result = _sub_54B905(this, arg);
-    return __result;
 }
 
-_extern MotionFollower *_sub_54B8DA(NIS *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &);
 MotionFollower *NIS::getMotionFollower(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &) // 0x54B8DA
 {
     mangled_assert("?getMotionFollower@NIS@@QAEPAVMotionFollower@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    MotionFollower * __result = _sub_54B8DA(this, arg);
-    return __result;
 }
 
-_extern MotionCamera *_sub_54B8AF(NIS *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &);
 MotionCamera *NIS::getMotionCamera(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &) // 0x54B8AF
 {
     mangled_assert("?getMotionCamera@NIS@@QAEPAVMotionCamera@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    MotionCamera * __result = _sub_54B8AF(this, arg);
-    return __result;
 }
 
-_extern MotionPath *_sub_54B930(NIS *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &);
 MotionPath *NIS::getMotionPath(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &) // 0x54B930
 {
     mangled_assert("?getMotionPath@NIS@@QAEPAVMotionPath@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    MotionPath * __result = _sub_54B930(this, arg);
-    return __result;
 }
 
-_extern void _sub_54B993(NIS *const);
 void NIS::goToEnd() // 0x54B993
 {
     mangled_assert("?goToEnd@NIS@@QAEXXZ");
     todo("implement");
-    _sub_54B993(this);
 }
 
-_extern void _sub_54CE02(NIS *const, float);
 void NIS::update(float) // 0x54CE02
 {
     mangled_assert("?update@NIS@@QAEXM@Z");
     todo("implement");
-    _sub_54CE02(this, arg);
 }
 
-_extern void _sub_54C799(NIS *const);
 void NIS::setAtEnd() // 0x54C799
 {
     mangled_assert("?setAtEnd@NIS@@QAEXXZ");
     todo("implement");
-    _sub_54C799(this);
 }
 
-_extern bool _sub_54C4DF(NIS *const, float);
 bool NIS::renderTimeUpdate(float) // 0x54C4DF
 {
     mangled_assert("?renderTimeUpdate@NIS@@QAE_NM@Z");
     todo("implement");
-    bool __result = _sub_54C4DF(this, arg);
-    return __result;
 }
 
-_extern void _sub_54A6E7(NIS *const, float, __int32, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &);
 void NIS::addEvent(float, __int32, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &) // 0x54A6E7
 {
     mangled_assert("?addEvent@NIS@@QAEXMHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    _sub_54A6E7(this, arg, arg, arg);
 }
 
-_extern void _sub_54A7D6(NIS *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, MotionPath *);
 void NIS::addMotionPath(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, MotionPath *) // 0x54A7D6
 {
     mangled_assert("?addMotionPath@NIS@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVMotionPath@@@Z");
     todo("implement");
-    _sub_54A7D6(this, arg, arg);
 }
 
-_extern void _sub_54A7BE(NIS *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, MotionLeader *);
 void NIS::addMotionLeader(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, MotionLeader *) // 0x54A7BE
 {
     mangled_assert("?addMotionLeader@NIS@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVMotionLeader@@@Z");
     todo("implement");
-    _sub_54A7BE(this, arg, arg);
 }
 
-_extern void _sub_54A7A6(NIS *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, MotionFollower *);
 void NIS::addMotionFollower(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, MotionFollower *) // 0x54A7A6
 {
     mangled_assert("?addMotionFollower@NIS@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVMotionFollower@@@Z");
     todo("implement");
-    _sub_54A7A6(this, arg, arg);
 }
 
-_extern void _sub_54A78E(NIS *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, MotionCamera *);
 void NIS::addMotionCamera(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, MotionCamera *) // 0x54A78E
 {
     mangled_assert("?addMotionCamera@NIS@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVMotionCamera@@@Z");
     todo("implement");
-    _sub_54A78E(this, arg, arg);
 }
 
-_extern void _sub_54A6AC(NIS *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, Curve3D *);
 void NIS::addCurve3D(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, Curve3D *) // 0x54A6AC
 {
     mangled_assert("?addCurve3D@NIS@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVCurve3D@@@Z");
     todo("implement");
-    _sub_54A6AC(this, arg, arg);
 }
 
-_extern Curve3D *_sub_54B879(NIS *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &);
 Curve3D *NIS::getCurve3D(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &) // 0x54B879
 {
     mangled_assert("?getCurve3D@NIS@@QAEPAVCurve3D@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    Curve3D * __result = _sub_54B879(this, arg);
-    return __result;
 }
 
-_extern void _sub_54C65C(NIS *const, float);
 void NIS::runEvents(float) // 0x54C65C
 {
     mangled_assert("?runEvents@NIS@@AAEXM@Z");
     todo("implement");
-    _sub_54C65C(this, arg);
 }
 
-_extern void _sub_54C69B(NIS *const, float);
 void NIS::runMotion(float) // 0x54C69B
 {
     mangled_assert("?runMotion@NIS@@AAEXM@Z");
     todo("implement");
-    _sub_54C69B(this, arg);
 }
 
-_extern void _sub_54C4C5(NIS *const);
 void NIS::render2D() // 0x54C4C5
 {
     mangled_assert("?render2D@NIS@@QAEXXZ");
     todo("implement");
-    _sub_54C4C5(this);
 }
 
-_extern void _sub_54C5AC(NIS *const, float, float);
 void NIS::renderTimeUpdateCameras(float, float) // 0x54C5AC
 {
     mangled_assert("?renderTimeUpdateCameras@NIS@@AAEXMM@Z");
     todo("implement");
-    _sub_54C5AC(this, arg, arg);
 }
 
-_extern void _sub_54C896(NIS *const, float);
 void NIS::setFramesPerSecond(float) // 0x54C896
 {
     mangled_assert("?setFramesPerSecond@NIS@@QAEXM@Z");
     todo("implement");
-    _sub_54C896(this, arg);
 }
 
-_extern void _sub_54C91A(NIS *const, __int32, __int32);
 void NIS::setStartEnd(__int32, __int32) // 0x54C91A
 {
     mangled_assert("?setStartEnd@NIS@@QAEXHH@Z");
     todo("implement");
-    _sub_54C91A(this, arg, arg);
 }
 
-_extern float _sub_54B8A4(NIS *const);
 float NIS::getFramesPerSecond() // 0x54B8A4
 {
     mangled_assert("?getFramesPerSecond@NIS@@QAEMXZ");
     todo("implement");
-    float __result = _sub_54B8A4(this);
-    return __result;
 }
 
-_extern MotionCamera *_sub_54C869(NIS *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &);
 MotionCamera *NIS::setCurrentCamera(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &) // 0x54C869
 {
     mangled_assert("?setCurrentCamera@NIS@@QAEPAVMotionCamera@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    MotionCamera * __result = _sub_54C869(this, arg);
-    return __result;
 }
 
-_extern void _sub_54C7AA(NIS *const, char const *, float);
 void NIS::setCameraBlendIn(char const *, float) // 0x54C7AA
 {
     mangled_assert("?setCameraBlendIn@NIS@@QAEXPBDM@Z");
     todo("implement");
-    _sub_54C7AA(this, arg, arg);
 }
 
-_extern void _sub_54C7F8(NIS *const, char const *, float, float, float);
 void NIS::setCameraFadeIn(char const *, float, float, float) // 0x54C7F8
 {
     mangled_assert("?setCameraFadeIn@NIS@@QAEXPBDMMM@Z");
     todo("implement");
-    _sub_54C7F8(this, arg, arg, arg, arg);
 }
 
-_extern void _sub_54C8F5(NIS *const, SMPTE *);
 void NIS::setSMPTE(SMPTE *) // 0x54C8F5
 {
     mangled_assert("?setSMPTE@NIS@@QAEXPAVSMPTE@@@Z");
     todo("implement");
-    _sub_54C8F5(this, arg);
 }
 
-_extern void _sub_54C4A5(NIS *const);
 void NIS::removeSMPTE() // 0x54C4A5
 {
     mangled_assert("?removeSMPTE@NIS@@QAEXXZ");
     todo("implement");
-    _sub_54C4A5(this);
 }
 
-_extern void _sub_54CE59(NIS *const, float);
 void NIS::wideScreenOut(float) // 0x54CE59
 {
     mangled_assert("?wideScreenOut@NIS@@QAEXM@Z");
     todo("implement");
-    _sub_54CE59(this, arg);
 }
 
-_extern void _sub_54C3B3(NIS *const, float);
 void NIS::nisOut(float) // 0x54C3B3
 {
     mangled_assert("?nisOut@NIS@@QAEXM@Z");
     todo("implement");
-    _sub_54C3B3(this, arg);
 }
 
-_extern void _sub_54A981(NIS *const, Sob *, char const *);
 void NIS::attack(Sob *, char const *) // 0x54A981
 {
     mangled_assert("?attack@NIS@@QAEXPAVSob@@PBD@Z");
     todo("implement");
-    _sub_54A981(this, arg, arg);
 }
 
-_extern void _sub_54B9AC(NIS *const, Sob *);
 void NIS::haltAttack(Sob *) // 0x54B9AC
 {
     mangled_assert("?haltAttack@NIS@@QAEXPAVSob@@@Z");
     todo("implement");
-    _sub_54B9AC(this, arg);
 }
 
-_extern void _sub_54BC8A(NIS *const, Sob *);
 void NIS::hyperspaceIn(Sob *) // 0x54BC8A
 {
     mangled_assert("?hyperspaceIn@NIS@@QAEXPAVSob@@@Z");
     todo("implement");
-    _sub_54BC8A(this, arg);
 }
 
-_extern void _sub_54BD3B(NIS *const, Sob *);
 void NIS::hyperspaceOut(Sob *) // 0x54BD3B
 {
     mangled_assert("?hyperspaceOut@NIS@@QAEXPAVSob@@@Z");
     todo("implement");
-    _sub_54BD3B(this, arg);
 }
 
-_extern void _sub_54C8A4(NIS *const, Sob *);
 void NIS::setInHyperspace(Sob *) // 0x54C8A4
 {
     mangled_assert("?setInHyperspace@NIS@@QAEXPAVSob@@@Z");
     todo("implement");
-    _sub_54C8A4(this, arg);
 }
 
-_extern void _sub_54CC73(NIS *const, MotionFollower *);
 void NIS::trailMove(MotionFollower *) // 0x54CC73
 {
     mangled_assert("?trailMove@NIS@@QAEXPAVMotionFollower@@@Z");
     todo("implement");
-    _sub_54CC73(this, arg);
 }
 
-_extern void _sub_54B521(NIS *const);
 void NIS::focus() // 0x54B521
 {
     mangled_assert("?focus@NIS@@QAEXXZ");
     todo("implement");
-    _sub_54B521(this);
 }
 
-_extern void _sub_54BC38(NIS *const, bool);
 void NIS::hideUniverse(bool) // 0x54BC38
 {
     mangled_assert("?hideUniverse@NIS@@QAEX_N@Z");
     todo("implement");
-    _sub_54BC38(this, arg);
 }
 
-_extern void _sub_54C3F6(NIS *const, bool);
 void NIS::pauseUniverse(bool) // 0x54C3F6
 {
     mangled_assert("?pauseUniverse@NIS@@QAEX_N@Z");
     todo("implement");
-    _sub_54C3F6(this, arg);
 }
 
-_extern void _sub_54C401(NIS *const, char const *, float);
 void NIS::playSpeech(char const *, float) // 0x54C401
 {
     mangled_assert("?playSpeech@NIS@@QAEXPBDM@Z");
     todo("implement");
-    _sub_54C401(this, arg, arg);
 }
 
-_extern void _sub_54CB13(NIS *const, char const *);
 void NIS::speechSetDirectory(char const *) // 0x54CB13
 {
     mangled_assert("?speechSetDirectory@NIS@@QAEXPBD@Z");
     todo("implement");
-    _sub_54CB13(this, arg);
 }
 
-_extern void _sub_54CD2E(NIS *const, MotionFollower *, float);
 void NIS::triggerEffect(MotionFollower *, float) // 0x54CD2E
 {
     mangled_assert("?triggerEffect@NIS@@QAEXPAVMotionFollower@@M@Z");
     todo("implement");
-    _sub_54CD2E(this, arg, arg);
 }
 
-_extern void _sub_54CC02(NIS *const);
 void NIS::stayFadedAtEnd() // 0x54CC02
 {
     mangled_assert("?stayFadedAtEnd@NIS@@QAEXXZ");
     todo("implement");
-    _sub_54CC02(this);
 }
 
-_extern void _sub_54C880(NIS *const, Selection const &);
 void NIS::setEndFocus(Selection const &) // 0x54C880
 {
     mangled_assert("?setEndFocus@NIS@@QAEXABVSelection@@@Z");
     todo("implement");
-    _sub_54C880(this, arg);
 }
 
-_extern void _sub_54C88B(NIS *const, vector3 const &);
 void NIS::setEndFocus(vector3 const &) // 0x54C88B
 {
     mangled_assert("?setEndFocus@NIS@@QAEXABVvector3@@@Z");
     todo("implement");
-    _sub_54C88B(this, arg);
 }
 
-_extern void _sub_54C85E(NIS *const);
 void NIS::setCameraLeave() // 0x54C85E
 {
     mangled_assert("?setCameraLeave@NIS@@QAEXXZ");
     todo("implement");
-    _sub_54C85E(this);
 }
 
-_extern void _sub_54B46E(NIS *const);
 void NIS::executeOutTransition() // 0x54B46E
 {
     mangled_assert("?executeOutTransition@NIS@@QAEXXZ");
     todo("implement");
-    _sub_54B46E(this);
 }
 
 /* ---------- private code */
 
-_extern bool _sub_54BA2B(MotionFollower *);
 _static bool handleKeepMovingAtEnd(MotionFollower *pFollower) // 0x54BA2B
 {
     mangled_assert("handleKeepMovingAtEnd");
     todo("implement");
-    bool __result = _sub_54BA2B(pFollower);
-    return __result;
 }
 
-_extern void _sub_54BB0D(MotionFollower *);
 _static void handleRemainAtEnd_Ship(MotionFollower *pFollower) // 0x54BB0D
 {
     mangled_assert("handleRemainAtEnd_Ship");
     todo("implement");
-    _sub_54BB0D(pFollower);
 }
 
-_extern void _sub_54CA53(MotionFollower &);
 _static void skipEffect(MotionFollower &mf) // 0x54CA53
 {
     mangled_assert("skipEffect");
     todo("implement");
-    _sub_54CA53(mf);
 }
 
-_extern void _sub_54CA5F(MotionFollower &);
 _static void skipHyperspace(MotionFollower &mf) // 0x54CA5F
 {
     mangled_assert("skipHyperspace");
     todo("implement");
-    _sub_54CA5F(mf);
 }
 
-_extern bool _sub_54ABB5(AnimCurve *, float, float &);
 _static bool checkCurveForCheat(AnimCurve *pCurve, float currentTime, float &offset) // 0x54ABB5
 {
     mangled_assert("checkCurveForCheat");
     todo("implement");
-    bool __result = _sub_54ABB5(pCurve, currentTime, offset);
-    return __result;
 }
 
-_extern bool _sub_54BC53(Sob *);
 _static bool hideUniverseFilter(Sob *pSob) // 0x54BC53
 {
     mangled_assert("hideUniverseFilter");
     todo("implement");
-    bool __result = _sub_54BC53(pSob);
-    return __result;
 }
 #endif

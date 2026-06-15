@@ -35,20 +35,16 @@ extern void tolua_error(lua_State *L, char *msg);
 
 /* ---------- public code */
 
-_extern void _sub_6FAFEF(lua_State *, __int32, char const *, char const *);
 void toluaI_eh_set(lua_State *L, __int32 narg, char const *provided, char const *expected) // 0x6FAFEF
 {
     mangled_assert("_toluaI_eh_set@16");
     todo("implement");
-    _sub_6FAFEF(L, narg, provided, expected);
 }
 
-_extern void _sub_6FB047(lua_State *, char *);
 void tolua_error(lua_State *L, char *msg) // 0x6FB047
 {
     mangled_assert("_tolua_error@8");
     todo("implement");
-    _sub_6FB047(L, msg);
 }
 
 /* ---------- private code */

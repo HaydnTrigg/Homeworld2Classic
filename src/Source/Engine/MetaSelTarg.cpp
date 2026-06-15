@@ -81,20 +81,16 @@
 
 /* ---------- public code */
 
-_extern void _sub_608BC0(MetaSelTarg *const);
 MetaSelTarg::~MetaSelTarg() // 0x608BC0
 {
     mangled_assert("??1MetaSelTarg@@QAE@XZ");
     todo("implement");
-    _sub_608BC0(this);
 }
 
-_extern void _sub_608C26(MetaSelTarg *const, Selection const *);
 void MetaSelTarg::setSelection(Selection const *) // 0x608C26
 {
     mangled_assert("?setSelection@MetaSelTarg@@QAEXPBVSelection@@@Z");
     todo("implement");
-    _sub_608C26(this, arg);
 }
 
 /* ---------- private code */

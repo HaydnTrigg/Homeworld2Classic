@@ -115,264 +115,193 @@ _static void UI::SafeDeleteRegion(region *&region);
 
 /* ---------- public code */
 
-_extern _sub_66DCFE(UI::NewUIScreen *const, char const *);
 UI::NewUIScreen::NewUIScreen(char const *) // 0x66DCFE
 {
     mangled_assert("??0NewUIScreen@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_66DCFE(this, arg);
 }
 
-_extern _sub_66DEA2(UI::UIScreenInfo *const, UI::UIScreenInfo const &);
 _inline UI::UIScreenInfo::UIScreenInfo(UI::UIScreenInfo const &) // 0x66DEA2
 {
     mangled_assert("??0UIScreenInfo@UI@@QAE@ABU01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_66DEA2(this, arg);
 }
 
-_extern _sub_66DEF5(UI::UIScreenInfo *const);
 _inline UI::UIScreenInfo::UIScreenInfo() // 0x66DEF5
 {
     mangled_assert("??0UIScreenInfo@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_66DEF5(this);
 }
 
-_extern void _sub_66E324(UI::NewUIScreen *const);
 void UI::NewUIScreen::Init() // 0x66E324
 {
     mangled_assert("?Init@NewUIScreen@UI@@IAEXXZ");
     todo("implement");
-    _sub_66E324(this);
 }
 
-_extern void _sub_66DF1C(UI::NewUIScreen *const);
 UI::NewUIScreen::~NewUIScreen() // 0x66DF1C
 {
     mangled_assert("??1NewUIScreen@UI@@UAE@XZ");
     todo("implement");
-    _sub_66DF1C(this);
 }
 
-_extern void _sub_66E0DB(UI::NewUIScreen *const);
 void UI::NewUIScreen::Draw() // 0x66E0DB
 {
     mangled_assert("?Draw@NewUIScreen@UI@@UAEXXZ");
     todo("implement");
-    _sub_66E0DB(this);
 }
 
-_extern void _sub_66E119(UI::InterfaceElement *);
 void UI::NewUIScreen::DrawChildren(UI::InterfaceElement *element) // 0x66E119
 {
     mangled_assert("?DrawChildren@NewUIScreen@UI@@SGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_66E119(element);
 }
 
-_extern void _sub_66F0B8(UI::NewUIScreen *const, UI::Size const &);
 void UI::NewUIScreen::Resize(UI::Size const &) // 0x66F0B8
 {
     mangled_assert("?Resize@NewUIScreen@UI@@QAEXABVSize@2@@Z");
     todo("implement");
-    _sub_66F0B8(this, arg);
 }
 
-_extern void _sub_66EB86(UI::NewUIScreen *const, Vector_2i const &);
 void UI::NewUIScreen::Move(Vector_2i const &) // 0x66EB86
 {
     mangled_assert("?Move@NewUIScreen@UI@@QAEXABUVector_2i@@@Z");
     todo("implement");
-    _sub_66EB86(this, arg);
 }
 
-_extern void _sub_66E3C7(UI::NewUIScreen *const, char const *, char const *, bool);
 void UI::NewUIScreen::Load(char const *, char const *, bool) // 0x66E3C7
 {
     mangled_assert("?Load@NewUIScreen@UI@@QAEXPBD0_N@Z");
     todo("implement");
-    _sub_66E3C7(this, arg, arg, arg);
 }
 
-_extern void _sub_66F26C(UI::NewUIScreen *const, unsigned __int32);
 void UI::NewUIScreen::Update(unsigned __int32) // 0x66F26C
 {
     mangled_assert("?Update@NewUIScreen@UI@@UAEXI@Z");
     todo("implement");
-    _sub_66F26C(this, arg);
 }
 
-_extern void _sub_66F2AF(UI::NewUIScreen *const, UI::InterfaceElement *, unsigned __int32);
 void UI::NewUIScreen::UpdateChildren(UI::InterfaceElement *, unsigned __int32) // 0x66F2AF
 {
     mangled_assert("?UpdateChildren@NewUIScreen@UI@@AAEXPAVInterfaceElement@2@I@Z");
     todo("implement");
-    _sub_66F2AF(this, arg, arg);
 }
 
-_extern UI::InterfaceElement *_sub_66E238(UI::NewUIScreen *const, char const *);
 UI::InterfaceElement *UI::NewUIScreen::FindNamedElement(char const *) // 0x66E238
 {
     mangled_assert("?FindNamedElement@NewUIScreen@UI@@QAEPAVInterfaceElement@2@PBD@Z");
     todo("implement");
-    UI::InterfaceElement * __result = _sub_66E238(this, arg);
-    return __result;
 }
 
-_extern UI::InterfaceElement *_sub_66E230(UI::NewUIScreen *const, unsigned __int32);
 UI::InterfaceElement *UI::NewUIScreen::FindElement(unsigned __int32) // 0x66E230
 {
     mangled_assert("?FindElement@NewUIScreen@UI@@QAEPAVInterfaceElement@2@I@Z");
     todo("implement");
-    UI::InterfaceElement * __result = _sub_66E230(this, arg);
-    return __result;
 }
 
-_extern UI::InterfaceElement *_sub_66E0A6(UI::NewUIScreen *const, UI::InterfaceElement *);
 UI::InterfaceElement *UI::NewUIScreen::AddElement(UI::InterfaceElement *) // 0x66E0A6
 {
     mangled_assert("?AddElement@NewUIScreen@UI@@QAEPAVInterfaceElement@2@PAV32@@Z");
     todo("implement");
-    UI::InterfaceElement * __result = _sub_66E0A6(this, arg);
-    return __result;
 }
 
-_extern UI::InterfaceElement *_sub_66F0B0(UI::NewUIScreen *const, UI::InterfaceElement *);
 UI::InterfaceElement *UI::NewUIScreen::RemoveElement(UI::InterfaceElement *) // 0x66F0B0
 {
     mangled_assert("?RemoveElement@NewUIScreen@UI@@QAEPAVInterfaceElement@2@PAV32@@Z");
     todo("implement");
-    UI::InterfaceElement * __result = _sub_66F0B0(this, arg);
-    return __result;
 }
 
-_extern void _sub_66F165(UI::NewUIScreen *const, bool);
 void UI::NewUIScreen::SetActive(bool) // 0x66F165
 {
     mangled_assert("?SetActive@NewUIScreen@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_66F165(this, arg);
 }
 
-_extern void _sub_66E0B9(UI::NewUIScreen *const);
 void UI::NewUIScreen::DeleteRegions() // 0x66E0B9
 {
     mangled_assert("?DeleteRegions@NewUIScreen@UI@@AAEXXZ");
     todo("implement");
-    _sub_66E0B9(this);
 }
 
-_extern region *_sub_66E2A7(UI::NewUIScreen const *const, unsigned __int32);
 region *UI::NewUIScreen::GetRegion(unsigned __int32) const // 0x66E2A7
 {
     mangled_assert("?GetRegion@NewUIScreen@UI@@QBEPAVregion@@I@Z");
     todo("implement");
-    region * __result = _sub_66E2A7(this, arg);
-    return __result;
 }
 
-_extern void _sub_66EE66(UI::NewUIScreen *const);
 void UI::NewUIScreen::RebuildRegions() // 0x66EE66
 {
     mangled_assert("?RebuildRegions@NewUIScreen@UI@@AAEXXZ");
     todo("implement");
-    _sub_66EE66(this);
 }
 
-_extern void _sub_66F1FB(UI::NewUIScreen *const, bool);
 void UI::NewUIScreen::SetCaptureInput(bool) // 0x66F1FB
 {
     mangled_assert("?SetCaptureInput@NewUIScreen@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_66F1FB(this, arg);
 }
 
-_extern void _sub_66EDE8(UI::InterfaceElement *);
 void UI::NewUIScreen::OnElementDestruction(UI::InterfaceElement *e) // 0x66EDE8
 {
     mangled_assert("?OnElementDestruction@NewUIScreen@UI@@SGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_66EDE8(e);
 }
 
-_extern Vector_2i _sub_66E257();
 Vector_2i UI::NewUIScreen::GetCurrentMousePosition() // 0x66E257
 {
     mangled_assert("?GetCurrentMousePosition@NewUIScreen@UI@@SG?AUVector_2i@@XZ");
     todo("implement");
-    Vector_2i __result = _sub_66E257();
-    return __result;
 }
 
-_extern UI::UIScreenInfo _sub_66E2BB(UI::NewUIScreen const *const);
 UI::UIScreenInfo UI::NewUIScreen::GetUIScreenInfo() const // 0x66E2BB
 {
     mangled_assert("?GetUIScreenInfo@NewUIScreen@UI@@QBE?AUUIScreenInfo@2@XZ");
     todo("implement");
-    UI::UIScreenInfo __result = _sub_66E2BB(this);
-    return __result;
 }
 
-_extern void _sub_66EDA2(UI::NewUIScreen *const, UI::ScreenTransitionType);
 void UI::NewUIScreen::NextScreen(UI::ScreenTransitionType) // 0x66EDA2
 {
     mangled_assert("?NextScreen@NewUIScreen@UI@@QAEXW4ScreenTransitionType@2@@Z");
     todo("implement");
-    _sub_66EDA2(this, arg);
 }
 
-_extern void _sub_66EE1D(UI::NewUIScreen *const, UI::ScreenTransitionType);
 void UI::NewUIScreen::PreviousScreen(UI::ScreenTransitionType) // 0x66EE1D
 {
     mangled_assert("?PreviousScreen@NewUIScreen@UI@@QAEXW4ScreenTransitionType@2@@Z");
     todo("implement");
-    _sub_66EE1D(this, arg);
 }
 
-_extern bool _sub_66F017(UI::NewUIScreen *const, Vector_2i const &);
 bool UI::NewUIScreen::RegionsContainPoint(Vector_2i const &) // 0x66F017
 {
     mangled_assert("?RegionsContainPoint@NewUIScreen@UI@@QAE_NABUVector_2i@@@Z");
     todo("implement");
-    bool __result = _sub_66F017(this, arg);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern void _sub_66EAF9(LuaConfig &, std::vector<Rect_i,std::allocator<Rect_i> > &);
 _static void UI::LoadRegionList(LuaConfig &lc, std::vector<Rect_i,std::allocator<Rect_i> > &regionList) // 0x66EAF9
 {
     mangled_assert("UI::LoadRegionList");
     todo("implement");
-    _sub_66EAF9(lc, regionList);
 }
 
-_extern unsigned __int32 _sub_66EBB4(region *, __int32, __int32, __int32, __int32);
 _static unsigned __int32 UI::NewUIScreenRegionCB(region *reg, __int32 ID, __int32 regEvent, __int32 userEvent, __int32 data) // 0x66EBB4
 {
     mangled_assert("UI::NewUIScreenRegionCB");
     todo("implement");
-    unsigned __int32 __result = _sub_66EBB4(reg, ID, regEvent, userEvent, data);
-    return __result;
 }
 
-_extern void _sub_66ED76(region *, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &);
 _static void UI::NewUIScreenRegionLuaCB(region *region, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &luastring) // 0x66ED76
 {
     mangled_assert("UI::NewUIScreenRegionLuaCB");
     todo("implement");
-    _sub_66ED76(region, luastring);
 }
 
-_extern void _sub_66F14D(region *&);
 _static void UI::SafeDeleteRegion(region *&region) // 0x66F14D
 {
     mangled_assert("UI::SafeDeleteRegion");
     todo("implement");
-    _sub_66F14D(region);
 }
 #endif

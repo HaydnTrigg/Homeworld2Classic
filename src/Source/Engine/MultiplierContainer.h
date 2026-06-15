@@ -97,56 +97,40 @@ static_assert(sizeof(MultiplierContainer) == 240, "Invalid MultiplierContainer s
 
 /* ---------- public code */
 
-_extern float _sub_48466A(MultiplierContainer const *const, MultiplierType);
 _inline float MultiplierContainer::getMultiplier(MultiplierType) const // 0x48466A
 {
     mangled_assert("?getMultiplier@MultiplierContainer@@QBEMW4MultiplierType@@@Z");
     todo("implement");
-    float __result = _sub_48466A(this, arg);
-    return __result;
 }
 
-_extern float _sub_59C32E(MultiplierContainer const *const, MultiplierType);
 _inline float MultiplierContainer::getPermanentMultiplierOnly(MultiplierType) const // 0x59C32E
 {
     mangled_assert("?getPermanentMultiplierOnly@MultiplierContainer@@QBEMW4MultiplierType@@@Z");
     todo("implement");
-    float __result = _sub_59C32E(this, arg);
-    return __result;
 }
 
-_extern void _sub_4BB330(MultiplierContainer *const, MultiplierType, float);
 _inline void MultiplierContainer::setMultiplier(MultiplierType, float) // 0x4BB330
 {
     mangled_assert("?setMultiplier@MultiplierContainer@@QAEXW4MultiplierType@@M@Z");
     todo("implement");
-    _sub_4BB330(this, arg, arg);
 }
 
-_extern void _sub_4B9BA6(MultiplierContainer *const, MultiplierType, float);
 _inline void MultiplierContainer::modifyMultiplier(MultiplierType, float) // 0x4B9BA6
 {
     mangled_assert("?modifyMultiplier@MultiplierContainer@@QAEXW4MultiplierType@@M@Z");
     todo("implement");
-    _sub_4B9BA6(this, arg, arg);
 }
 
-_extern bool _sub_4F2096(MultiplierContainer *const);
 _inline bool MultiplierContainer::isDeterministic() // 0x4F2096
 {
     mangled_assert("?isDeterministic@MultiplierContainer@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4F2096(this);
-    return __result;
 }
 
-_extern char const *_sub_4F2135(MultiplierContainer *const);
 _inline char const *MultiplierContainer::saveToken() // 0x4F2135
 {
     mangled_assert("?saveToken@MultiplierContainer@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4F2135(this);
-    return __result;
 }
 
 /* ---------- private code */

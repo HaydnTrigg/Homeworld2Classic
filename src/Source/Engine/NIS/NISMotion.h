@@ -221,124 +221,88 @@ static_assert(sizeof(MotionCamera) == 48, "Invalid MotionCamera size");
 
 /* ---------- public code */
 
-_extern void _sub_550F22(MotionPath *const, unsigned __int32);
 _inline void MotionPath::setFrontAxis(unsigned __int32) // 0x550F22
 {
     mangled_assert("?setFrontAxis@MotionPath@@QAEXI@Z");
     todo("implement");
-    _sub_550F22(this, arg);
 }
 
-_extern void _sub_550F40(MotionPath *const, unsigned __int32);
 _inline void MotionPath::setUpAxis(unsigned __int32) // 0x550F40
 {
     mangled_assert("?setUpAxis@MotionPath@@QAEXI@Z");
     todo("implement");
-    _sub_550F40(this, arg);
 }
 
-_extern void _sub_550F2C(MotionPath *const, bool);
 _inline void MotionPath::setParametricLength(bool) // 0x550F2C
 {
     mangled_assert("?setParametricLength@MotionPath@@QAEX_N@Z");
     todo("implement");
-    _sub_550F2C(this, arg);
 }
 
-_extern void _sub_550F18(MotionPath *const, bool);
 _inline void MotionPath::setFollow(bool) // 0x550F18
 {
     mangled_assert("?setFollow@MotionPath@@QAEX_N@Z");
     todo("implement");
-    _sub_550F18(this, arg);
 }
 
-_extern bool _sub_55431F(MotionPath const *const);
 _inline bool MotionPath::getFollow() const // 0x55431F
 {
     mangled_assert("?getFollow@MotionPath@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_55431F(this);
-    return __result;
 }
 
-_extern Curve3D const *_sub_54D336(MotionPath const *const);
 _inline Curve3D const *MotionPath::getCurve() const // 0x54D336
 {
     mangled_assert("?getCurve@MotionPath@@QBEPBVCurve3D@@XZ");
     todo("implement");
-    Curve3D const * __result = _sub_54D336(this);
-    return __result;
 }
 
-_extern AnimCurve const *_sub_54D33D(MotionPath const *const);
 _inline AnimCurve const *MotionPath::getKeyUValue() const // 0x54D33D
 {
     mangled_assert("?getKeyUValue@MotionPath@@QBEPBVAnimCurve@@XZ");
     todo("implement");
-    AnimCurve const * __result = _sub_54D33D(this);
-    return __result;
 }
 
-_extern AnimCurve const *_sub_54D339(MotionPath const *const);
 _inline AnimCurve const *MotionPath::getKeyFrontTwist() const // 0x54D339
 {
     mangled_assert("?getKeyFrontTwist@MotionPath@@QBEPBVAnimCurve@@XZ");
     todo("implement");
-    AnimCurve const * __result = _sub_54D339(this);
-    return __result;
 }
 
-_extern void _sub_5551E8(MotionNode *const, float);
 _inline void MotionNode::update(float) // 0x5551E8
 {
     mangled_assert("?update@MotionNode@@UAEXM@Z");
     todo("implement");
-    _sub_5551E8(this, arg);
 }
 
-_extern void _sub_550F36(MotionNode *const, MotionNode::RotateOrder);
 _inline void MotionNode::setRotateOrder(MotionNode::RotateOrder) // 0x550F36
 {
     mangled_assert("?setRotateOrder@MotionNode@@QAEXW4RotateOrder@1@@Z");
     todo("implement");
-    _sub_550F36(this, arg);
 }
 
-_extern MotionPath const *_sub_54D358(MotionLeader const *const);
 _inline MotionPath const *MotionLeader::getMotionPath() const // 0x54D358
 {
     mangled_assert("?getMotionPath@MotionLeader@@QBEPBVMotionPath@@XZ");
     todo("implement");
-    MotionPath const * __result = _sub_54D358(this);
-    return __result;
 }
 
-_extern MotionLeader *_sub_54B8A8(MotionFollower *const);
 _inline MotionLeader *MotionFollower::getLeader() // 0x54B8A8
 {
     mangled_assert("?getLeader@MotionFollower@@QAEPAVMotionLeader@@XZ");
     todo("implement");
-    MotionLeader * __result = _sub_54B8A8(this);
-    return __result;
 }
 
-_extern MotionLeader const *_sub_54D341(MotionFollower const *const);
 _inline MotionLeader const *MotionFollower::getLeader() const // 0x54D341
 {
     mangled_assert("?getLeader@MotionFollower@@QBEPBVMotionLeader@@XZ");
     todo("implement");
-    MotionLeader const * __result = _sub_54D341(this);
-    return __result;
 }
 
-_extern char const *_sub_54B976(MotionFollower const *const);
 _inline char const *MotionFollower::getSobName() const // 0x54B976
 {
     mangled_assert("?getSobName@MotionFollower@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_54B976(this);
-    return __result;
 }
 
 /* ---------- private code */

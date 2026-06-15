@@ -57,22 +57,16 @@ static_assert(sizeof(ModifierTargetCache) == 16, "Invalid ModifierTargetCache si
 
 /* ---------- public code */
 
-_extern bool _sub_56EFD0(ModifierTargetCache *const);
 _inline bool ModifierTargetCache::isDeterministic() // 0x56EFD0
 {
     mangled_assert("?isDeterministic@ModifierTargetCache@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_56EFD0(this);
-    return __result;
 }
 
-_extern char const *_sub_56F105(ModifierTargetCache *const);
 _inline char const *ModifierTargetCache::saveToken() // 0x56F105
 {
     mangled_assert("?saveToken@ModifierTargetCache@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_56F105(this);
-    return __result;
 }
 
 /* ---------- private code */

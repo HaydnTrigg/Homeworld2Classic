@@ -178,172 +178,127 @@ extern SaveData const Nebula::m_saveData[6]; // 0x792150
 
 /* ---------- public code */
 
-_extern _sub_4C0A0F(Nebula *const, char const *, char const *);
 Nebula::Nebula(char const *, char const *) // 0x4C0A0F
 {
     mangled_assert("??0Nebula@@QAE@PBD0@Z");
     todo("implement");
-    _sub_4C0A0F(this, arg, arg);
 }
 
-_extern void _sub_4C0AEB(BillboardRender *const);
 _inline BillboardRender::~BillboardRender() // 0x4C0AEB
 {
     mangled_assert("??1BillboardRender@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4C0AEB(this);
 }
 
-_extern void _sub_4C0AF2(GameEvent_CloudEvent *const);
 _inline GameEvent_CloudEvent::~GameEvent_CloudEvent() // 0x4C0AF2
 {
     mangled_assert("??1GameEvent_CloudEvent@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4C0AF2(this);
 }
 
-_extern void _sub_4C0AF9(Nebula *const);
 _inline Nebula::~Nebula() // 0x4C0AF9
 {
     mangled_assert("??1Nebula@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4C0AF9(this);
 }
 
-_extern _sub_4C09A7(Nebula *const, SaveGameData *);
 Nebula::Nebula(SaveGameData *) // 0x4C09A7
 {
     mangled_assert("??0Nebula@@QAE@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_4C09A7(this, arg);
 }
 
-_extern void _sub_4C0B83(bool, vector4 const &);
 void Nebula::SetAmbientOverride(bool bOverride, vector4 const &col) // 0x4C0B83
 {
     mangled_assert("?SetAmbientOverride@Nebula@@SGX_NABVvector4@@@Z");
     todo("implement");
-    _sub_4C0B83(bOverride, col);
 }
 
-_extern bool _sub_4C0B5A(vector4 &);
 bool Nebula::GetAmbientOverride(vector4 &ambient) // 0x4C0B5A
 {
     mangled_assert("?GetAmbientOverride@Nebula@@SG_NAAVvector4@@@Z");
     todo("implement");
-    bool __result = _sub_4C0B5A(ambient);
-    return __result;
 }
 
-_extern void _sub_4C0D3D(Nebula *const, Camera const *, MeshRenderProxy &);
 void Nebula::customRender(Camera const *, MeshRenderProxy &) // 0x4C0D3D
 {
     mangled_assert("?customRender@Nebula@@UAEXPBVCamera@@AAVMeshRenderProxy@@@Z");
     todo("implement");
-    _sub_4C0D3D(this, arg, arg);
 }
 
-_extern bool _sub_4C11EB(Nebula *const, float);
 bool Nebula::update(float) // 0x4C11EB
 {
     mangled_assert("?update@Nebula@@UAE_NM@Z");
     todo("implement");
-    bool __result = _sub_4C11EB(this, arg);
-    return __result;
 }
 
-_extern void _sub_4C0CBC(Nebula *const);
 void Nebula::UpdateCollisionProxies() // 0x4C0CBC
 {
     mangled_assert("?UpdateCollisionProxies@Nebula@@MAEXXZ");
     todo("implement");
-    _sub_4C0CBC(this);
 }
 
-_extern void _sub_4C104C(Nebula *const);
 void Nebula::postRestore() // 0x4C104C
 {
     mangled_assert("?postRestore@Nebula@@UAEXXZ");
     todo("implement");
-    _sub_4C104C(this);
 }
 
-_extern void _sub_4C0E64(Nebula *const, Sob *);
 void Nebula::doCollision(Sob *) // 0x4C0E64
 {
     mangled_assert("?doCollision@Nebula@@QAEXPAVSob@@@Z");
     todo("implement");
-    _sub_4C0E64(this, arg);
 }
 
-_extern void _sub_4C106B(Nebula *const);
 void Nebula::randomizeVisual() // 0x4C106B
 {
     mangled_assert("?randomizeVisual@Nebula@@IAEXXZ");
     todo("implement");
-    _sub_4C106B(this);
 }
 
-_extern void _sub_4C11DA(Nebula *const, float);
 void Nebula::setRotation(float) // 0x4C11DA
 {
     mangled_assert("?setRotation@Nebula@@QAEXM@Z");
     todo("implement");
-    _sub_4C11DA(this, arg);
 }
 
-_extern void _sub_4C119E(Nebula *const, float);
 void Nebula::setRadius(float) // 0x4C119E
 {
     mangled_assert("?setRadius@Nebula@@QAEXM@Z");
     todo("implement");
-    _sub_4C119E(this, arg);
 }
 
-_extern void _sub_4C0CF7(Nebula *const, Ship *);
 void Nebula::applyMultipliersAndAbilities(Ship *) // 0x4C0CF7
 {
     mangled_assert("?applyMultipliersAndAbilities@Nebula@@QAEXPAVShip@@@Z");
     todo("implement");
-    _sub_4C0CF7(this, arg);
 }
 
-_extern void _sub_4C0E19(Nebula *const);
 void Nebula::defaultSettings() // 0x4C0E19
 {
     mangled_assert("?defaultSettings@Nebula@@QAEXXZ");
     todo("implement");
-    _sub_4C0E19(this);
 }
 
-_extern bool _sub_4C10EF(Nebula *const, SaveGameData *);
 bool Nebula::restore(SaveGameData *) // 0x4C10EF
 {
     mangled_assert("?restore@Nebula@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_4C10EF(this, arg);
-    return __result;
 }
 
-_extern bool _sub_4C113C(Nebula *const, SaveGameData *, SaveType);
 bool Nebula::save(SaveGameData *, SaveType) // 0x4C113C
 {
     mangled_assert("?save@Nebula@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_4C113C(this, arg, arg);
-    return __result;
 }
 
-_extern Nebula *_sub_4C0BE3(char const *, char const *, vector3 const &, vector4 const &, float, float);
 Nebula *Nebula::Spawn(char const *nebulaGroupName, char const *resourcename, vector3 const &position, vector4 const &color, float rotationDegrees, float radius) // 0x4C0BE3
 {
     mangled_assert("?Spawn@Nebula@@SGPAV1@PBD0ABVvector3@@ABVvector4@@MM@Z");
     todo("implement");
-    Nebula * __result = _sub_4C0BE3(nebulaGroupName, resourcename, position, color, rotationDegrees, radius);
-    return __result;
 }
 
 /* ---------- private code */

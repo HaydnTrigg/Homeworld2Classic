@@ -95,30 +95,22 @@ static_assert(sizeof(RenderModelInstance) == 76, "Invalid RenderModelInstance si
 
 /* ---------- public code */
 
-_extern void _sub_51F131(RenderModelInstance::ExtUpdate *const);
 _inline RenderModelInstance::ExtUpdate::~ExtUpdate() // 0x51F131
 {
     mangled_assert("??1ExtUpdate@RenderModelInstance@@UAE@XZ");
     todo("implement");
-    _sub_51F131(this);
 }
 
-_extern RenderModel const &_sub_518C1D(RenderModelInstance const *const);
 _inline RenderModel const &RenderModelInstance::getRenderModel() const // 0x518C1D
 {
     mangled_assert("?getRenderModel@RenderModelInstance@@QBEABVRenderModel@@XZ");
     todo("implement");
-    RenderModel const & __result = _sub_518C1D(this);
-    return __result;
 }
 
-_extern AnimEventSink *_sub_518B9C(RenderModelInstance const *const);
 _inline AnimEventSink *RenderModelInstance::getEventSink() const // 0x518B9C
 {
     mangled_assert("?getEventSink@RenderModelInstance@@QBEPAVAnimEventSink@@XZ");
     todo("implement");
-    AnimEventSink * __result = _sub_518B9C(this);
-    return __result;
 }
 
 /* ---------- private code */

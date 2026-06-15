@@ -45,58 +45,40 @@ static_assert(sizeof(RandomStream) == 28, "Invalid RandomStream size");
 
 /* ---------- public code */
 
-_extern unsigned __int32 _sub_49B880(RandomStream *const);
 _inline unsigned __int32 RandomStream::rand() // 0x49B880
 {
     mangled_assert("?rand@RandomStream@@QAEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_49B880(this);
-    return __result;
 }
 
-_extern float _sub_442C7C(RandomStream *const);
 _inline float RandomStream::GetUnitInclusive() // 0x442C7C
 {
     mangled_assert("?GetUnitInclusive@RandomStream@@QAEMXZ");
     todo("implement");
-    float __result = _sub_442C7C(this);
-    return __result;
 }
 
-_extern float _sub_520D3C(RandomStream *const);
 _inline float RandomStream::GetUnitExclusive() // 0x520D3C
 {
     mangled_assert("?GetUnitExclusive@RandomStream@@QAEMXZ");
     todo("implement");
-    float __result = _sub_520D3C(this);
-    return __result;
 }
 
-_extern float _sub_440221(RandomStream *const, float, float);
 _inline float RandomStream::GetRealRange(float, float) // 0x440221
 {
     mangled_assert("?GetRealRange@RandomStream@@QAEMMM@Z");
     todo("implement");
-    float __result = _sub_440221(this, arg, arg);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_4871BF(RandomStream *const, unsigned __int32);
 _inline unsigned __int32 RandomStream::GetMax(unsigned __int32) // 0x4871BF
 {
     mangled_assert("?GetMax@RandomStream@@QAEII@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_4871BF(this, arg);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_4871CE(RandomStream *const, unsigned __int32, unsigned __int32);
 _inline unsigned __int32 RandomStream::GetRange(unsigned __int32, unsigned __int32) // 0x4871CE
 {
     mangled_assert("?GetRange@RandomStream@@QAEIII@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_4871CE(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

@@ -130,13 +130,10 @@ static_assert(sizeof(DXAudioDevice) == 72, "Invalid DXAudioDevice size");
 
 /* ---------- public code */
 
-_extern long _sub_10002B05(DXAudioDevice *const, long *, long, unsigned long, long *);
 _inline long DXAudioDevice::ChannelGetUserData(long *, long, unsigned long, long *) // 0x10002B05
 {
     mangled_assert("?ChannelSetUserData@DXAudioDevice@@UAEJPAJJKJ@Z");
     todo("implement");
-    long __result = _sub_10002B05(this, arg, arg, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

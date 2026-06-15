@@ -149,85 +149,58 @@ static_assert(sizeof(CpuFleetCommand) == 152, "Invalid CpuFleetCommand size");
 
 /* ---------- public code */
 
-_extern bool _sub_531CD7(CpuFleetCommand const *const);
 _inline bool CpuFleetCommand::HaveBeenAttacked() const // 0x531CD7
 {
     mangled_assert("?HaveBeenAttacked@CpuFleetCommand@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_531CD7(this);
-    return __result;
 }
 
-_extern float _sub_531E31(CpuFleetCommand const *const);
 _inline float CpuFleetCommand::LastTimeAttack() const // 0x531E31
 {
     mangled_assert("?LastTimeAttack@CpuFleetCommand@@QBEMXZ");
     todo("implement");
-    float __result = _sub_531E31(this);
-    return __result;
 }
 
-_extern bool _sub_5258FE(CpuFleetCommand const *const);
 _inline bool CpuFleetCommand::UnderAttack() const // 0x5258FE
 {
     mangled_assert("?UnderAttack@CpuFleetCommand@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_5258FE(this);
-    return __result;
 }
 
-_extern __int32 _sub_5327E5(CpuFleetCommand const *const);
 _inline __int32 CpuFleetCommand::UnderAttackValue() const // 0x5327E5
 {
     mangled_assert("?UnderAttackValue@CpuFleetCommand@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_5327E5(this);
-    return __result;
 }
 
-_extern __int32 _sub_5327E1(CpuFleetCommand const *const);
 _inline __int32 CpuFleetCommand::UnderAttackThreat() const // 0x5327E1
 {
     mangled_assert("?UnderAttackThreat@CpuFleetCommand@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_5327E1(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_525A50(CpuFleetCommand const *const);
 _inline unsigned __int32 CpuFleetCommand::getForceAttackGroupSize() const // 0x525A50
 {
     mangled_assert("?getForceAttackGroupSize@CpuFleetCommand@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_525A50(this);
-    return __result;
 }
 
-_extern float _sub_525A5B(CpuFleetCommand const *const);
 _inline float CpuFleetCommand::getInitThreatModifier() const // 0x525A5B
 {
     mangled_assert("?getInitThreatModifier@CpuFleetCommand@@QBEMXZ");
     todo("implement");
-    float __result = _sub_525A5B(this);
-    return __result;
 }
 
-_extern bool _sub_533448(CpuFleetCommand *const);
 _inline bool CpuFleetCommand::isDeterministic() // 0x533448
 {
     mangled_assert("?isDeterministic@CpuFleetCommand@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_533448(this);
-    return __result;
 }
 
-_extern char const *_sub_5336E3(CpuFleetCommand *const);
 _inline char const *CpuFleetCommand::saveToken() // 0x5336E3
 {
     mangled_assert("?saveToken@CpuFleetCommand@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_5336E3(this);
-    return __result;
 }
 
 /* ---------- private code */

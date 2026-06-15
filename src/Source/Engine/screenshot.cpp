@@ -369,55 +369,41 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_62CD26(LuaBinding::ObjInternal1<bool,bool,LuaBinding::Functor1Free<bool,bool> > *const);
 _inline LuaBinding::ObjInternal1<bool,bool,LuaBinding::Functor1Free<bool,bool> >::~ObjInternal1<bool,bool,LuaBinding::Functor1Free<bool,bool> >() // 0x62CD26
 {
     mangled_assert("??1?$ObjInternal1@_N_NV?$Functor1Free@_N_N@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_62CD26(this);
 }
 
-_extern bool _sub_62E040(bool);
 bool ScreenShot::ssSteamOnly(bool bSteamOnly) // 0x62E040
 {
     mangled_assert("?ssSteamOnly@ScreenShot@@YG_N_N@Z");
     todo("implement");
-    bool __result = _sub_62E040(bSteamOnly);
-    return __result;
 }
 
-_extern bool _sub_62D132();
 bool ScreenShot::Initialize() // 0x62D132
 {
     mangled_assert("?Initialize@ScreenShot@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_62D132();
-    return __result;
 }
 
-_extern void _sub_62DEFE(bool);
 void ScreenShot::setMenusVisible(bool visible) // 0x62DEFE
 {
     mangled_assert("?setMenusVisible@ScreenShot@@YGX_N@Z");
     todo("implement");
-    _sub_62DEFE(visible);
 }
 
-_extern void _sub_62CFEE();
 void ScreenShot::Capture() // 0x62CFEE
 {
     mangled_assert("?Capture@ScreenShot@@YGXXZ");
     todo("implement");
-    _sub_62CFEE();
 }
 
-_extern void _sub_62CD8B(LuaLibrary &, LuaConfig &);
 void ScreenShot::BindToLua(LuaLibrary &lib, LuaConfig &lc) // 0x62CD8B
 {
     mangled_assert("?BindToLua@ScreenShot@@YGXAAVLuaLibrary@@AAVLuaConfig@@@Z");
     todo("implement");
-    _sub_62CD8B(lib, lc);
 }
 
 /* ---------- private code */

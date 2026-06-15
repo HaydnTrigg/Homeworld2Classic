@@ -408,176 +408,132 @@ _static
 
 /* ---------- public code */
 
-_extern std::auto_ptr<Net::Session> _sub_5B9239(wchar_t const *, wchar_t const *, wchar_t const *, bool);
 std::auto_ptr<Net::Session> MultiplayerConnect::HostServer(wchar_t const *sessionName, wchar_t const *password, wchar_t const *playerName, bool bVisible) // 0x5B9239
 {
     mangled_assert("?HostServer@MultiplayerConnect@@YG?AV?$auto_ptr@VSession@Net@@@std@@PB_W00_N@Z");
     todo("implement");
-    std::auto_ptr<Net::Session> __result = _sub_5B9239(sessionName, password, playerName, bVisible);
-    return __result;
 }
 
-_extern std::auto_ptr<Net::SessionEnumerator> _sub_5B8EE2();
 std::auto_ptr<Net::SessionEnumerator> MultiplayerConnect::EnumSession() // 0x5B8EE2
 {
     mangled_assert("?EnumSession@MultiplayerConnect@@YG?AV?$auto_ptr@VSessionEnumerator@Net@@@std@@XZ");
     todo("implement");
-    std::auto_ptr<Net::SessionEnumerator> __result = _sub_5B8EE2();
-    return __result;
 }
 
-_extern _sub_5B89F6(ConnectionAgent *const, wchar_t const *, unsigned short, wchar_t const *, wchar_t const *);
 ConnectionAgent::ConnectionAgent(wchar_t const *, unsigned short, wchar_t const *, wchar_t const *) // 0x5B89F6
 {
     mangled_assert("??0ConnectionAgent@@QAE@PB_WG00@Z");
     todo("implement");
-    _sub_5B89F6(this, arg, arg, arg, arg);
 }
 
-_extern void _sub_5B8BAD(Net::Authentication *const);
 _inline Net::Authentication::~Authentication() // 0x5B8BAD
 {
     mangled_assert("??1Authentication@Net@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B8BAD(this);
 }
 
-_extern void _sub_5B8BC8(ConnectionAgent *const);
 ConnectionAgent::~ConnectionAgent() // 0x5B8BC8
 {
     mangled_assert("??1ConnectionAgent@@QAE@XZ");
     todo("implement");
-    _sub_5B8BC8(this);
 }
 
-_extern void _sub_5B8C58(Net::EAuthenticationFailed *const);
 _inline Net::EAuthenticationFailed::~EAuthenticationFailed() // 0x5B8C58
 {
     mangled_assert("??1EAuthenticationFailed@Net@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B8C58(this);
 }
 
-_extern void _sub_5B8C70(Net::EHostNotFound *const);
 _inline Net::EHostNotFound::~EHostNotFound() // 0x5B8C70
 {
     mangled_assert("??1EHostNotFound@Net@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B8C70(this);
 }
 
-_extern void _sub_5B8C7A(Net::EInvalidAddress *const);
 _inline Net::EInvalidAddress::~EInvalidAddress() // 0x5B8C7A
 {
     mangled_assert("??1EInvalidAddress@Net@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B8C7A(this);
 }
 
-_extern void _sub_5B8C84(Net::EInvalidPassword *const);
 _inline Net::EInvalidPassword::~EInvalidPassword() // 0x5B8C84
 {
     mangled_assert("??1EInvalidPassword@Net@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B8C84(this);
 }
 
-_extern void _sub_5B8C8E(Net::ESessionFull *const);
 _inline Net::ESessionFull::~ESessionFull() // 0x5B8C8E
 {
     mangled_assert("??1ESessionFull@Net@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B8C8E(this);
 }
 
-_extern void _sub_5B8C98(Net::Exception *const);
 _inline Net::Exception::~Exception() // 0x5B8C98
 {
     mangled_assert("??1Exception@Net@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B8C98(this);
 }
 
-_extern void _sub_5B8CA2(Net::PlayerDescription *const);
 _inline Net::PlayerDescription::~PlayerDescription() // 0x5B8CA2
 {
     mangled_assert("??1PlayerDescription@Net@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B8CA2(this);
 }
 
-_extern void _sub_5B8D25(ConnectionAgent *const);
 void ConnectionAgent::Connect() // 0x5B8D25
 {
     mangled_assert("?Connect@ConnectionAgent@@AAEXXZ");
     todo("implement");
-    _sub_5B8D25(this);
 }
 
-_extern void _sub_5B8E32(ConnectionAgent *const);
 void ConnectionAgent::EnumHostForPort() // 0x5B8E32
 {
     mangled_assert("?EnumHostForPort@ConnectionAgent@@AAEXXZ");
     todo("implement");
-    _sub_5B8E32(this);
 }
 
-_extern std::auto_ptr<Net::Session> _sub_5B921D(ConnectionAgent *const);
 std::auto_ptr<Net::Session> ConnectionAgent::GetResult() // 0x5B921D
 {
     mangled_assert("?GetResult@ConnectionAgent@@QAE?AV?$auto_ptr@VSession@Net@@@std@@XZ");
     todo("implement");
-    std::auto_ptr<Net::Session> __result = _sub_5B921D(this);
-    return __result;
 }
 
-_extern void _sub_5B93E2(UI::InterfaceElement *);
 void ConnectionAgent::OnCancel(UI::InterfaceElement *) // 0x5B93E2
 {
     mangled_assert("?OnCancel@ConnectionAgent@@CGXPAVInterfaceElement@UI@@@Z");
     todo("implement");
-    _sub_5B93E2(arg);
 }
 
-_extern bool _sub_5B96AA(ConnectionAgent *const, unsigned __int32);
 bool ConnectionAgent::Update(unsigned __int32) // 0x5B96AA
 {
     mangled_assert("?Update@ConnectionAgent@@QAE_NI@Z");
     todo("implement");
-    bool __result = _sub_5B96AA(this, arg);
-    return __result;
 }
 
-_extern void _sub_5B9419(ConnectionAgent const *const, HRESULT);
 void ConnectionAgent::ReportError(HRESULT) const // 0x5B9419
 {
     mangled_assert("?ReportError@ConnectionAgent@@ABEXJ@Z");
     todo("implement");
-    _sub_5B9419(this, arg);
 }
 
-_extern void _sub_5B9551(ConnectionAgent *const, unsigned __int32);
 void ConnectionAgent::StateConnect(unsigned __int32) // 0x5B9551
 {
     mangled_assert("?StateConnect@ConnectionAgent@@AAEXI@Z");
     todo("implement");
-    _sub_5B9551(this, arg);
 }
 
-_extern void _sub_5B9592(ConnectionAgent *const, unsigned __int32);
 void ConnectionAgent::StateEnumHost(unsigned __int32) // 0x5B9592
 {
     mangled_assert("?StateEnumHost@ConnectionAgent@@AAEXI@Z");
     todo("implement");
-    _sub_5B9592(this, arg);
 }
 
 /* ---------- private code */

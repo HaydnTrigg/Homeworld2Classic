@@ -64,13 +64,10 @@ static_assert(sizeof(LobbyGamespy) == 12, "Invalid LobbyGamespy size");
 
 /* ---------- public code */
 
-_extern unsigned long long _sub_46FA98(LobbyGamespy *const);
 _inline unsigned long long LobbyGamespy::GetLobbyID() // 0x46FA98
 {
     mangled_assert("?GetLobbyID@LobbyGamespy@@UAE_KXZ");
     todo("implement");
-    unsigned long long __result = _sub_46FA98(this);
-    return __result;
 }
 
 /* ---------- private code */

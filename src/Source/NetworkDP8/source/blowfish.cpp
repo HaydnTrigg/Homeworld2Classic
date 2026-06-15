@@ -70,54 +70,40 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_6D71E9(CBlowFish const *const, unsigned long *, unsigned long *);
 void CBlowFish::Blowfish_encipher(unsigned long *, unsigned long *) const // 0x6D71E9
 {
     mangled_assert("?Blowfish_encipher@CBlowFish@@ABEXPAK0@Z");
     todo("implement");
-    _sub_6D71E9(this, arg, arg);
 }
 
-_extern void _sub_6D6DE6(CBlowFish const *const, unsigned long *, unsigned long *);
 void CBlowFish::Blowfish_decipher(unsigned long *, unsigned long *) const // 0x6D6DE6
 {
     mangled_assert("?Blowfish_decipher@CBlowFish@@ABEXPAK0@Z");
     todo("implement");
-    _sub_6D6DE6(this, arg, arg);
 }
 
-_extern void _sub_6D774D(CBlowFish *const, unsigned char *, __int32);
 void CBlowFish::Initialize(unsigned char *, __int32) // 0x6D774D
 {
     mangled_assert("?Initialize@CBlowFish@@QAEXQAEH@Z");
     todo("implement");
-    _sub_6D774D(this, arg, arg);
 }
 
-_extern unsigned long _sub_6D772D(__int32);
 unsigned long CBlowFish::GetOutputLength(__int32 lInputLong) // 0x6D772D
 {
     mangled_assert("?GetOutputLength@CBlowFish@@SGKH@Z");
     todo("implement");
-    unsigned long __result = _sub_6D772D(lInputLong);
-    return __result;
 }
 
-_extern unsigned long _sub_6D7636(CBlowFish const *const, unsigned char const *, unsigned char *, __int32);
 unsigned long CBlowFish::Encode(unsigned char const *, unsigned char *, __int32) const // 0x6D7636
 {
     mangled_assert("?Encode@CBlowFish@@QBEKPBEPAEH@Z");
     todo("implement");
-    unsigned long __result = _sub_6D7636(this, arg, arg, arg);
-    return __result;
 }
 
-_extern void _sub_6D75C9(CBlowFish const *const, unsigned char const *, unsigned char *, __int32);
 void CBlowFish::Decode(unsigned char const *, unsigned char *, __int32) const // 0x6D75C9
 {
     mangled_assert("?Decode@CBlowFish@@QBEXPBEPAEH@Z");
     todo("implement");
-    _sub_6D75C9(this, arg, arg, arg);
 }
 
 /* ---------- private code */

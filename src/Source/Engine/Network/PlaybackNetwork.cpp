@@ -107,55 +107,40 @@ typedef std::vector<Order *,std::allocator<Order *> > OrderContainer;
 
 /* ---------- public code */
 
-_extern _sub_5BFB84(PlaybackNetwork *const);
 PlaybackNetwork::PlaybackNetwork() // 0x5BFB84
 {
     mangled_assert("??0PlaybackNetwork@@QAE@XZ");
     todo("implement");
-    _sub_5BFB84(this);
 }
 
-_extern void _sub_5BFBD2(PlaybackNetwork *const);
 PlaybackNetwork::~PlaybackNetwork() // 0x5BFBD2
 {
     mangled_assert("??1PlaybackNetwork@@UAE@XZ");
     todo("implement");
-    _sub_5BFBD2(this);
 }
 
-_extern bool _sub_5BFC24(PlaybackNetwork *const);
 bool PlaybackNetwork::Execute() // 0x5BFC24
 {
     mangled_assert("?Execute@PlaybackNetwork@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_5BFC24(this);
-    return __result;
 }
 
-_extern __int32 _sub_5BFCA2(PlaybackNetwork *const);
 __int32 PlaybackNetwork::GetSimLoopCount() // 0x5BFCA2
 {
     mangled_assert("?GetSimLoopCount@PlaybackNetwork@@UAEHXZ");
     todo("implement");
-    __int32 __result = _sub_5BFCA2(this);
-    return __result;
 }
 
-_extern FrameOrders const *_sub_5BFCA6(PlaybackNetwork const *const);
 FrameOrders const *PlaybackNetwork::PeekNextFrameOrders() const // 0x5BFCA6
 {
     mangled_assert("?PeekNextFrameOrders@PlaybackNetwork@@UBEPBVFrameOrders@@XZ");
     todo("implement");
-    FrameOrders const * __result = _sub_5BFCA6(this);
-    return __result;
 }
 
-_extern void _sub_5BFCAA(PlaybackNetwork *const, std::auto_ptr<Order>);
 void PlaybackNetwork::SendOrder(std::auto_ptr<Order>) // 0x5BFCAA
 {
     mangled_assert("?SendOrder@PlaybackNetwork@@UAEXV?$auto_ptr@VOrder@@@std@@@Z");
     todo("implement");
-    _sub_5BFCAA(this, arg);
 }
 
 /* ---------- private code */

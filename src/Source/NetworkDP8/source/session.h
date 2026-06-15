@@ -95,48 +95,34 @@ static_assert(sizeof(Net::Session) == 188, "Invalid Net::Session size");
 
 /* ---------- public code */
 
-_extern bool _sub_4F7AD6(Net::Session *const, std::back_insert_iterator<std::list<unsigned long,std::allocator<unsigned long> > >);
 _inline bool Net::Session::GetPlayerList<std::back_insert_iterator<std::list<unsigned long,std::allocator<unsigned long> > > >(std::back_insert_iterator<std::list<unsigned long,std::allocator<unsigned long> > >) // 0x4F7AD6
 {
     mangled_assert("??$GetPlayerList@V?$back_insert_iterator@V?$list@KV?$allocator@K@std@@@std@@@std@@@Session@Net@@QAE_NV?$back_insert_iterator@V?$list@KV?$allocator@K@std@@@std@@@std@@@Z");
     todo("implement");
-    bool __result = _sub_4F7AD6(this, arg);
-    return __result;
 }
 
-_extern bool _sub_45E7A6(Net::Session *const, std::back_insert_iterator<std::vector<unsigned long,std::allocator<unsigned long> > >);
 _inline bool Net::Session::GetPlayerList<std::back_insert_iterator<std::vector<unsigned long,std::allocator<unsigned long> > > >(std::back_insert_iterator<std::vector<unsigned long,std::allocator<unsigned long> > >) // 0x45E7A6
 {
     mangled_assert("??$GetPlayerList@V?$back_insert_iterator@V?$vector@KV?$allocator@K@std@@@std@@@std@@@Session@Net@@QAE_NV?$back_insert_iterator@V?$vector@KV?$allocator@K@std@@@std@@@std@@@Z");
     todo("implement");
-    bool __result = _sub_45E7A6(this, arg);
-    return __result;
 }
 
-_extern HRESULT _sub_5B91E8(Net::Session const *const);
 _inline HRESULT Net::Session::GetConnectResult() const // 0x5B91E8
 {
     mangled_assert("?GetConnectResult@Session@Net@@QBEJXZ");
     todo("implement");
-    HRESULT __result = _sub_5B91E8(this);
-    return __result;
 }
 
-_extern void _sub_470F46(Net::Session *const, EnumInfo const &);
 _inline void Net::Session::SetEnumResponseData<EnumInfo>(EnumInfo const &) // 0x470F46
 {
     mangled_assert("??$SetEnumResponseData@UEnumInfo@@@Session@Net@@QAEXABUEnumInfo@@@Z");
     todo("implement");
-    _sub_470F46(this, arg);
 }
 
-_extern std::vector<unsigned char,std::allocator<unsigned char> > const &_sub_5B9216(Net::Session const *const);
 _inline std::vector<unsigned char,std::allocator<unsigned char> > const &Net::Session::GetReplyData() const // 0x5B9216
 {
     mangled_assert("?GetReplyData@Session@Net@@QBEABV?$vector@EV?$allocator@E@std@@@std@@XZ");
     todo("implement");
-    std::vector<unsigned char,std::allocator<unsigned char> > const & __result = _sub_5B9216(this);
-    return __result;
 }
 
 /* ---------- private code */

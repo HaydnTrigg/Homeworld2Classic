@@ -57,76 +57,52 @@ static_assert(sizeof(BuildManager) == 28, "Invalid BuildManager size");
 
 /* ---------- public code */
 
-_extern std::_List_iterator<std::_List_val<std::_List_simple_types<BuildData *> > > _sub_52A591(BuildManager *const);
 _inline std::_List_iterator<std::_List_val<std::_List_simple_types<BuildData *> > > BuildManager::BuildListBegin() // 0x52A591
 {
     mangled_assert("?BuildListBegin@BuildManager@@QAE?AV?$_List_iterator@V?$_List_val@U?$_List_simple_types@PAVBuildData@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_List_iterator<std::_List_val<std::_List_simple_types<BuildData *> > > __result = _sub_52A591(this);
-    return __result;
 }
 
-_extern std::_List_iterator<std::_List_val<std::_List_simple_types<BuildData *> > > _sub_52A59F(BuildManager *const);
 _inline std::_List_iterator<std::_List_val<std::_List_simple_types<BuildData *> > > BuildManager::BuildListEnd() // 0x52A59F
 {
     mangled_assert("?BuildListEnd@BuildManager@@QAE?AV?$_List_iterator@V?$_List_val@U?$_List_simple_types@PAVBuildData@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_List_iterator<std::_List_val<std::_List_simple_types<BuildData *> > > __result = _sub_52A59F(this);
-    return __result;
 }
 
-_extern std::_List_const_iterator<std::_List_val<std::_List_simple_types<BuildData *> > > _sub_5CCE51(BuildManager const *const);
 _inline std::_List_const_iterator<std::_List_val<std::_List_simple_types<BuildData *> > > BuildManager::BuildListBegin() const // 0x5CCE51
 {
     mangled_assert("?BuildListBegin@BuildManager@@QBE?AV?$_List_const_iterator@V?$_List_val@U?$_List_simple_types@PAVBuildData@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_List_const_iterator<std::_List_val<std::_List_simple_types<BuildData *> > > __result = _sub_5CCE51(this);
-    return __result;
 }
 
-_extern std::_List_const_iterator<std::_List_val<std::_List_simple_types<BuildData *> > > _sub_5CCE5F(BuildManager const *const);
 _inline std::_List_const_iterator<std::_List_val<std::_List_simple_types<BuildData *> > > BuildManager::BuildListEnd() const // 0x5CCE5F
 {
     mangled_assert("?BuildListEnd@BuildManager@@QBE?AV?$_List_const_iterator@V?$_List_val@U?$_List_simple_types@PAVBuildData@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_List_const_iterator<std::_List_val<std::_List_simple_types<BuildData *> > > __result = _sub_5CCE5F(this);
-    return __result;
 }
 
-_extern std::_List_const_iterator<std::_List_val<std::_List_simple_types<BuildData *> > > _sub_581C53(BuildManager const *const);
 _inline std::_List_const_iterator<std::_List_val<std::_List_simple_types<BuildData *> > > BuildManager::RestrictedBuildListBegin() const // 0x581C53
 {
     mangled_assert("?RestrictedBuildListBegin@BuildManager@@QBE?AV?$_List_const_iterator@V?$_List_val@U?$_List_simple_types@PAVBuildData@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_List_const_iterator<std::_List_val<std::_List_simple_types<BuildData *> > > __result = _sub_581C53(this);
-    return __result;
 }
 
-_extern std::_List_const_iterator<std::_List_val<std::_List_simple_types<BuildData *> > > _sub_581C61(BuildManager const *const);
 _inline std::_List_const_iterator<std::_List_val<std::_List_simple_types<BuildData *> > > BuildManager::RestrictedBuildListEnd() const // 0x581C61
 {
     mangled_assert("?RestrictedBuildListEnd@BuildManager@@QBE?AV?$_List_const_iterator@V?$_List_val@U?$_List_simple_types@PAVBuildData@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_List_const_iterator<std::_List_val<std::_List_simple_types<BuildData *> > > __result = _sub_581C61(this);
-    return __result;
 }
 
-_extern bool _sub_5CD26E(BuildManager *const);
 _inline bool BuildManager::isDeterministic() // 0x5CD26E
 {
     mangled_assert("?isDeterministic@BuildManager@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_5CD26E(this);
-    return __result;
 }
 
-_extern char const *_sub_5CD311(BuildManager *const);
 _inline char const *BuildManager::saveToken() // 0x5CD311
 {
     mangled_assert("?saveToken@BuildManager@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_5CD311(this);
-    return __result;
 }
 
 /* ---------- private code */

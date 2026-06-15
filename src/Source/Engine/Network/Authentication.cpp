@@ -173,20 +173,16 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_5B984C(Authenticator *const);
 Authenticator::Authenticator() // 0x5B984C
 {
     mangled_assert("??0Authenticator@@QAE@XZ");
     todo("implement");
-    _sub_5B984C(this);
 }
 
-_extern void _sub_5B98E4(Authenticator const *const, unsigned char *);
 void Authenticator::GetHash(unsigned char *) const // 0x5B98E4
 {
     mangled_assert("?GetHash@Authenticator@@QBEXQAE@Z");
     todo("implement");
-    _sub_5B98E4(this, arg);
 }
 
 /* ---------- private code */

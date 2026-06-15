@@ -262,31 +262,22 @@ static_assert(sizeof(ParadeCommandStaticInfo) == 8, "Invalid ParadeCommandStatic
 
 /* ---------- public code */
 
-_extern CommandType _sub_6A7EFB(ParadeCommand const *const);
 _inline CommandType ParadeCommand::getCommandType() const // 0x6A7EFB
 {
     mangled_assert("?getCommandType@ParadeCommand@@UBE?AW4CommandType@@XZ");
     todo("implement");
-    CommandType __result = _sub_6A7EFB(this);
-    return __result;
 }
 
-_extern bool _sub_6A7FB2(ParadeCommand *const);
 _inline bool ParadeCommand::isDeterministic() // 0x6A7FB2
 {
     mangled_assert("?isDeterministic@ParadeCommand@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6A7FB2(this);
-    return __result;
 }
 
-_extern char const *_sub_6A804E(ParadeCommand *const);
 _inline char const *ParadeCommand::saveToken() // 0x6A804E
 {
     mangled_assert("?saveToken@ParadeCommand@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6A804E(this);
-    return __result;
 }
 
 /* ---------- private code */

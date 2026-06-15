@@ -60,13 +60,10 @@ static_assert(sizeof(UI::ScrollView) == 1064, "Invalid UI::ScrollView size");
 
 /* ---------- public code */
 
-_extern UI::InterfaceElement *_sub_68C578(UI::ScrollView *const);
 _inline UI::InterfaceElement *UI::ScrollView::clone() // 0x68C578
 {
     mangled_assert("?clone@ScrollView@UI@@UAEPAVInterfaceElement@2@XZ");
     todo("implement");
-    UI::InterfaceElement * __result = _sub_68C578(this);
-    return __result;
 }
 
 /* ---------- private code */

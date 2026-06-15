@@ -117,30 +117,22 @@ static_assert(sizeof(EngineBurnManager) == 4, "Invalid EngineBurnManager size");
 
 /* ---------- public code */
 
-_extern void _sub_4409ED(EngineBurnStatic *const, EngineBurnInfo *);
 _inline void EngineBurnStatic::addBurn(EngineBurnInfo *) // 0x4409ED
 {
     mangled_assert("?addBurn@EngineBurnStatic@@QAEXPAVEngineBurnInfo@@@Z");
     todo("implement");
-    _sub_4409ED(this, arg);
 }
 
-_extern unsigned __int32 _sub_441BD4(EngineBurnStatic const *const);
 _inline unsigned __int32 EngineBurnStatic::getNumBurns() const // 0x441BD4
 {
     mangled_assert("?getNumBurns@EngineBurnStatic@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_441BD4(this);
-    return __result;
 }
 
-_extern EngineBurnInfo *_sub_441B77(EngineBurnStatic *const, unsigned __int32);
 _inline EngineBurnInfo *EngineBurnStatic::getBurn(unsigned __int32) // 0x441B77
 {
     mangled_assert("?getBurn@EngineBurnStatic@@QAEPAVEngineBurnInfo@@I@Z");
     todo("implement");
-    EngineBurnInfo * __result = _sub_441B77(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

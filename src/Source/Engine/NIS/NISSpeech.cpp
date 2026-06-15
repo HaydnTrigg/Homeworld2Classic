@@ -118,52 +118,40 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_557AAF(NISSpeech *const);
 NISSpeech::NISSpeech() // 0x557AAF
 {
     mangled_assert("??0NISSpeech@@QAE@XZ");
     todo("implement");
-    _sub_557AAF(this);
 }
 
-_extern void _sub_557AC0(NISSpeech *const);
 NISSpeech::~NISSpeech() // 0x557AC0
 {
     mangled_assert("??1NISSpeech@@QAE@XZ");
     todo("implement");
-    _sub_557AC0(this);
 }
 
-_extern void _sub_557BA6(NISSpeech *const, char const *);
 void NISSpeech::SetSpeechDirectory(char const *) // 0x557BA6
 {
     mangled_assert("?SetSpeechDirectory@NISSpeech@@QAEXPBD@Z");
     todo("implement");
-    _sub_557BA6(this, arg);
 }
 
-_extern void _sub_557AC5(NISSpeech *const, char const *, char *, unsigned __int32);
 void NISSpeech::GetSpeechFilename(char const *, char *, unsigned __int32) // 0x557AC5
 {
     mangled_assert("?GetSpeechFilename@NISSpeech@@AAEXPBDPADI@Z");
     todo("implement");
-    _sub_557AC5(this, arg, arg, arg);
 }
 
-_extern void _sub_557AE5(NISSpeech *const, float, char const *, float);
 void NISSpeech::PlaySpeech(float, char const *, float) // 0x557AE5
 {
     mangled_assert("?PlaySpeech@NISSpeech@@QAEXMPBDM@Z");
     todo("implement");
-    _sub_557AE5(this, arg, arg, arg);
 }
 
-_extern void _sub_557C0C(NISSpeech *const);
 void NISSpeech::StopAll() // 0x557C0C
 {
     mangled_assert("?StopAll@NISSpeech@@QAEXXZ");
     todo("implement");
-    _sub_557C0C(this);
 }
 
 /* ---------- private code */

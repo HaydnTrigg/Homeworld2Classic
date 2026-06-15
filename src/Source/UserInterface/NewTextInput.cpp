@@ -177,165 +177,124 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_688E90(UI::NewTextInput *const, UI::InterfaceElement *, char const *);
 UI::NewTextInput::NewTextInput(UI::InterfaceElement *, char const *) // 0x688E90
 {
     mangled_assert("??0NewTextInput@UI@@QAE@PAVInterfaceElement@1@PBD@Z");
     todo("implement");
-    _sub_688E90(this, arg, arg);
 }
 
-_extern _sub_688D57(UI::NewTextInput *const, UI::NewTextInput const &);
 UI::NewTextInput::NewTextInput(UI::NewTextInput const &) // 0x688D57
 {
     mangled_assert("??0NewTextInput@UI@@QAE@ABV01@@Z");
     todo("implement");
-    _sub_688D57(this, arg);
 }
 
-_extern _sub_688BFF(UI::NewTextInput *const, LuaConfig &);
 UI::NewTextInput::NewTextInput(LuaConfig &) // 0x688BFF
 {
     mangled_assert("??0NewTextInput@UI@@QAE@AAVLuaConfig@@@Z");
     todo("implement");
-    _sub_688BFF(this, arg);
 }
 
-_extern void _sub_688FDE(UI::NewTextInput *const);
 UI::NewTextInput::~NewTextInput() // 0x688FDE
 {
     mangled_assert("??1NewTextInput@UI@@UAE@XZ");
     todo("implement");
-    _sub_688FDE(this);
 }
 
-_extern UI::NewTextInput const &_sub_689061(UI::NewTextInput *const, UI::NewTextInput const &);
 UI::NewTextInput const &UI::NewTextInput::operator=(UI::NewTextInput const &) // 0x689061
 {
     mangled_assert("??4NewTextInput@UI@@QAEABV01@ABV01@@Z");
     todo("implement");
-    UI::NewTextInput const & __result = _sub_689061(this, arg);
-    return __result;
 }
 
-_extern void _sub_68915C(UI::NewTextInput *const, Vector_2i const &, Rect_i const &);
 void UI::NewTextInput::Draw2(Vector_2i const &, Rect_i const &) // 0x68915C
 {
     mangled_assert("?Draw2@NewTextInput@UI@@UAEXABUVector_2i@@ABURect_i@@@Z");
     todo("implement");
-    _sub_68915C(this, arg, arg);
 }
 
-_extern void _sub_689A26(UI::NewTextInput *const, wchar_t const *, bool);
 void UI::NewTextInput::SetText(wchar_t const *, bool) // 0x689A26
 {
     mangled_assert("?SetText@NewTextInput@UI@@UAEXPB_W_N@Z");
     todo("implement");
-    _sub_689A26(this, arg, arg);
 }
 
-_extern void _sub_689AA6(UI::NewTextInput *const, wchar_t const *, bool);
 void UI::NewTextInput::SetTextInternal(wchar_t const *, bool) // 0x689AA6
 {
     mangled_assert("?SetTextInternal@NewTextInput@UI@@AAEXPB_W_N@Z");
     todo("implement");
-    _sub_689AA6(this, arg, arg);
 }
 
-_extern void _sub_6899D1(UI::NewTextInput *const, unsigned __int32);
 void UI::NewTextInput::OnUpdate(unsigned __int32) // 0x6899D1
 {
     mangled_assert("?OnUpdate@NewTextInput@UI@@MAEXI@Z");
     todo("implement");
-    _sub_6899D1(this, arg);
 }
 
-_extern void _sub_68967B(UI::NewTextInput *const, LuaConfig &);
 void UI::NewTextInput::Load(LuaConfig &) // 0x68967B
 {
     mangled_assert("?Load@NewTextInput@UI@@IAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_68967B(this, arg);
 }
 
-_extern void _sub_689352(UI::NewTextInput *const, unsigned char, UI::KeyModifier const &);
 void UI::NewTextInput::HandleKeyPressed(unsigned char, UI::KeyModifier const &) // 0x689352
 {
     mangled_assert("?HandleKeyPressed@NewTextInput@UI@@EAEXEABVKeyModifier@2@@Z");
     todo("implement");
-    _sub_689352(this, arg, arg);
 }
 
-_extern void _sub_689846(UI::NewTextInput *const, unsigned char, UI::KeyModifier const &);
 void UI::NewTextInput::OnKeyPressed(unsigned char, UI::KeyModifier const &) // 0x689846
 {
     mangled_assert("?OnKeyPressed@NewTextInput@UI@@MAEXEABVKeyModifier@2@@Z");
     todo("implement");
-    _sub_689846(this, arg, arg);
 }
 
-_extern void _sub_689878(UI::NewTextInput *const, unsigned char, UI::KeyModifier const &);
 void UI::NewTextInput::OnKeyReleased(unsigned char, UI::KeyModifier const &) // 0x689878
 {
     mangled_assert("?OnKeyReleased@NewTextInput@UI@@MAEXEABVKeyModifier@2@@Z");
     todo("implement");
-    _sub_689878(this, arg, arg);
 }
 
-_extern void _sub_6898A1(UI::NewTextInput *const, unsigned char, UI::KeyModifier const &);
 void UI::NewTextInput::OnKeyRepeat(unsigned char, UI::KeyModifier const &) // 0x6898A1
 {
     mangled_assert("?OnKeyRepeat@NewTextInput@UI@@MAEXEABVKeyModifier@2@@Z");
     todo("implement");
-    _sub_6898A1(this, arg, arg);
 }
 
-_extern void _sub_68980F(UI::NewTextInput *const, bool);
 void UI::NewTextInput::OnFocus(bool) // 0x68980F
 {
     mangled_assert("?OnFocus@NewTextInput@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_68980F(this, arg);
 }
 
-_extern void _sub_6898D3(UI::NewTextInput *const, Vector_2i const &, UI::MouseButton const &);
 void UI::NewTextInput::OnMousePressed(Vector_2i const &, UI::MouseButton const &) // 0x6898D3
 {
     mangled_assert("?OnMousePressed@NewTextInput@UI@@MAEXABUVector_2i@@ABVMouseButton@2@@Z");
     todo("implement");
-    _sub_6898D3(this, arg, arg);
 }
 
-_extern void _sub_689A19(UI::NewTextInput *const, bool);
 void UI::NewTextInput::SetReadOnly(bool) // 0x689A19
 {
     mangled_assert("?SetReadOnly@NewTextInput@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_689A19(this, arg);
 }
 
-_extern void _sub_6899F4(UI::NewTextInput *const, unsigned __int32);
 void UI::NewTextInput::SetCursorPosition(unsigned __int32) // 0x6899F4
 {
     mangled_assert("?SetCursorPosition@NewTextInput@UI@@QAEXI@Z");
     todo("implement");
-    _sub_6899F4(this, arg);
 }
 
-_extern void _sub_689A0C(UI::NewTextInput *const);
 void UI::NewTextInput::SetCursorPositionToEnd() // 0x689A0C
 {
     mangled_assert("?SetCursorPositionToEnd@NewTextInput@UI@@QAEXXZ");
     todo("implement");
-    _sub_689A0C(this);
 }
 
-_extern void _sub_689148(UI::NewTextInput *const);
 void UI::NewTextInput::ClearInput() // 0x689148
 {
     mangled_assert("?ClearInput@NewTextInput@UI@@QAEXXZ");
     todo("implement");
-    _sub_689148(this);
 }
 
 /* ---------- private code */

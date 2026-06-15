@@ -252,304 +252,226 @@ extern UI::NewTaskbar *UI::NewTaskbar::ms_taskbar; // 0x846D0C
 
 /* ---------- public code */
 
-_extern _sub_5990A0(UI::NewTaskbar *const, char const *);
 UI::NewTaskbar::NewTaskbar(char const *) // 0x5990A0
 {
     mangled_assert("??0NewTaskbar@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_5990A0(this, arg);
 }
 
-_extern _sub_599173(UI::NewTaskbar::ShipButtonData *const, UI::NewTaskbar::ShipButtonData const &);
 _inline UI::NewTaskbar::ShipButtonData::ShipButtonData(UI::NewTaskbar::ShipButtonData const &) // 0x599173
 {
     mangled_assert("??0ShipButtonData@NewTaskbar@UI@@QAE@ABU012@@Z");
     compiler_generated();
     todo("implement");
-    _sub_599173(this, arg);
 }
 
-_extern _sub_599196(UI::NewTaskbar::ShipButtonData *const);
 _inline UI::NewTaskbar::ShipButtonData::ShipButtonData() // 0x599196
 {
     mangled_assert("??0ShipButtonData@NewTaskbar@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_599196(this);
 }
 
-_extern void _sub_5991AD(std::_List_buy<UI::NewTaskbar::ShipButtonData,std::allocator<UI::NewTaskbar::ShipButtonData> > *const);
 _inline std::_List_buy<UI::NewTaskbar::ShipButtonData,std::allocator<UI::NewTaskbar::ShipButtonData> >::~_List_buy<UI::NewTaskbar::ShipButtonData,std::allocator<UI::NewTaskbar::ShipButtonData> >() // 0x5991AD
 {
     mangled_assert("??1?$_List_buy@UShipButtonData@NewTaskbar@UI@@V?$allocator@UShipButtonData@NewTaskbar@UI@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5991AD(this);
 }
 
-_extern void _sub_5991C8(UI::NewTaskbar *const);
 UI::NewTaskbar::~NewTaskbar() // 0x5991C8
 {
     mangled_assert("??1NewTaskbar@UI@@UAE@XZ");
     todo("implement");
-    _sub_5991C8(this);
 }
 
-_extern void _sub_599255(UI::NewTaskbar::ShipButtonData *const);
 _inline UI::NewTaskbar::ShipButtonData::~ShipButtonData() // 0x599255
 {
     mangled_assert("??1ShipButtonData@NewTaskbar@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_599255(this);
 }
 
-_extern void _sub_599855(UI::NewTaskbar *const, LuaConfig &);
 void UI::NewTaskbar::OnLoad(LuaConfig &) // 0x599855
 {
     mangled_assert("?OnLoad@NewTaskbar@UI@@MAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_599855(this, arg);
 }
 
-_extern void _sub_5999BB(UI::NewTaskbar *const);
 void UI::NewTaskbar::OnPostLoad() // 0x5999BB
 {
     mangled_assert("?OnPostLoad@NewTaskbar@UI@@MAEXXZ");
     todo("implement");
-    _sub_5999BB(this);
 }
 
-_extern void _sub_5993EE(UI::NewTaskbar *const);
 void UI::NewTaskbar::Draw() // 0x5993EE
 {
     mangled_assert("?Draw@NewTaskbar@UI@@UAEXXZ");
     todo("implement");
-    _sub_5993EE(this);
 }
 
-_extern void _sub_59AA71(UI::NewTaskbar *const, unsigned __int32);
 void UI::NewTaskbar::Update(unsigned __int32) // 0x59AA71
 {
     mangled_assert("?Update@NewTaskbar@UI@@UAEXI@Z");
     todo("implement");
-    _sub_59AA71(this, arg);
 }
 
-_extern void _sub_59AA42();
 void UI::NewTaskbar::Toggle() // 0x59AA42
 {
     mangled_assert("?Toggle@NewTaskbar@UI@@SGXXZ");
     todo("implement");
-    _sub_59AA42();
 }
 
-_extern void _sub_59A6DF(UI::NewTaskbar *const, __int32, bool);
 void UI::NewTaskbar::SetPhase(__int32, bool) // 0x59A6DF
 {
     mangled_assert("?SetPhase@NewTaskbar@UI@@QAEXH_N@Z");
     todo("implement");
-    _sub_59A6DF(this, arg, arg);
 }
 
-_extern UI::NewTaskbar::ShipButtonData *_sub_599481(UI::NewTaskbar *const, __int32);
 UI::NewTaskbar::ShipButtonData *UI::NewTaskbar::GetButtonData(__int32) // 0x599481
 {
     mangled_assert("?GetButtonData@NewTaskbar@UI@@QAEPAUShipButtonData@12@H@Z");
     todo("implement");
-    UI::NewTaskbar::ShipButtonData * __result = _sub_599481(this, arg);
-    return __result;
 }
 
-_extern UI::NewTaskbar::ShipButtonData *_sub_5994AF(UI::NewTaskbar *const, __int32);
 UI::NewTaskbar::ShipButtonData *UI::NewTaskbar::GetButtonPreviousData(__int32) // 0x5994AF
 {
     mangled_assert("?GetButtonPreviousData@NewTaskbar@UI@@QAEPAUShipButtonData@12@H@Z");
     todo("implement");
-    UI::NewTaskbar::ShipButtonData * __result = _sub_5994AF(this, arg);
-    return __result;
 }
 
-_extern void _sub_59A2C1(UI::InterfaceElement *);
 void UI::NewTaskbar::OnShipBtnSelect(UI::InterfaceElement *sender) // 0x59A2C1
 {
     mangled_assert("?OnShipBtnSelect@NewTaskbar@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_59A2C1(sender);
 }
 
-_extern void _sub_599806(UI::NewTaskbar *const, bool);
 void UI::NewTaskbar::OnActivate(bool) // 0x599806
 {
     mangled_assert("?OnActivate@NewTaskbar@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_599806(this, arg);
 }
 
-_extern void _sub_59A3C4(UI::InterfaceElement *);
 void UI::NewTaskbar::OnShipNext(UI::InterfaceElement *sender) // 0x59A3C4
 {
     mangled_assert("?OnShipNext@NewTaskbar@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_59A3C4(sender);
 }
 
-_extern void _sub_59A3D2(UI::InterfaceElement *);
 void UI::NewTaskbar::OnShipPrev(UI::InterfaceElement *sender) // 0x59A3D2
 {
     mangled_assert("?OnShipPrev@NewTaskbar@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_59A3D2(sender);
 }
 
-_extern void _sub_59A281(UI::InterfaceElement *);
 void UI::NewTaskbar::OnShipBack(UI::InterfaceElement *sender) // 0x59A281
 {
     mangled_assert("?OnShipBack@NewTaskbar@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_59A281(sender);
 }
 
-_extern void _sub_599831(UI::InterfaceElement *);
 void UI::NewTaskbar::OnHideButton1(UI::InterfaceElement *sender) // 0x599831
 {
     mangled_assert("?OnHideButton1@NewTaskbar@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_599831(sender);
 }
 
-_extern void _sub_599843(UI::InterfaceElement *);
 void UI::NewTaskbar::OnHideButton2(UI::InterfaceElement *sender) // 0x599843
 {
     mangled_assert("?OnHideButton2@NewTaskbar@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_599843(sender);
 }
 
-_extern void _sub_5997DC(UI::NewTaskbar *const);
 void UI::NewTaskbar::NextShips() // 0x5997DC
 {
     mangled_assert("?NextShips@NewTaskbar@UI@@QAEXXZ");
     todo("implement");
-    _sub_5997DC(this);
 }
 
-_extern void _sub_59A4A8(UI::NewTaskbar *const);
 void UI::NewTaskbar::PrevShips() // 0x59A4A8
 {
     mangled_assert("?PrevShips@NewTaskbar@UI@@QAEXXZ");
     todo("implement");
-    _sub_59A4A8(this);
 }
 
-_extern void _sub_599700(UI::NewTaskbar *const, std::vector<unsigned int,std::allocator<unsigned int> > &);
 void UI::NewTaskbar::HighlightShips(std::vector<unsigned int,std::allocator<unsigned int> > &) // 0x599700
 {
     mangled_assert("?HighlightShips@NewTaskbar@UI@@QAEXAAV?$vector@IV?$allocator@I@std@@@std@@@Z");
     todo("implement");
-    _sub_599700(this, arg);
 }
 
-_extern void _sub_59A3E0(UI::InterfaceElement *);
 void UI::NewTaskbar::OnSubsystemSelect(UI::InterfaceElement *sender) // 0x59A3E0
 {
     mangled_assert("?OnSubsystemSelect@NewTaskbar@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_59A3E0(sender);
 }
 
-_extern void _sub_599809(GameEventSys::Listener * const, GameEventSys::Event const &);
 void UI::NewTaskbar::OnEvent(GameEventSys::Event const &) // 0x599809
 {
     mangled_assert("?OnEvent@NewTaskbar@UI@@UAEXABVEvent@GameEventSys@@@Z");
     // __shifted(UI::NewTaskbar, 412);
     todo("implement");
-    _sub_599809(this, arg);
 }
 
-_extern void _sub_59A5E9(UI::NewTaskbar *const, UI::ProgressBar *, bool, bool);
 void UI::NewTaskbar::SetHealthBarColors(UI::ProgressBar *, bool, bool) // 0x59A5E9
 {
     mangled_assert("?SetHealthBarColors@NewTaskbar@UI@@AAEXPAVProgressBar@2@_N1@Z");
     todo("implement");
-    _sub_59A5E9(this, arg, arg, arg);
 }
 
-_extern void _sub_59A680(UI::NewTaskbar *const, UI::NewTaskbar::TaskbarButton, bool);
 void UI::NewTaskbar::SetMenuButtonPressed(UI::NewTaskbar::TaskbarButton, bool) // 0x59A680
 {
     mangled_assert("?SetMenuButtonPressed@NewTaskbar@UI@@QAEXW4TaskbarButton@12@_N@Z");
     todo("implement");
-    _sub_59A680(this, arg, arg);
 }
 
-_extern void _sub_59A57D(UI::NewTaskbar *const, float);
 void UI::NewTaskbar::SetBlackBgAlpha(float) // 0x59A57D
 {
     mangled_assert("?SetBlackBgAlpha@NewTaskbar@UI@@QAEXM@Z");
     todo("implement");
-    _sub_59A57D(this, arg);
 }
 
 /* ---------- private code */
 
-_extern void _sub_599300(std::vector<unsigned int,std::allocator<unsigned int> > &);
 _static void UI::AddShipListToSelection(std::vector<unsigned int,std::allocator<unsigned int> > &shipList) // 0x599300
 {
     mangled_assert("UI::AddShipListToSelection");
     todo("implement");
-    _sub_599300(shipList);
 }
 
-_extern void _sub_59A4E1(std::vector<unsigned int,std::allocator<unsigned int> > &);
 _static void UI::RemoveShipListFromSelection(std::vector<unsigned int,std::allocator<unsigned int> > &shipList) // 0x59A4E1
 {
     mangled_assert("UI::RemoveShipListFromSelection");
     todo("implement");
-    _sub_59A4E1(shipList);
 }
 
-_extern void _sub_5993F3(std::vector<unsigned int,std::allocator<unsigned int> > &);
 _static void UI::FocusOnShipList(std::vector<unsigned int,std::allocator<unsigned int> > &shipList) // 0x5993F3
 {
     mangled_assert("UI::FocusOnShipList");
     todo("implement");
-    _sub_5993F3(shipList);
 }
 
-_extern float _sub_59963E(Sob *);
 _static float UI::GetSquadHealth(Sob *sob) // 0x59963E
 {
     mangled_assert("UI::GetSquadHealth");
     todo("implement");
-    float __result = _sub_59963E(sob);
-    return __result;
 }
 
-_extern float _sub_5996CC(Sob *);
 _static float UI::GetSquadMaxHealthValue(Sob *sob) // 0x5996CC
 {
     mangled_assert("UI::GetSquadMaxHealthValue");
     todo("implement");
-    float __result = _sub_5996CC(sob);
-    return __result;
 }
 
-_extern float _sub_599597(std::vector<unsigned int,std::allocator<unsigned int> > &);
 _static float UI::GetShipListHealth(std::vector<unsigned int,std::allocator<unsigned int> > &shipList) // 0x599597
 {
     mangled_assert("UI::GetShipListHealth");
     todo("implement");
-    float __result = _sub_599597(shipList);
-    return __result;
 }
 
-_extern bool _sub_599793(Sob *, bool);
 _static bool UI::IsValidForSelection(Sob *sob, bool anyShip) // 0x599793
 {
     mangled_assert("UI::IsValidForSelection");
     todo("implement");
-    bool __result = _sub_599793(sob, anyShip);
-    return __result;
 }
 #endif

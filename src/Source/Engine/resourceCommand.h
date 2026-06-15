@@ -259,76 +259,52 @@ static_assert(sizeof(ResourceCommandStaticInfo) == 20, "Invalid ResourceCommandS
 
 /* ---------- public code */
 
-_extern Resource *_sub_4B1440(ResourceCommand const *const);
 _inline Resource *ResourceCommand::getTarget() const // 0x4B1440
 {
     mangled_assert("?getTarget@ResourceCommand@@QBEPAVResource@@XZ");
     todo("implement");
-    Resource * __result = _sub_4B1440(this);
-    return __result;
 }
 
-_extern bool _sub_69C075(ResourceCommand const *const);
 _inline bool ResourceCommand::isResourcingSalvage() const // 0x69C075
 {
     mangled_assert("?isResourcingSalvage@ResourceCommand@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_69C075(this);
-    return __result;
 }
 
-_extern bool _sub_69C069(ResourceCommand const *const);
 _inline bool ResourceCommand::hasScannedForResources() const // 0x69C069
 {
     mangled_assert("?hasScannedForResources@ResourceCommand@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_69C069(this);
-    return __result;
 }
 
-_extern ResourceCommand::ResourcingState const _sub_69C065(ResourceCommand const *const);
 _inline ResourceCommand::ResourcingState const ResourceCommand::getState() const // 0x69C065
 {
     mangled_assert("?getState@ResourceCommand@@ABE?BW4ResourcingState@1@XZ");
     todo("implement");
-    ResourceCommand::ResourcingState const __result = _sub_69C065(this);
-    return __result;
 }
 
-_extern bool _sub_69C072(ResourceCommand *const);
 _inline bool ResourceCommand::isDeterministic() // 0x69C072
 {
     mangled_assert("?isDeterministic@ResourceCommand@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_69C072(this);
-    return __result;
 }
 
-_extern char const *_sub_69C8F5(ResourceCommand *const);
 _inline char const *ResourceCommand::saveToken() // 0x69C8F5
 {
     mangled_assert("?saveToken@ResourceCommand@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_69C8F5(this);
-    return __result;
 }
 
-_extern __int32 _sub_48C0C2(ResourceCommandStaticInfo const *const);
 _inline __int32 ResourceCommandStaticInfo::getCapacity() const // 0x48C0C2
 {
     mangled_assert("?getCapacity@ResourceCommandStaticInfo@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_48C0C2(this);
-    return __result;
 }
 
-_extern float const &_sub_48CAF1(ResourceCommandStaticInfo const *const);
 _inline float const &ResourceCommandStaticInfo::getResourceRate() const // 0x48CAF1
 {
     mangled_assert("?getResourceRate@ResourceCommandStaticInfo@@QBEABMXZ");
     todo("implement");
-    float const & __result = _sub_48CAF1(this);
-    return __result;
 }
 
 /* ---------- private code */

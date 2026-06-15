@@ -135,70 +135,53 @@
 
 /* ---------- public code */
 
-_extern _sub_4C42DC(Cloud *const, char const *);
 Cloud::Cloud(char const *) // 0x4C42DC
 {
     mangled_assert("??0Cloud@@QAE@PBD@Z");
     todo("implement");
-    _sub_4C42DC(this, arg);
 }
 
-_extern void _sub_4C439E(Cloud *const);
 _inline Cloud::~Cloud() // 0x4C439E
 {
     mangled_assert("??1Cloud@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4C439E(this);
 }
 
-_extern void _sub_4C453A(Cloud *const, Camera const *, MeshRenderProxy &);
 void Cloud::render(Camera const *, MeshRenderProxy &) // 0x4C453A
 {
     mangled_assert("?render@Cloud@@UAEXPBVCamera@@AAVMeshRenderProxy@@@Z");
     todo("implement");
-    _sub_4C453A(this, arg, arg);
 }
 
-_extern void _sub_4C45FE(Cloud *const, vector3 const &);
 void Cloud::setPosition(vector3 const &) // 0x4C45FE
 {
     mangled_assert("?setPosition@Cloud@@UAEXABVvector3@@@Z");
     todo("implement");
-    _sub_4C45FE(this, arg);
 }
 
-_extern void _sub_4C44B6(Cloud *const);
 void Cloud::randomizeVisual() // 0x4C44B6
 {
     mangled_assert("?randomizeVisual@Cloud@@IAEXXZ");
     todo("implement");
-    _sub_4C44B6(this);
 }
 
-_extern void _sub_4C463B(Cloud *const, float);
 void Cloud::setRotation(float) // 0x4C463B
 {
     mangled_assert("?setRotation@Cloud@@QAEXM@Z");
     todo("implement");
-    _sub_4C463B(this, arg);
 }
 
-_extern void _sub_4C461A(Cloud *const, float);
 void Cloud::setRadius(float) // 0x4C461A
 {
     mangled_assert("?setRadius@Cloud@@QAEXM@Z");
     todo("implement");
-    _sub_4C461A(this, arg);
 }
 
-_extern Cloud *_sub_4C43D3(char const *, vector3 const &, vector4 const &, float, float);
 Cloud *Cloud::Spawn(char const *meshname, vector3 const &position, vector4 const &color, float rotationDegrees, float radius) // 0x4C43D3
 {
     mangled_assert("?Spawn@Cloud@@SGPAV1@PBDABVvector3@@ABVvector4@@MM@Z");
     todo("implement");
-    Cloud * __result = _sub_4C43D3(meshname, position, color, rotationDegrees, radius);
-    return __result;
 }
 
 /* ---------- private code */

@@ -171,196 +171,145 @@ typedef `anonymous-namespace'::TargetDesc ?A0x38ddc5a2::TargetDesc;
 
 /* ---------- public code */
 
-_extern _sub_5209E3(BattleScarManager::DamageTarget *const);
 _inline BattleScarManager::DamageTarget::DamageTarget() // 0x5209E3
 {
     mangled_assert("??0DamageTarget@BattleScarManager@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5209E3(this);
 }
 
-_extern _sub_5209E6(RenderModelScars::Data *const);
 _inline RenderModelScars::Data::Data() // 0x5209E6
 {
     mangled_assert("??0Data@RenderModelScars@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5209E6(this);
 }
 
-_extern _sub_520A00(RenderModelScars *const, Sob const *);
 RenderModelScars::RenderModelScars(Sob const *) // 0x520A00
 {
     mangled_assert("??0RenderModelScars@@QAE@PBVSob@@@Z");
     todo("implement");
-    _sub_520A00(this, arg);
 }
 
-_extern _sub_520A62(RenderModelScars *const, Sob const *, SaveGameData *);
 RenderModelScars::RenderModelScars(Sob const *, SaveGameData *) // 0x520A62
 {
     mangled_assert("??0RenderModelScars@@QAE@PBVSob@@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_520A62(this, arg, arg);
 }
 
-_extern void _sub_520AF5(RenderModelScars::Data *const);
 _inline RenderModelScars::Data::~Data() // 0x520AF5
 {
     mangled_assert("??1Data@RenderModelScars@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_520AF5(this);
 }
 
-_extern void _sub_520B09(RenderModelScars *const);
 RenderModelScars::~RenderModelScars() // 0x520B09
 {
     mangled_assert("??1RenderModelScars@@QAE@XZ");
     todo("implement");
-    _sub_520B09(this);
 }
 
-_extern void _sub_521F06(RenderModelScars *const);
 void RenderModelScars::removeAllScars() // 0x521F06
 {
     mangled_assert("?removeAllScars@RenderModelScars@@QAEXXZ");
     todo("implement");
-    _sub_521F06(this);
 }
 
-_extern void _sub_521E23(RenderModelScars *const);
 void RenderModelScars::postRestore() // 0x521E23
 {
     mangled_assert("?postRestore@RenderModelScars@@QAEXXZ");
     todo("implement");
-    _sub_521E23(this);
 }
 
-_extern void _sub_52214A(RenderModelScars *const, HierarchyDynamic const *);
 void RenderModelScars::setHierarchy(HierarchyDynamic const *) // 0x52214A
 {
     mangled_assert("?setHierarchy@RenderModelScars@@QAEXPBVHierarchyDynamic@@@Z");
     todo("implement");
-    _sub_52214A(this, arg);
 }
 
-_extern void _sub_521CCF(RenderModelScars *const, char const *, BattleScarManager::DamageInfo const &, float, long, BattleScarManager::DamageResult &);
 void RenderModelScars::onWeaponHit(char const *, BattleScarManager::DamageInfo const &, float, long, BattleScarManager::DamageResult &) // 0x521CCF
 {
     mangled_assert("?onWeaponHit@RenderModelScars@@QAEXPBDABUDamageInfo@BattleScarManager@@MJAAW4DamageResult@3@@Z");
     todo("implement");
-    _sub_521CCF(this, arg, arg, arg, arg, arg);
 }
 
-_extern void _sub_521C25(RenderModelScars *const);
 void RenderModelScars::onHealthChange() // 0x521C25
 {
     mangled_assert("?onHealthChange@RenderModelScars@@QAEXXZ");
     todo("implement");
-    _sub_521C25(this);
 }
 
-_extern void _sub_5221ED(RenderModelScars *const, Camera const &, float);
 void RenderModelScars::updateBattleScars(Camera const &, float) // 0x5221ED
 {
     mangled_assert("?updateBattleScars@RenderModelScars@@QAEXABVCamera@@M@Z");
     todo("implement");
-    _sub_5221ED(this, arg, arg);
 }
 
-_extern void _sub_521F67(RenderModelScars *const);
 void RenderModelScars::removeBattleScarFX() // 0x521F67
 {
     mangled_assert("?removeBattleScarFX@RenderModelScars@@QAEXXZ");
     todo("implement");
-    _sub_521F67(this);
 }
 
-_extern void _sub_521486(RenderModelScars *const, Camera const &);
 void RenderModelScars::directRender(Camera const &) // 0x521486
 {
     mangled_assert("?directRender@RenderModelScars@@QAEXABVCamera@@@Z");
     todo("implement");
-    _sub_521486(this, arg);
 }
 
-_extern void _sub_52156F(RenderModelScars *const, char const *, unsigned __int32);
 void RenderModelScars::fillScar(char const *, unsigned __int32) // 0x52156F
 {
     mangled_assert("?fillScar@RenderModelScars@@QAEXPBDI@Z");
     todo("implement");
-    _sub_52156F(this, arg, arg);
 }
 
-_extern bool _sub_5220BD(RenderModelScars const *const, SaveGameData *);
 bool RenderModelScars::save(SaveGameData *) const // 0x5220BD
 {
     mangled_assert("?save@RenderModelScars@@QBE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_5220BD(this, arg);
-    return __result;
 }
 
-_extern bool _sub_522034(RenderModelScars *const, SaveGameData *);
 bool RenderModelScars::restore(SaveGameData *) // 0x522034
 {
     mangled_assert("?restore@RenderModelScars@@QAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_522034(this, arg);
-    return __result;
 }
 
-_extern Sob const *_sub_521B72(RenderModelScars const *const);
 Sob const *RenderModelScars::getSob() const // 0x521B72
 {
     mangled_assert("?getSob@RenderModelScars@@ABEPBVSob@@XZ");
     todo("implement");
-    Sob const * __result = _sub_521B72(this);
-    return __result;
 }
 
-_extern __int32 _sub_521B24(RenderModelScars const *const);
 __int32 RenderModelScars::getMaxScarTri() const // 0x521B24
 {
     mangled_assert("?getMaxScarTri@RenderModelScars@@ABEHXZ");
     todo("implement");
-    __int32 __result = _sub_521B24(this);
-    return __result;
 }
 
-_extern bool _sub_521B7A(RenderModelScars const *const, Camera const &);
 bool RenderModelScars::isVisible(Camera const &) const // 0x521B7A
 {
     mangled_assert("?isVisible@RenderModelScars@@ABE_NABVCamera@@@Z");
     todo("implement");
-    bool __result = _sub_521B7A(this, arg);
-    return __result;
 }
 
-_extern void _sub_522250(RenderModelScars *const, SobWithMesh const *);
 void RenderModelScars::updateTransformAndVis(SobWithMesh const *) // 0x522250
 {
     mangled_assert("?updateTransformAndVis@RenderModelScars@@AAEXPBVSobWithMesh@@@Z");
     todo("implement");
-    _sub_522250(this, arg);
 }
 
-_extern void _sub_52217F(RenderModelScars *const);
 void RenderModelScars::setupInternal() // 0x52217F
 {
     mangled_assert("?setupInternal@RenderModelScars@@AAEXXZ");
     todo("implement");
-    _sub_52217F(this);
 }
 
-_extern void _sub_5215F3(RenderModelScars *const, BattleScarManager::DamageInfo &);
 void RenderModelScars::genDamageEvent(BattleScarManager::DamageInfo &) // 0x5215F3
 {
     mangled_assert("?genDamageEvent@RenderModelScars@@AAEXAAUDamageInfo@BattleScarManager@@@Z");
     todo("implement");
-    _sub_5215F3(this, arg);
 }
 
 /* ---------- private code */

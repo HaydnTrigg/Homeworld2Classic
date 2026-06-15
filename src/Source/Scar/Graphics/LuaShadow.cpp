@@ -44,12 +44,10 @@ extern char const *LUALIB_SHADOW; // 0x8433A8
 
 /* ---------- public code */
 
-_extern void _sub_727F92(float, float, float, float);
 void setLevelShadowColour(float r, float g, float b, float a) // 0x727F92
 {
     mangled_assert("?setLevelShadowColour@@YGXMMMM@Z");
     todo("implement");
-    _sub_727F92(r, g, b, a);
 }
 
 /* ---------- private code */

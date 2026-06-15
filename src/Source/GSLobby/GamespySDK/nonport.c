@@ -146,100 +146,71 @@ _static
 
 /* ---------- public code */
 
-_extern unsigned long _sub_10006A35(...);
 unsigned long current_time(...) // 0x10006A35
 {
     mangled_assert("_current_time@0");
     todo("implement");
-    unsigned long __result = _sub_10006A35(arg);
-    return __result;
 }
 
-_extern void _sub_10006AB7(unsigned long);
 void msleep(unsigned long msec) // 0x10006AB7
 {
     mangled_assert("_msleep@4");
     todo("implement");
-    _sub_10006AB7(msec);
 }
 
-_extern void _sub_10006A1A(...);
 void SocketStartUp(...) // 0x10006A1A
 {
     mangled_assert("_SocketStartUp@0");
     todo("implement");
-    _sub_10006A1A(data);
 }
 
-_extern void _sub_10006A15(...);
 void SocketShutDown(...) // 0x10006A15
 {
     mangled_assert("_SocketShutDown@0");
     todo("implement");
-    _sub_10006A15(arg);
 }
 
-_extern char *_sub_10006A80(char const *);
 char *goastrdup(char const *src) // 0x10006A80
 {
     mangled_assert("_goastrdup@4");
     todo("implement");
-    char * __result = _sub_10006A80(src);
-    return __result;
 }
 
-_extern __int32 _sub_100069ED(unsigned __int32, __int32);
 __int32 SetSockBlocking(unsigned __int32 sock, __int32 isblocking) // 0x100069ED
 {
     mangled_assert("_SetSockBlocking@8");
     todo("implement");
-    __int32 __result = _sub_100069ED(sock, isblocking);
-    return __result;
 }
 
-_extern __int32 _sub_100069C6(unsigned __int32, __int32);
 __int32 SetReceiveBufferSize(unsigned __int32 sock, __int32 size) // 0x100069C6
 {
     mangled_assert("_SetReceiveBufferSize@8");
     todo("implement");
-    __int32 __result = _sub_100069C6(sock, size);
-    return __result;
 }
 
-_extern __int32 _sub_10006895(unsigned __int32);
 __int32 CanReceiveOnSocket(unsigned __int32 sock) // 0x10006895
 {
     mangled_assert("_CanReceiveOnSocket@4");
     todo("implement");
-    __int32 __result = _sub_10006895(sock);
-    return __result;
 }
 
-_extern hostent *_sub_10006A3B();
 hostent *getlocalhost() // 0x10006A3B
 {
     mangled_assert("_getlocalhost@0");
     todo("implement");
-    hostent * __result = _sub_10006A3B();
-    return __result;
 }
 
-_extern char const *_sub_100067A0();
 char const *GOAGetUniqueID_Internal() // 0x100067A0
 {
     mangled_assert("_GOAGetUniqueID_Internal@0");
     todo("implement");
-    char const * __result = _sub_100067A0();
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern void _sub_100068E1(char *);
 _static void GenerateID(char *keyval) // 0x100068E1
 {
     mangled_assert("GenerateID");
     todo("implement");
-    _sub_100068E1(keyval);
 }
 #endif

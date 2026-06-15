@@ -65,38 +65,28 @@ static_assert(sizeof(ShadowManager) == 16, "Invalid ShadowManager size");
 
 /* ---------- public code */
 
-_extern ShadowManager *_sub_10097F70();
 _inline ShadowManager *ShadowManager::i() // 0x10097F70
 {
     mangled_assert("?i@ShadowManager@@SGPAV1@XZ");
     todo("implement");
-    ShadowManager * __result = _sub_10097F70();
-    return __result;
 }
 
-_extern _sub_10097F20(ShadowManager *const);
 _inline ShadowManager::ShadowManager() // 0x10097F20
 {
     mangled_assert("??0ShadowManager@@QAE@XZ");
     todo("implement");
-    _sub_10097F20(this);
 }
 
-_extern void _sub_10097F80(ShadowManager *const, vector4 const &);
 _inline void ShadowManager::setLevelShadowColour(vector4 const &) // 0x10097F80
 {
     mangled_assert("?setLevelShadowColour@ShadowManager@@QAEXABVvector4@@@Z");
     todo("implement");
-    _sub_10097F80(this, arg);
 }
 
-_extern vector4 const &_sub_10097F60(ShadowManager *const);
 _inline vector4 const &ShadowManager::getLevelShadowColour() // 0x10097F60
 {
     mangled_assert("?getLevelShadowColour@ShadowManager@@QAEABVvector4@@XZ");
     todo("implement");
-    vector4 const & __result = _sub_10097F60(this);
-    return __result;
 }
 
 /* ---------- private code */

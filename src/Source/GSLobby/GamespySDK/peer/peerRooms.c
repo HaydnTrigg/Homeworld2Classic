@@ -137,104 +137,76 @@ extern void piSetLocalFlags(void *peer);
 
 /* ---------- public code */
 
-_extern PEERBool _sub_100153A5(void *);
 PEERBool piRoomsInit(void *peer) // 0x100153A5
 {
     mangled_assert("_piRoomsInit@4");
     todo("implement");
-    PEERBool __result = _sub_100153A5(peer);
-    return __result;
 }
 
-_extern void _sub_1001532B(void *);
 void piRoomsCleanup(void *peer) // 0x1001532B
 {
     mangled_assert("_piRoomsCleanup@4");
     todo("implement");
-    _sub_1001532B(peer);
 }
 
-_extern void _sub_10015712(void *, RoomType, char const *);
 void piStartedEnteringRoom(void *peer, RoomType roomType, char const *room) // 0x10015712
 {
     mangled_assert("_piStartedEnteringRoom@12");
     todo("implement");
-    _sub_10015712(peer, roomType, room);
 }
 
-_extern void _sub_10015199(void *, RoomType, char const *);
 void piFinishedEnteringRoom(void *peer, RoomType roomType, char const *name) // 0x10015199
 {
     mangled_assert("_piFinishedEnteringRoom@12");
     todo("implement");
-    _sub_10015199(peer, roomType, name);
 }
 
-_extern PEERBool _sub_10015614(void *, unsigned __int32, unsigned short);
 PEERBool piStartHosting(void *peer, unsigned __int32 socket, unsigned short port) // 0x10015614
 {
     mangled_assert("_piStartHosting@12");
     todo("implement");
-    PEERBool __result = _sub_10015614(peer, socket, port);
-    return __result;
 }
 
-_extern void _sub_100152D3(void *);
 void piResetHosting(void *peer) // 0x100152D3
 {
     mangled_assert("_piResetHosting@4");
     todo("implement");
-    _sub_100152D3(peer);
 }
 
-_extern void _sub_10015760(void *);
 void piStopHosting(void *peer) // 0x10015760
 {
     mangled_assert("_piStopHosting@4");
     todo("implement");
-    _sub_10015760(peer);
 }
 
-_extern PEERBool _sub_10015672(void *, unsigned __int32, unsigned short);
 PEERBool piStartReporting(void *peer, unsigned __int32 socket, unsigned short port) // 0x10015672
 {
     mangled_assert("_piStartReporting@12");
     todo("implement");
-    PEERBool __result = _sub_10015672(peer, socket, port);
-    return __result;
 }
 
-_extern void _sub_1001579B(void *);
 void piStopReporting(void *peer) // 0x1001579B
 {
     mangled_assert("_piStopReporting@4");
     todo("implement");
-    _sub_1001579B(peer);
 }
 
-_extern void _sub_100151FE(void *, RoomType, char const *);
 void piLeaveRoom(void *peer, RoomType roomType, char const *reason) // 0x100151FE
 {
     mangled_assert("_piLeaveRoom@12");
     todo("implement");
-    _sub_100151FE(peer, roomType, reason);
 }
 
-_extern PEERBool _sub_100152EE(void *, char const *, RoomType *);
 PEERBool piRoomToType(void *peer, char const *room, RoomType *roomType) // 0x100152EE
 {
     mangled_assert("_piRoomToType@12");
     todo("implement");
-    PEERBool __result = _sub_100152EE(peer, room, roomType);
-    return __result;
 }
 
-_extern void _sub_1001540D(void *);
 void piSetLocalFlags(void *peer) // 0x1001540D
 {
     mangled_assert("_piSetLocalFlags@4");
     todo("implement");
-    _sub_1001540D(peer);
 }
 
 /* ---------- private code */

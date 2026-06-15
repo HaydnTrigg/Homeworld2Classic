@@ -55,70 +55,52 @@ static_assert(sizeof(UI::DestinationTextInput) == 1560, "Invalid UI::Destination
 
 /* ---------- public code */
 
-_extern void _sub_5712E0(UI::DestinationTextInput *const, wchar_t const *);
 _inline void UI::DestinationTextInput::SetPrefix(wchar_t const *) // 0x5712E0
 {
     mangled_assert("?SetPrefix@DestinationTextInput@UI@@QAEXPB_W@Z");
     todo("implement");
-    _sub_5712E0(this, arg);
 }
 
-_extern void _sub_5712B2(UI::DestinationTextInput *const, wchar_t const *);
 _inline void UI::DestinationTextInput::SetFancyFormat(wchar_t const *) // 0x5712B2
 {
     mangled_assert("?SetFancyFormat@DestinationTextInput@UI@@QAEXPB_W@Z");
     todo("implement");
-    _sub_5712B2(this, arg);
 }
 
-_extern void _sub_571301(UI::DestinationTextInput *const, wchar_t const *);
 _inline void UI::DestinationTextInput::SetSuffix(wchar_t const *) // 0x571301
 {
     mangled_assert("?SetSuffix@DestinationTextInput@UI@@QAEXPB_W@Z");
     todo("implement");
-    _sub_571301(this, arg);
 }
 
-_extern void _sub_67F120(UI::DestinationTextInput *const, void (*)(UI::InterfaceElement *));
 _inline void UI::DestinationTextInput::ConnectOnAccept(void (*)(UI::InterfaceElement *)) // 0x67F120
 {
     mangled_assert("?ConnectOnAccept@DestinationTextInput@UI@@UAEXP6GXPAVInterfaceElement@2@@Z@Z");
     todo("implement");
-    _sub_67F120(this, arg);
 }
 
-_extern void _sub_67F1C8(UI::DestinationTextInput *const, void (*)(UI::InterfaceElement *));
 _inline void UI::DestinationTextInput::ConnectOnType(void (*)(UI::InterfaceElement *)) // 0x67F1C8
 {
     mangled_assert("?ConnectOnType@DestinationTextInput@UI@@UAEXP6GXPAVInterfaceElement@2@@Z@Z");
     todo("implement");
-    _sub_67F1C8(this, arg);
 }
 
-_extern void _sub_67F190(UI::DestinationTextInput *const, void (*)(UI::InterfaceElement *));
 _inline void UI::DestinationTextInput::ConnectOnKeypress(void (*)(UI::InterfaceElement *)) // 0x67F190
 {
     mangled_assert("?ConnectOnKeypress@DestinationTextInput@UI@@UAEXP6GXPAVInterfaceElement@2@@Z@Z");
     todo("implement");
-    _sub_67F190(this, arg);
 }
 
-_extern __int32 _sub_570BA3(UI::DestinationTextInput const *const);
 _inline __int32 UI::DestinationTextInput::GetDestination() const // 0x570BA3
 {
     mangled_assert("?GetDestination@DestinationTextInput@UI@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_570BA3(this);
-    return __result;
 }
 
-_extern wchar_t const *_sub_570BB5(UI::DestinationTextInput *const, unsigned __int32);
 _inline wchar_t const *UI::DestinationTextInput::GetName(unsigned __int32) // 0x570BB5
 {
     mangled_assert("?GetName@DestinationTextInput@UI@@QAEPB_WI@Z");
     todo("implement");
-    wchar_t const * __result = _sub_570BB5(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

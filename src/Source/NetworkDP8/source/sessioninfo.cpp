@@ -262,12 +262,10 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_6D7849(Net::SessionInfo *const, _DPNMSG_ENUM_HOSTS_RESPONSE const &);
 Net::SessionInfo::SessionInfo(_DPNMSG_ENUM_HOSTS_RESPONSE const &) // 0x6D7849
 {
     mangled_assert("??0SessionInfo@Net@@QAE@ABU_DPNMSG_ENUM_HOSTS_RESPONSE@@@Z");
     todo("implement");
-    _sub_6D7849(this, arg);
 }
 
 /* ---------- private code */

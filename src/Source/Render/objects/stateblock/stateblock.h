@@ -451,174 +451,118 @@ static_assert(sizeof(CompoundStateBlock) == 84, "Invalid CompoundStateBlock size
 
 /* ---------- public code */
 
-_extern char const *_sub_100B0D10(StateVariable const *const);
 _inline char const *StateVariable::getName() const // 0x100B0D10
 {
     mangled_assert("?getName@StateVariable@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_100B0D10(this);
-    return __result;
 }
 
-_extern unsigned long _sub_100B3D20(StateVariable const *const);
 _inline unsigned long StateVariable::getNameKey() const // 0x100B3D20
 {
     mangled_assert("?getNameKey@StateVariable@@QBEKXZ");
     todo("implement");
-    unsigned long __result = _sub_100B3D20(this);
-    return __result;
 }
 
-_extern StateVarType const _sub_100B0D20(StateVariable const *const);
 _inline StateVarType const StateVariable::getType() const // 0x100B0D20
 {
     mangled_assert("?getType@StateVariable@@QBE?BW4StateVarType@@XZ");
     todo("implement");
-    StateVarType const __result = _sub_100B0D20(this);
-    return __result;
 }
 
-_extern char const *_sub_10019300(StateCommandBlock const *const);
 _inline char const *StateCommandBlock::getName() const // 0x10019300
 {
     mangled_assert("?getName@StateCommandBlock@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_10019300(this);
-    return __result;
 }
 
-_extern unsigned long _sub_10019330(StateCommandBlock const *const);
 _inline unsigned long StateCommandBlock::getNameKey() const // 0x10019330
 {
     mangled_assert("?getNameKey@StateCommandBlock@@QBEKXZ");
     todo("implement");
-    unsigned long __result = _sub_10019330(this);
-    return __result;
 }
 
-_extern char const *_sub_100192F0(CompoundStateBlock const *const);
 _inline char const *CompoundStateBlock::getName() const // 0x100192F0
 {
     mangled_assert("?getName@CompoundStateBlock@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_100192F0(this);
-    return __result;
 }
 
-_extern unsigned long _sub_10019320(CompoundStateBlock const *const);
 _inline unsigned long CompoundStateBlock::getNameKey() const // 0x10019320
 {
     mangled_assert("?getNameKey@CompoundStateBlock@@QBEKXZ");
     todo("implement");
-    unsigned long __result = _sub_10019320(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_10019410(CompoundStateBlock const *const);
 _inline unsigned __int32 CompoundStateBlock::getNumVariables() const // 0x10019410
 {
     mangled_assert("?getNumVariables@CompoundStateBlock@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_10019410(this);
-    return __result;
 }
 
-_extern StateVariable *_sub_100194E0(CompoundStateBlock *const, unsigned __int32);
 _inline StateVariable *CompoundStateBlock::getVariable(unsigned __int32) // 0x100194E0
 {
     mangled_assert("?getVariable@CompoundStateBlock@@QAEPAVStateVariable@@I@Z");
     todo("implement");
-    StateVariable * __result = _sub_100194E0(this, arg);
-    return __result;
 }
 
-_extern StateVariable const *_sub_100194F0(CompoundStateBlock const *const, unsigned __int32);
 _inline StateVariable const *CompoundStateBlock::getVariable(unsigned __int32) const // 0x100194F0
 {
     mangled_assert("?getVariable@CompoundStateBlock@@QBEPBVStateVariable@@I@Z");
     todo("implement");
-    StateVariable const * __result = _sub_100194F0(this, arg);
-    return __result;
 }
 
-_extern std::vector<boost::shared_ptr<StateCommandBlock>,std::allocator<boost::shared_ptr<StateCommandBlock> > > &_sub_10019140(CompoundStateBlock *const);
 _inline std::vector<boost::shared_ptr<StateCommandBlock>,std::allocator<boost::shared_ptr<StateCommandBlock> > > &CompoundStateBlock::getBlocks() // 0x10019140
 {
     mangled_assert("?getBlocks@CompoundStateBlock@@QAEAAV?$vector@V?$shared_ptr@VStateCommandBlock@@@boost@@V?$allocator@V?$shared_ptr@VStateCommandBlock@@@boost@@@std@@@std@@XZ");
     todo("implement");
-    std::vector<boost::shared_ptr<StateCommandBlock>,std::allocator<boost::shared_ptr<StateCommandBlock> > > & __result = _sub_10019140(this);
-    return __result;
 }
 
-_extern std::vector<boost::shared_ptr<StateCommandBlock>,std::allocator<boost::shared_ptr<StateCommandBlock> > > const &_sub_10019150(CompoundStateBlock const *const);
 _inline std::vector<boost::shared_ptr<StateCommandBlock>,std::allocator<boost::shared_ptr<StateCommandBlock> > > const &CompoundStateBlock::getBlocks() const // 0x10019150
 {
     mangled_assert("?getBlocks@CompoundStateBlock@@QBEABV?$vector@V?$shared_ptr@VStateCommandBlock@@@boost@@V?$allocator@V?$shared_ptr@VStateCommandBlock@@@boost@@@std@@@std@@XZ");
     todo("implement");
-    std::vector<boost::shared_ptr<StateCommandBlock>,std::allocator<boost::shared_ptr<StateCommandBlock> > > const & __result = _sub_10019150(this);
-    return __result;
 }
 
-_extern std::vector<boost::shared_ptr<StateCommandBlock>,std::allocator<boost::shared_ptr<StateCommandBlock> > > &_sub_100192A0(CompoundStateBlock *const);
 _inline std::vector<boost::shared_ptr<StateCommandBlock>,std::allocator<boost::shared_ptr<StateCommandBlock> > > &CompoundStateBlock::getInvBlocks() // 0x100192A0
 {
     mangled_assert("?getInvBlocks@CompoundStateBlock@@QAEAAV?$vector@V?$shared_ptr@VStateCommandBlock@@@boost@@V?$allocator@V?$shared_ptr@VStateCommandBlock@@@boost@@@std@@@std@@XZ");
     todo("implement");
-    std::vector<boost::shared_ptr<StateCommandBlock>,std::allocator<boost::shared_ptr<StateCommandBlock> > > & __result = _sub_100192A0(this);
-    return __result;
 }
 
-_extern std::vector<boost::shared_ptr<StateCommandBlock>,std::allocator<boost::shared_ptr<StateCommandBlock> > > const &_sub_100192B0(CompoundStateBlock const *const);
 _inline std::vector<boost::shared_ptr<StateCommandBlock>,std::allocator<boost::shared_ptr<StateCommandBlock> > > const &CompoundStateBlock::getInvBlocks() const // 0x100192B0
 {
     mangled_assert("?getInvBlocks@CompoundStateBlock@@QBEABV?$vector@V?$shared_ptr@VStateCommandBlock@@@boost@@V?$allocator@V?$shared_ptr@VStateCommandBlock@@@boost@@@std@@@std@@XZ");
     todo("implement");
-    std::vector<boost::shared_ptr<StateCommandBlock>,std::allocator<boost::shared_ptr<StateCommandBlock> > > const & __result = _sub_100192B0(this);
-    return __result;
 }
 
-_extern bool _sub_10019560(CompoundStateBlock const *const);
 _inline bool CompoundStateBlock::hasVariables() const // 0x10019560
 {
     mangled_assert("?hasVariables@CompoundStateBlock@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_10019560(this);
-    return __result;
 }
 
-_extern void _sub_1001BB00(CompoundStateBlock *const, std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > const &);
 _inline void CompoundStateBlock::setStaticVariables(std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > const &) // 0x1001BB00
 {
     mangled_assert("?setStaticVariables@CompoundStateBlock@@QAEXABV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@Z");
     todo("implement");
-    _sub_1001BB00(this, arg);
 }
 
-_extern unsigned __int32 _sub_100193B0(CompoundStateBlock const *const);
 _inline unsigned __int32 CompoundStateBlock::getNumStaticVariables() const // 0x100193B0
 {
     mangled_assert("?getNumStaticVariables@CompoundStateBlock@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_100193B0(this);
-    return __result;
 }
 
-_extern bool _sub_100196B0(CompoundStateBlock const *const, unsigned __int32);
 _inline bool CompoundStateBlock::isBlockActive(unsigned __int32) const // 0x100196B0
 {
     mangled_assert("?isBlockActive@CompoundStateBlock@@QBE_NI@Z");
     todo("implement");
-    bool __result = _sub_100196B0(this, arg);
-    return __result;
 }
 
-_extern std::bitset<32> const &_sub_10019120(CompoundStateBlock const *const);
 _inline std::bitset<32> const &CompoundStateBlock::getBlockMask() const // 0x10019120
 {
     mangled_assert("?getBlockMask@CompoundStateBlock@@QBEABV?$bitset@$0CA@@std@@XZ");
     todo("implement");
-    std::bitset<32> const & __result = _sub_10019120(this);
-    return __result;
 }
 
 /* ---------- private code */

@@ -173,133 +173,95 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_524672(AttackState *const);
 void AttackState::Enter() // 0x524672
 {
     mangled_assert("?Enter@AttackState@@QAEXXZ");
     todo("implement");
-    _sub_524672(this);
 }
 
-_extern bool _sub_524AF2(AttackState *const, vector3 const &);
 bool AttackState::ProcessHyperspace(vector3 const &) // 0x524AF2
 {
     mangled_assert("?ProcessHyperspace@AttackState@@AAE_NABVvector3@@@Z");
     todo("implement");
-    bool __result = _sub_524AF2(this, arg);
-    return __result;
 }
 
-_extern bool _sub_52492D(AttackState *const);
 bool AttackState::HandleTacticalCombat() // 0x52492D
 {
     mangled_assert("?HandleTacticalCombat@AttackState@@AAE_NXZ");
     todo("implement");
-    bool __result = _sub_52492D(this);
-    return __result;
 }
 
-_extern void _sub_5253EA(AttackState *const);
 void AttackState::SubState_MovingToRendezVous() // 0x5253EA
 {
     mangled_assert("?SubState_MovingToRendezVous@AttackState@@AAEXXZ");
     todo("implement");
-    _sub_5253EA(this);
 }
 
-_extern bool _sub_524813(AttackState *const);
 bool AttackState::HandleDefendDecision() // 0x524813
 {
     mangled_assert("?HandleDefendDecision@AttackState@@AAE_NXZ");
     todo("implement");
-    bool __result = _sub_524813(this);
-    return __result;
 }
 
-_extern bool _sub_5244DD(AttackState *const);
 bool AttackState::CheckToSeeIfGroupShouldFlee() // 0x5244DD
 {
     mangled_assert("?CheckToSeeIfGroupShouldFlee@AttackState@@AAE_NXZ");
     todo("implement");
-    bool __result = _sub_5244DD(this);
-    return __result;
 }
 
-_extern void _sub_524481(AttackState *const, bool);
 void AttackState::CalcRetreatPos(bool) // 0x524481
 {
     mangled_assert("?CalcRetreatPos@AttackState@@AAEX_N@Z");
     todo("implement");
-    _sub_524481(this, arg);
 }
 
-_extern void _sub_524D8E(AttackState *const, bool);
 void AttackState::RetreatBackToSafeSpot(bool) // 0x524D8E
 {
     mangled_assert("?RetreatBackToSafeSpot@AttackState@@AAEX_N@Z");
     todo("implement");
-    _sub_524D8E(this, arg);
 }
 
-_extern bool _sub_524E8F(AttackState *const, AttackTarget *);
 bool AttackState::ShouldGroupAttack(AttackTarget *) // 0x524E8F
 {
     mangled_assert("?ShouldGroupAttack@AttackState@@AAE_NPAVAttackTarget@@@Z");
     todo("implement");
-    bool __result = _sub_524E8F(this, arg);
-    return __result;
 }
 
-_extern bool _sub_524FBB(AttackState *const);
 bool AttackState::SubState_Init() // 0x524FBB
 {
     mangled_assert("?SubState_Init@AttackState@@AAE_NXZ");
     todo("implement");
-    bool __result = _sub_524FBB(this);
-    return __result;
 }
 
-_extern void _sub_525660(AttackState *const);
 void AttackState::SubState_ReadyToEngage() // 0x525660
 {
     mangled_assert("?SubState_ReadyToEngage@AttackState@@AAEXXZ");
     todo("implement");
-    _sub_525660(this);
 }
 
-_extern bool _sub_525902(AttackState *const);
 bool AttackState::Update() // 0x525902
 {
     mangled_assert("?Update@AttackState@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_525902(this);
-    return __result;
 }
 
-_extern void _sub_524C62(AttackState *const, SquadronList &);
 void AttackState::ReIssue(SquadronList &) // 0x524C62
 {
     mangled_assert("?ReIssue@AttackState@@UAEXAAVSquadronList@@@Z");
     todo("implement");
-    _sub_524C62(this, arg);
 }
 
 /* ---------- private code */
 
-_extern void _sub_524677(vector3 const &, vector3 const &, vector3 &);
 _static void FindEngagePos(vector3 const &startPos, vector3 const &endPos, vector3 &outRVPos) // 0x524677
 {
     mangled_assert("FindEngagePos");
     todo("implement");
-    _sub_524677(startPos, endPos, outRVPos);
 }
 
-_extern bool _sub_524713(vector3 const &, vector3 const &, vector3 &);
 _static bool FindNextRendezVousPos(vector3 const &startPos, vector3 const &endPos, vector3 &outRVPos) // 0x524713
 {
     mangled_assert("FindNextRendezVousPos");
     todo("implement");
-    bool __result = _sub_524713(startPos, endPos, outRVPos);
-    return __result;
 }
 #endif

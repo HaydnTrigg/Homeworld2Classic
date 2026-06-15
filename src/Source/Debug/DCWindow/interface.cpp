@@ -312,92 +312,64 @@ _static
 
 /* ---------- public code */
 
-_extern bool _sub_10005C8F();
 bool dcwStartup() // 0x10005C8F
 {
     mangled_assert("?dcwStartup@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_10005C8F();
-    return __result;
 }
 
-_extern bool _sub_10005C66();
 bool dcwShutdown() // 0x10005C66
 {
     mangled_assert("?dcwShutdown@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_10005C66();
-    return __result;
 }
 
-_extern unsigned __int32 _sub_10005CDA();
 unsigned __int32 getLibraryID() // 0x10005CDA
 {
     mangled_assert("_getLibraryID");
     todo("implement");
-    unsigned __int32 __result = _sub_10005CDA();
-    return __result;
 }
 
-_extern void _sub_10005BF5(char const *, char const *);
 void dcwPrint(char const *key, char const *string) // 0x10005BF5
 {
     mangled_assert("?dcwPrint@@YGXPBD0@Z");
     todo("implement");
-    _sub_10005BF5(key, string);
 }
 
-_extern void _sub_10005BBA();
 void dcwConsoleValidate() // 0x10005BBA
 {
     mangled_assert("?dcwConsoleValidate@@YGXXZ");
     todo("implement");
-    _sub_10005BBA();
 }
 
-_extern bool _sub_10005C3C(void (*)(unsigned __int32, char *), unsigned __int32);
 bool dcwSetInputCB(void (*fn)(unsigned __int32, char *), unsigned __int32 ID) // 0x10005C3C
 {
     mangled_assert("?dcwSetInputCB@@YG_NP6GXIPAD@ZI@Z");
     todo("implement");
-    bool __result = _sub_10005C3C(fn, ID);
-    return __result;
 }
 
-_extern bool _sub_10005C37(void (*)(unsigned __int32, char *), unsigned __int32);
 bool dcwSetCharInputCB(void (*fn)(unsigned __int32, char *), unsigned __int32 ID) // 0x10005C37
 {
     mangled_assert("?dcwSetCharInputCB@@YG_NP6GXIPAD@ZI@Z");
     todo("implement");
-    bool __result = _sub_10005C37(fn, ID);
-    return __result;
 }
 
-_extern bool _sub_10005C4D(void (*)(unsigned __int32), unsigned __int32);
 bool dcwSetShutdownCB(void (*fn)(unsigned __int32), unsigned __int32 ID) // 0x10005C4D
 {
     mangled_assert("?dcwSetShutdownCB@@YG_NP6GXI@ZI@Z");
     todo("implement");
-    bool __result = _sub_10005C4D(fn, ID);
-    return __result;
 }
 
-_extern bool _sub_10005CE0(void *);
 bool setupFunctionTable(void *fnTable) // 0x10005CE0
 {
     mangled_assert("_setupFunctionTable");
     todo("implement");
-    bool __result = _sub_10005CE0(fnTable);
-    return __result;
 }
 
-_extern __int32 _sub_10005CA3(void *, unsigned long, void *);
 __int32 DllMain(void *hInstance, unsigned long reason, void *reserved) // 0x10005CA3
 {
     mangled_assert("_DllMain@12");
     todo("implement");
-    __int32 __result = _sub_10005CA3(hInstance, reason, reserved);
-    return __result;
 }
 
 /* ---------- private code */

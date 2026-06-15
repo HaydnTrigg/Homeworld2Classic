@@ -70,58 +70,40 @@ static_assert(sizeof(LatchPointManagerStatic) == 16, "Invalid LatchPointManagerS
 
 /* ---------- public code */
 
-_extern unsigned __int32 _sub_5356C0(LatchPointManager const *const);
 _inline unsigned __int32 LatchPointManager::numberOfRegisteredShips() const // 0x5356C0
 {
     mangled_assert("?numberOfRegisteredShips@LatchPointManager@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_5356C0(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_53567E(LatchPointManager const *const);
 _inline unsigned __int32 LatchPointManager::capacity() const // 0x53567E
 {
     mangled_assert("?capacity@LatchPointManager@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_53567E(this);
-    return __result;
 }
 
-_extern Selection const &_sub_48469C(LatchPointManager const *const);
 _inline Selection const &LatchPointManager::getRegisteredShips() const // 0x48469C
 {
     mangled_assert("?getRegisteredShips@LatchPointManager@@QBEABVSelection@@XZ");
     todo("implement");
-    Selection const & __result = _sub_48469C(this);
-    return __result;
 }
 
-_extern Ship *_sub_484662(LatchPointManager const *const);
 _inline Ship *LatchPointManager::getManagedShip() const // 0x484662
 {
     mangled_assert("?getManagedShip@LatchPointManager@@IBEPAVShip@@XZ");
     todo("implement");
-    Ship * __result = _sub_484662(this);
-    return __result;
 }
 
-_extern bool _sub_4864F6(LatchPointManager *const);
 _inline bool LatchPointManager::isDeterministic() // 0x4864F6
 {
     mangled_assert("?isDeterministic@LatchPointManager@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4864F6(this);
-    return __result;
 }
 
-_extern char const *_sub_48670A(LatchPointManager *const);
 _inline char const *LatchPointManager::saveToken() // 0x48670A
 {
     mangled_assert("?saveToken@LatchPointManager@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_48670A(this);
-    return __result;
 }
 
 /* ---------- private code */

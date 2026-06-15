@@ -38,45 +38,34 @@ static_assert(sizeof(NISDataMap<AnimCurve>) == 8, "Invalid NISDataMap<AnimCurve>
 
 /* ---------- public code */
 
-_extern _sub_54E975(NISDataMap<AnimCurve> *const);
 _inline NISDataMap<AnimCurve>::NISDataMap<AnimCurve>() // 0x54E975
 {
     mangled_assert("??0?$NISDataMap@VAnimCurve@@@@QAE@XZ");
     todo("implement");
-    _sub_54E975(this);
 }
 
-_extern void _sub_54EA50(NISDataMap<AnimCurve> *const);
 _inline NISDataMap<AnimCurve>::~NISDataMap<AnimCurve>() // 0x54EA50
 {
     mangled_assert("??1?$NISDataMap@VAnimCurve@@@@QAE@XZ");
     todo("implement");
-    _sub_54EA50(this);
 }
 
-_extern void _sub_54EC77(NISDataMap<AnimCurve> *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, AnimCurve *);
 _inline void NISDataMap<AnimCurve>::Add(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, AnimCurve *) // 0x54EC77
 {
     mangled_assert("?Add@?$NISDataMap@VAnimCurve@@@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVAnimCurve@@@Z");
     todo("implement");
-    _sub_54EC77(this, arg, arg);
 }
 
-_extern AnimCurve *_sub_54ECFD(NISDataMap<AnimCurve> *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &);
 _inline AnimCurve *NISDataMap<AnimCurve>::Get(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &) // 0x54ECFD
 {
     mangled_assert("?Get@?$NISDataMap@VAnimCurve@@@@QAEPAVAnimCurve@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    AnimCurve * __result = _sub_54ECFD(this, arg);
-    return __result;
 }
 
-_extern void _sub_54ECAB(NISDataMap<AnimCurve> *const);
 _inline void NISDataMap<AnimCurve>::Clear() // 0x54ECAB
 {
     mangled_assert("?Clear@?$NISDataMap@VAnimCurve@@@@QAEXXZ");
     todo("implement");
-    _sub_54ECAB(this);
 }
 
 /* ---------- private code */

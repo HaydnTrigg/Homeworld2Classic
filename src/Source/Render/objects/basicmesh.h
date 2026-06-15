@@ -213,114 +213,82 @@ static_assert(sizeof(BasicMesh) == 104, "Invalid BasicMesh size");
 
 /* ---------- public code */
 
-_extern void _sub_1001BAE0(BasicMesh *const, StateBlock_Type, std::vector<CompoundStateBlockInstance *,std::allocator<CompoundStateBlockInstance *> > *);
 _inline void BasicMesh::setShaderList(StateBlock_Type, std::vector<CompoundStateBlockInstance *,std::allocator<CompoundStateBlockInstance *> > *) // 0x1001BAE0
 {
     mangled_assert("?setShaderList@BasicMesh@@UAEXW4StateBlock_Type@@PAV?$vector@PAVCompoundStateBlockInstance@@V?$allocator@PAVCompoundStateBlockInstance@@@std@@@std@@@Z");
     todo("implement");
-    _sub_1001BAE0(this, arg, arg);
 }
 
-_extern __int32 _sub_10019390(BasicMesh const *const);
 _inline __int32 BasicMesh::getNumPolys() const // 0x10019390
 {
     mangled_assert("?getNumPolys@BasicMesh@@UBEHXZ");
     todo("implement");
-    __int32 __result = _sub_10019390(this);
-    return __result;
 }
 
-_extern void _sub_1001BAC0(BasicMesh *const, unsigned __int32);
 _inline void BasicMesh::setNumUVSets(unsigned __int32) // 0x1001BAC0
 {
     mangled_assert("?setNumUVSets@BasicMesh@@QAEXI@Z");
     todo("implement");
-    _sub_1001BAC0(this, arg);
 }
 
-_extern unsigned __int32 _sub_100193F0(BasicMesh const *const);
 _inline unsigned __int32 BasicMesh::getNumUVSets() const // 0x100193F0
 {
     mangled_assert("?getNumUVSets@BasicMesh@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_100193F0(this);
-    return __result;
 }
 
-_extern void _sub_10015AC0(BasicMesh *const, float, Mesh::LockType);
 _inline void BasicMesh::adjustDetail(float, Mesh::LockType) // 0x10015AC0
 {
     mangled_assert("?adjustDetail@BasicMesh@@UAEXMW4LockType@Mesh@@@Z");
     todo("implement");
-    _sub_10015AC0(this, arg, arg);
 }
 
-_extern void _sub_1001BA70(BasicMesh *const, float);
 _inline void BasicMesh::setMinLOD(float) // 0x1001BA70
 {
     mangled_assert("?setMinLOD@BasicMesh@@UAEXM@Z");
     todo("implement");
-    _sub_1001BA70(this, arg);
 }
 
-_extern void _sub_1001BA00(BasicMesh *const, float);
 _inline void BasicMesh::setDetailLevel(float) // 0x1001BA00
 {
     mangled_assert("?setDetailLevel@BasicMesh@@UAEXM@Z");
     todo("implement");
-    _sub_1001BA00(this, arg);
 }
 
-_extern _sub_1000D190(BasicMesh::TriGroup::PrimitiveGroup *const);
 _inline BasicMesh::TriGroup::PrimitiveGroup::PrimitiveGroup() // 0x1000D190
 {
     mangled_assert("??0PrimitiveGroup@TriGroup@BasicMesh@@QAE@XZ");
     todo("implement");
-    _sub_1000D190(this);
 }
 
-_extern void _sub_1001BB20(BasicMesh::TriGroup::PrimitiveGroup *const, PrimitiveType);
 _inline void BasicMesh::TriGroup::PrimitiveGroup::setType(PrimitiveType) // 0x1001BB20
 {
     mangled_assert("?setType@PrimitiveGroup@TriGroup@BasicMesh@@QAEXW4PrimitiveType@@@Z");
     todo("implement");
-    _sub_1001BB20(this, arg);
 }
 
-_extern PrimitiveType _sub_100194D0(BasicMesh::TriGroup::PrimitiveGroup const *const);
 _inline PrimitiveType BasicMesh::TriGroup::PrimitiveGroup::getType() const // 0x100194D0
 {
     mangled_assert("?getType@PrimitiveGroup@TriGroup@BasicMesh@@QBE?AW4PrimitiveType@@XZ");
     todo("implement");
-    PrimitiveType __result = _sub_100194D0(this);
-    return __result;
 }
 
-_extern __int32 _sub_10019370(BasicMesh::TriGroup::PrimitiveGroup const *const);
 _inline __int32 BasicMesh::TriGroup::PrimitiveGroup::getNumIndices() const // 0x10019370
 {
     mangled_assert("?getNumIndices@PrimitiveGroup@TriGroup@BasicMesh@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_10019370(this);
-    return __result;
 }
 
-_extern unsigned short *_sub_10019290(BasicMesh::TriGroup::PrimitiveGroup *const);
 _inline unsigned short *BasicMesh::TriGroup::PrimitiveGroup::getIndices() // 0x10019290
 {
     mangled_assert("?getIndices@PrimitiveGroup@TriGroup@BasicMesh@@QAEPAGXZ");
     todo("implement");
-    unsigned short * __result = _sub_10019290(this);
-    return __result;
 }
 
-_extern __int32 _sub_10077EB0(BasicMesh::TriGroup::PrimitiveGroup const *const);
 _inline __int32 BasicMesh::TriGroup::PrimitiveGroup::getLastNumIndices() const // 0x10077EB0
 {
     mangled_assert("?getLastNumIndices@PrimitiveGroup@TriGroup@BasicMesh@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_10077EB0(this);
-    return __result;
 }
 
 /* ---------- private code */

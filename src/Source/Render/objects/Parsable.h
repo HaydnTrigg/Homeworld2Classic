@@ -33,20 +33,16 @@ static_assert(sizeof(Parsable) == 1, "Invalid Parsable size");
 
 /* ---------- public code */
 
-_extern _sub_1002E3F0(Parsable *const);
 _inline Parsable::Parsable() // 0x1002E3F0
 {
     mangled_assert("??0Parsable@@QAE@XZ");
     todo("implement");
-    _sub_1002E3F0(this);
 }
 
-_extern void _sub_1002EDE0(Parsable *const);
 _inline Parsable::~Parsable() // 0x1002EDE0
 {
     mangled_assert("??1Parsable@@QAE@XZ");
     todo("implement");
-    _sub_1002EDE0(this);
 }
 
 /* ---------- private code */

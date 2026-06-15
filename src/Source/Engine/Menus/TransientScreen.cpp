@@ -86,28 +86,22 @@
 
 /* ---------- public code */
 
-_extern _sub_5AD813(UI::TransientScreen *const, char const *);
 UI::TransientScreen::TransientScreen(char const *) // 0x5AD813
 {
     mangled_assert("??0TransientScreen@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_5AD813(this, arg);
 }
 
-_extern void _sub_5AD835(UI::TransientScreen *const);
 UI::TransientScreen::~TransientScreen() // 0x5AD835
 {
     mangled_assert("??1TransientScreen@UI@@UAE@XZ");
     todo("implement");
-    _sub_5AD835(this);
 }
 
-_extern void _sub_5AD862(UI::TransientScreen *const, LuaConfig &);
 void UI::TransientScreen::OnLoad(LuaConfig &) // 0x5AD862
 {
     mangled_assert("?OnLoad@TransientScreen@UI@@MAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_5AD862(this, arg);
 }
 
 /* ---------- private code */

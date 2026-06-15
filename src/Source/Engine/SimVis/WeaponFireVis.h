@@ -62,49 +62,34 @@ static_assert(sizeof(WeaponFireVis) == 20, "Invalid WeaponFireVis size");
 
 /* ---------- public code */
 
-_extern EffectContainer *_sub_524327(WeaponFireVis *const);
 _inline EffectContainer *WeaponFireVis::getEffectContainer() // 0x524327
 {
     mangled_assert("?getEffectContainer@WeaponFireVis@@UAEPAVEffectContainer@@XZ");
     todo("implement");
-    EffectContainer * __result = _sub_524327(this);
-    return __result;
 }
 
-_extern EffectContainer const *_sub_52432B(WeaponFireVis const *const);
 _inline EffectContainer const *WeaponFireVis::getEffectContainer() const // 0x52432B
 {
     mangled_assert("?getEffectContainer@WeaponFireVis@@UBEPBVEffectContainer@@XZ");
     todo("implement");
-    EffectContainer const * __result = _sub_52432B(this);
-    return __result;
 }
 
-_extern RenderModelScars *_sub_524335(WeaponFireVis *const);
 _inline RenderModelScars *WeaponFireVis::getRenderModelScars() // 0x524335
 {
     mangled_assert("?getRenderModelScars@WeaponFireVis@@UAEPAVRenderModelScars@@XZ");
     todo("implement");
-    RenderModelScars * __result = _sub_524335(this);
-    return __result;
 }
 
-_extern EmitterContainer *_sub_52432F(WeaponFireVis *const);
 _inline EmitterContainer *WeaponFireVis::getEmitterContainer() // 0x52432F
 {
     mangled_assert("?getEmitterContainer@WeaponFireVis@@UAEPAVEmitterContainer@@XZ");
     todo("implement");
-    EmitterContainer * __result = _sub_52432F(this);
-    return __result;
 }
 
-_extern EmitterContainer const *_sub_524332(WeaponFireVis const *const);
 _inline EmitterContainer const *WeaponFireVis::getEmitterContainer() const // 0x524332
 {
     mangled_assert("?getEmitterContainer@WeaponFireVis@@UBEPBVEmitterContainer@@XZ");
     todo("implement");
-    EmitterContainer const * __result = _sub_524332(this);
-    return __result;
 }
 
 /* ---------- private code */

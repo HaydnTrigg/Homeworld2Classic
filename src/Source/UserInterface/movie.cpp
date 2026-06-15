@@ -130,128 +130,94 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_687A91(UI::Movie *const, LuaConfig &);
 UI::Movie::Movie(LuaConfig &) // 0x687A91
 {
     mangled_assert("??0Movie@UI@@QAE@AAVLuaConfig@@@Z");
     todo("implement");
-    _sub_687A91(this, arg);
 }
 
-_extern _sub_687B63(UI::Movie *const, UI::Movie const &);
 UI::Movie::Movie(UI::Movie const &) // 0x687B63
 {
     mangled_assert("??0Movie@UI@@QAE@ABV01@@Z");
     todo("implement");
-    _sub_687B63(this, arg);
 }
 
-_extern void _sub_687D7F(UI::Movie *const);
 void UI::Movie::CommonInit() // 0x687D7F
 {
     mangled_assert("?CommonInit@Movie@UI@@AAEXXZ");
     todo("implement");
-    _sub_687D7F(this);
 }
 
-_extern void _sub_6882B6(UI::Movie *const, LuaConfig &);
 void UI::Movie::Load(LuaConfig &) // 0x6882B6
 {
     mangled_assert("?Load@Movie@UI@@QAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_6882B6(this, arg);
 }
 
-_extern UI::InterfaceElement *_sub_688BC5(UI::Movie *const);
 UI::InterfaceElement *UI::Movie::clone() // 0x688BC5
 {
     mangled_assert("?clone@Movie@UI@@UAEPAVInterfaceElement@2@XZ");
     todo("implement");
-    UI::InterfaceElement * __result = _sub_688BC5(this);
-    return __result;
 }
 
-_extern void _sub_687C6C(UI::Movie *const);
 UI::Movie::~Movie() // 0x687C6C
 {
     mangled_assert("??1Movie@UI@@UAE@XZ");
     todo("implement");
-    _sub_687C6C(this);
 }
 
-_extern float _sub_687E3E(UI::Movie *const, float);
 float UI::Movie::ComputeFade(float) // 0x687E3E
 {
     mangled_assert("?ComputeFade@Movie@UI@@AAEMM@Z");
     todo("implement");
-    float __result = _sub_687E3E(this, arg);
-    return __result;
 }
 
-_extern void _sub_687F1C(UI::Movie *const, Vector_2i const &, Rect_i const &);
 void UI::Movie::Draw2(Vector_2i const &, Rect_i const &) // 0x687F1C
 {
     mangled_assert("?Draw2@Movie@UI@@UAEXABUVector_2i@@ABURect_i@@@Z");
     todo("implement");
-    _sub_687F1C(this, arg, arg);
 }
 
-_extern unsigned __int32 _sub_688242(UI::Movie *const);
 unsigned __int32 UI::Movie::GetElapsedTime() // 0x688242
 {
     mangled_assert("?GetElapsedTime@Movie@UI@@QAEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_688242(this);
-    return __result;
 }
 
-_extern void _sub_687DB0(UI::Movie *const);
 void UI::Movie::ComputeAbortFade() // 0x687DB0
 {
     mangled_assert("?ComputeAbortFade@Movie@UI@@AAEXXZ");
     todo("implement");
-    _sub_687DB0(this);
 }
 
-_extern void _sub_6884E5(UI::Movie *const, unsigned __int32);
 void UI::Movie::OnUpdate(unsigned __int32) // 0x6884E5
 {
     mangled_assert("?OnUpdate@Movie@UI@@UAEXI@Z");
     todo("implement");
-    _sub_6884E5(this, arg);
 }
 
-_extern void _sub_688708(UI::Movie *const, unsigned __int32);
 void UI::Movie::Play(unsigned __int32) // 0x688708
 {
     mangled_assert("?Play@Movie@UI@@QAEXI@Z");
     todo("implement");
-    _sub_688708(this, arg);
 }
 
-_extern void _sub_688B38(UI::Movie *const);
 void UI::Movie::Stop() // 0x688B38
 {
     mangled_assert("?Stop@Movie@UI@@QAEXXZ");
     todo("implement");
-    _sub_688B38(this);
 }
 
-_extern void *_sub_688B25(UI::Movie *const, void (*)());
 void *UI::Movie::SetCallback(void (*)()) // 0x688B25
 {
     mangled_assert("?SetCallback@Movie@UI@@QAEPAXP6GXXZ@Z");
     todo("implement");
-    void * __result = _sub_688B25(this, arg);
-    return __result;
 }
 
-_extern void _sub_68846E(UI::Movie *const, unsigned char, UI::KeyModifier const &);
 void UI::Movie::OnKeyPressed(unsigned char, UI::KeyModifier const &) // 0x68846E
 {
     mangled_assert("?OnKeyPressed@Movie@UI@@MAEXEABVKeyModifier@2@@Z");
     todo("implement");
-    _sub_68846E(this, arg, arg);
 }
 
 /* ---------- private code */

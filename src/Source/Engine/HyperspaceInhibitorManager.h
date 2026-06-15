@@ -50,31 +50,22 @@ static_assert(sizeof(HyperspaceInhibitorStatic) == 4, "Invalid HyperspaceInhibit
 
 /* ---------- public code */
 
-_extern bool _sub_485DC7(HyperspaceInhibitorManager *const);
 _inline bool HyperspaceInhibitorManager::isDeterministic() // 0x485DC7
 {
     mangled_assert("?isDeterministic@HyperspaceInhibitorManager@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_485DC7(this);
-    return __result;
 }
 
-_extern char const *_sub_485E3E(HyperspaceInhibitorManager *const);
 _inline char const *HyperspaceInhibitorManager::saveToken() // 0x485E3E
 {
     mangled_assert("?saveToken@HyperspaceInhibitorManager@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_485E3E(this);
-    return __result;
 }
 
-_extern float _sub_45A884(HyperspaceInhibitorStatic const *const);
 _inline float HyperspaceInhibitorStatic::getRadius() const // 0x45A884
 {
     mangled_assert("?getRadius@HyperspaceInhibitorStatic@@QBEMXZ");
     todo("implement");
-    float __result = _sub_45A884(this);
-    return __result;
 }
 
 /* ---------- private code */

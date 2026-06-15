@@ -63,53 +63,40 @@ static_assert(sizeof(mempool_alloc<std::_List_node<EffectAnimationList::Animatio
 
 /* ---------- public code */
 
-_extern _sub_515C42(mempool_alloc<EffectAnimationList::AnimationInstance> *const, _HMEMPOOL *);
 _inline mempool_alloc<EffectAnimationList::AnimationInstance>::mempool_alloc<EffectAnimationList::AnimationInstance>(_HMEMPOOL *) // 0x515C42
 {
     mangled_assert("??0?$mempool_alloc@UAnimationInstance@EffectAnimationList@@@@QAE@PAU_HMEMPOOL@@@Z");
     todo("implement");
-    _sub_515C42(this, arg);
 }
 
-_extern _sub_515780(mempool_alloc<std::_List_node<EffectAnimationList::AnimationInstance,void *> > *const, mempool_alloc<EffectAnimationList::AnimationInstance> const &);
 _inline mempool_alloc<std::_List_node<EffectAnimationList::AnimationInstance,void *> >::mempool_alloc<std::_List_node<EffectAnimationList::AnimationInstance,void *> ><EffectAnimationList::AnimationInstance>(mempool_alloc<EffectAnimationList::AnimationInstance> const &) // 0x515780
 {
     mangled_assert("??$?0UAnimationInstance@EffectAnimationList@@@?$mempool_alloc@U?$_List_node@UAnimationInstance@EffectAnimationList@@PAX@std@@@@QAE@ABV?$mempool_alloc@UAnimationInstance@EffectAnimationList@@@@@Z");
     todo("implement");
-    _sub_515780(this, arg);
 }
 
-_extern void _sub_515DB3(mempool_alloc<std::_List_node<EffectAnimationList::AnimationInstance,void *> > *const);
 _inline mempool_alloc<std::_List_node<EffectAnimationList::AnimationInstance,void *> >::~mempool_alloc<std::_List_node<EffectAnimationList::AnimationInstance,void *> >() // 0x515DB3
 {
     mangled_assert("??1?$mempool_alloc@U?$_List_node@UAnimationInstance@EffectAnimationList@@PAX@std@@@@QAE@XZ");
     todo("implement");
-    _sub_515DB3(this);
 }
 
-_extern void _sub_515DB4(mempool_alloc<EffectAnimationList::AnimationInstance> *const);
 _inline mempool_alloc<EffectAnimationList::AnimationInstance>::~mempool_alloc<EffectAnimationList::AnimationInstance>() // 0x515DB4
 {
     mangled_assert("??1?$mempool_alloc@UAnimationInstance@EffectAnimationList@@@@QAE@XZ");
     todo("implement");
-    _sub_515DB4(this);
 }
 
-_extern std::_List_node<EffectAnimationList::AnimationInstance,void *> *_sub_5161DE(mempool_alloc<std::_List_node<EffectAnimationList::AnimationInstance,void *> > *const, unsigned __int32, void const *);
 _inline std::_List_node<EffectAnimationList::AnimationInstance,void *> *mempool_alloc<std::_List_node<EffectAnimationList::AnimationInstance,void *> >::allocate(unsigned __int32, void const *) // 0x5161DE
 {
     mangled_assert("?allocate@?$mempool_alloc@U?$_List_node@UAnimationInstance@EffectAnimationList@@PAX@std@@@@QAEPAU?$_List_node@UAnimationInstance@EffectAnimationList@@PAX@std@@IPBX@Z");
     todo("implement");
-    std::_List_node<EffectAnimationList::AnimationInstance,void *> * __result = _sub_5161DE(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_51629B(mempool_alloc<std::_List_node<EffectAnimationList::AnimationInstance,void *> > *const, std::_List_node<EffectAnimationList::AnimationInstance,void *> *, unsigned __int32);
 _inline void mempool_alloc<std::_List_node<EffectAnimationList::AnimationInstance,void *> >::deallocate(std::_List_node<EffectAnimationList::AnimationInstance,void *> *, unsigned __int32) // 0x51629B
 {
     mangled_assert("?deallocate@?$mempool_alloc@U?$_List_node@UAnimationInstance@EffectAnimationList@@PAX@std@@@@QAEXPAU?$_List_node@UAnimationInstance@EffectAnimationList@@PAX@std@@I@Z");
     todo("implement");
-    _sub_51629B(this, arg, arg);
 }
 
 /* ---------- private code */
@@ -182,102 +169,76 @@ static_assert(sizeof(mempool_alloc<LocalizerResourceTxt::Range>) == 4, "Invalid 
 
 /* ---------- public code */
 
-_extern _sub_10005D5D(mempool_alloc<std::pair<int,LocalizerResourceTxt::Line> > *const, _HMEMPOOL *);
 _inline mempool_alloc<std::pair<int,LocalizerResourceTxt::Line> >::mempool_alloc<std::pair<int,LocalizerResourceTxt::Line> >(_HMEMPOOL *) // 0x10005D5D
 {
     mangled_assert("??0?$mempool_alloc@U?$pair@HULine@LocalizerResourceTxt@@@std@@@@QAE@PAU_HMEMPOOL@@@Z");
     todo("implement");
-    _sub_10005D5D(this, arg);
 }
 
-_extern _sub_10005D68(mempool_alloc<LocalizerResourceTxt::Range> *const, _HMEMPOOL *);
 _inline mempool_alloc<LocalizerResourceTxt::Range>::mempool_alloc<LocalizerResourceTxt::Range>(_HMEMPOOL *) // 0x10005D68
 {
     mangled_assert("??0?$mempool_alloc@URange@LocalizerResourceTxt@@@@QAE@PAU_HMEMPOOL@@@Z");
     todo("implement");
-    _sub_10005D68(this, arg);
 }
 
-_extern void _sub_10005E40(mempool_alloc<std::pair<int,LocalizerResourceTxt::Line> > *const);
 _inline mempool_alloc<std::pair<int,LocalizerResourceTxt::Line> >::~mempool_alloc<std::pair<int,LocalizerResourceTxt::Line> >() // 0x10005E40
 {
     mangled_assert("??1?$mempool_alloc@U?$pair@HULine@LocalizerResourceTxt@@@std@@@@QAE@XZ");
     todo("implement");
-    _sub_10005E40(this);
 }
 
-_extern void _sub_10005E41(mempool_alloc<LocalizerResourceTxt::Range> *const);
 _inline mempool_alloc<LocalizerResourceTxt::Range>::~mempool_alloc<LocalizerResourceTxt::Range>() // 0x10005E41
 {
     mangled_assert("??1?$mempool_alloc@URange@LocalizerResourceTxt@@@@QAE@XZ");
     todo("implement");
-    _sub_10005E41(this);
 }
 
-_extern void _sub_1000745F(mempool_alloc<std::pair<int,LocalizerResourceTxt::Line> > *const, std::pair<int,LocalizerResourceTxt::Line> *, std::pair<int,LocalizerResourceTxt::Line> const &);
 _inline void mempool_alloc<std::pair<int,LocalizerResourceTxt::Line> >::construct(std::pair<int,LocalizerResourceTxt::Line> *, std::pair<int,LocalizerResourceTxt::Line> const &) // 0x1000745F
 {
     mangled_assert("?construct@?$mempool_alloc@U?$pair@HULine@LocalizerResourceTxt@@@std@@@@QAEXPAU?$pair@HULine@LocalizerResourceTxt@@@std@@ABU23@@Z");
     todo("implement");
-    _sub_1000745F(this, arg, arg);
 }
 
-_extern void _sub_10007476(mempool_alloc<LocalizerResourceTxt::Range> *const, LocalizerResourceTxt::Range *, LocalizerResourceTxt::Range const &);
 _inline void mempool_alloc<LocalizerResourceTxt::Range>::construct(LocalizerResourceTxt::Range *, LocalizerResourceTxt::Range const &) // 0x10007476
 {
     mangled_assert("?construct@?$mempool_alloc@URange@LocalizerResourceTxt@@@@QAEXPAURange@LocalizerResourceTxt@@ABU23@@Z");
     todo("implement");
-    _sub_10007476(this, arg, arg);
 }
 
-_extern void _sub_100074E4(mempool_alloc<std::pair<int,LocalizerResourceTxt::Line> > *const, std::pair<int,LocalizerResourceTxt::Line> *);
 _inline void mempool_alloc<std::pair<int,LocalizerResourceTxt::Line> >::destroy(std::pair<int,LocalizerResourceTxt::Line> *) // 0x100074E4
 {
     mangled_assert("?destroy@?$mempool_alloc@U?$pair@HULine@LocalizerResourceTxt@@@std@@@@QAEXPAU?$pair@HULine@LocalizerResourceTxt@@@std@@@Z");
     todo("implement");
-    _sub_100074E4(this, arg);
 }
 
-_extern void _sub_100074E7(mempool_alloc<LocalizerResourceTxt::Range> *const, LocalizerResourceTxt::Range *);
 _inline void mempool_alloc<LocalizerResourceTxt::Range>::destroy(LocalizerResourceTxt::Range *) // 0x100074E7
 {
     mangled_assert("?destroy@?$mempool_alloc@URange@LocalizerResourceTxt@@@@QAEXPAURange@LocalizerResourceTxt@@@Z");
     todo("implement");
-    _sub_100074E7(this, arg);
 }
 
-_extern std::pair<int,LocalizerResourceTxt::Line> *_sub_100073B1(mempool_alloc<std::pair<int,LocalizerResourceTxt::Line> > *const, unsigned __int32, void const *);
 _inline std::pair<int,LocalizerResourceTxt::Line> *mempool_alloc<std::pair<int,LocalizerResourceTxt::Line> >::allocate(unsigned __int32, void const *) // 0x100073B1
 {
     mangled_assert("?allocate@?$mempool_alloc@U?$pair@HULine@LocalizerResourceTxt@@@std@@@@QAEPAU?$pair@HULine@LocalizerResourceTxt@@@std@@IPBX@Z");
     todo("implement");
-    std::pair<int,LocalizerResourceTxt::Line> * __result = _sub_100073B1(this, arg, arg);
-    return __result;
 }
 
-_extern LocalizerResourceTxt::Range *_sub_100073CC(mempool_alloc<LocalizerResourceTxt::Range> *const, unsigned __int32, void const *);
 _inline LocalizerResourceTxt::Range *mempool_alloc<LocalizerResourceTxt::Range>::allocate(unsigned __int32, void const *) // 0x100073CC
 {
     mangled_assert("?allocate@?$mempool_alloc@URange@LocalizerResourceTxt@@@@QAEPAURange@LocalizerResourceTxt@@IPBX@Z");
     todo("implement");
-    LocalizerResourceTxt::Range * __result = _sub_100073CC(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_100074B8(mempool_alloc<std::pair<int,LocalizerResourceTxt::Line> > *const, std::pair<int,LocalizerResourceTxt::Line> *, unsigned __int32);
 _inline void mempool_alloc<std::pair<int,LocalizerResourceTxt::Line> >::deallocate(std::pair<int,LocalizerResourceTxt::Line> *, unsigned __int32) // 0x100074B8
 {
     mangled_assert("?deallocate@?$mempool_alloc@U?$pair@HULine@LocalizerResourceTxt@@@std@@@@QAEXPAU?$pair@HULine@LocalizerResourceTxt@@@std@@I@Z");
     todo("implement");
-    _sub_100074B8(this, arg, arg);
 }
 
-_extern void _sub_100074CE(mempool_alloc<LocalizerResourceTxt::Range> *const, LocalizerResourceTxt::Range *, unsigned __int32);
 _inline void mempool_alloc<LocalizerResourceTxt::Range>::deallocate(LocalizerResourceTxt::Range *, unsigned __int32) // 0x100074CE
 {
     mangled_assert("?deallocate@?$mempool_alloc@URange@LocalizerResourceTxt@@@@QAEXPAURange@LocalizerResourceTxt@@I@Z");
     todo("implement");
-    _sub_100074CE(this, arg, arg);
 }
 
 /* ---------- private code */

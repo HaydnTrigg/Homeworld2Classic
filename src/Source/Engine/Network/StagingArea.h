@@ -111,58 +111,40 @@ extern _inline bool operator!=(StagingArea::HostSettings const &x, StagingArea::
 
 /* ---------- public code */
 
-_extern bool _sub_588563(StagingArea const *const);
 _inline bool StagingArea::IsGameStarted() const // 0x588563
 {
     mangled_assert("?IsGameStarted@StagingArea@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_588563(this);
-    return __result;
 }
 
-_extern Net::Session *_sub_587D14(StagingArea *const);
 _inline Net::Session *StagingArea::GetSession() // 0x587D14
 {
     mangled_assert("?GetSession@StagingArea@@QAEPAVSession@Net@@XZ");
     todo("implement");
-    Net::Session * __result = _sub_587D14(this);
-    return __result;
 }
 
-_extern bool _sub_5A1E21(StagingArea::PlayerSettings const &, StagingArea::PlayerSettings const &);
 _inline bool operator==(StagingArea::PlayerSettings const &x, StagingArea::PlayerSettings const &y) // 0x5A1E21
 {
     mangled_assert("??8@YG_NABUPlayerSettings@StagingArea@@0@Z");
     todo("implement");
-    bool __result = _sub_5A1E21(x, y);
-    return __result;
 }
 
-_extern bool _sub_5A1E4B(StagingArea::PlayerSettings const &, StagingArea::PlayerSettings const &);
 _inline bool operator!=(StagingArea::PlayerSettings const &x, StagingArea::PlayerSettings const &y) // 0x5A1E4B
 {
     mangled_assert("??9@YG_NABUPlayerSettings@StagingArea@@0@Z");
     todo("implement");
-    bool __result = _sub_5A1E4B(x, y);
-    return __result;
 }
 
-_extern bool _sub_586F63(StagingArea::HostSettings const &, StagingArea::HostSettings const &);
 _inline bool operator==(StagingArea::HostSettings const &x, StagingArea::HostSettings const &y) // 0x586F63
 {
     mangled_assert("??8@YG_NABUHostSettings@StagingArea@@0@Z");
     todo("implement");
-    bool __result = _sub_586F63(x, y);
-    return __result;
 }
 
-_extern bool _sub_586FAD(StagingArea::HostSettings const &, StagingArea::HostSettings const &);
 _inline bool operator!=(StagingArea::HostSettings const &x, StagingArea::HostSettings const &y) // 0x586FAD
 {
     mangled_assert("??9@YG_NABUHostSettings@StagingArea@@0@Z");
     todo("implement");
-    bool __result = _sub_586FAD(x, y);
-    return __result;
 }
 
 /* ---------- private code */

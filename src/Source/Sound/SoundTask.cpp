@@ -70,49 +70,36 @@ extern SoundTask *g_soundTask; // 0x84AF84
 
 /* ---------- public code */
 
-_extern _sub_64079F(SoundTask *const);
 _inline SoundTask::SoundTask() // 0x64079F
 {
     mangled_assert("??0SoundTask@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_64079F(this);
 }
 
-_extern void _sub_6407B1(SoundTask *const);
 _inline SoundTask::~SoundTask() // 0x6407B1
 {
     mangled_assert("??1SoundTask@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6407B1(this);
 }
 
-_extern bool _sub_6407EC();
 bool soundTaskStartup() // 0x6407EC
 {
     mangled_assert("?soundTaskStartup@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_6407EC();
-    return __result;
 }
 
-_extern bool _sub_6407D2();
 bool soundTaskShutdown() // 0x6407D2
 {
     mangled_assert("?soundTaskShutdown@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_6407D2();
-    return __result;
 }
 
-_extern __int32 _sub_640833(SoundTask *const, float);
 __int32 SoundTask::taskFunction(float) // 0x640833
 {
     mangled_assert("?taskFunction@SoundTask@@EAEHM@Z");
     todo("implement");
-    __int32 __result = _sub_640833(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

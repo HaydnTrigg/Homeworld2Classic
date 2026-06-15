@@ -52,13 +52,10 @@ static_assert(sizeof(Hw2Identify) == 16, "Invalid Hw2Identify size");
 
 /* ---------- public code */
 
-_extern Hw2Identify *_sub_47D079();
 _inline Hw2Identify *Hw2Identify::Instance() // 0x47D079
 {
     mangled_assert("?Instance@Hw2Identify@@SGPAV1@XZ");
     todo("implement");
-    Hw2Identify * __result = _sub_47D079();
-    return __result;
 }
 
 /* ---------- private code */

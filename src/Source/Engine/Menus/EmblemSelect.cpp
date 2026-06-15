@@ -118,60 +118,46 @@
 
 /* ---------- public code */
 
-_extern _sub_575128(UI::EmblemSelect *const, char const *);
 UI::EmblemSelect::EmblemSelect(char const *) // 0x575128
 {
     mangled_assert("??0EmblemSelect@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_575128(this, arg);
 }
 
-_extern void _sub_575147(UI::EmblemSelect *const);
 UI::EmblemSelect::~EmblemSelect() // 0x575147
 {
     mangled_assert("??1EmblemSelect@UI@@UAE@XZ");
     todo("implement");
-    _sub_575147(this);
 }
 
-_extern void _sub_575981(UI::EmblemSelect *const);
 void UI::EmblemSelect::OnPostLoad() // 0x575981
 {
     mangled_assert("?OnPostLoad@EmblemSelect@UI@@MAEXXZ");
     todo("implement");
-    _sub_575981(this);
 }
 
-_extern void _sub_5752E2(UI::EmblemSelect *const, bool);
 void UI::EmblemSelect::OnActivate(bool) // 0x5752E2
 {
     mangled_assert("?OnActivate@EmblemSelect@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_5752E2(this, arg);
 }
 
-_extern void _sub_57528B(UI::InterfaceElement *);
 void UI::EmblemSelect::OnAccept(UI::InterfaceElement *sender) // 0x57528B
 {
     mangled_assert("?OnAccept@EmblemSelect@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_57528B(sender);
 }
 
-_extern void _sub_5751B3(UI::EmblemSelect *const);
 void UI::EmblemSelect::CommitValues() // 0x5751B3
 {
     mangled_assert("?CommitValues@EmblemSelect@UI@@QAEXXZ");
     todo("implement");
-    _sub_5751B3(this);
 }
 
-_extern void _sub_575975(UI::InterfaceElement *, __int32, __int32, unsigned __int32);
 void UI::EmblemSelect::OnEmblemDoubleClicked(UI::InterfaceElement *e, __int32 x, __int32 y, unsigned __int32 bf) // 0x575975
 {
     mangled_assert("?OnEmblemDoubleClicked@EmblemSelect@UI@@CGXPAVInterfaceElement@2@HHI@Z");
     todo("implement");
-    _sub_575975(e, x, y, bf);
 }
 
 /* ---------- private code */

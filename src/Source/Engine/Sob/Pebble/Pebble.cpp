@@ -153,71 +153,53 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_4C3D58(Pebble *const, char const *);
 Pebble::Pebble(char const *) // 0x4C3D58
 {
     mangled_assert("??0Pebble@@QAE@PBD@Z");
     todo("implement");
-    _sub_4C3D58(this, arg);
 }
 
-_extern void _sub_4C3D98(Pebble *const);
 _inline Pebble::~Pebble() // 0x4C3D98
 {
     mangled_assert("??1Pebble@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4C3D98(this);
 }
 
-_extern bool _sub_4C4111(Pebble *const, Camera const *, vector4 const &, float);
 bool Pebble::renderDot(Camera const *, vector4 const &, float) // 0x4C4111
 {
     mangled_assert("?renderDot@Pebble@@AAE_NPBVCamera@@ABVvector4@@M@Z");
     todo("implement");
-    bool __result = _sub_4C4111(this, arg, arg, arg);
-    return __result;
 }
 
-_extern void _sub_4C4183(Pebble *const, vector3 const &);
 void Pebble::setPosition(vector3 const &) // 0x4C4183
 {
     mangled_assert("?setPosition@Pebble@@UAEXABVvector3@@@Z");
     todo("implement");
-    _sub_4C4183(this, arg);
 }
 
-_extern void _sub_4C3EED(Pebble *const, Camera const *, MeshRenderProxy &);
 void Pebble::render(Camera const *, MeshRenderProxy &) // 0x4C3EED
 {
     mangled_assert("?render@Pebble@@UAEXPBVCamera@@AAVMeshRenderProxy@@@Z");
     todo("implement");
-    _sub_4C3EED(this, arg, arg);
 }
 
-_extern Pebble *_sub_4C3E82(char const *, vector3 const &);
 Pebble *SpawnPebble(char const *pebblename, vector3 const &position) // 0x4C3E82
 {
     mangled_assert("?SpawnPebble@@YGPAVPebble@@PBDABVvector3@@@Z");
     todo("implement");
-    Pebble * __result = _sub_4C3E82(pebblename, position);
-    return __result;
 }
 
-_extern void _sub_4C3E37(__int32);
 void EnablePebbleDistribution(__int32 nr) // 0x4C3E37
 {
     mangled_assert("?EnablePebbleDistribution@@YGXH@Z");
     todo("implement");
-    _sub_4C3E37(nr);
 }
 
-_extern void _sub_4C3DB9();
 void DistributePebbles() // 0x4C3DB9
 {
     mangled_assert("?DistributePebbles@@YGXXZ");
     todo("implement");
-    _sub_4C3DB9();
 }
 
 /* ---------- private code */

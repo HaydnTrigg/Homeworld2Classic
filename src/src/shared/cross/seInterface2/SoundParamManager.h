@@ -70,21 +70,16 @@ static_assert(sizeof(SoundParamManager) == 4, "Invalid SoundParamManager size");
 
 /* ---------- public code */
 
-_extern _sub_6C38D5(SoundParamManager::SoundInfo *const);
 _inline SoundParamManager::SoundInfo::SoundInfo() // 0x6C38D5
 {
     mangled_assert("??0SoundInfo@SoundParamManager@@QAE@XZ");
     todo("implement");
-    _sub_6C38D5(this);
 }
 
-_extern bool _sub_6C43B5(SoundParamManager::SoundInfo const *const);
 _inline bool SoundParamManager::SoundInfo::NeedFile() const // 0x6C43B5
 {
     mangled_assert("?NeedFile@SoundInfo@SoundParamManager@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_6C43B5(this);
-    return __result;
 }
 
 /* ---------- private code */

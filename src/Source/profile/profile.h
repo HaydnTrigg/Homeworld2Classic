@@ -399,39 +399,28 @@ static_assert(sizeof(Profile::Proxy) == 48, "Invalid Profile::Proxy size");
 
 /* ---------- public code */
 
-_extern _sub_10001B30(Profile::Stats *const);
 _inline Profile::Stats::Stats() // 0x10001B30
 {
     mangled_assert("??0Stats@Profile@@QAE@XZ");
     todo("implement");
-    _sub_10001B30(this);
 }
 
-_extern Profile::Stats &_sub_10001F30(Profile::Stats *const, Profile::Stats const &);
 _inline Profile::Stats &Profile::Stats::operator+=(Profile::Stats const &) // 0x10001F30
 {
     mangled_assert("??YStats@Profile@@QAEAAV01@ABV01@@Z");
     todo("implement");
-    Profile::Stats & __result = _sub_10001F30(this, arg);
-    return __result;
 }
 
-_extern Profile::Stats &_sub_10001F60(Profile::Stats *const, Profile::Stats const &);
 _inline Profile::Stats &Profile::Stats::operator-=(Profile::Stats const &) // 0x10001F60
 {
     mangled_assert("??ZStats@Profile@@QAEAAV01@ABV01@@Z");
     todo("implement");
-    Profile::Stats & __result = _sub_10001F60(this, arg);
-    return __result;
 }
 
-_extern bool _sub_10001F10(Profile::FunctionInfo::FunctionNameCompare const *const, Profile::FunctionInfo const *, Profile::FunctionInfo const *);
 _inline bool Profile::FunctionInfo::FunctionNameCompare::operator()(Profile::FunctionInfo const *, Profile::FunctionInfo const *) const // 0x10001F10
 {
     mangled_assert("??RFunctionNameCompare@FunctionInfo@Profile@@QBE_NPBV12@0@Z");
     todo("implement");
-    bool __result = _sub_10001F10(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

@@ -27,12 +27,10 @@ static_assert(sizeof(SimVisDisplayData) == 20, "Invalid SimVisDisplayData size")
 
 /* ---------- public code */
 
-_extern _sub_523A39(SimVisDisplayData *const, Universe const &, Player const *, Camera const &, Frustum const &, float);
 _inline SimVisDisplayData::SimVisDisplayData(Universe const &, Player const *, Camera const &, Frustum const &, float) // 0x523A39
 {
     mangled_assert("??0SimVisDisplayData@@QAE@ABVUniverse@@PBVPlayer@@ABVCamera@@ABVFrustum@@M@Z");
     todo("implement");
-    _sub_523A39(this, arg, arg, arg, arg, arg);
 }
 
 /* ---------- private code */

@@ -22,13 +22,10 @@ extern float Collision::DistanceSqr(Collision::Segment const &A, Collision::Segm
 
 /* ---------- public code */
 
-_extern float _sub_664E68(Collision::Segment const &, Collision::Segment const &, float *, float *);
 float Collision::DistanceSqr(Collision::Segment const &A, Collision::Segment const &B, float *pSegA, float *pSegB) // 0x664E68
 {
     mangled_assert("?DistanceSqr@Collision@@YGMABVSegment@1@0PAM1@Z");
     todo("implement");
-    float __result = _sub_664E68(A, B, pSegA, pSegB);
-    return __result;
 }
 
 /* ---------- private code */

@@ -205,52 +205,40 @@ extern bool UI::GameMenu::ms_isGamePaused; // 0x846CC4
 
 /* ---------- public code */
 
-_extern _sub_585A83(UI::GameMenu *const, char const *);
 UI::GameMenu::GameMenu(char const *) // 0x585A83
 {
     mangled_assert("??0GameMenu@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_585A83(this, arg);
 }
 
-_extern void _sub_585ACE(UI::GameMenu *const);
 UI::GameMenu::~GameMenu() // 0x585ACE
 {
     mangled_assert("??1GameMenu@UI@@UAE@XZ");
     todo("implement");
-    _sub_585ACE(this);
 }
 
-_extern void _sub_585EBE(UI::GameMenu *const, UI::GameMenu::GameMenuType);
 void UI::GameMenu::SetGameMenuType(UI::GameMenu::GameMenuType) // 0x585EBE
 {
     mangled_assert("?SetGameMenuType@GameMenu@UI@@AAEXW4GameMenuType@12@@Z");
     todo("implement");
-    _sub_585EBE(this, arg);
 }
 
-_extern void _sub_586092(UI::GameMenu *const);
 void UI::GameMenu::ValidateLoadButtons() // 0x586092
 {
     mangled_assert("?ValidateLoadButtons@GameMenu@UI@@AAEXXZ");
     todo("implement");
-    _sub_586092(this);
 }
 
-_extern void _sub_585C18(UI::GameMenu *const, bool);
 void UI::GameMenu::OnActivate(bool) // 0x585C18
 {
     mangled_assert("?OnActivate@GameMenu@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_585C18(this, arg);
 }
 
-_extern void _sub_585DE8(UI::GameMenu *const);
 void UI::GameMenu::OnPostLoad() // 0x585DE8
 {
     mangled_assert("?OnPostLoad@GameMenu@UI@@MAEXXZ");
     todo("implement");
-    _sub_585DE8(this);
 }
 
 /* ---------- private code */

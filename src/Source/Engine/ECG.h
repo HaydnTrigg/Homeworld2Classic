@@ -63,12 +63,10 @@ static_assert(sizeof(ElectroCardioGraph) == 28, "Invalid ElectroCardioGraph size
 
 /* ---------- public code */
 
-_extern void _sub_5ECCB1(ECGHeartbeat *const, char const *);
 _inline void ECGHeartbeat::setName(char const *) // 0x5ECCB1
 {
     mangled_assert("?setName@ECGHeartbeat@@QAEXPBD@Z");
     todo("implement");
-    _sub_5ECCB1(this, arg);
 }
 
 /* ---------- private code */

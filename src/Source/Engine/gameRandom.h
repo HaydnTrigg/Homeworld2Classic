@@ -60,22 +60,16 @@ static_assert(sizeof(GameRandomStreams) == 512, "Invalid GameRandomStreams size"
 
 /* ---------- public code */
 
-_extern bool _sub_5EFBF0(GameRandomStreams *const);
 _inline bool GameRandomStreams::isDeterministic() // 0x5EFBF0
 {
     mangled_assert("?isDeterministic@GameRandomStreams@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_5EFBF0(this);
-    return __result;
 }
 
-_extern char const *_sub_5EFD78(GameRandomStreams *const);
 _inline char const *GameRandomStreams::saveToken() // 0x5EFD78
 {
     mangled_assert("?saveToken@GameRandomStreams@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_5EFD78(this);
-    return __result;
 }
 
 /* ---------- private code */

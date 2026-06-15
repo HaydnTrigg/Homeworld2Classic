@@ -112,64 +112,46 @@ extern LoadSyncErrorRecovery *LoadSyncErrorRecovery::ms_instance; // 0x848B20
 
 /* ---------- public code */
 
-_extern _sub_604585(LoadSyncErrorRecovery *const);
 LoadSyncErrorRecovery::LoadSyncErrorRecovery() // 0x604585
 {
     mangled_assert("??0LoadSyncErrorRecovery@@QAE@XZ");
     todo("implement");
-    _sub_604585(this);
 }
 
-_extern void _sub_6045D3(LoadSyncErrorRecovery *const);
 LoadSyncErrorRecovery::~LoadSyncErrorRecovery() // 0x6045D3
 {
     mangled_assert("??1LoadSyncErrorRecovery@@UAE@XZ");
     todo("implement");
-    _sub_6045D3(this);
 }
 
-_extern LoadSyncErrorRecovery *_sub_6046A1();
 LoadSyncErrorRecovery *LoadSyncErrorRecovery::instance() // 0x6046A1
 {
     mangled_assert("?instance@LoadSyncErrorRecovery@@SGPAV1@XZ");
     todo("implement");
-    LoadSyncErrorRecovery * __result = _sub_6046A1();
-    return __result;
 }
 
-_extern void _sub_6046E5();
 void LoadSyncErrorRecovery::release() // 0x6046E5
 {
     mangled_assert("?release@LoadSyncErrorRecovery@@SGXXZ");
     todo("implement");
-    _sub_6046E5();
 }
 
-_extern SaveGameData *_sub_604655(LoadSyncErrorRecovery *const);
 SaveGameData *LoadSyncErrorRecovery::createSaveGameData() // 0x604655
 {
     mangled_assert("?createSaveGameData@LoadSyncErrorRecovery@@QAEPAVSaveGameData@@XZ");
     todo("implement");
-    SaveGameData * __result = _sub_604655(this);
-    return __result;
 }
 
-_extern bool _sub_6046E1(LoadSyncErrorRecovery *const);
 bool LoadSyncErrorRecovery::isFinished() // 0x6046E1
 {
     mangled_assert("?isFinished@LoadSyncErrorRecovery@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_6046E1(this);
-    return __result;
 }
 
-_extern __int32 _sub_6046FD(LoadSyncErrorRecovery *const, float);
 __int32 LoadSyncErrorRecovery::taskFunction(float) // 0x6046FD
 {
     mangled_assert("?taskFunction@LoadSyncErrorRecovery@@UAEHM@Z");
     todo("implement");
-    __int32 __result = _sub_6046FD(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

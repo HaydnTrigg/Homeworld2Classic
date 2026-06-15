@@ -26,20 +26,16 @@ static_assert(sizeof(TimerProxy) == 4, "Invalid TimerProxy size");
 
 /* ---------- public code */
 
-_extern _sub_467B85(TimerProxy *const);
 _inline TimerProxy::TimerProxy() // 0x467B85
 {
     mangled_assert("??0TimerProxy@@QAE@XZ");
     todo("implement");
-    _sub_467B85(this);
 }
 
-_extern void _sub_467CAD(TimerProxy *const);
 _inline TimerProxy::~TimerProxy() // 0x467CAD
 {
     mangled_assert("??1TimerProxy@@UAE@XZ");
     todo("implement");
-    _sub_467CAD(this);
 }
 
 /* ---------- private code */

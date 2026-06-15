@@ -62,49 +62,34 @@ static_assert(sizeof(WeaponAnimatedTurret) == 136, "Invalid WeaponAnimatedTurret
 
 /* ---------- public code */
 
-_extern float _sub_49F682(WeaponAnimatedTurret *const);
 _inline float WeaponAnimatedTurret::getAzimuthOffset() // 0x49F682
 {
     mangled_assert("?getAzimuthOffset@WeaponAnimatedTurret@@UAEMXZ");
     todo("implement");
-    float __result = _sub_49F682(this);
-    return __result;
 }
 
-_extern float _sub_49F686(WeaponAnimatedTurret *const);
 _inline float WeaponAnimatedTurret::getDeclinationOffset() // 0x49F686
 {
     mangled_assert("?getDeclinationOffset@WeaponAnimatedTurret@@UAEMXZ");
     todo("implement");
-    float __result = _sub_49F686(this);
-    return __result;
 }
 
-_extern bool _sub_4A05B4(WeaponAnimatedTurret *const);
 _inline bool WeaponAnimatedTurret::threeSixtyRotation() // 0x4A05B4
 {
     mangled_assert("?threeSixtyRotation@WeaponAnimatedTurret@@AAE_NXZ");
     todo("implement");
-    bool __result = _sub_4A05B4(this);
-    return __result;
 }
 
-_extern bool _sub_4A0348(WeaponAnimatedTurret *const);
 _inline bool WeaponAnimatedTurret::isDeterministic() // 0x4A0348
 {
     mangled_assert("?isDeterministic@WeaponAnimatedTurret@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4A0348(this);
-    return __result;
 }
 
-_extern char const *_sub_4A058B(WeaponAnimatedTurret *const);
 _inline char const *WeaponAnimatedTurret::saveToken() // 0x4A058B
 {
     mangled_assert("?saveToken@WeaponAnimatedTurret@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4A058B(this);
-    return __result;
 }
 
 /* ---------- private code */

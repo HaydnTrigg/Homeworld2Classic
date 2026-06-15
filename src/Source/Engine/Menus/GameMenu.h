@@ -50,21 +50,16 @@ static_assert(sizeof(UI::GameMenu) == 416, "Invalid UI::GameMenu size");
 
 /* ---------- public code */
 
-_extern void _sub_450134(bool);
 _inline void UI::GameMenu::SetGamePauseState(bool paused) // 0x450134
 {
     mangled_assert("?SetGamePauseState@GameMenu@UI@@SGX_N@Z");
     todo("implement");
-    _sub_450134(paused);
 }
 
-_extern bool _sub_44FF60();
 _inline bool UI::GameMenu::IsGamePaused() // 0x44FF60
 {
     mangled_assert("?IsGamePaused@GameMenu@UI@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_44FF60();
-    return __result;
 }
 
 /* ---------- private code */

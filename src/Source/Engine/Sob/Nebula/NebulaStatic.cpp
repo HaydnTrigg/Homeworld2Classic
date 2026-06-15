@@ -42,30 +42,23 @@
 
 /* ---------- public code */
 
-_extern SobStatic *_sub_4C3444(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, SobStatic *);
 SobStatic *NebulaStatic::Create(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &name, SobStatic *found) // 0x4C3444
 {
     mangled_assert("?Create@NebulaStatic@@SGPAVSobStatic@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAV2@@Z");
     todo("implement");
-    SobStatic * __result = _sub_4C3444(name, found);
-    return __result;
 }
 
-_extern _sub_4C33B6(NebulaStatic *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, SobType);
 NebulaStatic::NebulaStatic(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, SobType) // 0x4C33B6
 {
     mangled_assert("??0NebulaStatic@@IAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4SobType@@@Z");
     todo("implement");
-    _sub_4C33B6(this, arg, arg);
 }
 
-_extern void _sub_4C33F0(NebulaStatic *const);
 _inline NebulaStatic::~NebulaStatic() // 0x4C33F0
 {
     mangled_assert("??1NebulaStatic@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4C33F0(this);
 }
 
 /* ---------- private code */

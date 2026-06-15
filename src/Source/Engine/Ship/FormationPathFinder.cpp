@@ -156,44 +156,34 @@ extern unsigned __int32 FormationPathFinder::s_avoidanceBoxPriority; // 0x844088
 
 /* ---------- public code */
 
-_extern void _sub_4E429B(Collision::OBB const &, vector3 const &, vector3 const &, float, vector3 const &, vector3 const &);
 void FormationPathFinder::addOBB(Collision::OBB const &obb, vector3 const &velocity, vector3 const &addedrad, float addedrad_length, vector3 const &position, vector3 const &target) // 0x4E429B
 {
     mangled_assert("?addOBB@FormationPathFinder@@YGXABVOBB@Collision@@ABVvector3@@1M11@Z");
     todo("implement");
-    _sub_4E429B(obb, velocity, addedrad, addedrad_length, position, target);
 }
 
-_extern void _sub_4E4392(unsigned __int32, Sob *, Sob *, vector3 const &, float, vector3 const &, vector3 const &, Formation const *);
 void FormationPathFinder::addShips(unsigned __int32 priority, Sob *formationSobNotToAvoid, Sob *squadronSobNotToAvoid, vector3 const &addedrad, float addedrad_length, vector3 const &position, vector3 const &target, Formation const *formation) // 0x4E4392
 {
     mangled_assert("?addShips@FormationPathFinder@@YGXIPAVSob@@0ABVvector3@@M11PBVFormation@@@Z");
     todo("implement");
-    _sub_4E4392(priority, formationSobNotToAvoid, squadronSobNotToAvoid, addedrad, addedrad_length, position, target, formation);
 }
 
-_extern void _sub_4E41C3(unsigned __int32, Sob *, Sob *, vector3 const &, float, vector3 const &, vector3 const &);
 void FormationPathFinder::addAsteroids(unsigned __int32 priority, Sob *formationSobNotToAvoid, Sob *squadronSobNotToAvoid, vector3 const &addedrad, float addedrad_length, vector3 const &position, vector3 const &target) // 0x4E41C3
 {
     mangled_assert("?addAsteroids@FormationPathFinder@@YGXIPAVSob@@0ABVvector3@@M11@Z");
     todo("implement");
-    _sub_4E41C3(priority, formationSobNotToAvoid, squadronSobNotToAvoid, addedrad, addedrad_length, position, target);
 }
 
-_extern void _sub_4E4259(vector3 const &, float, vector3 const &, vector3 const &);
 void FormationPathFinder::addAvoidanceBoxes(vector3 const &addedrad, float addedrad_length, vector3 const &position, vector3 const &target) // 0x4E4259
 {
     mangled_assert("?addAvoidanceBoxes@FormationPathFinder@@YGXABVvector3@@M00@Z");
     todo("implement");
-    _sub_4E4259(addedrad, addedrad_length, position, target);
 }
 
-_extern void _sub_4E44D4(float, float, __int32, vector3 const &, vector3 const &, std::list<vector3,std::allocator<vector3> > &, Formation const *);
 void FormationPathFinder::findPath(float inXRadius, float inYRadius, __int32 familiesToDodge, vector3 const &position, vector3 const &target, std::list<vector3,std::allocator<vector3> > &outResult, Formation const *formation) // 0x4E44D4
 {
     mangled_assert("?findPath@FormationPathFinder@@YGXMMHABVvector3@@0AAV?$list@Vvector3@@V?$allocator@Vvector3@@@std@@@std@@PBVFormation@@@Z");
     todo("implement");
-    _sub_4E44D4(inXRadius, inYRadius, familiesToDodge, position, target, outResult, formation);
 }
 
 /* ---------- private code */

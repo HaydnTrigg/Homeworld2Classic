@@ -172,22 +172,16 @@ static_assert(sizeof(VertexProgram) == 36, "Invalid VertexProgram size");
 
 /* ---------- public code */
 
-_extern VertexProgramManager *_sub_100AC7E0();
 _inline VertexProgramManager *VertexProgramManager::i() // 0x100AC7E0
 {
     mangled_assert("?i@VertexProgramManager@@SGPAV1@XZ");
     todo("implement");
-    VertexProgramManager * __result = _sub_100AC7E0();
-    return __result;
 }
 
-_extern rndTable *_sub_100AC7D0(VertexProgramManager *const);
 _inline rndTable *VertexProgramManager::getGL() // 0x100AC7D0
 {
     mangled_assert("?getGL@VertexProgramManager@@QAEPAUrndTable@@XZ");
     todo("implement");
-    rndTable * __result = _sub_100AC7D0(this);
-    return __result;
 }
 
 /* ---------- private code */

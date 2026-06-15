@@ -223,75 +223,52 @@ static_assert(sizeof(Light) == 112, "Invalid Light size");
 
 /* ---------- public code */
 
-_extern unsigned __int32 _sub_10051D30(LightHandle const *const);
 _inline unsigned __int32 LightHandle::getHandle() const // 0x10051D30
 {
     mangled_assert("?getHandle@LightHandle@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_10051D30(this);
-    return __result;
 }
 
-_extern bool _sub_10050ED0(LightHandle const *const, LightHandle const &);
 _inline bool LightHandle::operator==(LightHandle const &) const // 0x10050ED0
 {
     mangled_assert("??8LightHandle@@QBE_NABV0@@Z");
     todo("implement");
-    bool __result = _sub_10050ED0(this, arg);
-    return __result;
 }
 
-_extern bool _sub_10050F20(LightHandle const *const, LightHandle const &);
 _inline bool LightHandle::operator!=(LightHandle const &) const // 0x10050F20
 {
     mangled_assert("??9LightHandle@@QBE_NABV0@@Z");
     todo("implement");
-    bool __result = _sub_10050F20(this, arg);
-    return __result;
 }
 
-_extern bool _sub_10050EE0(LightHandle const *const, Light *);
 _inline bool LightHandle::operator==(Light *) const // 0x10050EE0
 {
     mangled_assert("??8LightHandle@@QBE_NPAVLight@@@Z");
     todo("implement");
-    bool __result = _sub_10050EE0(this, arg);
-    return __result;
 }
 
-_extern bool _sub_10050F30(LightHandle const *const, Light *);
 _inline bool LightHandle::operator!=(Light *) const // 0x10050F30
 {
     mangled_assert("??9LightHandle@@QBE_NPAVLight@@@Z");
     todo("implement");
-    bool __result = _sub_10050F30(this, arg);
-    return __result;
 }
 
-_extern _sub_100509D0(LightHandle *const);
 _inline LightHandle::LightHandle() // 0x100509D0
 {
     mangled_assert("??0LightHandle@@QAE@XZ");
     todo("implement");
-    _sub_100509D0(this);
 }
 
-_extern LightManager *_sub_10052990();
 _inline LightManager *LightManager::instance() // 0x10052990
 {
     mangled_assert("?instance@LightManager@@SGPAV1@XZ");
     todo("implement");
-    LightManager * __result = _sub_10052990();
-    return __result;
 }
 
-_extern __int32 _sub_10052B60(LightManager *const);
 _inline __int32 LightManager::numCachedLights() // 0x10052B60
 {
     mangled_assert("?numCachedLights@LightManager@@QAEHXZ");
     todo("implement");
-    __int32 __result = _sub_10052B60(this);
-    return __result;
 }
 
 /* ---------- private code */

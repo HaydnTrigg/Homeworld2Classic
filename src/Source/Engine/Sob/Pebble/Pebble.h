@@ -37,31 +37,22 @@ static_assert(sizeof(Pebble) == 536, "Invalid Pebble size");
 
 /* ---------- public code */
 
-_extern bool _sub_4C3EEA(Pebble *const);
 _inline bool Pebble::isDeterministic() // 0x4C3EEA
 {
     mangled_assert("?isDeterministic@Pebble@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4C3EEA(this);
-    return __result;
 }
 
-_extern PebbleStatic const *_sub_4C3EE3(Pebble const *const);
 _inline PebbleStatic const *Pebble::getStatic() const // 0x4C3EE3
 {
     mangled_assert("?getStatic@Pebble@@QBEPBVPebbleStatic@@XZ");
     todo("implement");
-    PebbleStatic const * __result = _sub_4C3EE3(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_4C3EDC(Pebble const *const);
 _inline vector3 const &Pebble::getPosition() const // 0x4C3EDC
 {
     mangled_assert("?getPosition@Pebble@@UBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_4C3EDC(this);
-    return __result;
 }
 
 /* ---------- private code */

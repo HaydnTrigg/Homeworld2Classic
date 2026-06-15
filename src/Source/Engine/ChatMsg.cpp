@@ -65,89 +65,66 @@ extern ChatMsg *ChatMsg::s_instance; // 0x84872C
 
 /* ---------- public code */
 
-_extern _sub_5E9B4C(ChatMsg *const);
 ChatMsg::ChatMsg() // 0x5E9B4C
 {
     mangled_assert("??0ChatMsg@@AAE@XZ");
     todo("implement");
-    _sub_5E9B4C(this);
 }
 
-_extern _sub_5E9BB1(GameMsg_Chat *const);
 _inline GameMsg_Chat::GameMsg_Chat() // 0x5E9BB1
 {
     mangled_assert("??0GameMsg_Chat@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5E9BB1(this);
 }
 
-_extern void _sub_5E9BD8(GameMsg_Chat *const);
 _inline GameMsg_Chat::~GameMsg_Chat() // 0x5E9BD8
 {
     mangled_assert("??1GameMsg_Chat@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5E9BD8(this);
 }
 
-_extern ChatMsg *_sub_5E9CB4();
 ChatMsg *ChatMsg::instance() // 0x5E9CB4
 {
     mangled_assert("?instance@ChatMsg@@SGPAV1@XZ");
     todo("implement");
-    ChatMsg * __result = _sub_5E9CB4();
-    return __result;
 }
 
-_extern bool _sub_5E9DFF();
 bool ChatMsg::shutdown() // 0x5E9DFF
 {
     mangled_assert("?shutdown@ChatMsg@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_5E9DFF();
-    return __result;
 }
 
-_extern void _sub_5E9C98(ChatMsg *const, ChatMsgType);
 void ChatMsg::initMessage(ChatMsgType) // 0x5E9C98
 {
     mangled_assert("?initMessage@ChatMsg@@QAEXW4ChatMsgType@@@Z");
     todo("implement");
-    _sub_5E9C98(this, arg);
 }
 
-_extern void _sub_5E9C88(ChatMsg *const, char);
 void ChatMsg::initMessage(char) // 0x5E9C88
 {
     mangled_assert("?initMessage@ChatMsg@@QAEXD@Z");
     todo("implement");
-    _sub_5E9C88(this, arg);
 }
 
-_extern void _sub_5E9CF7(ChatMsg *const, wchar_t const *);
 void ChatMsg::onAccept(wchar_t const *) // 0x5E9CF7
 {
     mangled_assert("?onAccept@ChatMsg@@QAEXPB_W@Z");
     todo("implement");
-    _sub_5E9CF7(this, arg);
 }
 
-_extern void _sub_5E9D7A(ChatMsg *const, GameMsg_Chat const *);
 void ChatMsg::receiveMessage(GameMsg_Chat const *) // 0x5E9D7A
 {
     mangled_assert("?receiveMessage@ChatMsg@@QAEXPBUGameMsg_Chat@@@Z");
     todo("implement");
-    _sub_5E9D7A(this, arg);
 }
 
-_extern bool _sub_5E9C0E(ChatMsg *const, wchar_t const **, char *, ChatMsgType *, char *);
 bool ChatMsg::getReceivedMessage(wchar_t const **, char *, ChatMsgType *, char *) // 0x5E9C0E
 {
     mangled_assert("?getReceivedMessage@ChatMsg@@QAE_NPAPB_WPADPAW4ChatMsgType@@1@Z");
     todo("implement");
-    bool __result = _sub_5E9C0E(this, arg, arg, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

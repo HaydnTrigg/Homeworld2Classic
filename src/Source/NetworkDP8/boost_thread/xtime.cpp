@@ -192,13 +192,10 @@ _static
 
 /* ---------- public code */
 
-_extern __int32 _sub_6D8A1F(boost::xtime *, __int32);
 __int32 boost::xtime_get(boost::xtime *xtp, __int32 clock_type) // 0x6D8A1F
 {
     mangled_assert("?xtime_get@boost@@YGHPAUxtime@1@H@Z");
     todo("implement");
-    __int32 __result = _sub_6D8A1F(xtp, clock_type);
-    return __result;
 }
 
 /* ---------- private code */

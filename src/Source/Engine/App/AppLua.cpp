@@ -53,30 +53,22 @@ _static
 
 /* ---------- public code */
 
-_extern bool _sub_4F6150(LuaConfig &);
 bool AppLua::Initialize(LuaConfig &globalState) // 0x4F6150
 {
     mangled_assert("?Initialize@AppLua@@SG_NAAVLuaConfig@@@Z");
     todo("implement");
-    bool __result = _sub_4F6150(globalState);
-    return __result;
 }
 
-_extern bool _sub_4F61E0(LuaConfig &);
 bool AppLua::Shutdown(LuaConfig &globalState) // 0x4F61E0
 {
     mangled_assert("?Shutdown@AppLua@@SG_NAAVLuaConfig@@@Z");
     todo("implement");
-    bool __result = _sub_4F61E0(globalState);
-    return __result;
 }
 
-_extern void _sub_4F61CD();
 void AppLua::Run() // 0x4F61CD
 {
     mangled_assert("?Run@AppLua@@SGXXZ");
     todo("implement");
-    _sub_4F61CD();
 }
 
 /* ---------- private code */

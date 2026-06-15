@@ -190,30 +190,22 @@ static_assert(sizeof(BattleScarTrail) == 1, "Invalid BattleScarTrail size");
 
 /* ---------- public code */
 
-_extern _sub_56287B(BattleScarTrail::Obj::FinalizeCommand *const);
 _inline BattleScarTrail::Obj::FinalizeCommand::FinalizeCommand() // 0x56287B
 {
     mangled_assert("??0FinalizeCommand@Obj@BattleScarTrail@@QAE@XZ");
     todo("implement");
-    _sub_56287B(this);
 }
 
-_extern bool _sub_564CBB(BattleScarTrail::Obj *const);
 _inline bool BattleScarTrail::Obj::finalizeCmdIsSet() // 0x564CBB
 {
     mangled_assert("?finalizeCmdIsSet@Obj@BattleScarTrail@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_564CBB(this);
-    return __result;
 }
 
-_extern BattleScarTrail::TextureTransform const &_sub_564FCA(BattleScarTrail::Obj const *const);
 _inline BattleScarTrail::TextureTransform const &BattleScarTrail::Obj::getLastDashTexTxfm() const // 0x564FCA
 {
     mangled_assert("?getLastDashTexTxfm@Obj@BattleScarTrail@@QBEABUTextureTransform@2@XZ");
     todo("implement");
-    BattleScarTrail::TextureTransform const & __result = _sub_564FCA(this);
-    return __result;
 }
 
 /* ---------- private code */

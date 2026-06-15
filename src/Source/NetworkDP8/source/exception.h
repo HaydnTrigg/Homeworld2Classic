@@ -92,30 +92,22 @@ static_assert(sizeof(Net::EAuthenticationFailed) == 36, "Invalid Net::EAuthentic
 
 /* ---------- public code */
 
-_extern _sub_6D53D6(Net::Exception *const, std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > const &);
 _inline Net::Exception::Exception(std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > const &) // 0x6D53D6
 {
     mangled_assert("??0Exception@Net@@QAE@ABV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@Z");
     todo("implement");
-    _sub_6D53D6(this, arg);
 }
 
-_extern wchar_t const *_sub_5B97BB(Net::Exception const *const);
 _inline wchar_t const *Net::Exception::what() const // 0x5B97BB
 {
     mangled_assert("?what@Exception@Net@@QBEPB_WXZ");
     todo("implement");
-    wchar_t const * __result = _sub_5B97BB(this);
-    return __result;
 }
 
-_extern std::vector<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >,std::allocator<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > > > const &_sub_5B9235(Net::EAuthenticationFailed const *const);
 _inline std::vector<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >,std::allocator<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > > > const &Net::EAuthenticationFailed::GetServerMods() const // 0x5B9235
 {
     mangled_assert("?GetServerMods@EAuthenticationFailed@Net@@QBEABV?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@XZ");
     todo("implement");
-    std::vector<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >,std::allocator<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > > > const & __result = _sub_5B9235(this);
-    return __result;
 }
 
 /* ---------- private code */

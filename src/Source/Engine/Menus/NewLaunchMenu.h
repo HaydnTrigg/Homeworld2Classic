@@ -77,13 +77,10 @@ static_assert(sizeof(UI::NewLaunchMenu) == 552, "Invalid UI::NewLaunchMenu size"
 
 /* ---------- public code */
 
-_extern SobID const &_sub_57F9BC(UI::NewLaunchMenu const *const);
 _inline SobID const &UI::NewLaunchMenu::GetLaunchShip() const // 0x57F9BC
 {
     mangled_assert("?GetLaunchShip@NewLaunchMenu@UI@@QBEABVSobID@@XZ");
     todo("implement");
-    SobID const & __result = _sub_57F9BC(this);
-    return __result;
 }
 
 /* ---------- private code */

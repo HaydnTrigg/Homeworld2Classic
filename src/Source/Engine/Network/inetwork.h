@@ -30,21 +30,16 @@ static_assert(sizeof(INetwork) == 4, "Invalid INetwork size");
 
 /* ---------- public code */
 
-_extern void _sub_460BE6(INetwork *const);
 _inline INetwork::~INetwork() // 0x460BE6
 {
     mangled_assert("??1INetwork@@UAE@XZ");
     todo("implement");
-    _sub_460BE6(this);
 }
 
-_extern bool _sub_4618E0(INetwork *const, unsigned __int32);
 _inline bool INetwork::IsPlayerLagging(unsigned __int32) // 0x4618E0
 {
     mangled_assert("?IsPlayerLagging@INetwork@@UAE_NI@Z");
     todo("implement");
-    bool __result = _sub_4618E0(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

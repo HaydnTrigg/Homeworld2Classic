@@ -37,12 +37,10 @@
 
 /* ---------- public code */
 
-_extern void _sub_5B8935(MD5Hash const &);
 void MultiplayerCommon::HostSetSettings(MD5Hash const &gameRules) // 0x5B8935
 {
     mangled_assert("?HostSetSettings@MultiplayerCommon@@SGXABVMD5Hash@@@Z");
     todo("implement");
-    _sub_5B8935(gameRules);
 }
 
 /* ---------- private code */

@@ -164,155 +164,106 @@ static_assert(sizeof(Selection) == 52, "Invalid Selection size");
 
 /* ---------- public code */
 
-_extern _sub_71058B(Selection::IsSobInside *const, Volume const *);
 _inline Selection::IsSobInside::IsSobInside(Volume const *) // 0x71058B
 {
     mangled_assert("??0IsSobInside@Selection@@QAE@PBVVolume@@@Z");
     todo("implement");
-    _sub_71058B(this, arg);
 }
 
-_extern Sob *_sub_4514A3(Selection *const);
 _inline Sob *Selection::front() // 0x4514A3
 {
     mangled_assert("?front@Selection@@QAEPAVSob@@XZ");
     todo("implement");
-    Sob * __result = _sub_4514A3(this);
-    return __result;
 }
 
-_extern Sob const *_sub_456AA7(Selection const *const);
 _inline Sob const *Selection::front() const // 0x456AA7
 {
     mangled_assert("?front@Selection@@QBEPBVSob@@XZ");
     todo("implement");
-    Sob const * __result = _sub_456AA7(this);
-    return __result;
 }
 
-_extern Sob **_sub_456005(Selection *const);
 _inline Sob **Selection::begin() // 0x456005
 {
     mangled_assert("?begin@Selection@@QAEPAPAVSob@@XZ");
     todo("implement");
-    Sob ** __result = _sub_456005(this);
-    return __result;
 }
 
-_extern Sob *const *_sub_440CDA(Selection const *const);
 _inline Sob *const *Selection::begin() const // 0x440CDA
 {
     mangled_assert("?begin@Selection@@QBEPBQAVSob@@XZ");
     todo("implement");
-    Sob *const * __result = _sub_440CDA(this);
-    return __result;
 }
 
-_extern Sob **_sub_453F87(Selection *const);
 _inline Sob **Selection::end() // 0x453F87
 {
     mangled_assert("?end@Selection@@QAEPAPAVSob@@XZ");
     todo("implement");
-    Sob ** __result = _sub_453F87(this);
-    return __result;
 }
 
-_extern Sob *const *_sub_441AA7(Selection const *const);
 _inline Sob *const *Selection::end() const // 0x441AA7
 {
     mangled_assert("?end@Selection@@QBEPBQAVSob@@XZ");
     todo("implement");
-    Sob *const * __result = _sub_441AA7(this);
-    return __result;
 }
 
-_extern Sob **_sub_458DC5(Selection *const, Sob **, Sob **);
 _inline Sob **Selection::erase(Sob **, Sob **) // 0x458DC5
 {
     mangled_assert("?erase@Selection@@QAEPAPAVSob@@PAPAV2@0@Z");
     todo("implement");
-    Sob ** __result = _sub_458DC5(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_458A07(Selection *const);
 _inline void Selection::clear() // 0x458A07
 {
     mangled_assert("?clear@Selection@@QAEXXZ");
     todo("implement");
-    _sub_458A07(this);
 }
 
-_extern unsigned __int32 _sub_449FCD(Selection const *const);
 _inline unsigned __int32 Selection::size() const // 0x449FCD
 {
     mangled_assert("?size@Selection@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_449FCD(this);
-    return __result;
 }
 
-_extern bool _sub_441A4B(Selection const *const);
 _inline bool Selection::empty() const // 0x441A4B
 {
     mangled_assert("?empty@Selection@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_441A4B(this);
-    return __result;
 }
 
-_extern Sob *const *_sub_453F91(Selection const *const, Sob const *);
 _inline Sob *const *Selection::find(Sob const *) const // 0x453F91
 {
     mangled_assert("?find@Selection@@QBEPBQAVSob@@PBV2@@Z");
     todo("implement");
-    Sob *const * __result = _sub_453F91(this, arg);
-    return __result;
 }
 
-_extern Sob *_sub_451C36(Selection *const, __int32);
 _inline Sob *Selection::operator[](__int32) // 0x451C36
 {
     mangled_assert("??ASelection@@QAEPAVSob@@H@Z");
     todo("implement");
-    Sob * __result = _sub_451C36(this, arg);
-    return __result;
 }
 
-_extern Sob *_sub_4485C4(Selection const *const, __int32);
 _inline Sob *Selection::operator[](__int32) const // 0x4485C4
 {
     mangled_assert("??ASelection@@QBEPAVSob@@H@Z");
     todo("implement");
-    Sob * __result = _sub_4485C4(this, arg);
-    return __result;
 }
 
-_extern bool _sub_62F6BB(Selection *const);
 _inline bool Selection::isDeterministic() // 0x62F6BB
 {
     mangled_assert("?isDeterministic@Selection@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_62F6BB(this);
-    return __result;
 }
 
-_extern char const *_sub_62FA4C(Selection *const);
 _inline char const *Selection::saveToken() // 0x62FA4C
 {
     mangled_assert("?saveToken@Selection@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_62FA4C(this);
-    return __result;
 }
 
-_extern bool _sub_62E917(Selection const *const, SelectionFlag);
 _inline bool Selection::GetFlag(SelectionFlag) const // 0x62E917
 {
     mangled_assert("?GetFlag@Selection@@QBE_NW4SelectionFlag@@@Z");
     todo("implement");
-    bool __result = _sub_62E917(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

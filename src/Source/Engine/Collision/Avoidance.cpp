@@ -99,12 +99,10 @@ extern void AvoidanceCallback(Sob *sobA, Sob *sobB, Collision::Point const &hitP
 
 /* ---------- public code */
 
-_extern void _sub_4E2D3E(Sob *, Sob *, Collision::Point const &);
 void AvoidanceCallback(Sob *sobA, Sob *sobB, Collision::Point const &hitPoint) // 0x4E2D3E
 {
     mangled_assert("?AvoidanceCallback@@YGXPAVSob@@0ABUPoint@Collision@@@Z");
     todo("implement");
-    _sub_4E2D3E(sobA, sobB, hitPoint);
 }
 
 /* ---------- private code */

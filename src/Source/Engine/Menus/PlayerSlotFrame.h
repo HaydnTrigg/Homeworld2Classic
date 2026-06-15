@@ -109,119 +109,82 @@ static_assert(sizeof(UI::PlayerSlotFrame) == 1248, "Invalid UI::PlayerSlotFrame 
 
 /* ---------- public code */
 
-_extern bool _sub_58854A(UI::PlayerSlotFrame const *const);
 _inline bool UI::PlayerSlotFrame::IsAvailable() const // 0x58854A
 {
     mangled_assert("?IsAvailable@PlayerSlotFrame@UI@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_58854A(this);
-    return __result;
 }
 
-_extern bool _sub_58856A(UI::PlayerSlotFrame const *const);
 _inline bool UI::PlayerSlotFrame::IsHumanPlayer() const // 0x58856A
 {
     mangled_assert("?IsHumanPlayer@PlayerSlotFrame@UI@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_58856A(this);
-    return __result;
 }
 
-_extern bool _sub_588556(UI::PlayerSlotFrame const *const);
 _inline bool UI::PlayerSlotFrame::IsCPUPlayer() const // 0x588556
 {
     mangled_assert("?IsCPUPlayer@PlayerSlotFrame@UI@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_588556(this);
-    return __result;
 }
 
-_extern bool _sub_5A2D12(UI::PlayerSlotFrame const *const);
 _inline bool UI::PlayerSlotFrame::IsLocalPlayer() const // 0x5A2D12
 {
     mangled_assert("?IsLocalPlayer@PlayerSlotFrame@UI@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_5A2D12(this);
-    return __result;
 }
 
-_extern bool _sub_5A2D30(UI::PlayerSlotFrame const *const);
 _inline bool UI::PlayerSlotFrame::IsRemotePlayer() const // 0x5A2D30
 {
     mangled_assert("?IsRemotePlayer@PlayerSlotFrame@UI@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_5A2D30(this);
-    return __result;
 }
 
-_extern bool _sub_588577(UI::PlayerSlotFrame const *const);
 _inline bool UI::PlayerSlotFrame::IsLocalSlot() const // 0x588577
 {
     mangled_assert("?IsLocalSlot@PlayerSlotFrame@UI@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_588577(this);
-    return __result;
 }
 
-_extern bool _sub_58857E(UI::PlayerSlotFrame const *const);
 _inline bool UI::PlayerSlotFrame::IsReady() const // 0x58857E
 {
     mangled_assert("?IsReady@PlayerSlotFrame@UI@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_58857E(this);
-    return __result;
 }
 
-_extern bool _sub_58858C(UI::PlayerSlotFrame const *const);
 _inline bool UI::PlayerSlotFrame::IsVisible() const // 0x58858C
 {
     mangled_assert("?IsVisible@PlayerSlotFrame@UI@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_58858C(this);
-    return __result;
 }
 
-_extern __int32 _sub_587D1E(UI::PlayerSlotFrame const *const);
 _inline __int32 UI::PlayerSlotFrame::GetTeam() const // 0x587D1E
 {
     mangled_assert("?GetTeam@PlayerSlotFrame@UI@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_587D1E(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_587D17(UI::PlayerSlotFrame const *const);
 _inline unsigned __int32 UI::PlayerSlotFrame::GetStatus() const // 0x587D17
 {
     mangled_assert("?GetStatus@PlayerSlotFrame@UI@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_587D17(this);
-    return __result;
 }
 
-_extern wchar_t const *_sub_587CFE(UI::PlayerSlotFrame const *const);
 _inline wchar_t const *UI::PlayerSlotFrame::GetPlayerName() const // 0x587CFE
 {
     mangled_assert("?GetPlayerName@PlayerSlotFrame@UI@@QBEPB_WXZ");
     todo("implement");
-    wchar_t const * __result = _sub_587CFE(this);
-    return __result;
 }
 
-_extern void _sub_58A090(UI::PlayerSlotFrame *const, bool);
 _inline void UI::PlayerSlotFrame::SetHost(bool) // 0x58A090
 {
     mangled_assert("?SetHost@PlayerSlotFrame@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_58A090(this, arg);
 }
 
-_extern void _sub_58A192(UI::PlayerSlotFrame *const, bool);
 _inline void UI::PlayerSlotFrame::SetLocal(bool) // 0x58A192
 {
     mangled_assert("?SetLocal@PlayerSlotFrame@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_58A192(this, arg);
 }
 
 /* ---------- private code */

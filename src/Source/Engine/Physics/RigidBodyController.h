@@ -44,22 +44,16 @@ static_assert(sizeof(RigidBodyController) == 16, "Invalid RigidBodyController si
 
 /* ---------- public code */
 
-_extern bool _sub_475D38(RigidBodyController *const);
 _inline bool RigidBodyController::isDeterministic() // 0x475D38
 {
     mangled_assert("?isDeterministic@RigidBodyController@@MAE_NXZ");
     todo("implement");
-    bool __result = _sub_475D38(this);
-    return __result;
 }
 
-_extern char const *_sub_475DAF(RigidBodyController *const);
 _inline char const *RigidBodyController::saveToken() // 0x475DAF
 {
     mangled_assert("?saveToken@RigidBodyController@@MAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_475DAF(this);
-    return __result;
 }
 
 /* ---------- private code */

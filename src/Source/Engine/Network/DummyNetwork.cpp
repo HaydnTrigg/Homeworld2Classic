@@ -105,55 +105,40 @@
 
 /* ---------- public code */
 
-_extern _sub_5BC423(DummyNetwork *const);
 DummyNetwork::DummyNetwork() // 0x5BC423
 {
     mangled_assert("??0DummyNetwork@@QAE@XZ");
     todo("implement");
-    _sub_5BC423(this);
 }
 
-_extern void _sub_5BC471(DummyNetwork *const);
 DummyNetwork::~DummyNetwork() // 0x5BC471
 {
     mangled_assert("??1DummyNetwork@@UAE@XZ");
     todo("implement");
-    _sub_5BC471(this);
 }
 
-_extern bool _sub_5BC4C3(DummyNetwork *const);
 bool DummyNetwork::Execute() // 0x5BC4C3
 {
     mangled_assert("?Execute@DummyNetwork@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_5BC4C3(this);
-    return __result;
 }
 
-_extern __int32 _sub_5BC51B(DummyNetwork *const);
 __int32 DummyNetwork::GetSimLoopCount() // 0x5BC51B
 {
     mangled_assert("?GetSimLoopCount@DummyNetwork@@UAEHXZ");
     todo("implement");
-    __int32 __result = _sub_5BC51B(this);
-    return __result;
 }
 
-_extern FrameOrders const *_sub_5BC51F(DummyNetwork const *const);
 FrameOrders const *DummyNetwork::PeekNextFrameOrders() const // 0x5BC51F
 {
     mangled_assert("?PeekNextFrameOrders@DummyNetwork@@UBEPBVFrameOrders@@XZ");
     todo("implement");
-    FrameOrders const * __result = _sub_5BC51F(this);
-    return __result;
 }
 
-_extern void _sub_5BC523(DummyNetwork *const, std::auto_ptr<Order>);
 void DummyNetwork::SendOrder(std::auto_ptr<Order>) // 0x5BC523
 {
     mangled_assert("?SendOrder@DummyNetwork@@UAEXV?$auto_ptr@VOrder@@@std@@@Z");
     todo("implement");
-    _sub_5BC523(this, arg);
 }
 
 /* ---------- private code */

@@ -264,217 +264,148 @@ static_assert(sizeof(Player) == 436, "Invalid Player size");
 
 /* ---------- public code */
 
-_extern __int32 _sub_449736(Player const *const);
 _inline __int32 Player::getIndex() const // 0x449736
 {
     mangled_assert("?getIndex@Player@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_449736(this);
-    return __result;
 }
 
-_extern wchar_t const *_sub_4BF86E(Player const *const);
 _inline wchar_t const *Player::getName() const // 0x4BF86E
 {
     mangled_assert("?getName@Player@@QBEPB_WXZ");
     todo("implement");
-    wchar_t const * __result = _sub_4BF86E(this);
-    return __result;
 }
 
-_extern unsigned __int32 const _sub_48CA11(Player const *const);
 _inline unsigned __int32 const Player::getRaceID() const // 0x48CA11
 {
     mangled_assert("?getRaceID@Player@@QBE?BIXZ");
     todo("implement");
-    unsigned __int32 const __result = _sub_48CA11(this);
-    return __result;
 }
 
-_extern TeamColour const &_sub_441C9A(Player const *const);
 _inline TeamColour const &Player::getTeamColour() const // 0x441C9A
 {
     mangled_assert("?getTeamColour@Player@@QBEABVTeamColour@@XZ");
     todo("implement");
-    TeamColour const & __result = _sub_441C9A(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_48D350(Player const *const);
 _inline unsigned __int32 Player::getTeamColourHandle() const // 0x48D350
 {
     mangled_assert("?getTeamColourHandle@Player@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_48D350(this);
-    return __result;
 }
 
-_extern SquadronList const &_sub_500ECF(Player const *const);
 _inline SquadronList const &Player::getSquadrons() const // 0x500ECF
 {
     mangled_assert("?getSquadrons@Player@@QBEABVSquadronList@@XZ");
     todo("implement");
-    SquadronList const & __result = _sub_500ECF(this);
-    return __result;
 }
 
-_extern SquadronList const &_sub_537084(Player const *const);
 _inline SquadronList const &Player::getSleepingSquadrons() const // 0x537084
 {
     mangled_assert("?getSleepingSquadrons@Player@@QBEABVSquadronList@@XZ");
     todo("implement");
-    SquadronList const & __result = _sub_537084(this);
-    return __result;
 }
 
-_extern SquadronList const &_sub_6385B2(Player const *const);
 _inline SquadronList const &Player::getBuilderSquadrons() const // 0x6385B2
 {
     mangled_assert("?getBuilderSquadrons@Player@@QBEABVSquadronList@@XZ");
     todo("implement");
-    SquadronList const & __result = _sub_6385B2(this);
-    return __result;
 }
 
-_extern SquadronList &_sub_4514DB(Player *const);
 _inline SquadronList &Player::getSquadrons() // 0x4514DB
 {
     mangled_assert("?getSquadrons@Player@@QAEAAVSquadronList@@XZ");
     todo("implement");
-    SquadronList & __result = _sub_4514DB(this);
-    return __result;
 }
 
-_extern SquadronList &_sub_542F7B(Player *const);
 _inline SquadronList &Player::getSleepingSquadrons() // 0x542F7B
 {
     mangled_assert("?getSleepingSquadrons@Player@@QAEAAVSquadronList@@XZ");
     todo("implement");
-    SquadronList & __result = _sub_542F7B(this);
-    return __result;
 }
 
-_extern SquadronList &_sub_52C13B(Player *const);
 _inline SquadronList &Player::getBuilderSquadrons() // 0x52C13B
 {
     mangled_assert("?getBuilderSquadrons@Player@@QAEAAVSquadronList@@XZ");
     todo("implement");
-    SquadronList & __result = _sub_52C13B(this);
-    return __result;
 }
 
-_extern bool _sub_463A08(Player const *const);
 _inline bool Player::getAlive() const // 0x463A08
 {
     mangled_assert("?getAlive@Player@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_463A08(this);
-    return __result;
 }
 
-_extern unsigned short _sub_5107DC(Player const *const);
 _inline unsigned short Player::getAllies() const // 0x5107DC
 {
     mangled_assert("?getAllies@Player@@QBEGXZ");
     todo("implement");
-    unsigned short __result = _sub_5107DC(this);
-    return __result;
 }
 
-_extern void _sub_5DCB3E(Player *const, unsigned short);
 _inline void Player::setSharedVision(unsigned short) // 0x5DCB3E
 {
     mangled_assert("?setSharedVision@Player@@QAEXG@Z");
     todo("implement");
-    _sub_5DCB3E(this, arg);
 }
 
-_extern unsigned short _sub_5DC570(Player const *const);
 _inline unsigned short Player::getSharedVision() const // 0x5DC570
 {
     mangled_assert("?getSharedVision@Player@@QBEGXZ");
     todo("implement");
-    unsigned short __result = _sub_5DC570(this);
-    return __result;
 }
 
-_extern void _sub_724103(Player *const, bool);
 _inline void Player::setHyperspacing(bool) // 0x724103
 {
     mangled_assert("?setHyperspacing@Player@@QAEX_N@Z");
     todo("implement");
-    _sub_724103(this, arg);
 }
 
-_extern bool _sub_453FBD(Player const *const);
 _inline bool Player::getHyperspacing() const // 0x453FBD
 {
     mangled_assert("?getHyperspacing@Player@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_453FBD(this);
-    return __result;
 }
 
-_extern ResearchManager const &_sub_48CA49(Player const *const);
 _inline ResearchManager const &Player::getResearchManager() const // 0x48CA49
 {
     mangled_assert("?getResearchManager@Player@@QBEABVResearchManager@@XZ");
     todo("implement");
-    ResearchManager const & __result = _sub_48CA49(this);
-    return __result;
 }
 
-_extern ResearchManager &_sub_48CA42(Player *const);
 _inline ResearchManager &Player::getResearchManager() // 0x48CA42
 {
     mangled_assert("?getResearchManager@Player@@QAEAAVResearchManager@@XZ");
     todo("implement");
-    ResearchManager & __result = _sub_48CA42(this);
-    return __result;
 }
 
-_extern BuildManager &_sub_52C130(Player *const);
 _inline BuildManager &Player::getBuildManager() // 0x52C130
 {
     mangled_assert("?getBuildManager@Player@@QAEAAVBuildManager@@XZ");
     todo("implement");
-    BuildManager & __result = _sub_52C130(this);
-    return __result;
 }
 
-_extern float _sub_5107F0(Player const *const);
 _inline float Player::getBounty() const // 0x5107F0
 {
     mangled_assert("?getBounty@Player@@QBEMXZ");
     todo("implement");
-    float __result = _sub_5107F0(this);
-    return __result;
 }
 
-_extern void _sub_713415(Player *const, float);
 _inline void Player::setBounty(float) // 0x713415
 {
     mangled_assert("?setBounty@Player@@QAEXM@Z");
     todo("implement");
-    _sub_713415(this, arg);
 }
 
-_extern bool _sub_61E55F(Player *const);
 _inline bool Player::isDeterministic() // 0x61E55F
 {
     mangled_assert("?isDeterministic@Player@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_61E55F(this);
-    return __result;
 }
 
-_extern char const *_sub_61E95B(Player *const);
 _inline char const *Player::saveToken() // 0x61E95B
 {
     mangled_assert("?saveToken@Player@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_61E95B(this);
-    return __result;
 }
 
 /* ---------- private code */

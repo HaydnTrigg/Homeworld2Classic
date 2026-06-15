@@ -118,53 +118,40 @@ static_assert(sizeof(RegDrawTask) == 64, "Invalid RegDrawTask size");
 
 /* ---------- public code */
 
-_extern _sub_464FF1(region *const);
 _inline region::region() // 0x464FF1
 {
     mangled_assert("??0region@@QAE@XZ");
     todo("implement");
-    _sub_464FF1(this);
 }
 
-_extern void _sub_465044(region *const);
 _inline region::~region() // 0x465044
 {
     mangled_assert("??1region@@QAE@XZ");
     todo("implement");
-    _sub_465044(this);
 }
 
-_extern _sub_464FD6(RegUpdateTask *const, region *);
 _inline RegUpdateTask::RegUpdateTask(region *) // 0x464FD6
 {
     mangled_assert("??0RegUpdateTask@@QAE@PAVregion@@@Z");
     todo("implement");
-    _sub_464FD6(this, arg);
 }
 
-_extern void _sub_465039(RegUpdateTask *const);
 _inline RegUpdateTask::~RegUpdateTask() // 0x465039
 {
     mangled_assert("??1RegUpdateTask@@UAE@XZ");
     todo("implement");
-    _sub_465039(this);
 }
 
-_extern bool _sub_45097D(RegDrawTask const *const);
 _inline bool RegDrawTask::isDrawEnabled() const // 0x45097D
 {
     mangled_assert("?isDrawEnabled@RegDrawTask@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_45097D(this);
-    return __result;
 }
 
-_extern void _sub_45068E(RegDrawTask *const, bool);
 _inline void RegDrawTask::enableDraw(bool) // 0x45068E
 {
     mangled_assert("?enableDraw@RegDrawTask@@QAEX_N@Z");
     todo("implement");
-    _sub_45068E(this, arg);
 }
 
 /* ---------- private code */

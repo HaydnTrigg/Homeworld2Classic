@@ -97,12 +97,10 @@ static_assert(sizeof(WindowInterface) == 4, "Invalid WindowInterface size");
 
 /* ---------- public code */
 
-_extern void _sub_1000318A(WindowInterface *const);
 _inline WindowInterface::~WindowInterface() // 0x1000318A
 {
     mangled_assert("??1WindowInterface@@MAE@XZ");
     todo("implement");
-    _sub_1000318A(this);
 }
 
 /* ---------- private code */

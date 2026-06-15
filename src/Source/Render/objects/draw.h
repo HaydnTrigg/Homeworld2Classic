@@ -121,31 +121,22 @@ static_assert(sizeof(Draw) == 84, "Invalid Draw size");
 
 /* ---------- public code */
 
-_extern Draw *_sub_10048930();
 _inline Draw *Draw::create() // 0x10048930
 {
     mangled_assert("?create@Draw@@SGPAV1@XZ");
     todo("implement");
-    Draw * __result = _sub_10048930();
-    return __result;
 }
 
-_extern bool _sub_10048AD0(Draw const *const);
 _inline bool Draw::is2D() const // 0x10048AD0
 {
     mangled_assert("?is2D@Draw@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_10048AD0(this);
-    return __result;
 }
 
-_extern vector4 const *_sub_10048AC0(Draw const *const);
 _inline vector4 const *Draw::getWindow() const // 0x10048AC0
 {
     mangled_assert("?getWindow@Draw@@QBEPBVvector4@@XZ");
     todo("implement");
-    vector4 const * __result = _sub_10048AC0(this);
-    return __result;
 }
 
 /* ---------- private code */

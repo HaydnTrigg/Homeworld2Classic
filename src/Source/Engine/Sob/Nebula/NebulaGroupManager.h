@@ -91,22 +91,16 @@ static_assert(sizeof(NebulaGroupManager) == 12, "Invalid NebulaGroupManager size
 
 /* ---------- public code */
 
-_extern bool _sub_4C3242(NebulaGroupManager *const);
 _inline bool NebulaGroupManager::isDeterministic() // 0x4C3242
 {
     mangled_assert("?isDeterministic@NebulaGroupManager@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4C3242(this);
-    return __result;
 }
 
-_extern char const *_sub_4C333B(NebulaGroupManager *const);
 _inline char const *NebulaGroupManager::saveToken() // 0x4C333B
 {
     mangled_assert("?saveToken@NebulaGroupManager@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4C333B(this);
-    return __result;
 }
 
 /* ---------- private code */

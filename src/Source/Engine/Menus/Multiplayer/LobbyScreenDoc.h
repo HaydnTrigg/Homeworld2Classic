@@ -41,22 +41,16 @@ static_assert(sizeof(UI::LobbyScreenDoc) == 16, "Invalid UI::LobbyScreenDoc size
 
 /* ---------- public code */
 
-_extern std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<unsigned __int64 const ,LobbySessionDesc> > > > _sub_5B7AEE(UI::LobbyScreenDoc *const);
 _inline std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<unsigned __int64 const ,LobbySessionDesc> > > > UI::LobbyScreenDoc::begin() // 0x5B7AEE
 {
     mangled_assert("?begin@LobbyScreenDoc@UI@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CB_KVLobbySessionDesc@@@std@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<unsigned __int64 const ,LobbySessionDesc> > > > __result = _sub_5B7AEE(this);
-    return __result;
 }
 
-_extern std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<unsigned __int64 const ,LobbySessionDesc> > > > _sub_5B7AFB(UI::LobbyScreenDoc *const);
 _inline std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<unsigned __int64 const ,LobbySessionDesc> > > > UI::LobbyScreenDoc::end() // 0x5B7AFB
 {
     mangled_assert("?end@LobbyScreenDoc@UI@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CB_KVLobbySessionDesc@@@std@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<unsigned __int64 const ,LobbySessionDesc> > > > __result = _sub_5B7AFB(this);
-    return __result;
 }
 
 /* ---------- private code */

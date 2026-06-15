@@ -67,12 +67,10 @@ static_assert(sizeof(SysDialogInterface) == 4, "Invalid SysDialogInterface size"
 
 /* ---------- public code */
 
-_extern void _sub_10007857(SysDialogInterface *const);
 _inline SysDialogInterface::~SysDialogInterface() // 0x10007857
 {
     mangled_assert("??1SysDialogInterface@@MAE@XZ");
     todo("implement");
-    _sub_10007857(this);
 }
 
 /* ---------- private code */

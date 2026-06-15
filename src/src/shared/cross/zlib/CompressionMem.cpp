@@ -185,37 +185,28 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_1000759C();
 void ZLibMemInitialize() // 0x1000759C
 {
     mangled_assert("?ZLibMemInitialize@@YGXXZ");
     todo("implement");
-    _sub_1000759C();
 }
 
-_extern void _sub_100075B2();
 void ZLibMemShutdown() // 0x100075B2
 {
     mangled_assert("?ZLibMemShutdown@@YGXXZ");
     todo("implement");
-    _sub_100075B2();
 }
 
-_extern void *_sub_10007570(void *, unsigned __int32, unsigned __int32);
 void *ZLibMemAlloc(void *items, unsigned __int32 size, unsigned __int32) // 0x10007570
 {
     mangled_assert("?ZLibMemAlloc@@YGPAXPAXII@Z");
     todo("implement");
-    void * __result = _sub_10007570(items, size, arg);
-    return __result;
 }
 
-_extern void _sub_10007589(void *, void *);
 void ZLibMemFree(void *ptr, void *) // 0x10007589
 {
     mangled_assert("?ZLibMemFree@@YGXPAX0@Z");
     todo("implement");
-    _sub_10007589(ptr, arg);
 }
 
 /* ---------- private code */

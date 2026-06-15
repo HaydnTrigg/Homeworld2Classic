@@ -151,58 +151,40 @@ static_assert(sizeof(HyperSpaceCommandStaticInfo) == 28, "Invalid HyperSpaceComm
 
 /* ---------- public code */
 
-_extern bool _sub_6AAA35(HyperSpaceCommand *const, CommandType, Command *);
 _inline bool HyperSpaceCommand::canBeInterrupted(CommandType, Command *) // 0x6AAA35
 {
     mangled_assert("?canBeInterrupted@HyperSpaceCommand@@UAE_NW4CommandType@@PAVCommand@@@Z");
     todo("implement");
-    bool __result = _sub_6AAA35(this, arg, arg);
-    return __result;
 }
 
-_extern vector3 const &_sub_6AAB2C(HyperSpaceCommand const *const);
 _inline vector3 const &HyperSpaceCommand::getDestinationDtrm() const // 0x6AAB2C
 {
     mangled_assert("?getDestinationDtrm@HyperSpaceCommand@@UBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_6AAB2C(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_6AAB30(HyperSpaceCommand const *const);
 _inline vector3 const &HyperSpaceCommand::getDestinationVis() const // 0x6AAB30
 {
     mangled_assert("?getDestinationVis@HyperSpaceCommand@@UBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_6AAB30(this);
-    return __result;
 }
 
-_extern HyperSpaceCommand::CommandState _sub_6A7F6E(HyperSpaceCommand const *const);
 _inline HyperSpaceCommand::CommandState HyperSpaceCommand::getHyperSpaceState() const // 0x6A7F6E
 {
     mangled_assert("?getHyperSpaceState@HyperSpaceCommand@@QBE?AW4CommandState@1@XZ");
     todo("implement");
-    HyperSpaceCommand::CommandState __result = _sub_6A7F6E(this);
-    return __result;
 }
 
-_extern bool _sub_6AAB51(HyperSpaceCommand *const);
 _inline bool HyperSpaceCommand::isDeterministic() // 0x6AAB51
 {
     mangled_assert("?isDeterministic@HyperSpaceCommand@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6AAB51(this);
-    return __result;
 }
 
-_extern char const *_sub_6AAC6D(HyperSpaceCommand *const);
 _inline char const *HyperSpaceCommand::saveToken() // 0x6AAC6D
 {
     mangled_assert("?saveToken@HyperSpaceCommand@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6AAC6D(this);
-    return __result;
 }
 
 /* ---------- private code */

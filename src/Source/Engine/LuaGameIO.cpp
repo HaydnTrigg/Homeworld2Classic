@@ -139,78 +139,60 @@ extern char const *LUALIB_GAMEIO; // 0x83AB58
 
 /* ---------- public code */
 
-_extern _sub_5C4B17(LuaScopedGuard *const);
 _inline LuaScopedGuard::LuaScopedGuard() // 0x5C4B17
 {
     mangled_assert("??0LuaScopedGuard@@QAE@XZ");
     todo("implement");
-    _sub_5C4B17(this);
 }
 
-_extern void _sub_5C4B39(LuaBinding::ObjInternal2<char const *,bool,void,LuaBinding::Functor2Free<char const *,bool,void> > *const);
 _inline LuaBinding::ObjInternal2<char const *,bool,void,LuaBinding::Functor2Free<char const *,bool,void> >::~ObjInternal2<char const *,bool,void,LuaBinding::Functor2Free<char const *,bool,void> >() // 0x5C4B39
 {
     mangled_assert("??1?$ObjInternal2@PBD_NXV?$Functor2Free@PBD_NX@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5C4B39(this);
 }
 
-_extern void _sub_5C4B80(LuaScopedGuard *const);
 _inline LuaScopedGuard::~LuaScopedGuard() // 0x5C4B80
 {
     mangled_assert("??1LuaScopedGuard@@QAE@XZ");
     todo("implement");
-    _sub_5C4B80(this);
 }
 
 /* ---------- private code */
 
-_extern void _sub_5C4E89(char const *);
 _static void SaveDetGame(char const *filename) // 0x5C4E89
 {
     mangled_assert("SaveDetGame");
     todo("implement");
-    _sub_5C4E89(filename);
 }
 
-_extern void _sub_5C4EA7(char const *);
 _static void SaveGame(char const *filename) // 0x5C4EA7
 {
     mangled_assert("SaveGame");
     todo("implement");
-    _sub_5C4EA7(filename);
 }
 
-_extern void _sub_5C4C58(char const *);
 _static void LoadGame(char const *filename) // 0x5C4C58
 {
     mangled_assert("LoadGame");
     todo("implement");
-    _sub_5C4C58(filename);
 }
 
-_extern void _sub_5C4D0C(bool);
 _static void RecordGame(bool on) // 0x5C4D0C
 {
     mangled_assert("RecordGame");
     todo("implement");
-    _sub_5C4D0C(on);
 }
 
-_extern void _sub_5C4EC5();
 _static void SaveRecordedGame() // 0x5C4EC5
 {
     mangled_assert("SaveRecordedGame");
     todo("implement");
-    _sub_5C4EC5();
 }
 
-_extern void _sub_5C4CB4(char const *, bool);
 _static void LoadRecordedGame(char const *type, bool isDebugging) // 0x5C4CB4
 {
     mangled_assert("LoadRecordedGame");
     todo("implement");
-    _sub_5C4CB4(type, isDebugging);
 }
 #endif

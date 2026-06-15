@@ -63,58 +63,40 @@ static_assert(sizeof(Camera) == 400, "Invalid Camera size");
 
 /* ---------- public code */
 
-_extern float _sub_4E052D(Camera const *const);
 _inline float Camera::getAspectRatio() const // 0x4E052D
 {
     mangled_assert("?getAspectRatio@Camera@@UBEMXZ");
     todo("implement");
-    float __result = _sub_4E052D(this);
-    return __result;
 }
 
-_extern float _sub_4E053B(Camera const *const);
 _inline float Camera::getNearClip() const // 0x4E053B
 {
     mangled_assert("?getNearClip@Camera@@UBEMXZ");
     todo("implement");
-    float __result = _sub_4E053B(this);
-    return __result;
 }
 
-_extern float _sub_4E0534(Camera const *const);
 _inline float Camera::getFarClip() const // 0x4E0534
 {
     mangled_assert("?getFarClip@Camera@@UBEMXZ");
     todo("implement");
-    float __result = _sub_4E0534(this);
-    return __result;
 }
 
-_extern matrix4 const &_sub_441BD0(Camera const *const);
 _inline matrix4 const &Camera::getMatrix() const // 0x441BD0
 {
     mangled_assert("?getMatrix@Camera@@QBEABVmatrix4@@XZ");
     todo("implement");
-    matrix4 const & __result = _sub_441BD0(this);
-    return __result;
 }
 
-_extern matrix4 const &_sub_5F0FD4(Camera const *const);
 _inline matrix4 const &Camera::getMatrixWithoutTranslation() const // 0x5F0FD4
 {
     mangled_assert("?getMatrixWithoutTranslation@Camera@@QBEABVmatrix4@@XZ");
     todo("implement");
-    matrix4 const & __result = _sub_5F0FD4(this);
-    return __result;
 }
 
-_extern matrix4 const &_sub_4460C2(Camera const *const);
 _inline matrix4 const &Camera::getProjectionMatrix() const // 0x4460C2
 {
     mangled_assert("?getProjectionMatrix@Camera@@QBEABVmatrix4@@XZ");
     todo("implement");
-    matrix4 const & __result = _sub_4460C2(this);
-    return __result;
 }
 
 /* ---------- private code */
@@ -185,13 +167,10 @@ static_assert(sizeof(Camera) == 400, "Invalid Camera size");
 
 /* ---------- public code */
 
-_extern matrix4 const &_sub_10069140(Camera const *const);
 _inline matrix4 const &Camera::getMatrixWithoutTranslation() const // 0x10069140
 {
     mangled_assert("?getMatrixWithoutTranslation@Camera@@QBEABVmatrix4@@XZ");
     todo("implement");
-    matrix4 const & __result = _sub_10069140(this);
-    return __result;
 }
 
 /* ---------- private code */

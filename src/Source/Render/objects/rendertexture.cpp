@@ -224,185 +224,134 @@ _static
 
 /* ---------- public code */
 
-_extern bool _sub_1008ECD0(RenderTexture *const, vector2 const &, PBufferTexture, unsigned __int32 const, unsigned __int32 const);
 bool RenderTexture::Initialize(vector2 const &, PBufferTexture, unsigned __int32 const, unsigned __int32 const) // 0x1008ECD0
 {
     mangled_assert("?Initialize@RenderTexture@@QAE_NABVvector2@@W4PBufferTexture@@II@Z");
     todo("implement");
-    bool __result = _sub_1008ECD0(this, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern _sub_1008E790(RenderTexture *const, rndTable *);
 RenderTexture::RenderTexture(rndTable *) // 0x1008E790
 {
     mangled_assert("??0RenderTexture@@QAE@PAUrndTable@@@Z");
     todo("implement");
-    _sub_1008E790(this, arg);
 }
 
-_extern _sub_1008E7B0(RenderTextureManager *const, RenderTextureManager const &);
 _inline RenderTextureManager::RenderTextureManager(RenderTextureManager const &) // 0x1008E7B0
 {
     mangled_assert("??0RenderTextureManager@@QAE@ABV0@@Z");
     compiler_generated();
     todo("implement");
-    _sub_1008E7B0(this, arg);
 }
 
-_extern void _sub_1008E850(RenderTexture *const);
 RenderTexture::~RenderTexture() // 0x1008E850
 {
     mangled_assert("??1RenderTexture@@QAE@XZ");
     todo("implement");
-    _sub_1008E850(this);
 }
 
-_extern bool _sub_1008EC90(RenderTexture const *const, vector2 &);
 bool RenderTexture::GetSize(vector2 &) const // 0x1008EC90
 {
     mangled_assert("?GetSize@RenderTexture@@QBE_NAAVvector2@@@Z");
     todo("implement");
-    bool __result = _sub_1008EC90(this, arg);
-    return __result;
 }
 
-_extern void _sub_1008EDB0(RenderTexture *const, PBufferTexture const, float const, float const, float const, float const);
 void RenderTexture::ShowBufferDebug(PBufferTexture const, float const, float const, float const, float const) // 0x1008EDB0
 {
     mangled_assert("?ShowBufferDebug@RenderTexture@@QAEXW4PBufferTexture@@MMMM@Z");
     todo("implement");
-    _sub_1008EDB0(this, arg, arg, arg, arg, arg);
 }
 
-_extern bool _sub_1008EB60(RenderTexture *const);
 bool RenderTexture::Apply() // 0x1008EB60
 {
     mangled_assert("?Apply@RenderTexture@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_1008EB60(this);
-    return __result;
 }
 
-_extern bool _sub_1008F370(RenderTexture *const);
 bool RenderTexture::Unapply() // 0x1008F370
 {
     mangled_assert("?Unapply@RenderTexture@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_1008F370(this);
-    return __result;
 }
 
-_extern void _sub_1008EB90(RenderTexture *const, PBufferTexture);
 void RenderTexture::Bind(PBufferTexture) // 0x1008EB90
 {
     mangled_assert("?Bind@RenderTexture@@QAEXW4PBufferTexture@@@Z");
     todo("implement");
-    _sub_1008EB90(this, arg);
 }
 
-_extern void _sub_1008F390(RenderTexture *const, PBufferTexture);
 void RenderTexture::Unbind(PBufferTexture) // 0x1008F390
 {
     mangled_assert("?Unbind@RenderTexture@@QAEXW4PBufferTexture@@@Z");
     todo("implement");
-    _sub_1008F390(this, arg);
 }
 
-_extern void _sub_1008F140(RenderTexture *const, matrix4 const &, float const, float const, float const, float const, __int32 const);
 void RenderTexture::StartShadow(matrix4 const &, float const, float const, float const, float const, __int32 const) // 0x1008F140
 {
     mangled_assert("?StartShadow@RenderTexture@@QAEXABVmatrix4@@MMMMH@Z");
     todo("implement");
-    _sub_1008F140(this, arg, arg, arg, arg, arg, arg);
 }
 
-_extern void _sub_1008EBB0(RenderTexture *const);
 void RenderTexture::EndShadow() // 0x1008EBB0
 {
     mangled_assert("?EndShadow@RenderTexture@@QAEXXZ");
     todo("implement");
-    _sub_1008EBB0(this);
 }
 
-_extern bool _sub_1008ED60(RenderTexture *const, bool const, bool const);
 bool RenderTexture::InitializeState(bool const, bool const) // 0x1008ED60
 {
     mangled_assert("?InitializeState@RenderTexture@@QAE_N_N0@Z");
     todo("implement");
-    bool __result = _sub_1008ED60(this, arg, arg);
-    return __result;
 }
 
-_extern _sub_1008E7E0(RenderTextureManager *const);
 RenderTextureManager::RenderTextureManager() // 0x1008E7E0
 {
     mangled_assert("??0RenderTextureManager@@QAE@XZ");
     todo("implement");
-    _sub_1008E7E0(this);
 }
 
-_extern _sub_1008E810(glState *const);
 _inline glState::glState() // 0x1008E810
 {
     mangled_assert("??0glState@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_1008E810(this);
 }
 
-_extern void _sub_1008E890(RenderTextureManager *const);
 RenderTextureManager::~RenderTextureManager() // 0x1008E890
 {
     mangled_assert("??1RenderTextureManager@@QAE@XZ");
     todo("implement");
-    _sub_1008E890(this);
 }
 
-_extern RenderTexture &_sub_1008EA50(RenderTexture *const, RenderTexture const &);
 _inline RenderTexture &RenderTexture::operator=(RenderTexture const &) // 0x1008EA50
 {
     mangled_assert("??4RenderTexture@@QAEAAV0@ABV0@@Z");
     compiler_generated();
     todo("implement");
-    RenderTexture & __result = _sub_1008EA50(this, arg);
-    return __result;
 }
 
-_extern RenderTextureManager &_sub_1008EA70(RenderTextureManager *const, RenderTextureManager const &);
 _inline RenderTextureManager &RenderTextureManager::operator=(RenderTextureManager const &) // 0x1008EA70
 {
     mangled_assert("??4RenderTextureManager@@QAEAAV0@ABV0@@Z");
     compiler_generated();
     todo("implement");
-    RenderTextureManager & __result = _sub_1008EA70(this, arg);
-    return __result;
 }
 
-_extern bool _sub_1008FBF0();
 bool RenderTextureManager::startup() // 0x1008FBF0
 {
     mangled_assert("?startup@RenderTextureManager@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_1008FBF0();
-    return __result;
 }
 
-_extern void _sub_1008F750(RenderTextureManager *const, rndTable *);
 void RenderTextureManager::initialize(rndTable *) // 0x1008F750
 {
     mangled_assert("?initialize@RenderTextureManager@@QAEXPAUrndTable@@@Z");
     todo("implement");
-    _sub_1008F750(this, arg);
 }
 
-_extern bool _sub_1008FBB0();
 bool RenderTextureManager::shutdown() // 0x1008FBB0
 {
     mangled_assert("?shutdown@RenderTextureManager@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_1008FBB0();
-    return __result;
 }
 
 /* ---------- private code */

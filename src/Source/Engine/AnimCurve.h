@@ -105,66 +105,46 @@ static_assert(sizeof(AnimCurve) == 108, "Invalid AnimCurve size");
 
 /* ---------- public code */
 
-_extern void _sub_6086EB(AnimCurve *const, char *);
 _inline void AnimCurve::setName(char *) // 0x6086EB
 {
     mangled_assert("?setName@AnimCurve@@QAEXPAD@Z");
     todo("implement");
-    _sub_6086EB(this, arg);
 }
 
-_extern unsigned __int32 _sub_54B95B(AnimCurve *const);
 _inline unsigned __int32 AnimCurve::getNumKeys() // 0x54B95B
 {
     mangled_assert("?getNumKeys@AnimCurve@@QAEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_54B95B(this);
-    return __result;
 }
 
-_extern float _sub_54D354(AnimCurve const *const);
 _inline float AnimCurve::getMinValue() const // 0x54D354
 {
     mangled_assert("?getMinValue@AnimCurve@@QBEMXZ");
     todo("implement");
-    float __result = _sub_54D354(this);
-    return __result;
 }
 
-_extern float _sub_54D34C(AnimCurve const *const);
 _inline float AnimCurve::getMaxValue() const // 0x54D34C
 {
     mangled_assert("?getMaxValue@AnimCurve@@QBEMXZ");
     todo("implement");
-    float __result = _sub_54D34C(this);
-    return __result;
 }
 
-_extern float _sub_54D350(AnimCurve const *const);
 _inline float AnimCurve::getMinTime() const // 0x54D350
 {
     mangled_assert("?getMinTime@AnimCurve@@QBEMXZ");
     todo("implement");
-    float __result = _sub_54D350(this);
-    return __result;
 }
 
-_extern float _sub_54D348(AnimCurve const *const);
 _inline float AnimCurve::getMaxTime() const // 0x54D348
 {
     mangled_assert("?getMaxTime@AnimCurve@@QBEMXZ");
     todo("implement");
-    float __result = _sub_54D348(this);
-    return __result;
 }
 
-_extern CurveChannel _sub_607DCA(AnimCurve const *const);
 _inline CurveChannel AnimCurve::getChannel() const // 0x607DCA
 {
     mangled_assert("?getChannel@AnimCurve@@QBE?AW4CurveChannel@@XZ");
     todo("implement");
-    CurveChannel __result = _sub_607DCA(this);
-    return __result;
 }
 
 /* ---------- private code */

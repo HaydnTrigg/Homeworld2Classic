@@ -95,12 +95,10 @@ static_assert(sizeof(SteamP2PNetwork) == 128, "Invalid SteamP2PNetwork size");
 
 /* ---------- public code */
 
-_extern _sub_4606DD(SteamP2PNetwork::Packet *const);
 _inline SteamP2PNetwork::Packet::Packet() // 0x4606DD
 {
     mangled_assert("??0Packet@SteamP2PNetwork@@QAE@XZ");
     todo("implement");
-    _sub_4606DD(this);
 }
 
 /* ---------- private code */

@@ -137,73 +137,53 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_10013ACD(char *, char const *);
 void piMangleTitleRoom(char *buffer, char const *title) // 0x10013ACD
 {
     mangled_assert("_piMangleTitleRoom@8");
     todo("implement");
-    _sub_10013ACD(buffer, title);
 }
 
-_extern void _sub_10013AA4(char *, __int32);
 void piMangleGroupRoom(char *buffer, __int32 groupID) // 0x10013AA4
 {
     mangled_assert("_piMangleGroupRoom@8");
     todo("implement");
-    _sub_10013AA4(buffer, groupID);
 }
 
-_extern void _sub_10013AE6(char *, unsigned __int32, __int32);
 void piMangleUser(char *buffer, unsigned __int32 IP, __int32 profileID) // 0x10013AE6
 {
     mangled_assert("_piMangleUser@12");
     todo("implement");
-    _sub_10013AE6(buffer, IP, profileID);
 }
 
-_extern PEERBool _sub_10013A44(char const *, unsigned __int32 *, __int32 *);
 PEERBool piDemangleUser(char const *buffer, unsigned __int32 *IP, __int32 *profileID) // 0x10013A44
 {
     mangled_assert("_piDemangleUser@12");
     todo("implement");
-    PEERBool __result = _sub_10013A44(buffer, IP, profileID);
-    return __result;
 }
 
-_extern void _sub_10013ABD(char *, unsigned __int32);
 void piMangleIP(char *buffer, unsigned __int32 IP) // 0x10013ABD
 {
     mangled_assert("_piMangleIP@8");
     todo("implement");
-    _sub_10013ABD(buffer, IP);
 }
 
-_extern unsigned __int32 _sub_10013A33(char const *);
 unsigned __int32 piDemangleIP(char const *buffer) // 0x10013A33
 {
     mangled_assert("_piDemangleIP@4");
     todo("implement");
-    unsigned __int32 __result = _sub_10013A33(buffer);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern char const *_sub_100139B4(unsigned __int32, char *);
 _static char const *EncodeIPAddr(unsigned __int32 ulIPAddr, char *lpszEncodedAddr) // 0x100139B4
 {
     mangled_assert("EncodeIPAddr");
     todo("implement");
-    char const * __result = _sub_100139B4(ulIPAddr, lpszEncodedAddr);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_1001392D(char const *);
 _static unsigned __int32 DecodeIPAddr(char const *lpszEncodedAddr) // 0x1001392D
 {
     mangled_assert("DecodeIPAddr");
     todo("implement");
-    unsigned __int32 __result = _sub_1001392D(lpszEncodedAddr);
-    return __result;
 }
 #endif

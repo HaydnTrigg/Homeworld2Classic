@@ -223,165 +223,112 @@ static_assert(sizeof(ResearchData) == 220, "Invalid ResearchData size");
 
 /* ---------- public code */
 
-_extern ResearchData::ResearchState _sub_4EEA5C(ResearchData const *const);
 _inline ResearchData::ResearchState ResearchData::getResearchState() const // 0x4EEA5C
 {
     mangled_assert("?getResearchState@ResearchData@@QBE?AW4ResearchState@1@XZ");
     todo("implement");
-    ResearchData::ResearchState __result = _sub_4EEA5C(this);
-    return __result;
 }
 
-_extern __int32 _sub_4EE9FB(ResearchData const *const);
 _inline __int32 ResearchData::getCost() const // 0x4EE9FB
 {
     mangled_assert("?getCost@ResearchData@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_4EE9FB(this);
-    return __result;
 }
 
-_extern __int32 _sub_538926(ResearchData const *const);
 _inline __int32 ResearchData::getCurrentSpend() const // 0x538926
 {
     mangled_assert("?getCurrentSpend@ResearchData@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_538926(this);
-    return __result;
 }
 
-_extern unsigned __int32 const _sub_598CC0(ResearchData const *const);
 _inline unsigned __int32 const ResearchData::getDisplayPriority() const // 0x598CC0
 {
     mangled_assert("?getDisplayPriority@ResearchData@@QBE?BIXZ");
     todo("implement");
-    unsigned __int32 const __result = _sub_598CC0(this);
-    return __result;
 }
 
-_extern std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &_sub_598CC4(ResearchData const *const);
 _inline std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &ResearchData::getIcon() const // 0x598CC4
 {
     mangled_assert("?getIcon@ResearchData@@QBEABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ");
     todo("implement");
-    std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & __result = _sub_598CC4(this);
-    return __result;
 }
 
-_extern std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > const &_sub_53892D(ResearchData const *const);
 _inline std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > const &ResearchData::getDisplayedName() const // 0x53892D
 {
     mangled_assert("?getDisplayedName@ResearchData@@QBEABV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@XZ");
     todo("implement");
-    std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > const & __result = _sub_53892D(this);
-    return __result;
 }
 
-_extern std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > const &_sub_598CCB(ResearchData const *const);
 _inline std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > const &ResearchData::getShortDisplayedName() const // 0x598CCB
 {
     mangled_assert("?getShortDisplayedName@ResearchData@@QBEABV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@XZ");
     todo("implement");
-    std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > const & __result = _sub_598CCB(this);
-    return __result;
 }
 
-_extern std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > const &_sub_598CBC(ResearchData const *const);
 _inline std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > const &ResearchData::getDescription() const // 0x598CBC
 {
     mangled_assert("?getDescription@ResearchData@@QBEABV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@XZ");
     todo("implement");
-    std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > const & __result = _sub_598CBC(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_4EEA6A(ResearchData const *const);
 _inline unsigned __int32 ResearchData::getTypeId() const // 0x4EEA6A
 {
     mangled_assert("?getTypeId@ResearchData@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_4EEA6A(this);
-    return __result;
 }
 
-_extern ResearchData::UpgradeTargetType const _sub_4ED8DA(ResearchData const *const);
 _inline ResearchData::UpgradeTargetType const ResearchData::getUpgradeTargetType() const // 0x4ED8DA
 {
     mangled_assert("?getUpgradeTargetType@ResearchData@@QBE?BW4UpgradeTargetType@1@XZ");
     todo("implement");
-    ResearchData::UpgradeTargetType const __result = _sub_4ED8DA(this);
-    return __result;
 }
 
-_extern ResearchData::UpgradeType const _sub_53894B(ResearchData const *const);
 _inline ResearchData::UpgradeType const ResearchData::getUpgradeType() const // 0x53894B
 {
     mangled_assert("?getUpgradeType@ResearchData@@QBE?BW4UpgradeType@1@XZ");
     todo("implement");
-    ResearchData::UpgradeType const __result = _sub_53894B(this);
-    return __result;
 }
 
-_extern MultiplierType const _sub_4ED8CC(ResearchData const *const);
 _inline MultiplierType const ResearchData::getMultiplierType() const // 0x4ED8CC
 {
     mangled_assert("?getMultiplierType@ResearchData@@QBE?BW4MultiplierType@@XZ");
     todo("implement");
-    MultiplierType const __result = _sub_4ED8CC(this);
-    return __result;
 }
 
-_extern std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &_sub_4ED8D3(ResearchData const *const);
 _inline std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &ResearchData::getTarget() const // 0x4ED8D3
 {
     mangled_assert("?getTarget@ResearchData@@QBEABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ");
     todo("implement");
-    std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & __result = _sub_4ED8D3(this);
-    return __result;
 }
 
-_extern unsigned __int32 const _sub_4EEA63(ResearchData const *const);
 _inline unsigned __int32 const ResearchData::getTargetId() const // 0x4EEA63
 {
     mangled_assert("?getTargetId@ResearchData@@QBE?BIXZ");
     todo("implement");
-    unsigned __int32 const __result = _sub_4EEA63(this);
-    return __result;
 }
 
-_extern float const _sub_4ED8E1(ResearchData const *const);
 _inline float const ResearchData::getUpgradeValue() const // 0x4ED8E1
 {
     mangled_assert("?getUpgradeValue@ResearchData@@QBE?BMXZ");
     todo("implement");
-    float const __result = _sub_4ED8E1(this);
-    return __result;
 }
 
-_extern void _sub_4EEB77(ResearchData *const, bool);
 _inline void ResearchData::setRestricted(bool) // 0x4EEB77
 {
     mangled_assert("?setRestricted@ResearchData@@QAEX_N@Z");
     todo("implement");
-    _sub_4EEB77(this, arg);
 }
 
-_extern bool _sub_4ED905(ResearchData *const);
 _inline bool ResearchData::isDeterministic() // 0x4ED905
 {
     mangled_assert("?isDeterministic@ResearchData@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4ED905(this);
-    return __result;
 }
 
-_extern char const *_sub_4ED9B6(ResearchData *const);
 _inline char const *ResearchData::saveToken() // 0x4ED9B6
 {
     mangled_assert("?saveToken@ResearchData@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4ED9B6(this);
-    return __result;
 }
 
 /* ---------- private code */

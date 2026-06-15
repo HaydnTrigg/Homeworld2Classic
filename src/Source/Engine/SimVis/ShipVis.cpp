@@ -150,121 +150,89 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_52346D(ShipVis::Data *const);
 _inline ShipVis::Data::Data() // 0x52346D
 {
     mangled_assert("??0Data@ShipVis@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_52346D(this);
 }
 
-_extern _sub_523477(ShipVis *const, Sob const *);
 ShipVis::ShipVis(Sob const *) // 0x523477
 {
     mangled_assert("??0ShipVis@@QAE@PBVSob@@@Z");
     todo("implement");
-    _sub_523477(this, arg);
 }
 
-_extern _sub_5234C8(ShipVis *const, Sob const *, SaveGameData *);
 ShipVis::ShipVis(Sob const *, SaveGameData *) // 0x5234C8
 {
     mangled_assert("??0ShipVis@@QAE@PBVSob@@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_5234C8(this, arg, arg);
 }
 
-_extern void _sub_52351C(ShipVis *const);
 ShipVis::~ShipVis() // 0x52351C
 {
     mangled_assert("??1ShipVis@@UAE@XZ");
     todo("implement");
-    _sub_52351C(this);
 }
 
-_extern void _sub_5237A9(ShipVis *const, Camera const &, float, float, __int32);
 void ShipVis::update(Camera const &, float, float, __int32) // 0x5237A9
 {
     mangled_assert("?update@ShipVis@@UAEXABVCamera@@MMH@Z");
     todo("implement");
-    _sub_5237A9(this, arg, arg, arg, arg);
 }
 
-_extern bool _sub_523634(ShipVis *const, vector3 const &, matrix3 const &, float const, float const, float const, char const *, char const *);
 bool ShipVis::startHyperspaceFX(vector3 const &, matrix3 const &, float const, float const, float const, char const *, char const *) // 0x523634
 {
     mangled_assert("?startHyperspaceFX@ShipVis@@QAE_NABVvector3@@ABVmatrix3@@MMMPBD2@Z");
     todo("implement");
-    bool __result = _sub_523634(this, arg, arg, arg, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_52358E(ShipVis const *const);
 bool ShipVis::isHyperspaceFXDead() const // 0x52358E
 {
     mangled_assert("?isHyperspaceFXDead@ShipVis@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_52358E(this);
-    return __result;
 }
 
-_extern void _sub_523796(ShipVis *const);
 void ShipVis::stopHyperspaceFX() // 0x523796
 {
     mangled_assert("?stopHyperspaceFX@ShipVis@@QAEXXZ");
     todo("implement");
-    _sub_523796(this);
 }
 
-_extern bool _sub_523575(ShipVis const *const, matrix4 &);
 bool ShipVis::getHyperspaceFXTransform(matrix4 &) const // 0x523575
 {
     mangled_assert("?getHyperspaceFXTransform@ShipVis@@QBE_NAAVmatrix4@@@Z");
     todo("implement");
-    bool __result = _sub_523575(this, arg);
-    return __result;
 }
 
-_extern bool _sub_52355C(ShipVis const *const, vector3 &);
 bool ShipVis::getHyperspaceFXOffset(vector3 &) const // 0x52355C
 {
     mangled_assert("?getHyperspaceFXOffset@ShipVis@@QBE_NAAVvector3@@@Z");
     todo("implement");
-    bool __result = _sub_52355C(this, arg);
-    return __result;
 }
 
-_extern void _sub_52361B(ShipVis *const, bool);
 void ShipVis::setHyperspaceFXVisible(bool) // 0x52361B
 {
     mangled_assert("?setHyperspaceFXVisible@ShipVis@@QAEX_N@Z");
     todo("implement");
-    _sub_52361B(this, arg);
 }
 
-_extern void _sub_523602(ShipVis *const, matrix4 const &);
 void ShipVis::setHyperspaceFXTransform(matrix4 const &) // 0x523602
 {
     mangled_assert("?setHyperspaceFXTransform@ShipVis@@QAEXABVmatrix4@@@Z");
     todo("implement");
-    _sub_523602(this, arg);
 }
 
-_extern void _sub_5235A1(ShipVis *const, float, float, float);
 void ShipVis::setHyperspaceFXSize(float, float, float) // 0x5235A1
 {
     mangled_assert("?setHyperspaceFXSize@ShipVis@@QAEXMMM@Z");
     todo("implement");
-    _sub_5235A1(this, arg, arg, arg);
 }
 
-_extern void _sub_5237FC(ShipVis *const, float, bool);
 void ShipVis::updateHyperspaceFX(float, bool) // 0x5237FC
 {
     mangled_assert("?updateHyperspaceFX@ShipVis@@AAEXM_N@Z");
     todo("implement");
-    _sub_5237FC(this, arg, arg);
 }
 
 /* ---------- private code */

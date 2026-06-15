@@ -156,94 +156,72 @@ extern UI::PlayMoviesScreen *UI::PlayMoviesScreen::ms_playMoviesScreen; // 0x846
 
 /* ---------- public code */
 
-_extern _sub_5A3D3E(UI::PlayMoviesScreen *const, char const *);
 UI::PlayMoviesScreen::PlayMoviesScreen(char const *) // 0x5A3D3E
 {
     mangled_assert("??0PlayMoviesScreen@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_5A3D3E(this, arg);
 }
 
-_extern _sub_5A3DA6(UI::PlayMoviesScreenData *const);
 _inline UI::PlayMoviesScreenData::PlayMoviesScreenData() // 0x5A3DA6
 {
     mangled_assert("??0PlayMoviesScreenData@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5A3DA6(this);
 }
 
-_extern void _sub_5A3DCE(UI::PlayMoviesScreen *const);
 UI::PlayMoviesScreen::~PlayMoviesScreen() // 0x5A3DCE
 {
     mangled_assert("??1PlayMoviesScreen@UI@@UAE@XZ");
     todo("implement");
-    _sub_5A3DCE(this);
 }
 
-_extern void _sub_5A3DF7(UI::PlayMoviesScreenData *const);
 _inline UI::PlayMoviesScreenData::~PlayMoviesScreenData() // 0x5A3DF7
 {
     mangled_assert("??1PlayMoviesScreenData@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5A3DF7(this);
 }
 
-_extern void _sub_5A4144(UI::PlayMoviesScreen *const, bool);
 void UI::PlayMoviesScreen::OnActivate(bool) // 0x5A4144
 {
     mangled_assert("?OnActivate@PlayMoviesScreen@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_5A4144(this, arg);
 }
 
-_extern void _sub_5A4219(UI::PlayMoviesScreen *const);
 void UI::PlayMoviesScreen::OnPostLoad() // 0x5A4219
 {
     mangled_assert("?OnPostLoad@PlayMoviesScreen@UI@@MAEXXZ");
     todo("implement");
-    _sub_5A4219(this);
 }
 
-_extern void _sub_5A3E51(UI::PlayMoviesScreen *const, char const *);
 void UI::PlayMoviesScreen::FillMovieList(char const *) // 0x5A3E51
 {
     mangled_assert("?FillMovieList@PlayMoviesScreen@UI@@AAEXPBD@Z");
     todo("implement");
-    _sub_5A3E51(this, arg);
 }
 
-_extern void _sub_5A4180();
 void UI::PlayMoviesScreen::OnMovieDone() // 0x5A4180
 {
     mangled_assert("?OnMovieDone@PlayMoviesScreen@UI@@CGXXZ");
     todo("implement");
-    _sub_5A4180();
 }
 
-_extern void _sub_5A41B5(UI::InterfaceElement *);
 void UI::PlayMoviesScreen::OnPlayMovieClicked(UI::InterfaceElement *sender) // 0x5A41B5
 {
     mangled_assert("?OnPlayMovieClicked@PlayMoviesScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5A41B5(sender);
 }
 
-_extern void _sub_5A418C(UI::InterfaceElement *, __int32, __int32, unsigned __int32);
 void UI::PlayMoviesScreen::OnMovieItemClicked(UI::InterfaceElement *sender, __int32 x, __int32 y, unsigned __int32 b) // 0x5A418C
 {
     mangled_assert("?OnMovieItemClicked@PlayMoviesScreen@UI@@CGXPAVInterfaceElement@2@HHI@Z");
     todo("implement");
-    _sub_5A418C(sender, x, y, b);
 }
 
-_extern void _sub_5A41A9(UI::InterfaceElement *, __int32, __int32, unsigned __int32);
 void UI::PlayMoviesScreen::OnMovieItemDoubleClicked(UI::InterfaceElement *e, __int32 x, __int32 y, unsigned __int32 bf) // 0x5A41A9
 {
     mangled_assert("?OnMovieItemDoubleClicked@PlayMoviesScreen@UI@@CGXPAVInterfaceElement@2@HHI@Z");
     todo("implement");
-    _sub_5A41A9(e, x, y, bf);
 }
 
 /* ---------- private code */

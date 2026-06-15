@@ -27,12 +27,10 @@ static_assert(sizeof(AppInterface) == 4, "Invalid AppInterface size");
 
 /* ---------- public code */
 
-_extern void _sub_4F65FA(AppInterface *const);
 _inline AppInterface::~AppInterface() // 0x4F65FA
 {
     mangled_assert("??1AppInterface@@MAE@XZ");
     todo("implement");
-    _sub_4F65FA(this);
 }
 
 /* ---------- private code */

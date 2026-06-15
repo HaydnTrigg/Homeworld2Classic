@@ -472,156 +472,118 @@ extern UI::ConnectionTypeScreen *UI::ConnectionTypeScreen::ms_screen; // 0x846D7
 
 /* ---------- public code */
 
-_extern _sub_5B2034(UI::ConnectionTypeScreen *const, char const *);
 UI::ConnectionTypeScreen::ConnectionTypeScreen(char const *) // 0x5B2034
 {
     mangled_assert("??0ConnectionTypeScreen@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_5B2034(this, arg);
 }
 
-_extern _sub_5B20D4(UI::ConnectionTypeScreen::Data *const);
 _inline UI::ConnectionTypeScreen::Data::Data() // 0x5B20D4
 {
     mangled_assert("??0Data@ConnectionTypeScreen@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B20D4(this);
 }
 
-_extern void _sub_5B20EF(UI::ConnectionTypeScreen *const);
 UI::ConnectionTypeScreen::~ConnectionTypeScreen() // 0x5B20EF
 {
     mangled_assert("??1ConnectionTypeScreen@UI@@UAE@XZ");
     todo("implement");
-    _sub_5B20EF(this);
 }
 
-_extern void _sub_5B213A(UI::ConnectionTypeScreen::Data *const);
 _inline UI::ConnectionTypeScreen::Data::~Data() // 0x5B213A
 {
     mangled_assert("??1Data@ConnectionTypeScreen@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B213A(this);
 }
 
-_extern SteamTracker &_sub_5B214A(SteamTracker *const, SteamTracker const &);
 _inline SteamTracker &SteamTracker::operator=(SteamTracker const &) // 0x5B214A
 {
     mangled_assert("??4SteamTracker@@QAEAAV0@ABV0@@Z");
     compiler_generated();
     todo("implement");
-    SteamTracker & __result = _sub_5B214A(this, arg);
-    return __result;
 }
 
-_extern UI::ConnectionTypeScreen *_sub_5B21B6();
 UI::ConnectionTypeScreen *UI::ConnectionTypeScreen::GetScreen() // 0x5B21B6
 {
     mangled_assert("?GetScreen@ConnectionTypeScreen@UI@@SGPAV12@XZ");
     todo("implement");
-    UI::ConnectionTypeScreen * __result = _sub_5B21B6();
-    return __result;
 }
 
-_extern void _sub_5B21BC(UI::ConnectionTypeScreen *const, bool);
 void UI::ConnectionTypeScreen::OnActivate(bool) // 0x5B21BC
 {
     mangled_assert("?OnActivate@ConnectionTypeScreen@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_5B21BC(this, arg);
 }
 
-_extern void _sub_5B2812(UI::ConnectionTypeScreen *const, LuaConfig &);
 void UI::ConnectionTypeScreen::OnPreLoadFile(LuaConfig &) // 0x5B2812
 {
     mangled_assert("?OnPreLoadFile@ConnectionTypeScreen@UI@@MAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_5B2812(this, arg);
 }
 
-_extern void _sub_5B24EE(UI::ConnectionTypeScreen *const, LuaConfig &);
 void UI::ConnectionTypeScreen::OnLoad(LuaConfig &) // 0x5B24EE
 {
     mangled_assert("?OnLoad@ConnectionTypeScreen@UI@@MAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_5B24EE(this, arg);
 }
 
-_extern void _sub_5B279B(UI::ConnectionTypeScreen *const);
 void UI::ConnectionTypeScreen::OnPostLoad() // 0x5B279B
 {
     mangled_assert("?OnPostLoad@ConnectionTypeScreen@UI@@MAEXXZ");
     todo("implement");
-    _sub_5B279B(this);
 }
 
-_extern void _sub_5B21DF(UI::InterfaceElement *);
 void UI::ConnectionTypeScreen::OnConnectionTypeAccept(UI::InterfaceElement *btnChoice) // 0x5B21DF
 {
     mangled_assert("?OnConnectionTypeAccept@ConnectionTypeScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B21DF(btnChoice);
 }
 
-_extern void _sub_5B2191(UI::ConnectionTypeScreen *const);
 void UI::ConnectionTypeScreen::DoEnterLobby() // 0x5B2191
 {
     mangled_assert("?DoEnterLobby@ConnectionTypeScreen@UI@@AAEXXZ");
     todo("implement");
-    _sub_5B2191(this);
 }
 
-_extern void _sub_5B28CB(UI::ConnectionTypeScreen *const);
 void UI::ConnectionTypeScreen::PostCDAuthenticate() // 0x5B28CB
 {
     mangled_assert("?PostCDAuthenticate@ConnectionTypeScreen@UI@@AAEXXZ");
     todo("implement");
-    _sub_5B28CB(this);
 }
 
-_extern void _sub_5B2526(LobbyEvent * const, bool, wchar_t const *);
 void UI::ConnectionTypeScreen::OnLobbyCDAuthenticate(bool, wchar_t const *) // 0x5B2526
 {
     mangled_assert("?OnLobbyCDAuthenticate@ConnectionTypeScreen@UI@@EAEX_NPB_W@Z");
     // __shifted(UI::ConnectionTypeScreen, 412);
     todo("implement");
-    _sub_5B2526(this, arg, arg);
 }
 
-_extern void _sub_5B25E0(LobbyEvent * const, bool, unsigned __int32);
 void UI::ConnectionTypeScreen::OnLobbyChatConnectResult(bool, unsigned __int32) // 0x5B25E0
 {
     mangled_assert("?OnLobbyChatConnectResult@ConnectionTypeScreen@UI@@EAEX_NI@Z");
     // __shifted(UI::ConnectionTypeScreen, 412);
     todo("implement");
-    _sub_5B25E0(this, arg, arg);
 }
 
-_extern void _sub_5B24B2(UI::InterfaceElement *);
 void UI::ConnectionTypeScreen::OnErrorClicked_BackToMainMenu(UI::InterfaceElement *sender) // 0x5B24B2
 {
     mangled_assert("?OnErrorClicked_BackToMainMenu@ConnectionTypeScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B24B2(sender);
 }
 
-_extern void _sub_5B276A(UI::InterfaceElement *);
 void UI::ConnectionTypeScreen::OnNameInUseWarningClicked(UI::InterfaceElement *sender) // 0x5B276A
 {
     mangled_assert("?OnNameInUseWarningClicked@ConnectionTypeScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B276A(sender);
 }
 
-_extern void _sub_5B2686(LobbyEvent * const, wchar_t const *);
 void UI::ConnectionTypeScreen::OnLobbyDisconnected(wchar_t const *) // 0x5B2686
 {
     mangled_assert("?OnLobbyDisconnected@ConnectionTypeScreen@UI@@EAEXPB_W@Z");
     // __shifted(UI::ConnectionTypeScreen, 412);
     todo("implement");
-    _sub_5B2686(this, arg);
 }
 
 /* ---------- private code */

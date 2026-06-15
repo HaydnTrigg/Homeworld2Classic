@@ -151,30 +151,22 @@
 
 /* ---------- public code */
 
-_extern void _sub_5356C4(IdleState *const);
 void IdleState::Enter() // 0x5356C4
 {
     mangled_assert("?Enter@IdleState@@QAEXXZ");
     todo("implement");
-    _sub_5356C4(this);
 }
 
-_extern bool _sub_5356C9(IdleState *const);
 bool IdleState::HandleTacticalCombat() // 0x5356C9
 {
     mangled_assert("?HandleTacticalCombat@IdleState@@AAE_NXZ");
     todo("implement");
-    bool __result = _sub_5356C9(this);
-    return __result;
 }
 
-_extern bool _sub_5357F5(IdleState *const);
 bool IdleState::Update() // 0x5357F5
 {
     mangled_assert("?Update@IdleState@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_5357F5(this);
-    return __result;
 }
 
 /* ---------- private code */

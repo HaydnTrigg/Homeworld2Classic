@@ -63,57 +63,40 @@ static_assert(sizeof(JustShootAttackStyle) == 148, "Invalid JustShootAttackStyle
 
 /* ---------- public code */
 
-_extern void _sub_6B5E25(JustShootStatic *const);
 _inline JustShootStatic::~JustShootStatic() // 0x6B5E25
 {
     mangled_assert("??1JustShootStatic@@UAE@XZ");
     todo("implement");
-    _sub_6B5E25(this);
 }
 
-_extern AttackStyle::AttackStyleType _sub_6B5E74(JustShootAttackStyle const *const);
 _inline AttackStyle::AttackStyleType JustShootAttackStyle::GetType() const // 0x6B5E74
 {
     mangled_assert("?GetType@JustShootAttackStyle@@UBE?AW4AttackStyleType@AttackStyle@@XZ");
     todo("implement");
-    AttackStyle::AttackStyleType __result = _sub_6B5E74(this);
-    return __result;
 }
 
-_extern bool _sub_6B5E87(JustShootAttackStyle *const);
 _inline bool JustShootAttackStyle::doesAttackStyleDictateTargetPoint() // 0x6B5E87
 {
     mangled_assert("?doesAttackStyleDictateTargetPoint@JustShootAttackStyle@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6B5E87(this);
-    return __result;
 }
 
-_extern JustShootStatic const *_sub_6B5E8A(JustShootAttackStyle const *const);
 _inline JustShootStatic const *JustShootAttackStyle::getStaticInfo() const // 0x6B5E8A
 {
     mangled_assert("?getStaticInfo@JustShootAttackStyle@@IBEPBVJustShootStatic@@XZ");
     todo("implement");
-    JustShootStatic const * __result = _sub_6B5E8A(this);
-    return __result;
 }
 
-_extern bool _sub_6B5E8F(JustShootAttackStyle *const);
 _inline bool JustShootAttackStyle::isDeterministic() // 0x6B5E8F
 {
     mangled_assert("?isDeterministic@JustShootAttackStyle@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6B5E8F(this);
-    return __result;
 }
 
-_extern char const *_sub_6B5F63(JustShootAttackStyle *const);
 _inline char const *JustShootAttackStyle::saveToken() // 0x6B5F63
 {
     mangled_assert("?saveToken@JustShootAttackStyle@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6B5F63(this);
-    return __result;
 }
 
 /* ---------- private code */

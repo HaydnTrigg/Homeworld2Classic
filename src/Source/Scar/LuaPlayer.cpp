@@ -230,441 +230,322 @@ extern char const *LUALIB_PLAYER_CONSOLE; // 0x841DA0
 
 /* ---------- public code */
 
-_extern void _sub_712310(unsigned __int32, char const *);
 void Player_RestrictResearchOption(unsigned __int32 playerIndex, char const *research) // 0x712310
 {
     mangled_assert("?Player_RestrictResearchOption@@YGXIPBD@Z");
     todo("implement");
-    _sub_712310(playerIndex, research);
 }
 
-_extern void _sub_712985(unsigned __int32, char const *);
 void Player_UnrestrictResearchOption(unsigned __int32 playerIndex, char const *research) // 0x712985
 {
     mangled_assert("?Player_UnrestrictResearchOption@@YGXIPBD@Z");
     todo("implement");
-    _sub_712985(playerIndex, research);
 }
 
-_extern void _sub_711855(unsigned __int32, char const *);
 void Player_GrantResearchOption(unsigned __int32 playerIndex, char const *research) // 0x711855
 {
     mangled_assert("?Player_GrantResearchOption@@YGXIPBD@Z");
     todo("implement");
-    _sub_711855(playerIndex, research);
 }
 
-_extern void _sub_71180C(unsigned __int32);
 void Player_GrantAllResearch(unsigned __int32 playerIndex) // 0x71180C
 {
     mangled_assert("?Player_GrantAllResearch@@YGXI@Z");
     todo("implement");
-    _sub_71180C(playerIndex);
 }
 
-_extern void _sub_71209E(unsigned __int32, char const *);
 void Player_Research(unsigned __int32 playerIndex, char const *research) // 0x71209E
 {
     mangled_assert("?Player_Research@@YGXIPBD@Z");
     todo("implement");
-    _sub_71209E(playerIndex, research);
 }
 
-_extern void _sub_71105B(unsigned __int32, char const *);
 void Player_CancelResearch(unsigned __int32 playerIndex, char const *research) // 0x71105B
 {
     mangled_assert("?Player_CancelResearch@@YGXIPBD@Z");
     todo("implement");
-    _sub_71105B(playerIndex, research);
 }
 
-_extern bool _sub_711A83(unsigned __int32, char const *);
 bool Player_HasResearch(unsigned __int32 playerIndex, char const *research) // 0x711A83
 {
     mangled_assert("?Player_HasResearch@@YG_NIPBD@Z");
     todo("implement");
-    bool __result = _sub_711A83(playerIndex, research);
-    return __result;
 }
 
-_extern bool _sub_711F1D(unsigned __int32);
 bool Player_IsResearching(unsigned __int32 playerIndex) // 0x711F1D
 {
     mangled_assert("?Player_IsResearching@@YG_NI@Z");
     todo("implement");
-    bool __result = _sub_711F1D(playerIndex);
-    return __result;
 }
 
-_extern bool _sub_711B86(unsigned __int32, char const *);
 bool Player_HasSubsystem(unsigned __int32 playerIndex, char const *subSystemName) // 0x711B86
 {
     mangled_assert("?Player_HasSubsystem@@YG_NIPBD@Z");
     todo("implement");
-    bool __result = _sub_711B86(playerIndex, subSystemName);
-    return __result;
 }
 
-_extern bool _sub_710FEE(unsigned __int32, char const *);
 bool Player_CanResearch(unsigned __int32 playerIndex, char const *research) // 0x710FEE
 {
     mangled_assert("?Player_CanResearch@@YG_NIPBD@Z");
     todo("implement");
-    bool __result = _sub_710FEE(playerIndex, research);
-    return __result;
 }
 
-_extern bool _sub_711A16(unsigned __int32, char const *);
 bool Player_HasQueuedResearch(unsigned __int32 playerIndex, char const *research) // 0x711A16
 {
     mangled_assert("?Player_HasQueuedResearch@@YG_NIPBD@Z");
     todo("implement");
-    bool __result = _sub_711A16(playerIndex, research);
-    return __result;
 }
 
-_extern void _sub_712181(unsigned __int32, char const *);
 void Player_RestrictBuildOption(unsigned __int32 playerIndex, char const *buildoption) // 0x712181
 {
     mangled_assert("?Player_RestrictBuildOption@@YGXIPBD@Z");
     todo("implement");
-    _sub_712181(playerIndex, buildoption);
 }
 
-_extern void _sub_7127FC(unsigned __int32, char const *);
 void Player_UnrestrictBuildOption(unsigned __int32 playerIndex, char const *buildoption) // 0x7127FC
 {
     mangled_assert("?Player_UnrestrictBuildOption@@YGXIPBD@Z");
     todo("implement");
-    _sub_7127FC(playerIndex, buildoption);
 }
 
-_extern float _sub_7116CA(unsigned __int32);
 float Player_GetRU(unsigned __int32 playerIndex) // 0x7116CA
 {
     mangled_assert("?Player_GetRU@@YGMI@Z");
     todo("implement");
-    float __result = _sub_7116CA(playerIndex);
-    return __result;
 }
 
-_extern float _sub_7115A5(unsigned __int32);
 float Player_GatheredRUs(unsigned __int32 playerIndex) // 0x7115A5
 {
     mangled_assert("?Player_GatheredRUs@@YGMI@Z");
     todo("implement");
-    float __result = _sub_7115A5(playerIndex);
-    return __result;
 }
 
-_extern void _sub_7125D6(unsigned __int32, unsigned __int32);
 void Player_SetRU(unsigned __int32 playerIndex, unsigned __int32 ru) // 0x7125D6
 {
     mangled_assert("?Player_SetRU@@YGXII@Z");
     todo("implement");
-    _sub_7125D6(playerIndex, ru);
 }
 
-_extern void _sub_71249F(unsigned __int32, float);
 void Player_SetBounty(unsigned __int32 playerIndex, float bounty) // 0x71249F
 {
     mangled_assert("?Player_SetBounty@@YGXIM@Z");
     todo("implement");
-    _sub_71249F(playerIndex, bounty);
 }
 
-_extern void _sub_71200F(unsigned __int32);
 void Player_Kill(unsigned __int32 playerIndex) // 0x71200F
 {
     mangled_assert("?Player_Kill@@YGXI@Z");
     todo("implement");
-    _sub_71200F(playerIndex);
 }
 
-_extern bool _sub_711AF0(unsigned __int32);
 bool Player_HasShipWithBuildQueue(unsigned __int32 playerIndex) // 0x711AF0
 {
     mangled_assert("?Player_HasShipWithBuildQueue@@YG_NI@Z");
     todo("implement");
-    bool __result = _sub_711AF0(playerIndex);
-    return __result;
 }
 
-_extern bool _sub_711ED7(unsigned __int32);
 bool Player_IsAlive(unsigned __int32 playerIndex) // 0x711ED7
 {
     mangled_assert("?Player_IsAlive@@YG_NI@Z");
     todo("implement");
-    bool __result = _sub_711ED7(playerIndex);
-    return __result;
 }
 
-_extern void _sub_7124EB(unsigned __int32, __int32);
 void Player_SetDefaultShipTactic(unsigned __int32 playerIndex, __int32 tactic) // 0x7124EB
 {
     mangled_assert("?Player_SetDefaultShipTactic@@YGXIH@Z");
     todo("implement");
-    _sub_7124EB(playerIndex, tactic);
 }
 
-_extern void _sub_711332(char const *, unsigned __int32, char const *);
 void Player_FillShipsByType(char const *sobGroupNameOut, unsigned __int32 playerID, char const *shipTypeName) // 0x711332
 {
     mangled_assert("?Player_FillShipsByType@@YGXPBDI0@Z");
     todo("implement");
-    _sub_711332(sobGroupNameOut, playerID, shipTypeName);
 }
 
-_extern char const *_sub_711765(unsigned __int32, char const *);
 char const *Player_GetShipsByType(unsigned __int32 playerID, char const *shipTypeName) // 0x711765
 {
     mangled_assert("?Player_GetShipsByType@@YGPBDIPBD@Z");
     todo("implement");
-    char const * __result = _sub_711765(playerID, shipTypeName);
-    return __result;
 }
 
-_extern void _sub_7113FA(char const *, unsigned __int32, char const *);
 void Player_FillSobGroupInVolume(char const *sobGroupNameOut, unsigned __int32 playerIndex, char const *volumeName) // 0x7113FA
 {
     mangled_assert("?Player_FillSobGroupInVolume@@YGXPBDI0@Z");
     todo("implement");
-    _sub_7113FA(sobGroupNameOut, playerIndex, volumeName);
 }
 
-_extern bool _sub_711F68(unsigned __int32, char const *);
 bool Player_IsShipInVolume(unsigned __int32 playerIndex, char const *volumeName) // 0x711F68
 {
     mangled_assert("?Player_IsShipInVolume@@YG_NIPBD@Z");
     todo("implement");
-    bool __result = _sub_711F68(playerIndex, volumeName);
-    return __result;
 }
 
-_extern bool _sub_711139(char const *, __int32, char const *, float);
 bool Player_FillProximitySobGroup(char const *sobGroupNameOut, __int32 playerIndex, char const *sobGroupName, float distance) // 0x711139
 {
     mangled_assert("?Player_FillProximitySobGroup@@YG_NPBDH0M@Z");
     todo("implement");
-    bool __result = _sub_711139(sobGroupNameOut, playerIndex, sobGroupName, distance);
-    return __result;
 }
 
-_extern void _sub_71262A(__int32, vector3, vector3);
 void Player_SetTeamColours(__int32 playerIndex, vector3 baseColour, vector3 stripeColour) // 0x71262A
 {
     mangled_assert("?Player_SetTeamColours@@YGXHVvector3@@0@Z");
     todo("implement");
-    _sub_71262A(playerIndex, baseColour, stripeColour);
 }
 
-_extern void _sub_7123EC(__int32, char const *);
 void Player_SetBadgeTexture(__int32 playerIndex, char const *badgeTexture) // 0x7123EC
 {
     mangled_assert("?Player_SetBadgeTexture@@YGXHPBD@Z");
     todo("implement");
-    _sub_7123EC(playerIndex, badgeTexture);
 }
 
-_extern void _sub_712565(__int32, char const *);
 void Player_SetPlayerName(__int32 playerIndex, char const *locPlayerName) // 0x712565
 {
     mangled_assert("?Player_SetPlayerName@@YGXHPBD@Z");
     todo("implement");
-    _sub_712565(playerIndex, locPlayerName);
 }
 
-_extern void _sub_712763(unsigned __int32, unsigned __int32, bool);
 void Player_ShareVision(unsigned __int32 player1, unsigned __int32 player2, bool visible) // 0x712763
 {
     mangled_assert("?Player_ShareVision@@YGXII_N@Z");
     todo("implement");
-    _sub_712763(player1, player2, visible);
 }
 
-_extern void _sub_711C2A(unsigned __int32, char const *, bool);
 void Player_InstantDockAndParade(unsigned __int32 playerIndex, char const *sobGroupName, bool useHyperspaceEffect) // 0x711C2A
 {
     mangled_assert("?Player_InstantDockAndParade@@YGXIPBD_N@Z");
     todo("implement");
-    _sub_711C2A(playerIndex, sobGroupName, useHyperspaceEffect);
 }
 
-_extern unsigned __int32 _sub_712054(unsigned __int32);
 unsigned __int32 Player_NumberOfAwakeShips(unsigned __int32 playerIndex) // 0x712054
 {
     mangled_assert("?Player_NumberOfAwakeShips@@YGII@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_712054(playerIndex);
-    return __result;
 }
 
-_extern void _sub_7133D5(Player *, SobType, PlayerResourceType);
 void gatherResourceType(Player *player, SobType resourceType, PlayerResourceType resType) // 0x7133D5
 {
     mangled_assert("?gatherResourceType@@YGXPAVPlayer@@W4SobType@@W4PlayerResourceType@@@Z");
     todo("implement");
-    _sub_7133D5(player, resourceType, resType);
 }
 
-_extern void _sub_711E81(unsigned __int32);
 void Player_InstantlyGatherAllResources(unsigned __int32 playerIndex) // 0x711E81
 {
     mangled_assert("?Player_InstantlyGatherAllResources@@YGXI@Z");
     todo("implement");
-    _sub_711E81(playerIndex);
 }
 
-_extern bool _sub_711931(unsigned __int32, char const *);
 bool Player_HasQueuedBuild(unsigned __int32 playerIndex, char const *shipType) // 0x711931
 {
     mangled_assert("?Player_HasQueuedBuild@@YG_NIPBD@Z");
     todo("implement");
-    bool __result = _sub_711931(playerIndex, shipType);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_71171F(unsigned __int32);
 unsigned __int32 Player_GetRace(unsigned __int32 playerIndex) // 0x71171F
 {
     mangled_assert("?Player_GetRace@@YGII@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_71171F(playerIndex);
-    return __result;
 }
 
-_extern wchar_t const *_sub_7115CA(unsigned __int32);
 wchar_t const *Player_GetName(unsigned __int32 playerIndex) // 0x7115CA
 {
     mangled_assert("?Player_GetName@@YGPB_WI@Z");
     todo("implement");
-    wchar_t const * __result = _sub_7115CA(playerIndex);
-    return __result;
 }
 
-_extern void _sub_710F23(unsigned __int32, char const *);
 void Player_AllowDockFromUIOverride(unsigned __int32 playerIndex, char const *shipTypeName) // 0x710F23
 {
     mangled_assert("?Player_AllowDockFromUIOverride@@YGXIPBD@Z");
     todo("implement");
-    _sub_710F23(playerIndex, shipTypeName);
 }
 
-_extern unsigned __int32 _sub_711617(unsigned __int32, char const *);
 unsigned __int32 Player_GetNumberOfSquadronsOfTypeAwakeOrSleeping(unsigned __int32 playerIndex, char const *shipName) // 0x711617
 {
     mangled_assert("?Player_GetNumberOfSquadronsOfTypeAwakeOrSleeping@@YGIIPBD@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_711617(playerIndex, shipName);
-    return __result;
 }
 
-_extern void _sub_710618(LuaBinding::ObjInternal1<unsigned int,unsigned int,LuaBinding::Functor1Free<unsigned int,unsigned int> > *const);
 _inline LuaBinding::ObjInternal1<unsigned int,unsigned int,LuaBinding::Functor1Free<unsigned int,unsigned int> >::~ObjInternal1<unsigned int,unsigned int,LuaBinding::Functor1Free<unsigned int,unsigned int> >() // 0x710618
 {
     mangled_assert("??1?$ObjInternal1@IIV?$Functor1Free@II@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_710618(this);
 }
 
-_extern void _sub_71061E(LuaBinding::ObjInternal1<unsigned int,float,LuaBinding::Functor1Free<unsigned int,float> > *const);
 _inline LuaBinding::ObjInternal1<unsigned int,float,LuaBinding::Functor1Free<unsigned int,float> >::~ObjInternal1<unsigned int,float,LuaBinding::Functor1Free<unsigned int,float> >() // 0x71061E
 {
     mangled_assert("??1?$ObjInternal1@IMV?$Functor1Free@IM@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_71061E(this);
 }
 
-_extern void _sub_710624(LuaBinding::ObjInternal1<unsigned int,wchar_t const *,LuaBinding::Functor1Free<unsigned int,wchar_t const *> > *const);
 _inline LuaBinding::ObjInternal1<unsigned int,wchar_t const *,LuaBinding::Functor1Free<unsigned int,wchar_t const *> >::~ObjInternal1<unsigned int,wchar_t const *,LuaBinding::Functor1Free<unsigned int,wchar_t const *> >() // 0x710624
 {
     mangled_assert("??1?$ObjInternal1@IPB_WV?$Functor1Free@IPB_W@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_710624(this);
 }
 
-_extern void _sub_71062A(LuaBinding::ObjInternal2<unsigned int,int,void,LuaBinding::Functor2Free<unsigned int,int,void> > *const);
 _inline LuaBinding::ObjInternal2<unsigned int,int,void,LuaBinding::Functor2Free<unsigned int,int,void> >::~ObjInternal2<unsigned int,int,void,LuaBinding::Functor2Free<unsigned int,int,void> >() // 0x71062A
 {
     mangled_assert("??1?$ObjInternal2@IHXV?$Functor2Free@IHX@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_71062A(this);
 }
 
-_extern void _sub_710630(LuaBinding::ObjInternal2<unsigned int,float,void,LuaBinding::Functor2Free<unsigned int,float,void> > *const);
 _inline LuaBinding::ObjInternal2<unsigned int,float,void,LuaBinding::Functor2Free<unsigned int,float,void> >::~ObjInternal2<unsigned int,float,void,LuaBinding::Functor2Free<unsigned int,float,void> >() // 0x710630
 {
     mangled_assert("??1?$ObjInternal2@IMXV?$Functor2Free@IMX@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_710630(this);
 }
 
-_extern void _sub_710636(LuaBinding::ObjInternal2<unsigned int,char const *,unsigned int,LuaBinding::Functor2Free<unsigned int,char const *,unsigned int> > *const);
 _inline LuaBinding::ObjInternal2<unsigned int,char const *,unsigned int,LuaBinding::Functor2Free<unsigned int,char const *,unsigned int> >::~ObjInternal2<unsigned int,char const *,unsigned int,LuaBinding::Functor2Free<unsigned int,char const *,unsigned int> >() // 0x710636
 {
     mangled_assert("??1?$ObjInternal2@IPBDIV?$Functor2Free@IPBDI@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_710636(this);
 }
 
-_extern void _sub_71063C(LuaBinding::ObjInternal2<unsigned int,char const *,char const *,LuaBinding::Functor2Free<unsigned int,char const *,char const *> > *const);
 _inline LuaBinding::ObjInternal2<unsigned int,char const *,char const *,LuaBinding::Functor2Free<unsigned int,char const *,char const *> >::~ObjInternal2<unsigned int,char const *,char const *,LuaBinding::Functor2Free<unsigned int,char const *,char const *> >() // 0x71063C
 {
     mangled_assert("??1?$ObjInternal2@IPBDPBDV?$Functor2Free@IPBDPBD@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_71063C(this);
 }
 
-_extern void _sub_710642(LuaBinding::ObjInternal2<unsigned int,char const *,bool,LuaBinding::Functor2Free<unsigned int,char const *,bool> > *const);
 _inline LuaBinding::ObjInternal2<unsigned int,char const *,bool,LuaBinding::Functor2Free<unsigned int,char const *,bool> >::~ObjInternal2<unsigned int,char const *,bool,LuaBinding::Functor2Free<unsigned int,char const *,bool> >() // 0x710642
 {
     mangled_assert("??1?$ObjInternal2@IPBD_NV?$Functor2Free@IPBD_N@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_710642(this);
 }
 
-_extern void _sub_710648(LuaBinding::ObjInternal3<int,vector3,vector3,void,LuaBinding::Functor3Free<int,vector3,vector3,void> > *const);
 _inline LuaBinding::ObjInternal3<int,vector3,vector3,void,LuaBinding::Functor3Free<int,vector3,vector3,void> >::~ObjInternal3<int,vector3,vector3,void,LuaBinding::Functor3Free<int,vector3,vector3,void> >() // 0x710648
 {
     mangled_assert("??1?$ObjInternal3@HVvector3@@V1@XV?$Functor3Free@HVvector3@@V1@X@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_710648(this);
 }
 
-_extern void _sub_71064E(LuaBinding::ObjInternal3<unsigned int,char const *,bool,void,LuaBinding::Functor3Free<unsigned int,char const *,bool,void> > *const);
 _inline LuaBinding::ObjInternal3<unsigned int,char const *,bool,void,LuaBinding::Functor3Free<unsigned int,char const *,bool,void> >::~ObjInternal3<unsigned int,char const *,bool,void,LuaBinding::Functor3Free<unsigned int,char const *,bool,void> >() // 0x71064E
 {
     mangled_assert("??1?$ObjInternal3@IPBD_NXV?$Functor3Free@IPBD_NX@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_71064E(this);
 }
 
-_extern void _sub_710654(LuaBinding::ObjInternal3<char const *,unsigned int,char const *,void,LuaBinding::Functor3Free<char const *,unsigned int,char const *,void> > *const);
 _inline LuaBinding::ObjInternal3<char const *,unsigned int,char const *,void,LuaBinding::Functor3Free<char const *,unsigned int,char const *,void> >::~ObjInternal3<char const *,unsigned int,char const *,void,LuaBinding::Functor3Free<char const *,unsigned int,char const *,void> >() // 0x710654
 {
     mangled_assert("??1?$ObjInternal3@PBDIPBDXV?$Functor3Free@PBDIPBDX@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_710654(this);
 }
 
-_extern void _sub_71065A(LuaBinding::ObjInternal4<char const *,int,char const *,float,bool,LuaBinding::Functor4Free<char const *,int,char const *,float,bool> > *const);
 _inline LuaBinding::ObjInternal4<char const *,int,char const *,float,bool,LuaBinding::Functor4Free<char const *,int,char const *,float,bool> >::~ObjInternal4<char const *,int,char const *,float,bool,LuaBinding::Functor4Free<char const *,int,char const *,float,bool> >() // 0x71065A
 {
     mangled_assert("??1?$ObjInternal4@PBDHPBDM_NV?$Functor4Free@PBDHPBDM_N@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_71065A(this);
 }
 
 /* ---------- private code */

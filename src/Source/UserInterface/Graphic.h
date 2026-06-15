@@ -69,80 +69,58 @@ static_assert(sizeof(UI::Graphic) == 108, "Invalid UI::Graphic size");
 
 /* ---------- public code */
 
-_extern Rect_i _sub_575277(UI::Graphic const *const);
 _inline Rect_i UI::Graphic::GetSize() const // 0x575277
 {
     mangled_assert("?GetSize@Graphic@UI@@QBE?AURect_i@@XZ");
     todo("implement");
-    Rect_i __result = _sub_575277(this);
-    return __result;
 }
 
-_extern void _sub_575A2B(UI::Graphic *const, Rect_i const &);
 _inline void UI::Graphic::SetSize(Rect_i const &) // 0x575A2B
 {
     mangled_assert("?SetSize@Graphic@UI@@QAEXABURect_i@@@Z");
     todo("implement");
-    _sub_575A2B(this, arg);
 }
 
-_extern char const *_sub_57F9A2(UI::Graphic const *const);
 _inline char const *UI::Graphic::GetFilename() const // 0x57F9A2
 {
     mangled_assert("?GetFilename@Graphic@UI@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_57F9A2(this);
-    return __result;
 }
 
-_extern void _sub_680770(UI::Graphic *const, __int32, __int32);
 _inline void UI::Graphic::Move(__int32, __int32) // 0x680770
 {
     mangled_assert("?Move@Graphic@UI@@QAEXHH@Z");
     todo("implement");
-    _sub_680770(this, arg, arg);
 }
 
-_extern void _sub_6807C6(UI::Graphic *const, __int32, __int32);
 _inline void UI::Graphic::Resize(__int32, __int32) // 0x6807C6
 {
     mangled_assert("?Resize@Graphic@UI@@QAEXHH@Z");
     todo("implement");
-    _sub_6807C6(this, arg, arg);
 }
 
-_extern Color_4b _sub_5994DD(UI::Graphic const *const);
 _inline Color_4b UI::Graphic::GetColour() const // 0x5994DD
 {
     mangled_assert("?GetColour@Graphic@UI@@QBE?AUColor_4b@@XZ");
     todo("implement");
-    Color_4b __result = _sub_5994DD(this);
-    return __result;
 }
 
-_extern void _sub_574AF5(UI::Graphic *const, Color_4b const &);
 _inline void UI::Graphic::SetColour(Color_4b const &) // 0x574AF5
 {
     mangled_assert("?SetColour@Graphic@UI@@QAEXABUColor_4b@@@Z");
     todo("implement");
-    _sub_574AF5(this, arg);
 }
 
-_extern void _sub_66B3C0(UI::Graphic *const, bool);
 _inline void UI::Graphic::EnableBlackAndWhite(bool) // 0x66B3C0
 {
     mangled_assert("?EnableBlackAndWhite@Graphic@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_66B3C0(this, arg);
 }
 
-_extern bool _sub_66E31E();
 _inline bool UI::Graphic::GetUsePixelUVCoords() // 0x66E31E
 {
     mangled_assert("?GetUsePixelUVCoords@Graphic@UI@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_66E31E();
-    return __result;
 }
 
 /* ---------- private code */

@@ -26,12 +26,10 @@ static_assert(sizeof(CameraCommandExtUpdate) == 4, "Invalid CameraCommandExtUpda
 
 /* ---------- public code */
 
-_extern void _sub_56B2D5(CameraCommandExtUpdate *const);
 _inline CameraCommandExtUpdate::~CameraCommandExtUpdate() // 0x56B2D5
 {
     mangled_assert("??1CameraCommandExtUpdate@@UAE@XZ");
     todo("implement");
-    _sub_56B2D5(this);
 }
 
 /* ---------- private code */

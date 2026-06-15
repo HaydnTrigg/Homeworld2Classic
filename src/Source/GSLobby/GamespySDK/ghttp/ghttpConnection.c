@@ -133,65 +133,47 @@ _static
 
 /* ---------- public code */
 
-_extern GHIConnection *_sub_10017124();
 GHIConnection *ghiNewConnection() // 0x10017124
 {
     mangled_assert("_ghiNewConnection@0");
     todo("implement");
-    GHIConnection * __result = _sub_10017124();
-    return __result;
 }
 
-_extern GHTTPBool _sub_1001703E(GHIConnection *);
 GHTTPBool ghiFreeConnection(GHIConnection *connection) // 0x1001703E
 {
     mangled_assert("_ghiFreeConnection@4");
     todo("implement");
-    GHTTPBool __result = _sub_1001703E(connection);
-    return __result;
 }
 
-_extern GHIConnection *_sub_100172D8(__int32);
 GHIConnection *ghiRequestToConnection(__int32 request) // 0x100172D8
 {
     mangled_assert("_ghiRequestToConnection@4");
     todo("implement");
-    GHIConnection * __result = _sub_100172D8(request);
-    return __result;
 }
 
-_extern void _sub_10016F6F(GHTTPBool (*)(GHIConnection *));
 void ghiEnumConnections(GHTTPBool (*callback)(GHIConnection *)) // 0x10016F6F
 {
     mangled_assert("_ghiEnumConnections@4");
     todo("implement");
-    _sub_10016F6F(callback);
 }
 
-_extern void _sub_10017244(GHIConnection *);
 void ghiRedirectConnection(GHIConnection *connection) // 0x10017244
 {
     mangled_assert("_ghiRedirectConnection@4");
     todo("implement");
-    _sub_10017244(connection);
 }
 
-_extern void _sub_10016F1B();
 void ghiCleanupConnections() // 0x10016F1B
 {
     mangled_assert("_ghiCleanupConnections@0");
     todo("implement");
-    _sub_10016F1B();
 }
 
 /* ---------- private code */
 
-_extern __int32 _sub_10016FB0();
 _static __int32 ghiFindFreeSlot() // 0x10016FB0
 {
     mangled_assert("ghiFindFreeSlot");
     todo("implement");
-    __int32 __result = _sub_10016FB0();
-    return __result;
 }
 #endif

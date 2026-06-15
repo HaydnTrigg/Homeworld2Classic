@@ -118,31 +118,22 @@ static_assert(sizeof(SalvageCommandStaticInfo) == 12, "Invalid SalvageCommandSta
 
 /* ---------- public code */
 
-_extern bool _sub_6AE8F1(SalvageCommand *const);
 _inline bool SalvageCommand::isDeterministic() // 0x6AE8F1
 {
     mangled_assert("?isDeterministic@SalvageCommand@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6AE8F1(this);
-    return __result;
 }
 
-_extern char const *_sub_6AEC07(SalvageCommand *const);
 _inline char const *SalvageCommand::saveToken() // 0x6AEC07
 {
     mangled_assert("?saveToken@SalvageCommand@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6AEC07(this);
-    return __result;
 }
 
-_extern float _sub_6AE8B4(SalvageCommandStaticInfo const *const);
 _inline float SalvageCommandStaticInfo::getDistanceFromTarget() const // 0x6AE8B4
 {
     mangled_assert("?getDistanceFromTarget@SalvageCommandStaticInfo@@QBEMXZ");
     todo("implement");
-    float __result = _sub_6AE8B4(this);
-    return __result;
 }
 
 /* ---------- private code */

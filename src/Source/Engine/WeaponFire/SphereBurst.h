@@ -64,38 +64,28 @@ static_assert(sizeof(SphereBurst) == 584, "Invalid SphereBurst size");
 
 /* ---------- public code */
 
-_extern void _sub_4AA77A(SphereBurst *const, float);
 _inline void SphereBurst::setRadius(float) // 0x4AA77A
 {
     mangled_assert("?setRadius@SphereBurst@@QAEXM@Z");
     todo("implement");
-    _sub_4AA77A(this, arg);
 }
 
-_extern bool _sub_4A8E38(SphereBurst *const);
 _inline bool SphereBurst::isDeterministic() // 0x4A8E38
 {
     mangled_assert("?isDeterministic@SphereBurst@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4A8E38(this);
-    return __result;
 }
 
-_extern char const *_sub_4A8F95(SphereBurst *const);
 _inline char const *SphereBurst::saveToken() // 0x4A8F95
 {
     mangled_assert("?saveToken@SphereBurst@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4A8F95(this);
-    return __result;
 }
 
-_extern _sub_4A8507(SphereBurst::CollisionInfo *const, Sob *, Collision::Point const &);
 _inline SphereBurst::CollisionInfo::CollisionInfo(Sob *, Collision::Point const &) // 0x4A8507
 {
     mangled_assert("??0CollisionInfo@SphereBurst@@QAE@PAVSob@@ABUPoint@Collision@@@Z");
     todo("implement");
-    _sub_4A8507(this, arg, arg);
 }
 
 /* ---------- private code */

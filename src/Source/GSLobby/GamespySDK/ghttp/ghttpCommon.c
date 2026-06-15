@@ -188,72 +188,52 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_10016C49();
 void ghiCreateLock() // 0x10016C49
 {
     mangled_assert("_ghiCreateLock@0");
     todo("implement");
-    _sub_10016C49();
 }
 
-_extern void _sub_10016D61();
 void ghiFreeLock() // 0x10016D61
 {
     mangled_assert("_ghiFreeLock@0");
     todo("implement");
-    _sub_10016D61();
 }
 
-_extern void _sub_10016D84();
 void ghiLock() // 0x10016D84
 {
     mangled_assert("_ghiLock@0");
     todo("implement");
-    _sub_10016D84();
 }
 
-_extern void _sub_10016F0A();
 void ghiUnlock() // 0x10016F0A
 {
     mangled_assert("_ghiUnlock@0");
     todo("implement");
-    _sub_10016F0A();
 }
 
-_extern GHTTPBool _sub_10016D95(unsigned __int32, GHTTPBool *, GHTTPBool *, GHTTPBool *);
 GHTTPBool ghiSocketSelect(unsigned __int32 socket, GHTTPBool *readFlag, GHTTPBool *writeFlag, GHTTPBool *exceptFlag) // 0x10016D95
 {
     mangled_assert("_ghiSocketSelect@16");
     todo("implement");
-    GHTTPBool __result = _sub_10016D95(socket, readFlag, writeFlag, exceptFlag);
-    return __result;
 }
 
-_extern GHIRecvResult _sub_10016C68(GHIConnection *, char *, __int32 *);
 GHIRecvResult ghiDoReceive(GHIConnection *connection, char *buffer, __int32 *bufferLen) // 0x10016C68
 {
     mangled_assert("_ghiDoReceive@12");
     todo("implement");
-    GHIRecvResult __result = _sub_10016C68(connection, buffer, bufferLen);
-    return __result;
 }
 
-_extern __int32 _sub_10016D0C(GHIConnection *, char const *, __int32);
 __int32 ghiDoSend(GHIConnection *connection, char const *buffer, __int32 len) // 0x10016D0C
 {
     mangled_assert("_ghiDoSend@12");
     todo("implement");
-    __int32 __result = _sub_10016D0C(connection, buffer, len);
-    return __result;
 }
 
-_extern GHITrySendResult _sub_10016EBE(GHIConnection *, char const *, __int32);
 GHITrySendResult ghiTrySendThenBuffer(GHIConnection *connection, char const *buffer, __int32 len) // 0x10016EBE
 {
     mangled_assert("_ghiTrySendThenBuffer@12");
     todo("implement");
-    GHITrySendResult __result = _sub_10016EBE(connection, buffer, len);
-    return __result;
 }
 
 /* ---------- private code */

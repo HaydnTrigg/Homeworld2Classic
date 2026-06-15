@@ -131,68 +131,52 @@
 
 /* ---------- public code */
 
-_extern _sub_5AD87B(UI::TutorialScreen *const, char const *);
 UI::TutorialScreen::TutorialScreen(char const *) // 0x5AD87B
 {
     mangled_assert("??0TutorialScreen@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_5AD87B(this, arg);
 }
 
-_extern void _sub_5AD8F3(UI::TutorialScreen *const);
 UI::TutorialScreen::~TutorialScreen() // 0x5AD8F3
 {
     mangled_assert("??1TutorialScreen@UI@@UAE@XZ");
     todo("implement");
-    _sub_5AD8F3(this);
 }
 
-_extern void _sub_5ADE8F(UI::TutorialScreen *const, char const *, bool);
 void UI::TutorialScreen::SetCampaign(char const *, bool) // 0x5ADE8F
 {
     mangled_assert("?SetCampaign@TutorialScreen@UI@@QAEXPBD_N@Z");
     todo("implement");
-    _sub_5ADE8F(this, arg, arg);
 }
 
-_extern void _sub_5ADCDC(UI::TutorialScreen *const, LuaConfig &);
 void UI::TutorialScreen::OnLoad(LuaConfig &) // 0x5ADCDC
 {
     mangled_assert("?OnLoad@TutorialScreen@UI@@UAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_5ADCDC(this, arg);
 }
 
-_extern void _sub_5ADE21(UI::TutorialScreen *const);
 void UI::TutorialScreen::OnPostLoad() // 0x5ADE21
 {
     mangled_assert("?OnPostLoad@TutorialScreen@UI@@MAEXXZ");
     todo("implement");
-    _sub_5ADE21(this);
 }
 
-_extern void _sub_5AD988(UI::TutorialScreen *const, bool);
 void UI::TutorialScreen::FillTutorialListBox(bool) // 0x5AD988
 {
     mangled_assert("?FillTutorialListBox@TutorialScreen@UI@@AAEX_N@Z");
     todo("implement");
-    _sub_5AD988(this, arg);
 }
 
-_extern void _sub_5ADC76(UI::TutorialScreen *const, bool);
 void UI::TutorialScreen::OnFocus(bool) // 0x5ADC76
 {
     mangled_assert("?OnFocus@TutorialScreen@UI@@UAEX_N@Z");
     todo("implement");
-    _sub_5ADC76(this, arg);
 }
 
-_extern void _sub_5ADF23(UI::InterfaceElement *);
 void UI::TutorialScreen::TutorialSelected(UI::InterfaceElement *sender) // 0x5ADF23
 {
     mangled_assert("?TutorialSelected@TutorialScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5ADF23(sender);
 }
 
 /* ---------- private code */

@@ -131,256 +131,195 @@ typedef `anonymous-namespace'::LocalizedMessages ?A0xec8010b3::LocalizedMessages
 
 /* ---------- public code */
 
-_extern _sub_5B7B06(UI::LobbyTitleRoom::Data *const);
 _inline UI::LobbyTitleRoom::Data::Data() // 0x5B7B06
 {
     mangled_assert("??0Data@LobbyTitleRoom@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B7B06(this);
 }
 
-_extern _sub_5B7B4F(LobbyRoomDesc *const);
 _inline LobbyRoomDesc::LobbyRoomDesc() // 0x5B7B4F
 {
     mangled_assert("??0LobbyRoomDesc@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B7B4F(this);
 }
 
-_extern _sub_5B7B62(UI::LobbyTitleRoom *const, char const *);
 UI::LobbyTitleRoom::LobbyTitleRoom(char const *) // 0x5B7B62
 {
     mangled_assert("??0LobbyTitleRoom@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_5B7B62(this, arg);
 }
 
-_extern void _sub_5B7C29(UI::LobbyTitleRoom::Data *const);
 _inline UI::LobbyTitleRoom::Data::~Data() // 0x5B7C29
 {
     mangled_assert("??1Data@LobbyTitleRoom@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B7C29(this);
 }
 
-_extern void _sub_5B7C47(LobbyRoomDesc *const);
 _inline LobbyRoomDesc::~LobbyRoomDesc() // 0x5B7C47
 {
     mangled_assert("??1LobbyRoomDesc@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B7C47(this);
 }
 
-_extern void _sub_5B7C51(UI::LobbyTitleRoom *const);
 UI::LobbyTitleRoom::~LobbyTitleRoom() // 0x5B7C51
 {
     mangled_assert("??1LobbyTitleRoom@UI@@UAE@XZ");
     todo("implement");
-    _sub_5B7C51(this);
 }
 
-_extern void _sub_5B8846(UI::LobbyTitleRoom *const, unsigned __int32);
 void UI::LobbyTitleRoom::Update(unsigned __int32) // 0x5B8846
 {
     mangled_assert("?Update@LobbyTitleRoom@UI@@UAEXI@Z");
     todo("implement");
-    _sub_5B8846(this, arg);
 }
 
-_extern void _sub_5B874C(UI::LobbyTitleRoom *const, LuaConfig &);
 void UI::LobbyTitleRoom::OnPreLoadFile(LuaConfig &) // 0x5B874C
 {
     mangled_assert("?OnPreLoadFile@LobbyTitleRoom@UI@@MAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_5B874C(this, arg);
 }
 
-_extern void _sub_5B80DD(UI::LobbyTitleRoom *const, LuaConfig &);
 void UI::LobbyTitleRoom::OnLoad(LuaConfig &) // 0x5B80DD
 {
     mangled_assert("?OnLoad@LobbyTitleRoom@UI@@MAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_5B80DD(this, arg);
 }
 
-_extern void _sub_5B8437(UI::LobbyTitleRoom *const);
 void UI::LobbyTitleRoom::OnPostLoad() // 0x5B8437
 {
     mangled_assert("?OnPostLoad@LobbyTitleRoom@UI@@MAEXXZ");
     todo("implement");
-    _sub_5B8437(this);
 }
 
-_extern void _sub_5B7EAE(UI::LobbyTitleRoom *const, bool);
 void UI::LobbyTitleRoom::OnActivate(bool) // 0x5B7EAE
 {
     mangled_assert("?OnActivate@LobbyTitleRoom@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_5B7EAE(this, arg);
 }
 
-_extern void _sub_5B8414(UI::LobbyTitleRoom *const, bool);
 void UI::LobbyTitleRoom::OnPostActivate(bool) // 0x5B8414
 {
     mangled_assert("?OnPostActivate@LobbyTitleRoom@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_5B8414(this, arg);
 }
 
-_extern void _sub_5B87DB(UI::InterfaceElement *);
 void UI::LobbyTitleRoom::OnSendClicked(UI::InterfaceElement *sender) // 0x5B87DB
 {
     mangled_assert("?OnSendClicked@LobbyTitleRoom@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B87DB(sender);
 }
 
-_extern void _sub_5B7E1C(UI::LobbyTitleRoom *const);
 void UI::LobbyTitleRoom::DoRefreshRooms() // 0x5B7E1C
 {
     mangled_assert("?DoRefreshRooms@LobbyTitleRoom@UI@@AAEXXZ");
     todo("implement");
-    _sub_5B7E1C(this);
 }
 
-_extern void _sub_5B7F99(UI::InterfaceElement *);
 void UI::LobbyTitleRoom::OnJoinClicked(UI::InterfaceElement *sender) // 0x5B7F99
 {
     mangled_assert("?OnJoinClicked@LobbyTitleRoom@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B7F99(sender);
 }
 
-_extern void _sub_5B87A5(UI::InterfaceElement *);
 void UI::LobbyTitleRoom::OnRefreshClicked(UI::InterfaceElement *sender) // 0x5B87A5
 {
     mangled_assert("?OnRefreshClicked@LobbyTitleRoom@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B87A5(sender);
 }
 
-_extern void _sub_5B7F1A(UI::InterfaceElement *);
 void UI::LobbyTitleRoom::OnBackClicked(UI::InterfaceElement *sender) // 0x5B7F1A
 {
     mangled_assert("?OnBackClicked@LobbyTitleRoom@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B7F1A(sender);
 }
 
-_extern void _sub_5B7F62(UI::InterfaceElement *);
 void UI::LobbyTitleRoom::OnErrorClicked_BackToMainMenu(UI::InterfaceElement *sender) // 0x5B7F62
 {
     mangled_assert("?OnErrorClicked_BackToMainMenu@LobbyTitleRoom@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B7F62(sender);
 }
 
-_extern void _sub_5B880B(UI::InterfaceElement *);
 void UI::LobbyTitleRoom::OnSortRooms(UI::InterfaceElement *sender) // 0x5B880B
 {
     mangled_assert("?OnSortRooms@LobbyTitleRoom@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B880B(sender);
 }
 
-_extern void _sub_5B87CF(UI::InterfaceElement *, __int32, __int32, unsigned __int32);
 void UI::LobbyTitleRoom::OnRowDoubleClicked(UI::InterfaceElement *sender, __int32 x, __int32 y, unsigned __int32 b) // 0x5B87CF
 {
     mangled_assert("?OnRowDoubleClicked@LobbyTitleRoom@UI@@CGXPAVInterfaceElement@2@HHI@Z");
     todo("implement");
-    _sub_5B87CF(sender, x, y, b);
 }
 
-_extern void _sub_5B829D(LobbyEvent * const, wchar_t const *, bool);
 void UI::LobbyTitleRoom::OnLobbyPlayerConnect(wchar_t const *, bool) // 0x5B829D
 {
     mangled_assert("?OnLobbyPlayerConnect@LobbyTitleRoom@UI@@EAEXPB_W_N@Z");
     // __shifted(UI::LobbyTitleRoom, 412);
     todo("implement");
-    _sub_5B829D(this, arg, arg);
 }
 
-_extern void _sub_5B82C9(LobbyEvent * const, wchar_t const *);
 void UI::LobbyTitleRoom::OnLobbyPlayerDisconnect(wchar_t const *) // 0x5B82C9
 {
     mangled_assert("?OnLobbyPlayerDisconnect@LobbyTitleRoom@UI@@EAEXPB_W@Z");
     // __shifted(UI::LobbyTitleRoom, 412);
     todo("implement");
-    _sub_5B82C9(this, arg);
 }
 
-_extern void _sub_5B8293(LobbyEvent * const, wchar_t const *);
 void UI::LobbyTitleRoom::OnLobbyPlayerChanged(wchar_t const *) // 0x5B8293
 {
     mangled_assert("?OnLobbyPlayerChanged@LobbyTitleRoom@UI@@EAEXPB_W@Z");
     // __shifted(UI::LobbyTitleRoom, 412);
     todo("implement");
-    _sub_5B8293(this, arg);
 }
 
-_extern void _sub_5B8186(LobbyEvent * const, LobbyChatType, wchar_t const *, wchar_t const *);
 void UI::LobbyTitleRoom::OnLobbyChat(LobbyChatType, wchar_t const *, wchar_t const *) // 0x5B8186
 {
     mangled_assert("?OnLobbyChat@LobbyTitleRoom@UI@@EAEXW4LobbyChatType@@PB_W1@Z");
     // __shifted(UI::LobbyTitleRoom, 412);
     todo("implement");
-    _sub_5B8186(this, arg, arg, arg);
 }
 
-_extern void _sub_5B81A4(LobbyEvent * const, wchar_t const *);
 void UI::LobbyTitleRoom::OnLobbyDisconnected(wchar_t const *) // 0x5B81A4
 {
     mangled_assert("?OnLobbyDisconnected@LobbyTitleRoom@UI@@EAEXPB_W@Z");
     // __shifted(UI::LobbyTitleRoom, 412);
     todo("implement");
-    _sub_5B81A4(this, arg);
 }
 
-_extern void _sub_5B884B(UI::LobbyTitleRoom *const, unsigned __int32, wchar_t const *, unsigned __int32, unsigned __int32);
 void UI::LobbyTitleRoom::UpdateRoomRow(unsigned __int32, wchar_t const *, unsigned __int32, unsigned __int32) // 0x5B884B
 {
     mangled_assert("?UpdateRoomRow@LobbyTitleRoom@UI@@AAEXIPB_WII@Z");
     todo("implement");
-    _sub_5B884B(this, arg, arg, arg, arg);
 }
 
-_extern void _sub_5B7D0A(UI::LobbyTitleRoom *const, unsigned __int32, wchar_t const *, unsigned __int32, unsigned __int32);
 void UI::LobbyTitleRoom::AddRoomRow(unsigned __int32, wchar_t const *, unsigned __int32, unsigned __int32) // 0x5B7D0A
 {
     mangled_assert("?AddRoomRow@LobbyTitleRoom@UI@@AAEXIPB_WII@Z");
     todo("implement");
-    _sub_5B7D0A(this, arg, arg, arg, arg);
 }
 
-_extern void _sub_5B82EE(LobbyEvent * const, unsigned long long);
 void UI::LobbyTitleRoom::OnLobbyRoomAdded(unsigned long long) // 0x5B82EE
 {
     mangled_assert("?OnLobbyRoomAdded@LobbyTitleRoom@UI@@EAEX_K@Z");
     // __shifted(UI::LobbyTitleRoom, 412);
     todo("implement");
-    _sub_5B82EE(this, arg);
 }
 
-_extern void _sub_5B8381(LobbyEvent * const, LobbyRoomType, bool);
 void UI::LobbyTitleRoom::OnLobbyRoomJoinedResult(LobbyRoomType, bool) // 0x5B8381
 {
     mangled_assert("?OnLobbyRoomJoinedResult@LobbyTitleRoom@UI@@EAEXW4LobbyRoomType@@_N@Z");
     // __shifted(UI::LobbyTitleRoom, 412);
     todo("implement");
-    _sub_5B8381(this, arg, arg);
 }
 
-_extern unsigned __int32 _sub_5B7E53(UI::LobbyTitleRoom *const, unsigned __int32);
 unsigned __int32 UI::LobbyTitleRoom::FindRoomIndex(unsigned __int32) // 0x5B7E53
 {
     mangled_assert("?FindRoomIndex@LobbyTitleRoom@UI@@AAEII@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_5B7E53(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

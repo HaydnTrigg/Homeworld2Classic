@@ -76,56 +76,40 @@ typedef std::vector<Mesh *,std::allocator<Mesh *> > MeshCont;
 
 /* ---------- public code */
 
-_extern _sub_6F942B(FXMeshList *const);
 FXMeshList::FXMeshList() // 0x6F942B
 {
     mangled_assert("??0FXMeshList@@QAE@XZ");
     todo("implement");
-    _sub_6F942B(this);
 }
 
-_extern void _sub_6F943D(FXMeshList *const);
 FXMeshList::~FXMeshList() // 0x6F943D
 {
     mangled_assert("??1FXMeshList@@QAE@XZ");
     todo("implement");
-    _sub_6F943D(this);
 }
 
-_extern unsigned __int32 _sub_6F96A3(FXMeshList const *const);
 unsigned __int32 FXMeshList::getNumMeshes() const // 0x6F96A3
 {
     mangled_assert("?getNumMeshes@FXMeshList@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_6F96A3(this);
-    return __result;
 }
 
-_extern Mesh *_sub_6F9687(FXMeshList const *const, unsigned __int32);
 Mesh *FXMeshList::getMesh(unsigned __int32) const // 0x6F9687
 {
     mangled_assert("?getMesh@FXMeshList@@QBEPAVMesh@@I@Z");
     todo("implement");
-    Mesh * __result = _sub_6F9687(this, arg);
-    return __result;
 }
 
-_extern float _sub_6F9631(FXMeshList const *const);
 float FXMeshList::getMaxRadius() const // 0x6F9631
 {
     mangled_assert("?getMaxRadius@FXMeshList@@QBEMXZ");
     todo("implement");
-    float __result = _sub_6F9631(this);
-    return __result;
 }
 
-_extern FXMeshList *_sub_6F96AC(char const *);
 FXMeshList *FXMeshList::loadMeshes(char const *filename) // 0x6F96AC
 {
     mangled_assert("?loadMeshes@FXMeshList@@SGPAV1@PBD@Z");
     todo("implement");
-    FXMeshList * __result = _sub_6F96AC(filename);
-    return __result;
 }
 
 /* ---------- private code */

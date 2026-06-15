@@ -111,95 +111,71 @@ extern PatchID PatchID::ID_Invalid; // 0x84CA88
 
 /* ---------- public code */
 
-_extern _sub_6BDAD1(PatchID *const);
 PatchID::PatchID() // 0x6BDAD1
 {
     mangled_assert("??0PatchID@@QAE@XZ");
     todo("implement");
-    _sub_6BDAD1(this);
 }
 
-_extern void _sub_6BDAD7(PatchID *const);
 PatchID::~PatchID() // 0x6BDAD7
 {
     mangled_assert("??1PatchID@@QAE@XZ");
     todo("implement");
-    _sub_6BDAD7(this);
 }
 
-_extern _sub_6BDA64(PatchID *const, PatchID const &);
 PatchID::PatchID(PatchID const &) // 0x6BDA64
 {
     mangled_assert("??0PatchID@@QAE@ABV0@@Z");
     todo("implement");
-    _sub_6BDA64(this, arg);
 }
 
-_extern _sub_6BDA79(PatchID *const, char const *, PatchBase *);
 PatchID::PatchID(char const *, PatchBase *) // 0x6BDA79
 {
     mangled_assert("??0PatchID@@QAE@PBDPAVPatchBase@@@Z");
     todo("implement");
-    _sub_6BDA79(this, arg, arg);
 }
 
-_extern char const *_sub_6BDB01(PatchID const *const);
 char const *PatchID::GetFileName() const // 0x6BDB01
 {
     mangled_assert("?GetFileName@PatchID@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6BDB01(this);
-    return __result;
 }
 
-_extern _sub_6BDA53(PatchID::Info *const);
 _inline PatchID::Info::Info() // 0x6BDA53
 {
     mangled_assert("??0Info@PatchID@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6BDA53(this);
 }
 
-_extern PatchID &_sub_6BDADC(PatchID *const, PatchID const &);
 PatchID &PatchID::operator=(PatchID const &) // 0x6BDADC
 {
     mangled_assert("??4PatchID@@QAEAAV0@ABV0@@Z");
     todo("implement");
-    PatchID & __result = _sub_6BDADC(this, arg);
-    return __result;
 }
 
-_extern void _sub_6BDB2C(PatchID *const);
 void PatchID::Reset() // 0x6BDB2C
 {
     mangled_assert("?Reset@PatchID@@AAEXXZ");
     todo("implement");
-    _sub_6BDB2C(this);
 }
 
-_extern void _sub_6BDB39(PatchID *const, char const *);
 void PatchID::Save(char const *) // 0x6BDB39
 {
     mangled_assert("?Save@PatchID@@QAEXPBD@Z");
     todo("implement");
-    _sub_6BDB39(this, arg);
 }
 
-_extern void _sub_6BDB0C(PatchID *const, char const *);
 void PatchID::Load(char const *) // 0x6BDB0C
 {
     mangled_assert("?Load@PatchID@@QAEXPBD@Z");
     todo("implement");
-    _sub_6BDB0C(this, arg);
 }
 
-_extern void _sub_6BDB1F(PatchID *const);
 void PatchID::New() // 0x6BDB1F
 {
     mangled_assert("?New@PatchID@@QAEXXZ");
     todo("implement");
-    _sub_6BDB1F(this);
 }
 
 /* ---------- private code */

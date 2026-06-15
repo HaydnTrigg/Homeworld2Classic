@@ -103,87 +103,64 @@ extern _inline void boost::detail::sp_enable_shared_from_this(void const *, void
 
 /* ---------- public code */
 
-_extern void _sub_10005E0F(void const *, void const *, boost::detail::shared_count const &);
 _inline void boost::detail::sp_enable_shared_from_this(void const *, void const *, boost::detail::shared_count const &) // 0x10005E0F
 {
     mangled_assert("?sp_enable_shared_from_this@detail@boost@@YGXPBX0ABVshared_count@12@@Z");
     todo("implement");
-    _sub_10005E0F(arg, arg, arg);
 }
 
-_extern _sub_1000C293(boost::shared_ptr<FilePath::Source> *const);
 _inline boost::shared_ptr<FilePath::Source>::shared_ptr<FilePath::Source>() // 0x1000C293
 {
     mangled_assert("??0?$shared_ptr@VSource@FilePath@@@boost@@QAE@XZ");
     todo("implement");
-    _sub_1000C293(this);
 }
 
-_extern _sub_10004DFB(boost::shared_ptr<Archive> *const);
 _inline boost::shared_ptr<Archive>::shared_ptr<Archive>() // 0x10004DFB
 {
     mangled_assert("??0?$shared_ptr@VArchive@@@boost@@QAE@XZ");
     todo("implement");
-    _sub_10004DFB(this);
 }
 
-_extern _sub_1000A581(boost::shared_ptr<FilePath::Source> *const, FilePath::Source *);
 _inline boost::shared_ptr<FilePath::Source>::shared_ptr<FilePath::Source><FilePath::Source>(FilePath::Source *) // 0x1000A581
 {
     mangled_assert("??$?0VSource@FilePath@@@?$shared_ptr@VSource@FilePath@@@boost@@QAE@PAVSource@FilePath@@@Z");
     todo("implement");
-    _sub_1000A581(this, arg);
 }
 
-_extern _sub_10004665(boost::shared_ptr<Archive> *const, Archive *);
 _inline boost::shared_ptr<Archive>::shared_ptr<Archive><Archive>(Archive *) // 0x10004665
 {
     mangled_assert("??$?0VArchive@@@?$shared_ptr@VArchive@@@boost@@QAE@PAVArchive@@@Z");
     todo("implement");
-    _sub_10004665(this, arg);
 }
 
-_extern void _sub_1000BF25(boost::shared_ptr<FilePath::Source> *const, FilePath::Source *);
 _inline void boost::shared_ptr<FilePath::Source>::reset<FilePath::Source>(FilePath::Source *) // 0x1000BF25
 {
     mangled_assert("??$reset@VSource@FilePath@@@?$shared_ptr@VSource@FilePath@@@boost@@QAEXPAVSource@FilePath@@@Z");
     todo("implement");
-    _sub_1000BF25(this, arg);
 }
 
-_extern Archive &_sub_1000514D(boost::shared_ptr<Archive> const *const);
 _inline Archive &boost::shared_ptr<Archive>::operator*() const // 0x1000514D
 {
     mangled_assert("??D?$shared_ptr@VArchive@@@boost@@QBEAAVArchive@@XZ");
     todo("implement");
-    Archive & __result = _sub_1000514D(this);
-    return __result;
 }
 
-_extern FilePath::Source *_sub_1000C7A6(boost::shared_ptr<FilePath::Source> const *const);
 _inline FilePath::Source *boost::shared_ptr<FilePath::Source>::operator->() const // 0x1000C7A6
 {
     mangled_assert("??C?$shared_ptr@VSource@FilePath@@@boost@@QBEPAVSource@FilePath@@XZ");
     todo("implement");
-    FilePath::Source * __result = _sub_1000C7A6(this);
-    return __result;
 }
 
-_extern Archive *_sub_10005BBB(boost::shared_ptr<Archive> const *const);
 _inline Archive *boost::shared_ptr<Archive>::get() const // 0x10005BBB
 {
     mangled_assert("?get@?$shared_ptr@VArchive@@@boost@@QBEPAVArchive@@XZ");
     todo("implement");
-    Archive * __result = _sub_10005BBB(this);
-    return __result;
 }
 
-_extern void _sub_1000E74E(boost::shared_ptr<FilePath::Source> *const, boost::shared_ptr<FilePath::Source> &);
 _inline void boost::shared_ptr<FilePath::Source>::swap(boost::shared_ptr<FilePath::Source> &) // 0x1000E74E
 {
     mangled_assert("?swap@?$shared_ptr@VSource@FilePath@@@boost@@QAEXAAV12@@Z");
     todo("implement");
-    _sub_1000E74E(this, arg);
 }
 
 /* ---------- private code */
@@ -721,512 +698,370 @@ extern _inline void boost::swap<DestinationFormation::Bucket>(boost::shared_ptr<
 
 /* ---------- public code */
 
-_extern void _sub_464406(void const *, void const *, boost::detail::shared_count const &);
 _inline void boost::detail::sp_enable_shared_from_this(void const *, void const *, boost::detail::shared_count const &) // 0x464406
 {
     mangled_assert("?sp_enable_shared_from_this@detail@boost@@YGXPBX0ABVshared_count@12@@Z");
     todo("implement");
-    _sub_464406(arg, arg, arg);
 }
 
-_extern _sub_5E56F0(boost::shared_ptr<BasicMesh> *const);
 _inline boost::shared_ptr<BasicMesh>::shared_ptr<BasicMesh>() // 0x5E56F0
 {
     mangled_assert("??0?$shared_ptr@VBasicMesh@@@boost@@QAE@XZ");
     todo("implement");
-    _sub_5E56F0(this);
 }
 
-_extern _sub_5E571A(boost::shared_ptr<StarList> *const);
 _inline boost::shared_ptr<StarList>::shared_ptr<StarList>() // 0x5E571A
 {
     mangled_assert("??0?$shared_ptr@VStarList@@@boost@@QAE@XZ");
     todo("implement");
-    _sub_5E571A(this);
 }
 
-_extern _sub_586A82(boost::shared_ptr<UI::Graphic> *const);
 _inline boost::shared_ptr<UI::Graphic>::shared_ptr<UI::Graphic>() // 0x586A82
 {
     mangled_assert("??0?$shared_ptr@VGraphic@UI@@@boost@@QAE@XZ");
     todo("implement");
-    _sub_586A82(this);
 }
 
-_extern _sub_48127E(boost::shared_ptr<SobWithMeshStatic::Model> *const);
 _inline boost::shared_ptr<SobWithMeshStatic::Model>::shared_ptr<SobWithMeshStatic::Model>() // 0x48127E
 {
     mangled_assert("??0?$shared_ptr@VModel@SobWithMeshStatic@@@boost@@QAE@XZ");
     todo("implement");
-    _sub_48127E(this);
 }
 
-_extern _sub_47BD42(boost::shared_ptr<SobStatic::Model> *const);
 _inline boost::shared_ptr<SobStatic::Model>::shared_ptr<SobStatic::Model>() // 0x47BD42
 {
     mangled_assert("??0?$shared_ptr@VModel@SobStatic@@@boost@@QAE@XZ");
     todo("implement");
-    _sub_47BD42(this);
 }
 
-_extern _sub_47A008(boost::shared_ptr<SobIDShared> *const);
 _inline boost::shared_ptr<SobIDShared>::shared_ptr<SobIDShared>() // 0x47A008
 {
     mangled_assert("??0?$shared_ptr@VSobIDShared@@@boost@@QAE@XZ");
     todo("implement");
-    _sub_47A008(this);
 }
 
-_extern _sub_4605B8(boost::shared_ptr<FrameOrders> *const);
 _inline boost::shared_ptr<FrameOrders>::shared_ptr<FrameOrders>() // 0x4605B8
 {
     mangled_assert("??0?$shared_ptr@VFrameOrders@@@boost@@QAE@XZ");
     todo("implement");
-    _sub_4605B8(this);
 }
 
-_extern _sub_6DBB3A(boost::shared_ptr<FXManager::Dynamics> *const);
 _inline boost::shared_ptr<FXManager::Dynamics>::shared_ptr<FXManager::Dynamics>() // 0x6DBB3A
 {
     mangled_assert("??0?$shared_ptr@VDynamics@FXManager@@@boost@@QAE@XZ");
     todo("implement");
-    _sub_6DBB3A(this);
 }
 
-_extern _sub_5E4D9D(boost::shared_ptr<BasicMesh> *const, BasicMesh *);
 _inline boost::shared_ptr<BasicMesh>::shared_ptr<BasicMesh><BasicMesh>(BasicMesh *) // 0x5E4D9D
 {
     mangled_assert("??$?0VBasicMesh@@@?$shared_ptr@VBasicMesh@@@boost@@QAE@PAVBasicMesh@@@Z");
     todo("implement");
-    _sub_5E4D9D(this, arg);
 }
 
-_extern _sub_5E4DBF(boost::shared_ptr<StarList> *const, StarList *);
 _inline boost::shared_ptr<StarList>::shared_ptr<StarList><StarList>(StarList *) // 0x5E4DBF
 {
     mangled_assert("??$?0VStarList@@@?$shared_ptr@VStarList@@@boost@@QAE@PAVStarList@@@Z");
     todo("implement");
-    _sub_5E4DBF(this, arg);
 }
 
-_extern _sub_5E47A8(boost::shared_ptr<BgLightAnim::Data> *const, BgLightAnim::Data *);
 _inline boost::shared_ptr<BgLightAnim::Data>::shared_ptr<BgLightAnim::Data><BgLightAnim::Data>(BgLightAnim::Data *) // 0x5E47A8
 {
     mangled_assert("??$?0VData@BgLightAnim@@@?$shared_ptr@VData@BgLightAnim@@@boost@@QAE@PAVData@BgLightAnim@@@Z");
     todo("implement");
-    _sub_5E47A8(this, arg);
 }
 
-_extern _sub_47FBD3(boost::shared_ptr<SobWithMeshStatic::Model> *const, SobWithMeshStatic::Model *);
 _inline boost::shared_ptr<SobWithMeshStatic::Model>::shared_ptr<SobWithMeshStatic::Model><SobWithMeshStatic::Model>(SobWithMeshStatic::Model *) // 0x47FBD3
 {
     mangled_assert("??$?0VModel@SobWithMeshStatic@@@?$shared_ptr@VModel@SobWithMeshStatic@@@boost@@QAE@PAVModel@SobWithMeshStatic@@@Z");
     todo("implement");
-    _sub_47FBD3(this, arg);
 }
 
-_extern _sub_47AE4F(boost::shared_ptr<SobStatic::Model> *const, SobStatic::Model *);
 _inline boost::shared_ptr<SobStatic::Model>::shared_ptr<SobStatic::Model><SobStatic::Model>(SobStatic::Model *) // 0x47AE4F
 {
     mangled_assert("??$?0VModel@SobStatic@@@?$shared_ptr@VModel@SobStatic@@@boost@@QAE@PAVModel@SobStatic@@@Z");
     todo("implement");
-    _sub_47AE4F(this, arg);
 }
 
-_extern _sub_47993C(boost::shared_ptr<SobIDShared> *const, SobIDShared *);
 _inline boost::shared_ptr<SobIDShared>::shared_ptr<SobIDShared><SobIDShared>(SobIDShared *) // 0x47993C
 {
     mangled_assert("??$?0VSobIDShared@@@?$shared_ptr@VSobIDShared@@@boost@@QAE@PAVSobIDShared@@@Z");
     todo("implement");
-    _sub_47993C(this, arg);
 }
 
-_extern _sub_45E76C(boost::shared_ptr<FrameOrders> *const, FrameOrders *);
 _inline boost::shared_ptr<FrameOrders>::shared_ptr<FrameOrders><FrameOrders>(FrameOrders *) // 0x45E76C
 {
     mangled_assert("??$?0VFrameOrders@@@?$shared_ptr@VFrameOrders@@@boost@@QAE@PAVFrameOrders@@@Z");
     todo("implement");
-    _sub_45E76C(this, arg);
 }
 
-_extern _sub_669115(boost::shared_ptr<UI::Graphic> *const, UI::Graphic *);
 _inline boost::shared_ptr<UI::Graphic>::shared_ptr<UI::Graphic><UI::Graphic>(UI::Graphic *) // 0x669115
 {
     mangled_assert("??$?0VGraphic@UI@@@?$shared_ptr@VGraphic@UI@@@boost@@QAE@PAVGraphic@UI@@@Z");
     todo("implement");
-    _sub_669115(this, arg);
 }
 
-_extern _sub_6B62E7(boost::shared_ptr<DestinationFormation::Bucket> *const, DestinationFormation::Bucket *);
 _inline boost::shared_ptr<DestinationFormation::Bucket>::shared_ptr<DestinationFormation::Bucket><DestinationFormation::Bucket>(DestinationFormation::Bucket *) // 0x6B62E7
 {
     mangled_assert("??$?0UBucket@DestinationFormation@@@?$shared_ptr@UBucket@DestinationFormation@@@boost@@QAE@PAUBucket@DestinationFormation@@@Z");
     todo("implement");
-    _sub_6B62E7(this, arg);
 }
 
-_extern _sub_6B6309(boost::shared_ptr<DestinationFormation::Row> *const, DestinationFormation::Row *);
 _inline boost::shared_ptr<DestinationFormation::Row>::shared_ptr<DestinationFormation::Row><DestinationFormation::Row>(DestinationFormation::Row *) // 0x6B6309
 {
     mangled_assert("??$?0URow@DestinationFormation@@@?$shared_ptr@URow@DestinationFormation@@@boost@@QAE@PAURow@DestinationFormation@@@Z");
     todo("implement");
-    _sub_6B6309(this, arg);
 }
 
-_extern _sub_6B632B(boost::shared_ptr<DestinationFormation::Wall> *const, DestinationFormation::Wall *);
 _inline boost::shared_ptr<DestinationFormation::Wall>::shared_ptr<DestinationFormation::Wall><DestinationFormation::Wall>(DestinationFormation::Wall *) // 0x6B632B
 {
     mangled_assert("??$?0UWall@DestinationFormation@@@?$shared_ptr@UWall@DestinationFormation@@@boost@@QAE@PAUWall@DestinationFormation@@@Z");
     todo("implement");
-    _sub_6B632B(this, arg);
 }
 
-_extern _sub_6D94CF(boost::shared_ptr<FXManager::Dynamics> *const, FXManager::Dynamics *);
 _inline boost::shared_ptr<FXManager::Dynamics>::shared_ptr<FXManager::Dynamics><FXManager::Dynamics>(FXManager::Dynamics *) // 0x6D94CF
 {
     mangled_assert("??$?0VDynamics@FXManager@@@?$shared_ptr@VDynamics@FXManager@@@boost@@QAE@PAVDynamics@FXManager@@@Z");
     todo("implement");
-    _sub_6D94CF(this, arg);
 }
 
-_extern _sub_6D94F1(boost::shared_ptr<FXManager::Type> *const, FXManager::Type *);
 _inline boost::shared_ptr<FXManager::Type>::shared_ptr<FXManager::Type><FXManager::Type>(FXManager::Type *) // 0x6D94F1
 {
     mangled_assert("??$?0VType@FXManager@@@?$shared_ptr@VType@FXManager@@@boost@@QAE@PAVType@FXManager@@@Z");
     todo("implement");
-    _sub_6D94F1(this, arg);
 }
 
-_extern void _sub_59C376(boost::shared_ptr<UI::Graphic> *const);
 _inline void boost::shared_ptr<UI::Graphic>::reset() // 0x59C376
 {
     mangled_assert("?reset@?$shared_ptr@VGraphic@UI@@@boost@@QAEXXZ");
     todo("implement");
-    _sub_59C376(this);
 }
 
-_extern void _sub_4859C3(boost::shared_ptr<SobIDShared> *const);
 _inline void boost::shared_ptr<SobIDShared>::reset() // 0x4859C3
 {
     mangled_assert("?reset@?$shared_ptr@VSobIDShared@@@boost@@QAEXXZ");
     todo("implement");
-    _sub_4859C3(this);
 }
 
-_extern void _sub_463FDF(boost::shared_ptr<FrameOrders> *const);
 _inline void boost::shared_ptr<FrameOrders>::reset() // 0x463FDF
 {
     mangled_assert("?reset@?$shared_ptr@VFrameOrders@@@boost@@QAEXXZ");
     todo("implement");
-    _sub_463FDF(this);
 }
 
-_extern void _sub_5E5595(boost::shared_ptr<BasicMesh> *const, BasicMesh *);
 _inline void boost::shared_ptr<BasicMesh>::reset<BasicMesh>(BasicMesh *) // 0x5E5595
 {
     mangled_assert("??$reset@VBasicMesh@@@?$shared_ptr@VBasicMesh@@@boost@@QAEXPAVBasicMesh@@@Z");
     todo("implement");
-    _sub_5E5595(this, arg);
 }
 
-_extern void _sub_5E55CF(boost::shared_ptr<StarList> *const, StarList *);
 _inline void boost::shared_ptr<StarList>::reset<StarList>(StarList *) // 0x5E55CF
 {
     mangled_assert("??$reset@VStarList@@@?$shared_ptr@VStarList@@@boost@@QAEXPAVStarList@@@Z");
     todo("implement");
-    _sub_5E55CF(this, arg);
 }
 
-_extern void _sub_480EFB(boost::shared_ptr<SobWithMeshStatic::Model> *const, SobWithMeshStatic::Model *);
 _inline void boost::shared_ptr<SobWithMeshStatic::Model>::reset<SobWithMeshStatic::Model>(SobWithMeshStatic::Model *) // 0x480EFB
 {
     mangled_assert("??$reset@VModel@SobWithMeshStatic@@@?$shared_ptr@VModel@SobWithMeshStatic@@@boost@@QAEXPAVModel@SobWithMeshStatic@@@Z");
     todo("implement");
-    _sub_480EFB(this, arg);
 }
 
-_extern void _sub_47B9C6(boost::shared_ptr<SobStatic::Model> *const, SobStatic::Model *);
 _inline void boost::shared_ptr<SobStatic::Model>::reset<SobStatic::Model>(SobStatic::Model *) // 0x47B9C6
 {
     mangled_assert("??$reset@VModel@SobStatic@@@?$shared_ptr@VModel@SobStatic@@@boost@@QAEXPAVModel@SobStatic@@@Z");
     todo("implement");
-    _sub_47B9C6(this, arg);
 }
 
-_extern void _sub_479EE8(boost::shared_ptr<SobIDShared> *const, SobIDShared *);
 _inline void boost::shared_ptr<SobIDShared>::reset<SobIDShared>(SobIDShared *) // 0x479EE8
 {
     mangled_assert("??$reset@VSobIDShared@@@?$shared_ptr@VSobIDShared@@@boost@@QAEXPAVSobIDShared@@@Z");
     todo("implement");
-    _sub_479EE8(this, arg);
 }
 
-_extern void _sub_45FCB2(boost::shared_ptr<FrameOrders> *const, FrameOrders *);
 _inline void boost::shared_ptr<FrameOrders>::reset<FrameOrders>(FrameOrders *) // 0x45FCB2
 {
     mangled_assert("??$reset@VFrameOrders@@@?$shared_ptr@VFrameOrders@@@boost@@QAEXPAVFrameOrders@@@Z");
     todo("implement");
-    _sub_45FCB2(this, arg);
 }
 
-_extern void _sub_66950C(boost::shared_ptr<UI::Graphic> *const, UI::Graphic *);
 _inline void boost::shared_ptr<UI::Graphic>::reset<UI::Graphic>(UI::Graphic *) // 0x66950C
 {
     mangled_assert("??$reset@VGraphic@UI@@@?$shared_ptr@VGraphic@UI@@@boost@@QAEXPAVGraphic@UI@@@Z");
     todo("implement");
-    _sub_66950C(this, arg);
 }
 
-_extern StateCommandBlock *_sub_640B86(boost::shared_ptr<StateCommandBlock> const *const);
 _inline StateCommandBlock *boost::shared_ptr<StateCommandBlock>::operator->() const // 0x640B86
 {
     mangled_assert("??C?$shared_ptr@VStateCommandBlock@@@boost@@QBEPAVStateCommandBlock@@XZ");
     todo("implement");
-    StateCommandBlock * __result = _sub_640B86(this);
-    return __result;
 }
 
-_extern BgLightAnim::Data *_sub_5E48FD(boost::shared_ptr<BgLightAnim::Data> const *const);
 _inline BgLightAnim::Data *boost::shared_ptr<BgLightAnim::Data>::operator->() const // 0x5E48FD
 {
     mangled_assert("??C?$shared_ptr@VData@BgLightAnim@@@boost@@QBEPAVData@BgLightAnim@@XZ");
     todo("implement");
-    BgLightAnim::Data * __result = _sub_5E48FD(this);
-    return __result;
 }
 
-_extern UI::Graphic *_sub_574004(boost::shared_ptr<UI::Graphic> const *const);
 _inline UI::Graphic *boost::shared_ptr<UI::Graphic>::operator->() const // 0x574004
 {
     mangled_assert("??C?$shared_ptr@VGraphic@UI@@@boost@@QBEPAVGraphic@UI@@XZ");
     todo("implement");
-    UI::Graphic * __result = _sub_574004(this);
-    return __result;
 }
 
-_extern SobIDShared *_sub_47A1E5(boost::shared_ptr<SobIDShared> const *const);
 _inline SobIDShared *boost::shared_ptr<SobIDShared>::operator->() const // 0x47A1E5
 {
     mangled_assert("??C?$shared_ptr@VSobIDShared@@@boost@@QBEPAVSobIDShared@@XZ");
     todo("implement");
-    SobIDShared * __result = _sub_47A1E5(this);
-    return __result;
 }
 
-_extern FrameOrders *_sub_460F8C(boost::shared_ptr<FrameOrders> const *const);
 _inline FrameOrders *boost::shared_ptr<FrameOrders>::operator->() const // 0x460F8C
 {
     mangled_assert("??C?$shared_ptr@VFrameOrders@@@boost@@QBEPAVFrameOrders@@XZ");
     todo("implement");
-    FrameOrders * __result = _sub_460F8C(this);
-    return __result;
 }
 
-_extern SobStatic::Model *_sub_4485D1(boost::shared_ptr<SobStatic::Model> const *const);
 _inline SobStatic::Model *boost::shared_ptr<SobStatic::Model>::operator->() const // 0x4485D1
 {
     mangled_assert("??C?$shared_ptr@VModel@SobStatic@@@boost@@QBEPAVModel@SobStatic@@XZ");
     todo("implement");
-    SobStatic::Model * __result = _sub_4485D1(this);
-    return __result;
 }
 
-_extern SobWithMeshStatic::Model *_sub_43FCA2(boost::shared_ptr<SobWithMeshStatic::Model> const *const);
 _inline SobWithMeshStatic::Model *boost::shared_ptr<SobWithMeshStatic::Model>::operator->() const // 0x43FCA2
 {
     mangled_assert("??C?$shared_ptr@VModel@SobWithMeshStatic@@@boost@@QBEPAVModel@SobWithMeshStatic@@XZ");
     todo("implement");
-    SobWithMeshStatic::Model * __result = _sub_43FCA2(this);
-    return __result;
 }
 
-_extern DestinationFormation::Bucket *_sub_6B76A4(boost::shared_ptr<DestinationFormation::Bucket> const *const);
 _inline DestinationFormation::Bucket *boost::shared_ptr<DestinationFormation::Bucket>::operator->() const // 0x6B76A4
 {
     mangled_assert("??C?$shared_ptr@UBucket@DestinationFormation@@@boost@@QBEPAUBucket@DestinationFormation@@XZ");
     todo("implement");
-    DestinationFormation::Bucket * __result = _sub_6B76A4(this);
-    return __result;
 }
 
-_extern DestinationFormation::Row *_sub_6B76A7(boost::shared_ptr<DestinationFormation::Row> const *const);
 _inline DestinationFormation::Row *boost::shared_ptr<DestinationFormation::Row>::operator->() const // 0x6B76A7
 {
     mangled_assert("??C?$shared_ptr@URow@DestinationFormation@@@boost@@QBEPAURow@DestinationFormation@@XZ");
     todo("implement");
-    DestinationFormation::Row * __result = _sub_6B76A7(this);
-    return __result;
 }
 
-_extern DestinationFormation::Wall *_sub_6B76AA(boost::shared_ptr<DestinationFormation::Wall> const *const);
 _inline DestinationFormation::Wall *boost::shared_ptr<DestinationFormation::Wall>::operator->() const // 0x6B76AA
 {
     mangled_assert("??C?$shared_ptr@UWall@DestinationFormation@@@boost@@QBEPAUWall@DestinationFormation@@XZ");
     todo("implement");
-    DestinationFormation::Wall * __result = _sub_6B76AA(this);
-    return __result;
 }
 
-_extern FXManager::Type *_sub_6DC5A8(boost::shared_ptr<FXManager::Type> const *const);
 _inline FXManager::Type *boost::shared_ptr<FXManager::Type>::operator->() const // 0x6DC5A8
 {
     mangled_assert("??C?$shared_ptr@VType@FXManager@@@boost@@QBEPAVType@FXManager@@XZ");
     todo("implement");
-    FXManager::Type * __result = _sub_6DC5A8(this);
-    return __result;
 }
 
-_extern BasicMesh *_sub_5E6CA3(boost::shared_ptr<BasicMesh> const *const);
 _inline BasicMesh *boost::shared_ptr<BasicMesh>::get() const // 0x5E6CA3
 {
     mangled_assert("?get@?$shared_ptr@VBasicMesh@@@boost@@QBEPAVBasicMesh@@XZ");
     todo("implement");
-    BasicMesh * __result = _sub_5E6CA3(this);
-    return __result;
 }
 
-_extern StarList *_sub_5E6CA6(boost::shared_ptr<StarList> const *const);
 _inline StarList *boost::shared_ptr<StarList>::get() const // 0x5E6CA6
 {
     mangled_assert("?get@?$shared_ptr@VStarList@@@boost@@QBEPAVStarList@@XZ");
     todo("implement");
-    StarList * __result = _sub_5E6CA6(this);
-    return __result;
 }
 
-_extern UI::Graphic *_sub_575A75(boost::shared_ptr<UI::Graphic> const *const);
 _inline UI::Graphic *boost::shared_ptr<UI::Graphic>::get() const // 0x575A75
 {
     mangled_assert("?get@?$shared_ptr@VGraphic@UI@@@boost@@QBEPAVGraphic@UI@@XZ");
     todo("implement");
-    UI::Graphic * __result = _sub_575A75(this);
-    return __result;
 }
 
-_extern SobStatic::Model *_sub_47891A(boost::shared_ptr<SobStatic::Model> const *const);
 _inline SobStatic::Model *boost::shared_ptr<SobStatic::Model>::get() const // 0x47891A
 {
     mangled_assert("?get@?$shared_ptr@VModel@SobStatic@@@boost@@QBEPAVModel@SobStatic@@XZ");
     todo("implement");
-    SobStatic::Model * __result = _sub_47891A(this);
-    return __result;
 }
 
-_extern FrameOrders *_sub_463A05(boost::shared_ptr<FrameOrders> const *const);
 _inline FrameOrders *boost::shared_ptr<FrameOrders>::get() const // 0x463A05
 {
     mangled_assert("?get@?$shared_ptr@VFrameOrders@@@boost@@QBEPAVFrameOrders@@XZ");
     todo("implement");
-    FrameOrders * __result = _sub_463A05(this);
-    return __result;
 }
 
-_extern FXManager::Dynamics *_sub_6E0C45(boost::shared_ptr<FXManager::Dynamics> const *const);
 _inline FXManager::Dynamics *boost::shared_ptr<FXManager::Dynamics>::get() const // 0x6E0C45
 {
     mangled_assert("?get@?$shared_ptr@VDynamics@FXManager@@@boost@@QBEPAVDynamics@FXManager@@XZ");
     todo("implement");
-    FXManager::Dynamics * __result = _sub_6E0C45(this);
-    return __result;
 }
 
-_extern FXManager::Type *_sub_6E0C48(boost::shared_ptr<FXManager::Type> const *const);
 _inline FXManager::Type *boost::shared_ptr<FXManager::Type>::get() const // 0x6E0C48
 {
     mangled_assert("?get@?$shared_ptr@VType@FXManager@@@boost@@QBEPAVType@FXManager@@XZ");
     todo("implement");
-    FXManager::Type * __result = _sub_6E0C48(this);
-    return __result;
 }
 
-_extern UI::Graphic **_sub_575172(boost::shared_ptr<UI::Graphic> const *const) const();
 _inline UI::Graphic **boost::shared_ptr<UI::Graphic>::operator UI::Graphic * (__thiscall boost::shared_ptr<UI::Graphic>::*)(void)const () const() const // 0x575172
 {
     mangled_assert("??B?$shared_ptr@VGraphic@UI@@@boost@@QBEP801@BEPAVGraphic@UI@@XZXZ");
     todo("implement");
-    UI::Graphic **() const __result = _sub_575172(this);
-    return __result;
 }
 
-_extern long _sub_6810D8(boost::shared_ptr<UI::Graphic> const *const);
 _inline long boost::shared_ptr<UI::Graphic>::use_count() const // 0x6810D8
 {
     mangled_assert("?use_count@?$shared_ptr@VGraphic@UI@@@boost@@QBEJXZ");
     todo("implement");
-    long __result = _sub_6810D8(this);
-    return __result;
 }
 
-_extern void _sub_5E79AD(boost::shared_ptr<BasicMesh> *const, boost::shared_ptr<BasicMesh> &);
 _inline void boost::shared_ptr<BasicMesh>::swap(boost::shared_ptr<BasicMesh> &) // 0x5E79AD
 {
     mangled_assert("?swap@?$shared_ptr@VBasicMesh@@@boost@@QAEXAAV12@@Z");
     todo("implement");
-    _sub_5E79AD(this, arg);
 }
 
-_extern void _sub_5E79CA(boost::shared_ptr<StarList> *const, boost::shared_ptr<StarList> &);
 _inline void boost::shared_ptr<StarList>::swap(boost::shared_ptr<StarList> &) // 0x5E79CA
 {
     mangled_assert("?swap@?$shared_ptr@VStarList@@@boost@@QAEXAAV12@@Z");
     todo("implement");
-    _sub_5E79CA(this, arg);
 }
 
-_extern void _sub_59C390(boost::shared_ptr<UI::Graphic> *const, boost::shared_ptr<UI::Graphic> &);
 _inline void boost::shared_ptr<UI::Graphic>::swap(boost::shared_ptr<UI::Graphic> &) // 0x59C390
 {
     mangled_assert("?swap@?$shared_ptr@VGraphic@UI@@@boost@@QAEXAAV12@@Z");
     todo("implement");
-    _sub_59C390(this, arg);
 }
 
-_extern void _sub_48360F(boost::shared_ptr<SobWithMeshStatic::Model> *const, boost::shared_ptr<SobWithMeshStatic::Model> &);
 _inline void boost::shared_ptr<SobWithMeshStatic::Model>::swap(boost::shared_ptr<SobWithMeshStatic::Model> &) // 0x48360F
 {
     mangled_assert("?swap@?$shared_ptr@VModel@SobWithMeshStatic@@@boost@@QAEXAAV12@@Z");
     todo("implement");
-    _sub_48360F(this, arg);
 }
 
-_extern void _sub_47F902(boost::shared_ptr<SobStatic::Model> *const, boost::shared_ptr<SobStatic::Model> &);
 _inline void boost::shared_ptr<SobStatic::Model>::swap(boost::shared_ptr<SobStatic::Model> &) // 0x47F902
 {
     mangled_assert("?swap@?$shared_ptr@VModel@SobStatic@@@boost@@QAEXAAV12@@Z");
     todo("implement");
-    _sub_47F902(this, arg);
 }
 
-_extern void _sub_47AB9A(boost::shared_ptr<SobIDShared> *const, boost::shared_ptr<SobIDShared> &);
 _inline void boost::shared_ptr<SobIDShared>::swap(boost::shared_ptr<SobIDShared> &) // 0x47AB9A
 {
     mangled_assert("?swap@?$shared_ptr@VSobIDShared@@@boost@@QAEXAAV12@@Z");
     todo("implement");
-    _sub_47AB9A(this, arg);
 }
 
-_extern void _sub_4645E8(boost::shared_ptr<FrameOrders> *const, boost::shared_ptr<FrameOrders> &);
 _inline void boost::shared_ptr<FrameOrders>::swap(boost::shared_ptr<FrameOrders> &) // 0x4645E8
 {
     mangled_assert("?swap@?$shared_ptr@VFrameOrders@@@boost@@QAEXAAV12@@Z");
     todo("implement");
-    _sub_4645E8(this, arg);
 }
 
-_extern void _sub_6B8D04(boost::shared_ptr<DestinationFormation::Bucket> *const, boost::shared_ptr<DestinationFormation::Bucket> &);
 _inline void boost::shared_ptr<DestinationFormation::Bucket>::swap(boost::shared_ptr<DestinationFormation::Bucket> &) // 0x6B8D04
 {
     mangled_assert("?swap@?$shared_ptr@UBucket@DestinationFormation@@@boost@@QAEXAAV12@@Z");
     todo("implement");
-    _sub_6B8D04(this, arg);
 }
 
-_extern void _sub_6B733D(boost::shared_ptr<DestinationFormation::Bucket> &, boost::shared_ptr<DestinationFormation::Bucket> &);
 _inline void boost::swap<DestinationFormation::Bucket>(boost::shared_ptr<DestinationFormation::Bucket> &a, boost::shared_ptr<DestinationFormation::Bucket> &b) // 0x6B733D
 {
     mangled_assert("??$swap@UBucket@DestinationFormation@@@boost@@YGXAAV?$shared_ptr@UBucket@DestinationFormation@@@0@0@Z");
     todo("implement");
-    _sub_6B733D(a, b);
 }
 
 /* ---------- private code */
@@ -1355,62 +1190,46 @@ extern _inline void boost::detail::sp_enable_shared_from_this(void const *, void
 
 /* ---------- public code */
 
-_extern void _sub_100049A6(void const *, void const *, boost::detail::shared_count const &);
 _inline void boost::detail::sp_enable_shared_from_this(void const *, void const *, boost::detail::shared_count const &) // 0x100049A6
 {
     mangled_assert("?sp_enable_shared_from_this@detail@boost@@YGXPBX0ABVshared_count@12@@Z");
     todo("implement");
-    _sub_100049A6(arg, arg, arg);
 }
 
-_extern _sub_10003380(boost::shared_ptr<LocalizerImp::Resource> *const);
 _inline boost::shared_ptr<LocalizerImp::Resource>::shared_ptr<LocalizerImp::Resource>() // 0x10003380
 {
     mangled_assert("??0?$shared_ptr@VResource@LocalizerImp@@@boost@@QAE@XZ");
     todo("implement");
-    _sub_10003380(this);
 }
 
-_extern _sub_10002CA0(boost::shared_ptr<LocalizerImp::Resource> *const, LocalizerImp::Resource *);
 _inline boost::shared_ptr<LocalizerImp::Resource>::shared_ptr<LocalizerImp::Resource><LocalizerImp::Resource>(LocalizerImp::Resource *) // 0x10002CA0
 {
     mangled_assert("??$?0VResource@LocalizerImp@@@?$shared_ptr@VResource@LocalizerImp@@@boost@@QAE@PAVResource@LocalizerImp@@@Z");
     todo("implement");
-    _sub_10002CA0(this, arg);
 }
 
-_extern void _sub_100031D3(boost::shared_ptr<LocalizerImp::Resource> *const, LocalizerImp::Resource *);
 _inline void boost::shared_ptr<LocalizerImp::Resource>::reset<LocalizerImp::Resource>(LocalizerImp::Resource *) // 0x100031D3
 {
     mangled_assert("??$reset@VResource@LocalizerImp@@@?$shared_ptr@VResource@LocalizerImp@@@boost@@QAEXPAVResource@LocalizerImp@@@Z");
     todo("implement");
-    _sub_100031D3(this, arg);
 }
 
-_extern LocalizerImp::Resource *_sub_1000360A(boost::shared_ptr<LocalizerImp::Resource> const *const);
 _inline LocalizerImp::Resource *boost::shared_ptr<LocalizerImp::Resource>::operator->() const // 0x1000360A
 {
     mangled_assert("??C?$shared_ptr@VResource@LocalizerImp@@@boost@@QBEPAVResource@LocalizerImp@@XZ");
     todo("implement");
-    LocalizerImp::Resource * __result = _sub_1000360A(this);
-    return __result;
 }
 
-_extern LocalizerImp::Resource *_sub_100047D7(boost::shared_ptr<LocalizerImp::Resource> const *const);
 _inline LocalizerImp::Resource *boost::shared_ptr<LocalizerImp::Resource>::get() const // 0x100047D7
 {
     mangled_assert("?get@?$shared_ptr@VResource@LocalizerImp@@@boost@@QBEPAVResource@LocalizerImp@@XZ");
     todo("implement");
-    LocalizerImp::Resource * __result = _sub_100047D7(this);
-    return __result;
 }
 
-_extern void _sub_100049A9(boost::shared_ptr<LocalizerImp::Resource> *const, boost::shared_ptr<LocalizerImp::Resource> &);
 _inline void boost::shared_ptr<LocalizerImp::Resource>::swap(boost::shared_ptr<LocalizerImp::Resource> &) // 0x100049A9
 {
     mangled_assert("?swap@?$shared_ptr@VResource@LocalizerImp@@@boost@@QAEXAAV12@@Z");
     todo("implement");
-    _sub_100049A9(this, arg);
 }
 
 /* ---------- private code */
@@ -1559,70 +1378,52 @@ extern _inline void boost::detail::sp_enable_shared_from_this(void const *, void
 
 /* ---------- public code */
 
-_extern void _sub_100B8E70(void const *, void const *, boost::detail::shared_count const &);
 _inline void boost::detail::sp_enable_shared_from_this(void const *, void const *, boost::detail::shared_count const &) // 0x100B8E70
 {
     mangled_assert("?sp_enable_shared_from_this@detail@boost@@YGXPBX0ABVshared_count@12@@Z");
     todo("implement");
-    _sub_100B8E70(arg, arg, arg);
 }
 
-_extern _sub_100B17B0(boost::shared_ptr<StateCommandBlock> *const);
 _inline boost::shared_ptr<StateCommandBlock>::shared_ptr<StateCommandBlock>() // 0x100B17B0
 {
     mangled_assert("??0?$shared_ptr@VStateCommandBlock@@@boost@@QAE@XZ");
     todo("implement");
-    _sub_100B17B0(this);
 }
 
-_extern _sub_100B4540(boost::shared_ptr<StateCommandBlock> *const, StateCommandBlock *);
 _inline boost::shared_ptr<StateCommandBlock>::shared_ptr<StateCommandBlock><StateCommandBlock>(StateCommandBlock *) // 0x100B4540
 {
     mangled_assert("??$?0VStateCommandBlock@@@?$shared_ptr@VStateCommandBlock@@@boost@@QAE@PAVStateCommandBlock@@@Z");
     todo("implement");
-    _sub_100B4540(this, arg);
 }
 
-_extern void _sub_100B3FF0(boost::shared_ptr<StateCommandBlock> *const);
 _inline void boost::shared_ptr<StateCommandBlock>::reset() // 0x100B3FF0
 {
     mangled_assert("?reset@?$shared_ptr@VStateCommandBlock@@@boost@@QAEXXZ");
     todo("implement");
-    _sub_100B3FF0(this);
 }
 
-_extern void _sub_100BFB00(boost::shared_ptr<StateCommandBlock> *const, StateCommandBlock *);
 _inline void boost::shared_ptr<StateCommandBlock>::reset<StateCommandBlock>(StateCommandBlock *) // 0x100BFB00
 {
     mangled_assert("??$reset@VStateCommandBlock@@@?$shared_ptr@VStateCommandBlock@@@boost@@QAEXPAVStateCommandBlock@@@Z");
     todo("implement");
-    _sub_100BFB00(this, arg);
 }
 
-_extern StateCommandBlock *_sub_10011230(boost::shared_ptr<StateCommandBlock> const *const);
 _inline StateCommandBlock *boost::shared_ptr<StateCommandBlock>::operator->() const // 0x10011230
 {
     mangled_assert("??C?$shared_ptr@VStateCommandBlock@@@boost@@QBEPAVStateCommandBlock@@XZ");
     todo("implement");
-    StateCommandBlock * __result = _sub_10011230(this);
-    return __result;
 }
 
-_extern StateCommandBlock *_sub_100190F0(boost::shared_ptr<StateCommandBlock> const *const);
 _inline StateCommandBlock *boost::shared_ptr<StateCommandBlock>::get() const // 0x100190F0
 {
     mangled_assert("?get@?$shared_ptr@VStateCommandBlock@@@boost@@QBEPAVStateCommandBlock@@XZ");
     todo("implement");
-    StateCommandBlock * __result = _sub_100190F0(this);
-    return __result;
 }
 
-_extern void _sub_100B4330(boost::shared_ptr<StateCommandBlock> *const, boost::shared_ptr<StateCommandBlock> &);
 _inline void boost::shared_ptr<StateCommandBlock>::swap(boost::shared_ptr<StateCommandBlock> &) // 0x100B4330
 {
     mangled_assert("?swap@?$shared_ptr@VStateCommandBlock@@@boost@@QAEXAAV12@@Z");
     todo("implement");
-    _sub_100B4330(this, arg);
 }
 
 /* ---------- private code */

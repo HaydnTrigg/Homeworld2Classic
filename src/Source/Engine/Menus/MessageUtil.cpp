@@ -29,12 +29,10 @@
 
 /* ---------- public code */
 
-_extern void _sub_59013F(LuaConfig &, char const *, std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > *, unsigned __int32);
 void MessageUtil::LoadMessages(LuaConfig &lc, char const *tableName, std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > *messages, unsigned __int32 maxMessages) // 0x59013F
 {
     mangled_assert("?LoadMessages@MessageUtil@@SGXAAVLuaConfig@@PBDQAV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@I@Z");
     todo("implement");
-    _sub_59013F(lc, tableName, messages, maxMessages);
 }
 
 /* ---------- private code */

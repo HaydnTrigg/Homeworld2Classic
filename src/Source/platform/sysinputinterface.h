@@ -115,12 +115,10 @@ static_assert(sizeof(SysInputInterface) == 4, "Invalid SysInputInterface size");
 
 /* ---------- public code */
 
-_extern void _sub_10007C7B(SysInputInterface *const);
 _inline SysInputInterface::~SysInputInterface() // 0x10007C7B
 {
     mangled_assert("??1SysInputInterface@@MAE@XZ");
     todo("implement");
-    _sub_10007C7B(this);
 }
 
 /* ---------- private code */

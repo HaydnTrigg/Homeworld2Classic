@@ -54,21 +54,16 @@ static_assert(sizeof(UI::ChatScreen) == 444, "Invalid UI::ChatScreen size");
 
 /* ---------- public code */
 
-_extern void _sub_5712D3(UI::ChatScreen *const, bool);
 _inline void UI::ChatScreen::SetHideWhenMessageSent(bool) // 0x5712D3
 {
     mangled_assert("?SetHideWhenMessageSent@ChatScreen@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_5712D3(this, arg);
 }
 
-_extern bool _sub_570BAE(UI::ChatScreen const *const);
 _inline bool UI::ChatScreen::GetHideWhenMessageSent() const // 0x570BAE
 {
     mangled_assert("?GetHideWhenMessageSent@ChatScreen@UI@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_570BAE(this);
-    return __result;
 }
 
 /* ---------- private code */

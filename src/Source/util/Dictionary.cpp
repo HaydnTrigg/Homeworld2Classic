@@ -52,48 +52,35 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_10002642(Dictionary *const, bool);
 Dictionary::Dictionary(bool) // 0x10002642
 {
     mangled_assert("??0Dictionary@@QAE@_N@Z");
     todo("implement");
-    _sub_10002642(this, arg);
 }
 
-_extern void _sub_10002664(std::pair<unsigned long const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > *const);
 _inline std::pair<unsigned long const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::~pair<unsigned long const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >() // 0x10002664
 {
     mangled_assert("??1?$pair@$$CBKV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10002664(this);
 }
 
-_extern bool _sub_100026F2(Dictionary const *const, char const *, unsigned long &);
 bool Dictionary::FindKey(char const *, unsigned long &) const // 0x100026F2
 {
     mangled_assert("?FindKey@Dictionary@@QBE_NPBDAAK@Z");
     todo("implement");
-    bool __result = _sub_100026F2(this, arg, arg);
-    return __result;
 }
 
-_extern unsigned long _sub_1000277A(Dictionary *const, char const *);
 unsigned long Dictionary::GetKey(char const *) // 0x1000277A
 {
     mangled_assert("?GetKey@Dictionary@@QAEKPBD@Z");
     todo("implement");
-    unsigned long __result = _sub_1000277A(this, arg);
-    return __result;
 }
 
-_extern char const *_sub_1000284D(Dictionary const *const, unsigned long);
 char const *Dictionary::GetString(unsigned long) const // 0x1000284D
 {
     mangled_assert("?GetString@Dictionary@@QBEPBDK@Z");
     todo("implement");
-    char const * __result = _sub_1000284D(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

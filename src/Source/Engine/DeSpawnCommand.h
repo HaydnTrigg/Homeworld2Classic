@@ -65,40 +65,28 @@ static_assert(sizeof(DeSpawnCommand) == 68, "Invalid DeSpawnCommand size");
 
 /* ---------- public code */
 
-_extern bool _sub_6AC5FA(DeSpawnCommand *const, CommandType, Command *);
 _inline bool DeSpawnCommand::canBeInterrupted(CommandType, Command *) // 0x6AC5FA
 {
     mangled_assert("?canBeInterrupted@DeSpawnCommand@@UAE_NW4CommandType@@PAVCommand@@@Z");
     todo("implement");
-    bool __result = _sub_6AC5FA(this, arg, arg);
-    return __result;
 }
 
-_extern float _sub_6AC648(DeSpawnCommand const *const);
 _inline float DeSpawnCommand::getTransitTime() const // 0x6AC648
 {
     mangled_assert("?getTransitTime@DeSpawnCommand@@UBEMXZ");
     todo("implement");
-    float __result = _sub_6AC648(this);
-    return __result;
 }
 
-_extern bool _sub_6AC64F(DeSpawnCommand *const);
 _inline bool DeSpawnCommand::isDeterministic() // 0x6AC64F
 {
     mangled_assert("?isDeterministic@DeSpawnCommand@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6AC64F(this);
-    return __result;
 }
 
-_extern char const *_sub_6AC714(DeSpawnCommand *const);
 _inline char const *DeSpawnCommand::saveToken() // 0x6AC714
 {
     mangled_assert("?saveToken@DeSpawnCommand@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6AC714(this);
-    return __result;
 }
 
 /* ---------- private code */

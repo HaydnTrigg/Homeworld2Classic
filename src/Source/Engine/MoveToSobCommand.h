@@ -109,31 +109,22 @@ static_assert(sizeof(MoveToSobCommandStaticInfo) == 12, "Invalid MoveToSobComman
 
 /* ---------- public code */
 
-_extern bool _sub_6AB12D(MoveToSobCommand *const, CommandType, Command *);
 _inline bool MoveToSobCommand::canBeInterrupted(CommandType, Command *) // 0x6AB12D
 {
     mangled_assert("?canBeInterrupted@MoveToSobCommand@@UAE_NW4CommandType@@PAVCommand@@@Z");
     todo("implement");
-    bool __result = _sub_6AB12D(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_6AB244(MoveToSobCommand *const);
 _inline bool MoveToSobCommand::isDeterministic() // 0x6AB244
 {
     mangled_assert("?isDeterministic@MoveToSobCommand@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6AB244(this);
-    return __result;
 }
 
-_extern char const *_sub_6AB2F1(MoveToSobCommand *const);
 _inline char const *MoveToSobCommand::saveToken() // 0x6AB2F1
 {
     mangled_assert("?saveToken@MoveToSobCommand@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6AB2F1(this);
-    return __result;
 }
 
 /* ---------- private code */

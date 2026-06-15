@@ -64,86 +64,64 @@ _static
 
 /* ---------- public code */
 
-_extern bool _sub_4F6222();
 bool AppMem::Startup() // 0x4F6222
 {
     mangled_assert("?Startup@AppMem@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_4F6222();
-    return __result;
 }
 
-_extern bool _sub_4F621F();
 bool AppMem::Shutdown() // 0x4F621F
 {
     mangled_assert("?Shutdown@AppMem@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_4F621F();
-    return __result;
 }
 
-_extern void _sub_4F622E();
 void AppMem::StatsReset() // 0x4F622E
 {
     mangled_assert("?StatsReset@AppMem@@SGXXZ");
     todo("implement");
-    _sub_4F622E();
 }
 
-_extern void _sub_4F622F();
 void AppMem::StatsStartRecording() // 0x4F622F
 {
     mangled_assert("?StatsStartRecording@AppMem@@SGXXZ");
     todo("implement");
-    _sub_4F622F();
 }
 
-_extern void _sub_4F6237();
 void AppMem::StatsStopRecording() // 0x4F6237
 {
     mangled_assert("?StatsStopRecording@AppMem@@SGXXZ");
     todo("implement");
-    _sub_4F6237();
 }
 
-_extern void _sub_4F6228(unsigned __int32, char const *);
 void AppMem::StatsLogAllocs(unsigned __int32 maxstackdepth, char const *filename) // 0x4F6228
 {
     mangled_assert("?StatsLogAllocs@AppMem@@SGXIPBD@Z");
     todo("implement");
-    _sub_4F6228(maxstackdepth, filename);
 }
 
-_extern void _sub_4F6225(unsigned __int32, char const *);
 void AppMem::StatsLogActiveAllocs(unsigned __int32 maxstackdepth, char const *filename) // 0x4F6225
 {
     mangled_assert("?StatsLogActiveAllocs@AppMem@@SGXIPBD@Z");
     todo("implement");
-    _sub_4F6225(maxstackdepth, filename);
 }
 
-_extern void _sub_4F622B(unsigned __int32, char const *);
 void AppMem::StatsLogTempAllocs(unsigned __int32 maxstackdepth, char const *filename) // 0x4F622B
 {
     mangled_assert("?StatsLogTempAllocs@AppMem@@SGXIPBD@Z");
     todo("implement");
-    _sub_4F622B(maxstackdepth, filename);
 }
 
-_extern void _sub_4F621B(unsigned __int32, char const *);
 void AppMem::Analysis(unsigned __int32 maxstackdepth, char const *filename) // 0x4F621B
 {
     mangled_assert("?Analysis@AppMem@@SGXIPBD@Z");
     todo("implement");
-    _sub_4F621B(maxstackdepth, filename);
 }
 
-_extern void _sub_4F621E();
 void AppMem::OnScreenMemTracker() // 0x4F621E
 {
     mangled_assert("?OnScreenMemTracker@AppMem@@SGXXZ");
     todo("implement");
-    _sub_4F621E();
 }
 
 /* ---------- private code */

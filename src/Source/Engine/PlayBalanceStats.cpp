@@ -157,13 +157,10 @@ extern char const *PlayBalanceStats::CmdLineOption; // 0x837048
 
 /* ---------- public code */
 
-_extern bool _sub_500AF8();
 bool PlayBalanceStats::Dump() // 0x500AF8
 {
     mangled_assert("?Dump@PlayBalanceStats@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_500AF8();
-    return __result;
 }
 
 /* ---------- private code */

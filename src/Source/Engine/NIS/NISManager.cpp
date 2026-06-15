@@ -234,389 +234,281 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_5518FA(NISManager *const);
 NISManager::NISManager() // 0x5518FA
 {
     mangled_assert("??0NISManager@@AAE@XZ");
     todo("implement");
-    _sub_5518FA(this);
 }
 
-_extern void _sub_5519D0(std::_Tree_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,NIS *>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,NIS *> > > *const);
 _inline std::_Tree_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,NIS *>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,NIS *> > >::~_Tree_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,NIS *>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,NIS *> > >() // 0x5519D0
 {
     mangled_assert("??1?$_Tree_buy@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVNIS@@@std@@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVNIS@@@std@@@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5519D0(this);
 }
 
-_extern void _sub_5519D9(std::_Tree_comp<0,std::_Tmap_traits<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,NIS *,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,NIS *> >,0> > *const);
 _inline std::_Tree_comp<0,std::_Tmap_traits<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,NIS *,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,NIS *> >,0> >::~_Tree_comp<0,std::_Tmap_traits<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,NIS *,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,NIS *> >,0> >() // 0x5519D9
 {
     mangled_assert("??1?$_Tree_comp@$0A@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVNIS@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVNIS@@@std@@@2@$0A@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5519D9(this);
 }
 
-_extern void _sub_5519E2(std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,NIS *,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,NIS *> > > *const);
 _inline std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,NIS *,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,NIS *> > >::~map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,NIS *,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,NIS *> > >() // 0x5519E2
 {
     mangled_assert("??1?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVNIS@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVNIS@@@std@@@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5519E2(this);
 }
 
-_extern void _sub_5519E7(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,NIS *> *const);
 _inline std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,NIS *>::~pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,NIS *>() // 0x5519E7
 {
     mangled_assert("??1?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVNIS@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5519E7(this);
 }
 
-_extern void _sub_5519EC(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,NIS *> *const);
 _inline std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,NIS *>::~pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,NIS *>() // 0x5519EC
 {
     mangled_assert("??1?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVNIS@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5519EC(this);
 }
 
-_extern void _sub_5519F6(NISManager::Data *const);
 _inline NISManager::Data::~Data() // 0x5519F6
 {
     mangled_assert("??1Data@NISManager@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5519F6(this);
 }
 
-_extern void _sub_551A5D(NISManager *const);
 NISManager::~NISManager() // 0x551A5D
 {
     mangled_assert("??1NISManager@@AAE@XZ");
     todo("implement");
-    _sub_551A5D(this);
 }
 
-_extern void _sub_55219C(NISManager *const);
 void NISManager::deleteNISs() // 0x55219C
 {
     mangled_assert("?deleteNISs@NISManager@@AAEXXZ");
     todo("implement");
-    _sub_55219C(this);
 }
 
-_extern void _sub_552163(NISManager *const);
 void NISManager::deleteNISCards() // 0x552163
 {
     mangled_assert("?deleteNISCards@NISManager@@AAEXXZ");
     todo("implement");
-    _sub_552163(this);
 }
 
-_extern NISManager *_sub_55299B();
 NISManager *NISManager::i() // 0x55299B
 {
     mangled_assert("?i@NISManager@@SGPAV1@XZ");
     todo("implement");
-    NISManager * __result = _sub_55299B();
-    return __result;
 }
 
-_extern bool _sub_5532FB();
 bool NISManager::startup() // 0x5532FB
 {
     mangled_assert("?startup@NISManager@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_5532FB();
-    return __result;
 }
 
-_extern bool _sub_5532A3();
 bool NISManager::shutdown() // 0x5532A3
 {
     mangled_assert("?shutdown@NISManager@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_5532A3();
-    return __result;
 }
 
-_extern bool _sub_5529A1(NISManager *const);
 bool NISManager::isActive() // 0x5529A1
 {
     mangled_assert("?isActive@NISManager@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_5529A1(this);
-    return __result;
 }
 
-_extern bool _sub_5529B4(NISManager *const);
 bool NISManager::isCameraFree() // 0x5529B4
 {
     mangled_assert("?isCameraFree@NISManager@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_5529B4(this);
-    return __result;
 }
 
-_extern void _sub_553282(NISManager *const, char const *);
 void NISManager::setTestFile(char const *) // 0x553282
 {
     mangled_assert("?setTestFile@NISManager@@QAEXPBD@Z");
     todo("implement");
-    _sub_553282(this, arg);
 }
 
-_extern char const *_sub_55298B(NISManager const *const);
 char const *NISManager::getTestFile() const // 0x55298B
 {
     mangled_assert("?getTestFile@NISManager@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_55298B(this);
-    return __result;
 }
 
-_extern void _sub_5527D7(NISManager *const, bool);
 void NISManager::freeCamera(bool) // 0x5527D7
 {
     mangled_assert("?freeCamera@NISManager@@QAEX_N@Z");
     todo("implement");
-    _sub_5527D7(this, arg);
 }
 
-_extern unsigned __int32 _sub_5529D2(NISManager *const, char const *);
 unsigned __int32 NISManager::load(char const *) // 0x5529D2
 {
     mangled_assert("?load@NISManager@@QAEIPBD@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_5529D2(this, arg);
-    return __result;
 }
 
-_extern bool _sub_553477(NISManager *const, char const *);
 bool NISManager::unload(char const *) // 0x553477
 {
     mangled_assert("?unload@NISManager@@QAE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_553477(this, arg);
-    return __result;
 }
 
-_extern void _sub_55259D(NISManager *const, bool, bool);
 void NISManager::exitMovieMode(bool, bool) // 0x55259D
 {
     mangled_assert("?exitMovieMode@NISManager@@AAEX_N0@Z");
     todo("implement");
-    _sub_55259D(this, arg, arg);
 }
 
-_extern void _sub_552B36(NISManager *const, bool, bool, bool, bool);
 void NISManager::movieMode(bool, bool, bool, bool) // 0x552B36
 {
     mangled_assert("?movieMode@NISManager@@AAEX_N000@Z");
     todo("implement");
-    _sub_552B36(this, arg, arg, arg, arg);
 }
 
-_extern bool _sub_5529BE(NISManager const *const, unsigned __int32);
 bool NISManager::isPlaying(unsigned __int32) const // 0x5529BE
 {
     mangled_assert("?isPlaying@NISManager@@QBE_NI@Z");
     todo("implement");
-    bool __result = _sub_5529BE(this, arg);
-    return __result;
 }
 
-_extern bool _sub_5529A6(NISManager const *const);
 bool NISManager::isAnyPlaying() const // 0x5529A6
 {
     mangled_assert("?isAnyPlaying@NISManager@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_5529A6(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_552932(NISManager const *const, char const *);
 unsigned __int32 NISManager::getPlayingHandle(char const *) const // 0x552932
 {
     mangled_assert("?getPlayingHandle@NISManager@@QBEIPBD@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_552932(this, arg);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_552DCE(NISManager *const, char const *, vector3 const &, matrix3 const &);
 unsigned __int32 NISManager::play(char const *, vector3 const &, matrix3 const &) // 0x552DCE
 {
     mangled_assert("?play@NISManager@@QAEIPBDABVvector3@@ABVmatrix3@@@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_552DCE(this, arg, arg, arg);
-    return __result;
 }
 
-_extern void _sub_552E71(NISManager *const, unsigned __int32, bool);
 void NISManager::play(unsigned __int32, bool) // 0x552E71
 {
     mangled_assert("?play@NISManager@@QAEXI_N@Z");
     todo("implement");
-    _sub_552E71(this, arg, arg);
 }
 
-_extern bool _sub_553341(NISManager *const);
 bool NISManager::stop() // 0x553341
 {
     mangled_assert("?stop@NISManager@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_553341(this);
-    return __result;
 }
 
-_extern bool _sub_5532D4(NISManager *const);
 bool NISManager::skip() // 0x5532D4
 {
     mangled_assert("?skip@NISManager@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_5532D4(this);
-    return __result;
 }
 
-_extern bool _sub_552D88(NISManager *const, bool);
 bool NISManager::pause(bool) // 0x552D88
 {
     mangled_assert("?pause@NISManager@@QAE_N_N@Z");
     todo("implement");
-    bool __result = _sub_552D88(this, arg);
-    return __result;
 }
 
-_extern bool _sub_552DA2(NISManager *const);
 bool NISManager::pauseToggle() // 0x552DA2
 {
     mangled_assert("?pauseToggle@NISManager@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_552DA2(this);
-    return __result;
 }
 
-_extern void _sub_5521C6(NISManager *const, bool);
 void NISManager::disableInterface(bool) // 0x5521C6
 {
     mangled_assert("?disableInterface@NISManager@@QAEX_N@Z");
     todo("implement");
-    _sub_5521C6(this, arg);
 }
 
-_extern void _sub_55321B(NISManager *const, float);
 void NISManager::seek(float) // 0x55321B
 {
     mangled_assert("?seek@NISManager@@QAEXM@Z");
     todo("implement");
-    _sub_55321B(this, arg);
 }
 
-_extern void _sub_55323B(NISManager *const, float);
 void NISManager::seekForward(float) // 0x55323B
 {
     mangled_assert("?seekForward@NISManager@@QAEXM@Z");
     todo("implement");
-    _sub_55323B(this, arg);
 }
 
-_extern NISCard *_sub_5527A9(NISManager *const, char const *);
 NISCard *NISManager::findCard(char const *) // 0x5527A9
 {
     mangled_assert("?findCard@NISManager@@AAEPAVNISCard@@PBD@Z");
     todo("implement");
-    NISCard * __result = _sub_5527A9(this, arg);
-    return __result;
 }
 
-_extern bool _sub_5521D9(NISManager *const, char const *, vector2 const &, vector2 const &, float, float, float, float);
 bool NISManager::displayCard(char const *, vector2 const &, vector2 const &, float, float, float, float) // 0x5521D9
 {
     mangled_assert("?displayCard@NISManager@@QAE_NPBDABVvector2@@1MMMM@Z");
     todo("implement");
-    bool __result = _sub_5521D9(this, arg, arg, arg, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern void _sub_55325B(NISManager *const, Selection const &);
 void NISManager::setEndFocus(Selection const &) // 0x55325B
 {
     mangled_assert("?setEndFocus@NISManager@@QAEXABVSelection@@@Z");
     todo("implement");
-    _sub_55325B(this, arg);
 }
 
-_extern void _sub_553273(NISManager *const, bool);
 void NISManager::setSkippable(bool) // 0x553273
 {
     mangled_assert("?setSkippable@NISManager@@QAEX_N@Z");
     todo("implement");
-    _sub_553273(this, arg);
 }
 
-_extern void _sub_5535FB(NISManager *const);
 void NISManager::visualize3D() // 0x5535FB
 {
     mangled_assert("?visualize3D@NISManager@@QAEXXZ");
     todo("implement");
-    _sub_5535FB(this);
 }
 
-_extern void _sub_5535E8(NISManager *const);
 void NISManager::visualize2D() // 0x5535E8
 {
     mangled_assert("?visualize2D@NISManager@@QAEXXZ");
     todo("implement");
-    _sub_5535E8(this);
 }
 
-_extern void _sub_553536(NISManager *const);
 void NISManager::updateCamera() // 0x553536
 {
     mangled_assert("?updateCamera@NISManager@@AAEXXZ");
     todo("implement");
-    _sub_553536(this);
 }
 
-_extern void _sub_5531CD(NISManager *const, float);
 void NISManager::renderTimeUpdate(float) // 0x5531CD
 {
     mangled_assert("?renderTimeUpdate@NISManager@@QAEXM@Z");
     todo("implement");
-    _sub_5531CD(this, arg);
 }
 
-_extern void _sub_55350D(NISManager *const, float);
 void NISManager::update(float) // 0x55350D
 {
     mangled_assert("?update@NISManager@@QAEXM@Z");
     todo("implement");
-    _sub_55350D(this, arg);
 }
 
-_extern void _sub_552F4D(NISManager *const, float);
 void NISManager::render2D(float) // 0x552F4D
 {
     mangled_assert("?render2D@NISManager@@QAEXM@Z");
     todo("implement");
-    _sub_552F4D(this, arg);
 }
 
-_extern _sub_551802(NISManager::Data *const);
 _inline NISManager::Data::Data() // 0x551802
 {
     mangled_assert("??0Data@NISManager@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_551802(this);
 }
 
 /* ---------- private code */

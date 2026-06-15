@@ -364,61 +364,46 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_6D8A83(boost::detail::condition_impl *const);
 boost::detail::condition_impl::condition_impl() // 0x6D8A83
 {
     mangled_assert("??0condition_impl@detail@boost@@QAE@XZ");
     todo("implement");
-    _sub_6D8A83(this);
 }
 
-_extern void _sub_6D8B0B(boost::detail::condition_impl *const);
 boost::detail::condition_impl::~condition_impl() // 0x6D8B0B
 {
     mangled_assert("??1condition_impl@detail@boost@@QAE@XZ");
     todo("implement");
-    _sub_6D8B0B(this);
 }
 
-_extern void _sub_6D8D8A(boost::detail::condition_impl *const);
 void boost::detail::condition_impl::notify_one() // 0x6D8D8A
 {
     mangled_assert("?notify_one@condition_impl@detail@boost@@QAEXXZ");
     todo("implement");
-    _sub_6D8D8A(this);
 }
 
-_extern void _sub_6D8D05(boost::detail::condition_impl *const);
 void boost::detail::condition_impl::notify_all() // 0x6D8D05
 {
     mangled_assert("?notify_all@condition_impl@detail@boost@@QAEXXZ");
     todo("implement");
-    _sub_6D8D05(this);
 }
 
-_extern void _sub_6D8CE1(boost::detail::condition_impl *const);
 void boost::detail::condition_impl::enter_wait() // 0x6D8CE1
 {
     mangled_assert("?enter_wait@condition_impl@detail@boost@@QAEXXZ");
     todo("implement");
-    _sub_6D8CE1(this);
 }
 
-_extern void _sub_6D8C38(boost::detail::condition_impl *const);
 void boost::detail::condition_impl::do_wait() // 0x6D8C38
 {
     mangled_assert("?do_wait@condition_impl@detail@boost@@QAEXXZ");
     todo("implement");
-    _sub_6D8C38(this);
 }
 
-_extern bool _sub_6D8B26(boost::detail::condition_impl *const, boost::xtime const &);
 bool boost::detail::condition_impl::do_timed_wait(boost::xtime const &) // 0x6D8B26
 {
     mangled_assert("?do_timed_wait@condition_impl@detail@boost@@QAE_NABUxtime@3@@Z");
     todo("implement");
-    bool __result = _sub_6D8B26(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

@@ -61,65 +61,46 @@ static_assert(sizeof(SensorPingStatic) == 12, "Invalid SensorPingStatic size");
 
 /* ---------- public code */
 
-_extern bool _sub_489668(SensorPingManager *const);
 _inline bool SensorPingManager::isDeterministic() // 0x489668
 {
     mangled_assert("?isDeterministic@SensorPingManager@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_489668(this);
-    return __result;
 }
 
-_extern char const *_sub_489738(SensorPingManager *const);
 _inline char const *SensorPingManager::saveToken() // 0x489738
 {
     mangled_assert("?saveToken@SensorPingManager@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_489738(this);
-    return __result;
 }
 
-_extern _sub_4CE709(SensorPingStatic *const, bool, float, float);
 _inline SensorPingStatic::SensorPingStatic(bool, float, float) // 0x4CE709
 {
     mangled_assert("??0SensorPingStatic@@QAE@_NMM@Z");
     todo("implement");
-    _sub_4CE709(this, arg, arg, arg);
 }
 
-_extern void _sub_496FDB(SensorPingStatic *const);
 _inline SensorPingStatic::~SensorPingStatic() // 0x496FDB
 {
     mangled_assert("??1SensorPingStatic@@QAE@XZ");
     todo("implement");
-    _sub_496FDB(this);
 }
 
-_extern bool _sub_4896C1(SensorPingStatic const *const);
 _inline bool SensorPingStatic::pingUniverse() const // 0x4896C1
 {
     mangled_assert("?pingUniverse@SensorPingStatic@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_4896C1(this);
-    return __result;
 }
 
-_extern float _sub_489641(SensorPingStatic const *const);
 _inline float SensorPingStatic::getDuration() const // 0x489641
 {
     mangled_assert("?getDuration@SensorPingStatic@@QBEMXZ");
     todo("implement");
-    float __result = _sub_489641(this);
-    return __result;
 }
 
-_extern float _sub_489645(SensorPingStatic const *const);
 _inline float SensorPingStatic::getExpandTime() const // 0x489645
 {
     mangled_assert("?getExpandTime@SensorPingStatic@@QBEMXZ");
     todo("implement");
-    float __result = _sub_489645(this);
-    return __result;
 }
 
 /* ---------- private code */

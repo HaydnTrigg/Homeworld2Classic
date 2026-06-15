@@ -97,94 +97,64 @@ static_assert(sizeof(RigidBody) == 292, "Invalid RigidBody size");
 
 /* ---------- public code */
 
-_extern vector3 const &_sub_47548E(RigidBody const *const);
 _inline vector3 const &RigidBody::getPosition() const // 0x47548E
 {
     mangled_assert("?getPosition@RigidBody@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_47548E(this);
-    return __result;
 }
 
-_extern quat const &_sub_475484(RigidBody const *const);
 _inline quat const &RigidBody::getOrientation() const // 0x475484
 {
     mangled_assert("?getOrientation@RigidBody@@QBEABVquat@@XZ");
     todo("implement");
-    quat const & __result = _sub_475484(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_475495(RigidBody const *const);
 _inline vector3 const &RigidBody::getVelocity() const // 0x475495
 {
     mangled_assert("?getVelocity@RigidBody@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_475495(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_47547A(RigidBody const *const);
 _inline vector3 const &RigidBody::getAngularVelocity() const // 0x47547A
 {
     mangled_assert("?getAngularVelocity@RigidBody@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_47547A(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_4B2F63(RigidBody const *const);
 _inline vector3 const &RigidBody::getOldPosition() const // 0x4B2F63
 {
     mangled_assert("?getOldPosition@RigidBody@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_4B2F63(this);
-    return __result;
 }
 
-_extern quat const &_sub_4B2F59(RigidBody const *const);
 _inline quat const &RigidBody::getOldOrientation() const // 0x4B2F59
 {
     mangled_assert("?getOldOrientation@RigidBody@@QBEABVquat@@XZ");
     todo("implement");
-    quat const & __result = _sub_4B2F59(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_4B2F77(RigidBody const *const);
 _inline vector3 const &RigidBody::getOldVelocity() const // 0x4B2F77
 {
     mangled_assert("?getOldVelocity@RigidBody@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_4B2F77(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_4B2F2F(RigidBody const *const);
 _inline vector3 const &RigidBody::getOldAngularVelocity() const // 0x4B2F2F
 {
     mangled_assert("?getOldAngularVelocity@RigidBody@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_4B2F2F(this);
-    return __result;
 }
 
-_extern bool _sub_4754D9(RigidBody *const);
 _inline bool RigidBody::isDeterministic() // 0x4754D9
 {
     mangled_assert("?isDeterministic@RigidBody@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4754D9(this);
-    return __result;
 }
 
-_extern char const *_sub_47564C(RigidBody *const);
 _inline char const *RigidBody::saveToken() // 0x47564C
 {
     mangled_assert("?saveToken@RigidBody@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_47564C(this);
-    return __result;
 }
 
 /* ---------- private code */

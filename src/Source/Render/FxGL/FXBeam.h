@@ -141,21 +141,16 @@ static_assert(sizeof(FXBeam) == 1, "Invalid FXBeam size");
 
 /* ---------- public code */
 
-_extern bool _sub_6EC3B6(FXBeam::Obj *const, float);
 _inline bool FXBeam::Obj::SetFadeT(float) // 0x6EC3B6
 {
     mangled_assert("?SetFadeT@Obj@FXBeam@@UAE_NM@Z");
     todo("implement");
-    bool __result = _sub_6EC3B6(this, arg);
-    return __result;
 }
 
-_extern _sub_6EA981(FXBeam::Renderer::Stat *const);
 _inline FXBeam::Renderer::Stat::Stat() // 0x6EA981
 {
     mangled_assert("??0Stat@Renderer@FXBeam@@QAE@XZ");
     todo("implement");
-    _sub_6EA981(this);
 }
 
 /* ---------- private code */

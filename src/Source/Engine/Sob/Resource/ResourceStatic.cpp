@@ -74,28 +74,22 @@
 
 /* ---------- public code */
 
-_extern void _sub_4B127E(ResourceStatic *const);
 void ResourceStatic::initialiseResourcingPoints() // 0x4B127E
 {
     mangled_assert("?initialiseResourcingPoints@ResourceStatic@@QAEXXZ");
     todo("implement");
-    _sub_4B127E(this);
 }
 
-_extern void _sub_4B1206(ResourceStatic *const);
 ResourceStatic::~ResourceStatic() // 0x4B1206
 {
     mangled_assert("??1ResourceStatic@@MAE@XZ");
     todo("implement");
-    _sub_4B1206(this);
 }
 
-_extern _sub_4B11B0(ResourceStatic *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, SobType);
 ResourceStatic::ResourceStatic(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, SobType) // 0x4B11B0
 {
     mangled_assert("??0ResourceStatic@@IAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4SobType@@@Z");
     todo("implement");
-    _sub_4B11B0(this, arg, arg);
 }
 
 /* ---------- private code */

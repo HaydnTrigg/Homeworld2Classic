@@ -40,22 +40,16 @@ extern bool ProfileSystemShutdown();
 
 /* ---------- public code */
 
-_extern bool _sub_5CB7E5();
 bool ProfileSystemStartup() // 0x5CB7E5
 {
     mangled_assert("?ProfileSystemStartup@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_5CB7E5();
-    return __result;
 }
 
-_extern bool _sub_5CB7E2();
 bool ProfileSystemShutdown() // 0x5CB7E2
 {
     mangled_assert("?ProfileSystemShutdown@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_5CB7E2();
-    return __result;
 }
 
 /* ---------- private code */

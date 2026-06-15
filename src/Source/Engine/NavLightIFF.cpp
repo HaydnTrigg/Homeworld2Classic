@@ -70,77 +70,56 @@ _static __int32 handle_NavLight_Chunk_ver3(IFF *iff, IFFChunk *chunk, void *user
 
 /* ---------- public code */
 
-_extern _sub_6095F6(NavLightStatic::NavLight *const, NavLightStatic::NavLight const &);
 _inline NavLightStatic::NavLight::NavLight(NavLightStatic::NavLight const &) // 0x6095F6
 {
     mangled_assert("??0NavLight@NavLightStatic@@QAE@ABU01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_6095F6(this, arg);
 }
 
-_extern _sub_609675(NavLightStatic::NavLight *const);
 _inline NavLightStatic::NavLight::NavLight() // 0x609675
 {
     mangled_assert("??0NavLight@NavLightStatic@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_609675(this);
 }
 
-_extern void _sub_60968E(NavLightStatic::NavLight *const);
 _inline NavLightStatic::NavLight::~NavLight() // 0x60968E
 {
     mangled_assert("??1NavLight@NavLightStatic@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_60968E(this);
 }
 
-_extern __int32 _sub_6098FF(IFF *, IFFChunk *, void *, void *);
 __int32 handle_NavLight_Chunk_Old(IFF *iff, IFFChunk *chunk, void *user0, void *user1) // 0x6098FF
 {
     mangled_assert("?handle_NavLight_Chunk_Old@@YGHPAVIFF@@PAVIFFChunk@@PAX2@Z");
     todo("implement");
-    __int32 __result = _sub_6098FF(iff, chunk, user0, user1);
-    return __result;
 }
 
-_extern __int32 _sub_6098B3(IFF *, IFFChunk *, void *, void *);
 __int32 handle_NavLight_Chunk_New(IFF *iff, IFFChunk *chunk, void *user0, void *user1) // 0x6098B3
 {
     mangled_assert("?handle_NavLight_Chunk_New@@YGHPAVIFF@@PAVIFFChunk@@PAX2@Z");
     todo("implement");
-    __int32 __result = _sub_6098B3(iff, chunk, user0, user1);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern __int32 _sub_609A3D(IFF *, IFFChunk *, void *, void *);
 _static __int32 handle_NavLight_Chunk_ver1(IFF *iff, IFFChunk *chunk, void *user0, void *user1) // 0x609A3D
 {
     mangled_assert("handle_NavLight_Chunk_ver1");
     todo("implement");
-    __int32 __result = _sub_609A3D(iff, chunk, user0, user1);
-    return __result;
 }
 
-_extern __int32 _sub_609B83(IFF *, IFFChunk *, void *, void *);
 _static __int32 handle_NavLight_Chunk_ver2(IFF *iff, IFFChunk *chunk, void *user0, void *user1) // 0x609B83
 {
     mangled_assert("handle_NavLight_Chunk_ver2");
     todo("implement");
-    __int32 __result = _sub_609B83(iff, chunk, user0, user1);
-    return __result;
 }
 
-_extern __int32 _sub_609CD1(IFF *, IFFChunk *, void *, void *);
 _static __int32 handle_NavLight_Chunk_ver3(IFF *iff, IFFChunk *chunk, void *user0, void *user1) // 0x609CD1
 {
     mangled_assert("handle_NavLight_Chunk_ver3");
     todo("implement");
-    __int32 __result = _sub_609CD1(iff, chunk, user0, user1);
-    return __result;
 }
 #endif

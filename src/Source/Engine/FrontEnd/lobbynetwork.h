@@ -58,12 +58,10 @@ static_assert(sizeof(LobbyNetwork) == 4, "Invalid LobbyNetwork size");
 
 /* ---------- public code */
 
-_extern void _sub_44B127(LobbyNetwork *const);
 _inline LobbyNetwork::~LobbyNetwork() // 0x44B127
 {
     mangled_assert("??1LobbyNetwork@@UAE@XZ");
     todo("implement");
-    _sub_44B127(this);
 }
 
 /* ---------- private code */

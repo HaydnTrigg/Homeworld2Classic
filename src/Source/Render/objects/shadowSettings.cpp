@@ -123,32 +123,23 @@ _static
 
 /* ---------- public code */
 
-_extern ShadowManager &_sub_10097F40(ShadowManager *const, ShadowManager const &);
 _inline ShadowManager &ShadowManager::operator=(ShadowManager const &) // 0x10097F40
 {
     mangled_assert("??4ShadowManager@@QAEAAV0@ABV0@@Z");
     compiler_generated();
     todo("implement");
-    ShadowManager & __result = _sub_10097F40(this, arg);
-    return __result;
 }
 
-_extern bool _sub_10097FD0();
 bool ShadowManager::startup() // 0x10097FD0
 {
     mangled_assert("?startup@ShadowManager@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_10097FD0();
-    return __result;
 }
 
-_extern bool _sub_10097FA0();
 bool ShadowManager::shutdown() // 0x10097FA0
 {
     mangled_assert("?shutdown@ShadowManager@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_10097FA0();
-    return __result;
 }
 
 /* ---------- private code */

@@ -143,114 +143,82 @@ extern SaveData const Asteroid::m_saveData[1]; // 0x78FFDC
 
 /* ---------- public code */
 
-_extern _sub_4B12C9(Asteroid *const, char const *, bool);
 Asteroid::Asteroid(char const *, bool) // 0x4B12C9
 {
     mangled_assert("??0Asteroid@@QAE@PBD_N@Z");
     todo("implement");
-    _sub_4B12C9(this, arg, arg);
 }
 
-_extern _sub_4B12A5(Asteroid *const, SaveGameData *);
 Asteroid::Asteroid(SaveGameData *) // 0x4B12A5
 {
     mangled_assert("??0Asteroid@@QAE@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_4B12A5(this, arg);
 }
 
-_extern void _sub_4B12F1(Asteroid *const);
 Asteroid::~Asteroid() // 0x4B12F1
 {
     mangled_assert("??1Asteroid@@UAE@XZ");
     todo("implement");
-    _sub_4B12F1(this);
 }
 
-_extern void _sub_4B1547(Asteroid *const);
 void Asteroid::postRestore() // 0x4B1547
 {
     mangled_assert("?postRestore@Asteroid@@UAEXXZ");
     todo("implement");
-    _sub_4B1547(this);
 }
 
-_extern void _sub_4B1438(Asteroid *const);
 void Asteroid::defaultSettings() // 0x4B1438
 {
     mangled_assert("?defaultSettings@Asteroid@@QAEXXZ");
     todo("implement");
-    _sub_4B1438(this);
 }
 
-_extern void _sub_4B1347(Asteroid *const);
 void Asteroid::RemoveFromSimulation() // 0x4B1347
 {
     mangled_assert("?RemoveFromSimulation@Asteroid@@UAEXXZ");
     todo("implement");
-    _sub_4B1347(this);
 }
 
-_extern void _sub_4B1346(Asteroid *const);
 void Asteroid::RemoveAllSimData() // 0x4B1346
 {
     mangled_assert("?RemoveAllSimData@Asteroid@@IAEXXZ");
     todo("implement");
-    _sub_4B1346(this);
 }
 
-_extern bool _sub_4B15E6(Asteroid *const, float);
 bool Asteroid::update(float) // 0x4B15E6
 {
     mangled_assert("?update@Asteroid@@UAE_NM@Z");
     todo("implement");
-    bool __result = _sub_4B15E6(this, arg);
-    return __result;
 }
 
-_extern bool _sub_4B154C(Asteroid *const, SaveGameData *);
 bool Asteroid::restore(SaveGameData *) // 0x4B154C
 {
     mangled_assert("?restore@Asteroid@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_4B154C(this, arg);
-    return __result;
 }
 
-_extern bool _sub_4B1599(Asteroid *const, SaveGameData *, SaveType);
 bool Asteroid::save(SaveGameData *, SaveType) // 0x4B1599
 {
     mangled_assert("?save@Asteroid@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_4B1599(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_4B1451(Asteroid *const, Ship *);
 bool Asteroid::latchShip(Ship *) // 0x4B1451
 {
     mangled_assert("?latchShip@Asteroid@@UAE_NPAVShip@@@Z");
     todo("implement");
-    bool __result = _sub_4B1451(this, arg);
-    return __result;
 }
 
-_extern Asteroid *_sub_4B134C(char const *, vector3 const &, vector3 const &, matrix3 const &, vector3 const &, __int32, bool);
 Asteroid *SpawnAsteroid(char const *resourcename, vector3 const &position, vector3 const &speed, matrix3 const &orientation, vector3 const &angularspeed, __int32 resourceValue, bool modifiedByRF) // 0x4B134C
 {
     mangled_assert("?SpawnAsteroid@@YGPAVAsteroid@@PBDABVvector3@@1ABVmatrix3@@1H_N@Z");
     todo("implement");
-    Asteroid * __result = _sub_4B134C(resourcename, position, speed, orientation, angularspeed, resourceValue, modifiedByRF);
-    return __result;
 }
 
-_extern Asteroid *_sub_4B13ED(char const *, vector3 const &, vector3 const &, matrix3 const &, __int32, bool);
 Asteroid *SpawnAsteroidRandomRotationSpeed(char const *resourcename, vector3 const &position, vector3 const &speed, matrix3 const &orientation, __int32 resourceValue, bool modifiedByRF) // 0x4B13ED
 {
     mangled_assert("?SpawnAsteroidRandomRotationSpeed@@YGPAVAsteroid@@PBDABVvector3@@1ABVmatrix3@@H_N@Z");
     todo("implement");
-    Asteroid * __result = _sub_4B13ED(resourcename, position, speed, orientation, resourceValue, modifiedByRF);
-    return __result;
 }
 
 /* ---------- private code */

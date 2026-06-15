@@ -49,31 +49,22 @@ static_assert(sizeof(CameraList) == 16, "Invalid CameraList size");
 
 /* ---------- public code */
 
-_extern std::_List_const_iterator<std::_List_val<std::_List_simple_types<FocalPoint *> > > _sub_4DD1ED(CameraList const *const);
 _inline std::_List_const_iterator<std::_List_val<std::_List_simple_types<FocalPoint *> > > CameraList::begin() const // 0x4DD1ED
 {
     mangled_assert("?begin@CameraList@@QBE?AV?$_List_const_iterator@V?$_List_val@U?$_List_simple_types@PAVFocalPoint@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_List_const_iterator<std::_List_val<std::_List_simple_types<FocalPoint *> > > __result = _sub_4DD1ED(this);
-    return __result;
 }
 
-_extern std::_List_const_iterator<std::_List_val<std::_List_simple_types<FocalPoint *> > > _sub_4DE5A3(CameraList const *const);
 _inline std::_List_const_iterator<std::_List_val<std::_List_simple_types<FocalPoint *> > > CameraList::end() const // 0x4DE5A3
 {
     mangled_assert("?end@CameraList@@QBE?AV?$_List_const_iterator@V?$_List_val@U?$_List_simple_types@PAVFocalPoint@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_List_const_iterator<std::_List_val<std::_List_simple_types<FocalPoint *> > > __result = _sub_4DE5A3(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_4DFC0C(CameraList const *const);
 _inline unsigned __int32 CameraList::size() const // 0x4DFC0C
 {
     mangled_assert("?size@CameraList@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_4DFC0C(this);
-    return __result;
 }
 
 /* ---------- private code */

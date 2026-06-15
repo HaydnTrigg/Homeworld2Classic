@@ -54,22 +54,16 @@ static_assert(sizeof(CpuCommon) == 2108, "Invalid CpuCommon size");
 
 /* ---------- public code */
 
-_extern bool _sub_542F95(CpuCommon *const);
 _inline bool CpuCommon::isDeterministic() // 0x542F95
 {
     mangled_assert("?isDeterministic@CpuCommon@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_542F95(this);
-    return __result;
 }
 
-_extern char const *_sub_543015(CpuCommon *const);
 _inline char const *CpuCommon::saveToken() // 0x543015
 {
     mangled_assert("?saveToken@CpuCommon@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_543015(this);
-    return __result;
 }
 
 /* ---------- private code */

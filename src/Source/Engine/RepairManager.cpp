@@ -138,119 +138,88 @@ extern SaveData const RepairManager::m_saveData[1]; // 0x78C8A0
 
 /* ---------- public code */
 
-_extern _sub_48905B(RepairManager *const, Ship *);
 RepairManager::RepairManager(Ship *) // 0x48905B
 {
     mangled_assert("??0RepairManager@@QAE@PAVShip@@@Z");
     todo("implement");
-    _sub_48905B(this, arg);
 }
 
-_extern void _sub_4890C0(RepairManager *const);
 RepairManager::~RepairManager() // 0x4890C0
 {
     mangled_assert("??1RepairManager@@UAE@XZ");
     todo("implement");
-    _sub_4890C0(this);
 }
 
-_extern void _sub_489130(RepairManager *const);
 void RepairManager::applySlowDown() // 0x489130
 {
     mangled_assert("?applySlowDown@RepairManager@@QAEXXZ");
     todo("implement");
-    _sub_489130(this);
 }
 
-_extern void _sub_48926F(RepairManager *const, float);
 void RepairManager::update(float) // 0x48926F
 {
     mangled_assert("?update@RepairManager@@UAEXM@Z");
     todo("implement");
-    _sub_48926F(this, arg);
 }
 
-_extern void _sub_4891BB(RepairManager *const, Ship *);
 void RepairManager::registerInterestedShip(Ship *) // 0x4891BB
 {
     mangled_assert("?registerInterestedShip@RepairManager@@QAEXPAVShip@@@Z");
     todo("implement");
-    _sub_4891BB(this, arg);
 }
 
-_extern void _sub_48925D(RepairManager *const, Ship *);
 void RepairManager::unRegisterInterestedShip(Ship *) // 0x48925D
 {
     mangled_assert("?unRegisterInterestedShip@RepairManager@@QAEXPAVShip@@@Z");
     todo("implement");
-    _sub_48925D(this, arg);
 }
 
-_extern LatchPointManagerStatic *_sub_48919D(RepairManager *const);
 LatchPointManagerStatic *RepairManager::getStaticData() // 0x48919D
 {
     mangled_assert("?getStaticData@RepairManager@@MAEPAVLatchPointManagerStatic@@XZ");
     todo("implement");
-    LatchPointManagerStatic * __result = _sub_48919D(this);
-    return __result;
 }
 
-_extern _sub_489018(RepairManager *const, SaveGameData *);
 RepairManager::RepairManager(SaveGameData *) // 0x489018
 {
     mangled_assert("??0RepairManager@@QAE@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_489018(this, arg);
 }
 
-_extern void _sub_489196(RepairManager *const);
 void RepairManager::defaultSettings() // 0x489196
 {
     mangled_assert("?defaultSettings@RepairManager@@QAEXXZ");
     todo("implement");
-    _sub_489196(this);
 }
 
-_extern void _sub_4891B6(RepairManager *const);
 void RepairManager::postRestore() // 0x4891B6
 {
     mangled_assert("?postRestore@RepairManager@@UAEXXZ");
     todo("implement");
-    _sub_4891B6(this);
 }
 
-_extern bool _sub_4891C3(RepairManager *const, SaveGameData *);
 bool RepairManager::restore(SaveGameData *) // 0x4891C3
 {
     mangled_assert("?restore@RepairManager@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_4891C3(this, arg);
-    return __result;
 }
 
-_extern bool _sub_489210(RepairManager *const, SaveGameData *, SaveType);
 bool RepairManager::save(SaveGameData *, SaveType) // 0x489210
 {
     mangled_assert("?save@RepairManager@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_489210(this, arg, arg);
-    return __result;
 }
 
-_extern _sub_4890AE(RepairManagerStatic *const);
 RepairManagerStatic::RepairManagerStatic() // 0x4890AE
 {
     mangled_assert("??0RepairManagerStatic@@QAE@XZ");
     todo("implement");
-    _sub_4890AE(this);
 }
 
-_extern void _sub_489102(RepairManagerStatic *const);
 RepairManagerStatic::~RepairManagerStatic() // 0x489102
 {
     mangled_assert("??1RepairManagerStatic@@QAE@XZ");
     todo("implement");
-    _sub_489102(this);
 }
 
 /* ---------- private code */

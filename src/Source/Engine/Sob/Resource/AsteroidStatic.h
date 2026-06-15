@@ -30,12 +30,10 @@ static_assert(sizeof(AsteroidStatic) == 720, "Invalid AsteroidStatic size");
 
 /* ---------- public code */
 
-_extern _sub_4B174A(AsteroidStatic *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, SobType);
 _inline AsteroidStatic::AsteroidStatic(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, SobType) // 0x4B174A
 {
     mangled_assert("??0AsteroidStatic@@IAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4SobType@@@Z");
     todo("implement");
-    _sub_4B174A(this, arg, arg);
 }
 
 /* ---------- private code */

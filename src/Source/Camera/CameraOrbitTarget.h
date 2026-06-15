@@ -70,12 +70,10 @@ static_assert(sizeof(CameraOrbitTarget) == 444, "Invalid CameraOrbitTarget size"
 
 /* ---------- public code */
 
-_extern void _sub_4E0565(CameraOrbitTarget *const, CameraOrbitTarget::CameraMode);
 _inline void CameraOrbitTarget::setCameraMode(CameraOrbitTarget::CameraMode) // 0x4E0565
 {
     mangled_assert("?setCameraMode@CameraOrbitTarget@@UAEXW4CameraMode@1@@Z");
     todo("implement");
-    _sub_4E0565(this, arg);
 }
 
 /* ---------- private code */

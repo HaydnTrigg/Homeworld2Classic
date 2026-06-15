@@ -42,22 +42,16 @@ static_assert(sizeof(PointMassController) == 16, "Invalid PointMassController si
 
 /* ---------- public code */
 
-_extern bool _sub_476977(PointMassController *const);
 _inline bool PointMassController::isDeterministic() // 0x476977
 {
     mangled_assert("?isDeterministic@PointMassController@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_476977(this);
-    return __result;
 }
 
-_extern char const *_sub_4769EE(PointMassController *const);
 _inline char const *PointMassController::saveToken() // 0x4769EE
 {
     mangled_assert("?saveToken@PointMassController@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4769EE(this);
-    return __result;
 }
 
 /* ---------- private code */

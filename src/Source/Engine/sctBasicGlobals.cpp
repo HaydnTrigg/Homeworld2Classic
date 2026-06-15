@@ -67,233 +67,161 @@ _static
 
 /* ---------- public code */
 
-_extern bool _sub_4CA00D(__int32);
 bool sctIsUdword(__int32 stackloc) // 0x4CA00D
 {
     mangled_assert("?sctIsUdword@@YG_NH@Z");
     todo("implement");
-    bool __result = _sub_4CA00D(stackloc);
-    return __result;
 }
 
-_extern bool _sub_4C9FDB(__int32);
 bool sctIsSdword(__int32 stackloc) // 0x4C9FDB
 {
     mangled_assert("?sctIsSdword@@YG_NH@Z");
     todo("implement");
-    bool __result = _sub_4C9FDB(stackloc);
-    return __result;
 }
 
-_extern bool _sub_4C9FC2(__int32);
 bool sctIsReal32(__int32 stackloc) // 0x4C9FC2
 {
     mangled_assert("?sctIsReal32@@YG_NH@Z");
     todo("implement");
-    bool __result = _sub_4C9FC2(stackloc);
-    return __result;
 }
 
-_extern bool _sub_4C9F8E(__int32);
 bool sctIsBool(__int32 stackloc) // 0x4C9F8E
 {
     mangled_assert("?sctIsBool@@YG_NH@Z");
     todo("implement");
-    bool __result = _sub_4C9F8E(stackloc);
-    return __result;
 }
 
-_extern bool _sub_4C9FF4(__int32);
 bool sctIsString(__int32 stackloc) // 0x4C9FF4
 {
     mangled_assert("?sctIsString@@YG_NH@Z");
     todo("implement");
-    bool __result = _sub_4C9FF4(stackloc);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_4C9F76(unsigned __int32);
 unsigned __int32 sctGetUdword(unsigned __int32 paramnum) // 0x4C9F76
 {
     mangled_assert("?sctGetUdword@@YGII@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_4C9F76(paramnum);
-    return __result;
 }
 
-_extern __int32 _sub_4C9F43(unsigned __int32);
 __int32 sctGetSdword(unsigned __int32 paramnum) // 0x4C9F43
 {
     mangled_assert("?sctGetSdword@@YGHI@Z");
     todo("implement");
-    __int32 __result = _sub_4C9F43(paramnum);
-    return __result;
 }
 
-_extern float _sub_4C9F27(unsigned __int32);
 float sctGetReal32(unsigned __int32 paramnum) // 0x4C9F27
 {
     mangled_assert("?sctGetReal32@@YGMI@Z");
     todo("implement");
-    float __result = _sub_4C9F27(paramnum);
-    return __result;
 }
 
-_extern bool _sub_4C9ED9(unsigned __int32);
 bool sctGetBool(unsigned __int32 paramnum) // 0x4C9ED9
 {
     mangled_assert("?sctGetBool@@YG_NI@Z");
     todo("implement");
-    bool __result = _sub_4C9ED9(paramnum);
-    return __result;
 }
 
-_extern char *_sub_4C9F63(unsigned __int32);
 char *sctGetString(unsigned __int32 paramnum) // 0x4C9F63
 {
     mangled_assert("?sctGetString@@YGPADI@Z");
     todo("implement");
-    char * __result = _sub_4C9F63(paramnum);
-    return __result;
 }
 
-_extern void _sub_4CA0B1(unsigned __int32);
 void sctPutUdword(unsigned __int32 var) // 0x4CA0B1
 {
     mangled_assert("?sctPutUdword@@YGXI@Z");
     todo("implement");
-    _sub_4CA0B1(var);
 }
 
-_extern void _sub_4CA07C(__int32);
 void sctPutSdword(__int32 var) // 0x4CA07C
 {
     mangled_assert("?sctPutSdword@@YGXH@Z");
     todo("implement");
-    _sub_4CA07C(var);
 }
 
-_extern void _sub_4CA05D(float);
 void sctPutReal32(float var) // 0x4CA05D
 {
     mangled_assert("?sctPutReal32@@YGXM@Z");
     todo("implement");
-    _sub_4CA05D(var);
 }
 
-_extern void _sub_4CA026(bool);
 void sctPutBool(bool var) // 0x4CA026
 {
     mangled_assert("?sctPutBool@@YGX_N@Z");
     todo("implement");
-    _sub_4CA026(var);
 }
 
-_extern void _sub_4CA09E(char *);
 void sctPutString(char *var) // 0x4CA09E
 {
     mangled_assert("?sctPutString@@YGXPAD@Z");
     todo("implement");
-    _sub_4CA09E(var);
 }
 
-_extern void _sub_4C9824();
 void sbgInitialize() // 0x4C9824
 {
     mangled_assert("?sbgInitialize@@YGXXZ");
     todo("implement");
-    _sub_4C9824();
 }
 
 /* ---------- private code */
 
-_extern __int32 _sub_4C97A3(lua_State *);
 _static __int32 sbgGetUdword(lua_State *lstate) // 0x4C97A3
 {
     mangled_assert("sbgGetUdword");
     todo("implement");
-    __int32 __result = _sub_4C97A3(lstate);
-    return __result;
 }
 
-_extern __int32 _sub_4C9E28(lua_State *);
 _static __int32 sbgSetUdword(lua_State *lstate) // 0x4C9E28
 {
     mangled_assert("sbgSetUdword");
     todo("implement");
-    __int32 __result = _sub_4C9E28(lstate);
-    return __result;
 }
 
-_extern __int32 _sub_4C96CA(lua_State *);
 _static __int32 sbgGetSdword(lua_State *lstate) // 0x4C96CA
 {
     mangled_assert("sbgGetSdword");
     todo("implement");
-    __int32 __result = _sub_4C96CA(lstate);
-    return __result;
 }
 
-_extern __int32 _sub_4C9CC8(lua_State *);
 _static __int32 sbgSetSdword(lua_State *lstate) // 0x4C9CC8
 {
     mangled_assert("sbgSetSdword");
     todo("implement");
-    __int32 __result = _sub_4C9CC8(lstate);
-    return __result;
 }
 
-_extern __int32 _sub_4C9658(lua_State *);
 _static __int32 sbgGetReal32(lua_State *lstate) // 0x4C9658
 {
     mangled_assert("sbgGetReal32");
     todo("implement");
-    __int32 __result = _sub_4C9658(lstate);
-    return __result;
 }
 
-_extern __int32 _sub_4C9C1C(lua_State *);
 _static __int32 sbgSetReal32(lua_State *lstate) // 0x4C9C1C
 {
     mangled_assert("sbgSetReal32");
     todo("implement");
-    __int32 __result = _sub_4C9C1C(lstate);
-    return __result;
 }
 
-_extern __int32 _sub_4C95F7(lua_State *);
 _static __int32 sbgGetBool(lua_State *lstate) // 0x4C95F7
 {
     mangled_assert("sbgGetBool");
     todo("implement");
-    __int32 __result = _sub_4C95F7(lstate);
-    return __result;
 }
 
-_extern __int32 _sub_4C9B33(lua_State *);
 _static __int32 sbgSetBool(lua_State *lstate) // 0x4C9B33
 {
     mangled_assert("sbgSetBool");
     todo("implement");
-    __int32 __result = _sub_4C9B33(lstate);
-    return __result;
 }
 
-_extern __int32 _sub_4C973D(lua_State *);
 _static __int32 sbgGetString(lua_State *lstate) // 0x4C973D
 {
     mangled_assert("sbgGetString");
     todo("implement");
-    __int32 __result = _sub_4C973D(lstate);
-    return __result;
 }
 
-_extern __int32 _sub_4C9D79(lua_State *);
 _static __int32 sbgSetString(lua_State *lstate) // 0x4C9D79
 {
     mangled_assert("sbgSetString");
     todo("implement");
-    __int32 __result = _sub_4C9D79(lstate);
-    return __result;
 }
 #endif

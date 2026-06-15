@@ -183,13 +183,10 @@ static_assert(sizeof(Subtitle) == 31452, "Invalid Subtitle size");
 
 /* ---------- public code */
 
-_extern Subtitle *_sub_45152E();
 _inline Subtitle *Subtitle::i() // 0x45152E
 {
     mangled_assert("?i@Subtitle@@SGPAV1@XZ");
     todo("implement");
-    Subtitle * __result = _sub_45152E();
-    return __result;
 }
 
 /* ---------- private code */

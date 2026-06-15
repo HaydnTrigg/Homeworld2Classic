@@ -117,109 +117,82 @@
 
 /* ---------- public code */
 
-_extern _sub_5AF339(UI::UserProfile *const, char const *);
 UI::UserProfile::UserProfile(char const *) // 0x5AF339
 {
     mangled_assert("??0UserProfile@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_5AF339(this, arg);
 }
 
-_extern void _sub_5AF36B(UI::UserProfile *const);
 UI::UserProfile::~UserProfile() // 0x5AF36B
 {
     mangled_assert("??1UserProfile@UI@@UAE@XZ");
     todo("implement");
-    _sub_5AF36B(this);
 }
 
-_extern void _sub_5AF626(UI::UserProfile *const, bool);
 void UI::UserProfile::OnActivate(bool) // 0x5AF626
 {
     mangled_assert("?OnActivate@UserProfile@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_5AF626(this, arg);
 }
 
-_extern void _sub_5AF3A7(UI::UserProfile *const);
 void UI::UserProfile::FillProfileList() // 0x5AF3A7
 {
     mangled_assert("?FillProfileList@UserProfile@UI@@QAEXXZ");
     todo("implement");
-    _sub_5AF3A7(this);
 }
 
-_extern void _sub_5AF9BB(UI::UserProfile *const);
 void UI::UserProfile::OnPostLoad() // 0x5AF9BB
 {
     mangled_assert("?OnPostLoad@UserProfile@UI@@MAEXXZ");
     todo("implement");
-    _sub_5AF9BB(this);
 }
 
-_extern bool _sub_5AFABA(UI::UserProfile *const);
 bool UI::UserProfile::SelectCurrentProfile() // 0x5AFABA
 {
     mangled_assert("?SelectCurrentProfile@UserProfile@UI@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_5AFABA(this);
-    return __result;
 }
 
-_extern void _sub_5AF55C(UI::InterfaceElement *);
 void UI::UserProfile::OnAcceptClicked(UI::InterfaceElement *sender) // 0x5AF55C
 {
     mangled_assert("?OnAcceptClicked@UserProfile@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5AF55C(sender);
 }
 
-_extern void _sub_5AF70E(UI::InterfaceElement *);
 void UI::UserProfile::OnCancelClicked(UI::InterfaceElement *sender) // 0x5AF70E
 {
     mangled_assert("?OnCancelClicked@UserProfile@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5AF70E(sender);
 }
 
-_extern void _sub_5AF877(UI::InterfaceElement *);
 void UI::UserProfile::OnDeleteClicked_Yes(UI::InterfaceElement *sender) // 0x5AF877
 {
     mangled_assert("?OnDeleteClicked_Yes@UserProfile@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5AF877(sender);
 }
 
-_extern void _sub_5AF80A(UI::InterfaceElement *);
 void UI::UserProfile::OnDeleteClicked(UI::InterfaceElement *sender) // 0x5AF80A
 {
     mangled_assert("?OnDeleteClicked@UserProfile@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5AF80A(sender);
 }
 
-_extern void _sub_5AF947(UI::InterfaceElement *);
 void UI::UserProfile::OnPlayerSetupClicked(UI::InterfaceElement *sender) // 0x5AF947
 {
     mangled_assert("?OnPlayerSetupClicked@UserProfile@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5AF947(sender);
 }
 
-_extern void _sub_5AF784(UI::InterfaceElement *);
 void UI::UserProfile::OnCreateNewClicked(UI::InterfaceElement *sender) // 0x5AF784
 {
     mangled_assert("?OnCreateNewClicked@UserProfile@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5AF784(sender);
 }
 
-_extern void _sub_5AFAAE(UI::InterfaceElement *, __int32, __int32, unsigned __int32);
 void UI::UserProfile::OnProfileDoubleClicked(UI::InterfaceElement *e, __int32 x, __int32 y, unsigned __int32 bf) // 0x5AFAAE
 {
     mangled_assert("?OnProfileDoubleClicked@UserProfile@UI@@CGXPAVInterfaceElement@2@HHI@Z");
     todo("implement");
-    _sub_5AFAAE(e, x, y, bf);
 }
 
 /* ---------- private code */

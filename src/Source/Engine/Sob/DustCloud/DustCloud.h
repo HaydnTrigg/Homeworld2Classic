@@ -86,84 +86,58 @@ static_assert(sizeof(DustCloud) == 580, "Invalid DustCloud size");
 
 /* ---------- public code */
 
-_extern bool _sub_4C51AE(DustCloud const *const);
 _inline bool DustCloud::getIsChargeable() const // 0x4C51AE
 {
     mangled_assert("?getIsChargeable@DustCloud@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_4C51AE(this);
-    return __result;
 }
 
-_extern float _sub_4C5030(DustCloud const *const);
 _inline float DustCloud::getCharge() const // 0x4C5030
 {
     mangled_assert("?getCharge@DustCloud@@QBEMXZ");
     todo("implement");
-    float __result = _sub_4C5030(this);
-    return __result;
 }
 
-_extern DustCloudStatic const *_sub_4C51D0(DustCloud const *const);
 _inline DustCloudStatic const *DustCloud::getStatic() const // 0x4C51D0
 {
     mangled_assert("?getStatic@DustCloud@@QBEPBVDustCloudStatic@@XZ");
     todo("implement");
-    DustCloudStatic const * __result = _sub_4C51D0(this);
-    return __result;
 }
 
-_extern float _sub_4C51C2(DustCloud const *const);
 _inline float DustCloud::getRadius() const // 0x4C51C2
 {
     mangled_assert("?getRadius@DustCloud@@QBEMXZ");
     todo("implement");
-    float __result = _sub_4C51C2(this);
-    return __result;
 }
 
-_extern void _sub_4C584E(DustCloud *const, vector4 const &);
 _inline void DustCloud::setColour(vector4 const &) // 0x4C584E
 {
     mangled_assert("?setColour@DustCloud@@QAEXABVvector4@@@Z");
     todo("implement");
-    _sub_4C584E(this, arg);
 }
 
-_extern SelTarg *_sub_4C51C9(DustCloud const *const);
 _inline SelTarg *DustCloud::getSelTarg() const // 0x4C51C9
 {
     mangled_assert("?getSelTarg@DustCloud@@UBEPAVSelTarg@@XZ");
     todo("implement");
-    SelTarg * __result = _sub_4C51C9(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_4C51BB(DustCloud const *const);
 _inline vector3 const &DustCloud::getPosition() const // 0x4C51BB
 {
     mangled_assert("?getPosition@DustCloud@@MBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_4C51BB(this);
-    return __result;
 }
 
-_extern bool _sub_4C5217(DustCloud *const);
 _inline bool DustCloud::isDeterministic() // 0x4C5217
 {
     mangled_assert("?isDeterministic@DustCloud@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4C5217(this);
-    return __result;
 }
 
-_extern char const *_sub_4C5815(DustCloud *const);
 _inline char const *DustCloud::saveToken() // 0x4C5815
 {
     mangled_assert("?saveToken@DustCloud@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4C5815(this);
-    return __result;
 }
 
 /* ---------- private code */

@@ -106,13 +106,10 @@ static_assert(sizeof(UI::NewResearchMenu) == 640, "Invalid UI::NewResearchMenu s
 
 /* ---------- public code */
 
-_extern UI::NewResearchMenu *_sub_5C556F();
 _inline UI::NewResearchMenu *UI::NewResearchMenu::GetScreen() // 0x5C556F
 {
     mangled_assert("?GetScreen@NewResearchMenu@UI@@SGPAV12@XZ");
     todo("implement");
-    UI::NewResearchMenu * __result = _sub_5C556F();
-    return __result;
 }
 
 /* ---------- private code */

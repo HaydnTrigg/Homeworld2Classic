@@ -62,128 +62,94 @@ static_assert(sizeof(AABBGrid<unsigned short,std::allocator<unsigned short> >) =
 
 /* ---------- public code */
 
-_extern _sub_5C22E3(AABBGrid<unsigned short,std::allocator<unsigned short> >::CellInfo *const);
 _inline AABBGrid<unsigned short,std::allocator<unsigned short> >::CellInfo::CellInfo() // 0x5C22E3
 {
     mangled_assert("??0CellInfo@?$AABBGrid@GV?$allocator@G@std@@@@QAE@XZ");
     todo("implement");
-    _sub_5C22E3(this);
 }
 
-_extern _sub_5C2296(AABBGrid<unsigned short,std::allocator<unsigned short> > *const);
 AABBGrid<unsigned short,std::allocator<unsigned short> >::AABBGrid<unsigned short,std::allocator<unsigned short> >() // 0x5C2296
 {
     mangled_assert("??0?$AABBGrid@GV?$allocator@G@std@@@@QAE@XZ");
     todo("implement");
-    _sub_5C2296(this);
 }
 
-_extern void _sub_5C237E(AABBGrid<unsigned short,std::allocator<unsigned short> > *const);
 AABBGrid<unsigned short,std::allocator<unsigned short> >::~AABBGrid<unsigned short,std::allocator<unsigned short> >() // 0x5C237E
 {
     mangled_assert("??1?$AABBGrid@GV?$allocator@G@std@@@@QAE@XZ");
     todo("implement");
-    _sub_5C237E(this);
 }
 
-_extern void _sub_5C3492(AABBGrid<unsigned short,std::allocator<unsigned short> > *const, vector3 const &, vector3 const &);
 void AABBGrid<unsigned short,std::allocator<unsigned short> >::setAABB(vector3 const &, vector3 const &) // 0x5C3492
 {
     mangled_assert("?setAABB@?$AABBGrid@GV?$allocator@G@std@@@@QAEXABVvector3@@0@Z");
     todo("implement");
-    _sub_5C3492(this, arg, arg);
 }
 
-_extern void _sub_5C34F1(AABBGrid<unsigned short,std::allocator<unsigned short> > *const, unsigned __int32, unsigned __int32, unsigned __int32);
 void AABBGrid<unsigned short,std::allocator<unsigned short> >::setGrid(unsigned __int32, unsigned __int32, unsigned __int32) // 0x5C34F1
 {
     mangled_assert("?setGrid@?$AABBGrid@GV?$allocator@G@std@@@@QAEXIII@Z");
     todo("implement");
-    _sub_5C34F1(this, arg, arg, arg);
 }
 
-_extern void _sub_5C346A(AABBGrid<unsigned short,std::allocator<unsigned short> > *const, unsigned __int32, unsigned __int32, unsigned __int32, std::vector<unsigned short,std::allocator<unsigned short> > const &);
 void AABBGrid<unsigned short,std::allocator<unsigned short> >::set(unsigned __int32, unsigned __int32, unsigned __int32, std::vector<unsigned short,std::allocator<unsigned short> > const &) // 0x5C346A
 {
     mangled_assert("?set@?$AABBGrid@GV?$allocator@G@std@@@@QAEXIIIABV?$vector@GV?$allocator@G@std@@@std@@@Z");
     todo("implement");
-    _sub_5C346A(this, arg, arg, arg, arg);
 }
 
-_extern std::vector<unsigned short,std::allocator<unsigned short> > const &_sub_5C2546(AABBGrid<unsigned short,std::allocator<unsigned short> > const *const, unsigned __int32, unsigned __int32, unsigned __int32);
 std::vector<unsigned short,std::allocator<unsigned short> > const &AABBGrid<unsigned short,std::allocator<unsigned short> >::get(unsigned __int32, unsigned __int32, unsigned __int32) const // 0x5C2546
 {
     mangled_assert("?get@?$AABBGrid@GV?$allocator@G@std@@@@QBEABV?$vector@GV?$allocator@G@std@@@std@@III@Z");
     todo("implement");
-    std::vector<unsigned short,std::allocator<unsigned short> > const & __result = _sub_5C2546(this, arg, arg, arg);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_5C2B2E(AABBGrid<unsigned short,std::allocator<unsigned short> > const *const, vector3 const &, float, unsigned __int32 &, unsigned __int32 &, unsigned __int32 &, unsigned __int32 &, unsigned __int32 &, unsigned __int32 &);
 unsigned __int32 AABBGrid<unsigned short,std::allocator<unsigned short> >::intersect(vector3 const &, float, unsigned __int32 &, unsigned __int32 &, unsigned __int32 &, unsigned __int32 &, unsigned __int32 &, unsigned __int32 &) const // 0x5C2B2E
 {
     mangled_assert("?intersect@?$AABBGrid@GV?$allocator@G@std@@@@QBEIABVvector3@@MAAI11111@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_5C2B2E(this, arg, arg, arg, arg, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_5C2C5D(AABBGrid<unsigned short,std::allocator<unsigned short> > const *const, vector3 const &, float, std::vector<unsigned short,std::allocator<unsigned short> > &);
 unsigned __int32 AABBGrid<unsigned short,std::allocator<unsigned short> >::intersect(vector3 const &, float, std::vector<unsigned short,std::allocator<unsigned short> > &) const // 0x5C2C5D
 {
     mangled_assert("?intersect@?$AABBGrid@GV?$allocator@G@std@@@@QBEIABVvector3@@MAAV?$vector@GV?$allocator@G@std@@@std@@@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_5C2C5D(this, arg, arg, arg);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_5C2722(AABBGrid<unsigned short,std::allocator<unsigned short> > const *const, unsigned __int32, unsigned __int32, unsigned __int32);
 unsigned __int32 AABBGrid<unsigned short,std::allocator<unsigned short> >::getIndex(unsigned __int32, unsigned __int32, unsigned __int32) const // 0x5C2722
 {
     mangled_assert("?getIndex@?$AABBGrid@GV?$allocator@G@std@@@@ABEIIII@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_5C2722(this, arg, arg, arg);
-    return __result;
 }
 
-_extern void _sub_5C25EA(AABBGrid<unsigned short,std::allocator<unsigned short> > const *const, vector3 const &, unsigned __int32 &, unsigned __int32 &, unsigned __int32 &);
 void AABBGrid<unsigned short,std::allocator<unsigned short> >::getCell(vector3 const &, unsigned __int32 &, unsigned __int32 &, unsigned __int32 &) const // 0x5C25EA
 {
     mangled_assert("?getCell@?$AABBGrid@GV?$allocator@G@std@@@@ABEXABVvector3@@AAI11@Z");
     todo("implement");
-    _sub_5C25EA(this, arg, arg, arg, arg);
 }
 
-_extern void _sub_5C2F6A(AABBGrid<unsigned short,std::allocator<unsigned short> > *const);
 void AABBGrid<unsigned short,std::allocator<unsigned short> >::optimize() // 0x5C2F6A
 {
     mangled_assert("?optimize@?$AABBGrid@GV?$allocator@G@std@@@@QAEXXZ");
     todo("implement");
-    _sub_5C2F6A(this);
 }
 
-_extern void _sub_5C34AC(std::vector<unsigned short,std::allocator<unsigned short> > &);
 void AABBGrid<unsigned short,std::allocator<unsigned short> >::setBegin(std::vector<unsigned short,std::allocator<unsigned short> > &set) // 0x5C34AC
 {
     mangled_assert("?setBegin@?$AABBGrid@GV?$allocator@G@std@@@@CGXAAV?$vector@GV?$allocator@G@std@@@std@@@Z");
     todo("implement");
-    _sub_5C34AC(set);
 }
 
-_extern void _sub_5C35A2(std::vector<unsigned short,std::allocator<unsigned short> > &, unsigned short const &);
 void AABBGrid<unsigned short,std::allocator<unsigned short> >::setInsert(std::vector<unsigned short,std::allocator<unsigned short> > &set, unsigned short const &value) // 0x5C35A2
 {
     mangled_assert("?setInsert@?$AABBGrid@GV?$allocator@G@std@@@@CGXAAV?$vector@GV?$allocator@G@std@@@std@@ABG@Z");
     todo("implement");
-    _sub_5C35A2(set, value);
 }
 
-_extern void _sub_5C34AF(std::vector<unsigned short,std::allocator<unsigned short> > &);
 void AABBGrid<unsigned short,std::allocator<unsigned short> >::setEnd(std::vector<unsigned short,std::allocator<unsigned short> > &set) // 0x5C34AF
 {
     mangled_assert("?setEnd@?$AABBGrid@GV?$allocator@G@std@@@@CGXAAV?$vector@GV?$allocator@G@std@@@std@@@Z");
     todo("implement");
-    _sub_5C34AF(set);
 }
 
 /* ---------- private code */

@@ -75,112 +75,86 @@
 
 /* ---------- public code */
 
-_extern _sub_67BD1B(UI::ProgressBar *const);
 UI::ProgressBar::ProgressBar() // 0x67BD1B
 {
     mangled_assert("??0ProgressBar@UI@@QAE@XZ");
     todo("implement");
-    _sub_67BD1B(this);
 }
 
-_extern _sub_67BD70(UI::UIIntSignal *const, UI::UIIntSignal const &);
 _inline UI::UIIntSignal::UIIntSignal(UI::UIIntSignal const &) // 0x67BD70
 {
     mangled_assert("??0UIIntSignal@UI@@QAE@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_67BD70(this, arg);
 }
 
-_extern _sub_67BD82(UI::UIIntSignal *const);
 _inline UI::UIIntSignal::UIIntSignal() // 0x67BD82
 {
     mangled_assert("??0UIIntSignal@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_67BD82(this);
 }
 
-_extern _sub_67BCC0(UI::ProgressBar *const, UI::InterfaceElement *, char const *);
 UI::ProgressBar::ProgressBar(UI::InterfaceElement *, char const *) // 0x67BCC0
 {
     mangled_assert("??0ProgressBar@UI@@QAE@PAVInterfaceElement@1@PBD@Z");
     todo("implement");
-    _sub_67BCC0(this, arg, arg);
 }
 
-_extern _sub_67BB7C(UI::ProgressBar *const, LuaConfig &);
 UI::ProgressBar::ProgressBar(LuaConfig &) // 0x67BB7C
 {
     mangled_assert("??0ProgressBar@UI@@QAE@AAVLuaConfig@@@Z");
     todo("implement");
-    _sub_67BB7C(this, arg);
 }
 
-_extern _sub_67BBFD(UI::ProgressBar *const, UI::ProgressBar const &);
 _inline UI::ProgressBar::ProgressBar(UI::ProgressBar const &) // 0x67BBFD
 {
     mangled_assert("??0ProgressBar@UI@@QAE@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_67BBFD(this, arg);
 }
 
-_extern void _sub_67BD94(UI::ProgressBar *const);
 UI::ProgressBar::~ProgressBar() // 0x67BD94
 {
     mangled_assert("??1ProgressBar@UI@@UAE@XZ");
     todo("implement");
-    _sub_67BD94(this);
 }
 
-_extern void _sub_67BDE1(UI::UIIntSignal *const);
 _inline UI::UIIntSignal::~UIIntSignal() // 0x67BDE1
 {
     mangled_assert("??1UIIntSignal@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_67BDE1(this);
 }
 
-_extern void _sub_67C0C1(UI::ProgressBar *const, float);
 void UI::ProgressBar::SetProgressAsRatio(float) // 0x67C0C1
 {
     mangled_assert("?SetProgressAsRatio@ProgressBar@UI@@QAEXM@Z");
     todo("implement");
-    _sub_67C0C1(this, arg);
 }
 
-_extern void _sub_67C086(UI::ProgressBar *const, __int32);
 void UI::ProgressBar::SetProgress(__int32) // 0x67C086
 {
     mangled_assert("?SetProgress@ProgressBar@UI@@QAEXH@Z");
     todo("implement");
-    _sub_67C086(this, arg);
 }
 
-_extern void _sub_67BF7B(UI::ProgressBar *const, LuaConfig &);
 void UI::ProgressBar::Load(LuaConfig &) // 0x67BF7B
 {
     mangled_assert("?Load@ProgressBar@UI@@IAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_67BF7B(this, arg);
 }
 
-_extern void _sub_67BF58(UI::ProgressBar *const);
 void UI::ProgressBar::Init() // 0x67BF58
 {
     mangled_assert("?Init@ProgressBar@UI@@AAEXXZ");
     todo("implement");
-    _sub_67BF58(this);
 }
 
-_extern void _sub_67BE37(UI::ProgressBar *const, Vector_2i const &, Rect_i const &);
 void UI::ProgressBar::Draw2(Vector_2i const &, Rect_i const &) // 0x67BE37
 {
     mangled_assert("?Draw2@ProgressBar@UI@@UAEXABUVector_2i@@ABURect_i@@@Z");
     todo("implement");
-    _sub_67BE37(this, arg, arg);
 }
 
 /* ---------- private code */

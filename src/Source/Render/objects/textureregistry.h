@@ -159,54 +159,40 @@ static_assert(sizeof(TextureRegistry) == 48, "Invalid TextureRegistry size");
 
 /* ---------- public code */
 
-_extern _sub_100A11F0(TexregElement *const);
 _inline TexregElement::TexregElement() // 0x100A11F0
 {
     mangled_assert("??0TexregElement@@QAE@XZ");
     todo("implement");
-    _sub_100A11F0(this);
 }
 
-_extern _sub_1000D390(TexregElement *const, TexregElement const &);
 _inline TexregElement::TexregElement(TexregElement const &) // 0x1000D390
 {
     mangled_assert("??0TexregElement@@QAE@ABV0@@Z");
     todo("implement");
-    _sub_1000D390(this, arg);
 }
 
-_extern void _sub_1000E480(TexregElement *const);
 _inline TexregElement::~TexregElement() // 0x1000E480
 {
     mangled_assert("??1TexregElement@@QAE@XZ");
     todo("implement");
-    _sub_1000E480(this);
 }
 
-_extern TextureRegistry *_sub_10019570();
 _inline TextureRegistry *TextureRegistry::i() // 0x10019570
 {
     mangled_assert("?i@TextureRegistry@@SGPAV1@XZ");
     todo("implement");
-    TextureRegistry * __result = _sub_10019570();
-    return __result;
 }
 
-_extern void _sub_1001BAA0(TextureRegistry *const, void (*)(TextureFormat, __int32, __int32, __int32, void *));
 _inline void TextureRegistry::setMipMapEditCB(void (*)(TextureFormat, __int32, __int32, __int32, void *)) // 0x1001BAA0
 {
     mangled_assert("?setMipMapEditCB@TextureRegistry@@QAEXP6GXW4TextureFormat@@HHHPAX@Z@Z");
     todo("implement");
-    _sub_1001BAA0(this, arg);
 }
 
-_extern void (*_sub_100192E0(TextureRegistry *const))(TextureFormat, __int32, __int32, __int32, void *);
 _inline void (*TextureRegistry::getMipMapEditCB())(TextureFormat, __int32, __int32, __int32, void *) // 0x100192E0
 {
     mangled_assert("?getMipMapEditCB@TextureRegistry@@QAEP6GXW4TextureFormat@@HHHPAX@ZXZ");
     todo("implement");
-    void (*)(TextureFormat, __int32, __int32, __int32, void *) __result = _sub_100192E0(this);
-    return __result;
 }
 
 /* ---------- private code */

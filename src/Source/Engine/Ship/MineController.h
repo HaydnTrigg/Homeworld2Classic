@@ -39,22 +39,16 @@ static_assert(sizeof(MineController) == 832, "Invalid MineController size");
 
 /* ---------- public code */
 
-_extern bool _sub_49BA99(MineController *const);
 _inline bool MineController::isDeterministic() // 0x49BA99
 {
     mangled_assert("?isDeterministic@MineController@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_49BA99(this);
-    return __result;
 }
 
-_extern char const *_sub_49BB35(MineController *const);
 _inline char const *MineController::saveToken() // 0x49BB35
 {
     mangled_assert("?saveToken@MineController@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_49BB35(this);
-    return __result;
 }
 
 /* ---------- private code */

@@ -46,13 +46,10 @@ static_assert(sizeof(UI::EventsScreen) == 420, "Invalid UI::EventsScreen size");
 
 /* ---------- public code */
 
-_extern UI::EventsScreen *_sub_58D35A();
 _inline UI::EventsScreen *UI::EventsScreen::GetScreen() // 0x58D35A
 {
     mangled_assert("?GetScreen@EventsScreen@UI@@SGPAV12@XZ");
     todo("implement");
-    UI::EventsScreen * __result = _sub_58D35A();
-    return __result;
 }
 
 /* ---------- private code */

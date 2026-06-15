@@ -91,58 +91,41 @@ _static void SetShaderBlend(FXShader &shader, FXManager::Type::BlendType const b
 
 /* ---------- public code */
 
-_extern float _sub_6F8E8F(vector3 const &, vector3 const &, vector3 const &);
 float DistanceToLineSegmentSqr(vector3 const &eye, vector3 const &start, vector3 const &end) // 0x6F8E8F
 {
     mangled_assert("?DistanceToLineSegmentSqr@@YGMABVvector3@@00@Z");
     todo("implement");
-    float __result = _sub_6F8E8F(eye, start, end);
-    return __result;
 }
 
-_extern bool _sub_6F8FE4(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, Mesh *&);
 bool FXLoadGeometry(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &name, Mesh *&mesh) // 0x6F8FE4
 {
     mangled_assert("?FXLoadGeometry@@YG_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAPAVMesh@@@Z");
     todo("implement");
-    bool __result = _sub_6F8FE4(name, mesh);
-    return __result;
 }
 
-_extern bool _sub_6F9085(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, FXMeshList *&);
 bool FXLoadGeometryList(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &name, FXMeshList *&meshlist) // 0x6F9085
 {
     mangled_assert("?FXLoadGeometryList@@YG_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAPAVFXMeshList@@@Z");
     todo("implement");
-    bool __result = _sub_6F9085(name, meshlist);
-    return __result;
 }
 
-_extern bool _sub_6F90B1(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, FXManager::Type::BlendType const, bool const, Texture *&, FXShader *&);
 bool FXLoadTexture(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &name, FXManager::Type::BlendType const blend, bool const tile, Texture *&texture, FXShader *&shader) // 0x6F90B1
 {
     mangled_assert("?FXLoadTexture@@YG_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4BlendType@Type@FXManager@@_NAAPAVTexture@@AAPAVFXShader@@@Z");
     todo("implement");
-    bool __result = _sub_6F90B1(name, blend, tile, texture, shader);
-    return __result;
 }
 
-_extern bool _sub_6F9172(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, FXManager::Type::BlendType const, bool const, TextureAnim *&, FXShader *&);
 bool FXLoadTextureAnim(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &name, FXManager::Type::BlendType const blend, bool const tile, TextureAnim *&textureAnim, FXShader *&shader) // 0x6F9172
 {
     mangled_assert("?FXLoadTextureAnim@@YG_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4BlendType@Type@FXManager@@_NAAPAVTextureAnim@@AAPAVFXShader@@@Z");
     todo("implement");
-    bool __result = _sub_6F9172(name, blend, tile, textureAnim, shader);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern void _sub_6F921E(FXShader &, FXManager::Type::BlendType const);
 _static void SetShaderBlend(FXShader &shader, FXManager::Type::BlendType const blend) // 0x6F921E
 {
     mangled_assert("SetShaderBlend");
     todo("implement");
-    _sub_6F921E(shader, blend);
 }
 #endif

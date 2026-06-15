@@ -59,65 +59,46 @@ static_assert(sizeof(UI::ProgressBar) == 1080, "Invalid UI::ProgressBar size");
 
 /* ---------- public code */
 
-_extern UI::InterfaceElement *_sub_67C18F(UI::ProgressBar *const);
 _inline UI::InterfaceElement *UI::ProgressBar::clone() // 0x67C18F
 {
     mangled_assert("?clone@ProgressBar@UI@@UAEPAVInterfaceElement@2@XZ");
     todo("implement");
-    UI::InterfaceElement * __result = _sub_67C18F(this);
-    return __result;
 }
 
-_extern void _sub_58208A(UI::ProgressBar *const, __int32, __int32);
 _inline void UI::ProgressBar::SetRange(__int32, __int32) // 0x58208A
 {
     mangled_assert("?SetRange@ProgressBar@UI@@QAEXHH@Z");
     todo("implement");
-    _sub_58208A(this, arg, arg);
 }
 
-_extern __int32 _sub_599583(UI::ProgressBar const *const);
 _inline __int32 UI::ProgressBar::GetProgress() const // 0x599583
 {
     mangled_assert("?GetProgress@ProgressBar@UI@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_599583(this);
-    return __result;
 }
 
-_extern float _sub_67BF28(UI::ProgressBar const *const);
 _inline float UI::ProgressBar::GetProgressAsRatio() const // 0x67BF28
 {
     mangled_assert("?GetProgressAsRatio@ProgressBar@UI@@QBEMXZ");
     todo("implement");
-    float __result = _sub_67BF28(this);
-    return __result;
 }
 
-_extern __int32 _sub_59958A(UI::ProgressBar const *const);
 _inline __int32 UI::ProgressBar::GetRange() const // 0x59958A
 {
     mangled_assert("?GetRange@ProgressBar@UI@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_59958A(this);
-    return __result;
 }
 
-_extern void _sub_58207B(UI::ProgressBar *const, Color_4b const &);
 _inline void UI::ProgressBar::SetProgressColor(Color_4b const &) // 0x58207B
 {
     mangled_assert("?SetProgressColor@ProgressBar@UI@@QAEXABUColor_4b@@@Z");
     todo("implement");
-    _sub_58207B(this, arg);
 }
 
-_extern Rect_i _sub_5A48FF(UI::ProgressBar const *const);
 _inline Rect_i UI::ProgressBar::GetProgressRect() const // 0x5A48FF
 {
     mangled_assert("?GetProgressRect@ProgressBar@UI@@QBE?AURect_i@@XZ");
     todo("implement");
-    Rect_i __result = _sub_5A48FF(this);
-    return __result;
 }
 
 /* ---------- private code */

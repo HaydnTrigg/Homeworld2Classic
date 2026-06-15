@@ -160,108 +160,76 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_1000F99E(FileStream *const);
 FileStream::FileStream() // 0x1000F99E
 {
     mangled_assert("??0FileStream@@QAE@XZ");
     todo("implement");
-    _sub_1000F99E(this);
 }
 
-_extern void _sub_1000F9B7(FileStream *const);
 FileStream::~FileStream() // 0x1000F9B7
 {
     mangled_assert("??1FileStream@@UAE@XZ");
     todo("implement");
-    _sub_1000F9B7(this);
 }
 
-_extern long _sub_1000FAED(FileStream *const, char const *, StreamMode);
 long FileStream::Open(char const *, StreamMode) // 0x1000FAED
 {
     mangled_assert("?Open@FileStream@@QAEJPBDW4StreamMode@@@Z");
     todo("implement");
-    long __result = _sub_1000FAED(this, arg, arg);
-    return __result;
 }
 
-_extern long _sub_1000FA69(FileStream *const);
 long FileStream::Close() // 0x1000FA69
 {
     mangled_assert("?Close@FileStream@@QAEJXZ");
     todo("implement");
-    long __result = _sub_1000FA69(this);
-    return __result;
 }
 
-_extern unsigned long _sub_1000FB67(FileStream *const, void *, unsigned long);
 unsigned long FileStream::Read(void *, unsigned long) // 0x1000FB67
 {
     mangled_assert("?Read@FileStream@@UAEKPAXK@Z");
     todo("implement");
-    unsigned long __result = _sub_1000FB67(this, arg, arg);
-    return __result;
 }
 
-_extern unsigned long _sub_1000FB82(FileStream *const, char *, unsigned long);
 unsigned long FileStream::ReadLine(char *, unsigned long) // 0x1000FB82
 {
     mangled_assert("?ReadLine@FileStream@@QAEKPADK@Z");
     todo("implement");
-    unsigned long __result = _sub_1000FB82(this, arg, arg);
-    return __result;
 }
 
-_extern unsigned long _sub_1000FC5F(FileStream *const, void const *, unsigned long);
 unsigned long FileStream::Write(void const *, unsigned long) // 0x1000FC5F
 {
     mangled_assert("?Write@FileStream@@UAEKPBXK@Z");
     todo("implement");
-    unsigned long __result = _sub_1000FC5F(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_1000FC37(FileStream *const, char const *);
 void FileStream::Write(char const *) // 0x1000FC37
 {
     mangled_assert("?Write@FileStream@@QAEXPBD@Z");
     todo("implement");
-    _sub_1000FC37(this, arg);
 }
 
-_extern void _sub_1000FAB9(FileStream *const);
 void FileStream::Flush() // 0x1000FAB9
 {
     mangled_assert("?Flush@FileStream@@UAEXXZ");
     todo("implement");
-    _sub_1000FAB9(this);
 }
 
-_extern unsigned long _sub_1000FAC9(FileStream *const);
 unsigned long FileStream::GetLen() // 0x1000FAC9
 {
     mangled_assert("?GetLen@FileStream@@UAEKXZ");
     todo("implement");
-    unsigned long __result = _sub_1000FAC9(this);
-    return __result;
 }
 
-_extern unsigned long _sub_1000FADB(FileStream *const);
 unsigned long FileStream::GetPos() // 0x1000FADB
 {
     mangled_assert("?GetPos@FileStream@@UAEKXZ");
     todo("implement");
-    unsigned long __result = _sub_1000FADB(this);
-    return __result;
 }
 
-_extern unsigned long _sub_1000FC23(FileStream *const, unsigned long);
 unsigned long FileStream::SetPos(unsigned long) // 0x1000FC23
 {
     mangled_assert("?SetPos@FileStream@@UAEKK@Z");
     todo("implement");
-    unsigned long __result = _sub_1000FC23(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

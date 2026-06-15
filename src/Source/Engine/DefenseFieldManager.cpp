@@ -145,189 +145,137 @@ extern SaveData const DefenseFieldManager::m_saveData[3]; // 0x78C1E8
 
 /* ---------- public code */
 
-_extern _sub_485411(DefenseFieldManager::Data *const);
 _inline DefenseFieldManager::Data::Data() // 0x485411
 {
     mangled_assert("??0Data@DefenseFieldManager@@QAE@XZ");
     todo("implement");
-    _sub_485411(this);
 }
 
-_extern void _sub_485597(DefenseFieldManager::Data *const);
 _inline DefenseFieldManager::Data::~Data() // 0x485597
 {
     mangled_assert("??1Data@DefenseFieldManager@@QAE@XZ");
     todo("implement");
-    _sub_485597(this);
 }
 
-_extern _sub_48542A(DefenseFieldManager *const, SobID const &);
 DefenseFieldManager::DefenseFieldManager(SobID const &) // 0x48542A
 {
     mangled_assert("??0DefenseFieldManager@@QAE@ABVSobID@@@Z");
     todo("implement");
-    _sub_48542A(this, arg);
 }
 
-_extern void _sub_4855C6(DefenseFieldManager *const);
 DefenseFieldManager::~DefenseFieldManager() // 0x4855C6
 {
     mangled_assert("??1DefenseFieldManager@@UAE@XZ");
     todo("implement");
-    _sub_4855C6(this);
 }
 
-_extern void _sub_48563C(GameEvent_DefenseFieldStatusChange *const);
 _inline GameEvent_DefenseFieldStatusChange::~GameEvent_DefenseFieldStatusChange() // 0x48563C
 {
     mangled_assert("??1GameEvent_DefenseFieldStatusChange@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_48563C(this);
 }
 
-_extern void _sub_485997(DefenseFieldManager *const);
 void DefenseFieldManager::killFieldObject() // 0x485997
 {
     mangled_assert("?killFieldObject@DefenseFieldManager@@AAEXXZ");
     todo("implement");
-    _sub_485997(this);
 }
 
-_extern DefenseFieldManagerStatic const *_sub_48596F(DefenseFieldManager const *const);
 DefenseFieldManagerStatic const *DefenseFieldManager::getStatic() const // 0x48596F
 {
     mangled_assert("?getStatic@DefenseFieldManager@@QBEPBVDefenseFieldManagerStatic@@XZ");
     todo("implement");
-    DefenseFieldManagerStatic const * __result = _sub_48596F(this);
-    return __result;
 }
 
-_extern void _sub_4856B9(DefenseFieldManager *const);
 void DefenseFieldManager::activateField() // 0x4856B9
 {
     mangled_assert("?activateField@DefenseFieldManager@@QAEXXZ");
     todo("implement");
-    _sub_4856B9(this);
 }
 
-_extern void _sub_4857FD(DefenseFieldManager *const);
 void DefenseFieldManager::displayField() // 0x4857FD
 {
     mangled_assert("?displayField@DefenseFieldManager@@QAEXXZ");
     todo("implement");
-    _sub_4857FD(this);
 }
 
-_extern void _sub_485A5B(DefenseFieldManager *const);
 void DefenseFieldManager::shutDownField() // 0x485A5B
 {
     mangled_assert("?shutDownField@DefenseFieldManager@@QAEXXZ");
     todo("implement");
-    _sub_485A5B(this);
 }
 
-_extern bool _sub_4857D1(DefenseFieldManager *const);
 bool DefenseFieldManager::canShutDown() // 0x4857D1
 {
     mangled_assert("?canShutDown@DefenseFieldManager@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_4857D1(this);
-    return __result;
 }
 
-_extern bool _sub_48579B(DefenseFieldManager *const);
 bool DefenseFieldManager::canActivate() // 0x48579B
 {
     mangled_assert("?canActivate@DefenseFieldManager@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_48579B(this);
-    return __result;
 }
 
-_extern _sub_4854C7(DefenseFieldManager *const, SaveGameData *);
 DefenseFieldManager::DefenseFieldManager(SaveGameData *) // 0x4854C7
 {
     mangled_assert("??0DefenseFieldManager@@QAE@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_4854C7(this, arg);
 }
 
-_extern void _sub_485B4C(DefenseFieldManager *const, float);
 void DefenseFieldManager::update(float) // 0x485B4C
 {
     mangled_assert("?update@DefenseFieldManager@@QAEXM@Z");
     todo("implement");
-    _sub_485B4C(this, arg);
 }
 
-_extern bool _sub_4858FF(DefenseFieldManager const *const);
 bool DefenseFieldManager::fieldActive() const // 0x4858FF
 {
     mangled_assert("?fieldActive@DefenseFieldManager@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_4858FF(this);
-    return __result;
 }
 
-_extern Sob const *_sub_485958(DefenseFieldManager const *const);
 Sob const *DefenseFieldManager::getField() const // 0x485958
 {
     mangled_assert("?getField@DefenseFieldManager@@QBEPBVSob@@XZ");
     todo("implement");
-    Sob const * __result = _sub_485958(this);
-    return __result;
 }
 
-_extern void _sub_4857F8(DefenseFieldManager *const);
 void DefenseFieldManager::defaultSettings() // 0x4857F8
 {
     mangled_assert("?defaultSettings@DefenseFieldManager@@QAEXXZ");
     todo("implement");
-    _sub_4857F8(this);
 }
 
-_extern void _sub_4859C2(DefenseFieldManager *const);
 void DefenseFieldManager::postRestore() // 0x4859C2
 {
     mangled_assert("?postRestore@DefenseFieldManager@@UAEXXZ");
     todo("implement");
-    _sub_4859C2(this);
 }
 
-_extern float _sub_485927(DefenseFieldManager *const);
 float DefenseFieldManager::getCurrentUsage() // 0x485927
 {
     mangled_assert("?getCurrentUsage@DefenseFieldManager@@QAEMXZ");
     todo("implement");
-    float __result = _sub_485927(this);
-    return __result;
 }
 
-_extern bool _sub_4859E2(DefenseFieldManager *const, SaveGameData *);
 bool DefenseFieldManager::restore(SaveGameData *) // 0x4859E2
 {
     mangled_assert("?restore@DefenseFieldManager@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_4859E2(this, arg);
-    return __result;
 }
 
-_extern bool _sub_485A20(DefenseFieldManager *const, SaveGameData *, SaveType);
 bool DefenseFieldManager::save(SaveGameData *, SaveType) // 0x485A20
 {
     mangled_assert("?save@DefenseFieldManager@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_485A20(this, arg, arg);
-    return __result;
 }
 
-_extern _sub_485544(DefenseFieldManagerStatic *const);
 DefenseFieldManagerStatic::DefenseFieldManagerStatic() // 0x485544
 {
     mangled_assert("??0DefenseFieldManagerStatic@@QAE@XZ");
     todo("implement");
-    _sub_485544(this);
 }
 
 /* ---------- private code */

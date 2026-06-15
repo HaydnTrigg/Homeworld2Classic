@@ -94,163 +94,119 @@ _static
 
 /* ---------- public code */
 
-_extern bool _sub_609086();
 bool movieRecorderStartup() // 0x609086
 {
     mangled_assert("?movieRecorderStartup@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_609086();
-    return __result;
 }
 
-_extern bool _sub_60905F();
 bool movieRecorderShutdown() // 0x60905F
 {
     mangled_assert("?movieRecorderShutdown@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_60905F();
-    return __result;
 }
 
-_extern void _sub_609053();
 void movieRecorderFrameCallback() // 0x609053
 {
     mangled_assert("?movieRecorderFrameCallback@@YGXXZ");
     todo("implement");
-    _sub_609053();
 }
 
-_extern _sub_608C2E(MovieRecorder *const);
 MovieRecorder::MovieRecorder() // 0x608C2E
 {
     mangled_assert("??0MovieRecorder@@QAE@XZ");
     todo("implement");
-    _sub_608C2E(this);
 }
 
-_extern void _sub_608C5B(MovieRecorder *const);
 MovieRecorder::~MovieRecorder() // 0x608C5B
 {
     mangled_assert("??1MovieRecorder@@QAE@XZ");
     todo("implement");
-    _sub_608C5B(this);
 }
 
-_extern MovieRecorder *_sub_608F49();
 MovieRecorder *MovieRecorder::i() // 0x608F49
 {
     mangled_assert("?i@MovieRecorder@@SGPAV1@XZ");
     todo("implement");
-    MovieRecorder * __result = _sub_608F49();
-    return __result;
 }
 
-_extern void _sub_609120();
 void MovieRecorder::release() // 0x609120
 {
     mangled_assert("?release@MovieRecorder@@SGXXZ");
     todo("implement");
-    _sub_609120();
 }
 
-_extern void _sub_609142(MovieRecorder *const, unsigned __int32);
 void MovieRecorder::setFileType(unsigned __int32) // 0x609142
 {
     mangled_assert("?setFileType@MovieRecorder@@QAEXI@Z");
     todo("implement");
-    _sub_609142(this, arg);
 }
 
-_extern void _sub_60915E(MovieRecorder *const, bool);
 void MovieRecorder::setOverExposure(bool) // 0x60915E
 {
     mangled_assert("?setOverExposure@MovieRecorder@@QAEX_N@Z");
     todo("implement");
-    _sub_60915E(this, arg);
 }
 
-_extern void _sub_608F6F(MovieRecorder *const, char *, char const *, unsigned __int32);
 void MovieRecorder::makeMovieFrameName(char *, char const *, unsigned __int32) // 0x608F6F
 {
     mangled_assert("?makeMovieFrameName@MovieRecorder@@AAEXPADPBDI@Z");
     todo("implement");
-    _sub_608F6F(this, arg, arg, arg);
 }
 
-_extern bool _sub_609168(MovieRecorder *const, char const *, float);
 bool MovieRecorder::start(char const *, float) // 0x609168
 {
     mangled_assert("?start@MovieRecorder@@QAE_NPBDM@Z");
     todo("implement");
-    bool __result = _sub_609168(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_6092AB(MovieRecorder *const);
 bool MovieRecorder::stop() // 0x6092AB
 {
     mangled_assert("?stop@MovieRecorder@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_6092AB(this);
-    return __result;
 }
 
-_extern void _sub_608CB2(MovieRecorder *const);
 void MovieRecorder::frameCapture() // 0x608CB2
 {
     mangled_assert("?frameCapture@MovieRecorder@@QAEXXZ");
     todo("implement");
-    _sub_608CB2(this);
 }
 
-_extern void _sub_609067(char const *, float);
 void movieRecorderStart(char const *movieName, float fps) // 0x609067
 {
     mangled_assert("?movieRecorderStart@@YGXPBDM@Z");
     todo("implement");
-    _sub_609067(movieName, fps);
 }
 
-_extern void _sub_609114();
 void movieRecorderStop() // 0x609114
 {
     mangled_assert("?movieRecorderStop@@YGXXZ");
     todo("implement");
-    _sub_609114();
 }
 
-_extern void _sub_608FCC(unsigned __int32);
 void movieFileType(unsigned __int32 type) // 0x608FCC
 {
     mangled_assert("?movieFileType@@YGXI@Z");
     todo("implement");
-    _sub_608FCC(type);
 }
 
-_extern void _sub_609044(bool);
 void movieOverExpose(bool bOver) // 0x609044
 {
     mangled_assert("?movieOverExpose@@YGX_N@Z");
     todo("implement");
-    _sub_609044(bOver);
 }
 
-_extern void _sub_608FDF(char const *);
 void movieOutputDirectory(char const *dirName) // 0x608FDF
 {
     mangled_assert("?movieOutputDirectory@@YGXPBD@Z");
     todo("implement");
-    _sub_608FDF(dirName);
 }
 
 /* ---------- private code */
 
-_extern __int32 _sub_608E9A(char const *, char const *);
 _static __int32 getFirstFreeNumber(char const *dir, char const *ext) // 0x608E9A
 {
     mangled_assert("getFirstFreeNumber");
     todo("implement");
-    __int32 __result = _sub_608E9A(dir, ext);
-    return __result;
 }
 #endif

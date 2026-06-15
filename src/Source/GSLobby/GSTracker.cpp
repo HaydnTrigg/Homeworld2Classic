@@ -104,22 +104,17 @@ extern unsigned __int32 GSTracker::s_usagesTracked; // 0x1001E820
 
 /* ---------- public code */
 
-_extern GSTracker &_sub_100058C4(GSTracker *const, GSTracker const &);
 _inline GSTracker &GSTracker::operator=(GSTracker const &) // 0x100058C4
 {
     mangled_assert("??4GSTracker@@QAEAAV0@ABV0@@Z");
     compiler_generated();
     todo("implement");
-    GSTracker & __result = _sub_100058C4(this, arg);
-    return __result;
 }
 
-_extern void _sub_100058C9(__int32, char const *, __int32);
 void GSTracker::TrackUsage(__int32 productID, char const *versionUniqueID, __int32 distributionID) // 0x100058C9
 {
     mangled_assert("?TrackUsage@GSTracker@@SGXHPBDH@Z");
     todo("implement");
-    _sub_100058C9(productID, versionUniqueID, distributionID);
 }
 
 /* ---------- private code */

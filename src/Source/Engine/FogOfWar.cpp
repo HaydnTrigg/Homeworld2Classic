@@ -141,86 +141,65 @@ extern bool FogOfWar::m_forceUpdate; // 0x848760
 
 /* ---------- public code */
 
-_extern void _sub_5EE906(std::_List_buy<Sob *,std::allocator<Sob *> > *const);
 _inline std::_List_buy<Sob *,std::allocator<Sob *> >::~_List_buy<Sob *,std::allocator<Sob *> >() // 0x5EE906
 {
     mangled_assert("??1?$_List_buy@PAVSob@@V?$allocator@PAVSob@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5EE906(this);
 }
 
-_extern void _sub_5EEA08(bool);
 void FogOfWar::calculateFog(bool pause) // 0x5EEA08
 {
     mangled_assert("?calculateFog@FogOfWar@@SGX_N@Z");
     todo("implement");
-    _sub_5EEA08(pause);
 }
 
-_extern void _sub_5EEAAA(__int32);
 void FogOfWar::calculateFogForPlayer(__int32 playerIndex) // 0x5EEAAA
 {
     mangled_assert("?calculateFogForPlayer@FogOfWar@@CGXH@Z");
     todo("implement");
-    _sub_5EEAAA(playerIndex);
 }
 
-_extern void _sub_5EE9B1(__int32);
 void FogOfWar::calculateCloakingForPlayer(__int32 playerIndex) // 0x5EE9B1
 {
     mangled_assert("?calculateCloakingForPlayer@FogOfWar@@CGXH@Z");
     todo("implement");
-    _sub_5EE9B1(playerIndex);
 }
 
-_extern void _sub_5EED6A(__int32);
 void FogOfWar::clearVisibilityForPlayer(__int32 playerIndex) // 0x5EED6A
 {
     mangled_assert("?clearVisibilityForPlayer@FogOfWar@@CGXH@Z");
     todo("implement");
-    _sub_5EED6A(playerIndex);
 }
 
-_extern void _sub_5EEDA0(__int32);
 void FogOfWar::doAutoSpottingForPlayer(__int32 playerIndex) // 0x5EEDA0
 {
     mangled_assert("?doAutoSpottingForPlayer@FogOfWar@@CGXH@Z");
     todo("implement");
-    _sub_5EEDA0(playerIndex);
 }
 
-_extern void _sub_5EEEC1(__int32, Ship *, std::list<Sob *,std::allocator<Sob *> > &);
 void FogOfWar::doShipVisibility(__int32 playerIndex, Ship *ship, std::list<Sob *,std::allocator<Sob *> > &sobList) // 0x5EEEC1
 {
     mangled_assert("?doShipVisibility@FogOfWar@@CGXHPAVShip@@AAV?$list@PAVSob@@V?$allocator@PAVSob@@@std@@@std@@@Z");
     todo("implement");
-    _sub_5EEEC1(playerIndex, ship, sobList);
 }
 
-_extern void _sub_5EF000(__int32);
 void FogOfWar::doSpottingForPlayer(__int32 playerIndex) // 0x5EF000
 {
     mangled_assert("?doSpottingForPlayer@FogOfWar@@CGXH@Z");
     todo("implement");
-    _sub_5EF000(playerIndex);
 }
 
-_extern bool _sub_5EEC57(__int32, Ship *, Sob *);
 bool FogOfWar::checkVisualRange(__int32 playerIndex, Ship *detector, Sob *detectee) // 0x5EEC57
 {
     mangled_assert("?checkVisualRange@FogOfWar@@CG_NHPAVShip@@PAVSob@@@Z");
     todo("implement");
-    bool __result = _sub_5EEC57(playerIndex, detector, detectee);
-    return __result;
 }
 
-_extern void _sub_5EEACA(__int32, Ship *, Sob *);
 void FogOfWar::checkSensorsRange(__int32 playerIndex, Ship *detector, Sob *detectee) // 0x5EEACA
 {
     mangled_assert("?checkSensorsRange@FogOfWar@@CGXHPAVShip@@PAVSob@@@Z");
     todo("implement");
-    _sub_5EEACA(playerIndex, detector, detectee);
 }
 
 /* ---------- private code */

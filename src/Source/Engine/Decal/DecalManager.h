@@ -72,30 +72,22 @@ static_assert(sizeof(DecalManager) == 4, "Invalid DecalManager size");
 
 /* ---------- public code */
 
-_extern DecalRefMesh const *_sub_55A89A(DecalManager::Object const *const);
 _inline DecalRefMesh const *DecalManager::Object::GetRefMesh() const // 0x55A89A
 {
     mangled_assert("?GetRefMesh@Object@DecalManager@@QBEPBVDecalRefMesh@@XZ");
     todo("implement");
-    DecalRefMesh const * __result = _sub_55A89A(this);
-    return __result;
 }
 
-_extern void _sub_55E0FB(DecalManager::Object *const, __int32);
 _inline void DecalManager::Object::SetTextureID(__int32) // 0x55E0FB
 {
     mangled_assert("?SetTextureID@Object@DecalManager@@QAEXH@Z");
     todo("implement");
-    _sub_55E0FB(this, arg);
 }
 
-_extern __int32 _sub_55E0F7(DecalManager::Object const *const);
 _inline __int32 DecalManager::Object::GetTextureID() const // 0x55E0F7
 {
     mangled_assert("?GetTextureID@Object@DecalManager@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_55E0F7(this);
-    return __result;
 }
 
 /* ---------- private code */

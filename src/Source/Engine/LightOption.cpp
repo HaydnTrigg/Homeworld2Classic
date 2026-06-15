@@ -59,12 +59,10 @@ extern void LightOption::SetLOD(__int32 lod);
 
 /* ---------- public code */
 
-_extern void _sub_604531(__int32);
 void LightOption::SetLOD(__int32 lod) // 0x604531
 {
     mangled_assert("?SetLOD@LightOption@@YGXH@Z");
     todo("implement");
-    _sub_604531(lod);
 }
 
 /* ---------- private code */

@@ -165,117 +165,82 @@ static_assert(sizeof(ParadeFormation) == 68, "Invalid ParadeFormation size");
 
 /* ---------- public code */
 
-_extern bool _sub_5D857D(ParadeType *const);
 _inline bool ParadeType::isDeterministic() // 0x5D857D
 {
     mangled_assert("?isDeterministic@ParadeType@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_5D857D(this);
-    return __result;
 }
 
-_extern char const *_sub_5D8BFF(ParadeType *const);
 _inline char const *ParadeType::saveToken() // 0x5D8BFF
 {
     mangled_assert("?saveToken@ParadeType@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_5D8BFF(this);
-    return __result;
 }
 
-_extern _sub_5D7404(SlotID *const);
 _inline SlotID::SlotID() // 0x5D7404
 {
     mangled_assert("??0SlotID@@QAE@XZ");
     todo("implement");
-    _sub_5D7404(this);
 }
 
-_extern bool _sub_6A7389(SlotID *const);
 _inline bool SlotID::isValid() // 0x6A7389
 {
     mangled_assert("?isValid@SlotID@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_6A7389(this);
-    return __result;
 }
 
-_extern void _sub_6A737D(SlotID *const);
 _inline void SlotID::invalidate() // 0x6A737D
 {
     mangled_assert("?invalidate@SlotID@@QAEXXZ");
     todo("implement");
-    _sub_6A737D(this);
 }
 
-_extern void _sub_5D8C2A(SlotID *const, unsigned __int32);
 _inline void SlotID::setType(unsigned __int32) // 0x5D8C2A
 {
     mangled_assert("?setType@SlotID@@QAEXI@Z");
     todo("implement");
-    _sub_5D8C2A(this, arg);
 }
 
-_extern void _sub_5D8C20(SlotID *const, unsigned __int32);
 _inline void SlotID::setSlotNr(unsigned __int32) // 0x5D8C20
 {
     mangled_assert("?setSlotNr@SlotID@@QAEXI@Z");
     todo("implement");
-    _sub_5D8C20(this, arg);
 }
 
-_extern unsigned __int32 _sub_5D855B(SlotID *const);
 _inline unsigned __int32 SlotID::getType() // 0x5D855B
 {
     mangled_assert("?getType@SlotID@@QAEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_5D855B(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_5D8557(SlotID *const);
 _inline unsigned __int32 SlotID::getSlotNr() // 0x5D8557
 {
     mangled_assert("?getSlotNr@SlotID@@QAEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_5D8557(this);
-    return __result;
 }
 
-_extern bool _sub_5D8580(SlotID *const);
 _inline bool SlotID::isDeterministic() // 0x5D8580
 {
     mangled_assert("?isDeterministic@SlotID@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_5D8580(this);
-    return __result;
 }
 
-_extern char const *_sub_5D8C05(SlotID *const);
 _inline char const *SlotID::saveToken() // 0x5D8C05
 {
     mangled_assert("?saveToken@SlotID@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_5D8C05(this);
-    return __result;
 }
 
-_extern bool _sub_5D857A(ParadeFormation *const);
 _inline bool ParadeFormation::isDeterministic() // 0x5D857A
 {
     mangled_assert("?isDeterministic@ParadeFormation@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_5D857A(this);
-    return __result;
 }
 
-_extern char const *_sub_5D8BF9(ParadeFormation *const);
 _inline char const *ParadeFormation::saveToken() // 0x5D8BF9
 {
     mangled_assert("?saveToken@ParadeFormation@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_5D8BF9(this);
-    return __result;
 }
 
 /* ---------- private code */

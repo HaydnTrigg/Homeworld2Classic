@@ -107,112 +107,82 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_100AE970(ImplicitMesh *const);
 ImplicitMesh::ImplicitMesh() // 0x100AE970
 {
     mangled_assert("??0ImplicitMesh@@QAE@XZ");
     todo("implement");
-    _sub_100AE970(this);
 }
 
-_extern void _sub_100AEA20(ImplicitMesh *const);
 ImplicitMesh::~ImplicitMesh() // 0x100AEA20
 {
     mangled_assert("??1ImplicitMesh@@QAE@XZ");
     todo("implement");
-    _sub_100AEA20(this);
 }
 
-_extern void _sub_100AF2F0(ImplicitMesh const *const, rndTable *);
 void ImplicitMesh::render(rndTable *) const // 0x100AF2F0
 {
     mangled_assert("?render@ImplicitMesh@@QBEXPAUrndTable@@@Z");
     todo("implement");
-    _sub_100AF2F0(this, arg);
 }
 
-_extern void _sub_100AEE30(ImplicitMesh *const);
 void ImplicitMesh::clear() // 0x100AEE30
 {
     mangled_assert("?clear@ImplicitMesh@@QAEXXZ");
     todo("implement");
-    _sub_100AEE30(this);
 }
 
-_extern void _sub_100AF360(ImplicitMesh *const, __int32);
 void ImplicitMesh::reserve(__int32) // 0x100AF360
 {
     mangled_assert("?reserve@ImplicitMesh@@QAEXH@Z");
     todo("implement");
-    _sub_100AF360(this, arg);
 }
 
-_extern void _sub_100AEE20(ImplicitMesh *const);
 void ImplicitMesh::beginCreate() // 0x100AEE20
 {
     mangled_assert("?beginCreate@ImplicitMesh@@QAEXXZ");
     todo("implement");
-    _sub_100AEE20(this);
 }
 
-_extern void _sub_100AEE60(ImplicitMesh *const);
 void ImplicitMesh::endCreate() // 0x100AEE60
 {
     mangled_assert("?endCreate@ImplicitMesh@@QAEXXZ");
     todo("implement");
-    _sub_100AEE60(this);
 }
 
-_extern unsigned __int32 _sub_100AED70(ImplicitMesh *const, vector3 const &);
 unsigned __int32 ImplicitMesh::addVertex(vector3 const &) // 0x100AED70
 {
     mangled_assert("?addVertex@ImplicitMesh@@QAEIABVvector3@@@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_100AED70(this, arg);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_100AEDC0(ImplicitMesh *const, float, float, float);
 unsigned __int32 ImplicitMesh::addVertex(float, float, float) // 0x100AEDC0
 {
     mangled_assert("?addVertex@ImplicitMesh@@QAEIMMM@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_100AEDC0(this, arg, arg, arg);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_100AECC0(ImplicitMesh *const, vector3 const &);
 unsigned __int32 ImplicitMesh::addNormal(vector3 const &) // 0x100AECC0
 {
     mangled_assert("?addNormal@ImplicitMesh@@QAEIABVvector3@@@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_100AECC0(this, arg);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_100AECF0(ImplicitMesh *const, float, float, float);
 unsigned __int32 ImplicitMesh::addNormal(float, float, float) // 0x100AECF0
 {
     mangled_assert("?addNormal@ImplicitMesh@@QAEIMMM@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_100AECF0(this, arg, arg, arg);
-    return __result;
 }
 
-_extern void _sub_100AED20(ImplicitMesh *const, unsigned __int32, unsigned __int32, unsigned __int32);
 void ImplicitMesh::addTriangle(unsigned __int32, unsigned __int32, unsigned __int32) // 0x100AED20
 {
     mangled_assert("?addTriangle@ImplicitMesh@@QAEXIII@Z");
     todo("implement");
-    _sub_100AED20(this, arg, arg, arg);
 }
 
-_extern void _sub_100AEEB0(ImplicitMesh *const);
 void ImplicitMesh::generateNormals() // 0x100AEEB0
 {
     mangled_assert("?generateNormals@ImplicitMesh@@QAEXXZ");
     todo("implement");
-    _sub_100AEEB0(this);
 }
 
 /* ---------- private code */

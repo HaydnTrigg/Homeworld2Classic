@@ -137,71 +137,52 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_713828(__int32, char const *, float);
 void Subtitle_Add(__int32 actor, char const *name, float time) // 0x713828
 {
     mangled_assert("?Subtitle_Add@@YGXHPBDM@Z");
     todo("implement");
-    _sub_713828(actor, name, time);
 }
 
-_extern void _sub_7134D3(char const *, float);
 void LocationCard(char const *name, float time) // 0x7134D3
 {
     mangled_assert("?LocationCard@@YGXPBDM@Z");
     todo("implement");
-    _sub_7134D3(name, time);
 }
 
-_extern void _sub_713886(char const *, float);
 void Subtitle_Message(char const *msg, float time) // 0x713886
 {
     mangled_assert("?Subtitle_Message@@YGXPBDM@Z");
     todo("implement");
-    _sub_713886(msg, time);
 }
 
-_extern __int32 _sub_71385A(__int32);
 __int32 Subtitle_IsDone(__int32 actor) // 0x71385A
 {
     mangled_assert("?Subtitle_IsDone@@YGHH@Z");
     todo("implement");
-    __int32 __result = _sub_71385A(actor);
-    return __result;
 }
 
-_extern __int32 _sub_7134F8();
 __int32 LocationCard_IsDone() // 0x7134F8
 {
     mangled_assert("?LocationCard_IsDone@@YGHXZ");
     todo("implement");
-    __int32 __result = _sub_7134F8();
-    return __result;
 }
 
-_extern __int32 _sub_713872();
 __int32 Subtitle_IsMessageDone() // 0x713872
 {
     mangled_assert("?Subtitle_IsMessageDone@@YGHXZ");
     todo("implement");
-    __int32 __result = _sub_713872();
-    return __result;
 }
 
-_extern void _sub_7138AB(__int32, __int32);
 void Subtitle_TimeCounter(__int32 id, __int32 localizerID) // 0x7138AB
 {
     mangled_assert("?Subtitle_TimeCounter@@YGXHH@Z");
     todo("implement");
-    _sub_7138AB(id, localizerID);
 }
 
-_extern void _sub_7138F5();
 void Subtitle_TimeCounterEnd() // 0x7138F5
 {
     mangled_assert("?Subtitle_TimeCounterEnd@@YGXXZ");
     todo("implement");
-    _sub_7138F5();
 }
 
 /* ---------- private code */

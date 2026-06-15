@@ -20,13 +20,10 @@ extern __int32 DllMain(void *reason, unsigned long, void *);
 
 /* ---------- public code */
 
-_extern __int32 _sub_10001090(void *, unsigned long, void *);
 __int32 DllMain(void *reason, unsigned long, void *) // 0x10001090
 {
     mangled_assert("_DllMain@12");
     todo("implement");
-    __int32 __result = _sub_10001090(reason, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

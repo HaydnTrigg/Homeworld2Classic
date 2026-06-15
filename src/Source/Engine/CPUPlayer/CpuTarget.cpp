@@ -130,69 +130,52 @@
 
 /* ---------- public code */
 
-_extern void _sub_540644(BaseTarget *const);
 BaseTarget::~BaseTarget() // 0x540644
 {
     mangled_assert("??1BaseTarget@@QAE@XZ");
     todo("implement");
-    _sub_540644(this);
 }
 
-_extern void _sub_54067F(BaseTarget *const, Player *);
 void BaseTarget::Analyze(Player *) // 0x54067F
 {
     mangled_assert("?Analyze@BaseTarget@@QAEXPAVPlayer@@@Z");
     todo("implement");
-    _sub_54067F(this, arg);
 }
 
-_extern vector3 const &_sub_5407AA(BaseTarget const *const);
 vector3 const &BaseTarget::getPosition() const // 0x5407AA
 {
     mangled_assert("?getPosition@BaseTarget@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_5407AA(this);
-    return __result;
 }
 
-_extern _sub_540300(BaseTarget *const, unsigned __int32, vector3 const &, unsigned __int32, TargetType, float, float);
 BaseTarget::BaseTarget(unsigned __int32, vector3 const &, unsigned __int32, TargetType, float, float) // 0x540300
 {
     mangled_assert("??0BaseTarget@@IAE@IABVvector3@@IW4TargetType@@MM@Z");
     todo("implement");
-    _sub_540300(this, arg, arg, arg, arg, arg, arg);
 }
 
-_extern _sub_5403D9(BaseTarget *const, unsigned __int32, Squadron *, unsigned __int32, TargetType, float, float);
 BaseTarget::BaseTarget(unsigned __int32, Squadron *, unsigned __int32, TargetType, float, float) // 0x5403D9
 {
     mangled_assert("??0BaseTarget@@IAE@IPAVSquadron@@IW4TargetType@@MM@Z");
     todo("implement");
-    _sub_5403D9(this, arg, arg, arg, arg, arg, arg);
 }
 
-_extern _sub_5404DF(BaseTarget *const, SaveStream *);
 BaseTarget::BaseTarget(SaveStream *) // 0x5404DF
 {
     mangled_assert("??0BaseTarget@@IAE@PAVSaveStream@@@Z");
     todo("implement");
-    _sub_5404DF(this, arg);
 }
 
-_extern void _sub_540864(BaseTarget *const, float);
 void BaseTarget::setRadius(float) // 0x540864
 {
     mangled_assert("?setRadius@BaseTarget@@QAEXM@Z");
     todo("implement");
-    _sub_540864(this, arg);
 }
 
-_extern void _sub_5407D8(BaseTarget *const, SaveStream *);
 void BaseTarget::save(SaveStream *) // 0x5407D8
 {
     mangled_assert("?save@BaseTarget@@QAEXPAVSaveStream@@@Z");
     todo("implement");
-    _sub_5407D8(this, arg);
 }
 
 /* ---------- private code */

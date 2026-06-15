@@ -251,301 +251,208 @@ static_assert(sizeof(StaticFinder) == 4, "Invalid StaticFinder size");
 
 /* ---------- public code */
 
-_extern char const *_sub_47CA5E(SobStatic const *const);
 _inline char const *SobStatic::GetName() const // 0x47CA5E
 {
     mangled_assert("?GetName@SobStatic@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_47CA5E(this);
-    return __result;
 }
 
-_extern SobType _sub_47CA7B(SobStatic const *const);
 _inline SobType SobStatic::GetType() const // 0x47CA7B
 {
     mangled_assert("?GetType@SobStatic@@QBE?AW4SobType@@XZ");
     todo("implement");
-    SobType __result = _sub_47CA7B(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_57F9B5(SobStatic const *const);
 _inline unsigned __int32 SobStatic::GetId() const // 0x57F9B5
 {
     mangled_assert("?GetId@SobStatic@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_57F9B5(this);
-    return __result;
 }
 
-_extern bool _sub_4787C3(SobStatic const *const);
 _inline bool SobStatic::canHaveFog() const // 0x4787C3
 {
     mangled_assert("?canHaveFog@SobStatic@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_4787C3(this);
-    return __result;
 }
 
-_extern bool _sub_4D02DD(SobStatic *const, bool const);
 _inline bool SobStatic::setCanHaveFog(bool const) // 0x4D02DD
 {
     mangled_assert("?setCanHaveFog@SobStatic@@QAE_N_N@Z");
     todo("implement");
-    bool __result = _sub_4D02DD(this, arg);
-    return __result;
 }
 
-_extern bool _sub_48B310(SobStatic const *const);
 _inline bool SobStatic::canHaveShadows() const // 0x48B310
 {
     mangled_assert("?canHaveShadows@SobStatic@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_48B310(this);
-    return __result;
 }
 
-_extern bool _sub_4D02F0(SobStatic *const, bool const);
 _inline bool SobStatic::setCanHaveShadows(bool const) // 0x4D02F0
 {
     mangled_assert("?setCanHaveShadows@SobStatic@@QAE_N_N@Z");
     todo("implement");
-    bool __result = _sub_4D02F0(this, arg);
-    return __result;
 }
 
-_extern bool _sub_522BB5(SobStatic const *const);
 _inline bool SobStatic::canBlink() const // 0x522BB5
 {
     mangled_assert("?canBlink@SobStatic@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_522BB5(this);
-    return __result;
 }
 
-_extern bool _sub_4D02CA(SobStatic *const, bool const);
 _inline bool SobStatic::setCanBlink(bool const) // 0x4D02CA
 {
     mangled_assert("?setCanBlink@SobStatic@@QAE_N_N@Z");
     todo("implement");
-    bool __result = _sub_4D02CA(this, arg);
-    return __result;
 }
 
-_extern std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &_sub_5FA6B6(SobStatic const *const);
 _inline std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &SobStatic::getAlternativeHyperspaceEffectV() const // 0x5FA6B6
 {
     mangled_assert("?getAlternativeHyperspaceEffectV@SobStatic@@QBEABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ");
     todo("implement");
-    std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & __result = _sub_5FA6B6(this);
-    return __result;
 }
 
-_extern void _sub_4D02BF(SobStatic *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &);
 _inline void SobStatic::setAlternativeHyperspaceEffectV(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &) // 0x4D02BF
 {
     mangled_assert("?setAlternativeHyperspaceEffectV@SobStatic@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    _sub_4D02BF(this, arg);
 }
 
-_extern std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &_sub_5FA6AF(SobStatic const *const);
 _inline std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &SobStatic::getAlternativeHyperspaceEffectA() const // 0x5FA6AF
 {
     mangled_assert("?getAlternativeHyperspaceEffectA@SobStatic@@QBEABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ");
     todo("implement");
-    std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & __result = _sub_5FA6AF(this);
-    return __result;
 }
 
-_extern void _sub_4D02A3(SobStatic *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &);
 _inline void SobStatic::setAlternativeHyperspaceEffectA(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &) // 0x4D02A3
 {
     mangled_assert("?setAlternativeHyperspaceEffectA@SobStatic@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    _sub_4D02A3(this, arg);
 }
 
-_extern float _sub_4B93B5(SobStatic const *const);
 _inline float SobStatic::getAlternativeHyperspaceEffectTime() const // 0x4B93B5
 {
     mangled_assert("?getAlternativeHyperspaceEffectTime@SobStatic@@QBEMXZ");
     todo("implement");
-    float __result = _sub_4B93B5(this);
-    return __result;
 }
 
-_extern void _sub_4D02AE(SobStatic *const, float const);
 _inline void SobStatic::setAlternativeHyperspaceEffectTime(float const) // 0x4D02AE
 {
     mangled_assert("?setAlternativeHyperspaceEffectTime@SobStatic@@QAEXM@Z");
     todo("implement");
-    _sub_4D02AE(this, arg);
 }
 
-_extern Collision::OBB const &_sub_478956(SobStatic const *const);
 _inline Collision::OBB const &SobStatic::getLocalOBB() const // 0x478956
 {
     mangled_assert("?getLocalOBB@SobStatic@@QBEABVOBB@Collision@@XZ");
     todo("implement");
-    Collision::OBB const & __result = _sub_478956(this);
-    return __result;
 }
 
-_extern RenderModel const *_sub_4CF4C1(SobStatic const *const);
 _inline RenderModel const *SobStatic::getRenderModel() const // 0x4CF4C1
 {
     mangled_assert("?getRenderModel@SobStatic@@QBEPBVRenderModel@@XZ");
     todo("implement");
-    RenderModel const * __result = _sub_4CF4C1(this);
-    return __result;
 }
 
-_extern Collision::Sphere &_sub_47EDA6(SobStatic *const);
 _inline Collision::Sphere &SobStatic::getBoundingSphere() // 0x47EDA6
 {
     mangled_assert("?getBoundingSphere@SobStatic@@QAEAAVSphere@Collision@@XZ");
     todo("implement");
-    Collision::Sphere & __result = _sub_47EDA6(this);
-    return __result;
 }
 
-_extern Collision::Sphere const &_sub_478923(SobStatic const *const);
 _inline Collision::Sphere const &SobStatic::getBoundingSphere() const // 0x478923
 {
     mangled_assert("?getBoundingSphere@SobStatic@@QBEABVSphere@Collision@@XZ");
     todo("implement");
-    Collision::Sphere const & __result = _sub_478923(this);
-    return __result;
 }
 
-_extern wchar_t const *_sub_4CE973(SobStatic const *const);
 _inline wchar_t const *SobStatic::GetDisplayedName() const // 0x4CE973
 {
     mangled_assert("?GetDisplayedName@SobStatic@@QBEPB_WXZ");
     todo("implement");
-    wchar_t const * __result = _sub_4CE973(this);
-    return __result;
 }
 
-_extern void _sub_4CE9D5(SobStatic *const, wchar_t const *);
 _inline void SobStatic::SetDisplayedName(wchar_t const *) // 0x4CE9D5
 {
     mangled_assert("?SetDisplayedName@SobStatic@@QAEXPB_W@Z");
     todo("implement");
-    _sub_4CE9D5(this, arg);
 }
 
-_extern wchar_t const *_sub_5994E9(SobStatic const *const);
 _inline wchar_t const *SobStatic::GetDescription() const // 0x5994E9
 {
     mangled_assert("?GetDescription@SobStatic@@QBEPB_WXZ");
     todo("implement");
-    wchar_t const * __result = _sub_5994E9(this);
-    return __result;
 }
 
-_extern void _sub_4CE9B4(SobStatic *const, wchar_t const *);
 _inline void SobStatic::SetDescription(wchar_t const *) // 0x4CE9B4
 {
     mangled_assert("?SetDescription@SobStatic@@QAEXPB_W@Z");
     todo("implement");
-    _sub_4CE9B4(this, arg);
 }
 
-_extern wchar_t const *_sub_634A84(SobStatic const *const);
 _inline wchar_t const *SobStatic::GetBlobName() const // 0x634A84
 {
     mangled_assert("?GetBlobName@SobStatic@@QBEPB_WXZ");
     todo("implement");
-    wchar_t const * __result = _sub_634A84(this);
-    return __result;
 }
 
-_extern void _sub_4CE982(SobStatic *const, wchar_t const *);
 _inline void SobStatic::SetBlobName(wchar_t const *) // 0x4CE982
 {
     mangled_assert("?SetBlobName@SobStatic@@QAEXPB_W@Z");
     todo("implement");
-    _sub_4CE982(this, arg);
 }
 
-_extern float _sub_454601(SobStatic const *const);
 _inline float SobStatic::GetBlobNamePriority() const // 0x454601
 {
     mangled_assert("?GetBlobNamePriority@SobStatic@@QBEMXZ");
     todo("implement");
-    float __result = _sub_454601(this);
-    return __result;
 }
 
-_extern void _sub_4CE9A3(SobStatic *const, float);
 _inline void SobStatic::SetBlobNamePriority(float) // 0x4CE9A3
 {
     mangled_assert("?SetBlobNamePriority@SobStatic@@QAEXM@Z");
     todo("implement");
-    _sub_4CE9A3(this, arg);
 }
 
-_extern SobStatic::LoadingEnv *_sub_4C0363(SobStatic *const);
 _inline SobStatic::LoadingEnv *SobStatic::GetLoadingEnv() // 0x4C0363
 {
     mangled_assert("?GetLoadingEnv@SobStatic@@QAEPAVLoadingEnv@1@XZ");
     todo("implement");
-    SobStatic::LoadingEnv * __result = _sub_4C0363(this);
-    return __result;
 }
 
-_extern HierarchyStatic *_sub_47EDAD(SobStatic *const);
 _inline HierarchyStatic *SobStatic::getHierarchy() // 0x47EDAD
 {
     mangled_assert("?getHierarchy@SobStatic@@QAEPAVHierarchyStatic@@XZ");
     todo("implement");
-    HierarchyStatic * __result = _sub_47EDAD(this);
-    return __result;
 }
 
-_extern HierarchyStatic const *_sub_449725(SobStatic const *const);
 _inline HierarchyStatic const *SobStatic::getHierarchy() const // 0x449725
 {
     mangled_assert("?getHierarchy@SobStatic@@QBEPBVHierarchyStatic@@XZ");
     todo("implement");
-    HierarchyStatic const * __result = _sub_449725(this);
-    return __result;
 }
 
-_extern bool _sub_478CD5(SobStatic const *const);
 _inline bool SobStatic::hasModel() const // 0x478CD5
 {
     mangled_assert("?hasModel@SobStatic@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_478CD5(this);
-    return __result;
 }
 
-_extern Mesh const *_sub_47896B(SobStatic const *const);
 _inline Mesh const *SobStatic::getMesh() const // 0x47896B
 {
     mangled_assert("?getMesh@SobStatic@@QBEPBVMesh@@XZ");
     todo("implement");
-    Mesh const * __result = _sub_47896B(this);
-    return __result;
 }
 
-_extern _sub_50DB1D(StaticFinder *const);
 _inline StaticFinder::StaticFinder() // 0x50DB1D
 {
     mangled_assert("??0StaticFinder@@QAE@XZ");
     todo("implement");
-    _sub_50DB1D(this);
 }
 
-_extern void _sub_50DBAF(StaticFinder *const);
 _inline StaticFinder::~StaticFinder() // 0x50DBAF
 {
     mangled_assert("??1StaticFinder@@UAE@XZ");
     todo("implement");
-    _sub_50DBAF(this);
 }
 
 /* ---------- private code */

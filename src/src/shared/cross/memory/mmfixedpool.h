@@ -338,578 +338,424 @@ static_assert(sizeof(FixedSizeObjAllocator<SoundEntityList::Entry,64>) == 36, "I
 
 /* ---------- public code */
 
-_extern _sub_633BC1(FixedSizeObjAllocator<SensorsBlob,1000> *const);
 _inline FixedSizeObjAllocator<SensorsBlob,1000>::FixedSizeObjAllocator<SensorsBlob,1000>() // 0x633BC1
 {
     mangled_assert("??0?$FixedSizeObjAllocator@VSensorsBlob@@$0DOI@@@QAE@XZ");
     todo("implement");
-    _sub_633BC1(this);
 }
 
-_extern _sub_523F95(FixedSizeObjAllocator<WeaponFireVis,1000> *const);
 _inline FixedSizeObjAllocator<WeaponFireVis,1000>::FixedSizeObjAllocator<WeaponFireVis,1000>() // 0x523F95
 {
     mangled_assert("??0?$FixedSizeObjAllocator@VWeaponFireVis@@$0DOI@@@QAE@XZ");
     todo("implement");
-    _sub_523F95(this);
 }
 
-_extern _sub_522344(FixedSizeObjAllocator<RenderModelSoundUpdate,1000> *const);
 _inline FixedSizeObjAllocator<RenderModelSoundUpdate,1000>::FixedSizeObjAllocator<RenderModelSoundUpdate,1000>() // 0x522344
 {
     mangled_assert("??0?$FixedSizeObjAllocator@VRenderModelSoundUpdate@@$0DOI@@@QAE@XZ");
     todo("implement");
-    _sub_522344(this);
 }
 
-_extern _sub_51F047(FixedSizeObjAllocator<RenderModelFXUpdate,1000> *const);
 _inline FixedSizeObjAllocator<RenderModelFXUpdate,1000>::FixedSizeObjAllocator<RenderModelFXUpdate,1000>() // 0x51F047
 {
     mangled_assert("??0?$FixedSizeObjAllocator@VRenderModelFXUpdate@@$0DOI@@@QAE@XZ");
     todo("implement");
-    _sub_51F047(this);
 }
 
-_extern _sub_519A46(FixedSizeObjAllocator<EffectContainer,1000> *const);
 _inline FixedSizeObjAllocator<EffectContainer,1000>::FixedSizeObjAllocator<EffectContainer,1000>() // 0x519A46
 {
     mangled_assert("??0?$FixedSizeObjAllocator@VEffectContainer@@$0DOI@@@QAE@XZ");
     todo("implement");
-    _sub_519A46(this);
 }
 
-_extern _sub_4E62E6(FixedSizeObjAllocator<PathFinderObstacleOBB,500> *const);
 _inline FixedSizeObjAllocator<PathFinderObstacleOBB,500>::FixedSizeObjAllocator<PathFinderObstacleOBB,500>() // 0x4E62E6
 {
     mangled_assert("??0?$FixedSizeObjAllocator@VPathFinderObstacleOBB@@$0BPE@@@QAE@XZ");
     todo("implement");
-    _sub_4E62E6(this);
 }
 
-_extern _sub_4A83F0(FixedSizeObjAllocator<SphereBurst,500> *const);
 _inline FixedSizeObjAllocator<SphereBurst,500>::FixedSizeObjAllocator<SphereBurst,500>() // 0x4A83F0
 {
     mangled_assert("??0?$FixedSizeObjAllocator@VSphereBurst@@$0BPE@@@QAE@XZ");
     todo("implement");
-    _sub_4A83F0(this);
 }
 
-_extern _sub_4A665D(FixedSizeObjAllocator<InstantHit,500> *const);
 _inline FixedSizeObjAllocator<InstantHit,500>::FixedSizeObjAllocator<InstantHit,500>() // 0x4A665D
 {
     mangled_assert("??0?$FixedSizeObjAllocator@VInstantHit@@$0BPE@@@QAE@XZ");
     todo("implement");
-    _sub_4A665D(this);
 }
 
-_extern _sub_4A506D(FixedSizeObjAllocator<Bullet,1000> *const);
 _inline FixedSizeObjAllocator<Bullet,1000>::FixedSizeObjAllocator<Bullet,1000>() // 0x4A506D
 {
     mangled_assert("??0?$FixedSizeObjAllocator@VBullet@@$0DOI@@@QAE@XZ");
     todo("implement");
-    _sub_4A506D(this);
 }
 
-_extern _sub_483A21(FixedSizeObjAllocator<Visibility,1000> *const);
 _inline FixedSizeObjAllocator<Visibility,1000>::FixedSizeObjAllocator<Visibility,1000>() // 0x483A21
 {
     mangled_assert("??0?$FixedSizeObjAllocator@VVisibility@@$0DOI@@@QAE@XZ");
     todo("implement");
-    _sub_483A21(this);
 }
 
-_extern _sub_47ABB7(FixedSizeObjAllocator<SobIDShared,2000> *const);
 _inline FixedSizeObjAllocator<SobIDShared,2000>::FixedSizeObjAllocator<SobIDShared,2000>() // 0x47ABB7
 {
     mangled_assert("??0?$FixedSizeObjAllocator@VSobIDShared@@$0HNA@@@QAE@XZ");
     todo("implement");
-    _sub_47ABB7(this);
 }
 
-_extern _sub_4769FE(FixedSizeObjAllocator<ZeroMassBody,1000> *const);
 _inline FixedSizeObjAllocator<ZeroMassBody,1000>::FixedSizeObjAllocator<ZeroMassBody,1000>() // 0x4769FE
 {
     mangled_assert("??0?$FixedSizeObjAllocator@VZeroMassBody@@$0DOI@@@QAE@XZ");
     todo("implement");
-    _sub_4769FE(this);
 }
 
-_extern _sub_446B34(FixedSizeObjAllocator<EngineTrailFrameBlock,512> *const);
 _inline FixedSizeObjAllocator<EngineTrailFrameBlock,512>::FixedSizeObjAllocator<EngineTrailFrameBlock,512>() // 0x446B34
 {
     mangled_assert("??0?$FixedSizeObjAllocator@VEngineTrailFrameBlock@@$0CAA@@@QAE@XZ");
     todo("implement");
-    _sub_446B34(this);
 }
 
-_extern _sub_6CF1CA(FixedSizeObjAllocator<SoundEntityList::Entry,64> *const);
 _inline FixedSizeObjAllocator<SoundEntityList::Entry,64>::FixedSizeObjAllocator<SoundEntityList::Entry,64>() // 0x6CF1CA
 {
     mangled_assert("??0?$FixedSizeObjAllocator@UEntry@SoundEntityList@@$0EA@@@QAE@XZ");
     todo("implement");
-    _sub_6CF1CA(this);
 }
 
-_extern void _sub_6341FD(FixedSizeObjAllocator<SensorsBlob,1000> *const);
 _inline FixedSizeObjAllocator<SensorsBlob,1000>::~FixedSizeObjAllocator<SensorsBlob,1000>() // 0x6341FD
 {
     mangled_assert("??1?$FixedSizeObjAllocator@VSensorsBlob@@$0DOI@@@UAE@XZ");
     todo("implement");
-    _sub_6341FD(this);
 }
 
-_extern void _sub_5240DD(FixedSizeObjAllocator<WeaponFireVis,1000> *const);
 _inline FixedSizeObjAllocator<WeaponFireVis,1000>::~FixedSizeObjAllocator<WeaponFireVis,1000>() // 0x5240DD
 {
     mangled_assert("??1?$FixedSizeObjAllocator@VWeaponFireVis@@$0DOI@@@UAE@XZ");
     todo("implement");
-    _sub_5240DD(this);
 }
 
-_extern void _sub_5223CC(FixedSizeObjAllocator<RenderModelSoundUpdate,1000> *const);
 _inline FixedSizeObjAllocator<RenderModelSoundUpdate,1000>::~FixedSizeObjAllocator<RenderModelSoundUpdate,1000>() // 0x5223CC
 {
     mangled_assert("??1?$FixedSizeObjAllocator@VRenderModelSoundUpdate@@$0DOI@@@UAE@XZ");
     todo("implement");
-    _sub_5223CC(this);
 }
 
-_extern void _sub_51F0BC(FixedSizeObjAllocator<RenderModelFXUpdate,1000> *const);
 _inline FixedSizeObjAllocator<RenderModelFXUpdate,1000>::~FixedSizeObjAllocator<RenderModelFXUpdate,1000>() // 0x51F0BC
 {
     mangled_assert("??1?$FixedSizeObjAllocator@VRenderModelFXUpdate@@$0DOI@@@UAE@XZ");
     todo("implement");
-    _sub_51F0BC(this);
 }
 
-_extern void _sub_519B51(FixedSizeObjAllocator<EffectContainer,1000> *const);
 _inline FixedSizeObjAllocator<EffectContainer,1000>::~FixedSizeObjAllocator<EffectContainer,1000>() // 0x519B51
 {
     mangled_assert("??1?$FixedSizeObjAllocator@VEffectContainer@@$0DOI@@@UAE@XZ");
     todo("implement");
-    _sub_519B51(this);
 }
 
-_extern void _sub_4E66EF(FixedSizeObjAllocator<PathFinderObstacleOBB,500> *const);
 _inline FixedSizeObjAllocator<PathFinderObstacleOBB,500>::~FixedSizeObjAllocator<PathFinderObstacleOBB,500>() // 0x4E66EF
 {
     mangled_assert("??1?$FixedSizeObjAllocator@VPathFinderObstacleOBB@@$0BPE@@@UAE@XZ");
     todo("implement");
-    _sub_4E66EF(this);
 }
 
-_extern void _sub_4A85D5(FixedSizeObjAllocator<SphereBurst,500> *const);
 _inline FixedSizeObjAllocator<SphereBurst,500>::~FixedSizeObjAllocator<SphereBurst,500>() // 0x4A85D5
 {
     mangled_assert("??1?$FixedSizeObjAllocator@VSphereBurst@@$0BPE@@@UAE@XZ");
     todo("implement");
-    _sub_4A85D5(this);
 }
 
-_extern void _sub_4A68C4(FixedSizeObjAllocator<InstantHit,500> *const);
 _inline FixedSizeObjAllocator<InstantHit,500>::~FixedSizeObjAllocator<InstantHit,500>() // 0x4A68C4
 {
     mangled_assert("??1?$FixedSizeObjAllocator@VInstantHit@@$0BPE@@@UAE@XZ");
     todo("implement");
-    _sub_4A68C4(this);
 }
 
-_extern void _sub_4A517E(FixedSizeObjAllocator<Bullet,1000> *const);
 _inline FixedSizeObjAllocator<Bullet,1000>::~FixedSizeObjAllocator<Bullet,1000>() // 0x4A517E
 {
     mangled_assert("??1?$FixedSizeObjAllocator@VBullet@@$0DOI@@@UAE@XZ");
     todo("implement");
-    _sub_4A517E(this);
 }
 
-_extern void _sub_483BB7(FixedSizeObjAllocator<Visibility,1000> *const);
 _inline FixedSizeObjAllocator<Visibility,1000>::~FixedSizeObjAllocator<Visibility,1000>() // 0x483BB7
 {
     mangled_assert("??1?$FixedSizeObjAllocator@VVisibility@@$0DOI@@@UAE@XZ");
     todo("implement");
-    _sub_483BB7(this);
 }
 
-_extern void _sub_47AC08(FixedSizeObjAllocator<SobIDShared,2000> *const);
 _inline FixedSizeObjAllocator<SobIDShared,2000>::~FixedSizeObjAllocator<SobIDShared,2000>() // 0x47AC08
 {
     mangled_assert("??1?$FixedSizeObjAllocator@VSobIDShared@@$0HNA@@@UAE@XZ");
     todo("implement");
-    _sub_47AC08(this);
 }
 
-_extern void _sub_476AD5(FixedSizeObjAllocator<ZeroMassBody,1000> *const);
 _inline FixedSizeObjAllocator<ZeroMassBody,1000>::~FixedSizeObjAllocator<ZeroMassBody,1000>() // 0x476AD5
 {
     mangled_assert("??1?$FixedSizeObjAllocator@VZeroMassBody@@$0DOI@@@UAE@XZ");
     todo("implement");
-    _sub_476AD5(this);
 }
 
-_extern void _sub_446BC2(FixedSizeObjAllocator<EngineTrailFrameBlock,512> *const);
 _inline FixedSizeObjAllocator<EngineTrailFrameBlock,512>::~FixedSizeObjAllocator<EngineTrailFrameBlock,512>() // 0x446BC2
 {
     mangled_assert("??1?$FixedSizeObjAllocator@VEngineTrailFrameBlock@@$0CAA@@@UAE@XZ");
     todo("implement");
-    _sub_446BC2(this);
 }
 
-_extern void _sub_6CF309(FixedSizeObjAllocator<SoundEntityList::Entry,64> *const);
 _inline FixedSizeObjAllocator<SoundEntityList::Entry,64>::~FixedSizeObjAllocator<SoundEntityList::Entry,64>() // 0x6CF309
 {
     mangled_assert("??1?$FixedSizeObjAllocator@UEntry@SoundEntityList@@$0EA@@@UAE@XZ");
     todo("implement");
-    _sub_6CF309(this);
 }
 
-_extern void *_sub_634984(FixedSizeObjAllocator<SensorsBlob,1000> *const);
 _inline void *FixedSizeObjAllocator<SensorsBlob,1000>::Allocate() // 0x634984
 {
     mangled_assert("?Allocate@?$FixedSizeObjAllocator@VSensorsBlob@@$0DOI@@@QAEPAXXZ");
     todo("implement");
-    void * __result = _sub_634984(this);
-    return __result;
 }
 
-_extern void *_sub_524208(FixedSizeObjAllocator<WeaponFireVis,1000> *const);
 _inline void *FixedSizeObjAllocator<WeaponFireVis,1000>::Allocate() // 0x524208
 {
     mangled_assert("?Allocate@?$FixedSizeObjAllocator@VWeaponFireVis@@$0DOI@@@QAEPAXXZ");
     todo("implement");
-    void * __result = _sub_524208(this);
-    return __result;
 }
 
-_extern void *_sub_5224B0(FixedSizeObjAllocator<RenderModelSoundUpdate,1000> *const);
 _inline void *FixedSizeObjAllocator<RenderModelSoundUpdate,1000>::Allocate() // 0x5224B0
 {
     mangled_assert("?Allocate@?$FixedSizeObjAllocator@VRenderModelSoundUpdate@@$0DOI@@@QAEPAXXZ");
     todo("implement");
-    void * __result = _sub_5224B0(this);
-    return __result;
 }
 
-_extern void *_sub_51F1C4(FixedSizeObjAllocator<RenderModelFXUpdate,1000> *const);
 _inline void *FixedSizeObjAllocator<RenderModelFXUpdate,1000>::Allocate() // 0x51F1C4
 {
     mangled_assert("?Allocate@?$FixedSizeObjAllocator@VRenderModelFXUpdate@@$0DOI@@@QAEPAXXZ");
     todo("implement");
-    void * __result = _sub_51F1C4(this);
-    return __result;
 }
 
-_extern void *_sub_519D1B(FixedSizeObjAllocator<EffectContainer,1000> *const);
 _inline void *FixedSizeObjAllocator<EffectContainer,1000>::Allocate() // 0x519D1B
 {
     mangled_assert("?Allocate@?$FixedSizeObjAllocator@VEffectContainer@@$0DOI@@@QAEPAXXZ");
     todo("implement");
-    void * __result = _sub_519D1B(this);
-    return __result;
 }
 
-_extern void *_sub_4E67AE(FixedSizeObjAllocator<PathFinderObstacleOBB,500> *const);
 _inline void *FixedSizeObjAllocator<PathFinderObstacleOBB,500>::Allocate() // 0x4E67AE
 {
     mangled_assert("?Allocate@?$FixedSizeObjAllocator@VPathFinderObstacleOBB@@$0BPE@@@QAEPAXXZ");
     todo("implement");
-    void * __result = _sub_4E67AE(this);
-    return __result;
 }
 
-_extern void *_sub_4A87AD(FixedSizeObjAllocator<SphereBurst,500> *const);
 _inline void *FixedSizeObjAllocator<SphereBurst,500>::Allocate() // 0x4A87AD
 {
     mangled_assert("?Allocate@?$FixedSizeObjAllocator@VSphereBurst@@$0BPE@@@QAEPAXXZ");
     todo("implement");
-    void * __result = _sub_4A87AD(this);
-    return __result;
 }
 
-_extern void *_sub_4A6BF3(FixedSizeObjAllocator<InstantHit,500> *const);
 _inline void *FixedSizeObjAllocator<InstantHit,500>::Allocate() // 0x4A6BF3
 {
     mangled_assert("?Allocate@?$FixedSizeObjAllocator@VInstantHit@@$0BPE@@@QAEPAXXZ");
     todo("implement");
-    void * __result = _sub_4A6BF3(this);
-    return __result;
 }
 
-_extern void *_sub_4A52B2(FixedSizeObjAllocator<Bullet,1000> *const);
 _inline void *FixedSizeObjAllocator<Bullet,1000>::Allocate() // 0x4A52B2
 {
     mangled_assert("?Allocate@?$FixedSizeObjAllocator@VBullet@@$0DOI@@@QAEPAXXZ");
     todo("implement");
-    void * __result = _sub_4A52B2(this);
-    return __result;
 }
 
-_extern void *_sub_483D11(FixedSizeObjAllocator<Visibility,1000> *const);
 _inline void *FixedSizeObjAllocator<Visibility,1000>::Allocate() // 0x483D11
 {
     mangled_assert("?Allocate@?$FixedSizeObjAllocator@VVisibility@@$0DOI@@@QAEPAXXZ");
     todo("implement");
-    void * __result = _sub_483D11(this);
-    return __result;
 }
 
-_extern void *_sub_47ACC7(FixedSizeObjAllocator<SobIDShared,2000> *const);
 _inline void *FixedSizeObjAllocator<SobIDShared,2000>::Allocate() // 0x47ACC7
 {
     mangled_assert("?Allocate@?$FixedSizeObjAllocator@VSobIDShared@@$0HNA@@@QAEPAXXZ");
     todo("implement");
-    void * __result = _sub_47ACC7(this);
-    return __result;
 }
 
-_extern void *_sub_476C3E(FixedSizeObjAllocator<ZeroMassBody,1000> *const);
 _inline void *FixedSizeObjAllocator<ZeroMassBody,1000>::Allocate() // 0x476C3E
 {
     mangled_assert("?Allocate@?$FixedSizeObjAllocator@VZeroMassBody@@$0DOI@@@QAEPAXXZ");
     todo("implement");
-    void * __result = _sub_476C3E(this);
-    return __result;
 }
 
-_extern void *_sub_446CD7(FixedSizeObjAllocator<EngineTrailFrameBlock,512> *const);
 _inline void *FixedSizeObjAllocator<EngineTrailFrameBlock,512>::Allocate() // 0x446CD7
 {
     mangled_assert("?Allocate@?$FixedSizeObjAllocator@VEngineTrailFrameBlock@@$0CAA@@@QAEPAXXZ");
     todo("implement");
-    void * __result = _sub_446CD7(this);
-    return __result;
 }
 
-_extern void *_sub_6CF64A(FixedSizeObjAllocator<SoundEntityList::Entry,64> *const);
 _inline void *FixedSizeObjAllocator<SoundEntityList::Entry,64>::Allocate() // 0x6CF64A
 {
     mangled_assert("?Allocate@?$FixedSizeObjAllocator@UEntry@SoundEntityList@@$0EA@@@QAEPAXXZ");
     todo("implement");
-    void * __result = _sub_6CF64A(this);
-    return __result;
 }
 
-_extern void _sub_634A6D(FixedSizeObjAllocator<SensorsBlob,1000> *const, void *);
 _inline void FixedSizeObjAllocator<SensorsBlob,1000>::Deallocate(void *) // 0x634A6D
 {
     mangled_assert("?Deallocate@?$FixedSizeObjAllocator@VSensorsBlob@@$0DOI@@@QAEXPAX@Z");
     todo("implement");
-    _sub_634A6D(this, arg);
 }
 
-_extern void _sub_5242A4(FixedSizeObjAllocator<WeaponFireVis,1000> *const, void *);
 _inline void FixedSizeObjAllocator<WeaponFireVis,1000>::Deallocate(void *) // 0x5242A4
 {
     mangled_assert("?Deallocate@?$FixedSizeObjAllocator@VWeaponFireVis@@$0DOI@@@QAEXPAX@Z");
     todo("implement");
-    _sub_5242A4(this, arg);
 }
 
-_extern void _sub_52254C(FixedSizeObjAllocator<RenderModelSoundUpdate,1000> *const, void *);
 _inline void FixedSizeObjAllocator<RenderModelSoundUpdate,1000>::Deallocate(void *) // 0x52254C
 {
     mangled_assert("?Deallocate@?$FixedSizeObjAllocator@VRenderModelSoundUpdate@@$0DOI@@@QAEXPAX@Z");
     todo("implement");
-    _sub_52254C(this, arg);
 }
 
-_extern void _sub_51F260(FixedSizeObjAllocator<RenderModelFXUpdate,1000> *const, void *);
 _inline void FixedSizeObjAllocator<RenderModelFXUpdate,1000>::Deallocate(void *) // 0x51F260
 {
     mangled_assert("?Deallocate@?$FixedSizeObjAllocator@VRenderModelFXUpdate@@$0DOI@@@QAEXPAX@Z");
     todo("implement");
-    _sub_51F260(this, arg);
 }
 
-_extern void _sub_519DB7(FixedSizeObjAllocator<EffectContainer,1000> *const, void *);
 _inline void FixedSizeObjAllocator<EffectContainer,1000>::Deallocate(void *) // 0x519DB7
 {
     mangled_assert("?Deallocate@?$FixedSizeObjAllocator@VEffectContainer@@$0DOI@@@QAEXPAX@Z");
     todo("implement");
-    _sub_519DB7(this, arg);
 }
 
-_extern void _sub_4E684A(FixedSizeObjAllocator<PathFinderObstacleOBB,500> *const, void *);
 _inline void FixedSizeObjAllocator<PathFinderObstacleOBB,500>::Deallocate(void *) // 0x4E684A
 {
     mangled_assert("?Deallocate@?$FixedSizeObjAllocator@VPathFinderObstacleOBB@@$0BPE@@@QAEXPAX@Z");
     todo("implement");
-    _sub_4E684A(this, arg);
 }
 
-_extern void _sub_4A887D(FixedSizeObjAllocator<SphereBurst,500> *const, void *);
 _inline void FixedSizeObjAllocator<SphereBurst,500>::Deallocate(void *) // 0x4A887D
 {
     mangled_assert("?Deallocate@?$FixedSizeObjAllocator@VSphereBurst@@$0BPE@@@QAEXPAX@Z");
     todo("implement");
-    _sub_4A887D(this, arg);
 }
 
-_extern void _sub_4A6E10(FixedSizeObjAllocator<InstantHit,500> *const, void *);
 _inline void FixedSizeObjAllocator<InstantHit,500>::Deallocate(void *) // 0x4A6E10
 {
     mangled_assert("?Deallocate@?$FixedSizeObjAllocator@VInstantHit@@$0BPE@@@QAEXPAX@Z");
     todo("implement");
-    _sub_4A6E10(this, arg);
 }
 
-_extern void _sub_4A5410(FixedSizeObjAllocator<Bullet,1000> *const, void *);
 _inline void FixedSizeObjAllocator<Bullet,1000>::Deallocate(void *) // 0x4A5410
 {
     mangled_assert("?Deallocate@?$FixedSizeObjAllocator@VBullet@@$0DOI@@@QAEXPAX@Z");
     todo("implement");
-    _sub_4A5410(this, arg);
 }
 
-_extern void _sub_483DAD(FixedSizeObjAllocator<Visibility,1000> *const, void *);
 _inline void FixedSizeObjAllocator<Visibility,1000>::Deallocate(void *) // 0x483DAD
 {
     mangled_assert("?Deallocate@?$FixedSizeObjAllocator@VVisibility@@$0DOI@@@QAEXPAX@Z");
     todo("implement");
-    _sub_483DAD(this, arg);
 }
 
-_extern void _sub_47AD63(FixedSizeObjAllocator<SobIDShared,2000> *const, void *);
 _inline void FixedSizeObjAllocator<SobIDShared,2000>::Deallocate(void *) // 0x47AD63
 {
     mangled_assert("?Deallocate@?$FixedSizeObjAllocator@VSobIDShared@@$0HNA@@@QAEXPAX@Z");
     todo("implement");
-    _sub_47AD63(this, arg);
 }
 
-_extern void _sub_476CDD(FixedSizeObjAllocator<ZeroMassBody,1000> *const, void *);
 _inline void FixedSizeObjAllocator<ZeroMassBody,1000>::Deallocate(void *) // 0x476CDD
 {
     mangled_assert("?Deallocate@?$FixedSizeObjAllocator@VZeroMassBody@@$0DOI@@@QAEXPAX@Z");
     todo("implement");
-    _sub_476CDD(this, arg);
 }
 
-_extern void _sub_446D76(FixedSizeObjAllocator<EngineTrailFrameBlock,512> *const, void *);
 _inline void FixedSizeObjAllocator<EngineTrailFrameBlock,512>::Deallocate(void *) // 0x446D76
 {
     mangled_assert("?Deallocate@?$FixedSizeObjAllocator@VEngineTrailFrameBlock@@$0CAA@@@QAEXPAX@Z");
     todo("implement");
-    _sub_446D76(this, arg);
 }
 
-_extern void _sub_6CF70C(FixedSizeObjAllocator<SoundEntityList::Entry,64> *const, void *);
 _inline void FixedSizeObjAllocator<SoundEntityList::Entry,64>::Deallocate(void *) // 0x6CF70C
 {
     mangled_assert("?Deallocate@?$FixedSizeObjAllocator@UEntry@SoundEntityList@@$0EA@@@QAEXPAX@Z");
     todo("implement");
-    _sub_6CF70C(this, arg);
 }
 
-_extern void _sub_6349AE(FixedSizeObjAllocator<SensorsBlob,1000> *const);
 _inline void FixedSizeObjAllocator<SensorsBlob,1000>::AllocateNewBlock() // 0x6349AE
 {
     mangled_assert("?AllocateNewBlock@?$FixedSizeObjAllocator@VSensorsBlob@@$0DOI@@@AAEXXZ");
     todo("implement");
-    _sub_6349AE(this);
 }
 
-_extern void _sub_524232(FixedSizeObjAllocator<WeaponFireVis,1000> *const);
 _inline void FixedSizeObjAllocator<WeaponFireVis,1000>::AllocateNewBlock() // 0x524232
 {
     mangled_assert("?AllocateNewBlock@?$FixedSizeObjAllocator@VWeaponFireVis@@$0DOI@@@AAEXXZ");
     todo("implement");
-    _sub_524232(this);
 }
 
-_extern void _sub_5224DA(FixedSizeObjAllocator<RenderModelSoundUpdate,1000> *const);
 _inline void FixedSizeObjAllocator<RenderModelSoundUpdate,1000>::AllocateNewBlock() // 0x5224DA
 {
     mangled_assert("?AllocateNewBlock@?$FixedSizeObjAllocator@VRenderModelSoundUpdate@@$0DOI@@@AAEXXZ");
     todo("implement");
-    _sub_5224DA(this);
 }
 
-_extern void _sub_51F1EE(FixedSizeObjAllocator<RenderModelFXUpdate,1000> *const);
 _inline void FixedSizeObjAllocator<RenderModelFXUpdate,1000>::AllocateNewBlock() // 0x51F1EE
 {
     mangled_assert("?AllocateNewBlock@?$FixedSizeObjAllocator@VRenderModelFXUpdate@@$0DOI@@@AAEXXZ");
     todo("implement");
-    _sub_51F1EE(this);
 }
 
-_extern void _sub_519D45(FixedSizeObjAllocator<EffectContainer,1000> *const);
 _inline void FixedSizeObjAllocator<EffectContainer,1000>::AllocateNewBlock() // 0x519D45
 {
     mangled_assert("?AllocateNewBlock@?$FixedSizeObjAllocator@VEffectContainer@@$0DOI@@@AAEXXZ");
     todo("implement");
-    _sub_519D45(this);
 }
 
-_extern void _sub_4E67D8(FixedSizeObjAllocator<PathFinderObstacleOBB,500> *const);
 _inline void FixedSizeObjAllocator<PathFinderObstacleOBB,500>::AllocateNewBlock() // 0x4E67D8
 {
     mangled_assert("?AllocateNewBlock@?$FixedSizeObjAllocator@VPathFinderObstacleOBB@@$0BPE@@@AAEXXZ");
     todo("implement");
-    _sub_4E67D8(this);
 }
 
-_extern void _sub_4A87D7(FixedSizeObjAllocator<SphereBurst,500> *const);
 _inline void FixedSizeObjAllocator<SphereBurst,500>::AllocateNewBlock() // 0x4A87D7
 {
     mangled_assert("?AllocateNewBlock@?$FixedSizeObjAllocator@VSphereBurst@@$0BPE@@@AAEXXZ");
     todo("implement");
-    _sub_4A87D7(this);
 }
 
-_extern void _sub_4A6C1D(FixedSizeObjAllocator<InstantHit,500> *const);
 _inline void FixedSizeObjAllocator<InstantHit,500>::AllocateNewBlock() // 0x4A6C1D
 {
     mangled_assert("?AllocateNewBlock@?$FixedSizeObjAllocator@VInstantHit@@$0BPE@@@AAEXXZ");
     todo("implement");
-    _sub_4A6C1D(this);
 }
 
-_extern void _sub_4A52DC(FixedSizeObjAllocator<Bullet,1000> *const);
 _inline void FixedSizeObjAllocator<Bullet,1000>::AllocateNewBlock() // 0x4A52DC
 {
     mangled_assert("?AllocateNewBlock@?$FixedSizeObjAllocator@VBullet@@$0DOI@@@AAEXXZ");
     todo("implement");
-    _sub_4A52DC(this);
 }
 
-_extern void _sub_483D3B(FixedSizeObjAllocator<Visibility,1000> *const);
 _inline void FixedSizeObjAllocator<Visibility,1000>::AllocateNewBlock() // 0x483D3B
 {
     mangled_assert("?AllocateNewBlock@?$FixedSizeObjAllocator@VVisibility@@$0DOI@@@AAEXXZ");
     todo("implement");
-    _sub_483D3B(this);
 }
 
-_extern void _sub_47ACF1(FixedSizeObjAllocator<SobIDShared,2000> *const);
 _inline void FixedSizeObjAllocator<SobIDShared,2000>::AllocateNewBlock() // 0x47ACF1
 {
     mangled_assert("?AllocateNewBlock@?$FixedSizeObjAllocator@VSobIDShared@@$0HNA@@@AAEXXZ");
     todo("implement");
-    _sub_47ACF1(this);
 }
 
-_extern void _sub_476C68(FixedSizeObjAllocator<ZeroMassBody,1000> *const);
 _inline void FixedSizeObjAllocator<ZeroMassBody,1000>::AllocateNewBlock() // 0x476C68
 {
     mangled_assert("?AllocateNewBlock@?$FixedSizeObjAllocator@VZeroMassBody@@$0DOI@@@AAEXXZ");
     todo("implement");
-    _sub_476C68(this);
 }
 
-_extern void _sub_446D01(FixedSizeObjAllocator<EngineTrailFrameBlock,512> *const);
 _inline void FixedSizeObjAllocator<EngineTrailFrameBlock,512>::AllocateNewBlock() // 0x446D01
 {
     mangled_assert("?AllocateNewBlock@?$FixedSizeObjAllocator@VEngineTrailFrameBlock@@$0CAA@@@AAEXXZ");
     todo("implement");
-    _sub_446D01(this);
 }
 
-_extern void _sub_6CF674(FixedSizeObjAllocator<SoundEntityList::Entry,64> *const);
 _inline void FixedSizeObjAllocator<SoundEntityList::Entry,64>::AllocateNewBlock() // 0x6CF674
 {
     mangled_assert("?AllocateNewBlock@?$FixedSizeObjAllocator@UEntry@SoundEntityList@@$0EA@@@AAEXXZ");
     todo("implement");
-    _sub_6CF674(this);
 }
 
 /* ---------- private code */
@@ -970,86 +816,64 @@ static_assert(sizeof(FixedSizeObjAllocator<StateVariableInstance,1000>) == 36, "
 
 /* ---------- public code */
 
-_extern _sub_100BD580(FixedSizeObjAllocator<StateVariableInstance,1000> *const);
 _inline FixedSizeObjAllocator<StateVariableInstance,1000>::FixedSizeObjAllocator<StateVariableInstance,1000>() // 0x100BD580
 {
     mangled_assert("??0?$FixedSizeObjAllocator@VStateVariableInstance@@$0DOI@@@QAE@XZ");
     todo("implement");
-    _sub_100BD580(this);
 }
 
-_extern _sub_1006B950(FixedSizeObjAllocator<Light,32> *const);
 _inline FixedSizeObjAllocator<Light,32>::FixedSizeObjAllocator<Light,32>() // 0x1006B950
 {
     mangled_assert("??0?$FixedSizeObjAllocator@VLight@@$0CA@@@QAE@XZ");
     todo("implement");
-    _sub_1006B950(this);
 }
 
-_extern void _sub_100BD6C0(FixedSizeObjAllocator<StateVariableInstance,1000> *const);
 _inline FixedSizeObjAllocator<StateVariableInstance,1000>::~FixedSizeObjAllocator<StateVariableInstance,1000>() // 0x100BD6C0
 {
     mangled_assert("??1?$FixedSizeObjAllocator@VStateVariableInstance@@$0DOI@@@UAE@XZ");
     todo("implement");
-    _sub_100BD6C0(this);
 }
 
-_extern void _sub_1006BE70(FixedSizeObjAllocator<Light,32> *const);
 _inline FixedSizeObjAllocator<Light,32>::~FixedSizeObjAllocator<Light,32>() // 0x1006BE70
 {
     mangled_assert("??1?$FixedSizeObjAllocator@VLight@@$0CA@@@UAE@XZ");
     todo("implement");
-    _sub_1006BE70(this);
 }
 
-_extern void *_sub_100BD830(FixedSizeObjAllocator<StateVariableInstance,1000> *const);
 _inline void *FixedSizeObjAllocator<StateVariableInstance,1000>::Allocate() // 0x100BD830
 {
     mangled_assert("?Allocate@?$FixedSizeObjAllocator@VStateVariableInstance@@$0DOI@@@QAEPAXXZ");
     todo("implement");
-    void * __result = _sub_100BD830(this);
-    return __result;
 }
 
-_extern void *_sub_1006C540(FixedSizeObjAllocator<Light,32> *const);
 _inline void *FixedSizeObjAllocator<Light,32>::Allocate() // 0x1006C540
 {
     mangled_assert("?Allocate@?$FixedSizeObjAllocator@VLight@@$0CA@@@QAEPAXXZ");
     todo("implement");
-    void * __result = _sub_1006C540(this);
-    return __result;
 }
 
-_extern void _sub_100BD9B0(FixedSizeObjAllocator<StateVariableInstance,1000> *const, void *);
 _inline void FixedSizeObjAllocator<StateVariableInstance,1000>::Deallocate(void *) // 0x100BD9B0
 {
     mangled_assert("?Deallocate@?$FixedSizeObjAllocator@VStateVariableInstance@@$0DOI@@@QAEXPAX@Z");
     todo("implement");
-    _sub_100BD9B0(this, arg);
 }
 
-_extern void _sub_1006C6C0(FixedSizeObjAllocator<Light,32> *const, void *);
 _inline void FixedSizeObjAllocator<Light,32>::Deallocate(void *) // 0x1006C6C0
 {
     mangled_assert("?Deallocate@?$FixedSizeObjAllocator@VLight@@$0CA@@@QAEXPAX@Z");
     todo("implement");
-    _sub_1006C6C0(this, arg);
 }
 
-_extern void _sub_100BD860(FixedSizeObjAllocator<StateVariableInstance,1000> *const);
 _inline void FixedSizeObjAllocator<StateVariableInstance,1000>::AllocateNewBlock() // 0x100BD860
 {
     mangled_assert("?AllocateNewBlock@?$FixedSizeObjAllocator@VStateVariableInstance@@$0DOI@@@AAEXXZ");
     todo("implement");
-    _sub_100BD860(this);
 }
 
-_extern void _sub_1006C570(FixedSizeObjAllocator<Light,32> *const);
 _inline void FixedSizeObjAllocator<Light,32>::AllocateNewBlock() // 0x1006C570
 {
     mangled_assert("?AllocateNewBlock@?$FixedSizeObjAllocator@VLight@@$0CA@@@AAEXXZ");
     todo("implement");
-    _sub_1006C570(this);
 }
 
 /* ---------- private code */

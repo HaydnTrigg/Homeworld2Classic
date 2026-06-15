@@ -44,22 +44,16 @@ static_assert(sizeof(SubtitleCounter) == 48, "Invalid SubtitleCounter size");
 
 /* ---------- public code */
 
-_extern bool _sub_641A37(SubtitleCounter *const);
 _inline bool SubtitleCounter::isDeterministic() // 0x641A37
 {
     mangled_assert("?isDeterministic@SubtitleCounter@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_641A37(this);
-    return __result;
 }
 
-_extern char const *_sub_641AC6(SubtitleCounter *const);
 _inline char const *SubtitleCounter::saveToken() // 0x641AC6
 {
     mangled_assert("?saveToken@SubtitleCounter@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_641AC6(this);
-    return __result;
 }
 
 /* ---------- private code */

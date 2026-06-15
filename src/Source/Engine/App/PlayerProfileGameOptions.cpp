@@ -146,158 +146,113 @@ _static void LoadKeyBindings(LuaConfig &lc);
 
 /* ---------- public code */
 
-_extern _sub_502EEB(PlayerProfileGameOptions *const);
 PlayerProfileGameOptions::PlayerProfileGameOptions() // 0x502EEB
 {
     mangled_assert("??0PlayerProfileGameOptions@@QAE@XZ");
     todo("implement");
-    _sub_502EEB(this);
 }
 
-_extern void _sub_502F05(PlayerProfileGameOptions *const);
 PlayerProfileGameOptions::~PlayerProfileGameOptions() // 0x502F05
 {
     mangled_assert("??1PlayerProfileGameOptions@@QAE@XZ");
     todo("implement");
-    _sub_502F05(this);
 }
 
-_extern bool _sub_503186(PlayerProfileGameOptions *const, LuaConfig &);
 bool PlayerProfileGameOptions::Load(LuaConfig &) // 0x503186
 {
     mangled_assert("?Load@PlayerProfileGameOptions@@QAE_NAAVLuaConfig@@@Z");
     todo("implement");
-    bool __result = _sub_503186(this, arg);
-    return __result;
 }
 
-_extern bool _sub_50359A(PlayerProfileGameOptions *const, LuaConfig &);
 bool PlayerProfileGameOptions::Save(LuaConfig &) // 0x50359A
 {
     mangled_assert("?Save@PlayerProfileGameOptions@@QAE_NAAVLuaConfig@@@Z");
     todo("implement");
-    bool __result = _sub_50359A(this, arg);
-    return __result;
 }
 
-_extern bool _sub_502F4F(PlayerProfileGameOptions *const);
 bool PlayerProfileGameOptions::Apply() // 0x502F4F
 {
     mangled_assert("?Apply@PlayerProfileGameOptions@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_502F4F(this);
-    return __result;
 }
 
-_extern bool _sub_50310D(PlayerProfileGameOptions *const);
 bool PlayerProfileGameOptions::ApplyScreenResolution() // 0x50310D
 {
     mangled_assert("?ApplyScreenResolution@PlayerProfileGameOptions@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_50310D(this);
-    return __result;
 }
 
-_extern void _sub_503A94(PlayerProfileGameOptions *const, ProfileAudioOptions const &);
 void PlayerProfileGameOptions::SetAudioOptions(ProfileAudioOptions const &) // 0x503A94
 {
     mangled_assert("?SetAudioOptions@PlayerProfileGameOptions@@QAEXABUProfileAudioOptions@@@Z");
     todo("implement");
-    _sub_503A94(this, arg);
 }
 
-_extern void _sub_503AD1(PlayerProfileGameOptions *const, ProfileVideoOptions const &);
 void PlayerProfileGameOptions::SetVideoOptions(ProfileVideoOptions const &) // 0x503AD1
 {
     mangled_assert("?SetVideoOptions@PlayerProfileGameOptions@@QAEXABUProfileVideoOptions@@@Z");
     todo("implement");
-    _sub_503AD1(this, arg);
 }
 
-_extern void _sub_503ABE(PlayerProfileGameOptions *const, ProfileGameplayOptions const &);
 void PlayerProfileGameOptions::SetGameplayOptions(ProfileGameplayOptions const &) // 0x503ABE
 {
     mangled_assert("?SetGameplayOptions@PlayerProfileGameOptions@@QAEXABUProfileGameplayOptions@@@Z");
     todo("implement");
-    _sub_503ABE(this, arg);
 }
 
-_extern void _sub_503AA6(PlayerProfileGameOptions *const, ProfileControlsOptions const &);
 void PlayerProfileGameOptions::SetControlsOptions(ProfileControlsOptions const &) // 0x503AA6
 {
     mangled_assert("?SetControlsOptions@PlayerProfileGameOptions@@QAEXABUProfileControlsOptions@@@Z");
     todo("implement");
-    _sub_503AA6(this, arg);
 }
 
-_extern void _sub_503AA9(PlayerProfileGameOptions *const, ProfileFXOptions const &);
 void PlayerProfileGameOptions::SetFXOptions(ProfileFXOptions const &) // 0x503AA9
 {
     mangled_assert("?SetFXOptions@PlayerProfileGameOptions@@QAEXABUProfileFXOptions@@@Z");
     todo("implement");
-    _sub_503AA9(this, arg);
 }
 
-_extern ProfileAudioOptions _sub_503128(PlayerProfileGameOptions const *const);
 ProfileAudioOptions PlayerProfileGameOptions::GetAudioOptions() const // 0x503128
 {
     mangled_assert("?GetAudioOptions@PlayerProfileGameOptions@@QBE?AUProfileAudioOptions@@XZ");
     todo("implement");
-    ProfileAudioOptions __result = _sub_503128(this);
-    return __result;
 }
 
-_extern ProfileVideoOptions _sub_50316F(PlayerProfileGameOptions const *const);
 ProfileVideoOptions PlayerProfileGameOptions::GetVideoOptions() const // 0x50316F
 {
     mangled_assert("?GetVideoOptions@PlayerProfileGameOptions@@QBE?AUProfileVideoOptions@@XZ");
     todo("implement");
-    ProfileVideoOptions __result = _sub_50316F(this);
-    return __result;
 }
 
-_extern ProfileGameplayOptions _sub_50315A(PlayerProfileGameOptions const *const);
 ProfileGameplayOptions PlayerProfileGameOptions::GetGameplayOptions() const // 0x50315A
 {
     mangled_assert("?GetGameplayOptions@PlayerProfileGameOptions@@QBE?AUProfileGameplayOptions@@XZ");
     todo("implement");
-    ProfileGameplayOptions __result = _sub_50315A(this);
-    return __result;
 }
 
-_extern ProfileControlsOptions _sub_50313C(PlayerProfileGameOptions const *const);
 ProfileControlsOptions PlayerProfileGameOptions::GetControlsOptions() const // 0x50313C
 {
     mangled_assert("?GetControlsOptions@PlayerProfileGameOptions@@QBE?AUProfileControlsOptions@@XZ");
     todo("implement");
-    ProfileControlsOptions __result = _sub_50313C(this);
-    return __result;
 }
 
-_extern ProfileFXOptions _sub_503143(PlayerProfileGameOptions const *const);
 ProfileFXOptions PlayerProfileGameOptions::GetFXOptions() const // 0x503143
 {
     mangled_assert("?GetFXOptions@PlayerProfileGameOptions@@QBE?AUProfileFXOptions@@XZ");
     todo("implement");
-    ProfileFXOptions __result = _sub_503143(this);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern void _sub_503991(LuaConfig &);
 _static void SaveKeyBindings(LuaConfig &lc) // 0x503991
 {
     mangled_assert("SaveKeyBindings");
     todo("implement");
-    _sub_503991(lc);
 }
 
-_extern void _sub_503524(LuaConfig &);
 _static void LoadKeyBindings(LuaConfig &lc) // 0x503524
 {
     mangled_assert("LoadKeyBindings");
     todo("implement");
-    _sub_503524(lc);
 }
 #endif

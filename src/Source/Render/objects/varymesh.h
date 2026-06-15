@@ -297,72 +297,52 @@ static_assert(sizeof(VaryMesh) == 236, "Invalid VaryMesh size");
 
 /* ---------- public code */
 
-_extern void _sub_1001BAF0(VaryMesh *const, StateBlock_Type, std::vector<CompoundStateBlockInstance *,std::allocator<CompoundStateBlockInstance *> > *);
 _inline void VaryMesh::setShaderList(StateBlock_Type, std::vector<CompoundStateBlockInstance *,std::allocator<CompoundStateBlockInstance *> > *) // 0x1001BAF0
 {
     mangled_assert("?setShaderList@VaryMesh@@UAEXW4StateBlock_Type@@PAV?$vector@PAVCompoundStateBlockInstance@@V?$allocator@PAVCompoundStateBlockInstance@@@std@@@std@@@Z");
     todo("implement");
-    _sub_1001BAF0(this, arg, arg);
 }
 
-_extern float _sub_100192C0(VaryMesh const *const);
 _inline float VaryMesh::getLevelsOfDetail() const // 0x100192C0
 {
     mangled_assert("?getLevelsOfDetail@VaryMesh@@QBEMXZ");
     todo("implement");
-    float __result = _sub_100192C0(this);
-    return __result;
 }
 
-_extern __int32 _sub_10019360(VaryMesh const *const);
 _inline __int32 VaryMesh::getNumCachedLists() const // 0x10019360
 {
     mangled_assert("?getNumCachedLists@VaryMesh@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_10019360(this);
-    return __result;
 }
 
-_extern void _sub_1001BAD0(VaryMesh *const, __int32);
 _inline void VaryMesh::setNumUVSets(__int32) // 0x1001BAD0
 {
     mangled_assert("?setNumUVSets@VaryMesh@@QAEXH@Z");
     todo("implement");
-    _sub_1001BAD0(this, arg);
 }
 
-_extern __int32 _sub_10019400(VaryMesh const *const);
 _inline __int32 VaryMesh::getNumUVSets() const // 0x10019400
 {
     mangled_assert("?getNumUVSets@VaryMesh@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_10019400(this);
-    return __result;
 }
 
-_extern __int32 _sub_100193A0(VaryMesh const *const);
 _inline __int32 VaryMesh::getNumPolys() const // 0x100193A0
 {
     mangled_assert("?getNumPolys@VaryMesh@@UBEHXZ");
     todo("implement");
-    __int32 __result = _sub_100193A0(this);
-    return __result;
 }
 
-_extern void _sub_1001BA80(VaryMesh *const, float);
 _inline void VaryMesh::setMinLOD(float) // 0x1001BA80
 {
     mangled_assert("?setMinLOD@VaryMesh@@UAEXM@Z");
     todo("implement");
-    _sub_1001BA80(this, arg);
 }
 
-_extern void _sub_1001BA10(VaryMesh *const, float);
 _inline void VaryMesh::setDetailLevel(float) // 0x1001BA10
 {
     mangled_assert("?setDetailLevel@VaryMesh@@UAEXM@Z");
     todo("implement");
-    _sub_1001BA10(this, arg);
 }
 
 /* ---------- private code */

@@ -291,421 +291,306 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_6363E4(PiecewiseLinearSegment *const, float, float, float, float);
 _inline PiecewiseLinearSegment::PiecewiseLinearSegment(float, float, float, float) // 0x6363E4
 {
     mangled_assert("??0PiecewiseLinearSegment@@QAE@MMMM@Z");
     todo("implement");
-    _sub_6363E4(this, arg, arg, arg, arg);
 }
 
-_extern _sub_636414(SMCameraZoomProxy *const);
 SMCameraZoomProxy::SMCameraZoomProxy() // 0x636414
 {
     mangled_assert("??0SMCameraZoomProxy@@QAE@XZ");
     todo("implement");
-    _sub_636414(this);
 }
 
-_extern float _sub_636643(SMCameraZoomProxy const *const);
 float SMCameraZoomProxy::GetDistance() const // 0x636643
 {
     mangled_assert("?GetDistance@SMCameraZoomProxy@@QBEMXZ");
     todo("implement");
-    float __result = _sub_636643(this);
-    return __result;
 }
 
-_extern float _sub_636671(SMCameraZoomProxy const *const);
 float SMCameraZoomProxy::GetMinDistance() const // 0x636671
 {
     mangled_assert("?GetMinDistance@SMCameraZoomProxy@@QBEMXZ");
     todo("implement");
-    float __result = _sub_636671(this);
-    return __result;
 }
 
-_extern float _sub_63665A(SMCameraZoomProxy const *const);
 float SMCameraZoomProxy::GetMaxDistance() const // 0x63665A
 {
     mangled_assert("?GetMaxDistance@SMCameraZoomProxy@@QBEMXZ");
     todo("implement");
-    float __result = _sub_63665A(this);
-    return __result;
 }
 
-_extern void _sub_63668B(SMCameraZoomProxy *const, float);
 void SMCameraZoomProxy::SetDistance(float) // 0x63668B
 {
     mangled_assert("?SetDistance@SMCameraZoomProxy@@QAEXM@Z");
     todo("implement");
-    _sub_63668B(this, arg);
 }
 
-_extern void _sub_636709(SMCameraZoomProxy *const, float);
 void SMCameraZoomProxy::SetMinDistance(float) // 0x636709
 {
     mangled_assert("?SetMinDistance@SMCameraZoomProxy@@QAEXM@Z");
     todo("implement");
-    _sub_636709(this, arg);
 }
 
-_extern void _sub_6366E0(SMCameraZoomProxy *const, float);
 void SMCameraZoomProxy::SetMaxDistance(float) // 0x6366E0
 {
     mangled_assert("?SetMaxDistance@SMCameraZoomProxy@@QAEXM@Z");
     todo("implement");
-    _sub_6366E0(this, arg);
 }
 
-_extern bool _sub_6366BA(SMCameraZoomProxy *const, vector3 const &, vector3 const &);
 bool SMCameraZoomProxy::SetDistanceAngleDeclination(vector3 const &, vector3 const &) // 0x6366BA
 {
     mangled_assert("?SetDistanceAngleDeclination@SMCameraZoomProxy@@QAE_NABVvector3@@0@Z");
     todo("implement");
-    bool __result = _sub_6366BA(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_63659B(SMCameraZoomProxy *const, bool);
 void SMCameraZoomProxy::EnableFreeZoom(bool) // 0x63659B
 {
     mangled_assert("?EnableFreeZoom@SMCameraZoomProxy@@QAEX_N@Z");
     todo("implement");
-    _sub_63659B(this, arg);
 }
 
-_extern bool _sub_636688(SMCameraZoomProxy const *const);
 bool SMCameraZoomProxy::IsFreeZoom() const // 0x636688
 {
     mangled_assert("?IsFreeZoom@SMCameraZoomProxy@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_636688(this);
-    return __result;
 }
 
-_extern void _sub_637170(float);
 void smSetMinCameraDistance(float min) // 0x637170
 {
     mangled_assert("?smSetMinCameraDistance@@YGXM@Z");
     todo("implement");
-    _sub_637170(min);
 }
 
-_extern void _sub_6370F6(float);
 void smSetMaxCameraDistance(float max) // 0x6370F6
 {
     mangled_assert("?smSetMaxCameraDistance@@YGXM@Z");
     todo("implement");
-    _sub_6370F6(max);
 }
 
-_extern void _sub_637793();
 void updateBlinkFunction() // 0x637793
 {
     mangled_assert("?updateBlinkFunction@@YGXXZ");
     todo("implement");
-    _sub_637793();
 }
 
-_extern _sub_6363DE(SensorsManager::Data *const);
 _inline SensorsManager::Data::Data() // 0x6363DE
 {
     mangled_assert("??0Data@SensorsManager@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6363DE(this);
 }
 
-_extern float _sub_6370EF();
 float smGetHighlightMaxAlpha() // 0x6370EF
 {
     mangled_assert("?smGetHighlightMaxAlpha@@YGMXZ");
     todo("implement");
-    float __result = _sub_6370EF();
-    return __result;
 }
 
-_extern bool _sub_637219();
 bool smStartup() // 0x637219
 {
     mangled_assert("?smStartup@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_637219();
-    return __result;
 }
 
-_extern bool _sub_6371EB();
 bool smShutdown() // 0x6371EB
 {
     mangled_assert("?smShutdown@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_6371EB();
-    return __result;
 }
 
-_extern _sub_63641A(SensorsManager *const, MainUI *);
 SensorsManager::SensorsManager(MainUI *) // 0x63641A
 {
     mangled_assert("??0SensorsManager@@QAE@PAVMainUI@@@Z");
     todo("implement");
-    _sub_63641A(this, arg);
 }
 
-_extern void _sub_6364E7(SensorsManager *const);
 SensorsManager::~SensorsManager() // 0x6364E7
 {
     mangled_assert("??1SensorsManager@@QAE@XZ");
     todo("implement");
-    _sub_6364E7(this);
 }
 
-_extern void _sub_637083(SensorsManager *const, MainUIImpl *);
 void SensorsManager::setMainUIImpl(MainUIImpl *) // 0x637083
 {
     mangled_assert("?setMainUIImpl@SensorsManager@@QAEXPAVMainUIImpl@@@Z");
     todo("implement");
-    _sub_637083(this, arg);
 }
 
-_extern void _sub_636847(SensorsManager *const);
 void SensorsManager::cancelCommand() // 0x636847
 {
     mangled_assert("?cancelCommand@SensorsManager@@QAEXXZ");
     todo("implement");
-    _sub_636847(this);
 }
 
-_extern void _sub_636F29(SensorsManager *const);
 void SensorsManager::initialize() // 0x636F29
 {
     mangled_assert("?initialize@SensorsManager@@QAEXXZ");
     todo("implement");
-    _sub_636F29(this);
 }
 
-_extern void _sub_637053(SensorsManager *const, float);
 void SensorsManager::setInitialZoomOutDistance(float) // 0x637053
 {
     mangled_assert("?setInitialZoomOutDistance@SensorsManager@@QAEXM@Z");
     todo("implement");
-    _sub_637053(this, arg);
 }
 
-_extern void _sub_6367B5(SensorsManager *const, float);
 void SensorsManager::blinkUpdate(float) // 0x6367B5
 {
     mangled_assert("?blinkUpdate@SensorsManager@@AAEXM@Z");
     todo("implement");
-    _sub_6367B5(this, arg);
 }
 
-_extern bool _sub_636F7D(SensorsManager const *const);
 bool SensorsManager::isBlinkOn() const // 0x636F7D
 {
     mangled_assert("?isBlinkOn@SensorsManager@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_636F7D(this);
-    return __result;
 }
 
-_extern float _sub_636F1E(SensorsManager const *const);
 float SensorsManager::getBlinkAlpha() const // 0x636F1E
 {
     mangled_assert("?getBlinkAlpha@SensorsManager@@QBEMXZ");
     todo("implement");
-    float __result = _sub_636F1E(this);
-    return __result;
 }
 
-_extern void _sub_6375C6(SensorsManager *const);
 void SensorsManager::switchTo() // 0x6375C6
 {
     mangled_assert("?switchTo@SensorsManager@@QAEXXZ");
     todo("implement");
-    _sub_6375C6(this);
 }
 
-_extern void _sub_6374C4(SensorsManager *const);
 void SensorsManager::switchFrom() // 0x6374C4
 {
     mangled_assert("?switchFrom@SensorsManager@@QAEXXZ");
     todo("implement");
-    _sub_6374C4(this);
 }
 
-_extern void _sub_637763(SensorsManager *const);
 void SensorsManager::toggleOn() // 0x637763
 {
     mangled_assert("?toggleOn@SensorsManager@@AAEXXZ");
     todo("implement");
-    _sub_637763(this);
 }
 
-_extern void _sub_63775E(SensorsManager *const);
 void SensorsManager::toggleOff() // 0x63775E
 {
     mangled_assert("?toggleOff@SensorsManager@@AAEXXZ");
     todo("implement");
-    _sub_63775E(this);
 }
 
-_extern void _sub_637743(SensorsManager *const);
 void SensorsManager::toggle() // 0x637743
 {
     mangled_assert("?toggle@SensorsManager@@QAEXXZ");
     todo("implement");
-    _sub_637743(this);
 }
 
-_extern void _sub_636B29(SensorsManager *const, Selection const &);
 void SensorsManager::dragFocus(Selection const &) // 0x636B29
 {
     mangled_assert("?dragFocus@SensorsManager@@QAEXABVSelection@@@Z");
     todo("implement");
-    _sub_636B29(this, arg);
 }
 
-_extern void _sub_636FE0(SensorsManager *const);
 void SensorsManager::setFarView() // 0x636FE0
 {
     mangled_assert("?setFarView@SensorsManager@@AAEXXZ");
     todo("implement");
-    _sub_636FE0(this);
 }
 
-_extern void _sub_63708D(SensorsManager *const);
 void SensorsManager::setNearView() // 0x63708D
 {
     mangled_assert("?setNearView@SensorsManager@@AAEXXZ");
     todo("implement");
-    _sub_63708D(this);
 }
 
-_extern void _sub_6378F9(SensorsManager *const);
 void SensorsManager::updateOrbitStart() // 0x6378F9
 {
     mangled_assert("?updateOrbitStart@SensorsManager@@AAEXXZ");
     todo("implement");
-    _sub_6378F9(this);
 }
 
-_extern void _sub_637838(SensorsManager *const);
 void SensorsManager::updateCamera() // 0x637838
 {
     mangled_assert("?updateCamera@SensorsManager@@AAEXXZ");
     todo("implement");
-    _sub_637838(this);
 }
 
-_extern float _sub_637960(SensorsManager *const, float, float);
 float SensorsManager::zoomUpdate(float, float) // 0x637960
 {
     mangled_assert("?zoomUpdate@SensorsManager@@QAEMMM@Z");
     todo("implement");
-    float __result = _sub_637960(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_636997(SensorsManager *const, float);
 void SensorsManager::doZoom(float) // 0x636997
 {
     mangled_assert("?doZoom@SensorsManager@@AAEXM@Z");
     todo("implement");
-    _sub_636997(this, arg);
 }
 
-_extern float _sub_636FA9(SensorsManager *const, float, float);
 float SensorsManager::scrollFactorGet(float, float) // 0x636FA9
 {
     mangled_assert("?scrollFactorGet@SensorsManager@@AAEMMM@Z");
     todo("implement");
-    float __result = _sub_636FA9(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_6368C3(SensorsManager *const);
 void SensorsManager::closeForGood() // 0x6368C3
 {
     mangled_assert("?closeForGood@SensorsManager@@AAEXXZ");
     todo("implement");
-    _sub_6368C3(this);
 }
 
-_extern void _sub_63693B(SensorsManager *const, Selection &);
 void SensorsManager::cullAndFocus(Selection &) // 0x63693B
 {
     mangled_assert("?cullAndFocus@SensorsManager@@QAEXAAVSelection@@@Z");
     todo("implement");
-    _sub_63693B(this, arg);
 }
 
-_extern void _sub_636BA6(SensorsManager *const, float);
 void SensorsManager::drawHUD(float) // 0x636BA6
 {
     mangled_assert("?drawHUD@SensorsManager@@QAEXM@Z");
     todo("implement");
-    _sub_636BA6(this, arg);
 }
 
-_extern void _sub_636ED2(SensorsManager *const, float);
 void SensorsManager::drawOutlines(float) // 0x636ED2
 {
     mangled_assert("?drawOutlines@SensorsManager@@QAEXM@Z");
     todo("implement");
-    _sub_636ED2(this, arg);
 }
 
-_extern bool _sub_636F9C(SensorsManager *const);
 bool SensorsManager::isEnabled() // 0x636F9C
 {
     mangled_assert("?isEnabled@SensorsManager@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_636F9C(this);
-    return __result;
 }
 
-_extern void _sub_637768(SensorsManager *const, float);
 void SensorsManager::update(float) // 0x637768
 {
     mangled_assert("?update@SensorsManager@@QAEXM@Z");
     todo("implement");
-    _sub_637768(this, arg);
 }
 
-_extern void _sub_636EF7(SensorsManager *const, bool);
 void SensorsManager::enableCameraZoom(bool) // 0x636EF7
 {
     mangled_assert("?enableCameraZoom@SensorsManager@@QAEX_N@Z");
     todo("implement");
-    _sub_636EF7(this, arg);
 }
 
-_extern bool _sub_636F8F(SensorsManager const *const);
 bool SensorsManager::isCameraZoomEnabled() const // 0x636F8F
 {
     mangled_assert("?isCameraZoomEnabled@SensorsManager@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_636F8F(this);
-    return __result;
 }
 
-_extern void _sub_636F11(SensorsManager *const, bool);
 void SensorsManager::enableWorldplaneFlash(bool) // 0x636F11
 {
     mangled_assert("?enableWorldplaneFlash@SensorsManager@@QAEX_N@Z");
     todo("implement");
-    _sub_636F11(this, arg);
 }
 
 /* ---------- private code */
 
-_extern float _sub_636732(float);
 _static float blinkAlpha(float t) // 0x636732
 {
     mangled_assert("blinkAlpha");
     todo("implement");
-    float __result = _sub_636732(t);
-    return __result;
 }
 #endif

@@ -401,139 +401,100 @@ static_assert(sizeof(MeshInstance) == 112, "Invalid MeshInstance size");
 
 /* ---------- public code */
 
-_extern _sub_1000D0D0(MeshObject *const);
 _inline MeshObject::MeshObject() // 0x1000D0D0
 {
     mangled_assert("??0MeshObject@@QAE@XZ");
     todo("implement");
-    _sub_1000D0D0(this);
 }
 
-_extern void _sub_1000E320(Mesh *const);
 _inline Mesh::~Mesh() // 0x1000E320
 {
     mangled_assert("??1Mesh@@UAE@XZ");
     todo("implement");
-    _sub_1000E320(this);
 }
 
-_extern void _sub_10019190(Mesh const *const, float *, vector3 *);
 _inline void Mesh::getBoundingSphere(float *, vector3 *) const // 0x10019190
 {
     mangled_assert("?getBoundingSphere@Mesh@@UBEXPAMPAVvector3@@@Z");
     todo("implement");
-    _sub_10019190(this, arg, arg);
 }
 
-_extern _sub_1000D350(SubMesh *const);
 _inline SubMesh::SubMesh() // 0x1000D350
 {
     mangled_assert("??0SubMesh@@QAE@XZ");
     todo("implement");
-    _sub_1000D350(this);
 }
 
-_extern void _sub_1000E420(SubMesh *const);
 _inline SubMesh::~SubMesh() // 0x1000E420
 {
     mangled_assert("??1SubMesh@@UAE@XZ");
     todo("implement");
-    _sub_1000E420(this);
 }
 
-_extern void _sub_1001ACF0(SubMesh *const, MeshInstance const *, Mesh::LockType, unsigned __int32 const, float const, vector4 const &);
 _inline void SubMesh::render(MeshInstance const *, Mesh::LockType, unsigned __int32 const, float const, vector4 const &) // 0x1001ACF0
 {
     mangled_assert("?render@SubMesh@@UAEXPBVMeshInstance@@W4LockType@Mesh@@IMABVvector4@@@Z");
     todo("implement");
-    _sub_1001ACF0(this, arg, arg, arg, arg, arg);
 }
 
-_extern void _sub_100191C0(SubMesh const *const, float *, vector3 *);
 _inline void SubMesh::getBoundingSphere(float *, vector3 *) const // 0x100191C0
 {
     mangled_assert("?getBoundingSphere@SubMesh@@UBEXPAMPAVvector3@@@Z");
     todo("implement");
-    _sub_100191C0(this, arg, arg);
 }
 
-_extern char const *_sub_10019310(SubMesh const *const);
 _inline char const *SubMesh::getName() const // 0x10019310
 {
     mangled_assert("?getName@SubMesh@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_10019310(this);
-    return __result;
 }
 
-_extern char const *_sub_10019440(SubMesh const *const);
 _inline char const *SubMesh::getParentName() const // 0x10019440
 {
     mangled_assert("?getParentName@SubMesh@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_10019440(this);
-    return __result;
 }
 
-_extern void _sub_1001BB70(SubMesh *const, bool);
 _inline void SubMesh::setVisible(bool) // 0x1001BB70
 {
     mangled_assert("?setVisible@SubMesh@@QAEX_N@Z");
     todo("implement");
-    _sub_1001BB70(this, arg);
 }
 
-_extern bool _sub_10019540(SubMesh const *const);
 _inline bool SubMesh::getVisible() const // 0x10019540
 {
     mangled_assert("?getVisible@SubMesh@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_10019540(this);
-    return __result;
 }
 
-_extern bool _sub_1001B9F0(MeshInstance *const, StateBlock_Type);
 _inline bool MeshInstance::setCurrentBlockSet(StateBlock_Type) // 0x1001B9F0
 {
     mangled_assert("?setCurrentBlockSet@MeshInstance@@QAE_NW4StateBlock_Type@@@Z");
     todo("implement");
-    bool __result = _sub_1001B9F0(this, arg);
-    return __result;
 }
 
-_extern StateBlock_Type _sub_100191F0(MeshInstance const *const);
 _inline StateBlock_Type MeshInstance::getCurrentBlockSet() const // 0x100191F0
 {
     mangled_assert("?getCurrentBlockSet@MeshInstance@@QBE?AW4StateBlock_Type@@XZ");
     todo("implement");
-    StateBlock_Type __result = _sub_100191F0(this);
-    return __result;
 }
 
-_extern _sub_10079520(MeshInstance::VariableCacheIndex *const, StateVariableInstance *, unsigned __int32);
 _inline MeshInstance::VariableCacheIndex::VariableCacheIndex(StateVariableInstance *, unsigned __int32) // 0x10079520
 {
     mangled_assert("??0VariableCacheIndex@MeshInstance@@QAE@PAVStateVariableInstance@@I@Z");
     todo("implement");
-    _sub_10079520(this, arg, arg);
 }
 
-_extern Mesh const *_sub_100192D0(MeshInstance const *const);
 _inline Mesh const *MeshInstance::getMesh() const // 0x100192D0
 {
     mangled_assert("?getMesh@MeshInstance@@QBEPBVMesh@@XZ");
     todo("implement");
-    Mesh const * __result = _sub_100192D0(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_10019340(MeshInstance const *const);
 _inline unsigned __int32 MeshInstance::getNumBlockInstances() const // 0x10019340
 {
     mangled_assert("?getNumBlockInstances@MeshInstance@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_10019340(this);
-    return __result;
 }
 
 /* ---------- private code */

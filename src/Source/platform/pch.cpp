@@ -6225,31 +6225,25 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_10009487(std::_Generic_error_category *const);
 _inline std::_Generic_error_category::~_Generic_error_category() // 0x10009487
 {
     mangled_assert("??1_Generic_error_category@std@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10009487(this);
 }
 
-_extern void _sub_1000948E(std::_Iostream_error_category *const);
 _inline std::_Iostream_error_category::~_Iostream_error_category() // 0x1000948E
 {
     mangled_assert("??1_Iostream_error_category@std@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_1000948E(this);
 }
 
-_extern void _sub_10009495(std::_System_error_category *const);
 _inline std::_System_error_category::~_System_error_category() // 0x10009495
 {
     mangled_assert("??1_System_error_category@std@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10009495(this);
 }
 
 /* ---------- private code */

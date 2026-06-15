@@ -69,13 +69,10 @@ static_assert(sizeof(MemoryPoolObj) == 12, "Invalid MemoryPoolObj size");
 
 /* ---------- public code */
 
-_extern _HMEMPOOL *_sub_10002180(MemoryPoolObj *const);
 _inline _HMEMPOOL *MemoryPoolObj::Handle() // 0x10002180
 {
     mangled_assert("?Handle@MemoryPoolObj@@QAEPAU_HMEMPOOL@@XZ");
     todo("implement");
-    _HMEMPOOL * __result = _sub_10002180(this);
-    return __result;
 }
 
 /* ---------- private code */

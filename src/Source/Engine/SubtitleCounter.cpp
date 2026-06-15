@@ -153,82 +153,62 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_641942(SubtitleCounter *const, __int32, __int32);
 SubtitleCounter::SubtitleCounter(__int32, __int32) // 0x641942
 {
     mangled_assert("??0SubtitleCounter@@QAE@HH@Z");
     todo("implement");
-    _sub_641942(this, arg, arg);
 }
 
-_extern _sub_641985(SubtitleCounter *const, SaveGameData *);
 SubtitleCounter::SubtitleCounter(SaveGameData *) // 0x641985
 {
     mangled_assert("??0SubtitleCounter@@QAE@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_641985(this, arg);
 }
 
-_extern _sub_6419C4(Subtitle_Region::Updater *const);
 _inline Subtitle_Region::Updater::Updater() // 0x6419C4
 {
     mangled_assert("??0Updater@Subtitle_Region@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6419C4(this);
 }
 
-_extern void _sub_6419CE(SubtitleCounter *const);
 _inline SubtitleCounter::~SubtitleCounter() // 0x6419CE
 {
     mangled_assert("??1SubtitleCounter@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6419CE(this);
 }
 
-_extern void _sub_641ACC(Subtitle_Region::Updater * const, Subtitle_Region *);
 void SubtitleCounter::update(Subtitle_Region *) // 0x641ACC
 {
     mangled_assert("?update@SubtitleCounter@@UAEXPAVSubtitle_Region@@@Z");
     // __shifted(SubtitleCounter, 12);
     todo("implement");
-    _sub_641ACC(this, arg);
 }
 
-_extern void _sub_641A3A(SubtitleCounter *const);
 void SubtitleCounter::postRestore() // 0x641A3A
 {
     mangled_assert("?postRestore@SubtitleCounter@@UAEXXZ");
     todo("implement");
-    _sub_641A3A(this);
 }
 
-_extern bool _sub_641A53(SubtitleCounter *const, SaveGameData *);
 bool SubtitleCounter::restore(SaveGameData *) // 0x641A53
 {
     mangled_assert("?restore@SubtitleCounter@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_641A53(this, arg);
-    return __result;
 }
 
-_extern bool _sub_641A91(SubtitleCounter *const, SaveGameData *, SaveType);
 bool SubtitleCounter::save(SaveGameData *, SaveType) // 0x641A91
 {
     mangled_assert("?save@SubtitleCounter@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_641A91(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern void _sub_641A01(float, __int32 &, __int32 &);
 _static void GetMinutesSeconds(float time, __int32 &min, __int32 &sec) // 0x641A01
 {
     mangled_assert("GetMinutesSeconds");
     todo("implement");
-    _sub_641A01(time, min, sec);
 }
 #endif

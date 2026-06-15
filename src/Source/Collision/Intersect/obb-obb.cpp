@@ -23,13 +23,10 @@ extern bool Collision::Intersect(Collision::OBB const &A, Collision::OBB const &
 
 /* ---------- public code */
 
-_extern bool _sub_6635AB(Collision::OBB const &, Collision::OBB const &);
 bool Collision::Intersect(Collision::OBB const &A, Collision::OBB const &B) // 0x6635AB
 {
     mangled_assert("?Intersect@Collision@@YG_NABVOBB@1@0@Z");
     todo("implement");
-    bool __result = _sub_6635AB(A, B);
-    return __result;
 }
 
 /* ---------- private code */

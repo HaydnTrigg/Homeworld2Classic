@@ -41,48 +41,34 @@ static_assert(sizeof(FocusPoint) == 48, "Invalid FocusPoint size");
 
 /* ---------- public code */
 
-_extern char const *_sub_4DD032(FocusPoint const *const);
 _inline char const *FocusPoint::GetName() const // 0x4DD032
 {
     mangled_assert("?GetName@FocusPoint@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4DD032(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_64D578(FocusPoint const *const);
 _inline vector3 const &FocusPoint::GetTargetPosition() const // 0x64D578
 {
     mangled_assert("?GetTargetPosition@FocusPoint@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_64D578(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_64D564(FocusPoint const *const);
 _inline vector3 const &FocusPoint::GetEyePosition() const // 0x64D564
 {
     mangled_assert("?GetEyePosition@FocusPoint@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_64D564(this);
-    return __result;
 }
 
-_extern _sub_7243F2(FocusPoint::NameSearchPred *const, char const *);
 _inline FocusPoint::NameSearchPred::NameSearchPred(char const *) // 0x7243F2
 {
     mangled_assert("??0NameSearchPred@FocusPoint@@QAE@PBD@Z");
     todo("implement");
-    _sub_7243F2(this, arg);
 }
 
-_extern bool _sub_7244E7(FocusPoint::NameSearchPred *const, FocusPoint *);
 _inline bool FocusPoint::NameSearchPred::operator()(FocusPoint *) // 0x7244E7
 {
     mangled_assert("??RNameSearchPred@FocusPoint@@QAE_NPAV1@@Z");
     todo("implement");
-    bool __result = _sub_7244E7(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

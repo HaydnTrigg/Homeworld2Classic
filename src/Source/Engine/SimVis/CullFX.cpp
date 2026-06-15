@@ -87,108 +87,79 @@ extern CullFX *CullFX::s_instance; // 0x844754
 
 /* ---------- public code */
 
-_extern bool _sub_519488();
 bool CullFX::Startup() // 0x519488
 {
     mangled_assert("?Startup@CullFX@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_519488();
-    return __result;
 }
 
-_extern bool _sub_519464();
 bool CullFX::Shutdown() // 0x519464
 {
     mangled_assert("?Shutdown@CullFX@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_519464();
-    return __result;
 }
 
-_extern CullFX *_sub_51942B();
 CullFX *CullFX::Instance() // 0x51942B
 {
     mangled_assert("?Instance@CullFX@@SGPAV1@XZ");
     todo("implement");
-    CullFX * __result = _sub_51942B();
-    return __result;
 }
 
-_extern _sub_519251(CullFX *const);
 CullFX::CullFX() // 0x519251
 {
     mangled_assert("??0CullFX@@IAE@XZ");
     todo("implement");
-    _sub_519251(this);
 }
 
-_extern _sub_5192C8(CullFX::CullPred *const);
 _inline CullFX::CullPred::CullPred() // 0x5192C8
 {
     mangled_assert("??0CullPred@CullFX@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5192C8(this);
 }
 
-_extern _sub_5192D1(CullFX::Data *const);
 _inline CullFX::Data::Data() // 0x5192D1
 {
     mangled_assert("??0Data@CullFX@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5192D1(this);
 }
 
-_extern void _sub_51931E(CullFX *const);
 CullFX::~CullFX() // 0x51931E
 {
     mangled_assert("??1CullFX@@IAE@XZ");
     todo("implement");
-    _sub_51931E(this);
 }
 
-_extern void _sub_51935F(CullFX::Data *const);
 _inline CullFX::Data::~Data() // 0x51935F
 {
     mangled_assert("??1Data@CullFX@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_51935F(this);
 }
 
-_extern void _sub_51944A(CullFX *const);
 void CullFX::ResetStats() // 0x51944A
 {
     mangled_assert("?ResetStats@CullFX@@QAEXXZ");
     todo("implement");
-    _sub_51944A(this);
 }
 
-_extern float _sub_519416(CullFX *const, unsigned __int32);
 float CullFX::GetStat(unsigned __int32) // 0x519416
 {
     mangled_assert("?GetStat@CullFX@@QAEMI@Z");
     todo("implement");
-    float __result = _sub_519416(this, arg);
-    return __result;
 }
 
-_extern void _sub_519431(CullFX *const, CullFX::CullPred *);
 void CullFX::RegisterCullPred(CullFX::CullPred *) // 0x519431
 {
     mangled_assert("?RegisterCullPred@CullFX@@QAEXPAVCullPred@1@@Z");
     todo("implement");
-    _sub_519431(this, arg);
 }
 
-_extern bool _sub_5194EA(CullFX *const, char const *, vector3 const &, float const);
 bool CullFX::Test(char const *, vector3 const &, float const) // 0x5194EA
 {
     mangled_assert("?Test@CullFX@@QAE_NPBDABVvector3@@M@Z");
     todo("implement");
-    bool __result = _sub_5194EA(this, arg, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

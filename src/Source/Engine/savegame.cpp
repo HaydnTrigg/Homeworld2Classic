@@ -272,226 +272,156 @@ _static
 
 /* ---------- public code */
 
-_extern GameIO *_sub_62750C();
 GameIO *GameIO::i() // 0x62750C
 {
     mangled_assert("?i@GameIO@@SGPAV1@XZ");
     todo("implement");
-    GameIO * __result = _sub_62750C();
-    return __result;
 }
 
-_extern bool _sub_6277E0();
 bool GameIO::startup() // 0x6277E0
 {
     mangled_assert("?startup@GameIO@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_6277E0();
-    return __result;
 }
 
-_extern bool _sub_6277C6();
 bool GameIO::shutdown() // 0x6277C6
 {
     mangled_assert("?shutdown@GameIO@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_6277C6();
-    return __result;
 }
 
-_extern bool _sub_627639();
 bool GameIO::pregame() // 0x627639
 {
     mangled_assert("?pregame@GameIO@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_627639();
-    return __result;
 }
 
-_extern bool _sub_627636();
 bool GameIO::postgame() // 0x627636
 {
     mangled_assert("?postgame@GameIO@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_627636();
-    return __result;
 }
 
-_extern bool _sub_62743C(SaveGameData *, SaveType);
 bool GameIO::createIDMap(SaveGameData *saveGameData, SaveType saveType) // 0x62743C
 {
     mangled_assert("?createIDMap@GameIO@@SG_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_62743C(saveGameData, saveType);
-    return __result;
 }
 
-_extern bool _sub_627665(SaveGameData *);
 bool GameIO::restoreIDMap(SaveGameData *saveGameData) // 0x627665
 {
     mangled_assert("?restoreIDMap@GameIO@@SG_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_627665(saveGameData);
-    return __result;
 }
 
-_extern bool _sub_6277B4(SaveGameData *, SaveType);
 bool GameIO::saveObjectDatabase(SaveGameData *saveGameData, SaveType saveType) // 0x6277B4
 {
     mangled_assert("?saveObjectDatabase@GameIO@@SG_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_6277B4(saveGameData, saveType);
-    return __result;
 }
 
-_extern bool _sub_627673(SaveGameData *);
 bool GameIO::restoreObjectDatabase(SaveGameData *saveGameData) // 0x627673
 {
     mangled_assert("?restoreObjectDatabase@GameIO@@SG_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_627673(saveGameData);
-    return __result;
 }
 
-_extern bool _sub_6277B1(GameIO *const);
 bool GameIO::saveGameIsSaving() // 0x6277B1
 {
     mangled_assert("?saveGameIsSaving@GameIO@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_6277B1(this);
-    return __result;
 }
 
-_extern bool _sub_6274AB(GameIO *const, SaveGameData *, SaveType);
 bool GameIO::generateSaveGame(SaveGameData *, SaveType) // 0x6274AB
 {
     mangled_assert("?generateSaveGame@GameIO@@QAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_6274AB(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_627605(GameIO *const);
 bool GameIO::loadGameIsLoading() // 0x627605
 {
     mangled_assert("?loadGameIsLoading@GameIO@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_627605(this);
-    return __result;
 }
 
-_extern bool _sub_627609(GameIO *const);
 bool GameIO::loadGameIsLoadingInGame() // 0x627609
 {
     mangled_assert("?loadGameIsLoadingInGame@GameIO@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_627609(this);
-    return __result;
 }
 
-_extern SaveStreamWriteMode _sub_627508();
 SaveStreamWriteMode getSaveMode() // 0x627508
 {
     mangled_assert("?getSaveMode@@YG?AW4SaveStreamWriteMode@@XZ");
     todo("implement");
-    SaveStreamWriteMode __result = _sub_627508();
-    return __result;
 }
 
-_extern SaveGameResult _sub_6276A0(GameIO *const, char const *, SaveType);
 SaveGameResult GameIO::saveGame(char const *, SaveType) // 0x6276A0
 {
     mangled_assert("?saveGame@GameIO@@QAE?AW4SaveGameResult@@PBDW4SaveType@@@Z");
     todo("implement");
-    SaveGameResult __result = _sub_6276A0(this, arg, arg);
-    return __result;
 }
 
-_extern LoadGameResult _sub_62752F(GameIO *const, char const *);
 LoadGameResult GameIO::loadGame(char const *) // 0x62752F
 {
     mangled_assert("?loadGame@GameIO@@QAE?AW4LoadGameResult@@PBD@Z");
     todo("implement");
-    LoadGameResult __result = _sub_62752F(this, arg);
-    return __result;
 }
 
-_extern std::_List_const_iterator<std::_List_val<std::_List_simple_types<SaveObject *> > > _sub_627681();
 std::_List_const_iterator<std::_List_val<std::_List_simple_types<SaveObject *> > > SaveObject::s_listBegin() // 0x627681
 {
     mangled_assert("?s_listBegin@SaveObject@@SG?AV?$_List_const_iterator@V?$_List_val@U?$_List_simple_types@PAVSaveObject@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_List_const_iterator<std::_List_val<std::_List_simple_types<SaveObject *> > > __result = _sub_627681();
-    return __result;
 }
 
-_extern std::_List_const_iterator<std::_List_val<std::_List_simple_types<SaveObject *> > > _sub_627691();
 std::_List_const_iterator<std::_List_val<std::_List_simple_types<SaveObject *> > > SaveObject::s_listEnd() // 0x627691
 {
     mangled_assert("?s_listEnd@SaveObject@@SG?AV?$_List_const_iterator@V?$_List_val@U?$_List_simple_types@PAVSaveObject@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_List_const_iterator<std::_List_val<std::_List_simple_types<SaveObject *> > > __result = _sub_627691();
-    return __result;
 }
 
-_extern _sub_6271BA(SaveObject *const, bool);
 SaveObject::SaveObject(bool) // 0x6271BA
 {
     mangled_assert("??0SaveObject@@QAE@_N@Z");
     todo("implement");
-    _sub_6271BA(this, arg);
 }
 
-_extern void _sub_627208(std::_List_buy<SaveObject *,std::allocator<SaveObject *> > *const);
 _inline std::_List_buy<SaveObject *,std::allocator<SaveObject *> >::~_List_buy<SaveObject *,std::allocator<SaveObject *> >() // 0x627208
 {
     mangled_assert("??1?$_List_buy@PAVSaveObject@@V?$allocator@PAVSaveObject@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_627208(this);
 }
 
-_extern void _sub_62723B(SaveObject *const);
 SaveObject::~SaveObject() // 0x62723B
 {
     mangled_assert("??1SaveObject@@UAE@XZ");
     todo("implement");
-    _sub_62723B(this);
 }
 
-_extern void _sub_6272D9(SaveObject *const);
 void SaveObject::Link() // 0x6272D9
 {
     mangled_assert("?Link@SaveObject@@QAEXXZ");
     todo("implement");
-    _sub_6272D9(this);
 }
 
-_extern void _sub_627307(SaveObject *const);
 void SaveObject::Unlink() // 0x627307
 {
     mangled_assert("?Unlink@SaveObject@@QAEXXZ");
     todo("implement");
-    _sub_627307(this);
 }
 
 /* ---------- private code */
 
-_extern bool _sub_62727C(_ULARGE_INTEGER const &, _ULARGE_INTEGER const &);
 _static bool operator<(_ULARGE_INTEGER const &a, _ULARGE_INTEGER const &b) // 0x62727C
 {
     mangled_assert("operator<");
     todo("implement");
-    bool __result = _sub_62727C(a, b);
-    return __result;
 }
 
-_extern bool _sub_6272D4(SaveType, unsigned __int32);
 _static bool GameIO_DebugCheckCRC(SaveType save_type, unsigned __int32 compareCRC) // 0x6272D4
 {
     mangled_assert("GameIO_DebugCheckCRC");
     todo("implement");
-    bool __result = _sub_6272D4(save_type, compareCRC);
-    return __result;
 }
 #endif

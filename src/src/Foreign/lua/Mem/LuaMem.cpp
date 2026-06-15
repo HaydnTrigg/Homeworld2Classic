@@ -36,39 +36,29 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_1000D1BB(void *);
 void luaOverload_free(void *buffer) // 0x1000D1BB
 {
     mangled_assert("_luaOverload_free@4");
     todo("implement");
-    _sub_1000D1BB(buffer);
 }
 
-_extern void *_sub_1000D1D6(void *, unsigned __int32);
 void *luaOverload_realloc(void *buffer, unsigned __int32 size) // 0x1000D1D6
 {
     mangled_assert("_luaOverload_realloc@8");
     todo("implement");
-    void * __result = _sub_1000D1D6(buffer, size);
-    return __result;
 }
 
-_extern void _sub_1000D223();
 void lua_exit() // 0x1000D223
 {
     mangled_assert("_lua_exit@0");
     todo("implement");
-    _sub_1000D223();
 }
 
 /* ---------- private code */
 
-_extern void *_sub_1000D196(unsigned __int32);
 _static void *alloc(unsigned __int32 size) // 0x1000D196
 {
     mangled_assert("alloc");
     todo("implement");
-    void * __result = _sub_1000D196(size);
-    return __result;
 }
 #endif

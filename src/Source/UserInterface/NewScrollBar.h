@@ -114,104 +114,76 @@ static_assert(sizeof(UI::ScrollBarTrackButton) == 1208, "Invalid UI::ScrollBarTr
 
 /* ---------- public code */
 
-_extern UI::InterfaceElement *_sub_6828FB(UI::NewScrollBar *const);
 _inline UI::InterfaceElement *UI::NewScrollBar::clone() // 0x6828FB
 {
     mangled_assert("?clone@NewScrollBar@UI@@UAEPAVInterfaceElement@2@XZ");
     todo("implement");
-    UI::InterfaceElement * __result = _sub_6828FB(this);
-    return __result;
 }
 
-_extern UI::ScrollBarOrientation _sub_68181A(UI::NewScrollBar const *const);
 _inline UI::ScrollBarOrientation UI::NewScrollBar::GetOrientation() const // 0x68181A
 {
     mangled_assert("?GetOrientation@NewScrollBar@UI@@QBE?AW4ScrollBarOrientation@2@XZ");
     todo("implement");
-    UI::ScrollBarOrientation __result = _sub_68181A(this);
-    return __result;
 }
 
-_extern void _sub_68C3AB(UI::NewScrollBar *const, __int32);
 _inline void UI::NewScrollBar::SetStepSize(__int32) // 0x68C3AB
 {
     mangled_assert("?SetStepSize@NewScrollBar@UI@@QAEXH@Z");
     todo("implement");
-    _sub_68C3AB(this, arg);
 }
 
-_extern void _sub_68C37F(UI::NewScrollBar *const, __int32);
 _inline void UI::NewScrollBar::SetPageSize(__int32) // 0x68C37F
 {
     mangled_assert("?SetPageSize@NewScrollBar@UI@@QAEXH@Z");
     todo("implement");
-    _sub_68C37F(this, arg);
 }
 
-_extern void _sub_578356(UI::NewScrollBar *const, void (*)(UI::InterfaceElement *, __int32));
 _inline void UI::NewScrollBar::ConnectOnScroll(void (*)(UI::InterfaceElement *, __int32)) // 0x578356
 {
     mangled_assert("?ConnectOnScroll@NewScrollBar@UI@@QAEXP6GXPAVInterfaceElement@2@H@Z@Z");
     todo("implement");
-    _sub_578356(this, arg);
 }
 
-_extern void _sub_578372(UI::NewScrollBar *const, void (*)(UI::InterfaceElement *));
 _inline void UI::NewScrollBar::ConnectOnTrackButtonReleased(void (*)(UI::InterfaceElement *)) // 0x578372
 {
     mangled_assert("?ConnectOnTrackButtonReleased@NewScrollBar@UI@@QAEXP6GXPAVInterfaceElement@2@@Z@Z");
     todo("implement");
-    _sub_578372(this, arg);
 }
 
-_extern UI::ScrollBarTrackButton *_sub_57FA3E(UI::NewScrollBar *const);
 _inline UI::ScrollBarTrackButton *UI::NewScrollBar::GetTrackButton() // 0x57FA3E
 {
     mangled_assert("?GetTrackButton@NewScrollBar@UI@@QAEPAVScrollBarTrackButton@2@XZ");
     todo("implement");
-    UI::ScrollBarTrackButton * __result = _sub_57FA3E(this);
-    return __result;
 }
 
-_extern void _sub_682201(UI::NewScrollBar *const);
 _inline void UI::NewScrollBar::OnMouseWheelUp() // 0x682201
 {
     mangled_assert("?OnMouseWheelUp@NewScrollBar@UI@@MAEXXZ");
     todo("implement");
-    _sub_682201(this);
 }
 
-_extern void _sub_6821F9(UI::NewScrollBar *const);
 _inline void UI::NewScrollBar::OnMouseWheelDown() // 0x6821F9
 {
     mangled_assert("?OnMouseWheelDown@NewScrollBar@UI@@MAEXXZ");
     todo("implement");
-    _sub_6821F9(this);
 }
 
-_extern void _sub_682316(UI::NewScrollBar *const, __int32);
 _inline void UI::NewScrollBar::OnScroll(__int32) // 0x682316
 {
     mangled_assert("?OnScroll@NewScrollBar@UI@@MAEXH@Z");
     todo("implement");
-    _sub_682316(this, arg);
 }
 
-_extern UI::InterfaceElement *_sub_682935(UI::ScrollBarTrackButton *const);
 _inline UI::InterfaceElement *UI::ScrollBarTrackButton::clone() // 0x682935
 {
     mangled_assert("?clone@ScrollBarTrackButton@UI@@UAEPAVInterfaceElement@2@XZ");
     todo("implement");
-    UI::InterfaceElement * __result = _sub_682935(this);
-    return __result;
 }
 
-_extern void _sub_6824B2(UI::ScrollBarTrackButton *const, UI::NewScrollBar *);
 _inline void UI::ScrollBarTrackButton::SetParentScrollBar(UI::NewScrollBar *) // 0x6824B2
 {
     mangled_assert("?SetParentScrollBar@ScrollBarTrackButton@UI@@QAEXPAVNewScrollBar@2@@Z");
     todo("implement");
-    _sub_6824B2(this, arg);
 }
 
 /* ---------- private code */

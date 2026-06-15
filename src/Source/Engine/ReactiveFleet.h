@@ -54,40 +54,28 @@ static_assert(sizeof(ReactiveFleet) == 48, "Invalid ReactiveFleet size");
 
 /* ---------- public code */
 
-_extern float _sub_7165FD(ReactiveFleet const *const);
 _inline float ReactiveFleet::getReactiveFleetSizeInRU() const // 0x7165FD
 {
     mangled_assert("?getReactiveFleetSizeInRU@ReactiveFleet@@QBEMXZ");
     todo("implement");
-    float __result = _sub_7165FD(this);
-    return __result;
 }
 
-_extern float _sub_7165F9(ReactiveFleet const *const);
 _inline float ReactiveFleet::getReactiveFleetExtraRU() const // 0x7165F9
 {
     mangled_assert("?getReactiveFleetExtraRU@ReactiveFleet@@QBEMXZ");
     todo("implement");
-    float __result = _sub_7165F9(this);
-    return __result;
 }
 
-_extern float _sub_7165F5(ReactiveFleet const *const);
 _inline float ReactiveFleet::getActualPlayerFleetSizeInRU() const // 0x7165F5
 {
     mangled_assert("?getActualPlayerFleetSizeInRU@ReactiveFleet@@QBEMXZ");
     todo("implement");
-    float __result = _sub_7165F5(this);
-    return __result;
 }
 
-_extern float _sub_7165F1(ReactiveFleet const *const);
 _inline float ReactiveFleet::getActualPlayerFleetExtraRU() const // 0x7165F1
 {
     mangled_assert("?getActualPlayerFleetExtraRU@ReactiveFleet@@QBEMXZ");
     todo("implement");
-    float __result = _sub_7165F1(this);
-    return __result;
 }
 
 /* ---------- private code */

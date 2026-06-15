@@ -81,13 +81,10 @@ static_assert(sizeof(CompiledText) == 8, "Invalid CompiledText size");
 
 /* ---------- public code */
 
-_extern bool _sub_1002B320(CompiledText::ColourLess const *const, vector4 const &, vector4 const &);
 _inline bool CompiledText::ColourLess::operator()(vector4 const &, vector4 const &) const // 0x1002B320
 {
     mangled_assert("??RColourLess@CompiledText@@QBE_NABVvector4@@0@Z");
     todo("implement");
-    bool __result = _sub_1002B320(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

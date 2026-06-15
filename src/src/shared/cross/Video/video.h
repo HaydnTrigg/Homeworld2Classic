@@ -34,12 +34,10 @@ static_assert(sizeof(Video) == 4, "Invalid Video size");
 
 /* ---------- public code */
 
-_extern _sub_6FC1FB(Video *const);
 _inline Video::Video() // 0x6FC1FB
 {
     mangled_assert("??0Video@@IAE@XZ");
     todo("implement");
-    _sub_6FC1FB(this);
 }
 
 /* ---------- private code */

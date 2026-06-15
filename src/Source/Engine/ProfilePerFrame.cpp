@@ -39,20 +39,16 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_5CB73C(Profile::ProfilePerFrame *const, char const *);
 Profile::ProfilePerFrame::ProfilePerFrame(char const *) // 0x5CB73C
 {
     mangled_assert("??0ProfilePerFrame@Profile@@QAE@PBD@Z");
     todo("implement");
-    _sub_5CB73C(this, arg);
 }
 
-_extern void _sub_5CB785(Profile::ProfilePerFrame *const);
 Profile::ProfilePerFrame::~ProfilePerFrame() // 0x5CB785
 {
     mangled_assert("??1ProfilePerFrame@Profile@@QAE@XZ");
     todo("implement");
-    _sub_5CB785(this);
 }
 
 /* ---------- private code */

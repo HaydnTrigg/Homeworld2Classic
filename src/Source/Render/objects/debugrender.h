@@ -269,68 +269,52 @@ static_assert(sizeof(DebugRenderProxy) == 4, "Invalid DebugRenderProxy size");
 
 /* ---------- public code */
 
-_extern _sub_648CF6(DebugRender::Line2D *const);
 _inline DebugRender::Line2D::Line2D() // 0x648CF6
 {
     mangled_assert("??0Line2D@DebugRender@@QAE@XZ");
     todo("implement");
-    _sub_648CF6(this);
 }
 
-_extern _sub_648D31(DebugRender::Tri2D *const);
 _inline DebugRender::Tri2D::Tri2D() // 0x648D31
 {
     mangled_assert("??0Tri2D@DebugRender@@QAE@XZ");
     todo("implement");
-    _sub_648D31(this);
 }
 
-_extern _sub_52DAFE(DebugRender::Line *const, vector3 const &, vector3 const &, vector4 &);
 _inline DebugRender::Line::Line(vector3 const &, vector3 const &, vector4 &) // 0x52DAFE
 {
     mangled_assert("??0Line@DebugRender@@QAE@ABVvector3@@0AAVvector4@@@Z");
     todo("implement");
-    _sub_52DAFE(this, arg, arg, arg);
 }
 
-_extern _sub_4BE1CD(DebugRender::Tri *const, vector3 const &, vector3 const &, vector3 const &, vector4 const &);
 _inline DebugRender::Tri::Tri(vector3 const &, vector3 const &, vector3 const &, vector4 const &) // 0x4BE1CD
 {
     mangled_assert("??0Tri@DebugRender@@QAE@ABVvector3@@00ABVvector4@@@Z");
     todo("implement");
-    _sub_4BE1CD(this, arg, arg, arg, arg);
 }
 
-_extern _sub_4BDFA6(DebugRender::Cube *const, vector3 *, vector4 const &);
 _inline DebugRender::Cube::Cube(vector3 *, vector4 const &) // 0x4BDFA6
 {
     mangled_assert("??0Cube@DebugRender@@QAE@PAVvector3@@ABVvector4@@@Z");
     todo("implement");
-    _sub_4BDFA6(this, arg, arg);
 }
 
-_extern _sub_528FB5(DebugRender::Text2D *const, vector2 const &, char const *, vector4 &, DebugRender::Justification, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *);
 _inline DebugRender::Text2D::Text2D(vector2 const &, char const *, vector4 &, DebugRender::Justification, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *) // 0x528FB5
 {
     mangled_assert("??0Text2D@DebugRender@@QAE@ABVvector2@@PBDAAVvector4@@W4Justification@1@PBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    _sub_528FB5(this, arg, arg, arg, arg, arg);
 }
 
-_extern _sub_6492FC(DebugRender::WText2D *const, vector2 const &, wchar_t const *, vector4 &, DebugRender::Justification, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *);
 _inline DebugRender::WText2D::WText2D(vector2 const &, wchar_t const *, vector4 &, DebugRender::Justification, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *) // 0x6492FC
 {
     mangled_assert("??0WText2D@DebugRender@@QAE@ABVvector2@@PB_WAAVvector4@@W4Justification@1@PBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    _sub_6492FC(this, arg, arg, arg, arg, arg);
 }
 
-_extern _sub_648CF9(DebugRender::Texture2D *const, vector2 const &, vector2 const &, Texture *, vector4);
 _inline DebugRender::Texture2D::Texture2D(vector2 const &, vector2 const &, Texture *, vector4) // 0x648CF9
 {
     mangled_assert("??0Texture2D@DebugRender@@QAE@ABVvector2@@0PAVTexture@@Vvector4@@@Z");
     todo("implement");
-    _sub_648CF9(this, arg, arg, arg, arg);
 }
 
 /* ---------- private code */
@@ -607,44 +591,34 @@ static_assert(sizeof(DebugRenderProxy) == 4, "Invalid DebugRenderProxy size");
 
 /* ---------- public code */
 
-_extern _sub_1003E070(DebugRender::Line2D *const);
 _inline DebugRender::Line2D::Line2D() // 0x1003E070
 {
     mangled_assert("??0Line2D@DebugRender@@QAE@XZ");
     todo("implement");
-    _sub_1003E070(this);
 }
 
-_extern _sub_10033CD0(DebugRender::Lines2DDupeVerts *const);
 _inline DebugRender::Lines2DDupeVerts::Lines2DDupeVerts() // 0x10033CD0
 {
     mangled_assert("??0Lines2DDupeVerts@DebugRender@@QAE@XZ");
     todo("implement");
-    _sub_10033CD0(this);
 }
 
-_extern _sub_10033D30(DebugRender::Tris2DDupeVerts *const);
 _inline DebugRender::Tris2DDupeVerts::Tris2DDupeVerts() // 0x10033D30
 {
     mangled_assert("??0Tris2DDupeVerts@DebugRender@@QAE@XZ");
     todo("implement");
-    _sub_10033D30(this);
 }
 
-_extern _sub_1003E080(DebugRender::Line *const);
 _inline DebugRender::Line::Line() // 0x1003E080
 {
     mangled_assert("??0Line@DebugRender@@QAE@XZ");
     todo("implement");
-    _sub_1003E080(this);
 }
 
-_extern _sub_1006F430(DebugRender::Text2D *const, vector2 const &, char const *, vector4 &, DebugRender::Justification, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *);
 _inline DebugRender::Text2D::Text2D(vector2 const &, char const *, vector4 &, DebugRender::Justification, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *) // 0x1006F430
 {
     mangled_assert("??0Text2D@DebugRender@@QAE@ABVvector2@@PBDAAVvector4@@W4Justification@1@PBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    _sub_1006F430(this, arg, arg, arg, arg, arg);
 }
 
 /* ---------- private code */

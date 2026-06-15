@@ -51,13 +51,10 @@ static_assert(sizeof(ModifierAbility) == 20, "Invalid ModifierAbility size");
 
 /* ---------- public code */
 
-_extern AbilityType _sub_56F63E(ModifierAbility const *const);
 _inline AbilityType ModifierAbility::getAbilityType() const // 0x56F63E
 {
     mangled_assert("?getAbilityType@ModifierAbility@@QBE?AW4AbilityType@@XZ");
     todo("implement");
-    AbilityType __result = _sub_56F63E(this);
-    return __result;
 }
 
 /* ---------- private code */

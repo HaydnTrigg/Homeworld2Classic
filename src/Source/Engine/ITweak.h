@@ -379,274 +379,184 @@ static_assert(sizeof(ITweak) == 1880, "Invalid ITweak size");
 
 /* ---------- public code */
 
-_extern ITweak::ResourceInfo const &_sub_48A6A7(ITweak const *const);
 _inline ITweak::ResourceInfo const &ITweak::GetResourceInfo() const // 0x48A6A7
 {
     mangled_assert("?GetResourceInfo@ITweak@@QBEABUResourceInfo@1@XZ");
     todo("implement");
-    ITweak::ResourceInfo const & __result = _sub_48A6A7(this);
-    return __result;
 }
 
-_extern ITweak::DustCloudInfo const &_sub_4A2EC8(ITweak const *const);
 _inline ITweak::DustCloudInfo const &ITweak::GetDustCloudInfo() const // 0x4A2EC8
 {
     mangled_assert("?GetDustCloudInfo@ITweak@@QBEABUDustCloudInfo@1@XZ");
     todo("implement");
-    ITweak::DustCloudInfo const & __result = _sub_4A2EC8(this);
-    return __result;
 }
 
-_extern ITweak::NebulaInfo const &_sub_4C0B7C(ITweak const *const);
 _inline ITweak::NebulaInfo const &ITweak::GetNebulaInfo() const // 0x4C0B7C
 {
     mangled_assert("?GetNebulaInfo@ITweak@@QBEABUNebulaInfo@1@XZ");
     todo("implement");
-    ITweak::NebulaInfo const & __result = _sub_4C0B7C(this);
-    return __result;
 }
 
-_extern ITweak::FormationInfo const &_sub_48A68E(ITweak const *const);
 _inline ITweak::FormationInfo const &ITweak::GetFormationInfo() const // 0x48A68E
 {
     mangled_assert("?GetFormationInfo@ITweak@@QBEABUFormationInfo@1@XZ");
     todo("implement");
-    ITweak::FormationInfo const & __result = _sub_48A68E(this);
-    return __result;
 }
 
-_extern ITweak::ShipInfo const &_sub_48A6B1(ITweak const *const);
 _inline ITweak::ShipInfo const &ITweak::GetShipInfo() const // 0x48A6B1
 {
     mangled_assert("?GetShipInfo@ITweak@@QBEABUShipInfo@1@XZ");
     todo("implement");
-    ITweak::ShipInfo const & __result = _sub_48A6B1(this);
-    return __result;
 }
 
-_extern ITweak::ShipControllerInfo const &_sub_4981B8(ITweak const *const);
 _inline ITweak::ShipControllerInfo const &ITweak::GetShipControllerInfo() const // 0x4981B8
 {
     mangled_assert("?GetShipControllerInfo@ITweak@@QBEABUShipControllerInfo@1@XZ");
     todo("implement");
-    ITweak::ShipControllerInfo const & __result = _sub_4981B8(this);
-    return __result;
 }
 
-_extern ITweak::DockingInfo const &_sub_4ACA6A(ITweak const *const);
 _inline ITweak::DockingInfo const &ITweak::GetDockingInfo() const // 0x4ACA6A
 {
     mangled_assert("?GetDockingInfo@ITweak@@QBEABUDockingInfo@1@XZ");
     todo("implement");
-    ITweak::DockingInfo const & __result = _sub_4ACA6A(this);
-    return __result;
 }
 
-_extern ITweak::LaunchingInfo const &_sub_5FBBF0(ITweak const *const);
 _inline ITweak::LaunchingInfo const &ITweak::GetLaunchingInfo() const // 0x5FBBF0
 {
     mangled_assert("?GetLaunchingInfo@ITweak@@QBEABULaunchingInfo@1@XZ");
     todo("implement");
-    ITweak::LaunchingInfo const & __result = _sub_5FBBF0(this);
-    return __result;
 }
 
-_extern ITweak::ParadeInfo const &_sub_4ACA71(ITweak const *const);
 _inline ITweak::ParadeInfo const &ITweak::GetParadeInfo() const // 0x4ACA71
 {
     mangled_assert("?GetParadeInfo@ITweak@@QBEABUParadeInfo@1@XZ");
     todo("implement");
-    ITweak::ParadeInfo const & __result = _sub_4ACA71(this);
-    return __result;
 }
 
-_extern ITweak::ResearchInfo const &_sub_4ED79E(ITweak const *const);
 _inline ITweak::ResearchInfo const &ITweak::GetResearchInfo() const // 0x4ED79E
 {
     mangled_assert("?GetResearchInfo@ITweak@@QBEABUResearchInfo@1@XZ");
     todo("implement");
-    ITweak::ResearchInfo const & __result = _sub_4ED79E(this);
-    return __result;
 }
 
-_extern ITweak::BuildInfo const &_sub_4B82E7(ITweak const *const);
 _inline ITweak::BuildInfo const &ITweak::GetBuildInfo() const // 0x4B82E7
 {
     mangled_assert("?GetBuildInfo@ITweak@@QBEABUBuildInfo@1@XZ");
     todo("implement");
-    ITweak::BuildInfo const & __result = _sub_4B82E7(this);
-    return __result;
 }
 
-_extern ITweak::AvoidanceInfo const &_sub_477BF4(ITweak const *const);
 _inline ITweak::AvoidanceInfo const &ITweak::GetAvoidanceInfo() const // 0x477BF4
 {
     mangled_assert("?GetAvoidanceInfo@ITweak@@QBEABUAvoidanceInfo@1@XZ");
     todo("implement");
-    ITweak::AvoidanceInfo const & __result = _sub_477BF4(this);
-    return __result;
 }
 
-_extern ITweak::OrderInfo const &_sub_5FBBFE(ITweak const *const);
 _inline ITweak::OrderInfo const &ITweak::GetOrderInfo() const // 0x5FBBFE
 {
     mangled_assert("?GetOrderInfo@ITweak@@QBEABUOrderInfo@1@XZ");
     todo("implement");
-    ITweak::OrderInfo const & __result = _sub_5FBBFE(this);
-    return __result;
 }
 
-_extern ITweak::WeaponFireInfo const &_sub_4A2ECC(ITweak const *const);
 _inline ITweak::WeaponFireInfo const &ITweak::GetWeaponFireInfo() const // 0x4A2ECC
 {
     mangled_assert("?GetWeaponFireInfo@ITweak@@QBEABUWeaponFireInfo@1@XZ");
     todo("implement");
-    ITweak::WeaponFireInfo const & __result = _sub_4A2ECC(this);
-    return __result;
 }
 
-_extern ITweak::HyperSpaceInfo const &_sub_48A695(ITweak const *const);
 _inline ITweak::HyperSpaceInfo const &ITweak::GetHyperSpaceInfo() const // 0x48A695
 {
     mangled_assert("?GetHyperSpaceInfo@ITweak@@QBEABUHyperSpaceInfo@1@XZ");
     todo("implement");
-    ITweak::HyperSpaceInfo const & __result = _sub_48A695(this);
-    return __result;
 }
 
-_extern ITweak::SensorPingInfo const &_sub_48A6AA(ITweak const *const);
 _inline ITweak::SensorPingInfo const &ITweak::GetSensorPingInfo() const // 0x48A6AA
 {
     mangled_assert("?GetSensorPingInfo@ITweak@@QBEABUSensorPingInfo@1@XZ");
     todo("implement");
-    ITweak::SensorPingInfo const & __result = _sub_48A6AA(this);
-    return __result;
 }
 
-_extern ITweak::CaptureInfo const &_sub_48459A(ITweak const *const);
 _inline ITweak::CaptureInfo const &ITweak::GetCaptureInfo() const // 0x48459A
 {
     mangled_assert("?GetCaptureInfo@ITweak@@QBEABUCaptureInfo@1@XZ");
     todo("implement");
-    ITweak::CaptureInfo const & __result = _sub_48459A(this);
-    return __result;
 }
 
-_extern ITweak::RepairInfo const &_sub_489129(ITweak const *const);
 _inline ITweak::RepairInfo const &ITweak::GetRepairInfo() const // 0x489129
 {
     mangled_assert("?GetRepairInfo@ITweak@@QBEABURepairInfo@1@XZ");
     todo("implement");
-    ITweak::RepairInfo const & __result = _sub_489129(this);
-    return __result;
 }
 
-_extern ITweak::UnitCapsInfo const &_sub_5FBE2A(ITweak const *const);
 _inline ITweak::UnitCapsInfo const &ITweak::GetUnitCapsInfo() const // 0x5FBE2A
 {
     mangled_assert("?GetUnitCapsInfo@ITweak@@QBEABUUnitCapsInfo@1@XZ");
     todo("implement");
-    ITweak::UnitCapsInfo const & __result = _sub_5FBE2A(this);
-    return __result;
 }
 
-_extern ITweak::AutoFormationInfo const &_sub_5FBBE2(ITweak const *const);
 _inline ITweak::AutoFormationInfo const &ITweak::GetAutoFormationInfo() const // 0x5FBBE2
 {
     mangled_assert("?GetAutoFormationInfo@ITweak@@QBEABUAutoFormationInfo@1@XZ");
     todo("implement");
-    ITweak::AutoFormationInfo const & __result = _sub_5FBBE2(this);
-    return __result;
 }
 
-_extern ITweak::EngineTrailInfo const &_sub_44021A(ITweak const *const);
 _inline ITweak::EngineTrailInfo const &ITweak::GetEngineTrailInfo() const // 0x44021A
 {
     mangled_assert("?GetEngineTrailInfo@ITweak@@QBEABUEngineTrailInfo@1@XZ");
     todo("implement");
-    ITweak::EngineTrailInfo const & __result = _sub_44021A(this);
-    return __result;
 }
 
-_extern ITweak::CombatInfo const &_sub_48A67F(ITweak const *const);
 _inline ITweak::CombatInfo const &ITweak::GetCombatInfo() const // 0x48A67F
 {
     mangled_assert("?GetCombatInfo@ITweak@@QBEABUCombatInfo@1@XZ");
     todo("implement");
-    ITweak::CombatInfo const & __result = _sub_48A67F(this);
-    return __result;
 }
 
-_extern ITweak::LatchInfo const &_sub_5FBBE9(ITweak const *const);
 _inline ITweak::LatchInfo const &ITweak::GetLatchInfo() const // 0x5FBBE9
 {
     mangled_assert("?GetLatchInfo@ITweak@@QBEABULatchInfo@1@XZ");
     todo("implement");
-    ITweak::LatchInfo const & __result = _sub_5FBBE9(this);
-    return __result;
 }
 
-_extern ITweak::StrikeGroupInfo const &_sub_50770E(ITweak const *const);
 _inline ITweak::StrikeGroupInfo const &ITweak::GetStrikeGroupInfo() const // 0x50770E
 {
     mangled_assert("?GetStrikeGroupInfo@ITweak@@QBEABUStrikeGroupInfo@1@XZ");
     todo("implement");
-    ITweak::StrikeGroupInfo const & __result = _sub_50770E(this);
-    return __result;
 }
 
-_extern ITweak::TimingInfo const &_sub_56E490(ITweak const *const);
 _inline ITweak::TimingInfo const &ITweak::GetTimingInfo() const // 0x56E490
 {
     mangled_assert("?GetTimingInfo@ITweak@@QBEABUTimingInfo@1@XZ");
     todo("implement");
-    ITweak::TimingInfo const & __result = _sub_56E490(this);
-    return __result;
 }
 
-_extern ITweak::MineLayingInfo const &_sub_5FBBF7(ITweak const *const);
 _inline ITweak::MineLayingInfo const &ITweak::GetMineLayingInfo() const // 0x5FBBF7
 {
     mangled_assert("?GetMineLayingInfo@ITweak@@QBEABUMineLayingInfo@1@XZ");
     todo("implement");
-    ITweak::MineLayingInfo const & __result = _sub_5FBBF7(this);
-    return __result;
 }
 
-_extern ITweak::CollisionInfo const &_sub_4E3F54(ITweak const *const);
 _inline ITweak::CollisionInfo const &ITweak::GetCollisionInfo() const // 0x4E3F54
 {
     mangled_assert("?GetCollisionInfo@ITweak@@QBEABUCollisionInfo@1@XZ");
     todo("implement");
-    ITweak::CollisionInfo const & __result = _sub_4E3F54(this);
-    return __result;
 }
 
-_extern ITweak::FXInfo const &_sub_4A6E27(ITweak const *const);
 _inline ITweak::FXInfo const &ITweak::GetFXInfo() const // 0x4A6E27
 {
     mangled_assert("?GetFXInfo@ITweak@@QBEABUFXInfo@1@XZ");
     todo("implement");
-    ITweak::FXInfo const & __result = _sub_4A6E27(this);
-    return __result;
 }
 
-_extern ITweak::MultiplierCapInfo const &_sub_4F1EA9(ITweak const *const);
 _inline ITweak::MultiplierCapInfo const &ITweak::GetMultiplierCapInfo() const // 0x4F1EA9
 {
     mangled_assert("?GetMultiplierCapInfo@ITweak@@QBEABUMultiplierCapInfo@1@XZ");
     todo("implement");
-    ITweak::MultiplierCapInfo const & __result = _sub_4F1EA9(this);
-    return __result;
 }
 
-_extern ITweak::AutoLODInfo const &_sub_56AC8C(ITweak const *const);
 _inline ITweak::AutoLODInfo const &ITweak::GetAutoLODInfo() const // 0x56AC8C
 {
     mangled_assert("?GetAutoLODInfo@ITweak@@QBEABUAutoLODInfo@1@XZ");
     todo("implement");
-    ITweak::AutoLODInfo const & __result = _sub_56AC8C(this);
-    return __result;
 }
 
 /* ---------- private code */

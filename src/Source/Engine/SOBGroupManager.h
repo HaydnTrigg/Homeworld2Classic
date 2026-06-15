@@ -83,40 +83,28 @@ static_assert(sizeof(SOBGroupManager) == 40, "Invalid SOBGroupManager size");
 
 /* ---------- public code */
 
-_extern std::_List_const_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,SOBGroup *> > > > _sub_5C6B19(SOBGroupManager const *const);
 _inline std::_List_const_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,SOBGroup *> > > > SOBGroupManager::begin() const // 0x5C6B19
 {
     mangled_assert("?begin@SOBGroupManager@@QBE?AV?$_List_const_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVSOBGroup@@@std@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_List_const_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,SOBGroup *> > > > __result = _sub_5C6B19(this);
-    return __result;
 }
 
-_extern std::_List_const_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,SOBGroup *> > > > _sub_5C6B5D(SOBGroupManager const *const);
 _inline std::_List_const_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,SOBGroup *> > > > SOBGroupManager::end() const // 0x5C6B5D
 {
     mangled_assert("?end@SOBGroupManager@@QBE?AV?$_List_const_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVSOBGroup@@@std@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_List_const_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,SOBGroup *> > > > __result = _sub_5C6B5D(this);
-    return __result;
 }
 
-_extern bool _sub_63AD6F(SOBGroupManager *const);
 _inline bool SOBGroupManager::isDeterministic() // 0x63AD6F
 {
     mangled_assert("?isDeterministic@SOBGroupManager@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_63AD6F(this);
-    return __result;
 }
 
-_extern char const *_sub_63AF79(SOBGroupManager *const);
 _inline char const *SOBGroupManager::saveToken() // 0x63AF79
 {
     mangled_assert("?saveToken@SOBGroupManager@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_63AF79(this);
-    return __result;
 }
 
 /* ---------- private code */

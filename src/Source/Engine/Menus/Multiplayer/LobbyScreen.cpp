@@ -483,457 +483,347 @@ static_assert(sizeof(UI::LobbyScreenGameDisabled) == 4, "Invalid UI::LobbyScreen
 
 /* ---------- public code */
 
-_extern bool _sub_5B62D9(UI::LobbyScreenGameDisabled *const, LobbySessionDesc const &);
 _inline bool UI::LobbyScreenGameDisabled::Test(LobbySessionDesc const &) // 0x5B62D9
 {
     mangled_assert("?Test@LobbyScreenGameDisabled@UI@@UAE_NABVLobbySessionDesc@@@Z");
     todo("implement");
-    bool __result = _sub_5B62D9(this, arg);
-    return __result;
 }
 
-_extern _sub_5B476D(UI::LobbyScreen::Data *const);
 _inline UI::LobbyScreen::Data::Data() // 0x5B476D
 {
     mangled_assert("??0Data@LobbyScreen@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B476D(this);
 }
 
-_extern _sub_5B47D5(UI::LobbyScreenView::GameDisableTest *const);
 _inline UI::LobbyScreenView::GameDisableTest::GameDisableTest() // 0x5B47D5
 {
     mangled_assert("??0GameDisableTest@LobbyScreenView@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B47D5(this);
 }
 
-_extern _sub_5B47DE(UI::LobbyScreen *const, char const *);
 UI::LobbyScreen::LobbyScreen(char const *) // 0x5B47DE
 {
     mangled_assert("??0LobbyScreen@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_5B47DE(this, arg);
 }
 
-_extern _sub_5B4995(UI::LobbyScreenGameDisabled *const);
 _inline UI::LobbyScreenGameDisabled::LobbyScreenGameDisabled() // 0x5B4995
 {
     mangled_assert("??0LobbyScreenGameDisabled@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B4995(this);
 }
 
-_extern void _sub_5B49C5(std::_Tree_buy<std::pair<unsigned __int64 const ,LobbySessionDesc>,std::allocator<std::pair<unsigned __int64 const ,LobbySessionDesc> > > *const);
 _inline std::_Tree_buy<std::pair<unsigned __int64 const ,LobbySessionDesc>,std::allocator<std::pair<unsigned __int64 const ,LobbySessionDesc> > >::~_Tree_buy<std::pair<unsigned __int64 const ,LobbySessionDesc>,std::allocator<std::pair<unsigned __int64 const ,LobbySessionDesc> > >() // 0x5B49C5
 {
     mangled_assert("??1?$_Tree_buy@U?$pair@$$CB_KVLobbySessionDesc@@@std@@V?$allocator@U?$pair@$$CB_KVLobbySessionDesc@@@std@@@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B49C5(this);
 }
 
-_extern void _sub_5B49CE(std::_Tree_comp<0,std::_Tmap_traits<unsigned __int64,LobbySessionDesc,std::less<unsigned __int64>,std::allocator<std::pair<unsigned __int64 const ,LobbySessionDesc> >,0> > *const);
 _inline std::_Tree_comp<0,std::_Tmap_traits<unsigned __int64,LobbySessionDesc,std::less<unsigned __int64>,std::allocator<std::pair<unsigned __int64 const ,LobbySessionDesc> >,0> >::~_Tree_comp<0,std::_Tmap_traits<unsigned __int64,LobbySessionDesc,std::less<unsigned __int64>,std::allocator<std::pair<unsigned __int64 const ,LobbySessionDesc> >,0> >() // 0x5B49CE
 {
     mangled_assert("??1?$_Tree_comp@$0A@V?$_Tmap_traits@_KVLobbySessionDesc@@U?$less@_K@std@@V?$allocator@U?$pair@$$CB_KVLobbySessionDesc@@@std@@@3@$0A@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B49CE(this);
 }
 
-_extern void _sub_5B49D7(std::map<unsigned __int64,LobbySessionDesc,std::less<unsigned __int64>,std::allocator<std::pair<unsigned __int64 const ,LobbySessionDesc> > > *const);
 _inline std::map<unsigned __int64,LobbySessionDesc,std::less<unsigned __int64>,std::allocator<std::pair<unsigned __int64 const ,LobbySessionDesc> > >::~map<unsigned __int64,LobbySessionDesc,std::less<unsigned __int64>,std::allocator<std::pair<unsigned __int64 const ,LobbySessionDesc> > >() // 0x5B49D7
 {
     mangled_assert("??1?$map@_KVLobbySessionDesc@@U?$less@_K@std@@V?$allocator@U?$pair@$$CB_KVLobbySessionDesc@@@std@@@3@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B49D7(this);
 }
 
-_extern void _sub_5B49DC(std::pair<unsigned __int64 const ,LobbySessionDesc> *const);
 _inline std::pair<unsigned __int64 const ,LobbySessionDesc>::~pair<unsigned __int64 const ,LobbySessionDesc>() // 0x5B49DC
 {
     mangled_assert("??1?$pair@$$CB_KVLobbySessionDesc@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B49DC(this);
 }
 
-_extern void _sub_5B49E4(UI::LobbyScreen::Data *const);
 _inline UI::LobbyScreen::Data::~Data() // 0x5B49E4
 {
     mangled_assert("??1Data@LobbyScreen@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B49E4(this);
 }
 
-_extern void _sub_5B4A1B(UI::LobbyScreen *const);
 UI::LobbyScreen::~LobbyScreen() // 0x5B4A1B
 {
     mangled_assert("??1LobbyScreen@UI@@UAE@XZ");
     todo("implement");
-    _sub_5B4A1B(this);
 }
 
-_extern void _sub_5B4AEA(UI::LobbyScreenDoc *const);
 _inline UI::LobbyScreenDoc::~LobbyScreenDoc() // 0x5B4AEA
 {
     mangled_assert("??1LobbyScreenDoc@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B4AEA(this);
 }
 
-_extern void _sub_5B6109(UI::LobbyScreen *const, LuaConfig &);
 void UI::LobbyScreen::OnPreLoadFile(LuaConfig &) // 0x5B6109
 {
     mangled_assert("?OnPreLoadFile@LobbyScreen@UI@@MAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_5B6109(this, arg);
 }
 
-_extern void _sub_5B5583(UI::LobbyScreen *const, LuaConfig &);
 void UI::LobbyScreen::OnLoad(LuaConfig &) // 0x5B5583
 {
     mangled_assert("?OnLoad@LobbyScreen@UI@@MAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_5B5583(this, arg);
 }
 
-_extern void _sub_5B5DAC(UI::LobbyScreen *const);
 void UI::LobbyScreen::OnPostLoad() // 0x5B5DAC
 {
     mangled_assert("?OnPostLoad@LobbyScreen@UI@@MAEXXZ");
     todo("implement");
-    _sub_5B5DAC(this);
 }
 
-_extern void _sub_5B5D09(UI::LobbyScreen *const, bool);
 void UI::LobbyScreen::OnPostActivate(bool) // 0x5B5D09
 {
     mangled_assert("?OnPostActivate@LobbyScreen@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_5B5D09(this, arg);
 }
 
-_extern void _sub_5B4F94(UI::LobbyScreen *const, bool);
 void UI::LobbyScreen::OnActivate(bool) // 0x5B4F94
 {
     mangled_assert("?OnActivate@LobbyScreen@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_5B4F94(this, arg);
 }
 
-_extern void _sub_5B4C6D(UI::LobbyScreen *const);
 void UI::LobbyScreen::DoActivatedAndJoined() // 0x5B4C6D
 {
     mangled_assert("?DoActivatedAndJoined@LobbyScreen@UI@@AAEXXZ");
     todo("implement");
-    _sub_5B4C6D(this);
 }
 
-_extern void _sub_5B6347(UI::LobbyScreen *const, unsigned __int32);
 void UI::LobbyScreen::Update(unsigned __int32) // 0x5B6347
 {
     mangled_assert("?Update@LobbyScreen@UI@@UAEXI@Z");
     todo("implement");
-    _sub_5B6347(this, arg);
 }
 
-_extern UI::LobbyScreenView *_sub_5B4F87(UI::LobbyScreen *const);
 UI::LobbyScreenView *UI::LobbyScreen::GetView() // 0x5B4F87
 {
     mangled_assert("?GetView@LobbyScreen@UI@@QAEPAVLobbyScreenView@2@XZ");
     todo("implement");
-    UI::LobbyScreenView * __result = _sub_5B4F87(this);
-    return __result;
 }
 
-_extern void _sub_5B6256(UI::LobbyScreen *const, char const *);
 void UI::LobbyScreen::SetPreviousScreen(char const *) // 0x5B6256
 {
     mangled_assert("?SetPreviousScreen@LobbyScreen@UI@@QAEXPBD@Z");
     todo("implement");
-    _sub_5B6256(this, arg);
 }
 
-_extern void _sub_5B628E(UI::LobbyScreen *const, wchar_t const *);
 void UI::LobbyScreen::SetRoomName(wchar_t const *) // 0x5B628E
 {
     mangled_assert("?SetRoomName@LobbyScreen@UI@@QAEXPB_W@Z");
     todo("implement");
-    _sub_5B628E(this, arg);
 }
 
-_extern void _sub_5B627B(UI::LobbyScreen *const, unsigned __int32);
 void UI::LobbyScreen::SetRoomID(unsigned __int32) // 0x5B627B
 {
     mangled_assert("?SetRoomID@LobbyScreen@UI@@QAEXI@Z");
     todo("implement");
-    _sub_5B627B(this, arg);
 }
 
-_extern void _sub_5B61C8(UI::LobbyScreen *const, bool);
 void UI::LobbyScreen::SetIsLanGame(bool) // 0x5B61C8
 {
     mangled_assert("?SetIsLanGame@LobbyScreen@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_5B61C8(this, arg);
 }
 
-_extern void _sub_5B6243(UI::LobbyScreen *const, bool);
 void UI::LobbyScreen::SetJoinRoom(bool) // 0x5B6243
 {
     mangled_assert("?SetJoinRoom@LobbyScreen@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_5B6243(this, arg);
 }
 
-_extern void _sub_5B4CA0(UI::LobbyScreen *const);
 void UI::LobbyScreen::DoConnect() // 0x5B4CA0
 {
     mangled_assert("?DoConnect@LobbyScreen@UI@@AAEXXZ");
     todo("implement");
-    _sub_5B4CA0(this);
 }
 
-_extern void _sub_5B4DF7(UI::LobbyScreen *const);
 void UI::LobbyScreen::DoConnectCancel() // 0x5B4DF7
 {
     mangled_assert("?DoConnectCancel@LobbyScreen@UI@@AAEXXZ");
     todo("implement");
-    _sub_5B4DF7(this);
 }
 
-_extern void _sub_5B5078(UI::InterfaceElement *);
 void UI::LobbyScreen::OnBackClicked(UI::InterfaceElement *sender) // 0x5B5078
 {
     mangled_assert("?OnBackClicked@LobbyScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B5078(sender);
 }
 
-_extern void _sub_5B5411(UI::InterfaceElement *);
 void UI::LobbyScreen::OnJoinGameClicked(UI::InterfaceElement *sender) // 0x5B5411
 {
     mangled_assert("?OnJoinGameClicked@LobbyScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B5411(sender);
 }
 
-_extern void _sub_5B5C11(UI::InterfaceElement *);
 void UI::LobbyScreen::OnPasswordClicked_Join(UI::InterfaceElement *sender) // 0x5B5C11
 {
     mangled_assert("?OnPasswordClicked_Join@LobbyScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B5C11(sender);
 }
 
-_extern void _sub_5B59C5(UI::InterfaceElement *);
 void UI::LobbyScreen::OnPasswordClicked_Host(UI::InterfaceElement *sender) // 0x5B59C5
 {
     mangled_assert("?OnPasswordClicked_Host@LobbyScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B59C5(sender);
 }
 
-_extern void _sub_5B4E08(UI::LobbyScreen *const, unsigned long long, wchar_t const *);
 void UI::LobbyScreen::DoJoinGame(unsigned long long, wchar_t const *) // 0x5B4E08
 {
     mangled_assert("?DoJoinGame@LobbyScreen@UI@@AAEX_KPB_W@Z");
     todo("implement");
-    _sub_5B4E08(this, arg, arg);
 }
 
-_extern void _sub_5B4F29(UI::LobbyScreen *const);
 void UI::LobbyScreen::DoRefreshGames() // 0x5B4F29
 {
     mangled_assert("?DoRefreshGames@LobbyScreen@UI@@AAEXXZ");
     todo("implement");
-    _sub_5B4F29(this);
 }
 
-_extern void _sub_5B536C(UI::InterfaceElement *);
 void UI::LobbyScreen::OnHostGameClicked(UI::InterfaceElement *sender) // 0x5B536C
 {
     mangled_assert("?OnHostGameClicked@LobbyScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B536C(sender);
 }
 
-_extern void _sub_5B6198(UI::InterfaceElement *);
 void UI::LobbyScreen::OnSendClicked(UI::InterfaceElement *sender) // 0x5B6198
 {
     mangled_assert("?OnSendClicked@LobbyScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B6198(sender);
 }
 
-_extern void _sub_5B51E7(UI::InterfaceElement *);
 void UI::LobbyScreen::OnFiltersClicked(UI::InterfaceElement *sender) // 0x5B51E7
 {
     mangled_assert("?OnFiltersClicked@LobbyScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B51E7(sender);
 }
 
-_extern void _sub_5B6162(UI::InterfaceElement *);
 void UI::LobbyScreen::OnRefreshClicked(UI::InterfaceElement *sender) // 0x5B6162
 {
     mangled_assert("?OnRefreshClicked@LobbyScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B6162(sender);
 }
 
-_extern void _sub_5B525D(UI::InterfaceElement *);
 void UI::LobbyScreen::OnGameInfoClicked(UI::InterfaceElement *sender) // 0x5B525D
 {
     mangled_assert("?OnGameInfoClicked@LobbyScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B525D(sender);
 }
 
-_extern void _sub_5B5157(UI::InterfaceElement *);
 void UI::LobbyScreen::OnErrorClicked_BackToMainMenu(UI::InterfaceElement *sender) // 0x5B5157
 {
     mangled_assert("?OnErrorClicked_BackToMainMenu@LobbyScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B5157(sender);
 }
 
-_extern void _sub_5B518E(UI::InterfaceElement *);
 void UI::LobbyScreen::OnFilterClicked_Accept(UI::InterfaceElement *sender) // 0x5B518E
 {
     mangled_assert("?OnFilterClicked_Accept@LobbyScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B518E(sender);
 }
 
-_extern void _sub_5B618C(UI::InterfaceElement *, __int32, __int32, unsigned __int32);
 void UI::LobbyScreen::OnRowDoubleClicked(UI::InterfaceElement *sender, __int32 x, __int32 y, unsigned __int32 b) // 0x5B618C
 {
     mangled_assert("?OnRowDoubleClicked@LobbyScreen@UI@@SGXPAVInterfaceElement@2@HHI@Z");
     todo("implement");
-    _sub_5B618C(sender, x, y, b);
 }
 
-_extern void _sub_5B5796(LobbyEvent * const, wchar_t const *, bool);
 void UI::LobbyScreen::OnLobbyPlayerConnect(wchar_t const *, bool) // 0x5B5796
 {
     mangled_assert("?OnLobbyPlayerConnect@LobbyScreen@UI@@EAEXPB_W_N@Z");
     // __shifted(UI::LobbyScreen, 412);
     todo("implement");
-    _sub_5B5796(this, arg, arg);
 }
 
-_extern void _sub_5B57C2(LobbyEvent * const, wchar_t const *);
 void UI::LobbyScreen::OnLobbyPlayerDisconnect(wchar_t const *) // 0x5B57C2
 {
     mangled_assert("?OnLobbyPlayerDisconnect@LobbyScreen@UI@@EAEXPB_W@Z");
     // __shifted(UI::LobbyScreen, 412);
     todo("implement");
-    _sub_5B57C2(this, arg);
 }
 
-_extern void _sub_5B578C(LobbyEvent * const, wchar_t const *);
 void UI::LobbyScreen::OnLobbyPlayerChanged(wchar_t const *) // 0x5B578C
 {
     mangled_assert("?OnLobbyPlayerChanged@LobbyScreen@UI@@EAEXPB_W@Z");
     // __shifted(UI::LobbyScreen, 412);
     todo("implement");
-    _sub_5B578C(this, arg);
 }
 
-_extern void _sub_5B56AC(LobbyEvent * const, LobbyChatType, wchar_t const *, wchar_t const *);
 void UI::LobbyScreen::OnLobbyChat(LobbyChatType, wchar_t const *, wchar_t const *) // 0x5B56AC
 {
     mangled_assert("?OnLobbyChat@LobbyScreen@UI@@EAEXW4LobbyChatType@@PB_W1@Z");
     // __shifted(UI::LobbyScreen, 412);
     todo("implement");
-    _sub_5B56AC(this, arg, arg, arg);
 }
 
-_extern void _sub_5B56CA(LobbyEvent * const, wchar_t const *);
 void UI::LobbyScreen::OnLobbyDisconnected(wchar_t const *) // 0x5B56CA
 {
     mangled_assert("?OnLobbyDisconnected@LobbyScreen@UI@@EAEXPB_W@Z");
     // __shifted(UI::LobbyScreen, 412);
     todo("implement");
-    _sub_5B56CA(this, arg);
 }
 
-_extern void _sub_5B5863(LobbyEvent * const, LobbySessionDesc const &, unsigned long long);
 void UI::LobbyScreen::OnLobbySessionAdded(LobbySessionDesc const &, unsigned long long) // 0x5B5863
 {
     mangled_assert("?OnLobbySessionAdded@LobbyScreen@UI@@EAEXABVLobbySessionDesc@@_K@Z");
     // __shifted(UI::LobbyScreen, 412);
     todo("implement");
-    _sub_5B5863(this, arg, arg);
 }
 
-_extern void _sub_5B5892(LobbyEvent * const, LobbySessionDesc const &, unsigned long long);
 void UI::LobbyScreen::OnLobbySessionAddedDirect(LobbySessionDesc const &, unsigned long long) // 0x5B5892
 {
     mangled_assert("?OnLobbySessionAddedDirect@LobbyScreen@UI@@EAEXABVLobbySessionDesc@@_K@Z");
     // __shifted(UI::LobbyScreen, 412);
     todo("implement");
-    _sub_5B5892(this, arg, arg);
 }
 
-_extern void _sub_5B58C1(LobbyEvent * const, unsigned long long);
 void UI::LobbyScreen::OnLobbySessionDeleted(unsigned long long) // 0x5B58C1
 {
     mangled_assert("?OnLobbySessionDeleted@LobbyScreen@UI@@EAEX_K@Z");
     // __shifted(UI::LobbyScreen, 412);
     todo("implement");
-    _sub_5B58C1(this, arg);
 }
 
-_extern void _sub_5B58EC(LobbyEvent * const, unsigned long long);
 void UI::LobbyScreen::OnLobbySessionUpdated(unsigned long long) // 0x5B58EC
 {
     mangled_assert("?OnLobbySessionUpdated@LobbyScreen@UI@@EAEX_K@Z");
     // __shifted(UI::LobbyScreen, 412);
     todo("implement");
-    _sub_5B58EC(this, arg);
 }
 
-_extern void _sub_5B57ED(LobbyEvent * const, LobbyRoomType, bool);
 void UI::LobbyScreen::OnLobbyRoomJoinedResult(LobbyRoomType, bool) // 0x5B57ED
 {
     mangled_assert("?OnLobbyRoomJoinedResult@LobbyScreen@UI@@EAEXW4LobbyRoomType@@_N@Z");
     // __shifted(UI::LobbyScreen, 412);
     todo("implement");
-    _sub_5B57ED(this, arg, arg);
 }
 
-_extern void _sub_5B50E3(UI::InterfaceElement *);
 void UI::LobbyScreen::OnErrorClicked_Back(UI::InterfaceElement *sender) // 0x5B50E3
 {
     mangled_assert("?OnErrorClicked_Back@LobbyScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B50E3(sender);
 }
 
-_extern void _sub_5B62A5(bool);
 void UI::LobbyScreen::Show(bool isLanGame) // 0x5B62A5
 {
     mangled_assert("?Show@LobbyScreen@UI@@SGX_N@Z");
     todo("implement");
-    _sub_5B62A5(isLanGame);
 }
 
-_extern void _sub_5B4C10(UI::LobbyScreen *const, std::vector<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >,std::allocator<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > > > const &);
 void UI::LobbyScreen::AddChatMessages(std::vector<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >,std::allocator<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > > > const &) // 0x5B4C10
 {
     mangled_assert("?AddChatMessages@LobbyScreen@UI@@QAEXABV?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Z");
     todo("implement");
-    _sub_5B4C10(this, arg);
 }
 
 /* ---------- private code */

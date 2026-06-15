@@ -392,54 +392,40 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_100073C6(CompressionStream *const, CompressionStream::Mode);
 CompressionStream::CompressionStream(CompressionStream::Mode) // 0x100073C6
 {
     mangled_assert("??0CompressionStream@@QAE@W4Mode@0@@Z");
     todo("implement");
-    _sub_100073C6(this, arg);
 }
 
-_extern void _sub_10007438(CompressionStream *const);
 CompressionStream::~CompressionStream() // 0x10007438
 {
     mangled_assert("??1CompressionStream@@QAE@XZ");
     todo("implement");
-    _sub_10007438(this);
 }
 
-_extern void _sub_10007531(CompressionStream *const, void const *, unsigned __int32, bool);
 void CompressionStream::SetCompressInput(void const *, unsigned __int32, bool) // 0x10007531
 {
     mangled_assert("?SetCompressInput@CompressionStream@@QAEXPBXI_N@Z");
     todo("implement");
-    _sub_10007531(this, arg, arg, arg);
 }
 
-_extern unsigned long _sub_10007463(CompressionStream *const, void *, unsigned long);
 unsigned long CompressionStream::ReadCompressed(void *, unsigned long) // 0x10007463
 {
     mangled_assert("?ReadCompressed@CompressionStream@@QAEKPAXK@Z");
     todo("implement");
-    unsigned long __result = _sub_10007463(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_10007555(CompressionStream *const, void const *, unsigned __int32);
 void CompressionStream::SetExpandInput(void const *, unsigned __int32) // 0x10007555
 {
     mangled_assert("?SetExpandInput@CompressionStream@@QAEXPBXI@Z");
     todo("implement");
-    _sub_10007555(this, arg, arg);
 }
 
-_extern unsigned long _sub_100074CF(CompressionStream *const, void *, unsigned long);
 unsigned long CompressionStream::ReadExpanded(void *, unsigned long) // 0x100074CF
 {
     mangled_assert("?ReadExpanded@CompressionStream@@QAEKPAXK@Z");
     todo("implement");
-    unsigned long __result = _sub_100074CF(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

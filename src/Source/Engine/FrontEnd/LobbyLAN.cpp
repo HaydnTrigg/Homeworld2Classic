@@ -445,335 +445,243 @@ static_assert(sizeof(EnumInfo) == 196, "Invalid EnumInfo size");
 
 /* ---------- public code */
 
-_extern _sub_471ACC(LobbyLAN *const);
 LobbyLAN::LobbyLAN() // 0x471ACC
 {
     mangled_assert("??0LobbyLAN@@QAE@XZ");
     todo("implement");
-    _sub_471ACC(this);
 }
 
-_extern _sub_471B39(Net::SessionInfo *const, Net::SessionInfo const &);
 _inline Net::SessionInfo::SessionInfo(Net::SessionInfo const &) // 0x471B39
 {
     mangled_assert("??0SessionInfo@Net@@QAE@ABU01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_471B39(this, arg);
 }
 
-_extern void _sub_471BE1(LobbyLAN *const);
 LobbyLAN::~LobbyLAN() // 0x471BE1
 {
     mangled_assert("??1LobbyLAN@@UAE@XZ");
     todo("implement");
-    _sub_471BE1(this);
 }
 
-_extern void _sub_471C1A(Net::SessionInfo *const);
 _inline Net::SessionInfo::~SessionInfo() // 0x471C1A
 {
     mangled_assert("??1SessionInfo@Net@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_471C1A(this);
 }
 
-_extern Net::Address &_sub_471CC4(Net::Address *const, Net::Address const &);
 _inline Net::Address &Net::Address::operator=(Net::Address const &) // 0x471CC4
 {
     mangled_assert("??4Address@Net@@QAEAAV01@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    Net::Address & __result = _sub_471CC4(this, arg);
-    return __result;
 }
 
-_extern Net::SessionInfo &_sub_471CD6(Net::SessionInfo *const, Net::SessionInfo const &);
 _inline Net::SessionInfo &Net::SessionInfo::operator=(Net::SessionInfo const &) // 0x471CD6
 {
     mangled_assert("??4SessionInfo@Net@@QAEAAU01@ABU01@@Z");
     compiler_generated();
     todo("implement");
-    Net::SessionInfo & __result = _sub_471CD6(this, arg);
-    return __result;
 }
 
-_extern void _sub_4722F0(LobbyLAN *const);
 void LobbyLAN::Think() // 0x4722F0
 {
     mangled_assert("?Think@LobbyLAN@@UAEXXZ");
     todo("implement");
-    _sub_4722F0(this);
 }
 
-_extern bool _sub_471E59(LobbyLAN *const, BufferMessage &);
 bool LobbyLAN::GetMessage(BufferMessage &) // 0x471E59
 {
     mangled_assert("?GetMessage@LobbyLAN@@UAE_NAAVBufferMessage@@@Z");
     todo("implement");
-    bool __result = _sub_471E59(this, arg);
-    return __result;
 }
 
-_extern _sub_471AB1(Net::Address *const, Net::Address const &);
 _inline Net::Address::Address(Net::Address const &) // 0x471AB1
 {
     mangled_assert("??0Address@Net@@QAE@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_471AB1(this, arg);
 }
 
-_extern bool _sub_471FEB(LobbyLAN const *const, unsigned long long, LobbySessionDesc &);
 bool LobbyLAN::SessionGetDescription(unsigned long long, LobbySessionDesc &) const // 0x471FEB
 {
     mangled_assert("?SessionGetDescription@LobbyLAN@@UBE_N_KAAVLobbySessionDesc@@@Z");
     todo("implement");
-    bool __result = _sub_471FEB(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_4722DA(LobbyLAN const *const, unsigned long long);
 bool LobbyLAN::SessionUpdate(unsigned long long) const // 0x4722DA
 {
     mangled_assert("?SessionUpdate@LobbyLAN@@UBE_N_K@Z");
     todo("implement");
-    bool __result = _sub_4722DA(this, arg);
-    return __result;
 }
 
-_extern void _sub_47228D(LobbyLAN *const);
 void LobbyLAN::SessionList() // 0x47228D
 {
     mangled_assert("?SessionList@LobbyLAN@@UAEXXZ");
     todo("implement");
-    _sub_47228D(this);
 }
 
-_extern void _sub_472274(LobbyLAN *const, wchar_t const *);
 void LobbyLAN::SessionJoin(wchar_t const *) // 0x472274
 {
     mangled_assert("?SessionJoin@LobbyLAN@@UAEXPB_W@Z");
     todo("implement");
-    _sub_472274(this, arg);
 }
 
-_extern void _sub_47224C(LobbyLAN *const, LobbySessionDesc const &, Net::Session *);
 void LobbyLAN::SessionHost(LobbySessionDesc const &, Net::Session *) // 0x47224C
 {
     mangled_assert("?SessionHost@LobbyLAN@@UAEXABVLobbySessionDesc@@PAVSession@Net@@@Z");
     todo("implement");
-    _sub_47224C(this, arg, arg);
 }
 
-_extern void _sub_471F30(LobbyLAN *const);
 void LobbyLAN::SessionCancel() // 0x471F30
 {
     mangled_assert("?SessionCancel@LobbyLAN@@UAEXXZ");
     todo("implement");
-    _sub_471F30(this);
 }
 
-_extern void _sub_4722D9(LobbyLAN *const);
 void LobbyLAN::SessionStarted() // 0x4722D9
 {
     mangled_assert("?SessionStarted@LobbyLAN@@UAEXXZ");
     todo("implement");
-    _sub_4722D9(this);
 }
 
-_extern void _sub_471FE8(LobbyLAN *const, bool);
 void LobbyLAN::SessionEnableJoin(bool) // 0x471FE8
 {
     mangled_assert("?SessionEnableJoin@LobbyLAN@@UAEX_N@Z");
     todo("implement");
-    _sub_471FE8(this, arg);
 }
 
-_extern void _sub_471F31(LobbyLAN *const, LobbySessionDesc const &, Net::Session *);
 void LobbyLAN::SessionChangeSettings(LobbySessionDesc const &, Net::Session *) // 0x471F31
 {
     mangled_assert("?SessionChangeSettings@LobbyLAN@@UAEXABVLobbySessionDesc@@PAVSession@Net@@@Z");
     todo("implement");
-    _sub_471F31(this, arg, arg);
 }
 
-_extern bool _sub_471FE5(LobbyLAN const *const);
 bool LobbyLAN::SessionCreateVisible() const // 0x471FE5
 {
     mangled_assert("?SessionCreateVisible@LobbyLAN@@UBE_NXZ");
     todo("implement");
-    bool __result = _sub_471FE5(this);
-    return __result;
 }
 
-_extern void _sub_471F2F(LobbyLAN *const);
 void LobbyLAN::RoomList() // 0x471F2F
 {
     mangled_assert("?RoomList@LobbyLAN@@UAEXXZ");
     todo("implement");
-    _sub_471F2F(this);
 }
 
-_extern bool _sub_471F1C(LobbyLAN const *const, unsigned __int32, LobbyRoomDesc &);
 bool LobbyLAN::RoomGetDescription(unsigned __int32, LobbyRoomDesc &) const // 0x471F1C
 {
     mangled_assert("?RoomGetDescription@LobbyLAN@@UBE_NIAAVLobbyRoomDesc@@@Z");
     todo("implement");
-    bool __result = _sub_471F1C(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_471F26(LobbyLAN *const);
 bool LobbyLAN::RoomJoinTitle() // 0x471F26
 {
     mangled_assert("?RoomJoinTitle@LobbyLAN@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_471F26(this);
-    return __result;
 }
 
-_extern bool _sub_471F21(LobbyLAN *const, unsigned __int32);
 bool LobbyLAN::RoomJoin(unsigned __int32) // 0x471F21
 {
     mangled_assert("?RoomJoin@LobbyLAN@@UAE_NI@Z");
     todo("implement");
-    bool __result = _sub_471F21(this, arg);
-    return __result;
 }
 
-_extern bool _sub_471F29(LobbyLAN *const);
 bool LobbyLAN::RoomLeave() // 0x471F29
 {
     mangled_assert("?RoomLeave@LobbyLAN@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_471F29(this);
-    return __result;
 }
 
-_extern bool _sub_471F2C(LobbyLAN *const);
 bool LobbyLAN::RoomLeaveTitle() // 0x471F2C
 {
     mangled_assert("?RoomLeaveTitle@LobbyLAN@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_471F2C(this);
-    return __result;
 }
 
-_extern void _sub_471F1B(LobbyLAN *const);
 void LobbyLAN::PlayerUpdateList() // 0x471F1B
 {
     mangled_assert("?PlayerUpdateList@LobbyLAN@@UAEXXZ");
     todo("implement");
-    _sub_471F1B(this);
 }
 
-_extern void _sub_471EFF(LobbyLAN *const, std::vector<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >,std::allocator<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > > > &);
 void LobbyLAN::PlayerGetList(std::vector<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >,std::allocator<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > > > &) // 0x471EFF
 {
     mangled_assert("?PlayerGetList@LobbyLAN@@UAEXAAV?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Z");
     todo("implement");
-    _sub_471EFF(this, arg);
 }
 
-_extern bool _sub_471EFA(LobbyLAN *const, wchar_t const *, LobbyPlayerDesc &);
 bool LobbyLAN::PlayerGetDescription(wchar_t const *, LobbyPlayerDesc &) // 0x471EFA
 {
     mangled_assert("?PlayerGetDescription@LobbyLAN@@UAE_NPB_WAAVLobbyPlayerDesc@@@Z");
     todo("implement");
-    bool __result = _sub_471EFA(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_471F02(LobbyLAN *const, std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > &);
 void LobbyLAN::PlayerGetName(std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > &) // 0x471F02
 {
     mangled_assert("?PlayerGetName@LobbyLAN@@UAEXAAV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@Z");
     todo("implement");
-    _sub_471F02(this, arg);
 }
 
-_extern void _sub_471EF9(LobbyLAN *const);
 void LobbyLAN::PlayerChangeSettings() // 0x471EF9
 {
     mangled_assert("?PlayerChangeSettings@LobbyLAN@@UAEXXZ");
     todo("implement");
-    _sub_471EF9(this);
 }
 
-_extern void _sub_471F18(LobbyLAN *const, LobbyRoomType);
 void LobbyLAN::PlayerSetViewingRoom(LobbyRoomType) // 0x471F18
 {
     mangled_assert("?PlayerSetViewingRoom@LobbyLAN@@UAEXW4LobbyRoomType@@@Z");
     todo("implement");
-    _sub_471F18(this, arg);
 }
 
-_extern void _sub_471F15(LobbyLAN *const, bool);
 void LobbyLAN::PlayerSetPlaying(bool) // 0x471F15
 {
     mangled_assert("?PlayerSetPlaying@LobbyLAN@@UAEX_N@Z");
     todo("implement");
-    _sub_471F15(this, arg);
 }
 
-_extern LobbyChatStatus _sub_471E4D(LobbyLAN *const);
 LobbyChatStatus LobbyLAN::ChatGetStatus() // 0x471E4D
 {
     mangled_assert("?ChatGetStatus@LobbyLAN@@UAE?AW4LobbyChatStatus@@XZ");
     todo("implement");
-    LobbyChatStatus __result = _sub_471E4D(this);
-    return __result;
 }
 
-_extern void _sub_471E49(LobbyLAN *const, char const *);
 void LobbyLAN::ChatConnect(char const *) // 0x471E49
 {
     mangled_assert("?ChatConnect@LobbyLAN@@UAEXPBD@Z");
     todo("implement");
-    _sub_471E49(this, arg);
 }
 
-_extern void _sub_471E4C(LobbyLAN *const);
 void LobbyLAN::ChatDisconnect() // 0x471E4C
 {
     mangled_assert("?ChatDisconnect@LobbyLAN@@UAEXXZ");
     todo("implement");
-    _sub_471E4C(this);
 }
 
-_extern void _sub_471E51(LobbyLAN *const, LobbyChatType, wchar_t const *, wchar_t const *);
 void LobbyLAN::ChatSend(LobbyChatType, wchar_t const *, wchar_t const *) // 0x471E51
 {
     mangled_assert("?ChatSend@LobbyLAN@@UAEXW4LobbyChatType@@PB_W1@Z");
     todo("implement");
-    _sub_471E51(this, arg, arg, arg);
 }
 
-_extern bool _sub_471E44(LobbyLAN *const, char const *);
 bool LobbyLAN::CDAuthenticate(char const *) // 0x471E44
 {
     mangled_assert("?CDAuthenticate@LobbyLAN@@UAE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_471E44(this, arg);
-    return __result;
 }
 
-_extern void _sub_47231D(LobbyLAN *const);
 void LobbyLAN::UpdateSessionList() // 0x47231D
 {
     mangled_assert("?UpdateSessionList@LobbyLAN@@AAEXXZ");
     todo("implement");
-    _sub_47231D(this);
 }
 
-_extern void _sub_4722C3(LobbyLAN *const);
 void LobbyLAN::SessionListStop() // 0x4722C3
 {
     mangled_assert("?SessionListStop@LobbyLAN@@UAEXXZ");
     todo("implement");
-    _sub_4722C3(this);
 }
 
 /* ---------- private code */

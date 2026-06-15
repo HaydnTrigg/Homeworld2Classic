@@ -67,22 +67,16 @@ _static
 
 /* ---------- public code */
 
-_extern bool _sub_4F79DF();
 bool GameLua::Initialize() // 0x4F79DF
 {
     mangled_assert("?Initialize@GameLua@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_4F79DF();
-    return __result;
 }
 
-_extern bool _sub_4F7A0C();
 bool GameLua::Shutdown() // 0x4F7A0C
 {
     mangled_assert("?Shutdown@GameLua@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_4F7A0C();
-    return __result;
 }
 
 /* ---------- private code */

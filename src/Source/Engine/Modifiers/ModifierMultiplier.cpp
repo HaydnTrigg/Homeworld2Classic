@@ -94,28 +94,22 @@
 
 /* ---------- public code */
 
-_extern _sub_56EA28(ModifierMultiplier *const, MultiplierType, InfluenceType, ActivityRelation, float, float, float);
 ModifierMultiplier::ModifierMultiplier(MultiplierType, InfluenceType, ActivityRelation, float, float, float) // 0x56EA28
 {
     mangled_assert("??0ModifierMultiplier@@QAE@W4MultiplierType@@W4InfluenceType@@W4ActivityRelation@@MMM@Z");
     todo("implement");
-    _sub_56EA28(this, arg, arg, arg, arg, arg, arg);
 }
 
-_extern void _sub_56EA6E(ModifierMultiplier *const);
 ModifierMultiplier::~ModifierMultiplier() // 0x56EA6E
 {
     mangled_assert("??1ModifierMultiplier@@UAE@XZ");
     todo("implement");
-    _sub_56EA6E(this);
 }
 
-_extern void _sub_56EA9B(ModifierMultiplier const *const, Ship *, float);
 void ModifierMultiplier::applyEffectTo(Ship *, float) const // 0x56EA9B
 {
     mangled_assert("?applyEffectTo@ModifierMultiplier@@MBEXPAVShip@@M@Z");
     todo("implement");
-    _sub_56EA9B(this, arg, arg);
 }
 
 /* ---------- private code */

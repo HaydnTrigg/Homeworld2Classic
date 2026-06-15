@@ -104,89 +104,65 @@ extern char gLevelName[260]; // 0x10010768
 
 /* ---------- public code */
 
-_extern long _sub_10002E7B(_EXCEPTION_POINTERS *);
 long internalRecordExceptionInfo(_EXCEPTION_POINTERS *data) // 0x10002E7B
 {
     mangled_assert("?internalRecordExceptionInfo@@YGJPAU_EXCEPTION_POINTERS@@@Z");
     todo("implement");
-    long __result = _sub_10002E7B(data);
-    return __result;
 }
 
-_extern void _sub_10002E69(char const *);
 void SetLevelNameForSteamError(char const *LevelName) // 0x10002E69
 {
     mangled_assert("?SetLevelNameForSteamError@@YGXPBD@Z");
     todo("implement");
-    _sub_10002E69(LevelName);
 }
 
 /* ---------- private code */
 
-_extern char const *_sub_1000247A(char const *, char);
 _static char const *LocalStrRChr(char const *str, char chr) // 0x1000247A
 {
     mangled_assert("LocalStrRChr");
     todo("implement");
-    char const * __result = _sub_1000247A(str, chr);
-    return __result;
 }
 
-_extern void _sub_1000238F(char const *, char *, char *, char *, char *);
 _static void LocalSplitPath(char const *path, char *drive, char *dir, char *fname, char *ext) // 0x1000238F
 {
     mangled_assert("LocalSplitPath");
     todo("implement");
-    _sub_1000238F(path, drive, dir, fname, ext);
 }
 
-_extern char const *_sub_1000220C(unsigned long);
 _static char const *GetExceptionDescription(unsigned long exceptionCode) // 0x1000220C
 {
     mangled_assert("GetExceptionDescription");
     todo("implement");
-    char const * __result = _sub_1000220C(exceptionCode);
-    return __result;
 }
 
-_extern void _sub_1000218C(char *, _FILETIME);
 _static void FormatTime(char *output, _FILETIME ftime) // 0x1000218C
 {
     mangled_assert("FormatTime");
     todo("implement");
-    _sub_1000218C(output, ftime);
 }
 
-_extern void _sub_10001FF8(char *, char const *);
 _static void CrashExe(char *module, char const *moduleFile) // 0x10001FF8
 {
     mangled_assert("CrashExe");
     todo("implement");
-    _sub_10001FF8(module, moduleFile);
 }
 
-_extern void _sub_1000203F(char *, void const *);
 _static void CrashModule(char *crashModule, void const *eip) // 0x1000203F
 {
     mangled_assert("CrashModule");
     todo("implement");
-    _sub_1000203F(crashModule, eip);
 }
 
-_extern void _sub_100020C4(char const *, char *);
 _static void CreateTimeStamp(char const *module, char *outtimestamp) // 0x100020C4
 {
     mangled_assert("CreateTimeStamp");
     todo("implement");
-    _sub_100020C4(module, outtimestamp);
 }
 
-_extern void *_sub_10002788(char const *);
 _static void *LogOpen(char const *timestamp) // 0x10002788
 {
     mangled_assert("LogOpen");
     todo("implement");
-    void * __result = _sub_10002788(timestamp);
-    return __result;
 }
 #endif

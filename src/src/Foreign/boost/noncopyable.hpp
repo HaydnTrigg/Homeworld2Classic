@@ -26,20 +26,16 @@ static_assert(sizeof(boost::noncopyable) == 1, "Invalid boost::noncopyable size"
 
 /* ---------- public code */
 
-_extern _sub_4B2266(boost::noncopyable *const);
 _inline boost::noncopyable::noncopyable() // 0x4B2266
 {
     mangled_assert("??0noncopyable@boost@@IAE@XZ");
     todo("implement");
-    _sub_4B2266(this);
 }
 
-_extern void _sub_4B1D55(boost::noncopyable *const);
 _inline boost::noncopyable::~noncopyable() // 0x4B1D55
 {
     mangled_assert("??1noncopyable@boost@@IAE@XZ");
     todo("implement");
-    _sub_4B1D55(this);
 }
 
 /* ---------- private code */

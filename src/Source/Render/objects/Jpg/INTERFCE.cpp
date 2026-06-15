@@ -165,37 +165,29 @@ _static void my_error_exit(jpeg_common_struct *cinfo);
 
 /* ---------- public code */
 
-_extern void _sub_100C1F10(_jpegdata *);
 void JpegInfo(_jpegdata *data) // 0x100C1F10
 {
     mangled_assert("?JpegInfo@@YGXPAU_jpegdata@@@Z");
     todo("implement");
-    _sub_100C1F10(data);
 }
 
-_extern void _sub_100C2140(_jpegdata *);
 void JpegWrite(_jpegdata *data) // 0x100C2140
 {
     mangled_assert("?JpegWrite@@YGXPAU_jpegdata@@@Z");
     todo("implement");
-    _sub_100C2140(data);
 }
 
-_extern void _sub_100C1FE0(_jpegdata *);
 void JpegRead(_jpegdata *data) // 0x100C1FE0
 {
     mangled_assert("?JpegRead@@YGXPAU_jpegdata@@@Z");
     todo("implement");
-    _sub_100C1FE0(data);
 }
 
 /* ---------- private code */
 
-_extern void _sub_100C22F0(jpeg_common_struct *);
 _static void my_error_exit(jpeg_common_struct *cinfo) // 0x100C22F0
 {
     mangled_assert("my_error_exit");
     todo("implement");
-    _sub_100C22F0(cinfo);
 }
 #endif

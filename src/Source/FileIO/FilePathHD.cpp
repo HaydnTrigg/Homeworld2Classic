@@ -165,92 +165,65 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_1000EA2A(FilePathHD *const);
 FilePathHD::FilePathHD() // 0x1000EA2A
 {
     mangled_assert("??0FilePathHD@@AAE@XZ");
     todo("implement");
-    _sub_1000EA2A(this);
 }
 
-_extern void _sub_1000EA40(FilePathHD *const);
 FilePathHD::~FilePathHD() // 0x1000EA40
 {
     mangled_assert("??1FilePathHD@@UAE@XZ");
     todo("implement");
-    _sub_1000EA40(this);
 }
 
-_extern FilePathHD *_sub_1000EBDE(char const *, StreamMode);
 FilePathHD *FilePathHD::Create(char const *pathprepend, StreamMode mode) // 0x1000EBDE
 {
     mangled_assert("?Create@FilePathHD@@SGPAV1@PBDW4StreamMode@@@Z");
     todo("implement");
-    FilePathHD * __result = _sub_1000EBDE(pathprepend, mode);
-    return __result;
 }
 
-_extern ByteStream *_sub_1000ED88(FilePathHD *const, char const *, StreamMode);
 ByteStream *FilePathHD::FileOpen(char const *, StreamMode) // 0x1000ED88
 {
     mangled_assert("?FileOpen@FilePathHD@@UAEPAVByteStream@@PBDW4StreamMode@@@Z");
     todo("implement");
-    ByteStream * __result = _sub_1000ED88(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_1000ECE5(FilePathHD *const, char const *);
 bool FilePathHD::FileDel(char const *) // 0x1000ECE5
 {
     mangled_assert("?FileDel@FilePathHD@@UAE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_1000ECE5(this, arg);
-    return __result;
 }
 
-_extern FilePath::FILE_Type _sub_1000EDF2(FilePathHD *const, char const *, StreamMode);
 FilePath::FILE_Type FilePathHD::FileType(char const *, StreamMode) // 0x1000EDF2
 {
     mangled_assert("?FileType@FilePathHD@@UAE?AW4FILE_Type@FilePath@@PBDW4StreamMode@@@Z");
     todo("implement");
-    FilePath::FILE_Type __result = _sub_1000EDF2(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_1000ED3A(FilePathHD *const, char const *, std::vector<fstring<260>,std::allocator<fstring<260> > > &);
 void FilePathHD::FileList(char const *, std::vector<fstring<260>,std::allocator<fstring<260> > > &) // 0x1000ED3A
 {
     mangled_assert("?FileList@FilePathHD@@UAEXPBDAAV?$vector@V?$fstring@$0BAE@@@V?$allocator@V?$fstring@$0BAE@@@@std@@@std@@@Z");
     todo("implement");
-    _sub_1000ED3A(this, arg, arg);
 }
 
-_extern bool _sub_1000EAC2(FilePathHD *const, char *, char const *, StreamMode const);
 bool FilePathHD::ConvertFromAlias(char *, char const *, StreamMode const) // 0x1000EAC2
 {
     mangled_assert("?ConvertFromAlias@FilePathHD@@UAE_NPADPBDW4StreamMode@@@Z");
     todo("implement");
-    bool __result = _sub_1000EAC2(this, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_1000EB50(FilePathHD *const, char *, char const *);
 bool FilePathHD::ConvertToAlias(char *, char const *) // 0x1000EB50
 {
     mangled_assert("?ConvertToAlias@FilePathHD@@UAE_NPADPBD@Z");
     todo("implement");
-    bool __result = _sub_1000EB50(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern bool _sub_1000EE63(char const *);
 _static bool ValidateFilename(char const *file) // 0x1000EE63
 {
     mangled_assert("ValidateFilename");
     todo("implement");
-    bool __result = _sub_1000EE63(file);
-    return __result;
 }
 #endif

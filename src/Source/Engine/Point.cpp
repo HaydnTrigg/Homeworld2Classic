@@ -76,71 +76,53 @@ extern SaveData const Point::m_saveData[1]; // 0x790508
 
 /* ---------- public code */
 
-_extern _sub_4B1EF5(Point *const, char const *, vector3 &, bool);
 Point::Point(char const *, vector3 &, bool) // 0x4B1EF5
 {
     mangled_assert("??0Point@@QAE@PBDAAVvector3@@_N@Z");
     todo("implement");
-    _sub_4B1EF5(this, arg, arg, arg);
 }
 
-_extern void _sub_4B1F3F(Point *const);
 _inline Point::~Point() // 0x4B1F3F
 {
     mangled_assert("??1Point@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4B1F3F(this);
 }
 
-_extern void _sub_4B1F60(Point *const);
 void Point::defaultSettings() // 0x4B1F60
 {
     mangled_assert("?defaultSettings@Point@@QAEXXZ");
     todo("implement");
-    _sub_4B1F60(this);
 }
 
-_extern _sub_4B1ED6(Point *const, SaveGameData *);
 Point::Point(SaveGameData *) // 0x4B1ED6
 {
     mangled_assert("??0Point@@QAE@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_4B1ED6(this, arg);
 }
 
-_extern void _sub_4B1F6B(Point *const);
 void Point::postRestore() // 0x4B1F6B
 {
     mangled_assert("?postRestore@Point@@UAEXXZ");
     todo("implement");
-    _sub_4B1F6B(this);
 }
 
-_extern void _sub_4B200A(Point *const);
 void Point::staticInit() // 0x4B200A
 {
     mangled_assert("?staticInit@Point@@QAEXXZ");
     todo("implement");
-    _sub_4B200A(this);
 }
 
-_extern bool _sub_4B1F70(Point *const, SaveGameData *);
 bool Point::restore(SaveGameData *) // 0x4B1F70
 {
     mangled_assert("?restore@Point@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_4B1F70(this, arg);
-    return __result;
 }
 
-_extern bool _sub_4B1FBD(Point *const, SaveGameData *, SaveType);
 bool Point::save(SaveGameData *, SaveType) // 0x4B1FBD
 {
     mangled_assert("?save@Point@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_4B1FBD(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

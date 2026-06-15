@@ -35,20 +35,16 @@ static_assert(sizeof(BattleScarUtil::TempMesh) == 36, "Invalid BattleScarUtil::T
 
 /* ---------- public code */
 
-_extern void _sub_55E063(BattleScarUtil::TextureReleaser *const, Texture *);
 _inline void BattleScarUtil::TextureReleaser::operator()(Texture *) // 0x55E063
 {
     mangled_assert("??RTextureReleaser@BattleScarUtil@@QAEXPAVTexture@@@Z");
     todo("implement");
-    _sub_55E063(this, arg);
 }
 
-_extern void _sub_56063E(BattleScarUtil::TempMesh *const);
 _inline void BattleScarUtil::TempMesh::reset() // 0x56063E
 {
     mangled_assert("?reset@TempMesh@BattleScarUtil@@QAEXXZ");
     todo("implement");
-    _sub_56063E(this);
 }
 
 /* ---------- private code */

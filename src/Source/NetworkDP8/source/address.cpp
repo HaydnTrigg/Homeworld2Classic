@@ -381,48 +381,34 @@ _static
 
 /* ---------- public code */
 
-_extern Net::Address *_sub_6D4DE6(_GUID const &, unsigned short);
 Net::Address *Net::Address::Create(_GUID const &device, unsigned short port) // 0x6D4DE6
 {
     mangled_assert("?Create@Address@Net@@SGPAV12@ABU_GUID@@G@Z");
     todo("implement");
-    Net::Address * __result = _sub_6D4DE6(device, port);
-    return __result;
 }
 
-_extern Net::Address *_sub_6D4EA6(wchar_t const *, unsigned short);
 Net::Address *Net::Address::Create(wchar_t const *name, unsigned short port) // 0x6D4EA6
 {
     mangled_assert("?Create@Address@Net@@SGPAV12@PB_WG@Z");
     todo("implement");
-    Net::Address * __result = _sub_6D4EA6(name, port);
-    return __result;
 }
 
-_extern _sub_6D4DC8(Net::Address *const, ATL::CComPtr<IDirectPlay8Address> const &);
 Net::Address::Address(ATL::CComPtr<IDirectPlay8Address> const &) // 0x6D4DC8
 {
     mangled_assert("??0Address@Net@@AAE@ABV?$CComPtr@UIDirectPlay8Address@@@ATL@@@Z");
     todo("implement");
-    _sub_6D4DC8(this, arg);
 }
 
-_extern IDirectPlay8Address *_sub_6D4F9B(Net::Address const *const);
 IDirectPlay8Address *Net::Address::GetRaw() const // 0x6D4F9B
 {
     mangled_assert("?GetRaw@Address@Net@@QBEPAUIDirectPlay8Address@@XZ");
     todo("implement");
-    IDirectPlay8Address * __result = _sub_6D4F9B(this);
-    return __result;
 }
 
-_extern bool _sub_6D4F9E(Net::Address const *const, std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > &, unsigned short &);
 bool Net::Address::GetURL(std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > &, unsigned short &) const // 0x6D4F9E
 {
     mangled_assert("?GetURL@Address@Net@@QBE_NAAV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@AAG@Z");
     todo("implement");
-    bool __result = _sub_6D4F9E(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

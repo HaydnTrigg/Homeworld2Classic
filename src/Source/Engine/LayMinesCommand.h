@@ -129,40 +129,28 @@ static_assert(sizeof(LayMinesCommandStaticInfo) == 12, "Invalid LayMinesCommandS
 
 /* ---------- public code */
 
-_extern bool _sub_6AD321(LayMinesCommand *const, CommandType, Command *);
 _inline bool LayMinesCommand::canBeInterrupted(CommandType, Command *) // 0x6AD321
 {
     mangled_assert("?canBeInterrupted@LayMinesCommand@@UAE_NW4CommandType@@PAVCommand@@@Z");
     todo("implement");
-    bool __result = _sub_6AD321(this, arg, arg);
-    return __result;
 }
 
-_extern std::list<vector3,std::allocator<vector3> > const &_sub_612673(LayMinesCommand const *const);
 _inline std::list<vector3,std::allocator<vector3> > const &LayMinesCommand::getMinePoints() const // 0x612673
 {
     mangled_assert("?getMinePoints@LayMinesCommand@@QBEABV?$list@Vvector3@@V?$allocator@Vvector3@@@std@@@std@@XZ");
     todo("implement");
-    std::list<vector3,std::allocator<vector3> > const & __result = _sub_612673(this);
-    return __result;
 }
 
-_extern bool _sub_6AE3D8(LayMinesCommand *const);
 _inline bool LayMinesCommand::isDeterministic() // 0x6AE3D8
 {
     mangled_assert("?isDeterministic@LayMinesCommand@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6AE3D8(this);
-    return __result;
 }
 
-_extern char const *_sub_6AE583(LayMinesCommand *const);
 _inline char const *LayMinesCommand::saveToken() // 0x6AE583
 {
     mangled_assert("?saveToken@LayMinesCommand@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6AE583(this);
-    return __result;
 }
 
 /* ---------- private code */

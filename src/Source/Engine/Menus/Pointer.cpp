@@ -158,62 +158,48 @@ extern UI::Pointer *UI::Pointer::ms_screen; // 0x846D1C
 
 /* ---------- public code */
 
-_extern _sub_5A429B(UI::Pointer *const, char const *);
 UI::Pointer::Pointer(char const *) // 0x5A429B
 {
     mangled_assert("??0Pointer@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_5A429B(this, arg);
 }
 
-_extern _sub_5A42FD(UI::PointerData *const);
 _inline UI::PointerData::PointerData() // 0x5A42FD
 {
     mangled_assert("??0PointerData@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5A42FD(this);
 }
 
-_extern void _sub_5A4323(UI::Pointer *const);
 UI::Pointer::~Pointer() // 0x5A4323
 {
     mangled_assert("??1Pointer@UI@@UAE@XZ");
     todo("implement");
-    _sub_5A4323(this);
 }
 
-_extern void _sub_5A436E(UI::PointerData *const);
 _inline UI::PointerData::~PointerData() // 0x5A436E
 {
     mangled_assert("??1PointerData@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5A436E(this);
 }
 
-_extern void _sub_5A4466(UI::Pointer *const, bool);
 void UI::Pointer::SetPointerVisible(bool) // 0x5A4466
 {
     mangled_assert("?SetPointerVisible@Pointer@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_5A4466(this, arg);
 }
 
-_extern void _sub_5A440B(UI::Pointer *const, Vector_2i const &, unsigned __int32, vector4 const &, unsigned __int32, SobID const &);
 void UI::Pointer::SetPointerInfo(Vector_2i const &, unsigned __int32, vector4 const &, unsigned __int32, SobID const &) // 0x5A440B
 {
     mangled_assert("?SetPointerInfo@Pointer@UI@@QAEXABUVector_2i@@IABVvector4@@IABVSobID@@@Z");
     todo("implement");
-    _sub_5A440B(this, arg, arg, arg, arg, arg);
 }
 
-_extern void _sub_5A43BC(UI::Pointer *const);
 void UI::Pointer::Draw() // 0x5A43BC
 {
     mangled_assert("?Draw@Pointer@UI@@UAEXXZ");
     todo("implement");
-    _sub_5A43BC(this);
 }
 
 /* ---------- private code */

@@ -153,60 +153,46 @@
 
 /* ---------- public code */
 
-_extern _sub_5A8E50(UI::SpeechRecall *const, char const *);
 UI::SpeechRecall::SpeechRecall(char const *) // 0x5A8E50
 {
     mangled_assert("??0SpeechRecall@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_5A8E50(this, arg);
 }
 
-_extern void _sub_5A8E68(UI::SpeechRecall *const);
 UI::SpeechRecall::~SpeechRecall() // 0x5A8E68
 {
     mangled_assert("??1SpeechRecall@UI@@UAE@XZ");
     todo("implement");
-    _sub_5A8E68(this);
 }
 
-_extern void _sub_5A8FFD(UI::SpeechRecall *const);
 void UI::SpeechRecall::OnPostLoad() // 0x5A8FFD
 {
     mangled_assert("?OnPostLoad@SpeechRecall@UI@@MAEXXZ");
     todo("implement");
-    _sub_5A8FFD(this);
 }
 
-_extern void _sub_5A8FCC(UI::SpeechRecall *const);
 void UI::SpeechRecall::Draw() // 0x5A8FCC
 {
     mangled_assert("?Draw@SpeechRecall@UI@@UAEXXZ");
     todo("implement");
-    _sub_5A8FCC(this);
 }
 
-_extern void _sub_5A9051();
 void UI::SpeechRecall::Toggle() // 0x5A9051
 {
     mangled_assert("?Toggle@SpeechRecall@UI@@SGXXZ");
     todo("implement");
-    _sub_5A9051();
 }
 
-_extern void _sub_5A8E95(UI::SpeechRecall *const, wchar_t const *, Texture *);
 void UI::SpeechRecall::AddString(wchar_t const *, Texture *) // 0x5A8E95
 {
     mangled_assert("?AddString@SpeechRecall@UI@@QAEXPB_WPAVTexture@@@Z");
     todo("implement");
-    _sub_5A8E95(this, arg, arg);
 }
 
-_extern void _sub_5A8FD1(UI::SpeechRecall *const, bool);
 void UI::SpeechRecall::OnActivate(bool) // 0x5A8FD1
 {
     mangled_assert("?OnActivate@SpeechRecall@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_5A8FD1(this, arg);
 }
 
 /* ---------- private code */

@@ -96,115 +96,82 @@ static_assert(sizeof(HardPointStatic) == 100, "Invalid HardPointStatic size");
 
 /* ---------- public code */
 
-_extern std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &_sub_48C86C(HardPointStatic const *const);
 _inline std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &HardPointStatic::getName() const // 0x48C86C
 {
     mangled_assert("?getName@HardPointStatic@@QBEABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ");
     todo("implement");
-    std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & __result = _sub_48C86C(this);
-    return __result;
 }
 
-_extern void _sub_4D0317(HardPointStatic *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &);
 _inline void HardPointStatic::setName(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &) // 0x4D0317
 {
     mangled_assert("?setName@HardPointStatic@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    _sub_4D0317(this, arg);
 }
 
-_extern SubSystemType _sub_48D44D(HardPointStatic const *const);
 _inline SubSystemType HardPointStatic::getType() const // 0x48D44D
 {
     mangled_assert("?getType@HardPointStatic@@QBE?AW4SubSystemType@@XZ");
     todo("implement");
-    SubSystemType __result = _sub_48D44D(this);
-    return __result;
 }
 
-_extern void _sub_4D0404(HardPointStatic *const, SubSystemType);
 _inline void HardPointStatic::setType(SubSystemType) // 0x4D0404
 {
     mangled_assert("?setType@HardPointStatic@@QAEXW4SubSystemType@@@Z");
     todo("implement");
-    _sub_4D0404(this, arg);
 }
 
-_extern SubSystemFamily _sub_48C14E(HardPointStatic const *const);
 _inline SubSystemFamily HardPointStatic::getFamily() const // 0x48C14E
 {
     mangled_assert("?getFamily@HardPointStatic@@QBE?AW4SubSystemFamily@@XZ");
     todo("implement");
-    SubSystemFamily __result = _sub_48C14E(this);
-    return __result;
 }
 
-_extern void _sub_4D0303(HardPointStatic *const, SubSystemFamily);
 _inline void HardPointStatic::setFamily(SubSystemFamily) // 0x4D0303
 {
     mangled_assert("?setFamily@HardPointStatic@@QAEXW4SubSystemFamily@@@Z");
     todo("implement");
-    _sub_4D0303(this, arg);
 }
 
-_extern vector3 const &_sub_4EF036(HardPointStatic const *const);
 _inline vector3 const &HardPointStatic::getPosition() const // 0x4EF036
 {
     mangled_assert("?getPosition@HardPointStatic@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_4EF036(this);
-    return __result;
 }
 
-_extern void _sub_4D0332(HardPointStatic *const, vector3 const &);
 _inline void HardPointStatic::setPosition(vector3 const &) // 0x4D0332
 {
     mangled_assert("?setPosition@HardPointStatic@@QAEXABVvector3@@@Z");
     todo("implement");
-    _sub_4D0332(this, arg);
 }
 
-_extern matrix3 const &_sub_4EF027(HardPointStatic const *const);
 _inline matrix3 const &HardPointStatic::getOrientation() const // 0x4EF027
 {
     mangled_assert("?getOrientation@HardPointStatic@@QBEABVmatrix3@@XZ");
     todo("implement");
-    matrix3 const & __result = _sub_4EF027(this);
-    return __result;
 }
 
-_extern void _sub_4D031F(HardPointStatic *const, matrix3 const &);
 _inline void HardPointStatic::setOrientation(matrix3 const &) // 0x4D031F
 {
     mangled_assert("?setOrientation@HardPointStatic@@QAEXABVmatrix3@@@Z");
     todo("implement");
-    _sub_4D031F(this, arg);
 }
 
-_extern HardPointHealthType _sub_4F0AEA(HardPointStatic const *const);
 _inline HardPointHealthType HardPointStatic::getHealthType() const // 0x4F0AEA
 {
     mangled_assert("?getHealthType@HardPointStatic@@QBE?AW4HardPointHealthType@@XZ");
     todo("implement");
-    HardPointHealthType __result = _sub_4F0AEA(this);
-    return __result;
 }
 
-_extern void _sub_4D030D(HardPointStatic *const, HardPointHealthType);
 _inline void HardPointStatic::setHealthType(HardPointHealthType) // 0x4D030D
 {
     mangled_assert("?setHealthType@HardPointStatic@@QAEXW4HardPointHealthType@@@Z");
     todo("implement");
-    _sub_4D030D(this, arg);
 }
 
-_extern unsigned __int32 _sub_4EF01C(HardPointStatic const *const);
 _inline unsigned __int32 HardPointStatic::getDefaultSubSystemId() const // 0x4EF01C
 {
     mangled_assert("?getDefaultSubSystemId@HardPointStatic@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_4EF01C(this);
-    return __result;
 }
 
 /* ---------- private code */

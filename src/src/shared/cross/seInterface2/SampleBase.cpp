@@ -23,20 +23,16 @@
 
 /* ---------- public code */
 
-_extern _sub_73AE4D(SampleBase *const);
 SampleBase::SampleBase() // 0x73AE4D
 {
     mangled_assert("??0SampleBase@@QAE@XZ");
     todo("implement");
-    _sub_73AE4D(this);
 }
 
-_extern void _sub_73AEB1(SampleBase *const);
 SampleBase::~SampleBase() // 0x73AEB1
 {
     mangled_assert("??1SampleBase@@UAE@XZ");
     todo("implement");
-    _sub_73AEB1(this);
 }
 
 /* ---------- private code */

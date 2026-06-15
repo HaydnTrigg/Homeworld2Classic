@@ -103,12 +103,10 @@ static_assert(sizeof(InputInterface) == 4, "Invalid InputInterface size");
 
 /* ---------- public code */
 
-_extern void _sub_1000317B(InputInterface *const);
 _inline InputInterface::~InputInterface() // 0x1000317B
 {
     mangled_assert("??1InputInterface@@MAE@XZ");
     todo("implement");
-    _sub_1000317B(this);
 }
 
 /* ---------- private code */

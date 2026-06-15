@@ -221,65 +221,46 @@ static_assert(sizeof(UI::FinalBuildMenu) == 912, "Invalid UI::FinalBuildMenu siz
 
 /* ---------- public code */
 
-_extern void _sub_57ED5D(UI::CollapsableQueue *const, void (*)(UI::InterfaceElement *));
 _inline void UI::CollapsableQueue::ConnectOnExpand(void (*)(UI::InterfaceElement *)) // 0x57ED5D
 {
     mangled_assert("?ConnectOnExpand@CollapsableQueue@UI@@QAEXP6GXPAVInterfaceElement@2@@Z@Z");
     todo("implement");
-    _sub_57ED5D(this, arg);
 }
 
-_extern void _sub_5820A1(UI::CollapsableQueue *const, UI::CollapsableQueue *);
 _inline void UI::CollapsableQueue::SetSiblingQueue(UI::CollapsableQueue *) // 0x5820A1
 {
     mangled_assert("?SetSiblingQueue@CollapsableQueue@UI@@QAEXPAV12@@Z");
     todo("implement");
-    _sub_5820A1(this, arg);
 }
 
-_extern UI::NewListBox *_sub_57F9C3(UI::CollapsableQueue *const);
 _inline UI::NewListBox *UI::CollapsableQueue::GetListBox() // 0x57F9C3
 {
     mangled_assert("?GetListBox@CollapsableQueue@UI@@QAEPAVNewListBox@2@XZ");
     todo("implement");
-    UI::NewListBox * __result = _sub_57F9C3(this);
-    return __result;
 }
 
-_extern UI::ListBoxItem *_sub_57FA16(UI::CollapsableQueue *const);
 _inline UI::ListBoxItem *UI::CollapsableQueue::GetQueueListBoxItemToClone() // 0x57FA16
 {
     mangled_assert("?GetQueueListBoxItemToClone@CollapsableQueue@UI@@QAEPAVListBoxItem@2@XZ");
     todo("implement");
-    UI::ListBoxItem * __result = _sub_57FA16(this);
-    return __result;
 }
 
-_extern UI::QueueListBoxItem *_sub_57FA37(UI::CollapsableQueue const *const);
 _inline UI::QueueListBoxItem *UI::CollapsableQueue::GetTopOfQueueItem() const // 0x57FA37
 {
     mangled_assert("?GetTopOfQueueItem@CollapsableQueue@UI@@QBEPAVQueueListBoxItem@2@XZ");
     todo("implement");
-    UI::QueueListBoxItem * __result = _sub_57FA37(this);
-    return __result;
 }
 
-_extern SobID const &_sub_59374F(UI::FinalBuildMenu const *const);
 _inline SobID const &UI::FinalBuildMenu::GetBuildShip() const // 0x59374F
 {
     mangled_assert("?GetBuildShip@FinalBuildMenu@UI@@QBEABVSobID@@XZ");
     todo("implement");
-    SobID const & __result = _sub_59374F(this);
-    return __result;
 }
 
-_extern UI::FinalBuildMenu *_sub_57FA24();
 _inline UI::FinalBuildMenu *UI::FinalBuildMenu::GetScreen() // 0x57FA24
 {
     mangled_assert("?GetScreen@FinalBuildMenu@UI@@SGPAV12@XZ");
     todo("implement");
-    UI::FinalBuildMenu * __result = _sub_57FA24();
-    return __result;
 }
 
 /* ---------- private code */

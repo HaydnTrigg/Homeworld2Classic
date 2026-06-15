@@ -63,37 +63,28 @@ static_assert(sizeof(LuaRulesProfiler) == 1, "Invalid LuaRulesProfiler size");
 
 /* ---------- public code */
 
-_extern _sub_5CBB27(LuaRulesProfiler::LuaRulesProfilerElement *const, char const *, float, LuaRulesProfilerType);
 _inline LuaRulesProfiler::LuaRulesProfilerElement::LuaRulesProfilerElement(char const *, float, LuaRulesProfilerType) // 0x5CBB27
 {
     mangled_assert("??0LuaRulesProfilerElement@LuaRulesProfiler@@QAE@PBDMW4LuaRulesProfilerType@@@Z");
     todo("implement");
-    _sub_5CBB27(this, arg, arg, arg);
 }
 
-_extern bool _sub_5CBC43(LuaRulesProfiler::LuaRulesProfilerSearch const *const, LuaRulesProfiler::LuaRulesProfilerElement const &, char const *);
 _inline bool LuaRulesProfiler::LuaRulesProfilerSearch::operator()(LuaRulesProfiler::LuaRulesProfilerElement const &, char const *) const // 0x5CBC43
 {
     mangled_assert("??RLuaRulesProfilerSearch@LuaRulesProfiler@@QBE_NABULuaRulesProfilerElement@1@PBD@Z");
     todo("implement");
-    bool __result = _sub_5CBC43(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_5CBF05(LuaRulesProfilerType);
 _inline void LuaRulesProfiler::SetActiveType(LuaRulesProfilerType type) // 0x5CBF05
 {
     mangled_assert("?SetActiveType@LuaRulesProfiler@@SGXW4LuaRulesProfilerType@@@Z");
     todo("implement");
-    _sub_5CBF05(type);
 }
 
-_extern void _sub_5C5244(bool);
 _inline void LuaRulesProfiler::Activate(bool on) // 0x5C5244
 {
     mangled_assert("?Activate@LuaRulesProfiler@@SGX_N@Z");
     todo("implement");
-    _sub_5C5244(on);
 }
 
 /* ---------- private code */

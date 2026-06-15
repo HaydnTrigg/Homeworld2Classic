@@ -306,56 +306,40 @@ extern _inline void LCSetULong(LuaConfig &lc, char const *name, unsigned long co
 
 /* ---------- public code */
 
-_extern _sub_4EDD26(LuaConfig::Iterator *const);
 _inline LuaConfig::Iterator::Iterator() // 0x4EDD26
 {
     mangled_assert("??0Iterator@LuaConfig@@QAE@XZ");
     todo("implement");
-    _sub_4EDD26(this);
 }
 
-_extern std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &_sub_5AD07E(LuaConfig::Iterator const *const);
 _inline std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &LuaConfig::Iterator::get() const // 0x5AD07E
 {
     mangled_assert("?get@Iterator@LuaConfig@@QBEABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ");
     todo("implement");
-    std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & __result = _sub_5AD07E(this);
-    return __result;
 }
 
-_extern char const *_sub_4EE973(LuaConfig::Iterator const *const);
 _inline char const *LuaConfig::Iterator::c_str() const // 0x4EE973
 {
     mangled_assert("?c_str@Iterator@LuaConfig@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4EE973(this);
-    return __result;
 }
 
-_extern LuaConfig::LuaType _sub_56F68B(LuaConfig::Iterator const *const);
 _inline LuaConfig::LuaType LuaConfig::Iterator::getType() const // 0x56F68B
 {
     mangled_assert("?getType@Iterator@LuaConfig@@QBE?AW4LuaType@2@XZ");
     todo("implement");
-    LuaConfig::LuaType __result = _sub_56F68B(this);
-    return __result;
 }
 
-_extern bool _sub_5E8651(LuaConfig &, char const *, unsigned long &);
 _inline bool LCGetULong(LuaConfig &lc, char const *name, unsigned long &out) // 0x5E8651
 {
     mangled_assert("?LCGetULong@@YG_NAAVLuaConfig@@PBDAAK@Z");
     todo("implement");
-    bool __result = _sub_5E8651(lc, name, out);
-    return __result;
 }
 
-_extern void _sub_5E867D(LuaConfig &, char const *, unsigned long const);
 _inline void LCSetULong(LuaConfig &lc, char const *name, unsigned long const in) // 0x5E867D
 {
     mangled_assert("?LCSetULong@@YGXAAVLuaConfig@@PBDK@Z");
     todo("implement");
-    _sub_5E867D(lc, name, in);
 }
 
 /* ---------- private code */
@@ -666,30 +650,22 @@ static_assert(sizeof(LuaConfig) == 4, "Invalid LuaConfig size");
 
 /* ---------- public code */
 
-_extern _sub_1009F230(LuaConfig::Iterator *const);
 _inline LuaConfig::Iterator::Iterator() // 0x1009F230
 {
     mangled_assert("??0Iterator@LuaConfig@@QAE@XZ");
     todo("implement");
-    _sub_1009F230(this);
 }
 
-_extern char const *_sub_1009FB50(LuaConfig::Iterator const *const);
 _inline char const *LuaConfig::Iterator::c_str() const // 0x1009FB50
 {
     mangled_assert("?c_str@Iterator@LuaConfig@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_1009FB50(this);
-    return __result;
 }
 
-_extern LuaConfig::LuaType _sub_1009FE10(LuaConfig::Iterator const *const);
 _inline LuaConfig::LuaType LuaConfig::Iterator::getType() const // 0x1009FE10
 {
     mangled_assert("?getType@Iterator@LuaConfig@@QBE?AW4LuaType@2@XZ");
     todo("implement");
-    LuaConfig::LuaType __result = _sub_1009FE10(this);
-    return __result;
 }
 
 /* ---------- private code */

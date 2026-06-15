@@ -179,40 +179,28 @@ extern float ApplyWeaponResult(Missile &wf, Sob *target, vector3 const &hitPosit
 
 /* ---------- public code */
 
-_extern float _sub_4A1B2A(Missile &, Sob *, vector3 const &, vector3 const &, WeaponResult const &, bool const);
 float ApplyWeaponResultTemplate<Missile>(Missile &wf, Sob *target, vector3 const &hitPosition, vector3 const &hitNormal, WeaponResult const &wr, bool const instantHit) // 0x4A1B2A
 {
     mangled_assert("??$ApplyWeaponResultTemplate@VMissile@@@@YGMAAVMissile@@PAVSob@@ABVvector3@@2ABVWeaponResult@@_N@Z");
     todo("implement");
-    float __result = _sub_4A1B2A(wf, target, hitPosition, hitNormal, wr, instantHit);
-    return __result;
 }
 
-_extern float _sub_4A26CE(WeaponFire &, Sob *, vector3 const &, vector3 const &, WeaponResult const &, bool const);
 float ApplyWeaponResultTemplate<WeaponFire>(WeaponFire &wf, Sob *target, vector3 const &hitPosition, vector3 const &hitNormal, WeaponResult const &wr, bool const instantHit) // 0x4A26CE
 {
     mangled_assert("??$ApplyWeaponResultTemplate@VWeaponFire@@@@YGMAAVWeaponFire@@PAVSob@@ABVvector3@@2ABVWeaponResult@@_N@Z");
     todo("implement");
-    float __result = _sub_4A26CE(wf, target, hitPosition, hitNormal, wr, instantHit);
-    return __result;
 }
 
-_extern float _sub_4A2EBF(WeaponFire &, Sob *, vector3 const &, vector3 const &, WeaponResult const &, bool const);
 float ApplyWeaponResult(WeaponFire &wf, Sob *target, vector3 const &hitPosition, vector3 const &hitNormal, WeaponResult const &wr, bool const instantHit) // 0x4A2EBF
 {
     mangled_assert("?ApplyWeaponResult@@YGMAAVWeaponFire@@PAVSob@@ABVvector3@@2ABVWeaponResult@@_N@Z");
     todo("implement");
-    float __result = _sub_4A2EBF(wf, target, hitPosition, hitNormal, wr, instantHit);
-    return __result;
 }
 
-_extern float _sub_4A2EB6(Missile &, Sob *, vector3 const &, vector3 const &, WeaponResult const &, bool const);
 float ApplyWeaponResult(Missile &wf, Sob *target, vector3 const &hitPosition, vector3 const &hitNormal, WeaponResult const &wr, bool const instantHit) // 0x4A2EB6
 {
     mangled_assert("?ApplyWeaponResult@@YGMAAVMissile@@PAVSob@@ABVvector3@@2ABVWeaponResult@@_N@Z");
     todo("implement");
-    float __result = _sub_4A2EB6(wf, target, hitPosition, hitNormal, wr, instantHit);
-    return __result;
 }
 
 /* ---------- private code */

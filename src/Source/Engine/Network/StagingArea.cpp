@@ -421,183 +421,136 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_5BFF92(StagingArea::PlayerSettings *const, __int32);
 StagingArea::PlayerSettings::PlayerSettings(__int32) // 0x5BFF92
 {
     mangled_assert("??0PlayerSettings@StagingArea@@QAE@H@Z");
     todo("implement");
-    _sub_5BFF92(this, arg);
 }
 
-_extern _sub_5BFEDF(StagingArea::HostSettings *const);
 StagingArea::HostSettings::HostSettings() // 0x5BFEDF
 {
     mangled_assert("??0HostSettings@StagingArea@@QAE@XZ");
     todo("implement");
-    _sub_5BFEDF(this);
 }
 
-_extern _sub_5BFFBF(StagingArea *const, std::auto_ptr<Net::Session>, StagingArea::ICallbacks *, unsigned long long);
 StagingArea::StagingArea(std::auto_ptr<Net::Session>, StagingArea::ICallbacks *, unsigned long long) // 0x5BFFBF
 {
     mangled_assert("??0StagingArea@@QAE@V?$auto_ptr@VSession@Net@@@std@@PAUICallbacks@0@_K@Z");
     todo("implement");
-    _sub_5BFFBF(this, arg, arg, arg);
 }
 
-_extern void _sub_5C00A7(StagingArea *const);
 StagingArea::~StagingArea() // 0x5C00A7
 {
     mangled_assert("??1StagingArea@@QAE@XZ");
     todo("implement");
-    _sub_5C00A7(this);
 }
 
-_extern __int32 _sub_5C0102(StagingArea const *const, __int32);
 __int32 StagingArea::GetPing(__int32) const // 0x5C0102
 {
     mangled_assert("?GetPing@StagingArea@@QBEHH@Z");
     todo("implement");
-    __int32 __result = _sub_5C0102(this, arg);
-    return __result;
 }
 
-_extern void _sub_5C00D4(StagingArea *const, unsigned __int32);
 void StagingArea::DropPlayer(unsigned __int32) // 0x5C00D4
 {
     mangled_assert("?DropPlayer@StagingArea@@QAEXI@Z");
     todo("implement");
-    _sub_5C00D4(this, arg);
 }
 
-_extern __int32 _sub_5C00DB(StagingArea const *const, unsigned __int32);
 __int32 StagingArea::FindSlotID(unsigned __int32) const // 0x5C00DB
 {
     mangled_assert("?FindSlotID@StagingArea@@ABEHI@Z");
     todo("implement");
-    __int32 __result = _sub_5C00DB(this, arg);
-    return __result;
 }
 
-_extern __int32 _sub_5C00FB(StagingArea const *const);
 __int32 StagingArea::GetNumberPlayer() const // 0x5C00FB
 {
     mangled_assert("?GetNumberPlayer@StagingArea@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_5C00FB(this);
-    return __result;
 }
 
-_extern void _sub_5C0147(StagingArea *const, unsigned __int32);
 void StagingArea::OnCreatePlayer(unsigned __int32) // 0x5C0147
 {
     mangled_assert("?OnCreatePlayer@StagingArea@@AAEXI@Z");
     todo("implement");
-    _sub_5C0147(this, arg);
 }
 
-_extern void _sub_5C01CB(StagingArea *const, unsigned __int32);
 void StagingArea::OnDestroyPlayer(unsigned __int32) // 0x5C01CB
 {
     mangled_assert("?OnDestroyPlayer@StagingArea@@AAEXI@Z");
     todo("implement");
-    _sub_5C01CB(this, arg);
 }
 
-_extern void _sub_5C025B(StagingArea *const, Net::Message const &);
 void StagingArea::OnMessage(Net::Message const &) // 0x5C025B
 {
     mangled_assert("?OnMessage@StagingArea@@AAEXABVMessage@Net@@@Z");
     todo("implement");
-    _sub_5C025B(this, arg);
 }
 
-_extern void _sub_5C0301(StagingArea *const, StagingArea::PlayerSettings const &);
 void StagingArea::OnPlayerSettings(StagingArea::PlayerSettings const &) // 0x5C0301
 {
     mangled_assert("?OnPlayerSettings@StagingArea@@AAEXABUPlayerSettings@1@@Z");
     todo("implement");
-    _sub_5C0301(this, arg);
 }
 
-_extern void _sub_5C023E(StagingArea *const, StagingArea::HostSettings const &);
 void StagingArea::OnHostSettings(StagingArea::HostSettings const &) // 0x5C023E
 {
     mangled_assert("?OnHostSettings@StagingArea@@AAEXABUHostSettings@1@@Z");
     todo("implement");
-    _sub_5C023E(this, arg);
 }
 
-_extern void _sub_5C0400(StagingArea *const, StagingArea::HostSettings const &, StagingArea::PlayerSettings const *);
 void StagingArea::OnStartGame(StagingArea::HostSettings const &, StagingArea::PlayerSettings const *) // 0x5C0400
 {
     mangled_assert("?OnStartGame@StagingArea@@AAEXABUHostSettings@1@QBUPlayerSettings@1@@Z");
     todo("implement");
-    _sub_5C0400(this, arg, arg);
 }
 
-_extern void _sub_5C0236(StagingArea *const);
 void StagingArea::OnHostMigration() // 0x5C0236
 {
     mangled_assert("?OnHostMigration@StagingArea@@AAEXXZ");
     todo("implement");
-    _sub_5C0236(this);
 }
 
-_extern void _sub_5C0778(StagingArea *const, StagingArea::PlayerSettings const &);
 void StagingArea::UpdatePlayerSettings(StagingArea::PlayerSettings const &) // 0x5C0778
 {
     mangled_assert("?UpdatePlayerSettings@StagingArea@@QAEXABUPlayerSettings@1@@Z");
     todo("implement");
-    _sub_5C0778(this, arg);
 }
 
-_extern void _sub_5C071A(StagingArea *const, StagingArea::HostSettings const &);
 void StagingArea::UpdateHostSettings(StagingArea::HostSettings const &) // 0x5C071A
 {
     mangled_assert("?UpdateHostSettings@StagingArea@@QAEXABUHostSettings@1@@Z");
     todo("implement");
-    _sub_5C071A(this, arg);
 }
 
-_extern void _sub_5C044A(StagingArea const *const, wchar_t const *, unsigned __int32);
 void StagingArea::SendChatMessage(wchar_t const *, unsigned __int32) const // 0x5C044A
 {
     mangled_assert("?SendChatMessage@StagingArea@@QBEXPB_WI@Z");
     todo("implement");
-    _sub_5C044A(this, arg, arg);
 }
 
-_extern void _sub_5C056A(StagingArea const *const, __int32, unsigned __int32);
 void StagingArea::SendPlayerSettings(__int32, unsigned __int32) const // 0x5C056A
 {
     mangled_assert("?SendPlayerSettings@StagingArea@@ABEXHI@Z");
     todo("implement");
-    _sub_5C056A(this, arg, arg);
 }
 
-_extern void _sub_5C051C(StagingArea const *const, unsigned __int32);
 void StagingArea::SendHostSettings(unsigned __int32) const // 0x5C051C
 {
     mangled_assert("?SendHostSettings@StagingArea@@ABEXI@Z");
     todo("implement");
-    _sub_5C051C(this, arg);
 }
 
-_extern void _sub_5C05BE(StagingArea *const);
 void StagingArea::StartGame() // 0x5C05BE
 {
     mangled_assert("?StartGame@StagingArea@@QAEXXZ");
     todo("implement");
-    _sub_5C05BE(this);
 }
 
-_extern void _sub_5C0636(StagingArea *const, float);
 void StagingArea::Update(float) // 0x5C0636
 {
     mangled_assert("?Update@StagingArea@@QAEXM@Z");
     todo("implement");
-    _sub_5C0636(this, arg);
 }
 
 /* ---------- private code */

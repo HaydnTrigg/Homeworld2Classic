@@ -81,80 +81,59 @@ typedef `anonymous-namespace'::LibEntry const &_Reftype;
 
 /* ---------- public code */
 
-_extern void _sub_10006025(LuaLibrary::BindInfo *const);
 _inline LuaLibrary::BindInfo::~BindInfo() // 0x10006025
 {
     mangled_assert("??1BindInfo@LuaLibrary@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10006025(this);
 }
 
-_extern void _sub_1000602D(LuaLibrary *const);
 LuaLibrary::~LuaLibrary() // 0x1000602D
 {
     mangled_assert("??1LuaLibrary@@UAE@XZ");
     todo("implement");
-    _sub_1000602D(this);
 }
 
-_extern void _sub_1000639D(LuaLibrary *const, LuaConfig &, LuaBinding::Obj const &);
 void LuaLibrary::StoreLuaBindingObj(LuaConfig &, LuaBinding::Obj const &) // 0x1000639D
 {
     mangled_assert("?StoreLuaBindingObj@LuaLibrary@@QAEXAAVLuaConfig@@ABVObj@LuaBinding@@@Z");
     todo("implement");
-    _sub_1000639D(this, arg, arg);
 }
 
-_extern void _sub_100061DA(LuaLibrary *const, LuaConfig &);
 void LuaLibrary::ClearLuaBindingObj(LuaConfig &) // 0x100061DA
 {
     mangled_assert("?ClearLuaBindingObj@LuaLibrary@@QAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_100061DA(this, arg);
 }
 
-_extern void _sub_100061AE(char const *, LuaLibrary *);
 void LuaLibMan::AddLibrary(char const *name, LuaLibrary *pLib) // 0x100061AE
 {
     mangled_assert("?AddLibrary@LuaLibMan@@SGXPBDPAVLuaLibrary@@@Z");
     todo("implement");
-    _sub_100061AE(name, pLib);
 }
 
-_extern void _sub_10006363(char const *, LuaLibrary *);
 void LuaLibMan::RemLibrary(char const *name, LuaLibrary *) // 0x10006363
 {
     mangled_assert("?RemLibrary@LuaLibMan@@SGXPBDPAVLuaLibrary@@@Z");
     todo("implement");
-    _sub_10006363(name, arg);
 }
 
-_extern LuaLibrary *_sub_100062A0(char const *);
 LuaLibrary *LuaLibMan::GetLibrary(char const *name) // 0x100062A0
 {
     mangled_assert("?GetLibrary@LuaLibMan@@CGPAVLuaLibrary@@PBD@Z");
     todo("implement");
-    LuaLibrary * __result = _sub_100062A0(name);
-    return __result;
 }
 
-_extern bool _sub_100062D6(LuaLibrary *, LuaConfig &);
 bool LuaLibMan::RegisterLib(LuaLibrary *pLibrary, LuaConfig &lc) // 0x100062D6
 {
     mangled_assert("?RegisterLib@LuaLibMan@@CG_NPAVLuaLibrary@@AAVLuaConfig@@@Z");
     todo("implement");
-    bool __result = _sub_100062D6(pLibrary, lc);
-    return __result;
 }
 
-_extern bool _sub_1000620B(LuaLibrary *, LuaConfig &);
 bool LuaLibMan::DeRegisterLib(LuaLibrary *pLibrary, LuaConfig &lc) // 0x1000620B
 {
     mangled_assert("?DeRegisterLib@LuaLibMan@@CG_NPAVLuaLibrary@@AAVLuaConfig@@@Z");
     todo("implement");
-    bool __result = _sub_1000620B(pLibrary, lc);
-    return __result;
 }
 
 /* ---------- private code */

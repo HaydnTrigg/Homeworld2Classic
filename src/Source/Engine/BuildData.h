@@ -230,121 +230,82 @@ static_assert(sizeof(BuildData) == 160, "Invalid BuildData size");
 
 /* ---------- public code */
 
-_extern unsigned __int32 const _sub_5855BD(BuildData const *const);
 _inline unsigned __int32 const BuildData::getDisplayPriority() const // 0x5855BD
 {
     mangled_assert("?getDisplayPriority@BuildData@@QBE?BIXZ");
     todo("implement");
-    unsigned __int32 const __result = _sub_5855BD(this);
-    return __result;
 }
 
-_extern wchar_t const *_sub_570A46(BuildData const *const);
 _inline wchar_t const *BuildData::getDisplayedName() const // 0x570A46
 {
     mangled_assert("?getDisplayedName@BuildData@@QBEPB_WXZ");
     todo("implement");
-    wchar_t const * __result = _sub_570A46(this);
-    return __result;
 }
 
-_extern wchar_t const *_sub_5855AA(BuildData const *const);
 _inline wchar_t const *BuildData::getDescription() const // 0x5855AA
 {
     mangled_assert("?getDescription@BuildData@@QBEPB_WXZ");
     todo("implement");
-    wchar_t const * __result = _sub_5855AA(this);
-    return __result;
 }
 
-_extern BuildType const _sub_510802(BuildData const *const);
 _inline BuildType const BuildData::getTypeToBuild() const // 0x510802
 {
     mangled_assert("?getTypeToBuild@BuildData@@QBE?BW4BuildType@@XZ");
     todo("implement");
-    BuildType const __result = _sub_510802(this);
-    return __result;
 }
 
-_extern std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &_sub_5855C8(BuildData const *const);
 _inline std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &BuildData::getThingToBuild() const // 0x5855C8
 {
     mangled_assert("?getThingToBuild@BuildData@@QBEABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ");
     todo("implement");
-    std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & __result = _sub_5855C8(this);
-    return __result;
 }
 
-_extern __int32 _sub_5855B6(BuildData const *const);
 _inline __int32 BuildData::getDisplayFamilyIndex() const // 0x5855B6
 {
     mangled_assert("?getDisplayFamilyIndex@BuildData@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_5855B6(this);
-    return __result;
 }
 
-_extern __int32 _sub_5855A3(BuildData const *const);
 _inline __int32 BuildData::getBuildFamilyIndex() const // 0x5855A3
 {
     mangled_assert("?getBuildFamilyIndex@BuildData@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_5855A3(this);
-    return __result;
 }
 
-_extern __int32 _sub_5855CC(BuildData const *const);
 _inline __int32 BuildData::getUCFamilyIndex() const // 0x5855CC
 {
     mangled_assert("?getUCFamilyIndex@BuildData@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_5855CC(this);
-    return __result;
 }
 
-_extern __int32 _sub_5855D3(BuildData const *const);
 _inline __int32 BuildData::getUCShipTypeIndex() const // 0x5855D3
 {
     mangled_assert("?getUCShipTypeIndex@BuildData@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_5855D3(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_5107FB(BuildData const *const);
 _inline unsigned __int32 BuildData::getTypeId() const // 0x5107FB
 {
     mangled_assert("?getTypeId@BuildData@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_5107FB(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_52C143(BuildData const *const);
 _inline unsigned __int32 BuildData::getGenericSubSystemTypeId() const // 0x52C143
 {
     mangled_assert("?getGenericSubSystemTypeId@BuildData@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_52C143(this);
-    return __result;
 }
 
-_extern bool _sub_5CC69C(BuildData *const);
 _inline bool BuildData::isDeterministic() // 0x5CC69C
 {
     mangled_assert("?isDeterministic@BuildData@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_5CC69C(this);
-    return __result;
 }
 
-_extern char const *_sub_5CC779(BuildData *const);
 _inline char const *BuildData::saveToken() // 0x5CC779
 {
     mangled_assert("?saveToken@BuildData@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_5CC779(this);
-    return __result;
 }
 
 /* ---------- private code */

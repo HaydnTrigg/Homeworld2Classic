@@ -57,38 +57,28 @@ static_assert(sizeof(Collision::Mesh) == 96, "Invalid Collision::Mesh size");
 
 /* ---------- public code */
 
-_extern _sub_4A514B(Collision::Point *const, float, float);
 _inline Collision::Point::Point(float, float) // 0x4A514B
 {
     mangled_assert("??0Point@Collision@@QAE@MM@Z");
     todo("implement");
-    _sub_4A514B(this, arg, arg);
 }
 
-_extern _sub_4A687D(Collision::PointPair *const);
 _inline Collision::PointPair::PointPair() // 0x4A687D
 {
     mangled_assert("??0PointPair@Collision@@QAE@XZ");
     todo("implement");
-    _sub_4A687D(this);
 }
 
-_extern std::vector<vector3,std::allocator<vector3> > const &_sub_520D6E(Collision::Mesh const *const);
 _inline std::vector<vector3,std::allocator<vector3> > const &Collision::Mesh::GetVertices() const // 0x520D6E
 {
     mangled_assert("?GetVertices@Mesh@Collision@@QBEABV?$vector@Vvector3@@V?$allocator@Vvector3@@@std@@@std@@XZ");
     todo("implement");
-    std::vector<vector3,std::allocator<vector3> > const & __result = _sub_520D6E(this);
-    return __result;
 }
 
-_extern std::vector<unsigned short,std::allocator<unsigned short> > const &_sub_520D38(Collision::Mesh const *const);
 _inline std::vector<unsigned short,std::allocator<unsigned short> > const &Collision::Mesh::GetIndices() const // 0x520D38
 {
     mangled_assert("?GetIndices@Mesh@Collision@@QBEABV?$vector@GV?$allocator@G@std@@@std@@XZ");
     todo("implement");
-    std::vector<unsigned short,std::allocator<unsigned short> > const & __result = _sub_520D38(this);
-    return __result;
 }
 
 /* ---------- private code */

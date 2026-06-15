@@ -47,48 +47,34 @@ extern _inline void std::swap(FrameOrders &A, FrameOrders &B);
 
 /* ---------- public code */
 
-_extern unsigned __int32 _sub_46176C(FrameOrders const *const);
 _inline unsigned __int32 FrameOrders::GetChecksum() const // 0x46176C
 {
     mangled_assert("?GetChecksum@FrameOrders@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_46176C(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_4643FC(FrameOrders const *const);
 _inline unsigned __int32 FrameOrders::size() const // 0x4643FC
 {
     mangled_assert("?size@FrameOrders@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_4643FC(this);
-    return __result;
 }
 
-_extern std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Order *> > > _sub_46308C(FrameOrders const *const);
 _inline std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Order *> > > FrameOrders::begin() const // 0x46308C
 {
     mangled_assert("?begin@FrameOrders@@QBE?AV?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@PAVOrder@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Order *> > > __result = _sub_46308C(this);
-    return __result;
 }
 
-_extern std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Order *> > > _sub_4632DE(FrameOrders const *const);
 _inline std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Order *> > > FrameOrders::end() const // 0x4632DE
 {
     mangled_assert("?end@FrameOrders@@QBE?AV?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@PAVOrder@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Order *> > > __result = _sub_4632DE(this);
-    return __result;
 }
 
-_extern void _sub_5BC578(FrameOrders &, FrameOrders &);
 _inline void std::swap(FrameOrders &A, FrameOrders &B) // 0x5BC578
 {
     mangled_assert("?swap@std@@YGXAAVFrameOrders@@0@Z");
     todo("implement");
-    _sub_5BC578(A, B);
 }
 
 /* ---------- private code */

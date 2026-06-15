@@ -127,48 +127,34 @@ static_assert(sizeof(VertexArray) == 152, "Invalid VertexArray size");
 
 /* ---------- public code */
 
-_extern void _sub_1001B2E0(VertexArray *const, unsigned __int32, unsigned __int32);
 _inline void VertexArray::reown(unsigned __int32, unsigned __int32) // 0x1001B2E0
 {
     mangled_assert("?reown@VertexArray@@QAEXII@Z");
     todo("implement");
-    _sub_1001B2E0(this, arg, arg);
 }
 
-_extern bool _sub_100196A0(VertexArray const *const);
 _inline bool VertexArray::isApplied() const // 0x100196A0
 {
     mangled_assert("?isApplied@VertexArray@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_100196A0(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_10019430(VertexArray const *const);
 _inline unsigned __int32 VertexArray::getNumVertices() const // 0x10019430
 {
     mangled_assert("?getNumVertices@VertexArray@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_10019430(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_10019250(VertexArray const *const);
 _inline unsigned __int32 VertexArray::getFatMask() const // 0x10019250
 {
     mangled_assert("?getFatMask@VertexArray@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_10019250(this);
-    return __result;
 }
 
-_extern FatVertex *_sub_10019240(VertexArray const *const);
 _inline FatVertex *VertexArray::getFatData() const // 0x10019240
 {
     mangled_assert("?getFatData@VertexArray@@QBEPAUFatVertex@@XZ");
     todo("implement");
-    FatVertex * __result = _sub_10019240(this);
-    return __result;
 }
 
 /* ---------- private code */

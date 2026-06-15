@@ -75,12 +75,10 @@ extern char const *qr2_registered_key_list[0]; // 0x1001E190
 
 /* ---------- public code */
 
-_extern void _sub_10007CEF(__int32, char const *);
 void qr2_register_key(__int32 keyid, char const *key) // 0x10007CEF
 {
     mangled_assert("_qr2_register_key@8");
     todo("implement");
-    _sub_10007CEF(keyid, key);
 }
 
 /* ---------- private code */

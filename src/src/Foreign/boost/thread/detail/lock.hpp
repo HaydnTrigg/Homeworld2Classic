@@ -54,77 +54,58 @@ static_assert(sizeof(boost::detail::thread::scoped_lock<boost::mutex>) == 8, "In
 
 /* ---------- public code */
 
-_extern void _sub_6D83EB(boost::mutex &);
 _inline void boost::detail::thread::lock_ops<boost::mutex>::lock(boost::mutex &m) // 0x6D83EB
 {
     mangled_assert("?lock@?$lock_ops@Vmutex@boost@@@thread@detail@boost@@SGXAAVmutex@4@@Z");
     todo("implement");
-    _sub_6D83EB(m);
 }
 
-_extern void _sub_6D85CF(boost::mutex &);
 _inline void boost::detail::thread::lock_ops<boost::mutex>::unlock(boost::mutex &m) // 0x6D85CF
 {
     mangled_assert("?unlock@?$lock_ops@Vmutex@boost@@@thread@detail@boost@@SGXAAVmutex@4@@Z");
     todo("implement");
-    _sub_6D85CF(m);
 }
 
-_extern void _sub_6D83FA(boost::mutex &, void *&);
 _inline void boost::detail::thread::lock_ops<boost::mutex>::lock(boost::mutex &m, void *&state) // 0x6D83FA
 {
     mangled_assert("?lock@?$lock_ops@Vmutex@boost@@@thread@detail@boost@@SGXAAVmutex@4@AAPAX@Z");
     todo("implement");
-    _sub_6D83FA(m, state);
 }
 
-_extern void _sub_6D85DE(boost::mutex &, void *&);
 _inline void boost::detail::thread::lock_ops<boost::mutex>::unlock(boost::mutex &m, void *&state) // 0x6D85DE
 {
     mangled_assert("?unlock@?$lock_ops@Vmutex@boost@@@thread@detail@boost@@SGXAAVmutex@4@AAPAX@Z");
     todo("implement");
-    _sub_6D85DE(m, state);
 }
 
-_extern _sub_6D7C2F(boost::detail::thread::scoped_lock<boost::mutex> *const, boost::mutex &, bool);
 _inline boost::detail::thread::scoped_lock<boost::mutex>::scoped_lock<boost::mutex>(boost::mutex &, bool) // 0x6D7C2F
 {
     mangled_assert("??0?$scoped_lock@Vmutex@boost@@@thread@detail@boost@@QAE@AAVmutex@3@_N@Z");
     todo("implement");
-    _sub_6D7C2F(this, arg, arg);
 }
 
-_extern void _sub_6D7E72(boost::detail::thread::scoped_lock<boost::mutex> *const);
 _inline boost::detail::thread::scoped_lock<boost::mutex>::~scoped_lock<boost::mutex>() // 0x6D7E72
 {
     mangled_assert("??1?$scoped_lock@Vmutex@boost@@@thread@detail@boost@@QAE@XZ");
     todo("implement");
-    _sub_6D7E72(this);
 }
 
-_extern void _sub_6D840C(boost::detail::thread::scoped_lock<boost::mutex> *const);
 _inline void boost::detail::thread::scoped_lock<boost::mutex>::lock() // 0x6D840C
 {
     mangled_assert("?lock@?$scoped_lock@Vmutex@boost@@@thread@detail@boost@@QAEXXZ");
     todo("implement");
-    _sub_6D840C(this);
 }
 
-_extern void _sub_6D85F0(boost::detail::thread::scoped_lock<boost::mutex> *const);
 _inline void boost::detail::thread::scoped_lock<boost::mutex>::unlock() // 0x6D85F0
 {
     mangled_assert("?unlock@?$scoped_lock@Vmutex@boost@@@thread@detail@boost@@QAEXXZ");
     todo("implement");
-    _sub_6D85F0(this);
 }
 
-_extern void const *_sub_6D7FB4(boost::detail::thread::scoped_lock<boost::mutex> const *const);
 _inline void const *boost::detail::thread::scoped_lock<boost::mutex>::operator void const *() const // 0x6D7FB4
 {
     mangled_assert("??B?$scoped_lock@Vmutex@boost@@@thread@detail@boost@@QBEPBXXZ");
     todo("implement");
-    void const * __result = _sub_6D7FB4(this);
-    return __result;
 }
 
 /* ---------- private code */

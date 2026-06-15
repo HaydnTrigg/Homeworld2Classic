@@ -72,13 +72,10 @@ static_assert(sizeof(NISTransition) == 116, "Invalid NISTransition size");
 
 /* ---------- public code */
 
-_extern bool _sub_54BE24(NISTransition const *const);
 _inline bool NISTransition::isTransitioning() const // 0x54BE24
 {
     mangled_assert("?isTransitioning@NISTransition@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_54BE24(this);
-    return __result;
 }
 
 /* ---------- private code */

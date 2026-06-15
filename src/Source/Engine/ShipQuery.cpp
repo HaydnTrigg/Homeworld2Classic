@@ -120,12 +120,10 @@ extern void CalcSquadronValue(Squadron const &squad, CounterValue &outVal);
 
 /* ---------- public code */
 
-_extern void _sub_637A4A(Squadron const &, CounterValue &);
 void CalcSquadronValue(Squadron const &squad, CounterValue &outVal) // 0x637A4A
 {
     mangled_assert("?CalcSquadronValue@@YGXABVSquadron@@AAVCounterValue@@@Z");
     todo("implement");
-    _sub_637A4A(squad, outVal);
 }
 
 /* ---------- private code */

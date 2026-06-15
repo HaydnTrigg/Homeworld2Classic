@@ -152,103 +152,70 @@ static_assert(sizeof(WaypointManager) == 132, "Invalid WaypointManager size");
 
 /* ---------- public code */
 
-_extern char const *_sub_65501E(Waypoint *const);
 _inline char const *Waypoint::saveToken() // 0x65501E
 {
     mangled_assert("?saveToken@Waypoint@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_65501E(this);
-    return __result;
 }
 
-_extern bool _sub_65477A(Waypoint *const);
 _inline bool Waypoint::isDeterministic() // 0x65477A
 {
     mangled_assert("?isDeterministic@Waypoint@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_65477A(this);
-    return __result;
 }
 
-_extern bool _sub_653F79(WaypointPath const *const);
 _inline bool WaypointPath::empty() const // 0x653F79
 {
     mangled_assert("?empty@WaypointPath@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_653F79(this);
-    return __result;
 }
 
-_extern char const *_sub_65502A(WaypointPath *const);
 _inline char const *WaypointPath::saveToken() // 0x65502A
 {
     mangled_assert("?saveToken@WaypointPath@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_65502A(this);
-    return __result;
 }
 
-_extern bool _sub_654780(WaypointPath *const);
 _inline bool WaypointPath::isDeterministic() // 0x654780
 {
     mangled_assert("?isDeterministic@WaypointPath@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_654780(this);
-    return __result;
 }
 
-_extern std::list<WaypointPath *,std::allocator<WaypointPath *> > *_sub_5F0FD8(PathList *const);
 _inline std::list<WaypointPath *,std::allocator<WaypointPath *> > *PathList::getPathList() // 0x5F0FD8
 {
     mangled_assert("?getPathList@PathList@@QAEPAV?$list@PAVWaypointPath@@V?$allocator@PAVWaypointPath@@@std@@@std@@XZ");
     todo("implement");
-    std::list<WaypointPath *,std::allocator<WaypointPath *> > * __result = _sub_5F0FD8(this);
-    return __result;
 }
 
-_extern char const *_sub_655018(PathList *const);
 _inline char const *PathList::saveToken() // 0x655018
 {
     mangled_assert("?saveToken@PathList@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_655018(this);
-    return __result;
 }
 
-_extern bool _sub_654777(PathList *const);
 _inline bool PathList::isDeterministic() // 0x654777
 {
     mangled_assert("?isDeterministic@PathList@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_654777(this);
-    return __result;
 }
 
-_extern WaypointPath *_sub_453FB9(WaypointManager *const);
 _inline WaypointPath *WaypointManager::getEditingPath() // 0x453FB9
 {
     mangled_assert("?getEditingPath@WaypointManager@@QAEPAVWaypointPath@@XZ");
     todo("implement");
-    WaypointPath * __result = _sub_453FB9(this);
-    return __result;
 }
 
-_extern char const *_sub_655024(WaypointManager *const);
 _inline char const *WaypointManager::saveToken() // 0x655024
 {
     mangled_assert("?saveToken@WaypointManager@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_655024(this);
-    return __result;
 }
 
-_extern bool _sub_65477D(WaypointManager *const);
 _inline bool WaypointManager::isDeterministic() // 0x65477D
 {
     mangled_assert("?isDeterministic@WaypointManager@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_65477D(this);
-    return __result;
 }
 
 /* ---------- private code */

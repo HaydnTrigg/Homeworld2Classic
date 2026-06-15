@@ -84,30 +84,23 @@
 
 /* ---------- public code */
 
-_extern _sub_4C41B6(PebbleStatic *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &);
 PebbleStatic::PebbleStatic(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &) // 0x4C41B6
 {
     mangled_assert("??0PebbleStatic@@IAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    _sub_4C41B6(this, arg);
 }
 
-_extern void _sub_4C4220(PebbleStatic *const);
 _inline PebbleStatic::~PebbleStatic() // 0x4C4220
 {
     mangled_assert("??1PebbleStatic@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4C4220(this);
 }
 
-_extern SobStatic *_sub_4C4241(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, SobStatic *);
 SobStatic *PebbleStatic::Create(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &name, SobStatic *found) // 0x4C4241
 {
     mangled_assert("?Create@PebbleStatic@@SGPAVSobStatic@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAV2@@Z");
     todo("implement");
-    SobStatic * __result = _sub_4C4241(name, found);
-    return __result;
 }
 
 /* ---------- private code */

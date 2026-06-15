@@ -37,54 +37,40 @@ static_assert(sizeof(SaveGameDataInfo) == 12, "Invalid SaveGameDataInfo size");
 
 /* ---------- public code */
 
-_extern _sub_6280C4(SaveGameDataInfo *const);
 _inline SaveGameDataInfo::SaveGameDataInfo() // 0x6280C4
 {
     mangled_assert("??0SaveGameDataInfo@@QAE@XZ");
     todo("implement");
-    _sub_6280C4(this);
 }
 
-_extern void _sub_62A297(SaveGameDataInfo *const, unsigned __int32);
 _inline void SaveGameDataInfo::setVersion(unsigned __int32) // 0x62A297
 {
     mangled_assert("?setVersion@SaveGameDataInfo@@QAEXI@Z");
     todo("implement");
-    _sub_62A297(this, arg);
 }
 
-_extern unsigned __int32 _sub_628D06(SaveGameDataInfo *const);
 _inline unsigned __int32 SaveGameDataInfo::getSaveType() // 0x628D06
 {
     mangled_assert("?getSaveType@SaveGameDataInfo@@QAEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_628D06(this);
-    return __result;
 }
 
-_extern void _sub_62A28D(SaveGameDataInfo *const, unsigned __int32);
 _inline void SaveGameDataInfo::setSaveType(unsigned __int32) // 0x62A28D
 {
     mangled_assert("?setSaveType@SaveGameDataInfo@@QAEXI@Z");
     todo("implement");
-    _sub_62A28D(this, arg);
 }
 
-_extern unsigned __int32 _sub_627504(SaveGameDataInfo *const);
 _inline unsigned __int32 SaveGameDataInfo::getCRC() // 0x627504
 {
     mangled_assert("?getCRC@SaveGameDataInfo@@QAEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_627504(this);
-    return __result;
 }
 
-_extern void _sub_62A283(SaveGameDataInfo *const, unsigned __int32);
 _inline void SaveGameDataInfo::setCRC(unsigned __int32) // 0x62A283
 {
     mangled_assert("?setCRC@SaveGameDataInfo@@QAEXI@Z");
     todo("implement");
-    _sub_62A283(this, arg);
 }
 
 /* ---------- private code */

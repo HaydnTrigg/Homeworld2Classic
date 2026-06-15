@@ -191,178 +191,134 @@
 
 /* ---------- public code */
 
-_extern _sub_573F26(boost::shared_ptr<UI::Graphic> *const, boost::shared_ptr<UI::Graphic> const &);
 _inline boost::shared_ptr<UI::Graphic>::shared_ptr<UI::Graphic>(boost::shared_ptr<UI::Graphic> const &) // 0x573F26
 {
     mangled_assert("??0?$shared_ptr@VGraphic@UI@@@boost@@QAE@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_573F26(this, arg);
 }
 
-_extern _sub_573F46(UI::DiplomacyScreen *const, char const *);
 UI::DiplomacyScreen::DiplomacyScreen(char const *) // 0x573F46
 {
     mangled_assert("??0DiplomacyScreen@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_573F46(this, arg);
 }
 
-_extern void _sub_573F8F(boost::shared_ptr<UI::Graphic> *const);
 _inline boost::shared_ptr<UI::Graphic>::~shared_ptr<UI::Graphic>() // 0x573F8F
 {
     mangled_assert("??1?$shared_ptr@VGraphic@UI@@@boost@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_573F8F(this);
 }
 
-_extern void _sub_573F9B(UI::DiplomacyScreen *const);
 UI::DiplomacyScreen::~DiplomacyScreen() // 0x573F9B
 {
     mangled_assert("??1DiplomacyScreen@UI@@UAE@XZ");
     todo("implement");
-    _sub_573F9B(this);
 }
 
-_extern boost::shared_ptr<UI::Graphic> &_sub_573FE7(boost::shared_ptr<UI::Graphic> *const, boost::shared_ptr<UI::Graphic> const &);
 _inline boost::shared_ptr<UI::Graphic> &boost::shared_ptr<UI::Graphic>::operator=(boost::shared_ptr<UI::Graphic> const &) // 0x573FE7
 {
     mangled_assert("??4?$shared_ptr@VGraphic@UI@@@boost@@QAEAAV01@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    boost::shared_ptr<UI::Graphic> & __result = _sub_573FE7(this, arg);
-    return __result;
 }
 
-_extern void _sub_574286(UI::DiplomacyScreen *const);
 void UI::DiplomacyScreen::OnPostLoad() // 0x574286
 {
     mangled_assert("?OnPostLoad@DiplomacyScreen@UI@@MAEXXZ");
     todo("implement");
-    _sub_574286(this);
 }
 
-_extern void _sub_574051(UI::DiplomacyScreen *const);
 void UI::DiplomacyScreen::HandleAllianceEvents() // 0x574051
 {
     mangled_assert("?HandleAllianceEvents@DiplomacyScreen@UI@@AAEXXZ");
     todo("implement");
-    _sub_574051(this);
 }
 
-_extern void _sub_574B01(UI::DiplomacyScreen *const, unsigned __int32);
 void UI::DiplomacyScreen::Update(unsigned __int32) // 0x574B01
 {
     mangled_assert("?Update@DiplomacyScreen@UI@@UAEXI@Z");
     todo("implement");
-    _sub_574B01(this, arg);
 }
 
-_extern void _sub_57417A(GameEventSys::Listener * const, GameEventSys::Event const &);
 void UI::DiplomacyScreen::OnEvent(GameEventSys::Event const &) // 0x57417A
 {
     mangled_assert("?OnEvent@DiplomacyScreen@UI@@UAEXABVEvent@GameEventSys@@@Z");
     // __shifted(UI::DiplomacyScreen, 412);
     todo("implement");
-    _sub_57417A(this, arg);
 }
 
-_extern void _sub_5740D9(UI::DiplomacyScreen *const, bool);
 void UI::DiplomacyScreen::OnActivate(bool) // 0x5740D9
 {
     mangled_assert("?OnActivate@DiplomacyScreen@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_5740D9(this, arg);
 }
 
-_extern void _sub_574A4A(UI::DiplomacyScreen *const, __int32);
 void UI::DiplomacyScreen::SelectPlayer(__int32) // 0x574A4A
 {
     mangled_assert("?SelectPlayer@DiplomacyScreen@UI@@QAEXH@Z");
     todo("implement");
-    _sub_574A4A(this, arg);
 }
 
-_extern void _sub_574237(UI::InterfaceElement *);
 void UI::DiplomacyScreen::OnPlayerSelect(UI::InterfaceElement *sender) // 0x574237
 {
     mangled_assert("?OnPlayerSelect@DiplomacyScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_574237(sender);
 }
 
-_extern void _sub_574833(UI::InterfaceElement *);
 void UI::DiplomacyScreen::OnRequestAlliance(UI::InterfaceElement *sender) // 0x574833
 {
     mangled_assert("?OnRequestAlliance@DiplomacyScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_574833(sender);
 }
 
-_extern void _sub_574123(UI::InterfaceElement *);
 void UI::DiplomacyScreen::OnBreakAlliance(UI::InterfaceElement *sender) // 0x574123
 {
     mangled_assert("?OnBreakAlliance@DiplomacyScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_574123(sender);
 }
 
-_extern void _sub_5741A7(UI::InterfaceElement *);
 void UI::DiplomacyScreen::OnIgnoreAlliance(UI::InterfaceElement *sender) // 0x5741A7
 {
     mangled_assert("?OnIgnoreAlliance@DiplomacyScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5741A7(sender);
 }
 
-_extern void _sub_5749BA(UI::InterfaceElement *);
 void UI::DiplomacyScreen::OnTransferShips(UI::InterfaceElement *sender) // 0x5749BA
 {
     mangled_assert("?OnTransferShips@DiplomacyScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5749BA(sender);
 }
 
-_extern void _sub_574914(UI::InterfaceElement *);
 void UI::DiplomacyScreen::OnTransfer500RUs(UI::InterfaceElement *sender) // 0x574914
 {
     mangled_assert("?OnTransfer500RUs@DiplomacyScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_574914(sender);
 }
 
-_extern void _sub_574882(UI::InterfaceElement *);
 void UI::DiplomacyScreen::OnTransfer1000RUs(UI::InterfaceElement *sender) // 0x574882
 {
     mangled_assert("?OnTransfer1000RUs@DiplomacyScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_574882(sender);
 }
 
-_extern void _sub_5748CB(UI::InterfaceElement *);
 void UI::DiplomacyScreen::OnTransfer5000RUs(UI::InterfaceElement *sender) // 0x5748CB
 {
     mangled_assert("?OnTransfer5000RUs@DiplomacyScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5748CB(sender);
 }
 
-_extern void _sub_57495D(UI::InterfaceElement *);
 void UI::DiplomacyScreen::OnTransferAllRUs(UI::InterfaceElement *sender) // 0x57495D
 {
     mangled_assert("?OnTransferAllRUs@DiplomacyScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_57495D(sender);
 }
 
-_extern bool _sub_5740B9(UI::DiplomacyScreen *const);
 bool UI::DiplomacyScreen::IsAllianceRequested() // 0x5740B9
 {
     mangled_assert("?IsAllianceRequested@DiplomacyScreen@UI@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_5740B9(this);
-    return __result;
 }
 
 /* ---------- private code */

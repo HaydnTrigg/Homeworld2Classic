@@ -151,110 +151,77 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_10008288(LocalizerResourceUCS *const, char const *, unsigned __int32, unsigned __int32);
 LocalizerResourceUCS::LocalizerResourceUCS(char const *, unsigned __int32, unsigned __int32) // 0x10008288
 {
     mangled_assert("??0LocalizerResourceUCS@@AAE@PBDII@Z");
     todo("implement");
-    _sub_10008288(this, arg, arg, arg);
 }
 
-_extern void _sub_10008329(LocalizerResourceUCS *const);
 LocalizerResourceUCS::~LocalizerResourceUCS() // 0x10008329
 {
     mangled_assert("??1LocalizerResourceUCS@@UAE@XZ");
     todo("implement");
-    _sub_10008329(this);
 }
 
-_extern char const *_sub_100085B2(LocalizerResourceUCS const *const);
 char const *LocalizerResourceUCS::GetName() const // 0x100085B2
 {
     mangled_assert("?GetName@LocalizerResourceUCS@@UBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_100085B2(this);
-    return __result;
 }
 
-_extern __int32 _sub_100087E3(LocalizerResourceUCS const *const);
 __int32 LocalizerResourceUCS::RangeMin() const // 0x100087E3
 {
     mangled_assert("?RangeMin@LocalizerResourceUCS@@UBEHXZ");
     todo("implement");
-    __int32 __result = _sub_100087E3(this);
-    return __result;
 }
 
-_extern __int32 _sub_100087D1(LocalizerResourceUCS const *const);
 __int32 LocalizerResourceUCS::RangeMax() const // 0x100087D1
 {
     mangled_assert("?RangeMax@LocalizerResourceUCS@@UBEHXZ");
     todo("implement");
-    __int32 __result = _sub_100087D1(this);
-    return __result;
 }
 
-_extern bool _sub_100085BE(LocalizerResourceUCS const *const, wchar_t *, unsigned __int32, __int32);
 bool LocalizerResourceUCS::GetString(wchar_t *, unsigned __int32, __int32) const // 0x100085BE
 {
     mangled_assert("?GetString@LocalizerResourceUCS@@UBE_NPA_WIH@Z");
     todo("implement");
-    bool __result = _sub_100085BE(this, arg, arg, arg);
-    return __result;
 }
 
-_extern LocalizerImp::Resource *_sub_10008696(char const *);
 LocalizerImp::Resource *LocalizerResourceUCS::Load(char const *filename) // 0x10008696
 {
     mangled_assert("?Load@LocalizerResourceUCS@@SGPAVResource@LocalizerImp@@PBD@Z");
     todo("implement");
-    LocalizerImp::Resource * __result = _sub_10008696(filename);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern void _sub_10008899(wchar_t const *, wchar_t const *, wchar_t const **, wchar_t const **, wchar_t const **, wchar_t const **);
 _static void WBufParseLine(wchar_t const *linebeg, wchar_t const *lineend, wchar_t const **numbeg, wchar_t const **numend, wchar_t const **txtbeg, wchar_t const **txtend) // 0x10008899
 {
     mangled_assert("WBufParseLine");
     todo("implement");
-    _sub_10008899(linebeg, lineend, numbeg, numend, txtbeg, txtend);
 }
 
-_extern bool _sub_1000779B(wchar_t const *, boost::_bi::bind_t<bool,bool (__stdcall*)(wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const *,unsigned int *,unsigned int *),boost::_bi::list6<boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::_bi::value<unsigned int *>,boost::_bi::value<unsigned int *> > >);
 _static bool WBufParse<boost::_bi::bind_t<bool,bool (__stdcall*)(wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const *,unsigned int *,unsigned int *),boost::_bi::list6<boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::_bi::value<unsigned int *>,boost::_bi::value<unsigned int *> > > >(wchar_t const *buf, boost::_bi::bind_t<bool,bool (__stdcall*)(wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const *,unsigned int *,unsigned int *),boost::_bi::list6<boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::_bi::value<unsigned int *>,boost::_bi::value<unsigned int *> > > fn) // 0x1000779B
 {
     mangled_assert("WBufParse<boost::_bi::bind_t<bool,bool (__stdcall*)(wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const *,unsigned int *,unsigned int *),boost::_bi::list6<boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::_bi::value<unsigned int *>,boost::_bi::value<unsigned int *> > > >");
     todo("implement");
-    bool __result = _sub_1000779B(buf, fn);
-    return __result;
 }
 
-_extern bool _sub_10007810(wchar_t const *, boost::_bi::bind_t<bool,bool (__stdcall*)(wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const *,LocalizerResourceUCS::Line *,unsigned int *,wchar_t * *),boost::_bi::list7<boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::_bi::value<LocalizerResourceUCS::Line *>,boost::_bi::value<unsigned int *>,boost::_bi::value<wchar_t * *> > >);
 _static bool WBufParse<boost::_bi::bind_t<bool,bool (__stdcall*)(wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const *,LocalizerResourceUCS::Line *,unsigned int *,wchar_t * *),boost::_bi::list7<boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::_bi::value<LocalizerResourceUCS::Line *>,boost::_bi::value<unsigned int *>,boost::_bi::value<wchar_t * *> > > >(wchar_t const *buf, boost::_bi::bind_t<bool,bool (__stdcall*)(wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const *,LocalizerResourceUCS::Line *,unsigned int *,wchar_t * *),boost::_bi::list7<boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::_bi::value<LocalizerResourceUCS::Line *>,boost::_bi::value<unsigned int *>,boost::_bi::value<wchar_t * *> > > fn) // 0x10007810
 {
     mangled_assert("WBufParse<boost::_bi::bind_t<bool,bool (__stdcall*)(wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const *,LocalizerResourceUCS::Line *,unsigned int *,wchar_t * *),boost::_bi::list7<boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::_bi::value<LocalizerResourceUCS::Line *>,boost::_bi::value<unsigned int *>,boost::_bi::value<wchar_t * *> > > >");
     todo("implement");
-    bool __result = _sub_10007810(buf, fn);
-    return __result;
 }
 
-_extern bool _sub_100087F0(wchar_t const *, unsigned __int32 &, unsigned __int32 &);
 _static bool WBufCount(wchar_t const *buf, unsigned __int32 &countLines, unsigned __int32 &countChars) // 0x100087F0
 {
     mangled_assert("WBufCount");
     todo("implement");
-    bool __result = _sub_100087F0(buf, countLines, countChars);
-    return __result;
 }
 
-_extern bool _sub_10008839(wchar_t const *, unsigned __int32 const *, LocalizerResourceUCS::Line *, wchar_t *);
 _static bool WBufParseAll(wchar_t const *buf, unsigned __int32 const *linesCount, LocalizerResourceUCS::Line *lines, wchar_t *strings) // 0x10008839
 {
     mangled_assert("WBufParseAll");
     todo("implement");
-    bool __result = _sub_10008839(buf, linesCount, lines, strings);
-    return __result;
 }
 #endif

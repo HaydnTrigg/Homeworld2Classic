@@ -198,343 +198,251 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_557C24(BlendTransition *const, float, float);
 _inline BlendTransition::BlendTransition(float, float) // 0x557C24
 {
     mangled_assert("??0BlendTransition@@QAE@MM@Z");
     todo("implement");
-    _sub_557C24(this, arg, arg);
 }
 
-_extern void _sub_557D91(BlendTransition *const);
 _inline BlendTransition::~BlendTransition() // 0x557D91
 {
     mangled_assert("??1BlendTransition@@UAE@XZ");
     todo("implement");
-    _sub_557D91(this);
 }
 
-_extern void _sub_558887(BlendTransition *const, float);
 _inline void BlendTransition::update(float) // 0x558887
 {
     mangled_assert("?update@BlendTransition@@UAEXM@Z");
     todo("implement");
-    _sub_558887(this, arg);
 }
 
-_extern float _sub_558661(BlendTransition const *const);
 _inline float BlendTransition::getFOV() const // 0x558661
 {
     mangled_assert("?getFOV@BlendTransition@@QBEMXZ");
     todo("implement");
-    float __result = _sub_558661(this);
-    return __result;
 }
 
-_extern _sub_557C7D(OneNodeBlendTransition *const, float, float, vector3 const &, matrix3 const &, vector3 const &, matrix3 const &);
 _inline OneNodeBlendTransition::OneNodeBlendTransition(float, float, vector3 const &, matrix3 const &, vector3 const &, matrix3 const &) // 0x557C7D
 {
     mangled_assert("??0OneNodeBlendTransition@@QAE@MMABVvector3@@ABVmatrix3@@01@Z");
     todo("implement");
-    _sub_557C7D(this, arg, arg, arg, arg, arg, arg);
 }
 
-_extern void _sub_557DF2(OneNodeBlendTransition *const);
 _inline OneNodeBlendTransition::~OneNodeBlendTransition() // 0x557DF2
 {
     mangled_assert("??1OneNodeBlendTransition@@UAE@XZ");
     todo("implement");
-    _sub_557DF2(this);
 }
 
-_extern void _sub_5588C6(OneNodeBlendTransition *const, float);
 _inline void OneNodeBlendTransition::update(float) // 0x5588C6
 {
     mangled_assert("?update@OneNodeBlendTransition@@UAEXM@Z");
     todo("implement");
-    _sub_5588C6(this, arg);
 }
 
-_extern void _sub_5584C1(OneNodeBlendTransition *const, vector3 &, matrix3 &);
 _inline void OneNodeBlendTransition::getCamera(vector3 &, matrix3 &) // 0x5584C1
 {
     mangled_assert("?getCamera@OneNodeBlendTransition@@UAEXAAVvector3@@AAVmatrix3@@@Z");
     todo("implement");
-    _sub_5584C1(this, arg, arg);
 }
 
-_extern void _sub_55841C(OneNodeBlendTransition *const, vector3 const &, quat const &, vector3 &);
 _inline void OneNodeBlendTransition::computeTarget(vector3 const &, quat const &, vector3 &) // 0x55841C
 {
     mangled_assert("?computeTarget@OneNodeBlendTransition@@AAEXABVvector3@@ABVquat@@AAV2@@Z");
     todo("implement");
-    _sub_55841C(this, arg, arg, arg);
 }
 
-_extern _sub_557D34(TwoNodeBlendTransition *const, float, float, vector3 const &, vector3 const &, vector3 const &, vector3 const &);
 _inline TwoNodeBlendTransition::TwoNodeBlendTransition(float, float, vector3 const &, vector3 const &, vector3 const &, vector3 const &) // 0x557D34
 {
     mangled_assert("??0TwoNodeBlendTransition@@QAE@MMABVvector3@@000@Z");
     todo("implement");
-    _sub_557D34(this, arg, arg, arg, arg, arg, arg);
 }
 
-_extern void _sub_557E00(TwoNodeBlendTransition *const);
 _inline TwoNodeBlendTransition::~TwoNodeBlendTransition() // 0x557E00
 {
     mangled_assert("??1TwoNodeBlendTransition@@UAE@XZ");
     todo("implement");
-    _sub_557E00(this);
 }
 
-_extern void _sub_5589EE(TwoNodeBlendTransition *const, float);
 _inline void TwoNodeBlendTransition::update(float) // 0x5589EE
 {
     mangled_assert("?update@TwoNodeBlendTransition@@UAEXM@Z");
     todo("implement");
-    _sub_5589EE(this, arg);
 }
 
-_extern void _sub_558536(TwoNodeBlendTransition *const, vector3 &, matrix3 &);
 _inline void TwoNodeBlendTransition::getCamera(vector3 &, matrix3 &) // 0x558536
 {
     mangled_assert("?getCamera@TwoNodeBlendTransition@@UAEXAAVvector3@@AAVmatrix3@@@Z");
     todo("implement");
-    _sub_558536(this, arg, arg);
 }
 
-_extern _sub_557CFB(StaticBlendTransition *const, float, float, vector3 const &, vector3 const &);
 _inline StaticBlendTransition::StaticBlendTransition(float, float, vector3 const &, vector3 const &) // 0x557CFB
 {
     mangled_assert("??0StaticBlendTransition@@QAE@MMABVvector3@@0@Z");
     todo("implement");
-    _sub_557CFB(this, arg, arg, arg, arg);
 }
 
-_extern void _sub_557DF9(StaticBlendTransition *const);
 _inline StaticBlendTransition::~StaticBlendTransition() // 0x557DF9
 {
     mangled_assert("??1StaticBlendTransition@@UAE@XZ");
     todo("implement");
-    _sub_557DF9(this);
 }
 
-_extern void _sub_5589B5(StaticBlendTransition *const, float);
 _inline void StaticBlendTransition::update(float) // 0x5589B5
 {
     mangled_assert("?update@StaticBlendTransition@@UAEXM@Z");
     todo("implement");
-    _sub_5589B5(this, arg);
 }
 
-_extern void _sub_5584DE(StaticBlendTransition *const, vector3 &, matrix3 &);
 _inline void StaticBlendTransition::getCamera(vector3 &, matrix3 &) // 0x5584DE
 {
     mangled_assert("?getCamera@StaticBlendTransition@@UAEXAAVvector3@@AAVmatrix3@@@Z");
     todo("implement");
-    _sub_5584DE(this, arg, arg);
 }
 
-_extern _sub_557C45(NISTransition *const, NIS &);
 NISTransition::NISTransition(NIS &) // 0x557C45
 {
     mangled_assert("??0NISTransition@@QAE@AAVNIS@@@Z");
     todo("implement");
-    _sub_557C45(this, arg);
 }
 
-_extern void _sub_557D98(NISTransition *const);
 NISTransition::~NISTransition() // 0x557D98
 {
     mangled_assert("??1NISTransition@@QAE@XZ");
     todo("implement");
-    _sub_557D98(this);
 }
 
-_extern void _sub_558827(NISTransition *const, MotionCamera *);
 void NISTransition::setCurrentCamera(MotionCamera *) // 0x558827
 {
     mangled_assert("?setCurrentCamera@NISTransition@@QAEXPAVMotionCamera@@@Z");
     todo("implement");
-    _sub_558827(this, arg);
 }
 
-_extern void _sub_5587B8(NISTransition *const, MotionCamera *, float);
 void NISTransition::setCameraBlendIn(MotionCamera *, float) // 0x5587B8
 {
     mangled_assert("?setCameraBlendIn@NISTransition@@QAEXPAVMotionCamera@@M@Z");
     todo("implement");
-    _sub_5587B8(this, arg, arg);
 }
 
-_extern void _sub_5587D7(NISTransition *const, MotionCamera *, float, float, float);
 void NISTransition::setCameraFadeIn(MotionCamera *, float, float, float) // 0x5587D7
 {
     mangled_assert("?setCameraFadeIn@NISTransition@@QAEXPAVMotionCamera@@MMM@Z");
     todo("implement");
-    _sub_5587D7(this, arg, arg, arg, arg);
 }
 
-_extern void _sub_558843(NISTransition *const, Selection const &);
 void NISTransition::setEndFocus(Selection const &) // 0x558843
 {
     mangled_assert("?setEndFocus@NISTransition@@QAEXABVSelection@@@Z");
     todo("implement");
-    _sub_558843(this, arg);
 }
 
-_extern void _sub_558866(NISTransition *const, vector3 const &);
 void NISTransition::setEndFocus(vector3 const &) // 0x558866
 {
     mangled_assert("?setEndFocus@NISTransition@@QAEXABVvector3@@@Z");
     todo("implement");
-    _sub_558866(this, arg);
 }
 
-_extern void _sub_55881F(NISTransition *const);
 void NISTransition::setCameraLeave() // 0x55881F
 {
     mangled_assert("?setCameraLeave@NISTransition@@QAEXXZ");
     todo("implement");
-    _sub_55881F(this);
 }
 
-_extern bool _sub_5588C0(NISTransition *const, float);
 bool NISTransition::update(float) // 0x5588C0
 {
     mangled_assert("?update@NISTransition@@QAE_NM@Z");
     todo("implement");
-    bool __result = _sub_5588C0(this, arg);
-    return __result;
 }
 
-_extern bool _sub_558766(NISTransition *const, float);
 bool NISTransition::renderTimeUpdate(float) // 0x558766
 {
     mangled_assert("?renderTimeUpdate@NISTransition@@QAE_NM@Z");
     todo("implement");
-    bool __result = _sub_558766(this, arg);
-    return __result;
 }
 
-_extern void _sub_557F9A(NISTransition *const);
 void NISTransition::cameraBlendInSetup() // 0x557F9A
 {
     mangled_assert("?cameraBlendInSetup@NISTransition@@AAEXXZ");
     todo("implement");
-    _sub_557F9A(this);
 }
 
-_extern void _sub_5582AB(NISTransition *const);
 void NISTransition::cameraFadeInSetup() // 0x5582AB
 {
     mangled_assert("?cameraFadeInSetup@NISTransition@@AAEXXZ");
     todo("implement");
-    _sub_5582AB(this);
 }
 
-_extern void _sub_5583FA(NISTransition *const);
 void NISTransition::cameraTransitionInSetup() // 0x5583FA
 {
     mangled_assert("?cameraTransitionInSetup@NISTransition@@QAEXXZ");
     todo("implement");
-    _sub_5583FA(this);
 }
 
-_extern bool _sub_557F2F(NISTransition *const);
 bool NISTransition::cameraBlendInEnd() // 0x557F2F
 {
     mangled_assert("?cameraBlendInEnd@NISTransition@@AAE_NXZ");
     todo("implement");
-    bool __result = _sub_557F2F(this);
-    return __result;
 }
 
-_extern bool _sub_557F36(NISTransition *const, float);
 bool NISTransition::cameraBlendInRun(float) // 0x557F36
 {
     mangled_assert("?cameraBlendInRun@NISTransition@@AAE_NM@Z");
     todo("implement");
-    bool __result = _sub_557F36(this, arg);
-    return __result;
 }
 
-_extern bool _sub_558229(NISTransition *const, float);
 bool NISTransition::cameraFadeInRun(float) // 0x558229
 {
     mangled_assert("?cameraFadeInRun@NISTransition@@AAE_NM@Z");
     todo("implement");
-    bool __result = _sub_558229(this, arg);
-    return __result;
 }
 
-_extern bool _sub_5583C1(NISTransition *const, float);
 bool NISTransition::cameraTransitionInRun(float) // 0x5583C1
 {
     mangled_assert("?cameraTransitionInRun@NISTransition@@AAE_NM@Z");
     todo("implement");
-    bool __result = _sub_5583C1(this, arg);
-    return __result;
 }
 
-_extern bool _sub_5585BE(NISTransition *const, float &, matrix4 &);
 bool NISTransition::getCameraTransitionBlend(float &, matrix4 &) // 0x5585BE
 {
     mangled_assert("?getCameraTransitionBlend@NISTransition@@AAE_NAAMAAVmatrix4@@@Z");
     todo("implement");
-    bool __result = _sub_5585BE(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_5585F9(NISTransition *const, float &, matrix4 &);
 bool NISTransition::getCameraTransitionFade(float &, matrix4 &) // 0x5585F9
 {
     mangled_assert("?getCameraTransitionFade@NISTransition@@AAE_NAAMAAVmatrix4@@@Z");
     todo("implement");
-    bool __result = _sub_5585F9(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_55858E(NISTransition *const, float &, matrix4 &);
 bool NISTransition::getCameraTransition(float &, matrix4 &) // 0x55858E
 {
     mangled_assert("?getCameraTransition@NISTransition@@QAE_NAAMAAVmatrix4@@@Z");
     todo("implement");
-    bool __result = _sub_55858E(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_558728(NISTransition *const, MotionCamera *);
 void NISTransition::previousFocusTransition(MotionCamera *) // 0x558728
 {
     mangled_assert("?previousFocusTransition@NISTransition@@AAEXPAVMotionCamera@@@Z");
     todo("implement");
-    _sub_558728(this, arg);
 }
 
-_extern void _sub_558665(NISTransition *const, MotionCamera *);
 void NISTransition::leaveCameraTransition(MotionCamera *) // 0x558665
 {
     mangled_assert("?leaveCameraTransition@NISTransition@@AAEXPAVMotionCamera@@@Z");
     todo("implement");
-    _sub_558665(this, arg);
 }
 
-_extern void _sub_5584A9(NISTransition *const, MotionCamera *);
 void NISTransition::executeOutTransition(MotionCamera *) // 0x5584A9
 {
     mangled_assert("?executeOutTransition@NISTransition@@QAEXPAVMotionCamera@@@Z");
     todo("implement");
-    _sub_5584A9(this, arg);
 }
 
 /* ---------- private code */
 
-_extern void _sub_557E7B(vector3 const &, matrix3 const &, matrix4 &);
 _static void MakeCameraMatrix(vector3 const &position, matrix3 const &orientation, matrix4 &output) // 0x557E7B
 {
     mangled_assert("MakeCameraMatrix");
     todo("implement");
-    _sub_557E7B(position, orientation, output);
 }
 #endif

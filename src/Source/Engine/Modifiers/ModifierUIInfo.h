@@ -50,30 +50,22 @@ static_assert(sizeof(ModifierUIInfo) == 16, "Invalid ModifierUIInfo size");
 
 /* ---------- public code */
 
-_extern _sub_56F2CA(ModifierUIInfo::ModifierUIEntry *const);
 _inline ModifierUIInfo::ModifierUIEntry::ModifierUIEntry() // 0x56F2CA
 {
     mangled_assert("??0ModifierUIEntry@ModifierUIInfo@@QAE@XZ");
     todo("implement");
-    _sub_56F2CA(this);
 }
 
-_extern unsigned __int32 _sub_45A870(ModifierUIInfo const *const);
 _inline unsigned __int32 ModifierUIInfo::getNumberOfModifiers() const // 0x45A870
 {
     mangled_assert("?getNumberOfModifiers@ModifierUIInfo@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_45A870(this);
-    return __result;
 }
 
-_extern ModifierUIInfo::ModifierUIEntry const &_sub_45A832(ModifierUIInfo const *const, unsigned __int32);
 _inline ModifierUIInfo::ModifierUIEntry const &ModifierUIInfo::getModifier(unsigned __int32) const // 0x45A832
 {
     mangled_assert("?getModifier@ModifierUIInfo@@QBEABUModifierUIEntry@1@I@Z");
     todo("implement");
-    ModifierUIInfo::ModifierUIEntry const & __result = _sub_45A832(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

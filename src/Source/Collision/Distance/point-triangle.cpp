@@ -25,13 +25,10 @@ extern float Collision::DistanceSqr(vector3 const &rkPoint, Collision::Triangle 
 
 /* ---------- public code */
 
-_extern float _sub_66497F(vector3 const &, Collision::Triangle const &, float *, float *);
 float Collision::DistanceSqr(vector3 const &rkPoint, Collision::Triangle const &rkTri, float *pfSParam, float *pfTParam) // 0x66497F
 {
     mangled_assert("?DistanceSqr@Collision@@YGMABVvector3@@ABVTriangle@1@PAM2@Z");
     todo("implement");
-    float __result = _sub_66497F(rkPoint, rkTri, pfSParam, pfTParam);
-    return __result;
 }
 
 /* ---------- private code */

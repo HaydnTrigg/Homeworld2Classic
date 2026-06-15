@@ -165,44 +165,34 @@ static_assert(sizeof(UIGraphicTexture2D) == 48, "Invalid UIGraphicTexture2D size
 
 /* ---------- public code */
 
-_extern void _sub_649375(UIGraphic *const);
 _inline UIGraphic::~UIGraphic() // 0x649375
 {
     mangled_assert("??1UIGraphic@@UAE@XZ");
     todo("implement");
-    _sub_649375(this);
 }
 
-_extern void _sub_5E1EC3(UIGraphic *const, float);
 _inline void UIGraphic::setParam(float) // 0x5E1EC3
 {
     mangled_assert("?setParam@UIGraphic@@QAEXM@Z");
     todo("implement");
-    _sub_5E1EC3(this, arg);
 }
 
-_extern void _sub_5E1EB1(UIGraphic3D *const, vector4 const *);
 _inline void UIGraphic3D::setColour(vector4 const *) // 0x5E1EB1
 {
     mangled_assert("?setColour@UIGraphic3D@@QAEXPBVvector4@@@Z");
     todo("implement");
-    _sub_5E1EB1(this, arg);
 }
 
-_extern void _sub_5E1E9F(UIGraphic2D *const, vector4 const *);
 _inline void UIGraphic2D::setColour(vector4 const *) // 0x5E1E9F
 {
     mangled_assert("?setColour@UIGraphic2D@@QAEXPBVvector4@@@Z");
     todo("implement");
-    _sub_5E1E9F(this, arg);
 }
 
-_extern void _sub_5E1ED1(UIGraphicText2D *const, wchar_t const *);
 _inline void UIGraphicText2D::setText(wchar_t const *) // 0x5E1ED1
 {
     mangled_assert("?setText@UIGraphicText2D@@QAEXPB_W@Z");
     todo("implement");
-    _sub_5E1ED1(this, arg);
 }
 
 /* ---------- private code */

@@ -89,146 +89,100 @@ static_assert(sizeof(Zeroed<bool,ZeroedDefaultValue<bool> >) == 1, "Invalid Zero
 
 /* ---------- public code */
 
-_extern __int32 _sub_50E0D6();
 _inline __int32 ZeroedDefaultValue<int>::DefVal() // 0x50E0D6
 {
     mangled_assert("?DefVal@?$ZeroedDefaultValue@H@@SGHXZ");
     todo("implement");
-    __int32 __result = _sub_50E0D6();
-    return __result;
 }
 
-_extern bool _sub_50FBE9();
 _inline bool ZeroedDefaultValue<bool>::DefVal() // 0x50FBE9
 {
     mangled_assert("?DefVal@?$ZeroedDefaultValue@_N@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_50FBE9();
-    return __result;
 }
 
-_extern _sub_50F81F(Zeroed<bool,ZeroedDefaultValue<bool> > *const);
 _inline Zeroed<bool,ZeroedDefaultValue<bool> >::Zeroed<bool,ZeroedDefaultValue<bool> >() // 0x50F81F
 {
     mangled_assert("??0?$Zeroed@_NU?$ZeroedDefaultValue@_N@@@@QAE@XZ");
     todo("implement");
-    _sub_50F81F(this);
 }
 
-_extern _sub_50D6B3(Zeroed<int,ZeroedDefaultValue<int> > *const);
 _inline Zeroed<int,ZeroedDefaultValue<int> >::Zeroed<int,ZeroedDefaultValue<int> >() // 0x50D6B3
 {
     mangled_assert("??0?$Zeroed@HU?$ZeroedDefaultValue@H@@@@QAE@XZ");
     todo("implement");
-    _sub_50D6B3(this);
 }
 
-_extern __int32 const &_sub_50F0C7(Zeroed<int,ZeroedDefaultValue<int> > const *const);
 _inline __int32 const &Zeroed<int,ZeroedDefaultValue<int> >::get() const // 0x50F0C7
 {
     mangled_assert("?get@?$Zeroed@HU?$ZeroedDefaultValue@H@@@@QBEABHXZ");
     todo("implement");
-    __int32 const & __result = _sub_50F0C7(this);
-    return __result;
 }
 
-_extern bool const &_sub_50F945(Zeroed<bool,ZeroedDefaultValue<bool> > const *const);
 _inline bool const &Zeroed<bool,ZeroedDefaultValue<bool> >::operator bool const &() const // 0x50F945
 {
     mangled_assert("??B?$Zeroed@_NU?$ZeroedDefaultValue@_N@@@@QBEAB_NXZ");
     todo("implement");
-    bool const & __result = _sub_50F945(this);
-    return __result;
 }
 
-_extern __int32 const &_sub_50DF65(Zeroed<int,ZeroedDefaultValue<int> > const *const);
 _inline __int32 const &Zeroed<int,ZeroedDefaultValue<int> >::operator int const &() const // 0x50DF65
 {
     mangled_assert("??B?$Zeroed@HU?$ZeroedDefaultValue@H@@@@QBEABHXZ");
     todo("implement");
-    __int32 const & __result = _sub_50DF65(this);
-    return __result;
 }
 
-_extern Zeroed<int,ZeroedDefaultValue<int> > &_sub_50F7D7(Zeroed<int,ZeroedDefaultValue<int> > *const, __int32 const &);
 _inline Zeroed<int,ZeroedDefaultValue<int> > &Zeroed<int,ZeroedDefaultValue<int> >::operator=<int>(__int32 const &) // 0x50F7D7
 {
     mangled_assert("??$?4H@?$Zeroed@HU?$ZeroedDefaultValue@H@@@@QAEAAU0@ABH@Z");
     todo("implement");
-    Zeroed<int,ZeroedDefaultValue<int> > & __result = _sub_50F7D7(this, arg);
-    return __result;
 }
 
-_extern Zeroed<bool,ZeroedDefaultValue<bool> > &_sub_50F7E4(Zeroed<bool,ZeroedDefaultValue<bool> > *const, bool const &);
 _inline Zeroed<bool,ZeroedDefaultValue<bool> > &Zeroed<bool,ZeroedDefaultValue<bool> >::operator=<bool>(bool const &) // 0x50F7E4
 {
     mangled_assert("??$?4_N@?$Zeroed@_NU?$ZeroedDefaultValue@_N@@@@QAEAAU0@AB_N@Z");
     todo("implement");
-    Zeroed<bool,ZeroedDefaultValue<bool> > & __result = _sub_50F7E4(this, arg);
-    return __result;
 }
 
-_extern Zeroed<int,ZeroedDefaultValue<int> > &_sub_50D08C(Zeroed<int,ZeroedDefaultValue<int> > *const, unsigned __int32 const &);
 _inline Zeroed<int,ZeroedDefaultValue<int> > &Zeroed<int,ZeroedDefaultValue<int> >::operator=<unsigned int>(unsigned __int32 const &) // 0x50D08C
 {
     mangled_assert("??$?4I@?$Zeroed@HU?$ZeroedDefaultValue@H@@@@QAEAAU0@ABI@Z");
     todo("implement");
-    Zeroed<int,ZeroedDefaultValue<int> > & __result = _sub_50D08C(this, arg);
-    return __result;
 }
 
-_extern Zeroed<int,ZeroedDefaultValue<int> > &_sub_50F7F1(Zeroed<int,ZeroedDefaultValue<int> > *const, __int32 const &);
 _inline Zeroed<int,ZeroedDefaultValue<int> > &Zeroed<int,ZeroedDefaultValue<int> >::operator+=<int>(__int32 const &) // 0x50F7F1
 {
     mangled_assert("??$?YH@?$Zeroed@HU?$ZeroedDefaultValue@H@@@@QAEAAU0@ABH@Z");
     todo("implement");
-    Zeroed<int,ZeroedDefaultValue<int> > & __result = _sub_50F7F1(this, arg);
-    return __result;
 }
 
-_extern Zeroed<int,ZeroedDefaultValue<int> > &_sub_50F7FE(Zeroed<int,ZeroedDefaultValue<int> > *const, unsigned __int32 const &);
 _inline Zeroed<int,ZeroedDefaultValue<int> > &Zeroed<int,ZeroedDefaultValue<int> >::operator+=<unsigned int>(unsigned __int32 const &) // 0x50F7FE
 {
     mangled_assert("??$?YI@?$Zeroed@HU?$ZeroedDefaultValue@H@@@@QAEAAU0@ABI@Z");
     todo("implement");
-    Zeroed<int,ZeroedDefaultValue<int> > & __result = _sub_50F7FE(this, arg);
-    return __result;
 }
 
-_extern Zeroed<int,ZeroedDefaultValue<int> > &_sub_50F80B(Zeroed<int,ZeroedDefaultValue<int> > *const, unsigned __int32 const &);
 _inline Zeroed<int,ZeroedDefaultValue<int> > &Zeroed<int,ZeroedDefaultValue<int> >::operator-=<unsigned int>(unsigned __int32 const &) // 0x50F80B
 {
     mangled_assert("??$?ZI@?$Zeroed@HU?$ZeroedDefaultValue@H@@@@QAEAAU0@ABI@Z");
     todo("implement");
-    Zeroed<int,ZeroedDefaultValue<int> > & __result = _sub_50F80B(this, arg);
-    return __result;
 }
 
-_extern Zeroed<int,ZeroedDefaultValue<int> > const &_sub_50F962(Zeroed<int,ZeroedDefaultValue<int> > *const);
 _inline Zeroed<int,ZeroedDefaultValue<int> > const &Zeroed<int,ZeroedDefaultValue<int> >::operator++() // 0x50F962
 {
     mangled_assert("??E?$Zeroed@HU?$ZeroedDefaultValue@H@@@@QAEABU0@XZ");
     todo("implement");
-    Zeroed<int,ZeroedDefaultValue<int> > const & __result = _sub_50F962(this);
-    return __result;
 }
 
-_extern Zeroed<int,ZeroedDefaultValue<int> > _sub_50F954(Zeroed<int,ZeroedDefaultValue<int> > *const, __int32);
 _inline Zeroed<int,ZeroedDefaultValue<int> > Zeroed<int,ZeroedDefaultValue<int> >::operator++(__int32) // 0x50F954
 {
     mangled_assert("??E?$Zeroed@HU?$ZeroedDefaultValue@H@@@@QAE?AU0@H@Z");
     todo("implement");
-    Zeroed<int,ZeroedDefaultValue<int> > __result = _sub_50F954(this, arg);
-    return __result;
 }
 
-_extern Zeroed<int,ZeroedDefaultValue<int> > _sub_50F979(Zeroed<int,ZeroedDefaultValue<int> > *const, __int32);
 _inline Zeroed<int,ZeroedDefaultValue<int> > Zeroed<int,ZeroedDefaultValue<int> >::operator--(__int32) // 0x50F979
 {
     mangled_assert("??F?$Zeroed@HU?$ZeroedDefaultValue@H@@@@QAE?AU0@H@Z");
     todo("implement");
-    Zeroed<int,ZeroedDefaultValue<int> > __result = _sub_50F979(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

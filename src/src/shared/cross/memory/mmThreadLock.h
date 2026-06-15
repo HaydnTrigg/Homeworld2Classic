@@ -49,44 +49,34 @@ static_assert(sizeof(MMThreadLock) == 8, "Invalid MMThreadLock size");
 
 /* ---------- public code */
 
-_extern void _sub_10001070(MMThreadLockObj *const);
 _inline void MMThreadLockObj::Enter() // 0x10001070
 {
     mangled_assert("?Enter@MMThreadLockObj@@QAEXXZ");
     todo("implement");
-    _sub_10001070(this);
 }
 
-_extern void _sub_10001080(MMThreadLockObj *const);
 _inline void MMThreadLockObj::Exit() // 0x10001080
 {
     mangled_assert("?Exit@MMThreadLockObj@@QAEXXZ");
     todo("implement");
-    _sub_10001080(this);
 }
 
-_extern _sub_10001000(MMThreadLock *const, MMThreadLockObj *);
 _inline MMThreadLock::MMThreadLock(MMThreadLockObj *) // 0x10001000
 {
     mangled_assert("??0MMThreadLock@@QAE@PAVMMThreadLockObj@@@Z");
     todo("implement");
-    _sub_10001000(this, arg);
 }
 
-_extern void _sub_10002040(MMThreadLock *const);
 _inline void MMThreadLock::Release() // 0x10002040
 {
     mangled_assert("?Release@MMThreadLock@@QAEXXZ");
     todo("implement");
-    _sub_10002040(this);
 }
 
-_extern void _sub_10001020(MMThreadLock *const);
 _inline MMThreadLock::~MMThreadLock() // 0x10001020
 {
     mangled_assert("??1MMThreadLock@@QAE@XZ");
     todo("implement");
-    _sub_10001020(this);
 }
 
 /* ---------- private code */

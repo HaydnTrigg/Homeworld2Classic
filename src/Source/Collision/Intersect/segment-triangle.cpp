@@ -24,13 +24,10 @@ extern bool Collision::FindIntersection(Collision::Segment const &segment, Colli
 
 /* ---------- public code */
 
-_extern bool _sub_664651(Collision::Segment const &, Collision::Triangle const &, vector3 &, float *);
 bool Collision::FindIntersection(Collision::Segment const &segment, Collision::Triangle const &triangle, vector3 &intersection, float *time) // 0x664651
 {
     mangled_assert("?FindIntersection@Collision@@YG_NABVSegment@1@ABVTriangle@1@AAVvector3@@PAM@Z");
     todo("implement");
-    bool __result = _sub_664651(segment, triangle, intersection, time);
-    return __result;
 }
 
 /* ---------- private code */

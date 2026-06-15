@@ -51,31 +51,22 @@ static_assert(sizeof(Volume) == 560, "Invalid Volume size");
 
 /* ---------- public code */
 
-_extern bool _sub_4B267E(Volume *const);
 _inline bool Volume::isDeterministic() // 0x4B267E
 {
     mangled_assert("?isDeterministic@Volume@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4B267E(this);
-    return __result;
 }
 
-_extern char const *_sub_4B271A(Volume *const);
 _inline char const *Volume::saveToken() // 0x4B271A
 {
     mangled_assert("?saveToken@Volume@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4B271A(this);
-    return __result;
 }
 
-_extern char const *_sub_5447CA(Volume const *const);
 _inline char const *Volume::getVolumeName() const // 0x5447CA
 {
     mangled_assert("?getVolumeName@Volume@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_5447CA(this);
-    return __result;
 }
 
 /* ---------- private code */

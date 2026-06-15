@@ -2977,31 +2977,25 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_10015988(std::_Generic_error_category *const);
 _inline std::_Generic_error_category::~_Generic_error_category() // 0x10015988
 {
     mangled_assert("??1_Generic_error_category@std@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10015988(this);
 }
 
-_extern void _sub_1001598F(std::_Iostream_error_category *const);
 _inline std::_Iostream_error_category::~_Iostream_error_category() // 0x1001598F
 {
     mangled_assert("??1_Iostream_error_category@std@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_1001598F(this);
 }
 
-_extern void _sub_10015996(std::_System_error_category *const);
 _inline std::_System_error_category::~_System_error_category() // 0x10015996
 {
     mangled_assert("??1_System_error_category@std@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10015996(this);
 }
 
 /* ---------- private code */

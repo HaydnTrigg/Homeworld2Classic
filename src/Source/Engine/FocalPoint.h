@@ -38,13 +38,10 @@ static_assert(sizeof(FocalPoint) == 112, "Invalid FocalPoint size");
 
 /* ---------- public code */
 
-_extern OrbitParameters &_sub_4DF34D(FocalPoint *const);
 _inline OrbitParameters &FocalPoint::getParam() // 0x4DF34D
 {
     mangled_assert("?getParam@FocalPoint@@QAEAAVOrbitParameters@@XZ");
     todo("implement");
-    OrbitParameters & __result = _sub_4DF34D(this);
-    return __result;
 }
 
 /* ---------- private code */

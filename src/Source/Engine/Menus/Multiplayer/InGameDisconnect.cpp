@@ -56,12 +56,10 @@
 
 /* ---------- public code */
 
-_extern void _sub_5B4653(InGameDisconnect *const, wchar_t const *);
 void InGameDisconnect::OnLobbyDisconnected(wchar_t const *) // 0x5B4653
 {
     mangled_assert("?OnLobbyDisconnected@InGameDisconnect@@UAEXPB_W@Z");
     todo("implement");
-    _sub_5B4653(this, arg);
 }
 
 /* ---------- private code */

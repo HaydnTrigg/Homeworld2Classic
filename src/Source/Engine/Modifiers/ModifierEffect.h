@@ -33,13 +33,10 @@ static_assert(sizeof(ModifierEffect) == 12, "Invalid ModifierEffect size");
 
 /* ---------- public code */
 
-_extern float _sub_56F687(ModifierEffect const *const);
 _inline float ModifierEffect::getSphereRadius() const // 0x56F687
 {
     mangled_assert("?getSphereRadius@ModifierEffect@@QBEMXZ");
     todo("implement");
-    float __result = _sub_56F687(this);
-    return __result;
 }
 
 /* ---------- private code */

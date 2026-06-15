@@ -136,122 +136,88 @@
 
 /* ---------- public code */
 
-_extern bool _sub_540097(CpuSquadGroup const *const);
 bool CpuSquadGroup::AreAllAwake() const // 0x540097
 {
     mangled_assert("?AreAllAwake@CpuSquadGroup@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_540097(this);
-    return __result;
 }
 
-_extern _sub_53FEAC(CpuSquadGroup *const, CpuCommon &, CpuSquadGroup::GroupType);
 CpuSquadGroup::CpuSquadGroup(CpuCommon &, CpuSquadGroup::GroupType) // 0x53FEAC
 {
     mangled_assert("??0CpuSquadGroup@@QAE@AAVCpuCommon@@W4GroupType@0@@Z");
     todo("implement");
-    _sub_53FEAC(this, arg, arg);
 }
 
-_extern void _sub_54000D(CpuSquadGroup *const);
 CpuSquadGroup::~CpuSquadGroup() // 0x54000D
 {
     mangled_assert("??1CpuSquadGroup@@QAE@XZ");
     todo("implement");
-    _sub_54000D(this);
 }
 
-_extern void _sub_540207(CpuSquadGroup *const, Squadron *);
 void CpuSquadGroup::push_back(Squadron *) // 0x540207
 {
     mangled_assert("?push_back@CpuSquadGroup@@QAEXPAVSquadron@@@Z");
     todo("implement");
-    _sub_540207(this, arg);
 }
 
-_extern void _sub_5401E0(CpuSquadGroup *const, CpuSquadGroup &);
 void CpuSquadGroup::merge(CpuSquadGroup &) // 0x5401E0
 {
     mangled_assert("?merge@CpuSquadGroup@@QAEXAAV1@@Z");
     todo("implement");
-    _sub_5401E0(this, arg);
 }
 
-_extern void _sub_540268(CpuSquadGroup *const, Squadron const *);
 void CpuSquadGroup::remove(Squadron const *) // 0x540268
 {
     mangled_assert("?remove@CpuSquadGroup@@QAEXPBVSquadron@@@Z");
     todo("implement");
-    _sub_540268(this, arg);
 }
 
-_extern bool _sub_540177(CpuSquadGroup const *const);
 bool CpuSquadGroup::alive() const // 0x540177
 {
     mangled_assert("?alive@CpuSquadGroup@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_540177(this);
-    return __result;
 }
 
-_extern Squadron *_sub_5401B0(CpuSquadGroup *const);
 Squadron *CpuSquadGroup::getLeadSquadron() // 0x5401B0
 {
     mangled_assert("?getLeadSquadron@CpuSquadGroup@@QAEPAVSquadron@@XZ");
     todo("implement");
-    Squadron * __result = _sub_5401B0(this);
-    return __result;
 }
 
-_extern Squadron const *_sub_5401BE(CpuSquadGroup const *const);
 Squadron const *CpuSquadGroup::getLeadSquadron() const // 0x5401BE
 {
     mangled_assert("?getLeadSquadron@CpuSquadGroup@@QBEPBVSquadron@@XZ");
     todo("implement");
-    Squadron const * __result = _sub_5401BE(this);
-    return __result;
 }
 
-_extern void _sub_5400FB(CpuSquadGroup *const, SquadState);
 void CpuSquadGroup::SendOrderRequest(SquadState) // 0x5400FB
 {
     mangled_assert("?SendOrderRequest@CpuSquadGroup@@QAEXW4SquadState@@@Z");
     todo("implement");
-    _sub_5400FB(this, arg);
 }
 
-_extern bool _sub_54015F(CpuSquadGroup *const);
 bool CpuSquadGroup::Update() // 0x54015F
 {
     mangled_assert("?Update@CpuSquadGroup@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_54015F(this);
-    return __result;
 }
 
-_extern bool _sub_5400C7(CpuSquadGroup *const, CommandType);
 bool CpuSquadGroup::IsAnySquadronInState(CommandType) // 0x5400C7
 {
     mangled_assert("?IsAnySquadronInState@CpuSquadGroup@@QAE_NW4CommandType@@@Z");
     todo("implement");
-    bool __result = _sub_5400C7(this, arg);
-    return __result;
 }
 
-_extern void _sub_540270(CpuSquadGroup const *const, SaveStream *);
 void CpuSquadGroup::save(SaveStream *) const // 0x540270
 {
     mangled_assert("?save@CpuSquadGroup@@QBEXPAVSaveStream@@@Z");
     todo("implement");
-    _sub_540270(this, arg);
 }
 
-_extern _sub_53FD6F(CpuSquadGroup *const, CpuCommon &, SaveStream *);
 CpuSquadGroup::CpuSquadGroup(CpuCommon &, SaveStream *) // 0x53FD6F
 {
     mangled_assert("??0CpuSquadGroup@@QAE@AAVCpuCommon@@PAVSaveStream@@@Z");
     todo("implement");
-    _sub_53FD6F(this, arg, arg);
 }
 
 /* ---------- private code */

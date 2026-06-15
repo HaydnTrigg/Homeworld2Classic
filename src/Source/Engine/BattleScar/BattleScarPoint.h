@@ -155,21 +155,16 @@ static_assert(sizeof(BattleScarPoint) == 1, "Invalid BattleScarPoint size");
 
 /* ---------- public code */
 
-_extern bool _sub_55F366(BattleScarPoint::Type const *const, float, BattleScarStats const &);
 _inline bool BattleScarPoint::Type::healthLimitDamage(float, BattleScarStats const &) const // 0x55F366
 {
     mangled_assert("?healthLimitDamage@Type@BattleScarPoint@@MBE_NMABVBattleScarStats@@@Z");
     todo("implement");
-    bool __result = _sub_55F366(this, arg, arg);
-    return __result;
 }
 
-_extern _sub_55DA70(BattleScarPoint::Type::TextureTypeInfo *const);
 _inline BattleScarPoint::Type::TextureTypeInfo::TextureTypeInfo() // 0x55DA70
 {
     mangled_assert("??0TextureTypeInfo@Type@BattleScarPoint@@QAE@XZ");
     todo("implement");
-    _sub_55DA70(this);
 }
 
 /* ---------- private code */

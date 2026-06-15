@@ -53,22 +53,16 @@ static_assert(sizeof(PhysicsEngine) == 40, "Invalid PhysicsEngine size");
 
 /* ---------- public code */
 
-_extern bool _sub_47371B(PhysicsEngine *const);
 _inline bool PhysicsEngine::isDeterministic() // 0x47371B
 {
     mangled_assert("?isDeterministic@PhysicsEngine@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_47371B(this);
-    return __result;
 }
 
-_extern char const *_sub_4738CE(PhysicsEngine *const);
 _inline char const *PhysicsEngine::saveToken() // 0x4738CE
 {
     mangled_assert("?saveToken@PhysicsEngine@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4738CE(this);
-    return __result;
 }
 
 /* ---------- private code */

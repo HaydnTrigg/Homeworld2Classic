@@ -161,173 +161,125 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_100A0720(TextureProxy *const);
 TextureProxy::TextureProxy() // 0x100A0720
 {
     mangled_assert("??0TextureProxy@@QAE@XZ");
     todo("implement");
-    _sub_100A0720(this);
 }
 
-_extern _sub_100A06C0(TextureProxy *const, Texture *);
 TextureProxy::TextureProxy(Texture *) // 0x100A06C0
 {
     mangled_assert("??0TextureProxy@@QAE@PAVTexture@@@Z");
     todo("implement");
-    _sub_100A06C0(this, arg);
 }
 
-_extern _sub_100A06F0(TextureProxy *const, TextureAnim *);
 TextureProxy::TextureProxy(TextureAnim *) // 0x100A06F0
 {
     mangled_assert("??0TextureProxy@@QAE@PAVTextureAnim@@@Z");
     todo("implement");
-    _sub_100A06F0(this, arg);
 }
 
-_extern void _sub_100A0740(TextureProxy *const);
 TextureProxy::~TextureProxy() // 0x100A0740
 {
     mangled_assert("??1TextureProxy@@QAE@XZ");
     todo("implement");
-    _sub_100A0740(this);
 }
 
-_extern void _sub_100A0B00(TextureProxy *const, Texture *);
 void TextureProxy::SetTexture(Texture *) // 0x100A0B00
 {
     mangled_assert("?SetTexture@TextureProxy@@QAEXPAVTexture@@@Z");
     todo("implement");
-    _sub_100A0B00(this, arg);
 }
 
-_extern void _sub_100A0B70(TextureProxy *const, TextureAnim *);
 void TextureProxy::SetTextureAnim(TextureAnim *) // 0x100A0B70
 {
     mangled_assert("?SetTextureAnim@TextureProxy@@QAEXPAVTextureAnim@@@Z");
     todo("implement");
-    _sub_100A0B70(this, arg);
 }
 
-_extern void _sub_100A0C40(TextureProxy *const);
 void TextureProxy::TexAnimReset() // 0x100A0C40
 {
     mangled_assert("?TexAnimReset@TextureProxy@@QAEXXZ");
     todo("implement");
-    _sub_100A0C40(this);
 }
 
-_extern unsigned __int32 _sub_100A0C20(TextureProxy const *const);
 unsigned __int32 TextureProxy::TexAnimGetNumFrames() const // 0x100A0C20
 {
     mangled_assert("?TexAnimGetNumFrames@TextureProxy@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_100A0C20(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_100A0C00(TextureProxy const *const);
 unsigned __int32 TextureProxy::TexAnimGetCurrFrame() const // 0x100A0C00
 {
     mangled_assert("?TexAnimGetCurrFrame@TextureProxy@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_100A0C00(this);
-    return __result;
 }
 
-_extern void _sub_100A0C50(TextureProxy *const, float);
 void TextureProxy::Update(float) // 0x100A0C50
 {
     mangled_assert("?Update@TextureProxy@@QAEXM@Z");
     todo("implement");
-    _sub_100A0C50(this, arg);
 }
 
-_extern void _sub_100A0BF0(TextureProxy *const, float);
 void TextureProxy::SetTime(float) // 0x100A0BF0
 {
     mangled_assert("?SetTime@TextureProxy@@QAEXM@Z");
     todo("implement");
-    _sub_100A0BF0(this, arg);
 }
 
-_extern Texture *_sub_100A07E0(TextureProxy const *const);
 Texture *TextureProxy::GetTexture() const // 0x100A07E0
 {
     mangled_assert("?GetTexture@TextureProxy@@QBEPAVTexture@@XZ");
     todo("implement");
-    Texture * __result = _sub_100A07E0(this);
-    return __result;
 }
 
-_extern Texture *_sub_100A0890(TextureProxy *const, char const *, float &, char const *);
 Texture *TextureProxy::LoadMultiResTexture(char const *, float &, char const *) // 0x100A0890
 {
     mangled_assert("?LoadMultiResTexture@TextureProxy@@AAEPAVTexture@@PBDAAM0@Z");
     todo("implement");
-    Texture * __result = _sub_100A0890(this, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_100A0810(TextureProxy *const, char const *, char const *);
 bool TextureProxy::Load(char const *, char const *) // 0x100A0810
 {
     mangled_assert("?Load@TextureProxy@@QAE_NPBD0@Z");
     todo("implement");
-    bool __result = _sub_100A0810(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_100A0C70(TextureProxy *const);
 void TextureProxy::clear() // 0x100A0C70
 {
     mangled_assert("?clear@TextureProxy@@AAEXXZ");
     todo("implement");
-    _sub_100A0C70(this);
 }
 
-_extern TextureProxy &_sub_100A0780(TextureProxy *const, TextureProxy const &);
 TextureProxy &TextureProxy::operator=(TextureProxy const &) // 0x100A0780
 {
     mangled_assert("??4TextureProxy@@QAEAAV0@ABV0@@Z");
     todo("implement");
-    TextureProxy & __result = _sub_100A0780(this, arg);
-    return __result;
 }
 
-_extern void _sub_100A0AF0(__int32);
 void TextureProxy::SetGameRes(__int32 gameRes) // 0x100A0AF0
 {
     mangled_assert("?SetGameRes@TextureProxy@@SGXH@Z");
     todo("implement");
-    _sub_100A0AF0(gameRes);
 }
 
 /* ---------- private code */
 
-_extern void _sub_100A0D90(char *);
 _static void toUpper(char *str) // 0x100A0D90
 {
     mangled_assert("toUpper");
     todo("implement");
-    _sub_100A0D90(str);
 }
 
-_extern bool _sub_100A0CB0(char const *);
 _static bool isAnimFname(char const *fname) // 0x100A0CB0
 {
     mangled_assert("isAnimFname");
     todo("implement");
-    bool __result = _sub_100A0CB0(fname);
-    return __result;
 }
 
-_extern bool _sub_100A0D20(char const *);
 _static bool isMultiResFname(char const *fname) // 0x100A0D20
 {
     mangled_assert("isMultiResFname");
     todo("implement");
-    bool __result = _sub_100A0D20(fname);
-    return __result;
 }
 #endif

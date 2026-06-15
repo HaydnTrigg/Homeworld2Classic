@@ -177,39 +177,28 @@ static_assert(sizeof(Typeface) == 92, "Invalid Typeface size");
 
 /* ---------- public code */
 
-_extern _sub_100A32E0(Glyph *const);
 _inline Glyph::Glyph() // 0x100A32E0
 {
     mangled_assert("??0Glyph@@QAE@XZ");
     todo("implement");
-    _sub_100A32E0(this);
 }
 
-_extern std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &_sub_10026AB0(Typeface const *const);
 _inline std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &Typeface::getName() const // 0x10026AB0
 {
     mangled_assert("?getName@Typeface@@QBEABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ");
     todo("implement");
-    std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & __result = _sub_10026AB0(this);
-    return __result;
 }
 
-_extern float _sub_10026B00(Typeface const *const);
 _inline float Typeface::getScreenWidth() const // 0x10026B00
 {
     mangled_assert("?getScreenWidth@Typeface@@QBEMXZ");
     todo("implement");
-    float __result = _sub_10026B00(this);
-    return __result;
 }
 
-_extern float _sub_10026AF0(Typeface const *const);
 _inline float Typeface::getScreenHeight() const // 0x10026AF0
 {
     mangled_assert("?getScreenHeight@Typeface@@QBEMXZ");
     todo("implement");
-    float __result = _sub_10026AF0(this);
-    return __result;
 }
 
 /* ---------- private code */

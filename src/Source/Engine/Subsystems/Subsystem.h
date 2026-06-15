@@ -297,76 +297,52 @@ static_assert(sizeof(SubSystem) == 632, "Invalid SubSystem size");
 
 /* ---------- public code */
 
-_extern HardPoint *_sub_458DF1(SubSystem const *const);
 _inline HardPoint *SubSystem::getHardPoint() const // 0x458DF1
 {
     mangled_assert("?getHardPoint@SubSystem@@QBEPAVHardPoint@@XZ");
     todo("implement");
-    HardPoint * __result = _sub_458DF1(this);
-    return __result;
 }
 
-_extern std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &_sub_52C14A(SubSystem const *const);
 _inline std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &SubSystem::getGenericTypeString() const // 0x52C14A
 {
     mangled_assert("?getGenericTypeString@SubSystem@@QBEABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ");
     todo("implement");
-    std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & __result = _sub_52C14A(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_4EF9FD(SubSystem const *const);
 _inline unsigned __int32 SubSystem::getGenericTypeId() const // 0x4EF9FD
 {
     mangled_assert("?getGenericTypeId@SubSystem@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_4EF9FD(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_4EFB74(SubSystem const *const);
 _inline unsigned __int32 SubSystem::getStaticId() const // 0x4EFB74
 {
     mangled_assert("?getStaticId@SubSystem@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_4EFB74(this);
-    return __result;
 }
 
-_extern bool _sub_4F0CDF(SubSystem const *const);
 _inline bool SubSystem::getVisible() const // 0x4F0CDF
 {
     mangled_assert("?getVisible@SubSystem@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_4F0CDF(this);
-    return __result;
 }
 
-_extern SubSystemStatic const *_sub_45A8B2(SubSystem const *const);
 _inline SubSystemStatic const *SubSystem::getStatic() const // 0x45A8B2
 {
     mangled_assert("?getStatic@SubSystem@@QBEPBVSubSystemStatic@@XZ");
     todo("implement");
-    SubSystemStatic const * __result = _sub_45A8B2(this);
-    return __result;
 }
 
-_extern bool _sub_4F0D5E(SubSystem *const);
 _inline bool SubSystem::isDeterministic() // 0x4F0D5E
 {
     mangled_assert("?isDeterministic@SubSystem@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4F0D5E(this);
-    return __result;
 }
 
-_extern char const *_sub_4F1089(SubSystem *const);
 _inline char const *SubSystem::saveToken() // 0x4F1089
 {
     mangled_assert("?saveToken@SubSystem@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4F1089(this);
-    return __result;
 }
 
 /* ---------- private code */

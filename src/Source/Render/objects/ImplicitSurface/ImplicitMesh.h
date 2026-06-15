@@ -45,13 +45,10 @@ static_assert(sizeof(ImplicitMesh) == 136, "Invalid ImplicitMesh size");
 
 /* ---------- public code */
 
-_extern VertexArray const *_sub_100323F0(ImplicitMesh const *const);
 _inline VertexArray const *ImplicitMesh::getVertexArray() const // 0x100323F0
 {
     mangled_assert("?getVertexArray@ImplicitMesh@@QBEPBVVertexArray@@XZ");
     todo("implement");
-    VertexArray const * __result = _sub_100323F0(this);
-    return __result;
 }
 
 /* ---------- private code */

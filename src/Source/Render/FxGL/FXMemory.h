@@ -62,30 +62,22 @@ static_assert(sizeof(FXMemory) == 24, "Invalid FXMemory size");
 
 /* ---------- public code */
 
-_extern _sub_6F7332(FXMemory::Handle *const);
 _inline FXMemory::Handle::Handle() // 0x6F7332
 {
     mangled_assert("??0Handle@FXMemory@@QAE@XZ");
     todo("implement");
-    _sub_6F7332(this);
 }
 
-_extern void *_sub_6DCE53(FXMemory *const, FXMemory::Handle);
 _inline void *FXMemory::Handle2PtrFast(FXMemory::Handle) // 0x6DCE53
 {
     mangled_assert("?Handle2PtrFast@FXMemory@@QAEPAXUHandle@1@@Z");
     todo("implement");
-    void * __result = _sub_6DCE53(this, arg);
-    return __result;
 }
 
-_extern void *_sub_6DCE34(FXMemory *const, FXMemory::Handle);
 _inline void *FXMemory::Handle2Ptr(FXMemory::Handle) // 0x6DCE34
 {
     mangled_assert("?Handle2Ptr@FXMemory@@QAEPAXUHandle@1@@Z");
     todo("implement");
-    void * __result = _sub_6DCE34(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

@@ -84,53 +84,41 @@
 
 /* ---------- public code */
 
-_extern _sub_689F5E(UI::TextButton *const, UI::InterfaceElement *, char const *, bool);
 UI::TextButton::TextButton(UI::InterfaceElement *, char const *, bool) // 0x689F5E
 {
     mangled_assert("??0TextButton@UI@@QAE@PAVInterfaceElement@1@PBD_N@Z");
     todo("implement");
-    _sub_689F5E(this, arg, arg, arg);
 }
 
-_extern _sub_689E47(UI::TextButton *const, LuaConfig &);
 UI::TextButton::TextButton(LuaConfig &) // 0x689E47
 {
     mangled_assert("??0TextButton@UI@@QAE@AAVLuaConfig@@@Z");
     todo("implement");
-    _sub_689E47(this, arg);
 }
 
-_extern _sub_689ED9(UI::TextButton *const, UI::TextButton const &);
 _inline UI::TextButton::TextButton(UI::TextButton const &) // 0x689ED9
 {
     mangled_assert("??0TextButton@UI@@QAE@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_689ED9(this, arg);
 }
 
-_extern void _sub_689FE9(UI::TextButton *const);
 UI::TextButton::~TextButton() // 0x689FE9
 {
     mangled_assert("??1TextButton@UI@@UAE@XZ");
     todo("implement");
-    _sub_689FE9(this);
 }
 
-_extern void _sub_68A16F(UI::TextButton *const, LuaConfig &);
 void UI::TextButton::Load(LuaConfig &) // 0x68A16F
 {
     mangled_assert("?Load@TextButton@UI@@IAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_68A16F(this, arg);
 }
 
-_extern void _sub_68A043(UI::TextButton *const, Vector_2i const &, Rect_i const &);
 void UI::TextButton::Draw2(Vector_2i const &, Rect_i const &) // 0x68A043
 {
     mangled_assert("?Draw2@TextButton@UI@@UAEXABUVector_2i@@ABURect_i@@@Z");
     todo("implement");
-    _sub_68A043(this, arg, arg);
 }
 
 /* ---------- private code */

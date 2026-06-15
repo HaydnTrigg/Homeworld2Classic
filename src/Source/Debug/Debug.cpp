@@ -424,145 +424,109 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_100018FC(unsigned __int32, char *);
 void dbgInputCallback(unsigned __int32 ID, char *string) // 0x100018FC
 {
     mangled_assert("?dbgInputCallback@@YGXIPAD@Z");
     todo("implement");
-    _sub_100018FC(ID, string);
 }
 
-_extern void _sub_10001841(unsigned __int32, char *);
 void dbgCharInputCallback(unsigned __int32 ID, char *string) // 0x10001841
 {
     mangled_assert("?dbgCharInputCallback@@YGXIPAD@Z");
     todo("implement");
-    _sub_10001841(ID, string);
 }
 
-_extern void _sub_10001988(unsigned __int32);
 void dbgShutdownCallback(unsigned __int32 ID) // 0x10001988
 {
     mangled_assert("?dbgShutdownCallback@@YGXI@Z");
     todo("implement");
-    _sub_10001988(ID);
 }
 
-_extern bool _sub_10001788(char const *);
 bool dbgAddConsole(char const *consoleName) // 0x10001788
 {
     mangled_assert("?dbgAddConsole@@YG_NPBD@Z");
     todo("implement");
-    bool __result = _sub_10001788(consoleName);
-    return __result;
 }
 
-_extern void _sub_1000156A(char const **, unsigned __int32, unsigned long);
 void consoleWriteArray(char const **strArray, unsigned __int32 strCount, unsigned long id) // 0x1000156A
 {
     mangled_assert("?consoleWriteArray@@YGXQAPBDIK@Z");
     todo("implement");
-    _sub_1000156A(strArray, strCount, id);
 }
 
-_extern void _sub_10001657(char const **, unsigned __int32, unsigned long);
 void consoleWriteFile(char const **strArray, unsigned __int32 strCount, unsigned long id) // 0x10001657
 {
     mangled_assert("?consoleWriteFile@@YGXQAPBDIK@Z");
     todo("implement");
-    _sub_10001657(strArray, strCount, id);
 }
 
-_extern void _sub_10001959(NamedInterface *);
 void dbgSetupNamedInterface(NamedInterface *face) // 0x10001959
 {
     mangled_assert("?dbgSetupNamedInterface@@YGXPAVNamedInterface@@@Z");
     todo("implement");
-    _sub_10001959(face);
 }
 
-_extern unsigned __int32 _sub_1000190E(unsigned __int32);
 unsigned __int32 dbgKeyCharMap(unsigned __int32 key) // 0x1000190E
 {
     mangled_assert("?dbgKeyCharMap@@YGII@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_1000190E(key);
-    return __result;
 }
 
-_extern void _sub_10001862(unsigned __int32);
 void dbgConsoleKeypress(unsigned __int32 key) // 0x10001862
 {
     mangled_assert("?dbgConsoleKeypress@@YGXI@Z");
     todo("implement");
-    _sub_10001862(key);
 }
 
-_extern void _sub_10001844(char const *);
 void dbgConsoleEnable(char const *consoleName) // 0x10001844
 {
     mangled_assert("?dbgConsoleEnable@@YGXPBD@Z");
     todo("implement");
-    _sub_10001844(consoleName);
 }
 
-_extern void _sub_10001856(bool (*)(char *));
 void dbgConsoleInputSet(bool (*callback)(char *)) // 0x10001856
 {
     mangled_assert("?dbgConsoleInputSet@@YGXP6G_NPAD@Z@Z");
     todo("implement");
-    _sub_10001856(callback);
 }
 
-_extern void _sub_100018EF(bool);
 void dbgEnableInt3(bool bEnable) // 0x100018EF
 {
     mangled_assert("?dbgEnableInt3@@YGX_N@Z");
     todo("implement");
-    _sub_100018EF(bEnable);
 }
 
-_extern void _sub_1000193D(char const *);
 void dbgKeywordAdd(char const *luaFuncName) // 0x1000193D
 {
     mangled_assert("?dbgKeywordAdd@@YGXPBD@Z");
     todo("implement");
-    _sub_1000193D(luaFuncName);
 }
 
-_extern void _sub_1000194B(char const *);
 void dbgKeywordRmv(char const *luaFuncName) // 0x1000194B
 {
     mangled_assert("?dbgKeywordRmv@@YGXPBD@Z");
     todo("implement");
-    _sub_1000194B(luaFuncName);
 }
 
-_extern void _sub_10001119(std::_Generic_error_category *const);
 _inline std::_Generic_error_category::~_Generic_error_category() // 0x10001119
 {
     mangled_assert("??1_Generic_error_category@std@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10001119(this);
 }
 
-_extern void _sub_10001120(std::_Iostream_error_category *const);
 _inline std::_Iostream_error_category::~_Iostream_error_category() // 0x10001120
 {
     mangled_assert("??1_Iostream_error_category@std@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10001120(this);
 }
 
-_extern void _sub_10001127(std::_System_error_category *const);
 _inline std::_System_error_category::~_System_error_category() // 0x10001127
 {
     mangled_assert("??1_System_error_category@std@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10001127(this);
 }
 
 /* ---------- private code */

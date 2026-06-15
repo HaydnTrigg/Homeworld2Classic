@@ -62,186 +62,130 @@ static_assert(sizeof(quat) == 16, "Invalid quat size");
 
 /* ---------- public code */
 
-_extern bool _sub_474052(quat *const, quat const &);
 _inline bool quat::operator!=(quat const &) // 0x474052
 {
     mangled_assert("??9quat@@QAE_NABV0@@Z");
     todo("implement");
-    bool __result = _sub_474052(this, arg);
-    return __result;
 }
 
-_extern float _sub_474683(quat const *const);
 _inline float quat::LengthSqr() const // 0x474683
 {
     mangled_assert("?LengthSqr@quat@@QBEMXZ");
     todo("implement");
-    float __result = _sub_474683(this);
-    return __result;
 }
 
-_extern quat &_sub_4BD2C9(quat *const);
 _inline quat &quat::Inverse() // 0x4BD2C9
 {
     mangled_assert("?Inverse@quat@@QAEAAV1@XZ");
     todo("implement");
-    quat & __result = _sub_4BD2C9(this);
-    return __result;
 }
 
-_extern quat _sub_474600(quat const *const);
 _inline quat quat::Inversed() const // 0x474600
 {
     mangled_assert("?Inversed@quat@@QBE?AV1@XZ");
     todo("implement");
-    quat __result = _sub_474600(this);
-    return __result;
 }
 
-_extern _sub_473E35(quat *const);
 _inline quat::quat() // 0x473E35
 {
     mangled_assert("??0quat@@QAE@XZ");
     todo("implement");
-    _sub_473E35(this);
 }
 
-_extern _sub_473E05(quat *const, float, float, float, float);
 _inline quat::quat(float, float, float, float) // 0x473E05
 {
     mangled_assert("??0quat@@QAE@MMMM@Z");
     todo("implement");
-    _sub_473E05(this, arg, arg, arg, arg);
 }
 
-_extern quat _sub_474396(quat const *const, quat const &);
 _inline quat quat::operator+(quat const &) const // 0x474396
 {
     mangled_assert("??Hquat@@QBE?AV0@ABV0@@Z");
     todo("implement");
-    quat __result = _sub_474396(this, arg);
-    return __result;
 }
 
-_extern quat _sub_4741BB(quat const *const, float);
 _inline quat quat::operator*(float) const // 0x4741BB
 {
     mangled_assert("??Dquat@@QBE?AV0@M@Z");
     todo("implement");
-    quat __result = _sub_4741BB(this, arg);
-    return __result;
 }
 
-_extern quat &_sub_4743DA(quat *const, float);
 _inline quat &quat::operator*=(float) // 0x4743DA
 {
     mangled_assert("??Xquat@@QAEAAV0@M@Z");
     todo("implement");
-    quat & __result = _sub_4743DA(this, arg);
-    return __result;
 }
 
-_extern vector3 _sub_4741FE(quat const *const, vector3 const &);
 _inline vector3 quat::operator*(vector3 const &) const // 0x4741FE
 {
     mangled_assert("??Dquat@@QBE?AVvector3@@ABV1@@Z");
     todo("implement");
-    vector3 __result = _sub_4741FE(this, arg);
-    return __result;
 }
 
-_extern void _sub_476D4F(quat const *const, matrix3 *);
 _inline void quat::quatToMatrix3(matrix3 *) const // 0x476D4F
 {
     mangled_assert("?quatToMatrix3@quat@@QBEXPAVmatrix3@@@Z");
     todo("implement");
-    _sub_476D4F(this, arg);
 }
 
-_extern void _sub_6083F2(quat const *const, matrix4 *);
 _inline void quat::quatToMatrix4(matrix4 *) const // 0x6083F2
 {
     mangled_assert("?quatToMatrix4@quat@@QBEXPAVmatrix4@@@Z");
     todo("implement");
-    _sub_6083F2(this, arg);
 }
 
-_extern matrix3 _sub_498186(quat const *const);
 _inline matrix3 quat::operator matrix3() const // 0x498186
 {
     mangled_assert("??Bquat@@QBE?AVmatrix3@@XZ");
     todo("implement");
-    matrix3 __result = _sub_498186(this);
-    return __result;
 }
 
-_extern matrix4 _sub_607847(quat const *const);
 _inline matrix4 quat::operator matrix4() const // 0x607847
 {
     mangled_assert("??Bquat@@QBE?AVmatrix4@@XZ");
     todo("implement");
-    matrix4 __result = _sub_607847(this);
-    return __result;
 }
 
-_extern float _sub_474628(quat const *const);
 _inline float quat::Length() const // 0x474628
 {
     mangled_assert("?Length@quat@@QBEMXZ");
     todo("implement");
-    float __result = _sub_474628(this);
-    return __result;
 }
 
-_extern quat &_sub_4746C0(quat *const);
 _inline quat &quat::Normalize() // 0x4746C0
 {
     mangled_assert("?Normalize@quat@@QAEAAV1@XZ");
     todo("implement");
-    quat & __result = _sub_4746C0(this);
-    return __result;
 }
 
-_extern quat _sub_4740E9(quat const *const, quat const &);
 _inline quat quat::operator*(quat const &) const // 0x4740E9
 {
     mangled_assert("??Dquat@@QBE?AV0@ABV0@@Z");
     todo("implement");
-    quat __result = _sub_4740E9(this, arg);
-    return __result;
 }
 
-_extern quat &_sub_486F89(quat *const, quat &);
 _inline quat &quat::operator*=(quat &) // 0x486F89
 {
     mangled_assert("??Xquat@@QAEAAV0@AAV0@@Z");
     todo("implement");
-    quat & __result = _sub_486F89(this, arg);
-    return __result;
 }
 
-_extern _sub_486DFF(quat *const, float, vector3 const &);
 _inline quat::quat(float, vector3 const &) // 0x486DFF
 {
     mangled_assert("??0quat@@QAE@MABVvector3@@@Z");
     todo("implement");
-    _sub_486DFF(this, arg, arg);
 }
 
-_extern _sub_473DF3(quat *const, matrix3 const &);
 _inline quat::quat(matrix3 const &) // 0x473DF3
 {
     mangled_assert("??0quat@@QAE@ABVmatrix3@@@Z");
     todo("implement");
-    _sub_473DF3(this, arg);
 }
 
-_extern void _sub_474437(quat *const, matrix3 const &);
 _inline void quat::FromMatrix(matrix3 const &) // 0x474437
 {
     mangled_assert("?FromMatrix@quat@@QAEXABVmatrix3@@@Z");
     todo("implement");
-    _sub_474437(this, arg);
 }
 
 /* ---------- private code */

@@ -616,56 +616,40 @@ static_assert(sizeof(MainUIImpl) == 10008, "Invalid MainUIImpl size");
 
 /* ---------- public code */
 
-_extern bool _sub_451549(MainUIImpl const *const);
 _inline bool MainUIImpl::inCameraMotion() const // 0x451549
 {
     mangled_assert("?inCameraMotion@MainUIImpl@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_451549(this);
-    return __result;
 }
 
-_extern void _sub_453F66(MainUIImpl *const, __int32);
 _inline void MainUIImpl::commandModeSetParam(__int32) // 0x453F66
 {
     mangled_assert("?commandModeSetParam@MainUIImpl@@QAEXH@Z");
     todo("implement");
-    _sub_453F66(this, arg);
 }
 
-_extern __int32 _sub_458A28(MainUIImpl const *const);
 _inline __int32 MainUIImpl::commandModeGetParam() const // 0x458A28
 {
     mangled_assert("?commandModeGetParam@MainUIImpl@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_458A28(this);
-    return __result;
 }
 
-_extern void _sub_453F59(MainUIImpl *const, bool);
 _inline void MainUIImpl::commandModal(bool) // 0x453F59
 {
     mangled_assert("?commandModal@MainUIImpl@@QAEX_N@Z");
     todo("implement");
-    _sub_453F59(this, arg);
 }
 
-_extern MUI_CommandModes _sub_453FB2(MainUIImpl const *const);
 _inline MUI_CommandModes MainUIImpl::getCommandMode() const // 0x453FB2
 {
     mangled_assert("?getCommandMode@MainUIImpl@@QBE?AW4MUI_CommandModes@@XZ");
     todo("implement");
-    MUI_CommandModes __result = _sub_453FB2(this);
-    return __result;
 }
 
-_extern MUI_States _sub_4514DF(MainUIImpl *const);
 _inline MUI_States MainUIImpl::getUIState() // 0x4514DF
 {
     mangled_assert("?getUIState@MainUIImpl@@QAE?AW4MUI_States@@XZ");
     todo("implement");
-    MUI_States __result = _sub_4514DF(this);
-    return __result;
 }
 
 /* ---------- private code */

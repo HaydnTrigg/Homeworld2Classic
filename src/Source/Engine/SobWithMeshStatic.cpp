@@ -109,112 +109,83 @@ typedef std::vector<EngineBurnPath *,std::allocator<EngineBurnPath *> > BurnPath
 
 /* ---------- public code */
 
-_extern _sub_4C0034(SobWithMeshStatic::Model *const);
 SobWithMeshStatic::Model::Model() // 0x4C0034
 {
     mangled_assert("??0Model@SobWithMeshStatic@@QAE@XZ");
     todo("implement");
-    _sub_4C0034(this);
 }
 
-_extern void _sub_4C0220(SobWithMeshStatic::Model *const);
 SobWithMeshStatic::Model::~Model() // 0x4C0220
 {
     mangled_assert("??1Model@SobWithMeshStatic@@QAE@XZ");
     todo("implement");
-    _sub_4C0220(this);
 }
 
-_extern _sub_4C00A0(SobWithMeshStatic *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, SobType);
 SobWithMeshStatic::SobWithMeshStatic(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, SobType) // 0x4C00A0
 {
     mangled_assert("??0SobWithMeshStatic@@IAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4SobType@@@Z");
     todo("implement");
-    _sub_4C00A0(this, arg, arg);
 }
 
-_extern void _sub_4C0285(SobWithMeshStatic *const);
 SobWithMeshStatic::~SobWithMeshStatic() // 0x4C0285
 {
     mangled_assert("??1SobWithMeshStatic@@UAE@XZ");
     todo("implement");
-    _sub_4C0285(this);
 }
 
-_extern boost::shared_ptr<SobWithMeshStatic::Model> &_sub_4C02D3(boost::shared_ptr<SobWithMeshStatic::Model> *const, boost::shared_ptr<SobWithMeshStatic::Model> const &);
 _inline boost::shared_ptr<SobWithMeshStatic::Model> &boost::shared_ptr<SobWithMeshStatic::Model>::operator=(boost::shared_ptr<SobWithMeshStatic::Model> const &) // 0x4C02D3
 {
     mangled_assert("??4?$shared_ptr@VModel@SobWithMeshStatic@@@boost@@QAEAAV01@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    boost::shared_ptr<SobWithMeshStatic::Model> & __result = _sub_4C02D3(this, arg);
-    return __result;
 }
 
-_extern void _sub_4C088C(SobWithMeshStatic *const);
 void SobWithMeshStatic::postStaticLoad() // 0x4C088C
 {
     mangled_assert("?postStaticLoad@SobWithMeshStatic@@UAEXXZ");
     todo("implement");
-    _sub_4C088C(this);
 }
 
-_extern void _sub_4C0676(SobWithMeshStatic *const, char const *, matrix3 &, vector3 &);
 void SobWithMeshStatic::loadOrientation(char const *, matrix3 &, vector3 &) // 0x4C0676
 {
     mangled_assert("?loadOrientation@SobWithMeshStatic@@AAEXPBDAAVmatrix3@@AAVvector3@@@Z");
     todo("implement");
-    _sub_4C0676(this, arg, arg, arg);
 }
 
-_extern void _sub_4C095F(SobWithMeshStatic *const, MadStateStatic *);
 void SobWithMeshStatic::setMADStatic(MadStateStatic *) // 0x4C095F
 {
     mangled_assert("?setMADStatic@SobWithMeshStatic@@QAEXPAVMadStateStatic@@@Z");
     todo("implement");
-    _sub_4C095F(this, arg);
 }
 
-_extern bool _sub_4C036A(SobWithMeshStatic *const, SobType, char const *);
 bool SobWithMeshStatic::LoadModelBegin(SobType, char const *) // 0x4C036A
 {
     mangled_assert("?LoadModelBegin@SobWithMeshStatic@@MAE_NW4SobType@@PBD@Z");
     todo("implement");
-    bool __result = _sub_4C036A(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_4C0466(SobWithMeshStatic *const);
 void SobWithMeshStatic::LoadModelExecute() // 0x4C0466
 {
     mangled_assert("?LoadModelExecute@SobWithMeshStatic@@MAEXXZ");
     todo("implement");
-    _sub_4C0466(this);
 }
 
-_extern void _sub_4C03E6(SobWithMeshStatic *const, char const *);
 void SobWithMeshStatic::LoadModelEnd(char const *) // 0x4C03E6
 {
     mangled_assert("?LoadModelEnd@SobWithMeshStatic@@MAEXPBD@Z");
     todo("implement");
-    _sub_4C03E6(this, arg);
 }
 
-_extern bool _sub_4C055D(SobWithMeshStatic *const, char const *);
 bool SobWithMeshStatic::LoadModelFromCache(char const *) // 0x4C055D
 {
     mangled_assert("?LoadModelFromCache@SobWithMeshStatic@@MAE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_4C055D(this, arg);
-    return __result;
 }
 
-_extern void _sub_4C05C7(SobWithMeshStatic *const, IFF *, IFFChunk *, void *, void *);
 void SobWithMeshStatic::OnHandlingDTRM(IFF *, IFFChunk *, void *, void *) // 0x4C05C7
 {
     mangled_assert("?OnHandlingDTRM@SobWithMeshStatic@@MAEXPAVIFF@@PAVIFFChunk@@PAX2@Z");
     todo("implement");
-    _sub_4C05C7(this, arg, arg, arg, arg);
 }
 
 /* ---------- private code */

@@ -209,334 +209,234 @@ _static unsigned __int32 UI::Color_4bToRGBUInt(Color_4b const &c);
 
 /* ---------- public code */
 
-_extern _sub_57D75C(Color_4b *const);
 _inline Color_4b::Color_4b() // 0x57D75C
 {
     mangled_assert("??0Color_4b@@QAE@XZ");
     todo("implement");
-    _sub_57D75C(this);
 }
 
-_extern _sub_501042(Color_4b *const, unsigned char, unsigned char, unsigned char, unsigned char);
 _inline Color_4b::Color_4b(unsigned char, unsigned char, unsigned char, unsigned char) // 0x501042
 {
     mangled_assert("??0Color_4b@@QAE@EEEE@Z");
     todo("implement");
-    _sub_501042(this, arg, arg, arg, arg);
 }
 
-_extern _sub_5AA287(Color_4b *const, vector4 const &);
 _inline Color_4b::Color_4b(vector4 const &) // 0x5AA287
 {
     mangled_assert("??0Color_4b@@QAE@ABVvector4@@@Z");
     todo("implement");
-    _sub_5AA287(this, arg);
 }
 
-_extern bool _sub_5AD4A8(Color_4b *const, Color_4b const &);
 _inline bool Color_4b::operator==(Color_4b const &) // 0x5AD4A8
 {
     mangled_assert("??8Color_4b@@QAE_NABU0@@Z");
     todo("implement");
-    bool __result = _sub_5AD4A8(this, arg);
-    return __result;
 }
 
-_extern _sub_586D48(Vector_2i *const);
 _inline Vector_2i::Vector_2i() // 0x586D48
 {
     mangled_assert("??0Vector_2i@@QAE@XZ");
     todo("implement");
-    _sub_586D48(this);
 }
 
-_extern _sub_57726F(Vector_2i *const, long, long);
 _inline Vector_2i::Vector_2i(long, long) // 0x57726F
 {
     mangled_assert("??0Vector_2i@@QAE@JJ@Z");
     todo("implement");
-    _sub_57726F(this, arg, arg);
 }
 
-_extern Vector_2i &_sub_66A72A(Vector_2i *const, Vector_2i const &);
 _inline Vector_2i &Vector_2i::operator+=(Vector_2i const &) // 0x66A72A
 {
     mangled_assert("??YVector_2i@@QAEAAU0@ABU0@@Z");
     todo("implement");
-    Vector_2i & __result = _sub_66A72A(this, arg);
-    return __result;
 }
 
-_extern Vector_2i &_sub_671B72(Vector_2i *const, Vector_2i const &);
 _inline Vector_2i &Vector_2i::operator-=(Vector_2i const &) // 0x671B72
 {
     mangled_assert("??ZVector_2i@@QAEAAU0@ABU0@@Z");
     todo("implement");
-    Vector_2i & __result = _sub_671B72(this, arg);
-    return __result;
 }
 
-_extern bool _sub_5AD4D4(Vector_2i const *const, Vector_2i const &);
 _inline bool Vector_2i::operator==(Vector_2i const &) const // 0x5AD4D4
 {
     mangled_assert("??8Vector_2i@@QBE_NABU0@@Z");
     todo("implement");
-    bool __result = _sub_5AD4D4(this, arg);
-    return __result;
 }
 
-_extern Vector_2i _sub_57EA1B(Vector_2i const &, Vector_2i const);
 _inline Vector_2i operator+(Vector_2i const &a, Vector_2i const b) // 0x57EA1B
 {
     mangled_assert("??H@YG?AUVector_2i@@ABU0@U0@@Z");
     todo("implement");
-    Vector_2i __result = _sub_57EA1B(a, b);
-    return __result;
 }
 
-_extern Vector_2i _sub_66A6FC(Vector_2i const &, Vector_2i const);
 _inline Vector_2i operator-(Vector_2i const &a, Vector_2i const b) // 0x66A6FC
 {
     mangled_assert("??G@YG?AUVector_2i@@ABU0@U0@@Z");
     todo("implement");
-    Vector_2i __result = _sub_66A6FC(a, b);
-    return __result;
 }
 
-_extern _sub_5A450A(Rect_i *const);
 _inline Rect_i::Rect_i() // 0x5A450A
 {
     mangled_assert("??0Rect_i@@QAE@XZ");
     todo("implement");
-    _sub_5A450A(this);
 }
 
-_extern _sub_66DE6F(Rect_i *const, long, long, long, long);
 _inline Rect_i::Rect_i(long, long, long, long) // 0x66DE6F
 {
     mangled_assert("??0Rect_i@@QAE@JJJJ@Z");
     todo("implement");
-    _sub_66DE6F(this, arg, arg, arg, arg);
 }
 
-_extern long _sub_58561C(Rect_i const *const);
 _inline long Rect_i::left() const // 0x58561C
 {
     mangled_assert("?left@Rect_i@@QBEJXZ");
     todo("implement");
-    long __result = _sub_58561C(this);
-    return __result;
 }
 
-_extern long _sub_585A4A(Rect_i const *const);
 _inline long Rect_i::top() const // 0x585A4A
 {
     mangled_assert("?top@Rect_i@@QBEJXZ");
     todo("implement");
-    long __result = _sub_585A4A(this);
-    return __result;
 }
 
-_extern long _sub_66DAA0(Rect_i const *const);
 _inline long Rect_i::width() const // 0x66DAA0
 {
     mangled_assert("?width@Rect_i@@QBEJXZ");
     todo("implement");
-    long __result = _sub_66DAA0(this);
-    return __result;
 }
 
-_extern long _sub_5855DA(Rect_i const *const);
 _inline long Rect_i::height() const // 0x5855DA
 {
     mangled_assert("?height@Rect_i@@QBEJXZ");
     todo("implement");
-    long __result = _sub_5855DA(this);
-    return __result;
 }
 
-_extern long _sub_5A4EEE(Rect_i const *const);
 _inline long Rect_i::bottom() const // 0x5A4EEE
 {
     mangled_assert("?bottom@Rect_i@@QBEJXZ");
     todo("implement");
-    long __result = _sub_5A4EEE(this);
-    return __result;
 }
 
-_extern long _sub_5A4F2F(Rect_i const *const);
 _inline long Rect_i::right() const // 0x5A4F2F
 {
     mangled_assert("?right@Rect_i@@QBEJXZ");
     todo("implement");
-    long __result = _sub_5A4F2F(this);
-    return __result;
 }
 
-_extern bool _sub_66EDED(Rect_i const *const, Vector_2i const &);
 _inline bool Rect_i::PointWithin(Vector_2i const &) const // 0x66EDED
 {
     mangled_assert("?PointWithin@Rect_i@@QBE_NABUVector_2i@@@Z");
     todo("implement");
-    bool __result = _sub_66EDED(this, arg);
-    return __result;
 }
 
-_extern bool _sub_66A9AF(Rect_i const *const, Rect_i const &);
 _inline bool Rect_i::Collides(Rect_i const &) const // 0x66A9AF
 {
     mangled_assert("?Collides@Rect_i@@QBE_NABU1@@Z");
     todo("implement");
-    bool __result = _sub_66A9AF(this, arg);
-    return __result;
 }
 
-_extern Rect_i _sub_5A4B84(Rect_i const *const, Rect_i const &);
 _inline Rect_i Rect_i::Intersection(Rect_i const &) const // 0x5A4B84
 {
     mangled_assert("?Intersection@Rect_i@@QBE?AU1@ABU1@@Z");
     todo("implement");
-    Rect_i __result = _sub_5A4B84(this, arg);
-    return __result;
 }
 
-_extern bool _sub_67E6E5(Rect_i const *const, Rect_i const &);
 _inline bool Rect_i::operator==(Rect_i const &) const // 0x67E6E5
 {
     mangled_assert("??8Rect_i@@QBE_NABU0@@Z");
     todo("implement");
-    bool __result = _sub_67E6E5(this, arg);
-    return __result;
 }
 
-_extern _sub_586D3E(UI::Size *const);
 _inline UI::Size::Size() // 0x586D3E
 {
     mangled_assert("??0Size@UI@@QAE@XZ");
     todo("implement");
-    _sub_586D3E(this);
 }
 
-_extern _sub_57D96F(UI::Size *const, __int32, __int32);
 _inline UI::Size::Size(__int32, __int32) // 0x57D96F
 {
     mangled_assert("??0Size@UI@@QAE@HH@Z");
     todo("implement");
-    _sub_57D96F(this, arg, arg);
 }
 
-_extern _sub_66DE8F(UI::Size *const, Vector_2i const &);
 _inline UI::Size::Size(Vector_2i const &) // 0x66DE8F
 {
     mangled_assert("??0Size@UI@@QAE@ABUVector_2i@@@Z");
     todo("implement");
-    _sub_66DE8F(this, arg);
 }
 
-_extern _sub_575F02(UI::Size *const, UI::Size const &);
 _inline UI::Size::Size(UI::Size const &) // 0x575F02
 {
     mangled_assert("??0Size@UI@@QAE@ABV01@@Z");
     todo("implement");
-    _sub_575F02(this, arg);
 }
 
-_extern __int32 _sub_576280(UI::Size const *const);
 _inline __int32 UI::Size::GetWidth() const // 0x576280
 {
     mangled_assert("?GetWidth@Size@UI@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_576280(this);
-    return __result;
 }
 
-_extern __int32 _sub_57620D(UI::Size const *const);
 _inline __int32 UI::Size::GetHeight() const // 0x57620D
 {
     mangled_assert("?GetHeight@Size@UI@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_57620D(this);
-    return __result;
 }
 
-_extern Vector_2i _sub_5A4916(UI::Size const *const);
 _inline Vector_2i UI::Size::GetVector_2i() const // 0x5A4916
 {
     mangled_assert("?GetVector_2i@Size@UI@@QBE?AUVector_2i@@XZ");
     todo("implement");
-    Vector_2i __result = _sub_5A4916(this);
-    return __result;
 }
 
-_extern void _sub_58A080(UI::Size *const, __int32, __int32);
 _inline void UI::Size::Set(__int32, __int32) // 0x58A080
 {
     mangled_assert("?Set@Size@UI@@QAEXHH@Z");
     todo("implement");
-    _sub_58A080(this, arg, arg);
 }
 
-_extern bool _sub_66E01C(UI::Size const *const, UI::Size const &);
 _inline bool UI::Size::operator==(UI::Size const &) const // 0x66E01C
 {
     mangled_assert("??8Size@UI@@QBE_NABV01@@Z");
     todo("implement");
-    bool __result = _sub_66E01C(this, arg);
-    return __result;
 }
 
-_extern _sub_57D965(UI::MouseButton *const);
 _inline UI::MouseButton::MouseButton() // 0x57D965
 {
     mangled_assert("??0MouseButton@UI@@QAE@XZ");
     todo("implement");
-    _sub_57D965(this);
 }
 
-_extern bool _sub_67DCE1(UI::MouseButton const *const);
 _inline bool UI::MouseButton::Left() const // 0x67DCE1
 {
     mangled_assert("?Left@MouseButton@UI@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_67DCE1(this);
-    return __result;
 }
 
-_extern _sub_66A2A6(UI::KeyModifier *const, __int32);
 _inline UI::KeyModifier::KeyModifier(__int32) // 0x66A2A6
 {
     mangled_assert("??0KeyModifier@UI@@QAE@H@Z");
     todo("implement");
-    _sub_66A2A6(this, arg);
 }
 
-_extern bool _sub_689B6C(UI::KeyModifier const *const);
 _inline bool UI::KeyModifier::Shift() const // 0x689B6C
 {
     mangled_assert("?Shift@KeyModifier@UI@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_689B6C(this);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern unsigned __int32 _sub_5AEB5B(Color_4b const &);
 _static unsigned __int32 UI::Color_4bToRGBUInt(Color_4b const &c) // 0x5AEB5B
 {
     mangled_assert("UI::Color_4bToRGBUInt");
     todo("implement");
-    unsigned __int32 __result = _sub_5AEB5B(c);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_57ED41(Color_4b const &);
 _static unsigned __int32 UI::Color_4bToRGBUInt(Color_4b const &c) // 0x57ED41
 {
     mangled_assert("UI::Color_4bToRGBUInt");
     todo("implement");
-    unsigned __int32 __result = _sub_57ED41(c);
-    return __result;
 }
 
 #endif // __UITYPES_H__

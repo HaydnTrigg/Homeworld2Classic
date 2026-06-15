@@ -278,133 +278,94 @@ static_assert(sizeof(GameResult) == 40, "Invalid GameResult size");
 
 /* ---------- public code */
 
-_extern MD5Hash const &_sub_58B81B(GameSettings *const);
 _inline MD5Hash const &GameSettings::getGameRules() // 0x58B81B
 {
     mangled_assert("?getGameRules@GameSettings@@QAEABVMD5Hash@@XZ");
     todo("implement");
-    MD5Hash const & __result = _sub_58B81B(this);
-    return __result;
 }
 
-_extern void _sub_7166A1(GameSettings *const, char const *);
 _inline void GameSettings::setStartFleetSuffix(char const *) // 0x7166A1
 {
     mangled_assert("?setStartFleetSuffix@GameSettings@@QAEXPBD@Z");
     todo("implement");
-    _sub_7166A1(this, arg);
 }
 
-_extern char const *_sub_4FAF78(GameSettings const *const);
 _inline char const *GameSettings::getStartFleetSuffix() const // 0x4FAF78
 {
     mangled_assert("?getStartFleetSuffix@GameSettings@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4FAF78(this);
-    return __result;
 }
 
-_extern bool _sub_61DA12(GameSettings const *const);
 _inline bool GameSettings::ShouldOverrideColors() const // 0x61DA12
 {
     mangled_assert("?ShouldOverrideColors@GameSettings@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_61DA12(this);
-    return __result;
 }
 
-_extern void _sub_58A1A5(GameSettings *const, bool);
 _inline void GameSettings::SetOverrideColors(bool) // 0x58A1A5
 {
     mangled_assert("?SetOverrideColors@GameSettings@@QAEX_N@Z");
     todo("implement");
-    _sub_58A1A5(this, arg);
 }
 
-_extern bool _sub_46A563(GameSettings *const);
 _inline bool GameSettings::isDeterministic() // 0x46A563
 {
     mangled_assert("?isDeterministic@GameSettings@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_46A563(this);
-    return __result;
 }
 
-_extern char const *_sub_46A7A7(GameSettings *const);
 _inline char const *GameSettings::saveToken() // 0x46A7A7
 {
     mangled_assert("?saveToken@GameSettings@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_46A7A7(this);
-    return __result;
 }
 
-_extern void _sub_4F6C8E(GameResult *const, GameResult::EndReason);
 _inline void GameResult::SetReason(GameResult::EndReason) // 0x4F6C8E
 {
     mangled_assert("?SetReason@GameResult@@QAEXW4EndReason@1@@Z");
     todo("implement");
-    _sub_4F6C8E(this, arg);
 }
 
-_extern GameResult::EndReason _sub_45DDED(GameResult const *const);
 _inline GameResult::EndReason GameResult::GetReason() const // 0x45DDED
 {
     mangled_assert("?GetReason@GameResult@@QBE?AW4EndReason@1@XZ");
     todo("implement");
-    GameResult::EndReason __result = _sub_45DDED(this);
-    return __result;
 }
 
-_extern void _sub_4F9E5D(GameResult *const, GameSettings::GameRubric);
 _inline void GameResult::SetLastGameRubric(GameSettings::GameRubric) // 0x4F9E5D
 {
     mangled_assert("?SetLastGameRubric@GameResult@@QAEXW4GameRubric@GameSettings@@@Z");
     todo("implement");
-    _sub_4F9E5D(this, arg);
 }
 
-_extern GameSettings::GameRubric _sub_45DDE5(GameResult const *const);
 _inline GameSettings::GameRubric GameResult::GetLastGameRubric() const // 0x45DDE5
 {
     mangled_assert("?GetLastGameRubric@GameResult@@QBE?AW4GameRubric@GameSettings@@XZ");
     todo("implement");
-    GameSettings::GameRubric __result = _sub_45DDE5(this);
-    return __result;
 }
 
-_extern void _sub_4F9E67(GameResult *const, GameSettings::MultiplayerType);
 _inline void GameResult::SetLastMultiplayerType(GameSettings::MultiplayerType) // 0x4F9E67
 {
     mangled_assert("?SetLastMultiplayerType@GameResult@@QAEXW4MultiplayerType@GameSettings@@@Z");
     todo("implement");
-    _sub_4F9E67(this, arg);
 }
 
-_extern GameSettings::MultiplayerType _sub_45DDE9(GameResult const *const);
 _inline GameSettings::MultiplayerType GameResult::GetLastMultiplayerType() const // 0x45DDE9
 {
     mangled_assert("?GetLastMultiplayerType@GameResult@@QBE?AW4MultiplayerType@GameSettings@@XZ");
     todo("implement");
-    GameSettings::MultiplayerType __result = _sub_45DDE9(this);
-    return __result;
 }
 
-_extern void _sub_5B46BC(GameResult *const, wchar_t const *);
 _inline void GameResult::SetConnectionLostKickoutReason(wchar_t const *) // 0x5B46BC
 {
     mangled_assert("?SetConnectionLostKickoutReason@GameResult@@QAEXPB_W@Z");
     todo("implement");
-    _sub_5B46BC(this, arg);
 }
 
-_extern wchar_t const *_sub_45DDD9(GameResult const *const);
 _inline wchar_t const *GameResult::GetConnectionLostKickoutReason() const // 0x45DDD9
 {
     mangled_assert("?GetConnectionLostKickoutReason@GameResult@@QBEPB_WXZ");
     todo("implement");
-    wchar_t const * __result = _sub_45DDD9(this);
-    return __result;
 }
 
 /* ---------- private code */

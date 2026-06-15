@@ -137,31 +137,22 @@ static_assert(sizeof(RepairByLatchingCommandStaticInfo) == 24, "Invalid RepairBy
 
 /* ---------- public code */
 
-_extern bool _sub_6A182B(RepairByLatchingCommand *const);
 _inline bool RepairByLatchingCommand::isDeterministic() // 0x6A182B
 {
     mangled_assert("?isDeterministic@RepairByLatchingCommand@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6A182B(this);
-    return __result;
 }
 
-_extern char const *_sub_6A191E(RepairByLatchingCommand *const);
 _inline char const *RepairByLatchingCommand::saveToken() // 0x6A191E
 {
     mangled_assert("?saveToken@RepairByLatchingCommand@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6A191E(this);
-    return __result;
 }
 
-_extern float _sub_6A1793(RepairByLatchingCommandStaticInfo const *const);
 _inline float RepairByLatchingCommandStaticInfo::getOffsetFromRepairTarget() const // 0x6A1793
 {
     mangled_assert("?getOffsetFromRepairTarget@RepairByLatchingCommandStaticInfo@@QBEMXZ");
     todo("implement");
-    float __result = _sub_6A1793(this);
-    return __result;
 }
 
 /* ---------- private code */

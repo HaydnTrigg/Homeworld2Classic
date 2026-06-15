@@ -71,22 +71,16 @@ static_assert(sizeof(PointMass) == 140, "Invalid PointMass size");
 
 /* ---------- public code */
 
-_extern bool _sub_4765FD(PointMass *const);
 _inline bool PointMass::isDeterministic() // 0x4765FD
 {
     mangled_assert("?isDeterministic@PointMass@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4765FD(this);
-    return __result;
 }
 
-_extern char const *_sub_476761(PointMass *const);
 _inline char const *PointMass::saveToken() // 0x476761
 {
     mangled_assert("?saveToken@PointMass@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_476761(this);
-    return __result;
 }
 
 /* ---------- private code */

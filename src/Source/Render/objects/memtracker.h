@@ -351,40 +351,28 @@ static_assert(sizeof(memtracker::GameMemoryUsage) == 116, "Invalid memtracker::G
 
 /* ---------- public code */
 
-_extern unsigned __int32 _sub_10077ED0(memtracker::TextureMemory const *const);
 _inline unsigned __int32 memtracker::TextureMemory::getWidth() const // 0x10077ED0
 {
     mangled_assert("?getWidth@TextureMemory@memtracker@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_10077ED0(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_10077EA0(memtracker::TextureMemory const *const);
 _inline unsigned __int32 memtracker::TextureMemory::getHeight() const // 0x10077EA0
 {
     mangled_assert("?getHeight@TextureMemory@memtracker@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_10077EA0(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_10077E90(memtracker::TextureMemory const *const);
 _inline unsigned __int32 memtracker::TextureMemory::getBitsPerPixel() const // 0x10077E90
 {
     mangled_assert("?getBitsPerPixel@TextureMemory@memtracker@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_10077E90(this);
-    return __result;
 }
 
-_extern TextureFormat _sub_10077EC0(memtracker::TextureMemory const *const);
 _inline TextureFormat memtracker::TextureMemory::getTextureFormat() const // 0x10077EC0
 {
     mangled_assert("?getTextureFormat@TextureMemory@memtracker@@QBE?AW4TextureFormat@@XZ");
     todo("implement");
-    TextureFormat __result = _sub_10077EC0(this);
-    return __result;
 }
 
 /* ---------- private code */

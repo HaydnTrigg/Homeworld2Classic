@@ -163,55 +163,40 @@ static_assert(sizeof(BestDefendScore) == 12, "Invalid BestDefendScore size");
 
 /* ---------- public code */
 
-_extern _sub_52E036(BestDefendScore *const, vector3 const &, SquadronList const &, CpuCommon &);
 _inline BestDefendScore::BestDefendScore(vector3 const &, SquadronList const &, CpuCommon &) // 0x52E036
 {
     mangled_assert("??0BestDefendScore@@QAE@ABVvector3@@ABVSquadronList@@AAVCpuCommon@@@Z");
     todo("implement");
-    _sub_52E036(this, arg, arg, arg);
 }
 
-_extern float _sub_52E081(BestDefendScore *const, BaseTarget *);
 _inline float BestDefendScore::operator()(BaseTarget *) // 0x52E081
 {
     mangled_assert("??RBestDefendScore@@QAEMPAVBaseTarget@@@Z");
     todo("implement");
-    float __result = _sub_52E081(this, arg);
-    return __result;
 }
 
-_extern void _sub_52E1CA(DefendState *const);
 void DefendState::Enter() // 0x52E1CA
 {
     mangled_assert("?Enter@DefendState@@QAEXXZ");
     todo("implement");
-    _sub_52E1CA(this);
 }
 
-_extern bool _sub_52E1D3(DefendState *const, vector3 const &);
 bool DefendState::ProcessHyperspace(vector3 const &) // 0x52E1D3
 {
     mangled_assert("?ProcessHyperspace@DefendState@@AAE_NABVvector3@@@Z");
     todo("implement");
-    bool __result = _sub_52E1D3(this, arg);
-    return __result;
 }
 
-_extern bool _sub_52E420(DefendState *const);
 bool DefendState::Update() // 0x52E420
 {
     mangled_assert("?Update@DefendState@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_52E420(this);
-    return __result;
 }
 
-_extern void _sub_52E368(DefendState *const, SquadronList &);
 void DefendState::ReIssue(SquadronList &) // 0x52E368
 {
     mangled_assert("?ReIssue@DefendState@@UAEXAAVSquadronList@@@Z");
     todo("implement");
-    _sub_52E368(this, arg);
 }
 
 /* ---------- private code */

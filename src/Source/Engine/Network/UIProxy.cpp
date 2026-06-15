@@ -132,93 +132,71 @@
 
 /* ---------- public code */
 
-_extern _sub_5C09E5(OrderFeedbackInfo *const, OrderFeedbackInfo const &);
 _inline OrderFeedbackInfo::OrderFeedbackInfo(OrderFeedbackInfo const &) // 0x5C09E5
 {
     mangled_assert("??0OrderFeedbackInfo@@QAE@ABU0@@Z");
     compiler_generated();
     todo("implement");
-    _sub_5C09E5(this, arg);
 }
 
-_extern _sub_5C0A08(UIProxy *const);
 UIProxy::UIProxy() // 0x5C0A08
 {
     mangled_assert("??0UIProxy@@QAE@XZ");
     todo("implement");
-    _sub_5C0A08(this);
 }
 
-_extern void _sub_5C0A10(UIProxy *const);
 UIProxy::~UIProxy() // 0x5C0A10
 {
     mangled_assert("??1UIProxy@@QAE@XZ");
     todo("implement");
-    _sub_5C0A10(this);
 }
 
-_extern void _sub_5C0ABB(UIProxy *const, Order const *);
 void UIProxy::OnOrderSend(Order const *) // 0x5C0ABB
 {
     mangled_assert("?OnOrderSend@UIProxy@@QAEXPBVOrder@@@Z");
     todo("implement");
-    _sub_5C0ABB(this, arg);
 }
 
-_extern void _sub_5C0A59(UIProxy *const, Order const *);
 void UIProxy::OnOrderReceived(Order const *) // 0x5C0A59
 {
     mangled_assert("?OnOrderReceived@UIProxy@@QAEXPBVOrder@@@Z");
     todo("implement");
-    _sub_5C0A59(this, arg);
 }
 
-_extern void _sub_5C0B7A(UIProxy *const, MoveOrder const *);
 void UIProxy::OnSendMoveOrder(MoveOrder const *) // 0x5C0B7A
 {
     mangled_assert("?OnSendMoveOrder@UIProxy@@AAEXPBVMoveOrder@@@Z");
     todo("implement");
-    _sub_5C0B7A(this, arg);
 }
 
-_extern void _sub_5C0B1D(UIProxy *const, MoveOrder const *);
 void UIProxy::OnReceivedMoveOrder(MoveOrder const *) // 0x5C0B1D
 {
     mangled_assert("?OnReceivedMoveOrder@UIProxy@@AAEXPBVMoveOrder@@@Z");
     todo("implement");
-    _sub_5C0B1D(this, arg);
 }
 
-_extern void _sub_5C0E51(UIProxy *const, SquadronList2SobBase const *);
 void UIProxy::OnSendSquadronList2SobOrder(SquadronList2SobBase const *) // 0x5C0E51
 {
     mangled_assert("?OnSendSquadronList2SobOrder@UIProxy@@AAEXPBVSquadronList2SobBase@@@Z");
     todo("implement");
-    _sub_5C0E51(this, arg);
 }
 
-_extern void _sub_5C0B5B(UIProxy *const, SquadronList2SobBase const *);
 void UIProxy::OnReceivedSquadronList2SobOrder(SquadronList2SobBase const *) // 0x5C0B5B
 {
     mangled_assert("?OnReceivedSquadronList2SobOrder@UIProxy@@AAEXPBVSquadronList2SobBase@@@Z");
     todo("implement");
-    _sub_5C0B5B(this, arg);
 }
 
-_extern void _sub_5C0C1A(UIProxy *const, SquadronList2SelectionBase const *);
 void UIProxy::OnSendSquadronList2SelectionOrder(SquadronList2SelectionBase const *) // 0x5C0C1A
 {
     mangled_assert("?OnSendSquadronList2SelectionOrder@UIProxy@@AAEXPBVSquadronList2SelectionBase@@@Z");
     todo("implement");
-    _sub_5C0C1A(this, arg);
 }
 
-_extern void _sub_5C0B3C(UIProxy *const, SquadronList2SelectionBase const *);
 void UIProxy::OnReceivedSquadronList2SelectionOrder(SquadronList2SelectionBase const *) // 0x5C0B3C
 {
     mangled_assert("?OnReceivedSquadronList2SelectionOrder@UIProxy@@AAEXPBVSquadronList2SelectionBase@@@Z");
     todo("implement");
-    _sub_5C0B3C(this, arg);
 }
 
 /* ---------- private code */

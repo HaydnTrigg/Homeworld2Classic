@@ -69,13 +69,10 @@ extern BattleScarManager::Type *BattleScarLoad::load(char const *folderName, cha
 
 /* ---------- public code */
 
-_extern BattleScarManager::Type *_sub_558B19(char const *, char const *);
 BattleScarManager::Type *BattleScarLoad::load(char const *folderName, char const *fname) // 0x558B19
 {
     mangled_assert("?load@BattleScarLoad@@YGPAVType@BattleScarManager@@PBD0@Z");
     todo("implement");
-    BattleScarManager::Type * __result = _sub_558B19(folderName, fname);
-    return __result;
 }
 
 /* ---------- private code */

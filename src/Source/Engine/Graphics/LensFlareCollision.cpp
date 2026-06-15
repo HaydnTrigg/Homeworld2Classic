@@ -100,13 +100,10 @@ _static
 
 /* ---------- public code */
 
-_extern bool _sub_56B9FC(LensFlareCollision const *const, Camera const *, vector2 const &);
 bool LensFlareCollision::CheckOcclusion(Camera const *, vector2 const &) const // 0x56B9FC
 {
     mangled_assert("?CheckOcclusion@LensFlareCollision@@UBE_NPBVCamera@@ABVvector2@@@Z");
     todo("implement");
-    bool __result = _sub_56B9FC(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

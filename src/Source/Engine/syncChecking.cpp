@@ -620,402 +620,287 @@ _static
 
 /* ---------- public code */
 
-_extern bool _sub_642547();
 bool IsCaptain() // 0x642547
 {
     mangled_assert("?IsCaptain@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_642547();
-    return __result;
 }
 
-_extern _sub_6421FA(SyncCheckObj *const);
 SyncCheckObj::SyncCheckObj() // 0x6421FA
 {
     mangled_assert("??0SyncCheckObj@@QAE@XZ");
     todo("implement");
-    _sub_6421FA(this);
 }
 
-_extern void _sub_64231B(SyncCheckObj *const);
 SyncCheckObj::~SyncCheckObj() // 0x64231B
 {
     mangled_assert("??1SyncCheckObj@@QAE@XZ");
     todo("implement");
-    _sub_64231B(this);
 }
 
-_extern _sub_642206(SyncCheckUser *const);
 SyncCheckUser::SyncCheckUser() // 0x642206
 {
     mangled_assert("??0SyncCheckUser@@QAE@XZ");
     todo("implement");
-    _sub_642206(this);
 }
 
-_extern void _sub_642338(SyncCheckUser *const);
 SyncCheckUser::~SyncCheckUser() // 0x642338
 {
     mangled_assert("??1SyncCheckUser@@QAE@XZ");
     todo("implement");
-    _sub_642338(this);
 }
 
-_extern void _sub_64324B(SyncCheckUser *const);
 void SyncCheckUser::setDefaultValue() // 0x64324B
 {
     mangled_assert("?setDefaultValue@SyncCheckUser@@QAEXXZ");
     todo("implement");
-    _sub_64324B(this);
 }
 
-_extern void _sub_64342D(SyncCheckUser *const, long);
 void SyncCheckUser::subscribe(long) // 0x64342D
 {
     mangled_assert("?subscribe@SyncCheckUser@@IAEXJ@Z");
     todo("implement");
-    _sub_64342D(this, arg);
 }
 
-_extern void _sub_6428B5(SyncCheckUser *const, __int32);
 void SyncCheckUser::ackFrame(__int32) // 0x6428B5
 {
     mangled_assert("?ackFrame@SyncCheckUser@@IAEXH@Z");
     todo("implement");
-    _sub_6428B5(this, arg);
 }
 
-_extern void _sub_6432CA(SyncCheckUser *const, bool, __int32);
 void SyncCheckUser::setOutOfSync(bool, __int32) // 0x6432CA
 {
     mangled_assert("?setOutOfSync@SyncCheckUser@@IAEX_NH@Z");
     todo("implement");
-    _sub_6432CA(this, arg, arg);
 }
 
-_extern _sub_642239(SyncChecking *const);
 SyncChecking::SyncChecking() // 0x642239
 {
     mangled_assert("??0SyncChecking@@QAE@XZ");
     todo("implement");
-    _sub_642239(this);
 }
 
-_extern void _sub_6422FE(std::_Deque_const_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > > *const);
 _inline std::_Deque_const_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > >::~_Deque_const_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > >() // 0x6422FE
 {
     mangled_assert("??1?$_Deque_const_iterator@V?$_Deque_val@U?$_Deque_simple_types@PAVSyncCheckObj@@@std@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6422FE(this);
 }
 
-_extern void _sub_6422FF(std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > > *const);
 _inline std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > >::~_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > >() // 0x6422FF
 {
     mangled_assert("??1?$_Deque_iterator@V?$_Deque_val@U?$_Deque_simple_types@PAVSyncCheckObj@@@std@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6422FF(this);
 }
 
-_extern void _sub_642300(std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > *const);
 _inline std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> >::~_Deque_val<std::_Deque_simple_types<SyncCheckObj *> >() // 0x642300
 {
     mangled_assert("??1?$_Deque_val@U?$_Deque_simple_types@PAVSyncCheckObj@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_642300(this);
 }
 
-_extern void _sub_642340(SyncChecking *const);
 SyncChecking::~SyncChecking() // 0x642340
 {
     mangled_assert("??1SyncChecking@@QAE@XZ");
     todo("implement");
-    _sub_642340(this);
 }
 
-_extern std::_Deque_const_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > > &_sub_642392(std::_Deque_const_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > > *const, std::_Deque_const_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > > const &);
 _inline std::_Deque_const_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > > &std::_Deque_const_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > >::operator=(std::_Deque_const_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > > const &) // 0x642392
 {
     mangled_assert("??4?$_Deque_const_iterator@V?$_Deque_val@U?$_Deque_simple_types@PAVSyncCheckObj@@@std@@@std@@@std@@QAEAAV01@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    std::_Deque_const_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > > & __result = _sub_642392(this, arg);
-    return __result;
 }
 
-_extern std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > > &_sub_6423AD(std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > > *const, std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > > const &);
 _inline std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > > &std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > >::operator=(std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > > const &) // 0x6423AD
 {
     mangled_assert("??4?$_Deque_iterator@V?$_Deque_val@U?$_Deque_simple_types@PAVSyncCheckObj@@@std@@@std@@@std@@QAEAAV01@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > > & __result = _sub_6423AD(this, arg);
-    return __result;
 }
 
-_extern _sub_6420E5(std::_Deque_const_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > > *const, std::_Deque_const_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > > const &);
 _inline std::_Deque_const_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > >::_Deque_const_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > >(std::_Deque_const_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > > const &) // 0x6420E5
 {
     mangled_assert("??0?$_Deque_const_iterator@V?$_Deque_val@U?$_Deque_simple_types@PAVSyncCheckObj@@@std@@@std@@@std@@QAE@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_6420E5(this, arg);
 }
 
-_extern _sub_642127(std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > > *const, std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > > const &);
 _inline std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > >::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > >(std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<SyncCheckObj *> > > const &) // 0x642127
 {
     mangled_assert("??0?$_Deque_iterator@V?$_Deque_val@U?$_Deque_simple_types@PAVSyncCheckObj@@@std@@@std@@@std@@QAE@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_642127(this, arg);
 }
 
-_extern void _sub_643170(SyncChecking *const);
 void SyncChecking::reset() // 0x643170
 {
     mangled_assert("?reset@SyncChecking@@QAEXXZ");
     todo("implement");
-    _sub_643170(this);
 }
 
-_extern void _sub_642A82(SyncChecking *const, bool);
 void SyncChecking::enableSaveSyncCheckObj(bool) // 0x642A82
 {
     mangled_assert("?enableSaveSyncCheckObj@SyncChecking@@QAEX_N@Z");
     todo("implement");
-    _sub_642A82(this, arg);
 }
 
-_extern bool _sub_642ECD(SyncChecking *const);
 bool SyncChecking::isSavingSyncCheckObj() // 0x642ECD
 {
     mangled_assert("?isSavingSyncCheckObj@SyncChecking@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_642ECD(this);
-    return __result;
 }
 
-_extern bool _sub_643307();
 bool SyncChecking::startupInGame() // 0x643307
 {
     mangled_assert("?startupInGame@SyncChecking@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_643307();
-    return __result;
 }
 
-_extern bool _sub_6432F0();
 bool SyncChecking::shutdownInGame() // 0x6432F0
 {
     mangled_assert("?shutdownInGame@SyncChecking@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_6432F0();
-    return __result;
 }
 
-_extern void _sub_642F0B(SyncChecking *const);
 void SyncChecking::manageSyncCheckObjList() // 0x642F0B
 {
     mangled_assert("?manageSyncCheckObjList@SyncChecking@@IAEXXZ");
     todo("implement");
-    _sub_642F0B(this);
 }
 
-_extern void _sub_642D94();
 void SyncChecking::generateSaveGameOutOfSyncFile() // 0x642D94
 {
     mangled_assert("?generateSaveGameOutOfSyncFile@SyncChecking@@SGXXZ");
     todo("implement");
-    _sub_642D94();
 }
 
-_extern void _sub_6429FF(SyncChecking *const);
 void SyncChecking::dumpOutOfSync() // 0x6429FF
 {
     mangled_assert("?dumpOutOfSync@SyncChecking@@QAEXXZ");
     todo("implement");
-    _sub_6429FF(this);
 }
 
-_extern void _sub_643900(SyncChecking *const);
 void SyncChecking::writeToDiskSyncObject() // 0x643900
 {
     mangled_assert("?writeToDiskSyncObject@SyncChecking@@QAEXXZ");
     todo("implement");
-    _sub_643900(this);
 }
 
-_extern SyncCheckObj *_sub_642E5B(SyncChecking *const, long);
 SyncCheckObj *SyncChecking::getSyncCheckObj(long) // 0x642E5B
 {
     mangled_assert("?getSyncCheckObj@SyncChecking@@IAEPAVSyncCheckObj@@J@Z");
     todo("implement");
-    SyncCheckObj * __result = _sub_642E5B(this, arg);
-    return __result;
 }
 
-_extern bool _sub_642ED1(SyncChecking *const, SyncCheckUser *);
 bool SyncChecking::isSubscribed(SyncCheckUser *) // 0x642ED1
 {
     mangled_assert("?isSubscribed@SyncChecking@@QAE_NPAVSyncCheckUser@@@Z");
     todo("implement");
-    bool __result = _sub_642ED1(this, arg);
-    return __result;
 }
 
-_extern void _sub_64343A(SyncChecking *const, SyncCheckUser *, long);
 void SyncChecking::subscribeUser(SyncCheckUser *, long) // 0x64343A
 {
     mangled_assert("?subscribeUser@SyncChecking@@QAEXPAVSyncCheckUser@@J@Z");
     todo("implement");
-    _sub_64343A(this, arg, arg);
 }
 
-_extern std::_Vector_iterator<std::_Vector_val<std::_Simple_types<SyncCheckUser *> > > _sub_6438B8(SyncChecking *const, SyncCheckUser *);
 std::_Vector_iterator<std::_Vector_val<std::_Simple_types<SyncCheckUser *> > > SyncChecking::unsubscribeUser(SyncCheckUser *) // 0x6438B8
 {
     mangled_assert("?unsubscribeUser@SyncChecking@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVSyncCheckUser@@@std@@@std@@@std@@PAVSyncCheckUser@@@Z");
     todo("implement");
-    std::_Vector_iterator<std::_Vector_val<std::_Simple_types<SyncCheckUser *> > > __result = _sub_6438B8(this, arg);
-    return __result;
 }
 
-_extern void _sub_6428BF(SyncChecking *const, SyncCheckUser *, unsigned __int32);
 void SyncChecking::ackFrame(SyncCheckUser *, unsigned __int32) // 0x6428BF
 {
     mangled_assert("?ackFrame@SyncChecking@@QAEXPAVSyncCheckUser@@I@Z");
     todo("implement");
-    _sub_6428BF(this, arg, arg);
 }
 
-_extern unsigned __int32 _sub_6435C6(bool);
 unsigned __int32 SyncChecking::syncCheckingMinimal(bool bException) // 0x6435C6
 {
     mangled_assert("?syncCheckingMinimal@SyncChecking@@SGI_N@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_6435C6(bException);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_6438B3(bool);
 unsigned __int32 SyncChecking::syncCheckingNone(bool bDummy) // 0x6438B3
 {
     mangled_assert("?syncCheckingNone@SyncChecking@@SGI_N@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_6438B3(bDummy);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_643468(SyncChecking::SyncCheckType);
 unsigned __int32 SyncChecking::syncCheckingExtreme(SyncChecking::SyncCheckType type) // 0x643468
 {
     mangled_assert("?syncCheckingExtreme@SyncChecking@@KGIW4SyncCheckType@1@@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_643468(type);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_6435A8(bool);
 unsigned __int32 SyncChecking::syncCheckingExtremeBinary(bool bDummy) // 0x6435A8
 {
     mangled_assert("?syncCheckingExtremeBinary@SyncChecking@@SGI_N@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_6435A8(bDummy);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_6435BC(bool);
 unsigned __int32 SyncChecking::syncCheckingExtremeText(bool bDummy) // 0x6435BC
 {
     mangled_assert("?syncCheckingExtremeText@SyncChecking@@SGI_N@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_6435BC(bDummy);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_6435B2(bool);
 unsigned __int32 SyncChecking::syncCheckingExtremeCRC(bool bDummy) // 0x6435B2
 {
     mangled_assert("?syncCheckingExtremeCRC@SyncChecking@@SGI_N@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_6435B2(bDummy);
-    return __result;
 }
 
-_extern char const *_sub_642DEB(SyncCheckingLevel);
 char const *SyncChecking::getLevelDescription(SyncCheckingLevel level) // 0x642DEB
 {
     mangled_assert("?getLevelDescription@SyncChecking@@SGPBDW4SyncCheckingLevel@@@Z");
     todo("implement");
-    char const * __result = _sub_642DEB(level);
-    return __result;
 }
 
-_extern bool _sub_642EBF(SyncCheckingLevel);
 bool SyncChecking::isLevelValid(SyncCheckingLevel level) // 0x642EBF
 {
     mangled_assert("?isLevelValid@SyncChecking@@SG_NW4SyncCheckingLevel@@@Z");
     todo("implement");
-    bool __result = _sub_642EBF(level);
-    return __result;
 }
 
-_extern SyncCheckingLevel _sub_642DE7(SyncChecking *const);
 SyncCheckingLevel SyncChecking::getLevel() // 0x642DE7
 {
     mangled_assert("?getLevel@SyncChecking@@QAE?AW4SyncCheckingLevel@@XZ");
     todo("implement");
-    SyncCheckingLevel __result = _sub_642DE7(this);
-    return __result;
 }
 
-_extern bool _sub_643274(SyncChecking *const, SyncCheckingLevel);
 bool SyncChecking::setLevel(SyncCheckingLevel) // 0x643274
 {
     mangled_assert("?setLevel@SyncChecking@@QAE_NW4SyncCheckingLevel@@@Z");
     todo("implement");
-    bool __result = _sub_643274(this, arg);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_64305E(SyncChecking *const);
 unsigned __int32 SyncChecking::process() // 0x64305E
 {
     mangled_assert("?process@SyncChecking@@QAEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_64305E(this);
-    return __result;
 }
 
-_extern bool _sub_642EEE(SyncChecking *const);
 bool SyncChecking::isSyncErrorRecoveryEnable() // 0x642EEE
 {
     mangled_assert("?isSyncErrorRecoveryEnable@SyncChecking@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_642EEE(this);
-    return __result;
 }
 
-_extern bool _sub_642A8C(SyncChecking *const, SyncCheckUser *, bool);
 bool SyncChecking::enableSyncErrorRecovery(SyncCheckUser *, bool) // 0x642A8C
 {
     mangled_assert("?enableSyncErrorRecovery@SyncChecking@@QAE_NPAVSyncCheckUser@@_N@Z");
     todo("implement");
-    bool __result = _sub_642A8C(this, arg, arg);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_642E25(SyncChecking *const, SyncCheckUser *, unsigned __int32, unsigned __int32);
 unsigned __int32 SyncChecking::getNbOutOfSyncForAPeriod(SyncCheckUser *, unsigned __int32, unsigned __int32) // 0x642E25
 {
     mangled_assert("?getNbOutOfSyncForAPeriod@SyncChecking@@QAEIPAVSyncCheckUser@@II@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_642E25(this, arg, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

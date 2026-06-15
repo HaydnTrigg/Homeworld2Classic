@@ -61,13 +61,10 @@ static_assert(sizeof(ArcArray) == 400, "Invalid ArcArray size");
 
 /* ---------- public code */
 
-_extern bool _sub_56A96A(ArcArray::Arc const &, ArcArray::Arc const &);
 _inline bool ArcArray::sortCB(ArcArray::Arc const &a, ArcArray::Arc const &b) // 0x56A96A
 {
     mangled_assert("?sortCB@ArcArray@@CG_NABUArc@1@0@Z");
     todo("implement");
-    bool __result = _sub_56A96A(a, b);
-    return __result;
 }
 
 /* ---------- private code */

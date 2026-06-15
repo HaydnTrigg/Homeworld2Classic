@@ -221,28 +221,22 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_6D50F2(Net::SessionDescription *const);
 Net::SessionDescription::SessionDescription() // 0x6D50F2
 {
     mangled_assert("??0SessionDescription@Net@@QAE@XZ");
     todo("implement");
-    _sub_6D50F2(this);
 }
 
-_extern _sub_6D5062(Net::SessionDescription *const, _DPN_APPLICATION_DESC const &);
 Net::SessionDescription::SessionDescription(_DPN_APPLICATION_DESC const &) // 0x6D5062
 {
     mangled_assert("??0SessionDescription@Net@@QAE@ABU_DPN_APPLICATION_DESC@@@Z");
     todo("implement");
-    _sub_6D5062(this, arg);
 }
 
-_extern void _sub_6D514B(Net::SessionDescription const *const, _DPN_APPLICATION_DESC &);
 void Net::SessionDescription::Build(_DPN_APPLICATION_DESC &) const // 0x6D514B
 {
     mangled_assert("?Build@SessionDescription@Net@@QBEXAAU_DPN_APPLICATION_DESC@@@Z");
     todo("implement");
-    _sub_6D514B(this, arg);
 }
 
 /* ---------- private code */

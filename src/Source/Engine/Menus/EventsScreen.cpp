@@ -198,188 +198,144 @@ extern UI::EventsScreen *UI::EventsScreen::ms_screen; // 0x846CB4
 
 /* ---------- public code */
 
-_extern _sub_577153(UI::EventsScreen *const, char const *);
 UI::EventsScreen::EventsScreen(char const *) // 0x577153
 {
     mangled_assert("??0EventsScreen@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_577153(this, arg);
 }
 
-_extern _sub_5771E0(UI::EventsScreenData *const);
 _inline UI::EventsScreenData::EventsScreenData() // 0x5771E0
 {
     mangled_assert("??0EventsScreenData@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5771E0(this);
 }
 
-_extern _sub_577228(UI::EventsScreenEntry *const, UI::EventsScreenEntry const &);
 _inline UI::EventsScreenEntry::EventsScreenEntry(UI::EventsScreenEntry const &) // 0x577228
 {
     mangled_assert("??0EventsScreenEntry@UI@@QAE@ABU01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_577228(this, arg);
 }
 
-_extern _sub_57725C(UI::EventsScreenEntry *const);
 _inline UI::EventsScreenEntry::EventsScreenEntry() // 0x57725C
 {
     mangled_assert("??0EventsScreenEntry@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_57725C(this);
 }
 
-_extern void _sub_57728A(std::_List_buy<UI::EventsScreenEntry,std::allocator<UI::EventsScreenEntry> > *const);
 _inline std::_List_buy<UI::EventsScreenEntry,std::allocator<UI::EventsScreenEntry> >::~_List_buy<UI::EventsScreenEntry,std::allocator<UI::EventsScreenEntry> >() // 0x57728A
 {
     mangled_assert("??1?$_List_buy@UEventsScreenEntry@UI@@V?$allocator@UEventsScreenEntry@UI@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_57728A(this);
 }
 
-_extern void _sub_5772AD(UI::EventsScreen *const);
 UI::EventsScreen::~EventsScreen() // 0x5772AD
 {
     mangled_assert("??1EventsScreen@UI@@UAE@XZ");
     todo("implement");
-    _sub_5772AD(this);
 }
 
-_extern void _sub_577312(UI::EventsScreenData *const);
 _inline UI::EventsScreenData::~EventsScreenData() // 0x577312
 {
     mangled_assert("??1EventsScreenData@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_577312(this);
 }
 
-_extern void _sub_577332(UI::EventsScreenEntry *const);
 _inline UI::EventsScreenEntry::~EventsScreenEntry() // 0x577332
 {
     mangled_assert("??1EventsScreenEntry@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_577332(this);
 }
 
-_extern void _sub_57778F(UI::EventsScreen *const, LuaConfig &);
 void UI::EventsScreen::OnLoad(LuaConfig &) // 0x57778F
 {
     mangled_assert("?OnLoad@EventsScreen@UI@@MAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_57778F(this, arg);
 }
 
-_extern void _sub_5777AB(UI::EventsScreen *const);
 void UI::EventsScreen::OnPostLoad() // 0x5777AB
 {
     mangled_assert("?OnPostLoad@EventsScreen@UI@@MAEXXZ");
     todo("implement");
-    _sub_5777AB(this);
 }
 
-_extern void _sub_577A47();
 void UI::EventsScreen::Toggle() // 0x577A47
 {
     mangled_assert("?Toggle@EventsScreen@UI@@SGXXZ");
     todo("implement");
-    _sub_577A47();
 }
 
-_extern void _sub_577835(UI::EventsScreen *const, char const *);
 void UI::EventsScreen::ShowEvent(char const *) // 0x577835
 {
     mangled_assert("?ShowEvent@EventsScreen@UI@@QAEXPBD@Z");
     todo("implement");
-    _sub_577835(this, arg);
 }
 
-_extern void _sub_577859(UI::EventsScreen *const, char const *, bool, vector3 const &);
 void UI::EventsScreen::ShowEventPos(char const *, bool, vector3 const &) // 0x577859
 {
     mangled_assert("?ShowEventPos@EventsScreen@UI@@QAEXPBD_NABVvector3@@@Z");
     todo("implement");
-    _sub_577859(this, arg, arg, arg);
 }
 
-_extern void _sub_5779AB(UI::EventsScreen *const, wchar_t const *, __int32);
 void UI::EventsScreen::ShowObjective(wchar_t const *, __int32) // 0x5779AB
 {
     mangled_assert("?ShowObjective@EventsScreen@UI@@QAEXPB_WH@Z");
     todo("implement");
-    _sub_5779AB(this, arg, arg);
 }
 
-_extern void _sub_577802(UI::EventsScreen *const, UI::Size const &);
 void UI::EventsScreen::OnResize(UI::Size const &) // 0x577802
 {
     mangled_assert("?OnResize@EventsScreen@UI@@MAEXABVSize@2@@Z");
     todo("implement");
-    _sub_577802(this, arg);
 }
 
-_extern void _sub_5773F9(UI::EventsScreen *const, wchar_t const *, bool, vector3 const &);
 void UI::EventsScreen::AddEvent(wchar_t const *, bool, vector3 const &) // 0x5773F9
 {
     mangled_assert("?AddEvent@EventsScreen@UI@@AAEXPB_W_NABVvector3@@@Z");
     todo("implement");
-    _sub_5773F9(this, arg, arg, arg);
 }
 
-_extern void _sub_5776D1(UI::EventsScreen *const, bool);
 void UI::EventsScreen::OnActivate(bool) // 0x5776D1
 {
     mangled_assert("?OnActivate@EventsScreen@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_5776D1(this, arg);
 }
 
-_extern void _sub_577724(UI::InterfaceElement *);
 void UI::EventsScreen::OnItemClicked(UI::InterfaceElement *e) // 0x577724
 {
     mangled_assert("?OnItemClicked@EventsScreen@UI@@SGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_577724(e);
 }
 
-_extern void _sub_5775D6(UI::EventsScreen *const);
 void UI::EventsScreen::Clear() // 0x5775D6
 {
     mangled_assert("?Clear@EventsScreen@UI@@QAEXXZ");
     todo("implement");
-    _sub_5775D6(this);
 }
 
-_extern void _sub_577630(UI::EventsScreen *const);
 void UI::EventsScreen::FocusOnLastEvent() // 0x577630
 {
     mangled_assert("?FocusOnLastEvent@EventsScreen@UI@@QAEXXZ");
     todo("implement");
-    _sub_577630(this);
 }
 
-_extern void _sub_5776F6(GameEventSys::Listener * const, GameEventSys::Event const &);
 void UI::EventsScreen::OnEvent(GameEventSys::Event const &) // 0x5776F6
 {
     mangled_assert("?OnEvent@EventsScreen@UI@@UAEXABVEvent@GameEventSys@@@Z");
     // __shifted(UI::EventsScreen, 412);
     todo("implement");
-    _sub_5776F6(this, arg);
 }
 
 /* ---------- private code */
 
-_extern void _sub_57747E(UI::InterfaceElement *, std::list<UI::EventsScreenEntry,std::allocator<UI::EventsScreenEntry> > &, UI::InterfaceElement *, UI::InterfaceElement *);
 _static void UI::AddEventsToListBox(UI::InterfaceElement *listframe, std::list<UI::EventsScreenEntry,std::allocator<UI::EventsScreenEntry> > &events, UI::InterfaceElement *eventToClone, UI::InterfaceElement *objectiveToClone) // 0x57747E
 {
     mangled_assert("UI::AddEventsToListBox");
     todo("implement");
-    _sub_57747E(listframe, events, eventToClone, objectiveToClone);
 }
 #endif

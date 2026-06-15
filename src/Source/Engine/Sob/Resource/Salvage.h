@@ -45,49 +45,34 @@ static_assert(sizeof(Salvage) == 724, "Invalid Salvage size");
 
 /* ---------- public code */
 
-_extern bool _sub_4B19C0(Salvage const *const);
 _inline bool Salvage::isLatchingResource() const // 0x4B19C0
 {
     mangled_assert("?isLatchingResource@Salvage@@UBE_NXZ");
     todo("implement");
-    bool __result = _sub_4B19C0(this);
-    return __result;
 }
 
-_extern bool _sub_4B19BD(Salvage const *const);
 _inline bool Salvage::isHaulingResource() const // 0x4B19BD
 {
     mangled_assert("?isHaulingResource@Salvage@@UBE_NXZ");
     todo("implement");
-    bool __result = _sub_4B19BD(this);
-    return __result;
 }
 
-_extern SalvageStatic const *_sub_4B19B3(Salvage const *const);
 _inline SalvageStatic const *Salvage::getStatic() const // 0x4B19B3
 {
     mangled_assert("?getStatic@Salvage@@QBEPBVSalvageStatic@@XZ");
     todo("implement");
-    SalvageStatic const * __result = _sub_4B19B3(this);
-    return __result;
 }
 
-_extern bool _sub_4B19BA(Salvage *const);
 _inline bool Salvage::isDeterministic() // 0x4B19BA
 {
     mangled_assert("?isDeterministic@Salvage@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4B19BA(this);
-    return __result;
 }
 
-_extern char const *_sub_4B1ACB(Salvage *const);
 _inline char const *Salvage::saveToken() // 0x4B1ACB
 {
     mangled_assert("?saveToken@Salvage@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4B1ACB(this);
-    return __result;
 }
 
 /* ---------- private code */

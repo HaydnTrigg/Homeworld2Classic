@@ -106,33 +106,24 @@ static_assert(sizeof(HW2CpuPlayer) == 2136, "Invalid HW2CpuPlayer size");
 
 /* ---------- public code */
 
-_extern CpuCommon &_sub_5447BB(HW2CpuPlayer *const);
 _inline CpuCommon &HW2CpuPlayer::getCpuCommon() // 0x5447BB
 {
     mangled_assert("?getCpuCommon@HW2CpuPlayer@@QAEAAVCpuCommon@@XZ");
     todo("implement");
-    CpuCommon & __result = _sub_5447BB(this);
-    return __result;
 }
 
-_extern char const *_sub_54301B(Saveable * const);
 _inline char const *HW2CpuPlayer::saveToken() // 0x54301B
 {
     mangled_assert("?saveToken@HW2CpuPlayer@@UAEPBDXZ");
     // __shifted(HW2CpuPlayer, 8);
     todo("implement");
-    char const * __result = _sub_54301B(this);
-    return __result;
 }
 
-_extern bool _sub_542F98(Saveable * const);
 _inline bool HW2CpuPlayer::isDeterministic() // 0x542F98
 {
     mangled_assert("?isDeterministic@HW2CpuPlayer@@UAE_NXZ");
     // __shifted(HW2CpuPlayer, 8);
     todo("implement");
-    bool __result = _sub_542F98(this);
-    return __result;
 }
 
 /* ---------- private code */

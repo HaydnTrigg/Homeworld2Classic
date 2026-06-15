@@ -381,20 +381,16 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_6D8717(Net::DirectPlayDeleter *const, Net::DirectPlay::Context *, IDirectPlay8Peer *);
 Net::DirectPlayDeleter::DirectPlayDeleter(Net::DirectPlay::Context *, IDirectPlay8Peer *) // 0x6D8717
 {
     mangled_assert("??0DirectPlayDeleter@Net@@QAE@PAUContext@DirectPlay@1@PAUIDirectPlay8Peer@@@Z");
     todo("implement");
-    _sub_6D8717(this, arg, arg);
 }
 
-_extern void _sub_6D872B(Net::DirectPlayDeleter *const);
 void Net::DirectPlayDeleter::operator()() // 0x6D872B
 {
     mangled_assert("??RDirectPlayDeleter@Net@@QAEXXZ");
     todo("implement");
-    _sub_6D872B(this);
 }
 
 /* ---------- private code */

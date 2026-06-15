@@ -46,13 +46,10 @@ static_assert(sizeof(RamStream) == 292, "Invalid RamStream size");
 
 /* ---------- public code */
 
-_extern char const *_sub_10003264(RamStream const *const);
 _inline char const *RamStream::GetStreamName() const // 0x10003264
 {
     mangled_assert("?GetStreamName@RamStream@@UBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_10003264(this);
-    return __result;
 }
 
 /* ---------- private code */

@@ -62,58 +62,46 @@ static_assert(sizeof(UI::LobbyTitleRoom) == 420, "Invalid UI::LobbyTitleRoom siz
 
 /* ---------- public code */
 
-_extern void _sub_5B8183(LobbyEvent * const, bool, wchar_t const *);
 _inline void UI::LobbyTitleRoom::OnLobbyCDAuthenticate(bool, wchar_t const *) // 0x5B8183
 {
     mangled_assert("?OnLobbyCDAuthenticate@LobbyTitleRoom@UI@@EAEX_NPB_W@Z");
     // __shifted(UI::LobbyTitleRoom, 412);
     todo("implement");
-    _sub_5B8183(this, arg, arg);
 }
 
-_extern void _sub_5B8408(LobbyEvent * const, LobbySessionDesc const &, unsigned long long);
 _inline void UI::LobbyTitleRoom::OnLobbySessionAdded(LobbySessionDesc const &, unsigned long long) // 0x5B8408
 {
     mangled_assert("?OnLobbySessionAdded@LobbyTitleRoom@UI@@EAEXABVLobbySessionDesc@@_K@Z");
     // __shifted(UI::LobbyTitleRoom, 412);
     todo("implement");
-    _sub_5B8408(this, arg, arg);
 }
 
-_extern void _sub_5B840B(LobbyEvent * const, LobbySessionDesc const &, unsigned long long);
 _inline void UI::LobbyTitleRoom::OnLobbySessionAddedDirect(LobbySessionDesc const &, unsigned long long) // 0x5B840B
 {
     mangled_assert("?OnLobbySessionAddedDirect@LobbyTitleRoom@UI@@EAEXABVLobbySessionDesc@@_K@Z");
     // __shifted(UI::LobbyTitleRoom, 412);
     todo("implement");
-    _sub_5B840B(this, arg, arg);
 }
 
-_extern void _sub_5B840E(LobbyEvent * const, unsigned long long);
 _inline void UI::LobbyTitleRoom::OnLobbySessionDeleted(unsigned long long) // 0x5B840E
 {
     mangled_assert("?OnLobbySessionDeleted@LobbyTitleRoom@UI@@EAEX_K@Z");
     // __shifted(UI::LobbyTitleRoom, 412);
     todo("implement");
-    _sub_5B840E(this, arg);
 }
 
-_extern void _sub_5B8411(LobbyEvent * const, unsigned long long);
 _inline void UI::LobbyTitleRoom::OnLobbySessionUpdated(unsigned long long) // 0x5B8411
 {
     mangled_assert("?OnLobbySessionUpdated@LobbyTitleRoom@UI@@EAEX_K@Z");
     // __shifted(UI::LobbyTitleRoom, 412);
     todo("implement");
-    _sub_5B8411(this, arg);
 }
 
-_extern void _sub_5B81A1(LobbyEvent * const, bool, unsigned __int32);
 _inline void UI::LobbyTitleRoom::OnLobbyChatConnectResult(bool, unsigned __int32) // 0x5B81A1
 {
     mangled_assert("?OnLobbyChatConnectResult@LobbyTitleRoom@UI@@EAEX_NI@Z");
     // __shifted(UI::LobbyTitleRoom, 412);
     todo("implement");
-    _sub_5B81A1(this, arg, arg);
 }
 
 /* ---------- private code */

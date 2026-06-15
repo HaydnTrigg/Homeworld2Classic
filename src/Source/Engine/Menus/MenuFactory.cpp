@@ -231,23 +231,17 @@ _static
 
 /* ---------- public code */
 
-_extern UI::NewUIScreen *_sub_58DBD1(char const *, char const *, char const *, bool);
 UI::NewUIScreen *UI::MenuFactory::CreateMenu(char const *filename, char const *sectionName, char const *type, bool callPostLoad) // 0x58DBD1
 {
     mangled_assert("?CreateMenu@MenuFactory@UI@@SGPAVNewUIScreen@2@PBD00_N@Z");
     todo("implement");
-    UI::NewUIScreen * __result = _sub_58DBD1(filename, sectionName, type, callPostLoad);
-    return __result;
 }
 
-_extern GSPatcher &_sub_58DBC4(GSPatcher *const, GSPatcher const &);
 _inline GSPatcher &GSPatcher::operator=(GSPatcher const &) // 0x58DBC4
 {
     mangled_assert("??4GSPatcher@@QAEAAV0@ABV0@@Z");
     compiler_generated();
     todo("implement");
-    GSPatcher & __result = _sub_58DBC4(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

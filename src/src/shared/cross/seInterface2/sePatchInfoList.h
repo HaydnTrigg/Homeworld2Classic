@@ -40,22 +40,16 @@ static_assert(sizeof(sePatchInfoList) == 12, "Invalid sePatchInfoList size");
 
 /* ---------- public code */
 
-_extern std::_Vector_iterator<std::_Vector_val<std::_Simple_types<PatchID::Info *> > > _sub_6BEF8F(sePatchInfoList *const);
 _inline std::_Vector_iterator<std::_Vector_val<std::_Simple_types<PatchID::Info *> > > sePatchInfoList::begin() // 0x6BEF8F
 {
     mangled_assert("?begin@sePatchInfoList@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAUInfo@PatchID@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_Vector_iterator<std::_Vector_val<std::_Simple_types<PatchID::Info *> > > __result = _sub_6BEF8F(this);
-    return __result;
 }
 
-_extern std::_Vector_iterator<std::_Vector_val<std::_Simple_types<PatchID::Info *> > > _sub_6BF056(sePatchInfoList *const);
 _inline std::_Vector_iterator<std::_Vector_val<std::_Simple_types<PatchID::Info *> > > sePatchInfoList::end() // 0x6BF056
 {
     mangled_assert("?end@sePatchInfoList@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAUInfo@PatchID@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_Vector_iterator<std::_Vector_val<std::_Simple_types<PatchID::Info *> > > __result = _sub_6BF056(this);
-    return __result;
 }
 
 /* ---------- private code */

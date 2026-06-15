@@ -137,47 +137,34 @@ static_assert(sizeof(CameraCommand) == 764, "Invalid CameraCommand size");
 
 /* ---------- public code */
 
-_extern CameraHW &_sub_450960(CameraCommand *const);
 _inline CameraHW &CameraCommand::getCamera() // 0x450960
 {
     mangled_assert("?getCamera@CameraCommand@@QAEAAVCameraHW@@XZ");
     todo("implement");
-    CameraHW & __result = _sub_450960(this);
-    return __result;
 }
 
-_extern void _sub_7256FD(CameraCommand *const);
 _inline void CameraCommand::resetPanned() // 0x7256FD
 {
     mangled_assert("?resetPanned@CameraCommand@@QAEXXZ");
     todo("implement");
-    _sub_7256FD(this);
 }
 
-_extern float _sub_7256EB(CameraCommand const *const);
 _inline float CameraCommand::getPanned() const // 0x7256EB
 {
     mangled_assert("?getPanned@CameraCommand@@QBEMXZ");
     todo("implement");
-    float __result = _sub_7256EB(this);
-    return __result;
 }
 
-_extern void _sub_725705(CameraCommand *const);
 _inline void CameraCommand::resetRotated() // 0x725705
 {
     mangled_assert("?resetRotated@CameraCommand@@QAEXXZ");
     todo("implement");
-    _sub_725705(this);
 }
 
-_extern float _sub_7256F2(CameraCommand const *const);
 _inline float CameraCommand::getRotated() const // 0x7256F2
 {
     mangled_assert("?getRotated@CameraCommand@@QBEMXZ");
     todo("implement");
-    float __result = _sub_7256F2(this);
-    return __result;
 }
 
 /* ---------- private code */

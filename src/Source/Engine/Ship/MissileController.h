@@ -46,22 +46,16 @@ static_assert(sizeof(MissileController) == 852, "Invalid MissileController size"
 
 /* ---------- public code */
 
-_extern bool _sub_49B878(MissileController *const);
 _inline bool MissileController::isDeterministic() // 0x49B878
 {
     mangled_assert("?isDeterministic@MissileController@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_49B878(this);
-    return __result;
 }
 
-_extern char const *_sub_49B918(MissileController *const);
 _inline char const *MissileController::saveToken() // 0x49B918
 {
     mangled_assert("?saveToken@MissileController@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_49B918(this);
-    return __result;
 }
 
 /* ---------- private code */

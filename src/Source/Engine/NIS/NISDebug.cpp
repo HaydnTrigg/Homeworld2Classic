@@ -177,224 +177,168 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_54CF4F(NISDebug::SelectedMotionPathPred *const, MotionFollower const *);
 NISDebug::SelectedMotionPathPred::SelectedMotionPathPred(MotionFollower const *) // 0x54CF4F
 {
     mangled_assert("??0SelectedMotionPathPred@NISDebug@@QAE@PBVMotionFollower@@@Z");
     todo("implement");
-    _sub_54CF4F(this, arg);
 }
 
-_extern _sub_54CF61(NISDebug::SelectedNodePred *const);
 _inline NISDebug::SelectedNodePred::SelectedNodePred() // 0x54CF61
 {
     mangled_assert("??0SelectedNodePred@NISDebug@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_54CF61(this);
 }
 
-_extern bool _sub_54CFA0(NISDebug::SelectedMotionPathPred const *const, MotionPath const *);
 bool NISDebug::SelectedMotionPathPred::Test(MotionPath const *) const // 0x54CFA0
 {
     mangled_assert("?Test@SelectedMotionPathPred@NISDebug@@UBE_NPBVMotionPath@@@Z");
     todo("implement");
-    bool __result = _sub_54CFA0(this, arg);
-    return __result;
 }
 
-_extern void _sub_54D270(unsigned __int32, bool);
 void NISDebug::enable2D(unsigned __int32 bit, bool bOn) // 0x54D270
 {
     mangled_assert("?enable2D@NISDebug@@SGXI_N@Z");
     todo("implement");
-    _sub_54D270(bit, bOn);
 }
 
-_extern void _sub_54D287(unsigned __int32, bool);
 void NISDebug::enable3D(unsigned __int32 bit, bool bOn) // 0x54D287
 {
     mangled_assert("?enable3D@NISDebug@@SGXI_N@Z");
     todo("implement");
-    _sub_54D287(bit, bOn);
 }
 
-_extern void _sub_54D27A(bool);
 void NISDebug::enable2DAll(bool bOn) // 0x54D27A
 {
     mangled_assert("?enable2DAll@NISDebug@@SGX_N@Z");
     todo("implement");
-    _sub_54D27A(bOn);
 }
 
-_extern void _sub_54D291(bool);
 void NISDebug::enable3DAll(bool bOn) // 0x54D291
 {
     mangled_assert("?enable3DAll@NISDebug@@SGX_N@Z");
     todo("implement");
-    _sub_54D291(bOn);
 }
 
-_extern void _sub_54E335(NIS const *, NISDebug::SelectedMotionPathPred const *);
 void NISDebug::visualizePaths3D(NIS const *pNIS, NISDebug::SelectedMotionPathPred const *pred) // 0x54E335
 {
     mangled_assert("?visualizePaths3D@NISDebug@@CGXPBVNIS@@PBVSelectedMotionPathPred@1@@Z");
     todo("implement");
-    _sub_54E335(pNIS, pred);
 }
 
-_extern void _sub_54DB6D(NIS const *, NISDebug::SelectedNodePred const *);
 void NISDebug::visualizeLeaders3D(NIS const *pNIS, NISDebug::SelectedNodePred const *pred) // 0x54DB6D
 {
     mangled_assert("?visualizeLeaders3D@NISDebug@@CGXPBVNIS@@PBVSelectedNodePred@1@@Z");
     todo("implement");
-    _sub_54DB6D(pNIS, pred);
 }
 
-_extern void _sub_54D8A8(NIS const *);
 void NISDebug::visualizeCameras3D(NIS const *pNIS) // 0x54D8A8
 {
     mangled_assert("?visualizeCameras3D@NISDebug@@CGXPBVNIS@@@Z");
     todo("implement");
-    _sub_54D8A8(pNIS);
 }
 
-_extern void _sub_54D71B(NIS const *);
 void NISDebug::visualize3D(NIS const *pNIS) // 0x54D71B
 {
     mangled_assert("?visualize3D@NISDebug@@SGXPBVNIS@@@Z");
     todo("implement");
-    _sub_54D71B(pNIS);
 }
 
-_extern void _sub_54DC45(NIS const *, MotionNode *, float, float, float, float);
 void NISDebug::visualizeMotionNode2D(NIS const *pNIS, MotionNode *pNode, float x, float y, float width, float height) // 0x54DC45
 {
     mangled_assert("?visualizeMotionNode2D@NISDebug@@CGXPBVNIS@@PAVMotionNode@@MMMM@Z");
     todo("implement");
-    _sub_54DC45(pNIS, pNode, x, y, width, height);
 }
 
-_extern MotionFollower const *_sub_54D2F6(NIS const *);
 MotionFollower const *NISDebug::findSelectedFollower(NIS const *pNIS) // 0x54D2F6
 {
     mangled_assert("?findSelectedFollower@NISDebug@@CGPBVMotionFollower@@PBVNIS@@@Z");
     todo("implement");
-    MotionFollower const * __result = _sub_54D2F6(pNIS);
-    return __result;
 }
 
-_extern void _sub_54DAA2(NIS const *);
 void NISDebug::visualizeFollowers2D(NIS const *pNIS) // 0x54DAA2
 {
     mangled_assert("?visualizeFollowers2D@NISDebug@@CGXPBVNIS@@@Z");
     todo("implement");
-    _sub_54DAA2(pNIS);
 }
 
-_extern void _sub_54DB03(NIS const *, NISDebug::SelectedNodePred const *);
 void NISDebug::visualizeLeaders2D(NIS const *pNIS, NISDebug::SelectedNodePred const *pred) // 0x54DB03
 {
     mangled_assert("?visualizeLeaders2D@NISDebug@@CGXPBVNIS@@PBVSelectedNodePred@1@@Z");
     todo("implement");
-    _sub_54DB03(pNIS, pred);
 }
 
-_extern void _sub_54D850(NIS const *);
 void NISDebug::visualizeCameras2D(NIS const *pNIS) // 0x54D850
 {
     mangled_assert("?visualizeCameras2D@NISDebug@@CGXPBVNIS@@@Z");
     todo("implement");
-    _sub_54D850(pNIS);
 }
 
-_extern void _sub_54DFD2(NIS const *, NISDebug::SelectedMotionPathPred const *);
 void NISDebug::visualizePaths2D(NIS const *pNIS, NISDebug::SelectedMotionPathPred const *pred) // 0x54DFD2
 {
     mangled_assert("?visualizePaths2D@NISDebug@@CGXPBVNIS@@PBVSelectedMotionPathPred@1@@Z");
     todo("implement");
-    _sub_54DFD2(pNIS, pred);
 }
 
-_extern void _sub_54D588(NIS const *);
 void NISDebug::visualize2D(NIS const *pNIS) // 0x54D588
 {
     mangled_assert("?visualize2D@NISDebug@@SGXPBVNIS@@@Z");
     todo("implement");
-    _sub_54D588(pNIS);
 }
 
-_extern void _sub_54D3B5();
 void NISDebug::play() // 0x54D3B5
 {
     mangled_assert("?play@NISDebug@@SGXXZ");
     todo("implement");
-    _sub_54D3B5();
 }
 
-_extern void _sub_54D403();
 void NISDebug::playRelative() // 0x54D403
 {
     mangled_assert("?playRelative@NISDebug@@SGXXZ");
     todo("implement");
-    _sub_54D403();
 }
 
-_extern void _sub_54D46F();
 void NISDebug::rewind() // 0x54D46F
 {
     mangled_assert("?rewind@NISDebug@@SGXXZ");
     todo("implement");
-    _sub_54D46F();
 }
 
-_extern void _sub_54D484();
 void NISDebug::rewindLots() // 0x54D484
 {
     mangled_assert("?rewindLots@NISDebug@@SGXXZ");
     todo("implement");
-    _sub_54D484();
 }
 
-_extern void _sub_54D06C();
 void NISDebug::cameraRelease() // 0x54D06C
 {
     mangled_assert("?cameraRelease@NISDebug@@SGXXZ");
     todo("implement");
-    _sub_54D06C();
 }
 
-_extern void _sub_54D3A9();
 void NISDebug::pauseToggle() // 0x54D3A9
 {
     mangled_assert("?pauseToggle@NISDebug@@SGXXZ");
     todo("implement");
-    _sub_54D3A9();
 }
 
-_extern void _sub_54D521();
 void NISDebug::showInfo() // 0x54D521
 {
     mangled_assert("?showInfo@NISDebug@@SGXXZ");
     todo("implement");
-    _sub_54D521();
 }
 
-_extern void _sub_54D368(unsigned __int32);
 void NISDebug::keyPress(unsigned __int32 key) // 0x54D368
 {
     mangled_assert("?keyPress@NISDebug@@SGXI@Z");
     todo("implement");
-    _sub_54D368(key);
 }
 
 /* ---------- private code */
 
-_extern void _sub_54D08E(vector4 const &);
 _static void drawCamera(vector4 const &col) // 0x54D08E
 {
     mangled_assert("drawCamera");
     todo("implement");
-    _sub_54D08E(col);
 }
 #endif

@@ -137,21 +137,16 @@
 
 /* ---------- public code */
 
-_extern void _sub_5359D0(OneShotState *const);
 void OneShotState::Enter() // 0x5359D0
 {
     mangled_assert("?Enter@OneShotState@@QAEXXZ");
     todo("implement");
-    _sub_5359D0(this);
 }
 
-_extern bool _sub_5359D9(OneShotState *const);
 bool OneShotState::Update() // 0x5359D9
 {
     mangled_assert("?Update@OneShotState@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_5359D9(this);
-    return __result;
 }
 
 /* ---------- private code */

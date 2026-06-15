@@ -24,12 +24,10 @@
 
 /* ---------- public code */
 
-_extern void _sub_1008E280(Renderable *const);
 Renderable::~Renderable() // 0x1008E280
 {
     mangled_assert("??1Renderable@@UAE@XZ");
     todo("implement");
-    _sub_1008E280(this);
 }
 
 /* ---------- private code */

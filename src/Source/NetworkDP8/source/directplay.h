@@ -49,20 +49,16 @@ static_assert(sizeof(Net::DirectPlay) == 12, "Invalid Net::DirectPlay size");
 
 /* ---------- public code */
 
-_extern _sub_6D63B3(Net::DirectPlay::Context *const, Net::DirectPlay *);
 _inline Net::DirectPlay::Context::Context(Net::DirectPlay *) // 0x6D63B3
 {
     mangled_assert("??0Context@DirectPlay@Net@@QAE@PAV12@@Z");
     todo("implement");
-    _sub_6D63B3(this, arg);
 }
 
-_extern void _sub_6D658D(Net::DirectPlay::ExitHelper *const);
 _inline Net::DirectPlay::ExitHelper::~ExitHelper() // 0x6D658D
 {
     mangled_assert("??1ExitHelper@DirectPlay@Net@@QAE@XZ");
     todo("implement");
-    _sub_6D658D(this);
 }
 
 /* ---------- private code */

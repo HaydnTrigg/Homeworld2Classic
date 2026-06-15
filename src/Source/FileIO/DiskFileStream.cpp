@@ -166,144 +166,101 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_10009D90(DiskFileStream *const);
 DiskFileStream::DiskFileStream() // 0x10009D90
 {
     mangled_assert("??0DiskFileStream@@QAE@XZ");
     todo("implement");
-    _sub_10009D90(this);
 }
 
-_extern void _sub_10009DB6(DiskFileStream *const);
 DiskFileStream::~DiskFileStream() // 0x10009DB6
 {
     mangled_assert("??1DiskFileStream@@UAE@XZ");
     todo("implement");
-    _sub_10009DB6(this);
 }
 
-_extern DiskFileStream *_sub_1000A054(char const *, StreamMode);
 DiskFileStream *DiskFileStream::TryOpen(char const *fname, StreamMode openMode) // 0x1000A054
 {
     mangled_assert("?TryOpen@DiskFileStream@@SGPAV1@PBDW4StreamMode@@@Z");
     todo("implement");
-    DiskFileStream * __result = _sub_1000A054(fname, openMode);
-    return __result;
 }
 
-_extern long long _sub_10009EEE(char const *);
 long long DiskFileStream::GetFileDate(char const *fname) // 0x10009EEE
 {
     mangled_assert("?GetFileDate@DiskFileStream@@SG_JPBD@Z");
     todo("implement");
-    long long __result = _sub_10009EEE(fname);
-    return __result;
 }
 
-_extern long _sub_10009F3C(DiskFileStream *const, char const *, StreamMode);
 long DiskFileStream::Open(char const *, StreamMode) // 0x10009F3C
 {
     mangled_assert("?Open@DiskFileStream@@QAEJPBDW4StreamMode@@@Z");
     todo("implement");
-    long __result = _sub_10009F3C(this, arg, arg);
-    return __result;
 }
 
-_extern long _sub_10009E56(DiskFileStream *const, unsigned long, StreamMode, bool);
 long DiskFileStream::Attach(unsigned long, StreamMode, bool) // 0x10009E56
 {
     mangled_assert("?Attach@DiskFileStream@@QAEJKW4StreamMode@@_N@Z");
     todo("implement");
-    long __result = _sub_10009E56(this, arg, arg, arg);
-    return __result;
 }
 
-_extern void _sub_10009ECB(DiskFileStream *const);
 void DiskFileStream::CloseIfOpen() // 0x10009ECB
 {
     mangled_assert("?CloseIfOpen@DiskFileStream@@AAEXXZ");
     todo("implement");
-    _sub_10009ECB(this);
 }
 
-_extern void _sub_10009FF0(DiskFileStream *const);
 void DiskFileStream::Reset() // 0x10009FF0
 {
     mangled_assert("?Reset@DiskFileStream@@AAEXXZ");
     todo("implement");
-    _sub_10009FF0(this);
 }
 
-_extern long _sub_10009EA5(DiskFileStream *const);
 long DiskFileStream::Close() // 0x10009EA5
 {
     mangled_assert("?Close@DiskFileStream@@QAEJXZ");
     todo("implement");
-    long __result = _sub_10009EA5(this);
-    return __result;
 }
 
-_extern unsigned long _sub_10009FBA(DiskFileStream *const, void *, unsigned long);
 unsigned long DiskFileStream::Read(void *, unsigned long) // 0x10009FBA
 {
     mangled_assert("?Read@DiskFileStream@@UAEKPAXK@Z");
     todo("implement");
-    unsigned long __result = _sub_10009FBA(this, arg, arg);
-    return __result;
 }
 
-_extern unsigned long _sub_1000A0BF(DiskFileStream *const, void const *, unsigned long);
 unsigned long DiskFileStream::Write(void const *, unsigned long) // 0x1000A0BF
 {
     mangled_assert("?Write@DiskFileStream@@UAEKPBXK@Z");
     todo("implement");
-    unsigned long __result = _sub_1000A0BF(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_10009EED(DiskFileStream *const);
 void DiskFileStream::Flush() // 0x10009EED
 {
     mangled_assert("?Flush@DiskFileStream@@UAEXXZ");
     todo("implement");
-    _sub_10009EED(this);
 }
 
-_extern unsigned long _sub_10009F17(DiskFileStream *const);
 unsigned long DiskFileStream::GetLen() // 0x10009F17
 {
     mangled_assert("?GetLen@DiskFileStream@@UAEKXZ");
     todo("implement");
-    unsigned long __result = _sub_10009F17(this);
-    return __result;
 }
 
-_extern unsigned long _sub_10009F29(DiskFileStream *const);
 unsigned long DiskFileStream::GetPos() // 0x10009F29
 {
     mangled_assert("?GetPos@DiskFileStream@@UAEKXZ");
     todo("implement");
-    unsigned long __result = _sub_10009F29(this);
-    return __result;
 }
 
-_extern unsigned long _sub_1000A01D(DiskFileStream *const, unsigned long);
 unsigned long DiskFileStream::SetPos(unsigned long) // 0x1000A01D
 {
     mangled_assert("?SetPos@DiskFileStream@@UAEKK@Z");
     todo("implement");
-    unsigned long __result = _sub_1000A01D(this, arg);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern unsigned long _sub_10009F90(char const *, StreamMode);
 _static unsigned long OpenPlatFile(char const *fname, StreamMode openMode) // 0x10009F90
 {
     mangled_assert("OpenPlatFile");
     todo("implement");
-    unsigned long __result = _sub_10009F90(fname, openMode);
-    return __result;
 }
 #endif

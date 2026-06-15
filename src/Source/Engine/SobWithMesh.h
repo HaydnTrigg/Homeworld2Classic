@@ -249,204 +249,142 @@ static_assert(sizeof(SobWithMesh) == 588, "Invalid SobWithMesh size");
 
 /* ---------- public code */
 
-_extern float _sub_4B0B5C(SobWithMesh *const);
 _inline float SobWithMesh::getMainEngineUsage() // 0x4B0B5C
 {
     mangled_assert("?getMainEngineUsage@SobWithMesh@@UAEMXZ");
     todo("implement");
-    float __result = _sub_4B0B5C(this);
-    return __result;
 }
 
-_extern NavLights *_sub_48C870(SobWithMesh *const);
 _inline NavLights *SobWithMesh::getNavLights() // 0x48C870
 {
     mangled_assert("?getNavLights@SobWithMesh@@QAEPAVNavLights@@XZ");
     todo("implement");
-    NavLights * __result = _sub_48C870(this);
-    return __result;
 }
 
-_extern HierarchyDynamic *_sub_44972F(SobWithMesh *const);
 _inline HierarchyDynamic *SobWithMesh::getHierarchy() // 0x44972F
 {
     mangled_assert("?getHierarchy@SobWithMesh@@QAEPAVHierarchyDynamic@@XZ");
     todo("implement");
-    HierarchyDynamic * __result = _sub_44972F(this);
-    return __result;
 }
 
-_extern HierarchyDynamic const *_sub_64FBB2(SobWithMesh const *const);
 _inline HierarchyDynamic const *SobWithMesh::getHierarchy() const // 0x64FBB2
 {
     mangled_assert("?getHierarchy@SobWithMesh@@QBEPBVHierarchyDynamic@@XZ");
     todo("implement");
-    HierarchyDynamic const * __result = _sub_64FBB2(this);
-    return __result;
 }
 
-_extern MadState *_sub_485109(SobWithMesh *const);
 _inline MadState *SobWithMesh::getMadState() // 0x485109
 {
     mangled_assert("?getMadState@SobWithMesh@@QAEPAVMadState@@XZ");
     todo("implement");
-    MadState * __result = _sub_485109(this);
-    return __result;
 }
 
-_extern bool _sub_4BFA58(SobWithMesh *const);
 _inline bool SobWithMesh::isDeterministic() // 0x4BFA58
 {
     mangled_assert("?isDeterministic@SobWithMesh@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4BFA58(this);
-    return __result;
 }
 
-_extern char const *_sub_4BFE99(SobWithMesh *const);
 _inline char const *SobWithMesh::saveToken() // 0x4BFE99
 {
     mangled_assert("?saveToken@SobWithMesh@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4BFE99(this);
-    return __result;
 }
 
-_extern Player *_sub_441BDD(SobWithMesh *const);
 _inline Player *SobWithMesh::getPlayerOwner() // 0x441BDD
 {
     mangled_assert("?getPlayerOwner@SobWithMesh@@QAEPAVPlayer@@XZ");
     todo("implement");
-    Player * __result = _sub_441BDD(this);
-    return __result;
 }
 
-_extern Player const *_sub_48468F(SobWithMesh const *const);
 _inline Player const *SobWithMesh::getPlayerOwner() const // 0x48468F
 {
     mangled_assert("?getPlayerOwner@SobWithMesh@@QBEPBVPlayer@@XZ");
     todo("implement");
-    Player const * __result = _sub_48468F(this);
-    return __result;
 }
 
-_extern void _sub_488A4E(SobWithMesh *const, Player *);
 _inline void SobWithMesh::setPlayerOwner(Player *) // 0x488A4E
 {
     mangled_assert("?setPlayerOwner@SobWithMesh@@UAEXPAVPlayer@@@Z");
     todo("implement");
-    _sub_488A4E(this, arg);
 }
 
-_extern void _sub_487417(SobWithMesh *const, AnimatorMad *, AnimatorMad::CallbackEvent);
 _inline void SobWithMesh::animationFinished(AnimatorMad *, AnimatorMad::CallbackEvent) // 0x487417
 {
     mangled_assert("?animationFinished@SobWithMesh@@UAEXPAVAnimatorMad@@W4CallbackEvent@2@@Z");
     todo("implement");
-    _sub_487417(this, arg, arg);
 }
 
-_extern void _sub_557815(SobWithMesh *const, unsigned __int32);
 _inline void SobWithMesh::setOrigTeamColourHandle(unsigned __int32) // 0x557815
 {
     mangled_assert("?setOrigTeamColourHandle@SobWithMesh@@QAEXI@Z");
     todo("implement");
-    _sub_557815(this, arg);
 }
 
-_extern unsigned __int32 _sub_6159B8(SobWithMesh const *const);
 _inline unsigned __int32 SobWithMesh::getOrigTeamColourHandle() const // 0x6159B8
 {
     mangled_assert("?getOrigTeamColourHandle@SobWithMesh@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_6159B8(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_487F6E(SobWithMesh const *const);
 _inline unsigned __int32 SobWithMesh::getTeamColourCRC() const // 0x487F6E
 {
     mangled_assert("?getTeamColourCRC@SobWithMesh@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_487F6E(this);
-    return __result;
 }
 
-_extern void _sub_488A92(SobWithMesh *const, unsigned __int32);
 _inline void SobWithMesh::setTeamColourCRC(unsigned __int32) // 0x488A92
 {
     mangled_assert("?setTeamColourCRC@SobWithMesh@@QAEXI@Z");
     todo("implement");
-    _sub_488A92(this, arg);
 }
 
-_extern SobWithMeshStatic const *_sub_441C93(SobWithMesh const *const);
 _inline SobWithMeshStatic const *SobWithMesh::getStatic() const // 0x441C93
 {
     mangled_assert("?getStatic@SobWithMesh@@QBEPBVSobWithMeshStatic@@XZ");
     todo("implement");
-    SobWithMeshStatic const * __result = _sub_441C93(this);
-    return __result;
 }
 
-_extern void _sub_488AF3(SobWithMesh *const);
 _inline void SobWithMesh::spawnDebris() // 0x488AF3
 {
     mangled_assert("?spawnDebris@SobWithMesh@@UAEXXZ");
     todo("implement");
-    _sub_488AF3(this);
 }
 
-_extern void _sub_488AF4(SobWithMesh *const);
 _inline void SobWithMesh::spawnSkeleton() // 0x488AF4
 {
     mangled_assert("?spawnSkeleton@SobWithMesh@@UAEXXZ");
     todo("implement");
-    _sub_488AF4(this);
 }
 
-_extern SelTarg *_sub_487F30(SobWithMesh const *const);
 _inline SelTarg *SobWithMesh::getSelTarg() const // 0x487F30
 {
     mangled_assert("?getSelTarg@SobWithMesh@@UBEPAVSelTarg@@XZ");
     todo("implement");
-    SelTarg * __result = _sub_487F30(this);
-    return __result;
 }
 
-_extern MetaSelTarg *_sub_487EFA(SobWithMesh const *const);
 _inline MetaSelTarg *SobWithMesh::getMetaSelTarg() const // 0x487EFA
 {
     mangled_assert("?getMetaSelTarg@SobWithMesh@@UBEPAVMetaSelTarg@@XZ");
     todo("implement");
-    MetaSelTarg * __result = _sub_487EFA(this);
-    return __result;
 }
 
-_extern void _sub_608C19(SobWithMesh *const, MetaSelTarg *);
 _inline void SobWithMesh::setMetaSelTarg(MetaSelTarg *) // 0x608C19
 {
     mangled_assert("?setMetaSelTarg@SobWithMesh@@QAEXPAVMetaSelTarg@@@Z");
     todo("implement");
-    _sub_608C19(this, arg);
 }
 
-_extern LatchManager const *_sub_69BFD8(SobWithMesh const *const);
 _inline LatchManager const *SobWithMesh::getLatchManager() const // 0x69BFD8
 {
     mangled_assert("?getLatchManager@SobWithMesh@@QBEPBVLatchManager@@XZ");
     todo("implement");
-    LatchManager const * __result = _sub_69BFD8(this);
-    return __result;
 }
 
-_extern EngineTrailSystem *_sub_441BAB(SobWithMesh *const);
 _inline EngineTrailSystem *SobWithMesh::getEngineTrailSystem() // 0x441BAB
 {
     mangled_assert("?getEngineTrailSystem@SobWithMesh@@QAEPAVEngineTrailSystem@@XZ");
     todo("implement");
-    EngineTrailSystem * __result = _sub_441BAB(this);
-    return __result;
 }
 
 /* ---------- private code */

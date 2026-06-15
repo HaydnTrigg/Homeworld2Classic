@@ -167,99 +167,70 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_100065A6(ByteStream *const);
 ByteStream::ByteStream() // 0x100065A6
 {
     mangled_assert("??0ByteStream@@QAE@XZ");
     todo("implement");
-    _sub_100065A6(this);
 }
 
-_extern void _sub_100065B7(ByteStream *const);
 ByteStream::~ByteStream() // 0x100065B7
 {
     mangled_assert("??1ByteStream@@UAE@XZ");
     todo("implement");
-    _sub_100065B7(this);
 }
 
-_extern void _sub_1000681D(ByteStream *const, StreamMode);
 void ByteStream::SetStreamMode(StreamMode) // 0x1000681D
 {
     mangled_assert("?SetStreamMode@ByteStream@@MAEXW4StreamMode@@@Z");
     todo("implement");
-    _sub_1000681D(this, arg);
 }
 
-_extern void _sub_10006827(ByteStream *const, char const *);
 void ByteStream::SetStreamName(char const *) // 0x10006827
 {
     mangled_assert("?SetStreamName@ByteStream@@UAEXPBD@Z");
     todo("implement");
-    _sub_10006827(this, arg);
 }
 
-_extern char const *_sub_10006819(ByteStream const *const);
 char const *ByteStream::GetStreamName() const // 0x10006819
 {
     mangled_assert("?GetStreamName@ByteStream@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_10006819(this);
-    return __result;
 }
 
-_extern bool _sub_100066E7(ByteStream &, char const *);
 bool BSWriteString(ByteStream &stream, char const *str) // 0x100066E7
 {
     mangled_assert("?BSWriteString@@YG_NAAVByteStream@@PBD@Z");
     todo("implement");
-    bool __result = _sub_100066E7(stream, str);
-    return __result;
 }
 
-_extern bool _sub_1000661C(ByteStream &, char *, unsigned __int32);
 bool BSReadString(ByteStream &stream, char *str, unsigned __int32 maxlen) // 0x1000661C
 {
     mangled_assert("?BSReadString@@YG_NAAVByteStream@@PADI@Z");
     todo("implement");
-    bool __result = _sub_1000661C(stream, str, maxlen);
-    return __result;
 }
 
-_extern bool _sub_10006727(ByteStream &, wchar_t const *);
 bool BSWriteString(ByteStream &stream, wchar_t const *str) // 0x10006727
 {
     mangled_assert("?BSWriteString@@YG_NAAVByteStream@@PB_W@Z");
     todo("implement");
-    bool __result = _sub_10006727(stream, str);
-    return __result;
 }
 
-_extern bool _sub_10006679(ByteStream &, wchar_t *, unsigned __int32);
 bool BSReadString(ByteStream &stream, wchar_t *str, unsigned __int32 maxlen) // 0x10006679
 {
     mangled_assert("?BSReadString@@YG_NAAVByteStream@@PA_WI@Z");
     todo("implement");
-    bool __result = _sub_10006679(stream, str, maxlen);
-    return __result;
 }
 
-_extern bool _sub_1000676F(ByteStream &, char const *, bool);
 bool BSWriteText(ByteStream &stream, char const *s, bool addNewline) // 0x1000676F
 {
     mangled_assert("?BSWriteText@@YG_NAAVByteStream@@PBD_N@Z");
     todo("implement");
-    bool __result = _sub_1000676F(stream, s, addNewline);
-    return __result;
 }
 
-_extern bool _sub_100065D0(ByteStream &, char const *, ...);
 bool BSPrintf(ByteStream &file, char const *format, ...) // 0x100065D0
 {
     mangled_assert("?BSPrintf@@YA_NAAVByteStream@@PBDZZ");
     todo("implement");
-    bool __result = _sub_100065D0(file, format, chbuf);
-    return __result;
 }
 
 /* ---------- private code */

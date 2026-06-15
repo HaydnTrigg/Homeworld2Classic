@@ -289,210 +289,142 @@ static_assert(sizeof(FXManager) == 4, "Invalid FXManager size");
 
 /* ---------- public code */
 
-_extern char const *_sub_6DD51D(FXManager::Type const *const);
 _inline char const *FXManager::Type::Name() const // 0x6DD51D
 {
     mangled_assert("?Name@Type@FXManager@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6DD51D(this);
-    return __result;
 }
 
-_extern __int32 _sub_6DE389(FXManager::Type const *const);
 _inline __int32 FXManager::Type::SortOrder() const // 0x6DE389
 {
     mangled_assert("?SortOrder@Type@FXManager@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_6DE389(this);
-    return __result;
 }
 
-_extern float _sub_519412(FXManager::Type const *const);
 _inline float FXManager::Type::GetSizeEstimate() const // 0x519412
 {
     mangled_assert("?GetSizeEstimate@Type@FXManager@@QBEMXZ");
     todo("implement");
-    float __result = _sub_519412(this);
-    return __result;
 }
 
-_extern FXManager::Type const *_sub_6DCE30(FXManager::Object const *const);
 _inline FXManager::Type const *FXManager::Object::GetType() const // 0x6DCE30
 {
     mangled_assert("?GetType@Object@FXManager@@QBEPBVType@2@XZ");
     todo("implement");
-    FXManager::Type const * __result = _sub_6DCE30(this);
-    return __result;
 }
 
-_extern FXManager::Handle const &_sub_6E6304(FXManager::Object const *const);
 _inline FXManager::Handle const &FXManager::Object::GetSelf() const // 0x6E6304
 {
     mangled_assert("?GetSelf@Object@FXManager@@QBEABUHandle@2@XZ");
     todo("implement");
-    FXManager::Handle const & __result = _sub_6E6304(this);
-    return __result;
 }
 
-_extern matrix4 const &_sub_6DCE2C(FXManager::Object const *const);
 _inline matrix4 const &FXManager::Object::GetTransform() const // 0x6DCE2C
 {
     mangled_assert("?GetTransform@Object@FXManager@@QBEABVmatrix4@@XZ");
     todo("implement");
-    matrix4 const & __result = _sub_6DCE2C(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_6E9A8A(FXManager::Object const *const);
 _inline vector3 const &FXManager::Object::GetVelocity() const // 0x6E9A8A
 {
     mangled_assert("?GetVelocity@Object@FXManager@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_6E9A8A(this);
-    return __result;
 }
 
-_extern float _sub_6DCE28(FXManager::Object const *const);
 _inline float FXManager::Object::GetScale() const // 0x6DCE28
 {
     mangled_assert("?GetScale@Object@FXManager@@QBEMXZ");
     todo("implement");
-    float __result = _sub_6DCE28(this);
-    return __result;
 }
 
-_extern float _sub_6DCDF7(FXManager::Object const *const);
 _inline float FXManager::Object::GetLength() const // 0x6DCDF7
 {
     mangled_assert("?GetLength@Object@FXManager@@QBEMXZ");
     todo("implement");
-    float __result = _sub_6DCDF7(this);
-    return __result;
 }
 
-_extern bool _sub_6E6412(FXManager::Object const *const);
 _inline bool FXManager::Object::GetVisible() const // 0x6E6412
 {
     mangled_assert("?GetVisible@Object@FXManager@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_6E6412(this);
-    return __result;
 }
 
-_extern float _sub_6DCDE4(FXManager::Object const *const);
 _inline float FXManager::Object::GetCullingRadius() const // 0x6DCDE4
 {
     mangled_assert("?GetCullingRadius@Object@FXManager@@QBEMXZ");
     todo("implement");
-    float __result = _sub_6DCDE4(this);
-    return __result;
 }
 
-_extern bool _sub_6E630C(FXManager::Object const *const);
 _inline bool FXManager::Object::GetStop() const // 0x6E630C
 {
     mangled_assert("?GetStop@Object@FXManager@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_6E630C(this);
-    return __result;
 }
 
-_extern float _sub_6DCDF1(FXManager::Object const *const);
 _inline float FXManager::Object::GetGravwellStrength() const // 0x6DCDF1
 {
     mangled_assert("?GetGravwellStrength@Object@FXManager@@UBEMXZ");
     todo("implement");
-    float __result = _sub_6DCDF1(this);
-    return __result;
 }
 
-_extern bool _sub_6DCE0D(FXManager::Object const *const, vector3 &);
 _inline bool FXManager::Object::GetOffset(vector3 &) const // 0x6DCE0D
 {
     mangled_assert("?GetOffset@Object@FXManager@@UBE_NAAVvector3@@@Z");
     todo("implement");
-    bool __result = _sub_6DCE0D(this, arg);
-    return __result;
 }
 
-_extern bool _sub_6DCDDF(FXManager::Object const *const, vector4 &);
 _inline bool FXManager::Object::GetColour(vector4 &) const // 0x6DCDDF
 {
     mangled_assert("?GetColour@Object@FXManager@@UBE_NAAVvector4@@@Z");
     todo("implement");
-    bool __result = _sub_6DCDDF(this, arg);
-    return __result;
 }
 
-_extern float _sub_6DCDF4(FXManager::Object const *const);
 _inline float FXManager::Object::GetHeight() const // 0x6DCDF4
 {
     mangled_assert("?GetHeight@Object@FXManager@@UBEMXZ");
     todo("implement");
-    float __result = _sub_6DCDF4(this);
-    return __result;
 }
 
-_extern bool _sub_6DE2A7(FXManager::Object *const, float);
 _inline bool FXManager::Object::SetHeight(float) // 0x6DE2A7
 {
     mangled_assert("?SetHeight@Object@FXManager@@UAE_NM@Z");
     todo("implement");
-    bool __result = _sub_6DE2A7(this, arg);
-    return __result;
 }
 
-_extern bool _sub_6DE2E7(FXManager::Object *const, vector3 const &);
 _inline bool FXManager::Object::SetOffset(vector3 const &) // 0x6DE2E7
 {
     mangled_assert("?SetOffset@Object@FXManager@@UAE_NABVvector3@@@Z");
     todo("implement");
-    bool __result = _sub_6DE2E7(this, arg);
-    return __result;
 }
 
-_extern bool _sub_6DE280(FXManager::Object *const, float);
 _inline bool FXManager::Object::SetFadeT(float) // 0x6DE280
 {
     mangled_assert("?SetFadeT@Object@FXManager@@UAE_NM@Z");
     todo("implement");
-    bool __result = _sub_6DE280(this, arg);
-    return __result;
 }
 
-_extern FXManager::Handle _sub_6DCE12(FXManager::Object const *const);
 _inline FXManager::Handle FXManager::Object::GetParent() const // 0x6DCE12
 {
     mangled_assert("?GetParent@Object@FXManager@@QBE?AUHandle@2@XZ");
     todo("implement");
-    FXManager::Handle __result = _sub_6DCE12(this);
-    return __result;
 }
 
-_extern _sub_48558D(FXManager::Handle *const);
 _inline FXManager::Handle::Handle() // 0x48558D
 {
     mangled_assert("??0Handle@FXManager@@QAE@XZ");
     todo("implement");
-    _sub_48558D(this);
 }
 
-_extern bool _sub_485643(FXManager::Handle const *const, FXManager::Handle const &);
 _inline bool FXManager::Handle::operator==(FXManager::Handle const &) const // 0x485643
 {
     mangled_assert("??8Handle@FXManager@@QBE_NABU01@@Z");
     todo("implement");
-    bool __result = _sub_485643(this, arg);
-    return __result;
 }
 
-_extern bool _sub_48565F(FXManager::Handle const *const, FXManager::Handle const &);
 _inline bool FXManager::Handle::operator!=(FXManager::Handle const &) const // 0x48565F
 {
     mangled_assert("??9Handle@FXManager@@QBE_NABU01@@Z");
     todo("implement");
-    bool __result = _sub_48565F(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

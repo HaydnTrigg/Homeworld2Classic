@@ -66,22 +66,16 @@ static_assert(sizeof(ShaderInstance) == 80, "Invalid ShaderInstance size");
 
 /* ---------- public code */
 
-_extern ShaderParam *_sub_10085860(ShaderInstance *const, __int32);
 _inline ShaderParam *ShaderInstance::getParam(__int32) // 0x10085860
 {
     mangled_assert("?getParam@ShaderInstance@@QAEPAVShaderParam@@H@Z");
     todo("implement");
-    ShaderParam * __result = _sub_10085860(this, arg);
-    return __result;
 }
 
-_extern std::vector<ShaderParam *,std::allocator<ShaderParam *> > &_sub_10085880(ShaderInstance *const);
 _inline std::vector<ShaderParam *,std::allocator<ShaderParam *> > &ShaderInstance::getShaderParams() // 0x10085880
 {
     mangled_assert("?getShaderParams@ShaderInstance@@QAEAAV?$vector@PAVShaderParam@@V?$allocator@PAVShaderParam@@@std@@@std@@XZ");
     todo("implement");
-    std::vector<ShaderParam *,std::allocator<ShaderParam *> > & __result = _sub_10085880(this);
-    return __result;
 }
 
 /* ---------- private code */

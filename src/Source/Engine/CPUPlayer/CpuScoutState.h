@@ -45,55 +45,40 @@ static_assert(sizeof(ScoutState) == 40, "Invalid ScoutState size");
 
 /* ---------- public code */
 
-_extern _sub_53FFC1(ScoutState *const, CpuSquadGroup &);
 _inline ScoutState::ScoutState(CpuSquadGroup &) // 0x53FFC1
 {
     mangled_assert("??0ScoutState@@QAE@AAVCpuSquadGroup@@@Z");
     todo("implement");
-    _sub_53FFC1(this, arg);
 }
 
-_extern void _sub_540090(ScoutState *const);
 _inline ScoutState::~ScoutState() // 0x540090
 {
     mangled_assert("??1ScoutState@@QAE@XZ");
     todo("implement");
-    _sub_540090(this);
 }
 
-_extern unsigned __int32 _sub_5400C3(ScoutState const *const);
 _inline unsigned __int32 ScoutState::GetType() const // 0x5400C3
 {
     mangled_assert("?GetType@ScoutState@@UBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_5400C3(this);
-    return __result;
 }
 
-_extern void _sub_5400F8(ScoutState *const, SquadronList &);
 _inline void ScoutState::ReIssue(SquadronList &) // 0x5400F8
 {
     mangled_assert("?ReIssue@ScoutState@@UAEXAAVSquadronList@@@Z");
     todo("implement");
-    _sub_5400F8(this, arg);
 }
 
-_extern unsigned __int32 _sub_5333AC(ScoutState const *const);
 _inline unsigned __int32 ScoutState::getAttackTargetId() const // 0x5333AC
 {
     mangled_assert("?getAttackTargetId@ScoutState@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_5333AC(this);
-    return __result;
 }
 
-_extern __int32 _sub_5401DC(ScoutState const *const);
 _inline __int32 ScoutState::getSubState() const // 0x5401DC
 {
     mangled_assert("?getSubState@ScoutState@@UBEHXZ");
     todo("implement");
-    __int32 __result = _sub_5401DC(this);
-    return __result;
 }
 
 /* ---------- private code */

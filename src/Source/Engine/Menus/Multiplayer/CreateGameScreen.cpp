@@ -445,185 +445,138 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_5B28D0(UI::CreateGameScreen *const, char const *);
 UI::CreateGameScreen::CreateGameScreen(char const *) // 0x5B28D0
 {
     mangled_assert("??0CreateGameScreen@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_5B28D0(this, arg);
 }
 
-_extern _sub_5B2984(UI::CreateGameScreen::Data *const);
 _inline UI::CreateGameScreen::Data::Data() // 0x5B2984
 {
     mangled_assert("??0Data@CreateGameScreen@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B2984(this);
 }
 
-_extern void _sub_5B29BA(UI::CreateGameScreen *const);
 UI::CreateGameScreen::~CreateGameScreen() // 0x5B29BA
 {
     mangled_assert("??1CreateGameScreen@UI@@UAE@XZ");
     todo("implement");
-    _sub_5B29BA(this);
 }
 
-_extern void _sub_5B29EC(UI::CreateGameScreen::Data *const);
 _inline UI::CreateGameScreen::Data::~Data() // 0x5B29EC
 {
     mangled_assert("??1Data@CreateGameScreen@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B29EC(this);
 }
 
-_extern void _sub_5B2D45(UI::CreateGameScreen *const, LuaConfig &);
 void UI::CreateGameScreen::OnLoad(LuaConfig &) // 0x5B2D45
 {
     mangled_assert("?OnLoad@CreateGameScreen@UI@@MAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_5B2D45(this, arg);
 }
 
-_extern void _sub_5B2E5D(UI::CreateGameScreen *const);
 void UI::CreateGameScreen::OnPostLoad() // 0x5B2E5D
 {
     mangled_assert("?OnPostLoad@CreateGameScreen@UI@@MAEXXZ");
     todo("implement");
-    _sub_5B2E5D(this);
 }
 
-_extern void _sub_5B2C75(UI::CreateGameScreen *const, bool);
 void UI::CreateGameScreen::OnActivate(bool) // 0x5B2C75
 {
     mangled_assert("?OnActivate@CreateGameScreen@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_5B2C75(this, arg);
 }
 
-_extern void _sub_5B30CF(UI::CreateGameScreen *const, wchar_t const *, void (*)(UI::InterfaceElement *), char const *);
 void UI::CreateGameScreen::ShowCreate(wchar_t const *, void (*)(UI::InterfaceElement *), char const *) // 0x5B30CF
 {
     mangled_assert("?ShowCreate@CreateGameScreen@UI@@QAEXPB_WP6GXPAVInterfaceElement@2@@ZPBD@Z");
     todo("implement");
-    _sub_5B30CF(this, arg, arg, arg);
 }
 
-_extern void _sub_5B31A1(UI::CreateGameScreen *const, wchar_t const *, wchar_t const *, void (*)(UI::InterfaceElement *), char const *);
 void UI::CreateGameScreen::ShowJoin(wchar_t const *, wchar_t const *, void (*)(UI::InterfaceElement *), char const *) // 0x5B31A1
 {
     mangled_assert("?ShowJoin@CreateGameScreen@UI@@QAEXPB_W0P6GXPAVInterfaceElement@2@@ZPBD@Z");
     todo("implement");
-    _sub_5B31A1(this, arg, arg, arg, arg);
 }
 
-_extern void _sub_5B2B0E(UI::CreateGameScreen *const, void (*)(UI::InterfaceElement *));
 void UI::CreateGameScreen::ConnectOnAccept(void (*)(UI::InterfaceElement *)) // 0x5B2B0E
 {
     mangled_assert("?ConnectOnAccept@CreateGameScreen@UI@@QAEXP6GXPAVInterfaceElement@2@@Z@Z");
     todo("implement");
-    _sub_5B2B0E(this, arg);
 }
 
-_extern void _sub_5B2B2D(UI::CreateGameScreen *const);
 void UI::CreateGameScreen::DisconnectSlots() // 0x5B2B2D
 {
     mangled_assert("?DisconnectSlots@CreateGameScreen@UI@@QAEXXZ");
     todo("implement");
-    _sub_5B2B2D(this);
 }
 
-_extern void _sub_5B3099(UI::CreateGameScreen *const, wchar_t const *);
 void UI::CreateGameScreen::SetGameName(wchar_t const *) // 0x5B3099
 {
     mangled_assert("?SetGameName@CreateGameScreen@UI@@QAEXPB_W@Z");
     todo("implement");
-    _sub_5B3099(this, arg);
 }
 
-_extern void _sub_5B30BC(UI::CreateGameScreen *const, bool);
 void UI::CreateGameScreen::SetGameTypeVisible(bool) // 0x5B30BC
 {
     mangled_assert("?SetGameTypeVisible@CreateGameScreen@UI@@AAEX_N@Z");
     todo("implement");
-    _sub_5B30BC(this, arg);
 }
 
-_extern wchar_t const *_sub_5B2B45(UI::CreateGameScreen const *const);
 wchar_t const *UI::CreateGameScreen::GetGameName() const // 0x5B2B45
 {
     mangled_assert("?GetGameName@CreateGameScreen@UI@@QBEPB_WXZ");
     todo("implement");
-    wchar_t const * __result = _sub_5B2B45(this);
-    return __result;
 }
 
-_extern wchar_t const *_sub_5B2BA5(UI::CreateGameScreen const *const);
 wchar_t const *UI::CreateGameScreen::GetPassword() const // 0x5B2BA5
 {
     mangled_assert("?GetPassword@CreateGameScreen@UI@@QBEPB_WXZ");
     todo("implement");
-    wchar_t const * __result = _sub_5B2BA5(this);
-    return __result;
 }
 
-_extern wchar_t const *_sub_5B2B5C(UI::CreateGameScreen const *const);
 wchar_t const *UI::CreateGameScreen::GetGameRules() const // 0x5B2B5C
 {
     mangled_assert("?GetGameRules@CreateGameScreen@UI@@QBEPB_WXZ");
     todo("implement");
-    wchar_t const * __result = _sub_5B2B5C(this);
-    return __result;
 }
 
-_extern void _sub_5B3339(UI::CreateGameScreen *const, unsigned __int32);
 void UI::CreateGameScreen::Update(unsigned __int32) // 0x5B3339
 {
     mangled_assert("?Update@CreateGameScreen@UI@@UAEXI@Z");
     todo("implement");
-    _sub_5B3339(this, arg);
 }
 
-_extern void _sub_5B2A50(UI::CreateGameScreen *const, MD5Hash const &);
 void UI::CreateGameScreen::AddGameRules(MD5Hash const &) // 0x5B2A50
 {
     mangled_assert("?AddGameRules@CreateGameScreen@UI@@AAEXABVMD5Hash@@@Z");
     todo("implement");
-    _sub_5B2A50(this, arg);
 }
 
-_extern void _sub_5B2FF7(UI::CreateGameScreen *const);
 void UI::CreateGameScreen::PopulateGameRules() // 0x5B2FF7
 {
     mangled_assert("?PopulateGameRules@CreateGameScreen@UI@@AAEXXZ");
     todo("implement");
-    _sub_5B2FF7(this);
 }
 
-_extern void _sub_5B2BC3(UI::InterfaceElement *);
 void UI::CreateGameScreen::OnAcceptClicked(UI::InterfaceElement *sender) // 0x5B2BC3
 {
     mangled_assert("?OnAcceptClicked@CreateGameScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B2BC3(sender);
 }
 
-_extern void _sub_5B2C9F(UI::InterfaceElement *);
 void UI::CreateGameScreen::OnCancelClicked(UI::InterfaceElement *sender) // 0x5B2C9F
 {
     mangled_assert("?OnCancelClicked@CreateGameScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B2C9F(sender);
 }
 
-_extern void _sub_5B2CF7(UI::InterfaceElement *);
 void UI::CreateGameScreen::OnGameTypeInfoClicked(UI::InterfaceElement *sender) // 0x5B2CF7
 {
     mangled_assert("?OnGameTypeInfoClicked@CreateGameScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B2CF7(sender);
 }
 
 /* ---------- private code */

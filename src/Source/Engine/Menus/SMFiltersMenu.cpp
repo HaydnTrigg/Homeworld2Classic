@@ -235,68 +235,52 @@
 
 /* ---------- public code */
 
-_extern _sub_5A8B72(UI::SMFiltersMenu *const, char const *);
 UI::SMFiltersMenu::SMFiltersMenu(char const *) // 0x5A8B72
 {
     mangled_assert("??0SMFiltersMenu@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_5A8B72(this, arg);
 }
 
-_extern void _sub_5A8B98(UI::SMFiltersMenu *const);
 UI::SMFiltersMenu::~SMFiltersMenu() // 0x5A8B98
 {
     mangled_assert("??1SMFiltersMenu@UI@@UAE@XZ");
     todo("implement");
-    _sub_5A8B98(this);
 }
 
-_extern void _sub_5A8C02(UI::SMFiltersMenu *const);
 void UI::SMFiltersMenu::OnPostLoad() // 0x5A8C02
 {
     mangled_assert("?OnPostLoad@SMFiltersMenu@UI@@MAEXXZ");
     todo("implement");
-    _sub_5A8C02(this);
 }
 
-_extern void _sub_5A8DBF(UI::SMFiltersMenu *const, __int32, bool);
 void UI::SMFiltersMenu::SetShowState(__int32, bool) // 0x5A8DBF
 {
     mangled_assert("?SetShowState@SMFiltersMenu@UI@@QAEXH_N@Z");
     todo("implement");
-    _sub_5A8DBF(this, arg, arg);
 }
 
-_extern void _sub_5A8E25();
 void UI::SMFiltersMenu::Toggle() // 0x5A8E25
 {
     mangled_assert("?Toggle@SMFiltersMenu@UI@@SGXXZ");
     todo("implement");
-    _sub_5A8E25();
 }
 
-_extern void _sub_5A8DC2();
 void UI::SMFiltersMenu::Show() // 0x5A8DC2
 {
     mangled_assert("?Show@SMFiltersMenu@UI@@SGXXZ");
     todo("implement");
-    _sub_5A8DC2();
 }
 
-_extern void _sub_5A8BCC();
 void UI::SMFiltersMenu::Hide() // 0x5A8BCC
 {
     mangled_assert("?Hide@SMFiltersMenu@UI@@SGXXZ");
     todo("implement");
-    _sub_5A8BCC();
 }
 
-_extern void _sub_5A8DF8(bool);
 void UI::SMFiltersMenu::TaskbarToggle(bool taskbarActive) // 0x5A8DF8
 {
     mangled_assert("?TaskbarToggle@SMFiltersMenu@UI@@SGX_N@Z");
     todo("implement");
-    _sub_5A8DF8(taskbarActive);
 }
 
 /* ---------- private code */

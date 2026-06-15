@@ -264,229 +264,169 @@ _static
 
 /* ---------- public code */
 
-_extern void *_sub_63431A(unsigned __int32);
 void *SensorsBlob::operator new(unsigned __int32 size) // 0x63431A
 {
     mangled_assert("??2SensorsBlob@@SGPAXI@Z");
     todo("implement");
-    void * __result = _sub_63431A(size);
-    return __result;
 }
 
-_extern void _sub_634327(void *, unsigned __int32);
 void SensorsBlob::operator delete(void *p, unsigned __int32 size) // 0x634327
 {
     mangled_assert("??3SensorsBlob@@SGXPAXI@Z");
     todo("implement");
-    _sub_634327(p, size);
 }
 
-_extern SensorsBlobArray &_sub_634416(SensorsBlobArray *const, SensorsBlobArray const &);
 _inline SensorsBlobArray &SensorsBlobArray::operator=(SensorsBlobArray const &) // 0x634416
 {
     mangled_assert("??4SensorsBlobArray@@QAEAAV0@ABV0@@Z");
     compiler_generated();
     todo("implement");
-    SensorsBlobArray & __result = _sub_634416(this, arg);
-    return __result;
 }
 
-_extern _sub_634101(SensorsBlob *const, Sob *, float, vector3 const &);
 SensorsBlob::SensorsBlob(Sob *, float, vector3 const &) // 0x634101
 {
     mangled_assert("??0SensorsBlob@@QAE@PAVSob@@MABVvector3@@@Z");
     todo("implement");
-    _sub_634101(this, arg, arg, arg);
 }
 
-_extern _sub_634039(SensorsBlob *const, SensorsBlob const &);
 SensorsBlob::SensorsBlob(SensorsBlob const &) // 0x634039
 {
     mangled_assert("??0SensorsBlob@@QAE@ABV0@@Z");
     todo("implement");
-    _sub_634039(this, arg);
 }
 
-_extern void _sub_634298(SensorsBlob *const);
 SensorsBlob::~SensorsBlob() // 0x634298
 {
     mangled_assert("??1SensorsBlob@@QAE@XZ");
     todo("implement");
-    _sub_634298(this);
 }
 
-_extern void _sub_635175(SensorsBlob *const, SensorsBlob *);
 void SensorsBlob::combine(SensorsBlob *) // 0x635175
 {
     mangled_assert("?combine@SensorsBlob@@AAEXPAV1@@Z");
     todo("implement");
-    _sub_635175(this, arg);
 }
 
-_extern void _sub_6351FA(SensorsBlob *const);
 void SensorsBlob::finalizeSelection() // 0x6351FA
 {
     mangled_assert("?finalizeSelection@SensorsBlob@@AAEXXZ");
     todo("implement");
-    _sub_6351FA(this);
 }
 
-_extern void _sub_635213(SensorsBlob *const, Player const *);
 void SensorsBlob::itemize(Player const *) // 0x635213
 {
     mangled_assert("?itemize@SensorsBlob@@AAEXPBVPlayer@@@Z");
     todo("implement");
-    _sub_635213(this, arg);
 }
 
-_extern _sub_6341CB(SensorsBlobArray *const);
 SensorsBlobArray::SensorsBlobArray() // 0x6341CB
 {
     mangled_assert("??0SensorsBlobArray@@QAE@XZ");
     todo("implement");
-    _sub_6341CB(this);
 }
 
-_extern void _sub_634277(ATITemplateBlob *const);
 _inline ATITemplateBlob::~ATITemplateBlob() // 0x634277
 {
     mangled_assert("??1ATITemplateBlob@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_634277(this);
 }
 
-_extern void _sub_634291(NDGameEvent_BattleStatus *const);
 _inline NDGameEvent_BattleStatus::~NDGameEvent_BattleStatus() // 0x634291
 {
     mangled_assert("??1NDGameEvent_BattleStatus@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_634291(this);
 }
 
-_extern void _sub_6344D2(SensorsBlobArray *const, CameraHW const *, Player const *, float (*)(Sob *), __int32, Selection const **, SensorsBlobArray::CreationParams *);
 void SensorsBlobArray::AddObjects(CameraHW const *, Player const *, float (*)(Sob *), __int32, Selection const **, SensorsBlobArray::CreationParams *) // 0x6344D2
 {
     mangled_assert("?AddObjects@SensorsBlobArray@@QAEXPBVCameraHW@@PBVPlayer@@P6GMPAVSob@@@ZHPAPBVSelection@@PAUCreationParams@1@@Z");
     todo("implement");
-    _sub_6344D2(this, arg, arg, arg, arg, arg, arg);
 }
 
-_extern void _sub_634A23(SensorsBlobArray *const);
 void SensorsBlobArray::Clear() // 0x634A23
 {
     mangled_assert("?Clear@SensorsBlobArray@@QAEXXZ");
     todo("implement");
-    _sub_634A23(this);
 }
 
-_extern void _sub_6342E8(SensorsBlobArray *const);
 SensorsBlobArray::~SensorsBlobArray() // 0x6342E8
 {
     mangled_assert("??1SensorsBlobArray@@QAE@XZ");
     todo("implement");
-    _sub_6342E8(this);
 }
 
-_extern void _sub_636394(SensorsBlobArray *const);
 void SensorsBlobArray::sort() // 0x636394
 {
     mangled_assert("?sort@SensorsBlobArray@@QAEXXZ");
     todo("implement");
-    _sub_636394(this);
 }
 
-_extern void _sub_635DF7(SensorsBlobArray *const, float, float, CameraHW const *);
 void SensorsBlobArray::renderPrepare(float, float, CameraHW const *) // 0x635DF7
 {
     mangled_assert("?renderPrepare@SensorsBlobArray@@QAEXMMPBVCameraHW@@@Z");
     todo("implement");
-    _sub_635DF7(this, arg, arg, arg);
 }
 
-_extern void _sub_635016(SensorsBlobArray *const, Camera const *);
 void SensorsBlobArray::addMetaSelTargs(Camera const *) // 0x635016
 {
     mangled_assert("?addMetaSelTargs@SensorsBlobArray@@QAEXPBVCamera@@@Z");
     todo("implement");
-    _sub_635016(this, arg);
 }
 
-_extern void _sub_635B47(SensorsBlobArray *const, float, CameraHW const *);
 void SensorsBlobArray::renderBackground(float, CameraHW const *) // 0x635B47
 {
     mangled_assert("?renderBackground@SensorsBlobArray@@QAEXMPBVCameraHW@@@Z");
     todo("implement");
-    _sub_635B47(this, arg, arg);
 }
 
-_extern void _sub_6354B4(SensorsBlobArray *const, float, CameraHW const *);
 void SensorsBlobArray::render(float, CameraHW const *) // 0x6354B4
 {
     mangled_assert("?render@SensorsBlobArray@@QAEXMPBVCameraHW@@@Z");
     todo("implement");
-    _sub_6354B4(this, arg, arg);
 }
 
-_extern void _sub_635AB7(SensorsBlobArray *const, ATITemplate *, CameraHW const *, unsigned __int32);
 void SensorsBlobArray::render(ATITemplate *, CameraHW const *, unsigned __int32) // 0x635AB7
 {
     mangled_assert("?render@SensorsBlobArray@@QAEXPAVATITemplate@@PBVCameraHW@@I@Z");
     todo("implement");
-    _sub_635AB7(this, arg, arg, arg);
 }
 
-_extern float _sub_6351EF(Sob *);
 float SensorsBlobArray::enemySubBlob(Sob *sob) // 0x6351EF
 {
     mangled_assert("?enemySubBlob@SensorsBlobArray@@CGMPAVSob@@@Z");
     todo("implement");
-    float __result = _sub_6351EF(sob);
-    return __result;
 }
 
-_extern float _sub_63511F(Sob *);
 float SensorsBlobArray::battleSubBlob(Sob *sob) // 0x63511F
 {
     mangled_assert("?battleSubBlob@SensorsBlobArray@@CGMPAVSob@@@Z");
     todo("implement");
-    float __result = _sub_63511F(sob);
-    return __result;
 }
 
-_extern void _sub_634C11(SensorsBlobArray *const, CameraHW const *, SensorsBlob const *);
 void SensorsBlobArray::addBattlePings(CameraHW const *, SensorsBlob const *) // 0x634C11
 {
     mangled_assert("?addBattlePings@SensorsBlobArray@@QAEXPBVCameraHW@@PBVSensorsBlob@@@Z");
     todo("implement");
-    _sub_634C11(this, arg, arg);
 }
 
-_extern _sub_633C46(ATITemplateBlob *const, LuaConfig &, char const *);
 ATITemplateBlob::ATITemplateBlob(LuaConfig &, char const *) // 0x633C46
 {
     mangled_assert("??0ATITemplateBlob@@QAE@AAVLuaConfig@@PBD@Z");
     todo("implement");
-    _sub_633C46(this, arg, arg);
 }
 
-_extern bool _sub_6360F0();
 bool sensorsBlobsStartup() // 0x6360F0
 {
     mangled_assert("?sensorsBlobsStartup@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_6360F0();
-    return __result;
 }
 
-_extern bool _sub_63600B();
 bool sensorsBlobsShutdown() // 0x63600B
 {
     mangled_assert("?sensorsBlobsShutdown@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_63600B();
-    return __result;
 }
 
 /* ---------- private code */

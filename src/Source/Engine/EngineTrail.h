@@ -44,31 +44,22 @@ static_assert(sizeof(EngineTrail) == 64, "Invalid EngineTrail size");
 
 /* ---------- public code */
 
-_extern vector3 const &_sub_4496FE(EngineTrail const *const);
 _inline vector3 const &EngineTrail::getBoundingMin() const // 0x4496FE
 {
     mangled_assert("?getBoundingMin@EngineTrail@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_4496FE(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_4496FA(EngineTrail const *const);
 _inline vector3 const &EngineTrail::getBoundingMax() const // 0x4496FA
 {
     mangled_assert("?getBoundingMax@EngineTrail@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_4496FA(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_449772(EngineTrail const *const);
 _inline unsigned __int32 EngineTrail::getNozzleNum() const // 0x449772
 {
     mangled_assert("?getNozzleNum@EngineTrail@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_449772(this);
-    return __result;
 }
 
 /* ---------- private code */

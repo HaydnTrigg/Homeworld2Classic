@@ -105,122 +105,92 @@
 
 /* ---------- public code */
 
-_extern _sub_5B3D27(UI::GameFilterScreen::Data *const);
 _inline UI::GameFilterScreen::Data::Data() // 0x5B3D27
 {
     mangled_assert("??0Data@GameFilterScreen@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B3D27(this);
 }
 
-_extern _sub_5B3D41(UI::GameFilterScreen *const, char const *);
 UI::GameFilterScreen::GameFilterScreen(char const *) // 0x5B3D41
 {
     mangled_assert("??0GameFilterScreen@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_5B3D41(this, arg);
 }
 
-_extern void _sub_5B3DCB(UI::GameFilterScreen::Data *const);
 _inline UI::GameFilterScreen::Data::~Data() // 0x5B3DCB
 {
     mangled_assert("??1Data@GameFilterScreen@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B3DCB(this);
 }
 
-_extern void _sub_5B3DDF(UI::GameFilter *const);
 _inline UI::GameFilter::~GameFilter() // 0x5B3DDF
 {
     mangled_assert("??1GameFilter@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B3DDF(this);
 }
 
-_extern void _sub_5B3E07(UI::GameFilterScreen *const);
 UI::GameFilterScreen::~GameFilterScreen() // 0x5B3E07
 {
     mangled_assert("??1GameFilterScreen@UI@@UAE@XZ");
     todo("implement");
-    _sub_5B3E07(this);
 }
 
-_extern UI::GameFilter &_sub_5B3E30(UI::GameFilter *const, UI::GameFilter const &);
 _inline UI::GameFilter &UI::GameFilter::operator=(UI::GameFilter const &) // 0x5B3E30
 {
     mangled_assert("??4GameFilter@UI@@QAEAAV01@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    UI::GameFilter & __result = _sub_5B3E30(this, arg);
-    return __result;
 }
 
-_extern void _sub_5B3ECB(UI::GameFilterScreen *const);
 void UI::GameFilterScreen::DisconnectSlots() // 0x5B3ECB
 {
     mangled_assert("?DisconnectSlots@GameFilterScreen@UI@@QAEXXZ");
     todo("implement");
-    _sub_5B3ECB(this);
 }
 
-_extern void _sub_5B3EAC(UI::GameFilterScreen *const, void (*)(UI::InterfaceElement *));
 void UI::GameFilterScreen::ConnectOnAccept(void (*)(UI::InterfaceElement *)) // 0x5B3EAC
 {
     mangled_assert("?ConnectOnAccept@GameFilterScreen@UI@@QAEXP6GXPAVInterfaceElement@2@@Z@Z");
     todo("implement");
-    _sub_5B3EAC(this, arg);
 }
 
-_extern void _sub_5B40D2(UI::GameFilterScreen *const);
 void UI::GameFilterScreen::OnPostLoad() // 0x5B40D2
 {
     mangled_assert("?OnPostLoad@GameFilterScreen@UI@@MAEXXZ");
     todo("implement");
-    _sub_5B40D2(this);
 }
 
-_extern void _sub_5B403F(UI::GameFilterScreen *const, bool);
 void UI::GameFilterScreen::OnActivate(bool) // 0x5B403F
 {
     mangled_assert("?OnActivate@GameFilterScreen@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_5B403F(this, arg);
 }
 
-_extern void _sub_5B4187(UI::GameFilterScreen *const, UI::GameFilter const &);
 void UI::GameFilterScreen::SetGameFilter(UI::GameFilter const &) // 0x5B4187
 {
     mangled_assert("?SetGameFilter@GameFilterScreen@UI@@QAEXABVGameFilter@2@@Z");
     todo("implement");
-    _sub_5B4187(this, arg);
 }
 
-_extern UI::GameFilter const &_sub_5B3EE3(UI::GameFilterScreen const *const);
 UI::GameFilter const &UI::GameFilterScreen::GetGameFilter() const // 0x5B3EE3
 {
     mangled_assert("?GetGameFilter@GameFilterScreen@UI@@QBEABVGameFilter@2@XZ");
     todo("implement");
-    UI::GameFilter const & __result = _sub_5B3EE3(this);
-    return __result;
 }
 
-_extern void _sub_5B4042(UI::InterfaceElement *);
 void UI::GameFilterScreen::OnClearClicked(UI::InterfaceElement *sender) // 0x5B4042
 {
     mangled_assert("?OnClearClicked@GameFilterScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B4042(sender);
 }
 
-_extern void _sub_5B3F18(UI::InterfaceElement *);
 void UI::GameFilterScreen::OnAcceptClicked(UI::InterfaceElement *sender) // 0x5B3F18
 {
     mangled_assert("?OnAcceptClicked@GameFilterScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B3F18(sender);
 }
 
 /* ---------- private code */

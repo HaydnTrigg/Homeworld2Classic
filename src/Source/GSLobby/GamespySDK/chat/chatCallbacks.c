@@ -137,72 +137,53 @@ _static void ciFreeCallbackData(ciCallbackData *data);
 
 /* ---------- public code */
 
-_extern CHATBool _sub_10008C96(ciConnection *);
 CHATBool ciInitCallbacks(ciConnection *connection) // 0x10008C96
 {
     mangled_assert("_ciInitCallbacks@4");
     todo("implement");
-    CHATBool __result = _sub_10008C96(connection);
-    return __result;
 }
 
-_extern void _sub_1000897B(void *);
 void ciCleanupCallbacks(void *chat) // 0x1000897B
 {
     mangled_assert("_ciCleanupCallbacks@4");
     todo("implement");
-    _sub_1000897B(chat);
 }
 
-_extern CHATBool _sub_10007D0B(void *, __int32, void *, void *, void *, __int32, char const *, unsigned __int32);
 CHATBool ciAddCallback_(void *chat, __int32 type, void *callback, void *callbackParams, void *param, __int32 ID, char const *channel, unsigned __int32 callbackParamsSize) // 0x10007D0B
 {
     mangled_assert("_ciAddCallback_@32");
     todo("implement");
-    CHATBool __result = _sub_10007D0B(chat, type, callback, callbackParams, param, ID, channel, callbackParamsSize);
-    return __result;
 }
 
-_extern void _sub_100086E7(void *, ciCallbackData *);
 void ciCallCallback(void *chat, ciCallbackData *data) // 0x100086E7
 {
     mangled_assert("_ciCallCallback@8");
     todo("implement");
-    _sub_100086E7(chat, data);
 }
 
-_extern void _sub_10008867(void *, __int32);
 void ciCallCallbacks(void *chat, __int32 ID) // 0x10008867
 {
     mangled_assert("_ciCallCallbacks@8");
     todo("implement");
-    _sub_10008867(chat, ID);
 }
 
-_extern CHATBool _sub_10008934(void *, __int32);
 CHATBool ciCheckCallbacksForID(void *chat, __int32 ID) // 0x10008934
 {
     mangled_assert("_ciCheckCallbacksForID@8");
     todo("implement");
-    CHATBool __result = _sub_10008934(chat, ID);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern void _sub_10008923(void *);
 _static void ciCallbacksArrayElementFreeFn(void *elem) // 0x10008923
 {
     mangled_assert("ciCallbacksArrayElementFreeFn");
     todo("implement");
-    _sub_10008923(elem);
 }
 
-_extern void _sub_100089C2(ciCallbackData *);
 _static void ciFreeCallbackData(ciCallbackData *data) // 0x100089C2
 {
     mangled_assert("ciFreeCallbackData");
     todo("implement");
-    _sub_100089C2(data);
 }
 #endif

@@ -224,447 +224,334 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_45808A(MainUIImpl *const);
 void MainUIImpl::pressLeft() // 0x45808A
 {
     mangled_assert("?pressLeft@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_45808A(this);
 }
 
-_extern void _sub_4565BB(MainUIImpl *const);
 void MainUIImpl::doublePressLeft() // 0x4565BB
 {
     mangled_assert("?doublePressLeft@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_4565BB(this);
 }
 
-_extern void _sub_4565ED(MainUIImpl *const);
 void MainUIImpl::doubleReleaseLeft() // 0x4565ED
 {
     mangled_assert("?doubleReleaseLeft@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_4565ED(this);
 }
 
-_extern void _sub_456C6E(MainUIImpl *const);
 void MainUIImpl::holdLeft() // 0x456C6E
 {
     mangled_assert("?holdLeft@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_456C6E(this);
 }
 
-_extern void _sub_45829F(MainUIImpl *const);
 void MainUIImpl::releaseLeft() // 0x45829F
 {
     mangled_assert("?releaseLeft@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_45829F(this);
 }
 
-_extern void _sub_4581CB(MainUIImpl *const);
 void MainUIImpl::pressRight() // 0x4581CB
 {
     mangled_assert("?pressRight@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_4581CB(this);
 }
 
-_extern void _sub_456D2F(MainUIImpl *const);
 void MainUIImpl::holdRight() // 0x456D2F
 {
     mangled_assert("?holdRight@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_456D2F(this);
 }
 
-_extern void _sub_45836F(MainUIImpl *const);
 void MainUIImpl::releaseRight() // 0x45836F
 {
     mangled_assert("?releaseRight@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_45836F(this);
 }
 
-_extern void _sub_45816C(MainUIImpl *const);
 void MainUIImpl::pressMiddle() // 0x45816C
 {
     mangled_assert("?pressMiddle@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_45816C(this);
 }
 
-_extern void _sub_456FE8(MainUIImpl *const);
 void MainUIImpl::onClickLeft() // 0x456FE8
 {
     mangled_assert("?onClickLeft@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_456FE8(this);
 }
 
-_extern void _sub_457FC6(MainUIImpl *const);
 void MainUIImpl::onDragStartLeft() // 0x457FC6
 {
     mangled_assert("?onDragStartLeft@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_457FC6(this);
 }
 
-_extern void _sub_457DE1(MainUIImpl *const, bool);
 void MainUIImpl::onDragEndLeft(bool) // 0x457DE1
 {
     mangled_assert("?onDragEndLeft@MainUIImpl@@QAEX_N@Z");
     todo("implement");
-    _sub_457DE1(this, arg);
 }
 
-_extern void _sub_457FB5(MainUIImpl *const);
 void MainUIImpl::onDragLeft() // 0x457FB5
 {
     mangled_assert("?onDragLeft@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_457FB5(this);
 }
 
-_extern void _sub_457743(MainUIImpl *const);
 void MainUIImpl::onClickRight() // 0x457743
 {
     mangled_assert("?onClickRight@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_457743(this);
 }
 
-_extern void _sub_458050(MainUIImpl *const);
 void MainUIImpl::onDragStartRight() // 0x458050
 {
     mangled_assert("?onDragStartRight@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_458050(this);
 }
 
-_extern void _sub_457EB8(MainUIImpl *const, bool);
 void MainUIImpl::onDragEndRight(bool) // 0x457EB8
 {
     mangled_assert("?onDragEndRight@MainUIImpl@@QAEX_N@Z");
     todo("implement");
-    _sub_457EB8(this, arg);
 }
 
-_extern void _sub_457FBE(MainUIImpl *const);
 void MainUIImpl::onDragRight() // 0x457FBE
 {
     mangled_assert("?onDragRight@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_457FBE(this);
 }
 
-_extern void _sub_457742(MainUIImpl *const);
 void MainUIImpl::onClickMiddle() // 0x457742
 {
     mangled_assert("?onClickMiddle@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_457742(this);
 }
 
-_extern void _sub_45804F(MainUIImpl *const);
 void MainUIImpl::onDragStartMiddle() // 0x45804F
 {
     mangled_assert("?onDragStartMiddle@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_45804F(this);
 }
 
-_extern void _sub_457EB5(MainUIImpl *const, bool);
 void MainUIImpl::onDragEndMiddle(bool) // 0x457EB5
 {
     mangled_assert("?onDragEndMiddle@MainUIImpl@@QAEX_N@Z");
     todo("implement");
-    _sub_457EB5(this, arg);
 }
 
-_extern void _sub_457FBD(MainUIImpl *const);
 void MainUIImpl::onDragMiddle() // 0x457FBD
 {
     mangled_assert("?onDragMiddle@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_457FBD(this);
 }
 
-_extern void _sub_4571D8(MainUIImpl *const);
 void MainUIImpl::onClickLeft_SELECTION() // 0x4571D8
 {
     mangled_assert("?onClickLeft_SELECTION@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_4571D8(this);
 }
 
-_extern void _sub_45746C(MainUIImpl *const);
 void MainUIImpl::onClickLeft_SELECTION_ADD() // 0x45746C
 {
     mangled_assert("?onClickLeft_SELECTION_ADD@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_45746C(this);
 }
 
-_extern void _sub_457661(MainUIImpl *const);
 void MainUIImpl::onClickLeft_SELECTION_EYE() // 0x457661
 {
     mangled_assert("?onClickLeft_SELECTION_EYE@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_457661(this);
 }
 
-_extern void _sub_457130(MainUIImpl *const);
 void MainUIImpl::onClickLeft_MOVE() // 0x457130
 {
     mangled_assert("?onClickLeft_MOVE@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_457130(this);
 }
 
-_extern void _sub_457168(MainUIImpl *const);
 void MainUIImpl::onClickLeft_MOVEATTACK() // 0x457168
 {
     mangled_assert("?onClickLeft_MOVEATTACK@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_457168(this);
 }
 
-_extern void _sub_4570C0(MainUIImpl *const);
 void MainUIImpl::onClickLeft_HYPERSPACE() // 0x4570C0
 {
     mangled_assert("?onClickLeft_HYPERSPACE@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_4570C0(this);
 }
 
-_extern void _sub_4571A0(MainUIImpl *const);
 void MainUIImpl::onClickLeft_RALLYPOINT() // 0x4571A0
 {
     mangled_assert("?onClickLeft_RALLYPOINT@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_4571A0(this);
 }
 
-_extern void _sub_4570F8(MainUIImpl *const);
 void MainUIImpl::onClickLeft_MINERADIUS() // 0x4570F8
 {
     mangled_assert("?onClickLeft_MINERADIUS@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_4570F8(this);
 }
 
-_extern void _sub_4576E9(MainUIImpl *const);
 void MainUIImpl::onClickLeft_WAYPOINT() // 0x4576E9
 {
     mangled_assert("?onClickLeft_WAYPOINT@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_4576E9(this);
 }
 
-_extern void _sub_457707(MainUIImpl *const);
 void MainUIImpl::onClickLeft_WAYPOINT_MOVE() // 0x457707
 {
     mangled_assert("?onClickLeft_WAYPOINT_MOVE@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_457707(this);
 }
 
-_extern void _sub_4576CB(MainUIImpl *const);
 void MainUIImpl::onClickLeft_TEMP_WAYPOINT() // 0x4576CB
 {
     mangled_assert("?onClickLeft_TEMP_WAYPOINT@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_4576CB(this);
 }
 
-_extern void _sub_457AB2(MainUIImpl *const);
 void MainUIImpl::onClickRight_SELECTION() // 0x457AB2
 {
     mangled_assert("?onClickRight_SELECTION@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_457AB2(this);
 }
 
-_extern void _sub_457934(MainUIImpl *const);
 void MainUIImpl::onClickRight_MOVE() // 0x457934
 {
     mangled_assert("?onClickRight_MOVE@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_457934(this);
 }
 
-_extern void _sub_4579FE(MainUIImpl *const);
 void MainUIImpl::onClickRight_MOVEATTACK() // 0x4579FE
 {
     mangled_assert("?onClickRight_MOVEATTACK@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_4579FE(this);
 }
 
-_extern void _sub_45781B(MainUIImpl *const);
 void MainUIImpl::onClickRight_HYPERSPACE() // 0x45781B
 {
     mangled_assert("?onClickRight_HYPERSPACE@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_45781B(this);
 }
 
-_extern void _sub_457A59(MainUIImpl *const);
 void MainUIImpl::onClickRight_RALLYPOINT() // 0x457A59
 {
     mangled_assert("?onClickRight_RALLYPOINT@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_457A59(this);
 }
 
-_extern void _sub_4578C7(MainUIImpl *const);
 void MainUIImpl::onClickRight_MINERADIUS() // 0x4578C7
 {
     mangled_assert("?onClickRight_MINERADIUS@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_4578C7(this);
 }
 
-_extern void _sub_457C90(MainUIImpl *const);
 void MainUIImpl::onClickRight_WAYPOINT() // 0x457C90
 {
     mangled_assert("?onClickRight_WAYPOINT@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_457C90(this);
 }
 
-_extern void _sub_457D0D(MainUIImpl *const, bool);
 void MainUIImpl::onClickRight_WAYPOINT_MOVE(bool) // 0x457D0D
 {
     mangled_assert("?onClickRight_WAYPOINT_MOVE@MainUIImpl@@QAEX_N@Z");
     todo("implement");
-    _sub_457D0D(this, arg);
 }
 
-_extern void _sub_457BD7(MainUIImpl *const);
 void MainUIImpl::onClickRight_TEMP_WAYPOINT() // 0x457BD7
 {
     mangled_assert("?onClickRight_TEMP_WAYPOINT@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_457BD7(this);
 }
 
-_extern void _sub_456390(MainUIImpl *const, float, float);
 void MainUIImpl::detectMouseOver(float, float) // 0x456390
 {
     mangled_assert("?detectMouseOver@MainUIImpl@@QAEXMM@Z");
     todo("implement");
-    _sub_456390(this, arg, arg);
 }
 
-_extern MUI_CommandModes _sub_456015(MainUIImpl *const, Selection const &, float, float);
 MUI_CommandModes MainUIImpl::bestCommandMode(Selection const &, float, float) // 0x456015
 {
     mangled_assert("?bestCommandMode@MainUIImpl@@QAE?AW4MUI_CommandModes@@ABVSelection@@MM@Z");
     todo("implement");
-    MUI_CommandModes __result = _sub_456015(this, arg, arg, arg);
-    return __result;
 }
 
-_extern MUI_CommandModes _sub_456121(MainUIImpl *const, Ship const *, Selection const &, bool, bool);
 MUI_CommandModes MainUIImpl::bestCommandModeForShip(Ship const *, Selection const &, bool, bool) // 0x456121
 {
     mangled_assert("?bestCommandModeForShip@MainUIImpl@@QAE?AW4MUI_CommandModes@@PBVShip@@ABVSelection@@_N2@Z");
     todo("implement");
-    MUI_CommandModes __result = _sub_456121(this, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern void _sub_456613(MainUIImpl *const, float, float);
 void MainUIImpl::evaluateMouseOver(float, float) // 0x456613
 {
     mangled_assert("?evaluateMouseOver@MainUIImpl@@QAEXMM@Z");
     todo("implement");
-    _sub_456613(this, arg, arg);
 }
 
-_extern void _sub_455F27(MainUIImpl const *const, Sob *, Selection &);
 void MainUIImpl::appendShipGroup(Sob *, Selection &) const // 0x455F27
 {
     mangled_assert("?appendShipGroup@MainUIImpl@@ABEXPAVSob@@AAVSelection@@@Z");
     todo("implement");
-    _sub_455F27(this, arg, arg);
 }
 
-_extern void _sub_456ABC(MainUIImpl *const);
 void MainUIImpl::groupifyMouseOver() // 0x456ABC
 {
     mangled_assert("?groupifyMouseOver@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_456ABC(this);
 }
 
-_extern void _sub_4564D0(MainUIImpl *const);
 void MainUIImpl::doBandbox() // 0x4564D0
 {
     mangled_assert("?doBandbox@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_4564D0(this);
 }
 
-_extern bool _sub_456DE6(MainUIImpl *const, float, float, vector3 *, std::vector<vector3,std::allocator<vector3> > **);
 bool MainUIImpl::isCursorOverWaypointPath(float, float, vector3 *, std::vector<vector3,std::allocator<vector3> > **) // 0x456DE6
 {
     mangled_assert("?isCursorOverWaypointPath@MainUIImpl@@QAE_NMMPAVvector3@@PAPAV?$vector@Vvector3@@V?$allocator@Vvector3@@@std@@@std@@@Z");
     todo("implement");
-    bool __result = _sub_456DE6(this, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern void _sub_458444(MainUIImpl *const);
 void MainUIImpl::resetKeys() // 0x458444
 {
     mangled_assert("?resetKeys@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_458444(this);
 }
 
-_extern void _sub_4584FA(MainUIImpl *);
 void uiNULL(MainUIImpl *pMainUI) // 0x4584FA
 {
     mangled_assert("?uiNULL@@YGXPAVMainUIImpl@@@Z");
     todo("implement");
-    _sub_4584FA(pMainUI);
 }
 
-_extern void _sub_4584FD(MainUIImpl *);
 void uiSelectHold(MainUIImpl *pMainUI) // 0x4584FD
 {
     mangled_assert("?uiSelectHold@@YGXPAVMainUIImpl@@@Z");
     todo("implement");
-    _sub_4584FD(pMainUI);
 }
 
-_extern void _sub_4584F7(MainUIImpl *);
 void uiMoveHold(MainUIImpl *pMainUI) // 0x4584F7
 {
     mangled_assert("?uiMoveHold@@YGXPAVMainUIImpl@@@Z");
     todo("implement");
-    _sub_4584F7(pMainUI);
 }
 
-_extern void _sub_4584B7(MainUIImpl *);
 void uiCameraMotion(MainUIImpl *pMainUI) // 0x4584B7
 {
     mangled_assert("?uiCameraMotion@@YGXPAVMainUIImpl@@@Z");
     todo("implement");
-    _sub_4584B7(pMainUI);
 }
 
-_extern void _sub_456E7E();
 void muiMouseRegisterTweaks() // 0x456E7E
 {
     mangled_assert("?muiMouseRegisterTweaks@@YGXXZ");
     todo("implement");
-    _sub_456E7E();
 }
 
 /* ---------- private code */

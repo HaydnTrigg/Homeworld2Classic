@@ -55,21 +55,16 @@ static_assert(sizeof(Collision::BVHStatistics) == 144, "Invalid Collision::BVHSt
 
 /* ---------- public code */
 
-_extern void _sub_66460E(Collision::Stopwatch *const);
 _inline void Collision::Stopwatch::Reset() // 0x66460E
 {
     mangled_assert("?Reset@Stopwatch@Collision@@QAEXXZ");
     todo("implement");
-    _sub_66460E(this);
 }
 
-_extern float _sub_664597(Collision::Stopwatch const *const);
 _inline float Collision::Stopwatch::GetTime() const // 0x664597
 {
     mangled_assert("?GetTime@Stopwatch@Collision@@QBEMXZ");
     todo("implement");
-    float __result = _sub_664597(this);
-    return __result;
 }
 
 /* ---------- private code */

@@ -240,166 +240,121 @@ _static
 
 /* ---------- public code */
 
-_extern wchar_t *_sub_5E2B37(__int32);
 wchar_t *ATIGetGroupNumberString(__int32 num) // 0x5E2B37
 {
     mangled_assert("?ATIGetGroupNumberString@@YGPA_WH@Z");
     todo("implement");
-    wchar_t * __result = _sub_5E2B37(num);
-    return __result;
 }
 
-_extern _sub_5E26B2(ATITemplateHealth *const, LuaConfig &, char const *);
 ATITemplateHealth::ATITemplateHealth(LuaConfig &, char const *) // 0x5E26B2
 {
     mangled_assert("??0ATITemplateHealth@@QAE@AAVLuaConfig@@PBD@Z");
     todo("implement");
-    _sub_5E26B2(this, arg, arg);
 }
 
-_extern vector4 const *_sub_5E2B77(ATITemplateHealth const *const, float);
 vector4 const *ATITemplateHealth::ATIGetHealthColour(float) const // 0x5E2B77
 {
     mangled_assert("?ATIGetHealthColour@ATITemplateHealth@@QBEPBVvector4@@M@Z");
     todo("implement");
-    vector4 const * __result = _sub_5E2B77(this, arg);
-    return __result;
 }
 
-_extern vector4 const *_sub_5E2B51(ATITemplateHealth const *const, float);
 vector4 const *ATITemplateHealth::ATIGetHealthBackgroundColour(float) const // 0x5E2B51
 {
     mangled_assert("?ATIGetHealthBackgroundColour@ATITemplateHealth@@QBEPBVvector4@@M@Z");
     todo("implement");
-    vector4 const * __result = _sub_5E2B51(this, arg);
-    return __result;
 }
 
-_extern _sub_5E2778(ATITemplateSobs *const, LuaConfig &, char const *);
 ATITemplateSobs::ATITemplateSobs(LuaConfig &, char const *) // 0x5E2778
 {
     mangled_assert("??0ATITemplateSobs@@QAE@AAVLuaConfig@@PBD@Z");
     todo("implement");
-    _sub_5E2778(this, arg, arg);
 }
 
-_extern void _sub_5E3DD5(ATITemplateSobs *const, Squadron const *, OrderFeedbackValue const &, unsigned __int32);
 void ATITemplateSobs::display(Squadron const *, OrderFeedbackValue const &, unsigned __int32) // 0x5E3DD5
 {
     mangled_assert("?display@ATITemplateSobs@@QAEXPBVSquadron@@ABUOrderFeedbackValue@@I@Z");
     todo("implement");
-    _sub_5E3DD5(this, arg, arg, arg);
 }
 
-_extern void _sub_5E35D5(ATITemplateSobs *const, Selection const &, OrderFeedbackValue const &, unsigned __int32);
 void ATITemplateSobs::display(Selection const &, OrderFeedbackValue const &, unsigned __int32) // 0x5E35D5
 {
     mangled_assert("?display@ATITemplateSobs@@QAEXABVSelection@@ABUOrderFeedbackValue@@I@Z");
     todo("implement");
-    _sub_5E35D5(this, arg, arg, arg);
 }
 
-_extern void _sub_5E3A04(ATITemplateSobs *const, Missile *, unsigned __int32);
 void ATITemplateSobs::display(Missile *, unsigned __int32) // 0x5E3A04
 {
     mangled_assert("?display@ATITemplateSobs@@QAEXPAVMissile@@I@Z");
     todo("implement");
-    _sub_5E3A04(this, arg, arg);
 }
 
-_extern void _sub_5E3B48(ATITemplateSobs *const, Sob *, unsigned __int32);
 void ATITemplateSobs::display(Sob *, unsigned __int32) // 0x5E3B48
 {
     mangled_assert("?display@ATITemplateSobs@@QAEXPAVSob@@I@Z");
     todo("implement");
-    _sub_5E3B48(this, arg, arg);
 }
 
-_extern void _sub_5E3BED(ATITemplateSobs *const, SobWithMesh const *, float, vector4 const &, unsigned __int32);
 void ATITemplateSobs::display(SobWithMesh const *, float, vector4 const &, unsigned __int32) // 0x5E3BED
 {
     mangled_assert("?display@ATITemplateSobs@@QAEXPBVSobWithMesh@@MABVvector4@@I@Z");
     todo("implement");
-    _sub_5E3BED(this, arg, arg, arg, arg);
 }
 
-_extern unsigned __int32 _sub_5E348F(ATITemplateSobs *const, vector4 *, ATIParameter *, SobWithMesh const *, vector4 const *, vector4 const *, unsigned __int32);
 unsigned __int32 ATITemplateSobs::computeTOParams(vector4 *, ATIParameter *, SobWithMesh const *, vector4 const *, vector4 const *, unsigned __int32) // 0x5E348F
 {
     mangled_assert("?computeTOParams@ATITemplateSobs@@QAEIPAVvector4@@PAUATIParameter@@PBVSobWithMesh@@PBV2@3I@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_5E348F(this, arg, arg, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern _sub_5E2A41(ATITemplateSubsystem *const, LuaConfig &, char const *);
 ATITemplateSubsystem::ATITemplateSubsystem(LuaConfig &, char const *) // 0x5E2A41
 {
     mangled_assert("??0ATITemplateSubsystem@@QAE@AAVLuaConfig@@PBD@Z");
     todo("implement");
-    _sub_5E2A41(this, arg, arg);
 }
 
-_extern void _sub_5E2A5C(ATITemplateHealth *const);
 _inline ATITemplateHealth::~ATITemplateHealth() // 0x5E2A5C
 {
     mangled_assert("??1ATITemplateHealth@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5E2A5C(this);
 }
 
-_extern void _sub_5E2A61(ATITemplateSobs *const);
 _inline ATITemplateSobs::~ATITemplateSobs() // 0x5E2A61
 {
     mangled_assert("??1ATITemplateSobs@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5E2A61(this);
 }
 
-_extern void _sub_5E2AB6(ATITemplateSubsystem *const);
 _inline ATITemplateSubsystem::~ATITemplateSubsystem() // 0x5E2AB6
 {
     mangled_assert("??1ATITemplateSubsystem@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5E2AB6(this);
 }
 
-_extern void _sub_5E447E(ATITemplateSubsystem *const, SubSystem *, OrderFeedbackValue const &, unsigned __int32);
 void ATITemplateSubsystem::display(SubSystem *, OrderFeedbackValue const &, unsigned __int32) // 0x5E447E
 {
     mangled_assert("?display@ATITemplateSubsystem@@QAEXPAVSubSystem@@ABUOrderFeedbackValue@@I@Z");
     todo("implement");
-    _sub_5E447E(this, arg, arg, arg);
 }
 
-_extern bool _sub_5E2DC2();
 bool ATIStartup() // 0x5E2DC2
 {
     mangled_assert("?ATIStartup@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_5E2DC2();
-    return __result;
 }
 
-_extern bool _sub_5E2B9D();
 bool ATIShutdown() // 0x5E2B9D
 {
     mangled_assert("?ATIShutdown@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_5E2B9D();
-    return __result;
 }
 
-_extern bool _sub_5E32DA(char const *, unsigned __int32 &);
 bool GetVisFlag(char const *name, unsigned __int32 &out) // 0x5E32DA
 {
     mangled_assert("?GetVisFlag@@YG_NPBDAAI@Z");
     todo("implement");
-    bool __result = _sub_5E32DA(name, out);
-    return __result;
 }
 
 /* ---------- private code */

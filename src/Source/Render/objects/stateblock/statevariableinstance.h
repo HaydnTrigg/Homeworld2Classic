@@ -149,40 +149,28 @@ static_assert(sizeof(StateVariableInstance) == 1832, "Invalid StateVariableInsta
 
 /* ---------- public code */
 
-_extern unsigned __int32 _sub_10019420(StateVariableInstance const *const);
 _inline unsigned __int32 StateVariableInstance::getNumVariables() const // 0x10019420
 {
     mangled_assert("?getNumVariables@StateVariableInstance@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_10019420(this);
-    return __result;
 }
 
-_extern StateVariableInstance::Var const &_sub_10019510(StateVariableInstance const *const, unsigned __int32);
 _inline StateVariableInstance::Var const &StateVariableInstance::getVariables(unsigned __int32) const // 0x10019510
 {
     mangled_assert("?getVariables@StateVariableInstance@@QBEABUVar@1@I@Z");
     todo("implement");
-    StateVariableInstance::Var const & __result = _sub_10019510(this, arg);
-    return __result;
 }
 
-_extern StateVariableInstance::Var &_sub_10019520(StateVariableInstance *const, unsigned __int32);
 _inline StateVariableInstance::Var &StateVariableInstance::getVariablesWriteable(unsigned __int32) // 0x10019520
 {
     mangled_assert("?getVariablesWriteable@StateVariableInstance@@QAEAAUVar@1@I@Z");
     todo("implement");
-    StateVariableInstance::Var & __result = _sub_10019520(this, arg);
-    return __result;
 }
 
-_extern unsigned long _sub_10019490(StateVariableInstance const *const);
 _inline unsigned long StateVariableInstance::getTextureCRC() const // 0x10019490
 {
     mangled_assert("?getTextureCRC@StateVariableInstance@@QBEKXZ");
     todo("implement");
-    unsigned long __result = _sub_10019490(this);
-    return __result;
 }
 
 /* ---------- private code */

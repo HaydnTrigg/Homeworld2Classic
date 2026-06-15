@@ -260,253 +260,186 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_4541D6(MainUIImpl *const, Pieplate *, Selector *, SensorsManager *);
 MainUIImpl::MainUIImpl(Pieplate *, Selector *, SensorsManager *) // 0x4541D6
 {
     mangled_assert("??0MainUIImpl@@QAE@PAVPieplate@@PAVSelector@@PAVSensorsManager@@@Z");
     todo("implement");
-    _sub_4541D6(this, arg, arg, arg);
 }
 
-_extern _sub_45453F(Selection::Observer *const);
 _inline Selection::Observer::Observer() // 0x45453F
 {
     mangled_assert("??0Observer@Selection@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_45453F(this);
 }
 
-_extern void _sub_45454D(MainUIImpl *const);
 MainUIImpl::~MainUIImpl() // 0x45454D
 {
     mangled_assert("??1MainUIImpl@@QAE@XZ");
     todo("implement");
-    _sub_45454D(this);
 }
 
-_extern void _sub_454DD4(MainUIImpl *const);
 void MainUIImpl::parseSelectionPriorities() // 0x454DD4
 {
     mangled_assert("?parseSelectionPriorities@MainUIImpl@@AAEXXZ");
     todo("implement");
-    _sub_454DD4(this);
 }
 
-_extern void _sub_455894(MainUIImpl *const, MUI_States);
 void MainUIImpl::setUIState(MUI_States) // 0x455894
 {
     mangled_assert("?setUIState@MainUIImpl@@QAEXW4MUI_States@@@Z");
     todo("implement");
-    _sub_455894(this, arg);
 }
 
-_extern void _sub_4559AB(MainUIImpl *const);
 void MainUIImpl::updateSelTargs() // 0x4559AB
 {
     mangled_assert("?updateSelTargs@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_4559AB(this);
 }
 
-_extern void _sub_4547B8(MainUIImpl *const, Player *);
 void MainUIImpl::attachCurrentPlayer(Player *) // 0x4547B8
 {
     mangled_assert("?attachCurrentPlayer@MainUIImpl@@QAEXPAVPlayer@@@Z");
     todo("implement");
-    _sub_4547B8(this, arg);
 }
 
-_extern bool _sub_4547D9(MainUIImpl *const, unsigned __int32, bool, bool);
 bool MainUIImpl::commandModeTransition(unsigned __int32, bool, bool) // 0x4547D9
 {
     mangled_assert("?commandModeTransition@MainUIImpl@@QAE_NI_N0@Z");
     todo("implement");
-    bool __result = _sub_4547D9(this, arg, arg, arg);
-    return __result;
 }
 
-_extern void _sub_455CD4(MainUIImpl *const, float, float);
 void MainUIImpl::wideScreenInWithSound(float, float) // 0x455CD4
 {
     mangled_assert("?wideScreenInWithSound@MainUIImpl@@QAEXMM@Z");
     todo("implement");
-    _sub_455CD4(this, arg, arg);
 }
 
-_extern void _sub_455B71(MainUIImpl *const, float);
 void MainUIImpl::wideScreenIn(float) // 0x455B71
 {
     mangled_assert("?wideScreenIn@MainUIImpl@@QAEXM@Z");
     todo("implement");
-    _sub_455B71(this, arg);
 }
 
-_extern void _sub_455B96(MainUIImpl *const, float, float, bool);
 void MainUIImpl::wideScreenIn(float, float, bool) // 0x455B96
 {
     mangled_assert("?wideScreenIn@MainUIImpl@@QAEXMM_N@Z");
     todo("implement");
-    _sub_455B96(this, arg, arg, arg);
 }
 
-_extern void _sub_455D52(MainUIImpl *const, float);
 void MainUIImpl::wideScreenOutWithSound(float) // 0x455D52
 {
     mangled_assert("?wideScreenOutWithSound@MainUIImpl@@QAEXM@Z");
     todo("implement");
-    _sub_455D52(this, arg);
 }
 
-_extern void _sub_455D1B(MainUIImpl *const, float);
 void MainUIImpl::wideScreenOut(float) // 0x455D1B
 {
     mangled_assert("?wideScreenOut@MainUIImpl@@QAEXM@Z");
     todo("implement");
-    _sub_455D1B(this, arg);
 }
 
-_extern bool _sub_455D8A(MainUIImpl *const, float);
 bool MainUIImpl::wideScreenUpdate(float) // 0x455D8A
 {
     mangled_assert("?wideScreenUpdate@MainUIImpl@@QAE_NM@Z");
     todo("implement");
-    bool __result = _sub_455D8A(this, arg);
-    return __result;
 }
 
-_extern void _sub_4549C2(MainUIImpl *const, float, float);
 void MainUIImpl::fadeOut(float, float) // 0x4549C2
 {
     mangled_assert("?fadeOut@MainUIImpl@@QAEXMM@Z");
     todo("implement");
-    _sub_4549C2(this, arg, arg);
 }
 
-_extern void _sub_454A07(MainUIImpl *const, float);
 void MainUIImpl::fadeSet(float) // 0x454A07
 {
     mangled_assert("?fadeSet@MainUIImpl@@QAEXM@Z");
     todo("implement");
-    _sub_454A07(this, arg);
 }
 
-_extern bool _sub_454A3B(MainUIImpl *const, float);
 bool MainUIImpl::fadeUpdate(float) // 0x454A3B
 {
     mangled_assert("?fadeUpdate@MainUIImpl@@QAE_NM@Z");
     todo("implement");
-    bool __result = _sub_454A3B(this, arg);
-    return __result;
 }
 
-_extern void _sub_4549AD(MainUIImpl *const, vector4 const &);
 void MainUIImpl::fadeColour(vector4 const &) // 0x4549AD
 {
     mangled_assert("?fadeColour@MainUIImpl@@QAEXABVvector4@@@Z");
     todo("implement");
-    _sub_4549AD(this, arg);
 }
 
-_extern void _sub_454900(MainUIImpl *const);
 void MainUIImpl::enterPieplateHeightMode() // 0x454900
 {
     mangled_assert("?enterPieplateHeightMode@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_454900(this);
 }
 
-_extern void _sub_4559A3(MainUIImpl *const);
 void MainUIImpl::tryToSnapToSquadFoot() // 0x4559A3
 {
     mangled_assert("?tryToSnapToSquadFoot@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_4559A3(this);
 }
 
-_extern bool _sub_454C12(MainUIImpl *const);
 bool MainUIImpl::leavePieplateHeightMode() // 0x454C12
 {
     mangled_assert("?leavePieplateHeightMode@MainUIImpl@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_454C12(this);
-    return __result;
 }
 
-_extern void _sub_454857(MainUIImpl *const);
 void MainUIImpl::enterCameraMode() // 0x454857
 {
     mangled_assert("?enterCameraMode@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_454857(this);
 }
 
-_extern void _sub_454B2F(MainUIImpl *const);
 void MainUIImpl::leaveCameraMode() // 0x454B2F
 {
     mangled_assert("?leaveCameraMode@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_454B2F(this);
 }
 
-_extern void _sub_454D66();
 void muiImplRegisterTweaks() // 0x454D66
 {
     mangled_assert("?muiImplRegisterTweaks@@YGXXZ");
     todo("implement");
-    _sub_454D66();
 }
 
-_extern void _sub_45460E(MainUIImpl *const, Sob *);
 void MainUIImpl::Notify_Insertion(Sob *) // 0x45460E
 {
     mangled_assert("?Notify_Insertion@MainUIImpl@@EAEXPAVSob@@@Z");
     todo("implement");
-    _sub_45460E(this, arg);
 }
 
-_extern void _sub_454616(MainUIImpl *const, Sob *);
 void MainUIImpl::Notify_Removal(Sob *) // 0x454616
 {
     mangled_assert("?Notify_Removal@MainUIImpl@@EAEXPAVSob@@@Z");
     todo("implement");
-    _sub_454616(this, arg);
 }
 
-_extern void _sub_455A10(MainUIImpl *const, bool);
 void MainUIImpl::updateSensorsBlobs(bool) // 0x455A10
 {
     mangled_assert("?updateSensorsBlobs@MainUIImpl@@QAEX_N@Z");
     todo("implement");
-    _sub_455A10(this, arg);
 }
 
-_extern CommandType _sub_4545F3(MainUIImpl *const);
 CommandType MainUIImpl::CommandModeToCommand() // 0x4545F3
 {
     mangled_assert("?CommandModeToCommand@MainUIImpl@@QAE?AW4CommandType@@XZ");
     todo("implement");
-    CommandType __result = _sub_4545F3(this);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern float _sub_454CD7(Sob *);
 _static float muiBlobSensorsEquipped(Sob *obj) // 0x454CD7
 {
     mangled_assert("muiBlobSensorsEquipped");
     todo("implement");
-    float __result = _sub_454CD7(obj);
-    return __result;
 }
 
-_extern float _sub_454CCB(Sob *);
 _static float muiBlobResource(Sob *obj) // 0x454CCB
 {
     mangled_assert("muiBlobResource");
     todo("implement");
-    float __result = _sub_454CCB(obj);
-    return __result;
 }
 #endif

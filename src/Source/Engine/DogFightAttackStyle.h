@@ -64,65 +64,46 @@ static_assert(sizeof(DogFightAttackStyle) == 148, "Invalid DogFightAttackStyle s
 
 /* ---------- public code */
 
-_extern void _sub_6AF370(DogFightStatic *const);
 _inline DogFightStatic::~DogFightStatic() // 0x6AF370
 {
     mangled_assert("??1DogFightStatic@@UAE@XZ");
     todo("implement");
-    _sub_6AF370(this);
 }
 
-_extern void _sub_6AF3C3(DogFightAttackStyle *const);
 _inline void DogFightAttackStyle::SetStateToStart() // 0x6AF3C3
 {
     mangled_assert("?SetStateToStart@DogFightAttackStyle@@UAEXXZ");
     todo("implement");
-    _sub_6AF3C3(this);
 }
 
-_extern AttackStyle::AttackStyleType _sub_6AF3BF(DogFightAttackStyle const *const);
 _inline AttackStyle::AttackStyleType DogFightAttackStyle::GetType() const // 0x6AF3BF
 {
     mangled_assert("?GetType@DogFightAttackStyle@@UBE?AW4AttackStyleType@AttackStyle@@XZ");
     todo("implement");
-    AttackStyle::AttackStyleType __result = _sub_6AF3BF(this);
-    return __result;
 }
 
-_extern bool _sub_6AF3D3(DogFightAttackStyle *const);
 _inline bool DogFightAttackStyle::doesAttackStyleDictateTargetPoint() // 0x6AF3D3
 {
     mangled_assert("?doesAttackStyleDictateTargetPoint@DogFightAttackStyle@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6AF3D3(this);
-    return __result;
 }
 
-_extern DogFightStatic const *_sub_6AF3D6(DogFightAttackStyle const *const);
 _inline DogFightStatic const *DogFightAttackStyle::getStaticInfo() const // 0x6AF3D6
 {
     mangled_assert("?getStaticInfo@DogFightAttackStyle@@IBEPBVDogFightStatic@@XZ");
     todo("implement");
-    DogFightStatic const * __result = _sub_6AF3D6(this);
-    return __result;
 }
 
-_extern bool _sub_6AF3DB(DogFightAttackStyle *const);
 _inline bool DogFightAttackStyle::isDeterministic() // 0x6AF3DB
 {
     mangled_assert("?isDeterministic@DogFightAttackStyle@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6AF3DB(this);
-    return __result;
 }
 
-_extern char const *_sub_6AF49C(DogFightAttackStyle *const);
 _inline char const *DogFightAttackStyle::saveToken() // 0x6AF49C
 {
     mangled_assert("?saveToken@DogFightAttackStyle@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6AF49C(this);
-    return __result;
 }
 
 /* ---------- private code */

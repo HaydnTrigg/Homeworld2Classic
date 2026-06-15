@@ -33,12 +33,10 @@ static_assert(sizeof(CpuPlayer) == 4, "Invalid CpuPlayer size");
 
 /* ---------- public code */
 
-_extern void _sub_541719(CpuPlayer *const);
 _inline CpuPlayer::~CpuPlayer() // 0x541719
 {
     mangled_assert("??1CpuPlayer@@UAE@XZ");
     todo("implement");
-    _sub_541719(this);
 }
 
 /* ---------- private code */

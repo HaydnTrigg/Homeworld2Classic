@@ -56,49 +56,34 @@ static_assert(sizeof(FormationLaunchCommand) == 52, "Invalid FormationLaunchComm
 
 /* ---------- public code */
 
-_extern Sob *_sub_6B1BE8(FormationLaunchCommand const *const);
 _inline Sob *FormationLaunchCommand::getSobToNotAvoid() const // 0x6B1BE8
 {
     mangled_assert("?getSobToNotAvoid@FormationLaunchCommand@@UBEPAVSob@@XZ");
     todo("implement");
-    Sob * __result = _sub_6B1BE8(this);
-    return __result;
 }
 
-_extern Sob *_sub_6B1BF0(FormationLaunchCommand const *const);
 _inline Sob *FormationLaunchCommand::getSobToNotCollideWith() const // 0x6B1BF0
 {
     mangled_assert("?getSobToNotCollideWith@FormationLaunchCommand@@UBEPAVSob@@XZ");
     todo("implement");
-    Sob * __result = _sub_6B1BF0(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_6A2902(FormationLaunchCommand const *const);
 _inline unsigned __int32 FormationLaunchCommand::getCurrentLaunchPointID() const // 0x6A2902
 {
     mangled_assert("?getCurrentLaunchPointID@FormationLaunchCommand@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_6A2902(this);
-    return __result;
 }
 
-_extern bool _sub_6B1BFC(FormationLaunchCommand *const);
 _inline bool FormationLaunchCommand::isDeterministic() // 0x6B1BFC
 {
     mangled_assert("?isDeterministic@FormationLaunchCommand@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6B1BFC(this);
-    return __result;
 }
 
-_extern char const *_sub_6B1C98(FormationLaunchCommand *const);
 _inline char const *FormationLaunchCommand::saveToken() // 0x6B1C98
 {
     mangled_assert("?saveToken@FormationLaunchCommand@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6B1C98(this);
-    return __result;
 }
 
 /* ---------- private code */

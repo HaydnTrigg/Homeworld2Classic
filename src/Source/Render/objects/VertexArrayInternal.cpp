@@ -135,183 +135,131 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_100AD4C0(VertexArrayVBO *const);
 VertexArrayVBO::VertexArrayVBO() // 0x100AD4C0
 {
     mangled_assert("??0VertexArrayVBO@@QAE@XZ");
     todo("implement");
-    _sub_100AD4C0(this);
 }
 
-_extern void _sub_100ADA90(VertexArrayVBO *const, VertexBufferObjectUsage);
 void VertexArrayVBO::setUsage(VertexBufferObjectUsage) // 0x100ADA90
 {
     mangled_assert("?setUsage@VertexArrayVBO@@QAEXW4VertexBufferObjectUsage@@@Z");
     todo("implement");
-    _sub_100ADA90(this, arg);
 }
 
-_extern void _sub_100AD5C0(VertexArrayVBO *const, rndTable &, unsigned __int32, __int32);
 void VertexArrayVBO::create(rndTable &, unsigned __int32, __int32) // 0x100AD5C0
 {
     mangled_assert("?create@VertexArrayVBO@@UAEXAAUrndTable@@IH@Z");
     todo("implement");
-    _sub_100AD5C0(this, arg, arg, arg);
 }
 
-_extern void _sub_100AD610(VertexArrayVBO *const, rndTable &);
 void VertexArrayVBO::destroy(rndTable &) // 0x100AD610
 {
     mangled_assert("?destroy@VertexArrayVBO@@UAEXAAUrndTable@@@Z");
     todo("implement");
-    _sub_100AD610(this, arg);
 }
 
-_extern VertexBufferDescriptor const *_sub_100AD9D0(VertexArrayVBO *const, rndTable &, unsigned __int32, __int32, __int32);
 VertexBufferDescriptor const *VertexArrayVBO::lock(rndTable &, unsigned __int32, __int32, __int32) // 0x100AD9D0
 {
     mangled_assert("?lock@VertexArrayVBO@@UAEPBUVertexBufferDescriptor@@AAUrndTable@@IHH@Z");
     todo("implement");
-    VertexBufferDescriptor const * __result = _sub_100AD9D0(this, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_100ADB00(VertexArrayVBO *const, rndTable &, unsigned __int32, __int32, __int32);
 bool VertexArrayVBO::unlock(rndTable &, unsigned __int32, __int32, __int32) // 0x100ADB00
 {
     mangled_assert("?unlock@VertexArrayVBO@@UAE_NAAUrndTable@@IHH@Z");
     todo("implement");
-    bool __result = _sub_100ADB00(this, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_100AD540(VertexArrayVBO *const, rndTable &, unsigned __int32, __int32, __int32);
 bool VertexArrayVBO::apply(rndTable &, unsigned __int32, __int32, __int32) // 0x100AD540
 {
     mangled_assert("?apply@VertexArrayVBO@@UAE_NAAUrndTable@@IHH@Z");
     todo("implement");
-    bool __result = _sub_100AD540(this, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_100ADAC0(VertexArrayVBO *const, rndTable &, unsigned __int32);
 bool VertexArrayVBO::unapply(rndTable &, unsigned __int32) // 0x100ADAC0
 {
     mangled_assert("?unapply@VertexArrayVBO@@UAE_NAAUrndTable@@I@Z");
     todo("implement");
-    bool __result = _sub_100ADAC0(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_100ADA70(VertexArrayVBO *const, rndTable &, unsigned __int32);
 bool VertexArrayVBO::reapply(rndTable &, unsigned __int32) // 0x100ADA70
 {
     mangled_assert("?reapply@VertexArrayVBO@@UAE_NAAUrndTable@@I@Z");
     todo("implement");
-    bool __result = _sub_100ADA70(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_100ADB70(VertexArrayVBO *const, rndTable &, unsigned __int32, __int32, unsigned __int32, unsigned __int32, FatVertex *);
 void VertexArrayVBO::writeVertexRange(rndTable &, unsigned __int32, __int32, unsigned __int32, unsigned __int32, FatVertex *) // 0x100ADB70
 {
     mangled_assert("?writeVertexRange@VertexArrayVBO@@UAEXAAUrndTable@@IHIIPAUFatVertex@@@Z");
     todo("implement");
-    _sub_100ADB70(this, arg, arg, arg, arg, arg, arg);
 }
 
-_extern _sub_100AD4A0(VertexArrayBasic *const);
 VertexArrayBasic::VertexArrayBasic() // 0x100AD4A0
 {
     mangled_assert("??0VertexArrayBasic@@QAE@XZ");
     todo("implement");
-    _sub_100AD4A0(this);
 }
 
-_extern _sub_100AD4B0(VertexArrayI *const);
 _inline VertexArrayI::VertexArrayI() // 0x100AD4B0
 {
     mangled_assert("??0VertexArrayI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_100AD4B0(this);
 }
 
-_extern void _sub_100AD590(VertexArrayBasic *const, rndTable &, unsigned __int32, __int32);
 void VertexArrayBasic::create(rndTable &, unsigned __int32, __int32) // 0x100AD590
 {
     mangled_assert("?create@VertexArrayBasic@@UAEXAAUrndTable@@IH@Z");
     todo("implement");
-    _sub_100AD590(this, arg, arg, arg);
 }
 
-_extern void _sub_100AD5E0(VertexArrayBasic *const, rndTable &);
 void VertexArrayBasic::destroy(rndTable &) // 0x100AD5E0
 {
     mangled_assert("?destroy@VertexArrayBasic@@UAEXAAUrndTable@@@Z");
     todo("implement");
-    _sub_100AD5E0(this, arg);
 }
 
-_extern VertexBufferDescriptor const *_sub_100AD9B0(VertexArrayBasic *const, rndTable &, unsigned __int32, __int32, __int32);
 VertexBufferDescriptor const *VertexArrayBasic::lock(rndTable &, unsigned __int32, __int32, __int32) // 0x100AD9B0
 {
     mangled_assert("?lock@VertexArrayBasic@@UAEPBUVertexBufferDescriptor@@AAUrndTable@@IHH@Z");
     todo("implement");
-    VertexBufferDescriptor const * __result = _sub_100AD9B0(this, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_100ADAE0(VertexArrayBasic *const, rndTable &, unsigned __int32, __int32, __int32);
 bool VertexArrayBasic::unlock(rndTable &, unsigned __int32, __int32, __int32) // 0x100ADAE0
 {
     mangled_assert("?unlock@VertexArrayBasic@@UAE_NAAUrndTable@@IHH@Z");
     todo("implement");
-    bool __result = _sub_100ADAE0(this, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_100AD520(VertexArrayBasic *const, rndTable &, unsigned __int32, __int32, __int32);
 bool VertexArrayBasic::apply(rndTable &, unsigned __int32, __int32, __int32) // 0x100AD520
 {
     mangled_assert("?apply@VertexArrayBasic@@UAE_NAAUrndTable@@IHH@Z");
     todo("implement");
-    bool __result = _sub_100AD520(this, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_100ADAA0(VertexArrayBasic *const, rndTable &, unsigned __int32);
 bool VertexArrayBasic::unapply(rndTable &, unsigned __int32) // 0x100ADAA0
 {
     mangled_assert("?unapply@VertexArrayBasic@@UAE_NAAUrndTable@@I@Z");
     todo("implement");
-    bool __result = _sub_100ADAA0(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_100ADA50(VertexArrayBasic *const, rndTable &, unsigned __int32);
 bool VertexArrayBasic::reapply(rndTable &, unsigned __int32) // 0x100ADA50
 {
     mangled_assert("?reapply@VertexArrayBasic@@UAE_NAAUrndTable@@I@Z");
     todo("implement");
-    bool __result = _sub_100ADA50(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_100ADB20(VertexArrayBasic *const, rndTable &, unsigned __int32, __int32, unsigned __int32, unsigned __int32, FatVertex *);
 void VertexArrayBasic::writeVertexRange(rndTable &, unsigned __int32, __int32, unsigned __int32, unsigned __int32, FatVertex *) // 0x100ADB20
 {
     mangled_assert("?writeVertexRange@VertexArrayBasic@@UAEXAAUrndTable@@IHIIPAUFatVertex@@@Z");
     todo("implement");
-    _sub_100ADB20(this, arg, arg, arg, arg, arg, arg);
 }
 
-_extern void _sub_100AD640(unsigned __int32, __int32, __int32, VertexBufferDescriptor const *, FatVertex *);
 void doWriteVertexRange(unsigned __int32 mask, __int32 start, __int32 count, VertexBufferDescriptor const *vbInfo, FatVertex *fatData) // 0x100AD640
 {
     mangled_assert("?doWriteVertexRange@@YGXIHHPBUVertexBufferDescriptor@@PAUFatVertex@@@Z");
     todo("implement");
-    _sub_100AD640(mask, start, count, vbInfo, fatData);
 }
 
 /* ---------- private code */

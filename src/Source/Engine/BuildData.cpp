@@ -130,97 +130,70 @@ extern SaveData const BuildData::m_saveData[11]; // 0x7A7258
 
 /* ---------- public code */
 
-_extern _sub_5CC1FF(BuildData *const);
 BuildData::BuildData() // 0x5CC1FF
 {
     mangled_assert("??0BuildData@@AAE@XZ");
     todo("implement");
-    _sub_5CC1FF(this);
 }
 
-_extern void _sub_5CC28D(BuildData *const);
 BuildData::~BuildData() // 0x5CC28D
 {
     mangled_assert("??1BuildData@@UAE@XZ");
     todo("implement");
-    _sub_5CC28D(this);
 }
 
-_extern bool _sub_5CC62F(BuildData const *const, Ship *);
 bool BuildData::allDependenciesMetNoBuild(Ship *) const // 0x5CC62F
 {
     mangled_assert("?allDependenciesMetNoBuild@BuildData@@QBE_NPAVShip@@@Z");
     todo("implement");
-    bool __result = _sub_5CC62F(this, arg);
-    return __result;
 }
 
-_extern bool _sub_5CC5D3(BuildData const *const, Ship *);
 bool BuildData::allDependenciesMet(Ship *) const // 0x5CC5D3
 {
     mangled_assert("?allDependenciesMet@BuildData@@UBE_NPAVShip@@@Z");
     todo("implement");
-    bool __result = _sub_5CC5D3(this, arg);
-    return __result;
 }
 
-_extern SubSystemType _sub_5CC65E(BuildData *const);
 SubSystemType BuildData::getSubSystemType() // 0x5CC65E
 {
     mangled_assert("?getSubSystemType@BuildData@@QAE?AW4SubSystemType@@XZ");
     todo("implement");
-    SubSystemType __result = _sub_5CC65E(this);
-    return __result;
 }
 
-_extern void _sub_5CC2DA(LuaConfig &, Player *);
 void BuildData::CreateBuildData(LuaConfig &lc, Player *player) // 0x5CC2DA
 {
     mangled_assert("?CreateBuildData@BuildData@@SGXAAVLuaConfig@@PAVPlayer@@@Z");
     todo("implement");
-    _sub_5CC2DA(lc, player);
 }
 
-_extern _sub_5CC243(BuildData *const, SaveGameData *);
 BuildData::BuildData(SaveGameData *) // 0x5CC243
 {
     mangled_assert("??0BuildData@@QAE@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_5CC243(this, arg);
 }
 
-_extern void _sub_5CC634(BuildData *const);
 void BuildData::defaultSettings() // 0x5CC634
 {
     mangled_assert("?defaultSettings@BuildData@@QAEXXZ");
     todo("implement");
-    _sub_5CC634(this);
 }
 
-_extern void _sub_5CC69F(BuildData *const);
 void BuildData::postRestore() // 0x5CC69F
 {
     mangled_assert("?postRestore@BuildData@@UAEXXZ");
     todo("implement");
-    _sub_5CC69F(this);
 }
 
-_extern bool _sub_5CC6E5(BuildData *const, SaveGameData *);
 bool BuildData::restore(SaveGameData *) // 0x5CC6E5
 {
     mangled_assert("?restore@BuildData@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_5CC6E5(this, arg);
-    return __result;
 }
 
-_extern bool _sub_5CC732(BuildData *const, SaveGameData *, SaveType);
 bool BuildData::save(SaveGameData *, SaveType) // 0x5CC732
 {
     mangled_assert("?save@BuildData@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_5CC732(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

@@ -82,40 +82,28 @@ static_assert(sizeof(NURBSCurve) == 68, "Invalid NURBSCurve size");
 
 /* ---------- public code */
 
-_extern unsigned __int32 _sub_5541F1(NURBSCurve const *const);
 _inline unsigned __int32 NURBSCurve::getDegree() const // 0x5541F1
 {
     mangled_assert("?getDegree@NURBSCurve@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_5541F1(this);
-    return __result;
 }
 
-_extern float _sub_60FB4E(NURBSCurve const *const);
 _inline float NURBSCurve::getKnotMin() const // 0x60FB4E
 {
     mangled_assert("?getKnotMin@NURBSCurve@@QBEMXZ");
     todo("implement");
-    float __result = _sub_60FB4E(this);
-    return __result;
 }
 
-_extern float _sub_60FB4A(NURBSCurve const *const);
 _inline float NURBSCurve::getKnotMax() const // 0x60FB4A
 {
     mangled_assert("?getKnotMax@NURBSCurve@@QBEMXZ");
     todo("implement");
-    float __result = _sub_60FB4A(this);
-    return __result;
 }
 
-_extern float _sub_55455C(NURBSCurve const *const);
 _inline float NURBSCurve::getPrecomputedTotalLength() const // 0x55455C
 {
     mangled_assert("?getPrecomputedTotalLength@NURBSCurve@@QBEMXZ");
     todo("implement");
-    float __result = _sub_55455C(this);
-    return __result;
 }
 
 /* ---------- private code */

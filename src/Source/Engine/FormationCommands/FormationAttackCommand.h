@@ -52,31 +52,22 @@ static_assert(sizeof(FormationAttackCommand) == 76, "Invalid FormationAttackComm
 
 /* ---------- public code */
 
-_extern bool _sub_6B554E(FormationAttackCommand const *const);
 _inline bool FormationAttackCommand::firstUpdate() const // 0x6B554E
 {
     mangled_assert("?firstUpdate@FormationAttackCommand@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_6B554E(this);
-    return __result;
 }
 
-_extern bool _sub_6B0FC8(FormationAttackCommand *const);
 _inline bool FormationAttackCommand::isDeterministic() // 0x6B0FC8
 {
     mangled_assert("?isDeterministic@FormationAttackCommand@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6B0FC8(this);
-    return __result;
 }
 
-_extern char const *_sub_6B1064(FormationAttackCommand *const);
 _inline char const *FormationAttackCommand::saveToken() // 0x6B1064
 {
     mangled_assert("?saveToken@FormationAttackCommand@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6B1064(this);
-    return __result;
 }
 
 /* ---------- private code */

@@ -111,155 +111,112 @@ _static
 
 /* ---------- public code */
 
-_extern RawMesh *_sub_1008D170();
 RawMesh *RawMesh::create() // 0x1008D170
 {
     mangled_assert("?create@RawMesh@@SGPAV1@XZ");
     todo("implement");
-    RawMesh * __result = _sub_1008D170();
-    return __result;
 }
 
-_extern void _sub_1008CD60(RawMesh *const);
 void RawMesh::PurgeAll() // 0x1008CD60
 {
     mangled_assert("?PurgeAll@RawMesh@@QAEXXZ");
     todo("implement");
-    _sub_1008CD60(this);
 }
 
-_extern void _sub_1008C2C0(RawMesh *const, OptPoly &);
 void RawMesh::AppendOptPoly(OptPoly &) // 0x1008C2C0
 {
     mangled_assert("?AppendOptPoly@RawMesh@@QAEXAAUOptPoly@@@Z");
     todo("implement");
-    _sub_1008C2C0(this, arg);
 }
 
-_extern void _sub_1008C340(RawMesh *const, vector3 &);
 void RawMesh::AppendOptVert(vector3 &) // 0x1008C340
 {
     mangled_assert("?AppendOptVert@RawMesh@@QAEXAAVvector3@@@Z");
     todo("implement");
-    _sub_1008C340(this, arg);
 }
 
-_extern void _sub_1008C280(RawMesh *const, vector3 &);
 void RawMesh::AppendOptNorm(vector3 &) // 0x1008C280
 {
     mangled_assert("?AppendOptNorm@RawMesh@@QAEXAAVvector3@@@Z");
     todo("implement");
-    _sub_1008C280(this, arg);
 }
 
-_extern void _sub_1008C300(RawMesh *const, vector2 &);
 void RawMesh::AppendOptUV(vector2 &) // 0x1008C300
 {
     mangled_assert("?AppendOptUV@RawMesh@@QAEXAAVvector2@@@Z");
     todo("implement");
-    _sub_1008C300(this, arg);
 }
 
-_extern void _sub_1008C380(RawMesh *const, RawPoly &);
 void RawMesh::AppendPoly(RawPoly &) // 0x1008C380
 {
     mangled_assert("?AppendPoly@RawMesh@@QAEXAAURawPoly@@@Z");
     todo("implement");
-    _sub_1008C380(this, arg);
 }
 
-_extern __int32 _sub_1008C4E0(RawMesh *const, vector3 &);
 __int32 RawMesh::AppendVert(vector3 &) // 0x1008C4E0
 {
     mangled_assert("?AppendVert@RawMesh@@QAEHAAVvector3@@@Z");
     todo("implement");
-    __int32 __result = _sub_1008C4E0(this, arg);
-    return __result;
 }
 
-_extern __int32 _sub_1008C3C0(RawMesh *const, vector2 &);
 __int32 RawMesh::AppendUV(vector2 &) // 0x1008C3C0
 {
     mangled_assert("?AppendUV@RawMesh@@QAEHAAVvector2@@@Z");
     todo("implement");
-    __int32 __result = _sub_1008C3C0(this, arg);
-    return __result;
 }
 
-_extern __int32 _sub_1008C130(RawMesh *const, vector3 &);
 __int32 RawMesh::AppendNorm(vector3 &) // 0x1008C130
 {
     mangled_assert("?AppendNorm@RawMesh@@QAEHAAVvector3@@@Z");
     todo("implement");
-    __int32 __result = _sub_1008C130(this, arg);
-    return __result;
 }
 
-_extern float _sub_1008D940(vector3 &);
 _inline float v3_magnitude(vector3 &v) // 0x1008D940
 {
     mangled_assert("?v3_magnitude@@YGMAAVvector3@@@Z");
     todo("implement");
-    float __result = _sub_1008D940(v);
-    return __result;
 }
 
-_extern void _sub_1008D990(vector3 &);
 _inline void v3_normalize(vector3 &v) // 0x1008D990
 {
     mangled_assert("?v3_normalize@@YGXAAVvector3@@@Z");
     todo("implement");
-    _sub_1008D990(v);
 }
 
-_extern void _sub_1008D8D0(vector3 &, vector3 &, vector3 &);
 _inline void v3_cross(vector3 &c, vector3 &a, vector3 &b) // 0x1008D8D0
 {
     mangled_assert("?v3_cross@@YGXAAVvector3@@00@Z");
     todo("implement");
-    _sub_1008D8D0(c, a, b);
 }
 
-_extern void _sub_1008C640(RawMesh *const);
 void RawMesh::ComputeFaceNormals() // 0x1008C640
 {
     mangled_assert("?ComputeFaceNormals@RawMesh@@QAEXXZ");
     todo("implement");
-    _sub_1008C640(this);
 }
 
-_extern void _sub_1008C7E0(RawMesh *const);
 void RawMesh::ComputeVertexNormals() // 0x1008C7E0
 {
     mangled_assert("?ComputeVertexNormals@RawMesh@@QAEXXZ");
     todo("implement");
-    _sub_1008C7E0(this);
 }
 
-_extern __int32 _sub_1008C630(void const *, void const *);
 __int32 ComparePolyMats(void const *p1, void const *p2) // 0x1008C630
 {
     mangled_assert("?ComparePolyMats@@YAHPBX0@Z");
     todo("implement");
-    __int32 __result = _sub_1008C630(p1, p2);
-    return __result;
 }
 
-_extern void _sub_1008CC20(RawMesh *const);
 void RawMesh::Optimize() // 0x1008CC20
 {
     mangled_assert("?Optimize@RawMesh@@QAEXXZ");
     todo("implement");
-    _sub_1008CC20(this);
 }
 
-_extern Geometry *_sub_1008D1A0(RawMesh *const, __int32, Material **, bool);
 Geometry *RawMesh::produceGeometry(__int32, Material **, bool) // 0x1008D1A0
 {
     mangled_assert("?produceGeometry@RawMesh@@QAEPAVGeometry@@HQAPAVMaterial@@_N@Z");
     todo("implement");
-    Geometry * __result = _sub_1008D1A0(this, arg, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

@@ -79,20 +79,16 @@ static_assert(sizeof(Recycler) == 44, "Invalid Recycler size");
 
 /* ---------- public code */
 
-_extern void _sub_624930(Recyclable *const);
 _inline void Recyclable::recycleReinitialize() // 0x624930
 {
     mangled_assert("?recycleReinitialize@Recyclable@@UAEXXZ");
     todo("implement");
-    _sub_624930(this);
 }
 
-_extern void _sub_62492F(Recyclable *const);
 _inline void Recyclable::recycleFree() // 0x62492F
 {
     mangled_assert("?recycleFree@Recyclable@@UAEXXZ");
     todo("implement");
-    _sub_62492F(this);
 }
 
 /* ---------- private code */

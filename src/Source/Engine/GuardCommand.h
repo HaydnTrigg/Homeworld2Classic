@@ -166,40 +166,28 @@ static_assert(sizeof(GuardCommandStaticInfo) == 16, "Invalid GuardCommandStaticI
 
 /* ---------- public code */
 
-_extern Selection const &_sub_71CBC2(GuardCommand const *const);
 _inline Selection const &GuardCommand::getGuardTargets() const // 0x71CBC2
 {
     mangled_assert("?getGuardTargets@GuardCommand@@QBEABVSelection@@XZ");
     todo("implement");
-    Selection const & __result = _sub_71CBC2(this);
-    return __result;
 }
 
-_extern SobID const &_sub_69A198(GuardCommand const *const);
 _inline SobID const &GuardCommand::getCurrentTarget() const // 0x69A198
 {
     mangled_assert("?getCurrentTarget@GuardCommand@@QBEABVSobID@@XZ");
     todo("implement");
-    SobID const & __result = _sub_69A198(this);
-    return __result;
 }
 
-_extern bool _sub_6A98C1(GuardCommand *const);
 _inline bool GuardCommand::isDeterministic() // 0x6A98C1
 {
     mangled_assert("?isDeterministic@GuardCommand@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6A98C1(this);
-    return __result;
 }
 
-_extern char const *_sub_6A99BB(GuardCommand *const);
 _inline char const *GuardCommand::saveToken() // 0x6A99BB
 {
     mangled_assert("?saveToken@GuardCommand@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6A99BB(this);
-    return __result;
 }
 
 /* ---------- private code */

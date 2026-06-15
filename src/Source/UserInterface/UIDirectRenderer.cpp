@@ -113,177 +113,134 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_68AE89(UIDirectRenderer::StatEntry *const, UIDirectRenderer::StatEntry const &);
 _inline UIDirectRenderer::StatEntry::StatEntry(UIDirectRenderer::StatEntry const &) // 0x68AE89
 {
     mangled_assert("??0StatEntry@UIDirectRenderer@@QAE@ABU01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_68AE89(this, arg);
 }
 
-_extern _sub_68AEAA(UIDirectRenderer::StatEntry *const);
 _inline UIDirectRenderer::StatEntry::StatEntry() // 0x68AEAA
 {
     mangled_assert("??0StatEntry@UIDirectRenderer@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_68AEAA(this);
 }
 
-_extern _sub_68AEBB(UIDirectRenderer *const);
 UIDirectRenderer::UIDirectRenderer() // 0x68AEBB
 {
     mangled_assert("??0UIDirectRenderer@@QAE@XZ");
     todo("implement");
-    _sub_68AEBB(this);
 }
 
-_extern void _sub_68AF34(UIDirectRenderer::StatEntry *const);
 _inline UIDirectRenderer::StatEntry::~StatEntry() // 0x68AF34
 {
     mangled_assert("??1StatEntry@UIDirectRenderer@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_68AF34(this);
 }
 
-_extern void _sub_68AF39(UIDirectRenderer *const);
 UIDirectRenderer::~UIDirectRenderer() // 0x68AF39
 {
     mangled_assert("??1UIDirectRenderer@@UAE@XZ");
     todo("implement");
-    _sub_68AF39(this);
 }
 
-_extern void _sub_68B1B5(UIDirectRenderer *const);
 void UIDirectRenderer::RenderBegin() // 0x68B1B5
 {
     mangled_assert("?RenderBegin@UIDirectRenderer@@UAEXXZ");
     todo("implement");
-    _sub_68B1B5(this);
 }
 
-_extern void _sub_68B21D(UIDirectRenderer *const);
 void UIDirectRenderer::RenderEnd() // 0x68B21D
 {
     mangled_assert("?RenderEnd@UIDirectRenderer@@UAEXXZ");
     todo("implement");
-    _sub_68B21D(this);
 }
 
-_extern void _sub_68B0BE(UIDirectRenderer *const);
 void UIDirectRenderer::InitShaders() // 0x68B0BE
 {
     mangled_assert("?InitShaders@UIDirectRenderer@@AAEXXZ");
     todo("implement");
-    _sub_68B0BE(this);
 }
 
-_extern void _sub_68B282(UIDirectRenderer *const, FatVertex *);
 void UIDirectRenderer::RenderQuad(FatVertex *) // 0x68B282
 {
     mangled_assert("?RenderQuad@UIDirectRenderer@@UAEXPAUFatVertex@@@Z");
     todo("implement");
-    _sub_68B282(this, arg);
 }
 
-_extern void _sub_68B2FF(UIDirectRenderer *const, FatVertex *, Texture *);
 void UIDirectRenderer::RenderQuad(FatVertex *, Texture *) // 0x68B2FF
 {
     mangled_assert("?RenderQuad@UIDirectRenderer@@UAEXPAUFatVertex@@PAVTexture@@@Z");
     todo("implement");
-    _sub_68B2FF(this, arg, arg);
 }
 
-_extern void _sub_68B39D(UIDirectRenderer *const, FatVertex *, Texture *, UIRenderProxy::ShaderType);
 void UIDirectRenderer::RenderQuad(FatVertex *, Texture *, UIRenderProxy::ShaderType) // 0x68B39D
 {
     mangled_assert("?RenderQuad@UIDirectRenderer@@UAEXPAUFatVertex@@PAVTexture@@W4ShaderType@UIRenderProxy@@@Z");
     todo("implement");
-    _sub_68B39D(this, arg, arg, arg);
 }
 
-_extern void _sub_68B4E2(UIDirectRenderer *const, UI::NewText const &, unsigned __int32);
 void UIDirectRenderer::RenderText(UI::NewText const &, unsigned __int32) // 0x68B4E2
 {
     mangled_assert("?RenderText@UIDirectRenderer@@UAEXABVNewText@UI@@I@Z");
     todo("implement");
-    _sub_68B4E2(this, arg, arg);
 }
 
-_extern void _sub_68B69C(UIDirectRenderer *const, float, float, char const *, UIText &);
 void UIDirectRenderer::RenderText(float, float, char const *, UIText &) // 0x68B69C
 {
     mangled_assert("?RenderText@UIDirectRenderer@@UAEXMMPBDAAUUIText@@@Z");
     todo("implement");
-    _sub_68B69C(this, arg, arg, arg, arg);
 }
 
-_extern void _sub_68B21E(UIDirectRenderer *const, FatVertex *);
 void UIDirectRenderer::RenderLine(FatVertex *) // 0x68B21E
 {
     mangled_assert("?RenderLine@UIDirectRenderer@@UAEXPAUFatVertex@@@Z");
     todo("implement");
-    _sub_68B21E(this, arg);
 }
 
-_extern void _sub_68B1C3(UIDirectRenderer *const, UICustom const *);
 void UIDirectRenderer::RenderCustom(UICustom const *) // 0x68B1C3
 {
     mangled_assert("?RenderCustom@UIDirectRenderer@@UAEXPBUUICustom@@@Z");
     todo("implement");
-    _sub_68B1C3(this, arg);
 }
 
-_extern void _sub_68B063(UIDirectRenderer *const, vector4 const &);
 void UIDirectRenderer::EnableClipping(vector4 const &) // 0x68B063
 {
     mangled_assert("?EnableClipping@UIDirectRenderer@@UAEXABVvector4@@@Z");
     todo("implement");
-    _sub_68B063(this, arg);
 }
 
-_extern void _sub_68B05E(UIDirectRenderer *const);
 void UIDirectRenderer::DisableClipping() // 0x68B05E
 {
     mangled_assert("?DisableClipping@UIDirectRenderer@@UAEXXZ");
     todo("implement");
-    _sub_68B05E(this);
 }
 
-_extern std::vector<UIDirectRenderer::StatEntry,std::allocator<UIDirectRenderer::StatEntry> > const &_sub_68B0B8();
 std::vector<UIDirectRenderer::StatEntry,std::allocator<UIDirectRenderer::StatEntry> > const &UIDirectRenderer::GetStat() // 0x68B0B8
 {
     mangled_assert("?GetStat@UIDirectRenderer@@SGABV?$vector@UStatEntry@UIDirectRenderer@@V?$allocator@UStatEntry@UIDirectRenderer@@@std@@@std@@XZ");
     todo("implement");
-    std::vector<UIDirectRenderer::StatEntry,std::allocator<UIDirectRenderer::StatEntry> > const & __result = _sub_68B0B8();
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern void _sub_68B03A();
 _static void ClearStats() // 0x68B03A
 {
     mangled_assert("ClearStats");
     todo("implement");
-    _sub_68B03A();
 }
 
-_extern void _sub_68B0DC();
 _static void InitStats() // 0x68B0DC
 {
     mangled_assert("InitStats");
     todo("implement");
-    _sub_68B0DC();
 }
 
-_extern void _sub_68B010(StatType, float);
 _static void AddStat(StatType type, float timeMS) // 0x68B010
 {
     mangled_assert("AddStat");
     todo("implement");
-    _sub_68B010(type, timeMS);
 }
 #endif

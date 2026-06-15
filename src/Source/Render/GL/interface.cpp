@@ -708,512 +708,362 @@ _static
 
 /* ---------- public code */
 
-_extern unsigned __int32 _sub_1000664D();
 unsigned __int32 getLibraryID() // 0x1000664D
 {
     mangled_assert("_getLibraryID");
     todo("implement");
-    unsigned __int32 __result = _sub_1000664D();
-    return __result;
 }
 
-_extern void _sub_10006326(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &);
 void rglSetError(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &_errorString) // 0x10006326
 {
     mangled_assert("?rglSetError@@YGXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    _sub_10006326(_errorString);
 }
 
-_extern void _sub_100062CE(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &);
 void rglSetError(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &err0, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &err1) // 0x100062CE
 {
     mangled_assert("?rglSetError@@YGXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z");
     todo("implement");
-    _sub_100062CE(err0, err1);
 }
 
-_extern void _sub_10006390(char const *);
 void rglSetError(char const *_errorString) // 0x10006390
 {
     mangled_assert("?rglSetError@@YGXPBD@Z");
     todo("implement");
-    _sub_10006390(_errorString);
 }
 
-_extern void _sub_10006343(char const *, char const *);
 void rglSetError(char const *err0, char const *err1) // 0x10006343
 {
     mangled_assert("?rglSetError@@YGXPBD0@Z");
     todo("implement");
-    _sub_10006343(err0, err1);
 }
 
-_extern void _sub_10005F58(std::basic_string<char,std::char_traits<char>,std::allocator<char> > &);
 void rglGetError(std::basic_string<char,std::char_traits<char>,std::allocator<char> > &_errorString) // 0x10005F58
 {
     mangled_assert("?rglGetError@@YGXAAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    _sub_10005F58(_errorString);
 }
 
-_extern char const *_sub_10005FD9(IdentifierString);
 char const *rglGetString(IdentifierString s) // 0x10005FD9
 {
     mangled_assert("?rglGetString@@YGPBDW4IdentifierString@@@Z");
     todo("implement");
-    char const * __result = _sub_10005FD9(s);
-    return __result;
 }
 
-_extern bool _sub_10003E98();
 bool GL_workedAroundBadDriver() // 0x10003E98
 {
     mangled_assert("?GL_workedAroundBadDriver@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_10003E98();
-    return __result;
 }
 
-_extern void _sub_10003E90();
 void GL_suppressDriverError() // 0x10003E90
 {
     mangled_assert("?GL_suppressDriverError@@YGXXZ");
     todo("implement");
-    _sub_10003E90();
 }
 
-_extern bool _sub_10003DBD();
 bool GL_disabledEmulatedFeatures() // 0x10003DBD
 {
     mangled_assert("?GL_disabledEmulatedFeatures@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_10003DBD();
-    return __result;
 }
 
-_extern unsigned __int32 _sub_10004F36();
 unsigned __int32 makeUniqueDeviceIdentifier() // 0x10004F36
 {
     mangled_assert("?makeUniqueDeviceIdentifier@@YGIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_10004F36();
-    return __result;
 }
 
-_extern bool _sub_10005E0D();
 bool rglEnumerateDevicesHelper() // 0x10005E0D
 {
     mangled_assert("?rglEnumerateDevicesHelper@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_10005E0D();
-    return __result;
 }
 
-_extern std::list<rndloDevice,std::allocator<rndloDevice> > const &_sub_10005DE4();
 std::list<rndloDevice,std::allocator<rndloDevice> > const &rglEnumerateDevices() // 0x10005DE4
 {
     mangled_assert("?rglEnumerateDevices@@YGABV?$list@UrndloDevice@@V?$allocator@UrndloDevice@@@std@@@std@@XZ");
     todo("implement");
-    std::list<rndloDevice,std::allocator<rndloDevice> > const & __result = _sub_10005DE4();
-    return __result;
 }
 
-_extern bool _sub_10003E37();
 bool GL_osNT() // 0x10003E37
 {
     mangled_assert("?GL_osNT@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_10003E37();
-    return __result;
 }
 
-_extern void *_sub_10004ED0(unsigned __int32);
 void *loadDevice(unsigned __int32 uniqueID) // 0x10004ED0
 {
     mangled_assert("?loadDevice@@YGPAXI@Z");
     todo("implement");
-    void * __result = _sub_10004ED0(uniqueID);
-    return __result;
 }
 
-_extern bool _sub_10005F2C();
 bool rglFreeDevice() // 0x10005F2C
 {
     mangled_assert("?rglFreeDevice@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_10005F2C();
-    return __result;
 }
 
-_extern bool _sub_10004CD8(glDynaloadTable *);
 bool glDynaload(glDynaloadTable *glTable) // 0x10004CD8
 {
     mangled_assert("?glDynaload@@YG_NPAUglDynaloadTable@@@Z");
     todo("implement");
-    bool __result = _sub_10004CD8(glTable);
-    return __result;
 }
 
-_extern void _sub_10004D49(glDynaloadTable *);
 void glsDynaload(glDynaloadTable *glTable) // 0x10004D49
 {
     mangled_assert("?glsDynaload@@YGXPAUglDynaloadTable@@@Z");
     todo("implement");
-    _sub_10004D49(glTable);
 }
 
-_extern bool _sub_1000626A(unsigned __int32);
 bool rglSelectDevice(unsigned __int32 uniqueID) // 0x1000626A
 {
     mangled_assert("?rglSelectDevice@@YG_NI@Z");
     todo("implement");
-    bool __result = _sub_1000626A(uniqueID);
-    return __result;
 }
 
-_extern bool _sub_10006571(unsigned __int32);
 bool setupPixelFormat(unsigned __int32 planes) // 0x10006571
 {
     mangled_assert("?setupPixelFormat@@YG_NI@Z");
     todo("implement");
-    bool __result = _sub_10006571(planes);
-    return __result;
 }
 
-_extern bool _sub_100064B3();
 bool rglSetupPalette() // 0x100064B3
 {
     mangled_assert("?rglSetupPalette@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_100064B3();
-    return __result;
 }
 
-_extern void _sub_10005FBD(PixelFormatDescriptor *);
 void rglGetPixelFormat(PixelFormatDescriptor *pfd) // 0x10005FBD
 {
     mangled_assert("?rglGetPixelFormat@@YGXPAUPixelFormatDescriptor@@@Z");
     todo("implement");
-    _sub_10005FBD(pfd);
 }
 
-_extern void _sub_1000649B(bool);
 void rglSetVSync(bool sync) // 0x1000649B
 {
     mangled_assert("?rglSetVSync@@YGX_N@Z");
     todo("implement");
-    _sub_1000649B(sync);
 }
 
-_extern bool _sub_10004D9D(char const *);
 bool haveExtension(char const *extName) // 0x10004D9D
 {
     mangled_assert("?haveExtension@@YG_NPBD@Z");
     todo("implement");
-    bool __result = _sub_10004D9D(extName);
-    return __result;
 }
 
-_extern float _sub_10006029(unsigned __int32 &, unsigned __int32 &, unsigned __int32 &);
 float rglGetVersion(unsigned __int32 &mainVersion, unsigned __int32 &subVersion, unsigned __int32 &revision) // 0x10006029
 {
     mangled_assert("?rglGetVersion@@YGMAAI00@Z");
     todo("implement");
-    float __result = _sub_10006029(mainVersion, subVersion, revision);
-    return __result;
 }
 
-_extern char const *_sub_10003E31();
 char const *GL_getSystemDir() // 0x10003E31
 {
     mangled_assert("?GL_getSystemDir@@YGPBDXZ");
     todo("implement");
-    char const * __result = _sub_10003E31();
-    return __result;
 }
 
-_extern bool _sub_10003DCA(char const *, unsigned __int32);
 bool GL_dllIsOlder(char const *name, unsigned __int32 version) // 0x10003DCA
 {
     mangled_assert("?GL_dllIsOlder@@YG_NPBDI@Z");
     todo("implement");
-    bool __result = _sub_10003DCA(name, version);
-    return __result;
 }
 
-_extern void _sub_10003E81(unsigned __int32);
 void GL_setAssumedDriverVersion(unsigned __int32 ver) // 0x10003E81
 {
     mangled_assert("?GL_setAssumedDriverVersion@@YGXI@Z");
     todo("implement");
-    _sub_10003E81(ver);
 }
 
-_extern void _sub_10003E6B(char const *);
 void GL_setAssumedDriverDLL(char const *dll) // 0x10003E6B
 {
     mangled_assert("?GL_setAssumedDriverDLL@@YGXPBD@Z");
     todo("implement");
-    _sub_10003E6B(dll);
 }
 
-_extern char const *_sub_10003E2B();
 char const *GL_getAssumedDriverDLL() // 0x10003E2B
 {
     mangled_assert("?GL_getAssumedDriverDLL@@YGPBDXZ");
     todo("implement");
-    char const * __result = _sub_10003E2B();
-    return __result;
 }
 
-_extern bool _sub_100061D3();
 bool rglNeedNewerDriver() // 0x100061D3
 {
     mangled_assert("?rglNeedNewerDriver@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_100061D3();
-    return __result;
 }
 
-_extern void _sub_10004FD1();
 void printRenderingInfo() // 0x10004FD1
 {
     mangled_assert("?printRenderingInfo@@YGXXZ");
     todo("implement");
-    _sub_10004FD1();
 }
 
-_extern bool _sub_10005618(unsigned __int32 const &, unsigned __int32 const &, unsigned __int32);
 bool rglAttachToWindow(unsigned __int32 const &win, unsigned __int32 const &instance, unsigned __int32 planes) // 0x10005618
 {
     mangled_assert("?rglAttachToWindow@@YG_NABI0I@Z");
     todo("implement");
-    bool __result = _sub_10005618(win, instance, planes);
-    return __result;
 }
 
-_extern bool _sub_10005D86();
 bool rglDetachFromWindow() // 0x10005D86
 {
     mangled_assert("?rglDetachFromWindow@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_10005D86();
-    return __result;
 }
 
-_extern void _sub_100063AE(float);
 void rglSetGamma(float gamma) // 0x100063AE
 {
     mangled_assert("?rglSetGamma@@YGXM@Z");
     todo("implement");
-    _sub_100063AE(gamma);
 }
 
-_extern float _sub_10005FB6();
 float rglGetGamma() // 0x10005FB6
 {
     mangled_assert("?rglGetGamma@@YGMXZ");
     todo("implement");
-    float __result = _sub_10005FB6();
-    return __result;
 }
 
-_extern _sub_10003A48(NameReference *const, char const *, long);
 _inline NameReference::NameReference(char const *, long) // 0x10003A48
 {
     mangled_assert("??0NameReference@@QAE@PBDJ@Z");
     todo("implement");
-    _sub_10003A48(this, arg, arg);
 }
 
-_extern _sub_10003A63(glState *const);
 _inline glState::glState() // 0x10003A63
 {
     mangled_assert("??0glState@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10003A63(this);
 }
 
-_extern _sub_10003A66(rndloDevice *const, rndloDevice const &);
 _inline rndloDevice::rndloDevice(rndloDevice const &) // 0x10003A66
 {
     mangled_assert("??0rndloDevice@@QAE@ABU0@@Z");
     compiler_generated();
     todo("implement");
-    _sub_10003A66(this, arg);
 }
 
-_extern _sub_10003AA9(rndloDevice *const);
 _inline rndloDevice::rndloDevice() // 0x10003AA9
 {
     mangled_assert("??0rndloDevice@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10003AA9(this);
 }
 
-_extern void _sub_10003AF4(std::_List_buy<std::pair<unsigned int const ,CapMapTable *>,std::allocator<std::pair<unsigned int const ,CapMapTable *> > > *const);
 _inline std::_List_buy<std::pair<unsigned int const ,CapMapTable *>,std::allocator<std::pair<unsigned int const ,CapMapTable *> > >::~_List_buy<std::pair<unsigned int const ,CapMapTable *>,std::allocator<std::pair<unsigned int const ,CapMapTable *> > >() // 0x10003AF4
 {
     mangled_assert("??1?$_List_buy@U?$pair@$$CBIPAUCapMapTable@@@std@@V?$allocator@U?$pair@$$CBIPAUCapMapTable@@@std@@@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10003AF4(this);
 }
 
-_extern void _sub_10003AFD(std::_List_buy<rndloDevice,std::allocator<rndloDevice> > *const);
 _inline std::_List_buy<rndloDevice,std::allocator<rndloDevice> >::~_List_buy<rndloDevice,std::allocator<rndloDevice> >() // 0x10003AFD
 {
     mangled_assert("??1?$_List_buy@UrndloDevice@@V?$allocator@UrndloDevice@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10003AFD(this);
 }
 
-_extern void _sub_10003B06(stdext::hash_map<unsigned int,CapMapTable *,stdext::hash_compare<unsigned int,std::less<unsigned int> >,std::allocator<std::pair<unsigned int const ,CapMapTable *> > > *const);
 _inline stdext::hash_map<unsigned int,CapMapTable *,stdext::hash_compare<unsigned int,std::less<unsigned int> >,std::allocator<std::pair<unsigned int const ,CapMapTable *> > >::~hash_map<unsigned int,CapMapTable *,stdext::hash_compare<unsigned int,std::less<unsigned int> >,std::allocator<std::pair<unsigned int const ,CapMapTable *> > >() // 0x10003B06
 {
     mangled_assert("??1?$hash_map@IPAUCapMapTable@@V?$hash_compare@IU?$less@I@std@@@stdext@@V?$allocator@U?$pair@$$CBIPAUCapMapTable@@@std@@@std@@@stdext@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10003B06(this);
 }
 
-_extern void _sub_10003B3E(NameReference *const);
 _inline NameReference::~NameReference() // 0x10003B3E
 {
     mangled_assert("??1NameReference@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10003B3E(this);
 }
 
-_extern void _sub_10003B43(rndloDevice *const);
 _inline rndloDevice::~rndloDevice() // 0x10003B43
 {
     mangled_assert("??1rndloDevice@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10003B43(this);
 }
 
-_extern char const *_sub_10005F85(long);
 char const *rglGetFunctionName(long address) // 0x10005F85
 {
     mangled_assert("?rglGetFunctionName@@YGPBDJ@Z");
     todo("implement");
-    char const * __result = _sub_10005F85(address);
-    return __result;
 }
 
-_extern bool _sub_1000653A();
 bool rglWorkedAroundBadDrivers() // 0x1000653A
 {
     mangled_assert("?rglWorkedAroundBadDrivers@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_1000653A();
-    return __result;
 }
 
-_extern bool _sub_10005DDE();
 bool rglDisabledEmulatedFeatures() // 0x10005DDE
 {
     mangled_assert("?rglDisabledEmulatedFeatures@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_10005DDE();
-    return __result;
 }
 
-_extern bool _sub_10005C94();
 bool rglCardIsPCI() // 0x10005C94
 {
     mangled_assert("?rglCardIsPCI@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_10005C94();
-    return __result;
 }
 
-_extern bool _sub_10006157(eMinSpec);
 bool rglMeetsMinSpec(eMinSpec requirement) // 0x10006157
 {
     mangled_assert("?rglMeetsMinSpec@@YG_NW4eMinSpec@@@Z");
     todo("implement");
-    bool __result = _sub_10006157(requirement);
-    return __result;
 }
 
-_extern bool _sub_10006651(void *);
 bool setupFunctionTable(void *fnTable) // 0x10006651
 {
     mangled_assert("_setupFunctionTable");
     todo("implement");
-    bool __result = _sub_10006651(fnTable);
-    return __result;
 }
 
-_extern __int32 _sub_10006624(void *, unsigned long, void *);
 __int32 DllMain(void *hInstance, unsigned long reason, void *reserved) // 0x10006624
 {
     mangled_assert("_DllMain@12");
     todo("implement");
-    __int32 __result = _sub_10006624(hInstance, reason, reserved);
-    return __result;
 }
 
-_extern _sub_10003A2A(NameReference *const, NameReference const &);
 _inline NameReference::NameReference(NameReference const &) // 0x10003A2A
 {
     mangled_assert("??0NameReference@@QAE@ABV0@@Z");
     compiler_generated();
     todo("implement");
-    _sub_10003A2A(this, arg);
 }
 
 /* ---------- private code */
 
-_extern void _sub_10004F9E();
 _static void ntFixup() // 0x10004F9E
 {
     mangled_assert("ntFixup");
     todo("implement");
-    _sub_10004F9E();
 }
 
-_extern std::basic_string<char,std::char_traits<char>,std::allocator<char> > _sub_10004B7D(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &);
 _static std::basic_string<char,std::char_traits<char>,std::allocator<char> > getDLLVersion(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &path, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &name) // 0x10004B7D
 {
     mangled_assert("getDLLVersion");
     todo("implement");
-    std::string __result = _sub_10004B7D(path, name);
-    return __result;
 }
 
-_extern bool _sub_10004966(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, unsigned __int32);
 _static bool dllIsOlder(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &path, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &name, unsigned __int32 minVersion) // 0x10004966
 {
     mangled_assert("dllIsOlder");
     todo("implement");
-    bool __result = _sub_10004966(path, name, minVersion);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_10004B77();
 _static unsigned __int32 getAssumedLatestDllVersion() // 0x10004B77
 {
     mangled_assert("getAssumedLatestDllVersion");
     todo("implement");
-    unsigned __int32 __result = _sub_10004B77();
-    return __result;
 }
 
-_extern bool _sub_100049D8();
 _static bool driverConfig() // 0x100049D8
 {
     mangled_assert("driverConfig");
     todo("implement");
-    bool __result = _sub_100049D8();
-    return __result;
 }
 #endif

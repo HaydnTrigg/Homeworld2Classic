@@ -103,172 +103,118 @@ static_assert(sizeof(InterpolSobData) == 160, "Invalid InterpolSobData size");
 
 /* ---------- public code */
 
-_extern float _sub_5F0FE3();
 _inline float Interpolator::getTotalTime() // 0x5F0FE3
 {
     mangled_assert("?getTotalTime@Interpolator@@SGMXZ");
     todo("implement");
-    float __result = _sub_5F0FE3();
-    return __result;
 }
 
-_extern float _sub_607DD5();
 _inline float Interpolator::getTimeElapsed() // 0x607DD5
 {
     mangled_assert("?getTimeElapsed@Interpolator@@SGMXZ");
     todo("implement");
-    float __result = _sub_607DD5();
-    return __result;
 }
 
-_extern float _sub_5F0FDC();
 _inline float Interpolator::getSimFraction() // 0x5F0FDC
 {
     mangled_assert("?getSimFraction@Interpolator@@SGMXZ");
     todo("implement");
-    float __result = _sub_5F0FDC();
-    return __result;
 }
 
-_extern float _sub_441BB2();
 _inline float Interpolator::getInterpolTime() // 0x441BB2
 {
     mangled_assert("?getInterpolTime@Interpolator@@SGMXZ");
     todo("implement");
-    float __result = _sub_441BB2();
-    return __result;
 }
 
-_extern float _sub_61BF7F();
 _inline float Interpolator::getRealInterpolTime() // 0x61BF7F
 {
     mangled_assert("?getRealInterpolTime@Interpolator@@SGMXZ");
     todo("implement");
-    float __result = _sub_61BF7F();
-    return __result;
 }
 
-_extern float _sub_54B968();
 _inline float Interpolator::getRenderTime() // 0x54B968
 {
     mangled_assert("?getRenderTime@Interpolator@@SGMXZ");
     todo("implement");
-    float __result = _sub_54B968();
-    return __result;
 }
 
-_extern float _sub_45A8B9();
 _inline float Interpolator::getTimeDistortion() // 0x45A8B9
 {
     mangled_assert("?getTimeDistortion@Interpolator@@SGMXZ");
     todo("implement");
-    float __result = _sub_45A8B9();
-    return __result;
 }
 
-_extern float _sub_48CA1F();
 _inline float Interpolator::getRealTimeDistortion() // 0x48CA1F
 {
     mangled_assert("?getRealTimeDistortion@Interpolator@@SGMXZ");
     todo("implement");
-    float __result = _sub_48CA1F();
-    return __result;
 }
 
-_extern void _sub_64FF6A(bool);
 _inline void Interpolator::pause(bool bPause) // 0x64FF6A
 {
     mangled_assert("?pause@Interpolator@@SGX_N@Z");
     todo("implement");
-    _sub_64FF6A(bPause);
 }
 
-_extern void _sub_65095F(float);
 _inline void Interpolator::setTimeDistortion(float distortion) // 0x65095F
 {
     mangled_assert("?setTimeDistortion@Interpolator@@SGXM@Z");
     todo("implement");
-    _sub_65095F(distortion);
 }
 
-_extern void _sub_6508E6(float);
 _inline void Interpolator::setRealTimeDistortion(float distortion) // 0x6508E6
 {
     mangled_assert("?setRealTimeDistortion@Interpolator@@SGXM@Z");
     todo("implement");
-    _sub_6508E6(distortion);
 }
 
-_extern bool _sub_5FB3D0(Interpolator *const);
 _inline bool Interpolator::isDeterministic() // 0x5FB3D0
 {
     mangled_assert("?isDeterministic@Interpolator@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_5FB3D0(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_441C81(InterpolSobData const *const);
 _inline vector3 const &InterpolSobData::getPositionPtr() const // 0x441C81
 {
     mangled_assert("?getPositionPtr@InterpolSobData@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_441C81(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_478944(InterpolSobData const *const);
 _inline vector3 const &InterpolSobData::getGeometricPosPtr() const // 0x478944
 {
     mangled_assert("?getGeometricPosPtr@InterpolSobData@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_478944(this);
-    return __result;
 }
 
-_extern bool _sub_4DF029(InterpolSobData const *const);
 _inline bool InterpolSobData::getBrandNew() const // 0x4DF029
 {
     mangled_assert("?getBrandNew@InterpolSobData@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_4DF029(this);
-    return __result;
 }
 
-_extern matrix3 const &_sub_441B8B(InterpolSobData const *const);
 _inline matrix3 const &InterpolSobData::getCoordSys() const // 0x441B8B
 {
     mangled_assert("?getCoordSys@InterpolSobData@@QBEABVmatrix3@@XZ");
     todo("implement");
-    matrix3 const & __result = _sub_441B8B(this);
-    return __result;
 }
 
-_extern bool _sub_51A638(InterpolSobData const *const);
 _inline bool InterpolSobData::isInterpolated() const // 0x51A638
 {
     mangled_assert("?isInterpolated@InterpolSobData@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_51A638(this);
-    return __result;
 }
 
-_extern char const *_sub_5FB6EB(InterpolSobData *const);
 _inline char const *InterpolSobData::saveToken() // 0x5FB6EB
 {
     mangled_assert("?saveToken@InterpolSobData@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_5FB6EB(this);
-    return __result;
 }
 
-_extern bool _sub_5FB3CD(InterpolSobData *const);
 _inline bool InterpolSobData::isDeterministic() // 0x5FB3CD
 {
     mangled_assert("?isDeterministic@InterpolSobData@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_5FB3CD(this);
-    return __result;
 }
 
 /* ---------- private code */

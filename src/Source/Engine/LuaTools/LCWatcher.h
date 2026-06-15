@@ -113,47 +113,34 @@ static_assert(sizeof(LCWatcher) == 24, "Invalid LCWatcher size");
 
 /* ---------- public code */
 
-_extern _sub_65B328(LCWatcher::LCWatcherElement *const);
 _inline LCWatcher::LCWatcherElement::LCWatcherElement() // 0x65B328
 {
     mangled_assert("??0LCWatcherElement@LCWatcher@@QAE@XZ");
     todo("implement");
-    _sub_65B328(this);
 }
 
-_extern _sub_65B359(LCWatcher::LCWatcherFilter *const, char const *, LuaConfig *);
 _inline LCWatcher::LCWatcherFilter::LCWatcherFilter(char const *, LuaConfig *) // 0x65B359
 {
     mangled_assert("??0LCWatcherFilter@LCWatcher@@QAE@PBDPAVLuaConfig@@@Z");
     todo("implement");
-    _sub_65B359(this, arg, arg);
 }
 
-_extern char const *_sub_65BF7A(LCWatcher::LCWatcherFilter const *const);
 _inline char const *LCWatcher::LCWatcherFilter::GetName() const // 0x65BF7A
 {
     mangled_assert("?GetName@LCWatcherFilter@LCWatcher@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_65BF7A(this);
-    return __result;
 }
 
-_extern LuaConfig *_sub_65BF77(LCWatcher::LCWatcherFilter const *const);
 _inline LuaConfig *LCWatcher::LCWatcherFilter::GetLuaConfig() const // 0x65BF77
 {
     mangled_assert("?GetLuaConfig@LCWatcherFilter@LCWatcher@@QBEPAVLuaConfig@@XZ");
     todo("implement");
-    LuaConfig * __result = _sub_65BF77(this);
-    return __result;
 }
 
-_extern bool _sub_65B682(LCWatcher::LCWatcherSearch const *const, LCWatcher::LCWatcherFilters const &, char const *);
 _inline bool LCWatcher::LCWatcherSearch::operator()(LCWatcher::LCWatcherFilters const &, char const *) const // 0x65B682
 {
     mangled_assert("??RLCWatcherSearch@LCWatcher@@QBE_NABULCWatcherFilters@1@PBD@Z");
     todo("implement");
-    bool __result = _sub_65B682(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

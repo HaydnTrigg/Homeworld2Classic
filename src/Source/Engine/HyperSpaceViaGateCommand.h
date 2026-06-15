@@ -145,31 +145,22 @@ static_assert(sizeof(HyperSpaceViaGateCommandStaticInfo) == 20, "Invalid HyperSp
 
 /* ---------- public code */
 
-_extern HyperSpaceViaGateCommand::State _sub_6A7F72(HyperSpaceViaGateCommand const *const);
 _inline HyperSpaceViaGateCommand::State HyperSpaceViaGateCommand::getHyperSpaceState() const // 0x6A7F72
 {
     mangled_assert("?getHyperSpaceState@HyperSpaceViaGateCommand@@QBE?AW4State@1@XZ");
     todo("implement");
-    HyperSpaceViaGateCommand::State __result = _sub_6A7F72(this);
-    return __result;
 }
 
-_extern bool _sub_6ABD13(HyperSpaceViaGateCommand *const);
 _inline bool HyperSpaceViaGateCommand::isDeterministic() // 0x6ABD13
 {
     mangled_assert("?isDeterministic@HyperSpaceViaGateCommand@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6ABD13(this);
-    return __result;
 }
 
-_extern char const *_sub_6ABE31(HyperSpaceViaGateCommand *const);
 _inline char const *HyperSpaceViaGateCommand::saveToken() // 0x6ABE31
 {
     mangled_assert("?saveToken@HyperSpaceViaGateCommand@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6ABE31(this);
-    return __result;
 }
 
 /* ---------- private code */

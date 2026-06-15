@@ -54,22 +54,16 @@ static_assert(sizeof(RenderModel) == 36, "Invalid RenderModel size");
 
 /* ---------- public code */
 
-_extern AnimEventContainer const &_sub_518B98(RenderModel const *const);
 _inline AnimEventContainer const &RenderModel::getEventContainer() const // 0x518B98
 {
     mangled_assert("?getEventContainer@RenderModel@@QBEABVAnimEventContainer@@XZ");
     todo("implement");
-    AnimEventContainer const & __result = _sub_518B98(this);
-    return __result;
 }
 
-_extern Mesh const *_sub_51F5D6(RenderModel const *const);
 _inline Mesh const *RenderModel::getMesh() const // 0x51F5D6
 {
     mangled_assert("?getMesh@RenderModel@@QBEPBVMesh@@XZ");
     todo("implement");
-    Mesh const * __result = _sub_51F5D6(this);
-    return __result;
 }
 
 /* ---------- private code */

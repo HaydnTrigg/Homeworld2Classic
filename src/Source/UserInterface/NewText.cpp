@@ -85,126 +85,94 @@
 
 /* ---------- public code */
 
-_extern _sub_67E4B9(UI::NewText *const, wchar_t const *);
 UI::NewText::NewText(wchar_t const *) // 0x67E4B9
 {
     mangled_assert("??0NewText@UI@@QAE@PB_W@Z");
     todo("implement");
-    _sub_67E4B9(this, arg);
 }
 
-_extern _sub_67E417(UI::NewText *const, UI::NewText const &);
 UI::NewText::NewText(UI::NewText const &) // 0x67E417
 {
     mangled_assert("??0NewText@UI@@QAE@ABV01@@Z");
     todo("implement");
-    _sub_67E417(this, arg);
 }
 
-_extern _sub_67E326(UI::NewText *const, LuaConfig &);
 UI::NewText::NewText(LuaConfig &) // 0x67E326
 {
     mangled_assert("??0NewText@UI@@QAE@AAVLuaConfig@@@Z");
     todo("implement");
-    _sub_67E326(this, arg);
 }
 
-_extern void _sub_67E5B2(UI::NewText *const);
 UI::NewText::~NewText() // 0x67E5B2
 {
     mangled_assert("??1NewText@UI@@QAE@XZ");
     todo("implement");
-    _sub_67E5B2(this);
 }
 
-_extern UI::NewText const &_sub_67E623(UI::NewText *const, UI::NewText const &);
 UI::NewText const &UI::NewText::operator=(UI::NewText const &) // 0x67E623
 {
     mangled_assert("??4NewText@UI@@QAEABV01@ABV01@@Z");
     todo("implement");
-    UI::NewText const & __result = _sub_67E623(this, arg);
-    return __result;
 }
 
-_extern void _sub_67E994(UI::NewText *const, LuaConfig &);
 void UI::NewText::Load(LuaConfig &) // 0x67E994
 {
     mangled_assert("?Load@NewText@UI@@QAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_67E994(this, arg);
 }
 
-_extern void _sub_67E7A3(UI::NewText *const, Rect_i const &, Rect_i const &);
 void UI::NewText::Draw(Rect_i const &, Rect_i const &) // 0x67E7A3
 {
     mangled_assert("?Draw@NewText@UI@@QAEXABURect_i@@0@Z");
     todo("implement");
-    _sub_67E7A3(this, arg, arg);
 }
 
-_extern void _sub_67EC12(UI::NewText *const, long);
 void UI::NewText::SetWrapWidth(long) // 0x67EC12
 {
     mangled_assert("?SetWrapWidth@NewText@UI@@QAEXJ@Z");
     todo("implement");
-    _sub_67EC12(this, arg);
 }
 
-_extern void _sub_67E712(UI::NewText *const);
 void UI::NewText::ClearWrap() // 0x67E712
 {
     mangled_assert("?ClearWrap@NewText@UI@@QAEXXZ");
     todo("implement");
-    _sub_67E712(this);
 }
 
-_extern void _sub_67EB8F(UI::NewText *const, wchar_t const *, bool);
 void UI::NewText::SetText(wchar_t const *, bool) // 0x67EB8F
 {
     mangled_assert("?SetText@NewText@UI@@QAEXPB_W_N@Z");
     todo("implement");
-    _sub_67EB8F(this, arg, arg);
 }
 
-_extern wchar_t const *_sub_67E974(UI::NewText const *const);
 wchar_t const *UI::NewText::GetWrappedText() const // 0x67E974
 {
     mangled_assert("?GetWrappedText@NewText@UI@@QBEPB_WXZ");
     todo("implement");
-    wchar_t const * __result = _sub_67E974(this);
-    return __result;
 }
 
-_extern void _sub_67E8BE(UI::NewText *const, wchar_t const *, long &, long &);
 void UI::NewText::GetStringSize(wchar_t const *, long &, long &) // 0x67E8BE
 {
     mangled_assert("?GetStringSize@NewText@UI@@QAEXPB_WAAJ1@Z");
     todo("implement");
-    _sub_67E8BE(this, arg, arg, arg);
 }
 
-_extern void _sub_67E87F(UI::NewText *const, long &, long &);
 void UI::NewText::GetSize(long &, long &) // 0x67E87F
 {
     mangled_assert("?GetSize@NewText@UI@@QAEXAAJ0@Z");
     todo("implement");
-    _sub_67E87F(this, arg, arg);
 }
 
-_extern void _sub_67E92A(UI::NewText *const, Rect_i const &, long, long &, long &);
 void UI::NewText::GetTextCharOffset(Rect_i const &, long, long &, long &) // 0x67E92A
 {
     mangled_assert("?GetTextCharOffset@NewText@UI@@QAEXABURect_i@@JAAJ1@Z");
     todo("implement");
-    _sub_67E92A(this, arg, arg, arg, arg);
 }
 
-_extern void _sub_67E72E(UI::NewText *const, wchar_t const *);
 void UI::NewText::ConvertSubstringToNewline(wchar_t const *) // 0x67E72E
 {
     mangled_assert("?ConvertSubstringToNewline@NewText@UI@@QAEXPB_W@Z");
     todo("implement");
-    _sub_67E72E(this, arg);
 }
 
 /* ---------- private code */

@@ -154,224 +154,168 @@ extern UI::InGameOptions *UI::InGameOptions::ms_screen; // 0x846CD0
 
 /* ---------- public code */
 
-_extern _sub_58BBDE(UI::Data *const);
 _inline UI::Data::Data() // 0x58BBDE
 {
     mangled_assert("??0Data@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_58BBDE(this);
 }
 
-_extern _sub_58BBF1(UI::InGameOptions *const, char const *);
 UI::InGameOptions::InGameOptions(char const *) // 0x58BBF1
 {
     mangled_assert("??0InGameOptions@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_58BBF1(this, arg);
 }
 
-_extern void _sub_58BC59(UI::Data *const);
 _inline UI::Data::~Data() // 0x58BC59
 {
     mangled_assert("??1Data@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_58BC59(this);
 }
 
-_extern void _sub_58BC63(UI::InGameOptions *const);
 UI::InGameOptions::~InGameOptions() // 0x58BC63
 {
     mangled_assert("??1InGameOptions@UI@@UAE@XZ");
     todo("implement");
-    _sub_58BC63(this);
 }
 
-_extern bool _sub_58C6DB(UI::ScreenTransitionType);
 bool UI::InGameOptions::Show(UI::ScreenTransitionType trans) // 0x58C6DB
 {
     mangled_assert("?Show@InGameOptions@UI@@SG_NW4ScreenTransitionType@2@@Z");
     todo("implement");
-    bool __result = _sub_58C6DB(trans);
-    return __result;
 }
 
-_extern void _sub_58BFED(UI::InGameOptions *const, bool);
 void UI::InGameOptions::OnActivate(bool) // 0x58BFED
 {
     mangled_assert("?OnActivate@InGameOptions@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_58BFED(this, arg);
 }
 
-_extern void _sub_58C166(UI::InGameOptions *const);
 void UI::InGameOptions::OnPostLoad() // 0x58C166
 {
     mangled_assert("?OnPostLoad@InGameOptions@UI@@MAEXXZ");
     todo("implement");
-    _sub_58C166(this);
 }
 
-_extern void _sub_58BF32(UI::InGameOptions *const);
 void UI::InGameOptions::LoadGameplayOptions() // 0x58BF32
 {
     mangled_assert("?LoadGameplayOptions@InGameOptions@UI@@AAEXXZ");
     todo("implement");
-    _sub_58BF32(this);
 }
 
-_extern void _sub_58BE6C(UI::InGameOptions *const);
 void UI::InGameOptions::LoadAudioOptions() // 0x58BE6C
 {
     mangled_assert("?LoadAudioOptions@InGameOptions@UI@@AAEXXZ");
     todo("implement");
-    _sub_58BE6C(this);
 }
 
-_extern void _sub_58BFB3(UI::InGameOptions *const);
 void UI::InGameOptions::LoadVideoOptions() // 0x58BFB3
 {
     mangled_assert("?LoadVideoOptions@InGameOptions@UI@@AAEXXZ");
     todo("implement");
-    _sub_58BFB3(this);
 }
 
-_extern void _sub_58BF14(UI::InGameOptions *const);
 void UI::InGameOptions::LoadControlsOptions() // 0x58BF14
 {
     mangled_assert("?LoadControlsOptions@InGameOptions@UI@@AAEXXZ");
     todo("implement");
-    _sub_58BF14(this);
 }
 
-_extern bool _sub_58BCC5(UI::InGameOptions *const);
 bool UI::InGameOptions::Apply() // 0x58BCC5
 {
     mangled_assert("?Apply@InGameOptions@UI@@AAE_NXZ");
     todo("implement");
-    bool __result = _sub_58BCC5(this);
-    return __result;
 }
 
-_extern void _sub_58C5F9(UI::InterfaceElement *);
 void UI::InGameOptions::OnTabClicked(UI::InterfaceElement *sender) // 0x58C5F9
 {
     mangled_assert("?OnTabClicked@InGameOptions@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_58C5F9(sender);
 }
 
-_extern void _sub_58C118(UI::InterfaceElement *);
 void UI::InGameOptions::OnGameplayTab(UI::InterfaceElement *sender) // 0x58C118
 {
     mangled_assert("?OnGameplayTab@InGameOptions@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_58C118(sender);
 }
 
-_extern void _sub_58C063(UI::InterfaceElement *);
 void UI::InGameOptions::OnAudioTab(UI::InterfaceElement *sender) // 0x58C063
 {
     mangled_assert("?OnAudioTab@InGameOptions@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_58C063(sender);
 }
 
-_extern void _sub_58C68D(UI::InterfaceElement *);
 void UI::InGameOptions::OnVideoTab(UI::InterfaceElement *sender) // 0x58C68D
 {
     mangled_assert("?OnVideoTab@InGameOptions@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_58C68D(sender);
 }
 
-_extern void _sub_58C0CA(UI::InterfaceElement *);
 void UI::InGameOptions::OnControlsTab(UI::InterfaceElement *sender) // 0x58C0CA
 {
     mangled_assert("?OnControlsTab@InGameOptions@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_58C0CA(sender);
 }
 
-_extern void _sub_58BFB4(UI::InterfaceElement *);
 void UI::InGameOptions::OnAcceptClicked(UI::InterfaceElement *sender) // 0x58BFB4
 {
     mangled_assert("?OnAcceptClicked@InGameOptions@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_58BFB4(sender);
 }
 
-_extern void _sub_58C0B1(UI::InterfaceElement *);
 void UI::InGameOptions::OnCancelClicked(UI::InterfaceElement *sender) // 0x58C0B1
 {
     mangled_assert("?OnCancelClicked@InGameOptions@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_58C0B1(sender);
 }
 
-_extern void _sub_58C5ED(UI::InterfaceElement *, __int32);
 void UI::InGameOptions::OnScrollMusicVolume(UI::InterfaceElement *sbar, __int32 pos) // 0x58C5ED
 {
     mangled_assert("?OnScrollMusicVolume@InGameOptions@UI@@CGXPAVInterfaceElement@2@H@Z");
     todo("implement");
-    _sub_58C5ED(sbar, pos);
 }
 
-_extern void _sub_58C5F0(UI::InterfaceElement *, __int32);
 void UI::InGameOptions::OnScrollSFXVolume(UI::InterfaceElement *sbar, __int32 pos) // 0x58C5F0
 {
     mangled_assert("?OnScrollSFXVolume@InGameOptions@UI@@CGXPAVInterfaceElement@2@H@Z");
     todo("implement");
-    _sub_58C5F0(sbar, pos);
 }
 
-_extern void _sub_58C5F3(UI::InterfaceElement *, __int32);
 void UI::InGameOptions::OnScrollSpeechVolume(UI::InterfaceElement *sbar, __int32 pos) // 0x58C5F3
 {
     mangled_assert("?OnScrollSpeechVolume@InGameOptions@UI@@CGXPAVInterfaceElement@2@H@Z");
     todo("implement");
-    _sub_58C5F3(sbar, pos);
 }
 
-_extern void _sub_58C5F6(UI::InterfaceElement *, __int32);
 void UI::InGameOptions::OnScrollUIVolume(UI::InterfaceElement *sbar, __int32 pos) // 0x58C5F6
 {
     mangled_assert("?OnScrollUIVolume@InGameOptions@UI@@CGXPAVInterfaceElement@2@H@Z");
     todo("implement");
-    _sub_58C5F6(sbar, pos);
 }
 
-_extern void _sub_58C5BA(UI::InterfaceElement *);
 void UI::InGameOptions::OnScrollButtonReleasedMusicVolume(UI::InterfaceElement *sbar) // 0x58C5BA
 {
     mangled_assert("?OnScrollButtonReleasedMusicVolume@InGameOptions@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_58C5BA(sbar);
 }
 
-_extern void _sub_58C5E4(UI::InterfaceElement *);
 void UI::InGameOptions::OnScrollButtonReleasedSFXVolume(UI::InterfaceElement *sbar) // 0x58C5E4
 {
     mangled_assert("?OnScrollButtonReleasedSFXVolume@InGameOptions@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_58C5E4(sbar);
 }
 
-_extern void _sub_58C5E7(UI::InterfaceElement *);
 void UI::InGameOptions::OnScrollButtonReleasedSpeechVolume(UI::InterfaceElement *sbar) // 0x58C5E7
 {
     mangled_assert("?OnScrollButtonReleasedSpeechVolume@InGameOptions@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_58C5E7(sbar);
 }
 
-_extern void _sub_58C5EA(UI::InterfaceElement *);
 void UI::InGameOptions::OnScrollButtonReleasedUIVolume(UI::InterfaceElement *sbar) // 0x58C5EA
 {
     mangled_assert("?OnScrollButtonReleasedUIVolume@InGameOptions@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_58C5EA(sbar);
 }
 
 /* ---------- private code */

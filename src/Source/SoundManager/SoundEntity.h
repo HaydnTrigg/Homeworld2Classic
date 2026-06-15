@@ -92,88 +92,64 @@ static_assert(sizeof(SoundEntityList) == 16, "Invalid SoundEntityList size");
 
 /* ---------- public code */
 
-_extern _sub_6CF279(SoundEntity *const);
 _inline SoundEntity::SoundEntity() // 0x6CF279
 {
     mangled_assert("??0SoundEntity@@QAE@XZ");
     todo("implement");
-    _sub_6CF279(this);
 }
 
-_extern void _sub_6CF3BF(SoundEntity *const);
 _inline SoundEntity::~SoundEntity() // 0x6CF3BF
 {
     mangled_assert("??1SoundEntity@@QAE@XZ");
     todo("implement");
-    _sub_6CF3BF(this);
 }
 
-_extern void _sub_6CF904(SoundEntity *const, long);
 _inline void SoundEntity::SetHandle(long) // 0x6CF904
 {
     mangled_assert("?SetHandle@SoundEntity@@QAEXJ@Z");
     todo("implement");
-    _sub_6CF904(this, arg);
 }
 
-_extern long _sub_6CF723(SoundEntity const *const);
 _inline long SoundEntity::GetHandle() const // 0x6CF723
 {
     mangled_assert("?GetHandle@SoundEntity@@QBEJXZ");
     todo("implement");
-    long __result = _sub_6CF723(this);
-    return __result;
 }
 
-_extern void _sub_6CF9C6(SoundEntity *const, PatchID const &);
 _inline void SoundEntity::SetPatchID(PatchID const &) // 0x6CF9C6
 {
     mangled_assert("?SetPatchID@SoundEntity@@QAEXABVPatchID@@@Z");
     todo("implement");
-    _sub_6CF9C6(this, arg);
 }
 
-_extern PatchID const &_sub_6CF72A(SoundEntity const *const);
 _inline PatchID const &SoundEntity::GetPatchID() const // 0x6CF72A
 {
     mangled_assert("?GetPatchID@SoundEntity@@QBEABVPatchID@@XZ");
     todo("implement");
-    PatchID const & __result = _sub_6CF72A(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_6CF72E(SoundEntity const *const);
 _inline vector3 const &SoundEntity::GetPos() const // 0x6CF72E
 {
     mangled_assert("?GetPos@SoundEntity@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_6CF72E(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_6CF726(SoundEntity const *const);
 _inline vector3 const &SoundEntity::GetLastPos() const // 0x6CF726
 {
     mangled_assert("?GetLastPos@SoundEntity@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_6CF726(this);
-    return __result;
 }
 
-_extern void _sub_6CFA53(SoundEntity *const, vector3 const &);
 _inline void SoundEntity::SetVel(vector3 const &) // 0x6CFA53
 {
     mangled_assert("?SetVel@SoundEntity@@QAEXABVvector3@@@Z");
     todo("implement");
-    _sub_6CFA53(this, arg);
 }
 
-_extern void _sub_6CF90D(SoundEntity *const, vector3 const &);
 _inline void SoundEntity::SetHead(vector3 const &) // 0x6CF90D
 {
     mangled_assert("?SetHead@SoundEntity@@QAEXABVvector3@@@Z");
     todo("implement");
-    _sub_6CF90D(this, arg);
 }
 
 /* ---------- private code */

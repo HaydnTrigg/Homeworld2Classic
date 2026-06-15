@@ -44,22 +44,16 @@ static_assert(sizeof(HyperSpaceBaseCommand) == 20, "Invalid HyperSpaceBaseComman
 
 /* ---------- public code */
 
-_extern bool _sub_6BD61E(HyperSpaceBaseCommand *const);
 _inline bool HyperSpaceBaseCommand::isDeterministic() // 0x6BD61E
 {
     mangled_assert("?isDeterministic@HyperSpaceBaseCommand@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6BD61E(this);
-    return __result;
 }
 
-_extern char const *_sub_6BD6C3(HyperSpaceBaseCommand *const);
 _inline char const *HyperSpaceBaseCommand::saveToken() // 0x6BD6C3
 {
     mangled_assert("?saveToken@HyperSpaceBaseCommand@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6BD6C3(this);
-    return __result;
 }
 
 /* ---------- private code */

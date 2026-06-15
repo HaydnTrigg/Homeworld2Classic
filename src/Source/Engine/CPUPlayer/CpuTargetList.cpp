@@ -111,104 +111,76 @@
 
 /* ---------- public code */
 
-_extern void _sub_540968(TargetList *const);
 TargetList::~TargetList() // 0x540968
 {
     mangled_assert("??1TargetList@@QAE@XZ");
     todo("implement");
-    _sub_540968(this);
 }
 
-_extern void _sub_540A4D(TargetList *const);
 void TargetList::clear() // 0x540A4D
 {
     mangled_assert("?clear@TargetList@@QAEXXZ");
     todo("implement");
-    _sub_540A4D(this);
 }
 
-_extern BaseTarget *_sub_540AC2(TargetList const *const, unsigned __int32);
 BaseTarget *TargetList::find(unsigned __int32) const // 0x540AC2
 {
     mangled_assert("?find@TargetList@@QBEPAVBaseTarget@@I@Z");
     todo("implement");
-    BaseTarget * __result = _sub_540AC2(this, arg);
-    return __result;
 }
 
-_extern BaseTarget *_sub_540AEB(TargetList const *const, Squadron const *);
 BaseTarget *TargetList::find(Squadron const *) const // 0x540AEB
 {
     mangled_assert("?find@TargetList@@QBEPAVBaseTarget@@PBVSquadron@@@Z");
     todo("implement");
-    BaseTarget * __result = _sub_540AEB(this, arg);
-    return __result;
 }
 
-_extern void _sub_540A13(TargetList *const, TargetType, __int32);
 void TargetList::change_priority(TargetType, __int32) // 0x540A13
 {
     mangled_assert("?change_priority@TargetList@@QAEXW4TargetType@@H@Z");
     todo("implement");
-    _sub_540A13(this, arg, arg);
 }
 
-_extern bool _sub_540AA1(TargetList const *const, BaseTarget *);
 bool TargetList::exist(BaseTarget *) const // 0x540AA1
 {
     mangled_assert("?exist@TargetList@@QBE_NPAVBaseTarget@@@Z");
     todo("implement");
-    bool __result = _sub_540AA1(this, arg);
-    return __result;
 }
 
-_extern void _sub_540BBE(TargetList *const, unsigned __int32);
 void TargetList::remove(unsigned __int32) // 0x540BBE
 {
     mangled_assert("?remove@TargetList@@QAEXI@Z");
     todo("implement");
-    _sub_540BBE(this, arg);
 }
 
-_extern void _sub_540C06(TargetList *const, Squadron const *);
 void TargetList::remove(Squadron const *) // 0x540C06
 {
     mangled_assert("?remove@TargetList@@QAEXPBVSquadron@@@Z");
     todo("implement");
-    _sub_540C06(this, arg);
 }
 
-_extern void _sub_540C5B(TargetList *const);
 void TargetList::removedead() // 0x540C5B
 {
     mangled_assert("?removedead@TargetList@@QAEXXZ");
     todo("implement");
-    _sub_540C5B(this);
 }
 
-_extern BaseTarget *_sub_540B21(TargetList const *const, vector3 const &);
 BaseTarget *TargetList::findclosest(vector3 const &) const // 0x540B21
 {
     mangled_assert("?findclosest@TargetList@@QBEPAVBaseTarget@@ABVvector3@@@Z");
     todo("implement");
-    BaseTarget * __result = _sub_540B21(this, arg);
-    return __result;
 }
 
-_extern void _sub_540D54(TargetList *const, SaveStream *);
 void TargetList::save(SaveStream *) // 0x540D54
 {
     mangled_assert("?save@TargetList@@QAEXPAVSaveStream@@@Z");
     todo("implement");
-    _sub_540D54(this, arg);
 }
 
-_extern void _sub_540CB8(TargetList *const, SaveStream *, TargetBaseType);
 void TargetList::restore(SaveStream *, TargetBaseType) // 0x540CB8
 {
     mangled_assert("?restore@TargetList@@QAEXPAVSaveStream@@W4TargetBaseType@@@Z");
     todo("implement");
-    _sub_540CB8(this, arg, arg);
 }
 
 /* ---------- private code */

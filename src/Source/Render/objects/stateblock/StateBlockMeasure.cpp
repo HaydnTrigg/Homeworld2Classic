@@ -117,103 +117,78 @@ _static
 
 /* ---------- public code */
 
-_extern StateBlockMeasure *_sub_100BA8C0();
 StateBlockMeasure *StateBlockMeasure::Instance() // 0x100BA8C0
 {
     mangled_assert("?Instance@StateBlockMeasure@@SGPAV1@XZ");
     todo("implement");
-    StateBlockMeasure * __result = _sub_100BA8C0();
-    return __result;
 }
 
-_extern _sub_100BA180(StateBlockMeasure *const);
 StateBlockMeasure::StateBlockMeasure() // 0x100BA180
 {
     mangled_assert("??0StateBlockMeasure@@QAE@XZ");
     todo("implement");
-    _sub_100BA180(this);
 }
 
-_extern void _sub_100BA1D0(std::move_iterator<std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<StateBlockMeasure::Frame> > > > *const);
 _inline std::move_iterator<std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<StateBlockMeasure::Frame> > > >::~move_iterator<std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<StateBlockMeasure::Frame> > > >() // 0x100BA1D0
 {
     mangled_assert("??1?$move_iterator@V?$_Deque_iterator@V?$_Deque_val@U?$_Deque_simple_types@VFrame@StateBlockMeasure@@@std@@@std@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_100BA1D0(this);
 }
 
-_extern _sub_100B9F90(std::move_iterator<std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<StateBlockMeasure::Frame> > > > *const, std::move_iterator<std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<StateBlockMeasure::Frame> > > > const &);
 _inline std::move_iterator<std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<StateBlockMeasure::Frame> > > >::move_iterator<std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<StateBlockMeasure::Frame> > > >(std::move_iterator<std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<StateBlockMeasure::Frame> > > > const &) // 0x100B9F90
 {
     mangled_assert("??0?$move_iterator@V?$_Deque_iterator@V?$_Deque_val@U?$_Deque_simple_types@VFrame@StateBlockMeasure@@@std@@@std@@@std@@@std@@QAE@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_100B9F90(this, arg);
 }
 
-_extern void _sub_100BA970(StateBlockMeasure *const, char const *);
 void StateBlockMeasure::PushFrame(char const *) // 0x100BA970
 {
     mangled_assert("?PushFrame@StateBlockMeasure@@QAEXPBD@Z");
     todo("implement");
-    _sub_100BA970(this, arg);
 }
 
-_extern void _sub_100BA940(StateBlockMeasure *const);
 void StateBlockMeasure::PopFrame() // 0x100BA940
 {
     mangled_assert("?PopFrame@StateBlockMeasure@@QAEXXZ");
     todo("implement");
-    _sub_100BA940(this);
 }
 
-_extern void _sub_100BA510(StateBlockMeasure *const);
 void StateBlockMeasure::Clear() // 0x100BA510
 {
     mangled_assert("?Clear@StateBlockMeasure@@QAEXXZ");
     todo("implement");
-    _sub_100BA510(this);
 }
 
-_extern void _sub_100BA860(StateBlockMeasure *const, std::map<long,unsigned int,std::less<long>,std::allocator<std::pair<long const ,unsigned int> > > &, long);
 void StateBlockMeasure::IncrementCommandMap(std::map<long,unsigned int,std::less<long>,std::allocator<std::pair<long const ,unsigned int> > > &, long) // 0x100BA860
 {
     mangled_assert("?IncrementCommandMap@StateBlockMeasure@@AAEXAAV?$map@JIU?$less@J@std@@V?$allocator@U?$pair@$$CBJI@std@@@2@@std@@J@Z");
     todo("implement");
-    _sub_100BA860(this, arg, arg);
 }
 
-_extern void _sub_100BA7A0(StateBlockMeasure *const, StateCommand const *);
 void StateBlockMeasure::Increment(StateCommand const *) // 0x100BA7A0
 {
     mangled_assert("?Increment@StateBlockMeasure@@QAEXPBUStateCommand@@@Z");
     todo("implement");
-    _sub_100BA7A0(this, arg);
 }
 
-_extern void _sub_100BA6E0(StateBlockMeasure const *const, rndTable &, FileStream &, std::map<long,unsigned int,std::less<long>,std::allocator<std::pair<long const ,unsigned int> > > const &);
 void StateBlockMeasure::DumpCommandMap(rndTable &, FileStream &, std::map<long,unsigned int,std::less<long>,std::allocator<std::pair<long const ,unsigned int> > > const &) const // 0x100BA6E0
 {
     mangled_assert("?DumpCommandMap@StateBlockMeasure@@ABEXAAUrndTable@@AAVFileStream@@ABV?$map@JIU?$less@J@std@@V?$allocator@U?$pair@$$CBJI@std@@@2@@std@@@Z");
     todo("implement");
-    _sub_100BA6E0(this, arg, arg, arg);
 }
 
-_extern void _sub_100BA5B0(StateBlockMeasure *const, rndTable &, char const *);
 void StateBlockMeasure::Dump(rndTable &, char const *) // 0x100BA5B0
 {
     mangled_assert("?Dump@StateBlockMeasure@@QAEXAAUrndTable@@PBD@Z");
     todo("implement");
-    _sub_100BA5B0(this, arg, arg);
 }
 
-_extern void _sub_100BA9D0(StateBlockMeasure *const, unsigned __int32);
 void StateBlockMeasure::RenderCall(unsigned __int32) // 0x100BA9D0
 {
     mangled_assert("?RenderCall@StateBlockMeasure@@QAEXI@Z");
     todo("implement");
-    _sub_100BA9D0(this, arg);
 }
 
 /* ---------- private code */

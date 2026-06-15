@@ -55,59 +55,41 @@ _static
 
 /* ---------- public code */
 
-_extern bool _sub_10001E25();
 bool dbSymLoadDll() // 0x10001E25
 {
     mangled_assert("?dbSymLoadDll@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_10001E25();
-    return __result;
 }
 
-_extern bool _sub_10001CF4(long, char *, char *, char *, unsigned long &);
 bool dbSymGetSymFromAddr(long codeAddr, char *codeModl, char *codeFunc, char *codeFile, unsigned long &codeLine) // 0x10001CF4
 {
     mangled_assert("?dbSymGetSymFromAddr@@YG_NJQAD00AAK@Z");
     todo("implement");
-    bool __result = _sub_10001CF4(codeAddr, codeModl, codeFunc, codeFile, codeLine);
-    return __result;
 }
 
-_extern bool _sub_10001FDC(long *, unsigned __int32);
 bool dbSymStackWalk(long *callstack, unsigned __int32 callstackMaxDepth) // 0x10001FDC
 {
     mangled_assert("?dbSymStackWalk@@YG_NQAJI@Z");
     todo("implement");
-    bool __result = _sub_10001FDC(callstack, callstackMaxDepth);
-    return __result;
 }
 
-_extern bool _sub_1000201B(long *, unsigned __int32, _EXCEPTION_POINTERS const *);
 bool dbSymStackWalkException(long *callstack, unsigned __int32 callstackMaxDepth, _EXCEPTION_POINTERS const *data) // 0x1000201B
 {
     mangled_assert("?dbSymStackWalkException@@YG_NQAJIPBU_EXCEPTION_POINTERS@@@Z");
     todo("implement");
-    bool __result = _sub_1000201B(callstack, callstackMaxDepth, data);
-    return __result;
 }
 
-_extern bool _sub_10001F25(char const *, _EXCEPTION_POINTERS const *);
 bool dbSymSaveMiniDump(char const *filename, _EXCEPTION_POINTERS const *data) // 0x10001F25
 {
     mangled_assert("?dbSymSaveMiniDump@@YG_NPBDPBU_EXCEPTION_POINTERS@@@Z");
     todo("implement");
-    bool __result = _sub_10001F25(filename, data);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern bool _sub_10001C10(HINSTANCE__ *);
 _static bool MapFunctions(HINSTANCE__ *h) // 0x10001C10
 {
     mangled_assert("MapFunctions");
     todo("implement");
-    bool __result = _sub_10001C10(h);
-    return __result;
 }
 #endif

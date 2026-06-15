@@ -102,44 +102,34 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_5BFCFF(SimSpeedController *const);
 SimSpeedController::SimSpeedController() // 0x5BFCFF
 {
     mangled_assert("??0SimSpeedController@@QAE@XZ");
     todo("implement");
-    _sub_5BFCFF(this);
 }
 
-_extern void _sub_5BFD42(SimSpeedController *const);
 SimSpeedController::~SimSpeedController() // 0x5BFD42
 {
     mangled_assert("??1SimSpeedController@@QAE@XZ");
     todo("implement");
-    _sub_5BFD42(this);
 }
 
-_extern void _sub_5BFD43(SimSpeedController *const, __int32);
 void SimSpeedController::CalculateTargetQueueSize(__int32) // 0x5BFD43
 {
     mangled_assert("?CalculateTargetQueueSize@SimSpeedController@@AAEXH@Z");
     todo("implement");
-    _sub_5BFD43(this, arg);
 }
 
-_extern void _sub_5BFD96(SimSpeedController *const);
 void SimSpeedController::ResetHistory() // 0x5BFD96
 {
     mangled_assert("?ResetHistory@SimSpeedController@@AAEXXZ");
     todo("implement");
-    _sub_5BFD96(this);
 }
 
-_extern void _sub_5BFDA6(SimSpeedController *const, __int32, __int32);
 void SimSpeedController::Update(__int32, __int32) // 0x5BFDA6
 {
     mangled_assert("?Update@SimSpeedController@@QAEXHH@Z");
     todo("implement");
-    _sub_5BFDA6(this, arg, arg);
 }
 
 /* ---------- private code */

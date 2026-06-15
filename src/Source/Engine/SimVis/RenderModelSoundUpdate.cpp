@@ -111,71 +111,52 @@ _static
 
 /* ---------- public code */
 
-_extern void *_sub_522448(unsigned __int32);
 void *RenderModelSoundUpdate::operator new(unsigned __int32 size) // 0x522448
 {
     mangled_assert("??2RenderModelSoundUpdate@@SGPAXI@Z");
     todo("implement");
-    void * __result = _sub_522448(size);
-    return __result;
 }
 
-_extern void _sub_522455(void *, unsigned __int32);
 void RenderModelSoundUpdate::operator delete(void *p, unsigned __int32 size) // 0x522455
 {
     mangled_assert("??3RenderModelSoundUpdate@@SGXPAXI@Z");
     todo("implement");
-    _sub_522455(p, size);
 }
 
-_extern _sub_52238A(RenderModelSoundUpdate *const, Sob const *);
 RenderModelSoundUpdate::RenderModelSoundUpdate(Sob const *) // 0x52238A
 {
     mangled_assert("??0RenderModelSoundUpdate@@QAE@PBVSob@@@Z");
     todo("implement");
-    _sub_52238A(this, arg);
 }
 
-_extern void _sub_522441(RenderModelSoundUpdate *const);
 RenderModelSoundUpdate::~RenderModelSoundUpdate() // 0x522441
 {
     mangled_assert("??1RenderModelSoundUpdate@@UAE@XZ");
     todo("implement");
-    _sub_522441(this);
 }
 
-_extern void _sub_522575(RenderModelSoundUpdate *const, RenderModelInstance *, SoundEntityHandle const &, __int32);
 void RenderModelSoundUpdate::setup(RenderModelInstance *, SoundEntityHandle const &, __int32) // 0x522575
 {
     mangled_assert("?setup@RenderModelSoundUpdate@@QAEXPAVRenderModelInstance@@ABVSoundEntityHandle@@H@Z");
     todo("implement");
-    _sub_522575(this, arg, arg, arg);
 }
 
-_extern void _sub_522563(RenderModelSoundUpdate const *const, matrix4 &);
 void RenderModelSoundUpdate::getSelfTransform(matrix4 &) const // 0x522563
 {
     mangled_assert("?getSelfTransform@RenderModelSoundUpdate@@EBEXAAVmatrix4@@@Z");
     todo("implement");
-    _sub_522563(this, arg);
 }
 
-_extern bool _sub_522572(RenderModelSoundUpdate const *const);
 bool RenderModelSoundUpdate::isAudible() const // 0x522572
 {
     mangled_assert("?isAudible@RenderModelSoundUpdate@@EBE_NXZ");
     todo("implement");
-    bool __result = _sub_522572(this);
-    return __result;
 }
 
-_extern bool _sub_522595(RenderModelSoundUpdate *const);
 bool RenderModelSoundUpdate::update() // 0x522595
 {
     mangled_assert("?update@RenderModelSoundUpdate@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_522595(this);
-    return __result;
 }
 
 /* ---------- private code */

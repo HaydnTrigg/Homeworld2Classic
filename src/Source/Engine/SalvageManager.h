@@ -53,31 +53,22 @@ static_assert(sizeof(SalvageManagerStatic) == 16, "Invalid SalvageManagerStatic 
 
 /* ---------- public code */
 
-_extern bool _sub_4893C7(SalvageManager *const);
 _inline bool SalvageManager::isDeterministic() // 0x4893C7
 {
     mangled_assert("?isDeterministic@SalvageManager@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4893C7(this);
-    return __result;
 }
 
-_extern char const *_sub_48946D(SalvageManager *const);
 _inline char const *SalvageManager::saveToken() // 0x48946D
 {
     mangled_assert("?saveToken@SalvageManager@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_48946D(this);
-    return __result;
 }
 
-_extern char const *_sub_4893AB(SalvageManagerStatic const *const);
 _inline char const *SalvageManagerStatic::getPointBaseName() const // 0x4893AB
 {
     mangled_assert("?getPointBaseName@SalvageManagerStatic@@MBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4893AB(this);
-    return __result;
 }
 
 /* ---------- private code */

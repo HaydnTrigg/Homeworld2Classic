@@ -211,191 +211,130 @@ static_assert(sizeof(Weapon) == 116, "Invalid Weapon size");
 
 /* ---------- public code */
 
-_extern void _sub_48F640(Weapon *const, bool);
 _inline void Weapon::setEnableDisable(bool) // 0x48F640
 {
     mangled_assert("?setEnableDisable@Weapon@@QAEX_N@Z");
     todo("implement");
-    _sub_48F640(this, arg);
 }
 
-_extern char _sub_48D5DD(Weapon const *const);
 _inline char Weapon::getWeaponEnabled() const // 0x48D5DD
 {
     mangled_assert("?getWeaponEnabled@Weapon@@QBEDXZ");
     todo("implement");
-    char __result = _sub_48D5DD(this);
-    return __result;
 }
 
-_extern float _sub_607DDC(Weapon const *const);
 _inline float Weapon::getTimeTillNextFire() const // 0x607DDC
 {
     mangled_assert("?getTimeTillNextFire@Weapon@@QBEMXZ");
     todo("implement");
-    float __result = _sub_607DDC(this);
-    return __result;
 }
 
-_extern float _sub_48CA18(Weapon const *const);
 _inline float Weapon::getRange() const // 0x48CA18
 {
     mangled_assert("?getRange@Weapon@@QBEMXZ");
     todo("implement");
-    float __result = _sub_48CA18(this);
-    return __result;
 }
 
-_extern float _sub_4A4F9F(Weapon const *const);
 _inline float Weapon::getWeaponFireSpeed() const // 0x4A4F9F
 {
     mangled_assert("?getWeaponFireSpeed@Weapon@@QBEMXZ");
     todo("implement");
-    float __result = _sub_4A4F9F(this);
-    return __result;
 }
 
-_extern char _sub_4A4AD3(Weapon const *const);
 _inline char Weapon::getUseVelocityPred() const // 0x4A4AD3
 {
     mangled_assert("?getUseVelocityPred@Weapon@@QBEDXZ");
     todo("implement");
-    char __result = _sub_4A4AD3(this);
-    return __result;
 }
 
-_extern float _sub_49DCE2(Weapon const *const);
 _inline float Weapon::getFireTime() const // 0x49DCE2
 {
     mangled_assert("?getFireTime@Weapon@@IBEMXZ");
     todo("implement");
-    float __result = _sub_49DCE2(this);
-    return __result;
 }
 
-_extern float _sub_49DCA0(Weapon const *const);
 _inline float Weapon::getBurstFireTime() const // 0x49DCA0
 {
     mangled_assert("?getBurstFireTime@Weapon@@IBEMXZ");
     todo("implement");
-    float __result = _sub_49DCA0(this);
-    return __result;
 }
 
-_extern float _sub_49DCAA(Weapon const *const);
 _inline float Weapon::getBurstWaitTime() const // 0x49DCAA
 {
     mangled_assert("?getBurstWaitTime@Weapon@@IBEMXZ");
     todo("implement");
-    float __result = _sub_49DCAA(this);
-    return __result;
 }
 
-_extern WeaponFireType _sub_49DEBD(Weapon const *const);
 _inline WeaponFireType Weapon::getWeaponFireType() const // 0x49DEBD
 {
     mangled_assert("?getWeaponFireType@Weapon@@QBE?AW4WeaponFireType@@XZ");
     todo("implement");
-    WeaponFireType __result = _sub_49DEBD(this);
-    return __result;
 }
 
-_extern std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &_sub_49DEB6(Weapon const *const);
 _inline std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &Weapon::getWeaponFireName() const // 0x49DEB6
 {
     mangled_assert("?getWeaponFireName@Weapon@@QBEABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ");
     todo("implement");
-    std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & __result = _sub_49DEB6(this);
-    return __result;
 }
 
-_extern bool _sub_49E124(Weapon const *const);
 _inline bool Weapon::isTargeted() const // 0x49E124
 {
     mangled_assert("?isTargeted@Weapon@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_49E124(this);
-    return __result;
 }
 
-_extern Sob *_sub_49DCEC(Weapon const *const);
 _inline Sob *Weapon::getOwner() const // 0x49DCEC
 {
     mangled_assert("?getOwner@Weapon@@QBEPAVSob@@XZ");
     todo("implement");
-    Sob * __result = _sub_49DCEC(this);
-    return __result;
 }
 
-_extern __int32 _sub_48D5E1(Weapon const *const);
 _inline __int32 Weapon::getWeaponIndex() const // 0x48D5E1
 {
     mangled_assert("?getWeaponIndex@Weapon@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_48D5E1(this);
-    return __result;
 }
 
-_extern WeaponClassSpecificInfo *_sub_48D5D9(Weapon const *const);
 _inline WeaponClassSpecificInfo *Weapon::getWeaponClassSpecificInfo() const // 0x48D5D9
 {
     mangled_assert("?getWeaponClassSpecificInfo@Weapon@@QBEPAVWeaponClassSpecificInfo@@XZ");
     todo("implement");
-    WeaponClassSpecificInfo * __result = _sub_48D5D9(this);
-    return __result;
 }
 
-_extern WeaponStatic const *_sub_48CD14(Weapon const *const);
 _inline WeaponStatic const *Weapon::getStatic() const // 0x48CD14
 {
     mangled_assert("?getStatic@Weapon@@QBEPBVWeaponStatic@@XZ");
     todo("implement");
-    WeaponStatic const * __result = _sub_48CD14(this);
-    return __result;
 }
 
-_extern void _sub_4A47AF(Weapon *const, __int32);
 _inline void Weapon::setWeaponIndex(__int32) // 0x4A47AF
 {
     mangled_assert("?setWeaponIndex@Weapon@@QAEXH@Z");
     todo("implement");
-    _sub_4A47AF(this, arg);
 }
 
-_extern float _sub_49DC9D(Weapon *const);
 _inline float Weapon::getAzimuthOffset() // 0x49DC9D
 {
     mangled_assert("?getAzimuthOffset@Weapon@@UAEMXZ");
     todo("implement");
-    float __result = _sub_49DC9D(this);
-    return __result;
 }
 
-_extern float _sub_49DCDF(Weapon *const);
 _inline float Weapon::getDeclinationOffset() // 0x49DCDF
 {
     mangled_assert("?getDeclinationOffset@Weapon@@UAEMXZ");
     todo("implement");
-    float __result = _sub_49DCDF(this);
-    return __result;
 }
 
-_extern bool _sub_49DEC4(Weapon *const);
 _inline bool Weapon::isDeterministic() // 0x49DEC4
 {
     mangled_assert("?isDeterministic@Weapon@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_49DEC4(this);
-    return __result;
 }
 
-_extern char const *_sub_49E2CE(Weapon *const);
 _inline char const *Weapon::saveToken() // 0x49E2CE
 {
     mangled_assert("?saveToken@Weapon@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_49E2CE(this);
-    return __result;
 }
 
 /* ---------- private code */

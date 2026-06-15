@@ -111,129 +111,99 @@
 
 /* ---------- public code */
 
-_extern _sub_4B6E92(IntersectTarget *const, Sob *, Sob *);
 IntersectTarget::IntersectTarget(Sob *, Sob *) // 0x4B6E92
 {
     mangled_assert("??0IntersectTarget@@QAE@PAVSob@@0@Z");
     todo("implement");
-    _sub_4B6E92(this, arg, arg);
 }
 
-_extern void _sub_4B6F20(FlyAtSpaceObject *const);
 _inline FlyAtSpaceObject::~FlyAtSpaceObject() // 0x4B6F20
 {
     mangled_assert("??1FlyAtSpaceObject@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4B6F20(this);
 }
 
-_extern void _sub_4B6F25(FlyToPoint *const);
 _inline FlyToPoint::~FlyToPoint() // 0x4B6F25
 {
     mangled_assert("??1FlyToPoint@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4B6F25(this);
 }
 
-_extern void _sub_4B6F2A(FlyToSpaceObject *const);
 _inline FlyToSpaceObject::~FlyToSpaceObject() // 0x4B6F2A
 {
     mangled_assert("??1FlyToSpaceObject@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4B6F2A(this);
 }
 
-_extern void _sub_4B6F2F(FlyToSquadron *const);
 _inline FlyToSquadron::~FlyToSquadron() // 0x4B6F2F
 {
     mangled_assert("??1FlyToSquadron@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4B6F2F(this);
 }
 
-_extern void _sub_4B6F34(IntersectTarget *const);
 _inline IntersectTarget::~IntersectTarget() // 0x4B6F34
 {
     mangled_assert("??1IntersectTarget@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4B6F34(this);
 }
 
-_extern _sub_4B6A0F(FlyToSpaceObject *const, Sob *);
 FlyToSpaceObject::FlyToSpaceObject(Sob *) // 0x4B6A0F
 {
     mangled_assert("??0FlyToSpaceObject@@QAE@PAVSob@@@Z");
     todo("implement");
-    _sub_4B6A0F(this, arg);
 }
 
-_extern _sub_4B6BAC(FlyToSpaceObject *const, Sob *, vector3 const &);
 FlyToSpaceObject::FlyToSpaceObject(Sob *, vector3 const &) // 0x4B6BAC
 {
     mangled_assert("??0FlyToSpaceObject@@QAE@PAVSob@@ABVvector3@@@Z");
     todo("implement");
-    _sub_4B6BAC(this, arg, arg);
 }
 
-_extern _sub_4B6ABE(FlyToSpaceObject *const, Sob *, vector3 const &, vector3 const &, vector3 const &);
 FlyToSpaceObject::FlyToSpaceObject(Sob *, vector3 const &, vector3 const &, vector3 const &) // 0x4B6ABE
 {
     mangled_assert("??0FlyToSpaceObject@@QAE@PAVSob@@ABVvector3@@11@Z");
     todo("implement");
-    _sub_4B6ABE(this, arg, arg, arg, arg);
 }
 
-_extern _sub_4B6C75(FlyToSquadron *const, Squadron *);
 FlyToSquadron::FlyToSquadron(Squadron *) // 0x4B6C75
 {
     mangled_assert("??0FlyToSquadron@@QAE@PAVSquadron@@@Z");
     todo("implement");
-    _sub_4B6C75(this, arg);
 }
 
-_extern _sub_4B6D72(FlyToSquadron *const, Squadron *, vector3 const &);
 FlyToSquadron::FlyToSquadron(Squadron *, vector3 const &) // 0x4B6D72
 {
     mangled_assert("??0FlyToSquadron@@QAE@PAVSquadron@@ABVvector3@@@Z");
     todo("implement");
-    _sub_4B6D72(this, arg, arg);
 }
 
-_extern _sub_4B6687(FlyAtSpaceObject *const, Sob *);
 FlyAtSpaceObject::FlyAtSpaceObject(Sob *) // 0x4B6687
 {
     mangled_assert("??0FlyAtSpaceObject@@QAE@PAVSob@@@Z");
     todo("implement");
-    _sub_4B6687(this, arg);
 }
 
-_extern _sub_4B673A(FlyAtSpaceObject *const, Sob *, vector3 const &);
 FlyAtSpaceObject::FlyAtSpaceObject(Sob *, vector3 const &) // 0x4B673A
 {
     mangled_assert("??0FlyAtSpaceObject@@QAE@PAVSob@@ABVvector3@@@Z");
     todo("implement");
-    _sub_4B673A(this, arg, arg);
 }
 
-_extern _sub_4B699F(FlyToPoint *const, vector3 const &);
 FlyToPoint::FlyToPoint(vector3 const &) // 0x4B699F
 {
     mangled_assert("??0FlyToPoint@@QAE@ABVvector3@@@Z");
     todo("implement");
-    _sub_4B699F(this, arg);
 }
 
-_extern _sub_4B6800(FlyToPoint *const, vector3 const &, vector3 const &);
 FlyToPoint::FlyToPoint(vector3 const &, vector3 const &) // 0x4B6800
 {
     mangled_assert("??0FlyToPoint@@QAE@ABVvector3@@0@Z");
     todo("implement");
-    _sub_4B6800(this, arg, arg);
 }
 
 /* ---------- private code */

@@ -141,130 +141,94 @@ extern SaveData const DefenseField::m_saveData[4]; // 0x7925B8
 
 /* ---------- public code */
 
-_extern _sub_4C34DA(DefenseField *const, SobID const &);
 DefenseField::DefenseField(SobID const &) // 0x4C34DA
 {
     mangled_assert("??0DefenseField@@QAE@ABVSobID@@@Z");
     todo("implement");
-    _sub_4C34DA(this, arg);
 }
 
-_extern _sub_4C3559(DefenseField *const, SaveGameData *);
 DefenseField::DefenseField(SaveGameData *) // 0x4C3559
 {
     mangled_assert("??0DefenseField@@QAE@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_4C3559(this, arg);
 }
 
-_extern void _sub_4C35C1(DefenseField *const);
 DefenseField::~DefenseField() // 0x4C35C1
 {
     mangled_assert("??1DefenseField@@UAE@XZ");
     todo("implement");
-    _sub_4C35C1(this);
 }
 
-_extern void _sub_4C3640(DefenseField *const, vector3 const &, float);
 void DefenseField::Set(vector3 const &, float) // 0x4C3640
 {
     mangled_assert("?Set@DefenseField@@QAEXABVvector3@@M@Z");
     todo("implement");
-    _sub_4C3640(this, arg, arg);
 }
 
-_extern void _sub_4C366A(DefenseField *const);
 void DefenseField::UpdateCollisionProxies() // 0x4C366A
 {
     mangled_assert("?UpdateCollisionProxies@DefenseField@@MAEXXZ");
     todo("implement");
-    _sub_4C366A(this);
 }
 
-_extern void _sub_4C3AFD(DefenseField *const);
 void DefenseField::postRestore() // 0x4C3AFD
 {
     mangled_assert("?postRestore@DefenseField@@UAEXXZ");
     todo("implement");
-    _sub_4C3AFD(this);
 }
 
-_extern void _sub_4C3BAD(DefenseField *const, vector3 const &);
 void DefenseField::spawnEffects(vector3 const &) // 0x4C3BAD
 {
     mangled_assert("?spawnEffects@DefenseField@@IAEXABVvector3@@@Z");
     todo("implement");
-    _sub_4C3BAD(this, arg);
 }
 
-_extern void _sub_4C36A5(DefenseField const *const, Ship *);
 void DefenseField::callDefenseSpeech(Ship *) const // 0x4C36A5
 {
     mangled_assert("?callDefenseSpeech@DefenseField@@ABEXPAVShip@@@Z");
     todo("implement");
-    _sub_4C36A5(this, arg);
 }
 
-_extern bool _sub_4C39BB(DefenseField *const, Missile *, Collision::Point const &);
 bool DefenseField::doCollision(Missile *, Collision::Point const &) // 0x4C39BB
 {
     mangled_assert("?doCollision@DefenseField@@QAE_NPAVMissile@@ABUPoint@Collision@@@Z");
     todo("implement");
-    bool __result = _sub_4C39BB(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_4C3746(DefenseField *const, Bullet *, Collision::Point const &);
 bool DefenseField::doCollision(Bullet *, Collision::Point const &) // 0x4C3746
 {
     mangled_assert("?doCollision@DefenseField@@QAE_NPAVBullet@@ABUPoint@Collision@@@Z");
     todo("implement");
-    bool __result = _sub_4C3746(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_4C388A(DefenseField *const, InstantHit *, Collision::Point const &);
 bool DefenseField::doCollision(InstantHit *, Collision::Point const &) // 0x4C388A
 {
     mangled_assert("?doCollision@DefenseField@@QAE_NPAVInstantHit@@ABUPoint@Collision@@@Z");
     todo("implement");
-    bool __result = _sub_4C388A(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_4C3C03(DefenseField *const, float);
 bool DefenseField::update(float) // 0x4C3C03
 {
     mangled_assert("?update@DefenseField@@UAE_NM@Z");
     todo("implement");
-    bool __result = _sub_4C3C03(this, arg);
-    return __result;
 }
 
-_extern void _sub_4C373E(DefenseField *const);
 void DefenseField::defaultSettings() // 0x4C373E
 {
     mangled_assert("?defaultSettings@DefenseField@@QAEXXZ");
     todo("implement");
-    _sub_4C373E(this);
 }
 
-_extern bool _sub_4C3B02(DefenseField *const, SaveGameData *);
 bool DefenseField::restore(SaveGameData *) // 0x4C3B02
 {
     mangled_assert("?restore@DefenseField@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_4C3B02(this, arg);
-    return __result;
 }
 
-_extern bool _sub_4C3B4F(DefenseField *const, SaveGameData *, SaveType);
 bool DefenseField::save(SaveGameData *, SaveType) // 0x4C3B4F
 {
     mangled_assert("?save@DefenseField@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_4C3B4F(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

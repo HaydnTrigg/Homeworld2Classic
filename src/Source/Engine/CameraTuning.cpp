@@ -109,91 +109,64 @@ extern CameraTuning *CameraTuning::s_instance; // 0x844068
 
 /* ---------- public code */
 
-_extern _sub_4E1168(CameraTuning *const);
 CameraTuning::CameraTuning() // 0x4E1168
 {
     mangled_assert("??0CameraTuning@@QAE@XZ");
     todo("implement");
-    _sub_4E1168(this);
 }
 
-_extern bool _sub_4E15F4();
 bool CameraTuning::startup() // 0x4E15F4
 {
     mangled_assert("?startup@CameraTuning@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_4E15F4();
-    return __result;
 }
 
-_extern bool _sub_4E15DE();
 bool CameraTuning::shutdown() // 0x4E15DE
 {
     mangled_assert("?shutdown@CameraTuning@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_4E15DE();
-    return __result;
 }
 
-_extern CameraTuning *_sub_4E1189();
 CameraTuning *CameraTuning::i() // 0x4E1189
 {
     mangled_assert("?i@CameraTuning@@SGPAV1@XZ");
     todo("implement");
-    CameraTuning * __result = _sub_4E1189();
-    return __result;
 }
 
-_extern void _sub_4E118F(CameraTuning *const);
 void CameraTuning::initialize() // 0x4E118F
 {
     mangled_assert("?initialize@CameraTuning@@AAEXXZ");
     todo("implement");
-    _sub_4E118F(this);
 }
 
-_extern bool _sub_4E1243(CameraTuning *const, char const *);
 bool CameraTuning::loadTuning(char const *) // 0x4E1243
 {
     mangled_assert("?loadTuning@CameraTuning@@QAE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_4E1243(this, arg);
-    return __result;
 }
 
-_extern void _sub_4E117F(CameraTuning *const);
 void CameraTuning::ResetPanStates() // 0x4E117F
 {
     mangled_assert("?ResetPanStates@CameraTuning@@QAEXXZ");
     todo("implement");
-    _sub_4E117F(this);
 }
 
-_extern bool _sub_4E159D();
 bool mscrIsAddToSelectionModifier() // 0x4E159D
 {
     mangled_assert("?mscrIsAddToSelectionModifier@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_4E159D();
-    return __result;
 }
 
-_extern bool _sub_4E1174(CameraTuning const *const, CameraTuning::PanState);
 bool CameraTuning::IsStateDown(CameraTuning::PanState) const // 0x4E1174
 {
     mangled_assert("?IsStateDown@CameraTuning@@QBE_NW4PanState@1@@Z");
     todo("implement");
-    bool __result = _sub_4E1174(this, arg);
-    return __result;
 }
 
-_extern bool _sub_4E15AD();
 bool mscrIsPanModifier() // 0x4E15AD
 {
     mangled_assert("?mscrIsPanModifier@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_4E15AD();
-    return __result;
 }
 
 /* ---------- private code */

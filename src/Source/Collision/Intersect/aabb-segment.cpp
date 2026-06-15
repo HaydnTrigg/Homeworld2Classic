@@ -24,13 +24,10 @@ extern bool Collision::Intersect(Collision::AABB const &aabb, Collision::Segment
 
 /* ---------- public code */
 
-_extern bool _sub_6655CE(Collision::AABB const &, Collision::Segment const &);
 bool Collision::Intersect(Collision::AABB const &aabb, Collision::Segment const &segment) // 0x6655CE
 {
     mangled_assert("?Intersect@Collision@@YG_NABVAABB@1@ABVSegment@1@@Z");
     todo("implement");
-    bool __result = _sub_6655CE(aabb, segment);
-    return __result;
 }
 
 /* ---------- private code */

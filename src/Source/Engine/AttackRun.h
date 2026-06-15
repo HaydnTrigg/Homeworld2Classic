@@ -91,57 +91,40 @@ static_assert(sizeof(AttackRunAttackStyle) == 148, "Invalid AttackRunAttackStyle
 
 /* ---------- public code */
 
-_extern AttackStyle::AttackStyleType _sub_6B51B0(AttackRunAttackStyle const *const);
 _inline AttackStyle::AttackStyleType AttackRunAttackStyle::GetType() const // 0x6B51B0
 {
     mangled_assert("?GetType@AttackRunAttackStyle@@UBE?AW4AttackStyleType@AttackStyle@@XZ");
     todo("implement");
-    AttackStyle::AttackStyleType __result = _sub_6B51B0(this);
-    return __result;
 }
 
-_extern bool _sub_6B554B(AttackRunAttackStyle *const);
 _inline bool AttackRunAttackStyle::doesAttackStyleDictateTargetPoint() // 0x6B554B
 {
     mangled_assert("?doesAttackStyleDictateTargetPoint@AttackRunAttackStyle@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6B554B(this);
-    return __result;
 }
 
-_extern void _sub_6B51B4(AttackRunAttackStyle *const);
 _inline void AttackRunAttackStyle::SetStateToStart() // 0x6B51B4
 {
     mangled_assert("?SetStateToStart@AttackRunAttackStyle@@UAEXXZ");
     todo("implement");
-    _sub_6B51B4(this);
 }
 
-_extern AttackRunStatic const *_sub_6B5589(AttackRunAttackStyle const *const);
 _inline AttackRunStatic const *AttackRunAttackStyle::getStaticInfo() const // 0x6B5589
 {
     mangled_assert("?getStaticInfo@AttackRunAttackStyle@@IBEPBVAttackRunStatic@@XZ");
     todo("implement");
-    AttackRunStatic const * __result = _sub_6B5589(this);
-    return __result;
 }
 
-_extern bool _sub_6B5633(AttackRunAttackStyle *const);
 _inline bool AttackRunAttackStyle::isDeterministic() // 0x6B5633
 {
     mangled_assert("?isDeterministic@AttackRunAttackStyle@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6B5633(this);
-    return __result;
 }
 
-_extern char const *_sub_6B577A(AttackRunAttackStyle *const);
 _inline char const *AttackRunAttackStyle::saveToken() // 0x6B577A
 {
     mangled_assert("?saveToken@AttackRunAttackStyle@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6B577A(this);
-    return __result;
 }
 
 /* ---------- private code */

@@ -46,66 +46,46 @@ static_assert(sizeof(WeaponFireEvent) == 64, "Invalid WeaponFireEvent size");
 
 /* ---------- public code */
 
-_extern unsigned __int32 _sub_64D570(WeaponFireEvent const *const);
 _inline unsigned __int32 WeaponFireEvent::GetSobFiringID() const // 0x64D570
 {
     mangled_assert("?GetSobFiringID@WeaponFireEvent@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_64D570(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_64D568(WeaponFireEvent const *const);
 _inline unsigned __int32 WeaponFireEvent::GetSobBeingShotID() const // 0x64D568
 {
     mangled_assert("?GetSobBeingShotID@WeaponFireEvent@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_64D568(this);
-    return __result;
 }
 
-_extern char const *_sub_64D57C(WeaponFireEvent const *const);
 _inline char const *WeaponFireEvent::GetWeaponName() const // 0x64D57C
 {
     mangled_assert("?GetWeaponName@WeaponFireEvent@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_64D57C(this);
-    return __result;
 }
 
-_extern void _sub_4A9CAA(WeaponFireEvent *const, bool);
 _inline void WeaponFireEvent::SetComplete(bool) // 0x4A9CAA
 {
     mangled_assert("?SetComplete@WeaponFireEvent@@QAEX_N@Z");
     todo("implement");
-    _sub_4A9CAA(this, arg);
 }
 
-_extern bool _sub_718C1D(WeaponFireEvent const *const);
 _inline bool WeaponFireEvent::IsComplete() const // 0x718C1D
 {
     mangled_assert("?IsComplete@WeaponFireEvent@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_718C1D(this);
-    return __result;
 }
 
-_extern bool _sub_4AB0DC(WeaponFireEvent *const);
 _inline bool WeaponFireEvent::isDeterministic() // 0x4AB0DC
 {
     mangled_assert("?isDeterministic@WeaponFireEvent@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4AB0DC(this);
-    return __result;
 }
 
-_extern char const *_sub_4AB153(WeaponFireEvent *const);
 _inline char const *WeaponFireEvent::saveToken() // 0x4AB153
 {
     mangled_assert("?saveToken@WeaponFireEvent@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4AB153(this);
-    return __result;
 }
 
 /* ---------- private code */

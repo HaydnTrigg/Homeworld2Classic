@@ -187,140 +187,106 @@ extern UI::UnitCapInfoPopup *UI::UnitCapInfoPopup::ms_screen; // 0x846D68
 
 /* ---------- public code */
 
-_extern _sub_5AE772(UI::UnitCapInfoPopup *const, char const *);
 UI::UnitCapInfoPopup::UnitCapInfoPopup(char const *) // 0x5AE772
 {
     mangled_assert("??0UnitCapInfoPopup@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_5AE772(this, arg);
 }
 
-_extern void _sub_5AE7E7(std::_List_buy<UI::UnitCapInfoPopup::UnitCapEntry,std::allocator<UI::UnitCapInfoPopup::UnitCapEntry> > *const);
 _inline std::_List_buy<UI::UnitCapInfoPopup::UnitCapEntry,std::allocator<UI::UnitCapInfoPopup::UnitCapEntry> >::~_List_buy<UI::UnitCapInfoPopup::UnitCapEntry,std::allocator<UI::UnitCapInfoPopup::UnitCapEntry> >() // 0x5AE7E7
 {
     mangled_assert("??1?$_List_buy@UUnitCapEntry@UnitCapInfoPopup@UI@@V?$allocator@UUnitCapEntry@UnitCapInfoPopup@UI@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5AE7E7(this);
 }
 
-_extern void _sub_5AE80B(UI::UnitCapInfoPopup::UnitCapEntry *const);
 _inline UI::UnitCapInfoPopup::UnitCapEntry::~UnitCapEntry() // 0x5AE80B
 {
     mangled_assert("??1UnitCapEntry@UnitCapInfoPopup@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5AE80B(this);
 }
 
-_extern void _sub_5AE815(UI::UnitCapInfoPopup *const);
 UI::UnitCapInfoPopup::~UnitCapInfoPopup() // 0x5AE815
 {
     mangled_assert("??1UnitCapInfoPopup@UI@@UAE@XZ");
     todo("implement");
-    _sub_5AE815(this);
 }
 
-_extern void _sub_5AEE73(GameEventSys::Listener * const, GameEventSys::Event const &);
 void UI::UnitCapInfoPopup::OnEvent(GameEventSys::Event const &) // 0x5AEE73
 {
     mangled_assert("?OnEvent@UnitCapInfoPopup@UI@@UAEXABVEvent@GameEventSys@@@Z");
     // __shifted(UI::UnitCapInfoPopup, 412);
     todo("implement");
-    _sub_5AEE73(this, arg);
 }
 
-_extern void _sub_5AEE18(UI::UnitCapInfoPopup *const, bool);
 void UI::UnitCapInfoPopup::OnActivate(bool) // 0x5AEE18
 {
     mangled_assert("?OnActivate@UnitCapInfoPopup@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_5AEE18(this, arg);
 }
 
-_extern void _sub_5AEF6F(UI::UnitCapInfoPopup *const, unsigned __int32);
 void UI::UnitCapInfoPopup::Update(unsigned __int32) // 0x5AEF6F
 {
     mangled_assert("?Update@UnitCapInfoPopup@UI@@UAEXI@Z");
     todo("implement");
-    _sub_5AEF6F(this, arg);
 }
 
-_extern void _sub_5AEF04(UI::UnitCapInfoPopup *const);
 void UI::UnitCapInfoPopup::OnPostLoad() // 0x5AEF04
 {
     mangled_assert("?OnPostLoad@UnitCapInfoPopup@UI@@MAEXXZ");
     todo("implement");
-    _sub_5AEF04(this);
 }
 
-_extern void _sub_5AEE8F(UI::UnitCapInfoPopup *const, LuaConfig &);
 void UI::UnitCapInfoPopup::OnLoad(LuaConfig &) // 0x5AEE8F
 {
     mangled_assert("?OnLoad@UnitCapInfoPopup@UI@@MAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_5AEE8F(this, arg);
 }
 
-_extern _sub_5AE714(UI::FindUnitCapEntry *const, __int32, __int32);
 _inline UI::FindUnitCapEntry::FindUnitCapEntry(__int32, __int32) // 0x5AE714
 {
     mangled_assert("??0FindUnitCapEntry@UI@@QAE@HH@Z");
     todo("implement");
-    _sub_5AE714(this, arg, arg);
 }
 
-_extern _sub_5AE726(UI::UnitCapInfoPopup::UnitCapEntry *const, UI::UnitCapInfoPopup::UnitCapEntry const &);
 _inline UI::UnitCapInfoPopup::UnitCapEntry::UnitCapEntry(UI::UnitCapInfoPopup::UnitCapEntry const &) // 0x5AE726
 {
     mangled_assert("??0UnitCapEntry@UnitCapInfoPopup@UI@@QAE@ABU012@@Z");
     compiler_generated();
     todo("implement");
-    _sub_5AE726(this, arg);
 }
 
-_extern _sub_5AE75F(UI::UnitCapInfoPopup::UnitCapEntry *const);
 _inline UI::UnitCapInfoPopup::UnitCapEntry::UnitCapEntry() // 0x5AE75F
 {
     mangled_assert("??0UnitCapEntry@UnitCapInfoPopup@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5AE75F(this);
 }
 
-_extern bool _sub_5AE928(UI::FindUnitCapEntry *const, UI::UnitCapInfoPopup::UnitCapEntry const &);
 _inline bool UI::FindUnitCapEntry::operator()(UI::UnitCapInfoPopup::UnitCapEntry const &) // 0x5AE928
 {
     mangled_assert("??RFindUnitCapEntry@UI@@QAE_NABUUnitCapEntry@UnitCapInfoPopup@1@@Z");
     todo("implement");
-    bool __result = _sub_5AE928(this, arg);
-    return __result;
 }
 
-_extern void _sub_5AEB77(UI::UnitCapInfoPopup *const, unsigned __int32);
 void UI::UnitCapInfoPopup::DisplayUnitCapInfo(unsigned __int32) // 0x5AEB77
 {
     mangled_assert("?DisplayUnitCapInfo@UnitCapInfoPopup@UI@@AAEXI@Z");
     todo("implement");
-    _sub_5AEB77(this, arg);
 }
 
-_extern void _sub_5AE981(UI::UnitCapInfoPopup *const, wchar_t const *, unsigned __int32, unsigned __int32, unsigned __int32);
 void UI::UnitCapInfoPopup::AddUnitCap(wchar_t const *, unsigned __int32, unsigned __int32, unsigned __int32) // 0x5AE981
 {
     mangled_assert("?AddUnitCap@UnitCapInfoPopup@UI@@AAEXPB_WIII@Z");
     todo("implement");
-    _sub_5AE981(this, arg, arg, arg, arg);
 }
 
 /* ---------- private code */
 
-_extern bool _sub_5AEF5A(UI::UnitCapInfoPopup::UnitCapEntry const &, UI::UnitCapInfoPopup::UnitCapEntry const &);
 _static bool UI::UnitCapEntryPriorityComp(UI::UnitCapInfoPopup::UnitCapEntry const &l, UI::UnitCapInfoPopup::UnitCapEntry const &r) // 0x5AEF5A
 {
     mangled_assert("UI::UnitCapEntryPriorityComp");
     todo("implement");
-    bool __result = _sub_5AEF5A(l, r);
-    return __result;
 }
 #endif

@@ -50,49 +50,34 @@ static_assert(sizeof(DustCloudGroup) == 112, "Invalid DustCloudGroup size");
 
 /* ---------- public code */
 
-_extern vector3 const &_sub_618DB7(DustCloudGroup const *const);
 _inline vector3 const &DustCloudGroup::getPosition() const // 0x618DB7
 {
     mangled_assert("?getPosition@DustCloudGroup@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_618DB7(this);
-    return __result;
 }
 
-_extern float _sub_618DBE(DustCloudGroup const *const);
 _inline float DustCloudGroup::getRadius() const // 0x618DBE
 {
     mangled_assert("?getRadius@DustCloudGroup@@QBEMXZ");
     todo("implement");
-    float __result = _sub_618DBE(this);
-    return __result;
 }
 
-_extern Selection const &_sub_618D79(DustCloudGroup const *const);
 _inline Selection const &DustCloudGroup::getDustClouds() const // 0x618D79
 {
     mangled_assert("?getDustClouds@DustCloudGroup@@QBEABVSelection@@XZ");
     todo("implement");
-    Selection const & __result = _sub_618D79(this);
-    return __result;
 }
 
-_extern bool _sub_4C5A88(DustCloudGroup *const);
 _inline bool DustCloudGroup::isDeterministic() // 0x4C5A88
 {
     mangled_assert("?isDeterministic@DustCloudGroup@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4C5A88(this);
-    return __result;
 }
 
-_extern char const *_sub_4C5B97(DustCloudGroup *const);
 _inline char const *DustCloudGroup::saveToken() // 0x4C5B97
 {
     mangled_assert("?saveToken@DustCloudGroup@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4C5B97(this);
-    return __result;
 }
 
 /* ---------- private code */

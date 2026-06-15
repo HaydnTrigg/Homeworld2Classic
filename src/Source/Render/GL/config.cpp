@@ -57,13 +57,10 @@ _static
 
 /* ---------- public code */
 
-_extern bool _sub_10002E79();
 bool rglReadConfig() // 0x10002E79
 {
     mangled_assert("?rglReadConfig@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_10002E79();
-    return __result;
 }
 
 /* ---------- private code */

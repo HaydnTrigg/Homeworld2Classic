@@ -122,40 +122,28 @@ static_assert(sizeof(FormHyperspaceGateCommandStaticInfo) == 24, "Invalid FormHy
 
 /* ---------- public code */
 
-_extern bool _sub_4AE460(FormHyperspaceGateCommand const *const);
 _inline bool FormHyperspaceGateCommand::gateCanBeUsed() const // 0x4AE460
 {
     mangled_assert("?gateCanBeUsed@FormHyperspaceGateCommand@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_4AE460(this);
-    return __result;
 }
 
-_extern bool _sub_63156C(FormHyperspaceGateCommand const *const);
 _inline bool FormHyperspaceGateCommand::gateCanBeReasigned() const // 0x63156C
 {
     mangled_assert("?gateCanBeReasigned@FormHyperspaceGateCommand@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_63156C(this);
-    return __result;
 }
 
-_extern bool _sub_69AC62(FormHyperspaceGateCommand *const);
 _inline bool FormHyperspaceGateCommand::isDeterministic() // 0x69AC62
 {
     mangled_assert("?isDeterministic@FormHyperspaceGateCommand@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_69AC62(this);
-    return __result;
 }
 
-_extern char const *_sub_69AE03(FormHyperspaceGateCommand *const);
 _inline char const *FormHyperspaceGateCommand::saveToken() // 0x69AE03
 {
     mangled_assert("?saveToken@FormHyperspaceGateCommand@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_69AE03(this);
-    return __result;
 }
 
 /* ---------- private code */

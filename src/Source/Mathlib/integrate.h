@@ -20,12 +20,10 @@ static_assert(sizeof(Integrate) == 1, "Invalid Integrate size");
 
 /* ---------- public code */
 
-_extern void _sub_60D753(std::vector<float,std::allocator<float> > &);
 void Integrate::intccini<float>(std::vector<float,std::allocator<float> > &w) // 0x60D753
 {
     mangled_assert("??$intccini@M@Integrate@@SGXAAV?$vector@MV?$allocator@M@std@@@std@@@Z");
     todo("implement");
-    _sub_60D753(w);
 }
 
 /* ---------- private code */

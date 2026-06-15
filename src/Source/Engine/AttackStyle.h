@@ -153,128 +153,88 @@ static_assert(sizeof(AttackStyleStatic) == 36, "Invalid AttackStyleStatic size")
 
 /* ---------- public code */
 
-_extern _sub_6BB47E(AttackAction *const);
 _inline AttackAction::AttackAction() // 0x6BB47E
 {
     mangled_assert("??0AttackAction@@QAE@XZ");
     todo("implement");
-    _sub_6BB47E(this);
 }
 
-_extern void _sub_6BB603(AttackAction *const);
 _inline AttackAction::~AttackAction() // 0x6BB603
 {
     mangled_assert("??1AttackAction@@QAE@XZ");
     todo("implement");
-    _sub_6BB603(this);
 }
 
-_extern Selection const &_sub_6B0F68(AttackStyle *const);
 _inline Selection const &AttackStyle::getTargetList() // 0x6B0F68
 {
     mangled_assert("?getTargetList@AttackStyle@@QAEABVSelection@@XZ");
     todo("implement");
-    Selection const & __result = _sub_6B0F68(this);
-    return __result;
 }
 
-_extern Sob *_sub_6B0F6C(AttackStyle const *const);
 _inline Sob *AttackStyle::getTargetNonDeterministicSafe() const // 0x6B0F6C
 {
     mangled_assert("?getTargetNonDeterministicSafe@AttackStyle@@QBEPAVSob@@XZ");
     todo("implement");
-    Sob * __result = _sub_6B0F6C(this);
-    return __result;
 }
 
-_extern bool _sub_6AF20F(AttackStyle *const, vector3 const &);
 _inline bool AttackStyle::handleMoveRequest(vector3 const &) // 0x6AF20F
 {
     mangled_assert("?handleMoveRequest@AttackStyle@@UAE_NABVvector3@@@Z");
     todo("implement");
-    bool __result = _sub_6AF20F(this, arg);
-    return __result;
 }
 
-_extern bool _sub_6AF102(AttackStyle const *const);
 _inline bool AttackStyle::canHandleMoveRequests() const // 0x6AF102
 {
     mangled_assert("?canHandleMoveRequests@AttackStyle@@UBE_NXZ");
     todo("implement");
-    bool __result = _sub_6AF102(this);
-    return __result;
 }
 
-_extern __int32 _sub_6BC896(AttackStyle const *const);
 _inline __int32 AttackStyle::getTargetAttackFamily() const // 0x6BC896
 {
     mangled_assert("?getTargetAttackFamily@AttackStyle@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_6BC896(this);
-    return __result;
 }
 
-_extern WeaponTargetInfo const &_sub_6AF0F2(AttackStyle const *const);
 _inline WeaponTargetInfo const &AttackStyle::GetCurrentTarget() const // 0x6AF0F2
 {
     mangled_assert("?GetCurrentTarget@AttackStyle@@IBEABVWeaponTargetInfo@@XZ");
     todo("implement");
-    WeaponTargetInfo const & __result = _sub_6AF0F2(this);
-    return __result;
 }
 
-_extern float _sub_6AF771(AttackStyle const *const);
 _inline float AttackStyle::GetRangeToCurrentTarget() const // 0x6AF771
 {
     mangled_assert("?GetRangeToCurrentTarget@AttackStyle@@IBEMXZ");
     todo("implement");
-    float __result = _sub_6AF771(this);
-    return __result;
 }
 
-_extern float _sub_6B55BA(AttackStyle *const);
 _inline float AttackStyle::getTime() // 0x6B55BA
 {
     mangled_assert("?getTime@AttackStyle@@IAEMXZ");
     todo("implement");
-    float __result = _sub_6B55BA(this);
-    return __result;
 }
 
-_extern bool _sub_6AF105(AttackStyle *const);
 _inline bool AttackStyle::chooseInterpolationTarget() // 0x6AF105
 {
     mangled_assert("?chooseInterpolationTarget@AttackStyle@@MAE_NXZ");
     todo("implement");
-    bool __result = _sub_6AF105(this);
-    return __result;
 }
 
-_extern bool _sub_6AF214(AttackStyle *const, float);
 _inline bool AttackStyle::interpolateTarget(float) // 0x6AF214
 {
     mangled_assert("?interpolateTarget@AttackStyle@@MAE_NM@Z");
     todo("implement");
-    bool __result = _sub_6AF214(this, arg);
-    return __result;
 }
 
-_extern bool _sub_6BC8E7(AttackStyle *const);
 _inline bool AttackStyle::isDeterministic() // 0x6BC8E7
 {
     mangled_assert("?isDeterministic@AttackStyle@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6BC8E7(this);
-    return __result;
 }
 
-_extern char const *_sub_6BCC4E(AttackStyle *const);
 _inline char const *AttackStyle::saveToken() // 0x6BCC4E
 {
     mangled_assert("?saveToken@AttackStyle@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6BCC4E(this);
-    return __result;
 }
 
 /* ---------- private code */

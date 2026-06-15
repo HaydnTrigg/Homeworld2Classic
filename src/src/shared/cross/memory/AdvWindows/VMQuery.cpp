@@ -38,23 +38,17 @@ _static
 
 /* ---------- public code */
 
-_extern __int32 _sub_10006240(void *, void const *, VMQUERY *);
 __int32 VMQuery(void *hProcess, void const *pvAddress, VMQUERY *pVMQ) // 0x10006240
 {
     mangled_assert("?VMQuery@@YGHPAXPBXPAUVMQUERY@@@Z");
     todo("implement");
-    __int32 __result = _sub_10006240(hProcess, pvAddress, pVMQ);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern __int32 _sub_10006400(void *, void const *, VMQUERY_HELP *);
 _static __int32 VMQueryHelp(void *hProcess, void const *pvAddress, VMQUERY_HELP *pVMQHelp) // 0x10006400
 {
     mangled_assert("VMQueryHelp");
     todo("implement");
-    __int32 __result = _sub_10006400(hProcess, pvAddress, pVMQHelp);
-    return __result;
 }
 #endif

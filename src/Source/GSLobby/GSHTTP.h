@@ -70,18 +70,14 @@ static_assert(sizeof(GSHTTP) == 8, "Invalid GSHTTP size");
 
 /* ---------- public code */
 
-_extern void _sub_10001543(GSHTTP *const, GSHTTP::DownloadStatus, __int32, __int32);
 _inline void GSHTTP::OnDownloadProgress(GSHTTP::DownloadStatus, __int32, __int32) // 0x10001543
 {
     mangled_assert("?OnDownloadProgress@GSHTTP@@UAEXW4DownloadStatus@1@HH@Z");
     todo("implement");
-    _sub_10001543(this, arg, arg, arg);
 }
 
-_extern void _sub_100096FE(GSHTTP *const, GSHTTP::CompletionResult);
 _inline void GSHTTP::OnDownloadComplete(GSHTTP::CompletionResult) // 0x100096FE
 {
-    _sub_100096FE(this, arg);
 }
 
 /* ---------- private code */
@@ -159,20 +155,16 @@ static_assert(sizeof(GSHTTP) == 8, "Invalid GSHTTP size");
 
 /* ---------- public code */
 
-_extern void _sub_59EDA5(GSHTTP *const, GSHTTP::DownloadStatus, __int32, __int32);
 _inline void GSHTTP::OnDownloadProgress(GSHTTP::DownloadStatus, __int32, __int32) // 0x59EDA5
 {
     mangled_assert("?OnDownloadProgress@GSHTTP@@UAEXW4DownloadStatus@1@HH@Z");
     todo("implement");
-    _sub_59EDA5(this, arg, arg, arg);
 }
 
-_extern void _sub_59EB1A(GSHTTP *const, GSHTTP::CompletionResult);
 _inline void GSHTTP::OnDownloadComplete(GSHTTP::CompletionResult) // 0x59EB1A
 {
     mangled_assert("?OnDownloadComplete@GSHTTP@@UAEXW4CompletionResult@1@@Z");
     todo("implement");
-    _sub_59EB1A(this, arg);
 }
 
 /* ---------- private code */

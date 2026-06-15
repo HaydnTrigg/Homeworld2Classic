@@ -111,139 +111,100 @@ static_assert(sizeof(ShipController) == 832, "Invalid ShipController size");
 
 /* ---------- public code */
 
-_extern void _sub_488A85(ShipController *const, bool);
 _inline void ShipController::setStopAtGoal(bool) // 0x488A85
 {
     mangled_assert("?setStopAtGoal@ShipController@@QAEX_N@Z");
     todo("implement");
-    _sub_488A85(this, arg);
 }
 
-_extern bool _sub_49BA92(ShipController const *const);
 _inline bool ShipController::getStopAtGoal() const // 0x49BA92
 {
     mangled_assert("?getStopAtGoal@ShipController@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_49BA92(this);
-    return __result;
 }
 
-_extern void _sub_48F910(ShipController *const, ShipController::PointToBehaviour);
 _inline void ShipController::setPointToBehaviour(ShipController::PointToBehaviour) // 0x48F910
 {
     mangled_assert("?setPointToBehaviour@ShipController@@QAEXW4PointToBehaviour@1@@Z");
     todo("implement");
-    _sub_48F910(this, arg);
 }
 
-_extern void _sub_48F949(ShipController *const, DynamicPoint const &, float);
 _inline void ShipController::setPointToTarget(DynamicPoint const &, float) // 0x48F949
 {
     mangled_assert("?setPointToTarget@ShipController@@QAEXABVDynamicPoint@@M@Z");
     todo("implement");
-    _sub_48F949(this, arg, arg);
 }
 
-_extern void _sub_488A3D(ShipController *const, float);
 _inline void ShipController::setMaxSpeed(float) // 0x488A3D
 {
     mangled_assert("?setMaxSpeed@ShipController@@QAEXM@Z");
     todo("implement");
-    _sub_488A3D(this, arg);
 }
 
-_extern float _sub_49BA8B(ShipController const *const);
 _inline float ShipController::getMaxSpeed() const // 0x49BA8B
 {
     mangled_assert("?getMaxSpeed@ShipController@@QBEMXZ");
     todo("implement");
-    float __result = _sub_49BA8B(this);
-    return __result;
 }
 
-_extern void _sub_488ADA(ShipController *const, bool);
 _inline void ShipController::setUseMaxSpeed(bool) // 0x488ADA
 {
     mangled_assert("?setUseMaxSpeed@ShipController@@QAEX_N@Z");
     todo("implement");
-    _sub_488ADA(this, arg);
 }
 
-_extern void _sub_48F6B7(ShipController *const, bool);
 _inline void ShipController::setEnforceMaximumAngles(bool) // 0x48F6B7
 {
     mangled_assert("?setEnforceMaximumAngles@ShipController@@QAEX_N@Z");
     todo("implement");
-    _sub_48F6B7(this, arg);
 }
 
-_extern void _sub_4889E6(ShipController *const, float);
 _inline void ShipController::setGoalReachEpsilon(float) // 0x4889E6
 {
     mangled_assert("?setGoalReachEpsilon@ShipController@@QAEXM@Z");
     todo("implement");
-    _sub_4889E6(this, arg);
 }
 
-_extern float _sub_49AF09(ShipController const *const);
 _inline float ShipController::getThrusterUsage() const // 0x49AF09
 {
     mangled_assert("?getThrusterUsage@ShipController@@QBEMXZ");
     todo("implement");
-    float __result = _sub_49AF09(this);
-    return __result;
 }
 
-_extern void _sub_488AC9(ShipController *const, float);
 _inline void ShipController::setThrusterUsage(float) // 0x488AC9
 {
     mangled_assert("?setThrusterUsage@ShipController@@QAEXM@Z");
     todo("implement");
-    _sub_488AC9(this, arg);
 }
 
-_extern bool _sub_48DED4(ShipController const *const);
 _inline bool ShipController::isFlightManeuverFinished() const // 0x48DED4
 {
     mangled_assert("?isFlightManeuverFinished@ShipController@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_48DED4(this);
-    return __result;
 }
 
-_extern bool _sub_48DEDB(ShipController const *const);
 _inline bool ShipController::isFlightManeuverInProgress() const // 0x48DEDB
 {
     mangled_assert("?isFlightManeuverInProgress@ShipController@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_48DEDB(this);
-    return __result;
 }
 
-_extern void _sub_48F6C4(ShipController *const, vector3 const &);
 _inline void ShipController::setExtent(vector3 const &) // 0x48F6C4
 {
     mangled_assert("?setExtent@ShipController@@QAEXABVvector3@@@Z");
     todo("implement");
-    _sub_48F6C4(this, arg);
 }
 
-_extern bool _sub_49AF10(ShipController *const);
 _inline bool ShipController::isDeterministic() // 0x49AF10
 {
     mangled_assert("?isDeterministic@ShipController@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_49AF10(this);
-    return __result;
 }
 
-_extern char const *_sub_49B1D9(ShipController *const);
 _inline char const *ShipController::saveToken() // 0x49B1D9
 {
     mangled_assert("?saveToken@ShipController@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_49B1D9(this);
-    return __result;
 }
 
 /* ---------- private code */

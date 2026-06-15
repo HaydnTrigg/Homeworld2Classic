@@ -65,13 +65,10 @@ static_assert(sizeof(LobbyLAN) == 28, "Invalid LobbyLAN size");
 
 /* ---------- public code */
 
-_extern unsigned long long _sub_471E54(LobbyLAN *const);
 _inline unsigned long long LobbyLAN::GetLobbyID() // 0x471E54
 {
     mangled_assert("?GetLobbyID@LobbyLAN@@UAE_KXZ");
     todo("implement");
-    unsigned long long __result = _sub_471E54(this);
-    return __result;
 }
 
 /* ---------- private code */

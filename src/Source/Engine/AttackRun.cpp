@@ -104,131 +104,94 @@ extern SaveData const AttackRunAttackStyle::m_saveData[1]; // 0x7B9F88
 
 /* ---------- public code */
 
-_extern _sub_6B50D9(AttackRunAttackStyle *const, FormationAttackCommand const *, Formation *, Selection const &, __int32);
 AttackRunAttackStyle::AttackRunAttackStyle(FormationAttackCommand const *, Formation *, Selection const &, __int32) // 0x6B50D9
 {
     mangled_assert("??0AttackRunAttackStyle@@QAE@PBVFormationAttackCommand@@PAVFormation@@ABVSelection@@H@Z");
     todo("implement");
-    _sub_6B50D9(this, arg, arg, arg, arg);
 }
 
-_extern void _sub_6B5156(AttackRunAttackStyle *const);
 AttackRunAttackStyle::~AttackRunAttackStyle() // 0x6B5156
 {
     mangled_assert("??1AttackRunAttackStyle@@UAE@XZ");
     todo("implement");
-    _sub_6B5156(this);
 }
 
-_extern void _sub_6B55C1(AttackRunAttackStyle *const, vector3 &, Sob *, WeaponTargetInfo const &, Ship *);
 void AttackRunAttackStyle::getUpOfEnemy(vector3 &, Sob *, WeaponTargetInfo const &, Ship *) // 0x6B55C1
 {
     mangled_assert("?getUpOfEnemy@AttackRunAttackStyle@@AAEXAAVvector3@@PAVSob@@ABVWeaponTargetInfo@@PAVShip@@@Z");
     todo("implement");
-    _sub_6B55C1(this, arg, arg, arg, arg);
 }
 
-_extern AttackStyle::AttackStyleResult _sub_6B5780(AttackRunAttackStyle *const, float);
 AttackStyle::AttackStyleResult AttackRunAttackStyle::update(float) // 0x6B5780
 {
     mangled_assert("?update@AttackRunAttackStyle@@UAE?AW4AttackStyleResult@AttackStyle@@M@Z");
     todo("implement");
-    AttackStyle::AttackStyleResult __result = _sub_6B5780(this, arg);
-    return __result;
 }
 
-_extern vector3 _sub_6B51C4(AttackRunAttackStyle *const);
 vector3 AttackRunAttackStyle::determineBreakDestination() // 0x6B51C4
 {
     mangled_assert("?determineBreakDestination@AttackRunAttackStyle@@AAE?AVvector3@@XZ");
     todo("implement");
-    vector3 __result = _sub_6B51C4(this);
-    return __result;
 }
 
-_extern Sob *_sub_6B5552(AttackRunAttackStyle const *const);
 Sob *AttackRunAttackStyle::getSobToNotAvoid() const // 0x6B5552
 {
     mangled_assert("?getSobToNotAvoid@AttackRunAttackStyle@@UBEPAVSob@@XZ");
     todo("implement");
-    Sob * __result = _sub_6B5552(this);
-    return __result;
 }
 
-_extern _sub_6B50BA(AttackRunAttackStyle *const, SaveGameData *);
 AttackRunAttackStyle::AttackRunAttackStyle(SaveGameData *) // 0x6B50BA
 {
     mangled_assert("??0AttackRunAttackStyle@@QAE@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_6B50BA(this, arg);
 }
 
-_extern void _sub_6B51BC(AttackRunAttackStyle *const);
 void AttackRunAttackStyle::defaultSettings() // 0x6B51BC
 {
     mangled_assert("?defaultSettings@AttackRunAttackStyle@@QAEXXZ");
     todo("implement");
-    _sub_6B51BC(this);
 }
 
-_extern void _sub_6B56E1(AttackRunAttackStyle *const);
 void AttackRunAttackStyle::postRestore() // 0x6B56E1
 {
     mangled_assert("?postRestore@AttackRunAttackStyle@@UAEXXZ");
     todo("implement");
-    _sub_6B56E1(this);
 }
 
-_extern bool _sub_6B56E6(AttackRunAttackStyle *const, SaveGameData *);
 bool AttackRunAttackStyle::restore(SaveGameData *) // 0x6B56E6
 {
     mangled_assert("?restore@AttackRunAttackStyle@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_6B56E6(this, arg);
-    return __result;
 }
 
-_extern bool _sub_6B5733(AttackRunAttackStyle *const, SaveGameData *, SaveType);
 bool AttackRunAttackStyle::save(SaveGameData *, SaveType) // 0x6B5733
 {
     mangled_assert("?save@AttackRunAttackStyle@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_6B5733(this, arg, arg);
-    return __result;
 }
 
-_extern _sub_6B5104(AttackRunStatic *const);
 AttackRunStatic::AttackRunStatic() // 0x6B5104
 {
     mangled_assert("??0AttackRunStatic@@QAE@XZ");
     todo("implement");
-    _sub_6B5104(this);
 }
 
-_extern void _sub_6B5161(AttackRunStatic *const);
 AttackRunStatic::~AttackRunStatic() // 0x6B5161
 {
     mangled_assert("??1AttackRunStatic@@UAE@XZ");
     todo("implement");
-    _sub_6B5161(this);
 }
 
-_extern bool _sub_6B5636(AttackRunStatic *const, LuaConfig &);
 bool AttackRunStatic::loadData(LuaConfig &) // 0x6B5636
 {
     mangled_assert("?loadData@AttackRunStatic@@UAE_NAAVLuaConfig@@@Z");
     todo("implement");
-    bool __result = _sub_6B5636(this, arg);
-    return __result;
 }
 
-_extern char const *_sub_6B558E(AttackRunStatic::CoordSysChoice);
 char const *AttackRunStatic::getStringForCoordSysChoice(AttackRunStatic::CoordSysChoice n) // 0x6B558E
 {
     mangled_assert("?getStringForCoordSysChoice@AttackRunStatic@@SGPBDW4CoordSysChoice@1@@Z");
     todo("implement");
-    char const * __result = _sub_6B558E(n);
-    return __result;
 }
 
 /* ---------- private code */

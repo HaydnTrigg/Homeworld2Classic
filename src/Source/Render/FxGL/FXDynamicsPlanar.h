@@ -40,12 +40,10 @@ static_assert(sizeof(FXDynamicsPlanar) == 48, "Invalid FXDynamicsPlanar size");
 
 /* ---------- public code */
 
-_extern void _sub_6F42F1(FXDynamicsPlanar *const, float const);
 _inline void FXDynamicsPlanar::InitialDrag(float const) // 0x6F42F1
 {
     mangled_assert("?InitialDrag@FXDynamicsPlanar@@UAEXM@Z");
     todo("implement");
-    _sub_6F42F1(this, arg);
 }
 
 /* ---------- private code */

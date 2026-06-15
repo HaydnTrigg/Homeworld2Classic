@@ -28,12 +28,10 @@ extern void mathlibMakePerpendicularVectors(vector3 const &n, vector3 &up, vecto
 
 /* ---------- public code */
 
-_extern void _sub_65FF37(vector3 const &, vector3 &, vector3 &);
 void mathlibMakePerpendicularVectors(vector3 const &n, vector3 &up, vector3 &right) // 0x65FF37
 {
     mangled_assert("?mathlibMakePerpendicularVectors@@YGXABVvector3@@AAV1@1@Z");
     todo("implement");
-    _sub_65FF37(n, up, right);
 }
 
 /* ---------- private code */

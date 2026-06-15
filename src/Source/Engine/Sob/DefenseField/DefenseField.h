@@ -54,39 +54,28 @@ static_assert(sizeof(DefenseField) == 580, "Invalid DefenseField size");
 
 /* ---------- public code */
 
-_extern vector3 const &_sub_4C3AF3(DefenseField const *const);
 _inline vector3 const &DefenseField::getPosition() const // 0x4C3AF3
 {
     mangled_assert("?getPosition@DefenseField@@UBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_4C3AF3(this);
-    return __result;
 }
 
-_extern void _sub_4856AC(DefenseField *const, __int32);
 _inline void DefenseField::SetPlayerIndex(__int32) // 0x4856AC
 {
     mangled_assert("?SetPlayerIndex@DefenseField@@QAEXH@Z");
     todo("implement");
-    _sub_4856AC(this, arg);
 }
 
-_extern bool _sub_4C3AFA(DefenseField *const);
 _inline bool DefenseField::isDeterministic() // 0x4C3AFA
 {
     mangled_assert("?isDeterministic@DefenseField@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4C3AFA(this);
-    return __result;
 }
 
-_extern char const *_sub_4C3B96(DefenseField *const);
 _inline char const *DefenseField::saveToken() // 0x4C3B96
 {
     mangled_assert("?saveToken@DefenseField@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4C3B96(this);
-    return __result;
 }
 
 /* ---------- private code */

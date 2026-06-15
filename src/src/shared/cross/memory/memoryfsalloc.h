@@ -69,53 +69,40 @@ static_assert(sizeof(mempool_fs_alloc<std::_List_node<FXManager::Handle,void *> 
 
 /* ---------- public code */
 
-_extern _sub_6DBAFC(mempool_fs_alloc<FXManager::Handle> *const, MemPoolSmall const &);
 _inline mempool_fs_alloc<FXManager::Handle>::mempool_fs_alloc<FXManager::Handle>(MemPoolSmall const &) // 0x6DBAFC
 {
     mangled_assert("??0?$mempool_fs_alloc@UHandle@FXManager@@@@QAE@ABVMemPoolSmall@@@Z");
     todo("implement");
-    _sub_6DBAFC(this, arg);
 }
 
-_extern _sub_6D9399(mempool_fs_alloc<std::_List_node<FXManager::Handle,void *> > *const, mempool_fs_alloc<FXManager::Handle> const &);
 _inline mempool_fs_alloc<std::_List_node<FXManager::Handle,void *> >::mempool_fs_alloc<std::_List_node<FXManager::Handle,void *> ><FXManager::Handle>(mempool_fs_alloc<FXManager::Handle> const &) // 0x6D9399
 {
     mangled_assert("??$?0UHandle@FXManager@@@?$mempool_fs_alloc@U?$_List_node@UHandle@FXManager@@PAX@std@@@@QAE@ABV?$mempool_fs_alloc@UHandle@FXManager@@@@@Z");
     todo("implement");
-    _sub_6D9399(this, arg);
 }
 
-_extern void _sub_6DC07B(mempool_fs_alloc<std::_List_node<FXManager::Handle,void *> > *const);
 _inline mempool_fs_alloc<std::_List_node<FXManager::Handle,void *> >::~mempool_fs_alloc<std::_List_node<FXManager::Handle,void *> >() // 0x6DC07B
 {
     mangled_assert("??1?$mempool_fs_alloc@U?$_List_node@UHandle@FXManager@@PAX@std@@@@QAE@XZ");
     todo("implement");
-    _sub_6DC07B(this);
 }
 
-_extern void _sub_6DC081(mempool_fs_alloc<FXManager::Handle> *const);
 _inline mempool_fs_alloc<FXManager::Handle>::~mempool_fs_alloc<FXManager::Handle>() // 0x6DC081
 {
     mangled_assert("??1?$mempool_fs_alloc@UHandle@FXManager@@@@QAE@XZ");
     todo("implement");
-    _sub_6DC081(this);
 }
 
-_extern std::_List_node<FXManager::Handle,void *> *_sub_6E02C0(mempool_fs_alloc<std::_List_node<FXManager::Handle,void *> > *const, unsigned __int32, void const *);
 _inline std::_List_node<FXManager::Handle,void *> *mempool_fs_alloc<std::_List_node<FXManager::Handle,void *> >::allocate(unsigned __int32, void const *) // 0x6E02C0
 {
     mangled_assert("?allocate@?$mempool_fs_alloc@U?$_List_node@UHandle@FXManager@@PAX@std@@@@QAEPAU?$_List_node@UHandle@FXManager@@PAX@std@@IPBX@Z");
     todo("implement");
-    std::_List_node<FXManager::Handle,void *> * __result = _sub_6E02C0(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_6E06EB(mempool_fs_alloc<std::_List_node<FXManager::Handle,void *> > *const, std::_List_node<FXManager::Handle,void *> *, unsigned __int32);
 _inline void mempool_fs_alloc<std::_List_node<FXManager::Handle,void *> >::deallocate(std::_List_node<FXManager::Handle,void *> *, unsigned __int32) // 0x6E06EB
 {
     mangled_assert("?deallocate@?$mempool_fs_alloc@U?$_List_node@UHandle@FXManager@@PAX@std@@@@QAEXPAU?$_List_node@UHandle@FXManager@@PAX@std@@I@Z");
     todo("implement");
-    _sub_6E06EB(this, arg, arg);
 }
 
 /* ---------- private code */

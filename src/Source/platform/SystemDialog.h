@@ -40,22 +40,16 @@ static_assert(sizeof(SysDialogImpl) == 12, "Invalid SysDialogImpl size");
 
 /* ---------- public code */
 
-_extern char const *_sub_100079AA(SysDialogImpl const *const);
 _inline char const *SysDialogImpl::getDialogText() const // 0x100079AA
 {
     mangled_assert("?getDialogText@SysDialogImpl@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_100079AA(this);
-    return __result;
 }
 
-_extern __int32 _sub_100079AE(SysDialogImpl const *const);
 _inline __int32 SysDialogImpl::getDialogTextBoxName() const // 0x100079AE
 {
     mangled_assert("?getDialogTextBoxName@SysDialogImpl@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_100079AE(this);
-    return __result;
 }
 
 /* ---------- private code */

@@ -38,13 +38,10 @@ static_assert(sizeof(MainScreen) == 1, "Invalid MainScreen size");
 
 /* ---------- public code */
 
-_extern region *_sub_44E330();
 _inline region *MainScreen::GetRegion() // 0x44E330
 {
     mangled_assert("?GetRegion@MainScreen@@SGPAVregion@@XZ");
     todo("implement");
-    region * __result = _sub_44E330();
-    return __result;
 }
 
 /* ---------- private code */

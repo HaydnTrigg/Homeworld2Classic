@@ -115,30 +115,22 @@ static_assert(sizeof(Parser) == 280, "Invalid Parser size");
 
 /* ---------- public code */
 
-_extern __int32 _sub_1008A400(Parser *const);
 _inline __int32 Parser::getLineNum() // 0x1008A400
 {
     mangled_assert("?getLineNum@Parser@@QAEHXZ");
     todo("implement");
-    __int32 __result = _sub_1008A400(this);
-    return __result;
 }
 
-_extern char *_sub_1008A3F0(Parser *const);
 _inline char *Parser::getData() // 0x1008A3F0
 {
     mangled_assert("?getData@Parser@@QAEPADXZ");
     todo("implement");
-    char * __result = _sub_1008A3F0(this);
-    return __result;
 }
 
-_extern void _sub_1008A480(Parser *const, char *);
 _inline void Parser::setLookahead(char *) // 0x1008A480
 {
     mangled_assert("?setLookahead@Parser@@QAEXPAD@Z");
     todo("implement");
-    _sub_1008A480(this, arg);
 }
 
 /* ---------- private code */

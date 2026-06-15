@@ -74,12 +74,10 @@
 
 /* ---------- public code */
 
-_extern void _sub_56B98E(BatchMeshRender *const, SubMesh *, matrix4 const &, MeshInstance const *, unsigned __int32, float, vector4 const &, bool);
 void BatchMeshRender::Render(SubMesh *, matrix4 const &, MeshInstance const *, unsigned __int32, float, vector4 const &, bool) // 0x56B98E
 {
     mangled_assert("?Render@BatchMeshRender@@UAEXPAVSubMesh@@ABVmatrix4@@PBVMeshInstance@@IMABVvector4@@_N@Z");
     todo("implement");
-    _sub_56B98E(this, arg, arg, arg, arg, arg, arg, arg);
 }
 
 /* ---------- private code */

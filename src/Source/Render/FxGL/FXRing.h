@@ -150,22 +150,16 @@ static_assert(sizeof(FXRing) == 1, "Invalid FXRing size");
 
 /* ---------- public code */
 
-_extern bool _sub_6E62DA(FXRing::Obj const *const, vector3 &);
 _inline bool FXRing::Obj::GetOffset(vector3 &) const // 0x6E62DA
 {
     mangled_assert("?GetOffset@Obj@FXRing@@UBE_NAAVvector3@@@Z");
     todo("implement");
-    bool __result = _sub_6E62DA(this, arg);
-    return __result;
 }
 
-_extern bool _sub_6E61E0(FXRing::Obj const *const, vector4 &);
 _inline bool FXRing::Obj::GetColour(vector4 &) const // 0x6E61E0
 {
     mangled_assert("?GetColour@Obj@FXRing@@UBE_NAAVvector4@@@Z");
     todo("implement");
-    bool __result = _sub_6E61E0(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

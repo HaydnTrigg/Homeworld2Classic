@@ -64,22 +64,16 @@ static_assert(sizeof(CameraControl) == 60, "Invalid CameraControl size");
 
 /* ---------- public code */
 
-_extern CameraControl::MotionType _sub_4DF333(CameraControl *const);
 _inline CameraControl::MotionType CameraControl::getLastMotionType() // 0x4DF333
 {
     mangled_assert("?getLastMotionType@CameraControl@@QAE?AW4MotionType@1@XZ");
     todo("implement");
-    CameraControl::MotionType __result = _sub_4DF333(this);
-    return __result;
 }
 
-_extern float _sub_4DF345(CameraControl *const);
 _inline float CameraControl::getLastZoomAmount() // 0x4DF345
 {
     mangled_assert("?getLastZoomAmount@CameraControl@@QAEMXZ");
     todo("implement");
-    float __result = _sub_4DF345(this);
-    return __result;
 }
 
 /* ---------- private code */

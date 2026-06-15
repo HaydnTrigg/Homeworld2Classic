@@ -82,56 +82,40 @@ static_assert(sizeof(UI::RightClickMenu) == 456, "Invalid UI::RightClickMenu siz
 
 /* ---------- public code */
 
-_extern UI::InterfaceElement *_sub_5A519D(UI::RightClickMenu *const);
 _inline UI::InterfaceElement *UI::RightClickMenu::GetRootMenu() // 0x5A519D
 {
     mangled_assert("?GetRootMenu@RightClickMenu@UI@@QAEPAVInterfaceElement@2@XZ");
     todo("implement");
-    UI::InterfaceElement * __result = _sub_5A519D(this);
-    return __result;
 }
 
-_extern UI::InterfaceElement *_sub_5A5196(UI::RightClickMenu *const);
 _inline UI::InterfaceElement *UI::RightClickMenu::GetOpenSubMenu() // 0x5A5196
 {
     mangled_assert("?GetOpenSubMenu@RightClickMenu@UI@@QAEPAVInterfaceElement@2@XZ");
     todo("implement");
-    UI::InterfaceElement * __result = _sub_5A5196(this);
-    return __result;
 }
 
-_extern void _sub_5A6879(UI::RightClickMenu *const, UI::InterfaceElement *);
 _inline void UI::RightClickMenu::SetOpenSubMenu(UI::InterfaceElement *) // 0x5A6879
 {
     mangled_assert("?SetOpenSubMenu@RightClickMenu@UI@@QAEXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5A6879(this, arg);
 }
 
-_extern bool _sub_5A6886(UI::RightClickMenu *const);
 _inline bool UI::RightClickMenu::ShouldOpenLeft() // 0x5A6886
 {
     mangled_assert("?ShouldOpenLeft@RightClickMenu@UI@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_5A6886(this);
-    return __result;
 }
 
-_extern void _sub_5A686C(UI::RightClickMenu *const, bool);
 _inline void UI::RightClickMenu::SetOpenLeft(bool) // 0x5A686C
 {
     mangled_assert("?SetOpenLeft@RightClickMenu@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_5A686C(this, arg);
 }
 
-_extern __int32 _sub_5A51A4(UI::RightClickMenu *const);
 _inline __int32 UI::RightClickMenu::GetTargetSobID() // 0x5A51A4
 {
     mangled_assert("?GetTargetSobID@RightClickMenu@UI@@QAEHXZ");
     todo("implement");
-    __int32 __result = _sub_5A51A4(this);
-    return __result;
 }
 
 /* ---------- private code */

@@ -85,54 +85,40 @@ extern HardPointHealthType getHardPointHealthTypeFromString(std::basic_string<ch
 
 /* ---------- public code */
 
-_extern _sub_4EFFEC(HardPointStatic *const);
 HardPointStatic::HardPointStatic() // 0x4EFFEC
 {
     mangled_assert("??0HardPointStatic@@QAE@XZ");
     todo("implement");
-    _sub_4EFFEC(this);
 }
 
-_extern void _sub_4F0024(HardPointStatic *const);
 HardPointStatic::~HardPointStatic() // 0x4F0024
 {
     mangled_assert("??1HardPointStatic@@QAE@XZ");
     todo("implement");
-    _sub_4F0024(this);
 }
 
-_extern void _sub_4F019E(HardPointStatic *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &);
 void HardPointStatic::setDefaultSubSystemId(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &) // 0x4F019E
 {
     mangled_assert("?setDefaultSubSystemId@HardPointStatic@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    _sub_4F019E(this, arg);
 }
 
-_extern void _sub_4F0046(HardPointStatic *const, unsigned __int32);
 void HardPointStatic::addFittingSubSystem(unsigned __int32) // 0x4F0046
 {
     mangled_assert("?addFittingSubSystem@HardPointStatic@@QAEXI@Z");
     todo("implement");
-    _sub_4F0046(this, arg);
 }
 
-_extern bool _sub_4F0061(HardPointStatic const *const, unsigned __int32);
 bool HardPointStatic::doesSubSystemFit(unsigned __int32) const // 0x4F0061
 {
     mangled_assert("?doesSubSystemFit@HardPointStatic@@QBE_NI@Z");
     todo("implement");
-    bool __result = _sub_4F0061(this, arg);
-    return __result;
 }
 
-_extern HardPointHealthType _sub_4F008A(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &);
 HardPointHealthType getHardPointHealthTypeFromString(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &inStr) // 0x4F008A
 {
     mangled_assert("?getHardPointHealthTypeFromString@@YG?AW4HardPointHealthType@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    HardPointHealthType __result = _sub_4F008A(inStr);
-    return __result;
 }
 
 /* ---------- private code */

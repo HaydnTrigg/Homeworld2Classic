@@ -137,56 +137,40 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_10087830(gfxOptionsManager *const, rndTable *);
 gfxOptionsManager::gfxOptionsManager(rndTable *) // 0x10087830
 {
     mangled_assert("??0gfxOptionsManager@@AAE@PAUrndTable@@@Z");
     todo("implement");
-    _sub_10087830(this, arg);
 }
 
-_extern bool _sub_10087980(rndTable *);
 bool gfxOptionsManager::startup(rndTable *gl) // 0x10087980
 {
     mangled_assert("?startup@gfxOptionsManager@@SG_NPAUrndTable@@@Z");
     todo("implement");
-    bool __result = _sub_10087980(gl);
-    return __result;
 }
 
-_extern bool _sub_10087960();
 bool gfxOptionsManager::shutdown() // 0x10087960
 {
     mangled_assert("?shutdown@gfxOptionsManager@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_10087960();
-    return __result;
 }
 
-_extern bool _sub_100878E0(gfxOptionsManager const *const);
 bool gfxOptionsManager::canHandleExtraLights() const // 0x100878E0
 {
     mangled_assert("?canHandleExtraLights@gfxOptionsManager@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_100878E0(this);
-    return __result;
 }
 
-_extern bool _sub_10087900(gfxOptionsManager *const, unsigned __int32);
 bool gfxOptionsManager::setNumShadows(unsigned __int32) // 0x10087900
 {
     mangled_assert("?setNumShadows@gfxOptionsManager@@QAE_NI@Z");
     todo("implement");
-    bool __result = _sub_10087900(this, arg);
-    return __result;
 }
 
-_extern void _sub_100878F0(gfxOptionsManager *const, bool);
 void gfxOptionsManager::enableVSync(bool) // 0x100878F0
 {
     mangled_assert("?enableVSync@gfxOptionsManager@@QAEX_N@Z");
     todo("implement");
-    _sub_100878F0(this, arg);
 }
 
 /* ---------- private code */

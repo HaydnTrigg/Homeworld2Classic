@@ -116,29 +116,22 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_1008DC80(RectanglePacker *const, unsigned long, unsigned long);
 RectanglePacker::RectanglePacker(unsigned long, unsigned long) // 0x1008DC80
 {
     mangled_assert("??0RectanglePacker@@QAE@KK@Z");
     todo("implement");
-    _sub_1008DC80(this, arg, arg);
 }
 
-_extern bool _sub_1008DD70(RectanglePacker *const, unsigned long, unsigned long, unsigned long &, unsigned long &);
 bool RectanglePacker::AddRectangle(unsigned long, unsigned long, unsigned long &, unsigned long &) // 0x1008DD70
 {
     mangled_assert("?AddRectangle@RectanglePacker@@QAE_NKKAAK0@Z");
     todo("implement");
-    bool __result = _sub_1008DD70(this, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern void _sub_1008DE70(RectanglePacker *const, unsigned long, unsigned long);
 void RectanglePacker::Crop(unsigned long, unsigned long) // 0x1008DE70
 {
     mangled_assert("?Crop@RectanglePacker@@QAEXKK@Z");
     todo("implement");
-    _sub_1008DE70(this, arg, arg);
 }
 
 /* ---------- private code */

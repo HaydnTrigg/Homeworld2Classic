@@ -130,13 +130,10 @@ static_assert(sizeof(FDAudioDevice) == 72, "Invalid FDAudioDevice size");
 
 /* ---------- public code */
 
-_extern long _sub_100035CE(FDAudioDevice *const, long *, long, unsigned long, long *);
 _inline long FDAudioDevice::ChannelGetUserData(long *, long, unsigned long, long *) // 0x100035CE
 {
     mangled_assert("?ChannelSetUserData@FDAudioDevice@@UAEJPAJJKJ@Z");
     todo("implement");
-    long __result = _sub_100035CE(this, arg, arg, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

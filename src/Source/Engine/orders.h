@@ -866,571 +866,424 @@ static_assert(sizeof(DropPlayerOrder) == 12, "Invalid DropPlayerOrder size");
 
 /* ---------- public code */
 
-_extern _sub_68FF45(AttackOrder *const, unsigned __int32, SquadronList const &, Selection const &, bool);
 _inline AttackOrder::AttackOrder(unsigned __int32, SquadronList const &, Selection const &, bool) // 0x68FF45
 {
     mangled_assert("??0AttackOrder@@QAE@IABVSquadronList@@ABVSelection@@_N@Z");
     todo("implement");
-    _sub_68FF45(this, arg, arg, arg, arg);
 }
 
-_extern _sub_690D4C(ResourceOrder *const, unsigned __int32, SquadronList const &, Selection const &);
 _inline ResourceOrder::ResourceOrder(unsigned __int32, SquadronList const &, Selection const &) // 0x690D4C
 {
     mangled_assert("??0ResourceOrder@@QAE@IABVSquadronList@@ABVSelection@@@Z");
     todo("implement");
-    _sub_690D4C(this, arg, arg, arg);
 }
 
-_extern _sub_690D34(ResourceOrder *const, std::basic_istream<char,std::char_traits<char> > &);
 _inline ResourceOrder::ResourceOrder(std::basic_istream<char,std::char_traits<char> > &) // 0x690D34
 {
     mangled_assert("??0ResourceOrder@@QAE@AAV?$basic_istream@DU?$char_traits@D@std@@@std@@@Z");
     todo("implement");
-    _sub_690D34(this, arg);
 }
 
-_extern _sub_6903DC(GuardOrder *const, unsigned __int32, SquadronList const &, Selection const &);
 _inline GuardOrder::GuardOrder(unsigned __int32, SquadronList const &, Selection const &) // 0x6903DC
 {
     mangled_assert("??0GuardOrder@@QAE@IABVSquadronList@@ABVSelection@@@Z");
     todo("implement");
-    _sub_6903DC(this, arg, arg, arg);
 }
 
-_extern _sub_6903C4(GuardOrder *const, std::basic_istream<char,std::char_traits<char> > &);
 _inline GuardOrder::GuardOrder(std::basic_istream<char,std::char_traits<char> > &) // 0x6903C4
 {
     mangled_assert("??0GuardOrder@@QAE@AAV?$basic_istream@DU?$char_traits@D@std@@@std@@@Z");
     todo("implement");
-    _sub_6903C4(this, arg);
 }
 
-_extern _sub_690C8D(RepairOrder *const, unsigned __int32, SquadronList const &, Selection const &);
 _inline RepairOrder::RepairOrder(unsigned __int32, SquadronList const &, Selection const &) // 0x690C8D
 {
     mangled_assert("??0RepairOrder@@QAE@IABVSquadronList@@ABVSelection@@@Z");
     todo("implement");
-    _sub_690C8D(this, arg, arg, arg);
 }
 
-_extern _sub_690C75(RepairOrder *const, std::basic_istream<char,std::char_traits<char> > &);
 _inline RepairOrder::RepairOrder(std::basic_istream<char,std::char_traits<char> > &) // 0x690C75
 {
     mangled_assert("??0RepairOrder@@QAE@AAV?$basic_istream@DU?$char_traits@D@std@@@std@@@Z");
     todo("implement");
-    _sub_690C75(this, arg);
 }
 
-_extern _sub_6901F3(DockOrder *const, unsigned __int32, SquadronList const &, SobID const &);
 _inline DockOrder::DockOrder(unsigned __int32, SquadronList const &, SobID const &) // 0x6901F3
 {
     mangled_assert("??0DockOrder@@QAE@IABVSquadronList@@ABVSobID@@@Z");
     todo("implement");
-    _sub_6901F3(this, arg, arg, arg);
 }
 
-_extern _sub_6901DB(DockOrder *const, std::basic_istream<char,std::char_traits<char> > &);
 _inline DockOrder::DockOrder(std::basic_istream<char,std::char_traits<char> > &) // 0x6901DB
 {
     mangled_assert("??0DockOrder@@QAE@AAV?$basic_istream@DU?$char_traits@D@std@@@std@@@Z");
     todo("implement");
-    _sub_6901DB(this, arg);
 }
 
-_extern _sub_690B56(ParadeOrder *const, unsigned __int32, SquadronList const &, SobID const &);
 _inline ParadeOrder::ParadeOrder(unsigned __int32, SquadronList const &, SobID const &) // 0x690B56
 {
     mangled_assert("??0ParadeOrder@@QAE@IABVSquadronList@@ABVSobID@@@Z");
     todo("implement");
-    _sub_690B56(this, arg, arg, arg);
 }
 
-_extern _sub_690B3E(ParadeOrder *const, std::basic_istream<char,std::char_traits<char> > &);
 _inline ParadeOrder::ParadeOrder(std::basic_istream<char,std::char_traits<char> > &) // 0x690B3E
 {
     mangled_assert("??0ParadeOrder@@QAE@AAV?$basic_istream@DU?$char_traits@D@std@@@std@@@Z");
     todo("implement");
-    _sub_690B3E(this, arg);
 }
 
-_extern _sub_690030(CaptureOrder *const, unsigned __int32, SquadronList const &, SobID const &);
 _inline CaptureOrder::CaptureOrder(unsigned __int32, SquadronList const &, SobID const &) // 0x690030
 {
     mangled_assert("??0CaptureOrder@@QAE@IABVSquadronList@@ABVSobID@@@Z");
     todo("implement");
-    _sub_690030(this, arg, arg, arg);
 }
 
-_extern _sub_690018(CaptureOrder *const, std::basic_istream<char,std::char_traits<char> > &);
 _inline CaptureOrder::CaptureOrder(std::basic_istream<char,std::char_traits<char> > &) // 0x690018
 {
     mangled_assert("??0CaptureOrder@@QAE@AAV?$basic_istream@DU?$char_traits@D@std@@@std@@@Z");
     todo("implement");
-    _sub_690018(this, arg);
 }
 
-_extern _sub_690E1A(SalvageOrder *const, unsigned __int32, SquadronList const &, SobID const &);
 _inline SalvageOrder::SalvageOrder(unsigned __int32, SquadronList const &, SobID const &) // 0x690E1A
 {
     mangled_assert("??0SalvageOrder@@QAE@IABVSquadronList@@ABVSobID@@@Z");
     todo("implement");
-    _sub_690E1A(this, arg, arg, arg);
 }
 
-_extern _sub_690E02(SalvageOrder *const, std::basic_istream<char,std::char_traits<char> > &);
 _inline SalvageOrder::SalvageOrder(std::basic_istream<char,std::char_traits<char> > &) // 0x690E02
 {
     mangled_assert("??0SalvageOrder@@QAE@AAV?$basic_istream@DU?$char_traits@D@std@@@std@@@Z");
     todo("implement");
-    _sub_690E02(this, arg);
 }
 
-_extern _sub_690511(HyperspaceViaGateOrder *const, unsigned __int32, SquadronList const &, SobID const &);
 _inline HyperspaceViaGateOrder::HyperspaceViaGateOrder(unsigned __int32, SquadronList const &, SobID const &) // 0x690511
 {
     mangled_assert("??0HyperspaceViaGateOrder@@QAE@IABVSquadronList@@ABVSobID@@@Z");
     todo("implement");
-    _sub_690511(this, arg, arg, arg);
 }
 
-_extern _sub_6904F9(HyperspaceViaGateOrder *const, std::basic_istream<char,std::char_traits<char> > &);
 _inline HyperspaceViaGateOrder::HyperspaceViaGateOrder(std::basic_istream<char,std::char_traits<char> > &) // 0x6904F9
 {
     mangled_assert("??0HyperspaceViaGateOrder@@QAE@AAV?$basic_istream@DU?$char_traits@D@std@@@std@@@Z");
     todo("implement");
-    _sub_6904F9(this, arg);
 }
 
-_extern _sub_6913FA(ToggleAutoLaunchOrder *const, unsigned __int32, SobID const &);
 _inline ToggleAutoLaunchOrder::ToggleAutoLaunchOrder(unsigned __int32, SobID const &) // 0x6913FA
 {
     mangled_assert("??0ToggleAutoLaunchOrder@@QAE@IABVSobID@@@Z");
     todo("implement");
-    _sub_6913FA(this, arg, arg);
 }
 
-_extern _sub_6913E2(ToggleAutoLaunchOrder *const, std::basic_istream<char,std::char_traits<char> > &);
 _inline ToggleAutoLaunchOrder::ToggleAutoLaunchOrder(std::basic_istream<char,std::char_traits<char> > &) // 0x6913E2
 {
     mangled_assert("??0ToggleAutoLaunchOrder@@QAE@AAV?$basic_istream@DU?$char_traits@D@std@@@std@@@Z");
     todo("implement");
-    _sub_6913E2(this, arg);
 }
 
-_extern _sub_69043E(HaltOrder *const, unsigned __int32, SquadronList const &);
 _inline HaltOrder::HaltOrder(unsigned __int32, SquadronList const &) // 0x69043E
 {
     mangled_assert("??0HaltOrder@@QAE@IABVSquadronList@@@Z");
     todo("implement");
-    _sub_69043E(this, arg, arg);
 }
 
-_extern _sub_690426(HaltOrder *const, std::basic_istream<char,std::char_traits<char> > &);
 _inline HaltOrder::HaltOrder(std::basic_istream<char,std::char_traits<char> > &) // 0x690426
 {
     mangled_assert("??0HaltOrder@@QAE@AAV?$basic_istream@DU?$char_traits@D@std@@@std@@@Z");
     todo("implement");
-    _sub_690426(this, arg);
 }
 
-_extern _sub_690356(FormStrikeGroupOrder *const, unsigned __int32, unsigned __int32 const, SquadronList const &);
 _inline FormStrikeGroupOrder::FormStrikeGroupOrder(unsigned __int32, unsigned __int32 const, SquadronList const &) // 0x690356
 {
     mangled_assert("??0FormStrikeGroupOrder@@QAE@IIABVSquadronList@@@Z");
     todo("implement");
-    _sub_690356(this, arg, arg, arg);
 }
 
-_extern _sub_68FD91(AddToStrikeGroupOrder *const, unsigned __int32, unsigned __int32 const, SquadronList const &);
 _inline AddToStrikeGroupOrder::AddToStrikeGroupOrder(unsigned __int32, unsigned __int32 const, SquadronList const &) // 0x68FD91
 {
     mangled_assert("??0AddToStrikeGroupOrder@@QAE@IIABVSquadronList@@@Z");
     todo("implement");
-    _sub_68FD91(this, arg, arg, arg);
 }
 
-_extern _sub_6906C2(LeaveStrikeGroupOrder *const, unsigned __int32, SquadronList const &);
 _inline LeaveStrikeGroupOrder::LeaveStrikeGroupOrder(unsigned __int32, SquadronList const &) // 0x6906C2
 {
     mangled_assert("??0LeaveStrikeGroupOrder@@QAE@IABVSquadronList@@@Z");
     todo("implement");
-    _sub_6906C2(this, arg, arg);
 }
 
-_extern _sub_6906AA(LeaveStrikeGroupOrder *const, std::basic_istream<char,std::char_traits<char> > &);
 _inline LeaveStrikeGroupOrder::LeaveStrikeGroupOrder(std::basic_istream<char,std::char_traits<char> > &) // 0x6906AA
 {
     mangled_assert("??0LeaveStrikeGroupOrder@@QAE@AAV?$basic_istream@DU?$char_traits@D@std@@@std@@@Z");
     todo("implement");
-    _sub_6906AA(this, arg);
 }
 
-_extern _sub_690FE6(SensorPingOrder *const, unsigned __int32, SquadronList const &);
 _inline SensorPingOrder::SensorPingOrder(unsigned __int32, SquadronList const &) // 0x690FE6
 {
     mangled_assert("??0SensorPingOrder@@QAE@IABVSquadronList@@@Z");
     todo("implement");
-    _sub_690FE6(this, arg, arg);
 }
 
-_extern _sub_690FCE(SensorPingOrder *const, std::basic_istream<char,std::char_traits<char> > &);
 _inline SensorPingOrder::SensorPingOrder(std::basic_istream<char,std::char_traits<char> > &) // 0x690FCE
 {
     mangled_assert("??0SensorPingOrder@@QAE@AAV?$basic_istream@DU?$char_traits@D@std@@@std@@@Z");
     todo("implement");
-    _sub_690FCE(this, arg);
 }
 
-_extern _sub_690E7C(ScuttleOrder *const, unsigned __int32, Selection const &);
 _inline ScuttleOrder::ScuttleOrder(unsigned __int32, Selection const &) // 0x690E7C
 {
     mangled_assert("??0ScuttleOrder@@QAE@IABVSelection@@@Z");
     todo("implement");
-    _sub_690E7C(this, arg, arg);
 }
 
-_extern _sub_690E64(ScuttleOrder *const, std::basic_istream<char,std::char_traits<char> > &);
 _inline ScuttleOrder::ScuttleOrder(std::basic_istream<char,std::char_traits<char> > &) // 0x690E64
 {
     mangled_assert("??0ScuttleOrder@@QAE@AAV?$basic_istream@DU?$char_traits@D@std@@@std@@@Z");
     todo("implement");
-    _sub_690E64(this, arg);
 }
 
-_extern _sub_537825(ResearchOrder *const, unsigned __int32, unsigned __int32);
 _inline ResearchOrder::ResearchOrder(unsigned __int32, unsigned __int32) // 0x537825
 {
     mangled_assert("??0ResearchOrder@@QAE@II@Z");
     todo("implement");
-    _sub_537825(this, arg, arg);
 }
 
-_extern _sub_690CD7(ResearchOrder *const, std::basic_istream<char,std::char_traits<char> > &);
 _inline ResearchOrder::ResearchOrder(std::basic_istream<char,std::char_traits<char> > &) // 0x690CD7
 {
     mangled_assert("??0ResearchOrder@@QAE@AAV?$basic_istream@DU?$char_traits@D@std@@@std@@@Z");
     todo("implement");
-    _sub_690CD7(this, arg);
 }
 
-_extern _sub_53779A(CancelResearchOrder *const, unsigned __int32, unsigned __int32);
 _inline CancelResearchOrder::CancelResearchOrder(unsigned __int32, unsigned __int32) // 0x53779A
 {
     mangled_assert("??0CancelResearchOrder@@QAE@II@Z");
     todo("implement");
-    _sub_53779A(this, arg, arg);
 }
 
-_extern _sub_690000(CancelResearchOrder *const, std::basic_istream<char,std::char_traits<char> > &);
 _inline CancelResearchOrder::CancelResearchOrder(std::basic_istream<char,std::char_traits<char> > &) // 0x690000
 {
     mangled_assert("??0CancelResearchOrder@@QAE@AAV?$basic_istream@DU?$char_traits@D@std@@@std@@@Z");
     todo("implement");
-    _sub_690000(this, arg);
 }
 
-_extern _sub_690C5B(PauseResearchOrder *const, unsigned __int32);
 _inline PauseResearchOrder::PauseResearchOrder(unsigned __int32) // 0x690C5B
 {
     mangled_assert("??0PauseResearchOrder@@QAE@I@Z");
     todo("implement");
-    _sub_690C5B(this, arg);
 }
 
-_extern _sub_690C43(PauseResearchOrder *const, std::basic_istream<char,std::char_traits<char> > &);
 _inline PauseResearchOrder::PauseResearchOrder(std::basic_istream<char,std::char_traits<char> > &) // 0x690C43
 {
     mangled_assert("??0PauseResearchOrder@@QAE@AAV?$basic_istream@DU?$char_traits@D@std@@@std@@@Z");
     todo("implement");
-    _sub_690C43(this, arg);
 }
 
-_extern _sub_690741(MoveOrder *const, unsigned __int32, SquadronList const &, vector3 const &, vector3 const &, bool);
 _inline MoveOrder::MoveOrder(unsigned __int32, SquadronList const &, vector3 const &, vector3 const &, bool) // 0x690741
 {
     mangled_assert("??0MoveOrder@@QAE@IABVSquadronList@@ABVvector3@@1_N@Z");
     todo("implement");
-    _sub_690741(this, arg, arg, arg, arg, arg);
 }
 
-_extern bool const _sub_5C0A45(MoveOrder const *const);
 _inline bool const MoveOrder::GetMoveAttack() const // 0x5C0A45
 {
     mangled_assert("?GetMoveAttack@MoveOrder@@QBE?B_NXZ");
     todo("implement");
-    bool const __result = _sub_5C0A45(this);
-    return __result;
 }
 
-_extern _sub_6908C5(MoveToSobOrder *const, unsigned __int32, SquadronList const &, SobID const &, vector3 const &, vector3 const &);
 _inline MoveToSobOrder::MoveToSobOrder(unsigned __int32, SquadronList const &, SobID const &, vector3 const &, vector3 const &) // 0x6908C5
 {
     mangled_assert("??0MoveToSobOrder@@QAE@IABVSquadronList@@ABVSobID@@ABVvector3@@2@Z");
     todo("implement");
-    _sub_6908C5(this, arg, arg, arg, arg, arg);
 }
 
-_extern _sub_528E6E(BuildOrder *const, unsigned __int32, SobID const &, unsigned __int32, bool, SobID const &);
 _inline BuildOrder::BuildOrder(unsigned __int32, SobID const &, unsigned __int32, bool, SobID const &) // 0x528E6E
 {
     mangled_assert("??0BuildOrder@@QAE@IABVSobID@@I_N0@Z");
     todo("implement");
-    _sub_528E6E(this, arg, arg, arg, arg, arg);
 }
 
-_extern SobID const &_sub_637F16(BuildOrder const *const);
 _inline SobID const &BuildOrder::GetBuilder() const // 0x637F16
 {
     mangled_assert("?GetBuilder@BuildOrder@@QBEABVSobID@@XZ");
     todo("implement");
-    SobID const & __result = _sub_637F16(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_638075(BuildOrder const *const);
 _inline unsigned __int32 BuildOrder::GetUnitToBuild() const // 0x638075
 {
     mangled_assert("?GetUnitToBuild@BuildOrder@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_638075(this);
-    return __result;
 }
 
-_extern bool _sub_637F12(BuildOrder const *const);
 _inline bool BuildOrder::GetBuildFlag() const // 0x637F12
 {
     mangled_assert("?GetBuildFlag@BuildOrder@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_637F12(this);
-    return __result;
 }
 
-_extern _sub_690C1E(PauseQueueOrder *const, unsigned __int32, SobID const &, BuildType);
 _inline PauseQueueOrder::PauseQueueOrder(unsigned __int32, SobID const &, BuildType) // 0x690C1E
 {
     mangled_assert("??0PauseQueueOrder@@QAE@IABVSobID@@W4BuildType@@@Z");
     todo("implement");
-    _sub_690C1E(this, arg, arg, arg);
 }
 
-_extern _sub_690965(MoveToTopOfBuildQueue *const, unsigned __int32, SobID const &, unsigned __int32);
 _inline MoveToTopOfBuildQueue::MoveToTopOfBuildQueue(unsigned __int32, SobID const &, unsigned __int32) // 0x690965
 {
     mangled_assert("??0MoveToTopOfBuildQueue@@QAE@IABVSobID@@I@Z");
     todo("implement");
-    _sub_690965(this, arg, arg, arg);
 }
 
-_extern _sub_6909A2(MoveToTopOfResearchQueue *const, unsigned __int32, unsigned __int32);
 _inline MoveToTopOfResearchQueue::MoveToTopOfResearchQueue(unsigned __int32, unsigned __int32) // 0x6909A2
 {
     mangled_assert("??0MoveToTopOfResearchQueue@@QAE@II@Z");
     todo("implement");
-    _sub_6909A2(this, arg, arg);
 }
 
-_extern _sub_690A8A(MoveWaypointOrder *const, unsigned __int32, SquadronList const &, vector3 const &, std::vector<vector3,std::allocator<vector3> > const &, __int32, bool, bool);
 _inline MoveWaypointOrder::MoveWaypointOrder(unsigned __int32, SquadronList const &, vector3 const &, std::vector<vector3,std::allocator<vector3> > const &, __int32, bool, bool) // 0x690A8A
 {
     mangled_assert("??0MoveWaypointOrder@@QAE@IABVSquadronList@@ABVvector3@@ABV?$vector@Vvector3@@V?$allocator@Vvector3@@@std@@@std@@H_N3@Z");
     todo("implement");
-    _sub_690A8A(this, arg, arg, arg, arg, arg, arg, arg);
 }
 
-_extern _sub_690813(MoveTempWaypointOrder *const, unsigned __int32, SquadronList const &, std::vector<vector3,std::allocator<vector3> > const &, SobID const &);
 _inline MoveTempWaypointOrder::MoveTempWaypointOrder(unsigned __int32, SquadronList const &, std::vector<vector3,std::allocator<vector3> > const &, SobID const &) // 0x690813
 {
     mangled_assert("??0MoveTempWaypointOrder@@QAE@IABVSquadronList@@ABV?$vector@Vvector3@@V?$allocator@Vvector3@@@std@@@std@@ABVSobID@@@Z");
     todo("implement");
-    _sub_690813(this, arg, arg, arg, arg);
 }
 
-_extern _sub_6905B4(LaunchOrder *const, unsigned __int32, SquadronList const &, SobID const &, bool);
 _inline LaunchOrder::LaunchOrder(unsigned __int32, SquadronList const &, SobID const &, bool) // 0x6905B4
 {
     mangled_assert("??0LaunchOrder@@QAE@IABVSquadronList@@ABVSobID@@_N@Z");
     todo("implement");
-    _sub_6905B4(this, arg, arg, arg, arg);
 }
 
-_extern _sub_690BB8(PauseOrder *const, unsigned __int32);
 _inline PauseOrder::PauseOrder(unsigned __int32) // 0x690BB8
 {
     mangled_assert("??0PauseOrder@@QAE@I@Z");
     todo("implement");
-    _sub_690BB8(this, arg);
 }
 
-_extern _sub_69145D(UnpauseOrder *const, unsigned __int32, unsigned __int32);
 _inline UnpauseOrder::UnpauseOrder(unsigned __int32, unsigned __int32) // 0x69145D
 {
     mangled_assert("??0UnpauseOrder@@QAE@II@Z");
     todo("implement");
-    _sub_69145D(this, arg, arg);
 }
 
-_extern _sub_68FE13(AllianceOrder *const, unsigned __int32, unsigned __int32, AllianceOrderAction);
 _inline AllianceOrder::AllianceOrder(unsigned __int32, unsigned __int32, AllianceOrderAction) // 0x68FE13
 {
     mangled_assert("??0AllianceOrder@@QAE@IIW4AllianceOrderAction@@@Z");
     todo("implement");
-    _sub_68FE13(this, arg, arg, arg);
 }
 
-_extern _sub_68FEAF(AllianceTransferOrder *const, unsigned __int32, unsigned __int32, __int32, SquadronList const &);
 _inline AllianceTransferOrder::AllianceTransferOrder(unsigned __int32, unsigned __int32, __int32, SquadronList const &) // 0x68FEAF
 {
     mangled_assert("??0AllianceTransferOrder@@QAE@IIHABVSquadronList@@@Z");
     todo("implement");
-    _sub_68FEAF(this, arg, arg, arg, arg);
 }
 
-_extern _sub_691167(SetTacticsOrder *const, unsigned __int32, SquadronList const &, SquadronTactics);
 _inline SetTacticsOrder::SetTacticsOrder(unsigned __int32, SquadronList const &, SquadronTactics) // 0x691167
 {
     mangled_assert("??0SetTacticsOrder@@QAE@IABVSquadronList@@W4SquadronTactics@@@Z");
     todo("implement");
-    _sub_691167(this, arg, arg, arg);
 }
 
-_extern _sub_6904BD(HyperspaceOrder *const, unsigned __int32, SquadronList const &, vector3 const &, vector3 const &, bool);
 _inline HyperspaceOrder::HyperspaceOrder(unsigned __int32, SquadronList const &, vector3 const &, vector3 const &, bool) // 0x6904BD
 {
     mangled_assert("??0HyperspaceOrder@@QAE@IABVSquadronList@@ABVvector3@@1_N@Z");
     todo("implement");
-    _sub_6904BD(this, arg, arg, arg, arg, arg);
 }
 
-_extern _sub_6902C7(FormHyperspaceGateOrder *const, unsigned __int32, SquadronList const &, SobID const &);
 _inline FormHyperspaceGateOrder::FormHyperspaceGateOrder(unsigned __int32, SquadronList const &, SobID const &) // 0x6902C7
 {
     mangled_assert("??0FormHyperspaceGateOrder@@QAE@IABVSquadronList@@ABVSobID@@@Z");
     todo("implement");
-    _sub_6902C7(this, arg, arg, arg);
 }
 
-_extern _sub_6902AF(FormHyperspaceGateOrder *const, std::basic_istream<char,std::char_traits<char> > &);
 _inline FormHyperspaceGateOrder::FormHyperspaceGateOrder(std::basic_istream<char,std::char_traits<char> > &) // 0x6902AF
 {
     mangled_assert("??0FormHyperspaceGateOrder@@QAE@AAV?$basic_istream@DU?$char_traits@D@std@@@std@@@Z");
     todo("implement");
-    _sub_6902AF(this, arg);
 }
 
-_extern _sub_690156(CloakOrder *const, unsigned __int32, SquadronList const &, bool);
 _inline CloakOrder::CloakOrder(unsigned __int32, SquadronList const &, bool) // 0x690156
 {
     mangled_assert("??0CloakOrder@@QAE@IABVSquadronList@@_N@Z");
     todo("implement");
-    _sub_690156(this, arg, arg, arg);
 }
 
-_extern _sub_6901B6(DefenseFieldOrder *const, unsigned __int32, SquadronList const &, bool);
 _inline DefenseFieldOrder::DefenseFieldOrder(unsigned __int32, SquadronList const &, bool) // 0x6901B6
 {
     mangled_assert("??0DefenseFieldOrder@@QAE@IABVSquadronList@@_N@Z");
     todo("implement");
-    _sub_6901B6(this, arg, arg, arg);
 }
 
-_extern _sub_690DAE(RetireOrder *const, unsigned __int32, SquadronList const &);
 _inline RetireOrder::RetireOrder(unsigned __int32, SquadronList const &) // 0x690DAE
 {
     mangled_assert("??0RetireOrder@@QAE@IABVSquadronList@@@Z");
     todo("implement");
-    _sub_690DAE(this, arg, arg);
 }
 
-_extern _sub_690DE4(RetireSubSystemsOrder *const, unsigned __int32, Selection const &);
 _inline RetireSubSystemsOrder::RetireSubSystemsOrder(unsigned __int32, Selection const &) // 0x690DE4
 {
     mangled_assert("??0RetireSubSystemsOrder@@QAE@IABVSelection@@@Z");
     todo("implement");
-    _sub_690DE4(this, arg, arg);
 }
 
-_extern _sub_690DCC(RetireSubSystemsOrder *const, std::basic_istream<char,std::char_traits<char> > &);
 _inline RetireSubSystemsOrder::RetireSubSystemsOrder(std::basic_istream<char,std::char_traits<char> > &) // 0x690DCC
 {
     mangled_assert("??0RetireSubSystemsOrder@@QAE@AAV?$basic_istream@DU?$char_traits@D@std@@@std@@@Z");
     todo("implement");
-    _sub_690DCC(this, arg);
 }
 
-_extern _sub_690573(KamikazeOrder *const, unsigned __int32, SquadronList const &);
 _inline KamikazeOrder::KamikazeOrder(unsigned __int32, SquadronList const &) // 0x690573
 {
     mangled_assert("??0KamikazeOrder@@QAE@IABVSquadronList@@@Z");
     todo("implement");
-    _sub_690573(this, arg, arg);
 }
 
-_extern _sub_69066B(LayMinesOrder *const, unsigned __int32, SquadronList const &, vector3 const &, vector3 const &, vector3 const &);
 _inline LayMinesOrder::LayMinesOrder(unsigned __int32, SquadronList const &, vector3 const &, vector3 const &, vector3 const &) // 0x69066B
 {
     mangled_assert("??0LayMinesOrder@@QAE@IABVSquadronList@@ABVvector3@@11@Z");
     todo("implement");
-    _sub_69066B(this, arg, arg, arg, arg, arg);
 }
 
-_extern _sub_6910A2(SetRallyPointOrder *const, unsigned __int32, SquadronList const &, vector3 const &);
 _inline SetRallyPointOrder::SetRallyPointOrder(unsigned __int32, SquadronList const &, vector3 const &) // 0x6910A2
 {
     mangled_assert("??0SetRallyPointOrder@@QAE@IABVSquadronList@@ABVvector3@@@Z");
     todo("implement");
-    _sub_6910A2(this, arg, arg, arg);
 }
 
-_extern _sub_691049(SetRallyPointOrder *const, unsigned __int32, SquadronList const &, SobID const &);
 _inline SetRallyPointOrder::SetRallyPointOrder(unsigned __int32, SquadronList const &, SobID const &) // 0x691049
 {
     mangled_assert("??0SetRallyPointOrder@@QAE@IABVSquadronList@@ABVSobID@@@Z");
     todo("implement");
-    _sub_691049(this, arg, arg, arg);
 }
 
-_extern vector3 const &_sub_5C0A49(SetRallyPointOrder const *const);
 _inline vector3 const &SetRallyPointOrder::GetRallyPoint() const // 0x5C0A49
 {
     mangled_assert("?GetRallyPoint@SetRallyPointOrder@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_5C0A49(this);
-    return __result;
 }
 
-_extern _sub_6900ED(ChatOrder *const, GameMsg_Chat const &);
 _inline ChatOrder::ChatOrder(GameMsg_Chat const &) // 0x6900ED
 {
     mangled_assert("??0ChatOrder@@QAE@ABUGameMsg_Chat@@@Z");
     todo("implement");
-    _sub_6900ED(this, arg);
 }
 
-_extern ChatMsgType _sub_461821(ChatOrder const *const);
 _inline ChatMsgType ChatOrder::GetType() const // 0x461821
 {
     mangled_assert("?GetType@ChatOrder@@QBE?AW4ChatMsgType@@XZ");
     todo("implement");
-    ChatMsgType __result = _sub_461821(this);
-    return __result;
 }
 
-_extern __int32 _sub_461774(ChatOrder const *const);
 _inline __int32 ChatOrder::GetDestination() const // 0x461774
 {
     mangled_assert("?GetDestination@ChatOrder@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_461774(this);
-    return __result;
 }
 
-_extern _sub_6913C8(SurrenderOrder *const, unsigned __int32);
 _inline SurrenderOrder::SurrenderOrder(unsigned __int32) // 0x6913C8
 {
     mangled_assert("??0SurrenderOrder@@QAE@I@Z");
     todo("implement");
-    _sub_6913C8(this, arg);
 }
 
 /* ---------- private code */

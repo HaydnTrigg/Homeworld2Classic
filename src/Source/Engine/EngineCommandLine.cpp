@@ -121,13 +121,10 @@ extern bool commandLineEngineProcess();
 
 /* ---------- public code */
 
-_extern bool _sub_4F791F();
 bool commandLineEngineProcess() // 0x4F791F
 {
     mangled_assert("?commandLineEngineProcess@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_4F791F();
-    return __result;
 }
 
 /* ---------- private code */

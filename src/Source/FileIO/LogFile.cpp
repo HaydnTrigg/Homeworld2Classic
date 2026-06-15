@@ -415,114 +415,84 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_10012966(LogFile *const);
 LogFile::LogFile() // 0x10012966
 {
     mangled_assert("??0LogFile@@QAE@XZ");
     todo("implement");
-    _sub_10012966(this);
 }
 
-_extern void _sub_1001296C(LogFile *const);
 LogFile::~LogFile() // 0x1001296C
 {
     mangled_assert("??1LogFile@@QAE@XZ");
     todo("implement");
-    _sub_1001296C(this);
 }
 
-_extern LogFile &_sub_100129A6(LogFile *const, LogFile const &);
 _inline LogFile &LogFile::operator=(LogFile const &) // 0x100129A6
 {
     mangled_assert("??4LogFile@@QAEAAV0@ABV0@@Z");
     compiler_generated();
     todo("implement");
-    LogFile & __result = _sub_100129A6(this, arg);
-    return __result;
 }
 
-_extern bool _sub_100129E2(LogFile *const, char const *, char const *);
 bool LogFile::Create(char const *, char const *) // 0x100129E2
 {
     mangled_assert("?Create@LogFile@@QAE_NPBD0@Z");
     todo("implement");
-    bool __result = _sub_100129E2(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_10012B17(LogFile *const, char const *);
 bool LogFile::CreateWithName(char const *) // 0x10012B17
 {
     mangled_assert("?CreateWithName@LogFile@@QAE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_10012B17(this, arg);
-    return __result;
 }
 
-_extern void _sub_100129CE(LogFile *const);
 void LogFile::Close() // 0x100129CE
 {
     mangled_assert("?Close@LogFile@@QAEXXZ");
     todo("implement");
-    _sub_100129CE(this);
 }
 
-_extern _sub_1001293F(LogFile *const, LogFile const &);
 _inline LogFile::LogFile(LogFile const &) // 0x1001293F
 {
     mangled_assert("??0LogFile@@QAE@ABV0@@Z");
     compiler_generated();
     todo("implement");
-    _sub_1001293F(this, arg);
 }
 
-_extern void _sub_10012CE5(LogFile *const, char const *);
 void LogFile::puts(char const *) // 0x10012CE5
 {
     mangled_assert("?puts@LogFile@@QAEXPBD@Z");
     todo("implement");
-    _sub_10012CE5(this, arg);
 }
 
-_extern void _sub_10012CBE(LogFile *const, char const *, ...);
 void LogFile::printf(char const *format, ...) // 0x10012CBE
 {
     mangled_assert("?printf@LogFile@@QAAXPBDZZ");
     todo("implement");
-    _sub_10012CBE(this, format, arg);
 }
 
-_extern void _sub_10012C9E(LogFile *const, char const *);
 void LogFile::WriteString(char const *) // 0x10012C9E
 {
     mangled_assert("?WriteString@LogFile@@AAEXPBD@Z");
     todo("implement");
-    _sub_10012C9E(this, arg);
 }
 
-_extern bool _sub_10012BAF(LogFile const *const);
 bool LogFile::IsOpened() const // 0x10012BAF
 {
     mangled_assert("?IsOpened@LogFile@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_10012BAF(this);
-    return __result;
 }
 
-_extern void _sub_10012BE9(char *, char const *, char const *);
 void LogFile::MakeFilename(char *fname, char const *name, char const *ext) // 0x10012BE9
 {
     mangled_assert("?MakeFilename@LogFile@@SGXPADPBD1@Z");
     todo("implement");
-    _sub_10012BE9(fname, name, ext);
 }
 
-_extern void _sub_10012BB7(char *);
 void LogFile::MakeFilename(char *s) // 0x10012BB7
 {
     mangled_assert("?MakeFilename@LogFile@@SGXPAD@Z");
     todo("implement");
-    _sub_10012BB7(s);
 }
 
 /* ---------- private code */

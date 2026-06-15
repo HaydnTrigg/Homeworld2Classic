@@ -217,169 +217,124 @@ extern LodFX *LodFX::s_instance; // 0x844780
 
 /* ---------- public code */
 
-_extern _sub_51D0AA(LodFX::Data *const);
 _inline LodFX::Data::Data() // 0x51D0AA
 {
     mangled_assert("??0Data@LodFX@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_51D0AA(this);
 }
 
-_extern bool _sub_51D8FB();
 bool LodFX::Startup() // 0x51D8FB
 {
     mangled_assert("?Startup@LodFX@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_51D8FB();
-    return __result;
 }
 
-_extern bool _sub_51D8D7();
 bool LodFX::Shutdown() // 0x51D8D7
 {
     mangled_assert("?Shutdown@LodFX@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_51D8D7();
-    return __result;
 }
 
-_extern LodFX *_sub_51D65A();
 LodFX *LodFX::Instance() // 0x51D65A
 {
     mangled_assert("?Instance@LodFX@@SGPAV1@XZ");
     todo("implement");
-    LodFX * __result = _sub_51D65A();
-    return __result;
 }
 
-_extern _sub_51D0DF(LodFX *const);
 LodFX::LodFX() // 0x51D0DF
 {
     mangled_assert("??0LodFX@@IAE@XZ");
     todo("implement");
-    _sub_51D0DF(this);
 }
 
-_extern void _sub_51D177(std::_Tree_buy<std::pair<unsigned long const ,EffectLod const *>,std::allocator<std::pair<unsigned long const ,EffectLod const *> > > *const);
 _inline std::_Tree_buy<std::pair<unsigned long const ,EffectLod const *>,std::allocator<std::pair<unsigned long const ,EffectLod const *> > >::~_Tree_buy<std::pair<unsigned long const ,EffectLod const *>,std::allocator<std::pair<unsigned long const ,EffectLod const *> > >() // 0x51D177
 {
     mangled_assert("??1?$_Tree_buy@U?$pair@$$CBKPBVEffectLod@@@std@@V?$allocator@U?$pair@$$CBKPBVEffectLod@@@std@@@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_51D177(this);
 }
 
-_extern void _sub_51D180(std::_Tree_comp<0,std::_Tmap_traits<unsigned long,EffectLod const *,std::less<unsigned long>,std::allocator<std::pair<unsigned long const ,EffectLod const *> >,0> > *const);
 _inline std::_Tree_comp<0,std::_Tmap_traits<unsigned long,EffectLod const *,std::less<unsigned long>,std::allocator<std::pair<unsigned long const ,EffectLod const *> >,0> >::~_Tree_comp<0,std::_Tmap_traits<unsigned long,EffectLod const *,std::less<unsigned long>,std::allocator<std::pair<unsigned long const ,EffectLod const *> >,0> >() // 0x51D180
 {
     mangled_assert("??1?$_Tree_comp@$0A@V?$_Tmap_traits@KPBVEffectLod@@U?$less@K@std@@V?$allocator@U?$pair@$$CBKPBVEffectLod@@@std@@@3@$0A@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_51D180(this);
 }
 
-_extern void _sub_51D189(std::map<unsigned long,EffectLod const *,std::less<unsigned long>,std::allocator<std::pair<unsigned long const ,EffectLod const *> > > *const);
 _inline std::map<unsigned long,EffectLod const *,std::less<unsigned long>,std::allocator<std::pair<unsigned long const ,EffectLod const *> > >::~map<unsigned long,EffectLod const *,std::less<unsigned long>,std::allocator<std::pair<unsigned long const ,EffectLod const *> > >() // 0x51D189
 {
     mangled_assert("??1?$map@KPBVEffectLod@@U?$less@K@std@@V?$allocator@U?$pair@$$CBKPBVEffectLod@@@std@@@3@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_51D189(this);
 }
 
-_extern void _sub_51D25A(LodFX::Data *const);
 _inline LodFX::Data::~Data() // 0x51D25A
 {
     mangled_assert("??1Data@LodFX@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_51D25A(this);
 }
 
-_extern void _sub_51D28C(LodFX *const);
 LodFX::~LodFX() // 0x51D28C
 {
     mangled_assert("??1LodFX@@IAE@XZ");
     todo("implement");
-    _sub_51D28C(this);
 }
 
-_extern void _sub_51D540(LodFX *const, bool);
 void LodFX::ForceFull(bool) // 0x51D540
 {
     mangled_assert("?ForceFull@LodFX@@QAEX_N@Z");
     todo("implement");
-    _sub_51D540(this, arg);
 }
 
-_extern void _sub_51D4FF(LodFX *const);
 void LodFX::Flush() // 0x51D4FF
 {
     mangled_assert("?Flush@LodFX@@QAEXXZ");
     todo("implement");
-    _sub_51D4FF(this);
 }
 
-_extern char const *_sub_51D56B(LodFX *const, char const *, vector3 const &);
 char const *LodFX::GetFX(char const *, vector3 const &) // 0x51D56B
 {
     mangled_assert("?GetFX@LodFX@@QAEPBDPBDABVvector3@@@Z");
     todo("implement");
-    char const * __result = _sub_51D56B(this, arg, arg);
-    return __result;
 }
 
-_extern EffectLod *_sub_51D493(LodFX *const);
 EffectLod *LodFX::AllocateLod() // 0x51D493
 {
     mangled_assert("?AllocateLod@LodFX@@AAEPAVEffectLod@@XZ");
     todo("implement");
-    EffectLod * __result = _sub_51D493(this);
-    return __result;
 }
 
-_extern void _sub_51D4EB(LodFX *const, EffectLod const *);
 void LodFX::DeallocateLod(EffectLod const *) // 0x51D4EB
 {
     mangled_assert("?DeallocateLod@LodFX@@AAEXPBVEffectLod@@@Z");
     todo("implement");
-    _sub_51D4EB(this, arg);
 }
 
-_extern EffectLod const *_sub_51D660(LodFX *const, char const *);
 EffectLod const *LodFX::LoadLod(char const *) // 0x51D660
 {
     mangled_assert("?LoadLod@LodFX@@AAEPBVEffectLod@@PBD@Z");
     todo("implement");
-    EffectLod const * __result = _sub_51D660(this, arg);
-    return __result;
 }
 
-_extern char const *_sub_51D4BA(LodFX *const, EffectLod const &, float);
 char const *LodFX::CalcFX(EffectLod const &, float) // 0x51D4BA
 {
     mangled_assert("?CalcFX@LodFX@@AAEPBDABVEffectLod@@M@Z");
     todo("implement");
-    char const * __result = _sub_51D4BA(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_51D86E(LodFX *const, char const *);
 void LodFX::Precache(char const *) // 0x51D86E
 {
     mangled_assert("?Precache@LodFX@@QAEXPBD@Z");
     todo("implement");
-    _sub_51D86E(this, arg);
 }
 
 /* ---------- private code */
 
-_extern void _sub_51D49D(char const *, char *, unsigned __int32);
 _static void BuildFilename(char const *lod, char *buffer, unsigned __int32 len) // 0x51D49D
 {
     mangled_assert("BuildFilename");
     todo("implement");
-    _sub_51D49D(lod, buffer, len);
 }
 #endif

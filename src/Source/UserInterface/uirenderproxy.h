@@ -41,20 +41,16 @@ static_assert(sizeof(UIRenderProxy) == 4, "Invalid UIRenderProxy size");
 
 /* ---------- public code */
 
-_extern _sub_68AF26(UIRenderProxy *const);
 _inline UIRenderProxy::UIRenderProxy() // 0x68AF26
 {
     mangled_assert("??0UIRenderProxy@@QAE@XZ");
     todo("implement");
-    _sub_68AF26(this);
 }
 
-_extern void _sub_68AF78(UIRenderProxy *const);
 _inline UIRenderProxy::~UIRenderProxy() // 0x68AF78
 {
     mangled_assert("??1UIRenderProxy@@UAE@XZ");
     todo("implement");
-    _sub_68AF78(this);
 }
 
 /* ---------- private code */

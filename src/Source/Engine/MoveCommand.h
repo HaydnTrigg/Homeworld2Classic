@@ -159,57 +159,40 @@ static_assert(sizeof(MoveCommandStaticInfo) == 12, "Invalid MoveCommandStaticInf
 
 /* ---------- public code */
 
-_extern vector3 const &_sub_6A88AF(MoveCommand const *const);
 _inline vector3 const &MoveCommand::getDestinationDtrm() const // 0x6A88AF
 {
     mangled_assert("?getDestinationDtrm@MoveCommand@@UBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_6A88AF(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_6A88B3(MoveCommand const *const);
 _inline vector3 const &MoveCommand::getDestinationVis() const // 0x6A88B3
 {
     mangled_assert("?getDestinationVis@MoveCommand@@UBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_6A88B3(this);
-    return __result;
 }
 
-_extern bool _sub_6A8874(MoveCommand *const, CommandType, Command *);
 _inline bool MoveCommand::canBeInterrupted(CommandType, Command *) // 0x6A8874
 {
     mangled_assert("?canBeInterrupted@MoveCommand@@UAE_NW4CommandType@@PAVCommand@@@Z");
     todo("implement");
-    bool __result = _sub_6A8874(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_6A8879(MoveCommand *const);
 _inline void MoveCommand::checkAttack() // 0x6A8879
 {
     mangled_assert("?checkAttack@MoveCommand@@MAEXXZ");
     todo("implement");
-    _sub_6A8879(this);
 }
 
-_extern bool _sub_6A88BD(MoveCommand *const);
 _inline bool MoveCommand::isDeterministic() // 0x6A88BD
 {
     mangled_assert("?isDeterministic@MoveCommand@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6A88BD(this);
-    return __result;
 }
 
-_extern char const *_sub_6A896A(MoveCommand *const);
 _inline char const *MoveCommand::saveToken() // 0x6A896A
 {
     mangled_assert("?saveToken@MoveCommand@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6A896A(this);
-    return __result;
 }
 
 /* ---------- private code */

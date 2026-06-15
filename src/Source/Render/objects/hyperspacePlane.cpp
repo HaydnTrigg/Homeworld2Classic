@@ -174,37 +174,29 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_10060120(rndTable const &, CompoundStateBlock *, vector2 const &, matrix4 const &, __int32 const, __int32 const, unsigned __int32 const, unsigned __int32 const);
 void drawHyperspacePlane(rndTable const &gl, CompoundStateBlock *block, vector2 const &size, matrix4 const &mtx, __int32 const xRepeat, __int32 const yRepeat, unsigned __int32 const positionID, unsigned __int32 const divisionLevel) // 0x10060120
 {
     mangled_assert("?drawHyperspacePlane@@YGXABUrndTable@@PAVCompoundStateBlock@@ABVvector2@@ABVmatrix4@@HHII@Z");
     todo("implement");
-    _sub_10060120(gl, block, size, mtx, xRepeat, yRepeat, positionID, divisionLevel);
 }
 
-_extern void _sub_10060340(rndTable const &, CompoundStateBlock *);
 void drawHyperspaceStencil(rndTable const &gl, CompoundStateBlock *block) // 0x10060340
 {
     mangled_assert("?drawHyperspaceStencil@@YGXABUrndTable@@PAVCompoundStateBlock@@@Z");
     todo("implement");
-    _sub_10060340(gl, block);
 }
 
 /* ---------- private code */
 
-_extern void _sub_1005FB50(rndTable const &, vector2 const &, matrix4 const &, __int32 const, __int32 const, unsigned __int32 const, unsigned __int32 const);
 _static void _actualDrawHyperspacePlane(rndTable const &gl, vector2 const &size, matrix4 const &mtx, __int32 const xRepeat, __int32 const yRepeat, unsigned __int32 const positionID, unsigned __int32 const divisionLevel) // 0x1005FB50
 {
     mangled_assert("_actualDrawHyperspacePlane");
     todo("implement");
-    _sub_1005FB50(gl, size, mtx, xRepeat, yRepeat, positionID, divisionLevel);
 }
 
-_extern void _sub_1005FFE0(rndTable const &);
 _static void _drawFullScreenQuad(rndTable const &gl) // 0x1005FFE0
 {
     mangled_assert("_drawFullScreenQuad");
     todo("implement");
-    _sub_1005FFE0(gl);
 }
 #endif

@@ -110,44 +110,34 @@ extern UI::GameOverScreen *UI::GameOverScreen::ms_screen; // 0x846CC8
 
 /* ---------- public code */
 
-_extern _sub_5860AB(UI::GameOverScreen *const, char const *);
 UI::GameOverScreen::GameOverScreen(char const *) // 0x5860AB
 {
     mangled_assert("??0GameOverScreen@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_5860AB(this, arg);
 }
 
-_extern void _sub_5860FC(UI::GameOverScreen *const);
 UI::GameOverScreen::~GameOverScreen() // 0x5860FC
 {
     mangled_assert("??1GameOverScreen@UI@@UAE@XZ");
     todo("implement");
-    _sub_5860FC(this);
 }
 
-_extern void _sub_58613F(UI::GameOverScreen *const, bool);
 void UI::GameOverScreen::OnActivate(bool) // 0x58613F
 {
     mangled_assert("?OnActivate@GameOverScreen@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_58613F(this, arg);
 }
 
-_extern void _sub_58617E(UI::GameOverScreen *const);
 void UI::GameOverScreen::OnPostLoad() // 0x58617E
 {
     mangled_assert("?OnPostLoad@GameOverScreen@UI@@MAEXXZ");
     todo("implement");
-    _sub_58617E(this);
 }
 
-_extern void _sub_5861BF(UI::GameOverScreen::GameOverScreenType);
 void UI::GameOverScreen::Show(UI::GameOverScreen::GameOverScreenType type) // 0x5861BF
 {
     mangled_assert("?Show@GameOverScreen@UI@@SGXW4GameOverScreenType@12@@Z");
     todo("implement");
-    _sub_5861BF(type);
 }
 
 /* ---------- private code */

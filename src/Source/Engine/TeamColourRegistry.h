@@ -97,22 +97,16 @@ static_assert(sizeof(TeamColourRegistry) == 20, "Invalid TeamColourRegistry size
 
 /* ---------- public code */
 
-_extern char const *_sub_647FCB(TeamColourRegistry *const);
 _inline char const *TeamColourRegistry::saveToken() // 0x647FCB
 {
     mangled_assert("?saveToken@TeamColourRegistry@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_647FCB(this);
-    return __result;
 }
 
-_extern bool _sub_647ED1(TeamColourRegistry *const);
 _inline bool TeamColourRegistry::isDeterministic() // 0x647ED1
 {
     mangled_assert("?isDeterministic@TeamColourRegistry@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_647ED1(this);
-    return __result;
 }
 
 /* ---------- private code */

@@ -69,20 +69,16 @@
 
 /* ---------- public code */
 
-_extern _sub_4A05FE(WeaponClassSpecificInfo *const);
 WeaponClassSpecificInfo::WeaponClassSpecificInfo() // 0x4A05FE
 {
     mangled_assert("??0WeaponClassSpecificInfo@@QAE@XZ");
     todo("implement");
-    _sub_4A05FE(this);
 }
 
-_extern void _sub_4A0684(WeaponClassSpecificInfo *const);
 void WeaponClassSpecificInfo::bindStaticCoordSys() // 0x4A0684
 {
     mangled_assert("?bindStaticCoordSys@WeaponClassSpecificInfo@@QAEXXZ");
     todo("implement");
-    _sub_4A0684(this);
 }
 
 /* ---------- private code */

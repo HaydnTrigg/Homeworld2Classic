@@ -54,22 +54,16 @@ static_assert(sizeof(TrailTargetCommand) == 40, "Invalid TrailTargetCommand size
 
 /* ---------- public code */
 
-_extern bool _sub_6BCE1C(TrailTargetCommand *const);
 _inline bool TrailTargetCommand::isDeterministic() // 0x6BCE1C
 {
     mangled_assert("?isDeterministic@TrailTargetCommand@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6BCE1C(this);
-    return __result;
 }
 
-_extern char const *_sub_6BD078(TrailTargetCommand *const);
 _inline char const *TrailTargetCommand::saveToken() // 0x6BD078
 {
     mangled_assert("?saveToken@TrailTargetCommand@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6BD078(this);
-    return __result;
 }
 
 /* ---------- private code */

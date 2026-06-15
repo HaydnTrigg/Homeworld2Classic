@@ -56,58 +56,40 @@ static_assert(sizeof(FormationDockCommand) == 52, "Invalid FormationDockCommand 
 
 /* ---------- public code */
 
-_extern Sob *_sub_6B1269(FormationDockCommand const *const);
 _inline Sob *FormationDockCommand::getSobToNotAvoid() const // 0x6B1269
 {
     mangled_assert("?getSobToNotAvoid@FormationDockCommand@@UBEPAVSob@@XZ");
     todo("implement");
-    Sob * __result = _sub_6B1269(this);
-    return __result;
 }
 
-_extern Sob *_sub_6B1271(FormationDockCommand const *const);
 _inline Sob *FormationDockCommand::getSobToNotCollideWith() const // 0x6B1271
 {
     mangled_assert("?getSobToNotCollideWith@FormationDockCommand@@UBEPAVSob@@XZ");
     todo("implement");
-    Sob * __result = _sub_6B1271(this);
-    return __result;
 }
 
-_extern Ship *_sub_4E46A4(FormationDockCommand const *const);
 _inline Ship *FormationDockCommand::getDockWith() const // 0x4E46A4
 {
     mangled_assert("?getDockWith@FormationDockCommand@@QBEPAVShip@@XZ");
     todo("implement");
-    Ship * __result = _sub_4E46A4(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_69A194(FormationDockCommand const *const);
 _inline unsigned __int32 FormationDockCommand::getCurrentPoint() const // 0x69A194
 {
     mangled_assert("?getCurrentPoint@FormationDockCommand@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_69A194(this);
-    return __result;
 }
 
-_extern bool _sub_6B127D(FormationDockCommand *const);
 _inline bool FormationDockCommand::isDeterministic() // 0x6B127D
 {
     mangled_assert("?isDeterministic@FormationDockCommand@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6B127D(this);
-    return __result;
 }
 
-_extern char const *_sub_6B145F(FormationDockCommand *const);
 _inline char const *FormationDockCommand::saveToken() // 0x6B145F
 {
     mangled_assert("?saveToken@FormationDockCommand@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6B145F(this);
-    return __result;
 }
 
 /* ---------- private code */

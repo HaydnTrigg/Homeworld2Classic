@@ -67,57 +67,40 @@ extern void sctDraw2DStartup();
 
 /* ---------- public code */
 
-_extern __int32 _sub_4CA3F6(lua_State *);
 __int32 sctD2DRectSolid(lua_State *lstate) // 0x4CA3F6
 {
     mangled_assert("?sctD2DRectSolid@@YGHPAUlua_State@@@Z");
     todo("implement");
-    __int32 __result = _sub_4CA3F6(lstate);
-    return __result;
 }
 
-_extern __int32 _sub_4CA30E(lua_State *);
 __int32 sctD2DRectOutline(lua_State *lstate) // 0x4CA30E
 {
     mangled_assert("?sctD2DRectOutline@@YGHPAUlua_State@@@Z");
     todo("implement");
-    __int32 __result = _sub_4CA30E(lstate);
-    return __result;
 }
 
-_extern __int32 _sub_4CA0E6(lua_State *);
 __int32 sctD2DLine(lua_State *lstate) // 0x4CA0E6
 {
     mangled_assert("?sctD2DLine@@YGHPAUlua_State@@@Z");
     todo("implement");
-    __int32 __result = _sub_4CA0E6(lstate);
-    return __result;
 }
 
-_extern __int32 _sub_4CA202(lua_State *);
 __int32 sctD2DPrint(lua_State *lstate) // 0x4CA202
 {
     mangled_assert("?sctD2DPrint@@YGHPAUlua_State@@@Z");
     todo("implement");
-    __int32 __result = _sub_4CA202(lstate);
-    return __result;
 }
 
-_extern __int32 _sub_4CA288(lua_State *);
 __int32 sctD2DPrintFancy(lua_State *lstate) // 0x4CA288
 {
     mangled_assert("?sctD2DPrintFancy@@YGHPAUlua_State@@@Z");
     todo("implement");
-    __int32 __result = _sub_4CA288(lstate);
-    return __result;
 }
 
-_extern void _sub_4CA4B5();
 void sctDraw2DStartup() // 0x4CA4B5
 {
     mangled_assert("?sctDraw2DStartup@@YGXXZ");
     todo("implement");
-    _sub_4CA4B5();
 }
 
 /* ---------- private code */

@@ -191,58 +191,40 @@ static_assert(sizeof(RefinerySM) == 40, "Invalid RefinerySM size");
 
 /* ---------- public code */
 
-_extern bool _sub_53EDD1(CpuResourceManager *const);
 _inline bool CpuResourceManager::isDeterministic() // 0x53EDD1
 {
     mangled_assert("?isDeterministic@CpuResourceManager@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_53EDD1(this);
-    return __result;
 }
 
-_extern char const *_sub_53F2D2(CpuResourceManager *const);
 _inline char const *CpuResourceManager::saveToken() // 0x53F2D2
 {
     mangled_assert("?saveToken@CpuResourceManager@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_53F2D2(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_53D9E8(CpuController const *const);
 _inline unsigned __int32 CpuController::GetSquadronId() const // 0x53D9E8
 {
     mangled_assert("?GetSquadronId@CpuController@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_53D9E8(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_53DA30(RefinerySM const *const);
 _inline unsigned __int32 RefinerySM::GetTargetBlobIndex() const // 0x53DA30
 {
     mangled_assert("?GetTargetBlobIndex@RefinerySM@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_53DA30(this);
-    return __result;
 }
 
-_extern bool _sub_53DB1D(RefinerySM const *const);
 _inline bool RefinerySM::IsActive() const // 0x53DB1D
 {
     mangled_assert("?IsActive@RefinerySM@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_53DB1D(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_53DBAA(RefinerySM const *const);
 _inline unsigned __int32 RefinerySM::NumberOfCollectorsWeCanHandle() const // 0x53DBAA
 {
     mangled_assert("?NumberOfCollectorsWeCanHandle@RefinerySM@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_53DBAA(this);
-    return __result;
 }
 
 /* ---------- private code */

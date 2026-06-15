@@ -55,13 +55,10 @@ static_assert(sizeof(ModifierMultiplier) == 28, "Invalid ModifierMultiplier size
 
 /* ---------- public code */
 
-_extern MultiplierType _sub_56F683(ModifierMultiplier const *const);
 _inline MultiplierType ModifierMultiplier::getMultiplierType() const // 0x56F683
 {
     mangled_assert("?getMultiplierType@ModifierMultiplier@@QBE?AW4MultiplierType@@XZ");
     todo("implement");
-    MultiplierType __result = _sub_56F683(this);
-    return __result;
 }
 
 /* ---------- private code */

@@ -149,91 +149,64 @@ static_assert(sizeof(Texture) == 36, "Invalid Texture size");
 
 /* ---------- public code */
 
-_extern unsigned __int32 _sub_10019270(Texture *const);
 _inline unsigned __int32 Texture::getHandle() // 0x10019270
 {
     mangled_assert("?getHandle@Texture@@QAEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_10019270(this);
-    return __result;
 }
 
-_extern void _sub_1001BA30(TextureFilter);
 _inline void Texture::setFilter(TextureFilter filter) // 0x1001BA30
 {
     mangled_assert("?setFilter@Texture@@SGXW4TextureFilter@@@Z");
     todo("implement");
-    _sub_1001BA30(filter);
 }
 
-_extern void _sub_1001BB80(TextureWrap);
 _inline void Texture::setWrap(TextureWrap wrap) // 0x1001BB80
 {
     mangled_assert("?setWrap@Texture@@SGXW4TextureWrap@@@Z");
     todo("implement");
-    _sub_1001BB80(wrap);
 }
 
-_extern __int32 _sub_10019550(Texture const *const);
 _inline __int32 Texture::getWidth() const // 0x10019550
 {
     mangled_assert("?getWidth@Texture@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_10019550(this);
-    return __result;
 }
 
-_extern __int32 _sub_10019280(Texture const *const);
 _inline __int32 Texture::getHeight() const // 0x10019280
 {
     mangled_assert("?getHeight@Texture@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_10019280(this);
-    return __result;
 }
 
-_extern __int32 _sub_10019200(Texture const *const);
 _inline __int32 Texture::getDepth() const // 0x10019200
 {
     mangled_assert("?getDepth@Texture@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_10019200(this);
-    return __result;
 }
 
-_extern TextureFormat _sub_10019260(Texture const *const);
 _inline TextureFormat Texture::getFormat() const // 0x10019260
 {
     mangled_assert("?getFormat@Texture@@QBE?AW4TextureFormat@@XZ");
     todo("implement");
-    TextureFormat __result = _sub_10019260(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_10019110(Texture const *const);
 _inline unsigned __int32 Texture::getBitsPerPixel() const // 0x10019110
 {
     mangled_assert("?getBitsPerPixel@Texture@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_10019110(this);
-    return __result;
 }
 
-_extern TextureTarget _sub_100194A0(Texture const *const);
 _inline TextureTarget Texture::getTextureTarget() const // 0x100194A0
 {
     mangled_assert("?getTextureTarget@Texture@@QBE?AW4TextureTarget@@XZ");
     todo("implement");
-    TextureTarget __result = _sub_100194A0(this);
-    return __result;
 }
 
-_extern void _sub_1001BB10(Texture *const, TextureTarget const);
 _inline void Texture::setTextureTarget(TextureTarget const) // 0x1001BB10
 {
     mangled_assert("?setTextureTarget@Texture@@QAEXW4TextureTarget@@@Z");
     todo("implement");
-    _sub_1001BB10(this, arg);
 }
 
 /* ---------- private code */

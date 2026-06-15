@@ -112,49 +112,34 @@ static_assert(sizeof(MainUI) == 1948, "Invalid MainUI size");
 
 /* ---------- public code */
 
-_extern MainUI *_sub_44E970();
 _inline MainUI *MainUI::i_nocreate() // 0x44E970
 {
     mangled_assert("?i_nocreate@MainUI@@SGPAV1@XZ");
     todo("implement");
-    MainUI * __result = _sub_44E970();
-    return __result;
 }
 
-_extern bool _sub_450976(MainUI const *const);
 _inline bool MainUI::isAllCommandsDisabled() const // 0x450976
 {
     mangled_assert("?isAllCommandsDisabled@MainUI@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_450976(this);
-    return __result;
 }
 
-_extern SensorsManager *_sub_45CDEA(MainUI *const);
 _inline SensorsManager *MainUI::sensorsManager() // 0x45CDEA
 {
     mangled_assert("?sensorsManager@MainUI@@QAEPAVSensorsManager@@XZ");
     todo("implement");
-    SensorsManager * __result = _sub_45CDEA(this);
-    return __result;
 }
 
-_extern Pieplate *_sub_45CC58(MainUI *const);
 _inline Pieplate *MainUI::pieplate() // 0x45CC58
 {
     mangled_assert("?pieplate@MainUI@@QAEPAVPieplate@@XZ");
     todo("implement");
-    Pieplate * __result = _sub_45CC58(this);
-    return __result;
 }
 
-_extern Selector *_sub_450C46(MainUI *const);
 _inline Selector *MainUI::selector() // 0x450C46
 {
     mangled_assert("?selector@MainUI@@QAEPAVSelector@@XZ");
     todo("implement");
-    Selector * __result = _sub_450C46(this);
-    return __result;
 }
 
 /* ---------- private code */

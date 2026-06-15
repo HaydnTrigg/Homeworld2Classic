@@ -52,40 +52,28 @@ extern bool coninShutdown();
 
 /* ---------- public code */
 
-_extern char *_sub_5E9E4A(char *);
 char *coninPreprocess(char *string) // 0x5E9E4A
 {
     mangled_assert("?coninPreprocess@@YGPADPAD@Z");
     todo("implement");
-    char * __result = _sub_5E9E4A(string);
-    return __result;
 }
 
-_extern bool _sub_5E9E1A(char *);
 bool coninInputCB(char *string) // 0x5E9E1A
 {
     mangled_assert("?coninInputCB@@YG_NPAD@Z");
     todo("implement");
-    bool __result = _sub_5E9E1A(string);
-    return __result;
 }
 
-_extern bool _sub_5E9F5A();
 bool coninStartup() // 0x5E9F5A
 {
     mangled_assert("?coninStartup@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_5E9F5A();
-    return __result;
 }
 
-_extern bool _sub_5E9F3E();
 bool coninShutdown() // 0x5E9F3E
 {
     mangled_assert("?coninShutdown@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_5E9F3E();
-    return __result;
 }
 
 /* ---------- private code */

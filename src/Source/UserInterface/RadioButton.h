@@ -37,13 +37,10 @@ static_assert(sizeof(UI::RadioButton) == 1400, "Invalid UI::RadioButton size");
 
 /* ---------- public code */
 
-_extern UI::InterfaceElement *_sub_68AB1A(UI::RadioButton *const);
 _inline UI::InterfaceElement *UI::RadioButton::clone() // 0x68AB1A
 {
     mangled_assert("?clone@RadioButton@UI@@UAEPAVInterfaceElement@2@XZ");
     todo("implement");
-    UI::InterfaceElement * __result = _sub_68AB1A(this);
-    return __result;
 }
 
 /* ---------- private code */

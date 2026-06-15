@@ -129,98 +129,70 @@ extern void TableClear(HashImplementation *table);
 
 /* ---------- public code */
 
-_extern HashImplementation *_sub_10005E48(__int32, __int32, __int32 (*)(void const *, __int32), __int32 (*)(void const *, void const *), void (*)(void *));
 HashImplementation *TableNew(__int32 elemSize, __int32 nBuckets, __int32 (*hashFn)(void const *, __int32), __int32 (*compFn)(void const *, void const *), void (*freeFn)(void *)) // 0x10005E48
 {
     mangled_assert("_TableNew@20");
     todo("implement");
-    HashImplementation * __result = _sub_10005E48(elemSize, nBuckets, hashFn, compFn, freeFn);
-    return __result;
 }
 
-_extern HashImplementation *_sub_10005DDF(__int32, __int32, __int32, __int32 (*)(void const *, __int32), __int32 (*)(void const *, void const *), void (*)(void *));
 HashImplementation *TableNew2(__int32 elemSize, __int32 nBuckets, __int32 nChains, __int32 (*hashFn)(void const *, __int32), __int32 (*compFn)(void const *, void const *), void (*freeFn)(void *)) // 0x10005DDF
 {
     mangled_assert("_TableNew2@24");
     todo("implement");
-    HashImplementation * __result = _sub_10005DDF(elemSize, nBuckets, nChains, hashFn, compFn, freeFn);
-    return __result;
 }
 
-_extern void _sub_10005CEA(HashImplementation *);
 void TableFree(HashImplementation *table) // 0x10005CEA
 {
     mangled_assert("_TableFree@4");
     todo("implement");
-    _sub_10005CEA(table);
 }
 
-_extern __int32 _sub_10005C71(HashImplementation *);
 __int32 TableCount(HashImplementation *table) // 0x10005C71
 {
     mangled_assert("_TableCount@4");
     todo("implement");
-    __int32 __result = _sub_10005C71(table);
-    return __result;
 }
 
-_extern void _sub_10005C9B(HashImplementation *, void const *);
 void TableEnter(HashImplementation *table, void const *newElem) // 0x10005C9B
 {
     mangled_assert("_TableEnter@8");
     todo("implement");
-    _sub_10005C9B(table, newElem);
 }
 
-_extern __int32 _sub_10005E65(HashImplementation *, void const *);
 __int32 TableRemove(HashImplementation *table, void const *delElem) // 0x10005E65
 {
     mangled_assert("_TableRemove@8");
     todo("implement");
-    __int32 __result = _sub_10005E65(table, delElem);
-    return __result;
 }
 
-_extern void *_sub_10005D1B(HashImplementation *, void const *);
 void *TableLookup(HashImplementation *table, void const *elemKey) // 0x10005D1B
 {
     mangled_assert("_TableLookup@8");
     todo("implement");
-    void * __result = _sub_10005D1B(table, elemKey);
-    return __result;
 }
 
-_extern void _sub_10005D8B(HashImplementation *, void (*)(void *, void *), void *);
 void TableMap(HashImplementation *table, void (*fn)(void *, void *), void *clientData) // 0x10005D8B
 {
     mangled_assert("_TableMap@12");
     todo("implement");
-    _sub_10005D8B(table, fn, clientData);
 }
 
-_extern void _sub_10005DB5(HashImplementation *, void (*)(void *, void *), void *);
 void TableMapSafe(HashImplementation *table, void (*fn)(void *, void *), void *clientData) // 0x10005DB5
 {
     mangled_assert("_TableMapSafe@12");
     todo("implement");
-    _sub_10005DB5(table, fn, clientData);
 }
 
-_extern void *_sub_10005D5B(HashImplementation *, __int32 (*)(void *, void *), void *);
 void *TableMap2(HashImplementation *table, __int32 (*fn)(void *, void *), void *clientData) // 0x10005D5B
 {
     mangled_assert("_TableMap2@12");
     todo("implement");
-    void * __result = _sub_10005D5B(table, fn, clientData);
-    return __result;
 }
 
-_extern void _sub_10005C4F(HashImplementation *);
 void TableClear(HashImplementation *table) // 0x10005C4F
 {
     mangled_assert("_TableClear@4");
     todo("implement");
-    _sub_10005C4F(table);
 }
 
 /* ---------- private code */

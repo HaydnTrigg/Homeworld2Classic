@@ -41,21 +41,16 @@ static_assert(sizeof(CameraHW) == 508, "Invalid CameraHW size");
 
 /* ---------- public code */
 
-_extern void _sub_4DD452(CameraHW *const, bool);
 _inline void CameraHW::cameraFloatEnable(bool) // 0x4DD452
 {
     mangled_assert("?cameraFloatEnable@CameraHW@@QAEX_N@Z");
     todo("implement");
-    _sub_4DD452(this, arg);
 }
 
-_extern bool _sub_4DD45F(CameraHW const *const);
 _inline bool CameraHW::cameraGetFloat() const // 0x4DD45F
 {
     mangled_assert("?cameraGetFloat@CameraHW@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_4DD45F(this);
-    return __result;
 }
 
 /* ---------- private code */

@@ -123,31 +123,22 @@ extern ImageInterface *imageInterface; // 0x848A88
 
 /* ---------- public code */
 
-_extern unsigned __int32 _sub_5FB2D1();
 unsigned __int32 getLibraryID() // 0x5FB2D1
 {
     mangled_assert("_getLibraryID");
     todo("implement");
-    unsigned __int32 __result = _sub_5FB2D1();
-    return __result;
 }
 
-_extern bool _sub_5FB217();
 bool setupInterfaces() // 0x5FB217
 {
     mangled_assert("?setupInterfaces@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_5FB217();
-    return __result;
 }
 
-_extern __int32 _sub_5FB2CB(void *, unsigned long, void *);
 __int32 DllMain(void *hInstance, unsigned long reason, void *reserved) // 0x5FB2CB
 {
     mangled_assert("_DllMain@12");
     todo("implement");
-    __int32 __result = _sub_5FB2CB(hInstance, reason, reserved);
-    return __result;
 }
 
 /* ---------- private code */

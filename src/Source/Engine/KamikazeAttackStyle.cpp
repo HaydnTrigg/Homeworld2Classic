@@ -52,71 +52,52 @@ extern SaveData const KamikazeAttackStyle::m_saveData[1]; // 0x7B9AA8
 
 /* ---------- public code */
 
-_extern _sub_6B230C(KamikazeAttackStyle *const, FormationAttackCommand const *, Formation *, Selection const &, __int32);
 KamikazeAttackStyle::KamikazeAttackStyle(FormationAttackCommand const *, Formation *, Selection const &, __int32) // 0x6B230C
 {
     mangled_assert("??0KamikazeAttackStyle@@QAE@PBVFormationAttackCommand@@PAVFormation@@ABVSelection@@H@Z");
     todo("implement");
-    _sub_6B230C(this, arg, arg, arg, arg);
 }
 
-_extern void _sub_6B2337(KamikazeAttackStyle *const);
 KamikazeAttackStyle::~KamikazeAttackStyle() // 0x6B2337
 {
     mangled_assert("??1KamikazeAttackStyle@@UAE@XZ");
     todo("implement");
-    _sub_6B2337(this);
 }
 
-_extern AttackStyle::AttackStyleResult _sub_6B241D(KamikazeAttackStyle *const, float);
 AttackStyle::AttackStyleResult KamikazeAttackStyle::update(float) // 0x6B241D
 {
     mangled_assert("?update@KamikazeAttackStyle@@UAE?AW4AttackStyleResult@AttackStyle@@M@Z");
     todo("implement");
-    AttackStyle::AttackStyleResult __result = _sub_6B241D(this, arg);
-    return __result;
 }
 
-_extern _sub_6B22ED(KamikazeAttackStyle *const, SaveGameData *);
 KamikazeAttackStyle::KamikazeAttackStyle(SaveGameData *) // 0x6B22ED
 {
     mangled_assert("??0KamikazeAttackStyle@@QAE@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_6B22ED(this, arg);
 }
 
-_extern void _sub_6B2370(KamikazeAttackStyle *const);
 void KamikazeAttackStyle::defaultSettings() // 0x6B2370
 {
     mangled_assert("?defaultSettings@KamikazeAttackStyle@@QAEXXZ");
     todo("implement");
-    _sub_6B2370(this);
 }
 
-_extern void _sub_6B237E(KamikazeAttackStyle *const);
 void KamikazeAttackStyle::postRestore() // 0x6B237E
 {
     mangled_assert("?postRestore@KamikazeAttackStyle@@UAEXXZ");
     todo("implement");
-    _sub_6B237E(this);
 }
 
-_extern bool _sub_6B2383(KamikazeAttackStyle *const, SaveGameData *);
 bool KamikazeAttackStyle::restore(SaveGameData *) // 0x6B2383
 {
     mangled_assert("?restore@KamikazeAttackStyle@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_6B2383(this, arg);
-    return __result;
 }
 
-_extern bool _sub_6B23D0(KamikazeAttackStyle *const, SaveGameData *, SaveType);
 bool KamikazeAttackStyle::save(SaveGameData *, SaveType) // 0x6B23D0
 {
     mangled_assert("?save@KamikazeAttackStyle@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_6B23D0(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

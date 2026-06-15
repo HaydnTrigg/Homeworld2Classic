@@ -76,49 +76,34 @@ static_assert(sizeof(SobRigidBody) == 520, "Invalid SobRigidBody size");
 
 /* ---------- public code */
 
-_extern SobRigidBody *_sub_487F60(SobRigidBody *const);
 _inline SobRigidBody *SobRigidBody::getSobRigidBodyPtr() // 0x487F60
 {
     mangled_assert("?getSobRigidBodyPtr@SobRigidBody@@UAEPAV1@XZ");
     todo("implement");
-    SobRigidBody * __result = _sub_487F60(this);
-    return __result;
 }
 
-_extern RigidBody *_sub_4A2F00(SobRigidBody const *const);
 _inline RigidBody *SobRigidBody::getRigidBody() const // 0x4A2F00
 {
     mangled_assert("?getRigidBody@SobRigidBody@@QBEPAVRigidBody@@XZ");
     todo("implement");
-    RigidBody * __result = _sub_4A2F00(this);
-    return __result;
 }
 
-_extern SobRigidBodyStatic const *_sub_441C8C(SobRigidBody const *const);
 _inline SobRigidBodyStatic const *SobRigidBody::getStatic() const // 0x441C8C
 {
     mangled_assert("?getStatic@SobRigidBody@@QBEPBVSobRigidBodyStatic@@XZ");
     todo("implement");
-    SobRigidBodyStatic const * __result = _sub_441C8C(this);
-    return __result;
 }
 
-_extern bool _sub_4B2FDB(SobRigidBody *const);
 _inline bool SobRigidBody::isDeterministic() // 0x4B2FDB
 {
     mangled_assert("?isDeterministic@SobRigidBody@@MAE_NXZ");
     todo("implement");
-    bool __result = _sub_4B2FDB(this);
-    return __result;
 }
 
-_extern char const *_sub_4B30B9(SobRigidBody *const);
 _inline char const *SobRigidBody::saveToken() // 0x4B30B9
 {
     mangled_assert("?saveToken@SobRigidBody@@MAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4B30B9(this);
-    return __result;
 }
 
 /* ---------- private code */

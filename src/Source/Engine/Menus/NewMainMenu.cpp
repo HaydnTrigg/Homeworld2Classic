@@ -180,84 +180,64 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_594C5F(UI::NewMainMenu *const, char const *);
 UI::NewMainMenu::NewMainMenu(char const *) // 0x594C5F
 {
     mangled_assert("??0NewMainMenu@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_594C5F(this, arg);
 }
 
-_extern void _sub_594C77(UI::NewMainMenu *const);
 UI::NewMainMenu::~NewMainMenu() // 0x594C77
 {
     mangled_assert("??1NewMainMenu@UI@@UAE@XZ");
     todo("implement");
-    _sub_594C77(this);
 }
 
-_extern void _sub_5951DF(UI::NewMainMenu *const);
 void UI::NewMainMenu::SetDefaultLevel() // 0x5951DF
 {
     mangled_assert("?SetDefaultLevel@NewMainMenu@UI@@AAEXXZ");
     todo("implement");
-    _sub_5951DF(this);
 }
 
-_extern void _sub_595017(UI::NewMainMenu *const, bool);
 void UI::NewMainMenu::OnActivate(bool) // 0x595017
 {
     mangled_assert("?OnActivate@NewMainMenu@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_595017(this, arg);
 }
 
-_extern void _sub_59501A(UI::NewMainMenu *const);
 void UI::NewMainMenu::OnPostLoad() // 0x59501A
 {
     mangled_assert("?OnPostLoad@NewMainMenu@UI@@MAEXXZ");
     todo("implement");
-    _sub_59501A(this);
 }
 
-_extern void _sub_594E17(UI::NewMainMenu *const);
 void UI::NewMainMenu::FillLevelListBox() // 0x594E17
 {
     mangled_assert("?FillLevelListBox@NewMainMenu@UI@@AAEXXZ");
     todo("implement");
-    _sub_594E17(this);
 }
 
-_extern void _sub_594CA4(UI::InterfaceElement *);
 void UI::NewMainMenu::CampaignClicked(UI::InterfaceElement *sender) // 0x594CA4
 {
     mangled_assert("?CampaignClicked@NewMainMenu@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_594CA4(sender);
 }
 
-_extern void _sub_595264(UI::InterfaceElement *);
 void UI::NewMainMenu::TutorialClicked(UI::InterfaceElement *sender) // 0x595264
 {
     mangled_assert("?TutorialClicked@NewMainMenu@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_595264(sender);
 }
 
-_extern void _sub_5951AF(UI::InterfaceElement *);
 void UI::NewMainMenu::PlayerVsCPUClicked(UI::InterfaceElement *sender) // 0x5951AF
 {
     mangled_assert("?PlayerVsCPUClicked@NewMainMenu@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5951AF(sender);
 }
 
-_extern void _sub_594FCD(UI::InterfaceElement *, __int32);
 void UI::NewMainMenu::LevelSelected(UI::InterfaceElement *sender, __int32 i) // 0x594FCD
 {
     mangled_assert("?LevelSelected@NewMainMenu@UI@@CGXPAVInterfaceElement@2@H@Z");
     todo("implement");
-    _sub_594FCD(sender, i);
 }
 
 /* ---------- private code */

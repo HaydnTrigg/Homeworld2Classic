@@ -46,52 +46,40 @@ static_assert(sizeof(UI::UIDialog) == 484, "Invalid UI::UIDialog size");
 
 /* ---------- public code */
 
-_extern void _sub_44FD7B(UI::UIDialog *const, void (*)(UI::InterfaceElement *));
 _inline void UI::UIDialog::ConnectOnAccept(void (*)(UI::InterfaceElement *)) // 0x44FD7B
 {
     mangled_assert("?ConnectOnAccept@UIDialog@UI@@QAEXP6GXPAVInterfaceElement@2@@Z@Z");
     todo("implement");
-    _sub_44FD7B(this, arg);
 }
 
-_extern void _sub_44FD97(UI::UIDialog *const, void (*)(UI::InterfaceElement *));
 _inline void UI::UIDialog::ConnectOnCancel(void (*)(UI::InterfaceElement *)) // 0x44FD97
 {
     mangled_assert("?ConnectOnCancel@UIDialog@UI@@QAEXP6GXPAVInterfaceElement@2@@Z@Z");
     todo("implement");
-    _sub_44FD97(this, arg);
 }
 
-_extern void _sub_58D976(UI::UIDialog *const, char const *);
 _inline void UI::UIDialog::SetLuaOnAccept(char const *) // 0x58D976
 {
     mangled_assert("?SetLuaOnAccept@UIDialog@UI@@QAEXPBD@Z");
     todo("implement");
-    _sub_58D976(this, arg);
 }
 
-_extern void _sub_58FEE0(UI::UIDialog *const, char const *);
 _inline void UI::UIDialog::SetLuaOnCancel(char const *) // 0x58FEE0
 {
     mangled_assert("?SetLuaOnCancel@UIDialog@UI@@QAEXPBD@Z");
     todo("implement");
-    _sub_58FEE0(this, arg);
 }
 
-_extern void _sub_670DDD(UI::UIDialog *const);
 _inline void UI::UIDialog::OnAccept() // 0x670DDD
 {
     mangled_assert("?OnAccept@UIDialog@UI@@MAEXXZ");
     todo("implement");
-    _sub_670DDD(this);
 }
 
-_extern void _sub_670DE1(UI::UIDialog *const);
 _inline void UI::UIDialog::OnCancel() // 0x670DE1
 {
     mangled_assert("?OnCancel@UIDialog@UI@@MAEXXZ");
     todo("implement");
-    _sub_670DE1(this);
 }
 
 /* ---------- private code */

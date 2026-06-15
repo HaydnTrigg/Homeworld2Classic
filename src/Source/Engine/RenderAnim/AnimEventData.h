@@ -48,13 +48,10 @@ static_assert(sizeof(AnimEventData) == 36, "Invalid AnimEventData size");
 
 /* ---------- public code */
 
-_extern char const *_sub_51091D(AnimEventData const *const);
 _inline char const *AnimEventData::getName() const // 0x51091D
 {
     mangled_assert("?getName@AnimEventData@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_51091D(this);
-    return __result;
 }
 
 /* ---------- private code */

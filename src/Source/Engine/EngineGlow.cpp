@@ -186,149 +186,107 @@ extern EngineGlowManager *EngineGlowManager::s_instance; // 0x8438CC
 
 /* ---------- public code */
 
-_extern _sub_44285D(EngineGlowBinding *const);
 EngineGlowBinding::EngineGlowBinding() // 0x44285D
 {
     mangled_assert("??0EngineGlowBinding@@QAE@XZ");
     todo("implement");
-    _sub_44285D(this);
 }
 
-_extern void _sub_442A16(EngineGlowBinding *const);
 EngineGlowBinding::~EngineGlowBinding() // 0x442A16
 {
     mangled_assert("??1EngineGlowBinding@@QAE@XZ");
     todo("implement");
-    _sub_442A16(this);
 }
 
-_extern _sub_4429A9(EngineGlowStatic *const);
 EngineGlowStatic::EngineGlowStatic() // 0x4429A9
 {
     mangled_assert("??0EngineGlowStatic@@QAE@XZ");
     todo("implement");
-    _sub_4429A9(this);
 }
 
-_extern void _sub_442AC5(EngineGlowStatic *const);
 EngineGlowStatic::~EngineGlowStatic() // 0x442AC5
 {
     mangled_assert("??1EngineGlowStatic@@QAE@XZ");
     todo("implement");
-    _sub_442AC5(this);
 }
 
-_extern bool _sub_443B76();
 bool EngineGlowManager::startup() // 0x443B76
 {
     mangled_assert("?startup@EngineGlowManager@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_443B76();
-    return __result;
 }
 
-_extern bool _sub_443B49();
 bool EngineGlowManager::shutdown() // 0x443B49
 {
     mangled_assert("?shutdown@EngineGlowManager@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_443B49();
-    return __result;
 }
 
-_extern EngineGlowManager *_sub_443851();
 EngineGlowManager *EngineGlowManager::i() // 0x443851
 {
     mangled_assert("?i@EngineGlowManager@@SGPAV1@XZ");
     todo("implement");
-    EngineGlowManager * __result = _sub_443851();
-    return __result;
 }
 
-_extern _sub_442874(EngineGlowManager *const);
 EngineGlowManager::EngineGlowManager() // 0x442874
 {
     mangled_assert("??0EngineGlowManager@@IAE@XZ");
     todo("implement");
-    _sub_442874(this);
 }
 
-_extern void _sub_442A4E(EngineGlowManager *const);
 EngineGlowManager::~EngineGlowManager() // 0x442A4E
 {
     mangled_assert("??1EngineGlowManager@@IAE@XZ");
     todo("implement");
-    _sub_442A4E(this);
 }
 
-_extern void _sub_442EC5(EngineGlowManager *const, vector3 const &, vector3 const &, vector3 const &, float, SobWithMesh const *, unsigned __int32, float);
 void EngineGlowManager::doDrawEngineGlows(vector3 const &, vector3 const &, vector3 const &, float, SobWithMesh const *, unsigned __int32, float) // 0x442EC5
 {
     mangled_assert("?doDrawEngineGlows@EngineGlowManager@@AAEXABVvector3@@00MPBVSobWithMesh@@IM@Z");
     todo("implement");
-    _sub_442EC5(this, arg, arg, arg, arg, arg, arg, arg);
 }
 
-_extern void _sub_443437(EngineGlowManager *const, Camera const *, float, Selection const &, __int32);
 void EngineGlowManager::drawEngineGlows(Camera const *, float, Selection const &, __int32) // 0x443437
 {
     mangled_assert("?drawEngineGlows@EngineGlowManager@@QAEXPBVCamera@@MABVSelection@@H@Z");
     todo("implement");
-    _sub_443437(this, arg, arg, arg, arg);
 }
 
-_extern __int32 _sub_4436DB(IFF *, IFFChunk *, void *, void *);
 __int32 EngineGlowManager::handle_EngineGlow_Chunk(IFF *iff, IFFChunk *chunk, void *user0, void *user1) // 0x4436DB
 {
     mangled_assert("?handle_EngineGlow_Chunk@EngineGlowManager@@SGHPAVIFF@@PAVIFFChunk@@PAX2@Z");
     todo("implement");
-    __int32 __result = _sub_4436DB(iff, chunk, user0, user1);
-    return __result;
 }
 
-_extern __int32 _sub_44390F(lua_State *);
 __int32 EngineGlowManager::setEngineGlowStatic(lua_State *lstate) // 0x44390F
 {
     mangled_assert("?setEngineGlowStatic@EngineGlowManager@@SGHPAUlua_State@@@Z");
     todo("implement");
-    __int32 __result = _sub_44390F(lstate);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern void _sub_4435A1(SobWithMesh const *, char const *, float, vector3 &);
 _static void getScaledJointPosition(SobWithMesh const *pSobWithMesh, char const *jointName, float scale, vector3 &jointPosition) // 0x4435A1
 {
     mangled_assert("getScaledJointPosition");
     todo("implement");
-    _sub_4435A1(pSobWithMesh, jointName, scale, jointPosition);
 }
 
-_extern bool _sub_442CAE(SobWithMesh const &, __int32);
 _static bool IsShipVisible(SobWithMesh const &sob, __int32 currentPlayerIndex) // 0x442CAE
 {
     mangled_assert("IsShipVisible");
     todo("implement");
-    bool __result = _sub_442CAE(sob, currentPlayerIndex);
-    return __result;
 }
 
-_extern __int32 _sub_4437BD(IFF *, IFFChunk *, void *, void *);
 _static __int32 handle_GLOW_INFO_Chunk(IFF *iff, IFFChunk *chunk, void *pVoidEngineGlowBinding, void *name) // 0x4437BD
 {
     mangled_assert("handle_GLOW_INFO_Chunk");
     todo("implement");
-    __int32 __result = _sub_4437BD(iff, chunk, pVoidEngineGlowBinding, name);
-    return __result;
 }
 
-_extern __int32 _sub_443768(IFF *, IFFChunk *, void *, void *);
 _static __int32 handle_GLOW_BMSH_Chunk(IFF *iff, IFFChunk *chunk, void *user1, void *nLOD) // 0x443768
 {
     mangled_assert("handle_GLOW_BMSH_Chunk");
     todo("implement");
-    __int32 __result = _sub_443768(iff, chunk, user1, nLOD);
-    return __result;
 }
 #endif

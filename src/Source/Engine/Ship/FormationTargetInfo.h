@@ -153,39 +153,28 @@ static_assert(sizeof(FormationTargetInfo) == 412, "Invalid FormationTargetInfo s
 
 /* ---------- public code */
 
-_extern bool _sub_50A902(FormationTargetInfo const *const);
 _inline bool FormationTargetInfo::getFollowStrikeGroup() const // 0x50A902
 {
     mangled_assert("?getFollowStrikeGroup@FormationTargetInfo@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_50A902(this);
-    return __result;
 }
 
-_extern void _sub_6B09F4(FormationTargetInfo *const, bool);
 _inline void FormationTargetInfo::setFollowStrikeGroup(bool) // 0x6B09F4
 {
     mangled_assert("?setFollowStrikeGroup@FormationTargetInfo@@QAEX_N@Z");
     todo("implement");
-    _sub_6B09F4(this, arg);
 }
 
-_extern bool _sub_4B655A(FormationTargetInfo *const);
 _inline bool FormationTargetInfo::isDeterministic() // 0x4B655A
 {
     mangled_assert("?isDeterministic@FormationTargetInfo@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4B655A(this);
-    return __result;
 }
 
-_extern char const *_sub_4B65D1(FormationTargetInfo *const);
 _inline char const *FormationTargetInfo::saveToken() // 0x4B65D1
 {
     mangled_assert("?saveToken@FormationTargetInfo@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4B65D1(this);
-    return __result;
 }
 
 /* ---------- private code */

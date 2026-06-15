@@ -113,139 +113,100 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_100329D0(Core *const);
 Core::Core() // 0x100329D0
 {
     mangled_assert("??0Core@@QAE@XZ");
     todo("implement");
-    _sub_100329D0(this);
 }
 
-_extern void _sub_100329E0(Core *const);
 Core::~Core() // 0x100329E0
 {
     mangled_assert("??1Core@@UAE@XZ");
     todo("implement");
-    _sub_100329E0(this);
 }
 
-_extern bool _sub_10032A30(Core *const);
 bool Core::release() // 0x10032A30
 {
     mangled_assert("?release@Core@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_10032A30(this);
-    return __result;
 }
 
-_extern void _sub_10032A90(rndTable *);
 void Core::setTable(rndTable *_gl) // 0x10032A90
 {
     mangled_assert("?setTable@Core@@SGXPAUrndTable@@@Z");
     todo("implement");
-    _sub_10032A90(_gl);
 }
 
-_extern rndTable *_sub_10032A20(Core const *const);
 rndTable *Core::getTable() const // 0x10032A20
 {
     mangled_assert("?getTable@Core@@QBEPAUrndTable@@XZ");
     todo("implement");
-    rndTable * __result = _sub_10032A20(this);
-    return __result;
 }
 
-_extern bool _sub_10032AF0();
 bool Core::startTextureRegistry() // 0x10032AF0
 {
     mangled_assert("?startTextureRegistry@Core@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_10032AF0();
-    return __result;
 }
 
-_extern bool _sub_10032AE0();
 bool Core::shutdownTextureRegistry() // 0x10032AE0
 {
     mangled_assert("?shutdownTextureRegistry@Core@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_10032AE0();
-    return __result;
 }
 
-_extern void _sub_10032A40(unsigned __int32);
 void Core::setDefaultAnisotropy(unsigned __int32 level) // 0x10032A40
 {
     mangled_assert("?setDefaultAnisotropy@Core@@SGXI@Z");
     todo("implement");
-    _sub_10032A40(level);
 }
 
-_extern void _sub_10032A70(TextureFilter, TextureFilter);
 void Core::setDefaultTextureFilter(TextureFilter min, TextureFilter mag) // 0x10032A70
 {
     mangled_assert("?setDefaultTextureFilter@Core@@SGXW4TextureFilter@@0@Z");
     todo("implement");
-    _sub_10032A70(min, mag);
 }
 
-_extern void _sub_10032A60(TextureFilter);
 void Core::setDefaultMinFilter(TextureFilter min) // 0x10032A60
 {
     mangled_assert("?setDefaultMinFilter@Core@@SGXW4TextureFilter@@@Z");
     todo("implement");
-    _sub_10032A60(min);
 }
 
-_extern void _sub_10032A50(TextureFilter);
 void Core::setDefaultMagFilter(TextureFilter mag) // 0x10032A50
 {
     mangled_assert("?setDefaultMagFilter@Core@@SGXW4TextureFilter@@@Z");
     todo("implement");
-    _sub_10032A50(mag);
 }
 
-_extern TextureFilter _sub_10032A10();
 TextureFilter Core::getMinFilter() // 0x10032A10
 {
     mangled_assert("?getMinFilter@Core@@SG?AW4TextureFilter@@XZ");
     todo("implement");
-    TextureFilter __result = _sub_10032A10();
-    return __result;
 }
 
-_extern TextureFilter _sub_10032A00();
 TextureFilter Core::getMagFilter() // 0x10032A00
 {
     mangled_assert("?getMagFilter@Core@@SG?AW4TextureFilter@@XZ");
     todo("implement");
-    TextureFilter __result = _sub_10032A00();
-    return __result;
 }
 
-_extern unsigned __int32 _sub_100329F0();
 unsigned __int32 Core::getAnisotropy() // 0x100329F0
 {
     mangled_assert("?getAnisotropy@Core@@SGIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_100329F0();
-    return __result;
 }
 
-_extern void _sub_10032B00();
 void Core::startup() // 0x10032B00
 {
     mangled_assert("?startup@Core@@SGXXZ");
     todo("implement");
-    _sub_10032B00();
 }
 
-_extern void _sub_10032AB0();
 void Core::shutdown() // 0x10032AB0
 {
     mangled_assert("?shutdown@Core@@SGXXZ");
     todo("implement");
-    _sub_10032AB0();
 }
 
 /* ---------- private code */

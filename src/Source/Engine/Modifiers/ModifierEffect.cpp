@@ -118,28 +118,22 @@
 
 /* ---------- public code */
 
-_extern _sub_56E44F(ModifierEffect *const, InfluenceType, float);
 ModifierEffect::ModifierEffect(InfluenceType, float) // 0x56E44F
 {
     mangled_assert("??0ModifierEffect@@QAE@W4InfluenceType@@M@Z");
     todo("implement");
-    _sub_56E44F(this, arg, arg);
 }
 
-_extern void _sub_56E46C(ModifierEffect *const);
 ModifierEffect::~ModifierEffect() // 0x56E46C
 {
     mangled_assert("??1ModifierEffect@@UAE@XZ");
     todo("implement");
-    _sub_56E46C(this);
 }
 
-_extern void _sub_56E497(ModifierEffect const *const, Ship *, vector3 const &, float, Selection *);
 void ModifierEffect::apply(Ship *, vector3 const &, float, Selection *) const // 0x56E497
 {
     mangled_assert("?apply@ModifierEffect@@QBEXPAVShip@@ABVvector3@@MPAVSelection@@@Z");
     todo("implement");
-    _sub_56E497(this, arg, arg, arg, arg);
 }
 
 /* ---------- private code */

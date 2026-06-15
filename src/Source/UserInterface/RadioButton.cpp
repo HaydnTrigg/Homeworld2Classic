@@ -96,80 +96,62 @@
 
 /* ---------- public code */
 
-_extern _sub_68A97F(UI::RadioButton *const, UI::InterfaceElement *, char const *);
 UI::RadioButton::RadioButton(UI::InterfaceElement *, char const *) // 0x68A97F
 {
     mangled_assert("??0RadioButton@UI@@QAE@PAVInterfaceElement@1@PBD@Z");
     todo("implement");
-    _sub_68A97F(this, arg, arg);
 }
 
-_extern _sub_68A9E4(UI::RadioItem *const, UI::RadioItem const &);
 _inline UI::RadioItem::RadioItem(UI::RadioItem const &) // 0x68A9E4
 {
     mangled_assert("??0RadioItem@UI@@QAE@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_68A9E4(this, arg);
 }
 
-_extern _sub_68A9FF(UI::UISignal *const, UI::UISignal const &);
 _inline UI::UISignal::UISignal(UI::UISignal const &) // 0x68A9FF
 {
     mangled_assert("??0UISignal@UI@@QAE@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_68A9FF(this, arg);
 }
 
-_extern _sub_68A887(UI::RadioButton *const, LuaConfig &);
 UI::RadioButton::RadioButton(LuaConfig &) // 0x68A887
 {
     mangled_assert("??0RadioButton@UI@@QAE@AAVLuaConfig@@@Z");
     todo("implement");
-    _sub_68A887(this, arg);
 }
 
-_extern _sub_68A901(UI::RadioButton *const, UI::RadioButton const &);
 _inline UI::RadioButton::RadioButton(UI::RadioButton const &) // 0x68A901
 {
     mangled_assert("??0RadioButton@UI@@QAE@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_68A901(this, arg);
 }
 
-_extern void _sub_68AA11(UI::RadioButton *const);
 UI::RadioButton::~RadioButton() // 0x68AA11
 {
     mangled_assert("??1RadioButton@UI@@UAE@XZ");
     todo("implement");
-    _sub_68AA11(this);
 }
 
-_extern void _sub_68AAA9(UI::RadioButton *const, LuaConfig &);
 void UI::RadioButton::Load(LuaConfig &) // 0x68AAA9
 {
     mangled_assert("?Load@RadioButton@UI@@IAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_68AAA9(this, arg);
 }
 
-_extern void _sub_68AAD9(UI::RadioItem * const, bool);
 void UI::RadioButton::SetSelected(bool) // 0x68AAD9
 {
     mangled_assert("?SetSelected@RadioButton@UI@@UAEX_N@Z");
     // __shifted(UI::RadioButton, 1376);
     todo("implement");
-    _sub_68AAD9(this, arg);
 }
 
-_extern void _sub_68AAAE(UI::RadioButton *const, Vector_2i const &, UI::MouseButton const &);
 void UI::RadioButton::OnMouseClicked(Vector_2i const &, UI::MouseButton const &) // 0x68AAAE
 {
     mangled_assert("?OnMouseClicked@RadioButton@UI@@MAEXABUVector_2i@@ABVMouseButton@2@@Z");
     todo("implement");
-    _sub_68AAAE(this, arg, arg);
 }
 
 /* ---------- private code */

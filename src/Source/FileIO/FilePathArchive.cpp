@@ -165,91 +165,65 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_1000E787(FilePathArchive::Data *const);
 _inline FilePathArchive::Data::Data() // 0x1000E787
 {
     mangled_assert("??0Data@FilePathArchive@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_1000E787(this);
 }
 
-_extern _sub_1000E792(FilePathArchive *const);
 FilePathArchive::FilePathArchive() // 0x1000E792
 {
     mangled_assert("??0FilePathArchive@@AAE@XZ");
     todo("implement");
-    _sub_1000E792(this);
 }
 
-_extern void _sub_1000E7E4(FilePathArchive *const);
 FilePathArchive::~FilePathArchive() // 0x1000E7E4
 {
     mangled_assert("??1FilePathArchive@@UAE@XZ");
     todo("implement");
-    _sub_1000E7E4(this);
 }
 
-_extern FilePathArchive *_sub_1000E8A2(char const *, Archive *);
 FilePathArchive *FilePathArchive::Create(char const *TOCName, Archive *pArchive) // 0x1000E8A2
 {
     mangled_assert("?Create@FilePathArchive@@SGPAV1@PBDPAVArchive@@@Z");
     todo("implement");
-    FilePathArchive * __result = _sub_1000E8A2(TOCName, pArchive);
-    return __result;
 }
 
-_extern bool _sub_1000E88A(FilePathArchive *const, char *, char const *, StreamMode const);
 bool FilePathArchive::ConvertFromAlias(char *, char const *, StreamMode const) // 0x1000E88A
 {
     mangled_assert("?ConvertFromAlias@FilePathArchive@@UAE_NPADPBDW4StreamMode@@@Z");
     todo("implement");
-    bool __result = _sub_1000E88A(this, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_1000E896(FilePathArchive *const, char *, char const *);
 bool FilePathArchive::ConvertToAlias(char *, char const *) // 0x1000E896
 {
     mangled_assert("?ConvertToAlias@FilePathArchive@@UAE_NPADPBD@Z");
     todo("implement");
-    bool __result = _sub_1000E896(this, arg, arg);
-    return __result;
 }
 
-_extern ByteStream *_sub_1000E981(FilePathArchive *const, char const *, StreamMode);
 ByteStream *FilePathArchive::FileOpen(char const *, StreamMode) // 0x1000E981
 {
     mangled_assert("?FileOpen@FilePathArchive@@UAEPAVByteStream@@PBDW4StreamMode@@@Z");
     todo("implement");
-    ByteStream * __result = _sub_1000E981(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_1000E930(FilePathArchive *const, char const *);
 bool FilePathArchive::FileDel(char const *) // 0x1000E930
 {
     mangled_assert("?FileDel@FilePathArchive@@UAE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_1000E930(this, arg);
-    return __result;
 }
 
-_extern FilePath::FILE_Type _sub_1000E9B2(FilePathArchive *const, char const *, StreamMode);
 FilePath::FILE_Type FilePathArchive::FileType(char const *, StreamMode) // 0x1000E9B2
 {
     mangled_assert("?FileType@FilePathArchive@@UAE?AW4FILE_Type@FilePath@@PBDW4StreamMode@@@Z");
     todo("implement");
-    FilePath::FILE_Type __result = _sub_1000E9B2(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_1000E957(FilePathArchive *const, char const *, std::vector<fstring<260>,std::allocator<fstring<260> > > &);
 void FilePathArchive::FileList(char const *, std::vector<fstring<260>,std::allocator<fstring<260> > > &) // 0x1000E957
 {
     mangled_assert("?FileList@FilePathArchive@@UAEXPBDAAV?$vector@V?$fstring@$0BAE@@@V?$allocator@V?$fstring@$0BAE@@@@std@@@std@@@Z");
     todo("implement");
-    _sub_1000E957(this, arg, arg);
 }
 
 /* ---------- private code */

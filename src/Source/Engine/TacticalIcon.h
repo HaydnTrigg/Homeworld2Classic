@@ -36,13 +36,10 @@ static_assert(sizeof(TacticalIcon) == 56, "Invalid TacticalIcon size");
 
 /* ---------- public code */
 
-_extern UIGraphicMesh2D *_sub_5E466E(TacticalIcon *const, bool);
 _inline UIGraphicMesh2D *TacticalIcon::getGraphic(bool) // 0x5E466E
 {
     mangled_assert("?getGraphic@TacticalIcon@@QAEPAVUIGraphicMesh2D@@_N@Z");
     todo("implement");
-    UIGraphicMesh2D * __result = _sub_5E466E(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

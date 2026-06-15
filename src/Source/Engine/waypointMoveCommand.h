@@ -173,58 +173,40 @@ static_assert(sizeof(WaypointMoveCommandStaticInfo) == 8, "Invalid WaypointMoveC
 
 /* ---------- public code */
 
-_extern __int32 _sub_61261A(WaypointMoveCommand const *const);
 _inline __int32 WaypointMoveCommand::getCurrentDestinationIndex() const // 0x61261A
 {
     mangled_assert("?getCurrentDestinationIndex@WaypointMoveCommand@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_61261A(this);
-    return __result;
 }
 
-_extern std::vector<vector3,std::allocator<vector3> > const &_sub_612677(WaypointMoveCommand const *const);
 _inline std::vector<vector3,std::allocator<vector3> > const &WaypointMoveCommand::getPathPoints() const // 0x612677
 {
     mangled_assert("?getPathPoints@WaypointMoveCommand@@QBEABV?$vector@Vvector3@@V?$allocator@Vvector3@@@std@@@std@@XZ");
     todo("implement");
-    std::vector<vector3,std::allocator<vector3> > const & __result = _sub_612677(this);
-    return __result;
 }
 
-_extern Command *_sub_4B93FB(WaypointMoveCommand const *const);
 _inline Command *WaypointMoveCommand::getFinalCommand() const // 0x4B93FB
 {
     mangled_assert("?getFinalCommand@WaypointMoveCommand@@QBEPAVCommand@@XZ");
     todo("implement");
-    Command * __result = _sub_4B93FB(this);
-    return __result;
 }
 
-_extern Sob const *_sub_612664(WaypointMoveCommand const *const);
 _inline Sob const *WaypointMoveCommand::getFinalTarget() const // 0x612664
 {
     mangled_assert("?getFinalTarget@WaypointMoveCommand@@QBEPBVSob@@XZ");
     todo("implement");
-    Sob const * __result = _sub_612664(this);
-    return __result;
 }
 
-_extern bool _sub_6A8EF8(WaypointMoveCommand *const);
 _inline bool WaypointMoveCommand::isDeterministic() // 0x6A8EF8
 {
     mangled_assert("?isDeterministic@WaypointMoveCommand@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6A8EF8(this);
-    return __result;
 }
 
-_extern char const *_sub_6A9080(WaypointMoveCommand *const);
 _inline char const *WaypointMoveCommand::saveToken() // 0x6A9080
 {
     mangled_assert("?saveToken@WaypointMoveCommand@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6A9080(this);
-    return __result;
 }
 
 /* ---------- private code */

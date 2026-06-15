@@ -148,37 +148,28 @@
 
 /* ---------- public code */
 
-_extern _sub_4E16C3(FocalPoint *const, Selection const &);
 FocalPoint::FocalPoint(Selection const &) // 0x4E16C3
 {
     mangled_assert("??0FocalPoint@@QAE@ABVSelection@@@Z");
     todo("implement");
-    _sub_4E16C3(this, arg);
 }
 
-_extern _sub_4E16FD(FocalPoint *const, vector3 const &);
 FocalPoint::FocalPoint(vector3 const &) // 0x4E16FD
 {
     mangled_assert("??0FocalPoint@@QAE@ABVvector3@@@Z");
     todo("implement");
-    _sub_4E16FD(this, arg);
 }
 
-_extern unsigned __int32 _sub_4E18CF(FocalPoint *const, float *);
 unsigned __int32 FocalPoint::update(float *) // 0x4E18CF
 {
     mangled_assert("?update@FocalPoint@@QAEIPAM@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_4E18CF(this, arg);
-    return __result;
 }
 
-_extern void _sub_4E18B8(FocalPoint *const);
 void FocalPoint::unlock() // 0x4E18B8
 {
     mangled_assert("?unlock@FocalPoint@@QAEXXZ");
     todo("implement");
-    _sub_4E18B8(this);
 }
 
 /* ---------- private code */

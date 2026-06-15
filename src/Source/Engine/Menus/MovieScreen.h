@@ -70,13 +70,10 @@ static_assert(sizeof(UI::Animatic) == 1, "Invalid UI::Animatic size");
 
 /* ---------- public code */
 
-_extern char const *_sub_5914ED(UI::MovieScreen const *const);
 _inline char const *UI::MovieScreen::GetNextMovie() const // 0x5914ED
 {
     mangled_assert("?GetNextMovie@MovieScreen@UI@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_5914ED(this);
-    return __result;
 }
 
 /* ---------- private code */

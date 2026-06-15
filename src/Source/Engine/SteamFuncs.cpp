@@ -185,173 +185,118 @@ extern ISteamApps *SteamFuncs::pSteamApps; // 0x843AC0
 
 /* ---------- public code */
 
-_extern bool _sub_4674BC();
 bool SteamFuncs::Startup() // 0x4674BC
 {
     mangled_assert("?Startup@SteamFuncs@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_4674BC();
-    return __result;
 }
 
-_extern bool _sub_4674A1();
 bool SteamFuncs::Shutdown() // 0x4674A1
 {
     mangled_assert("?Shutdown@SteamFuncs@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_4674A1();
-    return __result;
 }
 
-_extern bool _sub_4673BA();
 bool SteamFuncs::IsNoSteamEnabled() // 0x4673BA
 {
     mangled_assert("?IsNoSteamEnabled@SteamFuncs@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_4673BA();
-    return __result;
 }
 
-_extern bool _sub_4673C0();
 bool SteamFuncs::IsSteamworksInitialized() // 0x4673C0
 {
     mangled_assert("?IsSteamworksInitialized@SteamFuncs@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_4673C0();
-    return __result;
 }
 
-_extern bool _sub_467290();
 bool SteamFuncs::AreSteamworksStatsRecieved() // 0x467290
 {
     mangled_assert("?AreSteamworksStatsRecieved@SteamFuncs@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_467290();
-    return __result;
 }
 
-_extern void _sub_46741F(ENotificationPosition);
 void SteamFuncs::SetOverlayNotificationPosition(ENotificationPosition eNotificationPosition) // 0x46741F
 {
     mangled_assert("?SetOverlayNotificationPosition@SteamFuncs@@SGXW4ENotificationPosition@@@Z");
     todo("implement");
-    _sub_46741F(eNotificationPosition);
 }
 
-_extern char const *_sub_467372();
 char const *SteamFuncs::GetSteamUILanguage() // 0x467372
 {
     mangled_assert("?GetSteamUILanguage@SteamFuncs@@SGPBDXZ");
     todo("implement");
-    char const * __result = _sub_467372();
-    return __result;
 }
 
-_extern char const *_sub_467302();
 char const *SteamFuncs::GetCurrentGameLanguage() // 0x467302
 {
     mangled_assert("?GetCurrentGameLanguage@SteamFuncs@@SGPBDXZ");
     todo("implement");
-    char const * __result = _sub_467302();
-    return __result;
 }
 
-_extern bool _sub_467296();
 bool SteamFuncs::BIsSubscribed() // 0x467296
 {
     mangled_assert("?BIsSubscribed@SteamFuncs@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_467296();
-    return __result;
 }
 
-_extern bool _sub_4672B6();
 bool SteamFuncs::BOwnsHW1HDDLC() // 0x4672B6
 {
     mangled_assert("?BOwnsHW1HDDLC@SteamFuncs@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_4672B6();
-    return __result;
 }
 
-_extern bool _sub_4672DC();
 bool SteamFuncs::BOwnsHW2HDDLC() // 0x4672DC
 {
     mangled_assert("?BOwnsHW2HDDLC@SteamFuncs@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_4672DC();
-    return __result;
 }
 
-_extern bool _sub_4673D3(char const *);
 bool SteamFuncs::SetAchievement(char const *pchName) // 0x4673D3
 {
     mangled_assert("?SetAchievement@SteamFuncs@@SG_NPBD@Z");
     todo("implement");
-    bool __result = _sub_4673D3(pchName);
-    return __result;
 }
 
-_extern bool _sub_467326(char const *, __int32 *);
 bool SteamFuncs::GetStat(char const *pchName, __int32 *pData) // 0x467326
 {
     mangled_assert("?GetStat@SteamFuncs@@SG_NPBDPAH@Z");
     todo("implement");
-    bool __result = _sub_467326(pchName, pData);
-    return __result;
 }
 
-_extern bool _sub_46734C(char const *, float *);
 bool SteamFuncs::GetStat(char const *pchName, float *pData) // 0x46734C
 {
     mangled_assert("?GetStat@SteamFuncs@@SG_NPBDPAM@Z");
     todo("implement");
-    bool __result = _sub_46734C(pchName, pData);
-    return __result;
 }
 
-_extern bool _sub_467443(char const *, __int32);
 bool SteamFuncs::SetStat(char const *pchName, __int32 nData) // 0x467443
 {
     mangled_assert("?SetStat@SteamFuncs@@SG_NPBDH@Z");
     todo("implement");
-    bool __result = _sub_467443(pchName, nData);
-    return __result;
 }
 
-_extern bool _sub_467469(char const *, float);
 bool SteamFuncs::SetStat(char const *pchName, float fData) // 0x467469
 {
     mangled_assert("?SetStat@SteamFuncs@@SG_NPBDM@Z");
     todo("implement");
-    bool __result = _sub_467469(pchName, fData);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_467542(void *, unsigned __int32, __int32, __int32);
 unsigned __int32 SteamFuncs::WriteScreenshot(void *pubRGB, unsigned __int32 cubRGB, __int32 nWidth, __int32 nHeight) // 0x467542
 {
     mangled_assert("?WriteScreenshot@SteamFuncs@@SGIPAXIHH@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_467542(pubRGB, cubRGB, nWidth, nHeight);
-    return __result;
 }
 
-_extern bool _sub_4673F9(unsigned __int32, char const *);
 bool SteamFuncs::SetLocation(unsigned __int32 hScreenshot, char const *pchLocation) // 0x4673F9
 {
     mangled_assert("?SetLocation@SteamFuncs@@SG_NIPBD@Z");
     todo("implement");
-    bool __result = _sub_4673F9(hScreenshot, pchLocation);
-    return __result;
 }
 
-_extern void _sub_467396(bool);
 void SteamFuncs::HookScreenshots(bool bHook) // 0x467396
 {
     mangled_assert("?HookScreenshots@SteamFuncs@@SGX_N@Z");
     todo("implement");
-    _sub_467396(bHook);
 }
 
 /* ---------- private code */

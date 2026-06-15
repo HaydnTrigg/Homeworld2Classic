@@ -125,84 +125,59 @@ _static GHTTPBool ghiResizeBuffer(GHIBuffer *buffer, __int32 sizeIncrement);
 
 /* ---------- public code */
 
-_extern GHTTPBool _sub_10016A7F(GHIConnection *, GHIBuffer *, __int32, __int32);
 GHTTPBool ghiInitBuffer(GHIConnection *connection, GHIBuffer *buffer, __int32 initialSize, __int32 sizeIncrement) // 0x10016A7F
 {
     mangled_assert("_ghiInitBuffer@16");
     todo("implement");
-    GHTTPBool __result = _sub_10016A7F(connection, buffer, initialSize, sizeIncrement);
-    return __result;
 }
 
-_extern void _sub_10016A4F(GHIBuffer *);
 void ghiFreeBuffer(GHIBuffer *buffer) // 0x10016A4F
 {
     mangled_assert("_ghiFreeBuffer@4");
     todo("implement");
-    _sub_10016A4F(buffer);
 }
 
-_extern GHTTPBool _sub_1001692D(GHIBuffer *, char const *, __int32);
 GHTTPBool ghiAppendDataToBuffer(GHIBuffer *buffer, char const *data, __int32 dataLen) // 0x1001692D
 {
     mangled_assert("_ghiAppendDataToBuffer@12");
     todo("implement");
-    GHTTPBool __result = _sub_1001692D(buffer, data, dataLen);
-    return __result;
 }
 
-_extern GHTTPBool _sub_100169CD(GHIBuffer *, char const *, char const *);
 GHTTPBool ghiAppendHeaderToBuffer(GHIBuffer *buffer, char const *name, char const *value) // 0x100169CD
 {
     mangled_assert("_ghiAppendHeaderToBuffer@12");
     todo("implement");
-    GHTTPBool __result = _sub_100169CD(buffer, name, value);
-    return __result;
 }
 
-_extern GHTTPBool _sub_100168BA(GHIBuffer *, __int32);
 GHTTPBool ghiAppendCharToBuffer(GHIBuffer *buffer, __int32 c) // 0x100168BA
 {
     mangled_assert("_ghiAppendCharToBuffer@8");
     todo("implement");
-    GHTTPBool __result = _sub_100168BA(buffer, c);
-    return __result;
 }
 
-_extern GHTTPBool _sub_10016A22(GHIBuffer *, __int32);
 GHTTPBool ghiAppendIntToBuffer(GHIBuffer *buffer, __int32 i) // 0x10016A22
 {
     mangled_assert("_ghiAppendIntToBuffer@8");
     todo("implement");
-    GHTTPBool __result = _sub_10016A22(buffer, i);
-    return __result;
 }
 
-_extern void _sub_10016AD7(GHIBuffer *);
 void ghiResetBuffer(GHIBuffer *buffer) // 0x10016AD7
 {
     mangled_assert("_ghiResetBuffer@4");
     todo("implement");
-    _sub_10016AD7(buffer);
 }
 
-_extern GHTTPBool _sub_10016B25(GHIBuffer *, GHIConnection *);
 GHTTPBool ghiSendBuffer(GHIBuffer *buffer, GHIConnection *connection) // 0x10016B25
 {
     mangled_assert("_ghiSendBuffer@8");
     todo("implement");
-    GHTTPBool __result = _sub_10016B25(buffer, connection);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern GHTTPBool _sub_10016AEB(GHIBuffer *, __int32);
 _static GHTTPBool ghiResizeBuffer(GHIBuffer *buffer, __int32 sizeIncrement) // 0x10016AEB
 {
     mangled_assert("ghiResizeBuffer");
     todo("implement");
-    GHTTPBool __result = _sub_10016AEB(buffer, sizeIncrement);
-    return __result;
 }
 #endif

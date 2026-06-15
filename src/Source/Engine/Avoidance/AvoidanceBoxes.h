@@ -42,37 +42,28 @@ static_assert(sizeof(AvoidanceBoxes) == 12, "Invalid AvoidanceBoxes size");
 
 /* ---------- public code */
 
-_extern _sub_4EBE3D(AvoidanceBoxes *const);
 _inline AvoidanceBoxes::AvoidanceBoxes() // 0x4EBE3D
 {
     mangled_assert("??0AvoidanceBoxes@@AAE@XZ");
     todo("implement");
-    _sub_4EBE3D(this);
 }
 
-_extern void _sub_4EBE4F(AvoidanceBoxes *const);
 _inline AvoidanceBoxes::~AvoidanceBoxes() // 0x4EBE4F
 {
     mangled_assert("??1AvoidanceBoxes@@AAE@XZ");
     todo("implement");
-    _sub_4EBE4F(this);
 }
 
-_extern std::vector<Collision::OBB,std::allocator<Collision::OBB> > const &_sub_4E41BD(AvoidanceBoxes const *const);
 _inline std::vector<Collision::OBB,std::allocator<Collision::OBB> > const &AvoidanceBoxes::GetBoxes() const // 0x4E41BD
 {
     mangled_assert("?GetBoxes@AvoidanceBoxes@@QBEABV?$vector@VOBB@Collision@@V?$allocator@VOBB@Collision@@@std@@@std@@XZ");
     todo("implement");
-    std::vector<Collision::OBB,std::allocator<Collision::OBB> > const & __result = _sub_4E41BD(this);
-    return __result;
 }
 
-_extern void _sub_5C69D7(bool);
 _inline void AvoidanceBoxes::SetShowAvoidanceBoxes(bool enable) // 0x5C69D7
 {
     mangled_assert("?SetShowAvoidanceBoxes@AvoidanceBoxes@@SGX_N@Z");
     todo("implement");
-    _sub_5C69D7(enable);
 }
 
 /* ---------- private code */

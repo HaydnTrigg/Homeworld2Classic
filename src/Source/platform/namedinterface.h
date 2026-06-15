@@ -97,12 +97,10 @@ static_assert(sizeof(NamedInterface) == 4, "Invalid NamedInterface size");
 
 /* ---------- public code */
 
-_extern void _sub_10003183(NamedInterface *const);
 _inline NamedInterface::~NamedInterface() // 0x10003183
 {
     mangled_assert("??1NamedInterface@@MAE@XZ");
     todo("implement");
-    _sub_10003183(this);
 }
 
 /* ---------- private code */

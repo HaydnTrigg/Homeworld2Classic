@@ -122,168 +122,124 @@ static_assert(sizeof(boost::detail::weak_count) == 4, "Invalid boost::detail::we
 
 /* ---------- public code */
 
-_extern char const *_sub_10005E46(boost::bad_weak_ptr const *const);
 _inline char const *boost::bad_weak_ptr::what() const // 0x10005E46
 {
     mangled_assert("?what@bad_weak_ptr@boost@@UBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_10005E46(this);
-    return __result;
 }
 
-_extern _sub_10004F93(boost::detail::sp_counted_base *const);
 _inline boost::detail::sp_counted_base::sp_counted_base() // 0x10004F93
 {
     mangled_assert("??0sp_counted_base@detail@boost@@QAE@XZ");
     todo("implement");
-    _sub_10004F93(this);
 }
 
-_extern void _sub_1000505B(boost::detail::sp_counted_base *const);
 _inline boost::detail::sp_counted_base::~sp_counted_base() // 0x1000505B
 {
     mangled_assert("??1sp_counted_base@detail@boost@@UAE@XZ");
     todo("implement");
-    _sub_1000505B(this);
 }
 
-_extern void _sub_10005B12(boost::detail::sp_counted_base *const);
 _inline void boost::detail::sp_counted_base::destruct() // 0x10005B12
 {
     mangled_assert("?destruct@sp_counted_base@detail@boost@@UAEXXZ");
     todo("implement");
-    _sub_10005B12(this);
 }
 
-_extern void _sub_10005952(boost::detail::sp_counted_base *const);
 _inline void boost::detail::sp_counted_base::add_ref() // 0x10005952
 {
     mangled_assert("?add_ref@sp_counted_base@detail@boost@@QAEXXZ");
     todo("implement");
-    _sub_10005952(this);
 }
 
-_extern void _sub_10005D05(boost::detail::sp_counted_base *const);
 _inline void boost::detail::sp_counted_base::release() // 0x10005D05
 {
     mangled_assert("?release@sp_counted_base@detail@boost@@QAEXXZ");
     todo("implement");
-    _sub_10005D05(this);
 }
 
-_extern void _sub_10005E12(boost::detail::sp_counted_base *const);
 _inline void boost::detail::sp_counted_base::weak_release() // 0x10005E12
 {
     mangled_assert("?weak_release@sp_counted_base@detail@boost@@QAEXXZ");
     todo("implement");
-    _sub_10005E12(this);
 }
 
-_extern _sub_1000C29D(boost::detail::sp_counted_base_impl<FilePath::Source *,boost::checked_deleter<FilePath::Source> > *const, FilePath::Source *, boost::checked_deleter<FilePath::Source>);
 _inline boost::detail::sp_counted_base_impl<FilePath::Source *,boost::checked_deleter<FilePath::Source> >::sp_counted_base_impl<FilePath::Source *,boost::checked_deleter<FilePath::Source> >(FilePath::Source *, boost::checked_deleter<FilePath::Source>) // 0x1000C29D
 {
     mangled_assert("??0?$sp_counted_base_impl@PAVSource@FilePath@@U?$checked_deleter@VSource@FilePath@@@boost@@@detail@boost@@QAE@PAVSource@FilePath@@U?$checked_deleter@VSource@FilePath@@@2@@Z");
     todo("implement");
-    _sub_1000C29D(this, arg, arg);
 }
 
-_extern _sub_10004E3C(boost::detail::sp_counted_base_impl<Archive *,boost::checked_deleter<Archive> > *const, Archive *, boost::checked_deleter<Archive>);
 _inline boost::detail::sp_counted_base_impl<Archive *,boost::checked_deleter<Archive> >::sp_counted_base_impl<Archive *,boost::checked_deleter<Archive> >(Archive *, boost::checked_deleter<Archive>) // 0x10004E3C
 {
     mangled_assert("??0?$sp_counted_base_impl@PAVArchive@@U?$checked_deleter@VArchive@@@boost@@@detail@boost@@QAE@PAVArchive@@U?$checked_deleter@VArchive@@@2@@Z");
     todo("implement");
-    _sub_10004E3C(this, arg, arg);
 }
 
-_extern void _sub_1000DF9F(boost::detail::sp_counted_base_impl<FilePath::Source *,boost::checked_deleter<FilePath::Source> > *const);
 _inline void boost::detail::sp_counted_base_impl<FilePath::Source *,boost::checked_deleter<FilePath::Source> >::dispose() // 0x1000DF9F
 {
     mangled_assert("?dispose@?$sp_counted_base_impl@PAVSource@FilePath@@U?$checked_deleter@VSource@FilePath@@@boost@@@detail@boost@@UAEXXZ");
     todo("implement");
-    _sub_1000DF9F(this);
 }
 
-_extern void _sub_10005B1D(boost::detail::sp_counted_base_impl<Archive *,boost::checked_deleter<Archive> > *const);
 _inline void boost::detail::sp_counted_base_impl<Archive *,boost::checked_deleter<Archive> >::dispose() // 0x10005B1D
 {
     mangled_assert("?dispose@?$sp_counted_base_impl@PAVArchive@@U?$checked_deleter@VArchive@@@boost@@@detail@boost@@UAEXXZ");
     todo("implement");
-    _sub_10005B1D(this);
 }
 
-_extern void *_sub_1000E0A4(boost::detail::sp_counted_base_impl<FilePath::Source *,boost::checked_deleter<FilePath::Source> > *const, type_info const &);
 _inline void *boost::detail::sp_counted_base_impl<FilePath::Source *,boost::checked_deleter<FilePath::Source> >::get_deleter(type_info const &) // 0x1000E0A4
 {
     mangled_assert("?get_deleter@?$sp_counted_base_impl@PAVSource@FilePath@@U?$checked_deleter@VSource@FilePath@@@boost@@@detail@boost@@UAEPAXABVtype_info@@@Z");
     todo("implement");
-    void * __result = _sub_1000E0A4(this, arg);
-    return __result;
 }
 
-_extern void *_sub_10005BBE(boost::detail::sp_counted_base_impl<Archive *,boost::checked_deleter<Archive> > *const, type_info const &);
 _inline void *boost::detail::sp_counted_base_impl<Archive *,boost::checked_deleter<Archive> >::get_deleter(type_info const &) // 0x10005BBE
 {
     mangled_assert("?get_deleter@?$sp_counted_base_impl@PAVArchive@@U?$checked_deleter@VArchive@@@boost@@@detail@boost@@UAEPAXABVtype_info@@@Z");
     todo("implement");
-    void * __result = _sub_10005BBE(this, arg);
-    return __result;
 }
 
-_extern _sub_10004F8D(boost::detail::shared_count *const);
 _inline boost::detail::shared_count::shared_count() // 0x10004F8D
 {
     mangled_assert("??0shared_count@detail@boost@@QAE@XZ");
     todo("implement");
-    _sub_10004F8D(this);
 }
 
-_extern _sub_1000A4AD(boost::detail::shared_count *const, FilePath::Source *, boost::checked_deleter<FilePath::Source>);
 _inline boost::detail::shared_count::shared_count<FilePath::Source *,boost::checked_deleter<FilePath::Source> >(FilePath::Source *, boost::checked_deleter<FilePath::Source>) // 0x1000A4AD
 {
     mangled_assert("??$?0PAVSource@FilePath@@U?$checked_deleter@VSource@FilePath@@@boost@@@shared_count@detail@boost@@QAE@PAVSource@FilePath@@U?$checked_deleter@VSource@FilePath@@@2@@Z");
     todo("implement");
-    _sub_1000A4AD(this, arg, arg);
 }
 
-_extern _sub_100045F9(boost::detail::shared_count *const, Archive *, boost::checked_deleter<Archive>);
 _inline boost::detail::shared_count::shared_count<Archive *,boost::checked_deleter<Archive> >(Archive *, boost::checked_deleter<Archive>) // 0x100045F9
 {
     mangled_assert("??$?0PAVArchive@@U?$checked_deleter@VArchive@@@boost@@@shared_count@detail@boost@@QAE@PAVArchive@@U?$checked_deleter@VArchive@@@2@@Z");
     todo("implement");
-    _sub_100045F9(this, arg, arg);
 }
 
-_extern void _sub_10005050(boost::detail::shared_count *const);
 _inline boost::detail::shared_count::~shared_count() // 0x10005050
 {
     mangled_assert("??1shared_count@detail@boost@@QAE@XZ");
     todo("implement");
-    _sub_10005050(this);
 }
 
-_extern _sub_10004F73(boost::detail::shared_count *const, boost::detail::shared_count const &);
 _inline boost::detail::shared_count::shared_count(boost::detail::shared_count const &) // 0x10004F73
 {
     mangled_assert("??0shared_count@detail@boost@@QAE@ABV012@@Z");
     todo("implement");
-    _sub_10004F73(this, arg);
 }
 
-_extern boost::detail::shared_count &_sub_100050F2(boost::detail::shared_count *const, boost::detail::shared_count const &);
 _inline boost::detail::shared_count &boost::detail::shared_count::operator=(boost::detail::shared_count const &) // 0x100050F2
 {
     mangled_assert("??4shared_count@detail@boost@@QAEAAV012@ABV012@@Z");
     todo("implement");
-    boost::detail::shared_count & __result = _sub_100050F2(this, arg);
-    return __result;
 }
 
-_extern void _sub_1000E76B(boost::detail::shared_count *const, boost::detail::shared_count &);
 _inline void boost::detail::shared_count::swap(boost::detail::shared_count &) // 0x1000E76B
 {
     mangled_assert("?swap@shared_count@detail@boost@@QAEXAAV123@@Z");
     todo("implement");
-    _sub_1000E76B(this, arg);
 }
 
 /* ---------- private code */
@@ -713,549 +669,400 @@ static_assert(sizeof(boost::detail::weak_count) == 4, "Invalid boost::detail::we
 
 /* ---------- public code */
 
-_extern char const *_sub_4648E9(boost::bad_weak_ptr const *const);
 _inline char const *boost::bad_weak_ptr::what() const // 0x4648E9
 {
     mangled_assert("?what@bad_weak_ptr@boost@@UBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4648E9(this);
-    return __result;
 }
 
-_extern _sub_4609F3(boost::detail::sp_counted_base *const);
 _inline boost::detail::sp_counted_base::sp_counted_base() // 0x4609F3
 {
     mangled_assert("??0sp_counted_base@detail@boost@@QAE@XZ");
     todo("implement");
-    _sub_4609F3(this);
 }
 
-_extern void _sub_460CD0(boost::detail::sp_counted_base *const);
 _inline boost::detail::sp_counted_base::~sp_counted_base() // 0x460CD0
 {
     mangled_assert("??1sp_counted_base@detail@boost@@UAE@XZ");
     todo("implement");
-    _sub_460CD0(this);
 }
 
-_extern void _sub_46322D(boost::detail::sp_counted_base *const);
 _inline void boost::detail::sp_counted_base::destruct() // 0x46322D
 {
     mangled_assert("?destruct@sp_counted_base@detail@boost@@UAEXXZ");
     todo("implement");
-    _sub_46322D(this);
 }
 
-_extern void _sub_462E53(boost::detail::sp_counted_base *const);
 _inline void boost::detail::sp_counted_base::add_ref() // 0x462E53
 {
     mangled_assert("?add_ref@sp_counted_base@detail@boost@@QAEXXZ");
     todo("implement");
-    _sub_462E53(this);
 }
 
-_extern void _sub_453FD6(boost::detail::sp_counted_base *const);
 _inline void boost::detail::sp_counted_base::release() // 0x453FD6
 {
     mangled_assert("?release@sp_counted_base@detail@boost@@QAEXXZ");
     todo("implement");
-    _sub_453FD6(this);
 }
 
-_extern void _sub_45402C(boost::detail::sp_counted_base *const);
 _inline void boost::detail::sp_counted_base::weak_release() // 0x45402C
 {
     mangled_assert("?weak_release@sp_counted_base@detail@boost@@QAEXXZ");
     todo("implement");
-    _sub_45402C(this);
 }
 
-_extern long _sub_6810F3(boost::detail::sp_counted_base const *const);
 _inline long boost::detail::sp_counted_base::use_count() const // 0x6810F3
 {
     mangled_assert("?use_count@sp_counted_base@detail@boost@@QBEJXZ");
     todo("implement");
-    long __result = _sub_6810F3(this);
-    return __result;
 }
 
-_extern _sub_5E5724(boost::detail::sp_counted_base_impl<BasicMesh *,boost::checked_deleter<BasicMesh> > *const, BasicMesh *, boost::checked_deleter<BasicMesh>);
 _inline boost::detail::sp_counted_base_impl<BasicMesh *,boost::checked_deleter<BasicMesh> >::sp_counted_base_impl<BasicMesh *,boost::checked_deleter<BasicMesh> >(BasicMesh *, boost::checked_deleter<BasicMesh>) // 0x5E5724
 {
     mangled_assert("??0?$sp_counted_base_impl@PAVBasicMesh@@U?$checked_deleter@VBasicMesh@@@boost@@@detail@boost@@QAE@PAVBasicMesh@@U?$checked_deleter@VBasicMesh@@@2@@Z");
     todo("implement");
-    _sub_5E5724(this, arg, arg);
 }
 
-_extern _sub_5E5743(boost::detail::sp_counted_base_impl<StarList *,boost::checked_deleter<StarList> > *const, StarList *, boost::checked_deleter<StarList>);
 _inline boost::detail::sp_counted_base_impl<StarList *,boost::checked_deleter<StarList> >::sp_counted_base_impl<StarList *,boost::checked_deleter<StarList> >(StarList *, boost::checked_deleter<StarList>) // 0x5E5743
 {
     mangled_assert("??0?$sp_counted_base_impl@PAVStarList@@U?$checked_deleter@VStarList@@@boost@@@detail@boost@@QAE@PAVStarList@@U?$checked_deleter@VStarList@@@2@@Z");
     todo("implement");
-    _sub_5E5743(this, arg, arg);
 }
 
-_extern _sub_5E47FF(boost::detail::sp_counted_base_impl<BgLightAnim::Data *,boost::checked_deleter<BgLightAnim::Data> > *const, BgLightAnim::Data *, boost::checked_deleter<BgLightAnim::Data>);
 _inline boost::detail::sp_counted_base_impl<BgLightAnim::Data *,boost::checked_deleter<BgLightAnim::Data> >::sp_counted_base_impl<BgLightAnim::Data *,boost::checked_deleter<BgLightAnim::Data> >(BgLightAnim::Data *, boost::checked_deleter<BgLightAnim::Data>) // 0x5E47FF
 {
     mangled_assert("??0?$sp_counted_base_impl@PAVData@BgLightAnim@@U?$checked_deleter@VData@BgLightAnim@@@boost@@@detail@boost@@QAE@PAVData@BgLightAnim@@U?$checked_deleter@VData@BgLightAnim@@@2@@Z");
     todo("implement");
-    _sub_5E47FF(this, arg, arg);
 }
 
-_extern _sub_481288(boost::detail::sp_counted_base_impl<SobWithMeshStatic::Model *,boost::checked_deleter<SobWithMeshStatic::Model> > *const, SobWithMeshStatic::Model *, boost::checked_deleter<SobWithMeshStatic::Model>);
 _inline boost::detail::sp_counted_base_impl<SobWithMeshStatic::Model *,boost::checked_deleter<SobWithMeshStatic::Model> >::sp_counted_base_impl<SobWithMeshStatic::Model *,boost::checked_deleter<SobWithMeshStatic::Model> >(SobWithMeshStatic::Model *, boost::checked_deleter<SobWithMeshStatic::Model>) // 0x481288
 {
     mangled_assert("??0?$sp_counted_base_impl@PAVModel@SobWithMeshStatic@@U?$checked_deleter@VModel@SobWithMeshStatic@@@boost@@@detail@boost@@QAE@PAVModel@SobWithMeshStatic@@U?$checked_deleter@VModel@SobWithMeshStatic@@@2@@Z");
     todo("implement");
-    _sub_481288(this, arg, arg);
 }
 
-_extern _sub_47BD4C(boost::detail::sp_counted_base_impl<SobStatic::Model *,boost::checked_deleter<SobStatic::Model> > *const, SobStatic::Model *, boost::checked_deleter<SobStatic::Model>);
 _inline boost::detail::sp_counted_base_impl<SobStatic::Model *,boost::checked_deleter<SobStatic::Model> >::sp_counted_base_impl<SobStatic::Model *,boost::checked_deleter<SobStatic::Model> >(SobStatic::Model *, boost::checked_deleter<SobStatic::Model>) // 0x47BD4C
 {
     mangled_assert("??0?$sp_counted_base_impl@PAVModel@SobStatic@@U?$checked_deleter@VModel@SobStatic@@@boost@@@detail@boost@@QAE@PAVModel@SobStatic@@U?$checked_deleter@VModel@SobStatic@@@2@@Z");
     todo("implement");
-    _sub_47BD4C(this, arg, arg);
 }
 
-_extern _sub_47A012(boost::detail::sp_counted_base_impl<SobIDShared *,boost::checked_deleter<SobIDShared> > *const, SobIDShared *, boost::checked_deleter<SobIDShared>);
 _inline boost::detail::sp_counted_base_impl<SobIDShared *,boost::checked_deleter<SobIDShared> >::sp_counted_base_impl<SobIDShared *,boost::checked_deleter<SobIDShared> >(SobIDShared *, boost::checked_deleter<SobIDShared>) // 0x47A012
 {
     mangled_assert("??0?$sp_counted_base_impl@PAVSobIDShared@@U?$checked_deleter@VSobIDShared@@@boost@@@detail@boost@@QAE@PAVSobIDShared@@U?$checked_deleter@VSobIDShared@@@2@@Z");
     todo("implement");
-    _sub_47A012(this, arg, arg);
 }
 
-_extern _sub_4605C2(boost::detail::sp_counted_base_impl<FrameOrders *,boost::checked_deleter<FrameOrders> > *const, FrameOrders *, boost::checked_deleter<FrameOrders>);
 _inline boost::detail::sp_counted_base_impl<FrameOrders *,boost::checked_deleter<FrameOrders> >::sp_counted_base_impl<FrameOrders *,boost::checked_deleter<FrameOrders> >(FrameOrders *, boost::checked_deleter<FrameOrders>) // 0x4605C2
 {
     mangled_assert("??0?$sp_counted_base_impl@PAVFrameOrders@@U?$checked_deleter@VFrameOrders@@@boost@@@detail@boost@@QAE@PAVFrameOrders@@U?$checked_deleter@VFrameOrders@@@2@@Z");
     todo("implement");
-    _sub_4605C2(this, arg, arg);
 }
 
-_extern _sub_669714(boost::detail::sp_counted_base_impl<UI::Graphic *,boost::checked_deleter<UI::Graphic> > *const, UI::Graphic *, boost::checked_deleter<UI::Graphic>);
 _inline boost::detail::sp_counted_base_impl<UI::Graphic *,boost::checked_deleter<UI::Graphic> >::sp_counted_base_impl<UI::Graphic *,boost::checked_deleter<UI::Graphic> >(UI::Graphic *, boost::checked_deleter<UI::Graphic>) // 0x669714
 {
     mangled_assert("??0?$sp_counted_base_impl@PAVGraphic@UI@@U?$checked_deleter@VGraphic@UI@@@boost@@@detail@boost@@QAE@PAVGraphic@UI@@U?$checked_deleter@VGraphic@UI@@@2@@Z");
     todo("implement");
-    _sub_669714(this, arg, arg);
 }
 
-_extern _sub_6B74B6(boost::detail::sp_counted_base_impl<DestinationFormation::Bucket *,boost::checked_deleter<DestinationFormation::Bucket> > *const, DestinationFormation::Bucket *, boost::checked_deleter<DestinationFormation::Bucket>);
 _inline boost::detail::sp_counted_base_impl<DestinationFormation::Bucket *,boost::checked_deleter<DestinationFormation::Bucket> >::sp_counted_base_impl<DestinationFormation::Bucket *,boost::checked_deleter<DestinationFormation::Bucket> >(DestinationFormation::Bucket *, boost::checked_deleter<DestinationFormation::Bucket>) // 0x6B74B6
 {
     mangled_assert("??0?$sp_counted_base_impl@PAUBucket@DestinationFormation@@U?$checked_deleter@UBucket@DestinationFormation@@@boost@@@detail@boost@@QAE@PAUBucket@DestinationFormation@@U?$checked_deleter@UBucket@DestinationFormation@@@2@@Z");
     todo("implement");
-    _sub_6B74B6(this, arg, arg);
 }
 
-_extern _sub_6B74D5(boost::detail::sp_counted_base_impl<DestinationFormation::Row *,boost::checked_deleter<DestinationFormation::Row> > *const, DestinationFormation::Row *, boost::checked_deleter<DestinationFormation::Row>);
 _inline boost::detail::sp_counted_base_impl<DestinationFormation::Row *,boost::checked_deleter<DestinationFormation::Row> >::sp_counted_base_impl<DestinationFormation::Row *,boost::checked_deleter<DestinationFormation::Row> >(DestinationFormation::Row *, boost::checked_deleter<DestinationFormation::Row>) // 0x6B74D5
 {
     mangled_assert("??0?$sp_counted_base_impl@PAURow@DestinationFormation@@U?$checked_deleter@URow@DestinationFormation@@@boost@@@detail@boost@@QAE@PAURow@DestinationFormation@@U?$checked_deleter@URow@DestinationFormation@@@2@@Z");
     todo("implement");
-    _sub_6B74D5(this, arg, arg);
 }
 
-_extern _sub_6B74F4(boost::detail::sp_counted_base_impl<DestinationFormation::Wall *,boost::checked_deleter<DestinationFormation::Wall> > *const, DestinationFormation::Wall *, boost::checked_deleter<DestinationFormation::Wall>);
 _inline boost::detail::sp_counted_base_impl<DestinationFormation::Wall *,boost::checked_deleter<DestinationFormation::Wall> >::sp_counted_base_impl<DestinationFormation::Wall *,boost::checked_deleter<DestinationFormation::Wall> >(DestinationFormation::Wall *, boost::checked_deleter<DestinationFormation::Wall>) // 0x6B74F4
 {
     mangled_assert("??0?$sp_counted_base_impl@PAUWall@DestinationFormation@@U?$checked_deleter@UWall@DestinationFormation@@@boost@@@detail@boost@@QAE@PAUWall@DestinationFormation@@U?$checked_deleter@UWall@DestinationFormation@@@2@@Z");
     todo("implement");
-    _sub_6B74F4(this, arg, arg);
 }
 
-_extern _sub_6DBB64(boost::detail::sp_counted_base_impl<FXManager::Dynamics *,boost::checked_deleter<FXManager::Dynamics> > *const, FXManager::Dynamics *, boost::checked_deleter<FXManager::Dynamics>);
 _inline boost::detail::sp_counted_base_impl<FXManager::Dynamics *,boost::checked_deleter<FXManager::Dynamics> >::sp_counted_base_impl<FXManager::Dynamics *,boost::checked_deleter<FXManager::Dynamics> >(FXManager::Dynamics *, boost::checked_deleter<FXManager::Dynamics>) // 0x6DBB64
 {
     mangled_assert("??0?$sp_counted_base_impl@PAVDynamics@FXManager@@U?$checked_deleter@VDynamics@FXManager@@@boost@@@detail@boost@@QAE@PAVDynamics@FXManager@@U?$checked_deleter@VDynamics@FXManager@@@2@@Z");
     todo("implement");
-    _sub_6DBB64(this, arg, arg);
 }
 
-_extern _sub_6DBB83(boost::detail::sp_counted_base_impl<FXManager::Type *,boost::checked_deleter<FXManager::Type> > *const, FXManager::Type *, boost::checked_deleter<FXManager::Type>);
 _inline boost::detail::sp_counted_base_impl<FXManager::Type *,boost::checked_deleter<FXManager::Type> >::sp_counted_base_impl<FXManager::Type *,boost::checked_deleter<FXManager::Type> >(FXManager::Type *, boost::checked_deleter<FXManager::Type>) // 0x6DBB83
 {
     mangled_assert("??0?$sp_counted_base_impl@PAVType@FXManager@@U?$checked_deleter@VType@FXManager@@@boost@@@detail@boost@@QAE@PAVType@FXManager@@U?$checked_deleter@VType@FXManager@@@2@@Z");
     todo("implement");
-    _sub_6DBB83(this, arg, arg);
 }
 
-_extern void _sub_5E6C5E(boost::detail::sp_counted_base_impl<BasicMesh *,boost::checked_deleter<BasicMesh> > *const);
 _inline void boost::detail::sp_counted_base_impl<BasicMesh *,boost::checked_deleter<BasicMesh> >::dispose() // 0x5E6C5E
 {
     mangled_assert("?dispose@?$sp_counted_base_impl@PAVBasicMesh@@U?$checked_deleter@VBasicMesh@@@boost@@@detail@boost@@UAEXXZ");
     todo("implement");
-    _sub_5E6C5E(this);
 }
 
-_extern void _sub_5E6C6C(boost::detail::sp_counted_base_impl<StarList *,boost::checked_deleter<StarList> > *const);
 _inline void boost::detail::sp_counted_base_impl<StarList *,boost::checked_deleter<StarList> >::dispose() // 0x5E6C6C
 {
     mangled_assert("?dispose@?$sp_counted_base_impl@PAVStarList@@U?$checked_deleter@VStarList@@@boost@@@detail@boost@@UAEXXZ");
     todo("implement");
-    _sub_5E6C6C(this);
 }
 
-_extern void _sub_5E4BA2(boost::detail::sp_counted_base_impl<BgLightAnim::Data *,boost::checked_deleter<BgLightAnim::Data> > *const);
 _inline void boost::detail::sp_counted_base_impl<BgLightAnim::Data *,boost::checked_deleter<BgLightAnim::Data> >::dispose() // 0x5E4BA2
 {
     mangled_assert("?dispose@?$sp_counted_base_impl@PAVData@BgLightAnim@@U?$checked_deleter@VData@BgLightAnim@@@boost@@@detail@boost@@UAEXXZ");
     todo("implement");
-    _sub_5E4BA2(this);
 }
 
-_extern void _sub_482949(boost::detail::sp_counted_base_impl<SobWithMeshStatic::Model *,boost::checked_deleter<SobWithMeshStatic::Model> > *const);
 _inline void boost::detail::sp_counted_base_impl<SobWithMeshStatic::Model *,boost::checked_deleter<SobWithMeshStatic::Model> >::dispose() // 0x482949
 {
     mangled_assert("?dispose@?$sp_counted_base_impl@PAVModel@SobWithMeshStatic@@U?$checked_deleter@VModel@SobWithMeshStatic@@@boost@@@detail@boost@@UAEXXZ");
     todo("implement");
-    _sub_482949(this);
 }
 
-_extern void _sub_47E972(boost::detail::sp_counted_base_impl<SobStatic::Model *,boost::checked_deleter<SobStatic::Model> > *const);
 _inline void boost::detail::sp_counted_base_impl<SobStatic::Model *,boost::checked_deleter<SobStatic::Model> >::dispose() // 0x47E972
 {
     mangled_assert("?dispose@?$sp_counted_base_impl@PAVModel@SobStatic@@U?$checked_deleter@VModel@SobStatic@@@boost@@@detail@boost@@UAEXXZ");
     todo("implement");
-    _sub_47E972(this);
 }
 
-_extern void _sub_47A71F(boost::detail::sp_counted_base_impl<SobIDShared *,boost::checked_deleter<SobIDShared> > *const);
 _inline void boost::detail::sp_counted_base_impl<SobIDShared *,boost::checked_deleter<SobIDShared> >::dispose() // 0x47A71F
 {
     mangled_assert("?dispose@?$sp_counted_base_impl@PAVSobIDShared@@U?$checked_deleter@VSobIDShared@@@boost@@@detail@boost@@UAEXXZ");
     todo("implement");
-    _sub_47A71F(this);
 }
 
-_extern void _sub_463238(boost::detail::sp_counted_base_impl<FrameOrders *,boost::checked_deleter<FrameOrders> > *const);
 _inline void boost::detail::sp_counted_base_impl<FrameOrders *,boost::checked_deleter<FrameOrders> >::dispose() // 0x463238
 {
     mangled_assert("?dispose@?$sp_counted_base_impl@PAVFrameOrders@@U?$checked_deleter@VFrameOrders@@@boost@@@detail@boost@@UAEXXZ");
     todo("implement");
-    _sub_463238(this);
 }
 
-_extern void _sub_66D90D(boost::detail::sp_counted_base_impl<UI::Graphic *,boost::checked_deleter<UI::Graphic> > *const);
 _inline void boost::detail::sp_counted_base_impl<UI::Graphic *,boost::checked_deleter<UI::Graphic> >::dispose() // 0x66D90D
 {
     mangled_assert("?dispose@?$sp_counted_base_impl@PAVGraphic@UI@@U?$checked_deleter@VGraphic@UI@@@boost@@@detail@boost@@UAEXXZ");
     todo("implement");
-    _sub_66D90D(this);
 }
 
-_extern void _sub_6B89D4(boost::detail::sp_counted_base_impl<DestinationFormation::Bucket *,boost::checked_deleter<DestinationFormation::Bucket> > *const);
 _inline void boost::detail::sp_counted_base_impl<DestinationFormation::Bucket *,boost::checked_deleter<DestinationFormation::Bucket> >::dispose() // 0x6B89D4
 {
     mangled_assert("?dispose@?$sp_counted_base_impl@PAUBucket@DestinationFormation@@U?$checked_deleter@UBucket@DestinationFormation@@@boost@@@detail@boost@@UAEXXZ");
     todo("implement");
-    _sub_6B89D4(this);
 }
 
-_extern void _sub_6B89DD(boost::detail::sp_counted_base_impl<DestinationFormation::Row *,boost::checked_deleter<DestinationFormation::Row> > *const);
 _inline void boost::detail::sp_counted_base_impl<DestinationFormation::Row *,boost::checked_deleter<DestinationFormation::Row> >::dispose() // 0x6B89DD
 {
     mangled_assert("?dispose@?$sp_counted_base_impl@PAURow@DestinationFormation@@U?$checked_deleter@URow@DestinationFormation@@@boost@@@detail@boost@@UAEXXZ");
     todo("implement");
-    _sub_6B89DD(this);
 }
 
-_extern void _sub_6B89EC(boost::detail::sp_counted_base_impl<DestinationFormation::Wall *,boost::checked_deleter<DestinationFormation::Wall> > *const);
 _inline void boost::detail::sp_counted_base_impl<DestinationFormation::Wall *,boost::checked_deleter<DestinationFormation::Wall> >::dispose() // 0x6B89EC
 {
     mangled_assert("?dispose@?$sp_counted_base_impl@PAUWall@DestinationFormation@@U?$checked_deleter@UWall@DestinationFormation@@@boost@@@detail@boost@@UAEXXZ");
     todo("implement");
-    _sub_6B89EC(this);
 }
 
-_extern void _sub_6E0707(boost::detail::sp_counted_base_impl<FXManager::Dynamics *,boost::checked_deleter<FXManager::Dynamics> > *const);
 _inline void boost::detail::sp_counted_base_impl<FXManager::Dynamics *,boost::checked_deleter<FXManager::Dynamics> >::dispose() // 0x6E0707
 {
     mangled_assert("?dispose@?$sp_counted_base_impl@PAVDynamics@FXManager@@U?$checked_deleter@VDynamics@FXManager@@@boost@@@detail@boost@@UAEXXZ");
     todo("implement");
-    _sub_6E0707(this);
 }
 
-_extern void _sub_6E0715(boost::detail::sp_counted_base_impl<FXManager::Type *,boost::checked_deleter<FXManager::Type> > *const);
 _inline void boost::detail::sp_counted_base_impl<FXManager::Type *,boost::checked_deleter<FXManager::Type> >::dispose() // 0x6E0715
 {
     mangled_assert("?dispose@?$sp_counted_base_impl@PAVType@FXManager@@U?$checked_deleter@VType@FXManager@@@boost@@@detail@boost@@UAEXXZ");
     todo("implement");
-    _sub_6E0715(this);
 }
 
-_extern void *_sub_5E6CF2(boost::detail::sp_counted_base_impl<BasicMesh *,boost::checked_deleter<BasicMesh> > *const, type_info const &);
 _inline void *boost::detail::sp_counted_base_impl<BasicMesh *,boost::checked_deleter<BasicMesh> >::get_deleter(type_info const &) // 0x5E6CF2
 {
     mangled_assert("?get_deleter@?$sp_counted_base_impl@PAVBasicMesh@@U?$checked_deleter@VBasicMesh@@@boost@@@detail@boost@@UAEPAXABVtype_info@@@Z");
     todo("implement");
-    void * __result = _sub_5E6CF2(this, arg);
-    return __result;
 }
 
-_extern void *_sub_5E6D14(boost::detail::sp_counted_base_impl<StarList *,boost::checked_deleter<StarList> > *const, type_info const &);
 _inline void *boost::detail::sp_counted_base_impl<StarList *,boost::checked_deleter<StarList> >::get_deleter(type_info const &) // 0x5E6D14
 {
     mangled_assert("?get_deleter@?$sp_counted_base_impl@PAVStarList@@U?$checked_deleter@VStarList@@@boost@@@detail@boost@@UAEPAXABVtype_info@@@Z");
     todo("implement");
-    void * __result = _sub_5E6D14(this, arg);
-    return __result;
 }
 
-_extern void *_sub_5E4C7B(boost::detail::sp_counted_base_impl<BgLightAnim::Data *,boost::checked_deleter<BgLightAnim::Data> > *const, type_info const &);
 _inline void *boost::detail::sp_counted_base_impl<BgLightAnim::Data *,boost::checked_deleter<BgLightAnim::Data> >::get_deleter(type_info const &) // 0x5E4C7B
 {
     mangled_assert("?get_deleter@?$sp_counted_base_impl@PAVData@BgLightAnim@@U?$checked_deleter@VData@BgLightAnim@@@boost@@@detail@boost@@UAEPAXABVtype_info@@@Z");
     todo("implement");
-    void * __result = _sub_5E4C7B(this, arg);
-    return __result;
 }
 
-_extern void *_sub_4834C2(boost::detail::sp_counted_base_impl<SobWithMeshStatic::Model *,boost::checked_deleter<SobWithMeshStatic::Model> > *const, type_info const &);
 _inline void *boost::detail::sp_counted_base_impl<SobWithMeshStatic::Model *,boost::checked_deleter<SobWithMeshStatic::Model> >::get_deleter(type_info const &) // 0x4834C2
 {
     mangled_assert("?get_deleter@?$sp_counted_base_impl@PAVModel@SobWithMeshStatic@@U?$checked_deleter@VModel@SobWithMeshStatic@@@boost@@@detail@boost@@UAEPAXABVtype_info@@@Z");
     todo("implement");
-    void * __result = _sub_4834C2(this, arg);
-    return __result;
 }
 
-_extern void *_sub_47EDCA(boost::detail::sp_counted_base_impl<SobStatic::Model *,boost::checked_deleter<SobStatic::Model> > *const, type_info const &);
 _inline void *boost::detail::sp_counted_base_impl<SobStatic::Model *,boost::checked_deleter<SobStatic::Model> >::get_deleter(type_info const &) // 0x47EDCA
 {
     mangled_assert("?get_deleter@?$sp_counted_base_impl@PAVModel@SobStatic@@U?$checked_deleter@VModel@SobStatic@@@boost@@@detail@boost@@UAEPAXABVtype_info@@@Z");
     todo("implement");
-    void * __result = _sub_47EDCA(this, arg);
-    return __result;
 }
 
-_extern void *_sub_47AB3B(boost::detail::sp_counted_base_impl<SobIDShared *,boost::checked_deleter<SobIDShared> > *const, type_info const &);
 _inline void *boost::detail::sp_counted_base_impl<SobIDShared *,boost::checked_deleter<SobIDShared> >::get_deleter(type_info const &) // 0x47AB3B
 {
     mangled_assert("?get_deleter@?$sp_counted_base_impl@PAVSobIDShared@@U?$checked_deleter@VSobIDShared@@@boost@@@detail@boost@@UAEPAXABVtype_info@@@Z");
     todo("implement");
-    void * __result = _sub_47AB3B(this, arg);
-    return __result;
 }
 
-_extern void *_sub_463A1A(boost::detail::sp_counted_base_impl<FrameOrders *,boost::checked_deleter<FrameOrders> > *const, type_info const &);
 _inline void *boost::detail::sp_counted_base_impl<FrameOrders *,boost::checked_deleter<FrameOrders> >::get_deleter(type_info const &) // 0x463A1A
 {
     mangled_assert("?get_deleter@?$sp_counted_base_impl@PAVFrameOrders@@U?$checked_deleter@VFrameOrders@@@boost@@@detail@boost@@UAEPAXABVtype_info@@@Z");
     todo("implement");
-    void * __result = _sub_463A1A(this, arg);
-    return __result;
 }
 
-_extern void *_sub_66D9DF(boost::detail::sp_counted_base_impl<UI::Graphic *,boost::checked_deleter<UI::Graphic> > *const, type_info const &);
 _inline void *boost::detail::sp_counted_base_impl<UI::Graphic *,boost::checked_deleter<UI::Graphic> >::get_deleter(type_info const &) // 0x66D9DF
 {
     mangled_assert("?get_deleter@?$sp_counted_base_impl@PAVGraphic@UI@@U?$checked_deleter@VGraphic@UI@@@boost@@@detail@boost@@UAEPAXABVtype_info@@@Z");
     todo("implement");
-    void * __result = _sub_66D9DF(this, arg);
-    return __result;
 }
 
-_extern void *_sub_6B8AB3(boost::detail::sp_counted_base_impl<DestinationFormation::Bucket *,boost::checked_deleter<DestinationFormation::Bucket> > *const, type_info const &);
 _inline void *boost::detail::sp_counted_base_impl<DestinationFormation::Bucket *,boost::checked_deleter<DestinationFormation::Bucket> >::get_deleter(type_info const &) // 0x6B8AB3
 {
     mangled_assert("?get_deleter@?$sp_counted_base_impl@PAUBucket@DestinationFormation@@U?$checked_deleter@UBucket@DestinationFormation@@@boost@@@detail@boost@@UAEPAXABVtype_info@@@Z");
     todo("implement");
-    void * __result = _sub_6B8AB3(this, arg);
-    return __result;
 }
 
-_extern void *_sub_6B8AD5(boost::detail::sp_counted_base_impl<DestinationFormation::Row *,boost::checked_deleter<DestinationFormation::Row> > *const, type_info const &);
 _inline void *boost::detail::sp_counted_base_impl<DestinationFormation::Row *,boost::checked_deleter<DestinationFormation::Row> >::get_deleter(type_info const &) // 0x6B8AD5
 {
     mangled_assert("?get_deleter@?$sp_counted_base_impl@PAURow@DestinationFormation@@U?$checked_deleter@URow@DestinationFormation@@@boost@@@detail@boost@@UAEPAXABVtype_info@@@Z");
     todo("implement");
-    void * __result = _sub_6B8AD5(this, arg);
-    return __result;
 }
 
-_extern void *_sub_6B8AF7(boost::detail::sp_counted_base_impl<DestinationFormation::Wall *,boost::checked_deleter<DestinationFormation::Wall> > *const, type_info const &);
 _inline void *boost::detail::sp_counted_base_impl<DestinationFormation::Wall *,boost::checked_deleter<DestinationFormation::Wall> >::get_deleter(type_info const &) // 0x6B8AF7
 {
     mangled_assert("?get_deleter@?$sp_counted_base_impl@PAUWall@DestinationFormation@@U?$checked_deleter@UWall@DestinationFormation@@@boost@@@detail@boost@@UAEPAXABVtype_info@@@Z");
     todo("implement");
-    void * __result = _sub_6B8AF7(this, arg);
-    return __result;
 }
 
-_extern void *_sub_6E0C4B(boost::detail::sp_counted_base_impl<FXManager::Dynamics *,boost::checked_deleter<FXManager::Dynamics> > *const, type_info const &);
 _inline void *boost::detail::sp_counted_base_impl<FXManager::Dynamics *,boost::checked_deleter<FXManager::Dynamics> >::get_deleter(type_info const &) // 0x6E0C4B
 {
     mangled_assert("?get_deleter@?$sp_counted_base_impl@PAVDynamics@FXManager@@U?$checked_deleter@VDynamics@FXManager@@@boost@@@detail@boost@@UAEPAXABVtype_info@@@Z");
     todo("implement");
-    void * __result = _sub_6E0C4B(this, arg);
-    return __result;
 }
 
-_extern void *_sub_6E0C6D(boost::detail::sp_counted_base_impl<FXManager::Type *,boost::checked_deleter<FXManager::Type> > *const, type_info const &);
 _inline void *boost::detail::sp_counted_base_impl<FXManager::Type *,boost::checked_deleter<FXManager::Type> >::get_deleter(type_info const &) // 0x6E0C6D
 {
     mangled_assert("?get_deleter@?$sp_counted_base_impl@PAVType@FXManager@@U?$checked_deleter@VType@FXManager@@@boost@@@detail@boost@@UAEPAXABVtype_info@@@Z");
     todo("implement");
-    void * __result = _sub_6E0C6D(this, arg);
-    return __result;
 }
 
-_extern _sub_4609ED(boost::detail::shared_count *const);
 _inline boost::detail::shared_count::shared_count() // 0x4609ED
 {
     mangled_assert("??0shared_count@detail@boost@@QAE@XZ");
     todo("implement");
-    _sub_4609ED(this);
 }
 
-_extern _sub_5E4CC0(boost::detail::shared_count *const, BasicMesh *, boost::checked_deleter<BasicMesh>);
 _inline boost::detail::shared_count::shared_count<BasicMesh *,boost::checked_deleter<BasicMesh> >(BasicMesh *, boost::checked_deleter<BasicMesh>) // 0x5E4CC0
 {
     mangled_assert("??$?0PAVBasicMesh@@U?$checked_deleter@VBasicMesh@@@boost@@@shared_count@detail@boost@@QAE@PAVBasicMesh@@U?$checked_deleter@VBasicMesh@@@2@@Z");
     todo("implement");
-    _sub_5E4CC0(this, arg, arg);
 }
 
-_extern _sub_5E4D31(boost::detail::shared_count *const, StarList *, boost::checked_deleter<StarList>);
 _inline boost::detail::shared_count::shared_count<StarList *,boost::checked_deleter<StarList> >(StarList *, boost::checked_deleter<StarList>) // 0x5E4D31
 {
     mangled_assert("??$?0PAVStarList@@U?$checked_deleter@VStarList@@@boost@@@shared_count@detail@boost@@QAE@PAVStarList@@U?$checked_deleter@VStarList@@@2@@Z");
     todo("implement");
-    _sub_5E4D31(this, arg, arg);
 }
 
-_extern _sub_5E473B(boost::detail::shared_count *const, BgLightAnim::Data *, boost::checked_deleter<BgLightAnim::Data>);
 _inline boost::detail::shared_count::shared_count<BgLightAnim::Data *,boost::checked_deleter<BgLightAnim::Data> >(BgLightAnim::Data *, boost::checked_deleter<BgLightAnim::Data>) // 0x5E473B
 {
     mangled_assert("??$?0PAVData@BgLightAnim@@U?$checked_deleter@VData@BgLightAnim@@@boost@@@shared_count@detail@boost@@QAE@PAVData@BgLightAnim@@U?$checked_deleter@VData@BgLightAnim@@@2@@Z");
     todo("implement");
-    _sub_5E473B(this, arg, arg);
 }
 
-_extern _sub_47F977(boost::detail::shared_count *const, SobWithMeshStatic::Model *, boost::checked_deleter<SobWithMeshStatic::Model>);
 _inline boost::detail::shared_count::shared_count<SobWithMeshStatic::Model *,boost::checked_deleter<SobWithMeshStatic::Model> >(SobWithMeshStatic::Model *, boost::checked_deleter<SobWithMeshStatic::Model>) // 0x47F977
 {
     mangled_assert("??$?0PAVModel@SobWithMeshStatic@@U?$checked_deleter@VModel@SobWithMeshStatic@@@boost@@@shared_count@detail@boost@@QAE@PAVModel@SobWithMeshStatic@@U?$checked_deleter@VModel@SobWithMeshStatic@@@2@@Z");
     todo("implement");
-    _sub_47F977(this, arg, arg);
 }
 
-_extern _sub_47AD7A(boost::detail::shared_count *const, SobStatic::Model *, boost::checked_deleter<SobStatic::Model>);
 _inline boost::detail::shared_count::shared_count<SobStatic::Model *,boost::checked_deleter<SobStatic::Model> >(SobStatic::Model *, boost::checked_deleter<SobStatic::Model>) // 0x47AD7A
 {
     mangled_assert("??$?0PAVModel@SobStatic@@U?$checked_deleter@VModel@SobStatic@@@boost@@@shared_count@detail@boost@@QAE@PAVModel@SobStatic@@U?$checked_deleter@VModel@SobStatic@@@2@@Z");
     todo("implement");
-    _sub_47AD7A(this, arg, arg);
 }
 
-_extern _sub_479892(boost::detail::shared_count *const, SobIDShared *, boost::checked_deleter<SobIDShared>);
 _inline boost::detail::shared_count::shared_count<SobIDShared *,boost::checked_deleter<SobIDShared> >(SobIDShared *, boost::checked_deleter<SobIDShared>) // 0x479892
 {
     mangled_assert("??$?0PAVSobIDShared@@U?$checked_deleter@VSobIDShared@@@boost@@@shared_count@detail@boost@@QAE@PAVSobIDShared@@U?$checked_deleter@VSobIDShared@@@2@@Z");
     todo("implement");
-    _sub_479892(this, arg, arg);
 }
 
-_extern _sub_45E668(boost::detail::shared_count *const, FrameOrders *, boost::checked_deleter<FrameOrders>);
 _inline boost::detail::shared_count::shared_count<FrameOrders *,boost::checked_deleter<FrameOrders> >(FrameOrders *, boost::checked_deleter<FrameOrders>) // 0x45E668
 {
     mangled_assert("??$?0PAVFrameOrders@@U?$checked_deleter@VFrameOrders@@@boost@@@shared_count@detail@boost@@QAE@PAVFrameOrders@@U?$checked_deleter@VFrameOrders@@@2@@Z");
     todo("implement");
-    _sub_45E668(this, arg, arg);
 }
 
-_extern _sub_6690A4(boost::detail::shared_count *const, UI::Graphic *, boost::checked_deleter<UI::Graphic>);
 _inline boost::detail::shared_count::shared_count<UI::Graphic *,boost::checked_deleter<UI::Graphic> >(UI::Graphic *, boost::checked_deleter<UI::Graphic>) // 0x6690A4
 {
     mangled_assert("??$?0PAVGraphic@UI@@U?$checked_deleter@VGraphic@UI@@@boost@@@shared_count@detail@boost@@QAE@PAVGraphic@UI@@U?$checked_deleter@VGraphic@UI@@@2@@Z");
     todo("implement");
-    _sub_6690A4(this, arg, arg);
 }
 
-_extern _sub_6B6184(boost::detail::shared_count *const, DestinationFormation::Bucket *, boost::checked_deleter<DestinationFormation::Bucket>);
 _inline boost::detail::shared_count::shared_count<DestinationFormation::Bucket *,boost::checked_deleter<DestinationFormation::Bucket> >(DestinationFormation::Bucket *, boost::checked_deleter<DestinationFormation::Bucket>) // 0x6B6184
 {
     mangled_assert("??$?0PAUBucket@DestinationFormation@@U?$checked_deleter@UBucket@DestinationFormation@@@boost@@@shared_count@detail@boost@@QAE@PAUBucket@DestinationFormation@@U?$checked_deleter@UBucket@DestinationFormation@@@2@@Z");
     todo("implement");
-    _sub_6B6184(this, arg, arg);
 }
 
-_extern _sub_6B61F0(boost::detail::shared_count *const, DestinationFormation::Row *, boost::checked_deleter<DestinationFormation::Row>);
 _inline boost::detail::shared_count::shared_count<DestinationFormation::Row *,boost::checked_deleter<DestinationFormation::Row> >(DestinationFormation::Row *, boost::checked_deleter<DestinationFormation::Row>) // 0x6B61F0
 {
     mangled_assert("??$?0PAURow@DestinationFormation@@U?$checked_deleter@URow@DestinationFormation@@@boost@@@shared_count@detail@boost@@QAE@PAURow@DestinationFormation@@U?$checked_deleter@URow@DestinationFormation@@@2@@Z");
     todo("implement");
-    _sub_6B61F0(this, arg, arg);
 }
 
-_extern _sub_6B6262(boost::detail::shared_count *const, DestinationFormation::Wall *, boost::checked_deleter<DestinationFormation::Wall>);
 _inline boost::detail::shared_count::shared_count<DestinationFormation::Wall *,boost::checked_deleter<DestinationFormation::Wall> >(DestinationFormation::Wall *, boost::checked_deleter<DestinationFormation::Wall>) // 0x6B6262
 {
     mangled_assert("??$?0PAUWall@DestinationFormation@@U?$checked_deleter@UWall@DestinationFormation@@@boost@@@shared_count@detail@boost@@QAE@PAUWall@DestinationFormation@@U?$checked_deleter@UWall@DestinationFormation@@@2@@Z");
     todo("implement");
-    _sub_6B6262(this, arg, arg);
 }
 
-_extern _sub_6D9284(boost::detail::shared_count *const, FXManager::Dynamics *, boost::checked_deleter<FXManager::Dynamics>);
 _inline boost::detail::shared_count::shared_count<FXManager::Dynamics *,boost::checked_deleter<FXManager::Dynamics> >(FXManager::Dynamics *, boost::checked_deleter<FXManager::Dynamics>) // 0x6D9284
 {
     mangled_assert("??$?0PAVDynamics@FXManager@@U?$checked_deleter@VDynamics@FXManager@@@boost@@@shared_count@detail@boost@@QAE@PAVDynamics@FXManager@@U?$checked_deleter@VDynamics@FXManager@@@2@@Z");
     todo("implement");
-    _sub_6D9284(this, arg, arg);
 }
 
-_extern _sub_6D92F5(boost::detail::shared_count *const, FXManager::Type *, boost::checked_deleter<FXManager::Type>);
 _inline boost::detail::shared_count::shared_count<FXManager::Type *,boost::checked_deleter<FXManager::Type> >(FXManager::Type *, boost::checked_deleter<FXManager::Type>) // 0x6D92F5
 {
     mangled_assert("??$?0PAVType@FXManager@@U?$checked_deleter@VType@FXManager@@@boost@@@shared_count@detail@boost@@QAE@PAVType@FXManager@@U?$checked_deleter@VType@FXManager@@@2@@Z");
     todo("implement");
-    _sub_6D92F5(this, arg, arg);
 }
 
-_extern void _sub_451C0F(boost::detail::shared_count *const);
 _inline boost::detail::shared_count::~shared_count() // 0x451C0F
 {
     mangled_assert("??1shared_count@detail@boost@@QAE@XZ");
     todo("implement");
-    _sub_451C0F(this);
 }
 
-_extern _sub_4609D3(boost::detail::shared_count *const, boost::detail::shared_count const &);
 _inline boost::detail::shared_count::shared_count(boost::detail::shared_count const &) // 0x4609D3
 {
     mangled_assert("??0shared_count@detail@boost@@QAE@ABV012@@Z");
     todo("implement");
-    _sub_4609D3(this, arg);
 }
 
-_extern boost::detail::shared_count &_sub_460D2B(boost::detail::shared_count *const, boost::detail::shared_count const &);
 _inline boost::detail::shared_count &boost::detail::shared_count::operator=(boost::detail::shared_count const &) // 0x460D2B
 {
     mangled_assert("??4shared_count@detail@boost@@QAEAAV012@ABV012@@Z");
     todo("implement");
-    boost::detail::shared_count & __result = _sub_460D2B(this, arg);
-    return __result;
 }
 
-_extern void _sub_464605(boost::detail::shared_count *const, boost::detail::shared_count &);
 _inline void boost::detail::shared_count::swap(boost::detail::shared_count &) // 0x464605
 {
     mangled_assert("?swap@shared_count@detail@boost@@QAEXAAV123@@Z");
     todo("implement");
-    _sub_464605(this, arg);
 }
 
-_extern long _sub_6810E6(boost::detail::shared_count const *const);
 _inline long boost::detail::shared_count::use_count() const // 0x6810E6
 {
     mangled_assert("?use_count@shared_count@detail@boost@@QBEJXZ");
     todo("implement");
-    long __result = _sub_6810E6(this);
-    return __result;
 }
 
 /* ---------- private code */
@@ -1457,135 +1264,100 @@ static_assert(sizeof(boost::detail::weak_count) == 4, "Invalid boost::detail::we
 
 /* ---------- public code */
 
-_extern char const *_sub_10004A0B(boost::bad_weak_ptr const *const);
 _inline char const *boost::bad_weak_ptr::what() const // 0x10004A0B
 {
     mangled_assert("?what@bad_weak_ptr@boost@@UBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_10004A0B(this);
-    return __result;
 }
 
-_extern _sub_1000349F(boost::detail::sp_counted_base *const);
 _inline boost::detail::sp_counted_base::sp_counted_base() // 0x1000349F
 {
     mangled_assert("??0sp_counted_base@detail@boost@@QAE@XZ");
     todo("implement");
-    _sub_1000349F(this);
 }
 
-_extern void _sub_1000353E(boost::detail::sp_counted_base *const);
 _inline boost::detail::sp_counted_base::~sp_counted_base() // 0x1000353E
 {
     mangled_assert("??1sp_counted_base@detail@boost@@UAE@XZ");
     todo("implement");
-    _sub_1000353E(this);
 }
 
-_extern void _sub_10004744(boost::detail::sp_counted_base *const);
 _inline void boost::detail::sp_counted_base::destruct() // 0x10004744
 {
     mangled_assert("?destruct@sp_counted_base@detail@boost@@UAEXXZ");
     todo("implement");
-    _sub_10004744(this);
 }
 
-_extern void _sub_100043C4(boost::detail::sp_counted_base *const);
 _inline void boost::detail::sp_counted_base::add_ref() // 0x100043C4
 {
     mangled_assert("?add_ref@sp_counted_base@detail@boost@@QAEXXZ");
     todo("implement");
-    _sub_100043C4(this);
 }
 
-_extern void _sub_1000493D(boost::detail::sp_counted_base *const);
 _inline void boost::detail::sp_counted_base::release() // 0x1000493D
 {
     mangled_assert("?release@sp_counted_base@detail@boost@@QAEXXZ");
     todo("implement");
-    _sub_1000493D(this);
 }
 
-_extern void _sub_100049D7(boost::detail::sp_counted_base *const);
 _inline void boost::detail::sp_counted_base::weak_release() // 0x100049D7
 {
     mangled_assert("?weak_release@sp_counted_base@detail@boost@@QAEXXZ");
     todo("implement");
-    _sub_100049D7(this);
 }
 
-_extern _sub_1000338A(boost::detail::sp_counted_base_impl<LocalizerImp::Resource *,boost::checked_deleter<LocalizerImp::Resource> > *const, LocalizerImp::Resource *, boost::checked_deleter<LocalizerImp::Resource>);
 _inline boost::detail::sp_counted_base_impl<LocalizerImp::Resource *,boost::checked_deleter<LocalizerImp::Resource> >::sp_counted_base_impl<LocalizerImp::Resource *,boost::checked_deleter<LocalizerImp::Resource> >(LocalizerImp::Resource *, boost::checked_deleter<LocalizerImp::Resource>) // 0x1000338A
 {
     mangled_assert("??0?$sp_counted_base_impl@PAVResource@LocalizerImp@@U?$checked_deleter@VResource@LocalizerImp@@@boost@@@detail@boost@@QAE@PAVResource@LocalizerImp@@U?$checked_deleter@VResource@LocalizerImp@@@2@@Z");
     todo("implement");
-    _sub_1000338A(this, arg, arg);
 }
 
-_extern void _sub_1000474F(boost::detail::sp_counted_base_impl<LocalizerImp::Resource *,boost::checked_deleter<LocalizerImp::Resource> > *const);
 _inline void boost::detail::sp_counted_base_impl<LocalizerImp::Resource *,boost::checked_deleter<LocalizerImp::Resource> >::dispose() // 0x1000474F
 {
     mangled_assert("?dispose@?$sp_counted_base_impl@PAVResource@LocalizerImp@@U?$checked_deleter@VResource@LocalizerImp@@@boost@@@detail@boost@@UAEXXZ");
     todo("implement");
-    _sub_1000474F(this);
 }
 
-_extern void *_sub_100047DD(boost::detail::sp_counted_base_impl<LocalizerImp::Resource *,boost::checked_deleter<LocalizerImp::Resource> > *const, type_info const &);
 _inline void *boost::detail::sp_counted_base_impl<LocalizerImp::Resource *,boost::checked_deleter<LocalizerImp::Resource> >::get_deleter(type_info const &) // 0x100047DD
 {
     mangled_assert("?get_deleter@?$sp_counted_base_impl@PAVResource@LocalizerImp@@U?$checked_deleter@VResource@LocalizerImp@@@boost@@@detail@boost@@UAEPAXABVtype_info@@@Z");
     todo("implement");
-    void * __result = _sub_100047DD(this, arg);
-    return __result;
 }
 
-_extern _sub_10003499(boost::detail::shared_count *const);
 _inline boost::detail::shared_count::shared_count() // 0x10003499
 {
     mangled_assert("??0shared_count@detail@boost@@QAE@XZ");
     todo("implement");
-    _sub_10003499(this);
 }
 
-_extern _sub_10002C2F(boost::detail::shared_count *const, LocalizerImp::Resource *, boost::checked_deleter<LocalizerImp::Resource>);
 _inline boost::detail::shared_count::shared_count<LocalizerImp::Resource *,boost::checked_deleter<LocalizerImp::Resource> >(LocalizerImp::Resource *, boost::checked_deleter<LocalizerImp::Resource>) // 0x10002C2F
 {
     mangled_assert("??$?0PAVResource@LocalizerImp@@U?$checked_deleter@VResource@LocalizerImp@@@boost@@@shared_count@detail@boost@@QAE@PAVResource@LocalizerImp@@U?$checked_deleter@VResource@LocalizerImp@@@2@@Z");
     todo("implement");
-    _sub_10002C2F(this, arg, arg);
 }
 
-_extern void _sub_10003533(boost::detail::shared_count *const);
 _inline boost::detail::shared_count::~shared_count() // 0x10003533
 {
     mangled_assert("??1shared_count@detail@boost@@QAE@XZ");
     todo("implement");
-    _sub_10003533(this);
 }
 
-_extern _sub_1000347F(boost::detail::shared_count *const, boost::detail::shared_count const &);
 _inline boost::detail::shared_count::shared_count(boost::detail::shared_count const &) // 0x1000347F
 {
     mangled_assert("??0shared_count@detail@boost@@QAE@ABV012@@Z");
     todo("implement");
-    _sub_1000347F(this, arg);
 }
 
-_extern boost::detail::shared_count &_sub_1000357F(boost::detail::shared_count *const, boost::detail::shared_count const &);
 _inline boost::detail::shared_count &boost::detail::shared_count::operator=(boost::detail::shared_count const &) // 0x1000357F
 {
     mangled_assert("??4shared_count@detail@boost@@QAEAAV012@ABV012@@Z");
     todo("implement");
-    boost::detail::shared_count & __result = _sub_1000357F(this, arg);
-    return __result;
 }
 
-_extern void _sub_100049C6(boost::detail::shared_count *const, boost::detail::shared_count &);
 _inline void boost::detail::shared_count::swap(boost::detail::shared_count &) // 0x100049C6
 {
     mangled_assert("?swap@shared_count@detail@boost@@QAEXAAV123@@Z");
     todo("implement");
-    _sub_100049C6(this, arg);
 }
 
 /* ---------- private code */
@@ -1877,135 +1649,100 @@ static_assert(sizeof(boost::detail::weak_count) == 4, "Invalid boost::detail::we
 
 /* ---------- public code */
 
-_extern char const *_sub_1001BEC0(boost::bad_weak_ptr const *const);
 _inline char const *boost::bad_weak_ptr::what() const // 0x1001BEC0
 {
     mangled_assert("?what@bad_weak_ptr@boost@@UBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_1001BEC0(this);
-    return __result;
 }
 
-_extern _sub_100B5900(boost::detail::sp_counted_base *const);
 _inline boost::detail::sp_counted_base::sp_counted_base() // 0x100B5900
 {
     mangled_assert("??0sp_counted_base@detail@boost@@QAE@XZ");
     todo("implement");
-    _sub_100B5900(this);
 }
 
-_extern void _sub_100B5CF0(boost::detail::sp_counted_base *const);
 _inline boost::detail::sp_counted_base::~sp_counted_base() // 0x100B5CF0
 {
     mangled_assert("??1sp_counted_base@detail@boost@@UAE@XZ");
     todo("implement");
-    _sub_100B5CF0(this);
 }
 
-_extern void _sub_100B7F80(boost::detail::sp_counted_base *const);
 _inline void boost::detail::sp_counted_base::destruct() // 0x100B7F80
 {
     mangled_assert("?destruct@sp_counted_base@detail@boost@@UAEXXZ");
     todo("implement");
-    _sub_100B7F80(this);
 }
 
-_extern void _sub_10015A10(boost::detail::sp_counted_base *const);
 _inline void boost::detail::sp_counted_base::add_ref() // 0x10015A10
 {
     mangled_assert("?add_ref@sp_counted_base@detail@boost@@QAEXXZ");
     todo("implement");
-    _sub_10015A10(this);
 }
 
-_extern void _sub_1001AAF0(boost::detail::sp_counted_base *const);
 _inline void boost::detail::sp_counted_base::release() // 0x1001AAF0
 {
     mangled_assert("?release@sp_counted_base@detail@boost@@QAEXXZ");
     todo("implement");
-    _sub_1001AAF0(this);
 }
 
-_extern void _sub_1001BE70(boost::detail::sp_counted_base *const);
 _inline void boost::detail::sp_counted_base::weak_release() // 0x1001BE70
 {
     mangled_assert("?weak_release@sp_counted_base@detail@boost@@QAEXXZ");
     todo("implement");
-    _sub_1001BE70(this);
 }
 
-_extern _sub_100B56C0(boost::detail::sp_counted_base_impl<StateCommandBlock *,boost::checked_deleter<StateCommandBlock> > *const, StateCommandBlock *, boost::checked_deleter<StateCommandBlock>);
 _inline boost::detail::sp_counted_base_impl<StateCommandBlock *,boost::checked_deleter<StateCommandBlock> >::sp_counted_base_impl<StateCommandBlock *,boost::checked_deleter<StateCommandBlock> >(StateCommandBlock *, boost::checked_deleter<StateCommandBlock>) // 0x100B56C0
 {
     mangled_assert("??0?$sp_counted_base_impl@PAVStateCommandBlock@@U?$checked_deleter@VStateCommandBlock@@@boost@@@detail@boost@@QAE@PAVStateCommandBlock@@U?$checked_deleter@VStateCommandBlock@@@2@@Z");
     todo("implement");
-    _sub_100B56C0(this, arg, arg);
 }
 
-_extern void _sub_100B7F90(boost::detail::sp_counted_base_impl<StateCommandBlock *,boost::checked_deleter<StateCommandBlock> > *const);
 _inline void boost::detail::sp_counted_base_impl<StateCommandBlock *,boost::checked_deleter<StateCommandBlock> >::dispose() // 0x100B7F90
 {
     mangled_assert("?dispose@?$sp_counted_base_impl@PAVStateCommandBlock@@U?$checked_deleter@VStateCommandBlock@@@boost@@@detail@boost@@UAEXXZ");
     todo("implement");
-    _sub_100B7F90(this);
 }
 
-_extern void *_sub_100B8690(boost::detail::sp_counted_base_impl<StateCommandBlock *,boost::checked_deleter<StateCommandBlock> > *const, type_info const &);
 _inline void *boost::detail::sp_counted_base_impl<StateCommandBlock *,boost::checked_deleter<StateCommandBlock> >::get_deleter(type_info const &) // 0x100B8690
 {
     mangled_assert("?get_deleter@?$sp_counted_base_impl@PAVStateCommandBlock@@U?$checked_deleter@VStateCommandBlock@@@boost@@@detail@boost@@UAEPAXABVtype_info@@@Z");
     todo("implement");
-    void * __result = _sub_100B8690(this, arg);
-    return __result;
 }
 
-_extern _sub_100B20F0(boost::detail::shared_count *const);
 _inline boost::detail::shared_count::shared_count() // 0x100B20F0
 {
     mangled_assert("??0shared_count@detail@boost@@QAE@XZ");
     todo("implement");
-    _sub_100B20F0(this);
 }
 
-_extern _sub_100B4370(boost::detail::shared_count *const, StateCommandBlock *, boost::checked_deleter<StateCommandBlock>);
 _inline boost::detail::shared_count::shared_count<StateCommandBlock *,boost::checked_deleter<StateCommandBlock> >(StateCommandBlock *, boost::checked_deleter<StateCommandBlock>) // 0x100B4370
 {
     mangled_assert("??$?0PAVStateCommandBlock@@U?$checked_deleter@VStateCommandBlock@@@boost@@@shared_count@detail@boost@@QAE@PAVStateCommandBlock@@U?$checked_deleter@VStateCommandBlock@@@2@@Z");
     todo("implement");
-    _sub_100B4370(this, arg, arg);
 }
 
-_extern void _sub_1000E5A0(boost::detail::shared_count *const);
 _inline boost::detail::shared_count::~shared_count() // 0x1000E5A0
 {
     mangled_assert("??1shared_count@detail@boost@@QAE@XZ");
     todo("implement");
-    _sub_1000E5A0(this);
 }
 
-_extern _sub_1000D870(boost::detail::shared_count *const, boost::detail::shared_count const &);
 _inline boost::detail::shared_count::shared_count(boost::detail::shared_count const &) // 0x1000D870
 {
     mangled_assert("??0shared_count@detail@boost@@QAE@ABV012@@Z");
     todo("implement");
-    _sub_1000D870(this, arg);
 }
 
-_extern boost::detail::shared_count &_sub_10010D20(boost::detail::shared_count *const, boost::detail::shared_count const &);
 _inline boost::detail::shared_count &boost::detail::shared_count::operator=(boost::detail::shared_count const &) // 0x10010D20
 {
     mangled_assert("??4shared_count@detail@boost@@QAEAAV012@ABV012@@Z");
     todo("implement");
-    boost::detail::shared_count & __result = _sub_10010D20(this, arg);
-    return __result;
 }
 
-_extern void _sub_100B4350(boost::detail::shared_count *const, boost::detail::shared_count &);
 _inline void boost::detail::shared_count::swap(boost::detail::shared_count &) // 0x100B4350
 {
     mangled_assert("?swap@shared_count@detail@boost@@QAEXAAV123@@Z");
     todo("implement");
-    _sub_100B4350(this, arg);
 }
 
 /* ---------- private code */

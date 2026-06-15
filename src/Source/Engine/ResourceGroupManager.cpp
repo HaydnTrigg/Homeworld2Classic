@@ -94,144 +94,104 @@ extern ResourceGroupManager *ResourceGroupManager::s_instance; // 0x84AEB0
 
 /* ---------- public code */
 
-_extern bool _sub_626FE7();
 bool rgmStartup() // 0x626FE7
 {
     mangled_assert("?rgmStartup@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_626FE7();
-    return __result;
 }
 
-_extern bool _sub_626FDF();
 bool rgmShutdown() // 0x626FDF
 {
     mangled_assert("?rgmShutdown@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_626FDF();
-    return __result;
 }
 
-_extern _sub_626312(ResourceGroupManager *const);
 ResourceGroupManager::ResourceGroupManager() // 0x626312
 {
     mangled_assert("??0ResourceGroupManager@@QAE@XZ");
     todo("implement");
-    _sub_626312(this);
 }
 
-_extern void _sub_626362(std::_List_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Selection *>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Selection *> > > *const);
 _inline std::_List_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Selection *>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Selection *> > >::~_List_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Selection *>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Selection *> > >() // 0x626362
 {
     mangled_assert("??1?$_List_buy@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVSelection@@@std@@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVSelection@@@std@@@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_626362(this);
 }
 
-_extern void _sub_62636B(stdext::hash_map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,Selection *,stdext::hash_compare<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Selection *> > > *const);
 _inline stdext::hash_map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,Selection *,stdext::hash_compare<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Selection *> > >::~hash_map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,Selection *,stdext::hash_compare<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Selection *> > >() // 0x62636B
 {
     mangled_assert("??1?$hash_map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVSelection@@V?$hash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@stdext@@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVSelection@@@std@@@2@@stdext@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_62636B(this);
 }
 
-_extern void _sub_626382(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Selection *> *const);
 _inline std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Selection *>::~pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,Selection *>() // 0x626382
 {
     mangled_assert("??1?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVSelection@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_626382(this);
 }
 
-_extern void _sub_626387(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,Selection *> *const);
 _inline std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,Selection *>::~pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,Selection *>() // 0x626387
 {
     mangled_assert("??1?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVSelection@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_626387(this);
 }
 
-_extern void _sub_626391(ResourceGroupManager *const);
 ResourceGroupManager::~ResourceGroupManager() // 0x626391
 {
     mangled_assert("??1ResourceGroupManager@@QAE@XZ");
     todo("implement");
-    _sub_626391(this);
 }
 
-_extern ResourceGroupManager *_sub_626DE1();
 ResourceGroupManager *ResourceGroupManager::i() // 0x626DE1
 {
     mangled_assert("?i@ResourceGroupManager@@SGPAV1@XZ");
     todo("implement");
-    ResourceGroupManager * __result = _sub_626DE1();
-    return __result;
 }
 
-_extern void _sub_626FBD();
 void ResourceGroupManager::release() // 0x626FBD
 {
     mangled_assert("?release@ResourceGroupManager@@SGXXZ");
     todo("implement");
-    _sub_626FBD();
 }
 
-_extern Selection *_sub_626D8B(ResourceGroupManager *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &);
 Selection *ResourceGroupManager::findGroup(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &) // 0x626D8B
 {
     mangled_assert("?findGroup@ResourceGroupManager@@AAEPAVSelection@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    Selection * __result = _sub_626D8B(this, arg);
-    return __result;
 }
 
-_extern void _sub_626F14(ResourceGroupManager *const, char const *, std::basic_string<char,std::char_traits<char>,std::allocator<char> > &);
 void ResourceGroupManager::makeNiceName(char const *, std::basic_string<char,std::char_traits<char>,std::allocator<char> > &) // 0x626F14
 {
     mangled_assert("?makeNiceName@ResourceGroupManager@@AAEXPBDAAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    _sub_626F14(this, arg, arg);
 }
 
-_extern Selection const *_sub_626B17(ResourceGroupManager *const, Resource *, char const *);
 Selection const *ResourceGroupManager::addToGroup(Resource *, char const *) // 0x626B17
 {
     mangled_assert("?addToGroup@ResourceGroupManager@@QAEPBVSelection@@PAVResource@@PBD@Z");
     todo("implement");
-    Selection const * __result = _sub_626B17(this, arg, arg);
-    return __result;
 }
 
-_extern Selection const *_sub_626DB8(ResourceGroupManager *const, char const *);
 Selection const *ResourceGroupManager::getGroup(char const *) // 0x626DB8
 {
     mangled_assert("?getGroup@ResourceGroupManager@@QAEPBVSelection@@PBD@Z");
     todo("implement");
-    Selection const * __result = _sub_626DB8(this, arg);
-    return __result;
 }
 
-_extern Selection const *_sub_626E3C(ResourceGroupManager *const);
 Selection const *ResourceGroupManager::iteratorBegin() // 0x626E3C
 {
     mangled_assert("?iteratorBegin@ResourceGroupManager@@QAEPBVSelection@@XZ");
     todo("implement");
-    Selection const * __result = _sub_626E3C(this);
-    return __result;
 }
 
-_extern Selection const *_sub_626E4E(ResourceGroupManager *const);
 Selection const *ResourceGroupManager::iteratorNext() // 0x626E4E
 {
     mangled_assert("?iteratorNext@ResourceGroupManager@@QAEPBVSelection@@XZ");
     todo("implement");
-    Selection const * __result = _sub_626E4E(this);
-    return __result;
 }
 
 /* ---------- private code */

@@ -93,13 +93,10 @@ extern Volume *GameQuery::FindVolumeByName(char const *volumeName, unsigned __in
 
 /* ---------- public code */
 
-_extern Volume *_sub_72781F(char const *, unsigned __int32);
 Volume *GameQuery::FindVolumeByName(char const *volumeName, unsigned __int32 volumeType) // 0x72781F
 {
     mangled_assert("?FindVolumeByName@GameQuery@@YGPAVVolume@@PBDI@Z");
     todo("implement");
-    Volume * __result = _sub_72781F(volumeName, volumeType);
-    return __result;
 }
 
 /* ---------- private code */

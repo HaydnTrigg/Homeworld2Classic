@@ -42,22 +42,16 @@ static_assert(sizeof(ZeroMassBodyController) == 16, "Invalid ZeroMassBodyControl
 
 /* ---------- public code */
 
-_extern bool _sub_4772A9(ZeroMassBodyController *const);
 _inline bool ZeroMassBodyController::isDeterministic() // 0x4772A9
 {
     mangled_assert("?isDeterministic@ZeroMassBodyController@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4772A9(this);
-    return __result;
 }
 
-_extern char const *_sub_477320(ZeroMassBodyController *const);
 _inline char const *ZeroMassBodyController::saveToken() // 0x477320
 {
     mangled_assert("?saveToken@ZeroMassBodyController@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_477320(this);
-    return __result;
 }
 
 /* ---------- private code */

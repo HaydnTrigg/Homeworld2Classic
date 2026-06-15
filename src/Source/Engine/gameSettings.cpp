@@ -416,499 +416,354 @@ _static
 
 /* ---------- public code */
 
-_extern bool _sub_46A2F8();
 bool GameSettings::Started() // 0x46A2F8
 {
     mangled_assert("?Started@GameSettings@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_46A2F8();
-    return __result;
 }
 
-_extern bool _sub_46A16A(MD5Hash const &);
 bool GameSettings::Restart(MD5Hash const &gameRules) // 0x46A16A
 {
     mangled_assert("?Restart@GameSettings@@SG_NABVMD5Hash@@@Z");
     todo("implement");
-    bool __result = _sub_46A16A(gameRules);
-    return __result;
 }
 
-_extern GameSettings *_sub_46A164();
 GameSettings *GameSettings::Instance() // 0x46A164
 {
     mangled_assert("?Instance@GameSettings@@SGPAV1@XZ");
     todo("implement");
-    GameSettings * __result = _sub_46A164();
-    return __result;
 }
 
-_extern bool _sub_46A2DE();
 bool GameSettings::Shutdown() // 0x46A2DE
 {
     mangled_assert("?Shutdown@GameSettings@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_46A2DE();
-    return __result;
 }
 
-_extern _sub_469F1E(GameSettings *const, MD5Hash const &);
 GameSettings::GameSettings(MD5Hash const &) // 0x469F1E
 {
     mangled_assert("??0GameSettings@@QAE@ABVMD5Hash@@@Z");
     todo("implement");
-    _sub_469F1E(this, arg);
 }
 
-_extern _sub_469FAF(Saveable *const);
 _inline Saveable::Saveable() // 0x469FAF
 {
     mangled_assert("??0Saveable@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_469FAF(this);
 }
 
-_extern void _sub_469FC5(GameSettings *const);
 GameSettings::~GameSettings() // 0x469FC5
 {
     mangled_assert("??1GameSettings@@UAE@XZ");
     todo("implement");
-    _sub_469FC5(this);
 }
 
-_extern void _sub_469FEF(MD5Hash *const);
 _inline MD5Hash::~MD5Hash() // 0x469FEF
 {
     mangled_assert("??1MD5Hash@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_469FEF(this);
 }
 
-_extern void _sub_469DF9(void *, SaveGameData *, SaveType);
 void GameSettings::saveMD5(void *objectPtr, SaveGameData *saveGameData, SaveType savetype) // 0x469DF9
 {
     mangled_assert("?saveMD5@GameSettings@@SGXPAXPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    _sub_469DF9(objectPtr, saveGameData, savetype);
 }
 
-_extern void _sub_469E37(void *, SaveGameData *);
 void GameSettings::loadMD5(void *objectPtr, SaveGameData *saveGameData) // 0x469E37
 {
     mangled_assert("?loadMD5@GameSettings@@SGXPAXPAVSaveGameData@@@Z");
     todo("implement");
-    _sub_469E37(objectPtr, saveGameData);
 }
 
-_extern bool _sub_46A734(GameSettings *const, SaveGameData *);
 bool GameSettings::restore(SaveGameData *) // 0x46A734
 {
     mangled_assert("?restore@GameSettings@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_46A734(this, arg);
-    return __result;
 }
 
-_extern bool _sub_46A772(GameSettings *const, SaveGameData *, SaveType);
 bool GameSettings::save(SaveGameData *, SaveType) // 0x46A772
 {
     mangled_assert("?save@GameSettings@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_46A772(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_46A566(GameSettings *const);
 void GameSettings::postRestore() // 0x46A566
 {
     mangled_assert("?postRestore@GameSettings@@UAEXXZ");
     todo("implement");
-    _sub_46A566(this);
 }
 
-_extern void _sub_46A5A6(GameSettings *const);
 void GameSettings::reset() // 0x46A5A6
 {
     mangled_assert("?reset@GameSettings@@QAEXXZ");
     todo("implement");
-    _sub_46A5A6(this);
 }
 
-_extern LevelDesc const *_sub_46A432(GameSettings const *const);
 LevelDesc const *GameSettings::getLevelDesc() const // 0x46A432
 {
     mangled_assert("?getLevelDesc@GameSettings@@QBEPBVLevelDesc@@XZ");
     todo("implement");
-    LevelDesc const * __result = _sub_46A432(this);
-    return __result;
 }
 
-_extern void _sub_46A7CE(GameSettings *const, MD5Hash const &, unsigned __int32);
 void GameSettings::setLevel(MD5Hash const &, unsigned __int32) // 0x46A7CE
 {
     mangled_assert("?setLevel@GameSettings@@QAEXABVMD5Hash@@I@Z");
     todo("implement");
-    _sub_46A7CE(this, arg, arg);
 }
 
-_extern GameSettings::GameRubric _sub_46A42E(GameSettings const *const);
 GameSettings::GameRubric GameSettings::getGameRubric() const // 0x46A42E
 {
     mangled_assert("?getGameRubric@GameSettings@@QBE?AW4GameRubric@1@XZ");
     todo("implement");
-    GameSettings::GameRubric __result = _sub_46A42E(this);
-    return __result;
 }
 
-_extern void _sub_46A7C4(GameSettings *const, GameSettings::GameRubric);
 void GameSettings::setGameRubric(GameSettings::GameRubric) // 0x46A7C4
 {
     mangled_assert("?setGameRubric@GameSettings@@QAEXW4GameRubric@1@@Z");
     todo("implement");
-    _sub_46A7C4(this, arg);
 }
 
-_extern GameSettings::MultiplayerType _sub_46A471(GameSettings const *const);
 GameSettings::MultiplayerType GameSettings::getMultiplayerType() const // 0x46A471
 {
     mangled_assert("?getMultiplayerType@GameSettings@@QBE?AW4MultiplayerType@1@XZ");
     todo("implement");
-    GameSettings::MultiplayerType __result = _sub_46A471(this);
-    return __result;
 }
 
-_extern void _sub_46A838(GameSettings *const, GameSettings::MultiplayerType);
 void GameSettings::setMultiplayerType(GameSettings::MultiplayerType) // 0x46A838
 {
     mangled_assert("?setMultiplayerType@GameSettings@@QAEXW4MultiplayerType@1@@Z");
     todo("implement");
-    _sub_46A838(this, arg);
 }
 
-_extern unsigned __int32 _sub_46A46A(GameSettings const *const);
 unsigned __int32 GameSettings::getMaxPlayers() const // 0x46A46A
 {
     mangled_assert("?getMaxPlayers@GameSettings@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_46A46A(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_46A3D3(GameSettings const *const);
 unsigned __int32 GameSettings::findMissingPlayerSlot() const // 0x46A3D3
 {
     mangled_assert("?findMissingPlayerSlot@GameSettings@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_46A3D3(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_46A475(GameSettings const *const);
 unsigned __int32 GameSettings::getNumHumanPlayers() const // 0x46A475
 {
     mangled_assert("?getNumHumanPlayers@GameSettings@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_46A475(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_46A0F4(GameSettings const *const);
 unsigned __int32 GameSettings::GetLocalPlayerIndex() const // 0x46A0F4
 {
     mangled_assert("?GetLocalPlayerIndex@GameSettings@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_46A0F4(this);
-    return __result;
 }
 
-_extern GamePlayerInfo *_sub_46A090(GameSettings *const, unsigned __int32);
 GamePlayerInfo *GameSettings::GetGPInfoFromPlayerID(unsigned __int32) // 0x46A090
 {
     mangled_assert("?GetGPInfoFromPlayerID@GameSettings@@QAEPAVGamePlayerInfo@@I@Z");
     todo("implement");
-    GamePlayerInfo * __result = _sub_46A090(this, arg);
-    return __result;
 }
 
-_extern GamePlayerInfo const *_sub_46A0AD(GameSettings const *const, unsigned __int32);
 GamePlayerInfo const *GameSettings::GetGPInfoFromPlayerID(unsigned __int32) const // 0x46A0AD
 {
     mangled_assert("?GetGPInfoFromPlayerID@GameSettings@@QBEPBVGamePlayerInfo@@I@Z");
     todo("implement");
-    GamePlayerInfo const * __result = _sub_46A0AD(this, arg);
-    return __result;
 }
 
-_extern void _sub_46A842(GameSettings *const, unsigned __int32, PlayerSlotType);
 void GameSettings::setPlayerType(unsigned __int32, PlayerSlotType) // 0x46A842
 {
     mangled_assert("?setPlayerType@GameSettings@@QAEXIW4PlayerSlotType@@@Z");
     todo("implement");
-    _sub_46A842(this, arg, arg);
 }
 
-_extern PlayerSlotType _sub_46A494(GameSettings const *const, unsigned __int32);
 PlayerSlotType GameSettings::getPlayerType(unsigned __int32) const // 0x46A494
 {
     mangled_assert("?getPlayerType@GameSettings@@QBE?AW4PlayerSlotType@@I@Z");
     todo("implement");
-    PlayerSlotType __result = _sub_46A494(this, arg);
-    return __result;
 }
 
-_extern void _sub_46A7AD(GameSettings *const, bool);
 void GameSettings::setAlliedVictory(bool) // 0x46A7AD
 {
     mangled_assert("?setAlliedVictory@GameSettings@@QAEX_N@Z");
     todo("implement");
-    _sub_46A7AD(this, arg);
 }
 
-_extern bool _sub_46A55F(GameSettings const *const);
 bool GameSettings::isAlliedVictory() const // 0x46A55F
 {
     mangled_assert("?isAlliedVictory@GameSettings@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_46A55F(this);
-    return __result;
 }
 
-_extern void _sub_46A86C(GameSettings *const, unsigned __int32, unsigned __int32);
 void GameSettings::setSetting(unsigned __int32, unsigned __int32) // 0x46A86C
 {
     mangled_assert("?setSetting@GameSettings@@QAEXII@Z");
     todo("implement");
-    _sub_46A86C(this, arg, arg);
 }
 
-_extern unsigned __int32 _sub_46A4E3(GameSettings const *const, unsigned __int32);
 unsigned __int32 GameSettings::getSetting(unsigned __int32) const // 0x46A4E3
 {
     mangled_assert("?getSetting@GameSettings@@QBEII@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_46A4E3(this, arg);
-    return __result;
 }
 
-_extern void _sub_46A87B(GameSettings *const, char const *, char const *);
 void GameSettings::setSetting(char const *, char const *) // 0x46A87B
 {
     mangled_assert("?setSetting@GameSettings@@QAEXPBD0@Z");
     todo("implement");
-    _sub_46A87B(this, arg, arg);
 }
 
-_extern char const *_sub_46A4EE(GameSettings const *const, char const *, char const *);
 char const *GameSettings::getSetting(char const *, char const *) const // 0x46A4EE
 {
     mangled_assert("?getSetting@GameSettings@@QBEPBDPBD0@Z");
     todo("implement");
-    char const * __result = _sub_46A4EE(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_46A6E5(GameSettings *const, unsigned __int32);
 void GameSettings::resetPlayer(unsigned __int32) // 0x46A6E5
 {
     mangled_assert("?resetPlayer@GameSettings@@QAEXI@Z");
     todo("implement");
-    _sub_46A6E5(this, arg);
 }
 
-_extern void _sub_46A7F1(GameSettings *const, unsigned __int32);
 void GameSettings::setMaxPlayers(unsigned __int32) // 0x46A7F1
 {
     mangled_assert("?setMaxPlayers@GameSettings@@QAEXI@Z");
     todo("implement");
-    _sub_46A7F1(this, arg);
 }
 
-_extern unsigned __int32 _sub_46A3F6(GameSettings const *const);
 unsigned __int32 GameSettings::findUnusedTeam() const // 0x46A3F6
 {
     mangled_assert("?findUnusedTeam@GameSettings@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_46A3F6(this);
-    return __result;
 }
 
-_extern void _sub_46A307(GameSettings *const, unsigned __int32, unsigned __int32, PlayerSlotType, wchar_t const *);
 void GameSettings::addPlayer(unsigned __int32, unsigned __int32, PlayerSlotType, wchar_t const *) // 0x46A307
 {
     mangled_assert("?addPlayer@GameSettings@@QAEXIIW4PlayerSlotType@@PB_W@Z");
     todo("implement");
-    _sub_46A307(this, arg, arg, arg, arg);
 }
 
-_extern void _sub_46A27A(GameSettings *const, __int32, __int32, __int32, wchar_t const *, unsigned __int32);
 void GameSettings::SetHumanPlayer(__int32, __int32, __int32, wchar_t const *, unsigned __int32) // 0x46A27A
 {
     mangled_assert("?SetHumanPlayer@GameSettings@@QAEXHHHPB_WI@Z");
     todo("implement");
-    _sub_46A27A(this, arg, arg, arg, arg, arg);
 }
 
-_extern void _sub_46A213(GameSettings *const, __int32, __int32, __int32, wchar_t const *, unsigned __int32, __int32);
 void GameSettings::SetCPUPlayer(__int32, __int32, __int32, wchar_t const *, unsigned __int32, __int32) // 0x46A213
 {
     mangled_assert("?SetCPUPlayer@GameSettings@@QAEXHHHPB_WIH@Z");
     todo("implement");
-    _sub_46A213(this, arg, arg, arg, arg, arg, arg);
 }
 
-_extern unsigned __int32 _sub_46A0CA(GameSettings const *const, unsigned __int32);
 unsigned __int32 GameSettings::GetIndexFromNetworkID(unsigned __int32) const // 0x46A0CA
 {
     mangled_assert("?GetIndexFromNetworkID@GameSettings@@QBEII@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_46A0CA(this, arg);
-    return __result;
 }
 
-_extern void _sub_46A857(GameSettings *const, char const *);
 void GameSettings::setScriptFile(char const *) // 0x46A857
 {
     mangled_assert("?setScriptFile@GameSettings@@QAEXPBD@Z");
     todo("implement");
-    _sub_46A857(this, arg);
 }
 
-_extern char const *_sub_46A4A9(GameSettings const *const);
 char const *GameSettings::getScriptFile() const // 0x46A4A9
 {
     mangled_assert("?getScriptFile@GameSettings@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_46A4A9(this);
-    return __result;
 }
 
-_extern void _sub_46A7B7(GameSettings *const, bool);
 void GameSettings::setDebugOutOfSync(bool) // 0x46A7B7
 {
     mangled_assert("?setDebugOutOfSync@GameSettings@@QAEX_N@Z");
     todo("implement");
-    _sub_46A7B7(this, arg);
 }
 
-_extern bool _sub_46A427(GameSettings const *const);
 bool GameSettings::getDebugOutOfSync() const // 0x46A427
 {
     mangled_assert("?getDebugOutOfSync@GameSettings@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_46A427(this);
-    return __result;
 }
 
-_extern void _sub_46A3AE(GameSettings *const, bool);
 void GameSettings::enableSyncErrorRecovery(bool) // 0x46A3AE
 {
     mangled_assert("?enableSyncErrorRecovery@GameSettings@@QAEX_N@Z");
     todo("implement");
-    _sub_46A3AE(this, arg);
 }
 
-_extern bool _sub_46A36C(GameSettings const *const);
 bool GameSettings::allowSyncErrorRecovery() const // 0x46A36C
 {
     mangled_assert("?allowSyncErrorRecovery@GameSettings@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_46A36C(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_46A551(GameSettings const *const);
 unsigned __int32 GameSettings::getSyncErrorRecoveryFramePeriod() const // 0x46A551
 {
     mangled_assert("?getSyncErrorRecoveryFramePeriod@GameSettings@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_46A551(this);
-    return __result;
 }
 
-_extern void _sub_46A96F(GameSettings *const, unsigned __int32);
 void GameSettings::setSyncErrorRecoveryFramePeriod(unsigned __int32) // 0x46A96F
 {
     mangled_assert("?setSyncErrorRecoveryFramePeriod@GameSettings@@QAEXI@Z");
     todo("implement");
-    _sub_46A96F(this, arg);
 }
 
-_extern unsigned __int32 _sub_46A558(GameSettings const *const);
 unsigned __int32 GameSettings::getSyncErrorRecoveryNbAllowedPerPeriod() const // 0x46A558
 {
     mangled_assert("?getSyncErrorRecoveryNbAllowedPerPeriod@GameSettings@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_46A558(this);
-    return __result;
 }
 
-_extern void _sub_46A97C(GameSettings *const, unsigned __int32);
 void GameSettings::setSyncErrorRecoveryNbAllowedPerPeriod(unsigned __int32) // 0x46A97C
 {
     mangled_assert("?setSyncErrorRecoveryNbAllowedPerPeriod@GameSettings@@QAEXI@Z");
     todo("implement");
-    _sub_46A97C(this, arg);
 }
 
-_extern void _sub_46A962(GameSettings *const, SyncCheckingLevel);
 void GameSettings::setSyncCheckingLevel(SyncCheckingLevel) // 0x46A962
 {
     mangled_assert("?setSyncCheckingLevel@GameSettings@@QAEXW4SyncCheckingLevel@@@Z");
     todo("implement");
-    _sub_46A962(this, arg);
 }
 
-_extern SyncCheckingLevel _sub_46A54A(GameSettings const *const);
 SyncCheckingLevel GameSettings::getSyncCheckingLevel() const // 0x46A54A
 {
     mangled_assert("?getSyncCheckingLevel@GameSettings@@QBE?AW4SyncCheckingLevel@@XZ");
     todo("implement");
-    SyncCheckingLevel __result = _sub_46A54A(this);
-    return __result;
 }
 
-_extern void _sub_46A955(GameSettings *const, unsigned __int32);
 void GameSettings::setSyncCheckingBufferSize(unsigned __int32) // 0x46A955
 {
     mangled_assert("?setSyncCheckingBufferSize@GameSettings@@QAEXI@Z");
     todo("implement");
-    _sub_46A955(this, arg);
 }
 
-_extern unsigned __int32 _sub_46A543(GameSettings const *const);
 unsigned __int32 GameSettings::getSyncCheckingBufferSize() const // 0x46A543
 {
     mangled_assert("?getSyncCheckingBufferSize@GameSettings@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_46A543(this);
-    return __result;
 }
 
-_extern _sub_469F06(GameResult *const);
 GameResult::GameResult() // 0x469F06
 {
     mangled_assert("??0GameResult@@QAE@XZ");
     todo("implement");
-    _sub_469F06(this);
 }
 
-_extern void _sub_46A2D4(GameResult *const, bool);
 void GameResult::SetScenarioSuccess(bool) // 0x46A2D4
 {
     mangled_assert("?SetScenarioSuccess@GameResult@@QAEX_N@Z");
     todo("implement");
-    _sub_46A2D4(this, arg);
 }
 
-_extern bool _sub_46A160(GameResult const *const);
 bool GameResult::GetScenarioSuccess() const // 0x46A160
 {
     mangled_assert("?GetScenarioSuccess@GameResult@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_46A160(this);
-    return __result;
 }
 
 /* ---------- private code */

@@ -162,127 +162,89 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_10013717(RamStream *const);
 RamStream::RamStream() // 0x10013717
 {
     mangled_assert("??0RamStream@@QAE@XZ");
     todo("implement");
-    _sub_10013717(this);
 }
 
-_extern void _sub_1001374A(RamStream *const);
 RamStream::~RamStream() // 0x1001374A
 {
     mangled_assert("??1RamStream@@UAE@XZ");
     todo("implement");
-    _sub_1001374A(this);
 }
 
-_extern bool _sub_10013844(RamStream *const, unsigned __int32);
 bool RamStream::Open(unsigned __int32) // 0x10013844
 {
     mangled_assert("?Open@RamStream@@QAE_NI@Z");
     todo("implement");
-    bool __result = _sub_10013844(this, arg);
-    return __result;
 }
 
-_extern bool _sub_10013777(RamStream *const, void *, unsigned __int32, bool, StreamMode);
 bool RamStream::Attach(void *, unsigned __int32, bool, StreamMode) // 0x10013777
 {
     mangled_assert("?Attach@RamStream@@QAE_NPAXI_NW4StreamMode@@@Z");
     todo("implement");
-    bool __result = _sub_10013777(this, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern void *_sub_100137D7(RamStream *const);
 void *RamStream::Detach() // 0x100137D7
 {
     mangled_assert("?Detach@RamStream@@QAEPAXXZ");
     todo("implement");
-    void * __result = _sub_100137D7(this);
-    return __result;
 }
 
-_extern unsigned long _sub_10013893(RamStream *const, void *, unsigned long);
 unsigned long RamStream::Read(void *, unsigned long) // 0x10013893
 {
     mangled_assert("?Read@RamStream@@UAEKPAXK@Z");
     todo("implement");
-    unsigned long __result = _sub_10013893(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_10013811(RamStream *const);
 void RamStream::Flush() // 0x10013811
 {
     mangled_assert("?Flush@RamStream@@UAEXXZ");
     todo("implement");
-    _sub_10013811(this);
 }
 
-_extern unsigned long _sub_10013913(RamStream *const, unsigned long);
 unsigned long RamStream::SetPos(unsigned long) // 0x10013913
 {
     mangled_assert("?SetPos@RamStream@@UAEKK@Z");
     todo("implement");
-    unsigned long __result = _sub_10013913(this, arg);
-    return __result;
 }
 
-_extern unsigned long _sub_1001383D(RamStream *const);
 unsigned long RamStream::GetPos() // 0x1001383D
 {
     mangled_assert("?GetPos@RamStream@@UAEKXZ");
     todo("implement");
-    unsigned long __result = _sub_1001383D(this);
-    return __result;
 }
 
-_extern unsigned long _sub_10013819(RamStream *const);
 unsigned long RamStream::GetLen() // 0x10013819
 {
     mangled_assert("?GetLen@RamStream@@UAEKXZ");
     todo("implement");
-    unsigned long __result = _sub_10013819(this);
-    return __result;
 }
 
-_extern void _sub_10013943(RamStream *const, StreamMode);
 void RamStream::SetStreamMode(StreamMode) // 0x10013943
 {
     mangled_assert("?SetStreamMode@RamStream@@UAEXW4StreamMode@@@Z");
     todo("implement");
-    _sub_10013943(this, arg);
 }
 
-_extern unsigned long _sub_10013946(RamStream *const, void const *, unsigned long);
 unsigned long RamStream::Write(void const *, unsigned long) // 0x10013946
 {
     mangled_assert("?Write@RamStream@@UAEKPBXK@Z");
     todo("implement");
-    unsigned long __result = _sub_10013946(this, arg, arg);
-    return __result;
 }
 
-_extern void *_sub_10013812(RamStream *const);
 void *RamStream::GetBuffer() // 0x10013812
 {
     mangled_assert("?GetBuffer@RamStream@@QAEPAXXZ");
     todo("implement");
-    void * __result = _sub_10013812(this);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern unsigned __int32 _sub_100137C3(unsigned __int32);
 _static unsigned __int32 CalcNextSize(unsigned __int32 currentSize) // 0x100137C3
 {
     mangled_assert("CalcNextSize");
     todo("implement");
-    unsigned __int32 __result = _sub_100137C3(currentSize);
-    return __result;
 }
 #endif

@@ -141,121 +141,88 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_4C1C46(NebulaGroupBase *const);
 NebulaGroupBase::NebulaGroupBase() // 0x4C1C46
 {
     mangled_assert("??0NebulaGroupBase@@QAE@XZ");
     todo("implement");
-    _sub_4C1C46(this);
 }
 
-_extern _sub_4C1BFF(NebulaGroupBase *const, SaveGameData *);
 NebulaGroupBase::NebulaGroupBase(SaveGameData *) // 0x4C1BFF
 {
     mangled_assert("??0NebulaGroupBase@@QAE@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_4C1BFF(this, arg);
 }
 
-_extern void _sub_4C1E30(NebulaGroupBase *const, Squadron *);
 void NebulaGroupBase::addCollidingSquadron(Squadron *) // 0x4C1E30
 {
     mangled_assert("?addCollidingSquadron@NebulaGroupBase@@QAEXPAVSquadron@@@Z");
     todo("implement");
-    _sub_4C1E30(this, arg);
 }
 
-_extern bool _sub_4C2087(NebulaGroupBase *const, float);
 bool NebulaGroupBase::update(float) // 0x4C2087
 {
     mangled_assert("?update@NebulaGroupBase@@UAE_NM@Z");
     todo("implement");
-    bool __result = _sub_4C2087(this, arg);
-    return __result;
 }
 
-_extern void _sub_4C209D(NebulaGroupBase *const, float);
 void NebulaGroupBase::updateSquadronsInside(float) // 0x4C209D
 {
     mangled_assert("?updateSquadronsInside@NebulaGroupBase@@IAEXM@Z");
     todo("implement");
-    _sub_4C209D(this, arg);
 }
 
-_extern void _sub_4C1EFC(NebulaGroupBase const *const, SOBGroup &, unsigned __int32);
 void NebulaGroupBase::getSquadronsInside(SOBGroup &, unsigned __int32) const // 0x4C1EFC
 {
     mangled_assert("?getSquadronsInside@NebulaGroupBase@@QBEXAAVSOBGroup@@I@Z");
     todo("implement");
-    _sub_4C1EFC(this, arg, arg);
 }
 
-_extern bool _sub_4C1E55(NebulaGroupBase const *const, SOBGroup const &);
 bool NebulaGroupBase::areAnySquadronsInside(SOBGroup const &) const // 0x4C1E55
 {
     mangled_assert("?areAnySquadronsInside@NebulaGroupBase@@QBE_NABVSOBGroup@@@Z");
     todo("implement");
-    bool __result = _sub_4C1E55(this, arg);
-    return __result;
 }
 
-_extern void _sub_4C1FB3(NebulaGroupBase const *const, SquadronList &);
 void NebulaGroupBase::removeSquadronsInside(SquadronList &) const // 0x4C1FB3
 {
     mangled_assert("?removeSquadronsInside@NebulaGroupBase@@QBEXAAVSquadronList@@@Z");
     todo("implement");
-    _sub_4C1FB3(this, arg);
 }
 
-_extern bool _sub_4C1E93(NebulaGroupBase const *const, SOBGroup const &);
 bool NebulaGroupBase::areAnySquadronsOutside(SOBGroup const &) const // 0x4C1E93
 {
     mangled_assert("?areAnySquadronsOutside@NebulaGroupBase@@QBE_NABVSOBGroup@@@Z");
     todo("implement");
-    bool __result = _sub_4C1E93(this, arg);
-    return __result;
 }
 
-_extern void _sub_4C16CA(void *, SaveGameData *, SaveType);
 void NebulaGroupBase::saveSquadronsInside(void *objectPtr, SaveGameData *saveGameData, SaveType savetype) // 0x4C16CA
 {
     mangled_assert("?saveSquadronsInside@NebulaGroupBase@@KGXPAXPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    _sub_4C16CA(objectPtr, saveGameData, savetype);
 }
 
-_extern void _sub_4C1720(void *, SaveGameData *);
 void NebulaGroupBase::restoreSquadronsInside(void *objectPtr, SaveGameData *saveGameData) // 0x4C1720
 {
     mangled_assert("?restoreSquadronsInside@NebulaGroupBase@@KGXPAXPAVSaveGameData@@@Z");
     todo("implement");
-    _sub_4C1720(objectPtr, saveGameData);
 }
 
-_extern void _sub_4C1FB2(NebulaGroupBase *const);
 void NebulaGroupBase::postRestore() // 0x4C1FB2
 {
     mangled_assert("?postRestore@NebulaGroupBase@@UAEXXZ");
     todo("implement");
-    _sub_4C1FB2(this);
 }
 
-_extern bool _sub_4C200A(NebulaGroupBase *const, SaveGameData *);
 bool NebulaGroupBase::restore(SaveGameData *) // 0x4C200A
 {
     mangled_assert("?restore@NebulaGroupBase@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_4C200A(this, arg);
-    return __result;
 }
 
-_extern bool _sub_4C2048(NebulaGroupBase *const, SaveGameData *, SaveType);
 bool NebulaGroupBase::save(SaveGameData *, SaveType) // 0x4C2048
 {
     mangled_assert("?save@NebulaGroupBase@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_4C2048(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

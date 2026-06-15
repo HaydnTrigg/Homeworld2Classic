@@ -57,67 +57,47 @@ _static
 
 /* ---------- public code */
 
-_extern bool _sub_469A57(BuiltinSource *const, char *, char const *, StreamMode const);
 bool BuiltinSource::ConvertFromAlias(char *, char const *, StreamMode const) // 0x469A57
 {
     mangled_assert("?ConvertFromAlias@BuiltinSource@@UAE_NPADPBDW4StreamMode@@@Z");
     todo("implement");
-    bool __result = _sub_469A57(this, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_469A6B(BuiltinSource *const, char *, char const *);
 bool BuiltinSource::ConvertToAlias(char *, char const *) // 0x469A6B
 {
     mangled_assert("?ConvertToAlias@BuiltinSource@@UAE_NPADPBD@Z");
     todo("implement");
-    bool __result = _sub_469A6B(this, arg, arg);
-    return __result;
 }
 
-_extern ByteStream *_sub_469ACA(BuiltinSource *const, char const *, StreamMode);
 ByteStream *BuiltinSource::FileOpen(char const *, StreamMode) // 0x469ACA
 {
     mangled_assert("?FileOpen@BuiltinSource@@UAEPAVByteStream@@PBDW4StreamMode@@@Z");
     todo("implement");
-    ByteStream * __result = _sub_469ACA(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_469A7F(BuiltinSource *const, char const *);
 bool BuiltinSource::FileDel(char const *) // 0x469A7F
 {
     mangled_assert("?FileDel@BuiltinSource@@UAE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_469A7F(this, arg);
-    return __result;
 }
 
-_extern FilePath::FILE_Type _sub_469B44(BuiltinSource *const, char const *, StreamMode);
 FilePath::FILE_Type BuiltinSource::FileType(char const *, StreamMode) // 0x469B44
 {
     mangled_assert("?FileType@BuiltinSource@@UAE?AW4FILE_Type@FilePath@@PBDW4StreamMode@@@Z");
     todo("implement");
-    FilePath::FILE_Type __result = _sub_469B44(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_469A84(BuiltinSource *const, char const *, std::vector<fstring<260>,std::allocator<fstring<260> > > &);
 void BuiltinSource::FileList(char const *, std::vector<fstring<260>,std::allocator<fstring<260> > > &) // 0x469A84
 {
     mangled_assert("?FileList@BuiltinSource@@UAEXPBDAAV?$vector@V?$fstring@$0BAE@@@V?$allocator@V?$fstring@$0BAE@@@@std@@@std@@@Z");
     todo("implement");
-    _sub_469A84(this, arg, arg);
 }
 
 /* ---------- private code */
 
-_extern BuiltinBadge const *_sub_469B4A(char const *);
 _static BuiltinBadge const *FindBadge(char const *filename) // 0x469B4A
 {
     mangled_assert("FindBadge");
     todo("implement");
-    BuiltinBadge const * __result = _sub_469B4A(filename);
-    return __result;
 }
 #endif

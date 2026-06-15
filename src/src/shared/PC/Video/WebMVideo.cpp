@@ -178,102 +178,71 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_6FC204(WebMVideo *const);
 WebMVideo::WebMVideo() // 0x6FC204
 {
     mangled_assert("??0WebMVideo@@QAE@XZ");
     todo("implement");
-    _sub_6FC204(this);
 }
 
-_extern unsigned long _sub_6FC667(WebMVideo *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, void *, unsigned __int32 const);
 unsigned long WebMVideo::Open(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, void *, unsigned __int32 const) // 0x6FC667
 {
     mangled_assert("?Open@WebMVideo@@UAEKABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAXI@Z");
     todo("implement");
-    unsigned long __result = _sub_6FC667(this, arg, arg, arg);
-    return __result;
 }
 
-_extern unsigned long _sub_6FC785(WebMVideo *const, void *);
 unsigned long WebMVideo::Play(void *) // 0x6FC785
 {
     mangled_assert("?Play@WebMVideo@@UAEKPAX@Z");
     todo("implement");
-    unsigned long __result = _sub_6FC785(this, arg);
-    return __result;
 }
 
-_extern unsigned long _sub_6FC41B(WebMVideo *const, unsigned long const, unsigned long &);
 unsigned long WebMVideo::GetFrame(unsigned long const, unsigned long &) // 0x6FC41B
 {
     mangled_assert("?GetFrame@WebMVideo@@UAEKKAAK@Z");
     todo("implement");
-    unsigned long __result = _sub_6FC41B(this, arg, arg);
-    return __result;
 }
 
-_extern unsigned long _sub_6FC81D(WebMVideo *const);
 unsigned long WebMVideo::Stop() // 0x6FC81D
 {
     mangled_assert("?Stop@WebMVideo@@UAEKXZ");
     todo("implement");
-    unsigned long __result = _sub_6FC81D(this);
-    return __result;
 }
 
-_extern unsigned long _sub_6FC25B(WebMVideo *const);
 unsigned long WebMVideo::Close() // 0x6FC25B
 {
     mangled_assert("?Close@WebMVideo@@UAEKXZ");
     todo("implement");
-    unsigned long __result = _sub_6FC25B(this);
-    return __result;
 }
 
-_extern unsigned long _sub_6FC620(WebMVideo const *const, unsigned __int32 &, unsigned __int32 &);
 unsigned long WebMVideo::GetFrameSize(unsigned __int32 &, unsigned __int32 &) const // 0x6FC620
 {
     mangled_assert("?GetFrameSize@WebMVideo@@UBEKAAI0@Z");
     todo("implement");
-    unsigned long __result = _sub_6FC620(this, arg, arg);
-    return __result;
 }
 
-_extern unsigned long _sub_6FC3FF(WebMVideo const *const, double &);
 unsigned long WebMVideo::GetFPS(double &) const // 0x6FC3FF
 {
     mangled_assert("?GetFPS@WebMVideo@@UBEKAAN@Z");
     todo("implement");
-    unsigned long __result = _sub_6FC3FF(this, arg);
-    return __result;
 }
 
-_extern unsigned long _sub_6FC64E(WebMVideo const *const, unsigned __int32 &);
 unsigned long WebMVideo::GetNumFrames(unsigned __int32 &) const // 0x6FC64E
 {
     mangled_assert("?GetNumFrames@WebMVideo@@UBEKAAI@Z");
     todo("implement");
-    unsigned long __result = _sub_6FC64E(this, arg);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern unsigned char _sub_6FC243(__int32);
 _static unsigned char ClampBYTE(__int32 n) // 0x6FC243
 {
     mangled_assert("ClampBYTE");
     todo("implement");
-    unsigned char __result = _sub_6FC243(n);
-    return __result;
 }
 
-_extern void _sub_6FC295(vpx_image *, unsigned char *);
 _static void ConvertVPXtoRGB(vpx_image *pVPXImg, unsigned char *pRGBBuf) // 0x6FC295
 {
     mangled_assert("ConvertVPXtoRGB");
     todo("implement");
-    _sub_6FC295(pVPXImg, pRGBBuf);
 }
 #endif

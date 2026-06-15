@@ -119,21 +119,16 @@ static_assert(sizeof(BitmapFont) == 100, "Invalid BitmapFont size");
 
 /* ---------- public code */
 
-_extern std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &_sub_1004D180(BitmapFont const *const);
 _inline std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &BitmapFont::getFontname() const // 0x1004D180
 {
     mangled_assert("?getFontname@BitmapFont@@QBEABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ");
     todo("implement");
-    std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & __result = _sub_1004D180(this);
-    return __result;
 }
 
-_extern void _sub_1004F570(BitmapFont *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &);
 _inline void BitmapFont::setFontname(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &) // 0x1004F570
 {
     mangled_assert("?setFontname@BitmapFont@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    _sub_1004F570(this, arg);
 }
 
 /* ---------- private code */

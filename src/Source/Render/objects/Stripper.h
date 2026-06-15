@@ -80,49 +80,34 @@ static_assert(sizeof(Stripper) == 3136, "Invalid Stripper size");
 
 /* ---------- public code */
 
-_extern __int32 _sub_100308F0(Stripper const *const);
 _inline __int32 Stripper::GetNumStripVerts() const // 0x100308F0
 {
     mangled_assert("?GetNumStripVerts@Stripper@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_100308F0(this);
-    return __result;
 }
 
-_extern __int32 _sub_10030940(Stripper *const);
 _inline __int32 Stripper::NumStrips() // 0x10030940
 {
     mangled_assert("?NumStrips@Stripper@@QAEHXZ");
     todo("implement");
-    __int32 __result = _sub_10030940(this);
-    return __result;
 }
 
-_extern std::list<StripNode *,std::allocator<StripNode *> > &_sub_10030900(Stripper *const);
 _inline std::list<StripNode *,std::allocator<StripNode *> > &Stripper::GetStripList() // 0x10030900
 {
     mangled_assert("?GetStripList@Stripper@@QAEAAV?$list@PAVStripNode@@V?$allocator@PAVStripNode@@@std@@@std@@XZ");
     todo("implement");
-    std::list<StripNode *,std::allocator<StripNode *> > & __result = _sub_10030900(this);
-    return __result;
 }
 
-_extern __int32 _sub_10030950(Stripper *const);
 _inline __int32 Stripper::NumTris() // 0x10030950
 {
     mangled_assert("?NumTris@Stripper@@QAEHXZ");
     todo("implement");
-    __int32 __result = _sub_10030950(this);
-    return __result;
 }
 
-_extern std::vector<StripPoly,std::allocator<StripPoly> > &_sub_10030910(Stripper *const);
 _inline std::vector<StripPoly,std::allocator<StripPoly> > &Stripper::GetTriList() // 0x10030910
 {
     mangled_assert("?GetTriList@Stripper@@QAEAAV?$vector@UStripPoly@@V?$allocator@UStripPoly@@@std@@@std@@XZ");
     todo("implement");
-    std::vector<StripPoly,std::allocator<StripPoly> > & __result = _sub_10030910(this);
-    return __result;
 }
 
 /* ---------- private code */

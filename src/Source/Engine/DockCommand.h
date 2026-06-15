@@ -417,100 +417,70 @@ static_assert(sizeof(DockCommandStaticInfo) == 12, "Invalid DockCommandStaticInf
 
 /* ---------- public code */
 
-_extern Ship *_sub_4AE4A8(DockCommand const *const);
 _inline Ship *DockCommand::getDockWith() const // 0x4AE4A8
 {
     mangled_assert("?getDockWith@DockCommand@@QBEPAVShip@@XZ");
     todo("implement");
-    Ship * __result = _sub_4AE4A8(this);
-    return __result;
 }
 
-_extern bool _sub_4893CA(DockCommand *const);
 _inline bool DockCommand::isDocked() // 0x4893CA
 {
     mangled_assert("?isDocked@DockCommand@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_4893CA(this);
-    return __result;
 }
 
-_extern void _sub_4AFB2D(DockCommand *const, float);
 _inline void DockCommand::setLaunchTime(float) // 0x4AFB2D
 {
     mangled_assert("?setLaunchTime@DockCommand@@QAEXM@Z");
     todo("implement");
-    _sub_4AFB2D(this, arg);
 }
 
-_extern float _sub_4AE4CA(DockCommand const *const);
 _inline float DockCommand::getLaunchTime() const // 0x4AE4CA
 {
     mangled_assert("?getLaunchTime@DockCommand@@QBEMXZ");
     todo("implement");
-    float __result = _sub_4AE4CA(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_4AE487(DockCommand const *const);
 _inline unsigned __int32 DockCommand::getDockPathID() const // 0x4AE487
 {
     mangled_assert("?getDockPathID@DockCommand@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_4AE487(this);
-    return __result;
 }
 
-_extern bool _sub_4AE70E(DockCommand const *const);
 _inline bool DockCommand::getStayDocked() const // 0x4AE70E
 {
     mangled_assert("?getStayDocked@DockCommand@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_4AE70E(this);
-    return __result;
 }
 
-_extern void _sub_723C0D(DockCommand *const, bool);
 _inline void DockCommand::setStayDocked(bool) // 0x723C0D
 {
     mangled_assert("?setStayDocked@DockCommand@@QAEX_N@Z");
     todo("implement");
-    _sub_723C0D(this, arg);
 }
 
-_extern void _sub_69C8FB(DockCommand *const, DockCommand::DockPreferenceOverride);
 _inline void DockCommand::setDockPathPreference(DockCommand::DockPreferenceOverride) // 0x69C8FB
 {
     mangled_assert("?setDockPathPreference@DockCommand@@QAEXW4DockPreferenceOverride@1@@Z");
     todo("implement");
-    _sub_69C8FB(this, arg);
 }
 
-_extern DockCommand::DockState _sub_495597(DockCommand const *const);
 _inline DockCommand::DockState DockCommand::getDockState() const // 0x495597
 {
     mangled_assert("?getDockState@DockCommand@@QBE?AW4DockState@1@XZ");
     todo("implement");
-    DockCommand::DockState __result = _sub_495597(this);
-    return __result;
 }
 
-_extern bool _sub_69A3B8(DockCommand *const);
 _inline bool DockCommand::isDeterministic() // 0x69A3B8
 {
     mangled_assert("?isDeterministic@DockCommand@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_69A3B8(this);
-    return __result;
 }
 
-_extern char const *_sub_69A77E(DockCommand *const);
 _inline char const *DockCommand::saveToken() // 0x69A77E
 {
     mangled_assert("?saveToken@DockCommand@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_69A77E(this);
-    return __result;
 }
 
 /* ---------- private code */

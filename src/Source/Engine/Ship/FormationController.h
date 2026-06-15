@@ -170,172 +170,124 @@ static_assert(sizeof(FormationController) == 588, "Invalid FormationController s
 
 /* ---------- public code */
 
-_extern DynamicPoint const &_sub_65799D(FormationController *const);
 _inline DynamicPoint const &FormationController::getGoal() // 0x65799D
 {
     mangled_assert("?getGoal@FormationController@@QAEABVDynamicPoint@@XZ");
     todo("implement");
-    DynamicPoint const & __result = _sub_65799D(this);
-    return __result;
 }
 
-_extern void _sub_658C97(FormationController *const, float);
 _inline void FormationController::setGoalReachEpsilon(float) // 0x658C97
 {
     mangled_assert("?setGoalReachEpsilon@FormationController@@QAEXM@Z");
     todo("implement");
-    _sub_658C97(this, arg);
 }
 
-_extern float _sub_6579A4(FormationController *const);
 _inline float FormationController::getGoalReachEpsilonSqr() // 0x6579A4
 {
     mangled_assert("?getGoalReachEpsilonSqr@FormationController@@QAEMXZ");
     todo("implement");
-    float __result = _sub_6579A4(this);
-    return __result;
 }
 
-_extern float _sub_657996(FormationController *const);
 _inline float FormationController::getForwardEpsilonSqr() // 0x657996
 {
     mangled_assert("?getForwardEpsilonSqr@FormationController@@QAEMXZ");
     todo("implement");
-    float __result = _sub_657996(this);
-    return __result;
 }
 
-_extern float _sub_657C0F(FormationController *const);
 _inline float FormationController::getUpEpsilonSqr() // 0x657C0F
 {
     mangled_assert("?getUpEpsilonSqr@FormationController@@QAEMXZ");
     todo("implement");
-    float __result = _sub_657C0F(this);
-    return __result;
 }
 
-_extern void _sub_4B569F(FormationController *const, bool);
 _inline void FormationController::setPointInDirectionFlying(bool) // 0x4B569F
 {
     mangled_assert("?setPointInDirectionFlying@FormationController@@QAEX_N@Z");
     todo("implement");
-    _sub_4B569F(this, arg);
 }
 
-_extern void _sub_658DDF(FormationController *const, DynamicPoint const &, float);
 _inline void FormationController::setPointToTarget(DynamicPoint const &, float) // 0x658DDF
 {
     mangled_assert("?setPointToTarget@FormationController@@QAEXABVDynamicPoint@@M@Z");
     todo("implement");
-    _sub_658DDF(this, arg, arg);
 }
 
-_extern void _sub_658C8A(FormationController *const, ForceBehaviour);
 _inline void FormationController::setForceBehaviour(ForceBehaviour) // 0x658C8A
 {
     mangled_assert("?setForceBehaviour@FormationController@@QAEXW4ForceBehaviour@@@Z");
     todo("implement");
-    _sub_658C8A(this, arg);
 }
 
-_extern void _sub_658CAC(FormationController *const, bool);
 _inline void FormationController::setMatchGoalHeading(bool) // 0x658CAC
 {
     mangled_assert("?setMatchGoalHeading@FormationController@@QAEX_N@Z");
     todo("implement");
-    _sub_658CAC(this, arg);
 }
 
-_extern void _sub_658D2A(FormationController *const, bool);
 _inline void FormationController::setNeverReturnFinished(bool) // 0x658D2A
 {
     mangled_assert("?setNeverReturnFinished@FormationController@@QAEX_N@Z");
     todo("implement");
-    _sub_658D2A(this, arg);
 }
 
-_extern void _sub_658C6C(FormationController *const, bool);
 _inline void FormationController::setDontSlowDown(bool) // 0x658C6C
 {
     mangled_assert("?setDontSlowDown@FormationController@@QAEX_N@Z");
     todo("implement");
-    _sub_658C6C(this, arg);
 }
 
-_extern void _sub_659115(FormationController *const, bool, float);
 _inline void FormationController::setUseMaxSpeed(bool, float) // 0x659115
 {
     mangled_assert("?setUseMaxSpeed@FormationController@@QAEX_NM@Z");
     todo("implement");
-    _sub_659115(this, arg, arg);
 }
 
-_extern void _sub_659130(FormationController *const, bool, float);
 _inline void FormationController::setUseMinSpeed(bool, float) // 0x659130
 {
     mangled_assert("?setUseMinSpeed@FormationController@@QAEX_NM@Z");
     todo("implement");
-    _sub_659130(this, arg, arg);
 }
 
-_extern void _sub_658C7D(FormationController *const, bool);
 _inline void FormationController::setEnforceMaximumAngles(bool) // 0x658C7D
 {
     mangled_assert("?setEnforceMaximumAngles@FormationController@@QAEX_N@Z");
     todo("implement");
-    _sub_658C7D(this, arg);
 }
 
-_extern bool _sub_657511(FormationController *const);
 _inline bool FormationController::getEnforceMaximumAngles() // 0x657511
 {
     mangled_assert("?getEnforceMaximumAngles@FormationController@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_657511(this);
-    return __result;
 }
 
-_extern bool _sub_657C67(FormationController *const);
 _inline bool FormationController::isNewGoal() // 0x657C67
 {
     mangled_assert("?isNewGoal@FormationController@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_657C67(this);
-    return __result;
 }
 
-_extern void _sub_65901C(FormationController *const, float);
 _inline void FormationController::setThrusterUsage(float) // 0x65901C
 {
     mangled_assert("?setThrusterUsage@FormationController@@QAEXM@Z");
     todo("implement");
-    _sub_65901C(this, arg);
 }
 
-_extern void _sub_658C5B(FormationController *const, float);
 _inline void FormationController::setCosAccelerationAngle(float) // 0x658C5B
 {
     mangled_assert("?setCosAccelerationAngle@FormationController@@QAEXM@Z");
     todo("implement");
-    _sub_658C5B(this, arg);
 }
 
-_extern bool _sub_4B526C(FormationController *const);
 _inline bool FormationController::isDeterministic() // 0x4B526C
 {
     mangled_assert("?isDeterministic@FormationController@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4B526C(this);
-    return __result;
 }
 
-_extern char const *_sub_4B567C(FormationController *const);
 _inline char const *FormationController::saveToken() // 0x4B567C
 {
     mangled_assert("?saveToken@FormationController@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4B567C(this);
-    return __result;
 }
 
 /* ---------- private code */

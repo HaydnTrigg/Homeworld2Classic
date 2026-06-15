@@ -112,39 +112,28 @@ static_assert(sizeof(Visibility) == 52, "Invalid Visibility size");
 
 /* ---------- public code */
 
-_extern void _sub_477D04(Visibility *const, SobID const &);
 _inline void Visibility::SetSobOwner(SobID const &) // 0x477D04
 {
     mangled_assert("?SetSobOwner@Visibility@@QAEXABVSobID@@@Z");
     todo("implement");
-    _sub_477D04(this, arg);
 }
 
-_extern VisibilityLevel _sub_4436CE(Visibility const *const, unsigned __int32);
 _inline VisibilityLevel Visibility::getVisibility(unsigned __int32) const // 0x4436CE
 {
     mangled_assert("?getVisibility@Visibility@@QBE?AW4VisibilityLevel@@I@Z");
     todo("implement");
-    VisibilityLevel __result = _sub_4436CE(this, arg);
-    return __result;
 }
 
-_extern bool _sub_484229(Visibility *const);
 _inline bool Visibility::isDeterministic() // 0x484229
 {
     mangled_assert("?isDeterministic@Visibility@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_484229(this);
-    return __result;
 }
 
-_extern char const *_sub_48442D(Visibility *const);
 _inline char const *Visibility::saveToken() // 0x48442D
 {
     mangled_assert("?saveToken@Visibility@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_48442D(this);
-    return __result;
 }
 
 /* ---------- private code */

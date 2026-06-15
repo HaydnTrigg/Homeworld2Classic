@@ -29,13 +29,10 @@ extern __int32 lua_print(char const *str);
 
 /* ---------- public code */
 
-_extern __int32 _sub_100096A9(char const *);
 __int32 lua_print(char const *str) // 0x100096A9
 {
     mangled_assert("_lua_print@4");
     todo("implement");
-    __int32 __result = _sub_100096A9(str);
-    return __result;
 }
 
 /* ---------- private code */

@@ -385,38 +385,28 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_6D5AA4(Net::SessionEnumerator *const, _GUID const &, Net::Address const *);
 Net::SessionEnumerator::SessionEnumerator(_GUID const &, Net::Address const *) // 0x6D5AA4
 {
     mangled_assert("??0SessionEnumerator@Net@@QAE@ABU_GUID@@PBVAddress@1@@Z");
     todo("implement");
-    _sub_6D5AA4(this, arg, arg);
 }
 
-_extern void _sub_6D5BA8(Net::SessionEnumerator *const);
 Net::SessionEnumerator::~SessionEnumerator() // 0x6D5BA8
 {
     mangled_assert("??1SessionEnumerator@Net@@UAE@XZ");
     todo("implement");
-    _sub_6D5BA8(this);
 }
 
-_extern HRESULT _sub_6D5D29(Net::SessionEnumerator *const, unsigned long, void *);
 HRESULT Net::SessionEnumerator::Callback(unsigned long, void *) // 0x6D5D29
 {
     mangled_assert("?Callback@SessionEnumerator@Net@@EAEJKPAX@Z");
     todo("implement");
-    HRESULT __result = _sub_6D5D29(this, arg, arg);
-    return __result;
 }
 
-_extern HRESULT _sub_6D5C46(Net::SessionEnumerator *const, _DPNMSG_ENUM_HOSTS_RESPONSE const &);
 HRESULT Net::SessionEnumerator::CB_EnumHost(_DPNMSG_ENUM_HOSTS_RESPONSE const &) // 0x6D5C46
 {
     mangled_assert("?CB_EnumHost@SessionEnumerator@Net@@AAEJABU_DPNMSG_ENUM_HOSTS_RESPONSE@@@Z");
     todo("implement");
-    HRESULT __result = _sub_6D5C46(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

@@ -101,13 +101,10 @@ static_assert(sizeof(CameraTuning) == 168, "Invalid CameraTuning size");
 
 /* ---------- public code */
 
-_extern float const _sub_652B1F(CameraTuning const *const);
 _inline float const CameraTuning::getCurrentViewableDistanceSQR() const // 0x652B1F
 {
     mangled_assert("?getCurrentViewableDistanceSQR@CameraTuning@@QBE?BMXZ");
     todo("implement");
-    float const __result = _sub_652B1F(this);
-    return __result;
 }
 
 /* ---------- private code */

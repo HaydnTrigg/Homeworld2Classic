@@ -68,55 +68,40 @@ static_assert(sizeof(CircleStrafeBase) == 148, "Invalid CircleStrafeBase size");
 
 /* ---------- public code */
 
-_extern _sub_6AF032(CircleStrafeBaseStatic *const);
 _inline CircleStrafeBaseStatic::CircleStrafeBaseStatic() // 0x6AF032
 {
     mangled_assert("??0CircleStrafeBaseStatic@@QAE@XZ");
     todo("implement");
-    _sub_6AF032(this);
 }
 
-_extern void _sub_6AF076(CircleStrafeBaseStatic *const);
 _inline CircleStrafeBaseStatic::~CircleStrafeBaseStatic() // 0x6AF076
 {
     mangled_assert("??1CircleStrafeBaseStatic@@UAE@XZ");
     todo("implement");
-    _sub_6AF076(this);
 }
 
-_extern void _sub_6AF0FA(CircleStrafeBase *const);
 _inline void CircleStrafeBase::SetStateToStart() // 0x6AF0FA
 {
     mangled_assert("?SetStateToStart@CircleStrafeBase@@UAEXXZ");
     todo("implement");
-    _sub_6AF0FA(this);
 }
 
-_extern CircleStrafeBaseStatic const *_sub_6AF20A(CircleStrafeBase const *const);
 _inline CircleStrafeBaseStatic const *CircleStrafeBase::getStaticInfo() const // 0x6AF20A
 {
     mangled_assert("?getStaticInfo@CircleStrafeBase@@IBEPBVCircleStrafeBaseStatic@@XZ");
     todo("implement");
-    CircleStrafeBaseStatic const * __result = _sub_6AF20A(this);
-    return __result;
 }
 
-_extern bool _sub_6BD71B(CircleStrafeBase *const);
 _inline bool CircleStrafeBase::isDeterministic() // 0x6BD71B
 {
     mangled_assert("?isDeterministic@CircleStrafeBase@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6BD71B(this);
-    return __result;
 }
 
-_extern char const *_sub_6BD7B7(CircleStrafeBase *const);
 _inline char const *CircleStrafeBase::saveToken() // 0x6BD7B7
 {
     mangled_assert("?saveToken@CircleStrafeBase@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6BD7B7(this);
-    return __result;
 }
 
 /* ---------- private code */

@@ -84,70 +84,52 @@ static_assert(sizeof(CpuBuildManager) == 60, "Invalid CpuBuildManager size");
 
 /* ---------- public code */
 
-_extern void _sub_52BD88(CpuBuildManager *const);
 _inline void CpuBuildManager::ShipDemandClear() // 0x52BD88
 {
     mangled_assert("?ShipDemandClear@CpuBuildManager@@QAEXXZ");
     todo("implement");
-    _sub_52BD88(this);
 }
 
-_extern void _sub_52BE07(CpuBuildManager *const, unsigned __int32, float);
 _inline void CpuBuildManager::ShipDemandSet(unsigned __int32, float) // 0x52BE07
 {
     mangled_assert("?ShipDemandSet@CpuBuildManager@@QAEXIM@Z");
     todo("implement");
-    _sub_52BE07(this, arg, arg);
 }
 
-_extern void _sub_52BD1F(CpuBuildManager *const, unsigned __int32, float);
 _inline void CpuBuildManager::ShipDemandAdd(unsigned __int32, float) // 0x52BD1F
 {
     mangled_assert("?ShipDemandAdd@CpuBuildManager@@QAEXIM@Z");
     todo("implement");
-    _sub_52BD1F(this, arg, arg);
 }
 
-_extern float _sub_52BD90(CpuBuildManager *const, unsigned __int32);
 _inline float CpuBuildManager::ShipDemandGet(unsigned __int32) // 0x52BD90
 {
     mangled_assert("?ShipDemandGet@CpuBuildManager@@QAEMI@Z");
     todo("implement");
-    float __result = _sub_52BD90(this, arg);
-    return __result;
 }
 
-_extern void _sub_52BEA1(CpuBuildManager *const);
 _inline void CpuBuildManager::SubSystemDemandClear() // 0x52BEA1
 {
     mangled_assert("?SubSystemDemandClear@CpuBuildManager@@QAEXXZ");
     todo("implement");
-    _sub_52BEA1(this);
 }
 
-_extern void _sub_52BEB1(CpuBuildManager *const, unsigned __int32, float);
 _inline void CpuBuildManager::SubSystemDemandSet(unsigned __int32, float) // 0x52BEB1
 {
     mangled_assert("?SubSystemDemandSet@CpuBuildManager@@QAEXIM@Z");
     todo("implement");
-    _sub_52BEB1(this, arg, arg);
 }
 
-_extern void _sub_52BE86(CpuBuildManager *const, unsigned __int32, float);
 _inline void CpuBuildManager::SubSystemDemandAdd(unsigned __int32, float) // 0x52BE86
 {
     mangled_assert("?SubSystemDemandAdd@CpuBuildManager@@QAEXIM@Z");
     todo("implement");
-    _sub_52BE86(this, arg, arg);
 }
 
-_extern float _sub_52BEA9(CpuBuildManager *const, unsigned __int32);
 _inline float CpuBuildManager::SubSystemDemandGet(unsigned __int32) // 0x52BEA9
 {
     mangled_assert("?SubSystemDemandGet@CpuBuildManager@@QAEMI@Z");
     todo("implement");
-    float __result = _sub_52BEA9(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

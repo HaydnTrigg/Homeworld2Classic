@@ -262,349 +262,253 @@ _static
 
 /* ---------- public code */
 
-_extern unsigned __int32 _sub_63D715();
 _inline unsigned __int32 chtRandom() // 0x63D715
 {
     mangled_assert("?chtRandom@@YGIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_63D715();
-    return __result;
 }
 
-_extern bool _sub_63F4CE();
 bool SoundEventHandler::initialise() // 0x63F4CE
 {
     mangled_assert("?initialise@SoundEventHandler@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_63F4CE();
-    return __result;
 }
 
-_extern SoundEventHandler *_sub_63F4C8();
 SoundEventHandler *SoundEventHandler::i() // 0x63F4C8
 {
     mangled_assert("?i@SoundEventHandler@@SGPAV1@XZ");
     todo("implement");
-    SoundEventHandler * __result = _sub_63F4C8();
-    return __result;
 }
 
-_extern bool _sub_640762();
 bool SoundEventHandler::shutDown() // 0x640762
 {
     mangled_assert("?shutDown@SoundEventHandler@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_640762();
-    return __result;
 }
 
-_extern void _sub_63CAA4(SoundEventHandler *const);
 SoundEventHandler::~SoundEventHandler() // 0x63CAA4
 {
     mangled_assert("??1SoundEventHandler@@AAE@XZ");
     todo("implement");
-    _sub_63CAA4(this);
 }
 
-_extern void _sub_64071E(SoundEventHandler *const, unsigned __int32);
 void SoundEventHandler::setGlobalFrequencyModifier(unsigned __int32) // 0x64071E
 {
     mangled_assert("?setGlobalFrequencyModifier@SoundEventHandler@@QAEXI@Z");
     todo("implement");
-    _sub_64071E(this, arg);
 }
 
-_extern void _sub_64070D(SoundEventHandler *const, float);
 void SoundEventHandler::setGlobalFrequencyMin(float) // 0x64070D
 {
     mangled_assert("?setGlobalFrequencyMin@SoundEventHandler@@QAEXM@Z");
     todo("implement");
-    _sub_64070D(this, arg);
 }
 
-_extern void _sub_6406FC(SoundEventHandler *const, float);
 void SoundEventHandler::setGlobalFrequencyMax(float) // 0x6406FC
 {
     mangled_assert("?setGlobalFrequencyMax@SoundEventHandler@@QAEXM@Z");
     todo("implement");
-    _sub_6406FC(this, arg);
 }
 
-_extern ChatterEvent *_sub_63F31F(SoundEventHandler *const, chatterevent);
 ChatterEvent *SoundEventHandler::getChatterEventPtr(chatterevent) // 0x63F31F
 {
     mangled_assert("?getChatterEventPtr@SoundEventHandler@@QAEPAVChatterEvent@@W4chatterevent@@@Z");
     todo("implement");
-    ChatterEvent * __result = _sub_63F31F(this, arg);
-    return __result;
 }
 
-_extern void _sub_63D0D1(float);
 void SetFrequencyModifier(float val) // 0x63D0D1
 {
     mangled_assert("?SetFrequencyModifier@@YGXM@Z");
     todo("implement");
-    _sub_63D0D1(val);
 }
 
-_extern void _sub_63D0C0(float);
 void SetFrequencyMin(float val) // 0x63D0C0
 {
     mangled_assert("?SetFrequencyMin@@YGXM@Z");
     todo("implement");
-    _sub_63D0C0(val);
 }
 
-_extern void _sub_63D0AF(float);
 void SetFrequencyMax(float val) // 0x63D0AF
 {
     mangled_assert("?SetFrequencyMax@@YGXM@Z");
     todo("implement");
-    _sub_63D0AF(val);
 }
 
-_extern void _sub_6402DB(char const *, __int32);
 void playSpeechLinked(char const *speechName, __int32 ce) // 0x6402DB
 {
     mangled_assert("?playSpeechLinked@@YGXPBDH@Z");
     todo("implement");
-    _sub_6402DB(speechName, ce);
 }
 
-_extern void _sub_6401C4(char const *);
 void playSpeech(char const *speechName) // 0x6401C4
 {
     mangled_assert("?playSpeech@@YGXPBD@Z");
     todo("implement");
-    _sub_6401C4(speechName);
 }
 
-_extern long _sub_63F507(char const *, char const *, __int32, float, long);
 long internalPlaySpeechActor(char const *speechName, char const *actorName, __int32 numActors, float frequency, long linkHandle) // 0x63F507
 {
     mangled_assert("?internalPlaySpeechActor@@YGJPBD0HMJ@Z");
     todo("implement");
-    long __result = _sub_63F507(speechName, actorName, numActors, frequency, linkHandle);
-    return __result;
 }
 
-_extern void _sub_6401F4(char const *, char const *, __int32, float, __int32);
 void playSpeechActorLinked(char const *speechName, char const *actorName, __int32 numActors, float frequency, __int32 ce) // 0x6401F4
 {
     mangled_assert("?playSpeechActorLinked@@YGXPBD0HMH@Z");
     todo("implement");
-    _sub_6401F4(speechName, actorName, numActors, frequency, ce);
 }
 
-_extern void _sub_6401D2(char const *, char const *, __int32, float);
 void playSpeechActor(char const *speechName, char const *actorName, __int32 numActors, float frequency) // 0x6401D2
 {
     mangled_assert("?playSpeechActor@@YGXPBD0HM@Z");
     todo("implement");
-    _sub_6401D2(speechName, actorName, numActors, frequency);
 }
 
-_extern void _sub_640295(char const *, float);
 void playSpeechFreq(char const *speechName, float freq) // 0x640295
 {
     mangled_assert("?playSpeechFreq@@YGXPBDM@Z");
     todo("implement");
-    _sub_640295(speechName, freq);
 }
 
-_extern char const *_sub_63F335(char const *);
 char const *getFamily(char const *shipName) // 0x63F335
 {
     mangled_assert("?getFamily@@YGPBDPBD@Z");
     todo("implement");
-    char const * __result = _sub_63F335(shipName);
-    return __result;
 }
 
-_extern char const *_sub_63F3D2(unsigned __int32);
 char const *getFamilyWithID(unsigned __int32 id) // 0x63F3D2
 {
     mangled_assert("?getFamilyWithID@@YGPBDI@Z");
     todo("implement");
-    char const * __result = _sub_63F3D2(id);
-    return __result;
 }
 
-_extern _sub_63BF43(SoundEventHandler *const);
 SoundEventHandler::SoundEventHandler() // 0x63BF43
 {
     mangled_assert("??0SoundEventHandler@@AAE@XZ");
     todo("implement");
-    _sub_63BF43(this);
 }
 
-_extern void _sub_63CA22(LuaBinding::ObjInternal4<char const *,char const *,int,float,void,LuaBinding::Functor4Free<char const *,char const *,int,float,void> > *const);
 _inline LuaBinding::ObjInternal4<char const *,char const *,int,float,void,LuaBinding::Functor4Free<char const *,char const *,int,float,void> >::~ObjInternal4<char const *,char const *,int,float,void,LuaBinding::Functor4Free<char const *,char const *,int,float,void> >() // 0x63CA22
 {
     mangled_assert("??1?$ObjInternal4@PBDPBDHMXV?$Functor4Free@PBDPBDHMX@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_63CA22(this);
 }
 
-_extern void _sub_63CA28(LuaBinding::ObjInternal5<char const *,char const *,int,float,int,void,LuaBinding::Functor5Free<char const *,char const *,int,float,int,void> > *const);
 _inline LuaBinding::ObjInternal5<char const *,char const *,int,float,int,void,LuaBinding::Functor5Free<char const *,char const *,int,float,int,void> >::~ObjInternal5<char const *,char const *,int,float,int,void,LuaBinding::Functor5Free<char const *,char const *,int,float,int,void> >() // 0x63CA28
 {
     mangled_assert("??1?$ObjInternal5@PBDPBDHMHXV?$Functor5Free@PBDPBDHMHX@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_63CA28(this);
 }
 
-_extern void _sub_63CA37(std::_List_buy<LuaBinding::Obj,std::allocator<LuaBinding::Obj> > *const);
 _inline std::_List_buy<LuaBinding::Obj,std::allocator<LuaBinding::Obj> >::~_List_buy<LuaBinding::Obj,std::allocator<LuaBinding::Obj> >() // 0x63CA37
 {
     mangled_assert("??1?$_List_buy@VObj@LuaBinding@@V?$allocator@VObj@LuaBinding@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_63CA37(this);
 }
 
-_extern void _sub_63CA67(std::_Tree_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,int>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,int> > > *const);
 _inline std::_Tree_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,int>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,int> > >::~_Tree_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,int>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,int> > >() // 0x63CA67
 {
     mangled_assert("??1?$_Tree_buy@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@std@@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@std@@@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_63CA67(this);
 }
 
-_extern void _sub_63CA70(std::_Tree_comp<0,std::_Tmap_traits<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,int,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,int> >,0> > *const);
 _inline std::_Tree_comp<0,std::_Tmap_traits<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,int,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,int> >,0> >::~_Tree_comp<0,std::_Tmap_traits<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,int,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,int> >,0> >() // 0x63CA70
 {
     mangled_assert("??1?$_Tree_comp@$0A@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HU?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@std@@@2@$0A@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_63CA70(this);
 }
 
-_extern void _sub_63CA8B(std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,int,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,int> > > *const);
 _inline std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,int,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,int> > >::~map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,int,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,int> > >() // 0x63CA8B
 {
     mangled_assert("??1?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HU?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@std@@@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_63CA8B(this);
 }
 
-_extern void _sub_63CA90(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,int> *const);
 _inline std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,int>::~pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,int>() // 0x63CA90
 {
     mangled_assert("??1?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_63CA90(this);
 }
 
-_extern void _sub_63CA95(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,int> *const);
 _inline std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,int>::~pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,int>() // 0x63CA95
 {
     mangled_assert("??1?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_63CA95(this);
 }
 
-_extern void _sub_63F61C(SoundEventHandler *const);
 void SoundEventHandler::loadChatter() // 0x63F61C
 {
     mangled_assert("?loadChatter@SoundEventHandler@@AAEXXZ");
     todo("implement");
-    _sub_63F61C(this);
 }
 
-_extern void _sub_63D038(SoundEventHandler *const, GameEventSys::Event const &);
 void SoundEventHandler::OnEvent(GameEventSys::Event const &) // 0x63D038
 {
     mangled_assert("?OnEvent@SoundEventHandler@@EAEXABVEvent@GameEventSys@@@Z");
     todo("implement");
-    _sub_63D038(this, arg);
 }
 
-_extern long _sub_64041D(SoundEventHandler *const, chatterevent);
 long SoundEventHandler::queueEvent(chatterevent) // 0x64041D
 {
     mangled_assert("?queueEvent@SoundEventHandler@@AAEJW4chatterevent@@@Z");
     todo("implement");
-    long __result = _sub_64041D(this, arg);
-    return __result;
 }
 
-_extern bool _sub_63FD4F(SoundEventHandler *const, chatterevent, vector3 const &);
 bool SoundEventHandler::passFilter(chatterevent, vector3 const &) // 0x63FD4F
 {
     mangled_assert("?passFilter@SoundEventHandler@@AAE_NW4chatterevent@@ABVvector3@@@Z");
     todo("implement");
-    bool __result = _sub_63FD4F(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_63FDDC(SoundEventHandler *const, ChatterEvent *, vector3 const &);
 bool SoundEventHandler::passFilterDistance(ChatterEvent *, vector3 const &) // 0x63FDDC
 {
     mangled_assert("?passFilterDistance@SoundEventHandler@@AAE_NPAVChatterEvent@@ABVvector3@@@Z");
     todo("implement");
-    bool __result = _sub_63FDDC(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_63FEE7(SoundEventHandler *const, ChatterEvent *, vector3 const &);
 bool SoundEventHandler::passFilterRepeatProximity(ChatterEvent *, vector3 const &) // 0x63FEE7
 {
     mangled_assert("?passFilterRepeatProximity@SoundEventHandler@@AAE_NPAVChatterEvent@@ABVvector3@@@Z");
     todo("implement");
-    bool __result = _sub_63FEE7(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_640105(SoundEventHandler *const, ChatterEvent *);
 bool SoundEventHandler::passFilterWavelength(ChatterEvent *) // 0x640105
 {
     mangled_assert("?passFilterWavelength@SoundEventHandler@@AAE_NPAVChatterEvent@@@Z");
     todo("implement");
-    bool __result = _sub_640105(this, arg);
-    return __result;
 }
 
-_extern chatterevent _sub_63F441(SoundEventHandler *const, chatterevent, char const *, char const *, float const *, float const *);
 chatterevent SoundEventHandler::helpLoad(chatterevent, char const *, char const *, float const *, float const *) // 0x63F441
 {
     mangled_assert("?helpLoad@SoundEventHandler@@AAE?AW4chatterevent@@W42@PBD1PBM2@Z");
     todo("implement");
-    chatterevent __result = _sub_63F441(this, arg, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern __int32 _sub_63DB4B(SoundEventHandler *const, GameEventSys::Event const &, vector3 &);
 __int32 SoundEventHandler::getChatterEvent(GameEventSys::Event const &, vector3 &) // 0x63DB4B
 {
     mangled_assert("?getChatterEvent@SoundEventHandler@@AAEHABVEvent@GameEventSys@@AAVvector3@@@Z");
     todo("implement");
-    __int32 __result = _sub_63DB4B(this, arg, arg);
-    return __result;
 }
 
-_extern __int32 _sub_63F407(SoundEventHandler *const, Selection const &);
 __int32 SoundEventHandler::getGroupNumber(Selection const &) // 0x63F407
 {
     mangled_assert("?getGroupNumber@SoundEventHandler@@AAEHABVSelection@@@Z");
     todo("implement");
-    __int32 __result = _sub_63F407(this, arg);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern void _sub_64072A(char const *, bool, vector3 const &);
 _static void showEvent(char const *speechName, bool useloc, vector3 const &loc) // 0x64072A
 {
     mangled_assert("showEvent");
     todo("implement");
-    _sub_64072A(speechName, useloc, loc);
 }
 #endif

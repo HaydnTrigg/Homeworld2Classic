@@ -383,239 +383,179 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_45CC3D(bool);
 void muiShowNISDebug(bool on) // 0x45CC3D
 {
     mangled_assert("?muiShowNISDebug@@YGX_N@Z");
     todo("implement");
-    _sub_45CC3D(on);
 }
 
-_extern void _sub_45CC49();
 void muiShowNISDebugToggle() // 0x45CC49
 {
     mangled_assert("?muiShowNISDebugToggle@@YGXXZ");
     todo("implement");
-    _sub_45CC49();
 }
 
-_extern void _sub_45C10E();
 void muiEnableScreenshotCameraMode() // 0x45C10E
 {
     mangled_assert("?muiEnableScreenshotCameraMode@@YGXXZ");
     todo("implement");
-    _sub_45C10E();
 }
 
-_extern float _sub_45C116();
 float muiGetWidescreenAspect() // 0x45C116
 {
     mangled_assert("?muiGetWidescreenAspect@@YGMXZ");
     todo("implement");
-    float __result = _sub_45C116();
-    return __result;
 }
 
-_extern void _sub_45BEAC(MainUIImpl *);
 void muiDrawSelectionBox(MainUIImpl *pImpl) // 0x45BEAC
 {
     mangled_assert("?muiDrawSelectionBox@@YGXPAVMainUIImpl@@@Z");
     todo("implement");
-    _sub_45BEAC(pImpl);
 }
 
-_extern void _sub_45A8DE(MainUIImpl *const, float &, float &);
 void MainUIImpl::handleAtDrawTime(float &, float &) // 0x45A8DE
 {
     mangled_assert("?handleAtDrawTime@MainUIImpl@@QAEXAAM0@Z");
     todo("implement");
-    _sub_45A8DE(this, arg, arg);
 }
 
-_extern void _sub_45CC5C(MainUIImpl *const, float &, float &);
 void MainUIImpl::pieplateHandleDrawTime(float &, float &) // 0x45CC5C
 {
     mangled_assert("?pieplateHandleDrawTime@MainUIImpl@@QAEXAAM0@Z");
     todo("implement");
-    _sub_45CC5C(this, arg, arg);
 }
 
-_extern void _sub_45B45A(MainUIImpl *);
 void muiDrawMeta2D(MainUIImpl *pImpl) // 0x45B45A
 {
     mangled_assert("?muiDrawMeta2D@@YGXPAVMainUIImpl@@@Z");
     todo("implement");
-    _sub_45B45A(pImpl);
 }
 
-_extern void _sub_45B95E(MainUIImpl *);
 void muiDrawScissorBars(MainUIImpl *pImpl) // 0x45B95E
 {
     mangled_assert("?muiDrawScissorBars@@YGXPAVMainUIImpl@@@Z");
     todo("implement");
-    _sub_45B95E(pImpl);
 }
 
-_extern void _sub_45AB4D(MainUIImpl *);
 void muiDrawFullscreenFade(MainUIImpl *pImpl) // 0x45AB4D
 {
     mangled_assert("?muiDrawFullscreenFade@@YGXPAVMainUIImpl@@@Z");
     todo("implement");
-    _sub_45AB4D(pImpl);
 }
 
-_extern Cursor::Type_t _sub_45C11D(MainUIImpl *);
 Cursor::Type_t muiMapCommandToCursor(MainUIImpl *pImpl) // 0x45C11D
 {
     mangled_assert("?muiMapCommandToCursor@@YG?AW4Type_t@Cursor@@PAVMainUIImpl@@@Z");
     todo("implement");
-    Cursor::Type_t __result = _sub_45C11D(pImpl);
-    return __result;
 }
 
-_extern void _sub_45A8E1(MainUIImpl *, Camera const *);
 void muiDimBackground(MainUIImpl *pImpl, Camera const *pCamera) // 0x45A8E1
 {
     mangled_assert("?muiDimBackground@@YGXPAVMainUIImpl@@PBVCamera@@@Z");
     todo("implement");
-    _sub_45A8E1(pImpl, pCamera);
 }
 
-_extern void _sub_45CB6B(MainUIImpl *, CameraOrbitTarget const *, float);
 void muiSensorsStateThink(MainUIImpl *pImpl, CameraOrbitTarget const *pCamera, float timeElapsed) // 0x45CB6B
 {
     mangled_assert("?muiSensorsStateThink@@YGXPAVMainUIImpl@@PBVCameraOrbitTarget@@M@Z");
     todo("implement");
-    _sub_45CB6B(pImpl, pCamera, timeElapsed);
 }
 
-_extern void _sub_45A924(Ship *, ModifierUIInfo::ModifierUIEntry const &, unsigned __int32);
 void muiDrawAbilitySphereModifier(Ship *ship, ModifierUIInfo::ModifierUIEntry const &info, unsigned __int32 visibility) // 0x45A924
 {
     mangled_assert("?muiDrawAbilitySphereModifier@@YGXPAVShip@@ABUModifierUIEntry@ModifierUIInfo@@I@Z");
     todo("implement");
-    _sub_45A924(ship, info, visibility);
 }
 
-_extern void _sub_45BEF8(MainUIImpl *, Squadron *, OrderFeedbackValue const *, unsigned __int32);
 void muiDrawSquadronSphereModifiers(MainUIImpl *pImpl, Squadron *squad, OrderFeedbackValue const *feedbackValue, unsigned __int32 visibility) // 0x45BEF8
 {
     mangled_assert("?muiDrawSquadronSphereModifiers@@YGXPAVMainUIImpl@@PAVSquadron@@PBUOrderFeedbackValue@@I@Z");
     todo("implement");
-    _sub_45BEF8(pImpl, squad, feedbackValue, visibility);
 }
 
-_extern void _sub_45BFEF(MainUIImpl *, SubSystem *, OrderFeedbackValue const *, unsigned __int32);
 void muiDrawSubSystemSphereModifiers(MainUIImpl *pImpl, SubSystem *subsystem, OrderFeedbackValue const *feedbackValue, unsigned __int32 visibility) // 0x45BFEF
 {
     mangled_assert("?muiDrawSubSystemSphereModifiers@@YGXPAVMainUIImpl@@PAVSubSystem@@PBUOrderFeedbackValue@@I@Z");
     todo("implement");
-    _sub_45BFEF(pImpl, subsystem, feedbackValue, visibility);
 }
 
-_extern void _sub_45B619(MainUIImpl *, Selection const &);
 void muiDrawMouseOver(MainUIImpl *pImpl, Selection const &sel) // 0x45B619
 {
     mangled_assert("?muiDrawMouseOver@@YGXPAVMainUIImpl@@ABVSelection@@@Z");
     todo("implement");
-    _sub_45B619(pImpl, sel);
 }
 
-_extern void _sub_45BE80(MainUIImpl *, Selection const &);
 void muiDrawSelectingSubsystems(MainUIImpl *pImpl, Selection const &sel) // 0x45BE80
 {
     mangled_assert("?muiDrawSelectingSubsystems@@YGXPAVMainUIImpl@@ABVSelection@@@Z");
     todo("implement");
-    _sub_45BE80(pImpl, sel);
 }
 
-_extern void _sub_45BC50(MainUIImpl *, Selection const &);
 void muiDrawSelected(MainUIImpl *pImpl, Selection const &sel) // 0x45BC50
 {
     mangled_assert("?muiDrawSelected@@YGXPAVMainUIImpl@@ABVSelection@@@Z");
     todo("implement");
-    _sub_45BC50(pImpl, sel);
 }
 
-_extern void _sub_45B7BB(MainUIImpl *);
 void muiDrawRemainingSquadrons(MainUIImpl *pImpl) // 0x45B7BB
 {
     mangled_assert("?muiDrawRemainingSquadrons@@YGXPAVMainUIImpl@@@Z");
     todo("implement");
-    _sub_45B7BB(pImpl);
 }
 
-_extern void _sub_45B52C();
 void muiDrawMissiles() // 0x45B52C
 {
     mangled_assert("?muiDrawMissiles@@YGXXZ");
     todo("implement");
-    _sub_45B52C();
 }
 
-_extern void _sub_45AA96();
 void muiDrawAllSelectingResources() // 0x45AA96
 {
     mangled_assert("?muiDrawAllSelectingResources@@YGXXZ");
     todo("implement");
-    _sub_45AA96();
 }
 
-_extern void _sub_45AFEC(MainUIImpl *, CameraHW const *, float, float);
 void muiDrawMainScreen3D(MainUIImpl *pImpl, CameraHW const *pViewCamera, float mouseX, float mouseY) // 0x45AFEC
 {
     mangled_assert("?muiDrawMainScreen3D@@YGXPAVMainUIImpl@@PBVCameraHW@@MM@Z");
     todo("implement");
-    _sub_45AFEC(pImpl, pViewCamera, mouseX, mouseY);
 }
 
-_extern void _sub_45AD03(MainUIImpl *, Camera *);
 void muiDrawMainScreen2D(MainUIImpl *pImpl, Camera *pViewCamera) // 0x45AD03
 {
     mangled_assert("?muiDrawMainScreen2D@@YGXPAVMainUIImpl@@PAVCamera@@@Z");
     todo("implement");
-    _sub_45AD03(pImpl, pViewCamera);
 }
 
-_extern void _sub_45AE51(MainUIImpl *, long long);
 void muiDrawMainScreen2DDebug(MainUIImpl *pImpl, long long fdt) // 0x45AE51
 {
     mangled_assert("?muiDrawMainScreen2DDebug@@YGXPAVMainUIImpl@@_J@Z");
     todo("implement");
-    _sub_45AE51(pImpl, fdt);
 }
 
-_extern void _sub_45B28D(MainUIImpl *);
 void muiDrawMainScreen(MainUIImpl *pImpl) // 0x45B28D
 {
     mangled_assert("?muiDrawMainScreen@@YGXPAVMainUIImpl@@@Z");
     todo("implement");
-    _sub_45B28D(pImpl);
 }
 
-_extern void _sub_45C4D6();
 void muiRenderRegisterTweaks() // 0x45C4D6
 {
     mangled_assert("?muiRenderRegisterTweaks@@YGXXZ");
     todo("implement");
-    _sub_45C4D6();
 }
 
 /* ---------- private code */
 
-_extern void _sub_45A83E(SubSystem *, vector4 &);
 _static void getMouseOverColour(SubSystem *sub, vector4 &moColour) // 0x45A83E
 {
     mangled_assert("getMouseOverColour");
     todo("implement");
-    _sub_45A83E(sub, moColour);
 }
 
-_extern void _sub_45C1FD(MainUIImpl *, float, float);
 _static void muiProcessPanning(MainUIImpl *pImpl, float mouseX, float mouseY) // 0x45C1FD
 {
     mangled_assert("muiProcessPanning");
     todo("implement");
-    _sub_45C1FD(pImpl, mouseX, mouseY);
 }
 #endif

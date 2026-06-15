@@ -187,76 +187,52 @@ static_assert(sizeof(StatMonitor) == 48, "Invalid StatMonitor size");
 
 /* ---------- public code */
 
-_extern std::_Vector_iterator<std::_Vector_val<std::_Simple_types<StatMonitorChannel *> > > _sub_10003129(StatMonitor *const);
 _inline std::_Vector_iterator<std::_Vector_val<std::_Simple_types<StatMonitorChannel *> > > StatMonitor::begin() // 0x10003129
 {
     mangled_assert("?begin@StatMonitor@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVStatMonitorChannel@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_Vector_iterator<std::_Vector_val<std::_Simple_types<StatMonitorChannel *> > > __result = _sub_10003129(this);
-    return __result;
 }
 
-_extern std::_Vector_iterator<std::_Vector_val<std::_Simple_types<StatMonitorChannel *> > > _sub_10003176(StatMonitor *const);
 _inline std::_Vector_iterator<std::_Vector_val<std::_Simple_types<StatMonitorChannel *> > > StatMonitor::end() // 0x10003176
 {
     mangled_assert("?end@StatMonitor@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVStatMonitorChannel@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_Vector_iterator<std::_Vector_val<std::_Simple_types<StatMonitorChannel *> > > __result = _sub_10003176(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_1000350D(StatMonitor const *const);
 _inline unsigned __int32 StatMonitor::size() const // 0x1000350D
 {
     mangled_assert("?size@StatMonitor@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_1000350D(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_10003228(StatMonitor const *const);
 _inline unsigned __int32 StatMonitor::getCurrentFrame() const // 0x10003228
 {
     mangled_assert("?getCurrentFrame@StatMonitor@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_10003228(this);
-    return __result;
 }
 
-_extern float _sub_10003234(StatMonitor const *const);
 _inline float StatMonitor::getXOffset() const // 0x10003234
 {
     mangled_assert("?getXOffset@StatMonitor@@QBEMXZ");
     todo("implement");
-    float __result = _sub_10003234(this);
-    return __result;
 }
 
-_extern float _sub_10003238(StatMonitor const *const);
 _inline float StatMonitor::getYOffset() const // 0x10003238
 {
     mangled_assert("?getYOffset@StatMonitor@@QBEMXZ");
     todo("implement");
-    float __result = _sub_10003238(this);
-    return __result;
 }
 
-_extern float _sub_10003230(StatMonitor const *const);
 _inline float StatMonitor::getWidth() const // 0x10003230
 {
     mangled_assert("?getWidth@StatMonitor@@QBEMXZ");
     todo("implement");
-    float __result = _sub_10003230(this);
-    return __result;
 }
 
-_extern float _sub_1000322C(StatMonitor const *const);
 _inline float StatMonitor::getHeight() const // 0x1000322C
 {
     mangled_assert("?getHeight@StatMonitor@@QBEMXZ");
     todo("implement");
-    float __result = _sub_1000322C(this);
-    return __result;
 }
 
 /* ---------- private code */

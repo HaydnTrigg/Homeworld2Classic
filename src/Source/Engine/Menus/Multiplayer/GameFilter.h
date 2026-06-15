@@ -44,49 +44,34 @@ static_assert(sizeof(UI::GameFilter) == 80, "Invalid UI::GameFilter size");
 
 /* ---------- public code */
 
-_extern wchar_t const *_sub_5B3F09(UI::GameFilter const *const);
 _inline wchar_t const *UI::GameFilter::GetNameFilter() const // 0x5B3F09
 {
     mangled_assert("?GetNameFilter@GameFilter@UI@@QBEPB_WXZ");
     todo("implement");
-    wchar_t const * __result = _sub_5B3F09(this);
-    return __result;
 }
 
-_extern wchar_t const *_sub_5B3EED(UI::GameFilter const *const);
 _inline wchar_t const *UI::GameFilter::GetMapFilter() const // 0x5B3EED
 {
     mangled_assert("?GetMapFilter@GameFilter@UI@@QBEPB_WXZ");
     todo("implement");
-    wchar_t const * __result = _sub_5B3EED(this);
-    return __result;
 }
 
-_extern wchar_t const *_sub_5B3EFD(UI::GameFilter const *const);
 _inline wchar_t const *UI::GameFilter::GetModeFilter() const // 0x5B3EFD
 {
     mangled_assert("?GetModeFilter@GameFilter@UI@@QBEPB_WXZ");
     todo("implement");
-    wchar_t const * __result = _sub_5B3EFD(this);
-    return __result;
 }
 
-_extern __int32 _sub_5B3F14(UI::GameFilter const *const);
 _inline __int32 UI::GameFilter::GetPingFilter() const // 0x5B3F14
 {
     mangled_assert("?GetPingFilter@GameFilter@UI@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_5B3F14(this);
-    return __result;
 }
 
-_extern __int32 _sub_5B3EF9(UI::GameFilter const *const);
 _inline __int32 UI::GameFilter::GetMaxPlayersFilter() const // 0x5B3EF9
 {
     mangled_assert("?GetMaxPlayersFilter@GameFilter@UI@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_5B3EF9(this);
-    return __result;
 }
 
 /* ---------- private code */

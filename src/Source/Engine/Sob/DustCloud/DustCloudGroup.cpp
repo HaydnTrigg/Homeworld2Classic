@@ -91,88 +91,65 @@ extern SaveData const DustCloudGroup::m_saveData[4]; // 0x792D30
 
 /* ---------- public code */
 
-_extern _sub_4C595B(DustCloudGroup *const, char const *);
 DustCloudGroup::DustCloudGroup(char const *) // 0x4C595B
 {
     mangled_assert("??0DustCloudGroup@@AAE@PBD@Z");
     todo("implement");
-    _sub_4C595B(this, arg);
 }
 
-_extern _sub_4C59C1(DustCloudGroup *const, SaveGameData *);
 DustCloudGroup::DustCloudGroup(SaveGameData *) // 0x4C59C1
 {
     mangled_assert("??0DustCloudGroup@@QAE@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_4C59C1(this, arg);
 }
 
-_extern void _sub_4C5A0F(DustCloudGroup *const);
 _inline DustCloudGroup::~DustCloudGroup() // 0x4C5A0F
 {
     mangled_assert("??1DustCloudGroup@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4C5A0F(this);
 }
 
-_extern void _sub_4C5A7B(DustCloudGroup *const);
 void DustCloudGroup::defaultSettings() // 0x4C5A7B
 {
     mangled_assert("?defaultSettings@DustCloudGroup@@QAEXXZ");
     todo("implement");
-    _sub_4C5A7B(this);
 }
 
-_extern void _sub_4C5A8B(DustCloudGroup *const);
 void DustCloudGroup::postRestore() // 0x4C5A8B
 {
     mangled_assert("?postRestore@DustCloudGroup@@UAEXXZ");
     todo("implement");
-    _sub_4C5A8B(this);
 }
 
-_extern void _sub_4C5A73(DustCloudGroup *const, DustCloud *);
 void DustCloudGroup::addDustCloud(DustCloud *) // 0x4C5A73
 {
     mangled_assert("?addDustCloud@DustCloudGroup@@AAEXPAVDustCloud@@@Z");
     todo("implement");
-    _sub_4C5A73(this, arg);
 }
 
-_extern void _sub_4C5A8C(DustCloudGroup *const);
 void DustCloudGroup::recomputePositionRadius() // 0x4C5A8C
 {
     mangled_assert("?recomputePositionRadius@DustCloudGroup@@QAEXXZ");
     todo("implement");
-    _sub_4C5A8C(this);
 }
 
-_extern char const *_sub_4C5A7C(DustCloudGroup const *const);
 char const *DustCloudGroup::getName() const // 0x4C5A7C
 {
     mangled_assert("?getName@DustCloudGroup@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4C5A7C(this);
-    return __result;
 }
 
-_extern bool _sub_4C5B03(DustCloudGroup *const, SaveGameData *);
 bool DustCloudGroup::restore(SaveGameData *) // 0x4C5B03
 {
     mangled_assert("?restore@DustCloudGroup@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_4C5B03(this, arg);
-    return __result;
 }
 
-_extern bool _sub_4C5B50(DustCloudGroup *const, SaveGameData *, SaveType);
 bool DustCloudGroup::save(SaveGameData *, SaveType) // 0x4C5B50
 {
     mangled_assert("?save@DustCloudGroup@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_4C5B50(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

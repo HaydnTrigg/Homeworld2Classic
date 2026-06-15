@@ -60,28 +60,22 @@ static_assert(sizeof(Plat::CriticalLock) == 8, "Invalid Plat::CriticalLock size"
 
 /* ---------- public code */
 
-_extern _sub_10001A99(Plat::CriticalLock *const, Plat::CriticalSection &);
 _inline Plat::CriticalLock::CriticalLock(Plat::CriticalSection &) // 0x10001A99
 {
     mangled_assert("??0CriticalLock@Plat@@QAE@AAVCriticalSection@1@@Z");
     todo("implement");
-    _sub_10001A99(this, arg);
 }
 
-_extern void _sub_10001E03(Plat::CriticalLock *const);
 _inline Plat::CriticalLock::~CriticalLock() // 0x10001E03
 {
     mangled_assert("??1CriticalLock@Plat@@QAE@XZ");
     todo("implement");
-    _sub_10001E03(this);
 }
 
-_extern void _sub_100039E1(Plat::CriticalLock *const);
 _inline void Plat::CriticalLock::Unlock() // 0x100039E1
 {
     mangled_assert("?Unlock@CriticalLock@Plat@@QAEXXZ");
     todo("implement");
-    _sub_100039E1(this);
 }
 
 /* ---------- private code */
@@ -142,28 +136,22 @@ static_assert(sizeof(Plat::CriticalLock) == 8, "Invalid Plat::CriticalLock size"
 
 /* ---------- public code */
 
-_extern _sub_6C68D7(Plat::CriticalLock *const, Plat::CriticalSection &);
 _inline Plat::CriticalLock::CriticalLock(Plat::CriticalSection &) // 0x6C68D7
 {
     mangled_assert("??0CriticalLock@Plat@@QAE@AAVCriticalSection@1@@Z");
     todo("implement");
-    _sub_6C68D7(this, arg);
 }
 
-_extern void _sub_6C6983(Plat::CriticalLock *const);
 _inline Plat::CriticalLock::~CriticalLock() // 0x6C6983
 {
     mangled_assert("??1CriticalLock@Plat@@QAE@XZ");
     todo("implement");
-    _sub_6C6983(this);
 }
 
-_extern void _sub_6C76D4(Plat::CriticalLock *const);
 _inline void Plat::CriticalLock::Unlock() // 0x6C76D4
 {
     mangled_assert("?Unlock@CriticalLock@Plat@@QAEXXZ");
     todo("implement");
-    _sub_6C76D4(this);
 }
 
 /* ---------- private code */

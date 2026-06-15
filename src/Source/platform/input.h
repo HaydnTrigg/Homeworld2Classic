@@ -93,29 +93,22 @@ static_assert(sizeof(InputImpl) == 40, "Invalid InputImpl size");
 
 /* ---------- public code */
 
-_extern void _sub_10003182(Key *const);
 _inline Key::~Key() // 0x10003182
 {
     mangled_assert("??1Key@@QAE@XZ");
     todo("implement");
-    _sub_10003182(this);
 }
 
-_extern bool _sub_100038F2(Key const *const);
 _inline bool Key::getDown() const // 0x100038F2
 {
     mangled_assert("?getDown@Key@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_100038F2(this);
-    return __result;
 }
 
-_extern void _sub_10003629(Key *const);
 _inline void Key::clearHistory() // 0x10003629
 {
     mangled_assert("?clearHistory@Key@@QAEXXZ");
     todo("implement");
-    _sub_10003629(this);
 }
 
 /* ---------- private code */

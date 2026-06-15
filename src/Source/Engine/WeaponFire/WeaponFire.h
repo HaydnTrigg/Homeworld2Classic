@@ -136,119 +136,82 @@ static_assert(sizeof(WeaponFire) == 572, "Invalid WeaponFire size");
 
 /* ---------- public code */
 
-_extern std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &_sub_47893D(WeaponFireStatic const *const);
 _inline std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &WeaponFireStatic::getDeathName() const // 0x47893D
 {
     mangled_assert("?getDeathName@WeaponFireStatic@@QBEABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ");
     todo("implement");
-    std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & __result = _sub_47893D(this);
-    return __result;
 }
 
-_extern WeaponFireStatic const *_sub_478CC2(WeaponFire const *const);
 _inline WeaponFireStatic const *WeaponFire::getWeaponFireStatic() const // 0x478CC2
 {
     mangled_assert("?getWeaponFireStatic@WeaponFire@@QBEPBVWeaponFireStatic@@XZ");
     todo("implement");
-    WeaponFireStatic const * __result = _sub_478CC2(this);
-    return __result;
 }
 
-_extern float _sub_4A58CA(WeaponFire const *const);
 _inline float WeaponFire::getDamageMultiplier() const // 0x4A58CA
 {
     mangled_assert("?getDamageMultiplier@WeaponFire@@UBEMXZ");
     todo("implement");
-    float __result = _sub_4A58CA(this);
-    return __result;
 }
 
-_extern void _sub_4AA769(WeaponFire *const, float);
 _inline void WeaponFire::setGlobalDamageMultiplier(float) // 0x4AA769
 {
     mangled_assert("?setGlobalDamageMultiplier@WeaponFire@@QAEXM@Z");
     todo("implement");
-    _sub_4AA769(this, arg);
 }
 
-_extern float _sub_4A58D1(WeaponFire const *const);
 _inline float WeaponFire::getGlobalDamageMultiplier() const // 0x4A58D1
 {
     mangled_assert("?getGlobalDamageMultiplier@WeaponFire@@QBEMXZ");
     todo("implement");
-    float __result = _sub_4A58D1(this);
-    return __result;
 }
 
-_extern __int32 const _sub_4A2EF9(WeaponFire const *const);
 _inline __int32 const WeaponFire::getPlayerIndex() const // 0x4A2EF9
 {
     mangled_assert("?getPlayerIndex@WeaponFire@@QBE?BHXZ");
     todo("implement");
-    __int32 const __result = _sub_4A2EF9(this);
-    return __result;
 }
 
-_extern WeaponStatic const *_sub_4A2F15(WeaponFire const *const);
 _inline WeaponStatic const *WeaponFire::getWeaponStatic() const // 0x4A2F15
 {
     mangled_assert("?getWeaponStatic@WeaponFire@@QBEPBVWeaponStatic@@XZ");
     todo("implement");
-    WeaponStatic const * __result = _sub_4A2F15(this);
-    return __result;
 }
 
-_extern SobWithMesh *_sub_4A2F1F(WeaponFire *const);
 _inline SobWithMesh *WeaponFire::getWithMeshForWeaponFire() // 0x4A2F1F
 {
     mangled_assert("?getWithMeshForWeaponFire@WeaponFire@@QAEPAVSobWithMesh@@XZ");
     todo("implement");
-    SobWithMesh * __result = _sub_4A2F1F(this);
-    return __result;
 }
 
-_extern float _sub_4A2EF2(WeaponFire const *const);
 _inline float WeaponFire::getExpireTimer() const // 0x4A2EF2
 {
     mangled_assert("?getExpireTimer@WeaponFire@@QBEMXZ");
     todo("implement");
-    float __result = _sub_4A2EF2(this);
-    return __result;
 }
 
-_extern void _sub_4A59F5(WeaponFire *const, bool);
 _inline void WeaponFire::setAccurate(bool) // 0x4A59F5
 {
     mangled_assert("?setAccurate@WeaponFire@@UAEX_N@Z");
     todo("implement");
-    _sub_4A59F5(this, arg);
 }
 
-_extern bool _sub_4A58A8(WeaponFire const *const);
 _inline bool WeaponFire::accurate() const // 0x4A58A8
 {
     mangled_assert("?accurate@WeaponFire@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_4A58A8(this);
-    return __result;
 }
 
-_extern bool _sub_4AA4B1(WeaponFire *const);
 _inline bool WeaponFire::isDeterministic() // 0x4AA4B1
 {
     mangled_assert("?isDeterministic@WeaponFire@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4AA4B1(this);
-    return __result;
 }
 
-_extern char const *_sub_4AA642(WeaponFire *const);
 _inline char const *WeaponFire::saveToken() // 0x4AA642
 {
     mangled_assert("?saveToken@WeaponFire@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4AA642(this);
-    return __result;
 }
 
 /* ---------- private code */

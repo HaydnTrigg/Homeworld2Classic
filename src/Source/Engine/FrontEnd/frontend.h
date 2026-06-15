@@ -39,12 +39,10 @@ static_assert(sizeof(FrontEnd) == 4, "Invalid FrontEnd size");
 
 /* ---------- public code */
 
-_extern void _sub_46B5F0(FrontEnd *const);
 _inline FrontEnd::~FrontEnd() // 0x46B5F0
 {
     mangled_assert("??1FrontEnd@@UAE@XZ");
     todo("implement");
-    _sub_46B5F0(this);
 }
 
 /* ---------- private code */

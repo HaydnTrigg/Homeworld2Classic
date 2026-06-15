@@ -157,49 +157,35 @@ _static __int32 ThreatLevelWithinRadius(std::vector<Squadron *,std::allocator<Sq
 
 /* ---------- public code */
 
-_extern void _sub_53F423(ScoutState *const);
 void ScoutState::Enter() // 0x53F423
 {
     mangled_assert("?Enter@ScoutState@@QAEXXZ");
     todo("implement");
-    _sub_53F423(this);
 }
 
-_extern bool _sub_53F42C(ScoutState *const, Ship *, CpuBlob *);
 bool ScoutState::HandleUnderAttack(Ship *, CpuBlob *) // 0x53F42C
 {
     mangled_assert("?HandleUnderAttack@ScoutState@@AAE_NPAVShip@@PAVCpuBlob@@@Z");
     todo("implement");
-    bool __result = _sub_53F42C(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_53F86F(ScoutState *const);
 bool ScoutState::Update() // 0x53F86F
 {
     mangled_assert("?Update@ScoutState@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_53F86F(this);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern float _sub_53F2EA(std::vector<Squadron *,std::allocator<Squadron *> > const &, vector3 const &, vector3 &);
 _static float AverageDistFromPoint(std::vector<Squadron *,std::allocator<Squadron *> > const &squadList, vector3 const &pos, vector3 &avgPos) // 0x53F2EA
 {
     mangled_assert("AverageDistFromPoint");
     todo("implement");
-    float __result = _sub_53F2EA(squadList, pos, avgPos);
-    return __result;
 }
 
-_extern __int32 _sub_53F790(std::vector<Squadron *,std::allocator<Squadron *> > const &, vector3 const &, float);
 _static __int32 ThreatLevelWithinRadius(std::vector<Squadron *,std::allocator<Squadron *> > const &squadList, vector3 const &pos, float radius) // 0x53F790
 {
     mangled_assert("ThreatLevelWithinRadius");
     todo("implement");
-    __int32 __result = _sub_53F790(squadList, pos, radius);
-    return __result;
 }
 #endif

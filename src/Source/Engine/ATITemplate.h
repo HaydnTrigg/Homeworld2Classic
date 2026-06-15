@@ -82,13 +82,10 @@ static_assert(sizeof(ATITemplateSubsystem) == 120, "Invalid ATITemplateSubsystem
 
 /* ---------- public code */
 
-_extern bool _sub_5E4707(ATIItem2D const *, ATIItem2D const *);
 _inline bool ATITemplateHealth::sortCB(ATIItem2D const *a, ATIItem2D const *b) // 0x5E4707
 {
     mangled_assert("?sortCB@ATITemplateHealth@@CG_NPBVATIItem2D@@0@Z");
     todo("implement");
-    bool __result = _sub_5E4707(a, b);
-    return __result;
 }
 
 /* ---------- private code */

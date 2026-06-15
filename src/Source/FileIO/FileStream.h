@@ -40,13 +40,10 @@ static_assert(sizeof(FileStream) == 276, "Invalid FileStream size");
 
 /* ---------- public code */
 
-_extern bool _sub_1000FA9D(FileStream *const);
 _inline bool FileStream::Eof() // 0x1000FA9D
 {
     mangled_assert("?Eof@FileStream@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_1000FA9D(this);
-    return __result;
 }
 
 /* ---------- private code */

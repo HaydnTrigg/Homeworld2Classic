@@ -195,12 +195,10 @@ static_assert(sizeof(Selector) == 1932, "Invalid Selector size");
 
 /* ---------- public code */
 
-_extern void _sub_503B27(Selector *const, bool);
 _inline void Selector::setMilitaryPriority(bool) // 0x503B27
 {
     mangled_assert("?setMilitaryPriority@Selector@@QAEX_N@Z");
     todo("implement");
-    _sub_503B27(this, arg);
 }
 
 /* ---------- private code */

@@ -34,12 +34,10 @@ static_assert(sizeof(UI::RadioItem) == 12, "Invalid UI::RadioItem size");
 
 /* ---------- public code */
 
-_extern void _sub_66D3AD(UI::RadioItem *const, UI::InterfaceElement *);
 _inline void UI::RadioItem::SetRadioParent(UI::InterfaceElement *) // 0x66D3AD
 {
     mangled_assert("?SetRadioParent@RadioItem@UI@@QAEXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_66D3AD(this, arg);
 }
 
 /* ---------- private code */

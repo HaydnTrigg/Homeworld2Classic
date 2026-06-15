@@ -57,47 +57,34 @@ static_assert(sizeof(Marker) == 164, "Invalid Marker size");
 
 /* ---------- public code */
 
-_extern char const *_sub_517A24(Marker const *const);
 _inline char const *Marker::getName() const // 0x517A24
 {
     mangled_assert("?getName@Marker@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_517A24(this);
-    return __result;
 }
 
-_extern void _sub_516F12(Marker *const, char const *);
 _inline void Marker::setName(char const *) // 0x516F12
 {
     mangled_assert("?setName@Marker@@QAEXPBD@Z");
     todo("implement");
-    _sub_516F12(this, arg);
 }
 
-_extern void _sub_516F2F(Marker *const, char const *);
 _inline void Marker::setParent(char const *) // 0x516F2F
 {
     mangled_assert("?setParent@Marker@@QAEXPBD@Z");
     todo("implement");
-    _sub_516F2F(this, arg);
 }
 
-_extern matrix4 const &_sub_517A33(Marker const *const);
 _inline matrix4 const &Marker::getTransform() const // 0x517A33
 {
     mangled_assert("?getTransform@Marker@@QBEABVmatrix4@@XZ");
     todo("implement");
-    matrix4 const & __result = _sub_517A33(this);
-    return __result;
 }
 
-_extern __int32 _sub_517A2F(Marker const *const);
 _inline __int32 Marker::getParentID() const // 0x517A2F
 {
     mangled_assert("?getParentID@Marker@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_517A2F(this);
-    return __result;
 }
 
 /* ---------- private code */

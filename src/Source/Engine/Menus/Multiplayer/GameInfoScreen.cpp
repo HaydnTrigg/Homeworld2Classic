@@ -122,94 +122,72 @@ typedef `anonymous-namespace'::LocalizedMessages ?A0x4d08c6ab::LocalizedMessages
 
 /* ---------- public code */
 
-_extern _sub_5B427F(UI::GameInfoScreen::Data *const);
 _inline UI::GameInfoScreen::Data::Data() // 0x5B427F
 {
     mangled_assert("??0Data@GameInfoScreen@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B427F(this);
 }
 
-_extern _sub_5B429A(UI::GameInfoScreen *const, char const *);
 UI::GameInfoScreen::GameInfoScreen(char const *) // 0x5B429A
 {
     mangled_assert("??0GameInfoScreen@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_5B429A(this, arg);
 }
 
-_extern void _sub_5B4303(UI::GameInfoScreen::Data *const);
 _inline UI::GameInfoScreen::Data::~Data() // 0x5B4303
 {
     mangled_assert("??1Data@GameInfoScreen@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B4303(this);
 }
 
-_extern void _sub_5B4313(UI::GameInfoScreen *const);
 UI::GameInfoScreen::~GameInfoScreen() // 0x5B4313
 {
     mangled_assert("??1GameInfoScreen@UI@@UAE@XZ");
     todo("implement");
-    _sub_5B4313(this);
 }
 
-_extern void _sub_5B44C5(UI::GameInfoScreen *const, LuaConfig &);
 void UI::GameInfoScreen::OnPreLoadFile(LuaConfig &) // 0x5B44C5
 {
     mangled_assert("?OnPreLoadFile@GameInfoScreen@UI@@MAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_5B44C5(this, arg);
 }
 
-_extern void _sub_5B4458(UI::GameInfoScreen *const, LuaConfig &);
 void UI::GameInfoScreen::OnLoad(LuaConfig &) // 0x5B4458
 {
     mangled_assert("?OnLoad@GameInfoScreen@UI@@MAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_5B4458(this, arg);
 }
 
-_extern void _sub_5B4471(UI::GameInfoScreen *const);
 void UI::GameInfoScreen::OnPostLoad() // 0x5B4471
 {
     mangled_assert("?OnPostLoad@GameInfoScreen@UI@@MAEXXZ");
     todo("implement");
-    _sub_5B4471(this);
 }
 
-_extern void _sub_5B4538(UI::GameInfoScreen *const, LobbySessionDesc const &);
 void UI::GameInfoScreen::SetData(LobbySessionDesc const &) // 0x5B4538
 {
     mangled_assert("?SetData@GameInfoScreen@UI@@QAEXABVLobbySessionDesc@@@Z");
     todo("implement");
-    _sub_5B4538(this, arg);
 }
 
-_extern void _sub_5B438F(UI::GameInfoScreen *const, wchar_t const *, wchar_t const *);
 void UI::GameInfoScreen::AddInfo(wchar_t const *, wchar_t const *) // 0x5B438F
 {
     mangled_assert("?AddInfo@GameInfoScreen@UI@@AAEXPB_W0@Z");
     todo("implement");
-    _sub_5B438F(this, arg, arg);
 }
 
-_extern void _sub_5B4441(UI::GameInfoScreen *const, bool);
 void UI::GameInfoScreen::OnActivate(bool) // 0x5B4441
 {
     mangled_assert("?OnActivate@GameInfoScreen@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_5B4441(this, arg);
 }
 
-_extern void _sub_5B4444(UI::InterfaceElement *);
 void UI::GameInfoScreen::OnBackClicked(UI::InterfaceElement *sender) // 0x5B4444
 {
     mangled_assert("?OnBackClicked@GameInfoScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B4444(sender);
 }
 
 /* ---------- private code */

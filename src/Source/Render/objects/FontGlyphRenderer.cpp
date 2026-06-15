@@ -295,91 +295,66 @@ _static
 
 /* ---------- public code */
 
-_extern FontGlyphRenderer *_sub_1004A650();
 FontGlyphRenderer *FontGlyphRenderer::i() // 0x1004A650
 {
     mangled_assert("?i@FontGlyphRenderer@@SGPAV1@XZ");
     todo("implement");
-    FontGlyphRenderer * __result = _sub_1004A650();
-    return __result;
 }
 
-_extern _sub_10049CB0(FontGlyphRenderer *const);
 FontGlyphRenderer::FontGlyphRenderer() // 0x10049CB0
 {
     mangled_assert("??0FontGlyphRenderer@@QAE@XZ");
     todo("implement");
-    _sub_10049CB0(this);
 }
 
-_extern _sub_10049D20(FontGlyphRendererData *const);
 _inline FontGlyphRendererData::FontGlyphRendererData() // 0x10049D20
 {
     mangled_assert("??0FontGlyphRendererData@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10049D20(this);
 }
 
-_extern void _sub_10049D70(FontGlyphRenderer *const);
 FontGlyphRenderer::~FontGlyphRenderer() // 0x10049D70
 {
     mangled_assert("??1FontGlyphRenderer@@QAE@XZ");
     todo("implement");
-    _sub_10049D70(this);
 }
 
-_extern void _sub_10049DF0(FontGlyphRendererData *const);
 _inline FontGlyphRendererData::~FontGlyphRendererData() // 0x10049DF0
 {
     mangled_assert("??1FontGlyphRendererData@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10049DF0(this);
 }
 
-_extern __int32 _sub_1004A090(FontGlyphRenderer *const, char const *, unsigned __int32, bool, bool, unsigned __int32, unsigned __int32 &, unsigned __int32 &);
 __int32 FontGlyphRenderer::NewFont(char const *, unsigned __int32, bool, bool, unsigned __int32, unsigned __int32 &, unsigned __int32 &) // 0x1004A090
 {
     mangled_assert("?NewFont@FontGlyphRenderer@@QAEHPBDI_N1IAAI2@Z");
     todo("implement");
-    __int32 __result = _sub_1004A090(this, arg, arg, arg, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern void _sub_1004A040(FontGlyphRenderer *const, __int32);
 void FontGlyphRenderer::DeleteFont(__int32) // 0x1004A040
 {
     mangled_assert("?DeleteFont@FontGlyphRenderer@@QAEXH@Z");
     todo("implement");
-    _sub_1004A040(this, arg);
 }
 
-_extern bool _sub_1004A200(FontGlyphRenderer *const, __int32, wchar_t, unsigned __int32 &, unsigned __int32 &);
 bool FontGlyphRenderer::QueryGlyphSize(__int32, wchar_t, unsigned __int32 &, unsigned __int32 &) // 0x1004A200
 {
     mangled_assert("?QueryGlyphSize@FontGlyphRenderer@@QAE_NH_WAAI1@Z");
     todo("implement");
-    bool __result = _sub_1004A200(this, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_10049EE0(FontGlyphRenderer *const, __int32, wchar_t, unsigned char *);
 bool FontGlyphRenderer::BuildGlyphImage(__int32, wchar_t, unsigned char *) // 0x10049EE0
 {
     mangled_assert("?BuildGlyphImage@FontGlyphRenderer@@QAE_NH_WPAE@Z");
     todo("implement");
-    bool __result = _sub_10049EE0(this, arg, arg, arg);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_1004A1A0(FontGlyphRenderer *const, char const *);
 unsigned __int32 FontGlyphRenderer::QueryCharSet(char const *) // 0x1004A1A0
 {
     mangled_assert("?QueryCharSet@FontGlyphRenderer@@QAEIPBD@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_1004A1A0(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

@@ -284,30 +284,24 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_70FBFB(unsigned __int32, char const *);
 void Campaign_QuickSaveNb(unsigned __int32 id, char const *description) // 0x70FBFB
 {
     mangled_assert("?Campaign_QuickSaveNb@@YGXIPBD@Z");
     todo("implement");
-    _sub_70FBFB(id, description);
 }
 
-_extern void _sub_70FB36(LuaBinding::ObjInternal0<void,LuaBinding::Functor0MemberNonConst<void,GameObj> > *const);
 _inline LuaBinding::ObjInternal0<void,LuaBinding::Functor0MemberNonConst<void,GameObj> >::~ObjInternal0<void,LuaBinding::Functor0MemberNonConst<void,GameObj> >() // 0x70FB36
 {
     mangled_assert("??1?$ObjInternal0@XV?$Functor0MemberNonConst@XVGameObj@@@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_70FB36(this);
 }
 
-_extern void _sub_70FB3C(LuaBinding::ObjInternal1<bool,void,LuaBinding::Functor1MemberNonConst<bool,void,GameObj> > *const);
 _inline LuaBinding::ObjInternal1<bool,void,LuaBinding::Functor1MemberNonConst<bool,void,GameObj> >::~ObjInternal1<bool,void,LuaBinding::Functor1MemberNonConst<bool,void,GameObj> >() // 0x70FB3C
 {
     mangled_assert("??1?$ObjInternal1@_NXV?$Functor1MemberNonConst@_NXVGameObj@@@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_70FB3C(this);
 }
 
 /* ---------- private code */

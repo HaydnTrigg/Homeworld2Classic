@@ -75,54 +75,40 @@ static_assert(sizeof(goblinsort<GoblinInfo *>) == 1, "Invalid goblinsort<GoblinI
 
 /* ---------- public code */
 
-_extern _sub_10059470(GoblinGroup *const);
 _inline GoblinGroup::GoblinGroup() // 0x10059470
 {
     mangled_assert("??0GoblinGroup@@QAE@XZ");
     todo("implement");
-    _sub_10059470(this);
 }
 
-_extern void _sub_100598E0(GoblinGroup *const);
 _inline GoblinGroup::~GoblinGroup() // 0x100598E0
 {
     mangled_assert("??1GoblinGroup@@QAE@XZ");
     todo("implement");
-    _sub_100598E0(this);
 }
 
-_extern __int32 _sub_1005DD30(GoblinMesh const *const);
 _inline __int32 GoblinMesh::getNumPolys() const // 0x1005DD30
 {
     mangled_assert("?getNumPolys@GoblinMesh@@UBEHXZ");
     todo("implement");
-    __int32 __result = _sub_1005DD30(this);
-    return __result;
 }
 
-_extern void _sub_1005F370(GoblinMesh *const, float);
 _inline void GoblinMesh::setMinLOD(float) // 0x1005F370
 {
     mangled_assert("?setMinLOD@GoblinMesh@@UAEXM@Z");
     todo("implement");
-    _sub_1005F370(this, arg);
 }
 
-_extern void _sub_1005F360(GoblinMesh *const, float);
 _inline void GoblinMesh::setDetailLevel(float) // 0x1005F360
 {
     mangled_assert("?setDetailLevel@GoblinMesh@@UAEXM@Z");
     todo("implement");
-    _sub_1005F360(this, arg);
 }
 
-_extern bool _sub_1005A5F0(goblinsort<GoblinInfo *> const *const, GoblinInfo *const &, GoblinInfo *const &);
 _inline bool goblinsort<GoblinInfo *>::operator()(GoblinInfo *const &, GoblinInfo *const &) const // 0x1005A5F0
 {
     mangled_assert("??R?$goblinsort@PAVGoblinInfo@@@@QBE_NABQAVGoblinInfo@@0@Z");
     todo("implement");
-    bool __result = _sub_1005A5F0(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

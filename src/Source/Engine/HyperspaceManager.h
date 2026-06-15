@@ -170,58 +170,40 @@ static_assert(sizeof(HyperspaceManager) == 24, "Invalid HyperspaceManager size")
 
 /* ---------- public code */
 
-_extern HyperspaceEffectSettings *_sub_4955E7();
 _inline HyperspaceEffectSettings *HyperspaceEffectSettings::i() // 0x4955E7
 {
     mangled_assert("?i@HyperspaceEffectSettings@@SGPAV1@XZ");
     todo("implement");
-    HyperspaceEffectSettings * __result = _sub_4955E7();
-    return __result;
 }
 
-_extern float _sub_494493(HyperspaceEffectSettings const *const);
 _inline float HyperspaceEffectSettings::GetEffectSizePercent() const // 0x494493
 {
     mangled_assert("?GetEffectSizePercent@HyperspaceEffectSettings@@QBEMXZ");
     todo("implement");
-    float __result = _sub_494493(this);
-    return __result;
 }
 
-_extern float _sub_49448F(HyperspaceEffectSettings const *const);
 _inline float HyperspaceEffectSettings::GetEffectLeadPercent() const // 0x49448F
 {
     mangled_assert("?GetEffectLeadPercent@HyperspaceEffectSettings@@QBEMXZ");
     todo("implement");
-    float __result = _sub_49448F(this);
-    return __result;
 }
 
-_extern float _sub_49448B(HyperspaceEffectSettings const *const);
 _inline float HyperspaceEffectSettings::GetClipEffectPercent() const // 0x49448B
 {
     mangled_assert("?GetClipEffectPercent@HyperspaceEffectSettings@@QBEMXZ");
     todo("implement");
-    float __result = _sub_49448B(this);
-    return __result;
 }
 
-_extern bool _sub_5FA965(HyperspaceManager *const);
 _inline bool HyperspaceManager::isDeterministic() // 0x5FA965
 {
     mangled_assert("?isDeterministic@HyperspaceManager@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_5FA965(this);
-    return __result;
 }
 
-_extern char const *_sub_5FAC2F(HyperspaceManager *const);
 _inline char const *HyperspaceManager::saveToken() // 0x5FAC2F
 {
     mangled_assert("?saveToken@HyperspaceManager@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_5FAC2F(this);
-    return __result;
 }
 
 /* ---------- private code */

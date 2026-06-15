@@ -31,20 +31,16 @@
 
 /* ---------- public code */
 
-_extern _sub_523F5F(SobVis *const, Sob const *);
 SobVis::SobVis(Sob const *) // 0x523F5F
 {
     mangled_assert("??0SobVis@@QAE@PBVSob@@@Z");
     todo("implement");
-    _sub_523F5F(this, arg);
 }
 
-_extern void _sub_523F71(SobVis *const);
 SobVis::~SobVis() // 0x523F71
 {
     mangled_assert("??1SobVis@@UAE@XZ");
     todo("implement");
-    _sub_523F71(this);
 }
 
 /* ---------- private code */

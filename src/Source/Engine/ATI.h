@@ -151,12 +151,10 @@ static_assert(sizeof(ATIPossibleVisFlag) == 8, "Invalid ATIPossibleVisFlag size"
 
 /* ---------- public code */
 
-_extern _sub_5E26A8(ATIParameter *const);
 _inline ATIParameter::ATIParameter() // 0x5E26A8
 {
     mangled_assert("??0ATIParameter@@QAE@XZ");
     todo("implement");
-    _sub_5E26A8(this);
 }
 
 /* ---------- private code */

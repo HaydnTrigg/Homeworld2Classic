@@ -100,84 +100,64 @@
 
 /* ---------- public code */
 
-_extern _sub_5AFB0B(UI::WaitMessage *const, char const *);
 UI::WaitMessage::WaitMessage(char const *) // 0x5AFB0B
 {
     mangled_assert("??0WaitMessage@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_5AFB0B(this, arg);
 }
 
-_extern void _sub_5AFB37(UI::WaitMessage *const);
 UI::WaitMessage::~WaitMessage() // 0x5AFB37
 {
     mangled_assert("??1WaitMessage@UI@@UAE@XZ");
     todo("implement");
-    _sub_5AFB37(this);
 }
 
-_extern void _sub_5AFC04(UI::WaitMessage *const, bool);
 void UI::WaitMessage::OnActivate(bool) // 0x5AFC04
 {
     mangled_assert("?OnActivate@WaitMessage@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_5AFC04(this, arg);
 }
 
-_extern void _sub_5AFC40(UI::WaitMessage *const);
 void UI::WaitMessage::OnPostLoad() // 0x5AFC40
 {
     mangled_assert("?OnPostLoad@WaitMessage@UI@@MAEXXZ");
     todo("implement");
-    _sub_5AFC40(this);
 }
 
-_extern void _sub_5AFCB3(wchar_t const *, bool);
 void UI::WaitMessage::Show(wchar_t const *message, bool bCancel) // 0x5AFCB3
 {
     mangled_assert("?Show@WaitMessage@UI@@SGXPB_W_N@Z");
     todo("implement");
-    _sub_5AFCB3(message, bCancel);
 }
 
-_extern void _sub_5AFBCF();
 void UI::WaitMessage::Hide() // 0x5AFBCF
 {
     mangled_assert("?Hide@WaitMessage@UI@@SGXXZ");
     todo("implement");
-    _sub_5AFBCF();
 }
 
-_extern void _sub_5AFC88(wchar_t const *);
 void UI::WaitMessage::SetMessage(wchar_t const *message) // 0x5AFC88
 {
     mangled_assert("?SetMessage@WaitMessage@UI@@SGXPB_W@Z");
     todo("implement");
-    _sub_5AFC88(message);
 }
 
-_extern void _sub_5AFB6F(void (*)(UI::InterfaceElement *));
 void UI::WaitMessage::ConnectOnCancel(void (*f)(UI::InterfaceElement *)) // 0x5AFB6F
 {
     mangled_assert("?ConnectOnCancel@WaitMessage@UI@@SGXP6GXPAVInterfaceElement@2@@Z@Z");
     todo("implement");
-    _sub_5AFB6F(f);
 }
 
-_extern void _sub_5AFBA2();
 void UI::WaitMessage::DisconnectSlots() // 0x5AFBA2
 {
     mangled_assert("?DisconnectSlots@WaitMessage@UI@@SGXXZ");
     todo("implement");
-    _sub_5AFBA2();
 }
 
-_extern void _sub_5AFC07(UI::InterfaceElement *);
 void UI::WaitMessage::OnCancelClicked(UI::InterfaceElement *sender) // 0x5AFC07
 {
     mangled_assert("?OnCancelClicked@WaitMessage@UI@@KGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5AFC07(sender);
 }
 
 /* ---------- private code */

@@ -166,158 +166,112 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_10005ED2(ArchiveStoreStream *const, Archive::FileProxy const &);
 ArchiveStoreStream::ArchiveStoreStream(Archive::FileProxy const &) // 0x10005ED2
 {
     mangled_assert("??0ArchiveStoreStream@@AAE@ABVFileProxy@Archive@@@Z");
     todo("implement");
-    _sub_10005ED2(this, arg);
 }
 
-_extern void _sub_10005FC5(ArchiveStoreStream *const);
 ArchiveStoreStream::~ArchiveStoreStream() // 0x10005FC5
 {
     mangled_assert("??1ArchiveStoreStream@@UAE@XZ");
     todo("implement");
-    _sub_10005FC5(this);
 }
 
-_extern unsigned long _sub_100062B4(ArchiveStoreStream *const, void *, unsigned long);
 unsigned long ArchiveStoreStream::Read(void *, unsigned long) // 0x100062B4
 {
     mangled_assert("?Read@ArchiveStoreStream@@UAEKPAXK@Z");
     todo("implement");
-    unsigned long __result = _sub_100062B4(this, arg, arg);
-    return __result;
 }
 
-_extern unsigned long _sub_10006474(ArchiveStoreStream *const, void const *, unsigned long);
 unsigned long ArchiveStoreStream::Write(void const *, unsigned long) // 0x10006474
 {
     mangled_assert("?Write@ArchiveStoreStream@@UAEKPBXK@Z");
     todo("implement");
-    unsigned long __result = _sub_10006474(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_1000608E(ArchiveStoreStream *const);
 void ArchiveStoreStream::Flush() // 0x1000608E
 {
     mangled_assert("?Flush@ArchiveStoreStream@@UAEXXZ");
     todo("implement");
-    _sub_1000608E(this);
 }
 
-_extern unsigned long _sub_1000638B(ArchiveStoreStream *const, unsigned long);
 unsigned long ArchiveStoreStream::SetPos(unsigned long) // 0x1000638B
 {
     mangled_assert("?SetPos@ArchiveStoreStream@@UAEKK@Z");
     todo("implement");
-    unsigned long __result = _sub_1000638B(this, arg);
-    return __result;
 }
 
-_extern unsigned long _sub_100060DB(ArchiveStoreStream *const);
 unsigned long ArchiveStoreStream::GetPos() // 0x100060DB
 {
     mangled_assert("?GetPos@ArchiveStoreStream@@UAEKXZ");
     todo("implement");
-    unsigned long __result = _sub_100060DB(this);
-    return __result;
 }
 
-_extern unsigned long _sub_100060C9(ArchiveStoreStream *const);
 unsigned long ArchiveStoreStream::GetLen() // 0x100060C9
 {
     mangled_assert("?GetLen@ArchiveStoreStream@@UAEKXZ");
     todo("implement");
-    unsigned long __result = _sub_100060C9(this);
-    return __result;
 }
 
-_extern _sub_10005E4C(ArchiveCompressStream *const, Archive::FileProxy const &);
 ArchiveCompressStream::ArchiveCompressStream(Archive::FileProxy const &) // 0x10005E4C
 {
     mangled_assert("??0ArchiveCompressStream@@AAE@ABVFileProxy@Archive@@@Z");
     todo("implement");
-    _sub_10005E4C(this, arg);
 }
 
-_extern void _sub_10005F81(ArchiveCompressStream *const);
 ArchiveCompressStream::~ArchiveCompressStream() // 0x10005F81
 {
     mangled_assert("??1ArchiveCompressStream@@UAE@XZ");
     todo("implement");
-    _sub_10005F81(this);
 }
 
-_extern unsigned long _sub_100061F6(ArchiveCompressStream *const, void *, unsigned long);
 unsigned long ArchiveCompressStream::Read(void *, unsigned long) // 0x100061F6
 {
     mangled_assert("?Read@ArchiveCompressStream@@UAEKPAXK@Z");
     todo("implement");
-    unsigned long __result = _sub_100061F6(this, arg, arg);
-    return __result;
 }
 
-_extern unsigned long _sub_10006440(ArchiveCompressStream *const, void const *, unsigned long);
 unsigned long ArchiveCompressStream::Write(void const *, unsigned long) // 0x10006440
 {
     mangled_assert("?Write@ArchiveCompressStream@@UAEKPBXK@Z");
     todo("implement");
-    unsigned long __result = _sub_10006440(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_1000605E(ArchiveCompressStream *const);
 void ArchiveCompressStream::Flush() // 0x1000605E
 {
     mangled_assert("?Flush@ArchiveCompressStream@@UAEXXZ");
     todo("implement");
-    _sub_1000605E(this);
 }
 
-_extern unsigned long _sub_1000630E(ArchiveCompressStream *const, unsigned long);
 unsigned long ArchiveCompressStream::SetPos(unsigned long) // 0x1000630E
 {
     mangled_assert("?SetPos@ArchiveCompressStream@@UAEKK@Z");
     todo("implement");
-    unsigned long __result = _sub_1000630E(this, arg);
-    return __result;
 }
 
-_extern unsigned long _sub_100060D4(ArchiveCompressStream *const);
 unsigned long ArchiveCompressStream::GetPos() // 0x100060D4
 {
     mangled_assert("?GetPos@ArchiveCompressStream@@UAEKXZ");
     todo("implement");
-    unsigned long __result = _sub_100060D4(this);
-    return __result;
 }
 
-_extern unsigned long _sub_100060BE(ArchiveCompressStream *const);
 unsigned long ArchiveCompressStream::GetLen() // 0x100060BE
 {
     mangled_assert("?GetLen@ArchiveCompressStream@@UAEKXZ");
     todo("implement");
-    unsigned long __result = _sub_100060BE(this);
-    return __result;
 }
 
-_extern void _sub_100060E2(ArchiveCompressStream *const);
 void ArchiveCompressStream::InitStream() // 0x100060E2
 {
     mangled_assert("?InitStream@ArchiveCompressStream@@AAEXXZ");
     todo("implement");
-    _sub_100060E2(this);
 }
 
-_extern void _sub_10006401(ArchiveCompressStream *const);
 void ArchiveCompressStream::ShutStream() // 0x10006401
 {
     mangled_assert("?ShutStream@ArchiveCompressStream@@AAEXXZ");
     todo("implement");
-    _sub_10006401(this);
 }
 
 /* ---------- private code */

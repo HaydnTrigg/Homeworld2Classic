@@ -72,106 +72,78 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_5E488F(BgLightAnim::Data *const);
 _inline BgLightAnim::Data::Data() // 0x5E488F
 {
     mangled_assert("??0Data@BgLightAnim@@QAE@XZ");
     todo("implement");
-    _sub_5E488F(this);
 }
 
-_extern void _sub_5E48A5(boost::shared_ptr<BgLightAnim::Data> *const);
 _inline boost::shared_ptr<BgLightAnim::Data>::~shared_ptr<BgLightAnim::Data>() // 0x5E48A5
 {
     mangled_assert("??1?$shared_ptr@VData@BgLightAnim@@@boost@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5E48A5(this);
 }
 
-_extern void _sub_5E48B1(boost::detail::sp_counted_base_impl<BgLightAnim::Data *,boost::checked_deleter<BgLightAnim::Data> > *const);
 _inline boost::detail::sp_counted_base_impl<BgLightAnim::Data *,boost::checked_deleter<BgLightAnim::Data> >::~sp_counted_base_impl<BgLightAnim::Data *,boost::checked_deleter<BgLightAnim::Data> >() // 0x5E48B1
 {
     mangled_assert("??1?$sp_counted_base_impl@PAVData@BgLightAnim@@U?$checked_deleter@VData@BgLightAnim@@@boost@@@detail@boost@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5E48B1(this);
 }
 
-_extern bool _sub_5E4ACE();
 bool BgLightAnim::Startup() // 0x5E4ACE
 {
     mangled_assert("?Startup@BgLightAnim@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_5E4ACE();
-    return __result;
 }
 
-_extern bool _sub_5E4AAA();
 bool BgLightAnim::Shutdown() // 0x5E4AAA
 {
     mangled_assert("?Shutdown@BgLightAnim@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_5E4AAA();
-    return __result;
 }
 
-_extern BgLightAnim *_sub_5E4946();
 BgLightAnim *BgLightAnim::Instance() // 0x5E4946
 {
     mangled_assert("?Instance@BgLightAnim@@SGPAV1@XZ");
     todo("implement");
-    BgLightAnim * __result = _sub_5E4946();
-    return __result;
 }
 
-_extern _sub_5E481E(BgLightAnim *const);
 BgLightAnim::BgLightAnim() // 0x5E481E
 {
     mangled_assert("??0BgLightAnim@@AAE@XZ");
     todo("implement");
-    _sub_5E481E(this);
 }
 
-_extern void _sub_5E48B8(BgLightAnim *const);
 BgLightAnim::~BgLightAnim() // 0x5E48B8
 {
     mangled_assert("??1BgLightAnim@@AAE@XZ");
     todo("implement");
-    _sub_5E48B8(this);
 }
 
-_extern void _sub_5E4A2C(BgLightAnim *const, char const *);
 void BgLightAnim::Play(char const *) // 0x5E4A2C
 {
     mangled_assert("?Play@BgLightAnim@@QAEXPBD@Z");
     todo("implement");
-    _sub_5E4A2C(this, arg);
 }
 
-_extern bool _sub_5E494C(BgLightAnim const *const);
 bool BgLightAnim::IsPlaying() const // 0x5E494C
 {
     mangled_assert("?IsPlaying@BgLightAnim@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_5E494C(this);
-    return __result;
 }
 
-_extern void _sub_5E4B07(BgLightAnim *const, float);
 void BgLightAnim::Update(float) // 0x5E4B07
 {
     mangled_assert("?Update@BgLightAnim@@QAEXM@Z");
     todo("implement");
-    _sub_5E4B07(this, arg);
 }
 
-_extern void _sub_5E4966(BgLightAnim *const, GameEventSys::Event const &);
 void BgLightAnim::OnEvent(GameEventSys::Event const &) // 0x5E4966
 {
     mangled_assert("?OnEvent@BgLightAnim@@UAEXABVEvent@GameEventSys@@@Z");
     todo("implement");
-    _sub_5E4966(this, arg);
 }
 
 /* ---------- private code */

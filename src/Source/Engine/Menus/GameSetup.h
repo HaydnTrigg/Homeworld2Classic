@@ -208,93 +208,72 @@ static_assert(sizeof(UI::GameSetup) == 1380, "Invalid UI::GameSetup size");
 
 /* ---------- public code */
 
-_extern void _sub_5AC289(UI::GameSetup *const, GameSettings::MultiplayerType);
 _inline void UI::GameSetup::SetMultiplayerType(GameSettings::MultiplayerType) // 0x5AC289
 {
     mangled_assert("?SetMultiplayerType@GameSetup@UI@@QAEXW4MultiplayerType@GameSettings@@@Z");
     todo("implement");
-    _sub_5AC289(this, arg);
 }
 
-_extern UI::PlayerSlotFrame *_sub_5A218F(UI::GameSetup const *const, __int32);
 _inline UI::PlayerSlotFrame *UI::GameSetup::GetPlayerSlotFrame(__int32) const // 0x5A218F
 {
     mangled_assert("?GetPlayerSlotFrame@GameSetup@UI@@QBEPAVPlayerSlotFrame@2@H@Z");
     todo("implement");
-    UI::PlayerSlotFrame * __result = _sub_5A218F(this, arg);
-    return __result;
 }
 
-_extern void _sub_58927F(LobbyEvent * const, LobbySessionDesc const &, unsigned long long);
 _inline void UI::GameSetup::OnLobbySessionAdded(LobbySessionDesc const &, unsigned long long) // 0x58927F
 {
     mangled_assert("?OnLobbySessionAdded@GameSetup@UI@@EAEXABVLobbySessionDesc@@_K@Z");
     // __shifted(UI::GameSetup, 412);
     todo("implement");
-    _sub_58927F(this, arg, arg);
 }
 
-_extern void _sub_589282(LobbyEvent * const, LobbySessionDesc const &, unsigned long long);
 _inline void UI::GameSetup::OnLobbySessionAddedDirect(LobbySessionDesc const &, unsigned long long) // 0x589282
 {
     mangled_assert("?OnLobbySessionAddedDirect@GameSetup@UI@@EAEXABVLobbySessionDesc@@_K@Z");
     // __shifted(UI::GameSetup, 412);
     todo("implement");
-    _sub_589282(this, arg, arg);
 }
 
-_extern void _sub_589285(LobbyEvent * const, unsigned long long);
 _inline void UI::GameSetup::OnLobbySessionDeleted(unsigned long long) // 0x589285
 {
     mangled_assert("?OnLobbySessionDeleted@GameSetup@UI@@EAEX_K@Z");
     // __shifted(UI::GameSetup, 412);
     todo("implement");
-    _sub_589285(this, arg);
 }
 
-_extern void _sub_589288(LobbyEvent * const, unsigned long long);
 _inline void UI::GameSetup::OnLobbySessionUpdated(unsigned long long) // 0x589288
 {
     mangled_assert("?OnLobbySessionUpdated@GameSetup@UI@@EAEX_K@Z");
     // __shifted(UI::GameSetup, 412);
     todo("implement");
-    _sub_589288(this, arg);
 }
 
-_extern void _sub_589279(LobbyEvent * const, unsigned long long);
 _inline void UI::GameSetup::OnLobbyRoomAdded(unsigned long long) // 0x589279
 {
     mangled_assert("?OnLobbyRoomAdded@GameSetup@UI@@EAEX_K@Z");
     // __shifted(UI::GameSetup, 412);
     todo("implement");
-    _sub_589279(this, arg);
 }
 
-_extern void _sub_589058(LobbyEvent * const, bool, wchar_t const *);
 _inline void UI::GameSetup::OnLobbyCDAuthenticate(bool, wchar_t const *) // 0x589058
 {
     mangled_assert("?OnLobbyCDAuthenticate@GameSetup@UI@@EAEX_NPB_W@Z");
     // __shifted(UI::GameSetup, 412);
     todo("implement");
-    _sub_589058(this, arg, arg);
 }
 
-_extern void _sub_58914A(LobbyEvent * const, bool, unsigned __int32);
 _inline void UI::GameSetup::OnLobbyChatConnectResult(bool, unsigned __int32) // 0x58914A
 {
     mangled_assert("?OnLobbyChatConnectResult@GameSetup@UI@@EAEX_NI@Z");
     // __shifted(UI::GameSetup, 412);
     todo("implement");
-    _sub_58914A(this, arg, arg);
 }
 
-_extern void _sub_58927C(LobbyEvent * const, LobbyRoomType, bool);
 _inline void UI::GameSetup::OnLobbyRoomJoinedResult(LobbyRoomType, bool) // 0x58927C
 {
     mangled_assert("?OnLobbyRoomJoinedResult@GameSetup@UI@@EAEXW4LobbyRoomType@@_N@Z");
     // __shifted(UI::GameSetup, 412);
     todo("implement");
-    _sub_58927C(this, arg, arg);
 }
 
 /* ---------- private code */

@@ -85,31 +85,22 @@ static_assert(sizeof(NebulaGroupBase) == 20, "Invalid NebulaGroupBase size");
 
 /* ---------- public code */
 
-_extern bool _sub_4C1F58(NebulaGroupBase const *const, unsigned __int32);
 _inline bool NebulaGroupBase::isSquadronInside(unsigned __int32) const // 0x4C1F58
 {
     mangled_assert("?isSquadronInside@NebulaGroupBase@@IBE_NI@Z");
     todo("implement");
-    bool __result = _sub_4C1F58(this, arg);
-    return __result;
 }
 
-_extern bool _sub_4C1F55(NebulaGroupBase *const);
 _inline bool NebulaGroupBase::isDeterministic() // 0x4C1F55
 {
     mangled_assert("?isDeterministic@NebulaGroupBase@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4C1F55(this);
-    return __result;
 }
 
-_extern char const *_sub_4C207D(NebulaGroupBase *const);
 _inline char const *NebulaGroupBase::saveToken() // 0x4C207D
 {
     mangled_assert("?saveToken@NebulaGroupBase@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4C207D(this);
-    return __result;
 }
 
 /* ---------- private code */

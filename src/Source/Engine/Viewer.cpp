@@ -237,278 +237,199 @@ _static
 
 /* ---------- public code */
 
-_extern bool _sub_653120();
 bool viewStartup() // 0x653120
 {
     mangled_assert("?viewStartup@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_653120();
-    return __result;
 }
 
-_extern bool _sub_653030();
 bool viewSetup() // 0x653030
 {
     mangled_assert("?viewSetup@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_653030();
-    return __result;
 }
 
-_extern bool _sub_6530E0();
 bool viewShutdown() // 0x6530E0
 {
     mangled_assert("?viewShutdown@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_6530E0();
-    return __result;
 }
 
-_extern _sub_652470(Viewer *const);
 Viewer::Viewer() // 0x652470
 {
     mangled_assert("??0Viewer@@QAE@XZ");
     todo("implement");
-    _sub_652470(this);
 }
 
-_extern void _sub_652520(Viewer *const);
 Viewer::~Viewer() // 0x652520
 {
     mangled_assert("??1Viewer@@UAE@XZ");
     todo("implement");
-    _sub_652520(this);
 }
 
-_extern void _sub_652A00(Viewer *const);
 void Viewer::clearRenderList() // 0x652A00
 {
     mangled_assert("?clearRenderList@Viewer@@AAEXXZ");
     todo("implement");
-    _sub_652A00(this);
 }
 
-_extern Selection &_sub_652B50(Viewer *const, SobType);
 Selection &Viewer::getRenderListType(SobType) // 0x652B50
 {
     mangled_assert("?getRenderListType@Viewer@@QAEAAVSelection@@W4SobType@@@Z");
     todo("implement");
-    Selection & __result = _sub_652B50(this, arg);
-    return __result;
 }
 
-_extern void _sub_652B70(Viewer *const, unsigned __int32 *, unsigned __int32 *);
 void Viewer::getUpdateStats(unsigned __int32 *, unsigned __int32 *) // 0x652B70
 {
     mangled_assert("?getUpdateStats@Viewer@@QAEXPAI0@Z");
     todo("implement");
-    _sub_652B70(this, arg, arg);
 }
 
-_extern void _sub_652F10(Viewer *const, Sob *, bool);
 void Viewer::updateRenderListSob(Sob *, bool) // 0x652F10
 {
     mangled_assert("?updateRenderListSob@Viewer@@AAEXPAVSob@@_N@Z");
     todo("implement");
-    _sub_652F10(this, arg, arg);
 }
 
-_extern void _sub_6529A0(Sob *, Frustum const &);
 _inline void DoFrustumTest(Sob *sob, Frustum const &frustum) // 0x6529A0
 {
     mangled_assert("?DoFrustumTest@@YGXPAVSob@@ABVFrustum@@@Z");
     todo("implement");
-    _sub_6529A0(sob, frustum);
 }
 
-_extern bool _sub_652780(ShipMissileUpdate *const, Sob *, Camera const &, float, bool);
 _inline bool ShipMissileUpdate::Do(Sob *, Camera const &, float, bool) // 0x652780
 {
     mangled_assert("?Do@ShipMissileUpdate@@QAE_NPAVSob@@ABVCamera@@M_N@Z");
     todo("implement");
-    bool __result = _sub_652780(this, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_6528E0(SubSystemUpdate *const, Sob *, Camera const &, float, bool);
 _inline bool SubSystemUpdate::Do(Sob *, Camera const &, float, bool) // 0x6528E0
 {
     mangled_assert("?Do@SubSystemUpdate@@QAE_NPAVSob@@ABVCamera@@M_N@Z");
     todo("implement");
-    bool __result = _sub_6528E0(this, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_652850(SobWithMeshUpdate *const, Sob *, Camera const &, float, bool);
 _inline bool SobWithMeshUpdate::Do(Sob *, Camera const &, float, bool) // 0x652850
 {
     mangled_assert("?Do@SobWithMeshUpdate@@QAE_NPAVSob@@ABVCamera@@M_N@Z");
     todo("implement");
-    bool __result = _sub_652850(this, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_652980(WeaponFireUpdate *const, Sob *, Camera const &, float, bool);
 _inline bool WeaponFireUpdate::Do(Sob *, Camera const &, float, bool) // 0x652980
 {
     mangled_assert("?Do@WeaponFireUpdate@@QAE_NPAVSob@@ABVCamera@@M_N@Z");
     todo("implement");
-    bool __result = _sub_652980(this, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_652680(GenericUpdate *const, Sob *, Camera const &, float, bool);
 _inline bool GenericUpdate::Do(Sob *, Camera const &, float, bool) // 0x652680
 {
     mangled_assert("?Do@GenericUpdate@@QAE_NPAVSob@@ABVCamera@@M_N@Z");
     todo("implement");
-    bool __result = _sub_652680(this, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern void _sub_651BA0(Viewer *const, Selection const &, float, GenericUpdate &);
 void Viewer::updateRenderListStatus<Selection,GenericUpdate>(Selection const &, float, GenericUpdate &) // 0x651BA0
 {
     mangled_assert("??$updateRenderListStatus@VSelection@@VGenericUpdate@@@Viewer@@AAEXABVSelection@@MAAVGenericUpdate@@@Z");
     todo("implement");
-    _sub_651BA0(this, arg, arg, arg);
 }
 
-_extern void _sub_651D30(Viewer *const, Selection const &, float, ShipMissileUpdate &);
 void Viewer::updateRenderListStatus<Selection,ShipMissileUpdate>(Selection const &, float, ShipMissileUpdate &) // 0x651D30
 {
     mangled_assert("??$updateRenderListStatus@VSelection@@VShipMissileUpdate@@@Viewer@@AAEXABVSelection@@MAAVShipMissileUpdate@@@Z");
     todo("implement");
-    _sub_651D30(this, arg, arg, arg);
 }
 
-_extern void _sub_651EC0(Viewer *const, Selection const &, float, SobWithMeshUpdate &);
 void Viewer::updateRenderListStatus<Selection,SobWithMeshUpdate>(Selection const &, float, SobWithMeshUpdate &) // 0x651EC0
 {
     mangled_assert("??$updateRenderListStatus@VSelection@@VSobWithMeshUpdate@@@Viewer@@AAEXABVSelection@@MAAVSobWithMeshUpdate@@@Z");
     todo("implement");
-    _sub_651EC0(this, arg, arg, arg);
 }
 
-_extern void _sub_6520A0(Viewer *const, Selection const &, float, SubSystemUpdate &);
 void Viewer::updateRenderListStatus<Selection,SubSystemUpdate>(Selection const &, float, SubSystemUpdate &) // 0x6520A0
 {
     mangled_assert("??$updateRenderListStatus@VSelection@@VSubSystemUpdate@@@Viewer@@AAEXABVSelection@@MAAVSubSystemUpdate@@@Z");
     todo("implement");
-    _sub_6520A0(this, arg, arg, arg);
 }
 
-_extern void _sub_652230(Viewer *const, Selection const &, float, WeaponFireUpdate &);
 void Viewer::updateRenderListStatus<Selection,WeaponFireUpdate>(Selection const &, float, WeaponFireUpdate &) // 0x652230
 {
     mangled_assert("??$updateRenderListStatus@VSelection@@VWeaponFireUpdate@@@Viewer@@AAEXABVSelection@@MAAVWeaponFireUpdate@@@Z");
     todo("implement");
-    _sub_652230(this, arg, arg, arg);
 }
 
-_extern __int32 _sub_652CF0(Viewer *const, float);
 __int32 Viewer::taskFunction(float) // 0x652CF0
 {
     mangled_assert("?taskFunction@Viewer@@UAEHM@Z");
     todo("implement");
-    __int32 __result = _sub_652CF0(this, arg);
-    return __result;
 }
 
-_extern void _sub_652BB0(Viewer *const, Sob *);
 void Viewer::removeFromRenderList(Sob *) // 0x652BB0
 {
     mangled_assert("?removeFromRenderList@Viewer@@QAEXPAVSob@@@Z");
     todo("implement");
-    _sub_652BB0(this, arg);
 }
 
-_extern bool _sub_653020(SaveGameData *, SaveType);
 bool viewSave(SaveGameData *saveGameData, SaveType saveType) // 0x653020
 {
     mangled_assert("?viewSave@@YG_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_653020(saveGameData, saveType);
-    return __result;
 }
 
-_extern bool _sub_652FA0(SaveGameData *);
 bool viewRestore(SaveGameData *saveGameData) // 0x652FA0
 {
     mangled_assert("?viewRestore@@YG_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_652FA0(saveGameData);
-    return __result;
 }
 
-_extern void _sub_652BA0(Saveable * const);
 void Viewer::postRestore() // 0x652BA0
 {
     mangled_assert("?postRestore@Viewer@@EAEXXZ");
     // __shifted(Viewer, 48);
     todo("implement");
-    _sub_652BA0(this);
 }
 
-_extern _sub_6523C0(Viewer *const, SaveGameData *);
 Viewer::Viewer(SaveGameData *) // 0x6523C0
 {
     mangled_assert("??0Viewer@@AAE@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_6523C0(this, arg);
 }
 
-_extern void _sub_6531A0(Viewer *const);
 void Viewer::viewerDefaults() // 0x6531A0
 {
     mangled_assert("?viewerDefaults@Viewer@@AAEXXZ");
     todo("implement");
-    _sub_6531A0(this);
 }
 
-_extern bool _sub_652BF0(Saveable * const, SaveGameData *);
 bool Viewer::restore(SaveGameData *) // 0x652BF0
 {
     mangled_assert("?restore@Viewer@@UAE_NPAVSaveGameData@@@Z");
     // __shifted(Viewer, 48);
     todo("implement");
-    bool __result = _sub_652BF0(this, arg);
-    return __result;
 }
 
-_extern bool _sub_652C40(Saveable * const, SaveGameData *, SaveType);
 bool Viewer::save(SaveGameData *, SaveType) // 0x652C40
 {
     mangled_assert("?save@Viewer@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     // __shifted(Viewer, 48);
     todo("implement");
-    bool __result = _sub_652C40(this, arg, arg);
-    return __result;
 }
 
-_extern _sub_6523A0(CameraDistanceTask *const);
 CameraDistanceTask::CameraDistanceTask() // 0x6523A0
 {
     mangled_assert("??0CameraDistanceTask@@QAE@XZ");
     todo("implement");
-    _sub_6523A0(this);
 }
 
-_extern void _sub_652A80(CameraDistanceTask *const, Selection const &);
 void CameraDistanceTask::computeDistanceToCamera(Selection const &) // 0x652A80
 {
     mangled_assert("?computeDistanceToCamera@CameraDistanceTask@@AAEXABVSelection@@@Z");
     todo("implement");
-    _sub_652A80(this, arg);
 }
 
-_extern __int32 _sub_652C90(CameraDistanceTask *const, float);
 __int32 CameraDistanceTask::taskFunction(float) // 0x652C90
 {
     mangled_assert("?taskFunction@CameraDistanceTask@@UAEHM@Z");
     todo("implement");
-    __int32 __result = _sub_652C90(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

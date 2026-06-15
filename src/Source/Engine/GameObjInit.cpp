@@ -306,301 +306,203 @@ _static
 
 /* ---------- public code */
 
-_extern char const *_sub_4FBD65();
 char const *GameObjInit::Initialize() // 0x4FBD65
 {
     mangled_assert("?Initialize@GameObjInit@@SGPBDXZ");
     todo("implement");
-    char const * __result = _sub_4FBD65();
-    return __result;
 }
 
-_extern char const *_sub_4FBDCB();
 char const *GameObjInit::Shutdown() // 0x4FBDCB
 {
     mangled_assert("?Shutdown@GameObjInit@@SGPBDXZ");
     todo("implement");
-    char const * __result = _sub_4FBDCB();
-    return __result;
 }
 
-_extern char const *_sub_4FBDB6(SaveGameData *, SaveType);
 char const *GameObjInit::Save(SaveGameData *saveGameData, SaveType saveType) // 0x4FBDB6
 {
     mangled_assert("?Save@GameObjInit@@SGPBDPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    char const * __result = _sub_4FBDB6(saveGameData, saveType);
-    return __result;
 }
 
-_extern char const *_sub_4FBDA0(SaveGameData *);
 char const *GameObjInit::Restore(SaveGameData *saveGameData) // 0x4FBDA0
 {
     mangled_assert("?Restore@GameObjInit@@SGPBDPAVSaveGameData@@@Z");
     todo("implement");
-    char const * __result = _sub_4FBDA0(saveGameData);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern void _sub_4FBD75(__int32, __int32, wchar_t const *);
 _static void LoadingUpdateCallback(__int32 currentCount, __int32 totalCount, wchar_t const *text) // 0x4FBD75
 {
     mangled_assert("LoadingUpdateCallback");
     todo("implement");
-    _sub_4FBD75(currentCount, totalCount, text);
 }
 
-_extern bool _sub_4FBB1B();
 _static bool GameInit::initLoadLevel() // 0x4FBB1B
 {
     mangled_assert("GameInit::initLoadLevel");
     todo("implement");
-    bool __result = _sub_4FBB1B();
-    return __result;
 }
 
-_extern bool _sub_4FBB27(SaveGameData *);
 _static bool GameInit::initRestoreLevel(SaveGameData *saveGameData) // 0x4FBB27
 {
     mangled_assert("GameInit::initRestoreLevel");
     todo("implement");
-    bool __result = _sub_4FBB27(saveGameData);
-    return __result;
 }
 
-_extern bool _sub_4FBAF2();
 _static bool GameInit::startGameTasksPreInGame() // 0x4FBAF2
 {
     mangled_assert("GameInit::startGameTasksPreInGame");
     todo("implement");
-    bool __result = _sub_4FBAF2();
-    return __result;
 }
 
-_extern bool _sub_4FBAF5();
 _static bool GameInit::stopGameTasks() // 0x4FBAF5
 {
     mangled_assert("GameInit::stopGameTasks");
     todo("implement");
-    bool __result = _sub_4FBAF5();
-    return __result;
 }
 
-_extern bool _sub_4FBB36();
 _static bool GameInit::clearDebugRenderQueue() // 0x4FBB36
 {
     mangled_assert("GameInit::clearDebugRenderQueue");
     todo("implement");
-    bool __result = _sub_4FBB36();
-    return __result;
 }
 
-_extern bool _sub_4FBB44();
 _static bool GameInit::soundEnterGame() // 0x4FBB44
 {
     mangled_assert("GameInit::soundEnterGame");
     todo("implement");
-    bool __result = _sub_4FBB44();
-    return __result;
 }
 
-_extern bool _sub_4FBB50();
 _static bool GameInit::soundLeaveGame() // 0x4FBB50
 {
     mangled_assert("GameInit::soundLeaveGame");
     todo("implement");
-    bool __result = _sub_4FBB50();
-    return __result;
 }
 
-_extern bool _sub_4FBB5C();
 _static bool GameInit::musicStop() // 0x4FBB5C
 {
     mangled_assert("GameInit::musicStop");
     todo("implement");
-    bool __result = _sub_4FBB5C();
-    return __result;
 }
 
-_extern bool _sub_4FBB82();
 _static bool GameInit::musicStopFE() // 0x4FBB82
 {
     mangled_assert("GameInit::musicStopFE");
     todo("implement");
-    bool __result = _sub_4FBB82();
-    return __result;
 }
 
-_extern bool _sub_4FBB73();
 _static bool GameInit::musicStartFE() // 0x4FBB73
 {
     mangled_assert("GameInit::musicStartFE");
     todo("implement");
-    bool __result = _sub_4FBB73();
-    return __result;
 }
 
-_extern bool _sub_4FBB91();
 _static bool GameInit::musicPlayDefault() // 0x4FBB91
 {
     mangled_assert("GameInit::musicPlayDefault");
     todo("implement");
-    bool __result = _sub_4FBB91();
-    return __result;
 }
 
-_extern bool _sub_4FBCA9();
 _static bool GameInit::AIInit() // 0x4FBCA9
 {
     mangled_assert("GameInit::AIInit");
     todo("implement");
-    bool __result = _sub_4FBCA9();
-    return __result;
 }
 
-_extern bool _sub_4FBCB8();
 _static bool GameInit::AIShutdown() // 0x4FBCB8
 {
     mangled_assert("GameInit::AIShutdown");
     todo("implement");
-    bool __result = _sub_4FBCB8();
-    return __result;
 }
 
-_extern bool _sub_4FBCC7(SaveGameData *);
 _static bool GameInit::AIRestore(SaveGameData *savegamedata) // 0x4FBCC7
 {
     mangled_assert("GameInit::AIRestore");
     todo("implement");
-    bool __result = _sub_4FBCC7(savegamedata);
-    return __result;
 }
 
-_extern bool _sub_4FBCDC(SaveGameData *, SaveType);
 _static bool GameInit::AISave(SaveGameData *saveGameData, SaveType saveType) // 0x4FBCDC
 {
     mangled_assert("GameInit::AISave");
     todo("implement");
-    bool __result = _sub_4FBCDC(saveGameData, saveType);
-    return __result;
 }
 
-_extern bool _sub_4FBBA0();
 _static bool GameInit::StartStatRecording() // 0x4FBBA0
 {
     mangled_assert("GameInit::StartStatRecording");
     todo("implement");
-    bool __result = _sub_4FBBA0();
-    return __result;
 }
 
-_extern bool _sub_4FBBB5();
 _static bool GameInit::StopStatRecording() // 0x4FBBB5
 {
     mangled_assert("GameInit::StopStatRecording");
     todo("implement");
-    bool __result = _sub_4FBBB5();
-    return __result;
 }
 
-_extern bool _sub_4FBBCA();
 _static bool GameInit::StartupBackgroundFX() // 0x4FBBCA
 {
     mangled_assert("GameInit::StartupBackgroundFX");
     todo("implement");
-    bool __result = _sub_4FBBCA();
-    return __result;
 }
 
-_extern bool _sub_4FBBF8();
 _static bool GameInit::ShutdownBackgroundFX() // 0x4FBBF8
 {
     mangled_assert("GameInit::ShutdownBackgroundFX");
     todo("implement");
-    bool __result = _sub_4FBBF8();
-    return __result;
 }
 
-_extern bool _sub_4FBCF5();
 _static bool GameInit::ApplyProfileGameOptions() // 0x4FBCF5
 {
     mangled_assert("GameInit::ApplyProfileGameOptions");
     todo("implement");
-    bool __result = _sub_4FBCF5();
-    return __result;
 }
 
-_extern bool _sub_4FBC1E();
 _static bool GameInit::StartupScarScript() // 0x4FBC1E
 {
     mangled_assert("GameInit::StartupScarScript");
     todo("implement");
-    bool __result = _sub_4FBC1E();
-    return __result;
 }
 
-_extern bool _sub_4FBC57();
 _static bool GameInit::ShutdownScarScript() // 0x4FBC57
 {
     mangled_assert("GameInit::ShutdownScarScript");
     todo("implement");
-    bool __result = _sub_4FBC57();
-    return __result;
 }
 
-_extern bool _sub_4FBC5F(SaveGameData *);
 _static bool GameInit::RestoreScarScript(SaveGameData *saveGameData) // 0x4FBC5F
 {
     mangled_assert("GameInit::RestoreScarScript");
     todo("implement");
-    bool __result = _sub_4FBC5F(saveGameData);
-    return __result;
 }
 
-_extern bool _sub_4FBC97(SaveGameData *, SaveType);
 _static bool GameInit::SaveScarScript(SaveGameData *saveGameData, SaveType saveType) // 0x4FBC97
 {
     mangled_assert("GameInit::SaveScarScript");
     todo("implement");
-    bool __result = _sub_4FBC97(saveGameData, saveType);
-    return __result;
 }
 
-_extern bool _sub_4FBD13();
 _static bool GameInit::ResetStateBlockVar() // 0x4FBD13
 {
     mangled_assert("GameInit::ResetStateBlockVar");
     todo("implement");
-    bool __result = _sub_4FBD13();
-    return __result;
 }
 
-_extern bool _sub_4FBA95();
 _static bool GameInit::startSyncChecking() // 0x4FBA95
 {
     mangled_assert("GameInit::startSyncChecking");
     todo("implement");
-    bool __result = _sub_4FBA95();
-    return __result;
 }
 
-_extern bool _sub_4FBACE();
 _static bool GameInit::stopSyncChecking() // 0x4FBACE
 {
     mangled_assert("GameInit::stopSyncChecking");
     todo("implement");
-    bool __result = _sub_4FBACE();
-    return __result;
 }
 
-_extern bool _sub_4FBD24();
 _static bool GameInit::RenderPreLevel() // 0x4FBD24
 {
     mangled_assert("GameInit::RenderPreLevel");
     todo("implement");
-    bool __result = _sub_4FBD24();
-    return __result;
 }
 #endif

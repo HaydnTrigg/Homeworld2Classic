@@ -87,39 +87,28 @@ static_assert(sizeof(IdleCommand) == 28, "Invalid IdleCommand size");
 
 /* ---------- public code */
 
-_extern void _sub_4B8F84(IdleCommand *const);
 _inline void IdleCommand::clearNoReactionsTimer() // 0x4B8F84
 {
     mangled_assert("?clearNoReactionsTimer@IdleCommand@@QAEXXZ");
     todo("implement");
-    _sub_4B8F84(this);
 }
 
-_extern bool _sub_6A8414(IdleCommand *const, CommandType, Command *);
 _inline bool IdleCommand::canBeInterrupted(CommandType, Command *) // 0x6A8414
 {
     mangled_assert("?canBeInterrupted@IdleCommand@@UAE_NW4CommandType@@PAVCommand@@@Z");
     todo("implement");
-    bool __result = _sub_6A8414(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_6A8427(IdleCommand *const);
 _inline bool IdleCommand::isDeterministic() // 0x6A8427
 {
     mangled_assert("?isDeterministic@IdleCommand@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6A8427(this);
-    return __result;
 }
 
-_extern char const *_sub_6A84C8(IdleCommand *const);
 _inline char const *IdleCommand::saveToken() // 0x6A84C8
 {
     mangled_assert("?saveToken@IdleCommand@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6A84C8(this);
-    return __result;
 }
 
 /* ---------- private code */

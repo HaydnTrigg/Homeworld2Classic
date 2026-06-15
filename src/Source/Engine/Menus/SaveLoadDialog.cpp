@@ -213,260 +213,193 @@ extern char const *UI::RECGAMEFILEEXTENSION; // 0x83A77C
 
 /* ---------- public code */
 
-_extern _sub_5A6A45(UI::SaveLoadDialog *const, char const *);
 UI::SaveLoadDialog::SaveLoadDialog(char const *) // 0x5A6A45
 {
     mangled_assert("??0SaveLoadDialog@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_5A6A45(this, arg);
 }
 
-_extern _sub_5A6AA7(UI::SaveLoadDialogData *const);
 _inline UI::SaveLoadDialogData::SaveLoadDialogData() // 0x5A6AA7
 {
     mangled_assert("??0SaveLoadDialogData@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5A6AA7(this);
 }
 
-_extern void _sub_5A6AD8(UI::SaveLoadDialog *const);
 UI::SaveLoadDialog::~SaveLoadDialog() // 0x5A6AD8
 {
     mangled_assert("??1SaveLoadDialog@UI@@UAE@XZ");
     todo("implement");
-    _sub_5A6AD8(this);
 }
 
-_extern void _sub_5A6AFB(UI::SaveLoadDialogData *const);
 _inline UI::SaveLoadDialogData::~SaveLoadDialogData() // 0x5A6AFB
 {
     mangled_assert("??1SaveLoadDialogData@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5A6AFB(this);
 }
 
-_extern void _sub_5A6EAF(UI::SaveLoadDialog *const);
 void UI::SaveLoadDialog::InitData() // 0x5A6EAF
 {
     mangled_assert("?InitData@SaveLoadDialog@UI@@AAEXXZ");
     todo("implement");
-    _sub_5A6EAF(this);
 }
 
-_extern void _sub_5A7144(UI::SaveLoadDialog *const, bool);
 void UI::SaveLoadDialog::OnActivate(bool) // 0x5A7144
 {
     mangled_assert("?OnActivate@SaveLoadDialog@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_5A7144(this, arg);
 }
 
-_extern void _sub_5A76D6(UI::SaveLoadDialog *const);
 void UI::SaveLoadDialog::OnPostLoad() // 0x5A76D6
 {
     mangled_assert("?OnPostLoad@SaveLoadDialog@UI@@MAEXXZ");
     todo("implement");
-    _sub_5A76D6(this);
 }
 
-_extern void _sub_5A6C72(UI::SaveLoadDialog *const, char const *, char const *);
 void UI::SaveLoadDialog::FillList(char const *, char const *) // 0x5A6C72
 {
     mangled_assert("?FillList@SaveLoadDialog@UI@@AAEXPBD0@Z");
     todo("implement");
-    _sub_5A6C72(this, arg, arg);
 }
 
-_extern void _sub_5A6B52(UI::InterfaceElement *);
 void UI::SaveLoadDialog::DeleteAccept(UI::InterfaceElement *btn) // 0x5A6B52
 {
     mangled_assert("?DeleteAccept@SaveLoadDialog@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5A6B52(btn);
 }
 
-_extern void _sub_5A7434(UI::InterfaceElement *);
 void UI::SaveLoadDialog::OnDeleteClicked(UI::InterfaceElement *sender) // 0x5A7434
 {
     mangled_assert("?OnDeleteClicked@SaveLoadDialog@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5A7434(sender);
 }
 
-_extern void _sub_5A73B0(UI::InterfaceElement *);
 void UI::SaveLoadDialog::OnCancelClicked(UI::InterfaceElement *sender) // 0x5A73B0
 {
     mangled_assert("?OnCancelClicked@SaveLoadDialog@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5A73B0(sender);
 }
 
-_extern void _sub_5A7C73(UI::SaveLoadDialog::SaveLoadDialogType, UI::ScreenTransitionType, char const *);
 void UI::SaveLoadDialog::Show(UI::SaveLoadDialog::SaveLoadDialogType screenType, UI::ScreenTransitionType trans, char const *campaign) // 0x5A7C73
 {
     mangled_assert("?Show@SaveLoadDialog@UI@@SGXW4SaveLoadDialogType@12@W4ScreenTransitionType@2@PBD@Z");
     todo("implement");
-    _sub_5A7C73(screenType, trans, campaign);
 }
 
-_extern bool _sub_5A6BA7(char const *);
 bool UI::SaveLoadDialog::DoSavedCampaignExist(char const *campaignName) // 0x5A6BA7
 {
     mangled_assert("?DoSavedCampaignExist@SaveLoadDialog@UI@@SG_NPBD@Z");
     todo("implement");
-    bool __result = _sub_5A6BA7(campaignName);
-    return __result;
 }
 
-_extern bool _sub_5A6C30();
 bool UI::SaveLoadDialog::DoSavedSkirmishExist() // 0x5A6C30
 {
     mangled_assert("?DoSavedSkirmishExist@SaveLoadDialog@UI@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_5A6C30();
-    return __result;
 }
 
-_extern bool _sub_5A6BEE();
 bool UI::SaveLoadDialog::DoSavedRecordedExist() // 0x5A6BEE
 {
     mangled_assert("?DoSavedRecordedExist@SaveLoadDialog@UI@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_5A6BEE();
-    return __result;
 }
 
-_extern void _sub_5A76B2(UI::InterfaceElement *);
 void UI::SaveLoadDialog::OnLoadSkirmishClicked(UI::InterfaceElement *sender) // 0x5A76B2
 {
     mangled_assert("?OnLoadSkirmishClicked@SaveLoadDialog@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5A76B2(sender);
 }
 
-_extern void _sub_5A752B(UI::InterfaceElement *);
 void UI::SaveLoadDialog::OnLoadCampaignClicked(UI::InterfaceElement *sender) // 0x5A752B
 {
     mangled_assert("?OnLoadCampaignClicked@SaveLoadDialog@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5A752B(sender);
 }
 
-_extern void _sub_5A758D(UI::InterfaceElement *);
 void UI::SaveLoadDialog::OnLoadRecordedClicked(UI::InterfaceElement *sender) // 0x5A758D
 {
     mangled_assert("?OnLoadRecordedClicked@SaveLoadDialog@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5A758D(sender);
 }
 
-_extern void _sub_5A795B(UI::InterfaceElement *);
 void UI::SaveLoadDialog::OnSaveSkirmishClicked(UI::InterfaceElement *sender) // 0x5A795B
 {
     mangled_assert("?OnSaveSkirmishClicked@SaveLoadDialog@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5A795B(sender);
 }
 
-_extern void _sub_5A7913(UI::InterfaceElement *);
 void UI::SaveLoadDialog::OnSaveCampaignClicked(UI::InterfaceElement *sender) // 0x5A7913
 {
     mangled_assert("?OnSaveCampaignClicked@SaveLoadDialog@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5A7913(sender);
 }
 
-_extern void _sub_5A7937(UI::InterfaceElement *);
 void UI::SaveLoadDialog::OnSaveRecordedClicked(UI::InterfaceElement *sender) // 0x5A7937
 {
     mangled_assert("?OnSaveRecordedClicked@SaveLoadDialog@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5A7937(sender);
 }
 
-_extern void _sub_5A74BD(UI::InterfaceElement *, __int32, __int32, unsigned __int32);
 void UI::SaveLoadDialog::OnItemDoubleClicked(UI::InterfaceElement *sender, __int32 x, __int32 y, unsigned __int32 b) // 0x5A74BD
 {
     mangled_assert("?OnItemDoubleClicked@SaveLoadDialog@UI@@CGXPAVInterfaceElement@2@HHI@Z");
     todo("implement");
-    _sub_5A74BD(sender, x, y, b);
 }
 
-_extern void _sub_5A6F4A(wchar_t const *);
 void UI::SaveLoadDialog::LoadGame(wchar_t const *savename) // 0x5A6F4A
 {
     mangled_assert("?LoadGame@SaveLoadDialog@UI@@CGXPB_W@Z");
     todo("implement");
-    _sub_5A6F4A(savename);
 }
 
-_extern void _sub_5A7D92(UI::InterfaceElement *);
 void UI::SaveLoadDialog::VerifyLoadAccept(UI::InterfaceElement *btn) // 0x5A7D92
 {
     mangled_assert("?VerifyLoadAccept@SaveLoadDialog@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5A7D92(btn);
 }
 
-_extern void _sub_5A7DEA(UI::InterfaceElement *);
 void UI::SaveLoadDialog::VerifyLoadCancel(UI::InterfaceElement *btn) // 0x5A7DEA
 {
     mangled_assert("?VerifyLoadCancel@SaveLoadDialog@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5A7DEA(btn);
 }
 
-_extern void _sub_5A7A6E(wchar_t const *);
 void UI::SaveLoadDialog::SaveGame(wchar_t const *savename) // 0x5A7A6E
 {
     mangled_assert("?SaveGame@SaveLoadDialog@UI@@CGXPB_W@Z");
     todo("implement");
-    _sub_5A7A6E(savename);
 }
 
-_extern void _sub_5A797F(UI::InterfaceElement *);
 void UI::SaveLoadDialog::OverwriteGameAccept(UI::InterfaceElement *btn) // 0x5A797F
 {
     mangled_assert("?OverwriteGameAccept@SaveLoadDialog@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5A797F(btn);
 }
 
-_extern void _sub_5A7A1C(UI::InterfaceElement *);
 void UI::SaveLoadDialog::OverwriteGameCancel(UI::InterfaceElement *btn) // 0x5A7A1C
 {
     mangled_assert("?OverwriteGameCancel@SaveLoadDialog@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5A7A1C(btn);
 }
 
-_extern bool _sub_5A7A1F(char const *);
 bool UI::SaveLoadDialog::SaveFile(char const *filename) // 0x5A7A1F
 {
     mangled_assert("?SaveFile@SaveLoadDialog@UI@@CG_NPBD@Z");
     todo("implement");
-    bool __result = _sub_5A7A1F(filename);
-    return __result;
 }
 
-_extern void _sub_5A754F(UI::InterfaceElement *, __int32, __int32, unsigned __int32);
 void UI::SaveLoadDialog::OnLoadItemDoubleClicked(UI::InterfaceElement *e, __int32 x, __int32 y, unsigned __int32 bf) // 0x5A754F
 {
     mangled_assert("?OnLoadItemDoubleClicked@SaveLoadDialog@UI@@CGXPAVInterfaceElement@2@HHI@Z");
     todo("implement");
-    _sub_5A754F(e, x, y, bf);
 }
 
 /* ---------- private code */
 
-_extern bool _sub_5A7CFC(char const *);
 _static bool UI::ValidateFilename(char const *file) // 0x5A7CFC
 {
     mangled_assert("UI::ValidateFilename");
     todo("implement");
-    bool __result = _sub_5A7CFC(file);
-    return __result;
 }
 #endif

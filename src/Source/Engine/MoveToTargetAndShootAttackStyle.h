@@ -95,66 +95,46 @@ static_assert(sizeof(MoveToTargetAndShootAttackStyle) == 180, "Invalid MoveToTar
 
 /* ---------- public code */
 
-_extern void _sub_6AF719(MoveToTargetAndShootStatic *const);
 _inline MoveToTargetAndShootStatic::~MoveToTargetAndShootStatic() // 0x6AF719
 {
     mangled_assert("??1MoveToTargetAndShootStatic@@UAE@XZ");
     todo("implement");
-    _sub_6AF719(this);
 }
 
-_extern AttackStyle::AttackStyleType _sub_6AF775(MoveToTargetAndShootAttackStyle const *const);
 _inline AttackStyle::AttackStyleType MoveToTargetAndShootAttackStyle::GetType() const // 0x6AF775
 {
     mangled_assert("?GetType@MoveToTargetAndShootAttackStyle@@UBE?AW4AttackStyleType@AttackStyle@@XZ");
     todo("implement");
-    AttackStyle::AttackStyleType __result = _sub_6AF775(this);
-    return __result;
 }
 
-_extern Sob *_sub_6AFADC(MoveToTargetAndShootAttackStyle const *const);
 _inline Sob *MoveToTargetAndShootAttackStyle::getSobToNotAvoid() const // 0x6AFADC
 {
     mangled_assert("?getSobToNotAvoid@MoveToTargetAndShootAttackStyle@@UBEPAVSob@@XZ");
     todo("implement");
-    Sob * __result = _sub_6AFADC(this);
-    return __result;
 }
 
-_extern bool _sub_6AF9B3(MoveToTargetAndShootAttackStyle *const);
 _inline bool MoveToTargetAndShootAttackStyle::doesAttackStyleDictateTargetPoint() // 0x6AF9B3
 {
     mangled_assert("?doesAttackStyleDictateTargetPoint@MoveToTargetAndShootAttackStyle@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6AF9B3(this);
-    return __result;
 }
 
-_extern MoveToTargetAndShootStatic const *_sub_6AFADF(MoveToTargetAndShootAttackStyle const *const);
 _inline MoveToTargetAndShootStatic const *MoveToTargetAndShootAttackStyle::getStaticInfo() const // 0x6AFADF
 {
     mangled_assert("?getStaticInfo@MoveToTargetAndShootAttackStyle@@IBEPBVMoveToTargetAndShootStatic@@XZ");
     todo("implement");
-    MoveToTargetAndShootStatic const * __result = _sub_6AFADF(this);
-    return __result;
 }
 
-_extern bool _sub_6AFBA0(MoveToTargetAndShootAttackStyle *const);
 _inline bool MoveToTargetAndShootAttackStyle::isDeterministic() // 0x6AFBA0
 {
     mangled_assert("?isDeterministic@MoveToTargetAndShootAttackStyle@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6AFBA0(this);
-    return __result;
 }
 
-_extern char const *_sub_6AFF97(MoveToTargetAndShootAttackStyle *const);
 _inline char const *MoveToTargetAndShootAttackStyle::saveToken() // 0x6AFF97
 {
     mangled_assert("?saveToken@MoveToTargetAndShootAttackStyle@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6AFF97(this);
-    return __result;
 }
 
 /* ---------- private code */

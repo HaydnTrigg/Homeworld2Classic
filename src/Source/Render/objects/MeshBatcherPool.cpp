@@ -28,30 +28,22 @@ _static
 
 /* ---------- public code */
 
-_extern void *_sub_100807F0(unsigned __int32);
 void *MeshBatcherMemAlloc(unsigned __int32 size) // 0x100807F0
 {
     mangled_assert("?MeshBatcherMemAlloc@@YGPAXI@Z");
     todo("implement");
-    void * __result = _sub_100807F0(size);
-    return __result;
 }
 
-_extern void _sub_10080810(void *);
 void MeshBatcherMemFree(void *pointer) // 0x10080810
 {
     mangled_assert("?MeshBatcherMemFree@@YGXPAX@Z");
     todo("implement");
-    _sub_10080810(pointer);
 }
 
-_extern _HMEMPOOL *_sub_10080830();
 _HMEMPOOL *MeshBatcherMemHandle() // 0x10080830
 {
     mangled_assert("?MeshBatcherMemHandle@@YGPAU_HMEMPOOL@@XZ");
     todo("implement");
-    _HMEMPOOL * __result = _sub_10080830();
-    return __result;
 }
 
 /* ---------- private code */

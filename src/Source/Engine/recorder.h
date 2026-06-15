@@ -83,48 +83,34 @@ static_assert(sizeof(Recorder) == 40, "Invalid Recorder size");
 
 /* ---------- public code */
 
-_extern bool _sub_463A54(Recorder const *const);
 _inline bool Recorder::isSavingPackets() const // 0x463A54
 {
     mangled_assert("?isSavingPackets@Recorder@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_463A54(this);
-    return __result;
 }
 
-_extern bool _sub_450988(Recorder const *const);
 _inline bool Recorder::isPlayingRecordedGame() const // 0x450988
 {
     mangled_assert("?isPlayingRecordedGame@Recorder@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_450988(this);
-    return __result;
 }
 
-_extern long _sub_6244D0(Recorder *const, Recorder::RecordedGameState);
 _inline long Recorder::setRecordedGameState(Recorder::RecordedGameState) // 0x6244D0
 {
     mangled_assert("?setRecordedGameState@Recorder@@QAEJW4RecordedGameState@1@@Z");
     todo("implement");
-    long __result = _sub_6244D0(this, arg);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_624589(Recorder::RecordPacket const *const);
 _inline unsigned __int32 Recorder::RecordPacket::size() const // 0x624589
 {
     mangled_assert("?size@RecordPacket@Recorder@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_624589(this);
-    return __result;
 }
 
-_extern void _sub_5C6A31(Recorder *const);
 _inline void Recorder::SwitchPlayer() // 0x5C6A31
 {
     mangled_assert("?SwitchPlayer@Recorder@@QAEXXZ");
     todo("implement");
-    _sub_5C6A31(this);
 }
 
 /* ---------- private code */

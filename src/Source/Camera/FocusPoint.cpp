@@ -87,12 +87,10 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_668A1A(FocusPoint *const, char const *, vector3 const &, vector3 const &);
 FocusPoint::FocusPoint(char const *, vector3 const &, vector3 const &) // 0x668A1A
 {
     mangled_assert("??0FocusPoint@@QAE@PBDABVvector3@@1@Z");
     todo("implement");
-    _sub_668A1A(this, arg, arg, arg);
 }
 
 /* ---------- private code */

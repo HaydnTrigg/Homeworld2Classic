@@ -71,134 +71,97 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_680ABA(UI::SharedGraphicFactory::Data *const);
 _inline UI::SharedGraphicFactory::Data::Data() // 0x680ABA
 {
     mangled_assert("??0Data@SharedGraphicFactory@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_680ABA(this);
 }
 
-_extern void _sub_680E9B();
 void UI::SharedGraphicFactory::Startup() // 0x680E9B
 {
     mangled_assert("?Startup@SharedGraphicFactory@UI@@SGXXZ");
     todo("implement");
-    _sub_680E9B();
 }
 
-_extern void _sub_680E79();
 void UI::SharedGraphicFactory::Shutdown() // 0x680E79
 {
     mangled_assert("?Shutdown@SharedGraphicFactory@UI@@SGXXZ");
     todo("implement");
-    _sub_680E79();
 }
 
-_extern UI::SharedGraphicFactory *_sub_680E65();
 UI::SharedGraphicFactory *UI::SharedGraphicFactory::Instance() // 0x680E65
 {
     mangled_assert("?Instance@SharedGraphicFactory@UI@@SGPAV12@XZ");
     todo("implement");
-    UI::SharedGraphicFactory * __result = _sub_680E65();
-    return __result;
 }
 
-_extern _sub_680AD1(UI::SharedGraphicFactory *const);
 UI::SharedGraphicFactory::SharedGraphicFactory() // 0x680AD1
 {
     mangled_assert("??0SharedGraphicFactory@UI@@AAE@XZ");
     todo("implement");
-    _sub_680AD1(this);
 }
 
-_extern void _sub_680B25(std::_List_buy<boost::shared_ptr<UI::Graphic>,std::allocator<boost::shared_ptr<UI::Graphic> > > *const);
 _inline std::_List_buy<boost::shared_ptr<UI::Graphic>,std::allocator<boost::shared_ptr<UI::Graphic> > >::~_List_buy<boost::shared_ptr<UI::Graphic>,std::allocator<boost::shared_ptr<UI::Graphic> > >() // 0x680B25
 {
     mangled_assert("??1?$_List_buy@V?$shared_ptr@VGraphic@UI@@@boost@@V?$allocator@V?$shared_ptr@VGraphic@UI@@@boost@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_680B25(this);
 }
 
-_extern void _sub_680B4E(UI::SharedGraphicFactory::Data *const);
 _inline UI::SharedGraphicFactory::Data::~Data() // 0x680B4E
 {
     mangled_assert("??1Data@SharedGraphicFactory@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_680B4E(this);
 }
 
-_extern void _sub_680B60(UI::SharedGraphicFactory *const);
 UI::SharedGraphicFactory::~SharedGraphicFactory() // 0x680B60
 {
     mangled_assert("??1SharedGraphicFactory@UI@@AAE@XZ");
     todo("implement");
-    _sub_680B60(this);
 }
 
-_extern boost::shared_ptr<UI::Graphic> _sub_680DF5(UI::SharedGraphicFactory *const);
 boost::shared_ptr<UI::Graphic> UI::SharedGraphicFactory::Create() // 0x680DF5
 {
     mangled_assert("?Create@SharedGraphicFactory@UI@@QAE?AV?$shared_ptr@VGraphic@UI@@@boost@@XZ");
     todo("implement");
-    boost::shared_ptr<UI::Graphic> __result = _sub_680DF5(this);
-    return __result;
 }
 
-_extern boost::shared_ptr<UI::Graphic> _sub_680C21(UI::SharedGraphicFactory *const, LuaConfig &);
 boost::shared_ptr<UI::Graphic> UI::SharedGraphicFactory::Create(LuaConfig &) // 0x680C21
 {
     mangled_assert("?Create@SharedGraphicFactory@UI@@QAE?AV?$shared_ptr@VGraphic@UI@@@boost@@AAVLuaConfig@@@Z");
     todo("implement");
-    boost::shared_ptr<UI::Graphic> __result = _sub_680C21(this, arg);
-    return __result;
 }
 
-_extern boost::shared_ptr<UI::Graphic> _sub_680D85(UI::SharedGraphicFactory *const, char const *);
 boost::shared_ptr<UI::Graphic> UI::SharedGraphicFactory::Create(char const *) // 0x680D85
 {
     mangled_assert("?Create@SharedGraphicFactory@UI@@QAE?AV?$shared_ptr@VGraphic@UI@@@boost@@PBD@Z");
     todo("implement");
-    boost::shared_ptr<UI::Graphic> __result = _sub_680D85(this, arg);
-    return __result;
 }
 
-_extern boost::shared_ptr<UI::Graphic> _sub_680D12(UI::SharedGraphicFactory *const, Texture *, char const *);
 boost::shared_ptr<UI::Graphic> UI::SharedGraphicFactory::Create(Texture *, char const *) // 0x680D12
 {
     mangled_assert("?Create@SharedGraphicFactory@UI@@QAE?AV?$shared_ptr@VGraphic@UI@@@boost@@PAVTexture@@PBD@Z");
     todo("implement");
-    boost::shared_ptr<UI::Graphic> __result = _sub_680D12(this, arg, arg);
-    return __result;
 }
 
-_extern boost::shared_ptr<UI::Graphic> _sub_680C91(UI::SharedGraphicFactory *const, boost::shared_ptr<UI::Graphic> const &);
 boost::shared_ptr<UI::Graphic> UI::SharedGraphicFactory::Create(boost::shared_ptr<UI::Graphic> const &) // 0x680C91
 {
     mangled_assert("?Create@SharedGraphicFactory@UI@@QAE?AV?$shared_ptr@VGraphic@UI@@@boost@@ABV34@@Z");
     todo("implement");
-    boost::shared_ptr<UI::Graphic> __result = _sub_680C91(this, arg);
-    return __result;
 }
 
-_extern std::list<boost::shared_ptr<UI::Graphic>,std::allocator<boost::shared_ptr<UI::Graphic> > > const &_sub_680E62(UI::SharedGraphicFactory const *const);
 std::list<boost::shared_ptr<UI::Graphic>,std::allocator<boost::shared_ptr<UI::Graphic> > > const &UI::SharedGraphicFactory::GetAll() const // 0x680E62
 {
     mangled_assert("?GetAll@SharedGraphicFactory@UI@@QBEABV?$list@V?$shared_ptr@VGraphic@UI@@@boost@@V?$allocator@V?$shared_ptr@VGraphic@UI@@@boost@@@std@@@std@@XZ");
     todo("implement");
-    std::list<boost::shared_ptr<UI::Graphic>,std::allocator<boost::shared_ptr<UI::Graphic> > > const & __result = _sub_680E62(this);
-    return __result;
 }
 
-_extern void _sub_680EDB(UI::SharedGraphicFactory *const, unsigned __int32);
 void UI::SharedGraphicFactory::UpdateAll(unsigned __int32) // 0x680EDB
 {
     mangled_assert("?UpdateAll@SharedGraphicFactory@UI@@QAEXI@Z");
     todo("implement");
-    _sub_680EDB(this, arg);
 }
 
 /* ---------- private code */

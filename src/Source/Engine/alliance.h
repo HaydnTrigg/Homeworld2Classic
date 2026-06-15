@@ -125,22 +125,16 @@ static_assert(sizeof(Alliance) == 24, "Invalid Alliance size");
 
 /* ---------- public code */
 
-_extern Alliance *_sub_454B2A();
 _inline Alliance *Alliance::i() // 0x454B2A
 {
     mangled_assert("?i@Alliance@@SGPAV1@XZ");
     todo("implement");
-    Alliance * __result = _sub_454B2A();
-    return __result;
 }
 
-_extern unsigned __int32 _sub_57510A(Alliance *const);
 _inline unsigned __int32 Alliance::getNumAllianceEvents() // 0x57510A
 {
     mangled_assert("?getNumAllianceEvents@Alliance@@QAEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_57510A(this);
-    return __result;
 }
 
 /* ---------- private code */

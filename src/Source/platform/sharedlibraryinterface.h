@@ -71,12 +71,10 @@ static_assert(sizeof(SharedLibraryInterface) == 4, "Invalid SharedLibraryInterfa
 
 /* ---------- public code */
 
-_extern void _sub_10006C04(SharedLibraryInterface *const);
 _inline SharedLibraryInterface::~SharedLibraryInterface() // 0x10006C04
 {
     mangled_assert("??1SharedLibraryInterface@@MAE@XZ");
     todo("implement");
-    _sub_10006C04(this);
 }
 
 /* ---------- private code */

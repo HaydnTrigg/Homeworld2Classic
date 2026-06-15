@@ -250,151 +250,115 @@ _static void UI::CancelBuildOfType(UI::InterfaceElement *sender, BuildType type)
 
 /* ---------- public code */
 
-_extern _sub_56FA06(UI::BuildQueueMenu *const, char const *);
 UI::BuildQueueMenu::BuildQueueMenu(char const *) // 0x56FA06
 {
     mangled_assert("??0BuildQueueMenu@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_56FA06(this, arg);
 }
 
-_extern void _sub_56FA53(UI::BuildQueueMenu *const);
 UI::BuildQueueMenu::~BuildQueueMenu() // 0x56FA53
 {
     mangled_assert("??1BuildQueueMenu@UI@@UAE@XZ");
     todo("implement");
-    _sub_56FA53(this);
 }
 
-_extern void _sub_56FE56(UI::BuildQueueMenu *const, LuaConfig &);
 void UI::BuildQueueMenu::OnLoad(LuaConfig &) // 0x56FE56
 {
     mangled_assert("?OnLoad@BuildQueueMenu@UI@@MAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_56FE56(this, arg);
 }
 
-_extern void _sub_570037(UI::BuildQueueMenu *const);
 void UI::BuildQueueMenu::OnPostLoad() // 0x570037
 {
     mangled_assert("?OnPostLoad@BuildQueueMenu@UI@@MAEXXZ");
     todo("implement");
-    _sub_570037(this);
 }
 
-_extern void _sub_56FDF2(UI::BuildQueueMenu *const, bool);
 void UI::BuildQueueMenu::OnActivate(bool) // 0x56FDF2
 {
     mangled_assert("?OnActivate@BuildQueueMenu@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_56FDF2(this, arg);
 }
 
-_extern void _sub_56FB43(UI::BuildQueueMenu *const, Selection const &);
 void UI::BuildQueueMenu::AddSelection(Selection const &) // 0x56FB43
 {
     mangled_assert("?AddSelection@BuildQueueMenu@UI@@AAEXABVSelection@@@Z");
     todo("implement");
-    _sub_56FB43(this, arg);
 }
 
-_extern void _sub_5701C6(UI::BuildQueueMenu *const, unsigned __int32);
 void UI::BuildQueueMenu::Update(unsigned __int32) // 0x5701C6
 {
     mangled_assert("?Update@BuildQueueMenu@UI@@UAEXI@Z");
     todo("implement");
-    _sub_5701C6(this, arg);
 }
 
-_extern void _sub_5700A5(UI::InterfaceElement *, __int32, __int32, unsigned __int32);
 void UI::BuildQueueMenu::OnSelectBuild(UI::InterfaceElement *sender, __int32 x, __int32 y, unsigned __int32 b) // 0x5700A5
 {
     mangled_assert("?OnSelectBuild@BuildQueueMenu@UI@@CGXPAVInterfaceElement@2@HHI@Z");
     todo("implement");
-    _sub_5700A5(sender, x, y, b);
 }
 
-_extern void _sub_56FF1C(UI::InterfaceElement *, __int32, __int32, unsigned __int32);
 void UI::BuildQueueMenu::OnPauseBuild(UI::InterfaceElement *sender, __int32 x, __int32 y, unsigned __int32 b) // 0x56FF1C
 {
     mangled_assert("?OnPauseBuild@BuildQueueMenu@UI@@CGXPAVInterfaceElement@2@HHI@Z");
     todo("implement");
-    _sub_56FF1C(sender, x, y, b);
 }
 
-_extern void _sub_56FDF5(UI::InterfaceElement *, __int32, __int32, unsigned __int32);
 void UI::BuildQueueMenu::OnCancelBuild(UI::InterfaceElement *sender, __int32 x, __int32 y, unsigned __int32 b) // 0x56FDF5
 {
     mangled_assert("?OnCancelBuild@BuildQueueMenu@UI@@CGXPAVInterfaceElement@2@HHI@Z");
     todo("implement");
-    _sub_56FDF5(sender, x, y, b);
 }
 
-_extern void _sub_56FFBD(UI::InterfaceElement *, __int32, __int32, unsigned __int32);
 void UI::BuildQueueMenu::OnPauseSubsystem(UI::InterfaceElement *sender, __int32 x, __int32 y, unsigned __int32 b) // 0x56FFBD
 {
     mangled_assert("?OnPauseSubsystem@BuildQueueMenu@UI@@CGXPAVInterfaceElement@2@HHI@Z");
     todo("implement");
-    _sub_56FFBD(sender, x, y, b);
 }
 
-_extern void _sub_56FE3C(UI::InterfaceElement *, __int32, __int32, unsigned __int32);
 void UI::BuildQueueMenu::OnCancelSubsystem(UI::InterfaceElement *sender, __int32 x, __int32 y, unsigned __int32 b) // 0x56FE3C
 {
     mangled_assert("?OnCancelSubsystem@BuildQueueMenu@UI@@CGXPAVInterfaceElement@2@HHI@Z");
     todo("implement");
-    _sub_56FE3C(sender, x, y, b);
 }
 
-_extern void _sub_570156(UI::InterfaceElement *, __int32, __int32, unsigned __int32);
 void UI::BuildQueueMenu::OnSelectResearch(UI::InterfaceElement *sender, __int32 x, __int32 y, unsigned __int32 b) // 0x570156
 {
     mangled_assert("?OnSelectResearch@BuildQueueMenu@UI@@CGXPAVInterfaceElement@2@HHI@Z");
     todo("implement");
-    _sub_570156(sender, x, y, b);
 }
 
-_extern void _sub_56FF93(UI::InterfaceElement *, __int32, __int32, unsigned __int32);
 void UI::BuildQueueMenu::OnPauseResearch(UI::InterfaceElement *sender, __int32 x, __int32 y, unsigned __int32 b) // 0x56FF93
 {
     mangled_assert("?OnPauseResearch@BuildQueueMenu@UI@@CGXPAVInterfaceElement@2@HHI@Z");
     todo("implement");
-    _sub_56FF93(sender, x, y, b);
 }
 
-_extern void _sub_56FE03(UI::InterfaceElement *, __int32, __int32, unsigned __int32);
 void UI::BuildQueueMenu::OnCancelResearch(UI::InterfaceElement *sender, __int32 x, __int32 y, unsigned __int32 b) // 0x56FE03
 {
     mangled_assert("?OnCancelResearch@BuildQueueMenu@UI@@CGXPAVInterfaceElement@2@HHI@Z");
     todo("implement");
-    _sub_56FE03(sender, x, y, b);
 }
 
-_extern void _sub_56FDE4(SquadronList::Observer * const, Squadron *);
 void UI::BuildQueueMenu::Notify_Insertion(Squadron *) // 0x56FDE4
 {
     mangled_assert("?Notify_Insertion@BuildQueueMenu@UI@@UAEXPAVSquadron@@@Z");
     // __shifted(UI::BuildQueueMenu, 412);
     todo("implement");
-    _sub_56FDE4(this, arg);
 }
 
-_extern void _sub_56FDEB(SquadronList::Observer * const, Squadron *);
 void UI::BuildQueueMenu::Notify_Removal(Squadron *) // 0x56FDEB
 {
     mangled_assert("?Notify_Removal@BuildQueueMenu@UI@@UAEXPAVSquadron@@@Z");
     // __shifted(UI::BuildQueueMenu, 412);
     todo("implement");
-    _sub_56FDEB(this, arg);
 }
 
 /* ---------- private code */
 
-_extern void _sub_56FCCF(UI::InterfaceElement *, BuildType);
 _static void UI::CancelBuildOfType(UI::InterfaceElement *sender, BuildType type) // 0x56FCCF
 {
     mangled_assert("UI::CancelBuildOfType");
     todo("implement");
-    _sub_56FCCF(sender, type);
 }
 #endif

@@ -82,103 +82,70 @@ static_assert(sizeof(DefenseFieldManagerStatic) == 52, "Invalid DefenseFieldMana
 
 /* ---------- public code */
 
-_extern float _sub_48598C(DefenseFieldManager const *const);
 _inline float DefenseFieldManager::getUsage() const // 0x48598C
 {
     mangled_assert("?getUsage@DefenseFieldManager@@QBEMXZ");
     todo("implement");
-    float __result = _sub_48598C(this);
-    return __result;
 }
 
-_extern bool _sub_485994(DefenseFieldManager *const);
 _inline bool DefenseFieldManager::isDeterministic() // 0x485994
 {
     mangled_assert("?isDeterministic@DefenseFieldManager@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_485994(this);
-    return __result;
 }
 
-_extern char const *_sub_485A55(DefenseFieldManager *const);
 _inline char const *DefenseFieldManager::saveToken() // 0x485A55
 {
     mangled_assert("?saveToken@DefenseFieldManager@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_485A55(this);
-    return __result;
 }
 
-_extern float _sub_45A880(DefenseFieldManagerStatic const *const);
 _inline float DefenseFieldManagerStatic::getRadius() const // 0x45A880
 {
     mangled_assert("?getRadius@DefenseFieldManagerStatic@@QBEMXZ");
     todo("implement");
-    float __result = _sub_45A880(this);
-    return __result;
 }
 
-_extern float _sub_485923(DefenseFieldManagerStatic const *const);
 _inline float DefenseFieldManagerStatic::getCapacity() const // 0x485923
 {
     mangled_assert("?getCapacity@DefenseFieldManagerStatic@@QBEMXZ");
     todo("implement");
-    float __result = _sub_485923(this);
-    return __result;
 }
 
-_extern float _sub_485990(DefenseFieldManagerStatic const *const);
 _inline float DefenseFieldManagerStatic::getUsage() const // 0x485990
 {
     mangled_assert("?getUsage@DefenseFieldManagerStatic@@QBEMXZ");
     todo("implement");
-    float __result = _sub_485990(this);
-    return __result;
 }
 
-_extern float _sub_48596B(DefenseFieldManagerStatic const *const);
 _inline float DefenseFieldManagerStatic::getRechargeRate() const // 0x48596B
 {
     mangled_assert("?getRechargeRate@DefenseFieldManagerStatic@@QBEMXZ");
     todo("implement");
-    float __result = _sub_48596B(this);
-    return __result;
 }
 
-_extern std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &_sub_485954(DefenseFieldManagerStatic const *const);
 _inline std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &DefenseFieldManagerStatic::getEffectName() const // 0x485954
 {
     mangled_assert("?getEffectName@DefenseFieldManagerStatic@@QBEABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ");
     todo("implement");
-    std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & __result = _sub_485954(this);
-    return __result;
 }
 
-_extern float _sub_485964(DefenseFieldManagerStatic const *const);
 _inline float DefenseFieldManagerStatic::getMinBeforeManualShutdownActive() const // 0x485964
 {
     mangled_assert("?getMinBeforeManualShutdownActive@DefenseFieldManagerStatic@@QBEMXZ");
     todo("implement");
-    float __result = _sub_485964(this);
-    return __result;
 }
 
-_extern float _sub_485960(DefenseFieldManagerStatic const *const);
 _inline float DefenseFieldManagerStatic::getMaxToAllowRestart() const // 0x485960
 {
     mangled_assert("?getMaxToAllowRestart@DefenseFieldManagerStatic@@QBEMXZ");
     todo("implement");
-    float __result = _sub_485960(this);
-    return __result;
 }
 
-_extern bool _sub_485968(DefenseFieldManagerStatic const *const);
 _inline bool DefenseFieldManagerStatic::getOnByDefault() const // 0x485968
 {
     mangled_assert("?getOnByDefault@DefenseFieldManagerStatic@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_485968(this);
-    return __result;
 }
 
 /* ---------- private code */

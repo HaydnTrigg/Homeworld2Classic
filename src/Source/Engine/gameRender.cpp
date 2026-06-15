@@ -345,319 +345,235 @@ _static
 
 /* ---------- public code */
 
-_extern bool _sub_5F0DF3();
 bool gameRenderStartupApp() // 0x5F0DF3
 {
     mangled_assert("?gameRenderStartupApp@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_5F0DF3();
-    return __result;
 }
 
-_extern bool _sub_5F0FA0();
 bool gameRenderStartupGame() // 0x5F0FA0
 {
     mangled_assert("?gameRenderStartupGame@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_5F0FA0();
-    return __result;
 }
 
-_extern bool _sub_5F0D6F();
 bool gameRenderShutdownApp() // 0x5F0D6F
 {
     mangled_assert("?gameRenderShutdownApp@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_5F0D6F();
-    return __result;
 }
 
-_extern bool _sub_5F0DB8();
 bool gameRenderShutdownGame() // 0x5F0DB8
 {
     mangled_assert("?gameRenderShutdownGame@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_5F0DB8();
-    return __result;
 }
 
-_extern void _sub_5F0D4B(bool);
 void gameRenderShowShipDebug(bool on) // 0x5F0D4B
 {
     mangled_assert("?gameRenderShowShipDebug@@YGX_N@Z");
     todo("implement");
-    _sub_5F0D4B(on);
 }
 
-_extern void _sub_5F0D33(bool);
 void gameRenderShowPathTolerance(bool on) // 0x5F0D33
 {
     mangled_assert("?gameRenderShowPathTolerance@@YGX_N@Z");
     todo("implement");
-    _sub_5F0D33(on);
 }
 
-_extern void _sub_5F0D57(bool);
 void gameRenderShowUnitCaps(bool on) // 0x5F0D57
 {
     mangled_assert("?gameRenderShowUnitCaps@@YGX_N@Z");
     todo("implement");
-    _sub_5F0D57(on);
 }
 
-_extern void _sub_5F0D3F(bool);
 void gameRenderShowResourceDebug(bool on) // 0x5F0D3F
 {
     mangled_assert("?gameRenderShowResourceDebug@@YGX_N@Z");
     todo("implement");
-    _sub_5F0D3F(on);
 }
 
-_extern void _sub_5F0D63(bool);
 void gameRenderShowWeaponDebug(bool on) // 0x5F0D63
 {
     mangled_assert("?gameRenderShowWeaponDebug@@YGX_N@Z");
     todo("implement");
-    _sub_5F0D63(on);
 }
 
-_extern void _sub_5F0D0F(bool);
 void gameRenderShowBackground(bool on) // 0x5F0D0F
 {
     mangled_assert("?gameRenderShowBackground@@YGX_N@Z");
     todo("implement");
-    _sub_5F0D0F(on);
 }
 
-_extern void _sub_5F0CE0(bool);
 void gameRenderSetWireframeMode(bool on) // 0x5F0CE0
 {
     mangled_assert("?gameRenderSetWireframeMode@@YGX_N@Z");
     todo("implement");
-    _sub_5F0CE0(on);
 }
 
-_extern void _sub_5F0D00(unsigned __int32);
 void gameRenderShowAIPaths(unsigned __int32 on) // 0x5F0D00
 {
     mangled_assert("?gameRenderShowAIPaths@@YGXI@Z");
     todo("implement");
-    _sub_5F0D00(on);
 }
 
-_extern void _sub_5F0D1B(bool);
 void gameRenderShowLevelVolumes(bool on) // 0x5F0D1B
 {
     mangled_assert("?gameRenderShowLevelVolumes@@YGX_N@Z");
     todo("implement");
-    _sub_5F0D1B(on);
 }
 
-_extern void _sub_5F0D27(bool);
 void gameRenderShowObbFaces(bool on) // 0x5F0D27
 {
     mangled_assert("?gameRenderShowObbFaces@@YGX_N@Z");
     todo("implement");
-    _sub_5F0D27(on);
 }
 
-_extern Background *_sub_5F0C22();
 Background *gameRenderGetBackground() // 0x5F0C22
 {
     mangled_assert("?gameRenderGetBackground@@YGPAVBackground@@XZ");
     todo("implement");
-    Background * __result = _sub_5F0C22();
-    return __result;
 }
 
-_extern void _sub_5F0C2E(char const *);
 void gameRenderLoadBackground(char const *name) // 0x5F0C2E
 {
     mangled_assert("?gameRenderLoadBackground@@YGXPBD@Z");
     todo("implement");
-    _sub_5F0C2E(name);
 }
 
-_extern unsigned __int32 _sub_5F0C28();
 unsigned __int32 gameRenderGetCounter() // 0x5F0C28
 {
     mangled_assert("?gameRenderGetCounter@@YGIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_5F0C28();
-    return __result;
 }
 
-_extern void _sub_5F0CBD(bool);
 void gameRenderSetFog(bool on) // 0x5F0CBD
 {
     mangled_assert("?gameRenderSetFog@@YGX_N@Z");
     todo("implement");
-    _sub_5F0CBD(on);
 }
 
-_extern _sub_5F04F4(LensFlareManager::CollisionInterface *const);
 _inline LensFlareManager::CollisionInterface::CollisionInterface() // 0x5F04F4
 {
     mangled_assert("??0CollisionInterface@LensFlareManager@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5F04F4(this);
 }
 
-_extern _sub_5F04FD(LensFlareCollision *const);
 _inline LensFlareCollision::LensFlareCollision() // 0x5F04FD
 {
     mangled_assert("??0LensFlareCollision@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5F04FD(this);
 }
 
-_extern void _sub_5F0A3C(Camera const *);
 void gameRender3DSetup(Camera const *camera) // 0x5F0A3C
 {
     mangled_assert("?gameRender3DSetup@@YGXPBVCamera@@@Z");
     todo("implement");
-    _sub_5F0A3C(camera);
 }
 
-_extern void _sub_5F05B2(Camera const *);
 void gameRender3D(Camera const *camera) // 0x5F05B2
 {
     mangled_assert("?gameRender3D@@YGXPBVCamera@@@Z");
     todo("implement");
-    _sub_5F05B2(camera);
 }
 
 /* ---------- private code */
 
-_extern bool _sub_5F0FEA();
 _static bool loadShaders() // 0x5F0FEA
 {
     mangled_assert("loadShaders");
     todo("implement");
-    bool __result = _sub_5F0FEA();
-    return __result;
 }
 
-_extern bool _sub_5F1B2A();
 _static bool unloadShaders() // 0x5F1B2A
 {
     mangled_assert("unloadShaders");
     todo("implement");
-    bool __result = _sub_5F1B2A();
-    return __result;
 }
 
-_extern void _sub_5F1141(Camera const *, float);
 _static void renderBackground(Camera const *camera, float elapsedTime) // 0x5F1141
 {
     mangled_assert("renderBackground");
     todo("implement");
-    _sub_5F1141(camera, elapsedTime);
 }
 
-_extern void _sub_5F1B9F(SobType);
 _static void updateJointTransforms(SobType type) // 0x5F1B9F
 {
     mangled_assert("updateJointTransforms");
     todo("implement");
-    _sub_5F1B9F(type);
 }
 
-_extern void _sub_5F147E(Camera const *);
 _static void renderMissiles(Camera const *camera) // 0x5F147E
 {
     mangled_assert("renderMissiles");
     todo("implement");
-    _sub_5F147E(camera);
 }
 
-_extern void _sub_5F1755(Camera const *, SobType);
 _static void renderResourcesType(Camera const *camera, SobType type) // 0x5F1755
 {
     mangled_assert("renderResourcesType");
     todo("implement");
-    _sub_5F1755(camera, type);
 }
 
-_extern void _sub_5F1288(Camera const *);
 _static void renderDustClouds(Camera const *camera) // 0x5F1288
 {
     mangled_assert("renderDustClouds");
     todo("implement");
-    _sub_5F1288(camera);
 }
 
-_extern void _sub_5F1571(Camera const *, Selection const &);
 _static void renderNebula(Camera const *camera, Selection const &nebula) // 0x5F1571
 {
     mangled_assert("renderNebula");
     todo("implement");
-    _sub_5F1571(camera, nebula);
 }
 
-_extern void _sub_5F1705(Camera const *);
 _static void renderResources(Camera const *camera) // 0x5F1705
 {
     mangled_assert("renderResources");
     todo("implement");
-    _sub_5F1705(camera);
 }
 
-_extern void _sub_5F164C(Camera const *);
 _static void renderPebbles(Camera const *camera) // 0x5F164C
 {
     mangled_assert("renderPebbles");
     todo("implement");
-    _sub_5F164C(camera);
 }
 
-_extern void _sub_5F17B1(Camera const *);
 _static void renderSolidSobs(Camera const *camera) // 0x5F17B1
 {
     mangled_assert("renderSolidSobs");
     todo("implement");
-    _sub_5F17B1(camera);
 }
 
-_extern void _sub_5F1999(Camera const *);
 _static void renderWeaponFire(Camera const *camera) // 0x5F1999
 {
     mangled_assert("renderWeaponFire");
     todo("implement");
-    _sub_5F1999(camera);
 }
 
-_extern void _sub_5F18B4(Camera const *);
 _static void renderWaypoints(Camera const *camera) // 0x5F18B4
 {
     mangled_assert("renderWaypoints");
     todo("implement");
-    _sub_5F18B4(camera);
 }
 
-_extern void _sub_5F10EF(Camera const *);
 _static void renderAIPaths(Camera const *camera) // 0x5F10EF
 {
     mangled_assert("renderAIPaths");
     todo("implement");
-    _sub_5F10EF(camera);
 }
 
-_extern void _sub_5F1B2D();
 _static void updateEffects() // 0x5F1B2D
 {
     mangled_assert("updateEffects");
     todo("implement");
-    _sub_5F1B2D();
 }
 
-_extern void _sub_5F1403(Camera const *);
 _static void renderEffects(Camera const *camera) // 0x5F1403
 {
     mangled_assert("renderEffects");
     todo("implement");
-    _sub_5F1403(camera);
 }
 #endif

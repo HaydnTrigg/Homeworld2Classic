@@ -140,12 +140,10 @@ static_assert(sizeof(FXTrail) == 1, "Invalid FXTrail size");
 
 /* ---------- public code */
 
-_extern _sub_6ED8C7(FXTrail::Renderer::Stat *const);
 _inline FXTrail::Renderer::Stat::Stat() // 0x6ED8C7
 {
     mangled_assert("??0Stat@Renderer@FXTrail@@QAE@XZ");
     todo("implement");
-    _sub_6ED8C7(this);
 }
 
 /* ---------- private code */

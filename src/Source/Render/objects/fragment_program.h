@@ -153,30 +153,22 @@ static_assert(sizeof(FragmentProgram) == 28, "Invalid FragmentProgram size");
 
 /* ---------- public code */
 
-_extern FragmentProgramManager *_sub_10051D70();
 _inline FragmentProgramManager *FragmentProgramManager::i() // 0x10051D70
 {
     mangled_assert("?i@FragmentProgramManager@@SGPAV1@XZ");
     todo("implement");
-    FragmentProgramManager * __result = _sub_10051D70();
-    return __result;
 }
 
-_extern rndTable *_sub_10051CF0(FragmentProgramManager *const);
 _inline rndTable *FragmentProgramManager::getGL() // 0x10051CF0
 {
     mangled_assert("?getGL@FragmentProgramManager@@QAEPAUrndTable@@XZ");
     todo("implement");
-    rndTable * __result = _sub_10051CF0(this);
-    return __result;
 }
 
-_extern _sub_100508D0(FragmentProgram *const);
 _inline FragmentProgram::FragmentProgram() // 0x100508D0
 {
     mangled_assert("??0FragmentProgram@@QAE@XZ");
     todo("implement");
-    _sub_100508D0(this);
 }
 
 /* ---------- private code */

@@ -46,13 +46,10 @@ static_assert(sizeof(UI::SMFiltersMenu) == 428, "Invalid UI::SMFiltersMenu size"
 
 /* ---------- public code */
 
-_extern __int32 _sub_5A8BC5(UI::SMFiltersMenu const *const);
 _inline __int32 UI::SMFiltersMenu::GetShowState() const // 0x5A8BC5
 {
     mangled_assert("?GetShowState@SMFiltersMenu@UI@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_5A8BC5(this);
-    return __result;
 }
 
 /* ---------- private code */

@@ -289,39 +289,28 @@ extern __int32 _cpuid(_processor_info *pinfo);
 
 /* ---------- public code */
 
-_extern __int32 _sub_10001000();
 __int32 IsCPUID() // 0x10001000
 {
     mangled_assert("?IsCPUID@@YGHXZ");
     todo("implement");
-    __int32 __result = _sub_10001000();
-    return __result;
 }
 
-_extern __int32 _sub_1000115B(__int32);
 __int32 _os_support(__int32 feature) // 0x1000115B
 {
     mangled_assert("?_os_support@@YGHH@Z");
     todo("implement");
-    __int32 __result = _sub_1000115B(feature);
-    return __result;
 }
 
-_extern void _sub_100011BB(__int32, __int32, char const *, char *);
 void map_mname(__int32 family, __int32 model, char const *v_name, char *m_name) // 0x100011BB
 {
     mangled_assert("?map_mname@@YGXHHPBDPAD@Z");
     todo("implement");
-    _sub_100011BB(family, model, v_name, m_name);
 }
 
-_extern __int32 _sub_10001030(_processor_info *);
 __int32 _cpuid(_processor_info *pinfo) // 0x10001030
 {
     mangled_assert("?_cpuid@@YGHPAU_processor_info@@@Z");
     todo("implement");
-    __int32 __result = _sub_10001030(pinfo);
-    return __result;
 }
 
 /* ---------- private code */

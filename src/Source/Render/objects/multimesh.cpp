@@ -263,105 +263,76 @@ _static
 
 /* ---------- public code */
 
-_extern MultiMesh *_sub_10087340();
 MultiMesh *MultiMesh::create() // 0x10087340
 {
     mangled_assert("?create@MultiMesh@@SGPAV1@XZ");
     todo("implement");
-    MultiMesh * __result = _sub_10087340();
-    return __result;
 }
 
-_extern _sub_10087040(MultiMesh *const);
 MultiMesh::MultiMesh() // 0x10087040
 {
     mangled_assert("??0MultiMesh@@QAE@XZ");
     todo("implement");
-    _sub_10087040(this);
 }
 
-_extern void _sub_100870A0(MultiMesh *const);
 MultiMesh::~MultiMesh() // 0x100870A0
 {
     mangled_assert("??1MultiMesh@@UAE@XZ");
     todo("implement");
-    _sub_100870A0(this);
 }
 
-_extern void _sub_10087630(MultiMesh *const, MeshInstance const *, Mesh::LockType, unsigned __int32 const, float const, vector4 const &);
 void MultiMesh::render(MeshInstance const *, Mesh::LockType, unsigned __int32 const, float const, vector4 const &) // 0x10087630
 {
     mangled_assert("?render@MultiMesh@@UAEXPBVMeshInstance@@W4LockType@Mesh@@IMABVvector4@@@Z");
     todo("implement");
-    _sub_10087630(this, arg, arg, arg, arg, arg);
 }
 
-_extern void _sub_10087350(MultiMesh *const);
 void MultiMesh::createDisplayLists() // 0x10087350
 {
     mangled_assert("?createDisplayLists@MultiMesh@@UAEXXZ");
     todo("implement");
-    _sub_10087350(this);
 }
 
-_extern unsigned __int32 _sub_10087740(MultiMesh *const, unsigned __int32 const);
 unsigned __int32 MultiMesh::setWorkingLOD(unsigned __int32 const) // 0x10087740
 {
     mangled_assert("?setWorkingLOD@MultiMesh@@QAEII@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_10087740(this, arg);
-    return __result;
 }
 
-_extern void _sub_10087380(MultiMesh *const, unsigned __int32 const);
 void MultiMesh::createLOD(unsigned __int32 const) // 0x10087380
 {
     mangled_assert("?createLOD@MultiMesh@@QAEXI@Z");
     todo("implement");
-    _sub_10087380(this, arg);
 }
 
-_extern void _sub_10087600(MultiMesh *const);
 void MultiMesh::optimize() // 0x10087600
 {
     mangled_assert("?optimize@MultiMesh@@UAEXXZ");
     todo("implement");
-    _sub_10087600(this);
 }
 
-_extern void _sub_10087700(MultiMesh *const, StateBlock_Type, std::vector<CompoundStateBlockInstance *,std::allocator<CompoundStateBlockInstance *> > *);
 void MultiMesh::setShaderList(StateBlock_Type, std::vector<CompoundStateBlockInstance *,std::allocator<CompoundStateBlockInstance *> > *) // 0x10087700
 {
     mangled_assert("?setShaderList@MultiMesh@@UAEXW4StateBlock_Type@@PAV?$vector@PAVCompoundStateBlockInstance@@V?$allocator@PAVCompoundStateBlockInstance@@@std@@@std@@@Z");
     todo("implement");
-    _sub_10087700(this, arg, arg);
 }
 
-_extern __int32 _sub_10087510(MultiMesh *const, IFF *, IFFChunk *, void *, void *);
 __int32 MultiMesh::load(IFF *, IFFChunk *, void *, void *) // 0x10087510
 {
     mangled_assert("?load@MultiMesh@@QAEHPAVIFF@@PAVIFFChunk@@PAX2@Z");
     todo("implement");
-    __int32 __result = _sub_10087510(this, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern __int32 _sub_10087430(IFF *, IFFChunk *, void *, void *);
 __int32 MultiMesh::handleBMSH(IFF *iff, IFFChunk *chunk, void *user0, void *user1) // 0x10087430
 {
     mangled_assert("?handleBMSH@MultiMesh@@CGHPAVIFF@@PAVIFFChunk@@PAX2@Z");
     todo("implement");
-    __int32 __result = _sub_10087430(iff, chunk, user0, user1);
-    return __result;
 }
 
-_extern __int32 _sub_10087470(MultiMesh *const, IFF *, IFFChunk *, void *, void *);
 __int32 MultiMesh::load1400(IFF *, IFFChunk *, void *, void *) // 0x10087470
 {
     mangled_assert("?load1400@MultiMesh@@AAEHPAVIFF@@PAVIFFChunk@@PAX2@Z");
     todo("implement");
-    __int32 __result = _sub_10087470(this, arg, arg, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

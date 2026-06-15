@@ -44,30 +44,22 @@ static_assert(sizeof(WeaponFixed) == 116, "Invalid WeaponFixed size");
 
 /* ---------- public code */
 
-_extern void _sub_4A0A29(WeaponFixed *const, WeaponTargetInfo &);
 _inline void WeaponFixed::findNewPointOnTarget(WeaponTargetInfo &) // 0x4A0A29
 {
     mangled_assert("?findNewPointOnTarget@WeaponFixed@@MAEXAAVWeaponTargetInfo@@@Z");
     todo("implement");
-    _sub_4A0A29(this, arg);
 }
 
-_extern bool _sub_4A0FE4(WeaponFixed *const);
 _inline bool WeaponFixed::isDeterministic() // 0x4A0FE4
 {
     mangled_assert("?isDeterministic@WeaponFixed@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4A0FE4(this);
-    return __result;
 }
 
-_extern char const *_sub_4A1080(WeaponFixed *const);
 _inline char const *WeaponFixed::saveToken() // 0x4A1080
 {
     mangled_assert("?saveToken@WeaponFixed@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4A1080(this);
-    return __result;
 }
 
 /* ---------- private code */

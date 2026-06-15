@@ -28,21 +28,16 @@ static_assert(sizeof(MarkerInstance) == 88, "Invalid MarkerInstance size");
 
 /* ---------- public code */
 
-_extern void _sub_518E24(MarkerInstance *const, matrix4 const &);
 _inline void MarkerInstance::setTransform(matrix4 const &) // 0x518E24
 {
     mangled_assert("?setTransform@MarkerInstance@@QAEXABVmatrix4@@@Z");
     todo("implement");
-    _sub_518E24(this, arg);
 }
 
-_extern matrix4 const &_sub_518C23(MarkerInstance const *const);
 _inline matrix4 const &MarkerInstance::getTransform() const // 0x518C23
 {
     mangled_assert("?getTransform@MarkerInstance@@QBEABVmatrix4@@XZ");
     todo("implement");
-    matrix4 const & __result = _sub_518C23(this);
-    return __result;
 }
 
 /* ---------- private code */

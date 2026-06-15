@@ -162,106 +162,76 @@ _static
 
 /* ---------- public code */
 
-_extern unsigned long _sub_10009C61(unsigned long, unsigned char const *, unsigned __int32);
 unsigned long crc32(unsigned long crc, unsigned char const *buf, unsigned __int32 len) // 0x10009C61
 {
     mangled_assert("?crc32@@YGKKPBEI@Z");
     todo("implement");
-    unsigned long __result = _sub_10009C61(crc, buf, len);
-    return __result;
 }
 
-_extern void _sub_10009BF5(CRC *const, void const *, unsigned __int32);
 void CRC::AddValues(void const *, unsigned __int32) // 0x10009BF5
 {
     mangled_assert("?AddValues@CRC@@QAEXPBXI@Z");
     todo("implement");
-    _sub_10009BF5(this, arg, arg);
 }
 
-_extern void _sub_10009B2A(CRC *const, _iobuf *);
 void CRC::AddFile(_iobuf *) // 0x10009B2A
 {
     mangled_assert("?AddFile@CRC@@QAEXPAU_iobuf@@@Z");
     todo("implement");
-    _sub_10009B2A(this, arg);
 }
 
-_extern void _sub_10009BA5(CRC *const, ByteStream *);
 void CRC::AddFile(ByteStream *) // 0x10009BA5
 {
     mangled_assert("?AddFile@CRC@@QAEXPAVByteStream@@@Z");
     todo("implement");
-    _sub_10009BA5(this, arg);
 }
 
-_extern _sub_10009A78(CRCStream *const, CRC *);
 CRCStream::CRCStream(CRC *) // 0x10009A78
 {
     mangled_assert("??0CRCStream@@QAE@PAVCRC@@@Z");
     todo("implement");
-    _sub_10009A78(this, arg);
 }
 
-_extern unsigned long _sub_10009C22(CRCStream *const, void *, unsigned long);
 unsigned long CRCStream::Read(void *, unsigned long) // 0x10009C22
 {
     mangled_assert("?Read@CRCStream@@UAEKPAXK@Z");
     todo("implement");
-    unsigned long __result = _sub_10009C22(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_10009C2C(CRCStream *const, StreamMode);
 void CRCStream::SetStreamMode(StreamMode) // 0x10009C2C
 {
     mangled_assert("?SetStreamMode@CRCStream@@MAEXW4StreamMode@@@Z");
     todo("implement");
-    _sub_10009C2C(this, arg);
 }
 
-_extern void _sub_10009C13(CRCStream *const);
 void CRCStream::Flush() // 0x10009C13
 {
     mangled_assert("?Flush@CRCStream@@UAEXXZ");
     todo("implement");
-    _sub_10009C13(this);
 }
 
-_extern unsigned long _sub_10009C27(CRCStream *const, unsigned long);
 unsigned long CRCStream::SetPos(unsigned long) // 0x10009C27
 {
     mangled_assert("?SetPos@CRCStream@@UAEKK@Z");
     todo("implement");
-    unsigned long __result = _sub_10009C27(this, arg);
-    return __result;
 }
 
-_extern unsigned long _sub_10009C1B(CRCStream *const);
 unsigned long CRCStream::GetPos() // 0x10009C1B
 {
     mangled_assert("?GetPos@CRCStream@@UAEKXZ");
     todo("implement");
-    unsigned long __result = _sub_10009C1B(this);
-    return __result;
 }
 
-_extern unsigned long _sub_10009C14(CRCStream *const);
 unsigned long CRCStream::GetLen() // 0x10009C14
 {
     mangled_assert("?GetLen@CRCStream@@UAEKXZ");
     todo("implement");
-    unsigned long __result = _sub_10009C14(this);
-    return __result;
 }
 
-_extern unsigned long _sub_10009C2F(CRCStream *const, void const *, unsigned long);
 unsigned long CRCStream::Write(void const *, unsigned long) // 0x10009C2F
 {
     mangled_assert("?Write@CRCStream@@UAEKPBXK@Z");
     todo("implement");
-    unsigned long __result = _sub_10009C2F(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

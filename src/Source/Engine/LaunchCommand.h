@@ -257,31 +257,22 @@ static_assert(sizeof(LaunchCommandStaticInfo) == 8, "Invalid LaunchCommandStatic
 
 /* ---------- public code */
 
-_extern Ship *_sub_6A2931(LaunchCommand const *const);
 _inline Ship *LaunchCommand::getLaunchFrom() const // 0x6A2931
 {
     mangled_assert("?getLaunchFrom@LaunchCommand@@QBEPAVShip@@XZ");
     todo("implement");
-    Ship * __result = _sub_6A2931(this);
-    return __result;
 }
 
-_extern bool _sub_6A2971(LaunchCommand *const);
 _inline bool LaunchCommand::isDeterministic() // 0x6A2971
 {
     mangled_assert("?isDeterministic@LaunchCommand@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6A2971(this);
-    return __result;
 }
 
-_extern char const *_sub_6A2DEC(LaunchCommand *const);
 _inline char const *LaunchCommand::saveToken() // 0x6A2DEC
 {
     mangled_assert("?saveToken@LaunchCommand@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6A2DEC(this);
-    return __result;
 }
 
 /* ---------- private code */

@@ -33,13 +33,10 @@ _static
 
 /* ---------- public code */
 
-_extern float _sub_10027CA0(vector3 &, vector3 &, vector3 &, matrix4 &);
 float BoundBoxArea(vector3 &min, vector3 &max, vector3 &eye, matrix4 &view) // 0x10027CA0
 {
     mangled_assert("?BoundBoxArea@@YGMAAVvector3@@00AAVmatrix4@@@Z");
     todo("implement");
-    float __result = _sub_10027CA0(min, max, eye, view);
-    return __result;
 }
 
 /* ---------- private code */

@@ -174,219 +174,158 @@ extern LuaFXHandles *LuaFXHandles::s_instance; // 0x8612F4
 
 /* ---------- public code */
 
-_extern _sub_7258CC(LuaFXHandles *const);
 _inline LuaFXHandles::LuaFXHandles() // 0x7258CC
 {
     mangled_assert("??0LuaFXHandles@@QAE@XZ");
     todo("implement");
-    _sub_7258CC(this);
 }
 
-_extern void _sub_72591A(LuaBinding::ObjInternal3<char const *,char const *,float,unsigned int,LuaBinding::Functor3Free<char const *,char const *,float,unsigned int> > *const);
 _inline LuaBinding::ObjInternal3<char const *,char const *,float,unsigned int,LuaBinding::Functor3Free<char const *,char const *,float,unsigned int> >::~ObjInternal3<char const *,char const *,float,unsigned int,LuaBinding::Functor3Free<char const *,char const *,float,unsigned int> >() // 0x72591A
 {
     mangled_assert("??1?$ObjInternal3@PBDPBDMIV?$Functor3Free@PBDPBDMI@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_72591A(this);
 }
 
-_extern void _sub_72592C(LuaFXHandles *const);
 _inline LuaFXHandles::~LuaFXHandles() // 0x72592C
 {
     mangled_assert("??1LuaFXHandles@@QAE@XZ");
     todo("implement");
-    _sub_72592C(this);
 }
 
-_extern void _sub_725920(LuaBinding::ObjInternal3<char const *,vector3,float,unsigned int,LuaBinding::Functor3Free<char const *,vector3,float,unsigned int> > *const);
 _inline LuaBinding::ObjInternal3<char const *,vector3,float,unsigned int,LuaBinding::Functor3Free<char const *,vector3,float,unsigned int> >::~ObjInternal3<char const *,vector3,float,unsigned int,LuaBinding::Functor3Free<char const *,vector3,float,unsigned int> >() // 0x725920
 {
     mangled_assert("??1?$ObjInternal3@PBDVvector3@@MIV?$Functor3Free@PBDVvector3@@MI@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_725920(this);
 }
 
-_extern void _sub_725926(LuaBinding::ObjInternal4<char const *,char const *,char const *,float,unsigned int,LuaBinding::Functor4Free<char const *,char const *,char const *,float,unsigned int> > *const);
 _inline LuaBinding::ObjInternal4<char const *,char const *,char const *,float,unsigned int,LuaBinding::Functor4Free<char const *,char const *,char const *,float,unsigned int> >::~ObjInternal4<char const *,char const *,char const *,float,unsigned int,LuaBinding::Functor4Free<char const *,char const *,char const *,float,unsigned int> >() // 0x725926
 {
     mangled_assert("??1?$ObjInternal4@PBDPBDPBDMIV?$Functor4Free@PBDPBDPBDMI@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_725926(this);
 }
 
-_extern bool _sub_726242();
 bool LuaFXStartup() // 0x726242
 {
     mangled_assert("?LuaFXStartup@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_726242();
-    return __result;
 }
 
-_extern bool _sub_72623D();
 bool LuaFXShutdown() // 0x72623D
 {
     mangled_assert("?LuaFXShutdown@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_72623D();
-    return __result;
 }
 
-_extern bool _sub_7265AF();
 bool LuaFXHandles::Startup() // 0x7265AF
 {
     mangled_assert("?Startup@LuaFXHandles@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_7265AF();
-    return __result;
 }
 
-_extern bool _sub_726514();
 bool LuaFXHandles::Shutdown() // 0x726514
 {
     mangled_assert("?Shutdown@LuaFXHandles@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_726514();
-    return __result;
 }
 
-_extern LuaFXHandles *_sub_726237();
 LuaFXHandles *LuaFXHandles::Instance() // 0x726237
 {
     mangled_assert("?Instance@LuaFXHandles@@SGPAV1@XZ");
     todo("implement");
-    LuaFXHandles * __result = _sub_726237();
-    return __result;
 }
 
-_extern unsigned __int32 _sub_726247(LuaFXHandles *const, FXManager::Handle);
 unsigned __int32 LuaFXHandles::MapHandle(FXManager::Handle) // 0x726247
 {
     mangled_assert("?MapHandle@LuaFXHandles@@QAEIUHandle@FXManager@@@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_726247(this, arg);
-    return __result;
 }
 
-_extern FXManager::Handle _sub_7261E7(LuaFXHandles *const, unsigned __int32);
 FXManager::Handle LuaFXHandles::GetHandle(unsigned __int32) // 0x7261E7
 {
     mangled_assert("?GetHandle@LuaFXHandles@@QAE?AUHandle@FXManager@@I@Z");
     todo("implement");
-    FXManager::Handle __result = _sub_7261E7(this, arg);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_725CA9(char const *, char const *, float);
 unsigned __int32 FX_PlayEffect(char const *effectName, char const *volumeName, float scale) // 0x725CA9
 {
     mangled_assert("?FX_PlayEffect@@YGIPBD0M@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_725CA9(effectName, volumeName, scale);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_725DF9(char const *, char const *, char const *, float);
 unsigned __int32 FX_PlayEffectBetweenPoints(char const *effectName, char const *volumeName1, char const *volumeName2, float scale) // 0x725DF9
 {
     mangled_assert("?FX_PlayEffectBetweenPoints@@YGIPBD00M@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_725DF9(effectName, volumeName1, volumeName2, scale);
-    return __result;
 }
 
-_extern void _sub_726159(unsigned __int32);
 void FX_StopEffect(unsigned __int32 index) // 0x726159
 {
     mangled_assert("?FX_StopEffect@@YGXI@Z");
     todo("implement");
-    _sub_726159(index);
 }
 
-_extern unsigned __int32 _sub_72605A(char const *, vector3, float);
 unsigned __int32 FX_PlayEffectOnBackground(char const *effectName, vector3 direction, float scale) // 0x72605A
 {
     mangled_assert("?FX_PlayEffectOnBackground@@YGIPBDVvector3@@M@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_72605A(effectName, direction, scale);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_726083(char const *, char const *, float);
 unsigned __int32 FX_PlayEffectOnBackgroundVolume(char const *effectName, char const *volumeName, float scale) // 0x726083
 {
     mangled_assert("?FX_PlayEffectOnBackgroundVolume@@YGIPBD0M@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_726083(effectName, volumeName, scale);
-    return __result;
 }
 
-_extern void _sub_726184(unsigned __int32);
 void FX_StopEffectOnBackground(unsigned __int32 handle) // 0x726184
 {
     mangled_assert("?FX_StopEffectOnBackground@@YGXI@Z");
     todo("implement");
-    _sub_726184(handle);
 }
 
-_extern void _sub_725C5F(unsigned __int32);
 void FX_DestroyEffectOnBackground(unsigned __int32 handle) // 0x725C5F
 {
     mangled_assert("?FX_DestroyEffectOnBackground@@YGXI@Z");
     todo("implement");
-    _sub_725C5F(handle);
 }
 
-_extern void _sub_726109(char const *, char const *);
 void FX_StartEvent(char const *sobGroupName, char const *eventName) // 0x726109
 {
     mangled_assert("?FX_StartEvent@@YGXPBD0@Z");
     todo("implement");
-    _sub_726109(sobGroupName, eventName);
 }
 
-_extern void _sub_726197(char const *, char const *);
 void FX_StopEvent(char const *sobGroupName, char const *eventName) // 0x726197
 {
     mangled_assert("?FX_StopEvent@@YGXPBD0@Z");
     todo("implement");
-    _sub_726197(sobGroupName, eventName);
 }
 
-_extern void _sub_725C72();
 void FX_Flush() // 0x725C72
 {
     mangled_assert("?FX_Flush@@YGXXZ");
     todo("implement");
-    _sub_725C72();
 }
 
-_extern void _sub_725C8A();
 void FX_FlushLod() // 0x725C8A
 {
     mangled_assert("?FX_FlushLod@@YGXXZ");
     todo("implement");
-    _sub_725C8A();
 }
 
-_extern void _sub_725C96(__int32);
 void FX_Lights(__int32 maxPriority) // 0x725C96
 {
     mangled_assert("?FX_Lights@@YGXH@Z");
     todo("implement");
-    _sub_725C96(maxPriority);
 }
 
 /* ---------- private code */
 
-_extern void _sub_726538(SOBGroup &, char const *, bool);
 _static void StartStopEvent(SOBGroup &sobGroup, char const *eventName, bool bStart) // 0x726538
 {
     mangled_assert("StartStopEvent");
     todo("implement");
-    _sub_726538(sobGroup, eventName, bStart);
 }
 #endif

@@ -83,12 +83,10 @@ extern void GameUtility::SwitchPlayer(Squadron *squadron, unsigned __int32 playe
 
 /* ---------- public code */
 
-_extern void _sub_727882(Squadron *, unsigned __int32);
 void GameUtility::SwitchPlayer(Squadron *squadron, unsigned __int32 playerIndex) // 0x727882
 {
     mangled_assert("?SwitchPlayer@GameUtility@@YGXPAVSquadron@@I@Z");
     todo("implement");
-    _sub_727882(squadron, playerIndex);
 }
 
 /* ---------- private code */

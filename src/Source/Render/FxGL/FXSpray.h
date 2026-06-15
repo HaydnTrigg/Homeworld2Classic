@@ -93,13 +93,10 @@ static_assert(sizeof(FXSpray) == 1, "Invalid FXSpray size");
 
 /* ---------- public code */
 
-_extern float _sub_6E96AE(FXSpray::Obj const *const);
 _inline float FXSpray::Obj::GetGravwellStrength() const // 0x6E96AE
 {
     mangled_assert("?GetGravwellStrength@Obj@FXSpray@@UBEMXZ");
     todo("implement");
-    float __result = _sub_6E96AE(this);
-    return __result;
 }
 
 /* ---------- private code */

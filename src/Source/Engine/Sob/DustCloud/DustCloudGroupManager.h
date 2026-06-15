@@ -95,40 +95,28 @@ static_assert(sizeof(DustCloudGroupManager) == 12, "Invalid DustCloudGroupManage
 
 /* ---------- public code */
 
-_extern std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,DustCloudGroup *> > > > _sub_616804(DustCloudGroupManager *const);
 _inline std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,DustCloudGroup *> > > > DustCloudGroupManager::begin() // 0x616804
 {
     mangled_assert("?begin@DustCloudGroupManager@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVDustCloudGroup@@@std@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,DustCloudGroup *> > > > __result = _sub_616804(this);
-    return __result;
 }
 
-_extern std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,DustCloudGroup *> > > > _sub_618B5A(DustCloudGroupManager *const);
 _inline std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,DustCloudGroup *> > > > DustCloudGroupManager::end() // 0x618B5A
 {
     mangled_assert("?end@DustCloudGroupManager@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVDustCloudGroup@@@std@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,DustCloudGroup *> > > > __result = _sub_618B5A(this);
-    return __result;
 }
 
-_extern bool _sub_4C6CC5(DustCloudGroupManager *const);
 _inline bool DustCloudGroupManager::isDeterministic() // 0x4C6CC5
 {
     mangled_assert("?isDeterministic@DustCloudGroupManager@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4C6CC5(this);
-    return __result;
 }
 
-_extern char const *_sub_4C6DF8(DustCloudGroupManager *const);
 _inline char const *DustCloudGroupManager::saveToken() // 0x4C6DF8
 {
     mangled_assert("?saveToken@DustCloudGroupManager@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4C6DF8(this);
-    return __result;
 }
 
 /* ---------- private code */

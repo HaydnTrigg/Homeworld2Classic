@@ -394,73 +394,53 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_6D63C1(Net::DirectPlay *const);
 Net::DirectPlay::DirectPlay() // 0x6D63C1
 {
     mangled_assert("??0DirectPlay@Net@@QAE@XZ");
     todo("implement");
-    _sub_6D63C1(this);
 }
 
-_extern void _sub_6D648C(ATL::CComPtr<IDirectPlay8Peer> *const);
 _inline ATL::CComPtr<IDirectPlay8Peer>::~CComPtr<IDirectPlay8Peer>() // 0x6D648C
 {
     mangled_assert("??1?$CComPtr@UIDirectPlay8Peer@@@ATL@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6D648C(this);
 }
 
-_extern void _sub_6D64BF(Net::DirectPlay *const);
 Net::DirectPlay::~DirectPlay() // 0x6D64BF
 {
     mangled_assert("??1DirectPlay@Net@@UAE@XZ");
     todo("implement");
-    _sub_6D64BF(this);
 }
 
-_extern bool _sub_6D665E(Net::DirectPlay const *const, std::vector<Net::Address,std::allocator<Net::Address> > &, unsigned short);
 bool Net::DirectPlay::GetLocalAddresses(std::vector<Net::Address,std::allocator<Net::Address> > &, unsigned short) const // 0x6D665E
 {
     mangled_assert("?GetLocalAddresses@DirectPlay@Net@@QBE_NAAV?$vector@VAddress@Net@@V?$allocator@VAddress@Net@@@std@@@std@@G@Z");
     todo("implement");
-    bool __result = _sub_6D665E(this, arg, arg);
-    return __result;
 }
 
-_extern HRESULT _sub_6D6653(Net::DirectPlay *const, unsigned long, void *);
 HRESULT Net::DirectPlay::Callback(unsigned long, void *) // 0x6D6653
 {
     mangled_assert("?Callback@DirectPlay@Net@@MAEJKPAX@Z");
     todo("implement");
-    HRESULT __result = _sub_6D6653(this, arg, arg);
-    return __result;
 }
 
-_extern HRESULT _sub_6D6634(void *, unsigned long, void *);
 HRESULT Net::DirectPlay::Callback(void *context, unsigned long msg, void *data) // 0x6D6634
 {
     mangled_assert("?Callback@DirectPlay@Net@@CGJPAXK0@Z");
     todo("implement");
-    HRESULT __result = _sub_6D6634(context, msg, data);
-    return __result;
 }
 
-_extern _GUID const &_sub_6D6756();
 _GUID const &Net::DirectPlay::GetProvider() // 0x6D6756
 {
     mangled_assert("?GetProvider@DirectPlay@Net@@SGABU_GUID@@XZ");
     todo("implement");
-    _GUID const & __result = _sub_6D6756();
-    return __result;
 }
 
-_extern void _sub_6D67DB();
 void Net::DirectPlay::WaitPendingOperation() // 0x6D67DB
 {
     mangled_assert("?WaitPendingOperation@DirectPlay@Net@@CGXXZ");
     todo("implement");
-    _sub_6D67DB();
 }
 
 /* ---------- private code */

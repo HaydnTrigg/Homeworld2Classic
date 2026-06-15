@@ -48,13 +48,10 @@ static_assert(sizeof(SobVis) == 8, "Invalid SobVis size");
 
 /* ---------- public code */
 
-_extern Sob const *_sub_51A5E9(SobVis const *const);
 _inline Sob const *SobVis::getSob() const // 0x51A5E9
 {
     mangled_assert("?getSob@SobVis@@QBEPBVSob@@XZ");
     todo("implement");
-    Sob const * __result = _sub_51A5E9(this);
-    return __result;
 }
 
 /* ---------- private code */

@@ -127,199 +127,142 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_10054F40(Geometry *const);
 Geometry::Geometry() // 0x10054F40
 {
     mangled_assert("??0Geometry@@QAE@XZ");
     todo("implement");
-    _sub_10054F40(this);
 }
 
-_extern void _sub_10054FF0(Geometry *const);
 Geometry::~Geometry() // 0x10054FF0
 {
     mangled_assert("??1Geometry@@UAE@XZ");
     todo("implement");
-    _sub_10054FF0(this);
 }
 
-_extern Geometry *_sub_100558B0();
 Geometry *Geometry::create() // 0x100558B0
 {
     mangled_assert("?create@Geometry@@SGPAV1@XZ");
     todo("implement");
-    Geometry * __result = _sub_100558B0();
-    return __result;
 }
 
-_extern PrimSetList *_sub_10055970(Geometry *const, Material *);
 PrimSetList *Geometry::getPrimSetList(Material *) // 0x10055970
 {
     mangled_assert("?getPrimSetList@Geometry@@QAEPAVPrimSetList@@PAVMaterial@@@Z");
     todo("implement");
-    PrimSetList * __result = _sub_10055970(this, arg);
-    return __result;
 }
 
-_extern void _sub_10055D30(Geometry *const, Material *, PrimSetList *);
 void Geometry::setPrimSetList(Material *, PrimSetList *) // 0x10055D30
 {
     mangled_assert("?setPrimSetList@Geometry@@QAEXPAVMaterial@@PAVPrimSetList@@@Z");
     todo("implement");
-    _sub_10055D30(this, arg, arg);
 }
 
-_extern std::_Vector_iterator<std::_Vector_val<std::_Simple_types<RepStruct> > > _sub_10055930(Geometry *const, Material *);
 std::_Vector_iterator<std::_Vector_val<std::_Simple_types<RepStruct> > > Geometry::find(Material *) // 0x10055930
 {
     mangled_assert("?find@Geometry@@AAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@URepStruct@@@std@@@std@@@std@@PAVMaterial@@@Z");
     todo("implement");
-    std::_Vector_iterator<std::_Vector_val<std::_Simple_types<RepStruct> > > __result = _sub_10055930(this, arg);
-    return __result;
 }
 
-_extern void _sub_100556C0(Geometry *const, Material *, PrimSet *);
 void Geometry::addPrimSet(Material *, PrimSet *) // 0x100556C0
 {
     mangled_assert("?addPrimSet@Geometry@@QAEXPAVMaterial@@PAVPrimSet@@@Z");
     todo("implement");
-    _sub_100556C0(this, arg, arg);
 }
 
-_extern void _sub_100557E0(Geometry *const);
 void Geometry::clear() // 0x100557E0
 {
     mangled_assert("?clear@Geometry@@QAEXXZ");
     todo("implement");
-    _sub_100557E0(this);
 }
 
-_extern void _sub_10055D00(Geometry *const);
 void Geometry::setDirty() // 0x10055D00
 {
     mangled_assert("?setDirty@Geometry@@QAEXXZ");
     todo("implement");
-    _sub_10055D00(this);
 }
 
-_extern void _sub_10055C00(Geometry *const);
 void Geometry::renderLockOnce() // 0x10055C00
 {
     mangled_assert("?renderLockOnce@Geometry@@AAEXXZ");
     todo("implement");
-    _sub_10055C00(this);
 }
 
-_extern void _sub_10055B40(Geometry *const, Mesh::LockType);
 void Geometry::renderDisplayList(Mesh::LockType) // 0x10055B40
 {
     mangled_assert("?renderDisplayList@Geometry@@AAEXW4LockType@Mesh@@@Z");
     todo("implement");
-    _sub_10055B40(this, arg);
 }
 
-_extern bool _sub_10055280(less_texture0<RepStruct> const *const, RepStruct const &, RepStruct const &);
 _inline bool less_texture0<RepStruct>::operator()(RepStruct const &, RepStruct const &) const // 0x10055280
 {
     mangled_assert("??R?$less_texture0@URepStruct@@@@QBE_NABURepStruct@@0@Z");
     todo("implement");
-    bool __result = _sub_10055280(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_10055260(less_material<RepStruct> const *const, RepStruct const &, RepStruct const &);
 _inline bool less_material<RepStruct>::operator()(RepStruct const &, RepStruct const &) const // 0x10055260
 {
     mangled_assert("??R?$less_material@URepStruct@@@@QBE_NABURepStruct@@0@Z");
     todo("implement");
-    bool __result = _sub_10055260(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_10055E20(Geometry *const);
 void Geometry::sort() // 0x10055E20
 {
     mangled_assert("?sort@Geometry@@QAEXXZ");
     todo("implement");
-    _sub_10055E20(this);
 }
 
-_extern void _sub_10055B00(Geometry *const, Mesh::LockType);
 void Geometry::render(Mesh::LockType) // 0x10055B00
 {
     mangled_assert("?render@Geometry@@QAEXW4LockType@Mesh@@@Z");
     todo("implement");
-    _sub_10055B00(this, arg);
 }
 
-_extern bool _sub_100556B0(Modifier *);
 bool Geometry::addModifier(Modifier *mod) // 0x100556B0
 {
     mangled_assert("?addModifier@Geometry@@SG_NPAVModifier@@@Z");
     todo("implement");
-    bool __result = _sub_100556B0(mod);
-    return __result;
 }
 
-_extern bool _sub_10055AF0(Modifier *);
 bool Geometry::remModifier(Modifier *mod) // 0x10055AF0
 {
     mangled_assert("?remModifier@Geometry@@SG_NPAVModifier@@@Z");
     todo("implement");
-    bool __result = _sub_10055AF0(mod);
-    return __result;
 }
 
-_extern bool _sub_10055870();
 bool Geometry::clearModifiers() // 0x10055870
 {
     mangled_assert("?clearModifiers@Geometry@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_10055870();
-    return __result;
 }
 
-_extern bool _sub_10055A20(VertexArray *, unsigned __int32 *, bool);
 bool Geometry::processModifiers(VertexArray *va, unsigned __int32 *mask, bool begin) // 0x10055A20
 {
     mangled_assert("?processModifiers@Geometry@@SG_NPAVVertexArray@@PAI_N@Z");
     todo("implement");
-    bool __result = _sub_10055A20(va, mask, begin);
-    return __result;
 }
 
-_extern bool _sub_10055E60(bool);
 bool Geometry::suspendModifiers(bool state) // 0x10055E60
 {
     mangled_assert("?suspendModifiers@Geometry@@SG_N_N@Z");
     todo("implement");
-    bool __result = _sub_10055E60(state);
-    return __result;
 }
 
-_extern __int32 _sub_10055960();
 __int32 Geometry::getNumModifiers() // 0x10055960
 {
     mangled_assert("?getNumModifiers@Geometry@@SGHXZ");
     todo("implement");
-    __int32 __result = _sub_10055960();
-    return __result;
 }
 
-_extern void _sub_10055DE0(__int32, __int32);
 void Geometry::setStats(__int32 _nVertices, __int32 _nPolygons) // 0x10055DE0
 {
     mangled_assert("?setStats@Geometry@@SGXHH@Z");
     todo("implement");
-    _sub_10055DE0(_nVertices, _nPolygons);
 }
 
-_extern void _sub_100559A0(__int32 *, __int32 *);
 void Geometry::getStats(__int32 *_nVertices, __int32 *_nPolygons) // 0x100559A0
 {
     mangled_assert("?getStats@Geometry@@SGXPAH0@Z");
     todo("implement");
-    _sub_100559A0(_nVertices, _nPolygons);
 }
 
 /* ---------- private code */

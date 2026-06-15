@@ -138,47 +138,34 @@ extern SubSystemStatic *gNewSubSystemStatic; // 0x8440EC
 
 /* ---------- public code */
 
-_extern _sub_4F15C9(SubSystemStatic *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, SobType);
 SubSystemStatic::SubSystemStatic(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, SobType) // 0x4F15C9
 {
     mangled_assert("??0SubSystemStatic@@IAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4SobType@@@Z");
     todo("implement");
-    _sub_4F15C9(this, arg, arg);
 }
 
-_extern void _sub_4F16E1(SubSystemStatic *const);
 SubSystemStatic::~SubSystemStatic() // 0x4F16E1
 {
     mangled_assert("??1SubSystemStatic@@UAE@XZ");
     todo("implement");
-    _sub_4F16E1(this);
 }
 
-_extern SobStatic *_sub_4F1767(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, SobStatic *);
 SobStatic *SubSystemStatic::Create(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &name, SobStatic *found) // 0x4F1767
 {
     mangled_assert("?Create@SubSystemStatic@@SGPAVSobStatic@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAV2@@Z");
     todo("implement");
-    SobStatic * __result = _sub_4F1767(name, found);
-    return __result;
 }
 
-_extern bool _sub_4F17D1(SubSystemStatic *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &);
 bool SubSystemStatic::Load(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &) // 0x4F17D1
 {
     mangled_assert("?Load@SubSystemStatic@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    bool __result = _sub_4F17D1(this, arg);
-    return __result;
 }
 
-_extern __int32 _sub_4F1936(lua_State *);
 __int32 SubSystemStatic::StartSubSystemConfig(lua_State *lstate) // 0x4F1936
 {
     mangled_assert("?StartSubSystemConfig@SubSystemStatic@@SGHPAUlua_State@@@Z");
     todo("implement");
-    __int32 __result = _sub_4F1936(lstate);
-    return __result;
 }
 
 /* ---------- private code */

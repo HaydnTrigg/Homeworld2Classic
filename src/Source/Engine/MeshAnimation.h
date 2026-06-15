@@ -350,166 +350,118 @@ static_assert(sizeof(AnimatorWeaponTrack) == 32, "Invalid AnimatorWeaponTrack si
 
 /* ---------- public code */
 
-_extern void _sub_5D1660(MeshAnimator *const);
 _inline MeshAnimator::~MeshAnimator() // 0x5D1660
 {
     mangled_assert("??1MeshAnimator@@UAE@XZ");
     todo("implement");
-    _sub_5D1660(this);
 }
 
-_extern void _sub_5D3601(MeshAnimator *const);
 _inline void MeshAnimator::flagForDeletion() // 0x5D3601
 {
     mangled_assert("?flagForDeletion@MeshAnimator@@UAEXXZ");
     todo("implement");
-    _sub_5D3601(this);
 }
 
-_extern void _sub_5D421F(MeshAnimJoint *const);
 _inline MeshAnimJoint::~MeshAnimJoint() // 0x5D421F
 {
     mangled_assert("??1MeshAnimJoint@@UAE@XZ");
     todo("implement");
-    _sub_5D421F(this);
 }
 
-_extern MeshAnimator const *_sub_5D3746(MeshAnimJoint *const);
 _inline MeshAnimator const *MeshAnimJoint::getParent() // 0x5D3746
 {
     mangled_assert("?getParent@MeshAnimJoint@@QAEPBVMeshAnimator@@XZ");
     todo("implement");
-    MeshAnimator const * __result = _sub_5D3746(this);
-    return __result;
 }
 
-_extern _sub_5D4138(MeshAnimJoint *const);
 _inline MeshAnimJoint::MeshAnimJoint() // 0x5D4138
 {
     mangled_assert("??0MeshAnimJoint@@IAE@XZ");
     todo("implement");
-    _sub_5D4138(this);
 }
 
-_extern _sub_5D4080(AnimJointHold *const, MeshAnimator *);
 _inline AnimJointHold::AnimJointHold(MeshAnimator *) // 0x5D4080
 {
     mangled_assert("??0AnimJointHold@@QAE@PAVMeshAnimator@@@Z");
     todo("implement");
-    _sub_5D4080(this, arg);
 }
 
-_extern matrix4 const &_sub_5D4278(AnimJointHold *const, HierarchyJoint const *);
 _inline matrix4 const &AnimJointHold::GetDeterministicMatrix(HierarchyJoint const *) // 0x5D4278
 {
     mangled_assert("?GetDeterministicMatrix@AnimJointHold@@UAEABVmatrix4@@PBVHierarchyJoint@@@Z");
     todo("implement");
-    matrix4 const & __result = _sub_5D4278(this, arg);
-    return __result;
 }
 
-_extern bool _sub_5D3CE9(AnimatorHold *const, float);
 _inline bool AnimatorHold::update(float) // 0x5D3CE9
 {
     mangled_assert("?update@AnimatorHold@@UAE_NM@Z");
     todo("implement");
-    bool __result = _sub_5D3CE9(this, arg);
-    return __result;
 }
 
-_extern void _sub_607DC5(AnimatorMad *const);
 _inline void AnimatorMad::flagForDeletion() // 0x607DC5
 {
     mangled_assert("?flagForDeletion@AnimatorMad@@UAEXXZ");
     todo("implement");
-    _sub_607DC5(this);
 }
 
-_extern float _sub_606C8D(AnimatorMad *const);
 _inline float AnimatorMad::getCurrentTime() // 0x606C8D
 {
     mangled_assert("?getCurrentTime@AnimatorMad@@QAEMXZ");
     todo("implement");
-    float __result = _sub_606C8D(this);
-    return __result;
 }
 
-_extern float _sub_606CD5(AnimatorMad *const);
 _inline float AnimatorMad::getPauseTime() // 0x606CD5
 {
     mangled_assert("?getPauseTime@AnimatorMad@@QAEMXZ");
     todo("implement");
-    float __result = _sub_606CD5(this);
-    return __result;
 }
 
-_extern __int32 _sub_606C91(AnimatorMad *const);
 _inline __int32 AnimatorMad::getLoopCount() // 0x606C91
 {
     mangled_assert("?getLoopCount@AnimatorMad@@QAEHXZ");
     todo("implement");
-    __int32 __result = _sub_606C91(this);
-    return __result;
 }
 
-_extern void _sub_607368(AnimatorMad *const, unsigned __int32);
 _inline void AnimatorMad::setUserData(unsigned __int32) // 0x607368
 {
     mangled_assert("?setUserData@AnimatorMad@@QAEXI@Z");
     todo("implement");
-    _sub_607368(this, arg);
 }
 
-_extern unsigned __int32 _sub_606CE4(AnimatorMad *const);
 _inline unsigned __int32 AnimatorMad::getUserData() // 0x606CE4
 {
     mangled_assert("?getUserData@AnimatorMad@@QAEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_606CE4(this);
-    return __result;
 }
 
-_extern MadAnimation const *_sub_4F0ADF(AnimatorMad *const);
 _inline MadAnimation const *AnimatorMad::getAnimation() // 0x4F0ADF
 {
     mangled_assert("?getAnimation@AnimatorMad@@QAEPBUMadAnimation@@XZ");
     todo("implement");
-    MadAnimation const * __result = _sub_4F0ADF(this);
-    return __result;
 }
 
-_extern void _sub_6072C6(AnimatorMad *const, void (*)(SobWithMesh *, AnimatorMad *, AnimatorMad::CallbackEvent));
 _inline void AnimatorMad::setFinishedCB(void (*)(SobWithMesh *, AnimatorMad *, AnimatorMad::CallbackEvent)) // 0x6072C6
 {
     mangled_assert("?setFinishedCB@AnimatorMad@@QAEXP6GXPAVSobWithMesh@@PAV1@W4CallbackEvent@1@@Z@Z");
     todo("implement");
-    _sub_6072C6(this, arg);
 }
 
-_extern bool _sub_608395(AnimatorMad *const);
 _inline bool AnimatorMad::isDeterministic() // 0x608395
 {
     mangled_assert("?isDeterministic@AnimatorMad@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_608395(this);
-    return __result;
 }
 
-_extern void _sub_607372(AnimatorWeaponTrack *const, unsigned __int32);
 _inline void AnimatorWeaponTrack::setUserData(unsigned __int32) // 0x607372
 {
     mangled_assert("?setUserData@AnimatorWeaponTrack@@QAEXI@Z");
     todo("implement");
-    _sub_607372(this, arg);
 }
 
-_extern unsigned __int32 _sub_606CE8(AnimatorWeaponTrack *const);
 _inline unsigned __int32 AnimatorWeaponTrack::getUserData() // 0x606CE8
 {
     mangled_assert("?getUserData@AnimatorWeaponTrack@@QAEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_606CE8(this);
-    return __result;
 }
 
 /* ---------- private code */

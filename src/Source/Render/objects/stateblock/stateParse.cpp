@@ -238,99 +238,73 @@ _static
 
 /* ---------- public code */
 
-_extern StateSymbol *_sub_100BD2A0(char *);
 StateSymbol *stateSymbolLookup(char *name) // 0x100BD2A0
 {
     mangled_assert("?stateSymbolLookup@@YGPAUStateSymbol@@PAD@Z");
     todo("implement");
-    StateSymbol * __result = _sub_100BD2A0(name);
-    return __result;
 }
 
-_extern StateSymbol *_sub_100BD2F0(char *);
 StateSymbol *stateSymbolLookupCreate(char *name) // 0x100BD2F0
 {
     mangled_assert("?stateSymbolLookupCreate@@YGPAUStateSymbol@@PAD@Z");
     todo("implement");
-    StateSymbol * __result = _sub_100BD2F0(name);
-    return __result;
 }
 
-_extern void _sub_100BCE80(char const *);
 void parseStateFile(char const *filename) // 0x100BCE80
 {
     mangled_assert("?parseStateFile@@YGXPBD@Z");
     todo("implement");
-    _sub_100BCE80(filename);
 }
 
-_extern __int32 _sub_100BD0E0(char *, __int32);
 __int32 readParseBuffer(char *buf, __int32 maxSize) // 0x100BD0E0
 {
     mangled_assert("?readParseBuffer@@YGHPADH@Z");
     todo("implement");
-    __int32 __result = _sub_100BD0E0(buf, maxSize);
-    return __result;
 }
 
-_extern void _sub_100BD240();
 void stateParserShutdown() // 0x100BD240
 {
     mangled_assert("?stateParserShutdown@@YGXXZ");
     todo("implement");
-    _sub_100BD240();
 }
 
-_extern void _sub_100BD400();
 void staticVariableClear() // 0x100BD400
 {
     mangled_assert("?staticVariableClear@@YGXXZ");
     todo("implement");
-    _sub_100BD400();
 }
 
-_extern void _sub_100BD440(char *);
 void staticVariableCreate(char *name) // 0x100BD440
 {
     mangled_assert("?staticVariableCreate@@YGXPAD@Z");
     todo("implement");
-    _sub_100BD440(name);
 }
 
-_extern std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > &_sub_100BD4E0();
 std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > &staticVariableGet() // 0x100BD4E0
 {
     mangled_assert("?staticVariableGet@@YGAAV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ");
     todo("implement");
-    std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > & __result = _sub_100BD4E0();
-    return __result;
 }
 
-_extern void _sub_100BBEF0(std::_Tree_buy<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > *const);
 _inline std::_Tree_buy<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::~_Tree_buy<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >() // 0x100BBEF0
 {
     mangled_assert("??1?$_Tree_buy@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_100BBEF0(this);
 }
 
-_extern void _sub_100BBF00(std::_Tree_comp<0,std::_Tset_traits<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,0> > *const);
 _inline std::_Tree_comp<0,std::_Tset_traits<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,0> >::~_Tree_comp<0,std::_Tset_traits<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,0> >() // 0x100BBF00
 {
     mangled_assert("??1?$_Tree_comp@$0A@V?$_Tset_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@$0A@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_100BBF00(this);
 }
 
-_extern void _sub_100BBF10(std::set<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > *const);
 _inline std::set<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::~set<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >() // 0x100BBF10
 {
     mangled_assert("??1?$set@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_100BBF10(this);
 }
 
 /* ---------- private code */

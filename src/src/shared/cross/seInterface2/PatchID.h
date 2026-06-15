@@ -51,58 +51,40 @@ static_assert(sizeof(PatchID) == 4, "Invalid PatchID size");
 
 /* ---------- public code */
 
-_extern PatchBase *_sub_6BF0A4(PatchID *const);
 _inline PatchBase *PatchID::get() // 0x6BF0A4
 {
     mangled_assert("?get@PatchID@@QAEPAVPatchBase@@XZ");
     todo("implement");
-    PatchBase * __result = _sub_6BF0A4(this);
-    return __result;
 }
 
-_extern PatchBase const *_sub_6CFE09(PatchID const *const);
 _inline PatchBase const *PatchID::get() const // 0x6CFE09
 {
     mangled_assert("?get@PatchID@@QBEPBVPatchBase@@XZ");
     todo("implement");
-    PatchBase const * __result = _sub_6CFE09(this);
-    return __result;
 }
 
-_extern PatchBase *_sub_51E5AA(PatchID *const);
 _inline PatchBase *PatchID::operator->() // 0x51E5AA
 {
     mangled_assert("??CPatchID@@QAEPAVPatchBase@@XZ");
     todo("implement");
-    PatchBase * __result = _sub_51E5AA(this);
-    return __result;
 }
 
-_extern PatchBase const *_sub_6CC0DA(PatchID const *const);
 _inline PatchBase const *PatchID::operator->() const // 0x6CC0DA
 {
     mangled_assert("??CPatchID@@QBEPBVPatchBase@@XZ");
     todo("implement");
-    PatchBase const * __result = _sub_6CC0DA(this);
-    return __result;
 }
 
-_extern bool _sub_48A33D(PatchID const *const, PatchID const &);
 _inline bool PatchID::operator==(PatchID const &) const // 0x48A33D
 {
     mangled_assert("??8PatchID@@QBE_NABV0@@Z");
     todo("implement");
-    bool __result = _sub_48A33D(this, arg);
-    return __result;
 }
 
-_extern bool _sub_48A39D(PatchID const *const, PatchID const &);
 _inline bool PatchID::operator!=(PatchID const &) const // 0x48A39D
 {
     mangled_assert("??9PatchID@@QBE_NABV0@@Z");
     todo("implement");
-    bool __result = _sub_48A39D(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

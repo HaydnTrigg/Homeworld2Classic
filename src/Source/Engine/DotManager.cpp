@@ -137,97 +137,70 @@ extern DotManager *DotManager::s_instance; // 0x848734
 
 /* ---------- public code */
 
-_extern bool _sub_5EB7E4();
 bool DotManagerStartup() // 0x5EB7E4
 {
     mangled_assert("?DotManagerStartup@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_5EB7E4();
-    return __result;
 }
 
-_extern bool _sub_5EB7DF();
 bool DotManagerShutdown() // 0x5EB7DF
 {
     mangled_assert("?DotManagerShutdown@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_5EB7DF();
-    return __result;
 }
 
-_extern _sub_5EB784(DotManager *const);
 DotManager::DotManager() // 0x5EB784
 {
     mangled_assert("??0DotManager@@AAE@XZ");
     todo("implement");
-    _sub_5EB784(this);
 }
 
-_extern void _sub_5EB7AE(DotManager *const);
 DotManager::~DotManager() // 0x5EB7AE
 {
     mangled_assert("??1DotManager@@AAE@XZ");
     todo("implement");
-    _sub_5EB7AE(this);
 }
 
-_extern DotManager *_sub_5EB988();
 DotManager *DotManager::i() // 0x5EB988
 {
     mangled_assert("?i@DotManager@@SGPAV1@XZ");
     todo("implement");
-    DotManager * __result = _sub_5EB988();
-    return __result;
 }
 
-_extern bool _sub_5EB99C();
 bool DotManager::release() // 0x5EB99C
 {
     mangled_assert("?release@DotManager@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_5EB99C();
-    return __result;
 }
 
-_extern DotManager *_sub_5EB87D();
 DotManager *DotManager::create() // 0x5EB87D
 {
     mangled_assert("?create@DotManager@@CGPAV1@XZ");
     todo("implement");
-    DotManager * __result = _sub_5EB87D();
-    return __result;
 }
 
-_extern void _sub_5EB9DB(DotManager *const);
 void DotManager::startup() // 0x5EB9DB
 {
     mangled_assert("?startup@DotManager@@AAEXXZ");
     todo("implement");
-    _sub_5EB9DB(this);
 }
 
-_extern void _sub_5EB9C0(DotManager *const);
 void DotManager::shutdown() // 0x5EB9C0
 {
     mangled_assert("?shutdown@DotManager@@AAEXXZ");
     todo("implement");
-    _sub_5EB9C0(this);
 }
 
-_extern void _sub_5EB7F0(DotManager *const, vector4 const &, vector4 const &, float const, BlendFunc, BlendFunc);
 void DotManager::batchPoint(vector4 const &, vector4 const &, float const, BlendFunc, BlendFunc) // 0x5EB7F0
 {
     mangled_assert("?batchPoint@DotManager@@QAEXABVvector4@@0MW4BlendFunc@@1@Z");
     todo("implement");
-    _sub_5EB7F0(this, arg, arg, arg, arg, arg);
 }
 
-_extern void _sub_5EB8AF(DotManager *const);
 void DotManager::flushPointBatch() // 0x5EB8AF
 {
     mangled_assert("?flushPointBatch@DotManager@@QAEXXZ");
     todo("implement");
-    _sub_5EB8AF(this);
 }
 
 /* ---------- private code */

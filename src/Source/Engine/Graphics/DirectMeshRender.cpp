@@ -68,12 +68,10 @@
 
 /* ---------- public code */
 
-_extern void _sub_56B9BA(DirectMeshRender *const, SubMesh *, matrix4 const &, MeshInstance const *, unsigned __int32, float, vector4 const &, bool);
 void DirectMeshRender::Render(SubMesh *, matrix4 const &, MeshInstance const *, unsigned __int32, float, vector4 const &, bool) // 0x56B9BA
 {
     mangled_assert("?Render@DirectMeshRender@@UAEXPAVSubMesh@@ABVmatrix4@@PBVMeshInstance@@IMABVvector4@@_N@Z");
     todo("implement");
-    _sub_56B9BA(this, arg, arg, arg, arg, arg, arg, arg);
 }
 
 /* ---------- private code */

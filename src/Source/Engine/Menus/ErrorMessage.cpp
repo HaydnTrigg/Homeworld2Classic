@@ -159,239 +159,180 @@ static_assert(sizeof(UI::ErrorMessageData) == 216, "Invalid UI::ErrorMessageData
 
 /* ---------- public code */
 
-_extern _sub_575DA8(UI::ErrorMessage *const, char const *);
 UI::ErrorMessage::ErrorMessage(char const *) // 0x575DA8
 {
     mangled_assert("??0ErrorMessage@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_575DA8(this, arg);
 }
 
-_extern _sub_575E04(UI::ErrorMessageData *const);
 _inline UI::ErrorMessageData::ErrorMessageData() // 0x575E04
 {
     mangled_assert("??0ErrorMessageData@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_575E04(this);
 }
 
-_extern _sub_575EA0(UI::ErrorMessageEntry *const, UI::ErrorMessageEntry const &);
 _inline UI::ErrorMessageEntry::ErrorMessageEntry(UI::ErrorMessageEntry const &) // 0x575EA0
 {
     mangled_assert("??0ErrorMessageEntry@UI@@QAE@ABU01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_575EA0(this, arg);
 }
 
-_extern _sub_575EE3(UI::ErrorMessageEntry *const);
 _inline UI::ErrorMessageEntry::ErrorMessageEntry() // 0x575EE3
 {
     mangled_assert("??0ErrorMessageEntry@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_575EE3(this);
 }
 
-_extern void _sub_575F53(UI::ErrorMessage *const);
 UI::ErrorMessage::~ErrorMessage() // 0x575F53
 {
     mangled_assert("??1ErrorMessage@UI@@UAE@XZ");
     todo("implement");
-    _sub_575F53(this);
 }
 
-_extern _sub_575F15(UI::UISignal *const);
 _inline UI::UISignal::UISignal() // 0x575F15
 {
     mangled_assert("??0UISignal@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_575F15(this);
 }
 
-_extern void _sub_57604F(UI::ErrorMessageData *const);
 _inline UI::ErrorMessageData::~ErrorMessageData() // 0x57604F
 {
     mangled_assert("??1ErrorMessageData@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_57604F(this);
 }
 
-_extern void _sub_575F2B(std::_List_buy<UI::ErrorMessageEntry,std::allocator<UI::ErrorMessageEntry> > *const);
 _inline std::_List_buy<UI::ErrorMessageEntry,std::allocator<UI::ErrorMessageEntry> >::~_List_buy<UI::ErrorMessageEntry,std::allocator<UI::ErrorMessageEntry> >() // 0x575F2B
 {
     mangled_assert("??1?$_List_buy@UErrorMessageEntry@UI@@V?$allocator@UErrorMessageEntry@UI@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_575F2B(this);
 }
 
-_extern void _sub_5760AF(UI::ErrorMessageEntry *const);
 _inline UI::ErrorMessageEntry::~ErrorMessageEntry() // 0x5760AF
 {
     mangled_assert("??1ErrorMessageEntry@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5760AF(this);
 }
 
-_extern void _sub_5760C6(UI::UISignal *const);
 _inline UI::UISignal::~UISignal() // 0x5760C6
 {
     mangled_assert("??1UISignal@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5760C6(this);
 }
 
-_extern void _sub_5762C7(UI::ErrorMessage *const, bool);
 void UI::ErrorMessage::OnActivate(bool) // 0x5762C7
 {
     mangled_assert("?OnActivate@ErrorMessage@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_5762C7(this, arg);
 }
 
-_extern void _sub_5762EA(UI::ErrorMessage *const, LuaConfig &);
 void UI::ErrorMessage::OnLoad(LuaConfig &) // 0x5762EA
 {
     mangled_assert("?OnLoad@ErrorMessage@UI@@MAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_5762EA(this, arg);
 }
 
-_extern void _sub_5764A3(UI::ErrorMessage *const);
 void UI::ErrorMessage::OnPostLoad() // 0x5764A3
 {
     mangled_assert("?OnPostLoad@ErrorMessage@UI@@MAEXXZ");
     todo("implement");
-    _sub_5764A3(this);
 }
 
-_extern void _sub_5761F5(UI::ErrorMessage *const);
 void UI::ErrorMessage::DisconnectSlots() // 0x5761F5
 {
     mangled_assert("?DisconnectSlots@ErrorMessage@UI@@QAEXXZ");
     todo("implement");
-    _sub_5761F5(this);
 }
 
-_extern UI::Size _sub_57621F(UI::ErrorMessage const *const);
 UI::Size UI::ErrorMessage::GetMoreInfoSize() const // 0x57621F
 {
     mangled_assert("?GetMoreInfoSize@ErrorMessage@UI@@QBE?AVSize@2@XZ");
     todo("implement");
-    UI::Size __result = _sub_57621F(this);
-    return __result;
 }
 
-_extern void _sub_5761B8(UI::ErrorMessage *const, UI::InterfaceElement *);
 void UI::ErrorMessage::AddMoreInfo(UI::InterfaceElement *) // 0x5761B8
 {
     mangled_assert("?AddMoreInfo@ErrorMessage@UI@@QAEXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5761B8(this, arg);
 }
 
-_extern void _sub_576674(UI::ErrorMessage *const, UI::InterfaceElement *);
 void UI::ErrorMessage::RemoveMoreInfo(UI::InterfaceElement *) // 0x576674
 {
     mangled_assert("?RemoveMoreInfo@ErrorMessage@UI@@QAEXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_576674(this, arg);
 }
 
-_extern void _sub_576195(UI::ErrorMessage *const);
 void UI::ErrorMessage::Accept() // 0x576195
 {
     mangled_assert("?Accept@ErrorMessage@UI@@AAEXXZ");
     todo("implement");
-    _sub_576195(this);
 }
 
-_extern void _sub_576287(UI::InterfaceElement *);
 void UI::ErrorMessage::OnAcceptClicked(UI::InterfaceElement *sender) // 0x576287
 {
     mangled_assert("?OnAcceptClicked@ErrorMessage@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_576287(sender);
 }
 
-_extern void _sub_576BE6(UI::ErrorMessage *const);
 void UI::ErrorMessage::ShowNextMessage() // 0x576BE6
 {
     mangled_assert("?ShowNextMessage@ErrorMessage@UI@@AAEXXZ");
     todo("implement");
-    _sub_576BE6(this);
 }
 
-_extern UI::ErrorMessage *_sub_57623D();
 UI::ErrorMessage *UI::ErrorMessage::GetScreen() // 0x57623D
 {
     mangled_assert("?GetScreen@ErrorMessage@UI@@SGPAV12@XZ");
     todo("implement");
-    UI::ErrorMessage * __result = _sub_57623D();
-    return __result;
 }
 
-_extern void _sub_576B43(char const *, unsigned __int32);
 void UI::ErrorMessage::ShowFromStringTable(char const *stringName, unsigned __int32 showFlags) // 0x576B43
 {
     mangled_assert("?ShowFromStringTable@ErrorMessage@UI@@SGXPBDI@Z");
     todo("implement");
-    _sub_576B43(stringName, showFlags);
 }
 
-_extern void _sub_57694D(wchar_t const *, unsigned __int32, char const *);
 void UI::ErrorMessage::Show(wchar_t const *message, unsigned __int32 showFlags, char const *msgName) // 0x57694D
 {
     mangled_assert("?Show@ErrorMessage@UI@@SGXPB_WIPBD@Z");
     todo("implement");
-    _sub_57694D(message, showFlags, msgName);
 }
 
-_extern void _sub_5761C6(UI::ErrorMessage *const, void (*)(UI::InterfaceElement *));
 void UI::ErrorMessage::ConnectOnAccept(void (*)(UI::InterfaceElement *)) // 0x5761C6
 {
     mangled_assert("?ConnectOnAccept@ErrorMessage@UI@@QAEXP6GXPAVInterfaceElement@2@@Z@Z");
     todo("implement");
-    _sub_5761C6(this, arg);
 }
 
-_extern void _sub_57644F(UI::InterfaceElement *);
 void UI::ErrorMessage::OnMoreInfoClicked(UI::InterfaceElement *btn) // 0x57644F
 {
     mangled_assert("?OnMoreInfoClicked@ErrorMessage@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_57644F(btn);
 }
 
-_extern void _sub_5766EF(UI::ErrorMessage *const, unsigned __int32, bool);
 void UI::ErrorMessage::SetState(unsigned __int32, bool) // 0x5766EF
 {
     mangled_assert("?SetState@ErrorMessage@UI@@AAEXI_N@Z");
     todo("implement");
-    _sub_5766EF(this, arg, arg);
 }
 
-_extern void _sub_576682(UI::ErrorMessage *const);
 void UI::ErrorMessage::SetProfile() // 0x576682
 {
     mangled_assert("?SetProfile@ErrorMessage@UI@@AAEXXZ");
     todo("implement");
-    _sub_576682(this);
 }
 
-_extern UI::InterfaceElement *_sub_576211(UI::ErrorMessage *const, char const *);
 UI::InterfaceElement *UI::ErrorMessage::GetMoreInfoChild(char const *) // 0x576211
 {
     mangled_assert("?GetMoreInfoChild@ErrorMessage@UI@@QAEPAVInterfaceElement@2@PBD@Z");
     todo("implement");
-    UI::InterfaceElement * __result = _sub_576211(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

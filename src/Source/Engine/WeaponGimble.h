@@ -46,30 +46,22 @@ static_assert(sizeof(WeaponGimble) == 128, "Invalid WeaponGimble size");
 
 /* ---------- public code */
 
-_extern void _sub_4A12F3(WeaponGimble *const, WeaponTargetInfo &);
 _inline void WeaponGimble::findNewPointOnTarget(WeaponTargetInfo &) // 0x4A12F3
 {
     mangled_assert("?findNewPointOnTarget@WeaponGimble@@MAEXAAVWeaponTargetInfo@@@Z");
     todo("implement");
-    _sub_4A12F3(this, arg);
 }
 
-_extern bool _sub_4A1A76(WeaponGimble *const);
 _inline bool WeaponGimble::isDeterministic() // 0x4A1A76
 {
     mangled_assert("?isDeterministic@WeaponGimble@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4A1A76(this);
-    return __result;
 }
 
-_extern char const *_sub_4A1B12(WeaponGimble *const);
 _inline char const *WeaponGimble::saveToken() // 0x4A1B12
 {
     mangled_assert("?saveToken@WeaponGimble@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4A1B12(this);
-    return __result;
 }
 
 /* ---------- private code */

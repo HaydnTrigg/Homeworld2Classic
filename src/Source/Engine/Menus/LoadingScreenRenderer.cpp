@@ -130,36 +130,28 @@ extern UI::NewTextLabel *LoadingScreenRenderer::ms_titleLabel2; // 0x846CE0
 
 /* ---------- public code */
 
-_extern void _sub_58CA20(char const *, wchar_t const *, wchar_t const *);
 void LoadingScreenRenderer::ShowScreenWithTitle(char const *levelFilePath, wchar_t const *titleText1, wchar_t const *titleText2) // 0x58CA20
 {
     mangled_assert("?ShowScreenWithTitle@LoadingScreenRenderer@@SGXPBDPB_W1@Z");
     todo("implement");
-    _sub_58CA20(levelFilePath, titleText1, titleText2);
 }
 
-_extern void _sub_58C7AA(char const *);
 void LoadingScreenRenderer::ShowScreen(char const *levelFilePath) // 0x58C7AA
 {
     mangled_assert("?ShowScreen@LoadingScreenRenderer@@SGXPBD@Z");
     todo("implement");
-    _sub_58C7AA(levelFilePath);
 }
 
-_extern void _sub_58C71B();
 void LoadingScreenRenderer::HideScreen() // 0x58C71B
 {
     mangled_assert("?HideScreen@LoadingScreenRenderer@@SGXXZ");
     todo("implement");
-    _sub_58C71B();
 }
 
-_extern void _sub_58CAE7(__int32, __int32, wchar_t const *);
 void LoadingScreenRenderer::UpdateCallback(__int32 currentCount, __int32 totalCount, wchar_t const *text) // 0x58CAE7
 {
     mangled_assert("?UpdateCallback@LoadingScreenRenderer@@SGXHHPB_W@Z");
     todo("implement");
-    _sub_58CAE7(currentCount, totalCount, text);
 }
 
 /* ---------- private code */

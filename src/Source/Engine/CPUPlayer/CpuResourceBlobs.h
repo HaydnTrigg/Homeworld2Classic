@@ -73,31 +73,22 @@ static_assert(sizeof(ResourceBlobManager) == 16, "Invalid ResourceBlobManager si
 
 /* ---------- public code */
 
-_extern vector3 const &_sub_53ECFE(ResourceBlob const *const);
 _inline vector3 const &ResourceBlob::getCentreOfBlob() const // 0x53ECFE
 {
     mangled_assert("?getCentreOfBlob@ResourceBlob@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_53ECFE(this);
-    return __result;
 }
 
-_extern bool _sub_53DBA3(ResourceBlob const *const);
 _inline bool ResourceBlob::IsSalvage() const // 0x53DBA3
 {
     mangled_assert("?IsSalvage@ResourceBlob@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_53DBA3(this);
-    return __result;
 }
 
-_extern Selection const &_sub_539FEB(ResourceBlob const *const);
 _inline Selection const &ResourceBlob::getResources() const // 0x539FEB
 {
     mangled_assert("?getResources@ResourceBlob@@QBEABVSelection@@XZ");
     todo("implement");
-    Selection const & __result = _sub_539FEB(this);
-    return __result;
 }
 
 /* ---------- private code */

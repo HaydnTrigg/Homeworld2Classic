@@ -67,21 +67,16 @@ static_assert(sizeof(ScarEvent) == 40, "Invalid ScarEvent size");
 
 /* ---------- public code */
 
-_extern char const *_sub_7288EA(ScarEvent const *const);
 _inline char const *ScarEvent::GetName() const // 0x7288EA
 {
     mangled_assert("?GetName@ScarEvent@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_7288EA(this);
-    return __result;
 }
 
-_extern void _sub_72D711(ScarEvent::EventBlock *const);
 _inline void ScarEvent::EventBlock::Reset() // 0x72D711
 {
     mangled_assert("?Reset@EventBlock@ScarEvent@@QAEXXZ");
     todo("implement");
-    _sub_72D711(this);
 }
 
 /* ---------- private code */

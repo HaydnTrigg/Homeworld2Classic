@@ -131,113 +131,83 @@ _static GHTTPBool ghiProcessIncomingFileData(GHIConnection *connection, char *da
 
 /* ---------- public code */
 
-_extern void _sub_1001807C(GHIConnection *);
 void ghiDoHostLookup(GHIConnection *connection) // 0x1001807C
 {
     mangled_assert("_ghiDoHostLookup@4");
     todo("implement");
-    _sub_1001807C(connection);
 }
 
-_extern void _sub_10017F58(GHIConnection *);
 void ghiDoConnecting(GHIConnection *connection) // 0x10017F58
 {
     mangled_assert("_ghiDoConnecting@4");
     todo("implement");
-    _sub_10017F58(connection);
 }
 
-_extern void _sub_1001851D(GHIConnection *);
 void ghiDoSendingRequest(GHIConnection *connection) // 0x1001851D
 {
     mangled_assert("_ghiDoSendingRequest@4");
     todo("implement");
-    _sub_1001851D(connection);
 }
 
-_extern void _sub_10018106(GHIConnection *);
 void ghiDoPosting(GHIConnection *connection) // 0x10018106
 {
     mangled_assert("_ghiDoPosting@4");
     todo("implement");
-    _sub_10018106(connection);
 }
 
-_extern void _sub_10018688(GHIConnection *);
 void ghiDoWaiting(GHIConnection *connection) // 0x10018688
 {
     mangled_assert("_ghiDoWaiting@4");
     todo("implement");
-    _sub_10018688(connection);
 }
 
-_extern void _sub_10018474(GHIConnection *);
 void ghiDoReceivingStatus(GHIConnection *connection) // 0x10018474
 {
     mangled_assert("_ghiDoReceivingStatus@4");
     todo("implement");
-    _sub_10018474(connection);
 }
 
-_extern void _sub_100181BF(GHIConnection *);
 void ghiDoReceivingHeaders(GHIConnection *connection) // 0x100181BF
 {
     mangled_assert("_ghiDoReceivingHeaders@4");
     todo("implement");
-    _sub_100181BF(connection);
 }
 
-_extern void _sub_10018157(GHIConnection *);
 void ghiDoReceivingFile(GHIConnection *connection) // 0x10018157
 {
     mangled_assert("_ghiDoReceivingFile@4");
     todo("implement");
-    _sub_10018157(connection);
 }
 
 /* ---------- private code */
 
-_extern GHTTPBool _sub_10018786(GHIConnection *);
 _static GHTTPBool ghiParseURL(GHIConnection *connection) // 0x10018786
 {
     mangled_assert("ghiParseURL");
     todo("implement");
-    GHTTPBool __result = _sub_10018786(connection);
-    return __result;
 }
 
-_extern GHTTPBool _sub_100186DA(GHIConnection *);
 _static GHTTPBool ghiParseStatus(GHIConnection *connection) // 0x100186DA
 {
     mangled_assert("ghiParseStatus");
     todo("implement");
-    GHTTPBool __result = _sub_100186DA(connection);
-    return __result;
 }
 
-_extern GHTTPBool _sub_10017EB4(GHIConnection *, char *, __int32);
 _static GHTTPBool ghiDeliverIncomingFileData(GHIConnection *connection, char *data, __int32 len) // 0x10017EB4
 {
     mangled_assert("ghiDeliverIncomingFileData");
     todo("implement");
-    GHTTPBool __result = _sub_10017EB4(connection, data, len);
-    return __result;
 }
 
-_extern void _sub_10017E63(GHIConnection *, char *, __int32);
 _static void ghiAppendToChunkHeaderBuffer(GHIConnection *connection, char *data, __int32 len) // 0x10017E63
 {
     mangled_assert("ghiAppendToChunkHeaderBuffer");
     todo("implement");
-    _sub_10017E63(connection, data, len);
 }
 
-_extern GHTTPBool _sub_10018856(GHIConnection *, char *, __int32);
 _static GHTTPBool ghiProcessIncomingFileData(GHIConnection *connection, char *data, __int32 len) // 0x10018856
 {
     mangled_assert("ghiProcessIncomingFileData");
     todo("implement");
-    GHTTPBool __result = _sub_10018856(connection, data, len);
-    return __result;
 }
 #endif

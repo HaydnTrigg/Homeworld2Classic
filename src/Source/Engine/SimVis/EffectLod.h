@@ -47,13 +47,10 @@ static_assert(sizeof(EffectLod) == 36, "Invalid EffectLod size");
 
 /* ---------- public code */
 
-_extern bool _sub_51B96D(EffectLod::Entry const *const, float const &);
 _inline bool EffectLod::Entry::operator<(float const &) const // 0x51B96D
 {
     mangled_assert("??MEntry@EffectLod@@QBE_NABM@Z");
     todo("implement");
-    bool __result = _sub_51B96D(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

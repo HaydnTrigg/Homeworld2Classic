@@ -165,12 +165,10 @@ static_assert(sizeof(VertexArrayBasic) == 8, "Invalid VertexArrayBasic size");
 
 /* ---------- public code */
 
-_extern void _sub_100ACF90(VertexArrayI *const);
 _inline VertexArrayI::~VertexArrayI() // 0x100ACF90
 {
     mangled_assert("??1VertexArrayI@@UAE@XZ");
     todo("implement");
-    _sub_100ACF90(this);
 }
 
 /* ---------- private code */

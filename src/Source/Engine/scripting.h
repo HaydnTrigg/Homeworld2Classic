@@ -92,54 +92,40 @@ extern _inline void sctNewTag(ScriptTag newTag);
 
 /* ---------- public code */
 
-_extern void _sub_4D00A5(__int32);
 _inline void sctPopStack(__int32 x) // 0x4D00A5
 {
     mangled_assert("?sctPopStack@@YGXH@Z");
     todo("implement");
-    _sub_4D00A5(x);
 }
 
-_extern void _sub_4C94DF(char *, char *);
 _inline void sctSetString(char *str, char *name) // 0x4C94DF
 {
     mangled_assert("?sctSetString@@YGXPAD0@Z");
     todo("implement");
-    _sub_4C94DF(str, name);
 }
 
-_extern bool _sub_4C8A85(__int32);
 _inline bool sctGetRef(__int32 reference) // 0x4C8A85
 {
     mangled_assert("?sctGetRef@@YG_NH@Z");
     todo("implement");
-    bool __result = _sub_4C8A85(reference);
-    return __result;
 }
 
-_extern void _sub_4C84D4(__int32);
 _inline void sctDeleteRef(__int32 reference) // 0x4C84D4
 {
     mangled_assert("?sctDeleteRef@@YGXH@Z");
     todo("implement");
-    _sub_4C84D4(reference);
 }
 
-_extern __int32 _sub_45584E(ScriptTag);
 _inline __int32 sctTag(ScriptTag tag) // 0x45584E
 {
     mangled_assert("?sctTag@@YGHW4ScriptTag@@@Z");
     todo("implement");
-    __int32 __result = _sub_45584E(tag);
-    return __result;
 }
 
-_extern void _sub_4424AE(ScriptTag);
 _inline void sctNewTag(ScriptTag newTag) // 0x4424AE
 {
     mangled_assert("?sctNewTag@@YGXW4ScriptTag@@@Z");
     todo("implement");
-    _sub_4424AE(newTag);
 }
 
 /* ---------- private code */

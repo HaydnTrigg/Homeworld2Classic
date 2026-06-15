@@ -17,13 +17,10 @@ extern _inline bool Collision::Intersect(Collision::Sphere const &sphere, Collis
 
 /* ---------- public code */
 
-_extern bool _sub_4A8894(Collision::Sphere const &, Collision::OBB const &);
 _inline bool Collision::Intersect(Collision::Sphere const &sphere, Collision::OBB const &obb) // 0x4A8894
 {
     mangled_assert("?Intersect@Collision@@YG_NABVSphere@1@ABVOBB@1@@Z");
     todo("implement");
-    bool __result = _sub_4A8894(sphere, obb);
-    return __result;
 }
 
 /* ---------- private code */

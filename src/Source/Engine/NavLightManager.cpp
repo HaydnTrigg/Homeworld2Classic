@@ -152,225 +152,163 @@ _static
 
 /* ---------- public code */
 
-_extern bool _sub_60A5BE();
 bool navLightStartup() // 0x60A5BE
 {
     mangled_assert("?navLightStartup@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_60A5BE();
-    return __result;
 }
 
-_extern bool _sub_60A5B9();
 bool navLightShutdown() // 0x60A5B9
 {
     mangled_assert("?navLightShutdown@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_60A5B9();
-    return __result;
 }
 
-_extern _sub_609F04(NavLightManager::Data *const);
 _inline NavLightManager::Data::Data() // 0x609F04
 {
     mangled_assert("??0Data@NavLightManager@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_609F04(this);
 }
 
-_extern _sub_609F16(NavLightManager *const);
 NavLightManager::NavLightManager() // 0x609F16
 {
     mangled_assert("??0NavLightManager@@AAE@XZ");
     todo("implement");
-    _sub_609F16(this);
 }
 
-_extern void _sub_60A00D(NavLightManager::Data *const);
 _inline NavLightManager::Data::~Data() // 0x60A00D
 {
     mangled_assert("??1Data@NavLightManager@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_60A00D(this);
 }
 
-_extern void _sub_60A015(NavLightManager *const);
 NavLightManager::~NavLightManager() // 0x60A015
 {
     mangled_assert("??1NavLightManager@@AAE@XZ");
     todo("implement");
-    _sub_60A015(this);
 }
 
-_extern NavLightManager *_sub_60A5A5();
 NavLightManager *NavLightManager::i() // 0x60A5A5
 {
     mangled_assert("?i@NavLightManager@@SGPAV1@XZ");
     todo("implement");
-    NavLightManager * __result = _sub_60A5A5();
-    return __result;
 }
 
-_extern bool _sub_60A5CA();
 bool NavLightManager::release() // 0x60A5CA
 {
     mangled_assert("?release@NavLightManager@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_60A5CA();
-    return __result;
 }
 
-_extern NavLightManager *_sub_60A2A7();
 NavLightManager *NavLightManager::create() // 0x60A2A7
 {
     mangled_assert("?create@NavLightManager@@CGPAV1@XZ");
     todo("implement");
-    NavLightManager * __result = _sub_60A2A7();
-    return __result;
 }
 
-_extern void _sub_60AAAD(NavLightManager *const);
 void NavLightManager::startup() // 0x60AAAD
 {
     mangled_assert("?startup@NavLightManager@@AAEXXZ");
     todo("implement");
-    _sub_60AAAD(this);
 }
 
-_extern void _sub_60AA44(NavLightManager *const);
 void NavLightManager::shutdown() // 0x60AA44
 {
     mangled_assert("?shutdown@NavLightManager@@AAEXXZ");
     todo("implement");
-    _sub_60AA44(this);
 }
 
-_extern NavLightStyleManager *_sub_60A59F(NavLightManager *const);
 NavLightStyleManager *NavLightManager::getStyleManager() // 0x60A59F
 {
     mangled_assert("?getStyleManager@NavLightManager@@QAEPAVNavLightStyleManager@@XZ");
     todo("implement");
-    NavLightStyleManager * __result = _sub_60A59F(this);
-    return __result;
 }
 
-_extern void _sub_60AA34(NavLightManager *const, float);
 void NavLightManager::setSpeedMultiplier(float) // 0x60AA34
 {
     mangled_assert("?setSpeedMultiplier@NavLightManager@@QAEXM@Z");
     todo("implement");
-    _sub_60AA34(this, arg);
 }
 
-_extern float _sub_60A599(NavLightManager const *const);
 float NavLightManager::getSpeedMultiplier() const // 0x60A599
 {
     mangled_assert("?getSpeedMultiplier@NavLightManager@@QBEMXZ");
     todo("implement");
-    float __result = _sub_60A599(this);
-    return __result;
 }
 
-_extern bool _sub_60A4E8(NavLightManager *const, bool);
 bool NavLightManager::enable(bool) // 0x60A4E8
 {
     mangled_assert("?enable@NavLightManager@@QAE_N_N@Z");
     todo("implement");
-    bool __result = _sub_60A4E8(this, arg);
-    return __result;
 }
 
-_extern void _sub_60A106(NavLightManager *const, vector4 const &, vector4 const &, float);
 void NavLightManager::batchLight(vector4 const &, vector4 const &, float) // 0x60A106
 {
     mangled_assert("?batchLight@NavLightManager@@AAEXABVvector4@@0M@Z");
     todo("implement");
-    _sub_60A106(this, arg, arg, arg);
 }
 
-_extern void _sub_60A27A(NavLightManager *const, vector4 const &, vector4 const &, float const);
 void NavLightManager::batchPoint(vector4 const &, vector4 const &, float const) // 0x60A27A
 {
     mangled_assert("?batchPoint@NavLightManager@@QAEXABVvector4@@0M@Z");
     todo("implement");
-    _sub_60A27A(this, arg, arg, arg);
 }
 
-_extern void _sub_60A4F7(NavLightManager *const);
 void NavLightManager::flushBitmapBatch() // 0x60A4F7
 {
     mangled_assert("?flushBitmapBatch@NavLightManager@@AAEXXZ");
     todo("implement");
-    _sub_60A4F7(this);
 }
 
-_extern void _sub_60A562(NavLightManager *const);
 void NavLightManager::flushPointBatch() // 0x60A562
 {
     mangled_assert("?flushPointBatch@NavLightManager@@QAEXXZ");
     todo("implement");
-    _sub_60A562(this);
 }
 
-_extern void _sub_60A2D9(NavLightManager *const, Camera const *, float const, Selection const &);
 void NavLightManager::drawAll(Camera const *, float const, Selection const &) // 0x60A2D9
 {
     mangled_assert("?drawAll@NavLightManager@@QAEXPBVCamera@@MABVSelection@@@Z");
     todo("implement");
-    _sub_60A2D9(this, arg, arg, arg);
 }
 
-_extern void _sub_60A5EE(NavLightManager *const, Camera const *, NavLights const *, float);
 void NavLightManager::renderNavLights(Camera const *, NavLights const *, float) // 0x60A5EE
 {
     mangled_assert("?renderNavLights@NavLightManager@@AAEXPBVCamera@@PBVNavLights@@M@Z");
     todo("implement");
-    _sub_60A5EE(this, arg, arg, arg);
 }
 
-_extern bool _sub_60A96D(NavLightManager *const);
 bool NavLightManager::scriptLoad() // 0x60A96D
 {
     mangled_assert("?scriptLoad@NavLightManager@@AAE_NXZ");
     todo("implement");
-    bool __result = _sub_60A96D(this);
-    return __result;
 }
 
-_extern void _sub_60A0FE(NavLightManager *const, SobWithMesh *);
 void NavLightManager::addSobWithMesh(SobWithMesh *) // 0x60A0FE
 {
     mangled_assert("?addSobWithMesh@NavLightManager@@QAEXPAVSobWithMesh@@@Z");
     todo("implement");
-    _sub_60A0FE(this, arg);
 }
 
-_extern Sob *_sub_60A589(NavLightManager const *const, unsigned __int32 const);
 Sob *NavLightManager::getSobWithMesh(unsigned __int32 const) const // 0x60A589
 {
     mangled_assert("?getSobWithMesh@NavLightManager@@QBEPAVSob@@I@Z");
     todo("implement");
-    Sob * __result = _sub_60A589(this, arg);
-    return __result;
 }
 
-_extern void _sub_60AB46(NavLightManager *const, float const);
 void NavLightManager::updateNavLights(float const) // 0x60AB46
 {
     mangled_assert("?updateNavLights@NavLightManager@@QAEXM@Z");
     todo("implement");
-    _sub_60AB46(this, arg);
 }
 
 /* ---------- private code */
 
-_extern void _sub_60AA82(Camera const *, bool);
 _static void spriteSetup(Camera const *pCamera, bool start) // 0x60AA82
 {
     mangled_assert("spriteSetup");
     todo("implement");
-    _sub_60AA82(pCamera, start);
 }
 #endif

@@ -39,12 +39,10 @@ static_assert(sizeof(SobFactory) == 1, "Invalid SobFactory size");
 
 /* ---------- public code */
 
-_extern void _sub_638981(SobFactory *const);
 _inline SobFactory::~SobFactory() // 0x638981
 {
     mangled_assert("??1SobFactory@@AAE@XZ");
     todo("implement");
-    _sub_638981(this);
 }
 
 /* ---------- private code */

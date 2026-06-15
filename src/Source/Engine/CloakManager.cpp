@@ -139,164 +139,119 @@ extern SaveData const CloakManager::m_saveData[2]; // 0x78C140
 
 /* ---------- public code */
 
-_extern _sub_484D01(CloakManager *const, SobID const &);
 CloakManager::CloakManager(SobID const &) // 0x484D01
 {
     mangled_assert("??0CloakManager@@QAE@ABVSobID@@@Z");
     todo("implement");
-    _sub_484D01(this, arg);
 }
 
-_extern void _sub_484E09(CloakManager *const);
 CloakManager::~CloakManager() // 0x484E09
 {
     mangled_assert("??1CloakManager@@UAE@XZ");
     todo("implement");
-    _sub_484E09(this);
 }
 
-_extern CloakStatic const *_sub_485118(CloakManager const *const);
 CloakStatic const *CloakManager::getStatic() const // 0x485118
 {
     mangled_assert("?getStatic@CloakManager@@ABEPBVCloakStatic@@XZ");
     todo("implement");
-    CloakStatic const * __result = _sub_485118(this);
-    return __result;
 }
 
-_extern void _sub_484E78(CloakManager *const);
 void CloakManager::activateCloaking() // 0x484E78
 {
     mangled_assert("?activateCloaking@CloakManager@@QAEXXZ");
     todo("implement");
-    _sub_484E78(this);
 }
 
-_extern bool _sub_485067(CloakManager *const);
 bool CloakManager::canActivateCloaking() // 0x485067
 {
     mangled_assert("?canActivateCloaking@CloakManager@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_485067(this);
-    return __result;
 }
 
-_extern void _sub_4851B4(CloakManager *const);
 void CloakManager::shutDownCloaking() // 0x4851B4
 {
     mangled_assert("?shutDownCloaking@CloakManager@@QAEXXZ");
     todo("implement");
-    _sub_4851B4(this);
 }
 
-_extern bool _sub_485099(CloakManager *const);
 bool CloakManager::canShutDownCloaking() // 0x485099
 {
     mangled_assert("?canShutDownCloaking@CloakManager@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_485099(this);
-    return __result;
 }
 
-_extern void _sub_4852B5(CloakManager *const, float);
 void CloakManager::update(float) // 0x4852B5
 {
     mangled_assert("?update@CloakManager@@QAEXM@Z");
     todo("implement");
-    _sub_4852B5(this, arg);
 }
 
-_extern void _sub_484F2D(CloakManager *const);
 void CloakManager::applyCloakEffect() // 0x484F2D
 {
     mangled_assert("?applyCloakEffect@CloakManager@@QAEXXZ");
     todo("implement");
-    _sub_484F2D(this);
 }
 
-_extern float _sub_4850CE(CloakManager const *const);
 float CloakManager::getCloakingUsage() const // 0x4850CE
 {
     mangled_assert("?getCloakingUsage@CloakManager@@QBEMXZ");
     todo("implement");
-    float __result = _sub_4850CE(this);
-    return __result;
 }
 
-_extern bool _sub_48509E(CloakManager const *const);
 bool CloakManager::cloakingActive() const // 0x48509E
 {
     mangled_assert("?cloakingActive@CloakManager@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_48509E(this);
-    return __result;
 }
 
-_extern _sub_484D53(CloakManager *const, SaveGameData *);
 CloakManager::CloakManager(SaveGameData *) // 0x484D53
 {
     mangled_assert("??0CloakManager@@QAE@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_484D53(this, arg);
 }
 
-_extern void _sub_4850C2(CloakManager *const);
 void CloakManager::defaultSettings() // 0x4850C2
 {
     mangled_assert("?defaultSettings@CloakManager@@QAEXXZ");
     todo("implement");
-    _sub_4850C2(this);
 }
 
-_extern void _sub_48513A(CloakManager *const);
 void CloakManager::postRestore() // 0x48513A
 {
     mangled_assert("?postRestore@CloakManager@@UAEXXZ");
     todo("implement");
-    _sub_48513A(this);
 }
 
-_extern bool _sub_48513B(CloakManager *const, SaveGameData *);
 bool CloakManager::restore(SaveGameData *) // 0x48513B
 {
     mangled_assert("?restore@CloakManager@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_48513B(this, arg);
-    return __result;
 }
 
-_extern bool _sub_485179(CloakManager *const, SaveGameData *, SaveType);
 bool CloakManager::save(SaveGameData *, SaveType) // 0x485179
 {
     mangled_assert("?save@CloakManager@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_485179(this, arg, arg);
-    return __result;
 }
 
-_extern _sub_484D94(CloakStatic *const, float, float, float, float, float, float, float);
 CloakStatic::CloakStatic(float, float, float, float, float, float, float) // 0x484D94
 {
     mangled_assert("??0CloakStatic@@QAE@MMMMMMM@Z");
     todo("implement");
-    _sub_484D94(this, arg, arg, arg, arg, arg, arg, arg);
 }
 
-_extern void _sub_484E54(CloakStatic *const);
 CloakStatic::~CloakStatic() // 0x484E54
 {
     mangled_assert("??1CloakStatic@@QAE@XZ");
     todo("implement");
-    _sub_484E54(this);
 }
 
-_extern void _sub_484E55(GameEvent_CloakingStatusChange *const);
 _inline GameEvent_CloakingStatusChange::~GameEvent_CloakingStatusChange() // 0x484E55
 {
     mangled_assert("??1GameEvent_CloakingStatusChange@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_484E55(this);
 }
 
 /* ---------- private code */

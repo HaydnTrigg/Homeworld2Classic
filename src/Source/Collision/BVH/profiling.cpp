@@ -197,61 +197,46 @@ typedef std::basic_istream<char,std::char_traits<char> > istream_type;
 
 /* ---------- public code */
 
-_extern _sub_664191(Collision::Stopwatch *const);
 Collision::Stopwatch::Stopwatch() // 0x664191
 {
     mangled_assert("??0Stopwatch@Collision@@QAE@XZ");
     todo("implement");
-    _sub_664191(this);
 }
 
-_extern void _sub_66461C(Collision::Stopwatch *const);
 void Collision::Stopwatch::Start() // 0x66461C
 {
     mangled_assert("?Start@Stopwatch@Collision@@QAEXXZ");
     todo("implement");
-    _sub_66461C(this);
 }
 
-_extern void _sub_664624(Collision::Stopwatch *const);
 void Collision::Stopwatch::Stop() // 0x664624
 {
     mangled_assert("?Stop@Stopwatch@Collision@@QAEXXZ");
     todo("implement");
-    _sub_664624(this);
 }
 
-_extern _sub_66414E(Collision::BVHStatistics *const);
 Collision::BVHStatistics::BVHStatistics() // 0x66414E
 {
     mangled_assert("??0BVHStatistics@Collision@@QAE@XZ");
     todo("implement");
-    _sub_66414E(this);
 }
 
-_extern void _sub_6641D4(Collision::BVHStatistics const *const, std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > &);
 void Collision::BVHStatistics::GetStrings(std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > &) const // 0x6641D4
 {
     mangled_assert("?GetStrings@BVHStatistics@Collision@@QBEXAAV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@Z");
     todo("implement");
-    _sub_6641D4(this, arg);
 }
 
-_extern float _sub_6645C2(Collision::BVHStatistics const *const);
 float Collision::BVHStatistics::GetTotalTime() const // 0x6645C2
 {
     mangled_assert("?GetTotalTime@BVHStatistics@Collision@@QBEMXZ");
     todo("implement");
-    float __result = _sub_6645C2(this);
-    return __result;
 }
 
-_extern void _sub_6645C9(Collision::BVHStatistics *const);
 void Collision::BVHStatistics::Reset() // 0x6645C9
 {
     mangled_assert("?Reset@BVHStatistics@Collision@@QAEXXZ");
     todo("implement");
-    _sub_6645C9(this);
 }
 
 /* ---------- private code */

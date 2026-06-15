@@ -73,80 +73,58 @@ static_assert(sizeof(UI::NewTextInput) == 1408, "Invalid UI::NewTextInput size")
 
 /* ---------- public code */
 
-_extern UI::InterfaceElement *_sub_67F812(UI::NewTextInput *const);
 _inline UI::InterfaceElement *UI::NewTextInput::clone() // 0x67F812
 {
     mangled_assert("?clone@NewTextInput@UI@@UAEPAVInterfaceElement@2@XZ");
     todo("implement");
-    UI::InterfaceElement * __result = _sub_67F812(this);
-    return __result;
 }
 
-_extern void _sub_67F13C(UI::NewTextInput *const, void (*)(UI::InterfaceElement *));
 _inline void UI::NewTextInput::ConnectOnAccept(void (*)(UI::InterfaceElement *)) // 0x67F13C
 {
     mangled_assert("?ConnectOnAccept@NewTextInput@UI@@UAEXP6GXPAVInterfaceElement@2@@Z@Z");
     todo("implement");
-    _sub_67F13C(this, arg);
 }
 
-_extern void _sub_67F158(UI::NewTextInput *const, void (*)(UI::InterfaceElement *));
 _inline void UI::NewTextInput::ConnectOnCancel(void (*)(UI::InterfaceElement *)) // 0x67F158
 {
     mangled_assert("?ConnectOnCancel@NewTextInput@UI@@UAEXP6GXPAVInterfaceElement@2@@Z@Z");
     todo("implement");
-    _sub_67F158(this, arg);
 }
 
-_extern void _sub_67F1AC(UI::NewTextInput *const, void (*)(UI::InterfaceElement *));
 _inline void UI::NewTextInput::ConnectOnKeypress(void (*)(UI::InterfaceElement *)) // 0x67F1AC
 {
     mangled_assert("?ConnectOnKeypress@NewTextInput@UI@@QAEXP6GXPAVInterfaceElement@2@@Z@Z");
     todo("implement");
-    _sub_67F1AC(this, arg);
 }
 
-_extern void _sub_67F1E4(UI::NewTextInput *const, void (*)(UI::InterfaceElement *));
 _inline void UI::NewTextInput::ConnectOnType(void (*)(UI::InterfaceElement *)) // 0x67F1E4
 {
     mangled_assert("?ConnectOnType@NewTextInput@UI@@UAEXP6GXPAVInterfaceElement@2@@Z@Z");
     todo("implement");
-    _sub_67F1E4(this, arg);
 }
 
-_extern void _sub_67F174(UI::NewTextInput *const, void (*)(UI::InterfaceElement *));
 _inline void UI::NewTextInput::ConnectOnEdit(void (*)(UI::InterfaceElement *)) // 0x67F174
 {
     mangled_assert("?ConnectOnEdit@NewTextInput@UI@@UAEXP6GXPAVInterfaceElement@2@@Z@Z");
     todo("implement");
-    _sub_67F174(this, arg);
 }
 
-_extern wchar_t const *_sub_570BF0(UI::NewTextInput const *const);
 _inline wchar_t const *UI::NewTextInput::GetText() const // 0x570BF0
 {
     mangled_assert("?GetText@NewTextInput@UI@@QBEPB_WXZ");
     todo("implement");
-    wchar_t const * __result = _sub_570BF0(this);
-    return __result;
 }
 
-_extern std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > &_sub_5B2BBC(UI::NewTextInput *const);
 _inline std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > &UI::NewTextInput::GetTextString() // 0x5B2BBC
 {
     mangled_assert("?GetTextString@NewTextInput@UI@@QAEAAV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@XZ");
     todo("implement");
-    std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > & __result = _sub_5B2BBC(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_67F256(UI::NewTextInput *const);
 _inline unsigned __int32 UI::NewTextInput::GetCursorPosition() // 0x67F256
 {
     mangled_assert("?GetCursorPosition@NewTextInput@UI@@QAEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_67F256(this);
-    return __result;
 }
 
 /* ---------- private code */

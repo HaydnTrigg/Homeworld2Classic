@@ -58,71 +58,52 @@ _static
 
 /* ---------- public code */
 
-_extern Layer *_sub_100644C0();
 Layer *Layer::create() // 0x100644C0
 {
     mangled_assert("?create@Layer@@SGPAV1@XZ");
     todo("implement");
-    Layer * __result = _sub_100644C0();
-    return __result;
 }
 
-_extern _sub_100643B0(Layer *const);
 Layer::Layer() // 0x100643B0
 {
     mangled_assert("??0Layer@@QAE@XZ");
     todo("implement");
-    _sub_100643B0(this);
 }
 
-_extern void _sub_100643D0(Layer *const);
 Layer::~Layer() // 0x100643D0
 {
     mangled_assert("??1Layer@@UAE@XZ");
     todo("implement");
-    _sub_100643D0(this);
 }
 
-_extern void _sub_100644A0(Layer *const);
 void Layer::clear() // 0x100644A0
 {
     mangled_assert("?clear@Layer@@QAEXXZ");
     todo("implement");
-    _sub_100644A0(this);
 }
 
-_extern void _sub_100644F0(Layer *const, Texture *, bool);
 void Layer::setTexture(Texture *, bool) // 0x100644F0
 {
     mangled_assert("?setTexture@Layer@@QAEXPAVTexture@@_N@Z");
     todo("implement");
-    _sub_100644F0(this, arg, arg);
 }
 
-_extern Texture *_sub_100644D0(Layer const *const);
 Texture *Layer::getTexture() const // 0x100644D0
 {
     mangled_assert("?getTexture@Layer@@QBEPAVTexture@@XZ");
     todo("implement");
-    Texture * __result = _sub_100644D0(this);
-    return __result;
 }
 
-_extern void _sub_10064520(Layer *const, TextureMode);
 void Layer::setUnitMode(TextureMode) // 0x10064520
 {
     mangled_assert("?setUnitMode@Layer@@QAEXW4TextureMode@@@Z");
     todo("implement");
-    _sub_10064520(this, arg);
 }
 
-_extern TextureMode _sub_100644E0(Layer const *const);
 TextureMode Layer::getUnitMode() const // 0x100644E0
 {
     mangled_assert("?getUnitMode@Layer@@QBE?AW4TextureMode@@XZ");
     todo("implement");
-    TextureMode __result = _sub_100644E0(this);
-    return __result;
 }
 
 /* ---------- private code */

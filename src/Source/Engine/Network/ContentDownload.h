@@ -72,12 +72,10 @@ static_assert(sizeof(ContentDownloadFSM) == 40, "Invalid ContentDownloadFSM size
 
 /* ---------- public code */
 
-_extern _sub_5BA711(ContentDownloadFSM::PlayerInfo *const);
 _inline ContentDownloadFSM::PlayerInfo::PlayerInfo() // 0x5BA711
 {
     mangled_assert("??0PlayerInfo@ContentDownloadFSM@@QAE@XZ");
     todo("implement");
-    _sub_5BA711(this);
 }
 
 /* ---------- private code */

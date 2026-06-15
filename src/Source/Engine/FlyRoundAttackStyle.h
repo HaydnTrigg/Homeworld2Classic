@@ -82,74 +82,52 @@ static_assert(sizeof(FlyRoundAttackStyle) == 212, "Invalid FlyRoundAttackStyle s
 
 /* ---------- public code */
 
-_extern void _sub_6B26BE(FlyRoundStatic *const);
 _inline FlyRoundStatic::~FlyRoundStatic() // 0x6B26BE
 {
     mangled_assert("??1FlyRoundStatic@@UAE@XZ");
     todo("implement");
-    _sub_6B26BE(this);
 }
 
-_extern void _sub_6B270B(FlyRoundAttackStyle *const);
 _inline void FlyRoundAttackStyle::SetStateToStart() // 0x6B270B
 {
     mangled_assert("?SetStateToStart@FlyRoundAttackStyle@@UAEXXZ");
     todo("implement");
-    _sub_6B270B(this);
 }
 
-_extern AttackStyle::AttackStyleType _sub_6B2707(FlyRoundAttackStyle const *const);
 _inline AttackStyle::AttackStyleType FlyRoundAttackStyle::GetType() const // 0x6B2707
 {
     mangled_assert("?GetType@FlyRoundAttackStyle@@UBE?AW4AttackStyleType@AttackStyle@@XZ");
     todo("implement");
-    AttackStyle::AttackStyleType __result = _sub_6B2707(this);
-    return __result;
 }
 
-_extern Sob *_sub_6B2A0F(FlyRoundAttackStyle const *const);
 _inline Sob *FlyRoundAttackStyle::getSobToNotAvoid() const // 0x6B2A0F
 {
     mangled_assert("?getSobToNotAvoid@FlyRoundAttackStyle@@UBEPAVSob@@XZ");
     todo("implement");
-    Sob * __result = _sub_6B2A0F(this);
-    return __result;
 }
 
-_extern bool _sub_6B2A0C(FlyRoundAttackStyle *const);
 _inline bool FlyRoundAttackStyle::doesAttackStyleDictateTargetPoint() // 0x6B2A0C
 {
     mangled_assert("?doesAttackStyleDictateTargetPoint@FlyRoundAttackStyle@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6B2A0C(this);
-    return __result;
 }
 
-_extern FlyRoundStatic const *_sub_6B2A12(FlyRoundAttackStyle const *const);
 _inline FlyRoundStatic const *FlyRoundAttackStyle::getStaticInfo() const // 0x6B2A12
 {
     mangled_assert("?getStaticInfo@FlyRoundAttackStyle@@IBEPBVFlyRoundStatic@@XZ");
     todo("implement");
-    FlyRoundStatic const * __result = _sub_6B2A12(this);
-    return __result;
 }
 
-_extern bool _sub_6B2A17(FlyRoundAttackStyle *const);
 _inline bool FlyRoundAttackStyle::isDeterministic() // 0x6B2A17
 {
     mangled_assert("?isDeterministic@FlyRoundAttackStyle@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6B2A17(this);
-    return __result;
 }
 
-_extern char const *_sub_6B335F(FlyRoundAttackStyle *const);
 _inline char const *FlyRoundAttackStyle::saveToken() // 0x6B335F
 {
     mangled_assert("?saveToken@FlyRoundAttackStyle@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6B335F(this);
-    return __result;
 }
 
 /* ---------- private code */

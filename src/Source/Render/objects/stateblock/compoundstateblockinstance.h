@@ -71,39 +71,28 @@ static_assert(sizeof(CompoundStateBlockInstance) == 12, "Invalid CompoundStateBl
 
 /* ---------- public code */
 
-_extern StateVariableInstance &_sub_10019500(CompoundStateBlockInstance const *const);
 _inline StateVariableInstance &CompoundStateBlockInstance::getVariables() const // 0x10019500
 {
     mangled_assert("?getVariables@CompoundStateBlockInstance@@QBEAAVStateVariableInstance@@XZ");
     todo("implement");
-    StateVariableInstance & __result = _sub_10019500(this);
-    return __result;
 }
 
-_extern bool _sub_100196F0(CompoundStateBlockInstance const *const, unsigned __int32);
 _inline bool CompoundStateBlockInstance::isBlockActive(unsigned __int32) const // 0x100196F0
 {
     mangled_assert("?isBlockActive@CompoundStateBlockInstance@@QBE_NI@Z");
     todo("implement");
-    bool __result = _sub_100196F0(this, arg);
-    return __result;
 }
 
-_extern void _sub_1001B9B0(CompoundStateBlockInstance *const, unsigned __int32, bool);
 _inline void CompoundStateBlockInstance::setBlockActive(unsigned __int32, bool) // 0x1001B9B0
 {
     mangled_assert("?setBlockActive@CompoundStateBlockInstance@@QAEXI_N@Z");
     todo("implement");
-    _sub_1001B9B0(this, arg, arg);
 }
 
-_extern std::bitset<32> const &_sub_10019130(CompoundStateBlockInstance const *const);
 _inline std::bitset<32> const &CompoundStateBlockInstance::getBlockMask() const // 0x10019130
 {
     mangled_assert("?getBlockMask@CompoundStateBlockInstance@@QBEABV?$bitset@$0CA@@std@@XZ");
     todo("implement");
-    std::bitset<32> const & __result = _sub_10019130(this);
-    return __result;
 }
 
 /* ---------- private code */

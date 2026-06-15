@@ -44,21 +44,16 @@ _static
 
 /* ---------- public code */
 
-_extern __int32 _sub_100012C8(void *, unsigned long, void *);
 __int32 DllMain(void *module, unsigned long reason, void *reserved) // 0x100012C8
 {
     mangled_assert("_DllMain@12");
     todo("implement");
-    __int32 __result = _sub_100012C8(module, reason, reserved);
-    return __result;
 }
 
-_extern void _sub_100012CE(HWND__ *, HINSTANCE__ *, char *, __int32);
 void RunDll32(HWND__ *hwnd, HINSTANCE__ *hinst, char *lpCmdLine, __int32 nCmdShow) // 0x100012CE
 {
     mangled_assert("_RunDll32@16");
     todo("implement");
-    _sub_100012CE(hwnd, hinst, lpCmdLine, nCmdShow);
 }
 
 /* ---------- private code */

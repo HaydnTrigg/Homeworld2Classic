@@ -151,41 +151,29 @@ extern InitModule sctVarsLoadList[5]; // 0x836268
 
 /* ---------- public code */
 
-_extern bool _sub_4CA513();
 bool sglUIRegisterTweaks() // 0x4CA513
 {
     mangled_assert("?sglUIRegisterTweaks@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_4CA513();
-    return __result;
 }
 
-_extern bool _sub_4CA501();
 bool sglUILoad() // 0x4CA501
 {
     mangled_assert("?sglUILoad@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_4CA501();
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern bool _sub_4CA52A();
 _static bool sglCameraStartup() // 0x4CA52A
 {
     mangled_assert("sglCameraStartup");
     todo("implement");
-    bool __result = _sub_4CA52A();
-    return __result;
 }
 
-_extern bool _sub_4CA543();
 _static bool sglCameraShutdown() // 0x4CA543
 {
     mangled_assert("sglCameraShutdown");
     todo("implement");
-    bool __result = _sub_4CA543();
-    return __result;
 }
 #endif

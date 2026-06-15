@@ -34,20 +34,16 @@ static_assert(sizeof(SimVisHandler) == 36, "Invalid SimVisHandler size");
 
 /* ---------- public code */
 
-_extern void _sub_523F5C(SimVisHandler *const, SimVisDisplayData const &);
 _inline void SimVisHandler::update(SimVisDisplayData const &) // 0x523F5C
 {
     mangled_assert("?update@SimVisHandler@@UAEXABVSimVisDisplayData@@@Z");
     todo("implement");
-    _sub_523F5C(this, arg);
 }
 
-_extern void _sub_523F59(SimVisHandler *const, SimVisDisplayData const &);
 _inline void SimVisHandler::display(SimVisDisplayData const &) // 0x523F59
 {
     mangled_assert("?display@SimVisHandler@@UAEXABVSimVisDisplayData@@@Z");
     todo("implement");
-    _sub_523F59(this, arg);
 }
 
 /* ---------- private code */

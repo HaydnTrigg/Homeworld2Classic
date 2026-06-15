@@ -52,22 +52,16 @@ extern BattleScarManager::Object *BattleScarInternal::handleToObjPtr(BattleScarM
 
 /* ---------- public code */
 
-_extern BattleScarManager::Object *_sub_558AF9(BattleScarManager::Handle const &, BattleScarInternal::ObjHeader *&);
 BattleScarManager::Object *BattleScarInternal::handleToObjPtr(BattleScarManager::Handle const &handle, BattleScarInternal::ObjHeader *&pHeader) // 0x558AF9
 {
     mangled_assert("?handleToObjPtr@BattleScarInternal@@YGPAVObject@BattleScarManager@@ABUHandle@3@AAPAUObjHeader@1@@Z");
     todo("implement");
-    BattleScarManager::Object * __result = _sub_558AF9(handle, pHeader);
-    return __result;
 }
 
-_extern BattleScarManager::Object *_sub_558AE5(BattleScarManager::Handle const &);
 BattleScarManager::Object *BattleScarInternal::handleToObjPtr(BattleScarManager::Handle const &handle) // 0x558AE5
 {
     mangled_assert("?handleToObjPtr@BattleScarInternal@@YGPAVObject@BattleScarManager@@ABUHandle@3@@Z");
     todo("implement");
-    BattleScarManager::Object * __result = _sub_558AE5(handle);
-    return __result;
 }
 
 /* ---------- private code */

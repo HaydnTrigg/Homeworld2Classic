@@ -122,62 +122,47 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_667BA2(CameraInterpolation *const);
 CameraInterpolation::CameraInterpolation() // 0x667BA2
 {
     mangled_assert("??0CameraInterpolation@@QAE@XZ");
     todo("implement");
-    _sub_667BA2(this);
 }
 
-_extern void _sub_667EB9(CameraInterpolation *const);
 void CameraInterpolation::initTuning() // 0x667EB9
 {
     mangled_assert("?initTuning@CameraInterpolation@@AAEXXZ");
     todo("implement");
-    _sub_667EB9(this);
 }
 
-_extern void _sub_667D75(float &, float &, float, float);
 void EvalCubic(float &y0, float &m0, float y1, float t) // 0x667D75
 {
     mangled_assert("?EvalCubic@@YGXAAM0MM@Z");
     todo("implement");
-    _sub_667D75(y0, m0, y1, t);
 }
 
-_extern void _sub_667EDD(CameraInterpolation *const, CameraOrbitTarget &, OrbitParameters const &, float);
 void CameraInterpolation::interpolate(CameraOrbitTarget &, OrbitParameters const &, float) // 0x667EDD
 {
     mangled_assert("?interpolate@CameraInterpolation@@QAEXAAVCameraOrbitTarget@@ABVOrbitParameters@@M@Z");
     todo("implement");
-    _sub_667EDD(this, arg, arg, arg);
 }
 
-_extern bool _sub_6683A7(CameraInterpolation *const, char const *);
 bool CameraInterpolation::loadTuning(char const *) // 0x6683A7
 {
     mangled_assert("?loadTuning@CameraInterpolation@@QAE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_6683A7(this, arg);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern void _sub_667DF4(float &, float &, float, float);
 _static void EvalCubicAngle(float &y0, float &m0, float y1, float t) // 0x667DF4
 {
     mangled_assert("EvalCubicAngle");
     todo("implement");
-    _sub_667DF4(y0, m0, y1, t);
 }
 
-_extern void _sub_667BCD(float &, float &, float, float, float, float);
 _static void CubicLogUnsigned(float &pos, float &speed, float targ, float threshold, float step, float logBase) // 0x667BCD
 {
     mangled_assert("CubicLogUnsigned");
     todo("implement");
-    _sub_667BCD(pos, speed, targ, threshold, step, logBase);
 }
 #endif

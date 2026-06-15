@@ -491,203 +491,142 @@ static_assert(sizeof(BattleScarManager) == 8, "Invalid BattleScarManager size");
 
 /* ---------- public code */
 
-_extern char const *_sub_55C853(BattleScarManager *const);
 _inline char const *BattleScarManager::saveToken() // 0x55C853
 {
     mangled_assert("?saveToken@BattleScarManager@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_55C853(this);
-    return __result;
 }
 
-_extern bool _sub_55B807(BattleScarManager *const);
 _inline bool BattleScarManager::isDeterministic() // 0x55B807
 {
     mangled_assert("?isDeterministic@BattleScarManager@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_55B807(this);
-    return __result;
 }
 
-_extern char const *_sub_55B9B7(BattleScarManager::Type const *const);
 _inline char const *BattleScarManager::Type::name() const // 0x55B9B7
 {
     mangled_assert("?name@Type@BattleScarManager@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_55B9B7(this);
-    return __result;
 }
 
-_extern BattleScarManager::Type const *_sub_55B7F9(BattleScarManager::Object const *const);
 _inline BattleScarManager::Type const *BattleScarManager::Object::getType() const // 0x55B7F9
 {
     mangled_assert("?getType@Object@BattleScarManager@@QBEPBVType@2@XZ");
     todo("implement");
-    BattleScarManager::Type const * __result = _sub_55B7F9(this);
-    return __result;
 }
 
-_extern BattleScarManager::Handle const &_sub_564FE2(BattleScarManager::Object const *const);
 _inline BattleScarManager::Handle const &BattleScarManager::Object::getSelf() const // 0x564FE2
 {
     mangled_assert("?getSelf@Object@BattleScarManager@@QBEABUHandle@2@XZ");
     todo("implement");
-    BattleScarManager::Handle const & __result = _sub_564FE2(this);
-    return __result;
 }
 
-_extern long _sub_564FE6(BattleScarManager::Object const *const);
 _inline long BattleScarManager::Object::getWeaponID() const // 0x564FE6
 {
     mangled_assert("?getWeaponID@Object@BattleScarManager@@QBEJXZ");
     todo("implement");
-    long __result = _sub_564FE6(this);
-    return __result;
 }
 
-_extern void _sub_5606B2(BattleScarManager::Object *const, long);
 _inline void BattleScarManager::Object::setWeaponID(long) // 0x5606B2
 {
     mangled_assert("?setWeaponID@Object@BattleScarManager@@QAEXJ@Z");
     todo("implement");
-    _sub_5606B2(this, arg);
 }
 
-_extern float _sub_55B7BA(BattleScarManager::Object const *const);
 _inline float BattleScarManager::Object::getBirthTime() const // 0x55B7BA
 {
     mangled_assert("?getBirthTime@Object@BattleScarManager@@QBEMXZ");
     todo("implement");
-    float __result = _sub_55B7BA(this);
-    return __result;
 }
 
-_extern void _sub_56066E(BattleScarManager::Object *const, float);
 _inline void BattleScarManager::Object::setBirthTime(float) // 0x56066E
 {
     mangled_assert("?setBirthTime@Object@BattleScarManager@@QAEXM@Z");
     todo("implement");
-    _sub_56066E(this, arg);
 }
 
-_extern float _sub_55B7BE(BattleScarManager::Object const *const);
 _inline float BattleScarManager::Object::getDamage() const // 0x55B7BE
 {
     mangled_assert("?getDamage@Object@BattleScarManager@@QBEMXZ");
     todo("implement");
-    float __result = _sub_55B7BE(this);
-    return __result;
 }
 
-_extern void _sub_56068E(BattleScarManager::Object *const, float);
 _inline void BattleScarManager::Object::setDamage(float) // 0x56068E
 {
     mangled_assert("?setDamage@Object@BattleScarManager@@QAEXM@Z");
     todo("implement");
-    _sub_56068E(this, arg);
 }
 
-_extern matrix4 const &_sub_55F362(BattleScarManager::Object const *const);
 _inline matrix4 const &BattleScarManager::Object::getTransform() const // 0x55F362
 {
     mangled_assert("?getTransform@Object@BattleScarManager@@QBEABVmatrix4@@XZ");
     todo("implement");
-    matrix4 const & __result = _sub_55F362(this);
-    return __result;
 }
 
-_extern float _sub_55F35E(BattleScarManager::Object const *const);
 _inline float BattleScarManager::Object::getOpacity() const // 0x55F35E
 {
     mangled_assert("?getOpacity@Object@BattleScarManager@@QBEMXZ");
     todo("implement");
-    float __result = _sub_55F35E(this);
-    return __result;
 }
 
-_extern void _sub_55C895(BattleScarManager::Object *const, float);
 _inline void BattleScarManager::Object::setOpacity(float) // 0x55C895
 {
     mangled_assert("?setOpacity@Object@BattleScarManager@@QAEXM@Z");
     todo("implement");
-    _sub_55C895(this, arg);
 }
 
-_extern bool _sub_55B7FD(BattleScarManager::Object const *const);
 _inline bool BattleScarManager::Object::getVisibility() const // 0x55B7FD
 {
     mangled_assert("?getVisibility@Object@BattleScarManager@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_55B7FD(this);
-    return __result;
 }
 
-_extern bool _sub_55B7F5(BattleScarManager::Object const *const);
 _inline bool BattleScarManager::Object::getRender() const // 0x55B7F5
 {
     mangled_assert("?getRender@Object@BattleScarManager@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_55B7F5(this);
-    return __result;
 }
 
-_extern void _sub_55C8A3(BattleScarManager::Object *const, bool);
 _inline void BattleScarManager::Object::setRender(bool) // 0x55C8A3
 {
     mangled_assert("?setRender@Object@BattleScarManager@@QAEX_N@Z");
     todo("implement");
-    _sub_55C8A3(this, arg);
 }
 
-_extern Collision::Sphere const &_sub_55F35A(BattleScarManager::Object const *const);
 _inline Collision::Sphere const &BattleScarManager::Object::getBoundingSphere() const // 0x55F35A
 {
     mangled_assert("?getBoundingSphere@Object@BattleScarManager@@QBEABVSphere@Collision@@XZ");
     todo("implement");
-    Collision::Sphere const & __result = _sub_55F35A(this);
-    return __result;
 }
 
-_extern void _sub_56067C(BattleScarManager::Object *const, Collision::Sphere const &);
 _inline void BattleScarManager::Object::setBoundingSphere(Collision::Sphere const &) // 0x56067C
 {
     mangled_assert("?setBoundingSphere@Object@BattleScarManager@@QAEXABVSphere@Collision@@@Z");
     todo("implement");
-    _sub_56067C(this, arg);
 }
 
-_extern __int32 _sub_55B7F1(BattleScarManager::Object const *const);
 _inline __int32 BattleScarManager::Object::getNumTriangles() const // 0x55B7F1
 {
     mangled_assert("?getNumTriangles@Object@BattleScarManager@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_55B7F1(this);
-    return __result;
 }
 
-_extern void _sub_5640F1(BattleScarManager::Object *const, BattleScarManager::Object::Decal *);
 _inline void BattleScarManager::Object::deletePopedDecal(BattleScarManager::Object::Decal *) // 0x5640F1
 {
     mangled_assert("?deletePopedDecal@Object@BattleScarManager@@QAEXPAVDecal@12@@Z");
     todo("implement");
-    _sub_5640F1(this, arg);
 }
 
-_extern void _sub_56069C(BattleScarManager::Object *const, BattleScarManager::Object::History const &);
 _inline void BattleScarManager::Object::setHistory(BattleScarManager::Object::History const &) // 0x56069C
 {
     mangled_assert("?setHistory@Object@BattleScarManager@@QAEXABUHistory@12@@Z");
     todo("implement");
-    _sub_56069C(this, arg);
 }
 
-_extern BattleScarManager::Object::History const &_sub_564FC3(BattleScarManager::Object const *const);
 _inline BattleScarManager::Object::History const &BattleScarManager::Object::getHistory() const // 0x564FC3
 {
     mangled_assert("?getHistory@Object@BattleScarManager@@QBEABUHistory@12@XZ");
     todo("implement");
-    BattleScarManager::Object::History const & __result = _sub_564FC3(this);
-    return __result;
 }
 
 /* ---------- private code */

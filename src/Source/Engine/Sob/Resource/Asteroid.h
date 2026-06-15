@@ -45,49 +45,34 @@ static_assert(sizeof(Asteroid) == 724, "Invalid Asteroid size");
 
 /* ---------- public code */
 
-_extern bool _sub_4B144E(Asteroid const *const);
 _inline bool Asteroid::isLatchingResource() const // 0x4B144E
 {
     mangled_assert("?isLatchingResource@Asteroid@@UBE_NXZ");
     todo("implement");
-    bool __result = _sub_4B144E(this);
-    return __result;
 }
 
-_extern bool _sub_4B144B(Asteroid const *const);
 _inline bool Asteroid::isHaulingResource() const // 0x4B144B
 {
     mangled_assert("?isHaulingResource@Asteroid@@UBE_NXZ");
     todo("implement");
-    bool __result = _sub_4B144B(this);
-    return __result;
 }
 
-_extern AsteroidStatic const *_sub_4B1439(Asteroid const *const);
 _inline AsteroidStatic const *Asteroid::getStatic() const // 0x4B1439
 {
     mangled_assert("?getStatic@Asteroid@@QBEPBVAsteroidStatic@@XZ");
     todo("implement");
-    AsteroidStatic const * __result = _sub_4B1439(this);
-    return __result;
 }
 
-_extern bool _sub_4B1448(Asteroid *const);
 _inline bool Asteroid::isDeterministic() // 0x4B1448
 {
     mangled_assert("?isDeterministic@Asteroid@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4B1448(this);
-    return __result;
 }
 
-_extern char const *_sub_4B15E0(Asteroid *const);
 _inline char const *Asteroid::saveToken() // 0x4B15E0
 {
     mangled_assert("?saveToken@Asteroid@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4B15E0(this);
-    return __result;
 }
 
 /* ---------- private code */

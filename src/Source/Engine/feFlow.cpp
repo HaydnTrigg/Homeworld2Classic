@@ -251,146 +251,110 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_45D77A(std::_List_buy<UI::UIScreenInfo,std::allocator<UI::UIScreenInfo> > *const);
 _inline std::_List_buy<UI::UIScreenInfo,std::allocator<UI::UIScreenInfo> >::~_List_buy<UI::UIScreenInfo,std::allocator<UI::UIScreenInfo> >() // 0x45D77A
 {
     mangled_assert("??1?$_List_buy@UUIScreenInfo@UI@@V?$allocator@UUIScreenInfo@UI@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_45D77A(this);
 }
 
-_extern void _sub_45D795(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,unsigned int> *const);
 _inline std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,unsigned int>::~pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,unsigned int>() // 0x45D795
 {
     mangled_assert("??1?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_45D795(this);
 }
 
-_extern void _sub_45D79F(UI::UIScreenInfo *const);
 _inline UI::UIScreenInfo::~UIScreenInfo() // 0x45D79F
 {
     mangled_assert("??1UIScreenInfo@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_45D79F(this);
 }
 
-_extern void _sub_45DE80();
 void Lobby_AutoFillGameSettings() // 0x45DE80
 {
     mangled_assert("?Lobby_AutoFillGameSettings@@YGXXZ");
     todo("implement");
-    _sub_45DE80();
 }
 
-_extern void _sub_45DF54();
 void Lobby_AutoSetRaceFromLevel() // 0x45DF54
 {
     mangled_assert("?Lobby_AutoSetRaceFromLevel@@YGXXZ");
     todo("implement");
-    _sub_45DF54();
 }
 
-_extern void _sub_45DFD2();
 void SpaghettiFrontEnd::SetDefaultLevel() // 0x45DFD2
 {
     mangled_assert("?SetDefaultLevel@SpaghettiFrontEnd@@SGXXZ");
     todo("implement");
-    _sub_45DFD2();
 }
 
-_extern void _sub_45D821();
 void SpaghettiFrontEnd::FELogic_AppStart() // 0x45D821
 {
     mangled_assert("?FELogic_AppStart@SpaghettiFrontEnd@@CGXXZ");
     todo("implement");
-    _sub_45D821();
 }
 
-_extern void _sub_45DC49();
 void SpaghettiFrontEnd::FELogic_GameMenuExit() // 0x45DC49
 {
     mangled_assert("?FELogic_GameMenuExit@SpaghettiFrontEnd@@CGXXZ");
     todo("implement");
-    _sub_45DC49();
 }
 
-_extern void _sub_45DC98();
 void SpaghettiFrontEnd::FELogic_GameOver() // 0x45DC98
 {
     mangled_assert("?FELogic_GameOver@SpaghettiFrontEnd@@CGXXZ");
     todo("implement");
-    _sub_45DC98();
 }
 
-_extern void _sub_45E14D(FrontEnd::FEStartupCode);
 void SpaghettiFrontEnd::StartupFrontend(FrontEnd::FEStartupCode feStartUpCode) // 0x45E14D
 {
     mangled_assert("?StartupFrontend@SpaghettiFrontEnd@@SGXW4FEStartupCode@FrontEnd@@@Z");
     todo("implement");
-    _sub_45E14D(feStartUpCode);
 }
 
-_extern void _sub_45E0D9(FrontEnd::FEShutdownCode);
 void SpaghettiFrontEnd::ShutdownFrontend(FrontEnd::FEShutdownCode fe) // 0x45E0D9
 {
     mangled_assert("?ShutdownFrontend@SpaghettiFrontEnd@@SGXW4FEShutdownCode@FrontEnd@@@Z");
     todo("implement");
-    _sub_45E0D9(fe);
 }
 
-_extern bool _sub_45E24B();
 bool SpaghettiFrontEnd::StartupInGameFrontend() // 0x45E24B
 {
     mangled_assert("?StartupInGameFrontend@SpaghettiFrontEnd@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_45E24B();
-    return __result;
 }
 
-_extern bool _sub_45E121();
 bool SpaghettiFrontEnd::ShutdownInGameFrontend() // 0x45E121
 {
     mangled_assert("?ShutdownInGameFrontend@SpaghettiFrontEnd@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_45E121();
-    return __result;
 }
 
-_extern void _sub_45D815();
 void SpaghettiFrontEnd::AnimaticCallback() // 0x45D815
 {
     mangled_assert("?AnimaticCallback@SpaghettiFrontEnd@@SGXXZ");
     todo("implement");
-    _sub_45D815();
 }
 
-_extern void _sub_45DDF0();
 void SpaghettiFrontEnd::LoadScreenMaps() // 0x45DDF0
 {
     mangled_assert("?LoadScreenMaps@SpaghettiFrontEnd@@SGXXZ");
     todo("implement");
-    _sub_45DDF0();
 }
 
-_extern void _sub_45E075(char const *, wchar_t const *, wchar_t const *);
 void SpaghettiFrontEnd::ShowLoadingScreen(char const *levelFilePath, wchar_t const *title1, wchar_t const *title2) // 0x45E075
 {
     mangled_assert("?ShowLoadingScreen@SpaghettiFrontEnd@@SGXPBDPB_W1@Z");
     todo("implement");
-    _sub_45E075(levelFilePath, title1, title2);
 }
 
 /* ---------- private code */
 
-_extern void _sub_45E528(UI::InterfaceElement *);
 _static void msInGameExitOnOK(UI::InterfaceElement *btn) // 0x45E528
 {
     mangled_assert("msInGameExitOnOK");
     todo("implement");
-    _sub_45E528(btn);
 }
 #endif

@@ -158,526 +158,369 @@ _static
 
 /* ---------- public code */
 
-_extern bool _sub_6C3D2A(SoundParamManager::Data::LessString const *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &);
 _inline bool SoundParamManager::Data::LessString::operator()(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &) const // 0x6C3D2A
 {
     mangled_assert("??RLessString@Data@SoundParamManager@@QBE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z");
     todo("implement");
-    bool __result = _sub_6C3D2A(this, arg, arg);
-    return __result;
 }
 
-_extern __int32 _sub_6C61C6(char const *, char const *);
 __int32 SoundParamManager::Data::pathCmp(char const *s1, char const *s2) // 0x6C61C6
 {
     mangled_assert("?pathCmp@Data@SoundParamManager@@SGHPBD0@Z");
     todo("implement");
-    __int32 __result = _sub_6C61C6(s1, s2);
-    return __result;
 }
 
-_extern _sub_6C3847(SoundParamManager::Data *const);
 _inline SoundParamManager::Data::Data() // 0x6C3847
 {
     mangled_assert("??0Data@SoundParamManager@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6C3847(this);
 }
 
-_extern _sub_6C388B(SoundParamManager::SoundInfo *const, SoundParamManager::SoundInfo const &);
 _inline SoundParamManager::SoundInfo::SoundInfo(SoundParamManager::SoundInfo const &) // 0x6C388B
 {
     mangled_assert("??0SoundInfo@SoundParamManager@@QAE@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_6C388B(this, arg);
 }
 
-_extern void _sub_6C42D2();
 void SoundParamManager::Initialize() // 0x6C42D2
 {
     mangled_assert("?Initialize@SoundParamManager@@SGXXZ");
     todo("implement");
-    _sub_6C42D2();
 }
 
-_extern void _sub_6C4B4C();
 void SoundParamManager::Shutdown() // 0x6C4B4C
 {
     mangled_assert("?Shutdown@SoundParamManager@@SGXXZ");
     todo("implement");
-    _sub_6C4B4C();
 }
 
-_extern SoundParamManager *_sub_6C4309();
 SoundParamManager *SoundParamManager::Instance() // 0x6C4309
 {
     mangled_assert("?Instance@SoundParamManager@@SGPAV1@XZ");
     todo("implement");
-    SoundParamManager * __result = _sub_6C4309();
-    return __result;
 }
 
-_extern _sub_6C38F8(SoundParamManager *const);
 SoundParamManager::SoundParamManager() // 0x6C38F8
 {
     mangled_assert("??0SoundParamManager@@AAE@XZ");
     todo("implement");
-    _sub_6C38F8(this);
 }
 
-_extern void _sub_6C3959(std::_Tree_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,SoundParamManager::SoundInfo>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,SoundParamManager::SoundInfo> > > *const);
 _inline std::_Tree_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,SoundParamManager::SoundInfo>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,SoundParamManager::SoundInfo> > >::~_Tree_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,SoundParamManager::SoundInfo>,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,SoundParamManager::SoundInfo> > >() // 0x6C3959
 {
     mangled_assert("??1?$_Tree_buy@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VSoundInfo@SoundParamManager@@@std@@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VSoundInfo@SoundParamManager@@@std@@@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6C3959(this);
 }
 
-_extern void _sub_6C3962(std::_Tree_comp<0,std::_Tmap_traits<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,SoundParamManager::SoundInfo,SoundParamManager::Data::LessString,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,SoundParamManager::SoundInfo> >,0> > *const);
 _inline std::_Tree_comp<0,std::_Tmap_traits<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,SoundParamManager::SoundInfo,SoundParamManager::Data::LessString,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,SoundParamManager::SoundInfo> >,0> >::~_Tree_comp<0,std::_Tmap_traits<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,SoundParamManager::SoundInfo,SoundParamManager::Data::LessString,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,SoundParamManager::SoundInfo> >,0> >() // 0x6C3962
 {
     mangled_assert("??1?$_Tree_comp@$0A@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VSoundInfo@SoundParamManager@@VLessString@Data@4@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VSoundInfo@SoundParamManager@@@std@@@2@$0A@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6C3962(this);
 }
 
-_extern void _sub_6C396B(std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,SoundParamManager::SoundInfo,SoundParamManager::Data::LessString,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,SoundParamManager::SoundInfo> > > *const);
 _inline std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,SoundParamManager::SoundInfo,SoundParamManager::Data::LessString,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,SoundParamManager::SoundInfo> > >::~map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,SoundParamManager::SoundInfo,SoundParamManager::Data::LessString,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,SoundParamManager::SoundInfo> > >() // 0x6C396B
 {
     mangled_assert("??1?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VSoundInfo@SoundParamManager@@VLessString@Data@4@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VSoundInfo@SoundParamManager@@@std@@@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6C396B(this);
 }
 
-_extern void _sub_6C3970(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,SoundParamManager::SoundInfo> *const);
 _inline std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,SoundParamManager::SoundInfo>::~pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,SoundParamManager::SoundInfo>() // 0x6C3970
 {
     mangled_assert("??1?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VSoundInfo@SoundParamManager@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6C3970(this);
 }
 
-_extern void _sub_6C3975(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,SoundParamManager::SoundInfo> *const);
 _inline std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,SoundParamManager::SoundInfo>::~pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,SoundParamManager::SoundInfo>() // 0x6C3975
 {
     mangled_assert("??1?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VSoundInfo@SoundParamManager@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6C3975(this);
 }
 
-_extern void _sub_6C3988(SoundParamManager::Data *const);
 _inline SoundParamManager::Data::~Data() // 0x6C3988
 {
     mangled_assert("??1Data@SoundParamManager@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6C3988(this);
 }
 
-_extern void _sub_6C399B(SoundParamManager *const);
 SoundParamManager::~SoundParamManager() // 0x6C399B
 {
     mangled_assert("??1SoundParamManager@@AAE@XZ");
     todo("implement");
-    _sub_6C399B(this);
 }
 
-_extern SoundParamManager::SoundInfo &_sub_6C39B6(SoundParamManager::SoundInfo *const, SoundParamManager::SoundInfo const &);
 _inline SoundParamManager::SoundInfo &SoundParamManager::SoundInfo::operator=(SoundParamManager::SoundInfo const &) // 0x6C39B6
 {
     mangled_assert("??4SoundInfo@SoundParamManager@@QAEAAV01@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    SoundParamManager::SoundInfo & __result = _sub_6C39B6(this, arg);
-    return __result;
 }
 
-_extern SoundParams &_sub_6C39FB(SoundParams *const, SoundParams const &);
 _inline SoundParams &SoundParams::operator=(SoundParams const &) // 0x6C39FB
 {
     mangled_assert("??4SoundParams@@QAEAAV0@ABV0@@Z");
     compiler_generated();
     todo("implement");
-    SoundParams & __result = _sub_6C39FB(this, arg);
-    return __result;
 }
 
-_extern bool _sub_6C49E8(SoundParamManager *const, char const *);
 bool SoundParamManager::SetRootPath(char const *) // 0x6C49E8
 {
     mangled_assert("?SetRootPath@SoundParamManager@@QAE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_6C49E8(this, arg);
-    return __result;
 }
 
-_extern char const *_sub_6C4112(SoundParamManager const *const);
 char const *SoundParamManager::GetRootPath() const // 0x6C4112
 {
     mangled_assert("?GetRootPath@SoundParamManager@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6C4112(this);
-    return __result;
 }
 
-_extern bool _sub_6C3DBF(SoundParamManager *const, char const *, bool, SoundParamManager::SoundInfo &);
 bool SoundParamManager::GetInfo(char const *, bool, SoundParamManager::SoundInfo &) // 0x6C3DBF
 {
     mangled_assert("?GetInfo@SoundParamManager@@QAE_NPBD_NAAVSoundInfo@1@@Z");
     todo("implement");
-    bool __result = _sub_6C3DBF(this, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_6C402E(SoundParamManager *const, char const *, SoundParamManager::SoundInfo &);
 bool SoundParamManager::GetParentInfo(char const *, SoundParamManager::SoundInfo &) // 0x6C402E
 {
     mangled_assert("?GetParentInfo@SoundParamManager@@QAE_NPBDAAVSoundInfo@1@@Z");
     todo("implement");
-    bool __result = _sub_6C402E(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_6C3F6D(SoundParamManager *const, char const *, bool, SoundParams &);
 bool SoundParamManager::GetParams(char const *, bool, SoundParams &) // 0x6C3F6D
 {
     mangled_assert("?GetParams@SoundParamManager@@QAE_NPBD_NAAVSoundParams@@@Z");
     todo("implement");
-    bool __result = _sub_6C3F6D(this, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_6C40A0(SoundParamManager *const, char const *, SoundParams &);
 bool SoundParamManager::GetParentParams(char const *, SoundParams &) // 0x6C40A0
 {
     mangled_assert("?GetParentParams@SoundParamManager@@QAE_NPBDAAVSoundParams@@@Z");
     todo("implement");
-    bool __result = _sub_6C40A0(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_6C4610(SoundParamManager *const, char const *, bool, SoundParams const &, TypedBitSet<enum SoundParams::ParamType,30> const &, bool);
 bool SoundParamManager::SetParams(char const *, bool, SoundParams const &, TypedBitSet<enum SoundParams::ParamType,30> const &, bool) // 0x6C4610
 {
     mangled_assert("?SetParams@SoundParamManager@@QAE_NPBD_NABVSoundParams@@ABV?$TypedBitSet@W4ParamType@SoundParams@@$0BO@@@1@Z");
     todo("implement");
-    bool __result = _sub_6C4610(this, arg, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern SoundParams::ParamType const *_sub_6C411D();
 SoundParams::ParamType const *SoundParamManager::GetSampleParams() // 0x6C411D
 {
     mangled_assert("?GetSampleParams@SoundParamManager@@SGPBW4ParamType@SoundParams@@XZ");
     todo("implement");
-    SoundParams::ParamType const * __result = _sub_6C411D();
-    return __result;
 }
 
-_extern unsigned __int32 _sub_6C3F69();
 unsigned __int32 SoundParamManager::GetNumSampleParams() // 0x6C3F69
 {
     mangled_assert("?GetNumSampleParams@SoundParamManager@@SGIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_6C3F69();
-    return __result;
 }
 
-_extern bool _sub_6C4866(SoundParamManager *const, char const *, bool, bool);
 bool SoundParamManager::SetRandSampContainer(char const *, bool, bool) // 0x6C4866
 {
     mangled_assert("?SetRandSampContainer@SoundParamManager@@QAE_NPBD_N1@Z");
     todo("implement");
-    bool __result = _sub_6C4866(this, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_6C4123(SoundParamManager *const, char const *);
 bool SoundParamManager::HasChildParamFiles(char const *) // 0x6C4123
 {
     mangled_assert("?HasChildParamFiles@SoundParamManager@@QAE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_6C4123(this, arg);
-    return __result;
 }
 
-_extern bool _sub_6C429D(SoundParamManager *const, char const *);
 bool SoundParamManager::HasSoundFileExt(char const *) // 0x6C429D
 {
     mangled_assert("?HasSoundFileExt@SoundParamManager@@QAE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_6C429D(this, arg);
-    return __result;
 }
 
-_extern bool _sub_6C430F(SoundParamManager *const, char const *, unsigned long);
 bool SoundParamManager::IsValidForDest(char const *, unsigned long) // 0x6C430F
 {
     mangled_assert("?IsValidForDest@SoundParamManager@@QAE_NPBDK@Z");
     todo("implement");
-    bool __result = _sub_6C430F(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_6C427C(SoundParamManager *const, char const *);
 bool SoundParamManager::HasParamFileExt(char const *) // 0x6C427C
 {
     mangled_assert("?HasParamFileExt@SoundParamManager@@QAE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_6C427C(this, arg);
-    return __result;
 }
 
-_extern char const *_sub_6C3FB6(SoundParamManager *const, char const *, bool);
 char const *SoundParamManager::GetParamsFilename(char const *, bool) // 0x6C3FB6
 {
     mangled_assert("?GetParamsFilename@SoundParamManager@@QAEPBDPBD_N@Z");
     todo("implement");
-    char const * __result = _sub_6C3FB6(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_6C43D7(SoundParamManager *const, char const *, TypedBitSet<enum SoundParams::ParamType,30> const &, bool);
 bool SoundParamManager::Propagate(char const *, TypedBitSet<enum SoundParams::ParamType,30> const &, bool) // 0x6C43D7
 {
     mangled_assert("?Propagate@SoundParamManager@@QAE_NPBDABV?$TypedBitSet@W4ParamType@SoundParams@@$0BO@@@_N@Z");
     todo("implement");
-    bool __result = _sub_6C43D7(this, arg, arg, arg);
-    return __result;
 }
 
-_extern void _sub_6C45C7(SoundParamManager *const);
 void SoundParamManager::Refresh() // 0x6C45C7
 {
     mangled_assert("?Refresh@SoundParamManager@@QAEXXZ");
     todo("implement");
-    _sub_6C45C7(this);
 }
 
-_extern bool _sub_6C5C9B(SoundParamManager const *const, char const *);
 bool SoundParamManager::isRoot(char const *) const // 0x6C5C9B
 {
     mangled_assert("?isRoot@SoundParamManager@@ABE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_6C5C9B(this, arg);
-    return __result;
 }
 
-_extern void _sub_6C5F42(SoundParamManager const *const, LuaConfig &);
 void SoundParamManager::luaSetup(LuaConfig &) const // 0x6C5F42
 {
     mangled_assert("?luaSetup@SoundParamManager@@ABEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_6C5F42(this, arg);
 }
 
-_extern bool _sub_6C5E11(SoundParamManager const *const, char const *, SoundParamManager::SoundInfo &, bool *);
 bool SoundParamManager::loadParams(char const *, SoundParamManager::SoundInfo &, bool *) const // 0x6C5E11
 {
     mangled_assert("?loadParams@SoundParamManager@@ABE_NPBDAAVSoundInfo@1@PA_N@Z");
     todo("implement");
-    bool __result = _sub_6C5E11(this, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_6C62FB(SoundParamManager const *const, char const *, SoundParamManager::SoundInfo const &, bool);
 bool SoundParamManager::saveParams(char const *, SoundParamManager::SoundInfo const &, bool) const // 0x6C62FB
 {
     mangled_assert("?saveParams@SoundParamManager@@ABE_NPBDABVSoundInfo@1@_N@Z");
     todo("implement");
-    bool __result = _sub_6C62FB(this, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_6C623E(SoundParamManager *const, char const *, bool, TypedBitSet<enum SoundParams::ParamType,30> const &);
 bool SoundParamManager::propagateToFile(char const *, bool, TypedBitSet<enum SoundParams::ParamType,30> const &) // 0x6C623E
 {
     mangled_assert("?propagateToFile@SoundParamManager@@AAE_NPBD_NABV?$TypedBitSet@W4ParamType@SoundParams@@$0BO@@@@Z");
     todo("implement");
-    bool __result = _sub_6C623E(this, arg, arg, arg);
-    return __result;
 }
 
-_extern std::basic_string<char,std::char_traits<char>,std::allocator<char> > _sub_6C5A59(SoundParamManager *const, char const *, bool);
 std::basic_string<char,std::char_traits<char>,std::allocator<char> > SoundParamManager::getParamsFilename(char const *, bool) // 0x6C5A59
 {
     mangled_assert("?getParamsFilename@SoundParamManager@@AAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PBD_N@Z");
     todo("implement");
-    std::string __result = _sub_6C5A59(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern char const *_sub_6C5711(char const *);
 _static char const *getExtension(char const *filename) // 0x6C5711
 {
     mangled_assert("getExtension");
     todo("implement");
-    char const * __result = _sub_6C5711(filename);
-    return __result;
 }
 
-_extern std::basic_string<char,std::char_traits<char>,std::allocator<char> > _sub_6C5BA7(char const *);
 _static std::basic_string<char,std::char_traits<char>,std::allocator<char> > getParentFolder(char const *fname) // 0x6C5BA7
 {
     mangled_assert("getParentFolder");
     todo("implement");
-    std::string __result = _sub_6C5BA7(fname);
-    return __result;
 }
 
-_extern std::basic_string<char,std::char_traits<char>,std::allocator<char> > _sub_6C5C28(char const *);
 _static std::basic_string<char,std::char_traits<char>,std::allocator<char> > getTitle(char const *fname) // 0x6C5C28
 {
     mangled_assert("getTitle");
     todo("implement");
-    std::string __result = _sub_6C5C28(fname);
-    return __result;
 }
 
-_extern bool _sub_6C5927(LuaConfig &, char const *, __int32, __int32, __int32, __int32 &);
 _static bool getParameter(LuaConfig &lc, char const *name, __int32 min, __int32 max, __int32 special, __int32 &val) // 0x6C5927
 {
     mangled_assert("getParameter");
     todo("implement");
-    bool __result = _sub_6C5927(lc, name, min, max, special, val);
-    return __result;
 }
 
-_extern bool _sub_6C5964(LuaConfig &, char const *, unsigned __int32, unsigned __int32, unsigned __int32, unsigned __int32 &);
 _static bool getParameter(LuaConfig &lc, char const *name, unsigned __int32 min, unsigned __int32 max, unsigned __int32 special, unsigned __int32 &val) // 0x6C5964
 {
     mangled_assert("getParameter");
     todo("implement");
-    bool __result = _sub_6C5964(lc, name, min, max, special, val);
-    return __result;
 }
 
-_extern bool _sub_6C5A09(LuaConfig &, char const *, float, float, float, float &);
 _static bool getParameter(LuaConfig &lc, char const *name, float min, float max, float special, float &val) // 0x6C5A09
 {
     mangled_assert("getParameter");
     todo("implement");
-    bool __result = _sub_6C5A09(lc, name, min, max, special, val);
-    return __result;
 }
 
-_extern bool _sub_6C59A1(LuaConfig &, char const *, long, long, long, long &);
 _static bool getParameter(LuaConfig &lc, char const *name, long min, long max, long special, long &val) // 0x6C59A1
 {
     mangled_assert("getParameter");
     todo("implement");
-    bool __result = _sub_6C59A1(lc, name, min, max, special, val);
-    return __result;
 }
 
-_extern bool _sub_6C5573(LuaConfig &, char const *, SoundParams::EnvelopePoint *);
 _static bool getEnvelope(LuaConfig &lc, char const *label, SoundParams::EnvelopePoint *val) // 0x6C5573
 {
     mangled_assert("getEnvelope");
     todo("implement");
-    bool __result = _sub_6C5573(lc, label, val);
-    return __result;
 }
 
-_extern bool _sub_6C527C(LuaConfig &, char const *, SoundParams::EffectContainer *);
 _static bool getEffects(LuaConfig &lc, char const *label, SoundParams::EffectContainer *val) // 0x6C527C
 {
     mangled_assert("getEffects");
     todo("implement");
-    bool __result = _sub_6C527C(lc, label, val);
-    return __result;
 }
 
-_extern void _sub_6C572E(LuaConfig &, unsigned __int32, SoundParams &, TypedBitSet<enum SoundParams::ParamType,30> &);
 _static void getParameter(LuaConfig &lc, unsigned __int32 paramIndex, SoundParams &params, TypedBitSet<enum SoundParams::ParamType,30> &overrides) // 0x6C572E
 {
     mangled_assert("getParameter");
     todo("implement");
-    _sub_6C572E(lc, paramIndex, params, overrides);
 }
 
-_extern void _sub_6C62CE(TypedBitSet<enum SoundParams::ParamType,30> const &, TypedBitSet<enum SoundParams::ParamType,30> &);
 _static void removeOverride(TypedBitSet<enum SoundParams::ParamType,30> const &removalMask, TypedBitSet<enum SoundParams::ParamType,30> &overrides) // 0x6C62CE
 {
     mangled_assert("removeOverride");
     todo("implement");
-    _sub_6C62CE(removalMask, overrides);
 }
 
-_extern bool _sub_6C5DA6(LuaConfig &, SoundParams &);
 _static bool loadOldReverbVer1(LuaConfig &lc, SoundParams &params) // 0x6C5DA6
 {
     mangled_assert("loadOldReverbVer1");
     todo("implement");
-    bool __result = _sub_6C5DA6(lc, params);
-    return __result;
 }
 
-_extern bool _sub_6C5CEC(LuaConfig &, SoundParams &);
 _static bool loadOldEqualizerVer1(LuaConfig &lc, SoundParams &params) // 0x6C5CEC
 {
     mangled_assert("loadOldEqualizerVer1");
     todo("implement");
-    bool __result = _sub_6C5CEC(lc, params);
-    return __result;
 }
 
-_extern bool _sub_6C5CBA(__int32, LuaConfig &, SoundParams &);
 _static bool loadOldData(__int32 version, LuaConfig &lc, SoundParams &params) // 0x6C5CBA
 {
     mangled_assert("loadOldData");
     todo("implement");
-    bool __result = _sub_6C5CBA(version, lc, params);
-    return __result;
 }
 
-_extern void _sub_6C6645(FileStream &, char const *, SoundParams::EnvelopePoint const *);
 _static void writeEnvelope(FileStream &stream, char const *label, SoundParams::EnvelopePoint const *val) // 0x6C6645
 {
     mangled_assert("writeEnvelope");
     todo("implement");
-    _sub_6C6645(stream, label, val);
 }
 
-_extern void _sub_6C6458(FileStream &, char const *, SoundParams::EffectContainer const *);
 _static void writeEffects(FileStream &stream, char const *label, SoundParams::EffectContainer const *val) // 0x6C6458
 {
     mangled_assert("writeEffects");
     todo("implement");
-    _sub_6C6458(stream, label, val);
 }
 
-_extern void _sub_6C674C(FileStream &, unsigned __int32, SoundParams const &, TypedBitSet<enum SoundParams::ParamType,30> const &, bool);
 _static void writeParameter(FileStream &stream, unsigned __int32 index, SoundParams const &params, TypedBitSet<enum SoundParams::ParamType,30> const &overrides, bool bWriteAll) // 0x6C674C
 {
     mangled_assert("writeParameter");
     todo("implement");
-    _sub_6C674C(stream, index, params, overrides, bWriteAll);
 }
 
-_extern void _sub_6C51B2(SoundParams const &, SoundParams const &, TypedBitSet<enum SoundParams::ParamType,30> &);
 _static void flagDifferences(SoundParams const &params0, SoundParams const &params1, TypedBitSet<enum SoundParams::ParamType,30> &overrides) // 0x6C51B2
 {
     mangled_assert("flagDifferences");
     todo("implement");
-    _sub_6C51B2(params0, params1, overrides);
 }
 
-_extern bool _sub_6C4E1A(char const *);
 _static bool canWrite(char const *fname) // 0x6C4E1A
 {
     mangled_assert("canWrite");
     todo("implement");
-    bool __result = _sub_6C4E1A(fname);
-    return __result;
 }
 #endif

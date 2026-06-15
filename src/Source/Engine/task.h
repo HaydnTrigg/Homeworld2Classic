@@ -101,99 +101,70 @@ static_assert(sizeof(TaskList) == 68, "Invalid TaskList size");
 
 /* ---------- public code */
 
-_extern char const *_sub_646BED(Task const *const);
 _inline char const *Task::getName() const // 0x646BED
 {
     mangled_assert("?getName@Task@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_646BED(this);
-    return __result;
 }
 
-_extern TaskType _sub_646BFD(Task const *const);
 _inline TaskType Task::getType() const // 0x646BFD
 {
     mangled_assert("?getType@Task@@QBE?AW4TaskType@@XZ");
     todo("implement");
-    TaskType __result = _sub_646BFD(this);
-    return __result;
 }
 
-_extern float _sub_646BE5(Task const *const);
 _inline float Task::getElapsed() const // 0x646BE5
 {
     mangled_assert("?getElapsed@Task@@QBEMXZ");
     todo("implement");
-    float __result = _sub_646BE5(this);
-    return __result;
 }
 
-_extern void _sub_646E95(Task *const, float);
 _inline void Task::setElapsed(float) // 0x646E95
 {
     mangled_assert("?setElapsed@Task@@QAEXM@Z");
     todo("implement");
-    _sub_646E95(this, arg);
 }
 
-_extern float _sub_4FAF6D(Task const *const);
 _inline float Task::getPeriod() const // 0x4FAF6D
 {
     mangled_assert("?getPeriod@Task@@QBEMXZ");
     todo("implement");
-    float __result = _sub_4FAF6D(this);
-    return __result;
 }
 
-_extern __int32 _sub_646C01(Task const *const);
 _inline __int32 Task::getYieldCounter() const // 0x646C01
 {
     mangled_assert("?getYieldCounter@Task@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_646C01(this);
-    return __result;
 }
 
-_extern void _sub_646EC3(Task *const, __int32);
 _inline void Task::setYieldCounter(__int32) // 0x646EC3
 {
     mangled_assert("?setYieldCounter@Task@@QAEXH@Z");
     todo("implement");
-    _sub_646EC3(this, arg);
 }
 
-_extern bool _sub_646BF9(Task *const);
 _inline bool Task::getPaused() // 0x646BF9
 {
     mangled_assert("?getPaused@Task@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_646BF9(this);
-    return __result;
 }
 
-_extern void _sub_64661A(Task *const);
 _inline void Task::decYieldCounter() // 0x64661A
 {
     mangled_assert("?decYieldCounter@Task@@QAEXXZ");
     todo("implement");
-    _sub_64661A(this);
 }
 
-_extern void _sub_646E88(Task *const);
 _inline void Task::resetTask() // 0x646E88
 {
     mangled_assert("?resetTask@Task@@QAEXXZ");
     todo("implement");
-    _sub_646E88(this);
 }
 
-_extern float _sub_646BE9(TaskList const *const);
 _inline float TaskList::getLongestPeriod() const // 0x646BE9
 {
     mangled_assert("?getLongestPeriod@TaskList@@QBEMXZ");
     todo("implement");
-    float __result = _sub_646BE9(this);
-    return __result;
 }
 
 /* ---------- private code */

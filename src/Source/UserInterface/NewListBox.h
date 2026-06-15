@@ -91,117 +91,82 @@ static_assert(sizeof(UI::NewListBox) == 1096, "Invalid UI::NewListBox size");
 
 /* ---------- public code */
 
-_extern UI::InterfaceElement *_sub_67D2A2(UI::NewListBox *const);
 _inline UI::InterfaceElement *UI::NewListBox::clone() // 0x67D2A2
 {
     mangled_assert("?clone@NewListBox@UI@@UAEPAVInterfaceElement@2@XZ");
     todo("implement");
-    UI::InterfaceElement * __result = _sub_67D2A2(this);
-    return __result;
 }
 
-_extern UI::ListBoxItem *_sub_57283F(UI::NewListBox *const);
 _inline UI::ListBoxItem *UI::NewListBox::GetSelectedListBoxItem() // 0x57283F
 {
     mangled_assert("?GetSelectedListBoxItem@NewListBox@UI@@QAEPAVListBoxItem@2@XZ");
     todo("implement");
-    UI::ListBoxItem * __result = _sub_57283F(this);
-    return __result;
 }
 
-_extern __int32 _sub_57273E(UI::NewListBox const *const);
 _inline __int32 UI::NewListBox::GetCount() const // 0x57273E
 {
     mangled_assert("?GetCount@NewListBox@UI@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_57273E(this);
-    return __result;
 }
 
-_extern __int32 _sub_59E42C(UI::NewListBox const *const);
 _inline __int32 UI::NewListBox::GetSelectedIndex() const // 0x59E42C
 {
     mangled_assert("?GetSelectedIndex@NewListBox@UI@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_59E42C(this);
-    return __result;
 }
 
-_extern void _sub_67D270(UI::NewListBox *const, bool);
 _inline void UI::NewListBox::UseLeftScroll(bool) // 0x67D270
 {
     mangled_assert("?UseLeftScroll@NewListBox@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_67D270(this, arg);
 }
 
-_extern void _sub_67D0C6(UI::NewListBox *const, bool);
 _inline void UI::NewListBox::SetHugBottom(bool) // 0x67D0C6
 {
     mangled_assert("?SetHugBottom@NewListBox@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_67D0C6(this, arg);
 }
 
-_extern void _sub_67D0ED(UI::NewListBox *const, bool);
 _inline void UI::NewListBox::SetMultiSelect(bool) // 0x67D0ED
 {
     mangled_assert("?SetMultiSelect@NewListBox@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_67D0ED(this, arg);
 }
 
-_extern bool _sub_682BA6(UI::NewListBox const *const);
 _inline bool UI::NewListBox::GetMultiSelect() const // 0x682BA6
 {
     mangled_assert("?GetMultiSelect@NewListBox@UI@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_682BA6(this);
-    return __result;
 }
 
-_extern std::_Vector_iterator<std::_Vector_val<std::_Simple_types<UI::ListBoxItem *> > > _sub_575A4B(UI::NewListBox *const);
 _inline std::_Vector_iterator<std::_Vector_val<std::_Simple_types<UI::ListBoxItem *> > > UI::NewListBox::begin() // 0x575A4B
 {
     mangled_assert("?begin@NewListBox@UI@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVListBoxItem@UI@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_Vector_iterator<std::_Vector_val<std::_Simple_types<UI::ListBoxItem *> > > __result = _sub_575A4B(this);
-    return __result;
 }
 
-_extern std::_Vector_iterator<std::_Vector_val<std::_Simple_types<UI::ListBoxItem *> > > _sub_575A66(UI::NewListBox *const);
 _inline std::_Vector_iterator<std::_Vector_val<std::_Simple_types<UI::ListBoxItem *> > > UI::NewListBox::end() // 0x575A66
 {
     mangled_assert("?end@NewListBox@UI@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVListBoxItem@UI@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_Vector_iterator<std::_Vector_val<std::_Simple_types<UI::ListBoxItem *> > > __result = _sub_575A66(this);
-    return __result;
 }
 
-_extern void _sub_57259B(UI::NewListBox *const, void (*)(UI::InterfaceElement *, __int32));
 _inline void UI::NewListBox::ConnectOnItemSelect(void (*)(UI::InterfaceElement *, __int32)) // 0x57259B
 {
     mangled_assert("?ConnectOnItemSelect@NewListBox@UI@@QAEXP6GXPAVInterfaceElement@2@H@Z@Z");
     todo("implement");
-    _sub_57259B(this, arg);
 }
 
-_extern UI::NewScrollBar *_sub_57FA30(UI::NewListBox *const);
 _inline UI::NewScrollBar *UI::NewListBox::GetScrollBar() // 0x57FA30
 {
     mangled_assert("?GetScrollBar@NewListBox@UI@@QAEPAVNewScrollBar@2@XZ");
     todo("implement");
-    UI::NewScrollBar * __result = _sub_57FA30(this);
-    return __result;
 }
 
-_extern __int32 _sub_67C7A5(UI::NewListBox const *const);
 _inline __int32 UI::NewListBox::GetScrollBarSpace() const // 0x67C7A5
 {
     mangled_assert("?GetScrollBarSpace@NewListBox@UI@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_67C7A5(this);
-    return __result;
 }
 
 /* ---------- private code */

@@ -142,144 +142,106 @@ _static
 
 /* ---------- public code */
 
-_extern void *_sub_4A5248(unsigned __int32);
 void *Bullet::operator new(unsigned __int32 size) // 0x4A5248
 {
     mangled_assert("??2Bullet@@SGPAXI@Z");
     todo("implement");
-    void * __result = _sub_4A5248(size);
-    return __result;
 }
 
-_extern void _sub_4A5255(void *, unsigned __int32);
 void Bullet::operator delete(void *p, unsigned __int32 size) // 0x4A5255
 {
     mangled_assert("??3Bullet@@SGXPAXI@Z");
     todo("implement");
-    _sub_4A5255(p, size);
 }
 
-_extern _sub_4A50B3(Bullet *const, SaveGameData *);
 Bullet::Bullet(SaveGameData *) // 0x4A50B3
 {
     mangled_assert("??0Bullet@@QAE@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_4A50B3(this, arg);
 }
 
-_extern void _sub_4A58BF(Bullet *const);
 void Bullet::defaultSettings() // 0x4A58BF
 {
     mangled_assert("?defaultSettings@Bullet@@QAEXXZ");
     todo("implement");
-    _sub_4A58BF(this);
 }
 
-_extern void _sub_4A58F7(Bullet *const);
 void Bullet::postRestore() // 0x4A58F7
 {
     mangled_assert("?postRestore@Bullet@@UAEXXZ");
     todo("implement");
-    _sub_4A58F7(this);
 }
 
-_extern bool _sub_4A595B(Bullet *const, SaveGameData *);
 bool Bullet::restore(SaveGameData *) // 0x4A595B
 {
     mangled_assert("?restore@Bullet@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_4A595B(this, arg);
-    return __result;
 }
 
-_extern bool _sub_4A59A8(Bullet *const, SaveGameData *, SaveType);
 bool Bullet::save(SaveGameData *, SaveType) // 0x4A59A8
 {
     mangled_assert("?save@Bullet@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_4A59A8(this, arg, arg);
-    return __result;
 }
 
-_extern _sub_4A50FC(Bullet *const, char const *, Sob *, WeaponTargetInfo const &);
 Bullet::Bullet(char const *, Sob *, WeaponTargetInfo const &) // 0x4A50FC
 {
     mangled_assert("??0Bullet@@QAE@PBDPAVSob@@ABVWeaponTargetInfo@@@Z");
     todo("implement");
-    _sub_4A50FC(this, arg, arg, arg);
 }
 
-_extern void _sub_4A51F3(Bullet *const);
 Bullet::~Bullet() // 0x4A51F3
 {
     mangled_assert("??1Bullet@@UAE@XZ");
     todo("implement");
-    _sub_4A51F3(this);
 }
 
-_extern void _sub_4A58A3(Bullet *const);
 void Bullet::RemoveFromSimulation() // 0x4A58A3
 {
     mangled_assert("?RemoveFromSimulation@Bullet@@MAEXXZ");
     todo("implement");
-    _sub_4A58A3(this);
 }
 
-_extern void _sub_4A58A2(Bullet *const);
 void Bullet::RemoveAllSimData() // 0x4A58A2
 {
     mangled_assert("?RemoveAllSimData@Bullet@@IAEXXZ");
     todo("implement");
-    _sub_4A58A2(this);
 }
 
-_extern void _sub_4A58D8(Bullet *const, WeaponStatic const *);
 void Bullet::initialize(WeaponStatic const *) // 0x4A58D8
 {
     mangled_assert("?initialize@Bullet@@UAEXPBVWeaponStatic@@@Z");
     todo("implement");
-    _sub_4A58D8(this, arg);
 }
 
-_extern void _sub_4A5A02(Bullet *const, vector3 const &, vector3 const &);
 void Bullet::spawnMissResults(vector3 const &, vector3 const &) // 0x4A5A02
 {
     mangled_assert("?spawnMissResults@Bullet@@AAEXABVvector3@@0@Z");
     todo("implement");
-    _sub_4A5A02(this, arg, arg);
 }
 
-_extern void _sub_4A58FC(Bullet *const, matrix4 &);
 void Bullet::render(matrix4 &) // 0x4A58FC
 {
     mangled_assert("?render@Bullet@@UAEXAAVmatrix4@@@Z");
     todo("implement");
-    _sub_4A58FC(this, arg);
 }
 
-_extern bool _sub_4A5A6E(Bullet *const, float);
 bool Bullet::update(float) // 0x4A5A6E
 {
     mangled_assert("?update@Bullet@@UAE_NM@Z");
     todo("implement");
-    bool __result = _sub_4A5A6E(this, arg);
-    return __result;
 }
 
-_extern void _sub_4A542E(Bullet *const);
 void Bullet::PerformCollisionDetection() // 0x4A542E
 {
     mangled_assert("?PerformCollisionDetection@Bullet@@UAEXXZ");
     todo("implement");
-    _sub_4A542E(this);
 }
 
-_extern void _sub_4A5351(Bullet *const, Sob *, Collision::Point const &);
 void Bullet::CollisionResponse(Sob *, Collision::Point const &) // 0x4A5351
 {
     mangled_assert("?CollisionResponse@Bullet@@AAEXPAVSob@@ABUPoint@Collision@@@Z");
     todo("implement");
-    _sub_4A5351(this, arg, arg);
 }
 
 /* ---------- private code */

@@ -39,38 +39,28 @@ static_assert(sizeof(EmitterContainer) == 16, "Invalid EmitterContainer size");
 
 /* ---------- public code */
 
-_extern void _sub_48A8D2(EmitterContainer *const, float);
 _inline void EmitterContainer::SetElapsedStopTime(float) // 0x48A8D2
 {
     mangled_assert("?SetElapsedStopTime@EmitterContainer@@QAEXM@Z");
     todo("implement");
-    _sub_48A8D2(this, arg);
 }
 
-_extern float _sub_48A686(EmitterContainer const *const);
 _inline float EmitterContainer::GetElapsedStopTime() const // 0x48A686
 {
     mangled_assert("?GetElapsedStopTime@EmitterContainer@@QBEMXZ");
     todo("implement");
-    float __result = _sub_48A686(this);
-    return __result;
 }
 
-_extern void _sub_48A8E0(EmitterContainer *const, float);
 _inline void EmitterContainer::SetElapsedTriggerTime(float) // 0x48A8E0
 {
     mangled_assert("?SetElapsedTriggerTime@EmitterContainer@@QAEXM@Z");
     todo("implement");
-    _sub_48A8E0(this, arg);
 }
 
-_extern float _sub_48A68A(EmitterContainer const *const);
 _inline float EmitterContainer::GetElapsedTriggerTime() const // 0x48A68A
 {
     mangled_assert("?GetElapsedTriggerTime@EmitterContainer@@QBEMXZ");
     todo("implement");
-    float __result = _sub_48A68A(this);
-    return __result;
 }
 
 /* ---------- private code */

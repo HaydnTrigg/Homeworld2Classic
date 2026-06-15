@@ -62,55 +62,40 @@ static_assert(sizeof(SampleID) == 16, "Invalid SampleID size");
 
 /* ---------- public code */
 
-_extern void _sub_6C149C(SampleID *const, __int32);
 _inline void SampleID::SetIndex(__int32) // 0x6C149C
 {
     mangled_assert("?SetIndex@SampleID@@QAEXH@Z");
     todo("implement");
-    _sub_6C149C(this, arg);
 }
 
-_extern __int32 _sub_6BE483(SampleID *const);
 _inline __int32 SampleID::GetIndex() // 0x6BE483
 {
     mangled_assert("?GetIndex@SampleID@@QAEHXZ");
     todo("implement");
-    __int32 __result = _sub_6BE483(this);
-    return __result;
 }
 
-_extern void _sub_6C14E3(SampleID *const, long);
 _inline void SampleID::SetWeight(long) // 0x6C14E3
 {
     mangled_assert("?SetWeight@SampleID@@QAEXJ@Z");
     todo("implement");
-    _sub_6C14E3(this, arg);
 }
 
-_extern long _sub_6BE493(SampleID *const);
 _inline long SampleID::GetWeight() // 0x6BE493
 {
     mangled_assert("?GetWeight@SampleID@@QAEJXZ");
     todo("implement");
-    long __result = _sub_6BE493(this);
-    return __result;
 }
 
-_extern void _sub_6C1492(SampleID *const, __int32);
 _inline void SampleID::SetGroup(__int32) // 0x6C1492
 {
     mangled_assert("?SetGroup@SampleID@@QAEXH@Z");
     todo("implement");
-    _sub_6C1492(this, arg);
 }
 
-_extern long _sub_6BE42C(SampleID *const);
 _inline long SampleID::GetGroup() // 0x6BE42C
 {
     mangled_assert("?GetGroup@SampleID@@QAEJXZ");
     todo("implement");
-    long __result = _sub_6BE42C(this);
-    return __result;
 }
 
 /* ---------- private code */

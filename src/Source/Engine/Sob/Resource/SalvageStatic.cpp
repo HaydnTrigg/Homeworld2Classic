@@ -40,22 +40,17 @@
 
 /* ---------- public code */
 
-_extern void _sub_4B1BE0(SalvageStatic *const);
 _inline SalvageStatic::~SalvageStatic() // 0x4B1BE0
 {
     mangled_assert("??1SalvageStatic@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4B1BE0(this);
 }
 
-_extern SobStatic *_sub_4B1C01(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, SobStatic *);
 SobStatic *SalvageStatic::Create(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &name, SobStatic *found) // 0x4B1C01
 {
     mangled_assert("?Create@SalvageStatic@@SGPAVSobStatic@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAV2@@Z");
     todo("implement");
-    SobStatic * __result = _sub_4B1C01(name, found);
-    return __result;
 }
 
 /* ---------- private code */

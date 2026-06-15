@@ -206,118 +206,88 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_51E254(Callback::Obj1wRetInternal<bool,enum AnimEventContext::ModeChange> *const);
 _inline Callback::Obj1wRetInternal<bool,enum AnimEventContext::ModeChange>::Obj1wRetInternal<bool,enum AnimEventContext::ModeChange>() // 0x51E254
 {
     mangled_assert("??0?$Obj1wRetInternal@_NW4ModeChange@AnimEventContext@@@Callback@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_51E254(this);
 }
 
-_extern _sub_51E28D(AnimEventSink *const);
 _inline AnimEventSink::AnimEventSink() // 0x51E28D
 {
     mangled_assert("??0AnimEventSink@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_51E28D(this);
 }
 
-_extern _sub_51E362(RenderModelEventSink *const, Sob const *, RenderModelInstance *);
 RenderModelEventSink::RenderModelEventSink(Sob const *, RenderModelInstance *) // 0x51E362
 {
     mangled_assert("??0RenderModelEventSink@@QAE@PBVSob@@PAVRenderModelInstance@@@Z");
     todo("implement");
-    _sub_51E362(this, arg, arg);
 }
 
-_extern void _sub_51E4E5(Callback::Obj1wRetInternal<bool,enum AnimEventContext::ModeChange> *const);
 _inline Callback::Obj1wRetInternal<bool,enum AnimEventContext::ModeChange>::~Obj1wRetInternal<bool,enum AnimEventContext::ModeChange>() // 0x51E4E5
 {
     mangled_assert("??1?$Obj1wRetInternal@_NW4ModeChange@AnimEventContext@@@Callback@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_51E4E5(this);
 }
 
-_extern void _sub_51E508(NDGameEvent_RenderModel *const);
 _inline NDGameEvent_RenderModel::~NDGameEvent_RenderModel() // 0x51E508
 {
     mangled_assert("??1NDGameEvent_RenderModel@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_51E508(this);
 }
 
-_extern void _sub_51E51B(RenderModelEventSink *const);
 _inline RenderModelEventSink::~RenderModelEventSink() // 0x51E51B
 {
     mangled_assert("??1RenderModelEventSink@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_51E51B(this);
 }
 
-_extern bool _sub_51F044(RenderModelEventSink *const);
 bool RenderModelEventSink::shouldSpawnThings() // 0x51F044
 {
     mangled_assert("?shouldSpawnThings@RenderModelEventSink@@IAE_NXZ");
     todo("implement");
-    bool __result = _sub_51F044(this);
-    return __result;
 }
 
-_extern void _sub_51EA09(RenderModelEventSink *const, AnimEvent &, AnimEventContext *);
 void RenderModelEventSink::onEvent(AnimEvent &, AnimEventContext *) // 0x51EA09
 {
     mangled_assert("?onEvent@RenderModelEventSink@@UAEXAAVAnimEvent@@PAVAnimEventContext@@@Z");
     todo("implement");
-    _sub_51EA09(this, arg, arg);
 }
 
-_extern void _sub_51EA04(RenderModelEventSink *const);
 void RenderModelEventSink::detach() // 0x51EA04
 {
     mangled_assert("?detach@RenderModelEventSink@@UAEXXZ");
     todo("implement");
-    _sub_51EA04(this);
 }
 
 /* ---------- private code */
 
-_extern bool _sub_51E906(AnimEventContext::ModeChange, FXManager::Handle);
 _static bool FXAnimUpdate(AnimEventContext::ModeChange mode, FXManager::Handle handle) // 0x51E906
 {
     mangled_assert("FXAnimUpdate");
     todo("implement");
-    bool __result = _sub_51E906(mode, handle);
-    return __result;
 }
 
-_extern void _sub_51E966(char const *, PatchID &);
 _static void LoadSoundPatch(char const *filename, PatchID &pID) // 0x51E966
 {
     mangled_assert("LoadSoundPatch");
     todo("implement");
-    _sub_51E966(filename, pID);
 }
 
-_extern bool _sub_51E9DF(AnimEventContext::ModeChange, long);
 _static bool SoundKillKillKill(AnimEventContext::ModeChange mode, long handle) // 0x51E9DF
 {
     mangled_assert("SoundKillKillKill");
     todo("implement");
-    bool __result = _sub_51E9DF(mode, handle);
-    return __result;
 }
 
-_extern bool _sub_51E9A0(AnimEventContext::ModeChange, SoundEntityHandle const &);
 _static bool SoundAmbientKillKillKill(AnimEventContext::ModeChange mode, SoundEntityHandle const &handle) // 0x51E9A0
 {
     mangled_assert("SoundAmbientKillKillKill");
     todo("implement");
-    bool __result = _sub_51E9A0(mode, handle);
-    return __result;
 }
 #endif

@@ -104,22 +104,16 @@ static_assert(sizeof(SaveGameData) == 32, "Invalid SaveGameData size");
 
 /* ---------- public code */
 
-_extern bool _sub_4C7D21(SaveGameData *const, void *, unsigned __int32 *);
 _inline bool SaveGameData::savePtrToIDConvert(void *, unsigned __int32 *) // 0x4C7D21
 {
     mangled_assert("?savePtrToIDConvert@SaveGameData@@QAE_NPAXPAI@Z");
     todo("implement");
-    bool __result = _sub_4C7D21(this, arg, arg);
-    return __result;
 }
 
-_extern SaveStream *_sub_46A4A5(SaveGameData *const);
 _inline SaveStream *SaveGameData::getSaveStream() // 0x46A4A5
 {
     mangled_assert("?getSaveStream@SaveGameData@@QAEPAVSaveStream@@XZ");
     todo("implement");
-    SaveStream * __result = _sub_46A4A5(this);
-    return __result;
 }
 
 /* ---------- private code */

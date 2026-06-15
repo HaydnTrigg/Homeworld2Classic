@@ -74,65 +74,48 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_620B14(Race::Info *const);
 _inline Race::Info::Info() // 0x620B14
 {
     mangled_assert("??0Info@Race@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_620B14(this);
 }
 
-_extern void _sub_620B4D(Race::Info *const);
 _inline Race::Info::~Info() // 0x620B4D
 {
     mangled_assert("??1Info@Race@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_620B4D(this);
 }
 
-_extern void _sub_620C35();
 void Race::Init() // 0x620C35
 {
     mangled_assert("?Init@Race@@YGXXZ");
     todo("implement");
-    _sub_620C35();
 }
 
-_extern unsigned __int32 _sub_620C26();
 unsigned __int32 Race::GetRaceCount() // 0x620C26
 {
     mangled_assert("?GetRaceCount@Race@@YGIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_620C26();
-    return __result;
 }
 
-_extern Race::Info *_sub_620C04(unsigned __int32);
 Race::Info *Race::GetRaceAt(unsigned __int32 idx) // 0x620C04
 {
     mangled_assert("?GetRaceAt@Race@@YGPAVInfo@1@I@Z");
     todo("implement");
-    Race::Info * __result = _sub_620C04(idx);
-    return __result;
 }
 
-_extern void _sub_620B96();
 void Race::Clear() // 0x620B96
 {
     mangled_assert("?Clear@Race@@YGXXZ");
     todo("implement");
-    _sub_620B96();
 }
 
-_extern unsigned __int32 _sub_620BC3(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &);
 unsigned __int32 Race::GetIdFromName(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &racename) // 0x620BC3
 {
     mangled_assert("?GetIdFromName@Race@@YGIABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_620BC3(racename);
-    return __result;
 }
 
 /* ---------- private code */

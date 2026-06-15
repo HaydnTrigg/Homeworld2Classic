@@ -112,210 +112,154 @@ extern SaveData const SquadronList::m_saveData[2]; // 0x791A38
 
 /* ---------- public code */
 
-_extern _sub_4BBE67(SquadronList *const);
 SquadronList::SquadronList() // 0x4BBE67
 {
     mangled_assert("??0SquadronList@@QAE@XZ");
     todo("implement");
-    _sub_4BBE67(this);
 }
 
-_extern _sub_4BBE15(SquadronList *const, SquadronList::SL_Flags);
 SquadronList::SquadronList(SquadronList::SL_Flags) // 0x4BBE15
 {
     mangled_assert("??0SquadronList@@QAE@W4SL_Flags@0@@Z");
     todo("implement");
-    _sub_4BBE15(this, arg);
 }
 
-_extern _sub_4BBD64(SquadronList *const, SquadronList const &);
 SquadronList::SquadronList(SquadronList const &) // 0x4BBD64
 {
     mangled_assert("??0SquadronList@@QAE@ABV0@@Z");
     todo("implement");
-    _sub_4BBD64(this, arg);
 }
 
-_extern _sub_4BBDB2(SquadronList *const, std::list<Squadron *,std::allocator<Squadron *> > const &);
 SquadronList::SquadronList(std::list<Squadron *,std::allocator<Squadron *> > const &) // 0x4BBDB2
 {
     mangled_assert("??0SquadronList@@QAE@ABV?$list@PAVSquadron@@V?$allocator@PAVSquadron@@@std@@@std@@@Z");
     todo("implement");
-    _sub_4BBDB2(this, arg);
 }
 
-_extern void _sub_4BBE91(SquadronList *const);
 SquadronList::~SquadronList() // 0x4BBE91
 {
     mangled_assert("??1SquadronList@@UAE@XZ");
     todo("implement");
-    _sub_4BBE91(this);
 }
 
-_extern SquadronList &_sub_4BBEF0(SquadronList *const, SquadronList const &);
 SquadronList &SquadronList::operator=(SquadronList const &) // 0x4BBEF0
 {
     mangled_assert("??4SquadronList@@QAEAAV0@ABV0@@Z");
     todo("implement");
-    SquadronList & __result = _sub_4BBEF0(this, arg);
-    return __result;
 }
 
-_extern void _sub_4BC475(SquadronList *const, Selection const &);
 void SquadronList::convert(Selection const &) // 0x4BC475
 {
     mangled_assert("?convert@SquadronList@@QAEXABVSelection@@@Z");
     todo("implement");
-    _sub_4BC475(this, arg);
 }
 
-_extern void _sub_4BC7A4(SquadronList *const, Squadron *);
 void SquadronList::push_back(Squadron *) // 0x4BC7A4
 {
     mangled_assert("?push_back@SquadronList@@QAEXPAVSquadron@@@Z");
     todo("implement");
-    _sub_4BC7A4(this, arg);
 }
 
-_extern void _sub_4BC7E5(SquadronList *const, Squadron *);
 void SquadronList::push_back_no_find(Squadron *) // 0x4BC7E5
 {
     mangled_assert("?push_back_no_find@SquadronList@@QAEXPAVSquadron@@@Z");
     todo("implement");
-    _sub_4BC7E5(this, arg);
 }
 
-_extern void _sub_4BC3A2(SquadronList *const, SquadronList const &);
 void SquadronList::append(SquadronList const &) // 0x4BC3A2
 {
     mangled_assert("?append@SquadronList@@QAEXABV1@@Z");
     todo("implement");
-    _sub_4BC3A2(this, arg);
 }
 
-_extern std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Squadron *> > > _sub_4BC4DF(SquadronList *const, std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Squadron *> > >);
 std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Squadron *> > > SquadronList::erase(std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Squadron *> > >) // 0x4BC4DF
 {
     mangled_assert("?erase@SquadronList@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@PAVSquadron@@@std@@@std@@@std@@V23@@Z");
     todo("implement");
-    std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Squadron *> > > __result = _sub_4BC4DF(this, arg);
-    return __result;
 }
 
-_extern void _sub_4BC404(SquadronList *const);
 void SquadronList::clear() // 0x4BC404
 {
     mangled_assert("?clear@SquadronList@@QAEXXZ");
     todo("implement");
-    _sub_4BC404(this);
 }
 
-_extern bool _sub_4BC80F(SquadronList *const, Squadron const *);
 bool SquadronList::remove(Squadron const *) // 0x4BC80F
 {
     mangled_assert("?remove@SquadronList@@QAE_NPBVSquadron@@@Z");
     todo("implement");
-    bool __result = _sub_4BC80F(this, arg);
-    return __result;
 }
 
-_extern void _sub_4BC012(SquadronList *const, Squadron *);
 void SquadronList::HandleInsertion(Squadron *) // 0x4BC012
 {
     mangled_assert("?HandleInsertion@SquadronList@@AAEXPAVSquadron@@@Z");
     todo("implement");
-    _sub_4BC012(this, arg);
 }
 
-_extern void _sub_4BC041(SquadronList *const, Squadron *);
 void SquadronList::HandleRemoval(Squadron *) // 0x4BC041
 {
     mangled_assert("?HandleRemoval@SquadronList@@AAEXPAVSquadron@@@Z");
     todo("implement");
-    _sub_4BC041(this, arg);
 }
 
-_extern void _sub_4BC060(SquadronList *const, Squadron *);
 void SquadronList::NotifyInsertion(Squadron *) // 0x4BC060
 {
     mangled_assert("?NotifyInsertion@SquadronList@@AAEXPAVSquadron@@@Z");
     todo("implement");
-    _sub_4BC060(this, arg);
 }
 
-_extern void _sub_4BC080(SquadronList *const, Squadron *);
 void SquadronList::NotifyRemoval(Squadron *) // 0x4BC080
 {
     mangled_assert("?NotifyRemoval@SquadronList@@AAEXPAVSquadron@@@Z");
     todo("implement");
-    _sub_4BC080(this, arg);
 }
 
-_extern void _sub_4BC0D2(SquadronList *const, SquadronList::Observer *);
 void SquadronList::Register_Observer(SquadronList::Observer *) // 0x4BC0D2
 {
     mangled_assert("?Register_Observer@SquadronList@@QAEXPAVObserver@1@@Z");
     todo("implement");
-    _sub_4BC0D2(this, arg);
 }
 
-_extern void _sub_4BC0E2(SquadronList *const, SquadronList::Observer *);
 void SquadronList::Remove_Observer(SquadronList::Observer *) // 0x4BC0E2
 {
     mangled_assert("?Remove_Observer@SquadronList@@QAEXPAVObserver@1@@Z");
     todo("implement");
-    _sub_4BC0E2(this, arg);
 }
 
-_extern void _sub_4BC511(SquadronList const *const, vector3 &);
 void SquadronList::getAveragePositionDtrm(vector3 &) const // 0x4BC511
 {
     mangled_assert("?getAveragePositionDtrm@SquadronList@@QBEXAAVvector3@@@Z");
     todo("implement");
-    _sub_4BC511(this, arg);
 }
 
-_extern void _sub_4BC5C0(SquadronList const *const, vector3 &);
 void SquadronList::getAveragePositionVis(vector3 &) const // 0x4BC5C0
 {
     mangled_assert("?getAveragePositionVis@SquadronList@@QBEXAAVvector3@@@Z");
     todo("implement");
-    _sub_4BC5C0(this, arg);
 }
 
-_extern Squadron *_sub_4BC66F(SquadronList *const, __int32);
 Squadron *SquadronList::getSquadronAtIndex(__int32) // 0x4BC66F
 {
     mangled_assert("?getSquadronAtIndex@SquadronList@@QAEPAVSquadron@@H@Z");
     todo("implement");
-    Squadron * __result = _sub_4BC66F(this, arg);
-    return __result;
 }
 
-_extern void _sub_4BC6DF(SquadronList *const);
 void SquadronList::postRestore() // 0x4BC6DF
 {
     mangled_assert("?postRestore@SquadronList@@UAEXXZ");
     todo("implement");
-    _sub_4BC6DF(this);
 }
 
-_extern bool _sub_4BC84C(SquadronList *const, SaveGameData *);
 bool SquadronList::restore(SaveGameData *) // 0x4BC84C
 {
     mangled_assert("?restore@SquadronList@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_4BC84C(this, arg);
-    return __result;
 }
 
-_extern bool _sub_4BC88A(SquadronList *const, SaveGameData *, SaveType);
 bool SquadronList::save(SaveGameData *, SaveType) // 0x4BC88A
 {
     mangled_assert("?save@SquadronList@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_4BC88A(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

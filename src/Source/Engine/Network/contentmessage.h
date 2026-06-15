@@ -80,44 +80,34 @@ static_assert(sizeof(MessageDownloadStatus) == 12, "Invalid MessageDownloadStatu
 
 /* ---------- public code */
 
-_extern _sub_4F85AC(Message *const, unsigned char);
 _inline Message::Message(unsigned char) // 0x4F85AC
 {
     mangled_assert("??0Message@@QAE@E@Z");
     todo("implement");
-    _sub_4F85AC(this, arg);
 }
 
-_extern _sub_5BA6F9(MessageFileRequest *const, unsigned __int32, MessageFileRequest::FileType);
 _inline MessageFileRequest::MessageFileRequest(unsigned __int32, MessageFileRequest::FileType) // 0x5BA6F9
 {
     mangled_assert("??0MessageFileRequest@@QAE@IW4FileType@0@@Z");
     todo("implement");
-    _sub_5BA6F9(this, arg, arg);
 }
 
-_extern _sub_5BA6BA(MessageFileHeader *const, unsigned __int32, MD5Hash const &, unsigned __int32, char const *);
 _inline MessageFileHeader::MessageFileHeader(unsigned __int32, MD5Hash const &, unsigned __int32, char const *) // 0x5BA6BA
 {
     mangled_assert("??0MessageFileHeader@@QAE@IABVMD5Hash@@IPBD@Z");
     todo("implement");
-    _sub_5BA6BA(this, arg, arg, arg, arg);
 }
 
-_extern _sub_5BC941(MessageFileChunk *const, unsigned __int32);
 _inline MessageFileChunk::MessageFileChunk(unsigned __int32) // 0x5BC941
 {
     mangled_assert("??0MessageFileChunk@@QAE@I@Z");
     todo("implement");
-    _sub_5BC941(this, arg);
 }
 
-_extern _sub_5BA6A2(MessageDownloadStatus *const, unsigned __int32, unsigned __int32);
 _inline MessageDownloadStatus::MessageDownloadStatus(unsigned __int32, unsigned __int32) // 0x5BA6A2
 {
     mangled_assert("??0MessageDownloadStatus@@QAE@II@Z");
     todo("implement");
-    _sub_5BA6A2(this, arg, arg);
 }
 
 /* ---------- private code */

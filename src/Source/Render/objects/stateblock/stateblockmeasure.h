@@ -135,20 +135,16 @@ static_assert(sizeof(StateBlockMeasure) == 20, "Invalid StateBlockMeasure size")
 
 /* ---------- public code */
 
-_extern _sub_100BA150(StateBlockMeasure::RenderFrame *const, unsigned __int32);
 _inline StateBlockMeasure::RenderFrame::RenderFrame(unsigned __int32) // 0x100BA150
 {
     mangled_assert("??0RenderFrame@StateBlockMeasure@@QAE@I@Z");
     todo("implement");
-    _sub_100BA150(this, arg);
 }
 
-_extern _sub_100BA090(StateBlockMeasure::Frame *const, char const *);
 _inline StateBlockMeasure::Frame::Frame(char const *) // 0x100BA090
 {
     mangled_assert("??0Frame@StateBlockMeasure@@QAE@PBD@Z");
     todo("implement");
-    _sub_100BA090(this, arg);
 }
 
 /* ---------- private code */

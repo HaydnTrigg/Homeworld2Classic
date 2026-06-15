@@ -103,73 +103,56 @@ _static void DumpLogHeader(LogFile &logFile);
 
 /* ---------- public code */
 
-_extern _sub_10001412(CallGraph *const, char const *);
 CallGraph::CallGraph(char const *) // 0x10001412
 {
     mangled_assert("??0CallGraph@@QAE@PBD@Z");
     todo("implement");
-    _sub_10001412(this, arg);
 }
 
-_extern _sub_10001479(CallGraph::Data *const);
 _inline CallGraph::Data::Data() // 0x10001479
 {
     mangled_assert("??0Data@CallGraph@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10001479(this);
 }
 
-_extern void _sub_1000152D(CallGraph *const);
 CallGraph::~CallGraph() // 0x1000152D
 {
     mangled_assert("??1CallGraph@@QAE@XZ");
     todo("implement");
-    _sub_1000152D(this);
 }
 
-_extern void _sub_100015A1(CallGraph::Data *const);
 _inline CallGraph::Data::~Data() // 0x100015A1
 {
     mangled_assert("??1Data@CallGraph@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_100015A1(this);
 }
 
-_extern CallGraph &_sub_1000161B(CallGraph *const, CallGraph const &);
 _inline CallGraph &CallGraph::operator=(CallGraph const &) // 0x1000161B
 {
     mangled_assert("??4CallGraph@@QAEAAV0@ABV0@@Z");
     compiler_generated();
     todo("implement");
-    CallGraph & __result = _sub_1000161B(this, arg);
-    return __result;
 }
 
-_extern void _sub_100019B7(CallGraph *const);
 void CallGraph::Visit() // 0x100019B7
 {
     mangled_assert("?Visit@CallGraph@@QAEXXZ");
     todo("implement");
-    _sub_100019B7(this);
 }
 
-_extern void _sub_10001685(CallGraph *const);
 void CallGraph::DumpLog() // 0x10001685
 {
     mangled_assert("?DumpLog@CallGraph@@QAEXXZ");
     todo("implement");
-    _sub_10001685(this);
 }
 
 /* ---------- private code */
 
-_extern void _sub_1000189C(LogFile &);
 _static void DumpLogHeader(LogFile &logFile) // 0x1000189C
 {
     mangled_assert("DumpLogHeader");
     todo("implement");
-    _sub_1000189C(logFile);
 }
 #endif

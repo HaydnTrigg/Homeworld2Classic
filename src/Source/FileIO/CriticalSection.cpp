@@ -293,36 +293,28 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_10009D4F(Plat::CriticalSection *const);
 Plat::CriticalSection::CriticalSection() // 0x10009D4F
 {
     mangled_assert("??0CriticalSection@Plat@@QAE@XZ");
     todo("implement");
-    _sub_10009D4F(this);
 }
 
-_extern void _sub_10009D6B(Plat::CriticalSection *const);
 Plat::CriticalSection::~CriticalSection() // 0x10009D6B
 {
     mangled_assert("??1CriticalSection@Plat@@QAE@XZ");
     todo("implement");
-    _sub_10009D6B(this);
 }
 
-_extern void _sub_10009D7E(Plat::CriticalSection *const);
 void Plat::CriticalSection::Enter() // 0x10009D7E
 {
     mangled_assert("?Enter@CriticalSection@Plat@@QAEXXZ");
     todo("implement");
-    _sub_10009D7E(this);
 }
 
-_extern void _sub_10009D87(Plat::CriticalSection *const);
 void Plat::CriticalSection::Leave() // 0x10009D87
 {
     mangled_assert("?Leave@CriticalSection@Plat@@QAEXXZ");
     todo("implement");
-    _sub_10009D87(this);
 }
 
 /* ---------- private code */

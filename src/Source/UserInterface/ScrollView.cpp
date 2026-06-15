@@ -87,200 +87,148 @@
 
 /* ---------- public code */
 
-_extern _sub_68BD0D(UI::ScrollView *const, UI::InterfaceElement *, char const *);
 UI::ScrollView::ScrollView(UI::InterfaceElement *, char const *) // 0x68BD0D
 {
     mangled_assert("??0ScrollView@UI@@QAE@PAVInterfaceElement@1@PBD@Z");
     todo("implement");
-    _sub_68BD0D(this, arg, arg);
 }
 
-_extern _sub_68BAF8(UI::ScrollView *const, LuaConfig &);
 UI::ScrollView::ScrollView(LuaConfig &) // 0x68BAF8
 {
     mangled_assert("??0ScrollView@UI@@QAE@AAVLuaConfig@@@Z");
     todo("implement");
-    _sub_68BAF8(this, arg);
 }
 
-_extern _sub_68BBF3(UI::ScrollView *const, UI::ScrollView const &);
 UI::ScrollView::ScrollView(UI::ScrollView const &) // 0x68BBF3
 {
     mangled_assert("??0ScrollView@UI@@QAE@ABV01@@Z");
     todo("implement");
-    _sub_68BBF3(this, arg);
 }
 
-_extern void _sub_68BE27(UI::ScrollView *const);
 UI::ScrollView::~ScrollView() // 0x68BE27
 {
     mangled_assert("??1ScrollView@UI@@UAE@XZ");
     todo("implement");
-    _sub_68BE27(this);
 }
 
-_extern void _sub_68BFBD(UI::ScrollView *const);
 void UI::ScrollView::Init() // 0x68BFBD
 {
     mangled_assert("?Init@ScrollView@UI@@AAEXXZ");
     todo("implement");
-    _sub_68BFBD(this);
 }
 
-_extern UI::ScrollView const &_sub_68BE32(UI::ScrollView *const, UI::ScrollView const &);
 UI::ScrollView const &UI::ScrollView::operator=(UI::ScrollView const &) // 0x68BE32
 {
     mangled_assert("??4ScrollView@UI@@QAEABV01@ABV01@@Z");
     todo("implement");
-    UI::ScrollView const & __result = _sub_68BE32(this, arg);
-    return __result;
 }
 
-_extern void _sub_68C0BB(UI::ScrollView *const, LuaConfig &);
 void UI::ScrollView::Load(LuaConfig &) // 0x68C0BB
 {
     mangled_assert("?Load@ScrollView@UI@@IAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_68C0BB(this, arg);
 }
 
-_extern void _sub_68BEEB(UI::ScrollView *const);
 void UI::ScrollView::ClearContents() // 0x68BEEB
 {
     mangled_assert("?ClearContents@ScrollView@UI@@QAEXXZ");
     todo("implement");
-    _sub_68BEEB(this);
 }
 
-_extern void _sub_68BEF6(UI::ScrollView *const, Vector_2i const &, Rect_i const &);
 void UI::ScrollView::Draw2(Vector_2i const &, Rect_i const &) // 0x68BEF6
 {
     mangled_assert("?Draw2@ScrollView@UI@@UAEXABUVector_2i@@ABURect_i@@@Z");
     todo("implement");
-    _sub_68BEF6(this, arg, arg);
 }
 
-_extern void _sub_68C341(UI::ScrollView *const, bool);
 void UI::ScrollView::SetContentsAutosize(bool) // 0x68C341
 {
     mangled_assert("?SetContentsAutosize@ScrollView@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_68C341(this, arg);
 }
 
-_extern void _sub_68BF07(UI::ScrollView *const, bool);
 void UI::ScrollView::EnableHorizontalScrollbar(bool) // 0x68BF07
 {
     mangled_assert("?EnableHorizontalScrollbar@ScrollView@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_68BF07(this, arg);
 }
 
-_extern void _sub_68BF2E(UI::ScrollView *const, bool);
 void UI::ScrollView::EnableVerticalScrollbar(bool) // 0x68BF2E
 {
     mangled_assert("?EnableVerticalScrollbar@ScrollView@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_68BF2E(this, arg);
 }
 
-_extern void _sub_68C34C(UI::ScrollView *const, Rect_i const &);
 void UI::ScrollView::SetContentsRect(Rect_i const &) // 0x68C34C
 {
     mangled_assert("?SetContentsRect@ScrollView@UI@@QAEXABURect_i@@@Z");
     todo("implement");
-    _sub_68C34C(this, arg);
 }
 
-_extern Rect_i _sub_68BF73(UI::ScrollView const *const);
 Rect_i UI::ScrollView::GetViewRect() const // 0x68BF73
 {
     mangled_assert("?GetViewRect@ScrollView@UI@@QBE?AURect_i@@XZ");
     todo("implement");
-    Rect_i __result = _sub_68BF73(this);
-    return __result;
 }
 
-_extern void _sub_68C3D7(UI::ScrollView *const);
 void UI::ScrollView::UpdateContents() // 0x68C3D7
 {
     mangled_assert("?UpdateContents@ScrollView@UI@@AAEXXZ");
     todo("implement");
-    _sub_68C3D7(this);
 }
 
-_extern Rect_i _sub_68BF55(UI::ScrollView const *const);
 Rect_i UI::ScrollView::GetContentsRect() const // 0x68BF55
 {
     mangled_assert("?GetContentsRect@ScrollView@UI@@QBE?AURect_i@@XZ");
     todo("implement");
-    Rect_i __result = _sub_68BF55(this);
-    return __result;
 }
 
-_extern void _sub_68C460(UI::ScrollView *const);
 void UI::ScrollView::UpdateScrollBars() // 0x68C460
 {
     mangled_assert("?UpdateScrollBars@ScrollView@UI@@AAEXXZ");
     todo("implement");
-    _sub_68C460(this);
 }
 
-_extern void _sub_68C3B8(UI::ScrollView *const, __int32);
 void UI::ScrollView::SetStepSize(__int32) // 0x68C3B8
 {
     mangled_assert("?SetStepSize@ScrollView@UI@@QAEXH@Z");
     todo("implement");
-    _sub_68C3B8(this, arg);
 }
 
-_extern void _sub_68C38C(UI::ScrollView *const, __int32);
 void UI::ScrollView::SetPageSize(__int32) // 0x68C38C
 {
     mangled_assert("?SetPageSize@ScrollView@UI@@QAEXH@Z");
     todo("implement");
-    _sub_68C38C(this, arg);
 }
 
-_extern void _sub_68BEE0(UI::ScrollView *const, UI::InterfaceElement *);
 void UI::ScrollView::AddChildR(UI::InterfaceElement *) // 0x68BEE0
 {
     mangled_assert("?AddChildR@ScrollView@UI@@UAEXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_68BEE0(this, arg);
 }
 
-_extern UI::InterfaceElement *_sub_68C336(UI::ScrollView *const, UI::InterfaceElement *);
 UI::InterfaceElement *UI::ScrollView::RemoveChildR(UI::InterfaceElement *) // 0x68C336
 {
     mangled_assert("?RemoveChildR@ScrollView@UI@@UAEPAVInterfaceElement@2@PAV32@@Z");
     todo("implement");
-    UI::InterfaceElement * __result = _sub_68C336(this, arg);
-    return __result;
 }
 
-_extern void _sub_68C2F6(UI::ScrollView *const, __int32, __int32);
 void UI::ScrollView::OnResize(__int32, __int32) // 0x68C2F6
 {
     mangled_assert("?OnResize@ScrollView@UI@@MAEXHH@Z");
     todo("implement");
-    _sub_68C2F6(this, arg, arg);
 }
 
-_extern void _sub_68C2FE(UI::InterfaceElement *, __int32);
 void UI::ScrollView::OnScrollHorz(UI::InterfaceElement *e, __int32 pos) // 0x68C2FE
 {
     mangled_assert("?OnScrollHorz@ScrollView@UI@@CGXPAVInterfaceElement@2@H@Z");
     todo("implement");
-    _sub_68C2FE(e, pos);
 }
 
-_extern void _sub_68C31A(UI::InterfaceElement *, __int32);
 void UI::ScrollView::OnScrollVert(UI::InterfaceElement *e, __int32 pos) // 0x68C31A
 {
     mangled_assert("?OnScrollVert@ScrollView@UI@@CGXPAVInterfaceElement@2@H@Z");
     todo("implement");
-    _sub_68C31A(e, pos);
 }
 
 /* ---------- private code */

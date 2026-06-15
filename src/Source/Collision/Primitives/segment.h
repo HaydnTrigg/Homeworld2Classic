@@ -30,22 +30,16 @@ static_assert(sizeof(Collision::Segment) == 24, "Invalid Collision::Segment size
 
 /* ---------- public code */
 
-_extern vector3 const &_sub_4A542B(Collision::Segment const *const);
 _inline vector3 const &Collision::Segment::GetOrigin() const // 0x4A542B
 {
     mangled_assert("?GetOrigin@Segment@Collision@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_4A542B(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_4A5427(Collision::Segment const *const);
 _inline vector3 const &Collision::Segment::GetDirection() const // 0x4A5427
 {
     mangled_assert("?GetDirection@Segment@Collision@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_4A5427(this);
-    return __result;
 }
 
 /* ---------- private code */

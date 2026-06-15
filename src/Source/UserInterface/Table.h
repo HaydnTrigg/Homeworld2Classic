@@ -137,13 +137,10 @@ static_assert(sizeof(UI::Table) == 1152, "Invalid UI::Table size");
 
 /* ---------- public code */
 
-_extern UI::InterfaceElement *_sub_6874E6(UI::Table *const);
 _inline UI::InterfaceElement *UI::Table::clone() // 0x6874E6
 {
     mangled_assert("?clone@Table@UI@@UAEPAVInterfaceElement@2@XZ");
     todo("implement");
-    UI::InterfaceElement * __result = _sub_6874E6(this);
-    return __result;
 }
 
 /* ---------- private code */

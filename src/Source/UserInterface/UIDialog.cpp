@@ -89,68 +89,52 @@
 
 /* ---------- public code */
 
-_extern _sub_670C48(UI::UIDialog *const, char const *);
 UI::UIDialog::UIDialog(char const *) // 0x670C48
 {
     mangled_assert("??0UIDialog@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_670C48(this, arg);
 }
 
-_extern void _sub_670CAD(UI::UIDialog *const);
 UI::UIDialog::~UIDialog() // 0x670CAD
 {
     mangled_assert("??1UIDialog@UI@@UAE@XZ");
     todo("implement");
-    _sub_670CAD(this);
 }
 
-_extern void _sub_670DB0(UI::UIDialog *const);
 void UI::UIDialog::DisconnectSlots() // 0x670DB0
 {
     mangled_assert("?DisconnectSlots@UIDialog@UI@@QAEXXZ");
     todo("implement");
-    _sub_670DB0(this);
 }
 
-_extern void _sub_670D06(UI::UIDialog *const);
 void UI::UIDialog::Accept() // 0x670D06
 {
     mangled_assert("?Accept@UIDialog@UI@@QAEXXZ");
     todo("implement");
-    _sub_670D06(this);
 }
 
-_extern void _sub_670D5B(UI::UIDialog *const);
 void UI::UIDialog::Cancel() // 0x670D5B
 {
     mangled_assert("?Cancel@UIDialog@UI@@QAEXXZ");
     todo("implement");
-    _sub_670D5B(this);
 }
 
-_extern void _sub_670DE2(UI::UIDialog *const, LuaConfig &);
 void UI::UIDialog::OnLoad(LuaConfig &) // 0x670DE2
 {
     mangled_assert("?OnLoad@UIDialog@UI@@MAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_670DE2(this, arg);
 }
 
-_extern void _sub_670E15(UI::UIDialog *const);
 void UI::UIDialog::OnPostLoad() // 0x670E15
 {
     mangled_assert("?OnPostLoad@UIDialog@UI@@MAEXXZ");
     todo("implement");
-    _sub_670E15(this);
 }
 
-_extern void _sub_670DDE(UI::UIDialog *const, bool);
 void UI::UIDialog::OnActivate(bool) // 0x670DDE
 {
     mangled_assert("?OnActivate@UIDialog@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_670DDE(this, arg);
 }
 
 /* ---------- private code */

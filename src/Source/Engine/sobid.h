@@ -48,39 +48,28 @@ extern _inline bool operator!=(SobID const &x, SobID const &y);
 
 /* ---------- public code */
 
-_extern void _sub_4859D9(SobID *const);
 _inline void SobID::reset() // 0x4859D9
 {
     mangled_assert("?reset@SobID@@QAEXXZ");
     todo("implement");
-    _sub_4859D9(this);
 }
 
-_extern bool _sub_53BE7F(SobID const &, SobID const &);
 _inline bool operator<(SobID const &x, SobID const &y) // 0x53BE7F
 {
     mangled_assert("??M@YG_NABVSobID@@0@Z");
     todo("implement");
-    bool __result = _sub_53BE7F(x, y);
-    return __result;
 }
 
-_extern bool _sub_486F51(SobID const &, SobID const &);
 _inline bool operator==(SobID const &x, SobID const &y) // 0x486F51
 {
     mangled_assert("??8@YG_NABVSobID@@0@Z");
     todo("implement");
-    bool __result = _sub_486F51(x, y);
-    return __result;
 }
 
-_extern bool _sub_49D7F2(SobID const &, SobID const &);
 _inline bool operator!=(SobID const &x, SobID const &y) // 0x49D7F2
 {
     mangled_assert("??9@YG_NABVSobID@@0@Z");
     todo("implement");
-    bool __result = _sub_49D7F2(x, y);
-    return __result;
 }
 
 /* ---------- private code */

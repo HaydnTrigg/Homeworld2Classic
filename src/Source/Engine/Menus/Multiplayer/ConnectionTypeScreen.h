@@ -57,102 +57,80 @@ static_assert(sizeof(UI::ConnectionTypeScreen) == 420, "Invalid UI::ConnectionTy
 
 /* ---------- public code */
 
-_extern void _sub_5B274F(LobbyEvent * const, wchar_t const *, bool);
 _inline void UI::ConnectionTypeScreen::OnLobbyPlayerConnect(wchar_t const *, bool) // 0x5B274F
 {
     mangled_assert("?OnLobbyPlayerConnect@ConnectionTypeScreen@UI@@EAEXPB_W_N@Z");
     // __shifted(UI::ConnectionTypeScreen, 412);
     todo("implement");
-    _sub_5B274F(this, arg, arg);
 }
 
-_extern void _sub_5B2752(LobbyEvent * const, wchar_t const *);
 _inline void UI::ConnectionTypeScreen::OnLobbyPlayerDisconnect(wchar_t const *) // 0x5B2752
 {
     mangled_assert("?OnLobbyPlayerDisconnect@ConnectionTypeScreen@UI@@EAEXPB_W@Z");
     // __shifted(UI::ConnectionTypeScreen, 412);
     todo("implement");
-    _sub_5B2752(this, arg);
 }
 
-_extern void _sub_5B274C(LobbyEvent * const, wchar_t const *);
 _inline void UI::ConnectionTypeScreen::OnLobbyPlayerChanged(wchar_t const *) // 0x5B274C
 {
     mangled_assert("?OnLobbyPlayerChanged@ConnectionTypeScreen@UI@@EAEXPB_W@Z");
     // __shifted(UI::ConnectionTypeScreen, 412);
     todo("implement");
-    _sub_5B274C(this, arg);
 }
 
-_extern void _sub_5B25DD(LobbyEvent * const, LobbyChatType, wchar_t const *, wchar_t const *);
 _inline void UI::ConnectionTypeScreen::OnLobbyChat(LobbyChatType, wchar_t const *, wchar_t const *) // 0x5B25DD
 {
     mangled_assert("?OnLobbyChat@ConnectionTypeScreen@UI@@EAEXW4LobbyChatType@@PB_W1@Z");
     // __shifted(UI::ConnectionTypeScreen, 412);
     todo("implement");
-    _sub_5B25DD(this, arg, arg, arg);
 }
 
-_extern void _sub_5B2755(LobbyEvent * const, unsigned long long);
 _inline void UI::ConnectionTypeScreen::OnLobbyRoomAdded(unsigned long long) // 0x5B2755
 {
     mangled_assert("?OnLobbyRoomAdded@ConnectionTypeScreen@UI@@EAEX_K@Z");
     // __shifted(UI::ConnectionTypeScreen, 412);
     todo("implement");
-    _sub_5B2755(this, arg);
 }
 
-_extern void _sub_5B275E(LobbyEvent * const, LobbySessionDesc const &, unsigned long long);
 _inline void UI::ConnectionTypeScreen::OnLobbySessionAdded(LobbySessionDesc const &, unsigned long long) // 0x5B275E
 {
     mangled_assert("?OnLobbySessionAdded@ConnectionTypeScreen@UI@@EAEXABVLobbySessionDesc@@_K@Z");
     // __shifted(UI::ConnectionTypeScreen, 412);
     todo("implement");
-    _sub_5B275E(this, arg, arg);
 }
 
-_extern void _sub_5B2761(LobbyEvent * const, LobbySessionDesc const &, unsigned long long);
 _inline void UI::ConnectionTypeScreen::OnLobbySessionAddedDirect(LobbySessionDesc const &, unsigned long long) // 0x5B2761
 {
     mangled_assert("?OnLobbySessionAddedDirect@ConnectionTypeScreen@UI@@EAEXABVLobbySessionDesc@@_K@Z");
     // __shifted(UI::ConnectionTypeScreen, 412);
     todo("implement");
-    _sub_5B2761(this, arg, arg);
 }
 
-_extern void _sub_5B2764(LobbyEvent * const, unsigned long long);
 _inline void UI::ConnectionTypeScreen::OnLobbySessionDeleted(unsigned long long) // 0x5B2764
 {
     mangled_assert("?OnLobbySessionDeleted@ConnectionTypeScreen@UI@@EAEX_K@Z");
     // __shifted(UI::ConnectionTypeScreen, 412);
     todo("implement");
-    _sub_5B2764(this, arg);
 }
 
-_extern void _sub_5B2767(LobbyEvent * const, unsigned long long);
 _inline void UI::ConnectionTypeScreen::OnLobbySessionUpdated(unsigned long long) // 0x5B2767
 {
     mangled_assert("?OnLobbySessionUpdated@ConnectionTypeScreen@UI@@EAEX_K@Z");
     // __shifted(UI::ConnectionTypeScreen, 412);
     todo("implement");
-    _sub_5B2767(this, arg);
 }
 
-_extern void _sub_5B2758(UI::ConnectionTypeScreen *const, bool);
 _inline void UI::ConnectionTypeScreen::OnLobbyRoomJoined(bool) // 0x5B2758
 {
     mangled_assert("?OnLobbyRoomJoined@ConnectionTypeScreen@UI@@EAEX_N@Z");
     todo("implement");
-    _sub_5B2758(this, arg);
 }
 
-_extern void _sub_5B275B(LobbyEvent * const, LobbyRoomType, bool);
 _inline void UI::ConnectionTypeScreen::OnLobbyRoomJoinedResult(LobbyRoomType, bool) // 0x5B275B
 {
     mangled_assert("?OnLobbyRoomJoinedResult@ConnectionTypeScreen@UI@@EAEXW4LobbyRoomType@@_N@Z");
     // __shifted(UI::ConnectionTypeScreen, 412);
     todo("implement");
-    _sub_5B275B(this, arg, arg);
 }
 
 /* ---------- private code */

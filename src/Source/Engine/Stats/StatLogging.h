@@ -197,22 +197,16 @@ static_assert(sizeof(StatLogging) == 8, "Invalid StatLogging size");
 
 /* ---------- public code */
 
-_extern char const *_sub_50F33D(StatLogging *const);
 _inline char const *StatLogging::saveToken() // 0x50F33D
 {
     mangled_assert("?saveToken@StatLogging@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_50F33D(this);
-    return __result;
 }
 
-_extern bool _sub_50F131(StatLogging *const);
 _inline bool StatLogging::isDeterministic() // 0x50F131
 {
     mangled_assert("?isDeterministic@StatLogging@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_50F131(this);
-    return __result;
 }
 
 /* ---------- private code */

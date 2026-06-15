@@ -97,30 +97,22 @@ static_assert(sizeof(TextureProxy) == 16, "Invalid TextureProxy size");
 
 /* ---------- public code */
 
-_extern _sub_1002EA50(TextureProxy *const, TextureProxy const &);
 _inline TextureProxy::TextureProxy(TextureProxy const &) // 0x1002EA50
 {
     mangled_assert("??0TextureProxy@@QAE@ABV0@@Z");
     todo("implement");
-    _sub_1002EA50(this, arg);
 }
 
-_extern bool _sub_10030930(TextureProxy const *const);
 _inline bool TextureProxy::NeedsUpdate() const // 0x10030930
 {
     mangled_assert("?NeedsUpdate@TextureProxy@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_10030930(this);
-    return __result;
 }
 
-_extern float _sub_10030920(TextureProxy const *const);
 _inline float TextureProxy::GetUVScale() const // 0x10030920
 {
     mangled_assert("?GetUVScale@TextureProxy@@QBEMXZ");
     todo("implement");
-    float __result = _sub_10030920(this);
-    return __result;
 }
 
 /* ---------- private code */

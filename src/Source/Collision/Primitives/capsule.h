@@ -37,38 +37,28 @@ static_assert(sizeof(Collision::Capsule) == 28, "Invalid Collision::Capsule size
 
 /* ---------- public code */
 
-_extern float _sub_66356E(Collision::Capsule const *const);
 _inline float Collision::Capsule::GetRadius() const // 0x66356E
 {
     mangled_assert("?GetRadius@Capsule@Collision@@QBEMXZ");
     todo("implement");
-    float __result = _sub_66356E(this);
-    return __result;
 }
 
-_extern Collision::Segment const &_sub_663572(Collision::Capsule const *const);
 _inline Collision::Segment const &Collision::Capsule::GetSegment() const // 0x663572
 {
     mangled_assert("?GetSegment@Capsule@Collision@@QBEABVSegment@2@XZ");
     todo("implement");
-    Collision::Segment const & __result = _sub_663572(this);
-    return __result;
 }
 
-_extern void _sub_477CD6(Collision::Capsule *const, float);
 _inline void Collision::Capsule::SetRadius(float) // 0x477CD6
 {
     mangled_assert("?SetRadius@Capsule@Collision@@QAEXM@Z");
     todo("implement");
-    _sub_477CD6(this, arg);
 }
 
-_extern void _sub_477CF2(Collision::Capsule *const, Collision::Segment const &);
 _inline void Collision::Capsule::SetSegment(Collision::Segment const &) // 0x477CF2
 {
     mangled_assert("?SetSegment@Capsule@Collision@@QAEXABVSegment@2@@Z");
     todo("implement");
-    _sub_477CF2(this, arg);
 }
 
 /* ---------- private code */

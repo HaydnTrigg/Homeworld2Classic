@@ -62,47 +62,34 @@ static_assert(sizeof(GameEventSys) == 4, "Invalid GameEventSys size");
 
 /* ---------- public code */
 
-_extern _sub_451B3F(GameEventSys::Event *const, __int32, Player const *);
 _inline GameEventSys::Event::Event(__int32, Player const *) // 0x451B3F
 {
     mangled_assert("??0Event@GameEventSys@@IAE@HPBVPlayer@@@Z");
     todo("implement");
-    _sub_451B3F(this, arg, arg);
 }
 
-_extern void _sub_451BEA(GameEventSys::Event *const);
 _inline GameEventSys::Event::~Event() // 0x451BEA
 {
     mangled_assert("??1Event@GameEventSys@@QAE@XZ");
     todo("implement");
-    _sub_451BEA(this);
 }
 
-_extern Player const *_sub_50FC10(GameEventSys::Event const *const);
 _inline Player const *GameEventSys::Event::GetPlayer() const // 0x50FC10
 {
     mangled_assert("?GetPlayer@Event@GameEventSys@@QBEPBVPlayer@@XZ");
     todo("implement");
-    Player const * __result = _sub_50FC10(this);
-    return __result;
 }
 
-_extern __int32 _sub_50FDC8(GameEventSys::Event const *const);
 _inline __int32 GameEventSys::Event::GetType() const // 0x50FDC8
 {
     mangled_assert("?GetType@Event@GameEventSys@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_50FDC8(this);
-    return __result;
 }
 
-_extern bool _sub_452AE4(GameEventSys::Event const *const, wchar_t *, unsigned __int32);
 _inline bool GameEventSys::Event::GetString(wchar_t *, unsigned __int32) const // 0x452AE4
 {
     mangled_assert("?GetString@Event@GameEventSys@@UBE_NPA_WI@Z");
     todo("implement");
-    bool __result = _sub_452AE4(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

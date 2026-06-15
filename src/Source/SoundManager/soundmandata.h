@@ -65,135 +65,94 @@ static_assert(sizeof(SpeechQueue) == 48, "Invalid SpeechQueue size");
 
 /* ---------- public code */
 
-_extern _sub_6CDF64(SpeechQueue *const, PatchID, float, float, long, void (*)(long), __int32, long, float, float, long);
 _inline SpeechQueue::SpeechQueue(PatchID, float, float, long, void (*)(long), __int32, long, float, float, long) // 0x6CDF64
 {
     mangled_assert("??0SpeechQueue@@QAE@VPatchID@@MMJP6GXJ@ZHJMMJ@Z");
     todo("implement");
-    _sub_6CDF64(this, arg, arg, arg, arg, arg, arg, arg, arg, arg, arg);
 }
 
-_extern void _sub_6CE162(SpeechQueue *const, long);
 _inline void SpeechQueue::SetRefHandle(long) // 0x6CE162
 {
     mangled_assert("?SetRefHandle@SpeechQueue@@QAEXJ@Z");
     todo("implement");
-    _sub_6CE162(this, arg);
 }
 
-_extern void _sub_6CE158(SpeechQueue *const, bool);
 _inline void SpeechQueue::SetPlaying(bool) // 0x6CE158
 {
     mangled_assert("?SetPlaying@SpeechQueue@@QAEX_N@Z");
     todo("implement");
-    _sub_6CE158(this, arg);
 }
 
-_extern void _sub_6CE0B3(SpeechQueue *const);
 _inline void SpeechQueue::Callback() // 0x6CE0B3
 {
     mangled_assert("?Callback@SpeechQueue@@QAEXXZ");
     todo("implement");
-    _sub_6CE0B3(this);
 }
 
-_extern long _sub_6CE131(SpeechQueue *const);
 _inline long SpeechQueue::GetHandle() // 0x6CE131
 {
     mangled_assert("?GetHandle@SpeechQueue@@QAEJXZ");
     todo("implement");
-    long __result = _sub_6CE131(this);
-    return __result;
 }
 
-_extern long _sub_6CE148(SpeechQueue *const);
 _inline long SpeechQueue::GetRefHandle() // 0x6CE148
 {
     mangled_assert("?GetRefHandle@SpeechQueue@@QAEJXZ");
     todo("implement");
-    long __result = _sub_6CE148(this);
-    return __result;
 }
 
-_extern __int32 _sub_6CE135(SpeechQueue *const);
 _inline __int32 SpeechQueue::GetIndex() // 0x6CE135
 {
     mangled_assert("?GetIndex@SpeechQueue@@QAEHXZ");
     todo("implement");
-    __int32 __result = _sub_6CE135(this);
-    return __result;
 }
 
-_extern PatchID &_sub_6CE13D(SpeechQueue *const);
 _inline PatchID &SpeechQueue::GetPatchID() // 0x6CE13D
 {
     mangled_assert("?GetPatchID@SpeechQueue@@QAEAAVPatchID@@XZ");
     todo("implement");
-    PatchID & __result = _sub_6CE13D(this);
-    return __result;
 }
 
-_extern long _sub_6CE144(SpeechQueue *const);
 _inline long SpeechQueue::GetPriority() // 0x6CE144
 {
     mangled_assert("?GetPriority@SpeechQueue@@QAEJXZ");
     todo("implement");
-    long __result = _sub_6CE144(this);
-    return __result;
 }
 
-_extern bool _sub_6CE140(SpeechQueue *const);
 _inline bool SpeechQueue::GetPlaying() // 0x6CE140
 {
     mangled_assert("?GetPlaying@SpeechQueue@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_6CE140(this);
-    return __result;
 }
 
-_extern float _sub_6CE150(SpeechQueue *const);
 _inline float SpeechQueue::GetTimeout() // 0x6CE150
 {
     mangled_assert("?GetTimeout@SpeechQueue@@QAEMXZ");
     todo("implement");
-    float __result = _sub_6CE150(this);
-    return __result;
 }
 
-_extern float _sub_6CE14C(SpeechQueue *const);
 _inline float SpeechQueue::GetTimein() // 0x6CE14C
 {
     mangled_assert("?GetTimein@SpeechQueue@@QAEMXZ");
     todo("implement");
-    float __result = _sub_6CE14C(this);
-    return __result;
 }
 
-_extern float _sub_6CE12D(SpeechQueue *const);
 _inline float SpeechQueue::GetFrequency() // 0x6CE12D
 {
     mangled_assert("?GetFrequency@SpeechQueue@@QAEMXZ");
     todo("implement");
-    float __result = _sub_6CE12D(this);
-    return __result;
 }
 
-_extern float _sub_6CE154(SpeechQueue *const);
 _inline float SpeechQueue::GetVolume() // 0x6CE154
 {
     mangled_assert("?GetVolume@SpeechQueue@@QAEMXZ");
     todo("implement");
-    float __result = _sub_6CE154(this);
-    return __result;
 }
 
-_extern long _sub_6CE139(SpeechQueue *const);
 _inline long SpeechQueue::GetLinkedHanlde() // 0x6CE139
 {
     mangled_assert("?GetLinkedHanlde@SpeechQueue@@QAEJXZ");
     todo("implement");
-    long __result = _sub_6CE139(this);
-    return __result;
 }
 
 /* ---------- private code */

@@ -48,58 +48,46 @@ extern char const *LUALIB_STATLOGGING; // 0x837108
 
 /* ---------- public code */
 
-_extern void _sub_50BA14(LuaBinding::ObjInternal0<int,LuaBinding::Functor0MemberConst<int,StatLogging> > *const);
 _inline LuaBinding::ObjInternal0<int,LuaBinding::Functor0MemberConst<int,StatLogging> >::~ObjInternal0<int,LuaBinding::Functor0MemberConst<int,StatLogging> >() // 0x50BA14
 {
     mangled_assert("??1?$ObjInternal0@HV?$Functor0MemberConst@HVStatLogging@@@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_50BA14(this);
 }
 
-_extern void _sub_50BA1A(LuaBinding::ObjInternal0<unsigned int,LuaBinding::Functor0MemberConst<unsigned int,StatLogging> > *const);
 _inline LuaBinding::ObjInternal0<unsigned int,LuaBinding::Functor0MemberConst<unsigned int,StatLogging> >::~ObjInternal0<unsigned int,LuaBinding::Functor0MemberConst<unsigned int,StatLogging> >() // 0x50BA1A
 {
     mangled_assert("??1?$ObjInternal0@IV?$Functor0MemberConst@IVStatLogging@@@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_50BA1A(this);
 }
 
-_extern void _sub_50BA20(LuaBinding::ObjInternal1<unsigned int,int,LuaBinding::Functor1MemberConst<unsigned int,int,StatLogging> > *const);
 _inline LuaBinding::ObjInternal1<unsigned int,int,LuaBinding::Functor1MemberConst<unsigned int,int,StatLogging> >::~ObjInternal1<unsigned int,int,LuaBinding::Functor1MemberConst<unsigned int,int,StatLogging> >() // 0x50BA20
 {
     mangled_assert("??1?$ObjInternal1@IHV?$Functor1MemberConst@IHVStatLogging@@@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_50BA20(this);
 }
 
-_extern void _sub_50BA26(LuaBinding::ObjInternal1<unsigned int,unsigned int,LuaBinding::Functor1MemberConst<unsigned int,unsigned int,StatLogging> > *const);
 _inline LuaBinding::ObjInternal1<unsigned int,unsigned int,LuaBinding::Functor1MemberConst<unsigned int,unsigned int,StatLogging> >::~ObjInternal1<unsigned int,unsigned int,LuaBinding::Functor1MemberConst<unsigned int,unsigned int,StatLogging> >() // 0x50BA26
 {
     mangled_assert("??1?$ObjInternal1@IIV?$Functor1MemberConst@IIVStatLogging@@@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_50BA26(this);
 }
 
-_extern void _sub_50BA2C(LuaBinding::ObjInternal1<char const *,void,LuaBinding::Functor1MemberNonConst<char const *,void,StatLogging> > *const);
 _inline LuaBinding::ObjInternal1<char const *,void,LuaBinding::Functor1MemberNonConst<char const *,void,StatLogging> >::~ObjInternal1<char const *,void,LuaBinding::Functor1MemberNonConst<char const *,void,StatLogging> >() // 0x50BA2C
 {
     mangled_assert("??1?$ObjInternal1@PBDXV?$Functor1MemberNonConst@PBDXVStatLogging@@@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_50BA2C(this);
 }
 
-_extern void _sub_50BA32(LuaBinding::ObjInternal2<unsigned int,unsigned int,int,LuaBinding::Functor2MemberConst<unsigned int,unsigned int,int,StatLogging> > *const);
 _inline LuaBinding::ObjInternal2<unsigned int,unsigned int,int,LuaBinding::Functor2MemberConst<unsigned int,unsigned int,int,StatLogging> >::~ObjInternal2<unsigned int,unsigned int,int,LuaBinding::Functor2MemberConst<unsigned int,unsigned int,int,StatLogging> >() // 0x50BA32
 {
     mangled_assert("??1?$ObjInternal2@IIHV?$Functor2MemberConst@IIHVStatLogging@@@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_50BA32(this);
 }
 
 /* ---------- private code */

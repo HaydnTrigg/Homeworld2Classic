@@ -184,71 +184,54 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_45CE3F(NDGameEvent_ShipsSelected *const);
 _inline NDGameEvent_ShipsSelected::~NDGameEvent_ShipsSelected() // 0x45CE3F
 {
     mangled_assert("??1NDGameEvent_ShipsSelected@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_45CE3F(this);
 }
 
-_extern void _sub_45CE46(NDGameEvent_SubSystemSelected *const);
 _inline NDGameEvent_SubSystemSelected::~NDGameEvent_SubSystemSelected() // 0x45CE46
 {
     mangled_assert("??1NDGameEvent_SubSystemSelected@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_45CE46(this);
 }
 
-_extern void _sub_45CF55(MainUIImpl *const);
 void MainUIImpl::selectedControllableShips() // 0x45CF55
 {
     mangled_assert("?selectedControllableShips@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_45CF55(this);
 }
 
-_extern void _sub_45CFBD(MainUIImpl *const);
 void MainUIImpl::selectedControllableSubsystems() // 0x45CFBD
 {
     mangled_assert("?selectedControllableSubsystems@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_45CFBD(this);
 }
 
-_extern void _sub_45D025(MainUIImpl *const);
 void MainUIImpl::selectionChanged() // 0x45D025
 {
     mangled_assert("?selectionChanged@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_45D025(this);
 }
 
-_extern void _sub_45CE4D(MainUIImpl *const);
 void MainUIImpl::buildSelectionRectangle() // 0x45CE4D
 {
     mangled_assert("?buildSelectionRectangle@MainUIImpl@@QAEXXZ");
     todo("implement");
-    _sub_45CE4D(this);
 }
 
-_extern bool _sub_45CEDB(MainUIImpl *const, float, float);
 bool MainUIImpl::isSelectionBox(float, float) // 0x45CEDB
 {
     mangled_assert("?isSelectionBox@MainUIImpl@@QAE_NMM@Z");
     todo("implement");
-    bool __result = _sub_45CEDB(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_45D13A(MainUIImpl *const, Selection const &, bool);
 void MainUIImpl::selectionProcess(Selection const &, bool) // 0x45D13A
 {
     mangled_assert("?selectionProcess@MainUIImpl@@QAEXABVSelection@@_N@Z");
     todo("implement");
-    _sub_45D13A(this, arg, arg);
 }
 
 /* ---------- private code */

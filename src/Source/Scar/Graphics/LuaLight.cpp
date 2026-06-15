@@ -73,60 +73,46 @@ extern char const *LUALIB_LIGHT; // 0x842760
 
 /* ---------- public code */
 
-_extern void _sub_717674(char const *, vector3, vector3);
 void createDirLight(char const *name, vector3 pos, vector3 colour) // 0x717674
 {
     mangled_assert("?createDirLight@@YGXPBDVvector3@@1@Z");
     todo("implement");
-    _sub_717674(name, pos, colour);
 }
 
-_extern void _sub_71758D(char const *, vector3);
 void createAmbientLight(char const *name, vector3 diffuse) // 0x71758D
 {
     mangled_assert("?createAmbientLight@@YGXPBDVvector3@@@Z");
     todo("implement");
-    _sub_71758D(name, diffuse);
 }
 
-_extern void _sub_7177BB(char const *, vector3);
 void setLightColour(char const *name, vector3 diffuse) // 0x7177BB
 {
     mangled_assert("?setLightColour@@YGXPBDVvector3@@@Z");
     todo("implement");
-    _sub_7177BB(name, diffuse);
 }
 
-_extern void _sub_717872(char const *, vector3);
 void setLightSpecular(char const *name, vector3 specular) // 0x717872
 {
     mangled_assert("?setLightSpecular@@YGXPBDVvector3@@@Z");
     todo("implement");
-    _sub_717872(name, specular);
 }
 
-_extern void _sub_71778F(float);
 void setGlareIntensity(float intensity) // 0x71778F
 {
     mangled_assert("?setGlareIntensity@@YGXM@Z");
     todo("implement");
-    _sub_71778F(intensity);
 }
 
-_extern void _sub_71792E(__int32);
 void setUseLighting(__int32 lighting) // 0x71792E
 {
     mangled_assert("?setUseLighting@@YGXH@Z");
     todo("implement");
-    _sub_71792E(lighting);
 }
 
-_extern void _sub_71777C(char const *);
 void playBgLightAnim(char const *refFxName) // 0x71777C
 {
     mangled_assert("?playBgLightAnim@@YGXPBD@Z");
     todo("implement");
-    _sub_71777C(refFxName);
 }
 
 /* ---------- private code */

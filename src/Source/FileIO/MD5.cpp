@@ -177,93 +177,71 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_10012F27(MD5_CTX *);
 void MD5Init(MD5_CTX *context) // 0x10012F27
 {
     mangled_assert("?MD5Init@@YGXPAUMD5_CTX@@@Z");
     todo("implement");
-    _sub_10012F27(context);
 }
 
-_extern void _sub_10013675(MD5_CTX *, unsigned char *, unsigned __int32);
 void MD5Update(MD5_CTX *context, unsigned char *input, unsigned __int32 inputLen) // 0x10013675
 {
     mangled_assert("?MD5Update@@YGXPAUMD5_CTX@@PAEI@Z");
     todo("implement");
-    _sub_10013675(context, input, inputLen);
 }
 
-_extern void _sub_10012EC0(unsigned char *, MD5_CTX *);
 void MD5Final(unsigned char *digest, MD5_CTX *context) // 0x10012EC0
 {
     mangled_assert("?MD5Final@@YGXQAEPAUMD5_CTX@@@Z");
     todo("implement");
-    _sub_10012EC0(digest, context);
 }
 
-_extern void _sub_10013710(MD5 *const);
 void MD5::ResetStream() // 0x10013710
 {
     mangled_assert("?ResetStream@MD5@@QAEXXZ");
     todo("implement");
-    _sub_10013710(this);
 }
 
-_extern void _sub_10012E10(MD5 *const, unsigned char *);
 void MD5::GetMD5Hash(unsigned char *) // 0x10012E10
 {
     mangled_assert("?GetMD5Hash@MD5@@QAEXQAE@Z");
     todo("implement");
-    _sub_10012E10(this, arg);
 }
 
-_extern void _sub_10012D12(MD5 *const, void const *, unsigned __int32);
 void MD5::AddValues(void const *, unsigned __int32) // 0x10012D12
 {
     mangled_assert("?AddValues@MD5@@QAEXPBXI@Z");
     todo("implement");
-    _sub_10012D12(this, arg, arg);
 }
 
-_extern void _sub_10012E27(ByteStream *, unsigned char *);
 void MD5::GetStreamMD5Hash(ByteStream *stream, unsigned char *MD5Hash) // 0x10012E27
 {
     mangled_assert("?GetStreamMD5Hash@MD5@@SGXPAVByteStream@@QAE@Z");
     todo("implement");
-    _sub_10012E27(stream, MD5Hash);
 }
 
-_extern void _sub_10012DA8(char const *, unsigned char *);
 void MD5::GetFileMD5Hash(char const *fileName, unsigned char *MD5Hash) // 0x10012DA8
 {
     mangled_assert("?GetFileMD5Hash@MD5@@SGXPBDQAE@Z");
     todo("implement");
-    _sub_10012DA8(fileName, MD5Hash);
 }
 
 /* ---------- private code */
 
-_extern void _sub_10012F51(unsigned long *, unsigned char *);
 _static void MD5Transform(unsigned long *state, unsigned char *block) // 0x10012F51
 {
     mangled_assert("MD5Transform");
     todo("implement");
-    _sub_10012F51(state, block);
 }
 
-_extern void _sub_10012D6B(unsigned char *, unsigned long *, unsigned __int32);
 _static void Encode(unsigned char *output, unsigned long *input, unsigned __int32 len) // 0x10012D6B
 {
     mangled_assert("Encode");
     todo("implement");
-    _sub_10012D6B(output, input, len);
 }
 
-_extern void _sub_10012D23(unsigned long *, unsigned char *, unsigned __int32);
 _static void Decode(unsigned long *output, unsigned char *input, unsigned __int32 len) // 0x10012D23
 {
     mangled_assert("Decode");
     todo("implement");
-    _sub_10012D23(output, input, len);
 }
 #endif

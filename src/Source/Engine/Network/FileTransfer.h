@@ -62,76 +62,52 @@ static_assert(sizeof(FileUpload) == 28, "Invalid FileUpload size");
 
 /* ---------- public code */
 
-_extern unsigned __int32 _sub_5BAF04(FileDownload const *const);
 _inline unsigned __int32 FileDownload::GetID() const // 0x5BAF04
 {
     mangled_assert("?GetID@FileDownload@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_5BAF04(this);
-    return __result;
 }
 
-_extern MD5Hash const &_sub_5BAF00(FileDownload const *const);
 _inline MD5Hash const &FileDownload::GetGuid() const // 0x5BAF00
 {
     mangled_assert("?GetGuid@FileDownload@@QBEABVMD5Hash@@XZ");
     todo("implement");
-    MD5Hash const & __result = _sub_5BAF00(this);
-    return __result;
 }
 
-_extern char const *_sub_5BAF08(FileDownload const *const);
 _inline char const *FileDownload::GetName() const // 0x5BAF08
 {
     mangled_assert("?GetName@FileDownload@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_5BAF08(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_5BAF14(FileDownload const *const);
 _inline unsigned __int32 FileDownload::GetSender() const // 0x5BAF14
 {
     mangled_assert("?GetSender@FileDownload@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_5BAF14(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_5BAF27(FileDownload const *const);
 _inline unsigned __int32 FileDownload::GetTotalSize() const // 0x5BAF27
 {
     mangled_assert("?GetTotalSize@FileDownload@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_5BAF27(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_5BAF17(FileDownload const *const);
 _inline unsigned __int32 FileDownload::GetSize() const // 0x5BAF17
 {
     mangled_assert("?GetSize@FileDownload@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_5BAF17(this);
-    return __result;
 }
 
-_extern std::vector<unsigned char,std::allocator<unsigned char> > const &_sub_5BAEF9(FileDownload const *const);
 _inline std::vector<unsigned char,std::allocator<unsigned char> > const &FileDownload::GetData() const // 0x5BAEF9
 {
     mangled_assert("?GetData@FileDownload@@QBEABV?$vector@EV?$allocator@E@std@@@std@@XZ");
     todo("implement");
-    std::vector<unsigned char,std::allocator<unsigned char> > const & __result = _sub_5BAEF9(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_5BAF24(FileUpload const *const);
 _inline unsigned __int32 FileUpload::GetTarget() const // 0x5BAF24
 {
     mangled_assert("?GetTarget@FileUpload@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_5BAF24(this);
-    return __result;
 }
 
 /* ---------- private code */

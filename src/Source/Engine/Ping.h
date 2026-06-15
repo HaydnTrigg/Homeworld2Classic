@@ -330,172 +330,118 @@ static_assert(sizeof(PingSelectionList) == 248, "Invalid PingSelectionList size"
 
 /* ---------- public code */
 
-_extern bool _sub_61BFAF(PingManager *const);
 _inline bool PingManager::isDeterministic() // 0x61BFAF
 {
     mangled_assert("?isDeterministic@PingManager@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_61BFAF(this);
-    return __result;
 }
 
-_extern wchar_t const *_sub_61BF73(PingBase *const);
 _inline wchar_t const *PingBase::getName() // 0x61BF73
 {
     mangled_assert("?getName@PingBase@@QAEPB_WXZ");
     todo("implement");
-    wchar_t const * __result = _sub_61BF73(this);
-    return __result;
 }
 
-_extern bool _sub_61BFAC(PingBase *const);
 _inline bool PingBase::isDeterministic() // 0x61BFAC
 {
     mangled_assert("?isDeterministic@PingBase@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_61BFAC(this);
-    return __result;
 }
 
-_extern char const *_sub_61CC6C(PingBase *const);
 _inline char const *PingBase::saveToken() // 0x61CC6C
 {
     mangled_assert("?saveToken@PingBase@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_61CC6C(this);
-    return __result;
 }
 
-_extern void _sub_61B12F(PingPoint *const);
 _inline PingPoint::~PingPoint() // 0x61B12F
 {
     mangled_assert("??1PingPoint@@UAE@XZ");
     todo("implement");
-    _sub_61B12F(this);
 }
 
-_extern PingBase::PingType _sub_61BFA1(PingPoint *const);
 _inline PingBase::PingType PingPoint::getType() // 0x61BFA1
 {
     mangled_assert("?getType@PingPoint@@UAE?AW4PingType@PingBase@@XZ");
     todo("implement");
-    PingBase::PingType __result = _sub_61BFA1(this);
-    return __result;
 }
 
-_extern bool _sub_61BFB5(PingPoint *const);
 _inline bool PingPoint::isDeterministic() // 0x61BFB5
 {
     mangled_assert("?isDeterministic@PingPoint@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_61BFB5(this);
-    return __result;
 }
 
-_extern char const *_sub_61CC78(PingPoint *const);
 _inline char const *PingPoint::saveToken() // 0x61CC78
 {
     mangled_assert("?saveToken@PingPoint@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_61CC78(this);
-    return __result;
 }
 
-_extern void _sub_61B0ED(PingOwner *const);
 _inline PingOwner::~PingOwner() // 0x61B0ED
 {
     mangled_assert("??1PingOwner@@UAE@XZ");
     todo("implement");
-    _sub_61B0ED(this);
 }
 
-_extern PingBase::PingType _sub_61BF9D(PingOwner *const);
 _inline PingBase::PingType PingOwner::getType() // 0x61BF9D
 {
     mangled_assert("?getType@PingOwner@@UAE?AW4PingType@PingBase@@XZ");
     todo("implement");
-    PingBase::PingType __result = _sub_61BF9D(this);
-    return __result;
 }
 
-_extern bool _sub_61BFB2(PingOwner *const);
 _inline bool PingOwner::isDeterministic() // 0x61BFB2
 {
     mangled_assert("?isDeterministic@PingOwner@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_61BFB2(this);
-    return __result;
 }
 
-_extern char const *_sub_61CC72(PingOwner *const);
 _inline char const *PingOwner::saveToken() // 0x61CC72
 {
     mangled_assert("?saveToken@PingOwner@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_61CC72(this);
-    return __result;
 }
 
-_extern void _sub_61B13A(PingSelection *const);
 _inline PingSelection::~PingSelection() // 0x61B13A
 {
     mangled_assert("??1PingSelection@@UAE@XZ");
     todo("implement");
-    _sub_61B13A(this);
 }
 
-_extern PingBase::PingType _sub_61BFA4(PingSelection *const);
 _inline PingBase::PingType PingSelection::getType() // 0x61BFA4
 {
     mangled_assert("?getType@PingSelection@@UAE?AW4PingType@PingBase@@XZ");
     todo("implement");
-    PingBase::PingType __result = _sub_61BFA4(this);
-    return __result;
 }
 
-_extern bool _sub_61BFB8(PingSelection *const);
 _inline bool PingSelection::isDeterministic() // 0x61BFB8
 {
     mangled_assert("?isDeterministic@PingSelection@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_61BFB8(this);
-    return __result;
 }
 
-_extern char const *_sub_61CC7E(PingSelection *const);
 _inline char const *PingSelection::saveToken() // 0x61CC7E
 {
     mangled_assert("?saveToken@PingSelection@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_61CC7E(this);
-    return __result;
 }
 
-_extern PingBase::PingType _sub_61BFA8(PingSelectionList *const);
 _inline PingBase::PingType PingSelectionList::getType() // 0x61BFA8
 {
     mangled_assert("?getType@PingSelectionList@@UAE?AW4PingType@PingBase@@XZ");
     todo("implement");
-    PingBase::PingType __result = _sub_61BFA8(this);
-    return __result;
 }
 
-_extern bool _sub_61BFBB(PingSelectionList *const);
 _inline bool PingSelectionList::isDeterministic() // 0x61BFBB
 {
     mangled_assert("?isDeterministic@PingSelectionList@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_61BFBB(this);
-    return __result;
 }
 
-_extern char const *_sub_61CC84(PingSelectionList *const);
 _inline char const *PingSelectionList::saveToken() // 0x61CC84
 {
     mangled_assert("?saveToken@PingSelectionList@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_61CC84(this);
-    return __result;
 }
 
 /* ---------- private code */

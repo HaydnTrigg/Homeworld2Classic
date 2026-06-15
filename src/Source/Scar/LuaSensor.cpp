@@ -109,69 +109,52 @@ extern char const *LUALIB_SENSOR; // 0x842F10
 
 /* ---------- public code */
 
-_extern void _sub_723F20(bool);
 void Sensors_Toggle(bool turnOn) // 0x723F20
 {
     mangled_assert("?Sensors_Toggle@@YGX_N@Z");
     todo("implement");
-    _sub_723F20(turnOn);
 }
 
-_extern void _sub_723E9B(bool);
 void Sensors_EnableToggle(bool en_toggle) // 0x723E9B
 {
     mangled_assert("?Sensors_EnableToggle@@YGX_N@Z");
     todo("implement");
-    _sub_723E9B(en_toggle);
 }
 
-_extern void _sub_723F03(bool);
 void Sensors_Switch(bool turnOn) // 0x723F03
 {
     mangled_assert("?Sensors_Switch@@YGX_N@Z");
     todo("implement");
-    _sub_723F03(turnOn);
 }
 
-_extern bool _sub_723EB8();
 bool Sensors_ManagerIsUp() // 0x723EB8
 {
     mangled_assert("?Sensors_ManagerIsUp@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_723EB8();
-    return __result;
 }
 
-_extern void _sub_723EC3(float, float);
 void Sensors_SetCameraMinMax(float min, float max) // 0x723EC3
 {
     mangled_assert("?Sensors_SetCameraMinMax@@YGXMM@Z");
     todo("implement");
-    _sub_723EC3(min, max);
 }
 
-_extern void _sub_723EE8(float);
 void Sensors_SetZoomOutDistance(float distance) // 0x723EE8
 {
     mangled_assert("?Sensors_SetZoomOutDistance@@YGXM@Z");
     todo("implement");
-    _sub_723EE8(distance);
 }
 
-_extern void _sub_723E8F(bool);
 void Sensors_EnableCameraZoom(bool bEnable) // 0x723E8F
 {
     mangled_assert("?Sensors_EnableCameraZoom@@YGX_N@Z");
     todo("implement");
-    _sub_723E8F(bEnable);
 }
 
-_extern void _sub_723EAC(bool);
 void Sensors_FlashWorldPlane(bool bFlash) // 0x723EAC
 {
     mangled_assert("?Sensors_FlashWorldPlane@@YGX_N@Z");
     todo("implement");
-    _sub_723EAC(bFlash);
 }
 
 /* ---------- private code */

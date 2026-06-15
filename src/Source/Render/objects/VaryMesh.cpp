@@ -209,248 +209,180 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_100A6E60(Collapse *const);
 _inline Collapse::Collapse() // 0x100A6E60
 {
     mangled_assert("??0Collapse@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_100A6E60(this);
 }
 
-_extern VaryMesh *_sub_100A8560();
 VaryMesh *VaryMesh::create() // 0x100A8560
 {
     mangled_assert("?create@VaryMesh@@SGPAV1@XZ");
     todo("implement");
-    VaryMesh * __result = _sub_100A8560();
-    return __result;
 }
 
-_extern _sub_100A6E80(VaryMesh *const);
 VaryMesh::VaryMesh() // 0x100A6E80
 {
     mangled_assert("??0VaryMesh@@QAE@XZ");
     todo("implement");
-    _sub_100A6E80(this);
 }
 
-_extern _sub_100A6FD0(VaryMesh::Wedge *const);
 _inline VaryMesh::Wedge::Wedge() // 0x100A6FD0
 {
     mangled_assert("??0Wedge@VaryMesh@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_100A6FD0(this);
 }
 
-_extern void _sub_100A7020(VaryMesh *const);
 VaryMesh::~VaryMesh() // 0x100A7020
 {
     mangled_assert("??1VaryMesh@@UAE@XZ");
     todo("implement");
-    _sub_100A7020(this);
 }
 
-_extern __int32 _sub_100A8920(VaryMesh const *const);
 __int32 VaryMesh::getCacheSize() const // 0x100A8920
 {
     mangled_assert("?getCacheSize@VaryMesh@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_100A8920(this);
-    return __result;
 }
 
-_extern void _sub_100AA620(VaryMesh *const, float);
 void VaryMesh::setLevelsOfDetail(float) // 0x100AA620
 {
     mangled_assert("?setLevelsOfDetail@VaryMesh@@QAEXM@Z");
     todo("implement");
-    _sub_100AA620(this, arg);
 }
 
-_extern void _sub_100AA670(VaryMesh *const, __int32);
 void VaryMesh::setNumCachedLists(__int32) // 0x100AA670
 {
     mangled_assert("?setNumCachedLists@VaryMesh@@QAEXH@Z");
     todo("implement");
-    _sub_100AA670(this, arg);
 }
 
-_extern void _sub_100A81C0(VaryMesh *const, __int32, __int32, __int32);
 void VaryMesh::alloc(__int32, __int32, __int32) // 0x100A81C0
 {
     mangled_assert("?alloc@VaryMesh@@QAEXHHH@Z");
     todo("implement");
-    _sub_100A81C0(this, arg, arg, arg);
 }
 
-_extern VaryMesh::Wedge *_sub_100A8970(VaryMesh *const, __int32);
 VaryMesh::Wedge *VaryMesh::getWedge(__int32) // 0x100A8970
 {
     mangled_assert("?getWedge@VaryMesh@@QAEPAUWedge@1@H@Z");
     todo("implement");
-    VaryMesh::Wedge * __result = _sub_100A8970(this, arg);
-    return __result;
 }
 
-_extern VaryMesh::Face *_sub_100A8950(VaryMesh *const, __int32);
 VaryMesh::Face *VaryMesh::getFace(__int32) // 0x100A8950
 {
     mangled_assert("?getFace@VaryMesh@@QAEPAUFace@1@H@Z");
     todo("implement");
-    VaryMesh::Face * __result = _sub_100A8950(this, arg);
-    return __result;
 }
 
-_extern Collapse *_sub_100A8940(VaryMesh *const, __int32);
 Collapse *VaryMesh::getCollapse(__int32) // 0x100A8940
 {
     mangled_assert("?getCollapse@VaryMesh@@QAEPAVCollapse@@H@Z");
     todo("implement");
-    Collapse * __result = _sub_100A8940(this, arg);
-    return __result;
 }
 
-_extern void _sub_100A9C50(VaryMesh *const, __int32);
 void VaryMesh::removeDetail(__int32) // 0x100A9C50
 {
     mangled_assert("?removeDetail@VaryMesh@@AAEXH@Z");
     todo("implement");
-    _sub_100A9C50(this, arg);
 }
 
-_extern void _sub_100A7E00(VaryMesh *const, __int32);
 void VaryMesh::addDetail(__int32) // 0x100A7E00
 {
     mangled_assert("?addDetail@VaryMesh@@AAEXH@Z");
     todo("implement");
-    _sub_100A7E00(this, arg);
 }
 
-_extern void _sub_100A82E0(VaryMesh *const, float *, vector3 *);
 void VaryMesh::computeBoundingSphere(float *, vector3 *) // 0x100A82E0
 {
     mangled_assert("?computeBoundingSphere@VaryMesh@@AAEXPAMPAVvector3@@@Z");
     todo("implement");
-    _sub_100A82E0(this, arg, arg);
 }
 
-_extern void _sub_100A88E0(VaryMesh const *const, float *, vector3 *);
 void VaryMesh::getBoundingSphere(float *, vector3 *) const // 0x100A88E0
 {
     mangled_assert("?getBoundingSphere@VaryMesh@@UBEXPAMPAVvector3@@@Z");
     todo("implement");
-    _sub_100A88E0(this, arg, arg);
 }
 
-_extern void _sub_100A8570(VaryMesh *const);
 void VaryMesh::createDisplayLists() // 0x100A8570
 {
     mangled_assert("?createDisplayLists@VaryMesh@@UAEXXZ");
     todo("implement");
-    _sub_100A8570(this);
 }
 
-_extern void _sub_100A95A0(VaryMesh *const);
 void VaryMesh::optimize() // 0x100A95A0
 {
     mangled_assert("?optimize@VaryMesh@@UAEXXZ");
     todo("implement");
-    _sub_100A95A0(this);
 }
 
-_extern void _sub_100A8880(VaryMesh *const);
 void VaryMesh::flushCache() // 0x100A8880
 {
     mangled_assert("?flushCache@VaryMesh@@AAEXXZ");
     todo("implement");
-    _sub_100A8880(this);
 }
 
-_extern void _sub_100A8290(VaryMesh *const);
 void VaryMesh::clearMatLUT() // 0x100A8290
 {
     mangled_assert("?clearMatLUT@VaryMesh@@AAEXXZ");
     todo("implement");
-    _sub_100A8290(this);
 }
 
-_extern void _sub_100A7CD0(__int32, __int32, __int32 *, __int32 **, __int32 *, __int32 *, __int32 *, __int32 *);
 void _tri(__int32 nMat, __int32 nFace, __int32 *clist, __int32 **matLUT, __int32 *matSort, __int32 *ibase, __int32 *_minwedge, __int32 *_maxwedge) // 0x100A7CD0
 {
     mangled_assert("?_tri@@YGXHHPAHPAPAH0000@Z");
     todo("implement");
-    _sub_100A7CD0(nMat, nFace, clist, matLUT, matSort, ibase, _minwedge, _maxwedge);
 }
 
-_extern __int32 *_sub_100AAF50(VaryMesh *const);
 __int32 *VaryMesh::tri() // 0x100AAF50
 {
     mangled_assert("?tri@VaryMesh@@AAEPAHXZ");
     todo("implement");
-    __int32 * __result = _sub_100AAF50(this);
-    return __result;
 }
 
-_extern __int32 _sub_100AAE00(VaryMesh *const, __int32, __int32);
 __int32 VaryMesh::stripLength(__int32, __int32) // 0x100AAE00
 {
     mangled_assert("?stripLength@VaryMesh@@AAEHHH@Z");
     todo("implement");
-    __int32 __result = _sub_100AAE00(this, arg, arg);
-    return __result;
 }
 
-_extern __int32 *_sub_100AA6D0(VaryMesh *const);
 __int32 *VaryMesh::strip() // 0x100AA6D0
 {
     mangled_assert("?strip@VaryMesh@@AAEPAHXZ");
     todo("implement");
-    __int32 * __result = _sub_100AA6D0(this);
-    return __result;
 }
 
-_extern __int32 *_sub_100A8A40(VaryMesh *const, __int32 *);
 __int32 *VaryMesh::noStrip(__int32 *) // 0x100A8A40
 {
     mangled_assert("?noStrip@VaryMesh@@AAEPAHPAH@Z");
     todo("implement");
-    __int32 * __result = _sub_100A8A40(this, arg);
-    return __result;
 }
 
-_extern void _sub_100A7ED0(VaryMesh *const, float, Mesh::LockType);
 void VaryMesh::adjustDetail(float, Mesh::LockType) // 0x100A7ED0
 {
     mangled_assert("?adjustDetail@VaryMesh@@UAEXMW4LockType@Mesh@@@Z");
     todo("implement");
-    _sub_100A7ED0(this, arg, arg);
 }
 
-_extern void _sub_100A9D20(VaryMesh *const, MeshInstance const *, Mesh::LockType, unsigned __int32 const, float const, float const);
 void VaryMesh::render(MeshInstance const *, Mesh::LockType, unsigned __int32 const, float const, float const) // 0x100A9D20
 {
     mangled_assert("?render@VaryMesh@@UAEXPBVMeshInstance@@W4LockType@Mesh@@IMM@Z");
     todo("implement");
-    _sub_100A9D20(this, arg, arg, arg, arg, arg);
 }
 
-_extern void _sub_100AA2F0(VaryMesh *const);
 void VaryMesh::renderCelShaded() // 0x100AA2F0
 {
     mangled_assert("?renderCelShaded@VaryMesh@@AAEXXZ");
     todo("implement");
-    _sub_100AA2F0(this);
 }
 
-_extern std::vector<CompoundStateBlockInstance *,std::allocator<CompoundStateBlockInstance *> > const &_sub_100A8960(VaryMesh const *const, StateBlock_Type);
 std::vector<CompoundStateBlockInstance *,std::allocator<CompoundStateBlockInstance *> > const &VaryMesh::getShaderList(StateBlock_Type) const // 0x100A8960
 {
     mangled_assert("?getShaderList@VaryMesh@@UBEABV?$vector@PAVCompoundStateBlockInstance@@V?$allocator@PAVCompoundStateBlockInstance@@@std@@@std@@W4StateBlock_Type@@@Z");
     todo("implement");
-    std::vector<CompoundStateBlockInstance *,std::allocator<CompoundStateBlockInstance *> > const & __result = _sub_100A8960(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

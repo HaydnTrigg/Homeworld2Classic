@@ -217,40 +217,31 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_10001119(std::_Generic_error_category *const);
 _inline std::_Generic_error_category::~_Generic_error_category() // 0x10001119
 {
     mangled_assert("??1_Generic_error_category@std@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10001119(this);
 }
 
-_extern void _sub_10001120(std::_Iostream_error_category *const);
 _inline std::_Iostream_error_category::~_Iostream_error_category() // 0x10001120
 {
     mangled_assert("??1_Iostream_error_category@std@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10001120(this);
 }
 
-_extern void _sub_10001127(std::_System_error_category *const);
 _inline std::_System_error_category::~_System_error_category() // 0x10001127
 {
     mangled_assert("??1_System_error_category@std@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10001127(this);
 }
 
-_extern __int32 _sub_100017A4(void *, unsigned long, void *);
 __int32 DllMain(void *hInstance, unsigned long reason, void *reserved) // 0x100017A4
 {
     mangled_assert("_DllMain@12");
     todo("implement");
-    __int32 __result = _sub_100017A4(hInstance, reason, reserved);
-    return __result;
 }
 
 /* ---------- private code */

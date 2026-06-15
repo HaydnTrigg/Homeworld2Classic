@@ -291,83 +291,58 @@ static_assert(sizeof(Formation) == 1376, "Invalid Formation size");
 
 /* ---------- public code */
 
-_extern Selection const &_sub_4B978D(Formation const *const);
 _inline Selection const &Formation::getShips() const // 0x4B978D
 {
     mangled_assert("?getShips@Formation@@QBEABVSelection@@XZ");
     todo("implement");
-    Selection const & __result = _sub_4B978D(this);
-    return __result;
 }
 
-_extern Squadron *_sub_4E46AC(Formation const *const);
 _inline Squadron *Formation::getSquadron() const // 0x4E46AC
 {
     mangled_assert("?getSquadron@Formation@@QBEPAVSquadron@@XZ");
     todo("implement");
-    Squadron * __result = _sub_4E46AC(this);
-    return __result;
 }
 
-_extern FormationCommand *_sub_4864B1(Formation const *const);
 _inline FormationCommand *Formation::getCommand() const // 0x4864B1
 {
     mangled_assert("?getCommand@Formation@@QBEPAVFormationCommand@@XZ");
     todo("implement");
-    FormationCommand * __result = _sub_4864B1(this);
-    return __result;
 }
 
-_extern FormationTargetInfo const &_sub_50A8FB(Formation const *const);
 _inline FormationTargetInfo const &Formation::getCurrentTarget() const // 0x50A8FB
 {
     mangled_assert("?getCurrentTarget@Formation@@QBEABVFormationTargetInfo@@XZ");
     todo("implement");
-    FormationTargetInfo const & __result = _sub_50A8FB(this);
-    return __result;
 }
 
-_extern bool _sub_6BC709(Formation *const);
 _inline bool Formation::getFlightManeuverInProgress() // 0x6BC709
 {
     mangled_assert("?getFlightManeuverInProgress@Formation@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_6BC709(this);
-    return __result;
 }
 
-_extern void _sub_48F6F3(Formation *const, bool);
 _inline void Formation::setFlightManeuverInProgress(bool) // 0x48F6F3
 {
     mangled_assert("?setFlightManeuverInProgress@Formation@@QAEX_N@Z");
     todo("implement");
-    _sub_48F6F3(this, arg);
 }
 
-_extern void _sub_658E8B(Formation *const, float);
 _inline void Formation::setReinitializeTime(float) // 0x658E8B
 {
     mangled_assert("?setReinitializeTime@Formation@@QAEXM@Z");
     todo("implement");
-    _sub_658E8B(this, arg);
 }
 
-_extern bool _sub_657C64(Formation *const);
 _inline bool Formation::isDeterministic() // 0x657C64
 {
     mangled_assert("?isDeterministic@Formation@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_657C64(this);
-    return __result;
 }
 
-_extern char const *_sub_658AB0(Formation *const);
 _inline char const *Formation::saveToken() // 0x658AB0
 {
     mangled_assert("?saveToken@Formation@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_658AB0(this);
-    return __result;
 }
 
 /* ---------- private code */

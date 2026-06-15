@@ -133,123 +133,92 @@ extern SaveData const EventPointerManager::m_saveData[1]; // 0x7A93D4
 
 /* ---------- public code */
 
-_extern _sub_5ED48C(EventPointerManager *const, bool);
 EventPointerManager::EventPointerManager(bool) // 0x5ED48C
 {
     mangled_assert("??0EventPointerManager@@QAE@_N@Z");
     todo("implement");
-    _sub_5ED48C(this, arg);
 }
 
-_extern void _sub_5ED521(std::_Tree_buy<std::pair<unsigned int const ,EventPointerManager::EventPointer>,std::allocator<std::pair<unsigned int const ,EventPointerManager::EventPointer> > > *const);
 _inline std::_Tree_buy<std::pair<unsigned int const ,EventPointerManager::EventPointer>,std::allocator<std::pair<unsigned int const ,EventPointerManager::EventPointer> > >::~_Tree_buy<std::pair<unsigned int const ,EventPointerManager::EventPointer>,std::allocator<std::pair<unsigned int const ,EventPointerManager::EventPointer> > >() // 0x5ED521
 {
     mangled_assert("??1?$_Tree_buy@U?$pair@$$CBIVEventPointer@EventPointerManager@@@std@@V?$allocator@U?$pair@$$CBIVEventPointer@EventPointerManager@@@std@@@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5ED521(this);
 }
 
-_extern void _sub_5ED52A(std::_Tree_comp<0,std::_Tmap_traits<unsigned int,EventPointerManager::EventPointer,std::less<unsigned int>,std::allocator<std::pair<unsigned int const ,EventPointerManager::EventPointer> >,0> > *const);
 _inline std::_Tree_comp<0,std::_Tmap_traits<unsigned int,EventPointerManager::EventPointer,std::less<unsigned int>,std::allocator<std::pair<unsigned int const ,EventPointerManager::EventPointer> >,0> >::~_Tree_comp<0,std::_Tmap_traits<unsigned int,EventPointerManager::EventPointer,std::less<unsigned int>,std::allocator<std::pair<unsigned int const ,EventPointerManager::EventPointer> >,0> >() // 0x5ED52A
 {
     mangled_assert("??1?$_Tree_comp@$0A@V?$_Tmap_traits@IVEventPointer@EventPointerManager@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIVEventPointer@EventPointerManager@@@std@@@4@$0A@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5ED52A(this);
 }
 
-_extern void _sub_5ED533(std::map<unsigned int,EventPointerManager::EventPointer,std::less<unsigned int>,std::allocator<std::pair<unsigned int const ,EventPointerManager::EventPointer> > > *const);
 _inline std::map<unsigned int,EventPointerManager::EventPointer,std::less<unsigned int>,std::allocator<std::pair<unsigned int const ,EventPointerManager::EventPointer> > >::~map<unsigned int,EventPointerManager::EventPointer,std::less<unsigned int>,std::allocator<std::pair<unsigned int const ,EventPointerManager::EventPointer> > >() // 0x5ED533
 {
     mangled_assert("??1?$map@IVEventPointer@EventPointerManager@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIVEventPointer@EventPointerManager@@@std@@@4@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5ED533(this);
 }
 
-_extern void _sub_5ED538(EventPointerManager *const);
 _inline EventPointerManager::~EventPointerManager() // 0x5ED538
 {
     mangled_assert("??1EventPointerManager@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5ED538(this);
 }
 
-_extern _sub_5ED41F(EventPointerManager *const, SaveGameData *);
 EventPointerManager::EventPointerManager(SaveGameData *) // 0x5ED41F
 {
     mangled_assert("??0EventPointerManager@@QAE@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_5ED41F(this, arg);
 }
 
-_extern unsigned __int32 _sub_5ED742(EventPointerManager *const, SobID const &, vector4 const &, float const);
 unsigned __int32 EventPointerManager::AddEvent(SobID const &, vector4 const &, float const) // 0x5ED742
 {
     mangled_assert("?AddEvent@EventPointerManager@@QAEIABVSobID@@ABVvector4@@M@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_5ED742(this, arg, arg, arg);
-    return __result;
 }
 
-_extern void _sub_5ED7E3(EventPointerManager *const, unsigned __int32);
 void EventPointerManager::RemoveEvent(unsigned __int32) // 0x5ED7E3
 {
     mangled_assert("?RemoveEvent@EventPointerManager@@QAEXI@Z");
     todo("implement");
-    _sub_5ED7E3(this, arg);
 }
 
-_extern void _sub_5ED812(EventPointerManager *const);
 void EventPointerManager::Render() // 0x5ED812
 {
     mangled_assert("?Render@EventPointerManager@@QAEXXZ");
     todo("implement");
-    _sub_5ED812(this);
 }
 
-_extern void _sub_5EDFE9(EventPointerManager *const);
 void EventPointerManager::postRestore() // 0x5EDFE9
 {
     mangled_assert("?postRestore@EventPointerManager@@UAEXXZ");
     todo("implement");
-    _sub_5EDFE9(this);
 }
 
-_extern void _sub_5ECD3F(void *, SaveGameData *, SaveType);
 void EventPointerManager::saveEventMap(void *objectPtr, SaveGameData *saveGameData, SaveType savetype) // 0x5ECD3F
 {
     mangled_assert("?saveEventMap@EventPointerManager@@SGXPAXPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    _sub_5ECD3F(objectPtr, saveGameData, savetype);
 }
 
-_extern void _sub_5ECDA0(void *, SaveGameData *);
 void EventPointerManager::loadEventMap(void *objectPtr, SaveGameData *saveGameData) // 0x5ECDA0
 {
     mangled_assert("?loadEventMap@EventPointerManager@@SGXPAXPAVSaveGameData@@@Z");
     todo("implement");
-    _sub_5ECDA0(objectPtr, saveGameData);
 }
 
-_extern bool _sub_5EDFEA(EventPointerManager *const, SaveGameData *);
 bool EventPointerManager::restore(SaveGameData *) // 0x5EDFEA
 {
     mangled_assert("?restore@EventPointerManager@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_5EDFEA(this, arg);
-    return __result;
 }
 
-_extern bool _sub_5EE028(EventPointerManager *const, SaveGameData *, SaveType);
 bool EventPointerManager::save(SaveGameData *, SaveType) // 0x5EE028
 {
     mangled_assert("?save@EventPointerManager@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_5EE028(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

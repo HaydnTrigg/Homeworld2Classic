@@ -165,48 +165,34 @@ static_assert(sizeof(UI::NewTaskbar) == 1156, "Invalid UI::NewTaskbar size");
 
 /* ---------- public code */
 
-_extern Vector_2i _sub_59951F(UI::NewTaskbar *const);
 _inline Vector_2i UI::NewTaskbar::GetMaximizedPos() // 0x59951F
 {
     mangled_assert("?GetMaximizedPos@NewTaskbar@UI@@QAE?AUVector_2i@@XZ");
     todo("implement");
-    Vector_2i __result = _sub_59951F(this);
-    return __result;
 }
 
-_extern Vector_2i _sub_599537(UI::NewTaskbar *const);
 _inline Vector_2i UI::NewTaskbar::GetMinimizedPos() // 0x599537
 {
     mangled_assert("?GetMinimizedPos@NewTaskbar@UI@@QAE?AUVector_2i@@XZ");
     todo("implement");
-    Vector_2i __result = _sub_599537(this);
-    return __result;
 }
 
-_extern void _sub_58D360(UI::NewTaskbar *const, bool);
 _inline void UI::NewTaskbar::IgnoreProfilePhase(bool) // 0x58D360
 {
     mangled_assert("?IgnoreProfilePhase@NewTaskbar@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_58D360(this, arg);
 }
 
-_extern __int32 _sub_59957C(UI::NewTaskbar const *const);
 _inline __int32 UI::NewTaskbar::GetPhase() const // 0x59957C
 {
     mangled_assert("?GetPhase@NewTaskbar@UI@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_59957C(this);
-    return __result;
 }
 
-_extern UI::NewTaskbar *_sub_454608();
 _inline UI::NewTaskbar *UI::NewTaskbar::GetScreen() // 0x454608
 {
     mangled_assert("?GetScreen@NewTaskbar@UI@@SGPAV12@XZ");
     todo("implement");
-    UI::NewTaskbar * __result = _sub_454608();
-    return __result;
 }
 
 /* ---------- private code */

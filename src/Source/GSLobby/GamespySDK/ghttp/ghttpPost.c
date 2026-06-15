@@ -211,119 +211,83 @@ _static GHIPostingResult ghiPostStateDoPosting(GHIPostState *state, GHIConnectio
 
 /* ---------- public code */
 
-_extern GHTTPBool _sub_1001774F(GHIPost *);
 GHTTPBool ghiIsPostAutoFree(GHIPost *_post) // 0x1001774F
 {
     mangled_assert("_ghiIsPostAutoFree@4");
     todo("implement");
-    GHTTPBool __result = _sub_1001774F(_post);
-    return __result;
 }
 
-_extern void _sub_10017737(GHIPost *);
 void ghiFreePost(GHIPost *_post) // 0x10017737
 {
     mangled_assert("_ghiFreePost@4");
     todo("implement");
-    _sub_10017737(_post);
 }
 
-_extern char const *_sub_10017909(GHIConnection *);
 char const *ghiPostGetContentType(GHIConnection *connection) // 0x10017909
 {
     mangled_assert("_ghiPostGetContentType@4");
     todo("implement");
-    char const * __result = _sub_10017909(connection);
-    return __result;
 }
 
-_extern GHTTPBool _sub_10017A99(GHIConnection *);
 GHTTPBool ghiPostInitState(GHIConnection *connection) // 0x10017A99
 {
     mangled_assert("_ghiPostInitState@4");
     todo("implement");
-    GHTTPBool __result = _sub_10017A99(connection);
-    return __result;
 }
 
-_extern void _sub_10017759(GHIConnection *);
 void ghiPostCleanupState(GHIConnection *connection) // 0x10017759
 {
     mangled_assert("_ghiPostCleanupState@4");
     todo("implement");
-    _sub_10017759(connection);
 }
 
-_extern GHIPostingResult _sub_100177C4(GHIConnection *);
 GHIPostingResult ghiPostDoPosting(GHIConnection *connection) // 0x100177C4
 {
     mangled_assert("_ghiPostDoPosting@4");
     todo("implement");
-    GHIPostingResult __result = _sub_100177C4(connection);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern __int32 _sub_10017A3C(GHIConnection *);
 _static __int32 ghiPostGetNoFilesContentLength(GHIConnection *connection) // 0x10017A3C
 {
     mangled_assert("ghiPostGetNoFilesContentLength");
     todo("implement");
-    __int32 __result = _sub_10017A3C(connection);
-    return __result;
 }
 
-_extern __int32 _sub_10017932(GHIConnection *);
 _static __int32 ghiPostGetHasFilesContentLength(GHIConnection *connection) // 0x10017932
 {
     mangled_assert("ghiPostGetHasFilesContentLength");
     todo("implement");
-    __int32 __result = _sub_10017932(connection);
-    return __result;
 }
 
-_extern GHTTPBool _sub_10017D22(GHIPostState *);
 _static GHTTPBool ghiPostStateInit(GHIPostState *state) // 0x10017D22
 {
     mangled_assert("ghiPostStateInit");
     todo("implement");
-    GHTTPBool __result = _sub_10017D22(state);
-    return __result;
 }
 
-_extern void _sub_10017BA9(GHIPostState *);
 _static void ghiPostStateCleanup(GHIPostState *state) // 0x10017BA9
 {
     mangled_assert("ghiPostStateCleanup");
     todo("implement");
-    _sub_10017BA9(state);
 }
 
-_extern GHIPostingResult _sub_10017D8F(GHIPostState *, GHIConnection *);
 _static GHIPostingResult ghiPostStringStateDoPosting(GHIPostState *state, GHIConnection *connection) // 0x10017D8F
 {
     mangled_assert("ghiPostStringStateDoPosting");
     todo("implement");
-    GHIPostingResult __result = _sub_10017D8F(state, connection);
-    return __result;
 }
 
-_extern GHIPostingResult _sub_10017887(GHIPostState *, GHIConnection *);
 _static GHIPostingResult ghiPostFileDiskStateDoPosting(GHIPostState *state, GHIConnection *connection) // 0x10017887
 {
     mangled_assert("ghiPostFileDiskStateDoPosting");
     todo("implement");
-    GHIPostingResult __result = _sub_10017887(state, connection);
-    return __result;
 }
 
-_extern GHIPostingResult _sub_10017BD2(GHIPostState *, GHIConnection *, GHTTPBool);
 _static GHIPostingResult ghiPostStateDoPosting(GHIPostState *state, GHIConnection *connection, GHTTPBool first) // 0x10017BD2
 {
     mangled_assert("ghiPostStateDoPosting");
     todo("implement");
-    GHIPostingResult __result = _sub_10017BD2(state, connection, first);
-    return __result;
 }
 #endif

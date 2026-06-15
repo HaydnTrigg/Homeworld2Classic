@@ -73,56 +73,40 @@ static_assert(sizeof(AttackState) == 128, "Invalid AttackState size");
 
 /* ---------- public code */
 
-_extern _sub_53FD20(AttackState *const, CpuSquadGroup &);
 _inline AttackState::AttackState(CpuSquadGroup &) // 0x53FD20
 {
     mangled_assert("??0AttackState@@QAE@AAVCpuSquadGroup@@@Z");
     todo("implement");
-    _sub_53FD20(this, arg);
 }
 
-_extern void _sub_53FFD7(AttackState *const);
 _inline AttackState::~AttackState() // 0x53FFD7
 {
     mangled_assert("??1AttackState@@QAE@XZ");
     todo("implement");
-    _sub_53FFD7(this);
 }
 
-_extern unsigned __int32 _sub_5400B4(AttackState const *const);
 _inline unsigned __int32 AttackState::GetType() const // 0x5400B4
 {
     mangled_assert("?GetType@AttackState@@UBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_5400B4(this);
-    return __result;
 }
 
-_extern __int32 _sub_5401CC(AttackState const *const);
 _inline __int32 AttackState::getSubState() const // 0x5401CC
 {
     mangled_assert("?getSubState@AttackState@@UBEHXZ");
     todo("implement");
-    __int32 __result = _sub_5401CC(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_5333B4(AttackState const *const);
 _inline unsigned __int32 AttackState::getDefendTargetId() const // 0x5333B4
 {
     mangled_assert("?getDefendTargetId@AttackState@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_5333B4(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_5333A8(AttackState const *const);
 _inline unsigned __int32 AttackState::getAttackTargetId() const // 0x5333A8
 {
     mangled_assert("?getAttackTargetId@AttackState@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_5333A8(this);
-    return __result;
 }
 
 /* ---------- private code */

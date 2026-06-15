@@ -193,13 +193,10 @@ static_assert(sizeof(MMSnapshotIterator) == 12, "Invalid MMSnapshotIterator size
 
 /* ---------- public code */
 
-_extern unsigned __int32 _sub_100052A0(MMSnapshot const *const);
 _inline unsigned __int32 MMSnapshot::GetQty() const // 0x100052A0
 {
     mangled_assert("?GetQty@MMSnapshot@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_100052A0(this);
-    return __result;
 }
 
 /* ---------- private code */

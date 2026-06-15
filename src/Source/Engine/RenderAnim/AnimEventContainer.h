@@ -68,38 +68,28 @@ static_assert(sizeof(AnimEventContainer) == 12, "Invalid AnimEventContainer size
 
 /* ---------- public code */
 
-_extern _sub_512091(AnimEventContainer::Event *const, float, AnimEventData const &);
 _inline AnimEventContainer::Event::Event(float, AnimEventData const &) // 0x512091
 {
     mangled_assert("??0Event@AnimEventContainer@@QAE@MABVAnimEventData@@@Z");
     todo("implement");
-    _sub_512091(this, arg, arg);
 }
 
-_extern bool _sub_512470(AnimEventContainer::Event const *const, AnimEventContainer::Event const &);
 _inline bool AnimEventContainer::Event::operator<(AnimEventContainer::Event const &) const // 0x512470
 {
     mangled_assert("??MEvent@AnimEventContainer@@QBE_NABU01@@Z");
     todo("implement");
-    bool __result = _sub_512470(this, arg);
-    return __result;
 }
 
-_extern bool _sub_51245D(AnimEventContainer::Event const *const, float const &);
 _inline bool AnimEventContainer::Event::operator<(float const &) const // 0x51245D
 {
     mangled_assert("??MEvent@AnimEventContainer@@QBE_NABM@Z");
     todo("implement");
-    bool __result = _sub_51245D(this, arg);
-    return __result;
 }
 
-_extern _sub_512057(AnimEventContainer::Animation *const, char const *);
 _inline AnimEventContainer::Animation::Animation(char const *) // 0x512057
 {
     mangled_assert("??0Animation@AnimEventContainer@@QAE@PBD@Z");
     todo("implement");
-    _sub_512057(this, arg);
 }
 
 /* ---------- private code */

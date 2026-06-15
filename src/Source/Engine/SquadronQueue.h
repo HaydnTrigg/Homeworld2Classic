@@ -40,22 +40,16 @@ static_assert(sizeof(SquadronQueue) == 12, "Invalid SquadronQueue size");
 
 /* ---------- public code */
 
-_extern bool _sub_6BB11C(SquadronQueue *const);
 _inline bool SquadronQueue::isDeterministic() // 0x6BB11C
 {
     mangled_assert("?isDeterministic@SquadronQueue@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6BB11C(this);
-    return __result;
 }
 
-_extern char const *_sub_6BB1C4(SquadronQueue *const);
 _inline char const *SquadronQueue::saveToken() // 0x6BB1C4
 {
     mangled_assert("?saveToken@SquadronQueue@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6BB1C4(this);
-    return __result;
 }
 
 /* ---------- private code */

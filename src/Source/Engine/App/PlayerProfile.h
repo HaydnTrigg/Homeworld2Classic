@@ -90,31 +90,22 @@ static_assert(sizeof(PlayerProfile) == 60, "Invalid PlayerProfile size");
 
 /* ---------- public code */
 
-_extern std::list<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >,std::allocator<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > > > &_sub_5B0F91(PlayerProfile *const);
 _inline std::list<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >,std::allocator<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > > > &PlayerProfile::GetIgnoreList() // 0x5B0F91
 {
     mangled_assert("?GetIgnoreList@PlayerProfile@@QAEAAV?$list@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@XZ");
     todo("implement");
-    std::list<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >,std::allocator<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > > > & __result = _sub_5B0F91(this);
-    return __result;
 }
 
-_extern std::list<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >,std::allocator<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > > > &_sub_5B0F95(PlayerProfile *const);
 _inline std::list<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >,std::allocator<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > > > &PlayerProfile::GetWhisperList() // 0x5B0F95
 {
     mangled_assert("?GetWhisperList@PlayerProfile@@QAEAAV?$list@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@XZ");
     todo("implement");
-    std::list<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >,std::allocator<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > > > & __result = _sub_5B0F95(this);
-    return __result;
 }
 
-_extern PlayerProfileGameOptions &_sub_44FE0C(PlayerProfile *const);
 _inline PlayerProfileGameOptions &PlayerProfile::GetOptions() // 0x44FE0C
 {
     mangled_assert("?GetOptions@PlayerProfile@@QAEAAVPlayerProfileGameOptions@@XZ");
     todo("implement");
-    PlayerProfileGameOptions & __result = _sub_44FE0C(this);
-    return __result;
 }
 
 /* ---------- private code */

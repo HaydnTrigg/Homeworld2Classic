@@ -59,12 +59,10 @@ static_assert(sizeof(EngineTrailManager) == 28, "Invalid EngineTrailManager size
 
 /* ---------- public code */
 
-_extern _sub_4476EE(EngineTrailManager::Orphan *const, TeamColour const *, EngineTrail *, float);
 _inline EngineTrailManager::Orphan::Orphan(TeamColour const *, EngineTrail *, float) // 0x4476EE
 {
     mangled_assert("??0Orphan@EngineTrailManager@@QAE@PBVTeamColour@@PAVEngineTrail@@M@Z");
     todo("implement");
-    _sub_4476EE(this, arg, arg, arg);
 }
 
 /* ---------- private code */

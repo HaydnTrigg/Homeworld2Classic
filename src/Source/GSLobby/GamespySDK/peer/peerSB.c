@@ -136,96 +136,71 @@ _static void piSBListGroupsCallback(_SBServerList *serverlist, SBListCallbackRea
 
 /* ---------- public code */
 
-_extern PEERBool _sub_10015823(void *);
 PEERBool piSBInit(void *peer) // 0x10015823
 {
     mangled_assert("_piSBInit@4");
     todo("implement");
-    PEERBool __result = _sub_10015823(peer);
-    return __result;
 }
 
-_extern void _sub_100157C6(void *);
 void piSBCleanup(void *peer) // 0x100157C6
 {
     mangled_assert("_piSBCleanup@4");
     todo("implement");
-    _sub_100157C6(peer);
 }
 
-_extern PEERBool _sub_10015A36(void *, unsigned char const *, __int32, char const *);
 PEERBool piSBStartListingGames(void *peer, unsigned char const *fields, __int32 numFields, char const *filter) // 0x10015A36
 {
     mangled_assert("_piSBStartListingGames@16");
     todo("implement");
-    PEERBool __result = _sub_10015A36(peer, fields, numFields, filter);
-    return __result;
 }
 
-_extern void _sub_10015CA5(void *);
 void piSBStopListingGames(void *peer) // 0x10015CA5
 {
     mangled_assert("_piSBStopListingGames@4");
     todo("implement");
-    _sub_10015CA5(peer);
 }
 
-_extern void _sub_10015D28(void *, _SBServer *, PEERBool);
 void piSBUpdateGame(void *peer, _SBServer *server, PEERBool fullUpdate) // 0x10015D28
 {
     mangled_assert("_piSBUpdateGame@12");
     todo("implement");
-    _sub_10015D28(peer, server, fullUpdate);
 }
 
-_extern PEERBool _sub_10015C12(void *, char const *);
 PEERBool piSBStartListingGroups(void *peer, char const *fields) // 0x10015C12
 {
     mangled_assert("_piSBStartListingGroups@8");
     todo("implement");
-    PEERBool __result = _sub_10015C12(peer, fields);
-    return __result;
 }
 
-_extern void _sub_10015CD7(void *);
 void piSBStopListingGroups(void *peer) // 0x10015CD7
 {
     mangled_assert("_piSBStopListingGroups@4");
     todo("implement");
-    _sub_10015CD7(peer);
 }
 
-_extern void _sub_10015CF2(void *);
 void piSBThink(void *peer) // 0x10015CF2
 {
     mangled_assert("_piSBThink@4");
     todo("implement");
-    _sub_10015CF2(peer);
 }
 
 /* ---------- private code */
 
-_extern void _sub_1001589E(_SBServerList *, SBListCallbackReason, _SBServer *, void *);
 _static void piSBListGamesCallback(_SBServerList *serverlist, SBListCallbackReason reason, _SBServer *server, void *instance) // 0x1001589E
 {
     mangled_assert("piSBListGamesCallback");
     todo("implement");
-    _sub_1001589E(serverlist, reason, server, instance);
 }
 
-_extern void _sub_10015808(_SBQueryEngine *, SBQueryEngineCallbackReason, _SBServer *, void *);
 _static void piSBEngineGamesCallback(_SBQueryEngine *engine, SBQueryEngineCallbackReason reason, _SBServer *server, void *instance) // 0x10015808
 {
     mangled_assert("piSBEngineGamesCallback");
     todo("implement");
-    _sub_10015808(engine, reason, server, instance);
 }
 
-_extern void _sub_10015947(_SBServerList *, SBListCallbackReason, _SBServer *, void *);
 _static void piSBListGroupsCallback(_SBServerList *serverlist, SBListCallbackReason reason, _SBServer *server, void *instance) // 0x10015947
 {
     mangled_assert("piSBListGroupsCallback");
     todo("implement");
-    _sub_10015947(serverlist, reason, server, instance);
 }
 #endif

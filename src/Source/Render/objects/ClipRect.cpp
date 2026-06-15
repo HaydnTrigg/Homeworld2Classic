@@ -141,63 +141,49 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_10028010(ClipRect *const);
 ClipRect::ClipRect() // 0x10028010
 {
     mangled_assert("??0ClipRect@@QAE@XZ");
     todo("implement");
-    _sub_10028010(this);
 }
 
-_extern void _sub_100280B0(std::_Generic_error_category *const);
 _inline std::_Generic_error_category::~_Generic_error_category() // 0x100280B0
 {
     mangled_assert("??1_Generic_error_category@std@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_100280B0(this);
 }
 
-_extern void _sub_100280C0(std::_Iostream_error_category *const);
 _inline std::_Iostream_error_category::~_Iostream_error_category() // 0x100280C0
 {
     mangled_assert("??1_Iostream_error_category@std@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_100280C0(this);
 }
 
-_extern void _sub_100280D0(std::_System_error_category *const);
 _inline std::_System_error_category::~_System_error_category() // 0x100280D0
 {
     mangled_assert("??1_System_error_category@std@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_100280D0(this);
 }
 
-_extern void _sub_100282E0(ClipRect *const, float, float, float, float);
 void ClipRect::Set(float, float, float, float) // 0x100282E0
 {
     mangled_assert("?Set@ClipRect@@QAEXMMMM@Z");
     todo("implement");
-    _sub_100282E0(this, arg, arg, arg, arg);
 }
 
-_extern void _sub_100281A0(ClipRect *const);
 void ClipRect::ClipBegin() // 0x100281A0
 {
     mangled_assert("?ClipBegin@ClipRect@@QAEXXZ");
     todo("implement");
-    _sub_100281A0(this);
 }
 
-_extern void _sub_100282C0(ClipRect *const);
 void ClipRect::ClipEnd() // 0x100282C0
 {
     mangled_assert("?ClipEnd@ClipRect@@QAEXXZ");
     todo("implement");
-    _sub_100282C0(this);
 }
 
 /* ---------- private code */

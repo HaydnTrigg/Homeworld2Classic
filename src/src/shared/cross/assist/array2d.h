@@ -92,105 +92,76 @@ static_assert(sizeof(Array2D<float,Array2DNewAllocator<float> >) == 28, "Invalid
 
 /* ---------- public code */
 
-_extern void _sub_60E05C(Array2DNewAllocator<float> *const, float *, unsigned long, unsigned long);
 _inline void Array2DNewAllocator<float>::Free(float *, unsigned long, unsigned long) // 0x60E05C
 {
     mangled_assert("?Free@?$Array2DNewAllocator@M@@QAEXPAMKK@Z");
     todo("implement");
-    _sub_60E05C(this, arg, arg, arg);
 }
 
-_extern float *_sub_60DEAD(Array2DNewAllocator<float> *const, unsigned long, unsigned long);
 _inline float *Array2DNewAllocator<float>::Alloc(unsigned long, unsigned long) // 0x60DEAD
 {
     mangled_assert("?Alloc@?$Array2DNewAllocator@M@@QAEPAMKK@Z");
     todo("implement");
-    float * __result = _sub_60DEAD(this, arg, arg);
-    return __result;
 }
 
-_extern _sub_60DC89(Array2D<float,Array2DNewAllocator<float> > *const);
 Array2D<float,Array2DNewAllocator<float> >::Array2D<float,Array2DNewAllocator<float> >() // 0x60DC89
 {
     mangled_assert("??0?$Array2D@MV?$Array2DNewAllocator@M@@@@QAE@XZ");
     todo("implement");
-    _sub_60DC89(this);
 }
 
-_extern void _sub_60DD64(Array2D<float,Array2DNewAllocator<float> > *const);
 Array2D<float,Array2DNewAllocator<float> >::~Array2D<float,Array2DNewAllocator<float> >() // 0x60DD64
 {
     mangled_assert("??1?$Array2D@MV?$Array2DNewAllocator@M@@@@QAE@XZ");
     todo("implement");
-    _sub_60DD64(this);
 }
 
-_extern void _sub_60E117(Array2D<float,Array2DNewAllocator<float> > *const, unsigned long, unsigned long);
 void Array2D<float,Array2DNewAllocator<float> >::SetSize(unsigned long, unsigned long) // 0x60E117
 {
     mangled_assert("?SetSize@?$Array2D@MV?$Array2DNewAllocator@M@@@@QAEXKK@Z");
     todo("implement");
-    _sub_60E117(this, arg, arg);
 }
 
-_extern unsigned long _sub_60E089(Array2D<float,Array2DNewAllocator<float> > const *const);
 unsigned long Array2D<float,Array2DNewAllocator<float> >::GetWidth() const // 0x60E089
 {
     mangled_assert("?GetWidth@?$Array2D@MV?$Array2DNewAllocator@M@@@@QBEKXZ");
     todo("implement");
-    unsigned long __result = _sub_60E089(this);
-    return __result;
 }
 
-_extern unsigned long _sub_60E069(Array2D<float,Array2DNewAllocator<float> > const *const);
 unsigned long Array2D<float,Array2DNewAllocator<float> >::GetHeight() const // 0x60E069
 {
     mangled_assert("?GetHeight@?$Array2D@MV?$Array2DNewAllocator@M@@@@QBEKXZ");
     todo("implement");
-    unsigned long __result = _sub_60E069(this);
-    return __result;
 }
 
-_extern unsigned long _sub_60E06D(Array2D<float,Array2DNewAllocator<float> > const *const);
 unsigned long Array2D<float,Array2DNewAllocator<float> >::GetSize() const // 0x60E06D
 {
     mangled_assert("?GetSize@?$Array2D@MV?$Array2DNewAllocator@M@@@@QBEKXZ");
     todo("implement");
-    unsigned long __result = _sub_60E06D(this);
-    return __result;
 }
 
-_extern float &_sub_60E075(Array2D<float,Array2DNewAllocator<float> > *const, unsigned long, unsigned long);
 float &Array2D<float,Array2DNewAllocator<float> >::GetValue(unsigned long, unsigned long) // 0x60E075
 {
     mangled_assert("?GetValue@?$Array2D@MV?$Array2DNewAllocator@M@@@@QAEAAMKK@Z");
     todo("implement");
-    float & __result = _sub_60E075(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_60E177(Array2D<float,Array2DNewAllocator<float> > *const, unsigned long, unsigned long, float const &);
 void Array2D<float,Array2DNewAllocator<float> >::SetValue(unsigned long, unsigned long, float const &) // 0x60E177
 {
     mangled_assert("?SetValue@?$Array2D@MV?$Array2DNewAllocator@M@@@@QAEXKKABM@Z");
     todo("implement");
-    _sub_60E177(this, arg, arg, arg);
 }
 
-_extern void _sub_60E042(Array2D<float,Array2DNewAllocator<float> > *const, float const &);
 void Array2D<float,Array2DNewAllocator<float> >::FillValue(float const &) // 0x60E042
 {
     mangled_assert("?FillValue@?$Array2D@MV?$Array2DNewAllocator@M@@@@QAEXABM@Z");
     todo("implement");
-    _sub_60E042(this, arg);
 }
 
-_extern _sub_60DCA2(Array2DIterator<float,Array2DNewAllocator<float> > *const);
 Array2DIterator<float,Array2DNewAllocator<float> >::Array2DIterator<float,Array2DNewAllocator<float> >() // 0x60DCA2
 {
     mangled_assert("??0?$Array2DIterator@MV?$Array2DNewAllocator@M@@@@QAE@XZ");
     todo("implement");
-    _sub_60DCA2(this);
 }
 
 /* ---------- private code */

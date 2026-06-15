@@ -123,39 +123,28 @@ static_assert(sizeof(AutoCompleteSys) == 20, "Invalid AutoCompleteSys size");
 
 /* ---------- public code */
 
-_extern bool _sub_1000476F(DebugPane *const);
 _inline bool DebugPane::getEnabled() // 0x1000476F
 {
     mangled_assert("?getEnabled@DebugPane@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_1000476F(this);
-    return __result;
 }
 
-_extern void _sub_10005628(DebugPane *const, __int32, __int32);
 _inline void DebugPane::setWindowPosition(__int32, __int32) // 0x10005628
 {
     mangled_assert("?setWindowPosition@DebugPane@@QAEXHH@Z");
     todo("implement");
-    _sub_10005628(this, arg, arg);
 }
 
-_extern HWND__ *_sub_10004780(DebugPane *const);
 _inline HWND__ *DebugPane::getWindowHandle() // 0x10004780
 {
     mangled_assert("?getWindowHandle@DebugPane@@QAEPAUHWND__@@XZ");
     todo("implement");
-    HWND__ * __result = _sub_10004780(this);
-    return __result;
 }
 
-_extern __int32 _sub_10004779(DebugPane *const);
 _inline __int32 DebugPane::getHeight() // 0x10004779
 {
     mangled_assert("?getHeight@DebugPane@@QAEHXZ");
     todo("implement");
-    __int32 __result = _sub_10004779(this);
-    return __result;
 }
 
 /* ---------- private code */

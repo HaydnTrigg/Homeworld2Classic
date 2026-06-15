@@ -23,12 +23,10 @@
 
 /* ---------- public code */
 
-_extern _sub_523F2F(SimVisHandler *const, char const *, float);
 SimVisHandler::SimVisHandler(char const *, float) // 0x523F2F
 {
     mangled_assert("??0SimVisHandler@@QAE@PBDM@Z");
     todo("implement");
-    _sub_523F2F(this, arg, arg);
 }
 
 /* ---------- private code */

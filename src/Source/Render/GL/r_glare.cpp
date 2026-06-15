@@ -47,71 +47,53 @@ extern GlareParams glareParams; // 0x10021A78
 
 /* ---------- public code */
 
-_extern __int32 _sub_1000C369(__int32, __int32);
 __int32 glareCreateTexture(__int32 width, __int32 height) // 0x1000C369
 {
     mangled_assert("?glareCreateTexture@@YGHHH@Z");
     todo("implement");
-    __int32 __result = _sub_1000C369(width, height);
-    return __result;
 }
 
-_extern void _sub_1000D1B5(unsigned __int32, unsigned __int32);
 void rglInitializeGlare(unsigned __int32 width, unsigned __int32 height) // 0x1000D1B5
 {
     mangled_assert("?rglInitializeGlare@@YGXII@Z");
     todo("implement");
-    _sub_1000D1B5(width, height);
 }
 
-_extern void _sub_1000D196();
 void rglFinalizeGlare() // 0x1000D196
 {
     mangled_assert("?rglFinalizeGlare@@YGXXZ");
     todo("implement");
-    _sub_1000D196();
 }
 
-_extern void _sub_1000C428(unsigned __int32 const, unsigned __int32 const);
 void glareResize(unsigned __int32 const width, unsigned __int32 const height) // 0x1000C428
 {
     mangled_assert("?glareResize@@YGXII@Z");
     todo("implement");
-    _sub_1000C428(width, height);
 }
 
-_extern void _sub_1000D343(float);
 void rglRenderGlare(float intensity) // 0x1000D343
 {
     mangled_assert("?rglRenderGlare@@YGXM@Z");
     todo("implement");
-    _sub_1000D343(intensity);
 }
 
-_extern void _sub_1000C59A(float);
 void renderGlareRegisterCombiner(float intensity) // 0x1000C59A
 {
     mangled_assert("?renderGlareRegisterCombiner@@YGXM@Z");
     todo("implement");
-    _sub_1000C59A(intensity);
 }
 
-_extern void _sub_1000C4A6();
 void remapFrameBuffer() // 0x1000C4A6
 {
     mangled_assert("?remapFrameBuffer@@YGXXZ");
     todo("implement");
-    _sub_1000C4A6();
 }
 
 /* ---------- private code */
 
-_extern float _sub_1000D44A(unsigned __int32 &);
 _static float setupPowerOfTwo(unsigned __int32 &value) // 0x1000D44A
 {
     mangled_assert("setupPowerOfTwo");
     todo("implement");
-    float __result = _sub_1000D44A(value);
-    return __result;
 }
 #endif

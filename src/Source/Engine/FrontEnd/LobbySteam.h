@@ -64,48 +64,34 @@ static_assert(sizeof(LobbySteam) == 12, "Invalid LobbySteam size");
 
 /* ---------- public code */
 
-_extern void _sub_44BDAA(LobbySteam *const);
 _inline void LobbySteam::RoomList() // 0x44BDAA
 {
     mangled_assert("?RoomList@LobbySteam@@UAEXXZ");
     todo("implement");
-    _sub_44BDAA(this);
 }
 
-_extern bool _sub_44BD97(LobbySteam const *const, unsigned __int32, LobbyRoomDesc &);
 _inline bool LobbySteam::RoomGetDescription(unsigned __int32, LobbyRoomDesc &) const // 0x44BD97
 {
     mangled_assert("?RoomGetDescription@LobbySteam@@UBE_NIAAVLobbyRoomDesc@@@Z");
     todo("implement");
-    bool __result = _sub_44BD97(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_44BDA1(LobbySteam *const);
 _inline bool LobbySteam::RoomJoinTitle() // 0x44BDA1
 {
     mangled_assert("?RoomJoinTitle@LobbySteam@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_44BDA1(this);
-    return __result;
 }
 
-_extern bool _sub_44BD9C(LobbySteam *const, unsigned __int32);
 _inline bool LobbySteam::RoomJoin(unsigned __int32) // 0x44BD9C
 {
     mangled_assert("?RoomJoin@LobbySteam@@UAE_NI@Z");
     todo("implement");
-    bool __result = _sub_44BD9C(this, arg);
-    return __result;
 }
 
-_extern bool _sub_44BDA7(LobbySteam *const);
 _inline bool LobbySteam::RoomLeaveTitle() // 0x44BDA7
 {
     mangled_assert("?RoomLeaveTitle@LobbySteam@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_44BDA7(this);
-    return __result;
 }
 
 /* ---------- private code */

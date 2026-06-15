@@ -73,12 +73,10 @@ static_assert(sizeof(MainInterface) == 4, "Invalid MainInterface size");
 
 /* ---------- public code */
 
-_extern void _sub_10003D4E(MainInterface *const);
 _inline MainInterface::~MainInterface() // 0x10003D4E
 {
     mangled_assert("??1MainInterface@@MAE@XZ");
     todo("implement");
-    _sub_10003D4E(this);
 }
 
 /* ---------- private code */

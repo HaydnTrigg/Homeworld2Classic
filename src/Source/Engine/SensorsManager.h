@@ -115,47 +115,34 @@ static_assert(sizeof(SensorsManager) == 156, "Invalid SensorsManager size");
 
 /* ---------- public code */
 
-_extern void _sub_723F53(SensorsManager *const, bool);
 _inline void SensorsManager::enableToggle(bool) // 0x723F53
 {
     mangled_assert("?enableToggle@SensorsManager@@QAEX_N@Z");
     todo("implement");
-    _sub_723F53(this, arg);
 }
 
-_extern void _sub_454022(SensorsManager *const, bool);
 _inline void SensorsManager::userActivated(bool) // 0x454022
 {
     mangled_assert("?userActivated@SensorsManager@@QAEX_N@Z");
     todo("implement");
-    _sub_454022(this, arg);
 }
 
-_extern bool _sub_7256F9(SensorsManager const *const);
 _inline bool SensorsManager::isActive() const // 0x7256F9
 {
     mangled_assert("?isActive@SensorsManager@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_7256F9(this);
-    return __result;
 }
 
-_extern bool _sub_723F5D(SensorsManager const *const);
 _inline bool SensorsManager::isUserActivated() const // 0x723F5D
 {
     mangled_assert("?isUserActivated@SensorsManager@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_723F5D(this);
-    return __result;
 }
 
-_extern SensorsManager::DotInfo const &_sub_487EED(SensorsManager *const);
 _inline SensorsManager::DotInfo const &SensorsManager::getDotInfo() // 0x487EED
 {
     mangled_assert("?getDotInfo@SensorsManager@@QAEABVDotInfo@1@XZ");
     todo("implement");
-    SensorsManager::DotInfo const & __result = _sub_487EED(this);
-    return __result;
 }
 
 /* ---------- private code */

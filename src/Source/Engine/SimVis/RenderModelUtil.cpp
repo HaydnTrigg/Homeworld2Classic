@@ -72,12 +72,10 @@ extern void RenderModelGetSobTransform(Sob const &sob, matrix4 &m);
 
 /* ---------- public code */
 
-_extern void _sub_52265D(Sob const &, matrix4 &);
 void RenderModelGetSobTransform(Sob const &sob, matrix4 &m) // 0x52265D
 {
     mangled_assert("?RenderModelGetSobTransform@@YGXABVSob@@AAVmatrix4@@@Z");
     todo("implement");
-    _sub_52265D(sob, m);
 }
 
 /* ---------- private code */

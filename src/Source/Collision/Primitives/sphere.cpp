@@ -21,20 +21,16 @@
 
 /* ---------- public code */
 
-_extern _sub_660942(Collision::Sphere *const, vector3 const &, float);
 Collision::Sphere::Sphere(vector3 const &, float) // 0x660942
 {
     mangled_assert("??0Sphere@Collision@@QAE@ABVvector3@@M@Z");
     todo("implement");
-    _sub_660942(this, arg, arg);
 }
 
-_extern void _sub_66095F(Collision::Sphere const *const, Collision::AABB &);
 void Collision::Sphere::ComputeAABB(Collision::AABB &) const // 0x66095F
 {
     mangled_assert("?ComputeAABB@Sphere@Collision@@QBEXAAVAABB@2@@Z");
     todo("implement");
-    _sub_66095F(this, arg);
 }
 
 /* ---------- private code */

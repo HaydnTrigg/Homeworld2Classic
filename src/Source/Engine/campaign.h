@@ -140,56 +140,40 @@ static_assert(sizeof(Campaign) == 268, "Invalid Campaign size");
 
 /* ---------- public code */
 
-_extern std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &_sub_45E521(Campaign const *const);
 _inline std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &Campaign::getName() const // 0x45E521
 {
     mangled_assert("?getName@Campaign@@QBEABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ");
     todo("implement");
-    std::basic_string<char,std::char_traits<char>,std::allocator<char> > const & __result = _sub_45E521(this);
-    return __result;
 }
 
-_extern std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > const &_sub_4F9079(Campaign const *const);
 _inline std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > const &Campaign::GetLocalizer() const // 0x4F9079
 {
     mangled_assert("?GetLocalizer@Campaign@@QBEABV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ");
     todo("implement");
-    std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > const & __result = _sub_4F9079(this);
-    return __result;
 }
 
-_extern void _sub_4F8BE8(Campaign *const, char const *);
 _inline void Campaign::AddLocalizer(char const *) // 0x4F8BE8
 {
     mangled_assert("?AddLocalizer@Campaign@@QAEXPBD@Z");
     todo("implement");
-    _sub_4F8BE8(this, arg);
 }
 
-_extern void _sub_4F8F35(Campaign *const);
 _inline void Campaign::ClearLocalizer() // 0x4F8F35
 {
     mangled_assert("?ClearLocalizer@Campaign@@QAEXXZ");
     todo("implement");
-    _sub_4F8F35(this);
 }
 
-_extern bool _sub_5E98EB(Campaign *const);
 _inline bool Campaign::isDeterministic() // 0x5E98EB
 {
     mangled_assert("?isDeterministic@Campaign@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_5E98EB(this);
-    return __result;
 }
 
-_extern char const *_sub_5E9B00(Campaign *const);
 _inline char const *Campaign::saveToken() // 0x5E9B00
 {
     mangled_assert("?saveToken@Campaign@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_5E9B00(this);
-    return __result;
 }
 
 /* ---------- private code */

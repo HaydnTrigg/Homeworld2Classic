@@ -62,58 +62,42 @@ _static __int32 HELP_Gather(char const *find, std::vector<std::basic_string<char
 
 /* ---------- public code */
 
-_extern _sub_6CFE92(HW2Patch *const);
 HW2Patch::HW2Patch() // 0x6CFE92
 {
     mangled_assert("??0HW2Patch@@QAE@XZ");
     todo("implement");
-    _sub_6CFE92(this);
 }
 
-_extern void _sub_6CFEA4(HW2Patch *const);
 _inline HW2Patch::~HW2Patch() // 0x6CFEA4
 {
     mangled_assert("??1HW2Patch@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6CFEA4(this);
 }
 
-_extern bool _sub_6D0541(HW2Patch const *const, char const *);
 bool HW2Patch::Save(char const *) const // 0x6D0541
 {
     mangled_assert("?Save@HW2Patch@@UBE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_6D0541(this, arg);
-    return __result;
 }
 
-_extern bool _sub_6D0024(HW2Patch *const, char const *);
 bool HW2Patch::Open(char const *) // 0x6D0024
 {
     mangled_assert("?Open@HW2Patch@@UAE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_6D0024(this, arg);
-    return __result;
 }
 
-_extern bool _sub_6CFFBD(HW2Patch *const);
 bool HW2Patch::IsLooping() // 0x6CFFBD
 {
     mangled_assert("?IsLooping@HW2Patch@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_6CFFBD(this);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern __int32 _sub_6CFEC8(char const *, std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > &);
 _static __int32 HELP_Gather(char const *find, std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > &list) // 0x6CFEC8
 {
     mangled_assert("HELP_Gather");
     todo("implement");
-    __int32 __result = _sub_6CFEC8(find, list);
-    return __result;
 }
 #endif

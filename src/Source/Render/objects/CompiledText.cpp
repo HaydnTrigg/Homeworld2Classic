@@ -137,56 +137,43 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_1002AA90(std::pair<int,std::map<vector4,std::vector<FatVertex,std::allocator<FatVertex> >,CompiledText::ColourLess,std::allocator<std::pair<vector4 const ,std::vector<FatVertex,std::allocator<FatVertex> > > > > > *const);
 _inline std::pair<int,std::map<vector4,std::vector<FatVertex,std::allocator<FatVertex> >,CompiledText::ColourLess,std::allocator<std::pair<vector4 const ,std::vector<FatVertex,std::allocator<FatVertex> > > > > >::~pair<int,std::map<vector4,std::vector<FatVertex,std::allocator<FatVertex> >,CompiledText::ColourLess,std::allocator<std::pair<vector4 const ,std::vector<FatVertex,std::allocator<FatVertex> > > > > >() // 0x1002AA90
 {
     mangled_assert("??1?$pair@HV?$map@Vvector4@@V?$vector@UFatVertex@@V?$allocator@UFatVertex@@@std@@@std@@UColourLess@CompiledText@@V?$allocator@U?$pair@$$CBVvector4@@V?$vector@UFatVertex@@V?$allocator@UFatVertex@@@std@@@std@@@std@@@3@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_1002AA90(this);
 }
 
-_extern void _sub_1002AAC0(std::pair<Typeface *,std::map<int,std::map<vector4,std::vector<FatVertex,std::allocator<FatVertex> >,CompiledText::ColourLess,std::allocator<std::pair<vector4 const ,std::vector<FatVertex,std::allocator<FatVertex> > > > >,std::less<int>,std::allocator<std::pair<int const ,std::map<vector4,std::vector<FatVertex,std::allocator<FatVertex> >,CompiledText::ColourLess,std::allocator<std::pair<vector4 const ,std::vector<FatVertex,std::allocator<FatVertex> > > > > > > > > *const);
 _inline std::pair<Typeface *,std::map<int,std::map<vector4,std::vector<FatVertex,std::allocator<FatVertex> >,CompiledText::ColourLess,std::allocator<std::pair<vector4 const ,std::vector<FatVertex,std::allocator<FatVertex> > > > >,std::less<int>,std::allocator<std::pair<int const ,std::map<vector4,std::vector<FatVertex,std::allocator<FatVertex> >,CompiledText::ColourLess,std::allocator<std::pair<vector4 const ,std::vector<FatVertex,std::allocator<FatVertex> > > > > > > > >::~pair<Typeface *,std::map<int,std::map<vector4,std::vector<FatVertex,std::allocator<FatVertex> >,CompiledText::ColourLess,std::allocator<std::pair<vector4 const ,std::vector<FatVertex,std::allocator<FatVertex> > > > >,std::less<int>,std::allocator<std::pair<int const ,std::map<vector4,std::vector<FatVertex,std::allocator<FatVertex> >,CompiledText::ColourLess,std::allocator<std::pair<vector4 const ,std::vector<FatVertex,std::allocator<FatVertex> > > > > > > > >() // 0x1002AAC0
 {
     mangled_assert("??1?$pair@PAVTypeface@@V?$map@HV?$map@Vvector4@@V?$vector@UFatVertex@@V?$allocator@UFatVertex@@@std@@@std@@UColourLess@CompiledText@@V?$allocator@U?$pair@$$CBVvector4@@V?$vector@UFatVertex@@V?$allocator@UFatVertex@@@std@@@std@@@std@@@3@@std@@U?$less@H@2@V?$allocator@U?$pair@$$CBHV?$map@Vvector4@@V?$vector@UFatVertex@@V?$allocator@UFatVertex@@@std@@@std@@UColourLess@CompiledText@@V?$allocator@U?$pair@$$CBVvector4@@V?$vector@UFatVertex@@V?$allocator@UFatVertex@@@std@@@std@@@std@@@3@@std@@@std@@@2@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_1002AAC0(this);
 }
 
-_extern void _sub_1002AAF0(std::pair<vector4,std::vector<FatVertex,std::allocator<FatVertex> > > *const);
 _inline std::pair<vector4,std::vector<FatVertex,std::allocator<FatVertex> > >::~pair<vector4,std::vector<FatVertex,std::allocator<FatVertex> > >() // 0x1002AAF0
 {
     mangled_assert("??1?$pair@Vvector4@@V?$vector@UFatVertex@@V?$allocator@UFatVertex@@@std@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_1002AAF0(this);
 }
 
-_extern void _sub_1002B5E0(CompiledText *const);
 void CompiledText::clear() // 0x1002B5E0
 {
     mangled_assert("?clear@CompiledText@@QAEXXZ");
     todo("implement");
-    _sub_1002B5E0(this);
 }
 
-_extern std::vector<FatVertex,std::allocator<FatVertex> > &_sub_1002B720(CompiledText *const, Typeface *, __int32, vector4 const &);
 std::vector<FatVertex,std::allocator<FatVertex> > &CompiledText::getVertices(Typeface *, __int32, vector4 const &) // 0x1002B720
 {
     mangled_assert("?getVertices@CompiledText@@QAEAAV?$vector@UFatVertex@@V?$allocator@UFatVertex@@@std@@@std@@PAVTypeface@@HABVvector4@@@Z");
     todo("implement");
-    std::vector<FatVertex,std::allocator<FatVertex> > & __result = _sub_1002B720(this, arg, arg, arg);
-    return __result;
 }
 
-_extern void _sub_1002B960(CompiledText *const, rndTable *);
 void CompiledText::print(rndTable *) // 0x1002B960
 {
     mangled_assert("?print@CompiledText@@QAEXPAUrndTable@@@Z");
     todo("implement");
-    _sub_1002B960(this, arg);
 }
 
 /* ---------- private code */

@@ -201,85 +201,64 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_4E3345(Sob *, Sob *, Collision::Point const &);
 void CollisionCallback(Sob *sobA, Sob *sobB, Collision::Point const &hitPoint) // 0x4E3345
 {
     mangled_assert("?CollisionCallback@@YGXPAVSob@@0ABUPoint@Collision@@@Z");
     todo("implement");
-    _sub_4E3345(sobA, sobB, hitPoint);
 }
 
-_extern void _sub_4E33F2(Missile *, Sob *, Collision::Point const &);
 void CollisionCallbackMissileSob(Missile *missile, Sob *obj2, Collision::Point const &hitPoint) // 0x4E33F2
 {
     mangled_assert("?CollisionCallbackMissileSob@@YGXPAVMissile@@PAVSob@@ABUPoint@Collision@@@Z");
     todo("implement");
-    _sub_4E33F2(missile, obj2, hitPoint);
 }
 
-_extern bool _sub_4E40AD(Ship *, Ship *);
 bool triviallyRejectShipCollision(Ship *collider, Ship *collidee) // 0x4E40AD
 {
     mangled_assert("?triviallyRejectShipCollision@@YG_NPAVShip@@0@Z");
     todo("implement");
-    bool __result = _sub_4E40AD(collider, collidee);
-    return __result;
 }
 
-_extern void _sub_4E2D99(Ship *, Ship *);
 void CollisionBigShipBigShip(Ship *shipA, Ship *shipB) // 0x4E2D99
 {
     mangled_assert("?CollisionBigShipBigShip@@YGXPAVShip@@0@Z");
     todo("implement");
-    _sub_4E2D99(shipA, shipB);
 }
 
-_extern void _sub_4E35CF(Ship *, Ship *);
 void CollisionShipUnmoveable(Ship *ship, Ship *shipUnmoveable) // 0x4E35CF
 {
     mangled_assert("?CollisionShipUnmoveable@@YGXPAVShip@@0@Z");
     todo("implement");
-    _sub_4E35CF(ship, shipUnmoveable);
 }
 
-_extern void _sub_4E3DB6(Collision::OBB const &, vector3 const &, vector3 &, vector3 &);
 void GetClosestPointOnOBB(Collision::OBB const &obb, vector3 const &inPosition, vector3 &outClosestPoint, vector3 &outNormal) // 0x4E3DB6
 {
     mangled_assert("?GetClosestPointOnOBB@@YGXABVOBB@Collision@@ABVvector3@@AAV3@2@Z");
     todo("implement");
-    _sub_4E3DB6(obb, inPosition, outClosestPoint, outNormal);
 }
 
-_extern void _sub_4E30BB(Ship *, Ship *);
 void CollisionBigShipSmallShip(Ship *bigShip, Ship *smallShip) // 0x4E30BB
 {
     mangled_assert("?CollisionBigShipSmallShip@@YGXPAVShip@@0@Z");
     todo("implement");
-    _sub_4E30BB(bigShip, smallShip);
 }
 
-_extern void _sub_4E37C7(Ship *, Ship *);
 void CollisionSmallShipSmallShip(Ship *shipA, Ship *shipB) // 0x4E37C7
 {
     mangled_assert("?CollisionSmallShipSmallShip@@YGXPAVShip@@0@Z");
     todo("implement");
-    _sub_4E37C7(shipA, shipB);
 }
 
-_extern void _sub_4E3431(Ship *, Ship *);
 void CollisionCallbackShipShip(Ship *shipA, Ship *shipB) // 0x4E3431
 {
     mangled_assert("?CollisionCallbackShipShip@@YGXPAVShip@@0@Z");
     todo("implement");
-    _sub_4E3431(shipA, shipB);
 }
 
-_extern void _sub_4E3F5B(Ship *, Ship *);
 void calculateCollisionDamage(Ship *shipA, Ship *shipB) // 0x4E3F5B
 {
     mangled_assert("?calculateCollisionDamage@@YGXPAVShip@@0@Z");
     todo("implement");
-    _sub_4E3F5B(shipA, shipB);
 }
 
 /* ---------- private code */

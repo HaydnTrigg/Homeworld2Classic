@@ -191,155 +191,106 @@ static_assert(sizeof(DockPath) == 56, "Invalid DockPath size");
 
 /* ---------- public code */
 
-_extern _sub_6A61A2(DockPathPointStatic *const);
 _inline DockPathPointStatic::DockPathPointStatic() // 0x6A61A2
 {
     mangled_assert("??0DockPathPointStatic@@IAE@XZ");
     todo("implement");
-    _sub_6A61A2(this);
 }
 
-_extern vector3 const &_sub_4955A2(DockPathPointStatic *const);
 _inline vector3 const &DockPathPointStatic::getPosition() // 0x4955A2
 {
     mangled_assert("?getPosition@DockPathPointStatic@@QAEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_4955A2(this);
-    return __result;
 }
 
-_extern matrix3 const &_sub_4AE573(DockPathPointStatic *const);
 _inline matrix3 const &DockPathPointStatic::getOrientation() // 0x4AE573
 {
     mangled_assert("?getOrientation@DockPathPointStatic@@QAEABVmatrix3@@XZ");
     todo("implement");
-    matrix3 const & __result = _sub_4AE573(this);
-    return __result;
 }
 
-_extern bool _sub_69A3B4(DockPathPointStatic *const);
 _inline bool DockPathPointStatic::getUseOrientation() // 0x69A3B4
 {
     mangled_assert("?getUseOrientation@DockPathPointStatic@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_69A3B4(this);
-    return __result;
 }
 
-_extern float _sub_5F238B(DockPathPointStatic *const);
 _inline float DockPathPointStatic::getToleranceRadius() // 0x5F238B
 {
     mangled_assert("?getToleranceRadius@DockPathPointStatic@@QAEMXZ");
     todo("implement");
-    float __result = _sub_5F238B(this);
-    return __result;
 }
 
-_extern float _sub_69A3B0(DockPathPointStatic *const);
 _inline float DockPathPointStatic::getToleranceRadiusSqr() // 0x69A3B0
 {
     mangled_assert("?getToleranceRadiusSqr@DockPathPointStatic@@QAEMXZ");
     todo("implement");
-    float __result = _sub_69A3B0(this);
-    return __result;
 }
 
-_extern float _sub_6A2939(DockPathPointStatic *const);
 _inline float DockPathPointStatic::getMaxSpeed() // 0x6A2939
 {
     mangled_assert("?getMaxSpeed@DockPathPointStatic@@QAEMXZ");
     todo("implement");
-    float __result = _sub_6A2939(this);
-    return __result;
 }
 
-_extern bool _sub_6B1261(DockPathPointStatic *const);
 _inline bool DockPathPointStatic::getCheckRotation() // 0x6B1261
 {
     mangled_assert("?getCheckRotation@DockPathPointStatic@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_6B1261(this);
-    return __result;
 }
 
-_extern bool _sub_6B1265(DockPathPointStatic *const);
 _inline bool DockPathPointStatic::getForceCloseBehaviour() // 0x6B1265
 {
     mangled_assert("?getForceCloseBehaviour@DockPathPointStatic@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_6B1265(this);
-    return __result;
 }
 
-_extern _sub_6A62DE(DockPathStatic *const);
 _inline DockPathStatic::DockPathStatic() // 0x6A62DE
 {
     mangled_assert("??0DockPathStatic@@IAE@XZ");
     todo("implement");
-    _sub_6A62DE(this);
 }
 
-_extern bool _sub_6A696B(DockPathPoint *const);
 _inline bool DockPathPoint::isDeterministic() // 0x6A696B
 {
     mangled_assert("?isDeterministic@DockPathPoint@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6A696B(this);
-    return __result;
 }
 
-_extern char const *_sub_6A6B6B(DockPathPoint *const);
 _inline char const *DockPathPoint::saveToken() // 0x6A6B6B
 {
     mangled_assert("?saveToken@DockPathPoint@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6A6B6B(this);
-    return __result;
 }
 
-_extern DockPathStatic const *_sub_48CD18(DockPath const *const);
 _inline DockPathStatic const *DockPath::getStaticInfo() const // 0x48CD18
 {
     mangled_assert("?getStaticInfo@DockPath@@QBEPBVDockPathStatic@@XZ");
     todo("implement");
-    DockPathStatic const * __result = _sub_48CD18(this);
-    return __result;
 }
 
-_extern DockQueue &_sub_4AE6AD(DockPath *const);
 _inline DockQueue &DockPath::getQueue() // 0x4AE6AD
 {
     mangled_assert("?getQueue@DockPath@@QAEAAVDockQueue@@XZ");
     todo("implement");
-    DockQueue & __result = _sub_4AE6AD(this);
-    return __result;
 }
 
-_extern Ship const *_sub_49559E(DockPath const *const);
 _inline Ship const *DockPath::getOwner() const // 0x49559E
 {
     mangled_assert("?getOwner@DockPath@@QBEPBVShip@@XZ");
     todo("implement");
-    Ship const * __result = _sub_49559E(this);
-    return __result;
 }
 
-_extern bool _sub_6A6968(DockPath *const);
 _inline bool DockPath::isDeterministic() // 0x6A6968
 {
     mangled_assert("?isDeterministic@DockPath@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6A6968(this);
-    return __result;
 }
 
-_extern char const *_sub_6A6B65(DockPath *const);
 _inline char const *DockPath::saveToken() // 0x6A6B65
 {
     mangled_assert("?saveToken@DockPath@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6A6B65(this);
-    return __result;
 }
 
 /* ---------- private code */

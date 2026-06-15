@@ -156,31 +156,22 @@ static_assert(sizeof(TimerMap) == 72, "Invalid TimerMap size");
 
 /* ---------- public code */
 
-_extern float _sub_468042(TimerMap const *const);
 _inline float TimerMap::GetDelta() const // 0x468042
 {
     mangled_assert("?GetDelta@TimerMap@@QBEMXZ");
     todo("implement");
-    float __result = _sub_468042(this);
-    return __result;
 }
 
-_extern bool _sub_648382(TimerMap *const);
 _inline bool TimerMap::isDeterministic() // 0x648382
 {
     mangled_assert("?isDeterministic@TimerMap@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_648382(this);
-    return __result;
 }
 
-_extern char const *_sub_64841F(TimerMap *const);
 _inline char const *TimerMap::saveToken() // 0x64841F
 {
     mangled_assert("?saveToken@TimerMap@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_64841F(this);
-    return __result;
 }
 
 /* ---------- private code */

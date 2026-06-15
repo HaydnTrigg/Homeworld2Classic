@@ -86,21 +86,16 @@ static_assert(sizeof(Cursor) == 36, "Invalid Cursor size");
 
 /* ---------- public code */
 
-_extern bool _sub_4F6107(Cursor const *const);
 _inline bool Cursor::isHardwareCursor() const // 0x4F6107
 {
     mangled_assert("?isHardwareCursor@Cursor@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_4F6107(this);
-    return __result;
 }
 
-_extern _sub_5EA7E6(Cursor::CursorImage *const);
 _inline Cursor::CursorImage::CursorImage() // 0x5EA7E6
 {
     mangled_assert("??0CursorImage@Cursor@@QAE@XZ");
     todo("implement");
-    _sub_5EA7E6(this);
 }
 
 /* ---------- private code */

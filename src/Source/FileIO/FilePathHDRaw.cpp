@@ -169,185 +169,130 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_1000F08C(FilePathHDRaw *const);
 FilePathHDRaw::FilePathHDRaw() // 0x1000F08C
 {
     mangled_assert("??0FilePathHDRaw@@QAE@XZ");
     todo("implement");
-    _sub_1000F08C(this);
 }
 
-_extern void _sub_1000F0AF(FilePathHDRaw *const);
 FilePathHDRaw::~FilePathHDRaw() // 0x1000F0AF
 {
     mangled_assert("??1FilePathHDRaw@@UAE@XZ");
     todo("implement");
-    _sub_1000F0AF(this);
 }
 
-_extern bool _sub_1000F204(FilePathHDRaw *const, char *, char const *, StreamMode const);
 bool FilePathHDRaw::ConvertFromAlias(char *, char const *, StreamMode const) // 0x1000F204
 {
     mangled_assert("?ConvertFromAlias@FilePathHDRaw@@UAE_NPADPBDW4StreamMode@@@Z");
     todo("implement");
-    bool __result = _sub_1000F204(this, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_1000F218(FilePathHDRaw *const, char *, char const *);
 bool FilePathHDRaw::ConvertToAlias(char *, char const *) // 0x1000F218
 {
     mangled_assert("?ConvertToAlias@FilePathHDRaw@@UAE_NPADPBD@Z");
     todo("implement");
-    bool __result = _sub_1000F218(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_1000F22C(FilePathHDRaw *const, char const *);
 bool FilePathHDRaw::FileDel(char const *) // 0x1000F22C
 {
     mangled_assert("?FileDel@FilePathHDRaw@@UAE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_1000F22C(this, arg);
-    return __result;
 }
 
-_extern bool _sub_1000F2E3(char const *);
 bool FilePathHDRaw::UnaliasedFileDel(char const *filename) // 0x1000F2E3
 {
     mangled_assert("?UnaliasedFileDel@FilePathHDRaw@@SG_NPBD@Z");
     todo("implement");
-    bool __result = _sub_1000F2E3(filename);
-    return __result;
 }
 
-_extern FilePath::FILE_Type _sub_1000F23B(FilePathHDRaw *const, char const *, StreamMode);
 FilePath::FILE_Type FilePathHDRaw::FileType(char const *, StreamMode) // 0x1000F23B
 {
     mangled_assert("?FileType@FilePathHDRaw@@UAE?AW4FILE_Type@FilePath@@PBDW4StreamMode@@@Z");
     todo("implement");
-    FilePath::FILE_Type __result = _sub_1000F23B(this, arg, arg);
-    return __result;
 }
 
-_extern FilePath::FILE_Type _sub_1000F533(char const *);
 FilePath::FILE_Type FilePathHDRaw::UnaliasedFileType(char const *filename) // 0x1000F533
 {
     mangled_assert("?UnaliasedFileType@FilePathHDRaw@@SG?AW4FILE_Type@FilePath@@PBD@Z");
     todo("implement");
-    FilePath::FILE_Type __result = _sub_1000F533(filename);
-    return __result;
 }
 
-_extern void _sub_1000F231(FilePathHDRaw *const, char const *, std::vector<fstring<260>,std::allocator<fstring<260> > > &);
 void FilePathHDRaw::FileList(char const *, std::vector<fstring<260>,std::allocator<fstring<260> > > &) // 0x1000F231
 {
     mangled_assert("?FileList@FilePathHDRaw@@UAEXPBDAAV?$vector@V?$fstring@$0BAE@@@V?$allocator@V?$fstring@$0BAE@@@@std@@@std@@@Z");
     todo("implement");
-    _sub_1000F231(this, arg, arg);
 }
 
-_extern void _sub_1000F468(char const *, FilePath::FileListObj *);
 void FilePathHDRaw::UnaliasedFileList(char const *filespec, FilePath::FileListObj *out) // 0x1000F468
 {
     mangled_assert("?UnaliasedFileList@FilePathHDRaw@@SGXPBDPAVFileListObj@FilePath@@@Z");
     todo("implement");
-    _sub_1000F468(filespec, out);
 }
 
-_extern void _sub_1000F372(char const *, std::vector<fstring<260>,std::allocator<fstring<260> > > &);
 void FilePathHDRaw::UnaliasedFileList(char const *filespec, std::vector<fstring<260>,std::allocator<fstring<260> > > &out) // 0x1000F372
 {
     mangled_assert("?UnaliasedFileList@FilePathHDRaw@@SGXPBDAAV?$vector@V?$fstring@$0BAE@@@V?$allocator@V?$fstring@$0BAE@@@@std@@@std@@@Z");
     todo("implement");
-    _sub_1000F372(filespec, out);
 }
 
-_extern ByteStream *_sub_1000F236(FilePathHDRaw *const, char const *, StreamMode);
 ByteStream *FilePathHDRaw::FileOpen(char const *, StreamMode) // 0x1000F236
 {
     mangled_assert("?FileOpen@FilePathHDRaw@@UAEPAVByteStream@@PBDW4StreamMode@@@Z");
     todo("implement");
-    ByteStream * __result = _sub_1000F236(this, arg, arg);
-    return __result;
 }
 
-_extern ByteStream *_sub_1000F4EC(char const *, StreamMode);
 ByteStream *FilePathHDRaw::UnaliasedFileOpen(char const *filename, StreamMode mode) // 0x1000F4EC
 {
     mangled_assert("?UnaliasedFileOpen@FilePathHDRaw@@SGPAVByteStream@@PBDW4StreamMode@@@Z");
     todo("implement");
-    ByteStream * __result = _sub_1000F4EC(filename, mode);
-    return __result;
 }
 
-_extern bool _sub_1000F306(char const *);
 bool FilePathHDRaw::UnaliasedFileExists(char const *fname) // 0x1000F306
 {
     mangled_assert("?UnaliasedFileExists@FilePathHDRaw@@SG_NPBD@Z");
     todo("implement");
-    bool __result = _sub_1000F306(fname);
-    return __result;
 }
 
-_extern bool _sub_1000F26B(char const *);
 bool FilePathHDRaw::UnaliasedDirCreate(char const *filename) // 0x1000F26B
 {
     mangled_assert("?UnaliasedDirCreate@FilePathHDRaw@@SG_NPBD@Z");
     todo("implement");
-    bool __result = _sub_1000F26B(filename);
-    return __result;
 }
 
-_extern long long _sub_1000F50A(char const *);
 long long FilePathHDRaw::UnaliasedFileTime(char const *filename) // 0x1000F50A
 {
     mangled_assert("?UnaliasedFileTime@FilePathHDRaw@@SG_JPBD@Z");
     todo("implement");
-    long long __result = _sub_1000F50A(filename);
-    return __result;
 }
 
-_extern _sub_1000F007(FileListRaw *const, char const *);
 FileListRaw::FileListRaw(char const *) // 0x1000F007
 {
     mangled_assert("??0FileListRaw@@QAE@PBD@Z");
     todo("implement");
-    _sub_1000F007(this, arg);
 }
 
-_extern void _sub_1000F095(FileListRaw *const);
 FileListRaw::~FileListRaw() // 0x1000F095
 {
     mangled_assert("??1FileListRaw@@UAE@XZ");
     todo("implement");
-    _sub_1000F095(this);
 }
 
-_extern unsigned __int32 _sub_1000F247(FileListRaw *const);
 unsigned __int32 FileListRaw::GetCount() // 0x1000F247
 {
     mangled_assert("?GetCount@FileListRaw@@QAEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_1000F247(this);
-    return __result;
 }
 
-_extern char const *_sub_1000F254(FileListRaw *const, unsigned __int32);
 char const *FileListRaw::GetFullPathAt(unsigned __int32) // 0x1000F254
 {
     mangled_assert("?GetFullPathAt@FileListRaw@@QAEPBDI@Z");
     todo("implement");
-    char const * __result = _sub_1000F254(this, arg);
-    return __result;
 }
 
-_extern void _sub_1000F1BD(FileListRaw *const, char const *);
 void FileListRaw::AddFile(char const *) // 0x1000F1BD
 {
     mangled_assert("?AddFile@FileListRaw@@EAEXPBD@Z");
     todo("implement");
-    _sub_1000F1BD(this, arg);
 }
 
 /* ---------- private code */

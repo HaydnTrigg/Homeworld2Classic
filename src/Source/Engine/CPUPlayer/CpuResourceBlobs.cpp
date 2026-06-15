@@ -166,199 +166,143 @@ static_assert(sizeof(`anonymous-namespace'::SobInGroup) == 1, "Invalid `anonymou
 
 /* ---------- public code */
 
-_extern _sub_5391A2(ResourceBlobManager *const, CpuCommon &);
 ResourceBlobManager::ResourceBlobManager(CpuCommon &) // 0x5391A2
 {
     mangled_assert("??0ResourceBlobManager@@QAE@AAVCpuCommon@@@Z");
     todo("implement");
-    _sub_5391A2(this, arg);
 }
 
-_extern void _sub_539219(ResourceBlob *const);
 _inline ResourceBlob::~ResourceBlob() // 0x539219
 {
     mangled_assert("??1ResourceBlob@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_539219(this);
 }
 
-_extern void _sub_53925D(ResourceBlobManager *const);
 ResourceBlobManager::~ResourceBlobManager() // 0x53925D
 {
     mangled_assert("??1ResourceBlobManager@@QAE@XZ");
     todo("implement");
-    _sub_53925D(this);
 }
 
-_extern Selection const *_sub_539649(ResourceBlobManager *const, Sob const *);
 Selection const *ResourceBlobManager::GetResourceBlobList(Sob const *) // 0x539649
 {
     mangled_assert("?GetResourceBlobList@ResourceBlobManager@@QAEPBVSelection@@PBVSob@@@Z");
     todo("implement");
-    Selection const * __result = _sub_539649(this, arg);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_539640(ResourceBlobManager *const);
 unsigned __int32 ResourceBlobManager::GetResourceBlobCount() // 0x539640
 {
     mangled_assert("?GetResourceBlobCount@ResourceBlobManager@@QAEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_539640(this);
-    return __result;
 }
 
-_extern ResourceBlob *_sub_539624(ResourceBlobManager *const, unsigned __int32);
 ResourceBlob *ResourceBlobManager::GetResourceBlobAt(unsigned __int32) // 0x539624
 {
     mangled_assert("?GetResourceBlobAt@ResourceBlobManager@@QAEPAVResourceBlob@@I@Z");
     todo("implement");
-    ResourceBlob * __result = _sub_539624(this, arg);
-    return __result;
 }
 
-_extern void _sub_53956D(ResourceBlobManager *const);
 void ResourceBlobManager::Debug() // 0x53956D
 {
     mangled_assert("?Debug@ResourceBlobManager@@QAEXXZ");
     todo("implement");
-    _sub_53956D(this);
 }
 
-_extern void _sub_53956E(ResourceBlob *const);
 void ResourceBlob::DefaultSettings() // 0x53956E
 {
     mangled_assert("?DefaultSettings@ResourceBlob@@AAEXXZ");
     todo("implement");
-    _sub_53956E(this);
 }
 
-_extern _sub_538F5D(ResourceBlob *const, SaveGameData *);
 ResourceBlob::ResourceBlob(SaveGameData *) // 0x538F5D
 {
     mangled_assert("??0ResourceBlob@@QAE@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_538F5D(this, arg);
 }
 
-_extern void _sub_53A108(ResourceBlob *const, SaveGameData *, SaveType);
 void ResourceBlob::save(SaveGameData *, SaveType) // 0x53A108
 {
     mangled_assert("?save@ResourceBlob@@QAEXPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    _sub_53A108(this, arg, arg);
 }
 
-_extern _sub_539080(ResourceBlob *const, Sob *);
 ResourceBlob::ResourceBlob(Sob *) // 0x539080
 {
     mangled_assert("??0ResourceBlob@@QAE@PAVSob@@@Z");
     todo("implement");
-    _sub_539080(this, arg);
 }
 
-_extern _sub_538E95(ResourceBlob *const, Selection const &);
 ResourceBlob::ResourceBlob(Selection const &) // 0x538E95
 {
     mangled_assert("??0ResourceBlob@@QAE@ABVSelection@@@Z");
     todo("implement");
-    _sub_538E95(this, arg);
 }
 
-_extern _sub_539125(ResourceBlob *const);
 ResourceBlob::ResourceBlob() // 0x539125
 {
     mangled_assert("??0ResourceBlob@@QAE@XZ");
     todo("implement");
-    _sub_539125(this);
 }
 
-_extern unsigned __int32 _sub_539707(ResourceBlob *const);
 unsigned __int32 ResourceBlob::ResourceLatchPoints() // 0x539707
 {
     mangled_assert("?ResourceLatchPoints@ResourceBlob@@QAEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_539707(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_539758(ResourceBlob *const);
 unsigned __int32 ResourceBlob::TotalCollectors() // 0x539758
 {
     mangled_assert("?TotalCollectors@ResourceBlob@@QAEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_539758(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_539782(ResourceBlob *const, Player *);
 unsigned __int32 ResourceBlob::TotalFriendlyCollectors(Player *) // 0x539782
 {
     mangled_assert("?TotalFriendlyCollectors@ResourceBlob@@QAEIPAVPlayer@@@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_539782(this, arg);
-    return __result;
 }
 
-_extern void _sub_539580(ResourceBlob *const, Player *, std::vector<Squadron *,std::allocator<Squadron *> > &);
 void ResourceBlob::GetEnemyUsingBlob(Player *, std::vector<Squadron *,std::allocator<Squadron *> > &) // 0x539580
 {
     mangled_assert("?GetEnemyUsingBlob@ResourceBlob@@QAEXPAVPlayer@@AAV?$vector@PAVSquadron@@V?$allocator@PAVSquadron@@@std@@@std@@@Z");
     todo("implement");
-    _sub_539580(this, arg, arg);
 }
 
-_extern void _sub_53969E(ResourceBlob *const, Squadron const *);
 void ResourceBlob::RemoveGatherer(Squadron const *) // 0x53969E
 {
     mangled_assert("?RemoveGatherer@ResourceBlob@@QAEXPBVSquadron@@@Z");
     todo("implement");
-    _sub_53969E(this, arg);
 }
 
-_extern void _sub_5396D0(ResourceBlob *const, Squadron const *);
 void ResourceBlob::RemoveRefinery(Squadron const *) // 0x5396D0
 {
     mangled_assert("?RemoveRefinery@ResourceBlob@@QAEXPBVSquadron@@@Z");
     todo("implement");
-    _sub_5396D0(this, arg);
 }
 
-_extern bool _sub_539C70(ResourceBlob const *const, vector3 &, float &);
 bool ResourceBlob::getCentreAndRadiusOfCollectors(vector3 &, float &) const // 0x539C70
 {
     mangled_assert("?getCentreAndRadiusOfCollectors@ResourceBlob@@QBE_NAAVvector3@@AAM@Z");
     todo("implement");
-    bool __result = _sub_539C70(this, arg, arg);
-    return __result;
 }
 
-_extern Resource *_sub_539EFA(ResourceBlob const *const, vector3 const);
 Resource *ResourceBlob::getClosestBusyResourceTo(vector3 const) const // 0x539EFA
 {
     mangled_assert("?getClosestBusyResourceTo@ResourceBlob@@QBEPAVResource@@Vvector3@@@Z");
     todo("implement");
-    Resource * __result = _sub_539EFA(this, arg);
-    return __result;
 }
 
-_extern Ship *_sub_539F7C(ResourceBlob const *const);
 Ship *ResourceBlob::getLargestCollector() const // 0x539F7C
 {
     mangled_assert("?getLargestCollector@ResourceBlob@@QBEPAVShip@@XZ");
     todo("implement");
-    Ship * __result = _sub_539F7C(this);
-    return __result;
 }
 
-_extern bool _sub_539AEA(ResourceBlob const *const, unsigned __int32);
 bool ResourceBlob::blobInUseByAlly(unsigned __int32) const // 0x539AEA
 {
     mangled_assert("?blobInUseByAlly@ResourceBlob@@QBE_NI@Z");
     todo("implement");
-    bool __result = _sub_539AEA(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

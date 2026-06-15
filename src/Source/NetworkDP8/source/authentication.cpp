@@ -88,20 +88,16 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_6D56AF(Net::Authentication *const);
 Net::Authentication::Authentication() // 0x6D56AF
 {
     mangled_assert("??0Authentication@Net@@QAE@XZ");
     todo("implement");
-    _sub_6D56AF(this);
 }
 
-_extern void _sub_6D5709(Net::Authentication *const, unsigned char const *, wchar_t const *);
 void Net::Authentication::AddEntry(unsigned char const *, wchar_t const *) // 0x6D5709
 {
     mangled_assert("?AddEntry@Authentication@Net@@QAEXQBEPB_W@Z");
     todo("implement");
-    _sub_6D5709(this, arg, arg);
 }
 
 /* ---------- private code */

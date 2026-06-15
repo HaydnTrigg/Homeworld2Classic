@@ -71,53 +71,41 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_10098BA0(StatMonitorRender *const, rndTable &);
 StatMonitorRender::StatMonitorRender(rndTable &) // 0x10098BA0
 {
     mangled_assert("??0StatMonitorRender@@QAE@AAUrndTable@@@Z");
     todo("implement");
-    _sub_10098BA0(this, arg);
 }
 
-_extern void _sub_10098C20(StatMonitorRender *const, float const, float const, StatMonitor const &);
 void StatMonitorRender::display(float const, float const, StatMonitor const &) // 0x10098C20
 {
     mangled_assert("?display@StatMonitorRender@@QAEXMMABVStatMonitor@@@Z");
     todo("implement");
-    _sub_10098C20(this, arg, arg, arg);
 }
 
-_extern void _sub_10098EA0(StatMonitorRender *const, StatMonitor const &, unsigned __int32);
 void StatMonitorRender::displayChannelTimes(StatMonitor const &, unsigned __int32) // 0x10098EA0
 {
     mangled_assert("?displayChannelTimes@StatMonitorRender@@AAEXABVStatMonitor@@I@Z");
     todo("implement");
-    _sub_10098EA0(this, arg, arg);
 }
 
-_extern void _sub_10099010(StatMonitorRender *const, StatMonitor const &, float, float);
 void StatMonitorRender::displayGraphs(StatMonitor const &, float, float) // 0x10099010
 {
     mangled_assert("?displayGraphs@StatMonitorRender@@AAEXABVStatMonitor@@MM@Z");
     todo("implement");
-    _sub_10099010(this, arg, arg, arg);
 }
 
-_extern void _sub_10099260(StatMonitorRender *const, StatMonitor const &, unsigned __int32, unsigned __int32, float, float, unsigned __int32 *, StatMonitorChannel const *, FontSystem *);
 void StatMonitorRender::renderChildrenChannels(StatMonitor const &, unsigned __int32, unsigned __int32, float, float, unsigned __int32 *, StatMonitorChannel const *, FontSystem *) // 0x10099260
 {
     mangled_assert("?renderChildrenChannels@StatMonitorRender@@AAEXABVStatMonitor@@IIMMPAIPBVStatMonitorChannel@@PAVFontSystem@@@Z");
     todo("implement");
-    _sub_10099260(this, arg, arg, arg, arg, arg, arg, arg, arg);
 }
 
 /* ---------- private code */
 
-_extern void _sub_10099410(char *, unsigned __int32);
 _static void setSpaces(char *spacebuf, unsigned __int32 spaces) // 0x10099410
 {
     mangled_assert("setSpaces");
     todo("implement");
-    _sub_10099410(spacebuf, spaces);
 }
 #endif

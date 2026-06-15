@@ -352,161 +352,112 @@ static_assert(sizeof(ShipHold) == 184, "Invalid ShipHold size");
 
 /* ---------- public code */
 
-_extern float _sub_48CAF5(ShipHoldStatic const *const);
 _inline float ShipHoldStatic::getResourceUnloadingRate() const // 0x48CAF5
 {
     mangled_assert("?getResourceUnloadingRate@ShipHoldStatic@@QBEMXZ");
     todo("implement");
-    float __result = _sub_48CAF5(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_4AE53B(ShipHoldStatic const *const);
 _inline unsigned __int32 ShipHoldStatic::getNumberOfParkingSpots() const // 0x4AE53B
 {
     mangled_assert("?getNumberOfParkingSpots@ShipHoldStatic@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_4AE53B(this);
-    return __result;
 }
 
-_extern DockPathStatic *_sub_4AE48B(ShipHoldStatic const *const, unsigned __int32);
 _inline DockPathStatic *ShipHoldStatic::getDockPathStatic(unsigned __int32) const // 0x4AE48B
 {
     mangled_assert("?getDockPathStatic@ShipHoldStatic@@QBEPAVDockPathStatic@@I@Z");
     todo("implement");
-    DockPathStatic * __result = _sub_4AE48B(this, arg);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_48C887(ShipHoldStatic const *const);
 _inline unsigned __int32 ShipHoldStatic::getNumberOfDockingPaths() const // 0x48C887
 {
     mangled_assert("?getNumberOfDockingPaths@ShipHoldStatic@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_48C887(this);
-    return __result;
 }
 
-_extern bool _sub_4AD9C6(ShipHoldStatic const *const, __int32);
 _inline bool ShipHoldStatic::canStayInHold(__int32) const // 0x4AD9C6
 {
     mangled_assert("?canStayInHold@ShipHoldStatic@@QBE_NH@Z");
     todo("implement");
-    bool __result = _sub_4AD9C6(this, arg);
-    return __result;
 }
 
-_extern void _sub_4CF0C0(ShipHoldStatic *const, __int32);
 _inline void ShipHoldStatic::addStayInHoldFamily(__int32) // 0x4CF0C0
 {
     mangled_assert("?addStayInHoldFamily@ShipHoldStatic@@IAEXH@Z");
     todo("implement");
-    _sub_4CF0C0(this, arg);
 }
 
-_extern void _sub_4D0044(ShipHoldStatic *const);
 _inline void ShipHoldStatic::resetFamily() // 0x4D0044
 {
     mangled_assert("?resetFamily@ShipHoldStatic@@IAEXXZ");
     todo("implement");
-    _sub_4D0044(this);
 }
 
-_extern void _sub_69A6BE(ShipHold *const, Squadron *);
 _inline void ShipHold::registerSquadronInterestedInDocking(Squadron *) // 0x69A6BE
 {
     mangled_assert("?registerSquadronInterestedInDocking@ShipHold@@QAEXPAVSquadron@@@Z");
     todo("implement");
-    _sub_69A6BE(this, arg);
 }
 
-_extern SquadronList const &_sub_69A37E(ShipHold const *const);
 _inline SquadronList const &ShipHold::getShipsInterestedInDocking() const // 0x69A37E
 {
     mangled_assert("?getShipsInterestedInDocking@ShipHold@@QBEABVSquadronList@@XZ");
     todo("implement");
-    SquadronList const & __result = _sub_69A37E(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_4AE4CE(ShipHold const *const);
 _inline unsigned __int32 ShipHold::getNumDockLaunchPaths() const // 0x4AE4CE
 {
     mangled_assert("?getNumDockLaunchPaths@ShipHold@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_4AE4CE(this);
-    return __result;
 }
 
-_extern SquadronList const &_sub_594AF3(ShipHold const *const);
 _inline SquadronList const &ShipHold::getSquadsInHold() const // 0x594AF3
 {
     mangled_assert("?getSquadsInHold@ShipHold@@QBEABVSquadronList@@XZ");
     todo("implement");
-    SquadronList const & __result = _sub_594AF3(this);
-    return __result;
 }
 
-_extern AutoLaunchSetting _sub_695BF1(ShipHold const *const);
 _inline AutoLaunchSetting ShipHold::getAutoLaunch() const // 0x695BF1
 {
     mangled_assert("?getAutoLaunch@ShipHold@@QBE?AW4AutoLaunchSetting@@XZ");
     todo("implement");
-    AutoLaunchSetting __result = _sub_695BF1(this);
-    return __result;
 }
 
-_extern void _sub_4BB1D1(ShipHold *const, AutoLaunchSetting);
 _inline void ShipHold::setAutoLaunch(AutoLaunchSetting) // 0x4BB1D1
 {
     mangled_assert("?setAutoLaunch@ShipHold@@QAEXW4AutoLaunchSetting@@@Z");
     todo("implement");
-    _sub_4BB1D1(this, arg);
 }
 
-_extern std::list<Squadron *,std::allocator<Squadron *> > const &_sub_593756(ShipHold const *const);
 _inline std::list<Squadron *,std::allocator<Squadron *> > const &ShipHold::GetUIShipList() const // 0x593756
 {
     mangled_assert("?GetUIShipList@ShipHold@@QBEABV?$list@PAVSquadron@@V?$allocator@PAVSquadron@@@std@@@std@@XZ");
     todo("implement");
-    std::list<Squadron *,std::allocator<Squadron *> > const & __result = _sub_593756(this);
-    return __result;
 }
 
-_extern AutoLaunchSetting _sub_594AF7(ShipHold const *const);
 _inline AutoLaunchSetting ShipHold::getUIAutoLaunch() const // 0x594AF7
 {
     mangled_assert("?getUIAutoLaunch@ShipHold@@QBE?AW4AutoLaunchSetting@@XZ");
     todo("implement");
-    AutoLaunchSetting __result = _sub_594AF7(this);
-    return __result;
 }
 
-_extern void _sub_594C16(ShipHold *const, AutoLaunchSetting);
 _inline void ShipHold::setUIAutoLaunch(AutoLaunchSetting) // 0x594C16
 {
     mangled_assert("?setUIAutoLaunch@ShipHold@@QAEXW4AutoLaunchSetting@@@Z");
     todo("implement");
-    _sub_594C16(this, arg);
 }
 
-_extern bool _sub_4AF324(ShipHold *const);
 _inline bool ShipHold::isDeterministic() // 0x4AF324
 {
     mangled_assert("?isDeterministic@ShipHold@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4AF324(this);
-    return __result;
 }
 
-_extern char const *_sub_4AFB1A(ShipHold *const);
 _inline char const *ShipHold::saveToken() // 0x4AFB1A
 {
     mangled_assert("?saveToken@ShipHold@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4AFB1A(this);
-    return __result;
 }
 
 /* ---------- private code */

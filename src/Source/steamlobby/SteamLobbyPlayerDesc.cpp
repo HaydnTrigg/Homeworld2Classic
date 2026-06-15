@@ -32,37 +32,28 @@ typedef std::random_access_iterator_tag iterator_category;
 
 /* ---------- public code */
 
-_extern _sub_1000159A(SteamLobbyPlayerDesc *const, SteamLobbyPlayerDesc const &);
 _inline SteamLobbyPlayerDesc::SteamLobbyPlayerDesc(SteamLobbyPlayerDesc const &) // 0x1000159A
 {
     mangled_assert("??0SteamLobbyPlayerDesc@@QAE@ABV0@@Z");
     compiler_generated();
     todo("implement");
-    _sub_1000159A(this, arg);
 }
 
-_extern _sub_100015DD(SteamLobbyPlayerDesc *const);
 SteamLobbyPlayerDesc::SteamLobbyPlayerDesc() // 0x100015DD
 {
     mangled_assert("??0SteamLobbyPlayerDesc@@QAE@XZ");
     todo("implement");
-    _sub_100015DD(this);
 }
 
-_extern void _sub_100019C6(SteamLobbyPlayerDesc *const);
 _inline SteamLobbyPlayerDesc::~SteamLobbyPlayerDesc() // 0x100019C6
 {
-    _sub_100019C6(this);
 }
 
-_extern SteamLobbyPlayerDesc &_sub_10001637(SteamLobbyPlayerDesc *const, SteamLobbyPlayerDesc const &);
 _inline SteamLobbyPlayerDesc &SteamLobbyPlayerDesc::operator=(SteamLobbyPlayerDesc const &) // 0x10001637
 {
     mangled_assert("??4SteamLobbyPlayerDesc@@QAEAAV0@ABV0@@Z");
     compiler_generated();
     todo("implement");
-    SteamLobbyPlayerDesc & __result = _sub_10001637(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

@@ -51,21 +51,16 @@ static_assert(sizeof(SteamLobbySessionDesc) == 16, "Invalid SteamLobbySessionDes
 
 /* ---------- public code */
 
-_extern void _sub_44C042(SteamLobbySessionDesc *const, unsigned __int32);
 _inline void SteamLobbySessionDesc::SetUserData(unsigned __int32) // 0x44C042
 {
     mangled_assert("?SetUserData@SteamLobbySessionDesc@@QAEXI@Z");
     todo("implement");
-    _sub_44C042(this, arg);
 }
 
-_extern unsigned __int32 _sub_44BA6B(SteamLobbySessionDesc const *const);
 _inline unsigned __int32 SteamLobbySessionDesc::GetUserData() const // 0x44BA6B
 {
     mangled_assert("?GetUserData@SteamLobbySessionDesc@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_44BA6B(this);
-    return __result;
 }
 
 /* ---------- private code */
@@ -124,21 +119,16 @@ static_assert(sizeof(SteamLobbySessionDesc) == 16, "Invalid SteamLobbySessionDes
 
 /* ---------- public code */
 
-_extern void _sub_10001ED2(SteamLobbySessionDesc *const, unsigned __int32);
 _inline void SteamLobbySessionDesc::SetUserData(unsigned __int32) // 0x10001ED2
 {
     mangled_assert("?SetUserData@SteamLobbySessionDesc@@QAEXI@Z");
     todo("implement");
-    _sub_10001ED2(this, arg);
 }
 
-_extern unsigned __int32 _sub_10001C8D(SteamLobbySessionDesc const *const);
 _inline unsigned __int32 SteamLobbySessionDesc::GetUserData() const // 0x10001C8D
 {
     mangled_assert("?GetUserData@SteamLobbySessionDesc@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_10001C8D(this);
-    return __result;
 }
 
 /* ---------- private code */

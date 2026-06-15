@@ -201,100 +201,70 @@ extern unsigned __int32 dcdShutdownID; // 0x10003024
 
 /* ---------- public code */
 
-_extern bool _sub_1000109E();
 bool dcdStartup() // 0x1000109E
 {
     mangled_assert("?dcdStartup@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_1000109E();
-    return __result;
 }
 
-_extern bool _sub_1000108A();
 bool dcdShutdown() // 0x1000108A
 {
     mangled_assert("?dcdShutdown@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_1000108A();
-    return __result;
 }
 
-_extern unsigned __int32 _sub_100010E1();
 unsigned __int32 getLibraryID() // 0x100010E1
 {
     mangled_assert("_getLibraryID");
     todo("implement");
-    unsigned __int32 __result = _sub_100010E1();
-    return __result;
 }
 
-_extern void _sub_10001018(char const *, char const *);
 void dcdPrint(char const *key, char const *string) // 0x10001018
 {
     mangled_assert("?dcdPrint@@YGXPBD0@Z");
     todo("implement");
-    _sub_10001018(key, string);
 }
 
-_extern void _sub_1000100C();
 void dcdLineFeed() // 0x1000100C
 {
     mangled_assert("?dcdLineFeed@@YGXXZ");
     todo("implement");
-    _sub_1000100C();
 }
 
-_extern void _sub_10001000();
 void dcdClear() // 0x10001000
 {
     mangled_assert("?dcdClear@@YGXXZ");
     todo("implement");
-    _sub_10001000();
 }
 
-_extern bool _sub_1000106C(void (*)(unsigned __int32, char *), unsigned __int32);
 bool dcdSetInputCB(void (*fn)(unsigned __int32, char *), unsigned __int32 ID) // 0x1000106C
 {
     mangled_assert("?dcdSetInputCB@@YG_NP6GXIPAD@ZI@Z");
     todo("implement");
-    bool __result = _sub_1000106C(fn, ID);
-    return __result;
 }
 
-_extern bool _sub_10001067(void (*)(unsigned __int32, char *), unsigned __int32);
 bool dcdSetCharInputCB(void (*fn)(unsigned __int32, char *), unsigned __int32 ID) // 0x10001067
 {
     mangled_assert("?dcdSetCharInputCB@@YG_NP6GXIPAD@ZI@Z");
     todo("implement");
-    bool __result = _sub_10001067(fn, ID);
-    return __result;
 }
 
-_extern bool _sub_10001071(void (*)(unsigned __int32), unsigned __int32);
 bool dcdSetShutdownCB(void (*fn)(unsigned __int32), unsigned __int32 ID) // 0x10001071
 {
     mangled_assert("?dcdSetShutdownCB@@YG_NP6GXI@ZI@Z");
     todo("implement");
-    bool __result = _sub_10001071(fn, ID);
-    return __result;
 }
 
-_extern bool _sub_100010E7(void *);
 bool setupFunctionTable(void *fnTable) // 0x100010E7
 {
     mangled_assert("_setupFunctionTable");
     todo("implement");
-    bool __result = _sub_100010E7(fnTable);
-    return __result;
 }
 
-_extern __int32 _sub_100010B2(void *, unsigned long, void *);
 __int32 DllMain(void *hInstance, unsigned long reason, void *reserved) // 0x100010B2
 {
     mangled_assert("_DllMain@12");
     todo("implement");
-    __int32 __result = _sub_100010B2(hInstance, reason, reserved);
-    return __result;
 }
 
 /* ---------- private code */

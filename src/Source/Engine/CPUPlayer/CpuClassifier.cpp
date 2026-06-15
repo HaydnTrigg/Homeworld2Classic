@@ -122,171 +122,127 @@ extern unsigned __int32 CpuClassifier::s_hyperspace_id; // 0x844918
 
 /* ---------- public code */
 
-_extern _sub_52CA51(CpuClassifier::Class *const, CpuClassifier::Class const &);
 _inline CpuClassifier::Class::Class(CpuClassifier::Class const &) // 0x52CA51
 {
     mangled_assert("??0Class@CpuClassifier@@QAE@ABU01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_52CA51(this, arg);
 }
 
-_extern _sub_52CA8E(CpuClassifier::Class *const);
 _inline CpuClassifier::Class::Class() // 0x52CA8E
 {
     mangled_assert("??0Class@CpuClassifier@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_52CA8E(this);
 }
 
-_extern _sub_52CAA8(CpuClassifier *const, Player &, LuaConfig &, SimProxy &);
 CpuClassifier::CpuClassifier(Player &, LuaConfig &, SimProxy &) // 0x52CAA8
 {
     mangled_assert("??0CpuClassifier@@QAE@AAVPlayer@@AAVLuaConfig@@AAVSimProxy@@@Z");
     todo("implement");
-    _sub_52CAA8(this, arg, arg, arg);
 }
 
-_extern void _sub_52CB80(LuaBinding::ObjInternal1<unsigned int,unsigned int,LuaBinding::Functor1MemberConst<unsigned int,unsigned int,CpuClassifier> > *const);
 _inline LuaBinding::ObjInternal1<unsigned int,unsigned int,LuaBinding::Functor1MemberConst<unsigned int,unsigned int,CpuClassifier> >::~ObjInternal1<unsigned int,unsigned int,LuaBinding::Functor1MemberConst<unsigned int,unsigned int,CpuClassifier> >() // 0x52CB80
 {
     mangled_assert("??1?$ObjInternal1@IIV?$Functor1MemberConst@IIVCpuClassifier@@@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_52CB80(this);
 }
 
-_extern void _sub_52CB86(LuaBinding::ObjInternal2<unsigned int,unsigned int,unsigned int,LuaBinding::Functor2MemberConst<unsigned int,unsigned int,unsigned int,CpuClassifier> > *const);
 _inline LuaBinding::ObjInternal2<unsigned int,unsigned int,unsigned int,LuaBinding::Functor2MemberConst<unsigned int,unsigned int,unsigned int,CpuClassifier> >::~ObjInternal2<unsigned int,unsigned int,unsigned int,LuaBinding::Functor2MemberConst<unsigned int,unsigned int,unsigned int,CpuClassifier> >() // 0x52CB86
 {
     mangled_assert("??1?$ObjInternal2@IIIV?$Functor2MemberConst@IIIVCpuClassifier@@@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_52CB86(this);
 }
 
-_extern void _sub_52CB8C(LuaBinding::ObjInternal2<unsigned int,unsigned int,void,LuaBinding::Functor2MemberNonConst<unsigned int,unsigned int,void,CpuClassifier> > *const);
 _inline LuaBinding::ObjInternal2<unsigned int,unsigned int,void,LuaBinding::Functor2MemberNonConst<unsigned int,unsigned int,void,CpuClassifier> >::~ObjInternal2<unsigned int,unsigned int,void,LuaBinding::Functor2MemberNonConst<unsigned int,unsigned int,void,CpuClassifier> >() // 0x52CB8C
 {
     mangled_assert("??1?$ObjInternal2@IIXV?$Functor2MemberNonConst@IIXVCpuClassifier@@@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_52CB8C(this);
 }
 
-_extern void _sub_52CB92(LuaBinding::ObjInternal2<unsigned int,unsigned int,bool,LuaBinding::Functor2MemberConst<unsigned int,unsigned int,bool,CpuClassifier> > *const);
 _inline LuaBinding::ObjInternal2<unsigned int,unsigned int,bool,LuaBinding::Functor2MemberConst<unsigned int,unsigned int,bool,CpuClassifier> >::~ObjInternal2<unsigned int,unsigned int,bool,LuaBinding::Functor2MemberConst<unsigned int,unsigned int,bool,CpuClassifier> >() // 0x52CB92
 {
     mangled_assert("??1?$ObjInternal2@II_NV?$Functor2MemberConst@II_NVCpuClassifier@@@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_52CB92(this);
 }
 
-_extern void _sub_52CB98(LuaBinding::ObjInternal2<unsigned int,char const *,void,LuaBinding::Functor2MemberNonConst<unsigned int,char const *,void,CpuClassifier> > *const);
 _inline LuaBinding::ObjInternal2<unsigned int,char const *,void,LuaBinding::Functor2MemberNonConst<unsigned int,char const *,void,CpuClassifier> >::~ObjInternal2<unsigned int,char const *,void,LuaBinding::Functor2MemberNonConst<unsigned int,char const *,void,CpuClassifier> >() // 0x52CB98
 {
     mangled_assert("??1?$ObjInternal2@IPBDXV?$Functor2MemberNonConst@IPBDXVCpuClassifier@@@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_52CB98(this);
 }
 
-_extern void _sub_52CBA3(CpuClassifier::Class *const);
 _inline CpuClassifier::Class::~Class() // 0x52CBA3
 {
     mangled_assert("??1Class@CpuClassifier@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_52CBA3(this);
 }
 
-_extern CpuClassifier::Class &_sub_52CC84(CpuClassifier::Class *const, CpuClassifier::Class const &);
 _inline CpuClassifier::Class &CpuClassifier::Class::operator=(CpuClassifier::Class const &) // 0x52CC84
 {
     mangled_assert("??4Class@CpuClassifier@@QAEAAU01@ABU01@@Z");
     compiler_generated();
     todo("implement");
-    CpuClassifier::Class & __result = _sub_52CC84(this, arg);
-    return __result;
 }
 
-_extern void _sub_52CE92(CpuClassifier *const, LuaConfig &);
 void CpuClassifier::BindToLua(LuaConfig &) // 0x52CE92
 {
     mangled_assert("?BindToLua@CpuClassifier@@QAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_52CE92(this, arg);
 }
 
-_extern unsigned __int32 _sub_52D95B(CpuClassifier const *const, unsigned __int32, unsigned __int32);
 unsigned __int32 CpuClassifier::numActiveOfClass(unsigned __int32, unsigned __int32) const // 0x52D95B
 {
     mangled_assert("?numActiveOfClass@CpuClassifier@@QBEIII@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_52D95B(this, arg, arg);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_52D993(CpuClassifier const *const, unsigned __int32);
 unsigned __int32 CpuClassifier::numQueueOfClass(unsigned __int32) const // 0x52D993
 {
     mangled_assert("?numQueueOfClass@CpuClassifier@@QBEII@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_52D993(this, arg);
-    return __result;
 }
 
-_extern bool _sub_52D918(CpuClassifier const *const, unsigned __int32, unsigned __int32);
 bool CpuClassifier::isOfClass(unsigned __int32, unsigned __int32) const // 0x52D918
 {
     mangled_assert("?isOfClass@CpuClassifier@@QBE_NII@Z");
     todo("implement");
-    bool __result = _sub_52D918(this, arg, arg);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_52D84D(CpuClassifier const *const, unsigned __int32);
 unsigned __int32 CpuClassifier::classSize(unsigned __int32) const // 0x52D84D
 {
     mangled_assert("?classSize@CpuClassifier@@QBEII@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_52D84D(this, arg);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_52D837(CpuClassifier const *const, unsigned __int32, unsigned __int32);
 unsigned __int32 CpuClassifier::classAt(unsigned __int32, unsigned __int32) const // 0x52D837
 {
     mangled_assert("?classAt@CpuClassifier@@QBEIII@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_52D837(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_52CE55(CpuClassifier *const, unsigned __int32, char const *);
 void CpuClassifier::AddClassName(unsigned __int32, char const *) // 0x52CE55
 {
     mangled_assert("?AddClassName@CpuClassifier@@AAEXIPBD@Z");
     todo("implement");
-    _sub_52CE55(this, arg, arg);
 }
 
-_extern void _sub_52CE7A(CpuClassifier *const, unsigned __int32, unsigned __int32);
 void CpuClassifier::AddToClass(unsigned __int32, unsigned __int32) // 0x52CE7A
 {
     mangled_assert("?AddToClass@CpuClassifier@@AAEXII@Z");
     todo("implement");
-    _sub_52CE7A(this, arg, arg);
 }
 
-_extern void _sub_52D27B(CpuClassifier *const, unsigned __int32, float);
 void CpuClassifier::DebugStats(unsigned __int32, float) // 0x52D27B
 {
     mangled_assert("?DebugStats@CpuClassifier@@QAEXIM@Z");
     todo("implement");
-    _sub_52D27B(this, arg, arg);
 }
 
 /* ---------- private code */

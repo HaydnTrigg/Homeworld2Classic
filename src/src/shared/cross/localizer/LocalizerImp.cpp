@@ -98,332 +98,238 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_1000351B(LocalizerImp::Resource *const);
 LocalizerImp::Resource::~Resource() // 0x1000351B
 {
     mangled_assert("??1Resource@LocalizerImp@@UAE@XZ");
     todo("implement");
-    _sub_1000351B(this);
 }
 
-_extern void _sub_10003522(boost::bad_weak_ptr *const);
 _inline boost::bad_weak_ptr::~bad_weak_ptr() // 0x10003522
 {
     mangled_assert("??1bad_weak_ptr@boost@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10003522(this);
 }
 
-_extern boost::shared_ptr<LocalizerImp::Resource> &_sub_10003545(boost::shared_ptr<LocalizerImp::Resource> *const, boost::shared_ptr<LocalizerImp::Resource> const &);
 _inline boost::shared_ptr<LocalizerImp::Resource> &boost::shared_ptr<LocalizerImp::Resource>::operator=(boost::shared_ptr<LocalizerImp::Resource> const &) // 0x10003545
 {
     mangled_assert("??4?$shared_ptr@VResource@LocalizerImp@@@boost@@QAEAAV01@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    boost::shared_ptr<LocalizerImp::Resource> & __result = _sub_10003545(this, arg);
-    return __result;
 }
 
-_extern LocalizerImp::ResEntry &_sub_10003562(LocalizerImp::ResEntry *const, LocalizerImp::ResEntry const &);
 _inline LocalizerImp::ResEntry &LocalizerImp::ResEntry::operator=(LocalizerImp::ResEntry const &) // 0x10003562
 {
     mangled_assert("??4ResEntry@LocalizerImp@@QAEAAV01@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    LocalizerImp::ResEntry & __result = _sub_10003562(this, arg);
-    return __result;
 }
 
-_extern _HMEMPOOL *_sub_100036FA();
 _HMEMPOOL *LocalizerImp::Allocator() // 0x100036FA
 {
     mangled_assert("?Allocator@LocalizerImp@@SGPAU_HMEMPOOL@@XZ");
     todo("implement");
-    _HMEMPOOL * __result = _sub_100036FA();
-    return __result;
 }
 
-_extern LocalizerImp *_sub_1000383C();
 LocalizerImp *LocalizerImp::Instance() // 0x1000383C
 {
     mangled_assert("?Instance@LocalizerImp@@SGPAV1@XZ");
     todo("implement");
-    LocalizerImp * __result = _sub_1000383C();
-    return __result;
 }
 
-_extern void _sub_1000380D();
 void LocalizerImp::Initialize() // 0x1000380D
 {
     mangled_assert("?Initialize@LocalizerImp@@SGXXZ");
     todo("implement");
-    _sub_1000380D();
 }
 
-_extern void _sub_10003EC8();
 void LocalizerImp::Shutdown() // 0x10003EC8
 {
     mangled_assert("?Shutdown@LocalizerImp@@SGXXZ");
     todo("implement");
-    _sub_10003EC8();
 }
 
-_extern _sub_100033EC(LocalizerImp *const);
 LocalizerImp::LocalizerImp() // 0x100033EC
 {
     mangled_assert("??0LocalizerImp@@AAE@XZ");
     todo("implement");
-    _sub_100033EC(this);
 }
 
-_extern _sub_100033F9(LocalizerImp::ResEntry *const, LocalizerImp::ResEntry const &);
 _inline LocalizerImp::ResEntry::ResEntry(LocalizerImp::ResEntry const &) // 0x100033F9
 {
     mangled_assert("??0ResEntry@LocalizerImp@@QAE@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_100033F9(this, arg);
 }
 
-_extern _sub_10003419(LocalizerImp::ResEntry *const);
 _inline LocalizerImp::ResEntry::ResEntry() // 0x10003419
 {
     mangled_assert("??0ResEntry@LocalizerImp@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10003419(this);
 }
 
-_extern _sub_10003423(boost::bad_weak_ptr *const, boost::bad_weak_ptr const &);
 _inline boost::bad_weak_ptr::bad_weak_ptr(boost::bad_weak_ptr const &) // 0x10003423
 {
     mangled_assert("??0bad_weak_ptr@boost@@QAE@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_10003423(this, arg);
 }
 
-_extern _sub_1000343C(boost::bad_weak_ptr *const);
 _inline boost::bad_weak_ptr::bad_weak_ptr() // 0x1000343C
 {
     mangled_assert("??0bad_weak_ptr@boost@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_1000343C(this);
 }
 
-_extern void _sub_100034E7(boost::shared_ptr<LocalizerImp::Resource> *const);
 _inline boost::shared_ptr<LocalizerImp::Resource>::~shared_ptr<LocalizerImp::Resource>() // 0x100034E7
 {
     mangled_assert("??1?$shared_ptr@VResource@LocalizerImp@@@boost@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_100034E7(this);
 }
 
-_extern void _sub_100034FF(LocalizerImp *const);
 LocalizerImp::~LocalizerImp() // 0x100034FF
 {
     mangled_assert("??1LocalizerImp@@AAE@XZ");
     todo("implement");
-    _sub_100034FF(this);
 }
 
-_extern void _sub_100034F3(boost::detail::sp_counted_base_impl<LocalizerImp::Resource *,boost::checked_deleter<LocalizerImp::Resource> > *const);
 _inline boost::detail::sp_counted_base_impl<LocalizerImp::Resource *,boost::checked_deleter<LocalizerImp::Resource> >::~sp_counted_base_impl<LocalizerImp::Resource *,boost::checked_deleter<LocalizerImp::Resource> >() // 0x100034F3
 {
     mangled_assert("??1?$sp_counted_base_impl@PAVResource@LocalizerImp@@U?$checked_deleter@VResource@LocalizerImp@@@boost@@@detail@boost@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_100034F3(this);
 }
 
-_extern void _sub_1000350F(LocalizerImp::ResEntry *const);
 _inline LocalizerImp::ResEntry::~ResEntry() // 0x1000350F
 {
     mangled_assert("??1ResEntry@LocalizerImp@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_1000350F(this);
 }
 
-_extern bool _sub_10003842(LocalizerImp *const, char const *, LocalizerImp::Resource *(*)(char const *));
 bool LocalizerImp::InternalResLoad(char const *, LocalizerImp::Resource *(*)(char const *)) // 0x10003842
 {
     mangled_assert("?InternalResLoad@LocalizerImp@@AAE_NPBDP6GPAVResource@1@0@Z@Z");
     todo("implement");
-    bool __result = _sub_10003842(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_10003A14(LocalizerImp *const, char const *);
 bool LocalizerImp::InternalResUnload(char const *) // 0x10003A14
 {
     mangled_assert("?InternalResUnload@LocalizerImp@@AAE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_10003A14(this, arg);
-    return __result;
 }
 
-_extern _sub_10003360(boost::shared_ptr<LocalizerImp::Resource> *const, boost::shared_ptr<LocalizerImp::Resource> const &);
 _inline boost::shared_ptr<LocalizerImp::Resource>::shared_ptr<LocalizerImp::Resource>(boost::shared_ptr<LocalizerImp::Resource> const &) // 0x10003360
 {
     mangled_assert("??0?$shared_ptr@VResource@LocalizerImp@@@boost@@QAE@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_10003360(this, arg);
 }
 
-_extern bool _sub_10003FE9(LocalizerImp *const, char const *);
 bool LocalizerImp::UCSLoad(char const *) // 0x10003FE9
 {
     mangled_assert("?UCSLoad@LocalizerImp@@QAE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_10003FE9(this, arg);
-    return __result;
 }
 
-_extern bool _sub_10003FFA(LocalizerImp *const, char const *);
 bool LocalizerImp::UCSUnload(char const *) // 0x10003FFA
 {
     mangled_assert("?UCSUnload@LocalizerImp@@QAE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_10003FFA(this, arg);
-    return __result;
 }
 
-_extern bool _sub_10003F89(LocalizerImp *const, char const *);
 bool LocalizerImp::TxtLoad(char const *) // 0x10003F89
 {
     mangled_assert("?TxtLoad@LocalizerImp@@QAE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_10003F89(this, arg);
-    return __result;
 }
 
-_extern bool _sub_10003FE4(LocalizerImp *const, char const *);
 bool LocalizerImp::TxtUnload(char const *) // 0x10003FE4
 {
     mangled_assert("?TxtUnload@LocalizerImp@@QAE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_10003FE4(this, arg);
-    return __result;
 }
 
-_extern LocalizerImp::Resource *_sub_100037BB(LocalizerImp *const, char const *);
 LocalizerImp::Resource *LocalizerImp::GetTxtResourceByFileName(char const *) // 0x100037BB
 {
     mangled_assert("?GetTxtResourceByFileName@LocalizerImp@@AAEPAVResource@1@PBD@Z");
     todo("implement");
-    LocalizerImp::Resource * __result = _sub_100037BB(this, arg);
-    return __result;
 }
 
-_extern bool _sub_10003768(LocalizerImp const *const, wchar_t *, unsigned __int32, __int32);
 bool LocalizerImp::GetString(wchar_t *, unsigned __int32, __int32) const // 0x10003768
 {
     mangled_assert("?GetString@LocalizerImp@@QBE_NPA_WIH@Z");
     todo("implement");
-    bool __result = _sub_10003768(this, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_10003FBD(LocalizerImp *const, char const *);
 bool LocalizerImp::TxtSave(char const *) // 0x10003FBD
 {
     mangled_assert("?TxtSave@LocalizerImp@@QAE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_10003FBD(this, arg);
-    return __result;
 }
 
-_extern bool _sub_10003F4B(LocalizerImp *const, char const *, __int32 &, __int32 &);
 bool LocalizerImp::TxtGetRange(char const *, __int32 &, __int32 &) // 0x10003F4B
 {
     mangled_assert("?TxtGetRange@LocalizerImp@@QAE_NPBDAAH1@Z");
     todo("implement");
-    bool __result = _sub_10003F4B(this, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_10003F9A(LocalizerImp *const, char const *, __int32 const, __int32 const);
 bool LocalizerImp::TxtResetRange(char const *, __int32 const, __int32 const) // 0x10003F9A
 {
     mangled_assert("?TxtResetRange@LocalizerImp@@QAE_NPBDHH@Z");
     todo("implement");
-    bool __result = _sub_10003F9A(this, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_10003F21(LocalizerImp *const, char const *, unsigned __int32 const, char const *, __int32 &, __int32 &);
 bool LocalizerImp::TxtAddRange(char const *, unsigned __int32 const, char const *, __int32 &, __int32 &) // 0x10003F21
 {
     mangled_assert("?TxtAddRange@LocalizerImp@@QAE_NPBDI0AAH1@Z");
     todo("implement");
-    bool __result = _sub_10003F21(this, arg, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern __int32 _sub_10003EFB(LocalizerImp *const, char const *, __int32 const, __int32 const, wchar_t const *, __int32 const);
 __int32 LocalizerImp::TxtAdd(char const *, __int32 const, __int32 const, wchar_t const *, __int32 const) // 0x10003EFB
 {
     mangled_assert("?TxtAdd@LocalizerImp@@QAEHPBDHHPB_WH@Z");
     todo("implement");
-    __int32 __result = _sub_10003EFB(this, arg, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > _sub_10003CD3(LocalizerImp *const, char const *);
 std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > LocalizerImp::ResLoadFolder(char const *) // 0x10003CD3
 {
     mangled_assert("?ResLoadFolder@LocalizerImp@@QAE?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@PBD@Z");
     todo("implement");
-    std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > __result = _sub_10003CD3(this, arg);
-    return __result;
 }
 
-_extern bool _sub_10003E48(LocalizerImp *const, char const *);
 bool LocalizerImp::ResUnload(char const *) // 0x10003E48
 {
     mangled_assert("?ResUnload@LocalizerImp@@QAE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_10003E48(this, arg);
-    return __result;
 }
 
-_extern void _sub_10003E17(LocalizerImp *const, std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > const &);
 void LocalizerImp::ResUnload(std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > const &) // 0x10003E17
 {
     mangled_assert("?ResUnload@LocalizerImp@@QAEXABV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@Z");
     todo("implement");
-    _sub_10003E17(this, arg);
 }
 
 /* ---------- private code */
 
-_extern bool _sub_10003CA3(__int32, __int32, __int32);
 _static _inline bool RangeOverlap(__int32 min, __int32 max, __int32 val) // 0x10003CA3
 {
     mangled_assert("RangeOverlap");
     todo("implement");
-    bool __result = _sub_10003CA3(min, max, val);
-    return __result;
 }
 
-_extern void _sub_10003A93(std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > &, char const *, char const *);
 _static void ListFiles(std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > &files, char const *folder, char const *extension) // 0x10003A93
 {
     mangled_assert("ListFiles");
     todo("implement");
-    _sub_10003A93(files, folder, extension);
 }
 
-_extern void _sub_10003BCF(std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > const &, bool const, _FILETIME &);
 _static void ListFilesTime(std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > const &files, bool const oldest, _FILETIME &time) // 0x10003BCF
 {
     mangled_assert("ListFilesTime");
     todo("implement");
-    _sub_10003BCF(files, oldest, time);
 }
 #endif

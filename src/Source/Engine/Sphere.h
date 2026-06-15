@@ -41,31 +41,22 @@ static_assert(sizeof(Sphere) == 564, "Invalid Sphere size");
 
 /* ---------- public code */
 
-_extern float _sub_4B264D(Sphere const *const);
 _inline float Sphere::getRadius() const // 0x4B264D
 {
     mangled_assert("?getRadius@Sphere@@QBEMXZ");
     todo("implement");
-    float __result = _sub_4B264D(this);
-    return __result;
 }
 
-_extern bool _sub_4B2095(Sphere *const);
 _inline bool Sphere::isDeterministic() // 0x4B2095
 {
     mangled_assert("?isDeterministic@Sphere@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4B2095(this);
-    return __result;
 }
 
-_extern char const *_sub_4B2131(Sphere *const);
 _inline char const *Sphere::saveToken() // 0x4B2131
 {
     mangled_assert("?saveToken@Sphere@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4B2131(this);
-    return __result;
 }
 
 /* ---------- private code */

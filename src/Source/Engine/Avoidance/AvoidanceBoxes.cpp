@@ -57,73 +57,52 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_4EBE70(AvoidanceBoxes *const, Collision::OBB const &);
 void AvoidanceBoxes::AddAvoidanceBox(Collision::OBB const &) // 0x4EBE70
 {
     mangled_assert("?AddAvoidanceBox@AvoidanceBoxes@@QAEXABVOBB@Collision@@@Z");
     todo("implement");
-    _sub_4EBE70(this, arg);
 }
 
-_extern AvoidanceBoxes *_sub_4EC11E();
 AvoidanceBoxes *AvoidanceBoxes::create() // 0x4EC11E
 {
     mangled_assert("?create@AvoidanceBoxes@@CGPAV1@XZ");
     todo("implement");
-    AvoidanceBoxes * __result = _sub_4EC11E();
-    return __result;
 }
 
-_extern bool _sub_4EC1EA();
 bool AvoidanceBoxes::release() // 0x4EC1EA
 {
     mangled_assert("?release@AvoidanceBoxes@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_4EC1EA();
-    return __result;
 }
 
-_extern AvoidanceBoxes *_sub_4EC152();
 AvoidanceBoxes *AvoidanceBoxes::instance() // 0x4EC152
 {
     mangled_assert("?instance@AvoidanceBoxes@@SGPAV1@XZ");
     todo("implement");
-    AvoidanceBoxes * __result = _sub_4EC152();
-    return __result;
 }
 
-_extern bool _sub_4EC21F();
 bool AvoidanceBoxes::startup() // 0x4EC21F
 {
     mangled_assert("?startup@AvoidanceBoxes@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_4EC21F();
-    return __result;
 }
 
-_extern bool _sub_4EC20E();
 bool AvoidanceBoxes::shutdown() // 0x4EC20E
 {
     mangled_assert("?shutdown@AvoidanceBoxes@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_4EC20E();
-    return __result;
 }
 
-_extern void _sub_4EBED4(Collision::OBB const &, vector4 const &, vector4 const &);
 void DrawOBB(Collision::OBB const &obb, vector4 const &col, vector4 const &linecol) // 0x4EBED4
 {
     mangled_assert("?DrawOBB@@YGXABVOBB@Collision@@ABVvector4@@1@Z");
     todo("implement");
-    _sub_4EBED4(obb, col, linecol);
 }
 
-_extern void _sub_4EBE75(AvoidanceBoxes const *const);
 void AvoidanceBoxes::DebugRender() const // 0x4EBE75
 {
     mangled_assert("?DebugRender@AvoidanceBoxes@@QBEXXZ");
     todo("implement");
-    _sub_4EBE75(this);
 }
 
 /* ---------- private code */

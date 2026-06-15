@@ -38,12 +38,10 @@ static_assert(sizeof(PathFinder) == 20, "Invalid PathFinder size");
 
 /* ---------- public code */
 
-_extern void _sub_4E46B3(PathFinder *const, float);
 _inline void PathFinder::setEpsilon(float) // 0x4E46B3
 {
     mangled_assert("?setEpsilon@PathFinder@@QAEXM@Z");
     todo("implement");
-    _sub_4E46B3(this, arg);
 }
 
 /* ---------- private code */

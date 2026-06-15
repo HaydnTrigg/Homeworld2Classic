@@ -87,30 +87,22 @@ static_assert(sizeof(ScarEventSystem) == 44, "Invalid ScarEventSystem size");
 
 /* ---------- public code */
 
-_extern _sub_726E08(ScarEventSystem *const);
 _inline ScarEventSystem::ScarEventSystem() // 0x726E08
 {
     mangled_assert("??0ScarEventSystem@@QAE@XZ");
     todo("implement");
-    _sub_726E08(this);
 }
 
-_extern char const *_sub_727675(ScarEventSystem *const);
 _inline char const *ScarEventSystem::saveToken() // 0x727675
 {
     mangled_assert("?saveToken@ScarEventSystem@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_727675(this);
-    return __result;
 }
 
-_extern bool _sub_7275C3(ScarEventSystem *const);
 _inline bool ScarEventSystem::isDeterministic() // 0x7275C3
 {
     mangled_assert("?isDeterministic@ScarEventSystem@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_7275C3(this);
-    return __result;
 }
 
 /* ---------- private code */

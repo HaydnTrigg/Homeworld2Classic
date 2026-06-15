@@ -156,200 +156,154 @@ extern char const *LUALIB_APP_MAINUI; // 0x8332A4
 
 /* ---------- public code */
 
-_extern _sub_44DCCB(LuaLibrary *const);
 _inline LuaLibrary::LuaLibrary() // 0x44DCCB
 {
     mangled_assert("??0LuaLibrary@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_44DCCB(this);
 }
 
-_extern void _sub_44DCDF(LuaBinding::ObjInternal0<void,LuaBinding::Functor0Free<void> > *const);
 _inline LuaBinding::ObjInternal0<void,LuaBinding::Functor0Free<void> >::~ObjInternal0<void,LuaBinding::Functor0Free<void> >() // 0x44DCDF
 {
     mangled_assert("??1?$ObjInternal0@XV?$Functor0Free@X@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_44DCDF(this);
 }
 
-_extern void _sub_44DCE5(LuaBinding::ObjInternal1<int,void,LuaBinding::Functor1Free<int,void> > *const);
 _inline LuaBinding::ObjInternal1<int,void,LuaBinding::Functor1Free<int,void> >::~ObjInternal1<int,void,LuaBinding::Functor1Free<int,void> >() // 0x44DCE5
 {
     mangled_assert("??1?$ObjInternal1@HXV?$Functor1Free@HX@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_44DCE5(this);
 }
 
-_extern void _sub_44DCEB(LuaBinding::ObjInternal1<bool,void,LuaBinding::Functor1Free<bool,void> > *const);
 _inline LuaBinding::ObjInternal1<bool,void,LuaBinding::Functor1Free<bool,void> >::~ObjInternal1<bool,void,LuaBinding::Functor1Free<bool,void> >() // 0x44DCEB
 {
     mangled_assert("??1?$ObjInternal1@_NXV?$Functor1Free@_NX@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_44DCEB(this);
 }
 
-_extern void _sub_44DCF1(LuaBinding::ObjInternal2<int,int,void,LuaBinding::Functor2Free<int,int,void> > *const);
 _inline LuaBinding::ObjInternal2<int,int,void,LuaBinding::Functor2Free<int,int,void> >::~ObjInternal2<int,int,void,LuaBinding::Functor2Free<int,int,void> >() // 0x44DCF1
 {
     mangled_assert("??1?$ObjInternal2@HHXV?$Functor2Free@HHX@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_44DCF1(this);
 }
 
-_extern void _sub_44DCF7(LuaBinding::ObjInternal2<int,bool,void,LuaBinding::Functor2Free<int,bool,void> > *const);
 _inline LuaBinding::ObjInternal2<int,bool,void,LuaBinding::Functor2Free<int,bool,void> >::~ObjInternal2<int,bool,void,LuaBinding::Functor2Free<int,bool,void> >() // 0x44DCF7
 {
     mangled_assert("??1?$ObjInternal2@H_NXV?$Functor2Free@H_NX@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_44DCF7(this);
 }
 
-_extern void _sub_44DCFD(LuaBinding::ObjInternal2<char const *,int,void,LuaBinding::Functor2Free<char const *,int,void> > *const);
 _inline LuaBinding::ObjInternal2<char const *,int,void,LuaBinding::Functor2Free<char const *,int,void> >::~ObjInternal2<char const *,int,void,LuaBinding::Functor2Free<char const *,int,void> >() // 0x44DCFD
 {
     mangled_assert("??1?$ObjInternal2@PBDHXV?$Functor2Free@PBDHX@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_44DCFD(this);
 }
 
-_extern void _sub_44DD03(LuaBinding::ObjInternal3<int,int,int,void,LuaBinding::Functor3Free<int,int,int,void> > *const);
 _inline LuaBinding::ObjInternal3<int,int,int,void,LuaBinding::Functor3Free<int,int,int,void> >::~ObjInternal3<int,int,int,void,LuaBinding::Functor3Free<int,int,int,void> >() // 0x44DD03
 {
     mangled_assert("??1?$ObjInternal3@HHHXV?$Functor3Free@HHHX@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_44DD03(this);
 }
 
-_extern void _sub_44DD09(LuaBinding::ObjInternal3<char const *,int,int,void,LuaBinding::Functor3Free<char const *,int,int,void> > *const);
 _inline LuaBinding::ObjInternal3<char const *,int,int,void,LuaBinding::Functor3Free<char const *,int,int,void> >::~ObjInternal3<char const *,int,int,void,LuaBinding::Functor3Free<char const *,int,int,void> >() // 0x44DD09
 {
     mangled_assert("??1?$ObjInternal3@PBDHHXV?$Functor3Free@PBDHHX@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_44DD09(this);
 }
 
-_extern void _sub_44DD0F(LuaBinding::ObjInternal4<char const *,int,int,int,void,LuaBinding::Functor4Free<char const *,int,int,int,void> > *const);
 _inline LuaBinding::ObjInternal4<char const *,int,int,int,void,LuaBinding::Functor4Free<char const *,int,int,int,void> >::~ObjInternal4<char const *,int,int,int,void,LuaBinding::Functor4Free<char const *,int,int,int,void> >() // 0x44DD0F
 {
     mangled_assert("??1?$ObjInternal4@PBDHHHXV?$Functor4Free@PBDHHHX@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_44DD0F(this);
 }
 
-_extern void _sub_44DD1F(LuaLibrary::BindInfo *const);
 _inline LuaLibrary::BindInfo::~BindInfo() // 0x44DD1F
 {
     mangled_assert("??1BindInfo@LuaLibrary@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_44DD1F(this);
 }
 
 /* ---------- private code */
 
-_extern void _sub_44E39E(__int32);
 _static void MainUI_UserEvent(__int32 userEvent) // 0x44E39E
 {
     mangled_assert("MainUI_UserEvent");
     todo("implement");
-    _sub_44E39E(userEvent);
 }
 
-_extern void _sub_44E3B3(__int32, __int32);
 _static void MainUI_UserEventData(__int32 userEvent, __int32 data) // 0x44E3B3
 {
     mangled_assert("MainUI_UserEventData");
     todo("implement");
-    _sub_44E3B3(userEvent, data);
 }
 
-_extern void _sub_44E3AE(__int32, __int32, __int32);
 _static void MainUI_UserEventData2(__int32 userEvent, __int32 data, __int32 data2) // 0x44E3AE
 {
     mangled_assert("MainUI_UserEventData2");
     todo("implement");
-    _sub_44E3AE(userEvent, data, data2);
 }
 
-_extern void _sub_44E336(bool);
 _static void MainUI_DisableAllCommands(bool b) // 0x44E336
 {
     mangled_assert("MainUI_DisableAllCommands");
     todo("implement");
-    _sub_44E336(b);
 }
 
-_extern void _sub_44E353(__int32, bool);
 _static void MainUI_DisableCommand(__int32 userEvent, bool b) // 0x44E353
 {
     mangled_assert("MainUI_DisableCommand");
     todo("implement");
-    _sub_44E353(userEvent, b);
 }
 
-_extern void _sub_44E390();
 _static void MainUI_PushEnabledCommandState() // 0x44E390
 {
     mangled_assert("MainUI_PushEnabledCommandState");
     todo("implement");
-    _sub_44E390();
 }
 
-_extern void _sub_44E382();
 _static void MainUI_PopEnabledCommandState() // 0x44E382
 {
     mangled_assert("MainUI_PopEnabledCommandState");
     todo("implement");
-    _sub_44E382();
 }
 
-_extern void _sub_44E374();
 _static void MainUI_PopAllEnabledCommandStates() // 0x44E374
 {
     mangled_assert("MainUI_PopAllEnabledCommandStates");
     todo("implement");
-    _sub_44E374();
 }
 
-_extern void _sub_44E7F9(char const *, __int32);
 _static void bind1(char const *luaStr, __int32 key0) // 0x44E7F9
 {
     mangled_assert("bind1");
     todo("implement");
-    _sub_44E7F9(luaStr, key0);
 }
 
-_extern void _sub_44E844(char const *, __int32, __int32);
 _static void bind2(char const *luaStr, __int32 key0, __int32 key1) // 0x44E844
 {
     mangled_assert("bind2");
     todo("implement");
-    _sub_44E844(luaStr, key0, key1);
 }
 
-_extern void _sub_44E897(char const *, __int32, __int32, __int32);
 _static void bind3(char const *luaStr, __int32 key0, __int32 key1, __int32 key2) // 0x44E897
 {
     mangled_assert("bind3");
     todo("implement");
-    _sub_44E897(luaStr, key0, key1, key2);
 }
 
-_extern void _sub_44E8F1(char const *, __int32);
 _static void bindup(char const *luaStr, __int32 key) // 0x44E8F1
 {
     mangled_assert("bindup");
     todo("implement");
-    _sub_44E8F1(luaStr, key);
 }
 #endif

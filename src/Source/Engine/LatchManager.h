@@ -111,31 +111,22 @@ static_assert(sizeof(LatchManager) == 84, "Invalid LatchManager size");
 
 /* ---------- public code */
 
-_extern Selection const &_sub_4BF82A(LatchManager const *const);
 _inline Selection const &LatchManager::getLatchedObjects() const // 0x4BF82A
 {
     mangled_assert("?getLatchedObjects@LatchManager@@QBEABVSelection@@XZ");
     todo("implement");
-    Selection const & __result = _sub_4BF82A(this);
-    return __result;
 }
 
-_extern bool _sub_4BD862(LatchManager *const);
 _inline bool LatchManager::isDeterministic() // 0x4BD862
 {
     mangled_assert("?isDeterministic@LatchManager@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4BD862(this);
-    return __result;
 }
 
-_extern char const *_sub_4BDCDC(LatchManager *const);
 _inline char const *LatchManager::saveToken() // 0x4BDCDC
 {
     mangled_assert("?saveToken@LatchManager@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4BDCDC(this);
-    return __result;
 }
 
 /* ---------- private code */

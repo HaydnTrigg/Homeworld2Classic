@@ -447,126 +447,96 @@ typedef `anonymous-namespace'::LocalizedMessages ?A0x77361285::LocalizedMessages
 
 /* ---------- public code */
 
-_extern _sub_5B33E9(UI::DirectConnectionScreen *const, char const *);
 UI::DirectConnectionScreen::DirectConnectionScreen(char const *) // 0x5B33E9
 {
     mangled_assert("??0DirectConnectionScreen@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_5B33E9(this, arg);
 }
 
-_extern void _sub_5B3459(UI::DirectConnectionScreen::Data *const);
 _inline UI::DirectConnectionScreen::Data::~Data() // 0x5B3459
 {
     mangled_assert("??1Data@DirectConnectionScreen@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B3459(this);
 }
 
-_extern void _sub_5B349C(UI::DirectConnectionScreen *const);
 UI::DirectConnectionScreen::~DirectConnectionScreen() // 0x5B349C
 {
     mangled_assert("??1DirectConnectionScreen@UI@@UAE@XZ");
     todo("implement");
-    _sub_5B349C(this);
 }
 
-_extern void _sub_5B3A1D(UI::DirectConnectionScreen *const, LuaConfig &);
 void UI::DirectConnectionScreen::OnPreLoadFile(LuaConfig &) // 0x5B3A1D
 {
     mangled_assert("?OnPreLoadFile@DirectConnectionScreen@UI@@MAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_5B3A1D(this, arg);
 }
 
-_extern _sub_5B3389(UI::DirectConnectionScreen::Data *const);
 _inline UI::DirectConnectionScreen::Data::Data() // 0x5B3389
 {
     mangled_assert("??0Data@DirectConnectionScreen@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5B3389(this);
 }
 
-_extern void _sub_5B394F(UI::DirectConnectionScreen *const, LuaConfig &);
 void UI::DirectConnectionScreen::OnLoad(LuaConfig &) // 0x5B394F
 {
     mangled_assert("?OnLoad@DirectConnectionScreen@UI@@MAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_5B394F(this, arg);
 }
 
-_extern void _sub_5B396C(UI::DirectConnectionScreen *const);
 void UI::DirectConnectionScreen::OnPostLoad() // 0x5B396C
 {
     mangled_assert("?OnPostLoad@DirectConnectionScreen@UI@@MAEXXZ");
     todo("implement");
-    _sub_5B396C(this);
 }
 
-_extern void _sub_5B363B(UI::DirectConnectionScreen *const, bool);
 void UI::DirectConnectionScreen::OnActivate(bool) // 0x5B363B
 {
     mangled_assert("?OnActivate@DirectConnectionScreen@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_5B363B(this, arg);
 }
 
-_extern void _sub_5B3A3E(UI::DirectConnectionScreen *const, unsigned __int32);
 void UI::DirectConnectionScreen::Update(unsigned __int32) // 0x5B3A3E
 {
     mangled_assert("?Update@DirectConnectionScreen@UI@@MAEXI@Z");
     todo("implement");
-    _sub_5B3A3E(this, arg);
 }
 
-_extern void _sub_5B3838(UI::InterfaceElement *);
 void UI::DirectConnectionScreen::OnHost(UI::InterfaceElement *sender) // 0x5B3838
 {
     mangled_assert("?OnHost@DirectConnectionScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B3838(sender);
 }
 
-_extern void _sub_5B3669(UI::InterfaceElement *);
 void UI::DirectConnectionScreen::OnCreateGameClicked_Host(UI::InterfaceElement *sender) // 0x5B3669
 {
     mangled_assert("?OnCreateGameClicked_Host@DirectConnectionScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B3669(sender);
 }
 
-_extern void _sub_5B37BE(UI::InterfaceElement *);
 void UI::DirectConnectionScreen::OnCreateGameClicked_Join(UI::InterfaceElement *sender) // 0x5B37BE
 {
     mangled_assert("?OnCreateGameClicked_Join@DirectConnectionScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B37BE(sender);
 }
 
-_extern void _sub_5B35AD(UI::DirectConnectionScreen *const, wchar_t const *);
 void UI::DirectConnectionScreen::DoJoinGame(wchar_t const *) // 0x5B35AD
 {
     mangled_assert("?DoJoinGame@DirectConnectionScreen@UI@@AAEXPB_W@Z");
     todo("implement");
-    _sub_5B35AD(this, arg);
 }
 
-_extern void _sub_5B38CB(UI::InterfaceElement *);
 void UI::DirectConnectionScreen::OnIPAccept(UI::InterfaceElement *sender) // 0x5B38CB
 {
     mangled_assert("?OnIPAccept@DirectConnectionScreen@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5B38CB(sender);
 }
 
-_extern void _sub_5B353D(UI::DirectConnectionScreen *const);
 void UI::DirectConnectionScreen::DoConnect() // 0x5B353D
 {
     mangled_assert("?DoConnect@DirectConnectionScreen@UI@@AAEXXZ");
     todo("implement");
-    _sub_5B353D(this);
 }
 
 /* ---------- private code */

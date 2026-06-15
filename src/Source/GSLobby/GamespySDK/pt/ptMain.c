@@ -137,50 +137,35 @@ _static
 
 /* ---------- public code */
 
-_extern __int32 _sub_10016636(__int32, char const *, __int32, void (*)(__int32, __int32, char const *, __int32, char const *, void *), __int32, void *);
 __int32 ptCheckForPatch(__int32 productID, char const *versionUniqueID, __int32 distributionID, void (*callback)(__int32, __int32, char const *, __int32, char const *, void *), __int32 blocking, void *param) // 0x10016636
 {
     mangled_assert("_ptCheckForPatch@24");
     todo("implement");
-    __int32 __result = _sub_10016636(productID, versionUniqueID, distributionID, callback, blocking, param);
-    return __result;
 }
 
-_extern __int32 _sub_100166B5(__int32, __int32, char const *, __int32, __int32);
 __int32 ptTrackUsage(__int32 userID, __int32 productID, char const *versionUniqueID, __int32 distributionID, __int32 blocking) // 0x100166B5
 {
     mangled_assert("_ptTrackUsage@20");
     todo("implement");
-    __int32 __result = _sub_100166B5(userID, productID, versionUniqueID, distributionID, blocking);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern char const *_sub_10016706(char const *, char const *);
 _static char const *ptaGetKeyValue(char const *buffer, char const *key) // 0x10016706
 {
     mangled_assert("ptaGetKeyValue");
     todo("implement");
-    char const * __result = _sub_10016706(buffer, key);
-    return __result;
 }
 
-_extern GHTTPBool _sub_1001688F(ptaPatchData *);
 _static GHTTPBool ptaPatchFailed(ptaPatchData *data) // 0x1001688F
 {
     mangled_assert("ptaPatchFailed");
     todo("implement");
-    GHTTPBool __result = _sub_1001688F(data);
-    return __result;
 }
 
-_extern GHTTPBool _sub_1001675F(__int32, GHTTPResult, char *, __int32, void *);
 _static GHTTPBool ptaPatchCompletedCallback(__int32 request, GHTTPResult result, char *buffer, __int32 bufferLen, void *param) // 0x1001675F
 {
     mangled_assert("ptaPatchCompletedCallback");
     todo("implement");
-    GHTTPBool __result = _sub_1001675F(request, result, buffer, bufferLen, param);
-    return __result;
 }
 #endif

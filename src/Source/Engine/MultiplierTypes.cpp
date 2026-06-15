@@ -26,13 +26,10 @@ extern MultiplierType getMultiplierTypeFromString(std::basic_string<char,std::ch
 
 /* ---------- public code */
 
-_extern MultiplierType _sub_4F213B(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &);
 MultiplierType getMultiplierTypeFromString(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &inStr) // 0x4F213B
 {
     mangled_assert("?getMultiplierTypeFromString@@YG?AW4MultiplierType@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    MultiplierType __result = _sub_4F213B(inStr);
-    return __result;
 }
 
 /* ---------- private code */

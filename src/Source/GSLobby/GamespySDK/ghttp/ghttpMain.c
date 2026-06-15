@@ -133,91 +133,65 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_10017703();
 void ghttpStartup() // 0x10017703
 {
     mangled_assert("_ghttpStartup@0");
     todo("implement");
-    _sub_10017703();
 }
 
-_extern void _sub_10017459();
 void ghttpCleanup() // 0x10017459
 {
     mangled_assert("_ghttpCleanup@0");
     todo("implement");
-    _sub_10017459();
 }
 
-_extern __int32 _sub_10017492(char const *, GHTTPBool, GHTTPBool (*)(__int32, GHTTPResult, char *, __int32, void *), void *);
 __int32 ghttpGet(char const *URL, GHTTPBool blocking, GHTTPBool (*completedCallback)(__int32, GHTTPResult, char *, __int32, void *), void *param) // 0x10017492
 {
     mangled_assert("_ghttpGet@16");
     todo("implement");
-    __int32 __result = _sub_10017492(URL, blocking, completedCallback, param);
-    return __result;
 }
 
-_extern __int32 _sub_10017621(char const *, char const *, char const *, GHIPost *, GHTTPBool, GHTTPBool, void (*)(__int32, GHTTPState, char const *, __int32, __int32, __int32, void *), GHTTPBool (*)(__int32, GHTTPResult, char *, __int32, void *), void *);
 __int32 ghttpSaveEx(char const *URL, char const *filename, char const *headers, GHIPost *post, GHTTPBool throttle, GHTTPBool blocking, void (*progressCallback)(__int32, GHTTPState, char const *, __int32, __int32, __int32, void *), GHTTPBool (*completedCallback)(__int32, GHTTPResult, char *, __int32, void *), void *param) // 0x10017621
 {
     mangled_assert("_ghttpSaveEx@36");
     todo("implement");
-    __int32 __result = _sub_10017621(URL, filename, headers, post, throttle, blocking, progressCallback, completedCallback, param);
-    return __result;
 }
 
-_extern __int32 _sub_10017563(char const *, char const *, GHTTPBool, GHTTPBool, void (*)(__int32, GHTTPState, char const *, __int32, __int32, __int32, void *), GHTTPBool (*)(__int32, GHTTPResult, char *, __int32, void *), void *);
 __int32 ghttpHeadEx(char const *URL, char const *headers, GHTTPBool throttle, GHTTPBool blocking, void (*progressCallback)(__int32, GHTTPState, char const *, __int32, __int32, __int32, void *), GHTTPBool (*completedCallback)(__int32, GHTTPResult, char *, __int32, void *), void *param) // 0x10017563
 {
     mangled_assert("_ghttpHeadEx@28");
     todo("implement");
-    __int32 __result = _sub_10017563(URL, headers, throttle, blocking, progressCallback, completedCallback, param);
-    return __result;
 }
 
-_extern GHTTPBool _sub_10017608(__int32);
 GHTTPBool ghttpRequestThink(__int32 request) // 0x10017608
 {
     mangled_assert("_ghttpRequestThink@4");
     todo("implement");
-    GHTTPBool __result = _sub_10017608(request);
-    return __result;
 }
 
-_extern void _sub_10017443(__int32);
 void ghttpCancelRequest(__int32 request) // 0x10017443
 {
     mangled_assert("_ghttpCancelRequest@4");
     todo("implement");
-    _sub_10017443(request);
 }
 
-_extern char const *_sub_1001753C(__int32);
 char const *ghttpGetHeaders(__int32 request) // 0x1001753C
 {
     mangled_assert("_ghttpGetHeaders@4");
     todo("implement");
-    char const * __result = _sub_1001753C(request);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern void _sub_10017311(GHIConnection *);
 _static void ghiHandleStatus(GHIConnection *connection) // 0x10017311
 {
     mangled_assert("ghiHandleStatus");
     todo("implement");
-    _sub_10017311(connection);
 }
 
-_extern GHTTPBool _sub_10017378(GHIConnection *);
 _static GHTTPBool ghiProcessConnection(GHIConnection *connection) // 0x10017378
 {
     mangled_assert("ghiProcessConnection");
     todo("implement");
-    GHTTPBool __result = _sub_10017378(connection);
-    return __result;
 }
 #endif

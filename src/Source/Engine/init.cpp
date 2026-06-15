@@ -66,40 +66,28 @@ _static
 
 /* ---------- public code */
 
-_extern char const *_sub_5FB0BE(InitList *, void (*)(__int32, __int32, wchar_t const *));
 char const *initStartupSystems(InitList *ilist, void (*loadFunc)(__int32, __int32, wchar_t const *)) // 0x5FB0BE
 {
     mangled_assert("?initStartupSystems@@YGPBDPAUInitList@@P6GXHHPB_W@Z@Z");
     todo("implement");
-    char const * __result = _sub_5FB0BE(ilist, loadFunc);
-    return __result;
 }
 
-_extern char const *_sub_5FB042(InitList *);
 char const *initShutdownSystems(InitList *ilist) // 0x5FB042
 {
     mangled_assert("?initShutdownSystems@@YGPBDPAUInitList@@@Z");
     todo("implement");
-    char const * __result = _sub_5FB042(ilist);
-    return __result;
 }
 
-_extern char const *_sub_5FAFE4(InitList *, SaveGameData *, SaveType);
 char const *initSaveSystems(InitList *ilist, SaveGameData *saveGameData, SaveType saveType) // 0x5FAFE4
 {
     mangled_assert("?initSaveSystems@@YGPBDPAUInitList@@PAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    char const * __result = _sub_5FAFE4(ilist, saveGameData, saveType);
-    return __result;
 }
 
-_extern char const *_sub_5FAEE6(InitList *, SaveGameData *, void (*)(__int32, __int32, wchar_t const *));
 char const *initRestoreSystems(InitList *ilist, SaveGameData *saveGameData, void (*loadFunc)(__int32, __int32, wchar_t const *)) // 0x5FAEE6
 {
     mangled_assert("?initRestoreSystems@@YGPBDPAUInitList@@PAVSaveGameData@@P6GXHHPB_W@Z@Z");
     todo("implement");
-    char const * __result = _sub_5FAEE6(ilist, saveGameData, loadFunc);
-    return __result;
 }
 
 /* ---------- private code */

@@ -63,22 +63,16 @@ static_assert(sizeof(FormationLatchCommand) == 84, "Invalid FormationLatchComman
 
 /* ---------- public code */
 
-_extern bool _sub_69E2F8(FormationLatchCommand *const);
 _inline bool FormationLatchCommand::isDeterministic() // 0x69E2F8
 {
     mangled_assert("?isDeterministic@FormationLatchCommand@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_69E2F8(this);
-    return __result;
 }
 
-_extern char const *_sub_69E4B0(FormationLatchCommand *const);
 _inline char const *FormationLatchCommand::saveToken() // 0x69E4B0
 {
     mangled_assert("?saveToken@FormationLatchCommand@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_69E4B0(this);
-    return __result;
 }
 
 /* ---------- private code */

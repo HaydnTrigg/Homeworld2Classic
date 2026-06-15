@@ -142,98 +142,72 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_10086DD0(MiscTextureManager *const, rndTable *);
 void MiscTextureManager::initialize(rndTable *) // 0x10086DD0
 {
     mangled_assert("?initialize@MiscTextureManager@@QAEXPAUrndTable@@@Z");
     todo("implement");
-    _sub_10086DD0(this, arg);
 }
 
-_extern bool _sub_10086E50();
 bool MiscTextureManager::startup() // 0x10086E50
 {
     mangled_assert("?startup@MiscTextureManager@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_10086E50();
-    return __result;
 }
 
-_extern bool _sub_10086DF0();
 bool MiscTextureManager::shutdown() // 0x10086DF0
 {
     mangled_assert("?shutdown@MiscTextureManager@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_10086DF0();
-    return __result;
 }
 
-_extern _sub_10086540(MiscTextureManager *const);
 MiscTextureManager::MiscTextureManager() // 0x10086540
 {
     mangled_assert("??0MiscTextureManager@@AAE@XZ");
     todo("implement");
-    _sub_10086540(this);
 }
 
-_extern void _sub_10086560(MiscTextureManager *const);
 MiscTextureManager::~MiscTextureManager() // 0x10086560
 {
     mangled_assert("??1MiscTextureManager@@AAE@XZ");
     todo("implement");
-    _sub_10086560(this);
 }
 
-_extern MiscTextureManager &_sub_100865A0(MiscTextureManager *const, MiscTextureManager const &);
 _inline MiscTextureManager &MiscTextureManager::operator=(MiscTextureManager const &) // 0x100865A0
 {
     mangled_assert("??4MiscTextureManager@@QAEAAV0@ABV0@@Z");
     compiler_generated();
     todo("implement");
-    MiscTextureManager & __result = _sub_100865A0(this, arg);
-    return __result;
 }
 
-_extern void _sub_10086620(MiscTextureManager *const);
 void MiscTextureManager::createNormalCubeMap() // 0x10086620
 {
     mangled_assert("?createNormalCubeMap@MiscTextureManager@@AAEXXZ");
     todo("implement");
-    _sub_10086620(this);
 }
 
-_extern void _sub_100869D0(MiscTextureManager *const);
 void MiscTextureManager::createPassThrough3Dmap() // 0x100869D0
 {
     mangled_assert("?createPassThrough3Dmap@MiscTextureManager@@AAEXXZ");
     todo("implement");
-    _sub_100869D0(this);
 }
 
-_extern void _sub_10086B80(MiscTextureManager *const);
 void MiscTextureManager::createWhiteTexture() // 0x10086B80
 {
     mangled_assert("?createWhiteTexture@MiscTextureManager@@AAEXXZ");
     todo("implement");
-    _sub_10086B80(this);
 }
 
-_extern Texture *_sub_10086D90(MiscTextureManager *const, MiscTextureManager::GeneratedTextures const);
 Texture *MiscTextureManager::getGeneratedTexture(MiscTextureManager::GeneratedTextures const) // 0x10086D90
 {
     mangled_assert("?getGeneratedTexture@MiscTextureManager@@QAEPAVTexture@@W4GeneratedTextures@1@@Z");
     todo("implement");
-    Texture * __result = _sub_10086D90(this, arg);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern void _sub_10086C00(__int32, __int32, __int32, __int32, float *);
 _static void getCubeVector(__int32 i, __int32 cubesize, __int32 x, __int32 y, float *vector) // 0x10086C00
 {
     mangled_assert("getCubeVector");
     todo("implement");
-    _sub_10086C00(i, cubesize, x, y, vector);
 }
 #endif

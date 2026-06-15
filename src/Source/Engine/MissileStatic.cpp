@@ -40,21 +40,16 @@
 
 /* ---------- public code */
 
-_extern _sub_488EB5(MissileStatic *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, SobType);
 MissileStatic::MissileStatic(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, SobType) // 0x488EB5
 {
     mangled_assert("??0MissileStatic@@IAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4SobType@@@Z");
     todo("implement");
-    _sub_488EB5(this, arg, arg);
 }
 
-_extern SobStatic *_sub_488F91(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, SobStatic *);
 SobStatic *MissileStatic::Create(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &name, SobStatic *found) // 0x488F91
 {
     mangled_assert("?Create@MissileStatic@@SGPAVSobStatic@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAV2@@Z");
     todo("implement");
-    SobStatic * __result = _sub_488F91(name, found);
-    return __result;
 }
 
 /* ---------- private code */

@@ -110,189 +110,136 @@ _static
 
 /* ---------- public code */
 
-_extern bool _sub_5FB3AB();
 bool intStartup() // 0x5FB3AB
 {
     mangled_assert("?intStartup@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_5FB3AB();
-    return __result;
 }
 
-_extern bool _sub_5FB391();
 bool intShutdown() // 0x5FB391
 {
     mangled_assert("?intShutdown@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_5FB391();
-    return __result;
 }
 
-_extern bool _sub_5FB360(SaveGameData *);
 bool intRestore(SaveGameData *saveGameData) // 0x5FB360
 {
     mangled_assert("?intRestore@@YG_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_5FB360(saveGameData);
-    return __result;
 }
 
-_extern bool _sub_5FB379(SaveGameData *, SaveType);
 bool intSave(SaveGameData *saveGameData, SaveType saveType) // 0x5FB379
 {
     mangled_assert("?intSave@@YG_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_5FB379(saveGameData, saveType);
-    return __result;
 }
 
-_extern _sub_5FB311(Interpolator *const);
 Interpolator::Interpolator() // 0x5FB311
 {
     mangled_assert("??0Interpolator@@QAE@XZ");
     todo("implement");
-    _sub_5FB311(this);
 }
 
-_extern void _sub_5FB324(Interpolator *const);
 Interpolator::~Interpolator() // 0x5FB324
 {
     mangled_assert("??1Interpolator@@QAE@XZ");
     todo("implement");
-    _sub_5FB324(this);
 }
 
-_extern bool _sub_5FB65B(Interpolator *const, SaveGameData *);
 bool Interpolator::restore(SaveGameData *) // 0x5FB65B
 {
     mangled_assert("?restore@Interpolator@@QAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_5FB65B(this, arg);
-    return __result;
 }
 
-_extern bool _sub_5FB6C3(Interpolator *const, SaveGameData *, SaveType);
 bool Interpolator::save(SaveGameData *, SaveType) // 0x5FB6C3
 {
     mangled_assert("?save@Interpolator@@QAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_5FB6C3(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_5FB508(Interpolator *const);
 void Interpolator::postRestore() // 0x5FB508
 {
     mangled_assert("?postRestore@Interpolator@@QAEXXZ");
     todo("implement");
-    _sub_5FB508(this);
 }
 
-_extern void _sub_5FB559();
 void Interpolator::reset() // 0x5FB559
 {
     mangled_assert("?reset@Interpolator@@SGXXZ");
     todo("implement");
-    _sub_5FB559();
 }
 
-_extern void _sub_5FB4A0(float);
 void Interpolator::nextSimulateFrame(float deltaTime) // 0x5FB4A0
 {
     mangled_assert("?nextSimulateFrame@Interpolator@@SGXM@Z");
     todo("implement");
-    _sub_5FB4A0(deltaTime);
 }
 
-_extern void _sub_5FB3D3(float);
 void Interpolator::nextRenderFrame(float deltaTime) // 0x5FB3D3
 {
     mangled_assert("?nextRenderFrame@Interpolator@@SGXM@Z");
     todo("implement");
-    _sub_5FB3D3(deltaTime);
 }
 
-_extern _sub_5FB2D7(InterpolSobData *const, Sob *);
 InterpolSobData::InterpolSobData(Sob *) // 0x5FB2D7
 {
     mangled_assert("??0InterpolSobData@@QAE@PAVSob@@@Z");
     todo("implement");
-    _sub_5FB2D7(this, arg);
 }
 
-_extern void _sub_5FB31D(InterpolSobData *const);
 InterpolSobData::~InterpolSobData() // 0x5FB31D
 {
     mangled_assert("??1InterpolSobData@@UAE@XZ");
     todo("implement");
-    _sub_5FB31D(this);
 }
 
-_extern void _sub_5FB510(InterpolSobData *const);
 void InterpolSobData::reset() // 0x5FB510
 {
     mangled_assert("?reset@InterpolSobData@@QAEXXZ");
     todo("implement");
-    _sub_5FB510(this);
 }
 
-_extern void _sub_5FB5A6(InterpolSobData *const, vector3 const &, matrix3 const &);
 void InterpolSobData::resetTransform(vector3 const &, matrix3 const &) // 0x5FB5A6
 {
     mangled_assert("?resetTransform@InterpolSobData@@QAEXABVvector3@@ABVmatrix3@@@Z");
     todo("implement");
-    _sub_5FB5A6(this, arg, arg);
 }
 
-_extern bool _sub_5FB61D(InterpolSobData *const, SaveGameData *);
 bool InterpolSobData::restore(SaveGameData *) // 0x5FB61D
 {
     mangled_assert("?restore@InterpolSobData@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_5FB61D(this, arg);
-    return __result;
 }
 
-_extern bool _sub_5FB68E(InterpolSobData *const, SaveGameData *, SaveType);
 bool InterpolSobData::save(SaveGameData *, SaveType) // 0x5FB68E
 {
     mangled_assert("?save@InterpolSobData@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_5FB68E(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_5FB507(InterpolSobData *const);
 void InterpolSobData::postRestore() // 0x5FB507
 {
     mangled_assert("?postRestore@InterpolSobData@@UAEXXZ");
     todo("implement");
-    _sub_5FB507(this);
 }
 
-_extern void _sub_5FB6F1(InterpolSobData *const, Sob *);
 void InterpolSobData::setParent(Sob *) // 0x5FB6F1
 {
     mangled_assert("?setParent@InterpolSobData@@QAEXPAVSob@@@Z");
     todo("implement");
-    _sub_5FB6F1(this, arg);
 }
 
-_extern float _sub_5FB359();
 float getInterpolDistanceSqr() // 0x5FB359
 {
     mangled_assert("?getInterpolDistanceSqr@@YGMXZ");
     todo("implement");
-    float __result = _sub_5FB359();
-    return __result;
 }
 
-_extern void _sub_5FB743(InterpolSobData *const, bool, float);
 void InterpolSobData::update(bool, float) // 0x5FB743
 {
     mangled_assert("?update@InterpolSobData@@QAEX_NM@Z");
     todo("implement");
-    _sub_5FB743(this, arg, arg);
 }
 
 /* ---------- private code */

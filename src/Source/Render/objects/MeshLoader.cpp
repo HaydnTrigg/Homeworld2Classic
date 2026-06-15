@@ -104,28 +104,22 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_10086510(IFF *, Mesh **, std::basic_string<char,std::char_traits<char>,std::allocator<char> > *);
 void MeshLoader::addIFFParseHandlers(IFF *iff, Mesh **ppMesh, std::basic_string<char,std::char_traits<char>,std::allocator<char> > *errMsg) // 0x10086510
 {
     mangled_assert("?addIFFParseHandlers@MeshLoader@@SGXPAVIFF@@PAPAVMesh@@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    _sub_10086510(iff, ppMesh, errMsg);
 }
 
-_extern void _sub_10086530(void (*)(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, Texture *));
 void MeshLoader::setTextureCallback(void (*proc)(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, Texture *)) // 0x10086530
 {
     mangled_assert("?setTextureCallback@MeshLoader@@SGXP6GXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVTexture@@@Z@Z");
     todo("implement");
-    _sub_10086530(proc);
 }
 
-_extern void _sub_10086520(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, Texture *);
 void MeshLoader::callTextureCallback(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &name, Texture *tex) // 0x10086520
 {
     mangled_assert("?callTextureCallback@MeshLoader@@SGXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVTexture@@@Z");
     todo("implement");
-    _sub_10086520(name, tex);
 }
 
 /* ---------- private code */

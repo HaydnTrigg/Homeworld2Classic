@@ -149,121 +149,90 @@ extern SaveData const CaptureManager::m_saveData[4]; // 0x78C040
 
 /* ---------- public code */
 
-_extern _sub_484494(CaptureManager *const, Ship *);
 CaptureManager::CaptureManager(Ship *) // 0x484494
 {
     mangled_assert("??0CaptureManager@@QAE@PAVShip@@@Z");
     todo("implement");
-    _sub_484494(this, arg);
 }
 
-_extern void _sub_48455E(CaptureManager *const);
 CaptureManager::~CaptureManager() // 0x48455E
 {
     mangled_assert("??1CaptureManager@@UAE@XZ");
     todo("implement");
-    _sub_48455E(this);
 }
 
-_extern void _sub_484570(GameEvent_ShipCaptured *const);
 _inline GameEvent_ShipCaptured::~GameEvent_ShipCaptured() // 0x484570
 {
     mangled_assert("??1GameEvent_ShipCaptured@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_484570(this);
 }
 
-_extern void _sub_484577(GameEvent_SpecialSpeech *const);
 _inline GameEvent_SpecialSpeech::~GameEvent_SpecialSpeech() // 0x484577
 {
     mangled_assert("??1GameEvent_SpecialSpeech@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_484577(this);
 }
 
-_extern void _sub_4845A1(CaptureManager *const);
 void CaptureManager::applyCaptureSlowDown() // 0x4845A1
 {
     mangled_assert("?applyCaptureSlowDown@CaptureManager@@QAEXXZ");
     todo("implement");
-    _sub_4845A1(this);
 }
 
-_extern void _sub_4847BF(CaptureManager *const, float);
 void CaptureManager::update(float) // 0x4847BF
 {
     mangled_assert("?update@CaptureManager@@UAEXM@Z");
     todo("implement");
-    _sub_4847BF(this, arg);
 }
 
-_extern void _sub_484773(CaptureManager *const, Player const *);
 void CaptureManager::setSquadronOwner(Player const *) // 0x484773
 {
     mangled_assert("?setSquadronOwner@CaptureManager@@AAEXPBVPlayer@@@Z");
     todo("implement");
-    _sub_484773(this, arg);
 }
 
-_extern LatchPointManagerStatic *_sub_4846A7(CaptureManager *const);
 LatchPointManagerStatic *CaptureManager::getStaticData() // 0x4846A7
 {
     mangled_assert("?getStaticData@CaptureManager@@MAEPAVLatchPointManagerStatic@@XZ");
     todo("implement");
-    LatchPointManagerStatic * __result = _sub_4846A7(this);
-    return __result;
 }
 
-_extern _sub_484462(CaptureManager *const, SaveGameData *);
 CaptureManager::CaptureManager(SaveGameData *) // 0x484462
 {
     mangled_assert("??0CaptureManager@@QAE@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_484462(this, arg);
 }
 
-_extern void _sub_484646(CaptureManager *const);
 void CaptureManager::defaultSettings() // 0x484646
 {
     mangled_assert("?defaultSettings@CaptureManager@@QAEXXZ");
     todo("implement");
-    _sub_484646(this);
 }
 
-_extern void _sub_4846C0(CaptureManager *const);
 void CaptureManager::postRestore() // 0x4846C0
 {
     mangled_assert("?postRestore@CaptureManager@@UAEXXZ");
     todo("implement");
-    _sub_4846C0(this);
 }
 
-_extern bool _sub_4846C5(CaptureManager *const, SaveGameData *);
 bool CaptureManager::restore(SaveGameData *) // 0x4846C5
 {
     mangled_assert("?restore@CaptureManager@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_4846C5(this, arg);
-    return __result;
 }
 
-_extern bool _sub_484712(CaptureManager *const, SaveGameData *, SaveType);
 bool CaptureManager::save(SaveGameData *, SaveType) // 0x484712
 {
     mangled_assert("?save@CaptureManager@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_484712(this, arg, arg);
-    return __result;
 }
 
-_extern _sub_4844D7(CaptureStatic *const, float, float);
 CaptureStatic::CaptureStatic(float, float) // 0x4844D7
 {
     mangled_assert("??0CaptureStatic@@QAE@MM@Z");
     todo("implement");
-    _sub_4844D7(this, arg, arg);
 }
 
 /* ---------- private code */

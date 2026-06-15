@@ -914,324 +914,220 @@ static_assert(sizeof(Universe) == 2392, "Invalid Universe size");
 
 /* ---------- public code */
 
-_extern char const *_sub_6508CC(UniverseClientData *const);
 _inline char const *UniverseClientData::saveToken() // 0x6508CC
 {
     mangled_assert("?saveToken@UniverseClientData@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6508CC(this);
-    return __result;
 }
 
-_extern bool _sub_64FD5B(UniverseClientData *const);
 _inline bool UniverseClientData::isDeterministic() // 0x64FD5B
 {
     mangled_assert("?isDeterministic@UniverseClientData@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_64FD5B(this);
-    return __result;
 }
 
-_extern char const *_sub_6508C6(Universe *const);
 _inline char const *Universe::saveToken() // 0x6508C6
 {
     mangled_assert("?saveToken@Universe@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6508C6(this);
-    return __result;
 }
 
-_extern bool _sub_64FD58(Universe *const);
 _inline bool Universe::isDeterministic() // 0x64FD58
 {
     mangled_assert("?isDeterministic@Universe@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_64FD58(this);
-    return __result;
 }
 
-_extern std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<unsigned int const ,Squadron *> > > > _sub_45A892(Universe *const);
 _inline std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<unsigned int const ,Squadron *> > > > Universe::getSquadronListBegin() // 0x45A892
 {
     mangled_assert("?getSquadronListBegin@Universe@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBIPAVSquadron@@@std@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<unsigned int const ,Squadron *> > > > __result = _sub_45A892(this);
-    return __result;
 }
 
-_extern std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<unsigned int const ,Squadron *> > > > _sub_45A8A3(Universe *const);
 _inline std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<unsigned int const ,Squadron *> > > > Universe::getSquadronListEnd() // 0x45A8A3
 {
     mangled_assert("?getSquadronListEnd@Universe@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBIPAVSquadron@@@std@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<unsigned int const ,Squadron *> > > > __result = _sub_45A8A3(this);
-    return __result;
 }
 
-_extern std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<unsigned int const ,StrikeGroup *> > > > _sub_6159BF(Universe *const);
 _inline std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<unsigned int const ,StrikeGroup *> > > > Universe::getStrikeGroupListBegin() // 0x6159BF
 {
     mangled_assert("?getStrikeGroupListBegin@Universe@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBIPAVStrikeGroup@@@std@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<unsigned int const ,StrikeGroup *> > > > __result = _sub_6159BF(this);
-    return __result;
 }
 
-_extern std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<unsigned int const ,StrikeGroup *> > > > _sub_6159D0(Universe *const);
 _inline std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<unsigned int const ,StrikeGroup *> > > > Universe::getStrikeGroupListEnd() // 0x6159D0
 {
     mangled_assert("?getStrikeGroupListEnd@Universe@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBIPAVStrikeGroup@@@std@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<unsigned int const ,StrikeGroup *> > > > __result = _sub_6159D0(this);
-    return __result;
 }
 
-_extern void _sub_4643C4(Universe *const, unsigned __int32);
 _inline void Universe::setFrameCount(unsigned __int32) // 0x4643C4
 {
     mangled_assert("?setFrameCount@Universe@@QAEXI@Z");
     todo("implement");
-    _sub_4643C4(this, arg);
 }
 
-_extern unsigned __int32 _sub_463A0F(Universe const *const);
 _inline unsigned __int32 Universe::getFrameCount() const // 0x463A0F
 {
     mangled_assert("?getFrameCount@Universe@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_463A0F(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_454B16(Universe const *const);
 _inline unsigned __int32 Universe::getNumPlayers() const // 0x454B16
 {
     mangled_assert("?getNumPlayers@Universe@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_454B16(this);
-    return __result;
 }
 
-_extern Player *_sub_6315A7(Universe *const);
 _inline Player *Universe::getNeutralPlayer() // 0x6315A7
 {
     mangled_assert("?getNeutralPlayer@Universe@@QAEPAVPlayer@@XZ");
     todo("implement");
-    Player * __result = _sub_6315A7(this);
-    return __result;
 }
 
-_extern WaypointManager &_sub_454B26(Universe *const);
 _inline WaypointManager &Universe::getWaypointManager() // 0x454B26
 {
     mangled_assert("?getWaypointManager@Universe@@QAEAAVWaypointManager@@XZ");
     todo("implement");
-    WaypointManager & __result = _sub_454B26(this);
-    return __result;
 }
 
-_extern SOBGroupManager &_sub_5447BF(Universe *const);
 _inline SOBGroupManager &Universe::getSOBGroupManager() // 0x5447BF
 {
     mangled_assert("?getSOBGroupManager@Universe@@QAEAAVSOBGroupManager@@XZ");
     todo("implement");
-    SOBGroupManager & __result = _sub_5447BF(this);
-    return __result;
 }
 
-_extern HyperspaceManager &_sub_48C34F(Universe *const);
 _inline HyperspaceManager &Universe::getHyperspaceManager() // 0x48C34F
 {
     mangled_assert("?getHyperspaceManager@Universe@@QAEAAVHyperspaceManager@@XZ");
     todo("implement");
-    HyperspaceManager & __result = _sub_48C34F(this);
-    return __result;
 }
 
-_extern PathList &_sub_5C9F08(Universe *const);
 _inline PathList &Universe::getAIPaths() // 0x5C9F08
 {
     mangled_assert("?getAIPaths@Universe@@QAEAAVPathList@@XZ");
     todo("implement");
-    PathList & __result = _sub_5C9F08(this);
-    return __result;
 }
 
-_extern EventPointerManager &_sub_45A827(Universe *const);
 _inline EventPointerManager &Universe::getEventPointerManager() // 0x45A827
 {
     mangled_assert("?getEventPointerManager@Universe@@QAEAAVEventPointerManager@@XZ");
     todo("implement");
-    EventPointerManager & __result = _sub_45A827(this);
-    return __result;
 }
 
-_extern bool _sub_450981(Universe const *const);
 _inline bool Universe::isPaused() const // 0x450981
 {
     mangled_assert("?isPaused@Universe@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_450981(this);
-    return __result;
 }
 
-_extern bool _sub_54BE1D(Universe const *const);
 _inline bool Universe::isPausedByNIS() const // 0x54BE1D
 {
     mangled_assert("?isPausedByNIS@Universe@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_54BE1D(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_5C9F0F(Universe *const);
 _inline vector3 const &Universe::getWorldBoundsOrigin() // 0x5C9F0F
 {
     mangled_assert("?getWorldBoundsOrigin@Universe@@QAEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_5C9F0F(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_636F22(Universe *const);
 _inline vector3 const &Universe::getWorldBoundsInner() // 0x636F22
 {
     mangled_assert("?getWorldBoundsInner@Universe@@QAEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_636F22(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_4DF389(Universe *const);
 _inline vector3 const &Universe::getWorldBoundsOuter() // 0x4DF389
 {
     mangled_assert("?getWorldBoundsOuter@Universe@@QAEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_4DF389(this);
-    return __result;
 }
 
-_extern std::smallvector<FocusPoint *,4,std::allocator<FocusPoint *> > &_sub_4DD02B(Universe *const);
 _inline std::smallvector<FocusPoint *,4,std::allocator<FocusPoint *> > &Universe::GetFocusPoints() // 0x4DD02B
 {
     mangled_assert("?GetFocusPoints@Universe@@QAEAAV?$smallvector@PAVFocusPoint@@$03V?$allocator@PAVFocusPoint@@@std@@@std@@XZ");
     todo("implement");
-    std::smallvector<FocusPoint *,4,std::allocator<FocusPoint *> > & __result = _sub_4DD02B(this);
-    return __result;
 }
 
-_extern std::list<WeaponFireEvent *,std::allocator<WeaponFireEvent *> > &_sub_4A9668(Universe *const);
 _inline std::list<WeaponFireEvent *,std::allocator<WeaponFireEvent *> > &Universe::GetWeaponFireEvents() // 0x4A9668
 {
     mangled_assert("?GetWeaponFireEvents@Universe@@QAEAAV?$list@PAVWeaponFireEvent@@V?$allocator@PAVWeaponFireEvent@@@std@@@std@@XZ");
     todo("implement");
-    std::list<WeaponFireEvent *,std::allocator<WeaponFireEvent *> > & __result = _sub_4A9668(this);
-    return __result;
 }
 
-_extern bool _sub_450992(Universe const *const);
 _inline bool Universe::isTurboEnabled() const // 0x450992
 {
     mangled_assert("?isTurboEnabled@Universe@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_450992(this);
-    return __result;
 }
 
-_extern bool _sub_4F95C5(Universe const *const);
 _inline bool Universe::IsInSlowDown() const // 0x4F95C5
 {
     mangled_assert("?IsInSlowDown@Universe@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_4F95C5(this);
-    return __result;
 }
 
-_extern void _sub_453730(Universe *const, bool);
 _inline void Universe::SetIsSkipping(bool) // 0x453730
 {
     mangled_assert("?SetIsSkipping@Universe@@QAEX_N@Z");
     todo("implement");
-    _sub_453730(this, arg);
 }
 
-_extern bool _sub_452AD1(Universe const *const);
 _inline bool Universe::GetIsSkipping() const // 0x452AD1
 {
     mangled_assert("?GetIsSkipping@Universe@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_452AD1(this);
-    return __result;
 }
 
-_extern void _sub_716048(Universe *const, bool);
 _inline void Universe::SetCanSkip(bool) // 0x716048
 {
     mangled_assert("?SetCanSkip@Universe@@QAEX_N@Z");
     todo("implement");
-    _sub_716048(this, arg);
 }
 
-_extern bool _sub_452ACA(Universe const *const);
 _inline bool Universe::GetCanSkip() const // 0x452ACA
 {
     mangled_assert("?GetCanSkip@Universe@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_452ACA(this);
-    return __result;
 }
 
-_extern UnitCaps const &_sub_52B8BA(Universe const *const);
 _inline UnitCaps const &Universe::GetUnitCaps() const // 0x52B8BA
 {
     mangled_assert("?GetUnitCaps@Universe@@QBEABVUnitCaps@@XZ");
     todo("implement");
-    UnitCaps const & __result = _sub_52B8BA(this);
-    return __result;
 }
 
-_extern Collision::Span<Sob> *_sub_477BFB(Universe *const);
 _inline Collision::Span<Sob> *Universe::GetAvoidanceTree() // 0x477BFB
 {
     mangled_assert("?GetAvoidanceTree@Universe@@QAEPAV?$Span@VSob@@@Collision@@XZ");
     todo("implement");
-    Collision::Span<Sob> * __result = _sub_477BFB(this);
-    return __result;
 }
 
-_extern Collision::Span<Sob> *_sub_477C08(Universe *const);
 _inline Collision::Span<Sob> *Universe::GetCollisionTree() // 0x477C08
 {
     mangled_assert("?GetCollisionTree@Universe@@QAEPAV?$Span@VSob@@@Collision@@XZ");
     todo("implement");
-    Collision::Span<Sob> * __result = _sub_477C08(this);
-    return __result;
 }
 
-_extern void _sub_71603B(Universe *const, bool);
 _inline void Universe::SetAvoidanceActive(bool) // 0x71603B
 {
     mangled_assert("?SetAvoidanceActive@Universe@@QAEX_N@Z");
     todo("implement");
-    _sub_71603B(this, arg);
 }
 
-_extern char const *_sub_591C83(Universe const *const);
 _inline char const *Universe::SoundGetSubtitlePath() const // 0x591C83
 {
     mangled_assert("?SoundGetSubtitlePath@Universe@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_591C83(this);
-    return __result;
 }
 
-_extern float _sub_5F21AA(Universe const *const);
 _inline float Universe::getFPS() const // 0x5F21AA
 {
     mangled_assert("?getFPS@Universe@@QBEMXZ");
     todo("implement");
-    float __result = _sub_5F21AA(this);
-    return __result;
 }
 
 /* ---------- private code */

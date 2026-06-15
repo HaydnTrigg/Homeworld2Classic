@@ -105,80 +105,58 @@ static_assert(sizeof(Timer) == 32, "Invalid Timer size");
 
 /* ---------- public code */
 
-_extern Timer::timerResolution _sub_10008A69(Timer const *const);
 _inline Timer::timerResolution Timer::getResolution() const // 0x10008A69
 {
     mangled_assert("?getResolution@Timer@@QBE?AW4timerResolution@1@XZ");
     todo("implement");
-    Timer::timerResolution __result = _sub_10008A69(this);
-    return __result;
 }
 
-_extern void _sub_10008AEF(Timer *const);
 _inline void Timer::start() // 0x10008AEF
 {
     mangled_assert("?start@Timer@@QAEXXZ");
     todo("implement");
-    _sub_10008AEF(this);
 }
 
-_extern void _sub_10008AFF(Timer *const);
 _inline void Timer::stop() // 0x10008AFF
 {
     mangled_assert("?stop@Timer@@QAEXXZ");
     todo("implement");
-    _sub_10008AFF(this);
 }
 
-_extern void _sub_10008A92(Timer *const);
 _inline void Timer::reset() // 0x10008A92
 {
     mangled_assert("?reset@Timer@@QAEXXZ");
     todo("implement");
-    _sub_10008A92(this);
 }
 
-_extern void _sub_10008AA1(Timer *const);
 _inline void Timer::restart() // 0x10008AA1
 {
     mangled_assert("?restart@Timer@@QAEXXZ");
     todo("implement");
-    _sub_10008AA1(this);
 }
 
-_extern long long _sub_1000893B(Timer const *const);
 _inline long long Timer::getElapsedTime() const // 0x1000893B
 {
     mangled_assert("?getElapsedTime@Timer@@QBE_JXZ");
     todo("implement");
-    long long __result = _sub_1000893B(this);
-    return __result;
 }
 
-_extern long long _sub_10008A5D();
 _inline long long Timer::getOverheadTicks() // 0x10008A5D
 {
     mangled_assert("?getOverheadTicks@Timer@@SG_JXZ");
     todo("implement");
-    long long __result = _sub_10008A5D();
-    return __result;
 }
 
-_extern void _sub_10008ABF(long long);
 _inline void Timer::setOverheadTicks(long long overhead) // 0x10008ABF
 {
     mangled_assert("?setOverheadTicks@Timer@@SGX_J@Z");
     todo("implement");
-    _sub_10008ABF(overhead);
 }
 
-_extern bool _sub_10008A83(Timer const *const);
 _inline bool Timer::isTimerRunning() const // 0x10008A83
 {
     mangled_assert("?isTimerRunning@Timer@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_10008A83(this);
-    return __result;
 }
 
 /* ---------- private code */

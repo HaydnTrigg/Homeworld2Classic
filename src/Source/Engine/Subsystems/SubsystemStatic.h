@@ -76,38 +76,28 @@ static_assert(sizeof(SubSystemFinderById) == 8, "Invalid SubSystemFinderById siz
 
 /* ---------- public code */
 
-_extern _sub_50DB26(SubSystemFinder *const, char const *);
 _inline SubSystemFinder::SubSystemFinder(char const *) // 0x50DB26
 {
     mangled_assert("??0SubSystemFinder@@QAE@PBD@Z");
     todo("implement");
-    _sub_50DB26(this, arg);
 }
 
-_extern bool _sub_50DFA4(SubSystemFinder const *const, SobStatic const *);
 _inline bool SubSystemFinder::operator()(SobStatic const *) const // 0x50DFA4
 {
     mangled_assert("??RSubSystemFinder@@UBE_NPBVSobStatic@@@Z");
     todo("implement");
-    bool __result = _sub_50DFA4(this, arg);
-    return __result;
 }
 
-_extern _sub_612E9A(SubSystemFinderById *const, unsigned __int32);
 _inline SubSystemFinderById::SubSystemFinderById(unsigned __int32) // 0x612E9A
 {
     mangled_assert("??0SubSystemFinderById@@QAE@I@Z");
     todo("implement");
-    _sub_612E9A(this, arg);
 }
 
-_extern bool _sub_612FA5(SubSystemFinderById const *const, SobStatic const *);
 _inline bool SubSystemFinderById::operator()(SobStatic const *) const // 0x612FA5
 {
     mangled_assert("??RSubSystemFinderById@@UBE_NPBVSobStatic@@@Z");
     todo("implement");
-    bool __result = _sub_612FA5(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

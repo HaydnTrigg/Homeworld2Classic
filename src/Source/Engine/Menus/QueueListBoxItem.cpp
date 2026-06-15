@@ -186,101 +186,77 @@ extern std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_
 
 /* ---------- public code */
 
-_extern _sub_5A4476(UI::QueueListBoxItem *const, UI::ListBoxItem *, UI::QueueListBoxItemType);
 UI::QueueListBoxItem::QueueListBoxItem(UI::ListBoxItem *, UI::QueueListBoxItemType) // 0x5A4476
 {
     mangled_assert("??0QueueListBoxItem@UI@@QAE@PAVListBoxItem@1@W4QueueListBoxItemType@1@@Z");
     todo("implement");
-    _sub_5A4476(this, arg, arg);
 }
 
-_extern void _sub_5A451A(UI::QueueListBoxItem *const);
 _inline UI::QueueListBoxItem::~QueueListBoxItem() // 0x5A451A
 {
     mangled_assert("??1QueueListBoxItem@UI@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5A451A(this);
 }
 
-_extern void _sub_5A4927(UI::QueueListBoxItem *const);
 void UI::QueueListBoxItem::Init() // 0x5A4927
 {
     mangled_assert("?Init@QueueListBoxItem@UI@@AAEXXZ");
     todo("implement");
-    _sub_5A4927(this);
 }
 
-_extern void _sub_5A4DFB(UI::QueueListBoxItem *const, boost::shared_ptr<UI::Graphic>);
 void UI::QueueListBoxItem::SetIcon(boost::shared_ptr<UI::Graphic>) // 0x5A4DFB
 {
     mangled_assert("?SetIcon@QueueListBoxItem@UI@@QAEXV?$shared_ptr@VGraphic@UI@@@boost@@@Z");
     todo("implement");
-    _sub_5A4DFB(this, arg);
 }
 
-_extern void _sub_5A45DF(UI::QueueListBoxItem *const, Vector_2i const &, Rect_i const &);
 void UI::QueueListBoxItem::Draw2(Vector_2i const &, Rect_i const &) // 0x5A45DF
 {
     mangled_assert("?Draw2@QueueListBoxItem@UI@@UAEXABUVector_2i@@ABURect_i@@@Z");
     todo("implement");
-    _sub_5A45DF(this, arg, arg);
 }
 
-_extern void _sub_5A4E52(UI::QueueListBoxItem *const, wchar_t const *);
 void UI::QueueListBoxItem::SetShipNameText(wchar_t const *) // 0x5A4E52
 {
     mangled_assert("?SetShipNameText@QueueListBoxItem@UI@@QAEXPB_W@Z");
     todo("implement");
-    _sub_5A4E52(this, arg);
 }
 
-_extern void _sub_5A45AE(UI::QueueListBoxItem *const, unsigned __int32);
 void UI::QueueListBoxItem::AddBuildJob(unsigned __int32) // 0x5A45AE
 {
     mangled_assert("?AddBuildJob@QueueListBoxItem@UI@@QAEXI@Z");
     todo("implement");
-    _sub_5A45AE(this, arg);
 }
 
-_extern void _sub_5A4D87(UI::QueueListBoxItem *const);
 void UI::QueueListBoxItem::RemoveLastBuildJob() // 0x5A4D87
 {
     mangled_assert("?RemoveLastBuildJob@QueueListBoxItem@UI@@QAEXXZ");
     todo("implement");
-    _sub_5A4D87(this);
 }
 
-_extern void _sub_5A4BF1(UI::QueueListBoxItem *const);
 void UI::QueueListBoxItem::MoveToTopOfQueue() // 0x5A4BF1
 {
     mangled_assert("?MoveToTopOfQueue@QueueListBoxItem@UI@@QAEXXZ");
     todo("implement");
-    _sub_5A4BF1(this);
 }
 
-_extern void _sub_5A48BB(UI::QueueListBoxItem *const, bool);
 void UI::QueueListBoxItem::EnableMoveToTop(bool) // 0x5A48BB
 {
     mangled_assert("?EnableMoveToTop@QueueListBoxItem@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_5A48BB(this, arg);
 }
 
-_extern void _sub_5A4CDB(UI::InterfaceElement *, __int32, __int32, unsigned __int32);
 void UI::QueueListBoxItem::OnCancelButtonClicked(UI::InterfaceElement *cancelButton, __int32 x, __int32 y, unsigned __int32 button) // 0x5A4CDB
 {
     mangled_assert("?OnCancelButtonClicked@QueueListBoxItem@UI@@CGXPAVInterfaceElement@2@HHI@Z");
     todo("implement");
-    _sub_5A4CDB(cancelButton, x, y, button);
 }
 
-_extern void _sub_5A4D31(UI::InterfaceElement *, __int32, __int32, unsigned __int32);
 void UI::QueueListBoxItem::OnToTopButtonClicked(UI::InterfaceElement *toTopButton, __int32 x, __int32 y, unsigned __int32 button) // 0x5A4D31
 {
     mangled_assert("?OnToTopButtonClicked@QueueListBoxItem@UI@@CGXPAVInterfaceElement@2@HHI@Z");
     todo("implement");
-    _sub_5A4D31(toTopButton, x, y, button);
 }
 
 /* ---------- private code */

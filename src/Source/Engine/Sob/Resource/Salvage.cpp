@@ -137,114 +137,82 @@ extern SaveData const Salvage::m_saveData[1]; // 0x790180
 
 /* ---------- public code */
 
-_extern _sub_4B1851(Salvage *const, char const *, bool);
 Salvage::Salvage(char const *, bool) // 0x4B1851
 {
     mangled_assert("??0Salvage@@QAE@PBD_N@Z");
     todo("implement");
-    _sub_4B1851(this, arg, arg);
 }
 
-_extern _sub_4B182D(Salvage *const, SaveGameData *);
 Salvage::Salvage(SaveGameData *) // 0x4B182D
 {
     mangled_assert("??0Salvage@@QAE@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_4B182D(this, arg);
 }
 
-_extern void _sub_4B1879(Salvage *const);
 Salvage::~Salvage() // 0x4B1879
 {
     mangled_assert("??1Salvage@@UAE@XZ");
     todo("implement");
-    _sub_4B1879(this);
 }
 
-_extern void _sub_4B18AB(Salvage *const);
 void Salvage::RemoveFromSimulation() // 0x4B18AB
 {
     mangled_assert("?RemoveFromSimulation@Salvage@@UAEXXZ");
     todo("implement");
-    _sub_4B18AB(this);
 }
 
-_extern void _sub_4B18AA(Salvage *const);
 void Salvage::RemoveAllSimData() // 0x4B18AA
 {
     mangled_assert("?RemoveAllSimData@Salvage@@IAEXXZ");
     todo("implement");
-    _sub_4B18AA(this);
 }
 
-_extern bool _sub_4B19C3(Salvage *const, Ship *);
 bool Salvage::latchShip(Ship *) // 0x4B19C3
 {
     mangled_assert("?latchShip@Salvage@@UAE_NPAVShip@@@Z");
     todo("implement");
-    bool __result = _sub_4B19C3(this, arg);
-    return __result;
 }
 
-_extern bool _sub_4B1AD1(Salvage *const, float);
 bool Salvage::update(float) // 0x4B1AD1
 {
     mangled_assert("?update@Salvage@@UAE_NM@Z");
     todo("implement");
-    bool __result = _sub_4B1AD1(this, arg);
-    return __result;
 }
 
-_extern void _sub_4B1A32(Salvage *const);
 void Salvage::postRestore() // 0x4B1A32
 {
     mangled_assert("?postRestore@Salvage@@UAEXXZ");
     todo("implement");
-    _sub_4B1A32(this);
 }
 
-_extern void _sub_4B19B2(Salvage *const);
 void Salvage::defaultSettings() // 0x4B19B2
 {
     mangled_assert("?defaultSettings@Salvage@@QAEXXZ");
     todo("implement");
-    _sub_4B19B2(this);
 }
 
-_extern bool _sub_4B1A37(Salvage *const, SaveGameData *);
 bool Salvage::restore(SaveGameData *) // 0x4B1A37
 {
     mangled_assert("?restore@Salvage@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_4B1A37(this, arg);
-    return __result;
 }
 
-_extern bool _sub_4B1A84(Salvage *const, SaveGameData *, SaveType);
 bool Salvage::save(SaveGameData *, SaveType) // 0x4B1A84
 {
     mangled_assert("?save@Salvage@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_4B1A84(this, arg, arg);
-    return __result;
 }
 
-_extern Salvage *_sub_4B18B0(char const *, vector3 const &, vector3 const &, matrix3 const &, vector3 const &, __int32, bool, bool);
 Salvage *SpawnSalvage(char const *resourcename, vector3 const &position, vector3 const &speed, matrix3 const &orientation, vector3 const &angularspeed, __int32 resourceValue, bool RUpercentage, bool modifiedByRF) // 0x4B18B0
 {
     mangled_assert("?SpawnSalvage@@YGPAVSalvage@@PBDABVvector3@@1ABVmatrix3@@1H_N3@Z");
     todo("implement");
-    Salvage * __result = _sub_4B18B0(resourcename, position, speed, orientation, angularspeed, resourceValue, RUpercentage, modifiedByRF);
-    return __result;
 }
 
-_extern Salvage *_sub_4B1965(char const *, vector3 const &, vector3 const &, matrix3 const &, __int32, bool);
 Salvage *SpawnSalvageRandomRotationSpeed(char const *resourcename, vector3 const &position, vector3 const &speed, matrix3 const &orientation, __int32 resourceValue, bool modifiedByRF) // 0x4B1965
 {
     mangled_assert("?SpawnSalvageRandomRotationSpeed@@YGPAVSalvage@@PBDABVvector3@@1ABVmatrix3@@H_N@Z");
     todo("implement");
-    Salvage * __result = _sub_4B1965(resourcename, position, speed, orientation, resourceValue, modifiedByRF);
-    return __result;
 }
 
 /* ---------- private code */

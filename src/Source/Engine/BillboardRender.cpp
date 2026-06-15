@@ -89,54 +89,40 @@ extern SaveData const BillboardRender::m_saveData[3]; // 0x7A0430
 
 /* ---------- public code */
 
-_extern _sub_56DB97(BillboardRender *const, float, float);
 BillboardRender::BillboardRender(float, float) // 0x56DB97
 {
     mangled_assert("??0BillboardRender@@QAE@MM@Z");
     todo("implement");
-    _sub_56DB97(this, arg, arg);
 }
 
-_extern void _sub_56DBE1(BillboardRender *const, Camera const *, MeshRenderProxy &, vector4 const &, vector4 const &, HierarchyStatic const *, vector3 const &, float, float, MeshInstance const *);
 void BillboardRender::Render(Camera const *, MeshRenderProxy &, vector4 const &, vector4 const &, HierarchyStatic const *, vector3 const &, float, float, MeshInstance const *) // 0x56DBE1
 {
     mangled_assert("?Render@BillboardRender@@QAEXPBVCamera@@AAVMeshRenderProxy@@ABVvector4@@2PBVHierarchyStatic@@ABVvector3@@MMPBVMeshInstance@@@Z");
     todo("implement");
-    _sub_56DBE1(this, arg, arg, arg, arg, arg, arg, arg, arg, arg);
 }
 
-_extern void _sub_56DEA3(BillboardRender *const);
 void BillboardRender::postRestore() // 0x56DEA3
 {
     mangled_assert("?postRestore@BillboardRender@@UAEXXZ");
     todo("implement");
-    _sub_56DEA3(this);
 }
 
-_extern void _sub_56DE93(BillboardRender *const);
 void BillboardRender::defaultSettings() // 0x56DE93
 {
     mangled_assert("?defaultSettings@BillboardRender@@QAEXXZ");
     todo("implement");
-    _sub_56DE93(this);
 }
 
-_extern bool _sub_56DEA4(BillboardRender *const, SaveGameData *);
 bool BillboardRender::restore(SaveGameData *) // 0x56DEA4
 {
     mangled_assert("?restore@BillboardRender@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_56DEA4(this, arg);
-    return __result;
 }
 
-_extern bool _sub_56DEE2(BillboardRender *const, SaveGameData *, SaveType);
 bool BillboardRender::save(SaveGameData *, SaveType) // 0x56DEE2
 {
     mangled_assert("?save@BillboardRender@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_56DEE2(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

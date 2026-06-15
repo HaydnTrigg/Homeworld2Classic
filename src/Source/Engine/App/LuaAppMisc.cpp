@@ -67,50 +67,39 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_500072(LuaBinding::ObjInternal0<char const *,LuaBinding::Functor0Free<char const *> > *const);
 _inline LuaBinding::ObjInternal0<char const *,LuaBinding::Functor0Free<char const *> >::~ObjInternal0<char const *,LuaBinding::Functor0Free<char const *> >() // 0x500072
 {
     mangled_assert("??1?$ObjInternal0@PBDV?$Functor0Free@PBD@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_500072(this);
 }
 
-_extern void _sub_500078(LuaBinding::ObjInternal1<unsigned int,void,LuaBinding::Functor1Free<unsigned int,void> > *const);
 _inline LuaBinding::ObjInternal1<unsigned int,void,LuaBinding::Functor1Free<unsigned int,void> >::~ObjInternal1<unsigned int,void,LuaBinding::Functor1Free<unsigned int,void> >() // 0x500078
 {
     mangled_assert("??1?$ObjInternal1@IXV?$Functor1Free@IX@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_500078(this);
 }
 
-_extern void _sub_50007E(LuaBinding::ObjInternal1<char const *,void,LuaBinding::Functor1Free<char const *,void> > *const);
 _inline LuaBinding::ObjInternal1<char const *,void,LuaBinding::Functor1Free<char const *,void> >::~ObjInternal1<char const *,void,LuaBinding::Functor1Free<char const *,void> >() // 0x50007E
 {
     mangled_assert("??1?$ObjInternal1@PBDXV?$Functor1Free@PBDX@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_50007E(this);
 }
 
-_extern void _sub_500084(LuaBinding::ObjInternal2<char const *,float,void,LuaBinding::Functor2Free<char const *,float,void> > *const);
 _inline LuaBinding::ObjInternal2<char const *,float,void,LuaBinding::Functor2Free<char const *,float,void> >::~ObjInternal2<char const *,float,void,LuaBinding::Functor2Free<char const *,float,void> >() // 0x500084
 {
     mangled_assert("??1?$ObjInternal2@PBDMXV?$Functor2Free@PBDMX@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_500084(this);
 }
 
 /* ---------- private code */
 
-_extern char const *_sub_5002CB();
 _static char const *GetVersionInfo() // 0x5002CB
 {
     mangled_assert("GetVersionInfo");
     todo("implement");
-    char const * __result = _sub_5002CB();
-    return __result;
 }
 #endif

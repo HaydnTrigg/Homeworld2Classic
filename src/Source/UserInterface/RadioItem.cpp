@@ -75,36 +75,28 @@
 
 /* ---------- public code */
 
-_extern _sub_68F6F2(UI::RadioItem *const, UI::InterfaceElement *, bool);
 UI::RadioItem::RadioItem(UI::InterfaceElement *, bool) // 0x68F6F2
 {
     mangled_assert("??0RadioItem@UI@@QAE@PAVInterfaceElement@1@_N@Z");
     todo("implement");
-    _sub_68F6F2(this, arg, arg);
 }
 
-_extern void _sub_68F711(UI::RadioItem *const);
 UI::RadioItem::~RadioItem() // 0x68F711
 {
     mangled_assert("??1RadioItem@UI@@QAE@XZ");
     todo("implement");
-    _sub_68F711(this);
 }
 
-_extern void _sub_68F727(UI::RadioItem *const, bool);
 void UI::RadioItem::SetSelected(bool) // 0x68F727
 {
     mangled_assert("?SetSelected@RadioItem@UI@@UAEX_N@Z");
     todo("implement");
-    _sub_68F727(this, arg);
 }
 
-_extern void _sub_68F747(UI::RadioItem *const);
 void UI::RadioItem::Toggle() // 0x68F747
 {
     mangled_assert("?Toggle@RadioItem@UI@@QAEXXZ");
     todo("implement");
-    _sub_68F747(this);
 }
 
 /* ---------- private code */

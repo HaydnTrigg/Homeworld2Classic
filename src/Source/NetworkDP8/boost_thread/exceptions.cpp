@@ -110,20 +110,16 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_6D8773(boost::lock_error *const);
 boost::lock_error::lock_error() // 0x6D8773
 {
     mangled_assert("??0lock_error@boost@@QAE@XZ");
     todo("implement");
-    _sub_6D8773(this);
 }
 
-_extern _sub_6D8796(boost::thread_resource_error *const);
 boost::thread_resource_error::thread_resource_error() // 0x6D8796
 {
     mangled_assert("??0thread_resource_error@boost@@QAE@XZ");
     todo("implement");
-    _sub_6D8796(this);
 }
 
 /* ---------- private code */

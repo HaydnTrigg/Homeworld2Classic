@@ -140,65 +140,48 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_100A5390(RectanglePacker *const, RectanglePacker const &);
 _inline RectanglePacker::RectanglePacker(RectanglePacker const &) // 0x100A5390
 {
     mangled_assert("??0RectanglePacker@@QAE@ABV0@@Z");
     compiler_generated();
     todo("implement");
-    _sub_100A5390(this, arg);
 }
 
-_extern _sub_100A53D0(TypefaceExtended *const, float, float);
 TypefaceExtended::TypefaceExtended(float, float) // 0x100A53D0
 {
     mangled_assert("??0TypefaceExtended@@QAE@MM@Z");
     todo("implement");
-    _sub_100A53D0(this, arg, arg);
 }
 
-_extern void _sub_100A5470(RectanglePacker *const);
 _inline RectanglePacker::~RectanglePacker() // 0x100A5470
 {
     mangled_assert("??1RectanglePacker@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_100A5470(this);
 }
 
-_extern bool _sub_100A5660(TypefaceExtended *const, char const *, unsigned __int32, bool, bool, unsigned char);
 bool TypefaceExtended::SetSystemFont(char const *, unsigned __int32, bool, bool, unsigned char) // 0x100A5660
 {
     mangled_assert("?SetSystemFont@TypefaceExtended@@QAE_NPBDI_N1E@Z");
     todo("implement");
-    bool __result = _sub_100A5660(this, arg, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern void _sub_100A54A0(TypefaceExtended *const);
 TypefaceExtended::~TypefaceExtended() // 0x100A54A0
 {
     mangled_assert("??1TypefaceExtended@@QAE@XZ");
     todo("implement");
-    _sub_100A54A0(this);
 }
 
-_extern Glyph *_sub_100A5A30(TypefaceExtended *const, wchar_t, unsigned __int32, unsigned __int32);
 Glyph *TypefaceExtended::buildGlyph(wchar_t, unsigned __int32, unsigned __int32) // 0x100A5A30
 {
     mangled_assert("?buildGlyph@TypefaceExtended@@MAEPAVGlyph@@_WII@Z");
     todo("implement");
-    Glyph * __result = _sub_100A5A30(this, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_100A5F40(TypefaceExtended *const, wchar_t, unsigned __int32 &, unsigned __int32 &);
 bool TypefaceExtended::queryLetterSize(wchar_t, unsigned __int32 &, unsigned __int32 &) // 0x100A5F40
 {
     mangled_assert("?queryLetterSize@TypefaceExtended@@MAE_N_WAAI1@Z");
     todo("implement");
-    bool __result = _sub_100A5F40(this, arg, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

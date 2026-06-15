@@ -87,85 +87,58 @@ static_assert(sizeof(UI::StyleSheet) == 192, "Invalid UI::StyleSheet size");
 
 /* ---------- public code */
 
-_extern UI::InterfaceElement *_sub_66B6BD(UI::StyleSheet *const);
 _inline UI::InterfaceElement *UI::StyleSheet::GetDefaultElementStyle() // 0x66B6BD
 {
     mangled_assert("?GetDefaultElementStyle@StyleSheet@UI@@QAEPAVInterfaceElement@2@XZ");
     todo("implement");
-    UI::InterfaceElement * __result = _sub_66B6BD(this);
-    return __result;
 }
 
-_extern UI::NewText *_sub_67E878(UI::StyleSheet *const);
 _inline UI::NewText *UI::StyleSheet::GetDefaultTextStyle() // 0x67E878
 {
     mangled_assert("?GetDefaultTextStyle@StyleSheet@UI@@QAEPAVNewText@2@XZ");
     todo("implement");
-    UI::NewText * __result = _sub_67E878(this);
-    return __result;
 }
 
-_extern UI::ScrollView *_sub_68BF6C(UI::StyleSheet *const);
 _inline UI::ScrollView *UI::StyleSheet::GetDefaultScrollViewStyle() // 0x68BF6C
 {
     mangled_assert("?GetDefaultScrollViewStyle@StyleSheet@UI@@QAEPAVScrollView@2@XZ");
     todo("implement");
-    UI::ScrollView * __result = _sub_68BF6C(this);
-    return __result;
 }
 
-_extern UI::TextButton *_sub_67DCD1(UI::StyleSheet *const);
 _inline UI::TextButton *UI::StyleSheet::GetDefaultButtonStyle() // 0x67DCD1
 {
     mangled_assert("?GetDefaultButtonStyle@StyleSheet@UI@@QAEPAVTextButton@2@XZ");
     todo("implement");
-    UI::TextButton * __result = _sub_67DCD1(this);
-    return __result;
 }
 
-_extern UI::NewScrollBar *_sub_681778(UI::StyleSheet *const);
 _inline UI::NewScrollBar *UI::StyleSheet::GetDefaultScrollBarStyle() // 0x681778
 {
     mangled_assert("?GetDefaultScrollBarStyle@StyleSheet@UI@@QAEPAVNewScrollBar@2@XZ");
     todo("implement");
-    UI::NewScrollBar * __result = _sub_681778(this);
-    return __result;
 }
 
-_extern UI::NewListBox *_sub_67C6DE(UI::StyleSheet *const);
 _inline UI::NewListBox *UI::StyleSheet::GetDefaultListBoxStyle() // 0x67C6DE
 {
     mangled_assert("?GetDefaultListBoxStyle@StyleSheet@UI@@QAEPAVNewListBox@2@XZ");
     todo("implement");
-    UI::NewListBox * __result = _sub_67C6DE(this);
-    return __result;
 }
 
-_extern UI::NewDropDownListBox *_sub_683126(UI::StyleSheet *const);
 _inline UI::NewDropDownListBox *UI::StyleSheet::GetDefaultDropDownListBoxStyle() // 0x683126
 {
     mangled_assert("?GetDefaultDropDownListBoxStyle@StyleSheet@UI@@QAEPAVNewDropDownListBox@2@XZ");
     todo("implement");
-    UI::NewDropDownListBox * __result = _sub_683126(this);
-    return __result;
 }
 
-_extern UI::NewTextInput *_sub_68933B(UI::StyleSheet *const);
 _inline UI::NewTextInput *UI::StyleSheet::GetDefaultTextInputStyle() // 0x68933B
 {
     mangled_assert("?GetDefaultTextInputStyle@StyleSheet@UI@@QAEPAVNewTextInput@2@XZ");
     todo("implement");
-    UI::NewTextInput * __result = _sub_68933B(this);
-    return __result;
 }
 
-_extern UI::Table *_sub_685786(UI::StyleSheet *const);
 _inline UI::Table *UI::StyleSheet::GetDefaultTableStyle() // 0x685786
 {
     mangled_assert("?GetDefaultTableStyle@StyleSheet@UI@@QAEPAVTable@2@XZ");
     todo("implement");
-    UI::Table * __result = _sub_685786(this);
-    return __result;
 }
 
 /* ---------- private code */

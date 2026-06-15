@@ -32,30 +32,22 @@ static_assert(sizeof(WebMVideoInterface) == 4, "Invalid WebMVideoInterface size"
 
 /* ---------- public code */
 
-_extern _sub_6FC11E(WebMVideoInterface *const);
 _inline WebMVideoInterface::WebMVideoInterface() // 0x6FC11E
 {
     mangled_assert("??0WebMVideoInterface@@IAE@XZ");
     todo("implement");
-    _sub_6FC11E(this);
 }
 
-_extern bool _sub_6FC19C(WebMVideoInterface *const);
 _inline bool WebMVideoInterface::Initialize() // 0x6FC19C
 {
     mangled_assert("?Initialize@WebMVideoInterface@@MAE_NXZ");
     todo("implement");
-    bool __result = _sub_6FC19C(this);
-    return __result;
 }
 
-_extern bool _sub_6FC12F(WebMVideoInterface *const);
 _inline bool WebMVideoInterface::DeInitialize() // 0x6FC12F
 {
     mangled_assert("?DeInitialize@WebMVideoInterface@@MAE_NXZ");
     todo("implement");
-    bool __result = _sub_6FC12F(this);
-    return __result;
 }
 
 /* ---------- private code */

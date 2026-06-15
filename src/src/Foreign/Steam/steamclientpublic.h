@@ -314,20 +314,16 @@ static_assert(sizeof(CGameID) == 8, "Invalid CGameID size");
 
 /* ---------- public code */
 
-_extern _sub_44AEE2(CSteamID *const, unsigned long long);
 _inline CSteamID::CSteamID(unsigned long long) // 0x44AEE2
 {
     mangled_assert("??0CSteamID@@QAE@_K@Z");
     todo("implement");
-    _sub_44AEE2(this, arg);
 }
 
-_extern void _sub_44C032(CSteamID *const, unsigned long long);
 _inline void CSteamID::SetFromUint64(unsigned long long) // 0x44C032
 {
     mangled_assert("?SetFromUint64@CSteamID@@QAEX_K@Z");
     todo("implement");
-    _sub_44C032(this, arg);
 }
 
 /* ---------- private code */
@@ -822,13 +818,10 @@ static_assert(sizeof(CGameID) == 8, "Invalid CGameID size");
 
 /* ---------- public code */
 
-_extern bool _sub_10002D8D(CSteamID const *const, CSteamID const &);
 _inline bool CSteamID::operator==(CSteamID const &) const // 0x10002D8D
 {
     mangled_assert("??8CSteamID@@QBE_NABV0@@Z");
     todo("implement");
-    bool __result = _sub_10002D8D(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

@@ -45,20 +45,16 @@
 
 /* ---------- public code */
 
-_extern _sub_54CEA8(NISCard *const);
 NISCard::NISCard() // 0x54CEA8
 {
     mangled_assert("??0NISCard@@QAE@XZ");
     todo("implement");
-    _sub_54CEA8(this);
 }
 
-_extern void _sub_54CED8(NISCard *const);
 NISCard::~NISCard() // 0x54CED8
 {
     mangled_assert("??1NISCard@@QAE@XZ");
     todo("implement");
-    _sub_54CED8(this);
 }
 
 /* ---------- private code */

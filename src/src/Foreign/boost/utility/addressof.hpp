@@ -16,13 +16,10 @@ extern Net::DirectPlayDeleter *boost::addressof<Net::DirectPlayDeleter>(Net::Dir
 
 /* ---------- public code */
 
-_extern Net::DirectPlayDeleter *_sub_6D6155(Net::DirectPlayDeleter &);
 Net::DirectPlayDeleter *boost::addressof<Net::DirectPlayDeleter>(Net::DirectPlayDeleter &v) // 0x6D6155
 {
     mangled_assert("??$addressof@VDirectPlayDeleter@Net@@@boost@@YGPAVDirectPlayDeleter@Net@@AAV12@@Z");
     todo("implement");
-    Net::DirectPlayDeleter * __result = _sub_6D6155(v);
-    return __result;
 }
 
 /* ---------- private code */

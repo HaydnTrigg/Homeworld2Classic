@@ -144,138 +144,94 @@ static_assert(sizeof(EngineTrailSystem) == 80, "Invalid EngineTrailSystem size")
 
 /* ---------- public code */
 
-_extern unsigned __int32 _sub_449776(EngineTrailStatic const *const);
 _inline unsigned __int32 EngineTrailStatic::getNumNozzles() const // 0x449776
 {
     mangled_assert("?getNumNozzles@EngineTrailStatic@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_449776(this);
-    return __result;
 }
 
-_extern void _sub_449F15(EngineTrailStatic *const, float);
 _inline void EngineTrailStatic::setUpdatePeriod(float) // 0x449F15
 {
     mangled_assert("?setUpdatePeriod@EngineTrailStatic@@QAEXM@Z");
     todo("implement");
-    _sub_449F15(this, arg);
 }
 
-_extern float _sub_449809(EngineTrailStatic const *const);
 _inline float EngineTrailStatic::getUpdatePeriod() const // 0x449809
 {
     mangled_assert("?getUpdatePeriod@EngineTrailStatic@@QBEMXZ");
     todo("implement");
-    float __result = _sub_449809(this);
-    return __result;
 }
 
-_extern EngineGlowStatic *_sub_443599(EngineTrailStatic *const);
 _inline EngineGlowStatic *EngineTrailStatic::getGlowStatic() // 0x443599
 {
     mangled_assert("?getGlowStatic@EngineTrailStatic@@QAEPAVEngineGlowStatic@@XZ");
     todo("implement");
-    EngineGlowStatic * __result = _sub_443599(this);
-    return __result;
 }
 
-_extern EngineGlowStatic const *_sub_44359D(EngineTrailStatic const *const);
 _inline EngineGlowStatic const *EngineTrailStatic::getGlowStatic() const // 0x44359D
 {
     mangled_assert("?getGlowStatic@EngineTrailStatic@@QBEPBVEngineGlowStatic@@XZ");
     todo("implement");
-    EngineGlowStatic const * __result = _sub_44359D(this);
-    return __result;
 }
 
-_extern EngineBurnStatic *_sub_441B83(EngineTrailStatic *const);
 _inline EngineBurnStatic *EngineTrailStatic::getBurnStatic() // 0x441B83
 {
     mangled_assert("?getBurnStatic@EngineTrailStatic@@QAEPAVEngineBurnStatic@@XZ");
     todo("implement");
-    EngineBurnStatic * __result = _sub_441B83(this);
-    return __result;
 }
 
-_extern EngineBurnStatic const *_sub_441B87(EngineTrailStatic const *const);
 _inline EngineBurnStatic const *EngineTrailStatic::getBurnStatic() const // 0x441B87
 {
     mangled_assert("?getBurnStatic@EngineTrailStatic@@QBEPBVEngineBurnStatic@@XZ");
     todo("implement");
-    EngineBurnStatic const * __result = _sub_441B87(this);
-    return __result;
 }
 
-_extern float _sub_446090(EngineTrailStatic const *const, unsigned __int32);
 _inline float EngineTrailStatic::getLingerTime(unsigned __int32) const // 0x446090
 {
     mangled_assert("?getLingerTime@EngineTrailStatic@@QBEMI@Z");
     todo("implement");
-    float __result = _sub_446090(this, arg);
-    return __result;
 }
 
-_extern Texture const *_sub_4460CC(EngineTrailStatic const *const, unsigned __int32);
 _inline Texture const *EngineTrailStatic::getTexture(unsigned __int32) const // 0x4460CC
 {
     mangled_assert("?getTexture@EngineTrailStatic@@QBEPBVTexture@@I@Z");
     todo("implement");
-    Texture const * __result = _sub_4460CC(this, arg);
-    return __result;
 }
 
-_extern EngineTrailStatic::Tweaks const *_sub_4460FF(EngineTrailStatic const *const, unsigned __int32);
 _inline EngineTrailStatic::Tweaks const *EngineTrailStatic::getTweaks(unsigned __int32) const // 0x4460FF
 {
     mangled_assert("?getTweaks@EngineTrailStatic@@QBEPBVTweaks@1@I@Z");
     todo("implement");
-    EngineTrailStatic::Tweaks const * __result = _sub_4460FF(this, arg);
-    return __result;
 }
 
-_extern EngineTrailStatic::Tweaks *_sub_4497D9(EngineTrailStatic *const, unsigned __int32);
 _inline EngineTrailStatic::Tweaks *EngineTrailStatic::getTweaks(unsigned __int32) // 0x4497D9
 {
     mangled_assert("?getTweaks@EngineTrailStatic@@QAEPAVTweaks@1@I@Z");
     todo("implement");
-    EngineTrailStatic::Tweaks * __result = _sub_4497D9(this, arg);
-    return __result;
 }
 
-_extern float _sub_441CAD(EngineTrailSystem const *const);
 _inline float EngineTrailSystem::getThrustStrength() const // 0x441CAD
 {
     mangled_assert("?getThrustStrength@EngineTrailSystem@@QBEMXZ");
     todo("implement");
-    float __result = _sub_441CAD(this);
-    return __result;
 }
 
-_extern JointAnimStack const *_sub_449756(EngineTrailSystem const *const, unsigned __int32);
 _inline JointAnimStack const *EngineTrailSystem::getNozzle(unsigned __int32) const // 0x449756
 {
     mangled_assert("?getNozzle@EngineTrailSystem@@ABEPBVJointAnimStack@@I@Z");
     todo("implement");
-    JointAnimStack const * __result = _sub_449756(this, arg);
-    return __result;
 }
 
-_extern EngineTrail *_sub_4497BC(EngineTrailSystem *const, unsigned __int32);
 _inline EngineTrail *EngineTrailSystem::getTrail(unsigned __int32) // 0x4497BC
 {
     mangled_assert("?getTrail@EngineTrailSystem@@AAEPAVEngineTrail@@I@Z");
     todo("implement");
-    EngineTrail * __result = _sub_4497BC(this, arg);
-    return __result;
 }
 
-_extern bool _sub_441E5F(EngineTrailSystem const *const);
 _inline bool EngineTrailSystem::isStarted() const // 0x441E5F
 {
     mangled_assert("?isStarted@EngineTrailSystem@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_441E5F(this);
-    return __result;
 }
 
 /* ---------- private code */

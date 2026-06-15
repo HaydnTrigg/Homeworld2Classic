@@ -50,46 +50,34 @@
 
 /* ---------- public code */
 
-_extern _sub_643BDF(TacticalIcon *const);
 TacticalIcon::TacticalIcon() // 0x643BDF
 {
     mangled_assert("??0TacticalIcon@@QAE@XZ");
     todo("implement");
-    _sub_643BDF(this);
 }
 
-_extern void _sub_643BFE(TacticalIcon *const);
 TacticalIcon::~TacticalIcon() // 0x643BFE
 {
     mangled_assert("??1TacticalIcon@@QAE@XZ");
     todo("implement");
-    _sub_643BFE(this);
 }
 
-_extern bool _sub_643C53(TacticalIcon *const, char const *, char const *);
 bool TacticalIcon::initialize(char const *, char const *) // 0x643C53
 {
     mangled_assert("?initialize@TacticalIcon@@QAE_NPBD0@Z");
     todo("implement");
-    bool __result = _sub_643C53(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_643E2C(TacticalIcon *const, vector4 const *, PrimRectangle const *, float, bool);
 void TacticalIcon::render(vector4 const *, PrimRectangle const *, float, bool) // 0x643E2C
 {
     mangled_assert("?render@TacticalIcon@@QAEXPBVvector4@@PBUPrimRectangle@@M_N@Z");
     todo("implement");
-    _sub_643E2C(this, arg, arg, arg, arg);
 }
 
-_extern __int32 _sub_643C89(LuaConfig &);
 __int32 TacticalIcon::parseTacticalIcon(LuaConfig &lc) // 0x643C89
 {
     mangled_assert("?parseTacticalIcon@TacticalIcon@@SGHAAVLuaConfig@@@Z");
     todo("implement");
-    __int32 __result = _sub_643C89(lc);
-    return __result;
 }
 
 /* ---------- private code */

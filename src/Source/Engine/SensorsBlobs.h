@@ -113,83 +113,58 @@ static_assert(sizeof(SensorsBlob) == 204, "Invalid SensorsBlob size");
 
 /* ---------- public code */
 
-_extern std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<SensorsBlob *> > > _sub_616812(SensorsBlobArray const *const);
 _inline std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<SensorsBlob *> > > SensorsBlobArray::begin() const // 0x616812
 {
     mangled_assert("?begin@SensorsBlobArray@@QBE?AV?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@PAVSensorsBlob@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<SensorsBlob *> > > __result = _sub_616812(this);
-    return __result;
 }
 
-_extern std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<SensorsBlob *> > > _sub_618B66(SensorsBlobArray const *const);
 _inline std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<SensorsBlob *> > > SensorsBlobArray::end() const // 0x618B66
 {
     mangled_assert("?end@SensorsBlobArray@@QBE?AV?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@PAVSensorsBlob@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<SensorsBlob *> > > __result = _sub_618B66(this);
-    return __result;
 }
 
-_extern void _sub_63511E(SensorsBlobArray const *const);
 _inline void SensorsBlobArray::analCheck() const // 0x63511E
 {
     mangled_assert("?analCheck@SensorsBlobArray@@QBEXXZ");
     todo("implement");
-    _sub_63511E(this);
 }
 
-_extern Selection const &_sub_618DAD(SensorsBlob const *const);
 _inline Selection const &SensorsBlob::getObjects() const // 0x618DAD
 {
     mangled_assert("?getObjects@SensorsBlob@@QBEABVSelection@@XZ");
     todo("implement");
-    Selection const & __result = _sub_618DAD(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_618DBB(SensorsBlob const *const);
 _inline vector3 const &SensorsBlob::getPosition() const // 0x618DBB
 {
     mangled_assert("?getPosition@SensorsBlob@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_618DBB(this);
-    return __result;
 }
 
-_extern float _sub_618DC2(SensorsBlob const *const);
 _inline float SensorsBlob::getRadius() const // 0x618DC2
 {
     mangled_assert("?getRadius@SensorsBlob@@QBEMXZ");
     todo("implement");
-    float __result = _sub_618DC2(this);
-    return __result;
 }
 
-_extern BlobData const &_sub_618D86(SensorsBlob const *const);
 _inline BlobData const &SensorsBlob::getItemizedData() const // 0x618D86
 {
     mangled_assert("?getItemizedData@SensorsBlob@@QBEABUBlobData@@XZ");
     todo("implement");
-    BlobData const & __result = _sub_618D86(this);
-    return __result;
 }
 
-_extern bool _sub_6363AD(SensorsBlob const *, SensorsBlob const *);
 _inline bool SensorsBlob::sortCB(SensorsBlob const *a, SensorsBlob const *b) // 0x6363AD
 {
     mangled_assert("?sortCB@SensorsBlob@@CG_NPBV1@0@Z");
     todo("implement");
-    bool __result = _sub_6363AD(a, b);
-    return __result;
 }
 
-_extern void _sub_63511D(SensorsBlob const *const);
 _inline void SensorsBlob::analCheck() const // 0x63511D
 {
     mangled_assert("?analCheck@SensorsBlob@@ABEXXZ");
     todo("implement");
-    _sub_63511D(this);
 }
 
 /* ---------- private code */

@@ -106,31 +106,22 @@ extern __int32 DllMain(void *hInstance, unsigned long reason, void *reserved);
 
 /* ---------- public code */
 
-_extern unsigned __int32 _sub_10064390();
 unsigned __int32 getLibraryID() // 0x10064390
 {
     mangled_assert("_getLibraryID");
     todo("implement");
-    unsigned __int32 __result = _sub_10064390();
-    return __result;
 }
 
-_extern bool _sub_100643A0(void *);
 bool setupFunctionTable(void *fnTable) // 0x100643A0
 {
     mangled_assert("_setupFunctionTable");
     todo("implement");
-    bool __result = _sub_100643A0(fnTable);
-    return __result;
 }
 
-_extern __int32 _sub_10064380(void *, unsigned long, void *);
 __int32 DllMain(void *hInstance, unsigned long reason, void *reserved) // 0x10064380
 {
     mangled_assert("_DllMain@12");
     todo("implement");
-    __int32 __result = _sub_10064380(hInstance, reason, reserved);
-    return __result;
 }
 
 /* ---------- private code */

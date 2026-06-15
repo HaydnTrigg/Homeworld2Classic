@@ -246,327 +246,241 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_614AEA(PersistantData *const);
 void PersistantData::Reset() // 0x614AEA
 {
     mangled_assert("?Reset@PersistantData@@QAEXXZ");
     todo("implement");
-    _sub_614AEA(this);
 }
 
-_extern __int32 _sub_6130D8(PersistantData *const);
 __int32 PersistantData::LastMission() // 0x6130D8
 {
     mangled_assert("?LastMission@PersistantData@@QAEHXZ");
     todo("implement");
-    __int32 __result = _sub_6130D8(this);
-    return __result;
 }
 
-_extern void _sub_615680(LuaConfig &, Squadron *);
 void SaveTeamColour(LuaConfig &lc, Squadron *pSquad) // 0x615680
 {
     mangled_assert("?SaveTeamColour@@YGXAAVLuaConfig@@PAVSquadron@@@Z");
     todo("implement");
-    _sub_615680(lc, pSquad);
 }
 
-_extern void _sub_614FB0(LuaConfig &, Squadron *);
 void SaveShipHolds(LuaConfig &lc, Squadron *pSquad) // 0x614FB0
 {
     mangled_assert("?SaveShipHolds@@YGXAAVLuaConfig@@PAVSquadron@@@Z");
     todo("implement");
-    _sub_614FB0(lc, pSquad);
 }
 
-_extern void _sub_61551E(LuaConfig &, Squadron *);
 void SaveSubSystems(LuaConfig &lc, Squadron *pSquad) // 0x61551E
 {
     mangled_assert("?SaveSubSystems@@YGXAAVLuaConfig@@PAVSquadron@@@Z");
     todo("implement");
-    _sub_61551E(lc, pSquad);
 }
 
-_extern void _sub_614CD5(LuaConfig &, Squadron *);
 void SaveBuildJobs(LuaConfig &lc, Squadron *pSquad) // 0x614CD5
 {
     mangled_assert("?SaveBuildJobs@@YGXAAVLuaConfig@@PAVSquadron@@@Z");
     todo("implement");
-    _sub_614CD5(lc, pSquad);
 }
 
-_extern bool _sub_6151A6(LuaConfig &, Squadron *, __int32 &);
 bool SaveSquadron(LuaConfig &lc, Squadron *pSquad, __int32 &squadIndex) // 0x6151A6
 {
     mangled_assert("?SaveSquadron@@YG_NAAVLuaConfig@@PAVSquadron@@AAH@Z");
     todo("implement");
-    bool __result = _sub_6151A6(lc, pSquad, squadIndex);
-    return __result;
 }
 
-_extern void _sub_6153F6(LuaConfig &, Player *, std::list<unsigned int,std::allocator<unsigned int> > &);
 void SaveStrikeGroups(LuaConfig &lc, Player *player, std::list<unsigned int,std::allocator<unsigned int> > &squadronids) // 0x6153F6
 {
     mangled_assert("?SaveStrikeGroups@@YGXAAVLuaConfig@@PAVPlayer@@AAV?$list@IV?$allocator@I@std@@@std@@@Z");
     todo("implement");
-    _sub_6153F6(lc, player, squadronids);
 }
 
-_extern void _sub_615321(LuaConfig &, Player *, std::list<unsigned int,std::allocator<unsigned int> > &);
 void SaveSquadrons(LuaConfig &lc, Player *player, std::list<unsigned int,std::allocator<unsigned int> > &squadronids) // 0x615321
 {
     mangled_assert("?SaveSquadrons@@YGXAAVLuaConfig@@PAVPlayer@@AAV?$list@IV?$allocator@I@std@@@std@@@Z");
     todo("implement");
-    _sub_615321(lc, player, squadronids);
 }
 
-_extern void _sub_614E33(LuaConfig &, Player *);
 void SaveResearch(LuaConfig &lc, Player *player) // 0x614E33
 {
     mangled_assert("?SaveResearch@@YGXAAVLuaConfig@@PAVPlayer@@@Z");
     todo("implement");
-    _sub_614E33(lc, player);
 }
 
-_extern bool _sub_614B70(PersistantData *const, Universe *, __int32);
 bool PersistantData::Save(Universe *, __int32) // 0x614B70
 {
     mangled_assert("?Save@PersistantData@@QAE_NPAVUniverse@@H@Z");
     todo("implement");
-    bool __result = _sub_614B70(this, arg, arg);
-    return __result;
 }
 
-_extern _sub_612E7D(PersistantBuildData *const, Ship *, float, unsigned __int32);
 _inline PersistantBuildData::PersistantBuildData(Ship *, float, unsigned __int32) // 0x612E7D
 {
     mangled_assert("??0PersistantBuildData@@QAE@PAVShip@@MI@Z");
     todo("implement");
-    _sub_612E7D(this, arg, arg, arg);
 }
 
-_extern void _sub_612EB5(std::_List_buy<PersistantBuildData,std::allocator<PersistantBuildData> > *const);
 _inline std::_List_buy<PersistantBuildData,std::allocator<PersistantBuildData> >::~_List_buy<PersistantBuildData,std::allocator<PersistantBuildData> >() // 0x612EB5
 {
     mangled_assert("??1?$_List_buy@UPersistantBuildData@@V?$allocator@UPersistantBuildData@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_612EB5(this);
 }
 
-_extern void _sub_612ED0(SubSystemFinderById *const);
 _inline SubSystemFinderById::~SubSystemFinderById() // 0x612ED0
 {
     mangled_assert("??1SubSystemFinderById@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_612ED0(this);
 }
 
-_extern void _sub_613D5C(LuaConfig &, Squadron *);
 void ReadBuildJobs(LuaConfig &lc, Squadron *pSquad) // 0x613D5C
 {
     mangled_assert("?ReadBuildJobs@@YGXAAVLuaConfig@@PAVSquadron@@@Z");
     todo("implement");
-    _sub_613D5C(lc, pSquad);
 }
 
-_extern void _sub_61301D(Player *);
 void CommitBuildJobs(Player *player) // 0x61301D
 {
     mangled_assert("?CommitBuildJobs@@YGXPAVPlayer@@@Z");
     todo("implement");
-    _sub_61301D(player);
 }
 
-_extern void _sub_613C7E(PersistantData *const, unsigned __int32, Universe *, LuaConfig &, unsigned __int32, char const *);
 void PersistantData::Process(unsigned __int32, Universe *, LuaConfig &, unsigned __int32, char const *) // 0x613C7E
 {
     mangled_assert("?Process@PersistantData@@AAEXIPAVUniverse@@AAVLuaConfig@@IPBD@Z");
     todo("implement");
-    _sub_613C7E(this, arg, arg, arg, arg, arg);
 }
 
-_extern bool _sub_613161(PersistantData *const, Universe *, __int32, unsigned __int32);
 bool PersistantData::Load(Universe *, __int32, unsigned __int32) // 0x613161
 {
     mangled_assert("?Load@PersistantData@@QAE_NPAVUniverse@@HI@Z");
     todo("implement");
-    bool __result = _sub_613161(this, arg, arg, arg);
-    return __result;
 }
 
-_extern void _sub_61386E(PersistantData *const, LuaConfig &);
 void PersistantData::PreProcess(LuaConfig &) // 0x61386E
 {
     mangled_assert("?PreProcess@PersistantData@@AAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_61386E(this, arg);
 }
 
-_extern bool _sub_613785(PersistantData *const, __int32);
 bool PersistantData::PreLoad(__int32) // 0x613785
 {
     mangled_assert("?PreLoad@PersistantData@@QAE_NH@Z");
     todo("implement");
-    bool __result = _sub_613785(this, arg);
-    return __result;
 }
 
-_extern bool _sub_6132A3(PersistantData *const, unsigned __int32, __int32, Universe *, char const *, unsigned __int32);
 bool PersistantData::LoadStartFleet(unsigned __int32, __int32, Universe *, char const *, unsigned __int32) // 0x6132A3
 {
     mangled_assert("?LoadStartFleet@PersistantData@@QAE_NIHPAVUniverse@@PBDI@Z");
     todo("implement");
-    bool __result = _sub_6132A3(this, arg, arg, arg, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern Volume *_sub_6156C8(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &);
 _static Volume *Volume_Find(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &name) // 0x6156C8
 {
     mangled_assert("Volume_Find");
     todo("implement");
-    Volume * __result = _sub_6156C8(name);
-    return __result;
 }
 
-_extern void _sub_613F0E(LuaConfig &, Player *);
 _static void ReadResearch(LuaConfig &lc, Player *player) // 0x613F0E
 {
     mangled_assert("ReadResearch");
     todo("implement");
-    _sub_613F0E(lc, player);
 }
 
-_extern bool _sub_614AC0(LuaConfig &, __int32 &);
 _static bool ReadTeamColour(LuaConfig &lc, __int32 &teamColourHandle) // 0x614AC0
 {
     mangled_assert("ReadTeamColour");
     todo("implement");
-    bool __result = _sub_614AC0(lc, teamColourHandle);
-    return __result;
 }
 
-_extern void _sub_612FE8(__int32, Squadron *);
 _static void AssignTeamColour(__int32 teamColourHandle, Squadron *pSquad) // 0x612FE8
 {
     mangled_assert("AssignTeamColour");
     todo("implement");
-    _sub_612FE8(teamColourHandle, pSquad);
 }
 
-_extern void _sub_614A8A(LuaConfig &, Squadron *);
 _static void ReadTeamColour(LuaConfig &lc, Squadron *pSquad) // 0x614A8A
 {
     mangled_assert("ReadTeamColour");
     todo("implement");
-    _sub_614A8A(lc, pSquad);
 }
 
-_extern void _sub_6140E9(LuaConfig &, Squadron *);
 _static void ReadShipHolds(LuaConfig &lc, Squadron *pSquad) // 0x6140E9
 {
     mangled_assert("ReadShipHolds");
     todo("implement");
-    _sub_6140E9(lc, pSquad);
 }
 
-_extern void _sub_6147A9(LuaConfig &, Squadron *);
 _static void ReadSubSystems(LuaConfig &lc, Squadron *pSquad) // 0x6147A9
 {
     mangled_assert("ReadSubSystems");
     todo("implement");
-    _sub_6147A9(lc, pSquad);
 }
 
-_extern void _sub_614329(LuaConfig &, Player *, SquadronList &, char const *);
 _static void ReadSquadronList(LuaConfig &lc, Player *player, SquadronList &squadList, char const *volumeName) // 0x614329
 {
     mangled_assert("ReadSquadronList");
     todo("implement");
-    _sub_614329(lc, player, squadList, volumeName);
 }
 
-_extern void _sub_61468B(LuaConfig &, Player *, char const *, SquadronList &);
 _static void ReadStrikeGroups(LuaConfig &lc, Player *player, char const *volumeName, SquadronList &squadronList) // 0x61468B
 {
     mangled_assert("ReadStrikeGroups");
     todo("implement");
-    _sub_61468B(lc, player, volumeName, squadronList);
 }
 
-_extern void _sub_614673(LuaConfig &, Player *, char const *, SquadronList &);
 _static void ReadSquadrons(LuaConfig &lc, Player *player, char const *volumeName, SquadronList &squadronList) // 0x614673
 {
     mangled_assert("ReadSquadrons");
     todo("implement");
-    _sub_614673(lc, player, volumeName, squadronList);
 }
 
-_extern void _sub_61588F(Squadron *, Ship *, ParadeCommand::ParadeMode);
 _static void doNormalParadeFor(Squadron *squad, Ship *paradeRound, ParadeCommand::ParadeMode paradeMode) // 0x61588F
 {
     mangled_assert("doNormalParadeFor");
     todo("implement");
-    _sub_61588F(squad, paradeRound, paradeMode);
 }
 
-_extern void _sub_6159DF(Squadron *, vector3 const &, __int32);
 _static void makeSquadHyperspaceIn(Squadron *squad, vector3 const &pos, __int32 playerIndex) // 0x6159DF
 {
     mangled_assert("makeSquadHyperspaceIn");
     todo("implement");
-    _sub_6159DF(squad, pos, playerIndex);
 }
 
-_extern void _sub_61335B(SquadronList const &, unsigned __int32, char const *);
 _static void PlaceShipsInFinalPositions(SquadronList const &squadrons, unsigned __int32 paradeRoundTypeID, char const *volumeName) // 0x61335B
 {
     mangled_assert("PlaceShipsInFinalPositions");
     todo("implement");
-    _sub_61335B(squadrons, paradeRoundTypeID, volumeName);
 }
 
-_extern void _sub_6138C8(LuaConfig &);
 _static void PreReadShipHolds(LuaConfig &lc) // 0x6138C8
 {
     mangled_assert("PreReadShipHolds");
     todo("implement");
-    _sub_6138C8(lc);
 }
 
-_extern void _sub_613B87(LuaConfig &);
 _static void PreReadSubSystems(LuaConfig &lc) // 0x613B87
 {
     mangled_assert("PreReadSubSystems");
     todo("implement");
-    _sub_613B87(lc);
 }
 
-_extern void _sub_6139BF(LuaConfig &);
 _static void PreReadSquadronList(LuaConfig &lc) // 0x6139BF
 {
     mangled_assert("PreReadSquadronList");
     todo("implement");
-    _sub_6139BF(lc);
 }
 
-_extern void _sub_613B01(LuaConfig &);
 _static void PreReadStrikeGroups(LuaConfig &lc) // 0x613B01
 {
     mangled_assert("PreReadStrikeGroups");
     todo("implement");
-    _sub_613B01(lc);
 }
 
-_extern void _sub_613AFC(LuaConfig &);
 _static void PreReadSquadrons(LuaConfig &lc) // 0x613AFC
 {
     mangled_assert("PreReadSquadrons");
     todo("implement");
-    _sub_613AFC(lc);
 }
 #endif

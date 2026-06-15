@@ -353,13 +353,11 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_4F3479(std::_System_error_category *const);
 _inline std::_System_error_category::~_System_error_category() // 0x4F3479
 {
     mangled_assert("??1_System_error_category@std@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4F3479(this);
 }
 
 /* ---------- private code */

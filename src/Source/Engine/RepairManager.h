@@ -59,40 +59,28 @@ static_assert(sizeof(RepairManagerStatic) == 16, "Invalid RepairManagerStatic si
 
 /* ---------- public code */
 
-_extern unsigned __int32 _sub_6A182E(RepairManager const *const);
 _inline unsigned __int32 RepairManager::numberOfInterestedShips() const // 0x6A182E
 {
     mangled_assert("?numberOfInterestedShips@RepairManager@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_6A182E(this);
-    return __result;
 }
 
-_extern bool _sub_4891B3(RepairManager *const);
 _inline bool RepairManager::isDeterministic() // 0x4891B3
 {
     mangled_assert("?isDeterministic@RepairManager@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4891B3(this);
-    return __result;
 }
 
-_extern char const *_sub_489257(RepairManager *const);
 _inline char const *RepairManager::saveToken() // 0x489257
 {
     mangled_assert("?saveToken@RepairManager@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_489257(this);
-    return __result;
 }
 
-_extern char const *_sub_489197(RepairManagerStatic const *const);
 _inline char const *RepairManagerStatic::getPointBaseName() const // 0x489197
 {
     mangled_assert("?getPointBaseName@RepairManagerStatic@@MBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_489197(this);
-    return __result;
 }
 
 /* ---------- private code */

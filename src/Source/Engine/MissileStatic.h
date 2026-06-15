@@ -46,12 +46,10 @@ static_assert(sizeof(MissileStatic) == 788, "Invalid MissileStatic size");
 
 /* ---------- public code */
 
-_extern void _sub_488F4E(MissileStatic *const);
 _inline MissileStatic::~MissileStatic() // 0x488F4E
 {
     mangled_assert("??1MissileStatic@@UAE@XZ");
     todo("implement");
-    _sub_488F4E(this);
 }
 
 /* ---------- private code */

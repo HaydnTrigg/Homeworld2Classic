@@ -140,40 +140,28 @@ static_assert(sizeof(FXHyperspace) == 1, "Invalid FXHyperspace size");
 
 /* ---------- public code */
 
-_extern bool _sub_6F2157(FXHyperspace::Obj const *const, vector3 &);
 _inline bool FXHyperspace::Obj::GetOffset(vector3 &) const // 0x6F2157
 {
     mangled_assert("?GetOffset@Obj@FXHyperspace@@UBE_NAAVvector3@@@Z");
     todo("implement");
-    bool __result = _sub_6F2157(this, arg);
-    return __result;
 }
 
-_extern bool _sub_6F2EF2(FXHyperspace::Obj *const, vector3 const &);
 _inline bool FXHyperspace::Obj::SetOffset(vector3 const &) // 0x6F2EF2
 {
     mangled_assert("?SetOffset@Obj@FXHyperspace@@UAE_NABVvector3@@@Z");
     todo("implement");
-    bool __result = _sub_6F2EF2(this, arg);
-    return __result;
 }
 
-_extern float _sub_6F214C(FXHyperspace::Obj const *const);
 _inline float FXHyperspace::Obj::GetHeight() const // 0x6F214C
 {
     mangled_assert("?GetHeight@Obj@FXHyperspace@@UBEMXZ");
     todo("implement");
-    float __result = _sub_6F214C(this);
-    return __result;
 }
 
-_extern bool _sub_6F2EDF(FXHyperspace::Obj *const, float);
 _inline bool FXHyperspace::Obj::SetHeight(float) // 0x6F2EDF
 {
     mangled_assert("?SetHeight@Obj@FXHyperspace@@UAE_NM@Z");
     todo("implement");
-    bool __result = _sub_6F2EDF(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

@@ -78,40 +78,28 @@ static_assert(sizeof(RetireCommandStaticInfo) == 12, "Invalid RetireCommandStati
 
 /* ---------- public code */
 
-_extern bool _sub_6AC30A(RetireCommand *const, CommandType, Command *);
 _inline bool RetireCommand::canBeInterrupted(CommandType, Command *) // 0x6AC30A
 {
     mangled_assert("?canBeInterrupted@RetireCommand@@UAE_NW4CommandType@@PAVCommand@@@Z");
     todo("implement");
-    bool __result = _sub_6AC30A(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_6AC31A(RetireCommand *const);
 _inline bool RetireCommand::isDeterministic() // 0x6AC31A
 {
     mangled_assert("?isDeterministic@RetireCommand@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6AC31A(this);
-    return __result;
 }
 
-_extern char const *_sub_6AC3B6(RetireCommand *const);
 _inline char const *RetireCommand::saveToken() // 0x6AC3B6
 {
     mangled_assert("?saveToken@RetireCommand@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6AC3B6(this);
-    return __result;
 }
 
-_extern bool _sub_48FD42(RetireCommandStaticInfo const *const);
 _inline bool RetireCommandStaticInfo::shouldDisableOnRaceChange() const // 0x48FD42
 {
     mangled_assert("?shouldDisableOnRaceChange@RetireCommandStaticInfo@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_48FD42(this);
-    return __result;
 }
 
 /* ---------- private code */

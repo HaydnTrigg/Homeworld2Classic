@@ -45,46 +45,34 @@ static_assert(sizeof(BillboardRender) == 24, "Invalid BillboardRender size");
 
 /* ---------- public code */
 
-_extern void _sub_4C0BB9(BillboardRender *const, float);
 _inline void BillboardRender::SetPhase(float) // 0x4C0BB9
 {
     mangled_assert("?SetPhase@BillboardRender@@QAEXM@Z");
     todo("implement");
-    _sub_4C0BB9(this, arg);
 }
 
-_extern void _sub_4C0BD5(BillboardRender *const, float);
 _inline void BillboardRender::SetSpin(float) // 0x4C0BD5
 {
     mangled_assert("?SetSpin@BillboardRender@@QAEXM@Z");
     todo("implement");
-    _sub_4C0BD5(this, arg);
 }
 
-_extern void _sub_4C0BC7(BillboardRender *const, float);
 _inline void BillboardRender::SetRotation(float) // 0x4C0BC7
 {
     mangled_assert("?SetRotation@BillboardRender@@QAEXM@Z");
     todo("implement");
-    _sub_4C0BC7(this, arg);
 }
 
-_extern bool _sub_56DEA0(BillboardRender *const);
 _inline bool BillboardRender::isDeterministic() // 0x56DEA0
 {
     mangled_assert("?isDeterministic@BillboardRender@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_56DEA0(this);
-    return __result;
 }
 
-_extern char const *_sub_56DF17(BillboardRender *const);
 _inline char const *BillboardRender::saveToken() // 0x56DF17
 {
     mangled_assert("?saveToken@BillboardRender@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_56DF17(this);
-    return __result;
 }
 
 /* ---------- private code */

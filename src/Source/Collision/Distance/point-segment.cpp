@@ -21,13 +21,10 @@ extern float Collision::DistanceSqr(vector3 const &P, Collision::Segment const &
 
 /* ---------- public code */
 
-_extern float _sub_6648A9(vector3 const &, Collision::Segment const &, float *);
 float Collision::DistanceSqr(vector3 const &P, Collision::Segment const &segment, float *where) // 0x6648A9
 {
     mangled_assert("?DistanceSqr@Collision@@YGMABVvector3@@ABVSegment@1@PAM@Z");
     todo("implement");
-    float __result = _sub_6648A9(P, segment, where);
-    return __result;
 }
 
 /* ---------- private code */

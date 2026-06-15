@@ -485,574 +485,396 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_4F4707(BuiltinSource *const);
 _inline BuiltinSource::BuiltinSource() // 0x4F4707
 {
     mangled_assert("??0BuiltinSource@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4F4707(this);
 }
 
-_extern void _sub_4F4737(std::_Tree_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > *const);
 _inline std::_Tree_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >::~_Tree_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >() // 0x4F4737
 {
     mangled_assert("??1?$_Tree_buy@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4F4737(this);
 }
 
-_extern void _sub_4F4740(std::_Tree_comp<0,std::_Tmap_traits<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,0> > *const);
 _inline std::_Tree_comp<0,std::_Tmap_traits<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,0> >::~_Tree_comp<0,std::_Tmap_traits<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,0> >() // 0x4F4740
 {
     mangled_assert("??1?$_Tree_comp@$0A@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4F4740(this);
 }
 
-_extern void _sub_4F4749(std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > *const);
 _inline std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >::~map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >() // 0x4F4749
 {
     mangled_assert("??1?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4F4749(this);
 }
 
-_extern void _sub_4F474E(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > *const);
 _inline std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::~pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >() // 0x4F474E
 {
     mangled_assert("??1?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4F474E(this);
 }
 
-_extern void _sub_4F4761(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > *const);
 _inline std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::~pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >() // 0x4F4761
 {
     mangled_assert("??1?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4F4761(this);
 }
 
-_extern void _sub_4F4774(BuiltinSource *const);
 _inline BuiltinSource::~BuiltinSource() // 0x4F4774
 {
     mangled_assert("??1BuiltinSource@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4F4774(this);
 }
 
-_extern char const *_sub_4F594B();
 char const *AppInit::Startup() // 0x4F594B
 {
     mangled_assert("?Startup@AppInit@@SGPBDXZ");
     todo("implement");
-    char const * __result = _sub_4F594B();
-    return __result;
 }
 
-_extern void _sub_4F5940();
 void AppInit::Shutdown() // 0x4F5940
 {
     mangled_assert("?Shutdown@AppInit@@SGXXZ");
     todo("implement");
-    _sub_4F5940();
 }
 
-_extern void _sub_4F5EAC(unsigned __int32);
 void gameRendererLoadFontMap(unsigned __int32 width) // 0x4F5EAC
 {
     mangled_assert("?gameRendererLoadFontMap@@YGXI@Z");
     todo("implement");
-    _sub_4F5EAC(width);
 }
 
-_extern unsigned long _sub_4F4A25(char const *, __int32, bool);
 unsigned long AppInitNS::AddArchive(char const *archive, __int32 priority, bool bIsWorkshopMod) // 0x4F4A25
 {
     mangled_assert("?AddArchive@AppInitNS@@YGKPBDH_N@Z");
     todo("implement");
-    unsigned long __result = _sub_4F4A25(archive, priority, bIsWorkshopMod);
-    return __result;
 }
 
-_extern bool _sub_4F53A0(char *, unsigned __int32);
 bool GetHWLanguageFromSteam(char *hwName, unsigned __int32 maxn) // 0x4F53A0
 {
     mangled_assert("?GetHWLanguageFromSteam@@YG_NPADI@Z");
     todo("implement");
-    bool __result = _sub_4F53A0(hwName, maxn);
-    return __result;
 }
 
-_extern unsigned long _sub_4F4B88(char const *);
 unsigned long AppInitNS::AddArchiveDLCCampaign(char const *archive) // 0x4F4B88
 {
     mangled_assert("?AddArchiveDLCCampaign@AppInitNS@@YGKPBD@Z");
     todo("implement");
-    unsigned long __result = _sub_4F4B88(archive);
-    return __result;
 }
 
-_extern __int32 _sub_4F4E06(char const *, __int32);
 __int32 AppInitNS::AddListOfArchives(char const *archiveList, __int32 priority) // 0x4F4E06
 {
     mangled_assert("?AddListOfArchives@AppInitNS@@YGHPBDH@Z");
     todo("implement");
-    __int32 __result = _sub_4F4E06(archiveList, priority);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern bool _sub_4F3506();
 _static bool FXStartup() // 0x4F3506
 {
     mangled_assert("FXStartup");
     todo("implement");
-    bool __result = _sub_4F3506();
-    return __result;
 }
 
-_extern bool _sub_4F3578();
 _static bool FXShutdown() // 0x4F3578
 {
     mangled_assert("FXShutdown");
     todo("implement");
-    bool __result = _sub_4F3578();
-    return __result;
 }
 
-_extern char const *_sub_4F51E9(char const *);
 _static char const *FindKeyFileInOrBelowCWD(char const *keyname) // 0x4F51E9
 {
     mangled_assert("FindKeyFileInOrBelowCWD");
     todo("implement");
-    char const * __result = _sub_4F51E9(keyname);
-    return __result;
 }
 
-_extern char const *_sub_4F5119(char const *, char const *);
 _static char const *FindDirectoryInOrBelowCWD(char const *dirname, char const *keyname) // 0x4F5119
 {
     mangled_assert("FindDirectoryInOrBelowCWD");
     todo("implement");
-    char const * __result = _sub_4F5119(dirname, keyname);
-    return __result;
 }
 
-_extern bool _sub_4F52B3(char *, unsigned __int32);
 _static bool AppInitNS::FindTheDataTree(char *datapath, unsigned __int32 datapathLen) // 0x4F52B3
 {
     mangled_assert("AppInitNS::FindTheDataTree");
     todo("implement");
-    bool __result = _sub_4F52B3(datapath, datapathLen);
-    return __result;
 }
 
-_extern bool _sub_4F357D();
 _static bool AppInitNS::AppObj_setup() // 0x4F357D
 {
     mangled_assert("AppInitNS::AppObj_setup");
     todo("implement");
-    bool __result = _sub_4F357D();
-    return __result;
 }
 
-_extern bool _sub_4F358C();
 _static bool AppInitNS::AppObj_cleanup() // 0x4F358C
 {
     mangled_assert("AppInitNS::AppObj_cleanup");
     todo("implement");
-    bool __result = _sub_4F358C();
-    return __result;
 }
 
-_extern bool _sub_4F359B();
 _static bool AppInitNS::AppObj_setupsystems() // 0x4F359B
 {
     mangled_assert("AppInitNS::AppObj_setupsystems");
     todo("implement");
-    bool __result = _sub_4F359B();
-    return __result;
 }
 
-_extern bool _sub_4F35AA();
 _static bool AppInitNS::AppObj_cleanupsystems() // 0x4F35AA
 {
     mangled_assert("AppInitNS::AppObj_cleanupsystems");
     todo("implement");
-    bool __result = _sub_4F35AA();
-    return __result;
 }
 
-_extern bool _sub_4F36E2();
 _static bool AppInitNS::StartupRenderer() // 0x4F36E2
 {
     mangled_assert("AppInitNS::StartupRenderer");
     todo("implement");
-    bool __result = _sub_4F36E2();
-    return __result;
 }
 
-_extern bool _sub_4F3765();
 _static bool AppInitNS::StartupLobby() // 0x4F3765
 {
     mangled_assert("AppInitNS::StartupLobby");
     todo("implement");
-    bool __result = _sub_4F3765();
-    return __result;
 }
 
-_extern bool _sub_4F377B();
 _static bool AppInitNS::ShutdownLobby() // 0x4F377B
 {
     mangled_assert("AppInitNS::ShutdownLobby");
     todo("implement");
-    bool __result = _sub_4F377B();
-    return __result;
 }
 
-_extern bool _sub_4F35B9();
 _static bool AppInitNS::StartupSoundManager() // 0x4F35B9
 {
     mangled_assert("AppInitNS::StartupSoundManager");
     todo("implement");
-    bool __result = _sub_4F35B9();
-    return __result;
 }
 
-_extern bool _sub_4F36CA();
 _static bool AppInitNS::ShutdownSoundManager() // 0x4F36CA
 {
     mangled_assert("AppInitNS::ShutdownSoundManager");
     todo("implement");
-    bool __result = _sub_4F36CA();
-    return __result;
 }
 
-_extern bool _sub_4F36EA();
 _static bool AppInitNS::SetScreenResolution() // 0x4F36EA
 {
     mangled_assert("AppInitNS::SetScreenResolution");
     todo("implement");
-    bool __result = _sub_4F36EA();
-    return __result;
 }
 
-_extern bool _sub_4F3705();
 _static bool AppInitNS::OpenAndShowWindow() // 0x4F3705
 {
     mangled_assert("AppInitNS::OpenAndShowWindow");
     todo("implement");
-    bool __result = _sub_4F3705();
-    return __result;
 }
 
-_extern bool _sub_4F3732();
 _static bool AppInitNS::CloseWindow() // 0x4F3732
 {
     mangled_assert("AppInitNS::CloseWindow");
     todo("implement");
-    bool __result = _sub_4F3732();
-    return __result;
 }
 
-_extern void _sub_4F49A5(unsigned __int32);
 _static void AppInitNS::ActivateApp(unsigned __int32 windowHandle) // 0x4F49A5
 {
     mangled_assert("AppInitNS::ActivateApp");
     todo("implement");
-    _sub_4F49A5(windowHandle);
 }
 
-_extern void _sub_4F508E(unsigned __int32);
 _static void AppInitNS::DeactivateApp(unsigned __int32 windowHandle) // 0x4F508E
 {
     mangled_assert("AppInitNS::DeactivateApp");
     todo("implement");
-    _sub_4F508E(windowHandle);
 }
 
-_extern bool _sub_4F3741();
 _static bool AppInitNS::StartupOsMainCallbacks() // 0x4F3741
 {
     mangled_assert("AppInitNS::StartupOsMainCallbacks");
     todo("implement");
-    bool __result = _sub_4F3741();
-    return __result;
 }
 
-_extern bool _sub_4F3791();
 _static bool AppInitNS::LoadFonts() // 0x4F3791
 {
     mangled_assert("AppInitNS::LoadFonts");
     todo("implement");
-    bool __result = _sub_4F3791();
-    return __result;
 }
 
-_extern bool _sub_4F3827();
 _static bool AppInitNS::UnloadFonts() // 0x4F3827
 {
     mangled_assert("AppInitNS::UnloadFonts");
     todo("implement");
-    bool __result = _sub_4F3827();
-    return __result;
 }
 
-_extern bool _sub_4F384B();
 _static bool AppInitNS::InitKeybindings() // 0x4F384B
 {
     mangled_assert("AppInitNS::InitKeybindings");
     todo("implement");
-    bool __result = _sub_4F384B();
-    return __result;
 }
 
-_extern void _sub_4F507D(char const *);
 _static void AppInitNS::App_luaPrintFunc(char const *str) // 0x4F507D
 {
     mangled_assert("AppInitNS::App_luaPrintFunc");
     todo("implement");
-    _sub_4F507D(str);
 }
 
-_extern void _sub_4F5080(char const *);
 _static void AppInitNS::App_luaTraceFunc(char const *str) // 0x4F5080
 {
     mangled_assert("AppInitNS::App_luaTraceFunc");
     todo("implement");
-    _sub_4F5080(str);
 }
 
-_extern bool _sub_4F38A0();
 _static bool AppInitNS::StartBasicTasks() // 0x4F38A0
 {
     mangled_assert("AppInitNS::StartBasicTasks");
     todo("implement");
-    bool __result = _sub_4F38A0();
-    return __result;
 }
 
-_extern bool _sub_4F38DF();
 _static bool AppInitNS::StopBasicTasks() // 0x4F38DF
 {
     mangled_assert("AppInitNS::StopBasicTasks");
     todo("implement");
-    bool __result = _sub_4F38DF();
-    return __result;
 }
 
-_extern bool _sub_4F38F8();
 _static bool AppInitNS::StartupFrontEnd() // 0x4F38F8
 {
     mangled_assert("AppInitNS::StartupFrontEnd");
     todo("implement");
-    bool __result = _sub_4F38F8();
-    return __result;
 }
 
-_extern bool _sub_4F3969();
 _static bool AppInitNS::StopFrontEnd() // 0x4F3969
 {
     mangled_assert("AppInitNS::StopFrontEnd");
     todo("implement");
-    bool __result = _sub_4F3969();
-    return __result;
 }
 
-_extern bool _sub_4F3877();
 _static bool AppInitNS::ImageInterfaceStartup() // 0x4F3877
 {
     mangled_assert("AppInitNS::ImageInterfaceStartup");
     todo("implement");
-    bool __result = _sub_4F3877();
-    return __result;
 }
 
-_extern bool _sub_4F3895();
 _static bool AppInitNS::SysInStartup() // 0x4F3895
 {
     mangled_assert("AppInitNS::SysInStartup");
     todo("implement");
-    bool __result = _sub_4F3895();
-    return __result;
 }
 
-_extern bool _sub_4F3981();
 _static bool AppInitNS::InputStartup() // 0x4F3981
 {
     mangled_assert("AppInitNS::InputStartup");
     todo("implement");
-    bool __result = _sub_4F3981();
-    return __result;
 }
 
-_extern bool _sub_4F398D();
 _static bool AppInitNS::InputShutdown() // 0x4F398D
 {
     mangled_assert("AppInitNS::InputShutdown");
     todo("implement");
-    bool __result = _sub_4F398D();
-    return __result;
 }
 
-_extern bool _sub_4F399A();
 _static bool AppInitNS::DebugRenderStartup() // 0x4F399A
 {
     mangled_assert("AppInitNS::DebugRenderStartup");
     todo("implement");
-    bool __result = _sub_4F399A();
-    return __result;
 }
 
-_extern bool _sub_4F39ED();
 _static bool AppInitNS::DebugRenderShutdown() // 0x4F39ED
 {
     mangled_assert("AppInitNS::DebugRenderShutdown");
     todo("implement");
-    bool __result = _sub_4F39ED();
-    return __result;
 }
 
-_extern bool _sub_4F3A15();
 _static bool AppInitNS::InitializeSteam() // 0x4F3A15
 {
     mangled_assert("AppInitNS::InitializeSteam");
     todo("implement");
-    bool __result = _sub_4F3A15();
-    return __result;
 }
 
-_extern bool _sub_4F3A2D();
 _static bool AppInitNS::ShutdownSteam() // 0x4F3A2D
 {
     mangled_assert("AppInitNS::ShutdownSteam");
     todo("implement");
-    bool __result = _sub_4F3A2D();
-    return __result;
 }
 
-_extern bool _sub_4F3A32();
 _static bool AppInitNS::SetupDebugLogfile() // 0x4F3A32
 {
     mangled_assert("AppInitNS::SetupDebugLogfile");
     todo("implement");
-    bool __result = _sub_4F3A32();
-    return __result;
 }
 
-_extern bool _sub_4F3A40();
 _static bool AppInitNS::ShutdownDebugLogFile() // 0x4F3A40
 {
     mangled_assert("AppInitNS::ShutdownDebugLogFile");
     todo("implement");
-    bool __result = _sub_4F3A40();
-    return __result;
 }
 
-_extern bool _sub_4F3A4E();
 _static bool AppInitNS::SetupAppInstance() // 0x4F3A4E
 {
     mangled_assert("AppInitNS::SetupAppInstance");
     todo("implement");
-    bool __result = _sub_4F3A4E();
-    return __result;
 }
 
-_extern bool _sub_4F3A8A();
 _static bool AppInitNS::ShutdownAppInstance() // 0x4F3A8A
 {
     mangled_assert("AppInitNS::ShutdownAppInstance");
     todo("implement");
-    bool __result = _sub_4F3A8A();
-    return __result;
 }
 
-_extern bool _sub_4F3AB1();
 _static bool AppInitNS::SetupArchiveManager() // 0x4F3AB1
 {
     mangled_assert("AppInitNS::SetupArchiveManager");
     todo("implement");
-    bool __result = _sub_4F3AB1();
-    return __result;
 }
 
-_extern bool _sub_4F3ABA();
 _static bool AppInitNS::ShutdownArchiveManager() // 0x4F3ABA
 {
     mangled_assert("AppInitNS::ShutdownArchiveManager");
     todo("implement");
-    bool __result = _sub_4F3ABA();
-    return __result;
 }
 
-_extern bool _sub_4F3AC3();
 _static bool AppInitNS::SetupDataPath() // 0x4F3AC3
 {
     mangled_assert("AppInitNS::SetupDataPath");
     todo("implement");
-    bool __result = _sub_4F3AC3();
-    return __result;
 }
 
-_extern void _sub_4F4EC9(char const *);
 _static void AppInitNS::AddModDataPathAlias(char const *moddataparam) // 0x4F4EC9
 {
     mangled_assert("AppInitNS::AddModDataPathAlias");
     todo("implement");
-    _sub_4F4EC9(moddataparam);
 }
 
-_extern bool _sub_4F5463(char const *);
 _static bool AppInitNS::SetupFilePath(char const *datapath) // 0x4F5463
 {
     mangled_assert("AppInitNS::SetupFilePath");
     todo("implement");
-    bool __result = _sub_4F5463(datapath);
-    return __result;
 }
 
-_extern bool _sub_4F3A0C();
 _static bool AppInitNS::CleanupFilePath() // 0x4F3A0C
 {
     mangled_assert("AppInitNS::CleanupFilePath");
     todo("implement");
-    bool __result = _sub_4F3A0C();
-    return __result;
 }
 
-_extern bool _sub_4F3AF6();
 _static bool AppInitNS::SetupLuaPrintFunction() // 0x4F3AF6
 {
     mangled_assert("AppInitNS::SetupLuaPrintFunction");
     todo("implement");
-    bool __result = _sub_4F3AF6();
-    return __result;
 }
 
-_extern bool _sub_4F3B24();
 _static bool AppInitNS::DisplayBuildInfo() // 0x4F3B24
 {
     mangled_assert("AppInitNS::DisplayBuildInfo");
     todo("implement");
-    bool __result = _sub_4F3B24();
-    return __result;
 }
 
-_extern bool _sub_4F3B77();
 _static bool AppInitNS::ApplyProfileGameOptions() // 0x4F3B77
 {
     mangled_assert("AppInitNS::ApplyProfileGameOptions");
     todo("implement");
-    bool __result = _sub_4F3B77();
-    return __result;
 }
 #endif

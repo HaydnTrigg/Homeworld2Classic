@@ -40,20 +40,16 @@ static_assert(sizeof(CpuState) == 8, "Invalid CpuState size");
 
 /* ---------- public code */
 
-_extern _sub_53FF69(CpuState *const, CpuSquadGroup &);
 _inline CpuState::CpuState(CpuSquadGroup &) // 0x53FF69
 {
     mangled_assert("??0CpuState@@QAE@AAVCpuSquadGroup@@@Z");
     todo("implement");
-    _sub_53FF69(this, arg);
 }
 
-_extern void _sub_540074(CpuState *const);
 _inline CpuState::~CpuState() // 0x540074
 {
     mangled_assert("??1CpuState@@QAE@XZ");
     todo("implement");
-    _sub_540074(this);
 }
 
 /* ---------- private code */

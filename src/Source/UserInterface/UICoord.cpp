@@ -70,22 +70,16 @@ extern float UICoord::s_textYOffset; // 0x83E404
 
 /* ---------- public code */
 
-_extern UI::VAlign _sub_68BA9A(char const *);
 UI::VAlign UI::GetVAlignFromString(char const *s) // 0x68BA9A
 {
     mangled_assert("?GetVAlignFromString@UI@@YG?AW4VAlign@1@PBD@Z");
     todo("implement");
-    UI::VAlign __result = _sub_68BA9A(s);
-    return __result;
 }
 
-_extern UI::HAlign _sub_68BA3C(char const *);
 UI::HAlign UI::GetHAlignFromString(char const *s) // 0x68BA3C
 {
     mangled_assert("?GetHAlignFromString@UI@@YG?AW4HAlign@1@PBD@Z");
     todo("implement");
-    UI::HAlign __result = _sub_68BA3C(s);
-    return __result;
 }
 
 /* ---------- private code */

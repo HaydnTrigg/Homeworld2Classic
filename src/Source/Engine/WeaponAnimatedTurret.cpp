@@ -152,180 +152,130 @@ extern SaveData const WeaponAnimatedTurret::m_saveData[3]; // 0x78E658
 
 /* ---------- public code */
 
-_extern _sub_49EB73(WeaponAnimatedTurret *const, Sob *);
 WeaponAnimatedTurret::WeaponAnimatedTurret(Sob *) // 0x49EB73
 {
     mangled_assert("??0WeaponAnimatedTurret@@QAE@PAVSob@@@Z");
     todo("implement");
-    _sub_49EB73(this, arg);
 }
 
-_extern _sub_49EB30(WeaponAnimatedTurret *const, SaveGameData *);
 WeaponAnimatedTurret::WeaponAnimatedTurret(SaveGameData *) // 0x49EB30
 {
     mangled_assert("??0WeaponAnimatedTurret@@QAE@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_49EB30(this, arg);
 }
 
-_extern void _sub_49F468(WeaponAnimatedTurret *const);
 void WeaponAnimatedTurret::defaultSettings() // 0x49F468
 {
     mangled_assert("?defaultSettings@WeaponAnimatedTurret@@QAEXXZ");
     todo("implement");
-    _sub_49F468(this);
 }
 
-_extern void _sub_4A04F2(WeaponAnimatedTurret *const);
 void WeaponAnimatedTurret::postRestore() // 0x4A04F2
 {
     mangled_assert("?postRestore@WeaponAnimatedTurret@@UAEXXZ");
     todo("implement");
-    _sub_4A04F2(this);
 }
 
-_extern void _sub_49F366(WeaponAnimatedTurret *const, WeaponStatic *, WeaponClassSpecificInfo *);
 void WeaponAnimatedTurret::bindStatics(WeaponStatic *, WeaponClassSpecificInfo *) // 0x49F366
 {
     mangled_assert("?bindStatics@WeaponAnimatedTurret@@UAEXPAVWeaponStatic@@PAVWeaponClassSpecificInfo@@@Z");
     todo("implement");
-    _sub_49F366(this, arg, arg);
 }
 
-_extern bool _sub_4A04F7(WeaponAnimatedTurret *const, SaveGameData *);
 bool WeaponAnimatedTurret::restore(SaveGameData *) // 0x4A04F7
 {
     mangled_assert("?restore@WeaponAnimatedTurret@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_4A04F7(this, arg);
-    return __result;
 }
 
-_extern bool _sub_4A0544(WeaponAnimatedTurret *const, SaveGameData *, SaveType);
 bool WeaponAnimatedTurret::save(SaveGameData *, SaveType) // 0x4A0544
 {
     mangled_assert("?save@WeaponAnimatedTurret@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_4A0544(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_49EBB6(WeaponAnimatedTurret *const);
 WeaponAnimatedTurret::~WeaponAnimatedTurret() // 0x49EBB6
 {
     mangled_assert("??1WeaponAnimatedTurret@@UAE@XZ");
     todo("implement");
-    _sub_49EBB6(this);
 }
 
-_extern void _sub_49EC38(WeaponAnimatedTurret *const);
 void WeaponAnimatedTurret::MoveToHomePosition() // 0x49EC38
 {
     mangled_assert("?MoveToHomePosition@WeaponAnimatedTurret@@MAEXXZ");
     todo("implement");
-    _sub_49EC38(this);
 }
 
-_extern void _sub_49F4EC(WeaponAnimatedTurret const *const, WeaponTargetInfo const &, float &, float &);
 void WeaponAnimatedTurret::getAnglesToTarget(WeaponTargetInfo const &, float &, float &) const // 0x49F4EC
 {
     mangled_assert("?getAnglesToTarget@WeaponAnimatedTurret@@ABEXABVWeaponTargetInfo@@AAM1@Z");
     todo("implement");
-    _sub_49F4EC(this, arg, arg, arg);
 }
 
-_extern bool _sub_4A02E4(WeaponAnimatedTurret *const, float &, float, float);
 bool WeaponAnimatedTurret::interpolateNewAngle(float &, float, float) // 0x4A02E4
 {
     mangled_assert("?interpolateNewAngle@WeaponAnimatedTurret@@AAE_NAAMMM@Z");
     todo("implement");
-    bool __result = _sub_4A02E4(this, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_4A034B(WeaponAnimatedTurret *const, float, float);
 bool WeaponAnimatedTurret::moveAzimuthTo(float, float) // 0x4A034B
 {
     mangled_assert("?moveAzimuthTo@WeaponAnimatedTurret@@AAE_NMM@Z");
     todo("implement");
-    bool __result = _sub_4A034B(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_4A042C(WeaponAnimatedTurret *const, float, float);
 bool WeaponAnimatedTurret::moveDeclinationTo(float, float) // 0x4A042C
 {
     mangled_assert("?moveDeclinationTo@WeaponAnimatedTurret@@AAE_NMM@Z");
     todo("implement");
-    bool __result = _sub_4A042C(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_4A0484(WeaponAnimatedTurret *const, float, float, float);
 bool WeaponAnimatedTurret::moveTurretTo(float, float, float) // 0x4A0484
 {
     mangled_assert("?moveTurretTo@WeaponAnimatedTurret@@AAE_NMMM@Z");
     todo("implement");
-    bool __result = _sub_4A0484(this, arg, arg, arg);
-    return __result;
 }
 
-_extern void _sub_49ECB1(WeaponAnimatedTurret *const);
 void WeaponAnimatedTurret::aimAtCurrentTarget() // 0x49ECB1
 {
     mangled_assert("?aimAtCurrentTarget@WeaponAnimatedTurret@@MAEXXZ");
     todo("implement");
-    _sub_49ECB1(this);
 }
 
-_extern bool _sub_49F36B(WeaponAnimatedTurret *const, WeaponTargetInfo const &);
 bool WeaponAnimatedTurret::canReachTarget(WeaponTargetInfo const &) // 0x49F36B
 {
     mangled_assert("?canReachTarget@WeaponAnimatedTurret@@MAE_NABVWeaponTargetInfo@@@Z");
     todo("implement");
-    bool __result = _sub_49F36B(this, arg);
-    return __result;
 }
 
-_extern bool _sub_4A0591(WeaponAnimatedTurret *const);
 bool WeaponAnimatedTurret::slave() // 0x4A0591
 {
     mangled_assert("?slave@WeaponAnimatedTurret@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4A0591(this);
-    return __result;
 }
 
-_extern void _sub_49FDC8(WeaponAnimatedTurret *const, vector3 &, vector3 &);
 void WeaponAnimatedTurret::getWorldSpaceMuzzle(vector3 &, vector3 &) // 0x49FDC8
 {
     mangled_assert("?getWorldSpaceMuzzle@WeaponAnimatedTurret@@UAEXAAVvector3@@0@Z");
     todo("implement");
-    _sub_49FDC8(this, arg, arg);
 }
 
-_extern void _sub_49F6CD(WeaponAnimatedTurret *const, vector3 &, vector3 &, vector3 &);
 void WeaponAnimatedTurret::getWorldSpaceMuzzle(vector3 &, vector3 &, vector3 &) // 0x49F6CD
 {
     mangled_assert("?getWorldSpaceMuzzle@WeaponAnimatedTurret@@UAEXAAVvector3@@00@Z");
     todo("implement");
-    _sub_49F6CD(this, arg, arg, arg);
 }
 
-_extern void _sub_49F48B(WeaponAnimatedTurret *const, WeaponTargetInfo &);
 void WeaponAnimatedTurret::findNewPointOnTarget(WeaponTargetInfo &) // 0x49F48B
 {
     mangled_assert("?findNewPointOnTarget@WeaponAnimatedTurret@@MAEXAAVWeaponTargetInfo@@@Z");
     todo("implement");
-    _sub_49F48B(this, arg);
 }
 
-_extern void _sub_49F133(WeaponAnimatedTurret *const, WeaponStatic *, WeaponClassSpecificInfo *);
 void WeaponAnimatedTurret::bindData(WeaponStatic *, WeaponClassSpecificInfo *) // 0x49F133
 {
     mangled_assert("?bindData@WeaponAnimatedTurret@@UAEXPAVWeaponStatic@@PAVWeaponClassSpecificInfo@@@Z");
     todo("implement");
-    _sub_49F133(this, arg, arg);
 }
 
 /* ---------- private code */

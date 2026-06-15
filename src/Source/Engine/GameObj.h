@@ -138,50 +138,36 @@ static_assert(sizeof(GameObj) == 140, "Invalid GameObj size");
 
 /* ---------- public code */
 
-_extern void _sub_5C5271(GameObj *const, bool);
 _inline void GameObj::CheckWinLose(bool) // 0x5C5271
 {
     mangled_assert("?CheckWinLose@GameObj@@QAEX_N@Z");
     todo("implement");
-    _sub_5C5271(this, arg);
 }
 
-_extern UIProxy *_sub_694DDD(GameObj *const);
 _inline UIProxy *GameObj::GetUIProxy() // 0x694DDD
 {
     mangled_assert("?GetUIProxy@GameObj@@QAEPAVUIProxy@@XZ");
     todo("implement");
-    UIProxy * __result = _sub_694DDD(this);
-    return __result;
 }
 
-_extern Net::Session const *_sub_46A15C(GameObj const *const);
 _inline Net::Session const *GameObj::GetNetSession() const // 0x46A15C
 {
     mangled_assert("?GetNetSession@GameObj@@QBEPBVSession@Net@@XZ");
     todo("implement");
-    Net::Session const * __result = _sub_46A15C(this);
-    return __result;
 }
 
-_extern bool _sub_4FAFF1(Saveable * const);
 _inline bool GameObj::isDeterministic() // 0x4FAFF1
 {
     mangled_assert("?isDeterministic@GameObj@@UAE_NXZ");
     // __shifted(GameObj, 48);
     todo("implement");
-    bool __result = _sub_4FAFF1(this);
-    return __result;
 }
 
-_extern char const *_sub_4FB382(Saveable * const);
 _inline char const *GameObj::saveToken() // 0x4FB382
 {
     mangled_assert("?saveToken@GameObj@@UAEPBDXZ");
     // __shifted(GameObj, 48);
     todo("implement");
-    char const * __result = _sub_4FB382(this);
-    return __result;
 }
 
 /* ---------- private code */

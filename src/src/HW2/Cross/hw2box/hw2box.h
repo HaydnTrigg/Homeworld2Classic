@@ -77,13 +77,10 @@ static_assert(sizeof(HW2Box) == 4, "Invalid HW2Box size");
 
 /* ---------- public code */
 
-_extern HW2Box *_sub_10001393();
 _inline HW2Box *HW2Box::i() // 0x10001393
 {
     mangled_assert("?i@HW2Box@@SGPAV1@XZ");
     todo("implement");
-    HW2Box * __result = _sub_10001393();
-    return __result;
 }
 
 /* ---------- private code */

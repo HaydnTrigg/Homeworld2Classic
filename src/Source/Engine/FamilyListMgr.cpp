@@ -54,91 +54,68 @@ extern FamilyListMgr *FamilyListMgr::s_instance; // 0x8440F8
 
 /* ---------- public code */
 
-_extern _sub_4F2ED0(FamilyList *const);
 _inline FamilyList::FamilyList() // 0x4F2ED0
 {
     mangled_assert("??0FamilyList@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4F2ED0(this);
 }
 
-_extern _sub_4F2EDD(FamilyListMgr *const);
 FamilyListMgr::FamilyListMgr() // 0x4F2EDD
 {
     mangled_assert("??0FamilyListMgr@@QAE@XZ");
     todo("implement");
-    _sub_4F2EDD(this);
 }
 
-_extern _sub_4F3327(familyLoadData *const);
 _inline familyLoadData::familyLoadData() // 0x4F3327
 {
     mangled_assert("??0familyLoadData@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4F3327(this);
 }
 
-_extern void _sub_4F333E(FamilyList *const);
 _inline FamilyList::~FamilyList() // 0x4F333E
 {
     mangled_assert("??1FamilyList@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4F333E(this);
 }
 
-_extern void _sub_4F3343(FamilyListMgr *const);
 FamilyListMgr::~FamilyListMgr() // 0x4F3343
 {
     mangled_assert("??1FamilyListMgr@@QAE@XZ");
     todo("implement");
-    _sub_4F3343(this);
 }
 
-_extern void _sub_4F3396(familyLoadData *const);
 _inline familyLoadData::~familyLoadData() // 0x4F3396
 {
     mangled_assert("??1familyLoadData@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4F3396(this);
 }
 
-_extern FamilyListMgr *_sub_4F33FB();
 FamilyListMgr *FamilyListMgr::instance() // 0x4F33FB
 {
     mangled_assert("?instance@FamilyListMgr@@SGPAV1@XZ");
     todo("implement");
-    FamilyListMgr * __result = _sub_4F33FB();
-    return __result;
 }
 
-_extern void _sub_4F343B();
 void FamilyListMgr::release() // 0x4F343B
 {
     mangled_assert("?release@FamilyListMgr@@SGXXZ");
     todo("implement");
-    _sub_4F343B();
 }
 
-_extern bool _sub_4F3465();
 bool FamilyListMgr::startup() // 0x4F3465
 {
     mangled_assert("?startup@FamilyListMgr@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_4F3465();
-    return __result;
 }
 
-_extern bool _sub_4F345D();
 bool FamilyListMgr::shutdown() // 0x4F345D
 {
     mangled_assert("?shutdown@FamilyListMgr@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_4F345D();
-    return __result;
 }
 
 /* ---------- private code */

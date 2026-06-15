@@ -100,52 +100,40 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_6D5278(Net::EHostNotFound *const);
 Net::EHostNotFound::EHostNotFound() // 0x6D5278
 {
     mangled_assert("??0EHostNotFound@Net@@QAE@XZ");
     todo("implement");
-    _sub_6D5278(this);
 }
 
-_extern _sub_6D52BE(Net::EInvalidAddress *const);
 Net::EInvalidAddress::EInvalidAddress() // 0x6D52BE
 {
     mangled_assert("??0EInvalidAddress@Net@@QAE@XZ");
     todo("implement");
-    _sub_6D52BE(this);
 }
 
-_extern _sub_6D5304(Net::EInvalidPassword *const);
 Net::EInvalidPassword::EInvalidPassword() // 0x6D5304
 {
     mangled_assert("??0EInvalidPassword@Net@@QAE@XZ");
     todo("implement");
-    _sub_6D5304(this);
 }
 
-_extern _sub_6D534A(Net::ENoNetwork *const);
 Net::ENoNetwork::ENoNetwork() // 0x6D534A
 {
     mangled_assert("??0ENoNetwork@Net@@QAE@XZ");
     todo("implement");
-    _sub_6D534A(this);
 }
 
-_extern _sub_6D5390(Net::ESessionFull *const);
 Net::ESessionFull::ESessionFull() // 0x6D5390
 {
     mangled_assert("??0ESessionFull@Net@@QAE@XZ");
     todo("implement");
-    _sub_6D5390(this);
 }
 
-_extern _sub_6D51D3(Net::EAuthenticationFailed *const, unsigned char const *, unsigned __int32);
 Net::EAuthenticationFailed::EAuthenticationFailed(unsigned char const *, unsigned __int32) // 0x6D51D3
 {
     mangled_assert("??0EAuthenticationFailed@Net@@QAE@PBEI@Z");
     todo("implement");
-    _sub_6D51D3(this, arg, arg);
 }
 
 /* ---------- private code */

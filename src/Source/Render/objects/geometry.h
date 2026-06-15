@@ -131,29 +131,22 @@ static_assert(sizeof(Geometry) == 28, "Invalid Geometry size");
 
 /* ---------- public code */
 
-_extern void _sub_1001BB30(Geometry *const, VertexArray *, bool);
 _inline void Geometry::setVertexArray(VertexArray *, bool) // 0x1001BB30
 {
     mangled_assert("?setVertexArray@Geometry@@QAEXPAVVertexArray@@_N@Z");
     todo("implement");
-    _sub_1001BB30(this, arg, arg);
 }
 
-_extern VertexArray const *_sub_10019530(Geometry const *const);
 _inline VertexArray const *Geometry::getVertexArray() const // 0x10019530
 {
     mangled_assert("?getVertexArray@Geometry@@QBEPBVVertexArray@@XZ");
     todo("implement");
-    VertexArray const * __result = _sub_10019530(this);
-    return __result;
 }
 
-_extern void _sub_1001BA60(Geometry *const, bool);
 _inline void Geometry::setMaterialOwnership(bool) // 0x1001BA60
 {
     mangled_assert("?setMaterialOwnership@Geometry@@QAEX_N@Z");
     todo("implement");
-    _sub_1001BA60(this, arg);
 }
 
 /* ---------- private code */

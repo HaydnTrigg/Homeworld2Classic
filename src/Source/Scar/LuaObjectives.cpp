@@ -114,55 +114,41 @@ extern char const *LUALIB_OBJECTIVES; // 0x842248
 
 /* ---------- public code */
 
-_extern unsigned __int32 _sub_713AE9(char const *, unsigned __int32);
 unsigned __int32 Objective_Add(char const *name, unsigned __int32 type) // 0x713AE9
 {
     mangled_assert("?Objective_Add@@YGIPBDI@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_713AE9(name, type);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_713B6B(unsigned __int32);
 unsigned __int32 Objective_GetState(unsigned __int32 id) // 0x713B6B
 {
     mangled_assert("?Objective_GetState@@YGII@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_713B6B(id);
-    return __result;
 }
 
-_extern void _sub_713B96(unsigned __int32, unsigned __int32);
 void Objective_SetState(unsigned __int32 id, unsigned __int32 state) // 0x713B96
 {
     mangled_assert("?Objective_SetState@@YGXII@Z");
     todo("implement");
-    _sub_713B96(id, state);
 }
 
-_extern void _sub_713B85(unsigned __int32);
 void Objective_Select(unsigned __int32 id) // 0x713B85
 {
     mangled_assert("?Objective_Select@@YGXI@Z");
     todo("implement");
-    _sub_713B85(id);
 }
 
-_extern void _sub_713B24(unsigned __int32, char const *);
 void Objective_AddDescription(unsigned __int32 id, char const *descriptionid) // 0x713B24
 {
     mangled_assert("?Objective_AddDescription@@YGXIPBD@Z");
     todo("implement");
-    _sub_713B24(id, descriptionid);
 }
 
-_extern void _sub_7139D7(LuaBinding::ObjInternal2<char const *,unsigned int,unsigned int,LuaBinding::Functor2Free<char const *,unsigned int,unsigned int> > *const);
 _inline LuaBinding::ObjInternal2<char const *,unsigned int,unsigned int,LuaBinding::Functor2Free<char const *,unsigned int,unsigned int> >::~ObjInternal2<char const *,unsigned int,unsigned int,LuaBinding::Functor2Free<char const *,unsigned int,unsigned int> >() // 0x7139D7
 {
     mangled_assert("??1?$ObjInternal2@PBDIIV?$Functor2Free@PBDII@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_7139D7(this);
 }
 
 /* ---------- private code */

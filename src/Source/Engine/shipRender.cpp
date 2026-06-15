@@ -311,222 +311,164 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_492C6F(HyperspaceEffectBatched *const, matrix4 const &, vector2 const &, float const, unsigned __int32 const);
 _inline HyperspaceEffectBatched::HyperspaceEffectBatched(matrix4 const &, vector2 const &, float const, unsigned __int32 const) // 0x492C6F
 {
     mangled_assert("??0HyperspaceEffectBatched@@QAE@ABVmatrix4@@ABVvector2@@MI@Z");
     todo("implement");
-    _sub_492C6F(this, arg, arg, arg, arg);
 }
 
-_extern _sub_492CA8(MeshRenderProxy *const);
 _inline MeshRenderProxy::MeshRenderProxy() // 0x492CA8
 {
     mangled_assert("??0MeshRenderProxy@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_492CA8(this);
 }
 
-_extern _sub_492CDA(ShadowedShipBatched *const, Ship *, LightManager::light_bit);
 _inline ShadowedShipBatched::ShadowedShipBatched(Ship *, LightManager::light_bit) // 0x492CDA
 {
     mangled_assert("??0ShadowedShipBatched@@QAE@PAVShip@@W4light_bit@LightManager@@@Z");
     todo("implement");
-    _sub_492CDA(this, arg, arg);
 }
 
-_extern _sub_492C5D(BatchMeshRender *const);
 _inline BatchMeshRender::BatchMeshRender() // 0x492C5D
 {
     mangled_assert("??0BatchMeshRender@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_492C5D(this);
 }
 
-_extern _sub_492C66(DirectMeshRender *const);
 _inline DirectMeshRender::DirectMeshRender() // 0x492C66
 {
     mangled_assert("??0DirectMeshRender@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_492C66(this);
 }
 
-_extern unsigned __int32 _sub_494B0B(Camera const *, std::vector<Ship *,std::allocator<Ship *> > const &);
 unsigned __int32 drawHyperspaceClip(Camera const *camera, std::vector<Ship *,std::allocator<Ship *> > const &hyperspacingShips) // 0x494B0B
 {
     mangled_assert("?drawHyperspaceClip@@YGIPBVCamera@@ABV?$vector@PAVShip@@V?$allocator@PAVShip@@@std@@@std@@@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_494B0B(camera, hyperspacingShips);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_496164(Ship *, Ship::eShadowType, __int32);
 unsigned __int32 setupLight(Ship *pShip, Ship::eShadowType shadowType, __int32 numShadows) // 0x496164
 {
     mangled_assert("?setupLight@@YGIPAVShip@@W4eShadowType@1@H@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_496164(pShip, shadowType, numShadows);
-    return __result;
 }
 
-_extern void _sub_495896(Camera const *);
 void renderShips(Camera const *camera) // 0x495896
 {
     mangled_assert("?renderShips@@YGXPBVCamera@@@Z");
     todo("implement");
-    _sub_495896(camera);
 }
 
-_extern void _sub_495747(Camera const *);
 void renderBattleScars(Camera const *camera) // 0x495747
 {
     mangled_assert("?renderBattleScars@@YGXPBVCamera@@@Z");
     todo("implement");
-    _sub_495747(camera);
 }
 
-_extern void _sub_495763(Camera const *);
 void renderBattleScarsHS(Camera const *camera) // 0x495763
 {
     mangled_assert("?renderBattleScarsHS@@YGXPBVCamera@@@Z");
     todo("implement");
-    _sub_495763(camera);
 }
 
 /* ---------- private code */
 
-_extern void _sub_494496(Selection const &, std::vector<Ship *,std::allocator<Ship *> > &, std::vector<Ship *,std::allocator<Ship *> > &);
 _static void GetSortedShipList(Selection const &src, std::vector<Ship *,std::allocator<Ship *> > &opaqueShips, std::vector<Ship *,std::allocator<Ship *> > &transparentShips) // 0x494496
 {
     mangled_assert("GetSortedShipList");
     todo("implement");
-    _sub_494496(src, opaqueShips, transparentShips);
 }
 
-_extern bool _sub_494DA5(Ship *, bool const);
 _static bool enableHyperspaceClipPlane(Ship *ship, bool const reverse) // 0x494DA5
 {
     mangled_assert("enableHyperspaceClipPlane");
     todo("implement");
-    bool __result = _sub_494DA5(ship, reverse);
-    return __result;
 }
 
-_extern bool _sub_494EE7(Ship *);
 _static bool enableLaunchingClipPlane(Ship *ship) // 0x494EE7
 {
     mangled_assert("enableLaunchingClipPlane");
     todo("implement");
-    bool __result = _sub_494EE7(ship);
-    return __result;
 }
 
-_extern void _sub_4945C9();
 _static void StartShadowBatch() // 0x4945C9
 {
     mangled_assert("StartShadowBatch");
     todo("implement");
-    _sub_4945C9();
 }
 
-_extern void _sub_493C6E(Camera const *, std::vector<ShadowedShipBatched,std::allocator<ShadowedShipBatched> > &, unsigned __int32 &);
 _static void FlushShadowBatch(Camera const *camera, std::vector<ShadowedShipBatched,std::allocator<ShadowedShipBatched> > &batchedShips, unsigned __int32 &debugNum) // 0x493C6E
 {
     mangled_assert("FlushShadowBatch");
     todo("implement");
-    _sub_493C6E(camera, batchedShips, debugNum);
 }
 
-_extern bool _sub_4950B9(vector2 const &, std::vector<ShadowedShipBatched,std::allocator<ShadowedShipBatched> > const &, ShadowedShipBatched &);
 _static bool fitInShadowMap(vector2 const &shadowMapSize, std::vector<ShadowedShipBatched,std::allocator<ShadowedShipBatched> > const &shadowedShipsInShadowMap, ShadowedShipBatched &currentShip) // 0x4950B9
 {
     mangled_assert("fitInShadowMap");
     todo("implement");
-    bool __result = _sub_4950B9(shadowMapSize, shadowedShipsInShadowMap, currentShip);
-    return __result;
 }
 
-_extern void _sub_4937A9(Camera const *, Ship *, LightManager::light_bit, std::vector<ShadowedShipBatched,std::allocator<ShadowedShipBatched> > &, unsigned __int32 &);
 _static void DrawShipLit(Camera const *camera, Ship *ship, LightManager::light_bit light, std::vector<ShadowedShipBatched,std::allocator<ShadowedShipBatched> > &shadowedShipsInShadowMap, unsigned __int32 &debugNum) // 0x4937A9
 {
     mangled_assert("DrawShipLit");
     todo("implement");
-    _sub_4937A9(camera, ship, light, shadowedShipsInShadowMap, debugNum);
 }
 
-_extern void _sub_494539();
 _static void StartHSBatch() // 0x494539
 {
     mangled_assert("StartHSBatch");
     todo("implement");
-    _sub_494539();
 }
 
-_extern void _sub_493B6C(std::vector<HyperspaceEffectBatched,std::allocator<HyperspaceEffectBatched> > &);
 _static void EndHSBatch(std::vector<HyperspaceEffectBatched,std::allocator<HyperspaceEffectBatched> > &effects) // 0x493B6C
 {
     mangled_assert("EndHSBatch");
     todo("implement");
-    _sub_493B6C(effects);
 }
 
-_extern void _sub_493BA5(std::vector<HyperspaceEffectBatched,std::allocator<HyperspaceEffectBatched> > &, unsigned __int32 &);
 _static void FlushHSBatch(std::vector<HyperspaceEffectBatched,std::allocator<HyperspaceEffectBatched> > &effects, unsigned __int32 &debugNum) // 0x493BA5
 {
     mangled_assert("FlushHSBatch");
     todo("implement");
-    _sub_493BA5(effects, debugNum);
 }
 
-_extern void _sub_492EA5(Camera const *, Ship *, MeshRenderProxy &, CompoundStateBlock const *, unsigned __int32 &, std::vector<HyperspaceEffectBatched,std::allocator<HyperspaceEffectBatched> > &, bool const);
 _static void DrawOnHyperspacePlane(Camera const *camera, Ship *ship, MeshRenderProxy &renderer, CompoundStateBlock const *shader, unsigned __int32 &debugNum, std::vector<HyperspaceEffectBatched,std::allocator<HyperspaceEffectBatched> > &effects, bool const directRender) // 0x492EA5
 {
     mangled_assert("DrawOnHyperspacePlane");
     todo("implement");
-    _sub_492EA5(camera, ship, renderer, shader, debugNum, effects, directRender);
 }
 
-_extern void _sub_4948E2(std::vector<Ship *,std::allocator<Ship *> > const &, std::vector<Ship *,std::allocator<Ship *> > &);
 _static void addHyperspacingShipsToVector(std::vector<Ship *,std::allocator<Ship *> > const &allShips, std::vector<Ship *,std::allocator<Ship *> > &hyperspacingShips) // 0x4948E2
 {
     mangled_assert("addHyperspacingShipsToVector");
     todo("implement");
-    _sub_4948E2(allShips, hyperspacingShips);
 }
 
-_extern void _sub_4961C9(std::vector<Ship *,std::allocator<Ship *> > const &, std::vector<Ship *,std::allocator<Ship *> > const &, std::vector<Ship *,std::allocator<Ship *> > &);
 _static void updateHyperspacingShips(std::vector<Ship *,std::allocator<Ship *> > const &opaqueShips, std::vector<Ship *,std::allocator<Ship *> > const &transparentShips, std::vector<Ship *,std::allocator<Ship *> > &hyperspacingShips) // 0x4961C9
 {
     mangled_assert("updateHyperspacingShips");
     todo("implement");
-    _sub_4961C9(opaqueShips, transparentShips, hyperspacingShips);
 }
 
-_extern void _sub_4949DD(Camera const *, std::vector<Ship *,std::allocator<Ship *> > const &, std::vector<Ship *,std::allocator<Ship *> > &);
 _static void addShadowedShipsToVector(Camera const *camera, std::vector<Ship *,std::allocator<Ship *> > const &allShips, std::vector<Ship *,std::allocator<Ship *> > &shadowedShips) // 0x4949DD
 {
     mangled_assert("addShadowedShipsToVector");
     todo("implement");
-    _sub_4949DD(camera, allShips, shadowedShips);
 }
 
-_extern void _sub_4955A5(Camera const *, std::vector<Ship *,std::allocator<Ship *> > const &, std::vector<Ship *,std::allocator<Ship *> > const &, std::vector<Ship *,std::allocator<Ship *> > &);
 _static void getShadowedShips(Camera const *camera, std::vector<Ship *,std::allocator<Ship *> > const &opaqueShips, std::vector<Ship *,std::allocator<Ship *> > const &transparentShips, std::vector<Ship *,std::allocator<Ship *> > &shadowedShips) // 0x4955A5
 {
     mangled_assert("getShadowedShips");
     todo("implement");
-    _sub_4955A5(camera, opaqueShips, transparentShips, shadowedShips);
 }
 
-_extern unsigned __int32 _sub_494C5C(Camera const *, std::vector<Ship *,std::allocator<Ship *> > const &, std::vector<Ship *,std::allocator<Ship *> > const &);
 _static unsigned __int32 drawShadowedShips(Camera const *camera, std::vector<Ship *,std::allocator<Ship *> > const &opaqueShips, std::vector<Ship *,std::allocator<Ship *> > const &transparentShips) // 0x494C5C
 {
     mangled_assert("drawShadowedShips");
     todo("implement");
-    unsigned __int32 __result = _sub_494C5C(camera, opaqueShips, transparentShips);
-    return __result;
 }
 #endif

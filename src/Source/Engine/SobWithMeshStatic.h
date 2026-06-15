@@ -101,67 +101,46 @@ static_assert(sizeof(SobWithMeshStatic) == 684, "Invalid SobWithMeshStatic size"
 
 /* ---------- public code */
 
-_extern MadHeader const *_sub_4BF82E(SobWithMeshStatic const *const);
 _inline MadHeader const *SobWithMeshStatic::getMADData() const // 0x4BF82E
 {
     mangled_assert("?getMADData@SobWithMeshStatic@@QBEPBVMadHeader@@XZ");
     todo("implement");
-    MadHeader const * __result = _sub_4BF82E(this);
-    return __result;
 }
 
-_extern MadStateStatic *_sub_4CF4B7(SobWithMeshStatic *const);
 _inline MadStateStatic *SobWithMeshStatic::getMADStatic() // 0x4CF4B7
 {
     mangled_assert("?getMADStatic@SobWithMeshStatic@@QAEPAVMadStateStatic@@XZ");
     todo("implement");
-    MadStateStatic * __result = _sub_4CF4B7(this);
-    return __result;
 }
 
-_extern MadStateStatic const *_sub_606CCB(SobWithMeshStatic const *const);
 _inline MadStateStatic const *SobWithMeshStatic::getMADStatic() const // 0x606CCB
 {
     mangled_assert("?getMADStatic@SobWithMeshStatic@@QBEPBVMadStateStatic@@XZ");
     todo("implement");
-    MadStateStatic const * __result = _sub_606CCB(this);
-    return __result;
 }
 
-_extern EngineTrailStatic *_sub_441B97(SobWithMeshStatic *const);
 _inline EngineTrailStatic *SobWithMeshStatic::getEngineTrailStatic() // 0x441B97
 {
     mangled_assert("?getEngineTrailStatic@SobWithMeshStatic@@QAEPAVEngineTrailStatic@@XZ");
     todo("implement");
-    EngineTrailStatic * __result = _sub_441B97(this);
-    return __result;
 }
 
-_extern EngineTrailStatic const *_sub_441BA1(SobWithMeshStatic const *const);
 _inline EngineTrailStatic const *SobWithMeshStatic::getEngineTrailStatic() const // 0x441BA1
 {
     mangled_assert("?getEngineTrailStatic@SobWithMeshStatic@@QBEPBVEngineTrailStatic@@XZ");
     todo("implement");
-    EngineTrailStatic const * __result = _sub_441BA1(this);
-    return __result;
 }
 
-_extern NavLightStatic const *_sub_60A57F(SobWithMeshStatic const *const);
 _inline NavLightStatic const *SobWithMeshStatic::getNavLightStatic() const // 0x60A57F
 {
     mangled_assert("?getNavLightStatic@SobWithMeshStatic@@QBEPBVNavLightStatic@@XZ");
     todo("implement");
-    NavLightStatic const * __result = _sub_60A57F(this);
-    return __result;
 }
 
-_extern SobWithMeshStatic::LoadingEnv *_sub_49772B(SobWithMeshStatic *const);
 _inline SobWithMeshStatic::LoadingEnv *SobWithMeshStatic::GetLoadingEnv() // 0x49772B
 {
     mangled_assert("?GetLoadingEnv@SobWithMeshStatic@@QAEPAVLoadingEnv@1@XZ");
     todo("implement");
-    SobWithMeshStatic::LoadingEnv * __result = _sub_49772B(this);
-    return __result;
 }
 
 /* ---------- private code */

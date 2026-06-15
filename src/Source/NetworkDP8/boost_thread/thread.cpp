@@ -384,209 +384,157 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_6D7C50(boost::bad_function_call *const, boost::bad_function_call const &);
 _inline boost::bad_function_call::bad_function_call(boost::bad_function_call const &) // 0x6D7C50
 {
     mangled_assert("??0bad_function_call@boost@@QAE@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_6D7C50(this, arg);
 }
 
-_extern _sub_6D7C9B(boost::lock_error *const, boost::lock_error const &);
 _inline boost::lock_error::lock_error(boost::lock_error const &) // 0x6D7C9B
 {
     mangled_assert("??0lock_error@boost@@QAE@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_6D7C9B(this, arg);
 }
 
-_extern _sub_6D7CB7(std::runtime_error *const, std::runtime_error const &);
 _inline std::runtime_error::runtime_error(std::runtime_error const &) // 0x6D7CB7
 {
     mangled_assert("??0runtime_error@std@@QAE@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_6D7CB7(this, arg);
 }
 
-_extern unsigned __int32 _sub_6D86A1(void *);
 unsigned __int32 thread_proxy(void *param) // 0x6D86A1
 {
     mangled_assert("_thread_proxy@4");
     todo("implement");
-    unsigned __int32 __result = _sub_6D86A1(param);
-    return __result;
 }
 
-_extern _sub_6D7D85(boost::thread *const);
 boost::thread::thread() // 0x6D7D85
 {
     mangled_assert("??0thread@boost@@QAE@XZ");
     todo("implement");
-    _sub_6D7D85(this);
 }
 
-_extern _sub_6D7CF0(boost::thread *const, boost::function0<void,std::allocator<boost::function_base> > const &);
 boost::thread::thread(boost::function0<void,std::allocator<boost::function_base> > const &) // 0x6D7CF0
 {
     mangled_assert("??0thread@boost@@QAE@ABV?$function0@XV?$allocator@Vfunction_base@boost@@@std@@@1@@Z");
     todo("implement");
-    _sub_6D7CF0(this, arg);
 }
 
-_extern void _sub_6D7E94(boost::thread *const);
 boost::thread::~thread() // 0x6D7E94
 {
     mangled_assert("??1thread@boost@@QAE@XZ");
     todo("implement");
-    _sub_6D7E94(this);
 }
 
-_extern bool _sub_6D7F64(boost::thread const *const, boost::thread const &);
 bool boost::thread::operator==(boost::thread const &) const // 0x6D7F64
 {
     mangled_assert("??8thread@boost@@QBE_NABV01@@Z");
     todo("implement");
-    bool __result = _sub_6D7F64(this, arg);
-    return __result;
 }
 
-_extern bool _sub_6D7F9F(boost::thread const *const, boost::thread const &);
 bool boost::thread::operator!=(boost::thread const &) const // 0x6D7F9F
 {
     mangled_assert("??9thread@boost@@QBE_NABV01@@Z");
     todo("implement");
-    bool __result = _sub_6D7F9F(this, arg);
-    return __result;
 }
 
-_extern void _sub_6D838D(boost::thread *const);
 void boost::thread::join() // 0x6D838D
 {
     mangled_assert("?join@thread@boost@@QAEXXZ");
     todo("implement");
-    _sub_6D838D(this);
 }
 
-_extern void _sub_6D84C9(boost::xtime const &);
 void boost::thread::sleep(boost::xtime const &xt) // 0x6D84C9
 {
     mangled_assert("?sleep@thread@boost@@SGXABUxtime@2@@Z");
     todo("implement");
-    _sub_6D84C9(xt);
 }
 
-_extern void _sub_6D8698();
 void boost::thread::yield() // 0x6D8698
 {
     mangled_assert("?yield@thread@boost@@SGXXZ");
     todo("implement");
-    _sub_6D8698();
 }
 
-_extern _sub_6D7DA1(boost::thread_group *const);
 boost::thread_group::thread_group() // 0x6D7DA1
 {
     mangled_assert("??0thread_group@boost@@QAE@XZ");
     todo("implement");
-    _sub_6D7DA1(this);
 }
 
-_extern _sub_6D7E1B(boost::thread_resource_error *const, boost::thread_resource_error const &);
 _inline boost::thread_resource_error::thread_resource_error(boost::thread_resource_error const &) // 0x6D7E1B
 {
     mangled_assert("??0thread_resource_error@boost@@QAE@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_6D7E1B(this, arg);
 }
 
-_extern void _sub_6D7E40(std::_List_buy<boost::thread *,std::allocator<boost::thread *> > *const);
 _inline std::_List_buy<boost::thread *,std::allocator<boost::thread *> >::~_List_buy<boost::thread *,std::allocator<boost::thread *> >() // 0x6D7E40
 {
     mangled_assert("??1?$_List_buy@PAVthread@boost@@V?$allocator@PAVthread@boost@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6D7E40(this);
 }
 
-_extern void _sub_6D7E7D(boost::bad_function_call *const);
 _inline boost::bad_function_call::~bad_function_call() // 0x6D7E7D
 {
     mangled_assert("??1bad_function_call@boost@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6D7E7D(this);
 }
 
-_extern void _sub_6D7E88(boost::lock_error *const);
 _inline boost::lock_error::~lock_error() // 0x6D7E88
 {
     mangled_assert("??1lock_error@boost@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6D7E88(this);
 }
 
-_extern void _sub_6D7EA3(boost::thread_group *const);
 boost::thread_group::~thread_group() // 0x6D7EA3
 {
     mangled_assert("??1thread_group@boost@@QAE@XZ");
     todo("implement");
-    _sub_6D7EA3(this);
 }
 
-_extern void _sub_6D7E8E(std::runtime_error *const);
 _inline std::runtime_error::~runtime_error() // 0x6D7E8E
 {
     mangled_assert("??1runtime_error@std@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6D7E8E(this);
 }
 
-_extern void _sub_6D7F38(boost::thread_resource_error *const);
 _inline boost::thread_resource_error::~thread_resource_error() // 0x6D7F38
 {
     mangled_assert("??1thread_resource_error@boost@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_6D7F38(this);
 }
 
-_extern boost::thread *_sub_6D82C9(boost::thread_group *const, boost::function0<void,std::allocator<boost::function_base> > const &);
 boost::thread *boost::thread_group::create_thread(boost::function0<void,std::allocator<boost::function_base> > const &) // 0x6D82C9
 {
     mangled_assert("?create_thread@thread_group@boost@@QAEPAVthread@2@ABV?$function0@XV?$allocator@Vfunction_base@boost@@@std@@@2@@Z");
     todo("implement");
-    boost::thread * __result = _sub_6D82C9(this, arg);
-    return __result;
 }
 
-_extern void _sub_6D81DC(boost::thread_group *const, boost::thread *);
 void boost::thread_group::add_thread(boost::thread *) // 0x6D81DC
 {
     mangled_assert("?add_thread@thread_group@boost@@QAEXPAVthread@2@@Z");
     todo("implement");
-    _sub_6D81DC(this, arg);
 }
 
-_extern void _sub_6D8476(boost::thread_group *const, boost::thread *);
 void boost::thread_group::remove_thread(boost::thread *) // 0x6D8476
 {
     mangled_assert("?remove_thread@thread_group@boost@@QAEXPAVthread@2@@Z");
     todo("implement");
-    _sub_6D8476(this, arg);
 }
 
-_extern void _sub_6D83A8(boost::thread_group *const);
 void boost::thread_group::join_all() // 0x6D83A8
 {
     mangled_assert("?join_all@thread_group@boost@@QAEXXZ");
     todo("implement");
-    _sub_6D83A8(this);
 }
 
 /* ---------- private code */

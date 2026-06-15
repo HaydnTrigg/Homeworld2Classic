@@ -55,30 +55,22 @@ static_assert(sizeof(Bullet) == 632, "Invalid Bullet size");
 
 /* ---------- public code */
 
-_extern bool _sub_4A58F4(Bullet *const);
 _inline bool Bullet::isDeterministic() // 0x4A58F4
 {
     mangled_assert("?isDeterministic@Bullet@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4A58F4(this);
-    return __result;
 }
 
-_extern char const *_sub_4A59EF(Bullet *const);
 _inline char const *Bullet::saveToken() // 0x4A59EF
 {
     mangled_assert("?saveToken@Bullet@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4A59EF(this);
-    return __result;
 }
 
-_extern void _sub_4C3B9C(Bullet *const, float);
 _inline void Bullet::setRenderDeathTime(float) // 0x4C3B9C
 {
     mangled_assert("?setRenderDeathTime@Bullet@@QAEXM@Z");
     todo("implement");
-    _sub_4C3B9C(this, arg);
 }
 
 /* ---------- private code */

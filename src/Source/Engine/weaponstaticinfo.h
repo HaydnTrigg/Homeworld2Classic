@@ -27,12 +27,10 @@ static_assert(sizeof(WeaponStaticInfo) == 28, "Invalid WeaponStaticInfo size");
 
 /* ---------- public code */
 
-_extern void _sub_49731B(WeaponStaticInfo *const);
 _inline WeaponStaticInfo::~WeaponStaticInfo() // 0x49731B
 {
     mangled_assert("??1WeaponStaticInfo@@UAE@XZ");
     todo("implement");
-    _sub_49731B(this);
 }
 
 /* ---------- private code */

@@ -64,21 +64,16 @@ static_assert(sizeof(UI::DiplomacyScreen) == 484, "Invalid UI::DiplomacyScreen s
 
 /* ---------- public code */
 
-_extern __int32 _sub_57404A(UI::DiplomacyScreen const *const);
 _inline __int32 UI::DiplomacyScreen::GetSelectedPlayer() const // 0x57404A
 {
     mangled_assert("?GetSelectedPlayer@DiplomacyScreen@UI@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_57404A(this);
-    return __result;
 }
 
-_extern void _sub_5740D1(UI::DiplomacyScreen *const);
 _inline void UI::DiplomacyScreen::NeedUpdate() // 0x5740D1
 {
     mangled_assert("?NeedUpdate@DiplomacyScreen@UI@@QAEXXZ");
     todo("implement");
-    _sub_5740D1(this);
 }
 
 /* ---------- private code */

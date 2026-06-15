@@ -303,897 +303,634 @@ static_assert(sizeof(UI::InterfaceElement) == 1024, "Invalid UI::InterfaceElemen
 
 /* ---------- public code */
 
-_extern UI::InterfaceElement *_sub_66D89F(UI::InterfaceElement *const);
 _inline UI::InterfaceElement *UI::InterfaceElement::clone() // 0x66D89F
 {
     mangled_assert("?clone@InterfaceElement@UI@@UAEPAV12@XZ");
     todo("implement");
-    UI::InterfaceElement * __result = _sub_66D89F(this);
-    return __result;
 }
 
-_extern void _sub_4F67D2(void (*)(unsigned __int32, wchar_t const *, wchar_t *, unsigned __int32));
 _inline void UI::InterfaceElement::BindKeyBinder(void (*functionCB)(unsigned __int32, wchar_t const *, wchar_t *, unsigned __int32)) // 0x4F67D2
 {
     mangled_assert("?BindKeyBinder@InterfaceElement@UI@@SGXP6GXIPB_WPA_WI@Z@Z");
     todo("implement");
-    _sub_4F67D2(functionCB);
 }
 
-_extern std::list<UI::InterfaceElement *,std::allocator<UI::InterfaceElement *> > &_sub_570B9F(UI::InterfaceElement *const);
 _inline std::list<UI::InterfaceElement *,std::allocator<UI::InterfaceElement *> > &UI::InterfaceElement::GetChildList() // 0x570B9F
 {
     mangled_assert("?GetChildList@InterfaceElement@UI@@QAEAAV?$list@PAVInterfaceElement@UI@@V?$allocator@PAVInterfaceElement@UI@@@std@@@std@@XZ");
     todo("implement");
-    std::list<UI::InterfaceElement *,std::allocator<UI::InterfaceElement *> > & __result = _sub_570B9F(this);
-    return __result;
 }
 
-_extern std::_List_iterator<std::_List_val<std::_List_simple_types<UI::InterfaceElement *> > > _sub_5709D3(UI::InterfaceElement *const);
 _inline std::_List_iterator<std::_List_val<std::_List_simple_types<UI::InterfaceElement *> > > UI::InterfaceElement::begin() // 0x5709D3
 {
     mangled_assert("?begin@InterfaceElement@UI@@QAE?AV?$_List_iterator@V?$_List_val@U?$_List_simple_types@PAVInterfaceElement@UI@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_List_iterator<std::_List_val<std::_List_simple_types<UI::InterfaceElement *> > > __result = _sub_5709D3(this);
-    return __result;
 }
 
-_extern std::_List_iterator<std::_List_val<std::_List_simple_types<UI::InterfaceElement *> > > _sub_570A36(UI::InterfaceElement *const);
 _inline std::_List_iterator<std::_List_val<std::_List_simple_types<UI::InterfaceElement *> > > UI::InterfaceElement::end() // 0x570A36
 {
     mangled_assert("?end@InterfaceElement@UI@@QAE?AV?$_List_iterator@V?$_List_val@U?$_List_simple_types@PAVInterfaceElement@UI@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_List_iterator<std::_List_val<std::_List_simple_types<UI::InterfaceElement *> > > __result = _sub_570A36(this);
-    return __result;
 }
 
-_extern bool _sub_590058(UI::InterfaceElement *const);
 _inline bool UI::InterfaceElement::empty() // 0x590058
 {
     mangled_assert("?empty@InterfaceElement@UI@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_590058(this);
-    return __result;
 }
 
-_extern void _sub_5A014A(UI::InterfaceElement *const, void (*)(UI::InterfaceElement *, __int32, __int32, unsigned __int32));
 _inline void UI::InterfaceElement::ConnectOnMouseMoved(void (*)(UI::InterfaceElement *, __int32, __int32, unsigned __int32)) // 0x5A014A
 {
     mangled_assert("?ConnectOnMouseMoved@InterfaceElement@UI@@QAEXP6GXPAV12@HHI@Z@Z");
     todo("implement");
-    _sub_5A014A(this, arg);
 }
 
-_extern void _sub_57EDA0(UI::InterfaceElement *const, void (*)(UI::InterfaceElement *, __int32, __int32, unsigned __int32));
 _inline void UI::InterfaceElement::ConnectOnMouseEnter(void (*)(UI::InterfaceElement *, __int32, __int32, unsigned __int32)) // 0x57EDA0
 {
     mangled_assert("?ConnectOnMouseEnter@InterfaceElement@UI@@QAEXP6GXPAV12@HHI@Z@Z");
     todo("implement");
-    _sub_57EDA0(this, arg);
 }
 
-_extern void _sub_57EDBC(UI::InterfaceElement *const, void (*)(UI::InterfaceElement *, __int32, __int32, unsigned __int32));
 _inline void UI::InterfaceElement::ConnectOnMouseExit(void (*)(UI::InterfaceElement *, __int32, __int32, unsigned __int32)) // 0x57EDBC
 {
     mangled_assert("?ConnectOnMouseExit@InterfaceElement@UI@@QAEXP6GXPAV12@HHI@Z@Z");
     todo("implement");
-    _sub_57EDBC(this, arg);
 }
 
-_extern void _sub_57EDD8(UI::InterfaceElement *const, void (*)(UI::InterfaceElement *, __int32, __int32, unsigned __int32));
 _inline void UI::InterfaceElement::ConnectOnMousePressed(void (*)(UI::InterfaceElement *, __int32, __int32, unsigned __int32)) // 0x57EDD8
 {
     mangled_assert("?ConnectOnMousePressed@InterfaceElement@UI@@QAEXP6GXPAV12@HHI@Z@Z");
     todo("implement");
-    _sub_57EDD8(this, arg);
 }
 
-_extern void _sub_56FDB8(UI::InterfaceElement *const, void (*)(UI::InterfaceElement *, __int32, __int32, unsigned __int32));
 _inline void UI::InterfaceElement::ConnectOnMouseReleased(void (*)(UI::InterfaceElement *, __int32, __int32, unsigned __int32)) // 0x56FDB8
 {
     mangled_assert("?ConnectOnMouseReleased@InterfaceElement@UI@@QAEXP6GXPAV12@HHI@Z@Z");
     todo("implement");
-    _sub_56FDB8(this, arg);
 }
 
-_extern void _sub_57ED84(UI::InterfaceElement *const, void (*)(UI::InterfaceElement *, __int32, __int32, unsigned __int32));
 _inline void UI::InterfaceElement::ConnectOnMouseClicked(void (*)(UI::InterfaceElement *, __int32, __int32, unsigned __int32)) // 0x57ED84
 {
     mangled_assert("?ConnectOnMouseClicked@InterfaceElement@UI@@QAEXP6GXPAV12@HHI@Z@Z");
     todo("implement");
-    _sub_57ED84(this, arg);
 }
 
-_extern void _sub_575241(UI::InterfaceElement *const, void (*)(UI::InterfaceElement *, __int32, __int32, unsigned __int32));
 _inline void UI::InterfaceElement::ConnectOnMouseDoubleClicked(void (*)(UI::InterfaceElement *, __int32, __int32, unsigned __int32)) // 0x575241
 {
     mangled_assert("?ConnectOnMouseDoubleClicked@InterfaceElement@UI@@QAEXP6GXPAV12@HHI@Z@Z");
     todo("implement");
-    _sub_575241(this, arg);
 }
 
-_extern void _sub_5725B7(UI::InterfaceElement *const, void (*)(UI::InterfaceElement *, unsigned short, __int32));
 _inline void UI::InterfaceElement::ConnectOnKeyPressed(void (*)(UI::InterfaceElement *, unsigned short, __int32)) // 0x5725B7
 {
     mangled_assert("?ConnectOnKeyPressed@InterfaceElement@UI@@QAEXP6GXPAV12@GH@Z@Z");
     todo("implement");
-    _sub_5725B7(this, arg);
 }
 
-_extern void _sub_5725D3(UI::InterfaceElement *const, void (*)(UI::InterfaceElement *, unsigned short, __int32));
 _inline void UI::InterfaceElement::ConnectOnKeyReleased(void (*)(UI::InterfaceElement *, unsigned short, __int32)) // 0x5725D3
 {
     mangled_assert("?ConnectOnKeyReleased@InterfaceElement@UI@@QAEXP6GXPAV12@GH@Z@Z");
     todo("implement");
-    _sub_5725D3(this, arg);
 }
 
-_extern void _sub_57257F(UI::InterfaceElement *const, void (*)(UI::InterfaceElement *));
 _inline void UI::InterfaceElement::ConnectOnFocusOut(void (*)(UI::InterfaceElement *)) // 0x57257F
 {
     mangled_assert("?ConnectOnFocusOut@InterfaceElement@UI@@QAEXP6GXPAV12@@Z@Z");
     todo("implement");
-    _sub_57257F(this, arg);
 }
 
-_extern bool _sub_5A1ECA(UI::InterfaceElement *const, void (*)(UI::InterfaceElement *, __int32, __int32, unsigned __int32));
 _inline bool UI::InterfaceElement::DisconnectOnMouseClicked(void (*)(UI::InterfaceElement *, __int32, __int32, unsigned __int32)) // 0x5A1ECA
 {
     mangled_assert("?DisconnectOnMouseClicked@InterfaceElement@UI@@QAE_NP6GXPAV12@HHI@Z@Z");
     todo("implement");
-    bool __result = _sub_5A1ECA(this, arg);
-    return __result;
 }
 
-_extern bool _sub_57270F(UI::InterfaceElement *const, void (*)(UI::InterfaceElement *, unsigned short, __int32));
 _inline bool UI::InterfaceElement::DisconnectOnKeyPressed(void (*)(UI::InterfaceElement *, unsigned short, __int32)) // 0x57270F
 {
     mangled_assert("?DisconnectOnKeyPressed@InterfaceElement@UI@@QAE_NP6GXPAV12@GH@Z@Z");
     todo("implement");
-    bool __result = _sub_57270F(this, arg);
-    return __result;
 }
 
-_extern bool _sub_57271A(UI::InterfaceElement *const, void (*)(UI::InterfaceElement *, unsigned short, __int32));
 _inline bool UI::InterfaceElement::DisconnectOnKeyReleased(void (*)(UI::InterfaceElement *, unsigned short, __int32)) // 0x57271A
 {
     mangled_assert("?DisconnectOnKeyReleased@InterfaceElement@UI@@QAE_NP6GXPAV12@GH@Z@Z");
     todo("implement");
-    bool __result = _sub_57271A(this, arg);
-    return __result;
 }
 
-_extern void _sub_573826(UI::InterfaceElement *const, char const *);
 _inline void UI::InterfaceElement::SetName(char const *) // 0x573826
 {
     mangled_assert("?SetName@InterfaceElement@UI@@QAEXPBD@Z");
     todo("implement");
-    _sub_573826(this, arg);
 }
 
-_extern void _sub_570190(UI::InterfaceElement *const, bool);
 _inline void UI::InterfaceElement::SetVisible(bool) // 0x570190
 {
     mangled_assert("?SetVisible@InterfaceElement@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_570190(this, arg);
 }
 
-_extern void _sub_574AB7(UI::InterfaceElement *const, boost::shared_ptr<UI::Graphic>);
 _inline void UI::InterfaceElement::SetBackgroundGraphic(boost::shared_ptr<UI::Graphic>) // 0x574AB7
 {
     mangled_assert("?SetBackgroundGraphic@InterfaceElement@UI@@QAEXV?$shared_ptr@VGraphic@UI@@@boost@@@Z");
     todo("implement");
-    _sub_574AB7(this, arg);
 }
 
-_extern void _sub_66D145(UI::InterfaceElement *const, boost::shared_ptr<UI::Graphic>);
 _inline void UI::InterfaceElement::SetBackgroundGraphic2(boost::shared_ptr<UI::Graphic>) // 0x66D145
 {
     mangled_assert("?SetBackgroundGraphic2@InterfaceElement@UI@@QAEXV?$shared_ptr@VGraphic@UI@@@boost@@@Z");
     todo("implement");
-    _sub_66D145(this, arg);
 }
 
-_extern void _sub_5993E6(UI::InterfaceElement *const);
 _inline void UI::InterfaceElement::ClearBackgroundGraphic() // 0x5993E6
 {
     mangled_assert("?ClearBackgroundGraphic@InterfaceElement@UI@@QAEXXZ");
     todo("implement");
-    _sub_5993E6(this);
 }
 
-_extern void _sub_581CEA(UI::InterfaceElement *const, bool);
 _inline void UI::InterfaceElement::SetBackgroundGraphicVisible(bool) // 0x581CEA
 {
     mangled_assert("?SetBackgroundGraphicVisible@InterfaceElement@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_581CEA(this, arg);
 }
 
-_extern void _sub_581CD4(UI::InterfaceElement *const, bool);
 _inline void UI::InterfaceElement::SetBackgroundGraphic2Visible(bool) // 0x581CD4
 {
     mangled_assert("?SetBackgroundGraphic2Visible@InterfaceElement@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_581CD4(this, arg);
 }
 
-_extern void _sub_59A5AB(UI::InterfaceElement *const, boost::shared_ptr<UI::Graphic>);
 _inline void UI::InterfaceElement::SetDisabledGraphic(boost::shared_ptr<UI::Graphic>) // 0x59A5AB
 {
     mangled_assert("?SetDisabledGraphic@InterfaceElement@UI@@QAEXV?$shared_ptr@VGraphic@UI@@@boost@@@Z");
     todo("implement");
-    _sub_59A5AB(this, arg);
 }
 
-_extern void _sub_574AAB(UI::InterfaceElement *const, Color_4b const &);
 _inline void UI::InterfaceElement::SetBackgroundColor(Color_4b const &) // 0x574AAB
 {
     mangled_assert("?SetBackgroundColor@InterfaceElement@UI@@QAEXABUColor_4b@@@Z");
     todo("implement");
-    _sub_574AAB(this, arg);
 }
 
-_extern void _sub_581CDE(UI::InterfaceElement *const, Color_4b const &);
 _inline void UI::InterfaceElement::SetBackgroundGraphicColor(Color_4b const &) // 0x581CDE
 {
     mangled_assert("?SetBackgroundGraphicColor@InterfaceElement@UI@@QAEXABUColor_4b@@@Z");
     todo("implement");
-    _sub_581CDE(this, arg);
 }
 
-_extern void _sub_67D0AA(UI::InterfaceElement *const, Color_4b const &);
 _inline void UI::InterfaceElement::SetBorderColor(Color_4b const &) // 0x67D0AA
 {
     mangled_assert("?SetBorderColor@InterfaceElement@UI@@QAEXABUColor_4b@@@Z");
     todo("implement");
-    _sub_67D0AA(this, arg);
 }
 
-_extern void _sub_5A4DF1(UI::InterfaceElement *const, unsigned __int32);
 _inline void UI::InterfaceElement::SetBorderWidth(unsigned __int32) // 0x5A4DF1
 {
     mangled_assert("?SetBorderWidth@InterfaceElement@UI@@QAEXI@Z");
     todo("implement");
-    _sub_5A4DF1(this, arg);
 }
 
-_extern void _sub_5AC296(UI::InterfaceElement *const, unsigned __int32);
 _inline void UI::InterfaceElement::SetOuterBorderWidth(unsigned __int32) // 0x5AC296
 {
     mangled_assert("?SetOuterBorderWidth@InterfaceElement@UI@@QAEXI@Z");
     todo("implement");
-    _sub_5AC296(this, arg);
 }
 
-_extern void _sub_5A35AD(UI::InterfaceElement *const, Color_4b const &);
 _inline void UI::InterfaceElement::SetDisabledColor(Color_4b const &) // 0x5A35AD
 {
     mangled_assert("?SetDisabledColor@InterfaceElement@UI@@QAEXABUColor_4b@@@Z");
     todo("implement");
-    _sub_5A35AD(this, arg);
 }
 
-_extern void _sub_581F86(UI::InterfaceElement *const, Color_4b const &);
 _inline void UI::InterfaceElement::SetDisabledBorderColor(Color_4b const &) // 0x581F86
 {
     mangled_assert("?SetDisabledBorderColor@InterfaceElement@UI@@QAEXABUColor_4b@@@Z");
     todo("implement");
-    _sub_581F86(this, arg);
 }
 
-_extern void _sub_66D22B(UI::InterfaceElement *const, bool);
 _inline void UI::InterfaceElement::SetGiveParentMouseInput(bool) // 0x66D22B
 {
     mangled_assert("?SetGiveParentMouseInput@InterfaceElement@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_66D22B(this, arg);
 }
 
-_extern void _sub_573844(UI::InterfaceElement *const, UI::InterfaceElement *);
 _inline void UI::InterfaceElement::SetParent3(UI::InterfaceElement *) // 0x573844
 {
     mangled_assert("?SetParent3@InterfaceElement@UI@@QAEXPAV12@@Z");
     todo("implement");
-    _sub_573844(this, arg);
 }
 
-_extern void _sub_581FE5(UI::InterfaceElement *const, unsigned __int32);
 _inline void UI::InterfaceElement::SetHotKeyID(unsigned __int32) // 0x581FE5
 {
     mangled_assert("?SetHotKeyID@InterfaceElement@UI@@QAEXI@Z");
     todo("implement");
-    _sub_581FE5(this, arg);
 }
 
-_extern void _sub_66D1BF(UI::InterfaceElement *const, Rect_i const &);
 _inline void UI::InterfaceElement::SetClipRect(Rect_i const &) // 0x66D1BF
 {
     mangled_assert("?SetClipRect@InterfaceElement@UI@@QAEXABURect_i@@@Z");
     todo("implement");
-    _sub_66D1BF(this, arg);
 }
 
-_extern void _sub_67D09D(UI::InterfaceElement *const, bool);
 _inline void UI::InterfaceElement::SetBackgroundRepeat(bool) // 0x67D09D
 {
     mangled_assert("?SetBackgroundRepeat@InterfaceElement@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_67D09D(this, arg);
 }
 
-_extern void _sub_570179(UI::InterfaceElement *const, unsigned long long);
 _inline void UI::InterfaceElement::SetCustomData(unsigned long long) // 0x570179
 {
     mangled_assert("?SetCustomData@InterfaceElement@UI@@QAEX_K@Z");
     todo("implement");
-    _sub_570179(this, arg);
 }
 
-_extern void _sub_57016C(UI::InterfaceElement *const, unsigned __int32);
 _inline void UI::InterfaceElement::SetCustomData2(unsigned __int32) // 0x57016C
 {
     mangled_assert("?SetCustomData2@InterfaceElement@UI@@QAEXI@Z");
     todo("implement");
-    _sub_57016C(this, arg);
 }
 
-_extern void _sub_57377F(UI::InterfaceElement *const, __int32);
 _inline void UI::InterfaceElement::SetCustomData3(__int32) // 0x57377F
 {
     mangled_assert("?SetCustomData3@InterfaceElement@UI@@QAEXH@Z");
     todo("implement");
-    _sub_57377F(this, arg);
 }
 
-_extern void _sub_581F92(UI::InterfaceElement *const, bool);
 _inline void UI::InterfaceElement::SetGreyscale(bool) // 0x581F92
 {
     mangled_assert("?SetGreyscale@InterfaceElement@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_581F92(this, arg);
 }
 
-_extern void _sub_67D0E0(UI::InterfaceElement *const, __int32);
 _inline void UI::InterfaceElement::SetMarginWidth(__int32) // 0x67D0E0
 {
     mangled_assert("?SetMarginWidth@InterfaceElement@UI@@QAEXH@Z");
     todo("implement");
-    _sub_67D0E0(this, arg);
 }
 
-_extern void _sub_5888D2(UI::InterfaceElement *const, Vector_2i const &);
 _inline void UI::InterfaceElement::Move(Vector_2i const &) // 0x5888D2
 {
     mangled_assert("?Move@InterfaceElement@UI@@QAEXABUVector_2i@@@Z");
     todo("implement");
-    _sub_5888D2(this, arg);
 }
 
-_extern void _sub_589F38(UI::InterfaceElement *const, UI::Size const &);
 _inline void UI::InterfaceElement::Resize(UI::Size const &) // 0x589F38
 {
     mangled_assert("?Resize@InterfaceElement@UI@@QAEXABVSize@2@@Z");
     todo("implement");
-    _sub_589F38(this, arg);
 }
 
-_extern void _sub_66F248(UI::InterfaceElement *const, Rect_i const &);
 _inline void UI::InterfaceElement::SetDimensions(Rect_i const &) // 0x66F248
 {
     mangled_assert("?SetDimensions@InterfaceElement@UI@@QAEXABURect_i@@@Z");
     todo("implement");
-    _sub_66F248(this, arg);
 }
 
-_extern Color_4b _sub_57F925(UI::InterfaceElement const *const);
 _inline Color_4b UI::InterfaceElement::GetBackgroundColor() const // 0x57F925
 {
     mangled_assert("?GetBackgroundColor@InterfaceElement@UI@@QBE?AUColor_4b@@XZ");
     todo("implement");
-    Color_4b __result = _sub_57F925(this);
-    return __result;
 }
 
-_extern Color_4b _sub_67DCC5(UI::InterfaceElement const *const);
 _inline Color_4b UI::InterfaceElement::GetBorderColor() const // 0x67DCC5
 {
     mangled_assert("?GetBorderColor@InterfaceElement@UI@@QBE?AUColor_4b@@XZ");
     todo("implement");
-    Color_4b __result = _sub_67DCC5(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_5A48FB(UI::InterfaceElement const *const);
 _inline unsigned __int32 UI::InterfaceElement::GetBorderWidth() const // 0x5A48FB
 {
     mangled_assert("?GetBorderWidth@InterfaceElement@UI@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_5A48FB(this);
-    return __result;
 }
 
-_extern bool _sub_67DCD8(UI::InterfaceElement const *const);
 _inline bool UI::InterfaceElement::HasBackgroundGraphic2() const // 0x67DCD8
 {
     mangled_assert("?HasBackgroundGraphic2@InterfaceElement@UI@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_67DCD8(this);
-    return __result;
 }
 
-_extern __int32 _sub_57FA45(UI::InterfaceElement const *const);
 _inline __int32 UI::InterfaceElement::GetWidth() const // 0x57FA45
 {
     mangled_assert("?GetWidth@InterfaceElement@UI@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_57FA45(this);
-    return __result;
 }
 
-_extern __int32 _sub_577657(UI::InterfaceElement const *const);
 _inline __int32 UI::InterfaceElement::GetHeight() const // 0x577657
 {
     mangled_assert("?GetHeight@InterfaceElement@UI@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_577657(this);
-    return __result;
 }
 
-_extern __int32 _sub_57FA49(UI::InterfaceElement const *const);
 _inline __int32 UI::InterfaceElement::GetX() const // 0x57FA49
 {
     mangled_assert("?GetX@InterfaceElement@UI@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_57FA49(this);
-    return __result;
 }
 
-_extern __int32 _sub_576283(UI::InterfaceElement const *const);
 _inline __int32 UI::InterfaceElement::GetY() const // 0x576283
 {
     mangled_assert("?GetY@InterfaceElement@UI@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_576283(this);
-    return __result;
 }
 
-_extern bool _sub_570BAA(UI::InterfaceElement const *const);
 _inline bool UI::InterfaceElement::GetEnabled() const // 0x570BAA
 {
     mangled_assert("?GetEnabled@InterfaceElement@UI@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_570BAA(this);
-    return __result;
 }
 
-_extern bool _sub_5783D1(UI::InterfaceElement const *const);
 _inline bool UI::InterfaceElement::GetVisible() const // 0x5783D1
 {
     mangled_assert("?GetVisible@InterfaceElement@UI@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_5783D1(this);
-    return __result;
 }
 
-_extern char const *_sub_578395(UI::InterfaceElement const *const);
 _inline char const *UI::InterfaceElement::GetName() const // 0x578395
 {
     mangled_assert("?GetName@InterfaceElement@UI@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_578395(this);
-    return __result;
 }
 
-_extern UI::Size _sub_576251(UI::InterfaceElement const *const);
 _inline UI::Size UI::InterfaceElement::GetSize() const // 0x576251
 {
     mangled_assert("?GetSize@InterfaceElement@UI@@QBE?AVSize@2@XZ");
     todo("implement");
-    UI::Size __result = _sub_576251(this);
-    return __result;
 }
 
-_extern UI::Size _sub_577662(UI::InterfaceElement const *const);
 _inline UI::Size UI::InterfaceElement::GetMaxSize() const // 0x577662
 {
     mangled_assert("?GetMaxSize@InterfaceElement@UI@@QBE?AVSize@2@XZ");
     todo("implement");
-    UI::Size __result = _sub_577662(this);
-    return __result;
 }
 
-_extern unsigned long long _sub_56FDD7(UI::InterfaceElement const *const);
 _inline unsigned long long UI::InterfaceElement::GetCustomData() const // 0x56FDD7
 {
     mangled_assert("?GetCustomData@InterfaceElement@UI@@QBE_KXZ");
     todo("implement");
-    unsigned long long __result = _sub_56FDD7(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_5727C9(UI::InterfaceElement const *const);
 _inline unsigned __int32 UI::InterfaceElement::GetCustomData2() const // 0x5727C9
 {
     mangled_assert("?GetCustomData2@InterfaceElement@UI@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_5727C9(this);
-    return __result;
 }
 
-_extern __int32 _sub_5727D0(UI::InterfaceElement const *const);
 _inline __int32 UI::InterfaceElement::GetCustomData3() const // 0x5727D0
 {
     mangled_assert("?GetCustomData3@InterfaceElement@UI@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_5727D0(this);
-    return __result;
 }
 
-_extern bool _sub_67C6BC(UI::InterfaceElement const *const);
 _inline bool UI::InterfaceElement::GetBackgroundRepeat() const // 0x67C6BC
 {
     mangled_assert("?GetBackgroundRepeat@InterfaceElement@UI@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_67C6BC(this);
-    return __result;
 }
 
-_extern boost::shared_ptr<UI::Graphic> _sub_574023(UI::InterfaceElement const *const);
 _inline boost::shared_ptr<UI::Graphic> UI::InterfaceElement::GetBackgroundGraphic() const // 0x574023
 {
     mangled_assert("?GetBackgroundGraphic@InterfaceElement@UI@@QBE?AV?$shared_ptr@VGraphic@UI@@@boost@@XZ");
     todo("implement");
-    boost::shared_ptr<UI::Graphic> __result = _sub_574023(this);
-    return __result;
 }
 
-_extern boost::shared_ptr<UI::Graphic> _sub_67DC9E(UI::InterfaceElement const *const);
 _inline boost::shared_ptr<UI::Graphic> UI::InterfaceElement::GetBackgroundGraphic2() const // 0x67DC9E
 {
     mangled_assert("?GetBackgroundGraphic2@InterfaceElement@UI@@QBE?AV?$shared_ptr@VGraphic@UI@@@boost@@XZ");
     todo("implement");
-    boost::shared_ptr<UI::Graphic> __result = _sub_67DC9E(this);
-    return __result;
 }
 
-_extern boost::shared_ptr<UI::Graphic> _sub_5994F8(UI::InterfaceElement const *const);
 _inline boost::shared_ptr<UI::Graphic> UI::InterfaceElement::GetDisabledGraphic() const // 0x5994F8
 {
     mangled_assert("?GetDisabledGraphic@InterfaceElement@UI@@QBE?AV?$shared_ptr@VGraphic@UI@@@boost@@XZ");
     todo("implement");
-    boost::shared_ptr<UI::Graphic> __result = _sub_5994F8(this);
-    return __result;
 }
 
-_extern bool _sub_67225E(UI::InterfaceElement const *const);
 _inline bool UI::InterfaceElement::GetGiveParentFocus() const // 0x67225E
 {
     mangled_assert("?GetGiveParentFocus@InterfaceElement@UI@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_67225E(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_5727D7(UI::InterfaceElement const *const);
 _inline unsigned __int32 UI::InterfaceElement::GetID() const // 0x5727D7
 {
     mangled_assert("?GetID@InterfaceElement@UI@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_5727D7(this);
-    return __result;
 }
 
-_extern UI::NewUIScreen *_sub_570BE9(UI::InterfaceElement const *const);
 _inline UI::NewUIScreen *UI::InterfaceElement::GetParentNewUIScreen() const // 0x570BE9
 {
     mangled_assert("?GetParentNewUIScreen@InterfaceElement@UI@@QBEPAVNewUIScreen@2@XZ");
     todo("implement");
-    UI::NewUIScreen * __result = _sub_570BE9(this);
-    return __result;
 }
 
-_extern UI::InterfaceElement *_sub_57282D(UI::InterfaceElement const *const);
 _inline UI::InterfaceElement *UI::InterfaceElement::GetParent3() const // 0x57282D
 {
     mangled_assert("?GetParent3@InterfaceElement@UI@@QBEPAV12@XZ");
     todo("implement");
-    UI::InterfaceElement * __result = _sub_57282D(this);
-    return __result;
 }
 
-_extern Rect_i _sub_66E240(UI::InterfaceElement const *const);
 _inline Rect_i UI::InterfaceElement::GetClipRect() const // 0x66E240
 {
     mangled_assert("?GetClipRect@InterfaceElement@UI@@QBE?AURect_i@@XZ");
     todo("implement");
-    Rect_i __result = _sub_66E240(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_57F9AE(UI::InterfaceElement const *const);
 _inline unsigned __int32 UI::InterfaceElement::GetHotKeyID() const // 0x57F9AE
 {
     mangled_assert("?GetHotKeyID@InterfaceElement@UI@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_57F9AE(this);
-    return __result;
 }
 
-_extern bool _sub_66B6B9(UI::InterfaceElement const *const);
 _inline bool UI::InterfaceElement::GetAutoSize() const // 0x66B6B9
 {
     mangled_assert("?GetAutoSize@InterfaceElement@UI@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_66B6B9(this);
-    return __result;
 }
 
-_extern bool _sub_66B6B2(UI::InterfaceElement const *const);
 _inline bool UI::InterfaceElement::GetAutoArrange() const // 0x66B6B2
 {
     mangled_assert("?GetAutoArrange@InterfaceElement@UI@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_66B6B2(this);
-    return __result;
 }
 
-_extern __int32 _sub_5AEE11(UI::InterfaceElement const *const);
 _inline __int32 UI::InterfaceElement::GetAutoArrangeWidth() const // 0x5AEE11
 {
     mangled_assert("?GetAutoArrangeWidth@InterfaceElement@UI@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_5AEE11(this);
-    return __result;
 }
 
-_extern __int32 _sub_66B740(UI::InterfaceElement const *const);
 _inline __int32 UI::InterfaceElement::GetMarginWidth() const // 0x66B740
 {
     mangled_assert("?GetMarginWidth@InterfaceElement@UI@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_66B740(this);
-    return __result;
 }
 
-_extern __int32 _sub_66B739(UI::InterfaceElement const *const);
 _inline __int32 UI::InterfaceElement::GetMarginHeight() const // 0x66B739
 {
     mangled_assert("?GetMarginHeight@InterfaceElement@UI@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_66B739(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_66B75F(UI::InterfaceElement const *const);
 _inline unsigned __int32 UI::InterfaceElement::GetVAlign() const // 0x66B75F
 {
     mangled_assert("?GetVAlign@InterfaceElement@UI@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_66B75F(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_66B6F8(UI::InterfaceElement const *const);
 _inline unsigned __int32 UI::InterfaceElement::GetHAlign() const // 0x66B6F8
 {
     mangled_assert("?GetHAlign@InterfaceElement@UI@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_66B6F8(this);
-    return __result;
 }
 
-_extern bool _sub_672A3F(UI::InterfaceElement const *const);
 _inline bool UI::InterfaceElement::HasMouseEntered() const // 0x672A3F
 {
     mangled_assert("?HasMouseEntered@InterfaceElement@UI@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_672A3F(this);
-    return __result;
 }
 
-_extern void _sub_573291(UI::InterfaceElement *const, Vector_2i const &, UI::MouseButton const &);
 _inline void UI::InterfaceElement::OnMouseMoved(Vector_2i const &, UI::MouseButton const &) // 0x573291
 {
     mangled_assert("?OnMouseMoved@InterfaceElement@UI@@MAEXABUVector_2i@@ABVMouseButton@2@@Z");
     todo("implement");
-    _sub_573291(this, arg, arg);
 }
 
-_extern void _sub_573294(UI::InterfaceElement *const, Vector_2i const &, UI::MouseButton const &);
 _inline void UI::InterfaceElement::OnMousePressed(Vector_2i const &, UI::MouseButton const &) // 0x573294
 {
     mangled_assert("?OnMousePressed@InterfaceElement@UI@@MAEXABUVector_2i@@ABVMouseButton@2@@Z");
     todo("implement");
-    _sub_573294(this, arg, arg);
 }
 
-_extern void _sub_573297(UI::InterfaceElement *const, Vector_2i const &, UI::MouseButton const &);
 _inline void UI::InterfaceElement::OnMouseReleased(Vector_2i const &, UI::MouseButton const &) // 0x573297
 {
     mangled_assert("?OnMouseReleased@InterfaceElement@UI@@MAEXABUVector_2i@@ABVMouseButton@2@@Z");
     todo("implement");
-    _sub_573297(this, arg, arg);
 }
 
-_extern void _sub_573285(UI::InterfaceElement *const, Vector_2i const &, UI::MouseButton const &);
 _inline void UI::InterfaceElement::OnMouseClicked(Vector_2i const &, UI::MouseButton const &) // 0x573285
 {
     mangled_assert("?OnMouseClicked@InterfaceElement@UI@@MAEXABUVector_2i@@ABVMouseButton@2@@Z");
     todo("implement");
-    _sub_573285(this, arg, arg);
 }
 
-_extern void _sub_573288(UI::InterfaceElement *const, Vector_2i const &, UI::MouseButton const &);
 _inline void UI::InterfaceElement::OnMouseDoubleClicked(Vector_2i const &, UI::MouseButton const &) // 0x573288
 {
     mangled_assert("?OnMouseDoubleClicked@InterfaceElement@UI@@MAEXABUVector_2i@@ABVMouseButton@2@@Z");
     todo("implement");
-    _sub_573288(this, arg, arg);
 }
 
-_extern void _sub_57328B(UI::InterfaceElement *const, Vector_2i const &, UI::MouseButton const &);
 _inline void UI::InterfaceElement::OnMouseEnter(Vector_2i const &, UI::MouseButton const &) // 0x57328B
 {
     mangled_assert("?OnMouseEnter@InterfaceElement@UI@@MAEXABUVector_2i@@ABVMouseButton@2@@Z");
     todo("implement");
-    _sub_57328B(this, arg, arg);
 }
 
-_extern void _sub_57328E(UI::InterfaceElement *const, Vector_2i const &, UI::MouseButton const &);
 _inline void UI::InterfaceElement::OnMouseExit(Vector_2i const &, UI::MouseButton const &) // 0x57328E
 {
     mangled_assert("?OnMouseExit@InterfaceElement@UI@@MAEXABUVector_2i@@ABVMouseButton@2@@Z");
     todo("implement");
-    _sub_57328E(this, arg, arg);
 }
 
-_extern void _sub_573345(UI::InterfaceElement *const, __int32, __int32);
 _inline void UI::InterfaceElement::OnResize(__int32, __int32) // 0x573345
 {
     mangled_assert("?OnResize@InterfaceElement@UI@@MAEXHH@Z");
     todo("implement");
-    _sub_573345(this, arg, arg);
 }
 
-_extern void _sub_5733F1(UI::InterfaceElement *const, unsigned __int32);
 _inline void UI::InterfaceElement::OnUpdate(unsigned __int32) // 0x5733F1
 {
     mangled_assert("?OnUpdate@InterfaceElement@UI@@MAEXI@Z");
     todo("implement");
-    _sub_5733F1(this, arg);
 }
 
-_extern void _sub_57329B(UI::InterfaceElement *const);
 _inline void UI::InterfaceElement::OnMouseWheelUp() // 0x57329B
 {
     mangled_assert("?OnMouseWheelUp@InterfaceElement@UI@@MAEXXZ");
     todo("implement");
-    _sub_57329B(this);
 }
 
-_extern void _sub_57329A(UI::InterfaceElement *const);
 _inline void UI::InterfaceElement::OnMouseWheelDown() // 0x57329A
 {
     mangled_assert("?OnMouseWheelDown@InterfaceElement@UI@@MAEXXZ");
     todo("implement");
-    _sub_57329A(this);
 }
 
-_extern void _sub_572B6F(UI::InterfaceElement *const, bool);
 _inline void UI::InterfaceElement::OnFocus(bool) // 0x572B6F
 {
     mangled_assert("?OnFocus@InterfaceElement@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_572B6F(this, arg);
 }
 
-_extern void _sub_572B6C(UI::InterfaceElement *const, bool);
 _inline void UI::InterfaceElement::OnEnable(bool) // 0x572B6C
 {
     mangled_assert("?OnEnable@InterfaceElement@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_572B6C(this, arg);
 }
 
-_extern UI::TextListBoxItem *_sub_5B4273(UI::InterfaceElement *const, char const *, bool);
 _inline UI::TextListBoxItem *UI::InterfaceElement::FindNamedElementT<UI::TextListBoxItem>(char const *, bool) // 0x5B4273
 {
     mangled_assert("??$FindNamedElementT@VTextListBoxItem@UI@@@InterfaceElement@UI@@QAEPAVTextListBoxItem@1@PBD_N@Z");
     todo("implement");
-    UI::TextListBoxItem * __result = _sub_5B4273(this, arg, arg);
-    return __result;
 }
 
-_extern UI::NewTextLabel const *_sub_5B09B6(UI::InterfaceElement *const, char const *, bool);
 _inline UI::NewTextLabel const *UI::InterfaceElement::FindNamedElementT<UI::NewTextLabel const >(char const *, bool) // 0x5B09B6
 {
     mangled_assert("??$FindNamedElementT@$$CBVNewTextLabel@UI@@@InterfaceElement@UI@@QAEPBVNewTextLabel@1@PBD_N@Z");
     todo("implement");
-    UI::NewTextLabel const * __result = _sub_5B09B6(this, arg, arg);
-    return __result;
 }
 
-_extern UI::Table *_sub_58EAEB(UI::InterfaceElement *const, char const *, bool);
 _inline UI::Table *UI::InterfaceElement::FindNamedElementT<UI::Table>(char const *, bool) // 0x58EAEB
 {
     mangled_assert("??$FindNamedElementT@VTable@UI@@@InterfaceElement@UI@@QAEPAVTable@1@PBD_N@Z");
     todo("implement");
-    UI::Table * __result = _sub_58EAEB(this, arg, arg);
-    return __result;
 }
 
-_extern UI::NewFrame *_sub_579F3A(UI::InterfaceElement *const, char const *, bool);
 _inline UI::NewFrame *UI::InterfaceElement::FindNamedElementT<UI::NewFrame>(char const *, bool) // 0x579F3A
 {
     mangled_assert("??$FindNamedElementT@VNewFrame@UI@@@InterfaceElement@UI@@QAEPAVNewFrame@1@PBD_N@Z");
     todo("implement");
-    UI::NewFrame * __result = _sub_579F3A(this, arg, arg);
-    return __result;
 }
 
-_extern UI::ProgressBar *_sub_579F46(UI::InterfaceElement *const, char const *, bool);
 _inline UI::ProgressBar *UI::InterfaceElement::FindNamedElementT<UI::ProgressBar>(char const *, bool) // 0x579F46
 {
     mangled_assert("??$FindNamedElementT@VProgressBar@UI@@@InterfaceElement@UI@@QAEPAVProgressBar@1@PBD_N@Z");
     todo("implement");
-    UI::ProgressBar * __result = _sub_579F46(this, arg, arg);
-    return __result;
 }
 
-_extern UI::NewDropDownListBox *_sub_577C7E(UI::InterfaceElement *const, char const *, bool);
 _inline UI::NewDropDownListBox *UI::InterfaceElement::FindNamedElementT<UI::NewDropDownListBox>(char const *, bool) // 0x577C7E
 {
     mangled_assert("??$FindNamedElementT@VNewDropDownListBox@UI@@@InterfaceElement@UI@@QAEPAVNewDropDownListBox@1@PBD_N@Z");
     todo("implement");
-    UI::NewDropDownListBox * __result = _sub_577C7E(this, arg, arg);
-    return __result;
 }
 
-_extern UI::ListBoxItem *_sub_571A08(UI::InterfaceElement *const, char const *, bool);
 _inline UI::ListBoxItem *UI::InterfaceElement::FindNamedElementT<UI::ListBoxItem>(char const *, bool) // 0x571A08
 {
     mangled_assert("??$FindNamedElementT@VListBoxItem@UI@@@InterfaceElement@UI@@QAEPAVListBoxItem@1@PBD_N@Z");
     todo("implement");
-    UI::ListBoxItem * __result = _sub_571A08(this, arg, arg);
-    return __result;
 }
 
-_extern UI::NewButton *_sub_571A14(UI::InterfaceElement *const, char const *, bool);
 _inline UI::NewButton *UI::InterfaceElement::FindNamedElementT<UI::NewButton>(char const *, bool) // 0x571A14
 {
     mangled_assert("??$FindNamedElementT@VNewButton@UI@@@InterfaceElement@UI@@QAEPAVNewButton@1@PBD_N@Z");
     todo("implement");
-    UI::NewButton * __result = _sub_571A14(this, arg, arg);
-    return __result;
 }
 
-_extern UI::NewListBox *_sub_571A20(UI::InterfaceElement *const, char const *, bool);
 _inline UI::NewListBox *UI::InterfaceElement::FindNamedElementT<UI::NewListBox>(char const *, bool) // 0x571A20
 {
     mangled_assert("??$FindNamedElementT@VNewListBox@UI@@@InterfaceElement@UI@@QAEPAVNewListBox@1@PBD_N@Z");
     todo("implement");
-    UI::NewListBox * __result = _sub_571A20(this, arg, arg);
-    return __result;
 }
 
-_extern UI::NewTextLabel *_sub_571A2C(UI::InterfaceElement *const, char const *, bool);
 _inline UI::NewTextLabel *UI::InterfaceElement::FindNamedElementT<UI::NewTextLabel>(char const *, bool) // 0x571A2C
 {
     mangled_assert("??$FindNamedElementT@VNewTextLabel@UI@@@InterfaceElement@UI@@QAEPAVNewTextLabel@1@PBD_N@Z");
     todo("implement");
-    UI::NewTextLabel * __result = _sub_571A2C(this, arg, arg);
-    return __result;
 }
 
-_extern UI::TextButton *_sub_571A38(UI::InterfaceElement *const, char const *, bool);
 _inline UI::TextButton *UI::InterfaceElement::FindNamedElementT<UI::TextButton>(char const *, bool) // 0x571A38
 {
     mangled_assert("??$FindNamedElementT@VTextButton@UI@@@InterfaceElement@UI@@QAEPAVTextButton@1@PBD_N@Z");
     todo("implement");
-    UI::TextButton * __result = _sub_571A38(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

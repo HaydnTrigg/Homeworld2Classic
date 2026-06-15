@@ -69,12 +69,10 @@ static_assert(sizeof(SysUtilInterface) == 4, "Invalid SysUtilInterface size");
 
 /* ---------- public code */
 
-_extern void _sub_10006C0B(SysUtilInterface *const);
 _inline SysUtilInterface::~SysUtilInterface() // 0x10006C0B
 {
     mangled_assert("??1SysUtilInterface@@MAE@XZ");
     todo("implement");
-    _sub_10006C0B(this);
 }
 
 /* ---------- private code */

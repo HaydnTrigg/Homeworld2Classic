@@ -221,28 +221,22 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_6D5E7D(Net::PlayerDescription *const);
 Net::PlayerDescription::PlayerDescription() // 0x6D5E7D
 {
     mangled_assert("??0PlayerDescription@Net@@QAE@XZ");
     todo("implement");
-    _sub_6D5E7D(this);
 }
 
-_extern _sub_6D5E0B(Net::PlayerDescription *const, _DPN_PLAYER_INFO const &);
 Net::PlayerDescription::PlayerDescription(_DPN_PLAYER_INFO const &) // 0x6D5E0B
 {
     mangled_assert("??0PlayerDescription@Net@@QAE@ABU_DPN_PLAYER_INFO@@@Z");
     todo("implement");
-    _sub_6D5E0B(this, arg);
 }
 
-_extern void _sub_6D5E9A(Net::PlayerDescription const *const, _DPN_PLAYER_INFO &);
 void Net::PlayerDescription::Build(_DPN_PLAYER_INFO &) const // 0x6D5E9A
 {
     mangled_assert("?Build@PlayerDescription@Net@@QBEXAAU_DPN_PLAYER_INFO@@@Z");
     todo("implement");
-    _sub_6D5E9A(this, arg);
 }
 
 /* ---------- private code */

@@ -224,168 +224,123 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_10082CB0(Shader *const, Shader const &);
 _inline Shader::Shader(Shader const &) // 0x10082CB0
 {
     mangled_assert("??0Shader@@QAE@ABV0@@Z");
     compiler_generated();
     todo("implement");
-    _sub_10082CB0(this, arg);
 }
 
-_extern _sub_10082D30(ShaderInstance *const, ShaderInstance const &);
 _inline ShaderInstance::ShaderInstance(ShaderInstance const &) // 0x10082D30
 {
     mangled_assert("??0ShaderInstance@@QAE@ABV0@@Z");
     compiler_generated();
     todo("implement");
-    _sub_10082D30(this, arg);
 }
 
-_extern void _sub_10082D90(std::_Tree_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > > > > > *const);
 _inline std::_Tree_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > > > > >::~_Tree_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > > > > >() // 0x10082D90
 {
     mangled_assert("??1?$_Tree_buy@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@U?$pair@W4StateBlock_Type@@PBD@std@@V?$allocator@U?$pair@W4StateBlock_Type@@PBD@std@@@2@@2@@std@@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@U?$pair@W4StateBlock_Type@@PBD@std@@V?$allocator@U?$pair@W4StateBlock_Type@@PBD@std@@@2@@2@@std@@@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10082D90(this);
 }
 
-_extern void _sub_10082DA0(std::_Tree_comp<0,std::_Tmap_traits<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > > > >,0> > *const);
 _inline std::_Tree_comp<0,std::_Tmap_traits<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > > > >,0> >::~_Tree_comp<0,std::_Tmap_traits<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > > > >,0> >() // 0x10082DA0
 {
     mangled_assert("??1?$_Tree_comp@$0A@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@U?$pair@W4StateBlock_Type@@PBD@std@@V?$allocator@U?$pair@W4StateBlock_Type@@PBD@std@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@U?$pair@W4StateBlock_Type@@PBD@std@@V?$allocator@U?$pair@W4StateBlock_Type@@PBD@std@@@2@@2@@std@@@2@$0A@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10082DA0(this);
 }
 
-_extern void _sub_10082DE0(std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > > > > > *const);
 _inline std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > > > > >::~map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > > > > >() // 0x10082DE0
 {
     mangled_assert("??1?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@U?$pair@W4StateBlock_Type@@PBD@std@@V?$allocator@U?$pair@W4StateBlock_Type@@PBD@std@@@2@@2@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@U?$pair@W4StateBlock_Type@@PBD@std@@V?$allocator@U?$pair@W4StateBlock_Type@@PBD@std@@@2@@2@@std@@@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10082DE0(this);
 }
 
-_extern float _sub_10086090();
 float iffGetScale() // 0x10086090
 {
     mangled_assert("?iffGetScale@@YGMXZ");
     todo("implement");
-    float __result = _sub_10086090();
-    return __result;
 }
 
-_extern void _sub_10082E00(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > > > *const);
 _inline std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > > >::~pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > > >() // 0x10082E00
 {
     mangled_assert("??1?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@U?$pair@W4StateBlock_Type@@PBD@std@@V?$allocator@U?$pair@W4StateBlock_Type@@PBD@std@@@2@@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10082E00(this);
 }
 
-_extern void _sub_10086150(float);
 void iffSetScale(float s) // 0x10086150
 {
     mangled_assert("?iffSetScale@@YGXM@Z");
     todo("implement");
-    _sub_10086150(s);
 }
 
-_extern void _sub_10082E60(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > > > *const);
 _inline std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > > >::~pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > > >() // 0x10082E60
 {
     mangled_assert("??1?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@U?$pair@W4StateBlock_Type@@PBD@std@@V?$allocator@U?$pair@W4StateBlock_Type@@PBD@std@@@2@@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10082E60(this);
 }
 
-_extern Shader &_sub_10083360(Shader *const, Shader const &);
 _inline Shader &Shader::operator=(Shader const &) // 0x10083360
 {
     mangled_assert("??4Shader@@QAEAAV0@ABV0@@Z");
     compiler_generated();
     todo("implement");
-    Shader & __result = _sub_10083360(this, arg);
-    return __result;
 }
 
-_extern ShaderCatalog &_sub_100833B0(ShaderCatalog *const, ShaderCatalog const &);
 _inline ShaderCatalog &ShaderCatalog::operator=(ShaderCatalog const &) // 0x100833B0
 {
     mangled_assert("??4ShaderCatalog@@QAEAAV0@ABV0@@Z");
     compiler_generated();
     todo("implement");
-    ShaderCatalog & __result = _sub_100833B0(this, arg);
-    return __result;
 }
 
-_extern ShaderInstance &_sub_100833C0(ShaderInstance *const, ShaderInstance const &);
 _inline ShaderInstance &ShaderInstance::operator=(ShaderInstance const &) // 0x100833C0
 {
     mangled_assert("??4ShaderInstance@@QAEAAV0@ABV0@@Z");
     compiler_generated();
     todo("implement");
-    ShaderInstance & __result = _sub_100833C0(this, arg);
-    return __result;
 }
 
-_extern __int32 _sub_100860A0(IFF *, IFFChunk *, void *, void *);
 __int32 iffHandleLMIP(IFF *iff, IFFChunk *chunk, void *user0, void *user1) // 0x100860A0
 {
     mangled_assert("?iffHandleLMIP@@YGHPAVIFF@@PAVIFFChunk@@PAX2@Z");
     todo("implement");
-    __int32 __result = _sub_100860A0(iff, chunk, user0, user1);
-    return __result;
 }
 
-_extern void _sub_10085040(char *);
 void cleanFilename(char *name) // 0x10085040
 {
     mangled_assert("?cleanFilename@@YGXPAD@Z");
     todo("implement");
-    _sub_10085040(name);
 }
 
-_extern __int32 _sub_100858C0(IFF *, IFFChunk *, void *, void *);
 __int32 handleSTAT(IFF *iff, IFFChunk *chunk, void *user0, void *user1) // 0x100858C0
 {
     mangled_assert("?handleSTAT@@YGHPAVIFF@@PAVIFFChunk@@PAX2@Z");
     todo("implement");
-    __int32 __result = _sub_100858C0(iff, chunk, user0, user1);
-    return __result;
 }
 
-_extern __int32 _sub_10085890(IFF *, IFFChunk *, void *, void *);
 __int32 handleSHAD(IFF *iff, IFFChunk *chunk, void *user0, void *user1) // 0x10085890
 {
     mangled_assert("?handleSHAD@@YGHPAVIFF@@PAVIFFChunk@@PAX2@Z");
     todo("implement");
-    __int32 __result = _sub_10085890(iff, chunk, user0, user1);
-    return __result;
 }
 
-_extern __int32 _sub_10086130(IFF *, IFFChunk *, void *, void *);
 __int32 iffHandleSCAL(IFF *iff, IFFChunk *chunk, void *user0, void *user1) // 0x10086130
 {
     mangled_assert("?iffHandleSCAL@@YGHPAVIFF@@PAVIFFChunk@@PAX2@Z");
     todo("implement");
-    __int32 __result = _sub_10086130(iff, chunk, user0, user1);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > > > > > _sub_10084B60();
 _static std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > > > > > _createShaderList() // 0x10084B60
 {
     mangled_assert("_createShaderList");
     todo("implement");
-    std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::vector<std::pair<enum StateBlock_Type,char const *>,std::allocator<std::pair<enum StateBlock_Type,char const *> > > > > > __result = _sub_10084B60();
-    return __result;
 }
 #endif

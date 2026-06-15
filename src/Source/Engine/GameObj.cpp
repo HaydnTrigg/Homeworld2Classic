@@ -580,598 +580,434 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_4FB3CE(bool);
 void setStatMonProfiling(bool enable) // 0x4FB3CE
 {
     mangled_assert("?setStatMonProfiling@@YGX_N@Z");
     todo("implement");
-    _sub_4FB3CE(enable);
 }
 
-_extern void _sub_4F8C48(UI::InterfaceElement *);
 void GameObj::CB_ContinueWatching_Yes(UI::InterfaceElement *yes) // 0x4F8C48
 {
     mangled_assert("?CB_ContinueWatching_Yes@GameObj@@CGXPAVInterfaceElement@UI@@@Z");
     todo("implement");
-    _sub_4F8C48(yes);
 }
 
-_extern void _sub_4F8C2D(UI::InterfaceElement *);
 void GameObj::CB_ContinueWatching_No(UI::InterfaceElement *no) // 0x4F8C2D
 {
     mangled_assert("?CB_ContinueWatching_No@GameObj@@CGXPAVInterfaceElement@UI@@@Z");
     todo("implement");
-    _sub_4F8C2D(no);
 }
 
-_extern _sub_4F853B(GameObj *const);
 GameObj::GameObj() // 0x4F853B
 {
     mangled_assert("??0GameObj@@AAE@XZ");
     todo("implement");
-    _sub_4F853B(this);
 }
 
-_extern _sub_4F859F(LuaSimProxyLib *const);
 _inline LuaSimProxyLib::LuaSimProxyLib() // 0x4F859F
 {
     mangled_assert("??0LuaSimProxyLib@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4F859F(this);
 }
 
-_extern void _sub_4F85C4(std::_List_buy<unsigned long,std::allocator<unsigned long> > *const);
 _inline std::_List_buy<unsigned long,std::allocator<unsigned long> >::~_List_buy<unsigned long,std::allocator<unsigned long> >() // 0x4F85C4
 {
     mangled_assert("??1?$_List_buy@KV?$allocator@K@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4F85C4(this);
 }
 
-_extern void _sub_4F85F4(std::_Tree_buy<unsigned long,std::allocator<unsigned long> > *const);
 _inline std::_Tree_buy<unsigned long,std::allocator<unsigned long> >::~_Tree_buy<unsigned long,std::allocator<unsigned long> >() // 0x4F85F4
 {
     mangled_assert("??1?$_Tree_buy@KV?$allocator@K@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4F85F4(this);
 }
 
-_extern void _sub_4F85FD(std::_Tree_comp<0,std::_Tset_traits<unsigned long,std::less<unsigned long>,std::allocator<unsigned long>,0> > *const);
 _inline std::_Tree_comp<0,std::_Tset_traits<unsigned long,std::less<unsigned long>,std::allocator<unsigned long>,0> >::~_Tree_comp<0,std::_Tset_traits<unsigned long,std::less<unsigned long>,std::allocator<unsigned long>,0> >() // 0x4F85FD
 {
     mangled_assert("??1?$_Tree_comp@$0A@V?$_Tset_traits@KU?$less@K@std@@V?$allocator@K@2@$0A@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4F85FD(this);
 }
 
-_extern void _sub_4F8659(std::set<unsigned long,std::less<unsigned long>,std::allocator<unsigned long> > *const);
 _inline std::set<unsigned long,std::less<unsigned long>,std::allocator<unsigned long> >::~set<unsigned long,std::less<unsigned long>,std::allocator<unsigned long> >() // 0x4F8659
 {
     mangled_assert("??1?$set@KU?$less@K@std@@V?$allocator@K@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4F8659(this);
 }
 
-_extern void _sub_4F8663(GameObj *const);
 GameObj::~GameObj() // 0x4F8663
 {
     mangled_assert("??1GameObj@@EAE@XZ");
     todo("implement");
-    _sub_4F8663(this);
 }
 
-_extern void _sub_4F86F5(LuaSimProxyLib *const);
 _inline LuaSimProxyLib::~LuaSimProxyLib() // 0x4F86F5
 {
     mangled_assert("??1LuaSimProxyLib@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4F86F5(this);
 }
 
-_extern bool _sub_4F95E9();
 bool GameObj::IsRunning() // 0x4F95E9
 {
     mangled_assert("?IsRunning@GameObj@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_4F95E9();
-    return __result;
 }
 
-_extern GameObj *_sub_4F95BF();
 GameObj *GameObj::Instance() // 0x4F95BF
 {
     mangled_assert("?Instance@GameObj@@SGPAV1@XZ");
     todo("implement");
-    GameObj * __result = _sub_4F95BF();
-    return __result;
 }
 
-_extern void _sub_4F9F07();
 void GameObj::Shutdown() // 0x4F9F07
 {
     mangled_assert("?Shutdown@GameObj@@SGXXZ");
     todo("implement");
-    _sub_4F9F07();
 }
 
-_extern void _sub_4FAAF1(GameObj *const);
 void GameObj::defaultSettings() // 0x4FAAF1
 {
     mangled_assert("?defaultSettings@GameObj@@AAEXXZ");
     todo("implement");
-    _sub_4FAAF1(this);
 }
 
-_extern void _sub_4FB3B5(GameObj *const, bool);
 void GameObj::setMissionComplete(bool) // 0x4FB3B5
 {
     mangled_assert("?setMissionComplete@GameObj@@QAEX_N@Z");
     todo("implement");
-    _sub_4FB3B5(this, arg);
 }
 
-_extern void _sub_4FB388(GameObj *const);
 void GameObj::setGameOver() // 0x4FB388
 {
     mangled_assert("?setGameOver@GameObj@@QAEXXZ");
     todo("implement");
-    _sub_4FB388(this);
 }
 
-_extern void _sub_4FB3C6(GameObj *const);
 void GameObj::setPostLevelComplete() // 0x4FB3C6
 {
     mangled_assert("?setPostLevelComplete@GameObj@@QAEXXZ");
     todo("implement");
-    _sub_4FB3C6(this);
 }
 
-_extern bool _sub_4F9D3C(GameObj *const);
 bool GameObj::RestoreLevel() // 0x4F9D3C
 {
     mangled_assert("?RestoreLevel@GameObj@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_4F9D3C(this);
-    return __result;
 }
 
-_extern bool _sub_4F971D(GameObj *const);
 bool GameObj::LoadLevel() // 0x4F971D
 {
     mangled_assert("?LoadLevel@GameObj@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_4F971D(this);
-    return __result;
 }
 
-_extern char const *_sub_4F8FF2(GameObj *const);
 char const *GameObj::GameStartup() // 0x4F8FF2
 {
     mangled_assert("?GameStartup@GameObj@@AAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4F8FF2(this);
-    return __result;
 }
 
-_extern char const *_sub_4F8FED(GameObj *const);
 char const *GameObj::GameShutdown() // 0x4F8FED
 {
     mangled_assert("?GameShutdown@GameObj@@QAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4F8FED(this);
-    return __result;
 }
 
-_extern char const *_sub_4F9D8F(GameObj *const, SaveGameData *, SaveType);
 char const *GameObj::Save(SaveGameData *, SaveType) // 0x4F9D8F
 {
     mangled_assert("?Save@GameObj@@QAEPBDPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    char const * __result = _sub_4F9D8F(this, arg, arg);
-    return __result;
 }
 
-_extern char const *_sub_4F9D2B(GameObj *const, SaveGameData *);
 char const *GameObj::Restore(SaveGameData *) // 0x4F9D2B
 {
     mangled_assert("?Restore@GameObj@@QAEPBDPAVSaveGameData@@@Z");
     todo("implement");
-    char const * __result = _sub_4F9D2B(this, arg);
-    return __result;
 }
 
-_extern void _sub_4F9A37(GameObj *const);
 void GameObj::OnPostLevel() // 0x4F9A37
 {
     mangled_assert("?OnPostLevel@GameObj@@QAEXXZ");
     todo("implement");
-    _sub_4F9A37(this);
 }
 
-_extern void _sub_4F9BF9();
 void GameObj::OnPreLoad() // 0x4F9BF9
 {
     mangled_assert("?OnPreLoad@GameObj@@SGXXZ");
     todo("implement");
-    _sub_4F9BF9();
 }
 
-_extern void _sub_4F9A6E(GameObj *const);
 void GameObj::OnPostLoad() // 0x4F9A6E
 {
     mangled_assert("?OnPostLoad@GameObj@@QAEXXZ");
     todo("implement");
-    _sub_4F9A6E(this);
 }
 
-_extern void _sub_4FB279(GameObj *const);
 void GameObj::requestExit() // 0x4FB279
 {
     mangled_assert("?requestExit@GameObj@@QAEXXZ");
     todo("implement");
-    _sub_4FB279(this);
 }
 
-_extern bool _sub_4FAFF4(GameObj const *const);
 bool GameObj::isGameOver() const // 0x4FAFF4
 {
     mangled_assert("?isGameOver@GameObj@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_4FAFF4(this);
-    return __result;
 }
 
-_extern bool _sub_4FAFFE(GameObj const *const);
 bool GameObj::isGameOverMenu() const // 0x4FAFFE
 {
     mangled_assert("?isGameOverMenu@GameObj@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_4FAFFE(this);
-    return __result;
 }
 
-_extern void _sub_4F9C17(GameObj *const);
 void GameObj::PreFirstSimulate() // 0x4F9C17
 {
     mangled_assert("?PreFirstSimulate@GameObj@@QAEXXZ");
     todo("implement");
-    _sub_4F9C17(this);
 }
 
-_extern void _sub_4FA13B(GameObj *const);
 void GameObj::StartTasks() // 0x4FA13B
 {
     mangled_assert("?StartTasks@GameObj@@QAEXXZ");
     todo("implement");
-    _sub_4FA13B(this);
 }
 
-_extern bool _sub_4F9F86();
 bool GameObj::StartGame() // 0x4F9F86
 {
     mangled_assert("?StartGame@GameObj@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_4F9F86();
-    return __result;
 }
 
-_extern bool _sub_4F95F5(SaveGameData *);
 bool GameObj::LoadGame(SaveGameData *savegamedata) // 0x4F95F5
 {
     mangled_assert("?LoadGame@GameObj@@SG_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_4F95F5(savegamedata);
-    return __result;
 }
 
-_extern void _sub_4F949E(GameObj *const);
 void GameObj::InitializeNetwork() // 0x4F949E
 {
     mangled_assert("?InitializeNetwork@GameObj@@QAEXXZ");
     todo("implement");
-    _sub_4F949E(this);
 }
 
-_extern void _sub_4F993F(GameObj *const);
 void GameObj::NotifyHostReady() // 0x4F993F
 {
     mangled_assert("?NotifyHostReady@GameObj@@QAEXXZ");
     todo("implement");
-    _sub_4F993F(this);
 }
 
-_extern void _sub_4FA255(GameObj *const);
 void GameObj::WaitStartGame() // 0x4FA255
 {
     mangled_assert("?WaitStartGame@GameObj@@QAEXXZ");
     todo("implement");
-    _sub_4FA255(this);
 }
 
-_extern void _sub_4F8F8C(GameObj *const);
 void GameObj::ExitGame() // 0x4F8F8C
 {
     mangled_assert("?ExitGame@GameObj@@QAEXXZ");
     todo("implement");
-    _sub_4F8F8C(this);
 }
 
-_extern __int32 _sub_4FB612(GameObj *const, float);
 __int32 GameObj::taskFunction(float) // 0x4FB612
 {
     mangled_assert("?taskFunction@GameObj@@UAEHM@Z");
     todo("implement");
-    __int32 __result = _sub_4FB612(this, arg);
-    return __result;
 }
 
-_extern void _sub_4F89A0(GameObj *const);
 void GameObj::AIInit() // 0x4F89A0
 {
     mangled_assert("?AIInit@GameObj@@QAEXXZ");
     todo("implement");
-    _sub_4F89A0(this);
 }
 
-_extern void _sub_4F8BA7(GameObj *const);
 void GameObj::AIShutdown() // 0x4F8BA7
 {
     mangled_assert("?AIShutdown@GameObj@@QAEXXZ");
     todo("implement");
-    _sub_4F8BA7(this);
 }
 
-_extern void _sub_4F8B33(GameObj *const, SaveGameData *);
 void GameObj::AIRestore(SaveGameData *) // 0x4F8B33
 {
     mangled_assert("?AIRestore@GameObj@@QAEXPAVSaveGameData@@@Z");
     todo("implement");
-    _sub_4F8B33(this, arg);
 }
 
-_extern void _sub_4F8B6E(GameObj *const, SaveGameData *, SaveType);
 void GameObj::AISave(SaveGameData *, SaveType) // 0x4F8B6E
 {
     mangled_assert("?AISave@GameObj@@QAEXPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    _sub_4F8B6E(this, arg, arg);
 }
 
-_extern void _sub_4F8AF5(GameObj *const, float);
 void GameObj::AIProcess(float) // 0x4F8AF5
 {
     mangled_assert("?AIProcess@GameObj@@QAEXM@Z");
     todo("implement");
-    _sub_4F8AF5(this, arg);
 }
 
-_extern HW2CpuPlayer *_sub_4F8FF7(GameObj *const, unsigned __int32);
 HW2CpuPlayer *GameObj::GetCPUPlayer(unsigned __int32) // 0x4F8FF7
 {
     mangled_assert("?GetCPUPlayer@GameObj@@QAEPAVHW2CpuPlayer@@I@Z");
     todo("implement");
-    HW2CpuPlayer * __result = _sub_4F8FF7(this, arg);
-    return __result;
 }
 
-_extern HW2CpuPlayer const *_sub_4F9038(GameObj const *const, unsigned __int32);
 HW2CpuPlayer const *GameObj::GetCPUPlayer(unsigned __int32) const // 0x4F9038
 {
     mangled_assert("?GetCPUPlayer@GameObj@@QBEPBVHW2CpuPlayer@@I@Z");
     todo("implement");
-    HW2CpuPlayer const * __result = _sub_4F9038(this, arg);
-    return __result;
 }
 
-_extern void _sub_4F9F30(GameObj *const, Order const *);
 void GameObj::SimProxyAcknowledgeOrder(Order const *) // 0x4F9F30
 {
     mangled_assert("?SimProxyAcknowledgeOrder@GameObj@@AAEXPBVOrder@@@Z");
     todo("implement");
-    _sub_4F9F30(this, arg);
 }
 
-_extern bool _sub_4FB0D1(GameObj *const);
 bool GameObj::processCommands() // 0x4FB0D1
 {
     mangled_assert("?processCommands@GameObj@@AAE_NXZ");
     todo("implement");
-    bool __result = _sub_4FB0D1(this);
-    return __result;
 }
 
-_extern void _sub_4FA19A(GameObj *const);
 void GameObj::WaitSendQueuesEmpty() // 0x4FA19A
 {
     mangled_assert("?WaitSendQueuesEmpty@GameObj@@AAEXXZ");
     todo("implement");
-    _sub_4FA19A(this);
 }
 
-_extern void _sub_4F8C58(GameObj *const, unsigned __int32);
 void GameObj::ChangeLocalPlayer(unsigned __int32) // 0x4F8C58
 {
     mangled_assert("?ChangeLocalPlayer@GameObj@@QAEXI@Z");
     todo("implement");
-    _sub_4F8C58(this, arg);
 }
 
-_extern void _sub_4F9E71(GameObj *const);
 void GameObj::SetLocalPlayerToCpuPlayer() // 0x4F9E71
 {
     mangled_assert("?SetLocalPlayerToCpuPlayer@GameObj@@QAEXXZ");
     todo("implement");
-    _sub_4F9E71(this);
 }
 
-_extern StatMonitor *_sub_4F949A(GameObj *const);
 StatMonitor *GameObj::GetStatMonGame() // 0x4F949A
 {
     mangled_assert("?GetStatMonGame@GameObj@@QAEPAVStatMonitor@@XZ");
     todo("implement");
-    StatMonitor * __result = _sub_4F949A(this);
-    return __result;
 }
 
-_extern SimProxy *_sub_4F9496(GameObj *const);
 SimProxy *GameObj::GetSimProxy() // 0x4F9496
 {
     mangled_assert("?GetSimProxy@GameObj@@QAEPAVSimProxy@@XZ");
     todo("implement");
-    SimProxy * __result = _sub_4F9496(this);
-    return __result;
 }
 
-_extern void _sub_4F908B(GameObj const *const, std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > &);
 void GameObj::GetNetworkStats(std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > &) const // 0x4F908B
 {
     mangled_assert("?GetNetworkStats@GameObj@@QBEXAAV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@Z");
     todo("implement");
-    _sub_4F908B(this, arg);
 }
 
-_extern void _sub_4FA923(GameObj *const);
 void GameObj::consoleAutoexec() // 0x4FA923
 {
     mangled_assert("?consoleAutoexec@GameObj@@AAEXXZ");
     todo("implement");
-    _sub_4FA923(this);
 }
 
-_extern void _sub_4FA9E3(GameObj *const);
 void GameObj::consoleGameEndExec() // 0x4FA9E3
 {
     mangled_assert("?consoleGameEndExec@GameObj@@AAEXXZ");
     todo("implement");
-    _sub_4FA9E3(this);
 }
 
-_extern bool _sub_4F9752();
 bool GameObj::LoadLocalizer() // 0x4F9752
 {
     mangled_assert("?LoadLocalizer@GameObj@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_4F9752();
-    return __result;
 }
 
-_extern bool _sub_4FA165();
 bool GameObj::UnloadLocalizer() // 0x4FA165
 {
     mangled_assert("?UnloadLocalizer@GameObj@@CG_NXZ");
     todo("implement");
-    bool __result = _sub_4FA165();
-    return __result;
 }
 
-_extern void _sub_4FB0D0(Saveable * const);
 void GameObj::postRestore() // 0x4FB0D0
 {
     mangled_assert("?postRestore@GameObj@@UAEXXZ");
     // __shifted(GameObj, 48);
     todo("implement");
-    _sub_4FB0D0(this);
 }
 
-_extern void _sub_4F9DA4(GameObj *const, std::auto_ptr<Order>, bool);
 void GameObj::SendOrder(std::auto_ptr<Order>, bool) // 0x4F9DA4
 {
     mangled_assert("?SendOrder@GameObj@@QAEXV?$auto_ptr@VOrder@@@std@@_N@Z");
     todo("implement");
-    _sub_4F9DA4(this, arg, arg);
 }
 
-_extern void _sub_4F8E81(GameObj *const);
 void GameObj::CheckForLaggingPlayers() // 0x4F8E81
 {
     mangled_assert("?CheckForLaggingPlayers@GameObj@@AAEXXZ");
     todo("implement");
-    _sub_4F8E81(this);
 }
 
-_extern void _sub_4F99FF(GameObj *const, Player *, unsigned __int32);
 void GameObj::OnPlayerLagging(Player *, unsigned __int32) // 0x4F99FF
 {
     mangled_assert("?OnPlayerLagging@GameObj@@AAEXPAVPlayer@@I@Z");
     todo("implement");
-    _sub_4F99FF(this, arg, arg);
 }
 
-_extern void _sub_4F8F87(GameObj *const, unsigned __int32);
 void GameObj::DropPlayer(unsigned __int32) // 0x4F8F87
 {
     mangled_assert("?DropPlayer@GameObj@@QAEXI@Z");
     todo("implement");
-    _sub_4F8F87(this, arg);
 }
 
-_extern bool _sub_4F95E1(GameObj const *const, unsigned __int32);
 bool GameObj::IsPlayerLagging(unsigned __int32) const // 0x4F95E1
 {
     mangled_assert("?IsPlayerLagging@GameObj@@QBE_NI@Z");
     todo("implement");
-    bool __result = _sub_4F95E1(this, arg);
-    return __result;
 }
 
-_extern void _sub_4F9968(GameObj *const);
 void GameObj::OnHostMigration() // 0x4F9968
 {
     mangled_assert("?OnHostMigration@GameObj@@QAEXXZ");
     todo("implement");
-    _sub_4F9968(this);
 }
 
-_extern void _sub_4F99A8(GameObj *const);
 void GameObj::OnKickedOut() // 0x4F99A8
 {
     mangled_assert("?OnKickedOut@GameObj@@QAEXXZ");
     todo("implement");
-    _sub_4F99A8(this);
 }
 
-_extern bool _sub_4F8F40();
 bool GameObj::DoContentDownload() // 0x4F8F40
 {
     mangled_assert("?DoContentDownload@GameObj@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_4F8F40();
-    return __result;
 }
 
-_extern bool _sub_4FB309(Saveable * const, SaveGameData *);
 bool GameObj::restore(SaveGameData *) // 0x4FB309
 {
     mangled_assert("?restore@GameObj@@UAE_NPAVSaveGameData@@@Z");
     // __shifted(GameObj, 48);
     todo("implement");
-    bool __result = _sub_4FB309(this, arg);
-    return __result;
 }
 
-_extern bool _sub_4FB34A(Saveable * const, SaveGameData *, SaveType);
 bool GameObj::save(SaveGameData *, SaveType) // 0x4FB34A
 {
     mangled_assert("?save@GameObj@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     // __shifted(GameObj, 48);
     todo("implement");
-    bool __result = _sub_4FB34A(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern void _sub_4F9913();
 _static void LobbyExitGame() // 0x4F9913
 {
     mangled_assert("LobbyExitGame");
     todo("implement");
-    _sub_4F9913();
 }
 #endif

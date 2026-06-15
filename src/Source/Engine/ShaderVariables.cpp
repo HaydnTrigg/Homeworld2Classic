@@ -26,13 +26,10 @@ extern Internal::VariableNameKey Internal::g_nameKeys[45]; // 0x83D240
 
 /* ---------- public code */
 
-_extern bool _sub_6379D7();
 bool ShaderVariablesStartup() // 0x6379D7
 {
     mangled_assert("?ShaderVariablesStartup@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_6379D7();
-    return __result;
 }
 
 /* ---------- private code */

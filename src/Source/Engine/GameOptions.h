@@ -87,40 +87,28 @@ static_assert(sizeof(GameOptions) == 132, "Invalid GameOptions size");
 
 /* ---------- public code */
 
-_extern char const *_sub_46A151(GameOptions::Choice const *const);
 _inline char const *GameOptions::Choice::GetName() const // 0x46A151
 {
     mangled_assert("?GetName@Choice@GameOptions@@QBEPBDXZ");
     todo("implement");
-    char const * __result = _sub_46A151(this);
-    return __result;
 }
 
-_extern std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<GameOptions::Choice> > > _sub_46A37E(GameOptions const *const);
 _inline std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<GameOptions::Choice> > > GameOptions::begin() const // 0x46A37E
 {
     mangled_assert("?begin@GameOptions@@QBE?AV?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@VChoice@GameOptions@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<GameOptions::Choice> > > __result = _sub_46A37E(this);
-    return __result;
 }
 
-_extern std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<GameOptions::Choice> > > _sub_46A3C7(GameOptions const *const);
 _inline std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<GameOptions::Choice> > > GameOptions::end() const // 0x46A3C7
 {
     mangled_assert("?end@GameOptions@@QBE?AV?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@VChoice@GameOptions@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<GameOptions::Choice> > > __result = _sub_46A3C7(this);
-    return __result;
 }
 
-_extern MD5Hash const &_sub_587CEF(GameOptions const *const);
 _inline MD5Hash const &GameOptions::GetGameRules() const // 0x587CEF
 {
     mangled_assert("?GetGameRules@GameOptions@@QBEABVMD5Hash@@XZ");
     todo("implement");
-    MD5Hash const & __result = _sub_587CEF(this);
-    return __result;
 }
 
 /* ---------- private code */

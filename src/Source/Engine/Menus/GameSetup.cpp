@@ -485,585 +485,442 @@ _static bool UI::LevelSortPred(UI::TextListBoxItem const *rhs, UI::TextListBoxIt
 
 /* ---------- public code */
 
-_extern _sub_586AC0(UI::GameSetup::ChatStateData *const);
 _inline UI::GameSetup::ChatStateData::ChatStateData() // 0x586AC0
 {
     mangled_assert("??0ChatStateData@GameSetup@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_586AC0(this);
 }
 
-_extern _sub_586AE5(UI::GameSetup *const, char const *);
 UI::GameSetup::GameSetup(char const *) // 0x586AE5
 {
     mangled_assert("??0GameSetup@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_586AE5(this, arg);
 }
 
-_extern _sub_586D35(StagingArea::ICallbacks *const);
 _inline StagingArea::ICallbacks::ICallbacks() // 0x586D35
 {
     mangled_assert("??0ICallbacks@StagingArea@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_586D35(this);
 }
 
-_extern void _sub_586D5B(std::_List_buy<UI::TextListBoxItem *,std::allocator<UI::TextListBoxItem *> > *const);
 _inline std::_List_buy<UI::TextListBoxItem *,std::allocator<UI::TextListBoxItem *> >::~_List_buy<UI::TextListBoxItem *,std::allocator<UI::TextListBoxItem *> >() // 0x586D5B
 {
     mangled_assert("??1?$_List_buy@PAVTextListBoxItem@UI@@V?$allocator@PAVTextListBoxItem@UI@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_586D5B(this);
 }
 
-_extern void _sub_586DA1(UI::GameSetup::ChatStateData *const);
 _inline UI::GameSetup::ChatStateData::~ChatStateData() // 0x586DA1
 {
     mangled_assert("??1ChatStateData@GameSetup@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_586DA1(this);
 }
 
-_extern void _sub_586DAE(UI::GameSetup *const);
 UI::GameSetup::~GameSetup() // 0x586DAE
 {
     mangled_assert("??1GameSetup@UI@@UAE@XZ");
     todo("implement");
-    _sub_586DAE(this);
 }
 
-_extern void _sub_58A1AF(UI::GameSetup *const, char const *);
 void UI::GameSetup::SetPreviousScreen(char const *) // 0x58A1AF
 {
     mangled_assert("?SetPreviousScreen@GameSetup@UI@@QAEXPBD@Z");
     todo("implement");
-    _sub_58A1AF(this, arg);
 }
 
-_extern void _sub_58851E(UI::GameSetup *const);
 void UI::GameSetup::InitializeSkirmish() // 0x58851E
 {
     mangled_assert("?InitializeSkirmish@GameSetup@UI@@QAEXXZ");
     todo("implement");
-    _sub_58851E(this);
 }
 
-_extern void _sub_5881AF(UI::GameSetup *const, std::auto_ptr<Net::Session>, unsigned long long);
 void UI::GameSetup::InitializeMultiplayer(std::auto_ptr<Net::Session>, unsigned long long) // 0x5881AF
 {
     mangled_assert("?InitializeMultiplayer@GameSetup@UI@@QAEXV?$auto_ptr@VSession@Net@@@std@@_K@Z");
     todo("implement");
-    _sub_5881AF(this, arg, arg);
 }
 
-_extern void _sub_587D2C(UI::GameSetup *const);
 void UI::GameSetup::Initialize() // 0x587D2C
 {
     mangled_assert("?Initialize@GameSetup@UI@@AAEXXZ");
     todo("implement");
-    _sub_587D2C(this);
 }
 
-_extern void _sub_5882EE(UI::GameSetup *const);
 void UI::GameSetup::InitializePlayersFrame() // 0x5882EE
 {
     mangled_assert("?InitializePlayersFrame@GameSetup@UI@@AAEXXZ");
     todo("implement");
-    _sub_5882EE(this);
 }
 
-_extern void _sub_589C6E(UI::GameSetup *const, LuaConfig &);
 void UI::GameSetup::OnPreLoadFile(LuaConfig &) // 0x589C6E
 {
     mangled_assert("?OnPreLoadFile@GameSetup@UI@@MAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_589C6E(this, arg);
 }
 
-_extern void _sub_588C35(UI::GameSetup *const, LuaConfig &);
 void UI::GameSetup::OnLoad(LuaConfig &) // 0x588C35
 {
     mangled_assert("?OnLoad@GameSetup@UI@@MAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_588C35(this, arg);
 }
 
-_extern void _sub_5896D2(UI::GameSetup *const);
 void UI::GameSetup::OnPostLoad() // 0x5896D2
 {
     mangled_assert("?OnPostLoad@GameSetup@UI@@MAEXXZ");
     todo("implement");
-    _sub_5896D2(this);
 }
 
-_extern void _sub_58758E(UI::GameSetup *const);
 void UI::GameSetup::FillChatStateData() // 0x58758E
 {
     mangled_assert("?FillChatStateData@GameSetup@UI@@AAEXXZ");
     todo("implement");
-    _sub_58758E(this);
 }
 
-_extern void _sub_5874A2(UI::GameSetup *const);
 void UI::GameSetup::ClearGameOptions() // 0x5874A2
 {
     mangled_assert("?ClearGameOptions@GameSetup@UI@@QAEXXZ");
     todo("implement");
-    _sub_5874A2(this);
 }
 
-_extern void _sub_587143(UI::GameSetup *const, UI::NewDropDownListBox *, MD5Hash const &);
 void UI::GameSetup::AddGameRules(UI::NewDropDownListBox *, MD5Hash const &) // 0x587143
 {
     mangled_assert("?AddGameRules@GameSetup@UI@@AAEXPAVNewDropDownListBox@2@ABVMD5Hash@@@Z");
     todo("implement");
-    _sub_587143(this, arg, arg);
 }
 
-_extern void _sub_58773C(UI::GameSetup *const);
 void UI::GameSetup::FillGameTypeOptions() // 0x58773C
 {
     mangled_assert("?FillGameTypeOptions@GameSetup@UI@@AAEXXZ");
     todo("implement");
-    _sub_58773C(this);
 }
 
-_extern void _sub_5885CA(UI::GameSetup *const);
 void UI::GameSetup::LoadGameOptions() // 0x5885CA
 {
     mangled_assert("?LoadGameOptions@GameSetup@UI@@QAEXXZ");
     todo("implement");
-    _sub_5885CA(this);
 }
 
-_extern void _sub_588A8C(UI::GameSetup *const, bool);
 void UI::GameSetup::OnFocus(bool) // 0x588A8C
 {
     mangled_assert("?OnFocus@GameSetup@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_588A8C(this, arg);
 }
 
-_extern void _sub_58750D(UI::GameSetup *const, bool);
 void UI::GameSetup::EnableChatFrame(bool) // 0x58750D
 {
     mangled_assert("?EnableChatFrame@GameSetup@UI@@AAEX_N@Z");
     todo("implement");
-    _sub_58750D(this, arg);
 }
 
-_extern void _sub_5888E3(UI::GameSetup *const, bool);
 void UI::GameSetup::OnActivate(bool) // 0x5888E3
 {
     mangled_assert("?OnActivate@GameSetup@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_5888E3(this, arg);
 }
 
-_extern UI::GameSetup::ScreenType _sub_587D0D(UI::GameSetup const *const);
 UI::GameSetup::ScreenType UI::GameSetup::GetScreenType() const // 0x587D0D
 {
     mangled_assert("?GetScreenType@GameSetup@UI@@QBE?AW4ScreenType@12@XZ");
     todo("implement");
-    UI::GameSetup::ScreenType __result = _sub_587D0D(this);
-    return __result;
 }
 
-_extern void _sub_587955(UI::GameSetup *const);
 void UI::GameSetup::FillLevelListBox() // 0x587955
 {
     mangled_assert("?FillLevelListBox@GameSetup@UI@@AAEXXZ");
     todo("implement");
-    _sub_587955(this);
 }
 
-_extern void _sub_587558(UI::GameSetup *const, bool);
 void UI::GameSetup::EnableGameOptions(bool) // 0x587558
 {
     mangled_assert("?EnableGameOptions@GameSetup@UI@@AAEX_N@Z");
     todo("implement");
-    _sub_587558(this, arg);
 }
 
-_extern void _sub_588BCC(UI::GameSetup *const, bool);
 void UI::GameSetup::OnHostReady(bool) // 0x588BCC
 {
     mangled_assert("?OnHostReady@GameSetup@UI@@QAEX_N@Z");
     todo("implement");
-    _sub_588BCC(this, arg);
 }
 
-_extern void _sub_58A0A3(UI::GameSetup *const, LevelDesc const *);
 void UI::GameSetup::SetLevel(LevelDesc const *) // 0x58A0A3
 {
     mangled_assert("?SetLevel@GameSetup@UI@@AAEXPBVLevelDesc@@@Z");
     todo("implement");
-    _sub_58A0A3(this, arg);
 }
 
-_extern void _sub_589F49(UI::GameSetup *const, __int32);
 void UI::GameSetup::ResizeMaxPlayers(__int32) // 0x589F49
 {
     mangled_assert("?ResizeMaxPlayers@GameSetup@UI@@AAEXH@Z");
     todo("implement");
-    _sub_589F49(this, arg);
 }
 
-_extern void _sub_5871F6(UI::GameSetup *const);
 void UI::GameSetup::ApplyGameSettings() // 0x5871F6
 {
     mangled_assert("?ApplyGameSettings@GameSetup@UI@@QAEXXZ");
     todo("implement");
-    _sub_5871F6(this);
 }
 
-_extern void _sub_58A1D0(UI::GameSetup *const, UI::GameSetup::ChatStates);
 void UI::GameSetup::ShowChatState(UI::GameSetup::ChatStates) // 0x58A1D0
 {
     mangled_assert("?ShowChatState@GameSetup@UI@@AAEXW4ChatStates@12@@Z");
     todo("implement");
-    _sub_58A1D0(this, arg);
 }
 
-_extern void _sub_588AE4(UI::InterfaceElement *, __int32);
 void UI::GameSetup::OnGameTypeSelect(UI::InterfaceElement *sender, __int32 itemIndex) // 0x588AE4
 {
     mangled_assert("?OnGameTypeSelect@GameSetup@UI@@CGXPAVInterfaceElement@2@H@Z");
     todo("implement");
-    _sub_588AE4(sender, itemIndex);
 }
 
-_extern void _sub_58928B(UI::InterfaceElement *, __int32);
 void UI::GameSetup::OnMapSelect(UI::InterfaceElement *sender, __int32 mapIndex) // 0x58928B
 {
     mangled_assert("?OnMapSelect@GameSetup@UI@@CGXPAVInterfaceElement@2@H@Z");
     todo("implement");
-    _sub_58928B(sender, mapIndex);
 }
 
-_extern void _sub_588A8F(UI::InterfaceElement *);
 void UI::GameSetup::OnGameInfoClicked(UI::InterfaceElement *infoButton) // 0x588A8F
 {
     mangled_assert("?OnGameInfoClicked@GameSetup@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_588A8F(infoButton);
 }
 
-_extern void _sub_587B42(UI::GameSetup *const);
 void UI::GameSetup::GameSetupStoreOptionsInProfile() // 0x587B42
 {
     mangled_assert("?GameSetupStoreOptionsInProfile@GameSetup@UI@@AAEXXZ");
     todo("implement");
-    _sub_587B42(this);
 }
 
-_extern void _sub_589E57(UI::InterfaceElement *);
 void UI::GameSetup::OnStartGameClicked(UI::InterfaceElement *startButton) // 0x589E57
 {
     mangled_assert("?OnStartGameClicked@GameSetup@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_589E57(startButton);
 }
 
-_extern void _sub_589DC9(UI::InterfaceElement *);
 void UI::GameSetup::OnSendClicked(UI::InterfaceElement *startButton) // 0x589DC9
 {
     mangled_assert("?OnSendClicked@GameSetup@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_589DC9(startButton);
 }
 
-_extern void _sub_5889CC(UI::InterfaceElement *);
 void UI::GameSetup::OnBackClicked(UI::InterfaceElement *startButton) // 0x5889CC
 {
     mangled_assert("?OnBackClicked@GameSetup@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5889CC(startButton);
 }
 
-_extern void _sub_5874DB(UI::GameSetup *const);
 void UI::GameSetup::DoSessionCancel() // 0x5874DB
 {
     mangled_assert("?DoSessionCancel@GameSetup@UI@@AAEXXZ");
     todo("implement");
-    _sub_5874DB(this);
 }
 
-_extern void _sub_5889FA(UI::InterfaceElement *);
 void UI::GameSetup::OnCollapsePlayersClicked(UI::InterfaceElement *startButton) // 0x5889FA
 {
     mangled_assert("?OnCollapsePlayersClicked@GameSetup@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_5889FA(startButton);
 }
 
-_extern void _sub_589074(UI::InterfaceElement *);
 void UI::GameSetup::OnLobbyChatClicked(UI::InterfaceElement *startButton) // 0x589074
 {
     mangled_assert("?OnLobbyChatClicked@GameSetup@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_589074(startButton);
 }
 
-_extern void _sub_589036(UI::InterfaceElement *);
 void UI::GameSetup::OnLoadGameClicked(UI::InterfaceElement *loadButton) // 0x589036
 {
     mangled_assert("?OnLoadGameClicked@GameSetup@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_589036(loadButton);
 }
 
-_extern void _sub_589047(UI::InterfaceElement *);
 void UI::GameSetup::OnLoadRecordedGameClicked(UI::InterfaceElement *loadButton) // 0x589047
 {
     mangled_assert("?OnLoadRecordedGameClicked@GameSetup@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_589047(loadButton);
 }
 
-_extern void _sub_589321(UI::InterfaceElement *);
 void UI::GameSetup::OnMoreOptionsClicked(UI::InterfaceElement *moreOptionsButton) // 0x589321
 {
     mangled_assert("?OnMoreOptionsClicked@GameSetup@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_589321(moreOptionsButton);
 }
 
-_extern void _sub_589C8F(UI::InterfaceElement *);
 void UI::GameSetup::OnPresetsClicked(UI::InterfaceElement *presetButton) // 0x589C8F
 {
     mangled_assert("?OnPresetsClicked@GameSetup@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_589C8F(presetButton);
 }
 
-_extern void _sub_58921E(LobbyEvent * const, wchar_t const *, bool);
 void UI::GameSetup::OnLobbyPlayerConnect(wchar_t const *, bool) // 0x58921E
 {
     mangled_assert("?OnLobbyPlayerConnect@GameSetup@UI@@EAEXPB_W_N@Z");
     // __shifted(UI::GameSetup, 412);
     todo("implement");
-    _sub_58921E(this, arg, arg);
 }
 
-_extern void _sub_58924F(LobbyEvent * const, wchar_t const *);
 void UI::GameSetup::OnLobbyPlayerDisconnect(wchar_t const *) // 0x58924F
 {
     mangled_assert("?OnLobbyPlayerDisconnect@GameSetup@UI@@EAEXPB_W@Z");
     // __shifted(UI::GameSetup, 412);
     todo("implement");
-    _sub_58924F(this, arg);
 }
 
-_extern void _sub_589216(LobbyEvent * const, wchar_t const *);
 void UI::GameSetup::OnLobbyPlayerChanged(wchar_t const *) // 0x589216
 {
     mangled_assert("?OnLobbyPlayerChanged@GameSetup@UI@@EAEXPB_W@Z");
     // __shifted(UI::GameSetup, 412);
     todo("implement");
-    _sub_589216(this, arg);
 }
 
-_extern void _sub_58914D(LobbyEvent * const, wchar_t const *);
 void UI::GameSetup::OnLobbyDisconnected(wchar_t const *) // 0x58914D
 {
     mangled_assert("?OnLobbyDisconnected@GameSetup@UI@@EAEXPB_W@Z");
     // __shifted(UI::GameSetup, 412);
     todo("implement");
-    _sub_58914D(this, arg);
 }
 
-_extern void _sub_58905B(LobbyEvent * const, LobbyChatType, wchar_t const *, wchar_t const *);
 void UI::GameSetup::OnLobbyChat(LobbyChatType, wchar_t const *, wchar_t const *) // 0x58905B
 {
     mangled_assert("?OnLobbyChat@GameSetup@UI@@EAEXW4LobbyChatType@@PB_W1@Z");
     // __shifted(UI::GameSetup, 412);
     todo("implement");
-    _sub_58905B(this, arg, arg, arg);
 }
 
-_extern void _sub_588A57(UI::InterfaceElement *);
 void UI::GameSetup::OnErrorClicked(UI::InterfaceElement *sender) // 0x588A57
 {
     mangled_assert("?OnErrorClicked@GameSetup@UI@@CGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_588A57(sender);
 }
 
-_extern void _sub_58A2B5(UI::GameSetup *const, unsigned __int32);
 void UI::GameSetup::Update(unsigned __int32) // 0x58A2B5
 {
     mangled_assert("?Update@GameSetup@UI@@MAEXI@Z");
     todo("implement");
-    _sub_58A2B5(this, arg);
 }
 
-_extern void _sub_58AFD9(UI::GameSetup *const, bool);
 void UI::GameSetup::UpdateStartButton(bool) // 0x58AFD9
 {
     mangled_assert("?UpdateStartButton@GameSetup@UI@@AAEX_N@Z");
     todo("implement");
-    _sub_58AFD9(this, arg);
 }
 
-_extern void _sub_58AF2D(UI::GameSetup *const);
 void UI::GameSetup::UpdatePositions() // 0x58AF2D
 {
     mangled_assert("?UpdatePositions@GameSetup@UI@@AAEXXZ");
     todo("implement");
-    _sub_58AF2D(this);
 }
 
-_extern void _sub_587844(UI::GameSetup *const, StagingArea::HostSettings &);
 void UI::GameSetup::FillHostSettings(StagingArea::HostSettings &) // 0x587844
 {
     mangled_assert("?FillHostSettings@GameSetup@UI@@AAEXAAUHostSettings@StagingArea@@@Z");
     todo("implement");
-    _sub_587844(this, arg);
 }
 
-_extern void _sub_58A852(UI::GameSetup *const);
 void UI::GameSetup::UpdateLobbyGameStarted() // 0x58A852
 {
     mangled_assert("?UpdateLobbyGameStarted@GameSetup@UI@@AAEXXZ");
     todo("implement");
-    _sub_58A852(this);
 }
 
-_extern void _sub_58A894(UI::GameSetup *const);
 void UI::GameSetup::UpdateLobbySession() // 0x58A894
 {
     mangled_assert("?UpdateLobbySession@GameSetup@UI@@AAEXXZ");
     todo("implement");
-    _sub_58A894(this);
 }
 
-_extern void _sub_5893A5(StagingArea::ICallbacks * const, StagingArea::HostSettings &);
 void UI::GameSetup::OnNetCreateHost(StagingArea::HostSettings &) // 0x5893A5
 {
     mangled_assert("?OnNetCreateHost@GameSetup@UI@@UAEXAAUHostSettings@StagingArea@@@Z");
     // __shifted(UI::GameSetup, 416);
     todo("implement");
-    _sub_5893A5(this, arg);
 }
 
-_extern bool _sub_5893F1(StagingArea::ICallbacks * const, StagingArea::PlayerSettings &);
 bool UI::GameSetup::OnNetCreatePlayer(StagingArea::PlayerSettings &) // 0x5893F1
 {
     mangled_assert("?OnNetCreatePlayer@GameSetup@UI@@UAE_NAAUPlayerSettings@StagingArea@@@Z");
     // __shifted(UI::GameSetup, 416);
     todo("implement");
-    bool __result = _sub_5893F1(this, arg);
-    return __result;
 }
 
-_extern void _sub_58947A(StagingArea::ICallbacks * const, __int32);
 void UI::GameSetup::OnNetDestroyPlayer(__int32) // 0x58947A
 {
     mangled_assert("?OnNetDestroyPlayer@GameSetup@UI@@UAEXH@Z");
     // __shifted(UI::GameSetup, 416);
     todo("implement");
-    _sub_58947A(this, arg);
 }
 
-_extern void _sub_5895F8(StagingArea::ICallbacks * const, StagingArea::PlayerSettings const &, wchar_t const *, bool, bool);
 void UI::GameSetup::OnNetPlayerSettings(StagingArea::PlayerSettings const &, wchar_t const *, bool, bool) // 0x5895F8
 {
     mangled_assert("?OnNetPlayerSettings@GameSetup@UI@@UAEXABUPlayerSettings@StagingArea@@PB_W_N2@Z");
     // __shifted(UI::GameSetup, 416);
     todo("implement");
-    _sub_5895F8(this, arg, arg, arg, arg);
 }
 
-_extern void _sub_589540(StagingArea::ICallbacks * const, StagingArea::HostSettings const &);
 void UI::GameSetup::OnNetHostSettings(StagingArea::HostSettings const &) // 0x589540
 {
     mangled_assert("?OnNetHostSettings@GameSetup@UI@@UAEXABUHostSettings@StagingArea@@@Z");
     // __shifted(UI::GameSetup, 416);
     todo("implement");
-    _sub_589540(this, arg);
 }
 
-_extern void _sub_58A612(UI::GameSetup *const, StagingArea::HostSettings const &);
 void UI::GameSetup::UpdateClientHostSettings(StagingArea::HostSettings const &) // 0x58A612
 {
     mangled_assert("?UpdateClientHostSettings@GameSetup@UI@@AAEXABUHostSettings@StagingArea@@@Z");
     todo("implement");
-    _sub_58A612(this, arg);
 }
 
-_extern void _sub_5896C7(StagingArea::ICallbacks * const);
 void UI::GameSetup::OnNetStartGame() // 0x5896C7
 {
     mangled_assert("?OnNetStartGame@GameSetup@UI@@UAEXXZ");
     // __shifted(UI::GameSetup, 416);
     todo("implement");
-    _sub_5896C7(this);
 }
 
-_extern void _sub_58934B(StagingArea::ICallbacks * const, __int32, wchar_t const *);
 void UI::GameSetup::OnNetChat(__int32, wchar_t const *) // 0x58934B
 {
     mangled_assert("?OnNetChat@GameSetup@UI@@UAEXHPB_W@Z");
     // __shifted(UI::GameSetup, 416);
     todo("implement");
-    _sub_58934B(this, arg, arg);
 }
 
-_extern void _sub_5894D9(StagingArea::ICallbacks * const);
 void UI::GameSetup::OnNetHostMigration() // 0x5894D9
 {
     mangled_assert("?OnNetHostMigration@GameSetup@UI@@UAEXXZ");
     // __shifted(UI::GameSetup, 416);
     todo("implement");
-    _sub_5894D9(this);
 }
 
-_extern void _sub_58AC27(UI::GameSetup *const, char const *);
 void UI::GameSetup::UpdateMapName(char const *) // 0x58AC27
 {
     mangled_assert("?UpdateMapName@GameSetup@UI@@AAEXPBD@Z");
     todo("implement");
-    _sub_58AC27(this, arg);
 }
 
-_extern void _sub_58A024(UI::GameSetup *const);
 void UI::GameSetup::ScrollOptionsUp() // 0x58A024
 {
     mangled_assert("?ScrollOptionsUp@GameSetup@UI@@QAEXXZ");
     todo("implement");
-    _sub_58A024(this);
 }
 
-_extern void _sub_589FC5(UI::GameSetup *const);
 void UI::GameSetup::ScrollOptionsDown() // 0x589FC5
 {
     mangled_assert("?ScrollOptionsDown@GameSetup@UI@@QAEXXZ");
     todo("implement");
-    _sub_589FC5(this);
 }
 
-_extern void _sub_5870E6(UI::GameSetup *const, std::vector<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >,std::allocator<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > > > const &);
 void UI::GameSetup::AddChatMessages(std::vector<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >,std::allocator<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> > > > const &) // 0x5870E6
 {
     mangled_assert("?AddChatMessages@GameSetup@UI@@QAEXABV?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@std@@@Z");
     todo("implement");
-    _sub_5870E6(this, arg);
 }
 
 /* ---------- private code */
 
-_extern bool _sub_588593(UI::TextListBoxItem const *, UI::TextListBoxItem const *);
 _static bool UI::LevelSortPred(UI::TextListBoxItem const *rhs, UI::TextListBoxItem const *lhs) // 0x588593
 {
     mangled_assert("UI::LevelSortPred");
     todo("implement");
-    bool __result = _sub_588593(rhs, lhs);
-    return __result;
 }
 #endif

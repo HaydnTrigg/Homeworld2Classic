@@ -71,40 +71,28 @@ static_assert(sizeof(PrimSetList) == 12, "Invalid PrimSetList size");
 
 /* ---------- public code */
 
-_extern bool _sub_100328E0(PrimSet const *const);
 _inline bool PrimSet::shouldDeleteIndices() const // 0x100328E0
 {
     mangled_assert("?shouldDeleteIndices@PrimSet@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_100328E0(this);
-    return __result;
 }
 
-_extern PrimitiveType _sub_100323C0(PrimSet const *const);
 _inline PrimitiveType PrimSet::getPrim() const // 0x100323C0
 {
     mangled_assert("?getPrim@PrimSet@@QBE?AW4PrimitiveType@@XZ");
     todo("implement");
-    PrimitiveType __result = _sub_100323C0(this);
-    return __result;
 }
 
-_extern __int32 _sub_10032370(PrimSet const *const);
 _inline __int32 PrimSet::getNumIndices() const // 0x10032370
 {
     mangled_assert("?getNumIndices@PrimSet@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_10032370(this);
-    return __result;
 }
 
-_extern __int32 *_sub_10032310(PrimSet const *const);
 _inline __int32 *PrimSet::getIndices() const // 0x10032310
 {
     mangled_assert("?getIndices@PrimSet@@QBEPAHXZ");
     todo("implement");
-    __int32 * __result = _sub_10032310(this);
-    return __result;
 }
 
 /* ---------- private code */

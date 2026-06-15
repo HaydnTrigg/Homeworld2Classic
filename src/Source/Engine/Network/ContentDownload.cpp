@@ -354,289 +354,217 @@ _static void Decompress(std::vector<unsigned char,std::allocator<unsigned char> 
 
 /* ---------- public code */
 
-_extern void _sub_5BAD9D(...);
 _inline void DBGLOG(...) // 0x5BAD9D
 {
     mangled_assert("?DBGLOG@@YAXZZ");
     todo("implement");
-    _sub_5BAD9D(arg);
 }
 
-_extern _sub_5BA59A(ContentDownloadFSM *const, Net::Session *);
 ContentDownloadFSM::ContentDownloadFSM(Net::Session *) // 0x5BA59A
 {
     mangled_assert("??0ContentDownloadFSM@@QAE@PAVSession@Net@@@Z");
     todo("implement");
-    _sub_5BA59A(this, arg);
 }
 
-_extern void _sub_5BA737(std::_List_buy<FileDownload *,std::allocator<FileDownload *> > *const);
 _inline std::_List_buy<FileDownload *,std::allocator<FileDownload *> >::~_List_buy<FileDownload *,std::allocator<FileDownload *> >() // 0x5BA737
 {
     mangled_assert("??1?$_List_buy@PAVFileDownload@@V?$allocator@PAVFileDownload@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5BA737(this);
 }
 
-_extern void _sub_5BA740(std::_List_buy<FileUpload *,std::allocator<FileUpload *> > *const);
 _inline std::_List_buy<FileUpload *,std::allocator<FileUpload *> >::~_List_buy<FileUpload *,std::allocator<FileUpload *> >() // 0x5BA740
 {
     mangled_assert("??1?$_List_buy@PAVFileUpload@@V?$allocator@PAVFileUpload@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5BA740(this);
 }
 
-_extern void _sub_5BA770(std::_Tree_buy<std::pair<unsigned int const ,ContentDownloadFSM::PlayerInfo>,std::allocator<std::pair<unsigned int const ,ContentDownloadFSM::PlayerInfo> > > *const);
 _inline std::_Tree_buy<std::pair<unsigned int const ,ContentDownloadFSM::PlayerInfo>,std::allocator<std::pair<unsigned int const ,ContentDownloadFSM::PlayerInfo> > >::~_Tree_buy<std::pair<unsigned int const ,ContentDownloadFSM::PlayerInfo>,std::allocator<std::pair<unsigned int const ,ContentDownloadFSM::PlayerInfo> > >() // 0x5BA770
 {
     mangled_assert("??1?$_Tree_buy@U?$pair@$$CBIUPlayerInfo@ContentDownloadFSM@@@std@@V?$allocator@U?$pair@$$CBIUPlayerInfo@ContentDownloadFSM@@@std@@@2@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5BA770(this);
 }
 
-_extern void _sub_5BA779(std::_Tree_comp<0,std::_Tmap_traits<unsigned int,ContentDownloadFSM::PlayerInfo,std::less<unsigned int>,std::allocator<std::pair<unsigned int const ,ContentDownloadFSM::PlayerInfo> >,0> > *const);
 _inline std::_Tree_comp<0,std::_Tmap_traits<unsigned int,ContentDownloadFSM::PlayerInfo,std::less<unsigned int>,std::allocator<std::pair<unsigned int const ,ContentDownloadFSM::PlayerInfo> >,0> >::~_Tree_comp<0,std::_Tmap_traits<unsigned int,ContentDownloadFSM::PlayerInfo,std::less<unsigned int>,std::allocator<std::pair<unsigned int const ,ContentDownloadFSM::PlayerInfo> >,0> >() // 0x5BA779
 {
     mangled_assert("??1?$_Tree_comp@$0A@V?$_Tmap_traits@IUPlayerInfo@ContentDownloadFSM@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIUPlayerInfo@ContentDownloadFSM@@@std@@@4@$0A@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5BA779(this);
 }
 
-_extern void _sub_5BA7CA(std::map<unsigned int,ContentDownloadFSM::PlayerInfo,std::less<unsigned int>,std::allocator<std::pair<unsigned int const ,ContentDownloadFSM::PlayerInfo> > > *const);
 _inline std::map<unsigned int,ContentDownloadFSM::PlayerInfo,std::less<unsigned int>,std::allocator<std::pair<unsigned int const ,ContentDownloadFSM::PlayerInfo> > >::~map<unsigned int,ContentDownloadFSM::PlayerInfo,std::less<unsigned int>,std::allocator<std::pair<unsigned int const ,ContentDownloadFSM::PlayerInfo> > >() // 0x5BA7CA
 {
     mangled_assert("??1?$map@IUPlayerInfo@ContentDownloadFSM@@U?$less@I@std@@V?$allocator@U?$pair@$$CBIUPlayerInfo@ContentDownloadFSM@@@std@@@4@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5BA7CA(this);
 }
 
-_extern void _sub_5BA7CF(ContentDownloadFSM *const);
 ContentDownloadFSM::~ContentDownloadFSM() // 0x5BA7CF
 {
     mangled_assert("??1ContentDownloadFSM@@QAE@XZ");
     todo("implement");
-    _sub_5BA7CF(this);
 }
 
-_extern void _sub_5BA841(FileDownload *const);
 _inline FileDownload::~FileDownload() // 0x5BA841
 {
     mangled_assert("??1FileDownload@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5BA841(this);
 }
 
-_extern void _sub_5BA858(FileUpload *const);
 _inline FileUpload::~FileUpload() // 0x5BA858
 {
     mangled_assert("??1FileUpload@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5BA858(this);
 }
 
-_extern void _sub_5BA860(MessageFileHeader *const);
 _inline MessageFileHeader::~MessageFileHeader() // 0x5BA860
 {
     mangled_assert("??1MessageFileHeader@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5BA860(this);
 }
 
-_extern bool _sub_5BABAE(ContentDownloadFSM const *const);
 bool ContentDownloadFSM::AreAllPlayersReady() const // 0x5BABAE
 {
     mangled_assert("?AreAllPlayersReady@ContentDownloadFSM@@ABE_NXZ");
     todo("implement");
-    bool __result = _sub_5BABAE(this);
-    return __result;
 }
 
-_extern bool _sub_5BABDB(ContentDownloadFSM const *const);
 bool ContentDownloadFSM::AreWeReady() const // 0x5BABDB
 {
     mangled_assert("?AreWeReady@ContentDownloadFSM@@ABE_NXZ");
     todo("implement");
-    bool __result = _sub_5BABDB(this);
-    return __result;
 }
 
-_extern void _sub_5BAC08(ContentDownloadFSM *const, unsigned __int32);
 void ContentDownloadFSM::CancelDownloads(unsigned __int32) // 0x5BAC08
 {
     mangled_assert("?CancelDownloads@ContentDownloadFSM@@AAEXI@Z");
     todo("implement");
-    _sub_5BAC08(this, arg);
 }
 
-_extern void _sub_5BACBD(ContentDownloadFSM *const, unsigned __int32);
 void ContentDownloadFSM::CancelUploads(unsigned __int32) // 0x5BACBD
 {
     mangled_assert("?CancelUploads@ContentDownloadFSM@@AAEXI@Z");
     todo("implement");
-    _sub_5BACBD(this, arg);
 }
 
-_extern void _sub_5BAF2B(ContentDownloadFSM *const);
 void ContentDownloadFSM::IssueFileRequests() // 0x5BAF2B
 {
     mangled_assert("?IssueFileRequests@ContentDownloadFSM@@AAEXXZ");
     todo("implement");
-    _sub_5BAF2B(this);
 }
 
-_extern void _sub_5BAFD5(ContentDownloadFSM *const, unsigned __int32);
 void ContentDownloadFSM::OnDestroyPlayer(unsigned __int32) // 0x5BAFD5
 {
     mangled_assert("?OnDestroyPlayer@ContentDownloadFSM@@AAEXI@Z");
     todo("implement");
-    _sub_5BAFD5(this, arg);
 }
 
-_extern void _sub_5BB01C(ContentDownloadFSM *const, unsigned __int32, MessageDownloadStatus const *);
 void ContentDownloadFSM::OnDownloadStatus(unsigned __int32, MessageDownloadStatus const *) // 0x5BB01C
 {
     mangled_assert("?OnDownloadStatus@ContentDownloadFSM@@AAEXIPBUMessageDownloadStatus@@@Z");
     todo("implement");
-    _sub_5BB01C(this, arg, arg);
 }
 
-_extern void _sub_5BB1A0(ContentDownloadFSM *const, unsigned __int32, MessageFileRequest const *);
 void ContentDownloadFSM::OnFileRequest(unsigned __int32, MessageFileRequest const *) // 0x5BB1A0
 {
     mangled_assert("?OnFileRequest@ContentDownloadFSM@@AAEXIPBUMessageFileRequest@@@Z");
     todo("implement");
-    _sub_5BB1A0(this, arg, arg);
 }
 
-_extern void _sub_5BB10A(ContentDownloadFSM *const, unsigned __int32, MessageFileHeader const *);
 void ContentDownloadFSM::OnFileHeader(unsigned __int32, MessageFileHeader const *) // 0x5BB10A
 {
     mangled_assert("?OnFileHeader@ContentDownloadFSM@@AAEXIPBUMessageFileHeader@@@Z");
     todo("implement");
-    _sub_5BB10A(this, arg, arg);
 }
 
-_extern void _sub_5BB04E(ContentDownloadFSM *const, unsigned __int32, MessageFileChunk const *);
 void ContentDownloadFSM::OnFileChunk(unsigned __int32, MessageFileChunk const *) // 0x5BB04E
 {
     mangled_assert("?OnFileChunk@ContentDownloadFSM@@AAEXIPBUMessageFileChunk@@@Z");
     todo("implement");
-    _sub_5BB04E(this, arg, arg);
 }
 
-_extern void _sub_5BB470(ContentDownloadFSM *const, Net::Message const &);
 void ContentDownloadFSM::OnMessage(Net::Message const &) // 0x5BB470
 {
     mangled_assert("?OnMessage@ContentDownloadFSM@@AAEXABVMessage@Net@@@Z");
     todo("implement");
-    _sub_5BB470(this, arg);
 }
 
-_extern void _sub_5BB4D2(ContentDownloadFSM *const, unsigned __int32);
 void ContentDownloadFSM::OnPlayerReady(unsigned __int32) // 0x5BB4D2
 {
     mangled_assert("?OnPlayerReady@ContentDownloadFSM@@AAEXI@Z");
     todo("implement");
-    _sub_5BB4D2(this, arg);
 }
 
-_extern void _sub_5BB501(ContentDownloadFSM *const);
 void ContentDownloadFSM::ReceiveMessages() // 0x5BB501
 {
     mangled_assert("?ReceiveMessages@ContentDownloadFSM@@AAEXXZ");
     todo("implement");
-    _sub_5BB501(this);
 }
 
-_extern void _sub_5BB56A(ContentDownloadFSM *const, __int32);
 void ContentDownloadFSM::RequestBadge(__int32) // 0x5BB56A
 {
     mangled_assert("?RequestBadge@ContentDownloadFSM@@AAEXH@Z");
     todo("implement");
-    _sub_5BB56A(this, arg);
 }
 
-_extern void _sub_5BB5D0(ContentDownloadFSM *const);
 void ContentDownloadFSM::RequestLevel() // 0x5BB5D0
 {
     mangled_assert("?RequestLevel@ContentDownloadFSM@@AAEXXZ");
     todo("implement");
-    _sub_5BB5D0(this);
 }
 
-_extern void _sub_5BB635(ContentDownloadFSM *const, std::auto_ptr<FileDownload>);
 void ContentDownloadFSM::SaveBadge(std::auto_ptr<FileDownload>) // 0x5BB635
 {
     mangled_assert("?SaveBadge@ContentDownloadFSM@@AAEXV?$auto_ptr@VFileDownload@@@std@@@Z");
     todo("implement");
-    _sub_5BB635(this, arg);
 }
 
-_extern void _sub_5BB73D(ContentDownloadFSM *const, std::auto_ptr<FileDownload>);
 void ContentDownloadFSM::SaveLevel(std::auto_ptr<FileDownload>) // 0x5BB73D
 {
     mangled_assert("?SaveLevel@ContentDownloadFSM@@AAEXV?$auto_ptr@VFileDownload@@@std@@@Z");
     todo("implement");
-    _sub_5BB73D(this, arg);
 }
 
-_extern void _sub_5BB7C9(ContentDownloadFSM *const);
 void ContentDownloadFSM::SendProgress() // 0x5BB7C9
 {
     mangled_assert("?SendProgress@ContentDownloadFSM@@AAEXXZ");
     todo("implement");
-    _sub_5BB7C9(this);
 }
 
-_extern void _sub_5BB838(ContentDownloadFSM const *const);
 void ContentDownloadFSM::UpdateUI() const // 0x5BB838
 {
     mangled_assert("?UpdateUI@ContentDownloadFSM@@ABEXXZ");
     todo("implement");
-    _sub_5BB838(this);
 }
 
-_extern bool _sub_5BAE38(ContentDownloadFSM *const);
 bool ContentDownloadFSM::EnterLoop() // 0x5BAE38
 {
     mangled_assert("?EnterLoop@ContentDownloadFSM@@AAE_NXZ");
     todo("implement");
-    bool __result = _sub_5BAE38(this);
-    return __result;
 }
 
-_extern bool _sub_5BB61C(ContentDownloadFSM *const);
 bool ContentDownloadFSM::Run() // 0x5BB61C
 {
     mangled_assert("?Run@ContentDownloadFSM@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_5BB61C(this);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern void _sub_5BAD04(std::vector<unsigned char,std::allocator<unsigned char> > const &, std::vector<unsigned char,std::allocator<unsigned char> > &);
 _static void Compress(std::vector<unsigned char,std::allocator<unsigned char> > const &input, std::vector<unsigned char,std::allocator<unsigned char> > &output) // 0x5BAD04
 {
     mangled_assert("Compress");
     todo("implement");
-    _sub_5BAD04(input, output);
 }
 
-_extern void _sub_5BAD9E(std::vector<unsigned char,std::allocator<unsigned char> > const &, std::vector<unsigned char,std::allocator<unsigned char> > &);
 _static void Decompress(std::vector<unsigned char,std::allocator<unsigned char> > const &input, std::vector<unsigned char,std::allocator<unsigned char> > &output) // 0x5BAD9E
 {
     mangled_assert("Decompress");
     todo("implement");
-    _sub_5BAD9E(input, output);
 }
 #endif

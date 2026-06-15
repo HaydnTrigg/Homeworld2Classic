@@ -298,76 +298,58 @@
 
 /* ---------- public code */
 
-_extern _sub_59F9EB(UI::PlayerLaggingScreen *const, char const *);
 UI::PlayerLaggingScreen::PlayerLaggingScreen(char const *) // 0x59F9EB
 {
     mangled_assert("??0PlayerLaggingScreen@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_59F9EB(this, arg);
 }
 
-_extern void _sub_59FA3E(UI::PlayerLaggingScreen *const);
 UI::PlayerLaggingScreen::~PlayerLaggingScreen() // 0x59FA3E
 {
     mangled_assert("??1PlayerLaggingScreen@UI@@UAE@XZ");
     todo("implement");
-    _sub_59FA3E(this);
 }
 
-_extern void _sub_59FABF(UI::PlayerLaggingScreen *const, LuaConfig &);
 void UI::PlayerLaggingScreen::OnLoad(LuaConfig &) // 0x59FABF
 {
     mangled_assert("?OnLoad@PlayerLaggingScreen@UI@@MAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_59FABF(this, arg);
 }
 
-_extern void _sub_59FB94(UI::PlayerLaggingScreen *const);
 void UI::PlayerLaggingScreen::OnPostLoad() // 0x59FB94
 {
     mangled_assert("?OnPostLoad@PlayerLaggingScreen@UI@@MAEXXZ");
     todo("implement");
-    _sub_59FB94(this);
 }
 
-_extern void _sub_59FCFA(UI::PlayerLaggingScreen *const, unsigned __int32);
 void UI::PlayerLaggingScreen::Update(unsigned __int32) // 0x59FCFA
 {
     mangled_assert("?Update@PlayerLaggingScreen@UI@@UAEXI@Z");
     todo("implement");
-    _sub_59FCFA(this, arg);
 }
 
-_extern void _sub_59FC0D(UI::PlayerLaggingScreen *const, Player *, unsigned __int32);
 void UI::PlayerLaggingScreen::ShowPlayerLagging(Player *, unsigned __int32) // 0x59FC0D
 {
     mangled_assert("?ShowPlayerLagging@PlayerLaggingScreen@UI@@QAEXPAVPlayer@@I@Z");
     todo("implement");
-    _sub_59FC0D(this, arg, arg);
 }
 
-_extern void _sub_59FA7A(UI::PlayerLaggingScreen *const, bool);
 void UI::PlayerLaggingScreen::OnActivate(bool) // 0x59FA7A
 {
     mangled_assert("?OnActivate@PlayerLaggingScreen@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_59FA7A(this, arg);
 }
 
-_extern void _sub_59FA7D(UI::InterfaceElement *);
 void UI::PlayerLaggingScreen::OnKickPlayer(UI::InterfaceElement *sender) // 0x59FA7D
 {
     mangled_assert("?OnKickPlayer@PlayerLaggingScreen@UI@@KGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_59FA7D(sender);
 }
 
-_extern void _sub_59FB66(UI::InterfaceElement *);
 void UI::PlayerLaggingScreen::OnNoMore(UI::InterfaceElement *sender) // 0x59FB66
 {
     mangled_assert("?OnNoMore@PlayerLaggingScreen@UI@@KGXPAVInterfaceElement@2@@Z");
     todo("implement");
-    _sub_59FB66(sender);
 }
 
 /* ---------- private code */

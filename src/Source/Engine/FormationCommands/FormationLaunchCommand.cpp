@@ -143,98 +143,70 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_6B197F(FormationLaunchCommand *const, Formation *, Ship *, unsigned __int32);
 FormationLaunchCommand::FormationLaunchCommand(Formation *, Ship *, unsigned __int32) // 0x6B197F
 {
     mangled_assert("??0FormationLaunchCommand@@QAE@PAVFormation@@PAVShip@@I@Z");
     todo("implement");
-    _sub_6B197F(this, arg, arg, arg);
 }
 
-_extern void _sub_6B1A2A(FormationLaunchCommand *const);
 FormationLaunchCommand::~FormationLaunchCommand() // 0x6B1A2A
 {
     mangled_assert("??1FormationLaunchCommand@@UAE@XZ");
     todo("implement");
-    _sub_6B1A2A(this);
 }
 
-_extern bool _sub_6B1B7A(FormationLaunchCommand const *const);
 bool FormationLaunchCommand::NeedsToDoPathfinding() const // 0x6B1B7A
 {
     mangled_assert("?NeedsToDoPathfinding@FormationLaunchCommand@@ABE_NXZ");
     todo("implement");
-    bool __result = _sub_6B1B7A(this);
-    return __result;
 }
 
-_extern FormationCommand::CommandResult _sub_6B1C9E(FormationLaunchCommand *const, float);
 FormationCommand::CommandResult FormationLaunchCommand::update(float) // 0x6B1C9E
 {
     mangled_assert("?update@FormationLaunchCommand@@UAE?AW4CommandResult@FormationCommand@@M@Z");
     todo("implement");
-    FormationCommand::CommandResult __result = _sub_6B1C9E(this, arg);
-    return __result;
 }
 
-_extern bool _sub_6B1B12(FormationLaunchCommand *const, Ship *, unsigned __int32, unsigned __int32, DockPathPointStatic **, DockPathPoint **);
 bool FormationLaunchCommand::GetPathPoint(Ship *, unsigned __int32, unsigned __int32, DockPathPointStatic **, DockPathPoint **) // 0x6B1B12
 {
     mangled_assert("?GetPathPoint@FormationLaunchCommand@@AAE_NPAVShip@@IIPAPAVDockPathPointStatic@@PAPAVDockPathPoint@@@Z");
     todo("implement");
-    bool __result = _sub_6B1B12(this, arg, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern FormationCommand::FormationCommandType _sub_6B1BF8(FormationLaunchCommand const *const);
 FormationCommand::FormationCommandType FormationLaunchCommand::getType() const // 0x6B1BF8
 {
     mangled_assert("?getType@FormationLaunchCommand@@UBE?AW4FormationCommandType@FormationCommand@@XZ");
     todo("implement");
-    FormationCommand::FormationCommandType __result = _sub_6B1BF8(this);
-    return __result;
 }
 
-_extern _sub_6B19E1(FormationLaunchCommand *const, SaveGameData *);
 FormationLaunchCommand::FormationLaunchCommand(SaveGameData *) // 0x6B19E1
 {
     mangled_assert("??0FormationLaunchCommand@@QAE@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_6B19E1(this, arg);
 }
 
-_extern void _sub_6B1BBC(FormationLaunchCommand *const);
 void FormationLaunchCommand::defaultSettings() // 0x6B1BBC
 {
     mangled_assert("?defaultSettings@FormationLaunchCommand@@QAEXXZ");
     todo("implement");
-    _sub_6B1BBC(this);
 }
 
-_extern void _sub_6B1BFF(FormationLaunchCommand *const);
 void FormationLaunchCommand::postRestore() // 0x6B1BFF
 {
     mangled_assert("?postRestore@FormationLaunchCommand@@UAEXXZ");
     todo("implement");
-    _sub_6B1BFF(this);
 }
 
-_extern bool _sub_6B1C04(FormationLaunchCommand *const, SaveGameData *);
 bool FormationLaunchCommand::restore(SaveGameData *) // 0x6B1C04
 {
     mangled_assert("?restore@FormationLaunchCommand@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_6B1C04(this, arg);
-    return __result;
 }
 
-_extern bool _sub_6B1C51(FormationLaunchCommand *const, SaveGameData *, SaveType);
 bool FormationLaunchCommand::save(SaveGameData *, SaveType) // 0x6B1C51
 {
     mangled_assert("?save@FormationLaunchCommand@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_6B1C51(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

@@ -126,64 +126,48 @@ extern char const *LUALIB_PING; // 0x842650
 
 /* ---------- public code */
 
-_extern unsigned __int32 _sub_716A6A(char const *, char const *, char const *);
 unsigned __int32 Ping_AddPoint(char const *pingName, char const *templateName, char const *volumeName) // 0x716A6A
 {
     mangled_assert("?Ping_AddPoint@@YGIPBD00@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_716A6A(pingName, templateName, volumeName);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_716AE0(char const *, char const *, char const *);
 unsigned __int32 Ping_AddSobGroup(char const *pingName, char const *templateName, char const *sobGroupName) // 0x716AE0
 {
     mangled_assert("?Ping_AddSobGroup@@YGIPBD00@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_716AE0(pingName, templateName, sobGroupName);
-    return __result;
 }
 
-_extern void _sub_716BF9(unsigned __int32);
 void Ping_Remove(unsigned __int32 pingID) // 0x716BF9
 {
     mangled_assert("?Ping_Remove@@YGXI@Z");
     todo("implement");
-    _sub_716BF9(pingID);
 }
 
-_extern void _sub_716BB8(unsigned __int32, bool);
 void Ping_LabelVisible(unsigned __int32 pingID, bool bVisible) // 0x716BB8
 {
     mangled_assert("?Ping_LabelVisible@@YGXI_N@Z");
     todo("implement");
-    _sub_716BB8(pingID, bVisible);
 }
 
-_extern void _sub_716A06(unsigned __int32, unsigned __int32, char const *);
 void Ping_AddDescription(unsigned __int32 pingID, unsigned __int32 lineNum, char const *description) // 0x716A06
 {
     mangled_assert("?Ping_AddDescription@@YGXIIPBD@Z");
     todo("implement");
-    _sub_716A06(pingID, lineNum, description);
 }
 
-_extern void _sub_71682D(LuaBinding::ObjInternal3<unsigned int,unsigned int,char const *,void,LuaBinding::Functor3Free<unsigned int,unsigned int,char const *,void> > *const);
 _inline LuaBinding::ObjInternal3<unsigned int,unsigned int,char const *,void,LuaBinding::Functor3Free<unsigned int,unsigned int,char const *,void> >::~ObjInternal3<unsigned int,unsigned int,char const *,void,LuaBinding::Functor3Free<unsigned int,unsigned int,char const *,void> >() // 0x71682D
 {
     mangled_assert("??1?$ObjInternal3@IIPBDXV?$Functor3Free@IIPBDX@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_71682D(this);
 }
 
-_extern void _sub_716833(LuaBinding::ObjInternal3<char const *,char const *,char const *,unsigned int,LuaBinding::Functor3Free<char const *,char const *,char const *,unsigned int> > *const);
 _inline LuaBinding::ObjInternal3<char const *,char const *,char const *,unsigned int,LuaBinding::Functor3Free<char const *,char const *,char const *,unsigned int> >::~ObjInternal3<char const *,char const *,char const *,unsigned int,LuaBinding::Functor3Free<char const *,char const *,char const *,unsigned int> >() // 0x716833
 {
     mangled_assert("??1?$ObjInternal3@PBDPBDPBDIV?$Functor3Free@PBDPBDPBDI@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_716833(this);
 }
 
 /* ---------- private code */

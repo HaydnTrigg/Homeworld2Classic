@@ -131,57 +131,40 @@ extern bool hotkeyGroupAllAreIdle(Selection const &source);
 
 /* ---------- public code */
 
-_extern bool _sub_5F85AC(Selection *, Selection *);
 bool filterGroup(Selection *source, Selection *destination) // 0x5F85AC
 {
     mangled_assert("?filterGroup@@YG_NPAVSelection@@0@Z");
     todo("implement");
-    bool __result = _sub_5F85AC(source, destination);
-    return __result;
 }
 
-_extern Ship *_sub_5F870D(Selection const &, vector3 const &, float *, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &);
 Ship *selectionGetClosestShipToPoint(Selection const &selection, vector3 const &destinationVector3, float *distanceSqr, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &filterName) // 0x5F870D
 {
     mangled_assert("?selectionGetClosestShipToPoint@@YGPAVShip@@ABVSelection@@ABVvector3@@PAMABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z");
     todo("implement");
-    Ship * __result = _sub_5F870D(selection, destinationVector3, distanceSqr, filterName);
-    return __result;
 }
 
-_extern void _sub_5F8666(Selection *, unsigned __int32);
 void groupHandleHotkeyAssignment(Selection *source, unsigned __int32 groupNum) // 0x5F8666
 {
     mangled_assert("?groupHandleHotkeyAssignment@@YGXPAVSelection@@I@Z");
     todo("implement");
-    _sub_5F8666(source, groupNum);
 }
 
-_extern bool _sub_5F86D5(Ship *);
 bool isHotkeyGroupingIdle(Ship *ship) // 0x5F86D5
 {
     mangled_assert("?isHotkeyGroupingIdle@@YG_NPAVShip@@@Z");
     todo("implement");
-    bool __result = _sub_5F86D5(ship);
-    return __result;
 }
 
-_extern bool _sub_5F869F(Selection const &);
 bool hotkeyGroupIdleShipsInSelection(Selection const &source) // 0x5F869F
 {
     mangled_assert("?hotkeyGroupIdleShipsInSelection@@YG_NABVSelection@@@Z");
     todo("implement");
-    bool __result = _sub_5F869F(source);
-    return __result;
 }
 
-_extern bool _sub_5F8669(Selection const &);
 bool hotkeyGroupAllAreIdle(Selection const &source) // 0x5F8669
 {
     mangled_assert("?hotkeyGroupAllAreIdle@@YG_NABVSelection@@@Z");
     todo("implement");
-    bool __result = _sub_5F8669(source);
-    return __result;
 }
 
 /* ---------- private code */

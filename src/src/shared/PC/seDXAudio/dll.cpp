@@ -54,22 +54,16 @@ _static
 
 /* ---------- public code */
 
-_extern seDeviceInfo &_sub_1000101D(__int32 &, __int32 &);
 seDeviceInfo &InspectDLL(__int32 &version, __int32 &revision) // 0x1000101D
 {
     mangled_assert("_InspectDLL");
     todo("implement");
-    seDeviceInfo & __result = _sub_1000101D(version, revision);
-    return __result;
 }
 
-_extern seDevice *_sub_10001000();
 seDevice *CreateDevice() // 0x10001000
 {
     mangled_assert("_CreateDevice");
     todo("implement");
-    seDevice * __result = _sub_10001000();
-    return __result;
 }
 
 /* ---------- private code */

@@ -113,13 +113,10 @@ static_assert(sizeof(PathString) == 36, "Invalid PathString size");
 
 /* ---------- public code */
 
-_extern std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > const &_sub_10006294(PathString const *const);
 _inline std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > const &PathString::getPath() const // 0x10006294
 {
     mangled_assert("?getPath@PathString@@IBEABV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ");
     todo("implement");
-    std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > const & __result = _sub_10006294(this);
-    return __result;
 }
 
 /* ---------- private code */

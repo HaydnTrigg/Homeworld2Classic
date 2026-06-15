@@ -169,21 +169,16 @@ static_assert(sizeof(DebugRenderProxyImp) == 12, "Invalid DebugRenderProxyImp si
 
 /* ---------- public code */
 
-_extern _sub_1003DF00(DebugRenderProxyImp::Frame *const);
 _inline DebugRenderProxyImp::Frame::Frame() // 0x1003DF00
 {
     mangled_assert("??0Frame@DebugRenderProxyImp@@QAE@XZ");
     todo("implement");
-    _sub_1003DF00(this);
 }
 
-_extern bool _sub_100425F0(DebugRenderProxyImp *const, std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,DebugRenderProxyImp::Frame> > > > const &, char const *);
 _inline bool DebugRenderProxyImp::FrameMatch(std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,DebugRenderProxyImp::Frame> > > > const &, char const *) // 0x100425F0
 {
     mangled_assert("?FrameMatch@DebugRenderProxyImp@@AAE_NABV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UFrame@DebugRenderProxyImp@@@std@@@std@@@std@@@std@@PBD@Z");
     todo("implement");
-    bool __result = _sub_100425F0(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

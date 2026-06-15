@@ -47,40 +47,28 @@ static_assert(sizeof(FormationMoveCommand) == 260, "Invalid FormationMoveCommand
 
 /* ---------- public code */
 
-_extern vector3 const &_sub_6B08E9(FormationMoveCommand const *const);
 _inline vector3 const &FormationMoveCommand::getDestinationDtrm() const // 0x6B08E9
 {
     mangled_assert("?getDestinationDtrm@FormationMoveCommand@@UBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_6B08E9(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_6B08F1(FormationMoveCommand const *const);
 _inline vector3 const &FormationMoveCommand::getDestinationVis() const // 0x6B08F1
 {
     mangled_assert("?getDestinationVis@FormationMoveCommand@@UBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_6B08F1(this);
-    return __result;
 }
 
-_extern bool _sub_6B0902(FormationMoveCommand *const);
 _inline bool FormationMoveCommand::isDeterministic() // 0x6B0902
 {
     mangled_assert("?isDeterministic@FormationMoveCommand@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6B0902(this);
-    return __result;
 }
 
-_extern char const *_sub_6B09EE(FormationMoveCommand *const);
 _inline char const *FormationMoveCommand::saveToken() // 0x6B09EE
 {
     mangled_assert("?saveToken@FormationMoveCommand@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6B09EE(this);
-    return __result;
 }
 
 /* ---------- private code */

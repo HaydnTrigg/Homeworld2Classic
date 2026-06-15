@@ -40,22 +40,17 @@
 
 /* ---------- public code */
 
-_extern void _sub_4B1766(AsteroidStatic *const);
 _inline AsteroidStatic::~AsteroidStatic() // 0x4B1766
 {
     mangled_assert("??1AsteroidStatic@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4B1766(this);
 }
 
-_extern SobStatic *_sub_4B1787(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, SobStatic *);
 SobStatic *AsteroidStatic::Create(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &name, SobStatic *found) // 0x4B1787
 {
     mangled_assert("?Create@AsteroidStatic@@SGPAVSobStatic@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAV2@@Z");
     todo("implement");
-    SobStatic * __result = _sub_4B1787(name, found);
-    return __result;
 }
 
 /* ---------- private code */

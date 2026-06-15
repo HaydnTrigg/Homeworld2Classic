@@ -97,13 +97,10 @@ static_assert(sizeof(StateBlockManager) == 4, "Invalid StateBlockManager size");
 
 /* ---------- public code */
 
-_extern StateBlockManager *_sub_10019690();
 _inline StateBlockManager *StateBlockManager::instance() // 0x10019690
 {
     mangled_assert("?instance@StateBlockManager@@SGPAV1@XZ");
     todo("implement");
-    StateBlockManager * __result = _sub_10019690();
-    return __result;
 }
 
 /* ---------- private code */

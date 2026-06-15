@@ -237,147 +237,106 @@ static_assert(sizeof(Selection2SelectionBase) == 112, "Invalid Selection2Selecti
 
 /* ---------- public code */
 
-_extern void _sub_5290D9(Order *const);
 _inline Order::~Order() // 0x5290D9
 {
     mangled_assert("??1Order@@UAE@XZ");
     todo("implement");
-    _sub_5290D9(this);
 }
 
-_extern OrderType _sub_461828(Order const *const);
 _inline OrderType Order::GetType() const // 0x461828
 {
     mangled_assert("?GetType@Order@@QBE?AW4OrderType@@XZ");
     todo("implement");
-    OrderType __result = _sub_461828(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_4F9491(Order const *const);
 _inline unsigned __int32 Order::GetPlayer() const // 0x4F9491
 {
     mangled_assert("?GetPlayer@Order@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_4F9491(this);
-    return __result;
 }
 
-_extern _sub_528F51(Order *const, OrderType, unsigned __int32);
 _inline Order::Order(OrderType, unsigned __int32) // 0x528F51
 {
     mangled_assert("??0Order@@IAE@W4OrderType@@I@Z");
     todo("implement");
-    _sub_528F51(this, arg, arg);
 }
 
-_extern bool _sub_694DCD(Order const *const, Order::BonusBit);
 _inline bool Order::GetBonusBit(Order::BonusBit) const // 0x694DCD
 {
     mangled_assert("?GetBonusBit@Order@@IBE_NW4BonusBit@1@@Z");
     todo("implement");
-    bool __result = _sub_694DCD(this, arg);
-    return __result;
 }
 
-_extern void _sub_6955E7(Order const *const, Order::BonusBit, bool);
 _inline void Order::SetBonusBit(Order::BonusBit, bool) const // 0x6955E7
 {
     mangled_assert("?SetBonusBit@Order@@IBEXW4BonusBit@1@_N@Z");
     todo("implement");
-    _sub_6955E7(this, arg, arg);
 }
 
-_extern unsigned __int32 _sub_638041(ResearchOrderBase const *const);
 _inline unsigned __int32 ResearchOrderBase::GetResearch() const // 0x638041
 {
     mangled_assert("?GetResearch@ResearchOrderBase@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_638041(this);
-    return __result;
 }
 
-_extern _sub_537846(ResearchOrderBase *const, OrderType, unsigned __int32, unsigned __int32);
 _inline ResearchOrderBase::ResearchOrderBase(OrderType, unsigned __int32, unsigned __int32) // 0x537846
 {
     mangled_assert("??0ResearchOrderBase@@IAE@W4OrderType@@II@Z");
     todo("implement");
-    _sub_537846(this, arg, arg, arg);
 }
 
-_extern void _sub_6955FF(SquadronListOrderBase *const, bool);
 _inline void SquadronListOrderBase::SetSplitStrikeGroups(bool) // 0x6955FF
 {
     mangled_assert("?SetSplitStrikeGroups@SquadronListOrderBase@@QAEX_N@Z");
     todo("implement");
-    _sub_6955FF(this, arg);
 }
 
-_extern SquadronList const &_sub_5C0A4D(SquadronListOrderBase const *const);
 _inline SquadronList const &SquadronListOrderBase::GetSquadronList() const // 0x5C0A4D
 {
     mangled_assert("?GetSquadronList@SquadronListOrderBase@@QBEABVSquadronList@@XZ");
     todo("implement");
-    SquadronList const & __result = _sub_5C0A4D(this);
-    return __result;
 }
 
-_extern _sub_691365(SquadronListOrderBase *const, OrderType, unsigned __int32, SquadronList const &);
 _inline SquadronListOrderBase::SquadronListOrderBase(OrderType, unsigned __int32, SquadronList const &) // 0x691365
 {
     mangled_assert("??0SquadronListOrderBase@@IAE@W4OrderType@@IABVSquadronList@@@Z");
     todo("implement");
-    _sub_691365(this, arg, arg, arg);
 }
 
-_extern _sub_690F87(SelectionOrderBase *const, OrderType, unsigned __int32, Selection const &);
 _inline SelectionOrderBase::SelectionOrderBase(OrderType, unsigned __int32, Selection const &) // 0x690F87
 {
     mangled_assert("??0SelectionOrderBase@@IAE@W4OrderType@@IABVSelection@@@Z");
     todo("implement");
-    _sub_690F87(this, arg, arg, arg);
 }
 
-_extern _sub_528F6E(SobOrderBase *const, OrderType, unsigned __int32, SobID const &);
 _inline SobOrderBase::SobOrderBase(OrderType, unsigned __int32, SobID const &) // 0x528F6E
 {
     mangled_assert("??0SobOrderBase@@IAE@W4OrderType@@IABVSobID@@@Z");
     todo("implement");
-    _sub_528F6E(this, arg, arg, arg);
 }
 
-_extern SobID const &_sub_5C0A51(SquadronList2SobBase const *const);
 _inline SobID const &SquadronList2SobBase::GetTarget() const // 0x5C0A51
 {
     mangled_assert("?GetTarget@SquadronList2SobBase@@QBEABVSobID@@XZ");
     todo("implement");
-    SobID const & __result = _sub_5C0A51(this);
-    return __result;
 }
 
-_extern _sub_6912C1(SquadronList2SobBase *const, OrderType, unsigned __int32, SquadronList const &, SobID const &);
 _inline SquadronList2SobBase::SquadronList2SobBase(OrderType, unsigned __int32, SquadronList const &, SobID const &) // 0x6912C1
 {
     mangled_assert("??0SquadronList2SobBase@@IAE@W4OrderType@@IABVSquadronList@@ABVSobID@@@Z");
     todo("implement");
-    _sub_6912C1(this, arg, arg, arg, arg);
 }
 
-_extern Selection const &_sub_5C0A55(SquadronList2SelectionBase const *const);
 _inline Selection const &SquadronList2SelectionBase::GetTargets() const // 0x5C0A55
 {
     mangled_assert("?GetTargets@SquadronList2SelectionBase@@QBEABVSelection@@XZ");
     todo("implement");
-    Selection const & __result = _sub_5C0A55(this);
-    return __result;
 }
 
-_extern _sub_69122D(SquadronList2SelectionBase *const, OrderType, unsigned __int32, SquadronList const &, Selection const &);
 _inline SquadronList2SelectionBase::SquadronList2SelectionBase(OrderType, unsigned __int32, SquadronList const &, Selection const &) // 0x69122D
 {
     mangled_assert("??0SquadronList2SelectionBase@@IAE@W4OrderType@@IABVSquadronList@@ABVSelection@@@Z");
     todo("implement");
-    _sub_69122D(this, arg, arg, arg, arg);
 }
 
 /* ---------- private code */

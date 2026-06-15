@@ -36,66 +36,48 @@ extern TestMem TestMem::s_instance; // 0x837064
 
 /* ---------- public code */
 
-_extern _sub_506695(Profile::MemHook *const);
 _inline Profile::MemHook::MemHook() // 0x506695
 {
     mangled_assert("??0MemHook@Profile@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_506695(this);
 }
 
-_extern _sub_50669E(TestMem *const);
 _inline TestMem::TestMem() // 0x50669E
 {
     mangled_assert("??0TestMem@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_50669E(this);
 }
 
-_extern unsigned __int32 _sub_5066C3(TestMem const *const);
 unsigned __int32 TestMem::getNumberOfAllocations() const // 0x5066C3
 {
     mangled_assert("?getNumberOfAllocations@TestMem@@UBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_5066C3(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_5066C9(TestMem const *const);
 unsigned __int32 TestMem::getNumberOfBytesAllocated() const // 0x5066C9
 {
     mangled_assert("?getNumberOfBytesAllocated@TestMem@@UBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_5066C9(this);
-    return __result;
 }
 
-_extern void _sub_5066AD(_HMEMPOOL *const &, MEMBLOCKINFO const &);
 void TestMem::TestMemoryLibCB(_HMEMPOOL *const &pool, MEMBLOCKINFO const &inf) // 0x5066AD
 {
     mangled_assert("?TestMemoryLibCB@TestMem@@CGXABQAU_HMEMPOOL@@ABUMEMBLOCKINFO@@@Z");
     todo("implement");
-    _sub_5066AD(pool, inf);
 }
 
-_extern bool _sub_5066AA();
 bool TestMem::Startup() // 0x5066AA
 {
     mangled_assert("?Startup@TestMem@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_5066AA();
-    return __result;
 }
 
-_extern bool _sub_5066A7();
 bool TestMem::Shutdown() // 0x5066A7
 {
     mangled_assert("?Shutdown@TestMem@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_5066A7();
-    return __result;
 }
 
 /* ---------- private code */

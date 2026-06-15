@@ -41,30 +41,22 @@ static_assert(sizeof(UI::TextButton) == 1376, "Invalid UI::TextButton size");
 
 /* ---------- public code */
 
-_extern UI::InterfaceElement *_sub_68A2E7(UI::TextButton *const);
 _inline UI::InterfaceElement *UI::TextButton::clone() // 0x68A2E7
 {
     mangled_assert("?clone@TextButton@UI@@UAEPAVInterfaceElement@2@XZ");
     todo("implement");
-    UI::InterfaceElement * __result = _sub_68A2E7(this);
-    return __result;
 }
 
-_extern void _sub_571322(UI::TextButton *const, wchar_t const *);
 _inline void UI::TextButton::SetText(wchar_t const *) // 0x571322
 {
     mangled_assert("?SetText@TextButton@UI@@QAEXPB_W@Z");
     todo("implement");
-    _sub_571322(this, arg);
 }
 
-_extern wchar_t const *_sub_5783C2(UI::TextButton const *const);
 _inline wchar_t const *UI::TextButton::GetText() const // 0x5783C2
 {
     mangled_assert("?GetText@TextButton@UI@@QBEPB_WXZ");
     todo("implement");
-    wchar_t const * __result = _sub_5783C2(this);
-    return __result;
 }
 
 /* ---------- private code */

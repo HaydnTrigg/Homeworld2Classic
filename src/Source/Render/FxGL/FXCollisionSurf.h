@@ -47,20 +47,16 @@ static_assert(sizeof(FXCollisionSurfPlanar) == 4, "Invalid FXCollisionSurfPlanar
 
 /* ---------- public code */
 
-_extern _sub_6F766C(FXCollisionSurf *const);
 _inline FXCollisionSurf::FXCollisionSurf() // 0x6F766C
 {
     mangled_assert("??0FXCollisionSurf@@QAE@XZ");
     todo("implement");
-    _sub_6F766C(this);
 }
 
-_extern void _sub_6F767E(FXCollisionSurf *const);
 _inline FXCollisionSurf::~FXCollisionSurf() // 0x6F767E
 {
     mangled_assert("??1FXCollisionSurf@@UAE@XZ");
     todo("implement");
-    _sub_6F767E(this);
 }
 
 /* ---------- private code */

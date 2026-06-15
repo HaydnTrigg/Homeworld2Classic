@@ -67,22 +67,16 @@ static_assert(sizeof(AttackMoveCommand) == 68, "Invalid AttackMoveCommand size")
 
 /* ---------- public code */
 
-_extern bool _sub_6AEED4(AttackMoveCommand *const);
 _inline bool AttackMoveCommand::isDeterministic() // 0x6AEED4
 {
     mangled_assert("?isDeterministic@AttackMoveCommand@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6AEED4(this);
-    return __result;
 }
 
-_extern char const *_sub_6AEFF0(AttackMoveCommand *const);
 _inline char const *AttackMoveCommand::saveToken() // 0x6AEFF0
 {
     mangled_assert("?saveToken@AttackMoveCommand@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6AEFF0(this);
-    return __result;
 }
 
 /* ---------- private code */

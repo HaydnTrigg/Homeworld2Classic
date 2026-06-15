@@ -29,12 +29,10 @@ static_assert(sizeof(SobZeroMassBodyStatic) == 444, "Invalid SobZeroMassBodyStat
 
 /* ---------- public code */
 
-_extern _sub_4A918C(SobZeroMassBodyStatic *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, SobType);
 _inline SobZeroMassBodyStatic::SobZeroMassBodyStatic(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, SobType) // 0x4A918C
 {
     mangled_assert("??0SobZeroMassBodyStatic@@IAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4SobType@@@Z");
     todo("implement");
-    _sub_4A918C(this, arg, arg);
 }
 
 /* ---------- private code */

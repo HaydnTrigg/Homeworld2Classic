@@ -161,88 +161,68 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_10002350(Profile::Stats const *const, bool, bool, std::basic_ostream<char,std::char_traits<char> > &);
 void Profile::Stats::Dump(bool, bool, std::basic_ostream<char,std::char_traits<char> > &) const // 0x10002350
 {
     mangled_assert("?Dump@Stats@Profile@@QBEX_N0AAV?$basic_ostream@DU?$char_traits@D@std@@@std@@@Z");
     todo("implement");
-    _sub_10002350(this, arg, arg, arg);
 }
 
-_extern void _sub_10001C80(std::_List_buy<Profile::FunctionInfo *,std::allocator<Profile::FunctionInfo *> > *const);
 _inline std::_List_buy<Profile::FunctionInfo *,std::allocator<Profile::FunctionInfo *> >::~_List_buy<Profile::FunctionInfo *,std::allocator<Profile::FunctionInfo *> >() // 0x10001C80
 {
     mangled_assert("??1?$_List_buy@PAVFunctionInfo@Profile@@V?$allocator@PAVFunctionInfo@Profile@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10001C80(this);
 }
 
-_extern void _sub_10001D00(std::_Generic_error_category *const);
 _inline std::_Generic_error_category::~_Generic_error_category() // 0x10001D00
 {
     mangled_assert("??1_Generic_error_category@std@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10001D00(this);
 }
 
-_extern void _sub_10001D10(std::_Iostream_error_category *const);
 _inline std::_Iostream_error_category::~_Iostream_error_category() // 0x10001D10
 {
     mangled_assert("??1_Iostream_error_category@std@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10001D10(this);
 }
 
-_extern void _sub_10001D40(std::_System_error_category *const);
 _inline std::_System_error_category::~_System_error_category() // 0x10001D40
 {
     mangled_assert("??1_System_error_category@std@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_10001D40(this);
 }
 
-_extern void _sub_100027D0(Profile::Stats *const);
 void Profile::Stats::EnterFunction() // 0x100027D0
 {
     mangled_assert("?EnterFunction@Stats@Profile@@QAEXXZ");
     todo("implement");
-    _sub_100027D0(this);
 }
 
-_extern void _sub_10002840(Profile::Stats *const);
 void Profile::Stats::LeaveFunction() // 0x10002840
 {
     mangled_assert("?LeaveFunction@Stats@Profile@@QAEXXZ");
     todo("implement");
-    _sub_10002840(this);
 }
 
-_extern void _sub_10002720(bool, std::basic_ostream<char,std::char_traits<char> > &);
 void Profile::FunctionInfo::DumpAll(bool bNewFormat, std::basic_ostream<char,std::char_traits<char> > &stream) // 0x10002720
 {
     mangled_assert("?DumpAll@FunctionInfo@Profile@@SGX_NAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@@Z");
     todo("implement");
-    _sub_10002720(bNewFormat, stream);
 }
 
-_extern void _sub_100020F0(Profile::FunctionInfo const *const, bool, std::basic_ostream<char,std::char_traits<char> > &, Profile::Stats const &);
 void Profile::FunctionInfo::Dump(bool, std::basic_ostream<char,std::char_traits<char> > &, Profile::Stats const &) const // 0x100020F0
 {
     mangled_assert("?Dump@FunctionInfo@Profile@@ABEX_NAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@ABVStats@2@@Z");
     todo("implement");
-    _sub_100020F0(this, arg, arg, arg);
 }
 
-_extern void _sub_10002010();
 void Profile::FunctionInfo::ClearAll() // 0x10002010
 {
     mangled_assert("?ClearAll@FunctionInfo@Profile@@SGXXZ");
     todo("implement");
-    _sub_10002010();
 }
 
 /* ---------- private code */

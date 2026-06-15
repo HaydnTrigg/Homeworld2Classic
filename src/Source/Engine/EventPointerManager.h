@@ -93,38 +93,28 @@ static_assert(sizeof(EventPointerManager) == 24, "Invalid EventPointerManager si
 
 /* ---------- public code */
 
-_extern _sub_5ED41C(EventPointerManager::EventPointer *const);
 _inline EventPointerManager::EventPointer::EventPointer() // 0x5ED41C
 {
     mangled_assert("??0EventPointer@EventPointerManager@@QAE@XZ");
     todo("implement");
-    _sub_5ED41C(this);
 }
 
-_extern _sub_5ED3FE(EventPointerManager::EventPointer *const, vector4 const &, float const);
 _inline EventPointerManager::EventPointer::EventPointer(vector4 const &, float const) // 0x5ED3FE
 {
     mangled_assert("??0EventPointer@EventPointerManager@@QAE@ABVvector4@@M@Z");
     todo("implement");
-    _sub_5ED3FE(this, arg, arg);
 }
 
-_extern bool _sub_5EDFB1(EventPointerManager *const);
 _inline bool EventPointerManager::isDeterministic() // 0x5EDFB1
 {
     mangled_assert("?isDeterministic@EventPointerManager@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_5EDFB1(this);
-    return __result;
 }
 
-_extern char const *_sub_5EE05D(EventPointerManager *const);
 _inline char const *EventPointerManager::saveToken() // 0x5EE05D
 {
     mangled_assert("?saveToken@EventPointerManager@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_5EE05D(this);
-    return __result;
 }
 
 /* ---------- private code */

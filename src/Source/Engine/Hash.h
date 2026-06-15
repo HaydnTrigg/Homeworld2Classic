@@ -42,40 +42,28 @@ extern _inline std::basic_ostream<char,std::char_traits<char> > &operator<<(std:
 
 /* ---------- public code */
 
-_extern bool _sub_46A007(MD5Hash const &, MD5Hash const &);
 _inline bool operator==(MD5Hash const &x, MD5Hash const &y) // 0x46A007
 {
     mangled_assert("??8@YG_NABVMD5Hash@@0@Z");
     todo("implement");
-    bool __result = _sub_46A007(x, y);
-    return __result;
 }
 
-_extern bool _sub_5F6775(MD5Hash const &, MD5Hash const &);
 _inline bool operator<(MD5Hash const &x, MD5Hash const &y) // 0x5F6775
 {
     mangled_assert("??M@YG_NABVMD5Hash@@0@Z");
     todo("implement");
-    bool __result = _sub_5F6775(x, y);
-    return __result;
 }
 
-_extern bool _sub_46A035(MD5Hash const &, MD5Hash const &);
 _inline bool operator!=(MD5Hash const &x, MD5Hash const &y) // 0x46A035
 {
     mangled_assert("??9@YG_NABVMD5Hash@@0@Z");
     todo("implement");
-    bool __result = _sub_46A035(x, y);
-    return __result;
 }
 
-_extern std::basic_ostream<char,std::char_traits<char> > &_sub_602775(std::basic_ostream<char,std::char_traits<char> > &, MD5Hash const &);
 _inline std::basic_ostream<char,std::char_traits<char> > &operator<<(std::basic_ostream<char,std::char_traits<char> > &out, MD5Hash const &hash) // 0x602775
 {
     mangled_assert("??6@YGAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@ABVMD5Hash@@@Z");
     todo("implement");
-    std::basic_ostream<char,std::char_traits<char> > & __result = _sub_602775(out, hash);
-    return __result;
 }
 
 /* ---------- private code */

@@ -472,228 +472,162 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_623A7E(RecordedGame *const);
 _inline RecordedGame::RecordedGame() // 0x623A7E
 {
     mangled_assert("??0RecordedGame@@QAE@XZ");
     todo("implement");
-    _sub_623A7E(this);
 }
 
-_extern _sub_623AAB(RecordedGame::RecordedGameHeader *const);
 _inline RecordedGame::RecordedGameHeader::RecordedGameHeader() // 0x623AAB
 {
     mangled_assert("??0RecordedGameHeader@RecordedGame@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_623AAB(this);
 }
 
-_extern void _sub_623ADF(RecordedGame *const);
 _inline RecordedGame::~RecordedGame() // 0x623ADF
 {
     mangled_assert("??1RecordedGame@@QAE@XZ");
     todo("implement");
-    _sub_623ADF(this);
 }
 
-_extern Recorder::RecordPacket *_sub_623D00(RecordedGame *const);
 _inline Recorder::RecordPacket *RecordedGame::gotoNextPacket() // 0x623D00
 {
     mangled_assert("?gotoNextPacket@RecordedGame@@QAEPAURecordPacket@Recorder@@XZ");
     todo("implement");
-    Recorder::RecordPacket * __result = _sub_623D00(this);
-    return __result;
 }
 
-_extern Recorder::RecordPacket *_sub_623CD5(RecordedGame *const);
 _inline Recorder::RecordPacket *RecordedGame::getCurRecordedPacket() // 0x623CD5
 {
     mangled_assert("?getCurRecordedPacket@RecordedGame@@QAEPAURecordPacket@Recorder@@XZ");
     todo("implement");
-    Recorder::RecordPacket * __result = _sub_623CD5(this);
-    return __result;
 }
 
-_extern void _sub_623B03(RecordedGame::RecordedGameHeader *const);
 _inline RecordedGame::RecordedGameHeader::~RecordedGameHeader() // 0x623B03
 {
     mangled_assert("??1RecordedGameHeader@RecordedGame@@QAE@XZ");
     todo("implement");
-    _sub_623B03(this);
 }
 
-_extern Recorder *_sub_623D1C();
 Recorder *Recorder::i() // 0x623D1C
 {
     mangled_assert("?i@Recorder@@SGPAV1@XZ");
     todo("implement");
-    Recorder * __result = _sub_623D1C();
-    return __result;
 }
 
-_extern void _sub_624144();
 void Recorder::release() // 0x624144
 {
     mangled_assert("?release@Recorder@@SGXXZ");
     todo("implement");
-    _sub_624144();
 }
 
-_extern _sub_623ABF(Recorder *const);
 Recorder::Recorder() // 0x623ABF
 {
     mangled_assert("??0Recorder@@AAE@XZ");
     todo("implement");
-    _sub_623ABF(this);
 }
 
-_extern void _sub_623B0B(Recorder *const);
 Recorder::~Recorder() // 0x623B0B
 {
     mangled_assert("??1Recorder@@AAE@XZ");
     todo("implement");
-    _sub_623B0B(this);
 }
 
-_extern GameSettings &_sub_623B3A(GameSettings *const, GameSettings &);
 _inline GameSettings &GameSettings::operator=(GameSettings &) // 0x623B3A
 {
     mangled_assert("??4GameSettings@@QAEAAV0@AAV0@@Z");
     compiler_generated();
     todo("implement");
-    GameSettings & __result = _sub_623B3A(this, arg);
-    return __result;
 }
 
-_extern bool _sub_6246FB();
 bool Recorder::startRecorderInGame() // 0x6246FB
 {
     mangled_assert("?startRecorderInGame@Recorder@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_6246FB();
-    return __result;
 }
 
-_extern bool _sub_6244E2();
 bool Recorder::shutdownRecorderInGame() // 0x6244E2
 {
     mangled_assert("?shutdownRecorderInGame@Recorder@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_6244E2();
-    return __result;
 }
 
-_extern void _sub_624166(Recorder *const);
 void Recorder::saveGameSettings() // 0x624166
 {
     mangled_assert("?saveGameSettings@Recorder@@QAEXXZ");
     todo("implement");
-    _sub_624166(this);
 }
 
-_extern bool _sub_624379(Recorder const *const, char const *);
 bool Recorder::saveRecordedGameAs(char const *) const // 0x624379
 {
     mangled_assert("?saveRecordedGameAs@Recorder@@QBE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_624379(this, arg);
-    return __result;
 }
 
-_extern Recorder::RecordedGameState _sub_623D42(Recorder *const, char const *, bool);
 Recorder::RecordedGameState Recorder::loadRecordedGame(char const *, bool) // 0x623D42
 {
     mangled_assert("?loadRecordedGame@Recorder@@QAE?AW4RecordedGameState@1@PBD_N@Z");
     todo("implement");
-    Recorder::RecordedGameState __result = _sub_623D42(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_6242A7(Recorder *const, Order const *);
 void Recorder::savePacket(Order const *) // 0x6242A7
 {
     mangled_assert("?savePacket@Recorder@@QAEXPBVOrder@@@Z");
     todo("implement");
-    _sub_6242A7(this, arg);
 }
 
-_extern void _sub_624720(Recorder *const);
 void Recorder::updateSwitchPlayer() // 0x624720
 {
     mangled_assert("?updateSwitchPlayer@Recorder@@QAEXXZ");
     todo("implement");
-    _sub_624720(this);
 }
 
-_extern long _sub_623FB4(Recorder *const, long);
 long Recorder::playRecordedGame(long) // 0x623FB4
 {
     mangled_assert("?playRecordedGame@Recorder@@QAEJJ@Z");
     todo("implement");
-    long __result = _sub_623FB4(this, arg);
-    return __result;
 }
 
-_extern bool _sub_623C87(Recorder *const, bool);
 bool Recorder::enableRecorder(bool) // 0x623C87
 {
     mangled_assert("?enableRecorder@Recorder@@QAE_N_N@Z");
     todo("implement");
-    bool __result = _sub_623C87(this, arg);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_623CF3(Recorder const *const);
 unsigned __int32 Recorder::getMaxFrame() const // 0x623CF3
 {
     mangled_assert("?getMaxFrame@Recorder@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_623CF3(this);
-    return __result;
 }
 
-_extern long _sub_623CFA(Recorder const *const);
 long Recorder::getRecordSystemVersion() const // 0x623CFA
 {
     mangled_assert("?getRecordSystemVersion@Recorder@@ABEJXZ");
     todo("implement");
-    long __result = _sub_623CFA(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_623CEF(Recorder const *const);
 unsigned __int32 Recorder::getLocalPlayerID() const // 0x623CEF
 {
     mangled_assert("?getLocalPlayerID@Recorder@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_623CEF(this);
-    return __result;
 }
 
-_extern void _sub_6244C6(Recorder *const, unsigned __int32);
 void Recorder::setLocalPlayerID(unsigned __int32) // 0x6244C6
 {
     mangled_assert("?setLocalPlayerID@Recorder@@QAEXI@Z");
     todo("implement");
-    _sub_6244C6(this, arg);
 }
 
-_extern void _sub_624590(Recorder *const, unsigned __int32, bool);
 void Recorder::snapshot(unsigned __int32, bool) // 0x624590
 {
     mangled_assert("?snapshot@Recorder@@QAEXI_N@Z");
     todo("implement");
-    _sub_624590(this, arg, arg);
 }
 
-_extern bool _sub_6244DA();
 bool Recorder::shutdown() // 0x6244DA
 {
     mangled_assert("?shutdown@Recorder@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_6244DA();
-    return __result;
 }
 
 /* ---------- private code */

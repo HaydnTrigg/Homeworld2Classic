@@ -171,204 +171,149 @@
 
 /* ---------- public code */
 
-_extern _sub_5226FB(RenderModelVis *const, Sob const *);
 RenderModelVis::RenderModelVis(Sob const *) // 0x5226FB
 {
     mangled_assert("??0RenderModelVis@@QAE@PBVSob@@@Z");
     todo("implement");
-    _sub_5226FB(this, arg);
 }
 
-_extern _sub_522851(RenderModelVis *const, Sob const *, SaveGameData *);
 RenderModelVis::RenderModelVis(Sob const *, SaveGameData *) // 0x522851
 {
     mangled_assert("??0RenderModelVis@@QAE@PBVSob@@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_522851(this, arg, arg);
 }
 
-_extern void _sub_5229C9(EmitterContainer *const);
 _inline EmitterContainer::~EmitterContainer() // 0x5229C9
 {
     mangled_assert("??1EmitterContainer@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5229C9(this);
 }
 
-_extern void _sub_5229CE(RenderModelVis *const);
 RenderModelVis::~RenderModelVis() // 0x5229CE
 {
     mangled_assert("??1RenderModelVis@@UAE@XZ");
     todo("implement");
-    _sub_5229CE(this);
 }
 
-_extern void _sub_5230B6(RenderModelVis *const, HierarchyDynamic const *);
 void RenderModelVis::setHierarchy(HierarchyDynamic const *) // 0x5230B6
 {
     mangled_assert("?setHierarchy@RenderModelVis@@UAEXPBVHierarchyDynamic@@@Z");
     todo("implement");
-    _sub_5230B6(this, arg);
 }
 
-_extern bool _sub_522E07(RenderModelVis const *const, char const *);
 bool RenderModelVis::hasEffectEvent(char const *) const // 0x522E07
 {
     mangled_assert("?hasEffectEvent@RenderModelVis@@UBE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_522E07(this, arg);
-    return __result;
 }
 
-_extern void _sub_5230D8(RenderModelVis *const, char const *, float);
 void RenderModelVis::startEffectEvent(char const *, float) // 0x5230D8
 {
     mangled_assert("?startEffectEvent@RenderModelVis@@UAEXPBDM@Z");
     todo("implement");
-    _sub_5230D8(this, arg, arg);
 }
 
-_extern void _sub_5230F3(RenderModelVis *const, char const *);
 void RenderModelVis::stopEffectEvent(char const *) // 0x5230F3
 {
     mangled_assert("?stopEffectEvent@RenderModelVis@@UAEXPBD@Z");
     todo("implement");
-    _sub_5230F3(this, arg);
 }
 
-_extern void _sub_52308E(RenderModelVis *const, char const *, float, float);
 void RenderModelVis::setEffectVariable(char const *, float, float) // 0x52308E
 {
     mangled_assert("?setEffectVariable@RenderModelVis@@UAEXPBDMM@Z");
     todo("implement");
-    _sub_52308E(this, arg, arg, arg);
 }
 
-_extern void _sub_523100(RenderModelVis *const, Camera const &, float, float, __int32);
 void RenderModelVis::update(Camera const &, float, float, __int32) // 0x523100
 {
     mangled_assert("?update@RenderModelVis@@UAEXABVCamera@@MMH@Z");
     todo("implement");
-    _sub_523100(this, arg, arg, arg, arg);
 }
 
-_extern void _sub_523340(RenderModelVis *const, float, __int32);
 void RenderModelVis::updateAlpha(float, __int32) // 0x523340
 {
     mangled_assert("?updateAlpha@RenderModelVis@@AAEXMH@Z");
     todo("implement");
-    _sub_523340(this, arg, arg);
 }
 
-_extern void _sub_523210(RenderModelVis *const, float);
 void RenderModelVis::updateAdditiveColour(float) // 0x523210
 {
     mangled_assert("?updateAdditiveColour@RenderModelVis@@AAEXM@Z");
     todo("implement");
-    _sub_523210(this, arg);
 }
 
-_extern void _sub_522F10(RenderModelVis *const, float);
 void RenderModelVis::postDeathUpdate(float) // 0x522F10
 {
     mangled_assert("?postDeathUpdate@RenderModelVis@@AAEXM@Z");
     todo("implement");
-    _sub_522F10(this, arg);
 }
 
-_extern void _sub_523080(RenderModelVis *const, float);
 void RenderModelVis::setBaseAlpha(float) // 0x523080
 {
     mangled_assert("?setBaseAlpha@RenderModelVis@@QAEXM@Z");
     todo("implement");
-    _sub_523080(this, arg);
 }
 
-_extern float _sub_522BD0(RenderModelVis const *const);
 float RenderModelVis::getAlpha() const // 0x522BD0
 {
     mangled_assert("?getAlpha@RenderModelVis@@QBEMXZ");
     todo("implement");
-    float __result = _sub_522BD0(this);
-    return __result;
 }
 
-_extern void _sub_522E30(RenderModelVis *const);
 void RenderModelVis::onHealthChange() // 0x522E30
 {
     mangled_assert("?onHealthChange@RenderModelVis@@UAEXXZ");
     todo("implement");
-    _sub_522E30(this);
 }
 
-_extern void _sub_522FD0(RenderModelVis *const, vector4 const &, RenderModelVis::AdditiveColourMode, unsigned __int32);
 void RenderModelVis::setAdditiveColour(vector4 const &, RenderModelVis::AdditiveColourMode, unsigned __int32) // 0x522FD0
 {
     mangled_assert("?setAdditiveColour@RenderModelVis@@QAEXABVvector4@@W4AdditiveColourMode@1@I@Z");
     todo("implement");
-    _sub_522FD0(this, arg, arg, arg);
 }
 
-_extern bool _sub_522E00(RenderModelVis const *const);
 bool RenderModelVis::hasAdditiveColour() const // 0x522E00
 {
     mangled_assert("?hasAdditiveColour@RenderModelVis@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_522E00(this);
-    return __result;
 }
 
-_extern __int32 _sub_522CB0(RenderModelVis const *const, char const *);
 __int32 RenderModelVis::getMarkerID(char const *) const // 0x522CB0
 {
     mangled_assert("?getMarkerID@RenderModelVis@@QBEHPBD@Z");
     todo("implement");
-    __int32 __result = _sub_522CB0(this, arg);
-    return __result;
 }
 
-_extern bool _sub_522CC0(RenderModelVis const *const, __int32, vector3 &);
 bool RenderModelVis::getMarkerPosition(__int32, vector3 &) const // 0x522CC0
 {
     mangled_assert("?getMarkerPosition@RenderModelVis@@QBE_NHAAVvector3@@@Z");
     todo("implement");
-    bool __result = _sub_522CC0(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_522FB0(RenderModelVis *const, SaveGameData *);
 bool RenderModelVis::save(SaveGameData *) // 0x522FB0
 {
     mangled_assert("?save@RenderModelVis@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_522FB0(this, arg);
-    return __result;
 }
 
-_extern bool _sub_522F90(RenderModelVis *const, SaveGameData *);
 bool RenderModelVis::restore(SaveGameData *) // 0x522F90
 {
     mangled_assert("?restore@RenderModelVis@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_522F90(this, arg);
-    return __result;
 }
 
-_extern void _sub_522E10(RenderModelVis *const);
 void RenderModelVis::init() // 0x522E10
 {
     mangled_assert("?init@RenderModelVis@@UAEXXZ");
     todo("implement");
-    _sub_522E10(this);
 }
 
-_extern void _sub_522F70(RenderModelVis *const);
 void RenderModelVis::postRestore() // 0x522F70
 {
     mangled_assert("?postRestore@RenderModelVis@@UAEXXZ");
     todo("implement");
-    _sub_522F70(this);
 }
 
 /* ---------- private code */

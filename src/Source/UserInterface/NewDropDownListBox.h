@@ -64,75 +64,52 @@ static_assert(sizeof(UI::NewDropDownListBox) == 1088, "Invalid UI::NewDropDownLi
 
 /* ---------- public code */
 
-_extern UI::InterfaceElement *_sub_6836EB(UI::NewDropDownListBox *const);
 _inline UI::InterfaceElement *UI::NewDropDownListBox::clone() // 0x6836EB
 {
     mangled_assert("?clone@NewDropDownListBox@UI@@UAEPAVInterfaceElement@2@XZ");
     todo("implement");
-    UI::InterfaceElement * __result = _sub_6836EB(this);
-    return __result;
 }
 
-_extern __int32 _sub_57F9CA(UI::NewDropDownListBox const *const);
 _inline __int32 UI::NewDropDownListBox::GetListBoxItemCount() const // 0x57F9CA
 {
     mangled_assert("?GetListBoxItemCount@NewDropDownListBox@UI@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_57F9CA(this);
-    return __result;
 }
 
-_extern UI::ListBoxItem *_sub_587CF3(UI::NewDropDownListBox const *const, __int32);
 _inline UI::ListBoxItem *UI::NewDropDownListBox::GetListBoxItem(__int32) const // 0x587CF3
 {
     mangled_assert("?GetListBoxItem@NewDropDownListBox@UI@@QBEPAVListBoxItem@2@H@Z");
     todo("implement");
-    UI::ListBoxItem * __result = _sub_587CF3(this, arg);
-    return __result;
 }
 
-_extern UI::ListBoxItem *_sub_5783B0(UI::NewDropDownListBox *const);
 _inline UI::ListBoxItem *UI::NewDropDownListBox::GetSelectedListBoxItem() // 0x5783B0
 {
     mangled_assert("?GetSelectedListBoxItem@NewDropDownListBox@UI@@QAEPAVListBoxItem@2@XZ");
     todo("implement");
-    UI::ListBoxItem * __result = _sub_5783B0(this);
-    return __result;
 }
 
-_extern UI::ListBoxItem *_sub_57F9D7(UI::NewDropDownListBox *const, unsigned __int32);
 _inline UI::ListBoxItem *UI::NewDropDownListBox::GetListBoxItemWithCustomData(unsigned __int32) // 0x57F9D7
 {
     mangled_assert("?GetListBoxItemWithCustomData@NewDropDownListBox@UI@@QAEPAVListBoxItem@2@I@Z");
     todo("implement");
-    UI::ListBoxItem * __result = _sub_57F9D7(this, arg);
-    return __result;
 }
 
-_extern void _sub_57ED79(UI::NewDropDownListBox *const, void (*)(UI::InterfaceElement *, __int32));
 _inline void UI::NewDropDownListBox::ConnectOnItemSelect(void (*)(UI::InterfaceElement *, __int32)) // 0x57ED79
 {
     mangled_assert("?ConnectOnItemSelect@NewDropDownListBox@UI@@QAEXP6GXPAVInterfaceElement@2@H@Z@Z");
     todo("implement");
-    _sub_57ED79(this, arg);
 }
 
-_extern UI::NewListBox *_sub_587CE8(UI::NewDropDownListBox *const);
 _inline UI::NewListBox *UI::NewDropDownListBox::GetChildListBox() // 0x587CE8
 {
     mangled_assert("?GetChildListBox@NewDropDownListBox@UI@@QAEPAVNewListBox@2@XZ");
     todo("implement");
-    UI::NewListBox * __result = _sub_587CE8(this);
-    return __result;
 }
 
-_extern UI::NewDropDownListBox *_sub_672258();
 _inline UI::NewDropDownListBox *UI::NewDropDownListBox::GetFocusedDropDownListBox() // 0x672258
 {
     mangled_assert("?GetFocusedDropDownListBox@NewDropDownListBox@UI@@SGPAV12@XZ");
     todo("implement");
-    UI::NewDropDownListBox * __result = _sub_672258();
-    return __result;
 }
 
 /* ---------- private code */

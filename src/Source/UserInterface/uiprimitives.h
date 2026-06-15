@@ -184,12 +184,10 @@ static_assert(sizeof(UICustom) == 12, "Invalid UICustom size");
 
 /* ---------- public code */
 
-_extern _sub_67FBAC(UITexturedQuad *const);
 _inline UITexturedQuad::UITexturedQuad() // 0x67FBAC
 {
     mangled_assert("??0UITexturedQuad@@QAE@XZ");
     todo("implement");
-    _sub_67FBAC(this);
 }
 
 /* ---------- private code */

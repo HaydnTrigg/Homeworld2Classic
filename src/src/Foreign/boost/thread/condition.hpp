@@ -52,44 +52,34 @@ static_assert(sizeof(boost::condition) == 24, "Invalid boost::condition size");
 
 /* ---------- public code */
 
-_extern _sub_6D7C8F(boost::condition *const);
 _inline boost::condition::condition() // 0x6D7C8F
 {
     mangled_assert("??0condition@boost@@QAE@XZ");
     todo("implement");
-    _sub_6D7C8F(this);
 }
 
-_extern void _sub_6D7E83(boost::condition *const);
 _inline boost::condition::~condition() // 0x6D7E83
 {
     mangled_assert("??1condition@boost@@QAE@XZ");
     todo("implement");
-    _sub_6D7E83(this);
 }
 
-_extern void _sub_6D845A(boost::condition *const);
 _inline void boost::condition::notify_one() // 0x6D845A
 {
     mangled_assert("?notify_one@condition@boost@@QAEXXZ");
     todo("implement");
-    _sub_6D845A(this);
 }
 
-_extern void _sub_6D7B37(boost::condition *const, boost::detail::thread::scoped_lock<boost::mutex> &);
 _inline void boost::condition::wait<boost::detail::thread::scoped_lock<boost::mutex> >(boost::detail::thread::scoped_lock<boost::mutex> &) // 0x6D7B37
 {
     mangled_assert("??$wait@V?$scoped_lock@Vmutex@boost@@@thread@detail@boost@@@condition@boost@@QAEXAAV?$scoped_lock@Vmutex@boost@@@thread@detail@1@@Z");
     todo("implement");
-    _sub_6D7B37(this, arg);
 }
 
-_extern void _sub_6D7AAB(boost::condition *const, boost::mutex &);
 _inline void boost::condition::do_wait<boost::mutex>(boost::mutex &) // 0x6D7AAB
 {
     mangled_assert("??$do_wait@Vmutex@boost@@@condition@boost@@AAEXAAVmutex@1@@Z");
     todo("implement");
-    _sub_6D7AAB(this, arg);
 }
 
 /* ---------- private code */

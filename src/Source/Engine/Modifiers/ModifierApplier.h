@@ -33,22 +33,16 @@ static_assert(sizeof(ModifierApplier) == 12, "Invalid ModifierApplier size");
 
 /* ---------- public code */
 
-_extern bool _sub_48D628(ModifierApplier const *const);
 _inline bool ModifierApplier::hasEffectsToApply() const // 0x48D628
 {
     mangled_assert("?hasEffectsToApply@ModifierApplier@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_48D628(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_48C891(ModifierApplier const *const);
 _inline unsigned __int32 ModifierApplier::getNumberOfEffects() const // 0x48C891
 {
     mangled_assert("?getNumberOfEffects@ModifierApplier@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_48C891(this);
-    return __result;
 }
 
 /* ---------- private code */

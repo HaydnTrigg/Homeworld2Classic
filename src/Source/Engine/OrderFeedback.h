@@ -72,13 +72,10 @@ static_assert(sizeof(OrderFeedbackManager) == 12, "Invalid OrderFeedbackManager 
 
 /* ---------- public code */
 
-_extern unsigned __int32 _sub_61261E(OrderFeedbackManager const *const);
 _inline unsigned __int32 OrderFeedbackManager::getFadeValue() const // 0x61261E
 {
     mangled_assert("?getFadeValue@OrderFeedbackManager@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_61261E(this);
-    return __result;
 }
 
 /* ---------- private code */

@@ -284,22 +284,16 @@ extern __int32 WinMain(HINSTANCE__ *hInstance, HINSTANCE__ *hPrevInstance, char 
 
 /* ---------- public code */
 
-_extern bool _sub_65521E();
 bool CheckWritePermissions() // 0x65521E
 {
     mangled_assert("?CheckWritePermissions@@YG_NXZ");
     todo("implement");
-    bool __result = _sub_65521E();
-    return __result;
 }
 
-_extern __int32 _sub_655257(HINSTANCE__ *, HINSTANCE__ *, char *, __int32);
 __int32 WinMain(HINSTANCE__ *hInstance, HINSTANCE__ *hPrevInstance, char *lpCmdLine, __int32 nCmdShow) // 0x655257
 {
     mangled_assert("_WinMain@16");
     todo("implement");
-    __int32 __result = _sub_655257(hInstance, hPrevInstance, lpCmdLine, nCmdShow);
-    return __result;
 }
 
 /* ---------- private code */

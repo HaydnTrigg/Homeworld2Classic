@@ -31,12 +31,10 @@ static_assert(sizeof(SalvageStatic) == 724, "Invalid SalvageStatic size");
 
 /* ---------- public code */
 
-_extern _sub_4B1BBA(SalvageStatic *const, std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, SobType);
 _inline SalvageStatic::SalvageStatic(std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &, SobType) // 0x4B1BBA
 {
     mangled_assert("??0SalvageStatic@@IAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4SobType@@@Z");
     todo("implement");
-    _sub_4B1BBA(this, arg, arg);
 }
 
 /* ---------- private code */

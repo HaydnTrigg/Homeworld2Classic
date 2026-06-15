@@ -145,147 +145,107 @@ extern SaveData const ResearchData::m_saveData[16]; // 0x798758
 
 /* ---------- public code */
 
-_extern _sub_4ED051(ResearchData *const);
 ResearchData::ResearchData() // 0x4ED051
 {
     mangled_assert("??0ResearchData@@AAE@XZ");
     todo("implement");
-    _sub_4ED051(this);
 }
 
-_extern void _sub_4ED13A(ResearchData *const);
 ResearchData::~ResearchData() // 0x4ED13A
 {
     mangled_assert("??1ResearchData@@UAE@XZ");
     todo("implement");
-    _sub_4ED13A(this);
 }
 
-_extern void _sub_4ED327(LuaConfig &, Player *);
 void ResearchData::CreateResearchData(LuaConfig &lc, Player *pOwner) // 0x4ED327
 {
     mangled_assert("?CreateResearchData@ResearchData@@SGXAAVLuaConfig@@PAVPlayer@@@Z");
     todo("implement");
-    _sub_4ED327(lc, pOwner);
 }
 
-_extern bool _sub_4ED9F0(ResearchData *const, float);
 bool ResearchData::update(float) // 0x4ED9F0
 {
     mangled_assert("?update@ResearchData@@QAE_NM@Z");
     todo("implement");
-    bool __result = _sub_4ED9F0(this, arg);
-    return __result;
 }
 
-_extern void _sub_4ED9BC(ResearchData *const, float);
 void ResearchData::startResearch(float) // 0x4ED9BC
 {
     mangled_assert("?startResearch@ResearchData@@QAEXM@Z");
     todo("implement");
-    _sub_4ED9BC(this, arg);
 }
 
-_extern void _sub_4ED7A5(ResearchData *const);
 void ResearchData::cancelResearch() // 0x4ED7A5
 {
     mangled_assert("?cancelResearch@ResearchData@@QAEXXZ");
     todo("implement");
-    _sub_4ED7A5(this);
 }
 
-_extern void _sub_4ED8E8(ResearchData *const);
 void ResearchData::instantlyCompleteResearch() // 0x4ED8E8
 {
     mangled_assert("?instantlyCompleteResearch@ResearchData@@QAEXXZ");
     todo("implement");
-    _sub_4ED8E8(this);
 }
 
-_extern bool _sub_4ED1CE(ResearchData *const);
 bool ResearchData::ApplyUpgrade() // 0x4ED1CE
 {
     mangled_assert("?ApplyUpgrade@ResearchData@@AAE_NXZ");
     todo("implement");
-    bool __result = _sub_4ED1CE(this);
-    return __result;
 }
 
-_extern void _sub_4ED267(ResearchData *const, Ship *);
 void ResearchData::ApplyUpgradeToShip(Ship *) // 0x4ED267
 {
     mangled_assert("?ApplyUpgradeToShip@ResearchData@@QAEXPAVShip@@@Z");
     todo("implement");
-    _sub_4ED267(this, arg);
 }
 
-_extern bool _sub_4ED834(ResearchData *const, Ship *);
 bool ResearchData::doWeUpgradeThisShip(Ship *) // 0x4ED834
 {
     mangled_assert("?doWeUpgradeThisShip@ResearchData@@QAE_NPAVShip@@@Z");
     todo("implement");
-    bool __result = _sub_4ED834(this, arg);
-    return __result;
 }
 
-_extern bool _sub_4ED908(ResearchData const *const);
 bool ResearchData::isRestricted() const // 0x4ED908
 {
     mangled_assert("?isRestricted@ResearchData@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_4ED908(this);
-    return __result;
 }
 
-_extern _sub_4ED0BF(ResearchData *const, SaveGameData *);
 ResearchData::ResearchData(SaveGameData *) // 0x4ED0BF
 {
     mangled_assert("??0ResearchData@@QAE@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_4ED0BF(this, arg);
 }
 
-_extern void _sub_4ED133(GameEvent_Research *const);
 _inline GameEvent_Research::~GameEvent_Research() // 0x4ED133
 {
     mangled_assert("??1GameEvent_Research@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4ED133(this);
 }
 
-_extern void _sub_4ED7EE(ResearchData *const);
 void ResearchData::defaultSettings() // 0x4ED7EE
 {
     mangled_assert("?defaultSettings@ResearchData@@QAEXXZ");
     todo("implement");
-    _sub_4ED7EE(this);
 }
 
-_extern void _sub_4ED90C(ResearchData *const);
 void ResearchData::postRestore() // 0x4ED90C
 {
     mangled_assert("?postRestore@ResearchData@@UAEXXZ");
     todo("implement");
-    _sub_4ED90C(this);
 }
 
-_extern bool _sub_4ED922(ResearchData *const, SaveGameData *);
 bool ResearchData::restore(SaveGameData *) // 0x4ED922
 {
     mangled_assert("?restore@ResearchData@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_4ED922(this, arg);
-    return __result;
 }
 
-_extern bool _sub_4ED96F(ResearchData *const, SaveGameData *, SaveType);
 bool ResearchData::save(SaveGameData *, SaveType) // 0x4ED96F
 {
     mangled_assert("?save@ResearchData@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_4ED96F(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

@@ -38,12 +38,10 @@ static_assert(sizeof(StateParserVariable) == 124, "Invalid StateParserVariable s
 
 /* ---------- public code */
 
-_extern _sub_100BFB70(StateParserVariable *const);
 _inline StateParserVariable::StateParserVariable() // 0x100BFB70
 {
     mangled_assert("??0StateParserVariable@@QAE@XZ");
     todo("implement");
-    _sub_100BFB70(this);
 }
 
 /* ---------- private code */

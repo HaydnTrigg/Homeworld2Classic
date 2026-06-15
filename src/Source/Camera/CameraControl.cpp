@@ -257,77 +257,58 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_668495(CameraControl *const);
 CameraControl::CameraControl() // 0x668495
 {
     mangled_assert("??0CameraControl@@QAE@XZ");
     todo("implement");
-    _sub_668495(this);
 }
 
-_extern void _sub_6687B8(CameraControl *const);
 void CameraControl::initTuning() // 0x6687B8
 {
     mangled_assert("?initTuning@CameraControl@@AAEXXZ");
     todo("implement");
-    _sub_6687B8(this);
 }
 
-_extern void _sub_6688C6(CameraControl *const, float const, float const);
 void CameraControl::mouseMoved(float const, float const) // 0x6688C6
 {
     mangled_assert("?mouseMoved@CameraControl@@QAEXMM@Z");
     todo("implement");
-    _sub_6688C6(this, arg, arg);
 }
 
-_extern void _sub_6689FD(CameraControl *const, float);
 void CameraControl::setZoomFactor(float) // 0x6689FD
 {
     mangled_assert("?setZoomFactor@CameraControl@@QAEXM@Z");
     todo("implement");
-    _sub_6689FD(this, arg);
 }
 
-_extern void _sub_668A0B(CameraControl *const, bool);
 void CameraControl::zoom(bool) // 0x668A0B
 {
     mangled_assert("?zoom@CameraControl@@QAEX_N@Z");
     todo("implement");
-    _sub_668A0B(this, arg);
 }
 
-_extern void _sub_6688DE(CameraControl *const, OrbitParameters &, float const);
 void CameraControl::mouseWheelZoom(OrbitParameters &, float const) // 0x6688DE
 {
     mangled_assert("?mouseWheelZoom@CameraControl@@AAEXAAVOrbitParameters@@M@Z");
     todo("implement");
-    _sub_6688DE(this, arg, arg);
 }
 
-_extern void _sub_6684C2();
 void Start360Screenshot() // 0x6684C2
 {
     mangled_assert("?Start360Screenshot@@YGXXZ");
     todo("implement");
-    _sub_6684C2();
 }
 
-_extern void _sub_668512(CameraControl *const, OrbitParameters &, float const, bool const, bool const, float &);
 void CameraControl::execute(OrbitParameters &, float const, bool const, bool const, float &) // 0x668512
 {
     mangled_assert("?execute@CameraControl@@QAEXAAVOrbitParameters@@M_N1AAM@Z");
     todo("implement");
-    _sub_668512(this, arg, arg, arg, arg, arg);
 }
 
-_extern bool _sub_6687DC(CameraControl *const, char const *);
 bool CameraControl::loadTuning(char const *) // 0x6687DC
 {
     mangled_assert("?loadTuning@CameraControl@@QAE_NPBD@Z");
     todo("implement");
-    bool __result = _sub_6687DC(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

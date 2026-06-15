@@ -106,36 +106,28 @@ extern UI::GameTypeInfo *UI::GameTypeInfo::ms_screen; // 0x846CCC
 
 /* ---------- public code */
 
-_extern _sub_58BA89(UI::GameTypeInfo *const, char const *);
 UI::GameTypeInfo::GameTypeInfo(char const *) // 0x58BA89
 {
     mangled_assert("??0GameTypeInfo@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_58BA89(this, arg);
 }
 
-_extern void _sub_58BAA7(UI::GameTypeInfo *const);
 UI::GameTypeInfo::~GameTypeInfo() // 0x58BAA7
 {
     mangled_assert("??1GameTypeInfo@UI@@UAE@XZ");
     todo("implement");
-    _sub_58BAA7(this);
 }
 
-_extern void _sub_58BAD5(UI::GameTypeInfo *const);
 void UI::GameTypeInfo::OnPostLoad() // 0x58BAD5
 {
     mangled_assert("?OnPostLoad@GameTypeInfo@UI@@MAEXXZ");
     todo("implement");
-    _sub_58BAD5(this);
 }
 
-_extern void _sub_58BB0E(GameRulesLibrary::GameRulesDescription const *);
 void UI::GameTypeInfo::Show(GameRulesLibrary::GameRulesDescription const *desc) // 0x58BB0E
 {
     mangled_assert("?Show@GameTypeInfo@UI@@SGXPBUGameRulesDescription@GameRulesLibrary@@@Z");
     todo("implement");
-    _sub_58BB0E(desc);
 }
 
 /* ---------- private code */

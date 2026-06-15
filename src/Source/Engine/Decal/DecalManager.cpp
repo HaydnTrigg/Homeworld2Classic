@@ -205,208 +205,151 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_5C14BD(DecalManager::Data *const);
 _inline DecalManager::Data::Data() // 0x5C14BD
 {
     mangled_assert("??0Data@DecalManager@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5C14BD(this);
 }
 
-_extern _sub_5C14C9(DecalManager *const);
 DecalManager::DecalManager() // 0x5C14C9
 {
     mangled_assert("??0DecalManager@@QAE@XZ");
     todo("implement");
-    _sub_5C14C9(this);
 }
 
-_extern void _sub_5C155B(DecalManager *const);
 DecalManager::~DecalManager() // 0x5C155B
 {
     mangled_assert("??1DecalManager@@QAE@XZ");
     todo("implement");
-    _sub_5C155B(this);
 }
 
-_extern void _sub_5C17D8(DecalManager *const, unsigned __int32);
 void DecalManager::Initialize(unsigned __int32) // 0x5C17D8
 {
     mangled_assert("?Initialize@DecalManager@@QAEXI@Z");
     todo("implement");
-    _sub_5C17D8(this, arg);
 }
 
-_extern DecalManager::Object *_sub_5C1758(DecalManager *const);
 DecalManager::Object *DecalManager::DecalNew() // 0x5C1758
 {
     mangled_assert("?DecalNew@DecalManager@@QAEPAVObject@1@XZ");
     todo("implement");
-    DecalManager::Object * __result = _sub_5C1758(this);
-    return __result;
 }
 
-_extern void _sub_5C173B(DecalManager *const, DecalManager::Object *);
 void DecalManager::DecalDestroy(DecalManager::Object *) // 0x5C173B
 {
     mangled_assert("?DecalDestroy@DecalManager@@QAEXPAVObject@1@@Z");
     todo("implement");
-    _sub_5C173B(this, arg);
 }
 
-_extern VertexPool &_sub_5C17D5(DecalManager *const);
 VertexPool &DecalManager::GetVertexPool() // 0x5C17D5
 {
     mangled_assert("?GetVertexPool@DecalManager@@QAEAAVVertexPool@@XZ");
     todo("implement");
-    VertexPool & __result = _sub_5C17D5(this);
-    return __result;
 }
 
-_extern void _sub_5C1930(DecalManager *const, unsigned __int32);
 void DecalManager::RenderBegin(unsigned __int32) // 0x5C1930
 {
     mangled_assert("?RenderBegin@DecalManager@@QAEXI@Z");
     todo("implement");
-    _sub_5C1930(this, arg);
 }
 
-_extern void _sub_5C1937(DecalManager *const);
 void DecalManager::RenderEnd() // 0x5C1937
 {
     mangled_assert("?RenderEnd@DecalManager@@QAEXXZ");
     todo("implement");
-    _sub_5C1937(this);
 }
 
-_extern _sub_5C150A(DecalManager::Object *const, DecalManager *);
 DecalManager::Object::Object(DecalManager *) // 0x5C150A
 {
     mangled_assert("??0Object@DecalManager@@AAE@PAV1@@Z");
     todo("implement");
-    _sub_5C150A(this, arg);
 }
 
-_extern _sub_5C1546(DecalManager::Object::TextureCoords *const);
 _inline DecalManager::Object::TextureCoords::TextureCoords() // 0x5C1546
 {
     mangled_assert("??0TextureCoords@Object@DecalManager@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5C1546(this);
 }
 
-_extern void _sub_5C1556(DecalManager::Data *const);
 _inline DecalManager::Data::~Data() // 0x5C1556
 {
     mangled_assert("??1Data@DecalManager@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5C1556(this);
 }
 
-_extern void _sub_5C1563(DecalManager::Object *const);
 DecalManager::Object::~Object() // 0x5C1563
 {
     mangled_assert("??1Object@DecalManager@@AAE@XZ");
     todo("implement");
-    _sub_5C1563(this);
 }
 
-_extern void _sub_5C1EB1(DecalManager::Object *const);
 void DecalManager::Object::freeVertices() // 0x5C1EB1
 {
     mangled_assert("?freeVertices@Object@DecalManager@@AAEXXZ");
     todo("implement");
-    _sub_5C1EB1(this);
 }
 
-_extern bool _sub_5C1B36(DecalManager::Object *const, DecalRefMesh const *, std::vector<FatVertex,std::allocator<FatVertex> > const &, std::vector<unsigned short,std::allocator<unsigned short> > const &, std::vector<unsigned short,std::allocator<unsigned short> > const &);
 bool DecalManager::Object::SetMesh(DecalRefMesh const *, std::vector<FatVertex,std::allocator<FatVertex> > const &, std::vector<unsigned short,std::allocator<unsigned short> > const &, std::vector<unsigned short,std::allocator<unsigned short> > const &) // 0x5C1B36
 {
     mangled_assert("?SetMesh@Object@DecalManager@@QAE_NPBVDecalRefMesh@@ABV?$vector@UFatVertex@@V?$allocator@UFatVertex@@@std@@@std@@ABV?$vector@GV?$allocator@G@std@@@5@2@Z");
     todo("implement");
-    bool __result = _sub_5C1B36(this, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern void _sub_5C17A1(DecalManager::Object const *const, std::vector<FatVertex,std::allocator<FatVertex> > &, std::vector<unsigned short,std::allocator<unsigned short> > &, std::vector<unsigned short,std::allocator<unsigned short> > &);
 void DecalManager::Object::GetMesh(std::vector<FatVertex,std::allocator<FatVertex> > &, std::vector<unsigned short,std::allocator<unsigned short> > &, std::vector<unsigned short,std::allocator<unsigned short> > &) const // 0x5C17A1
 {
     mangled_assert("?GetMesh@Object@DecalManager@@QBEXAAV?$vector@UFatVertex@@V?$allocator@UFatVertex@@@std@@@std@@AAV?$vector@GV?$allocator@G@std@@@4@1@Z");
     todo("implement");
-    _sub_5C17A1(this, arg, arg, arg);
 }
 
-_extern std::vector<unsigned short,std::allocator<unsigned short> > const &_sub_5C17D1(DecalManager::Object const *const);
 std::vector<unsigned short,std::allocator<unsigned short> > const &DecalManager::Object::GetTriIndices() const // 0x5C17D1
 {
     mangled_assert("?GetTriIndices@Object@DecalManager@@QBEABV?$vector@GV?$allocator@G@std@@@std@@XZ");
     todo("implement");
-    std::vector<unsigned short,std::allocator<unsigned short> > const & __result = _sub_5C17D1(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_5C17C8(DecalManager::Object const *const);
 unsigned __int32 DecalManager::Object::GetNumTriangles() const // 0x5C17C8
 {
     mangled_assert("?GetNumTriangles@Object@DecalManager@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_5C17C8(this);
-    return __result;
 }
 
-_extern void _sub_5C17EA(DecalManager::Object *const);
 void DecalManager::Object::Render() // 0x5C17EA
 {
     mangled_assert("?Render@Object@DecalManager@@QAEXXZ");
     todo("implement");
-    _sub_5C17EA(this);
 }
 
-_extern DecalManager::Object &_sub_5C15B8(DecalManager::Object *const, DecalManager::Object const &);
 DecalManager::Object &DecalManager::Object::operator=(DecalManager::Object const &) // 0x5C15B8
 {
     mangled_assert("??4Object@DecalManager@@QAEAAV01@ABV01@@Z");
     todo("implement");
-    DecalManager::Object & __result = _sub_5C15B8(this, arg);
-    return __result;
 }
 
-_extern bool _sub_5C1A82(DecalManager::Object const *const, SaveGameData *);
 bool DecalManager::Object::Save(SaveGameData *) const // 0x5C1A82
 {
     mangled_assert("?Save@Object@DecalManager@@QBE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_5C1A82(this, arg);
-    return __result;
 }
 
-_extern bool _sub_5C193E(DecalManager::Object *const, SaveGameData *);
 bool DecalManager::Object::Restore(SaveGameData *) // 0x5C193E
 {
     mangled_assert("?Restore@Object@DecalManager@@QAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_5C193E(this, arg);
-    return __result;
 }
 
-_extern bool _sub_5C19CF(DecalManager::Object *const);
 bool DecalManager::Object::RestoreMesh() // 0x5C19CF
 {
     mangled_assert("?RestoreMesh@Object@DecalManager@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_5C19CF(this);
-    return __result;
 }
 
-_extern void _sub_5C1EE7(DecalManager::Object const *const, DecalRefMesh const *, std::vector<unsigned short,std::allocator<unsigned short> > const &, std::vector<DecalManager::Object::TextureCoords,std::allocator<DecalManager::Object::TextureCoords> > const &, std::vector<FatVertex,std::allocator<FatVertex> > &, std::vector<unsigned short,std::allocator<unsigned short> > &);
 void DecalManager::Object::getVertices(DecalRefMesh const *, std::vector<unsigned short,std::allocator<unsigned short> > const &, std::vector<DecalManager::Object::TextureCoords,std::allocator<DecalManager::Object::TextureCoords> > const &, std::vector<FatVertex,std::allocator<FatVertex> > &, std::vector<unsigned short,std::allocator<unsigned short> > &) const // 0x5C1EE7
 {
     mangled_assert("?getVertices@Object@DecalManager@@ABEXPBVDecalRefMesh@@ABV?$vector@GV?$allocator@G@std@@@std@@ABV?$vector@UTextureCoords@Object@DecalManager@@V?$allocator@UTextureCoords@Object@DecalManager@@@std@@@5@AAV?$vector@UFatVertex@@V?$allocator@UFatVertex@@@std@@@5@AAV45@@Z");
     todo("implement");
-    _sub_5C1EE7(this, arg, arg, arg, arg, arg);
 }
 
 /* ---------- private code */

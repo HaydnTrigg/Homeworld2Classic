@@ -39,22 +39,16 @@ static_assert(sizeof(Point) == 564, "Invalid Point size");
 
 /* ---------- public code */
 
-_extern bool _sub_4B1F68(Point *const);
 _inline bool Point::isDeterministic() // 0x4B1F68
 {
     mangled_assert("?isDeterministic@Point@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4B1F68(this);
-    return __result;
 }
 
-_extern char const *_sub_4B2004(Point *const);
 _inline char const *Point::saveToken() // 0x4B2004
 {
     mangled_assert("?saveToken@Point@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4B2004(this);
-    return __result;
 }
 
 /* ---------- private code */

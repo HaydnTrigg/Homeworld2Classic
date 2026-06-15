@@ -317,136 +317,94 @@ _static
 
 /* ---------- public code */
 
-_extern bool _sub_1000A325(char const *);
 bool Plat::File::Setup(char const *workingdir) // 0x1000A325
 {
     mangled_assert("?Setup@File@Plat@@YG_NPBD@Z");
     todo("implement");
-    bool __result = _sub_1000A325(workingdir);
-    return __result;
 }
 
-_extern void _sub_1000A407();
 void Plat::File::Shutdown() // 0x1000A407
 {
     mangled_assert("?Shutdown@File@Plat@@YGXXZ");
     todo("implement");
-    _sub_1000A407();
 }
 
-_extern char const *_sub_1000A31F();
 char const *Plat::File::GetPathExe() // 0x1000A31F
 {
     mangled_assert("?GetPathExe@File@Plat@@YGPBDXZ");
     todo("implement");
-    char const * __result = _sub_1000A31F();
-    return __result;
 }
 
-_extern char const *_sub_1000A319();
 char const *Plat::File::GetPathDrivers() // 0x1000A319
 {
     mangled_assert("?GetPathDrivers@File@Plat@@YGPBDXZ");
     todo("implement");
-    char const * __result = _sub_1000A319();
-    return __result;
 }
 
-_extern char const *_sub_1000A313();
 char const *Plat::File::GetPathCWD() // 0x1000A313
 {
     mangled_assert("?GetPathCWD@File@Plat@@YGPBDXZ");
     todo("implement");
-    char const * __result = _sub_1000A313();
-    return __result;
 }
 
-_extern std::basic_string<char,std::char_traits<char>,std::allocator<char> > _sub_1000A0F5(char const *);
 std::basic_string<char,std::char_traits<char>,std::allocator<char> > Plat::File::ConvertToFilename(char const *s) // 0x1000A0F5
 {
     mangled_assert("?ConvertToFilename@File@Plat@@YG?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PBD@Z");
     todo("implement");
-    std::string __result = _sub_1000A0F5(s);
-    return __result;
 }
 
-_extern unsigned long _sub_1000A2E0(char const *);
 unsigned long Plat::File::GetFileAttr(char const *fname) // 0x1000A2E0
 {
     mangled_assert("?GetFileAttr@File@Plat@@YGKPBD@Z");
     todo("implement");
-    unsigned long __result = _sub_1000A2E0(fname);
-    return __result;
 }
 
-_extern unsigned long _sub_1000A1C7(char const *, Plat::File::FileOpenMode);
 unsigned long Plat::File::FileOpen(char const *fname, Plat::File::FileOpenMode mode) // 0x1000A1C7
 {
     mangled_assert("?FileOpen@File@Plat@@YGKPBDW4FileOpenMode@12@@Z");
     todo("implement");
-    unsigned long __result = _sub_1000A1C7(fname, mode);
-    return __result;
 }
 
-_extern void _sub_1000A15F(unsigned long);
 void Plat::File::FileClose(unsigned long h) // 0x1000A15F
 {
     mangled_assert("?FileClose@File@Plat@@YGXK@Z");
     todo("implement");
-    _sub_1000A15F(h);
 }
 
-_extern unsigned long _sub_1000A1A1(unsigned long);
 unsigned long Plat::File::FileGetPos(unsigned long h) // 0x1000A1A1
 {
     mangled_assert("?FileGetPos@File@Plat@@YGKK@Z");
     todo("implement");
-    unsigned long __result = _sub_1000A1A1(h);
-    return __result;
 }
 
-_extern bool _sub_1000A27C(unsigned long, unsigned long);
 bool Plat::File::FileSetPos(unsigned long h, unsigned long pos) // 0x1000A27C
 {
     mangled_assert("?FileSetPos@File@Plat@@YG_NKK@Z");
     todo("implement");
-    bool __result = _sub_1000A27C(h, pos);
-    return __result;
 }
 
-_extern unsigned long _sub_1000A17F(unsigned long);
 unsigned long Plat::File::FileGetLen(unsigned long h) // 0x1000A17F
 {
     mangled_assert("?FileGetLen@File@Plat@@YGKK@Z");
     todo("implement");
-    unsigned long __result = _sub_1000A17F(h);
-    return __result;
 }
 
-_extern unsigned long _sub_1000A2A2(unsigned long, void const *, unsigned long);
 unsigned long Plat::File::FileWrite(unsigned long h, void const *data, unsigned long len) // 0x1000A2A2
 {
     mangled_assert("?FileWrite@File@Plat@@YGKKPBXK@Z");
     todo("implement");
-    unsigned long __result = _sub_1000A2A2(h, data, len);
-    return __result;
 }
 
-_extern unsigned long _sub_1000A23E(unsigned long, void *, unsigned long);
 unsigned long Plat::File::FileRead(unsigned long h, void *data, unsigned long len) // 0x1000A23E
 {
     mangled_assert("?FileRead@File@Plat@@YGKKPAXK@Z");
     todo("implement");
-    unsigned long __result = _sub_1000A23E(h, data, len);
-    return __result;
 }
 
-_extern void _sub_1000A16F(unsigned long);
 void Plat::File::FileFlush(unsigned long h) // 0x1000A16F
 {
     mangled_assert("?FileFlush@File@Plat@@YGXK@Z");
     todo("implement");
-    _sub_1000A16F(h);
 }
 
 /* ---------- private code */

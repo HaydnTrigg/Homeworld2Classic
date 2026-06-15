@@ -233,92 +233,64 @@ static_assert(sizeof(Material) == 100, "Invalid Material size");
 
 /* ---------- public code */
 
-_extern void _sub_1001A830(Modifier *const, Material *, unsigned __int32 *);
 _inline void Modifier::modify(Material *, unsigned __int32 *) // 0x1001A830
 {
     mangled_assert("?modify@Modifier@@UAEXPAVMaterial@@PAI@Z");
     todo("implement");
-    _sub_1001A830(this, arg, arg);
 }
 
-_extern void _sub_1001A840(Modifier *const, VertexArray *, unsigned __int32 *, bool);
 _inline void Modifier::modify(VertexArray *, unsigned __int32 *, bool) // 0x1001A840
 {
     mangled_assert("?modify@Modifier@@UAEXPAVVertexArray@@PAI_N@Z");
     todo("implement");
-    _sub_1001A840(this, arg, arg, arg);
 }
 
-_extern __int32 _sub_10019380(Material const *const);
 _inline __int32 Material::getNumLayers() const // 0x10019380
 {
     mangled_assert("?getNumLayers@Material@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_10019380(this);
-    return __result;
 }
 
-_extern BlendFunc _sub_10019470(Material const *const);
 _inline BlendFunc Material::getSourceBlend() const // 0x10019470
 {
     mangled_assert("?getSourceBlend@Material@@QBE?AW4BlendFunc@@XZ");
     todo("implement");
-    BlendFunc __result = _sub_10019470(this);
-    return __result;
 }
 
-_extern BlendFunc _sub_10019210(Material const *const);
 _inline BlendFunc Material::getDestBlend() const // 0x10019210
 {
     mangled_assert("?getDestBlend@Material@@QBE?AW4BlendFunc@@XZ");
     todo("implement");
-    BlendFunc __result = _sub_10019210(this);
-    return __result;
 }
 
-_extern vector4 const &_sub_10019100(Material const *const);
 _inline vector4 const &Material::getAmbient() const // 0x10019100
 {
     mangled_assert("?getAmbient@Material@@QBEABVvector4@@XZ");
     todo("implement");
-    vector4 const & __result = _sub_10019100(this);
-    return __result;
 }
 
-_extern vector4 const &_sub_10019220(Material const *const);
 _inline vector4 const &Material::getDiffuse() const // 0x10019220
 {
     mangled_assert("?getDiffuse@Material@@QBEABVvector4@@XZ");
     todo("implement");
-    vector4 const & __result = _sub_10019220(this);
-    return __result;
 }
 
-_extern vector4 const &_sub_10019480(Material const *const);
 _inline vector4 const &Material::getSpecular() const // 0x10019480
 {
     mangled_assert("?getSpecular@Material@@QBEABVvector4@@XZ");
     todo("implement");
-    vector4 const & __result = _sub_10019480(this);
-    return __result;
 }
 
-_extern float _sub_10019460(Material const *const);
 _inline float Material::getShininess() const // 0x10019460
 {
     mangled_assert("?getShininess@Material@@QBEMXZ");
     todo("implement");
-    float __result = _sub_10019460(this);
-    return __result;
 }
 
-_extern vector4 const &_sub_10019230(Material const *const);
 _inline vector4 const &Material::getEmission() const // 0x10019230
 {
     mangled_assert("?getEmission@Material@@QBEABVvector4@@XZ");
     todo("implement");
-    vector4 const & __result = _sub_10019230(this);
-    return __result;
 }
 
 /* ---------- private code */

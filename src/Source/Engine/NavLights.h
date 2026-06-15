@@ -74,22 +74,16 @@ static_assert(sizeof(NavLights) == 40, "Invalid NavLights size");
 
 /* ---------- public code */
 
-_extern SobWithMesh const *_sub_60A596(NavLights const *const);
 _inline SobWithMesh const *NavLights::getSobWithMesh() const // 0x60A596
 {
     mangled_assert("?getSobWithMesh@NavLights@@QBEPBVSobWithMesh@@XZ");
     todo("implement");
-    SobWithMesh const * __result = _sub_60A596(this);
-    return __result;
 }
 
-_extern JointAnimStack const *_sub_60A56E(NavLights const *const, unsigned __int32);
 _inline JointAnimStack const *NavLights::getJoint(unsigned __int32) const // 0x60A56E
 {
     mangled_assert("?getJoint@NavLights@@QBEPBVJointAnimStack@@I@Z");
     todo("implement");
-    JointAnimStack const * __result = _sub_60A56E(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

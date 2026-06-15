@@ -95,22 +95,16 @@ static_assert(sizeof(EffectContainer) == 32, "Invalid EffectContainer size");
 
 /* ---------- public code */
 
-_extern SobVis *_sub_51A5ED(EffectContainer *const);
 _inline SobVis *EffectContainer::getSobVis() // 0x51A5ED
 {
     mangled_assert("?getSobVis@EffectContainer@@IAEPAVSobVis@@XZ");
     todo("implement");
-    SobVis * __result = _sub_51A5ED(this);
-    return __result;
 }
 
-_extern bool _sub_51A61D(EffectContainer const *const, EffectContainer::Effect const &, unsigned __int32);
 _inline bool EffectContainer::isFlagSet(EffectContainer::Effect const &, unsigned __int32) const // 0x51A61D
 {
     mangled_assert("?isFlagSet@EffectContainer@@IBE_NABUEffect@1@I@Z");
     todo("implement");
-    bool __result = _sub_51A61D(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

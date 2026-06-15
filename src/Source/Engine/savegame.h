@@ -99,20 +99,16 @@ static_assert(sizeof(GameIO) == 3, "Invalid GameIO size");
 
 /* ---------- public code */
 
-_extern _sub_6271AF(GameIO *const);
 _inline GameIO::GameIO() // 0x6271AF
 {
     mangled_assert("??0GameIO@@AAE@XZ");
     todo("implement");
-    _sub_6271AF(this);
 }
 
-_extern void _sub_62723A(GameIO *const);
 _inline GameIO::~GameIO() // 0x62723A
 {
     mangled_assert("??1GameIO@@AAE@XZ");
     todo("implement");
-    _sub_62723A(this);
 }
 
 /* ---------- private code */

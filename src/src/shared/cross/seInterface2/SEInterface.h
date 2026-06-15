@@ -138,22 +138,16 @@ static_assert(sizeof(seInterface) == 28, "Invalid seInterface size");
 
 /* ---------- public code */
 
-_extern seInterfaceFunc *_sub_6C6A84(seInterface *const);
 _inline seInterfaceFunc *seInterface::GetFunctions() // 0x6C6A84
 {
     mangled_assert("?GetFunctions@seInterface@@IAEPAVseInterfaceFunc@@XZ");
     todo("implement");
-    seInterfaceFunc * __result = _sub_6C6A84(this);
-    return __result;
 }
 
-_extern seInterface *_sub_6BDB4C();
 _inline seInterface *seInterface::i() // 0x6BDB4C
 {
     mangled_assert("?i@seInterface@@SGPAV1@XZ");
     todo("implement");
-    seInterface * __result = _sub_6BDB4C();
-    return __result;
 }
 
 /* ---------- private code */

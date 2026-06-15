@@ -89,22 +89,16 @@ static_assert(sizeof(UnitCaps) == 28, "Invalid UnitCaps size");
 
 /* ---------- public code */
 
-_extern bool _sub_64FD55(UnitCaps *const);
 _inline bool UnitCaps::isDeterministic() // 0x64FD55
 {
     mangled_assert("?isDeterministic@UnitCaps@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_64FD55(this);
-    return __result;
 }
 
-_extern char const *_sub_6508C0(UnitCaps *const);
 _inline char const *UnitCaps::saveToken() // 0x6508C0
 {
     mangled_assert("?saveToken@UnitCaps@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6508C0(this);
-    return __result;
 }
 
 /* ---------- private code */

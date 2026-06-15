@@ -30,39 +30,28 @@ static_assert(sizeof(PrimRectangle) == 16, "Invalid PrimRectangle size");
 
 /* ---------- public code */
 
-_extern bool _sub_4658A6(PrimRectangle const *const, float, float);
 _inline bool PrimRectangle::isOn(float, float) const // 0x4658A6
 {
     mangled_assert("?isOn@PrimRectangle@@QBE_NMM@Z");
     todo("implement");
-    bool __result = _sub_4658A6(this, arg, arg);
-    return __result;
 }
 
-_extern float _sub_467261(PrimRectangle const *const);
 _inline float PrimRectangle::x1() const // 0x467261
 {
     mangled_assert("?x1@PrimRectangle@@QBEMXZ");
     todo("implement");
-    float __result = _sub_467261(this);
-    return __result;
 }
 
-_extern float _sub_467278(PrimRectangle const *const);
 _inline float PrimRectangle::y1() const // 0x467278
 {
     mangled_assert("?y1@PrimRectangle@@QBEMXZ");
     todo("implement");
-    float __result = _sub_467278(this);
-    return __result;
 }
 
-_extern void _sub_45A7FC(PrimRectangle *const);
 _inline void PrimRectangle::empty() // 0x45A7FC
 {
     mangled_assert("?empty@PrimRectangle@@QAEXXZ");
     todo("implement");
-    _sub_45A7FC(this);
 }
 
 /* ---------- private code */

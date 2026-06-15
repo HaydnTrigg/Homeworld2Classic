@@ -75,20 +75,16 @@ extern char const *LUALIB_HYPERSPACE; // 0x842F3C
 
 /* ---------- public code */
 
-_extern void _sub_72400E(unsigned __int32, bool);
 void Hyperspace_SetStateForPlayer(unsigned __int32 playerID, bool hyperspaceState) // 0x72400E
 {
     mangled_assert("?Hyperspace_SetStateForPlayer@@YGXI_N@Z");
     todo("implement");
-    _sub_72400E(playerID, hyperspaceState);
 }
 
-_extern void _sub_72402A(char const *, bool);
 void Hyperspace_SetStateForVolume(char const *volumeName, bool hyperspaceState) // 0x72402A
 {
     mangled_assert("?Hyperspace_SetStateForVolume@@YGXPBD_N@Z");
     todo("implement");
-    _sub_72402A(volumeName, hyperspaceState);
 }
 
 /* ---------- private code */

@@ -330,58 +330,40 @@ extern _GUID CUSTOM_SYSTEM_STATE_CHANGE_EVENT_GUID; // 0x7AA884
 
 /* ---------- public code */
 
-_extern HRESULT _sub_5F7B3F(unsigned long *, char *, __int32);
 HRESULT GetDXVersion(unsigned long *pdwDirectXVersion, char *strDirectXVersion, __int32 cchDirectXVersion) // 0x5F7B3F
 {
     mangled_assert("?GetDXVersion@@YGJPAKPADH@Z");
     todo("implement");
-    HRESULT __result = _sub_5F7B3F(pdwDirectXVersion, strDirectXVersion, cchDirectXVersion);
-    return __result;
 }
 
-_extern HRESULT _sub_5F8319(unsigned long *, unsigned long *, char *);
 HRESULT GetDirectXVersionViaDxDiag(unsigned long *pdwDirectXVersionMajor, unsigned long *pdwDirectXVersionMinor, char *pcDirectXVersionLetter) // 0x5F8319
 {
     mangled_assert("?GetDirectXVersionViaDxDiag@@YGJPAK0PAD@Z");
     todo("implement");
-    HRESULT __result = _sub_5F8319(pdwDirectXVersionMajor, pdwDirectXVersionMinor, pcDirectXVersionLetter);
-    return __result;
 }
 
-_extern HRESULT _sub_5F7C17(unsigned long *, unsigned long *, char *);
 HRESULT GetDirectXVerionViaFileVersions(unsigned long *pdwDirectXVersionMajor, unsigned long *pdwDirectXVersionMinor, char *pcDirectXVersionLetter) // 0x5F7C17
 {
     mangled_assert("?GetDirectXVerionViaFileVersions@@YGJPAK0PAD@Z");
     todo("implement");
-    HRESULT __result = _sub_5F7C17(pdwDirectXVersionMajor, pdwDirectXVersionMinor, pcDirectXVersionLetter);
-    return __result;
 }
 
-_extern HRESULT _sub_5F84EA(char *, _ULARGE_INTEGER *);
 HRESULT GetFileVersion(char *szPath, _ULARGE_INTEGER *pllFileVersion) // 0x5F84EA
 {
     mangled_assert("?GetFileVersion@@YGJPADPAT_ULARGE_INTEGER@@@Z");
     todo("implement");
-    HRESULT __result = _sub_5F84EA(szPath, pllFileVersion);
-    return __result;
 }
 
-_extern _ULARGE_INTEGER _sub_5F858B(unsigned short, unsigned short, unsigned short, unsigned short);
 _ULARGE_INTEGER MakeInt64(unsigned short a, unsigned short b, unsigned short c, unsigned short d) // 0x5F858B
 {
     mangled_assert("?MakeInt64@@YG?AT_ULARGE_INTEGER@@GGGG@Z");
     todo("implement");
-    _ULARGE_INTEGER __result = _sub_5F858B(a, b, c, d);
-    return __result;
 }
 
-_extern __int32 _sub_5F7B1A(_ULARGE_INTEGER, _ULARGE_INTEGER);
 __int32 CompareLargeInts(_ULARGE_INTEGER ullParam1, _ULARGE_INTEGER ullParam2) // 0x5F7B1A
 {
     mangled_assert("?CompareLargeInts@@YGHT_ULARGE_INTEGER@@0@Z");
     todo("implement");
-    __int32 __result = _sub_5F7B1A(ullParam1, ullParam2);
-    return __result;
 }
 
 /* ---------- private code */

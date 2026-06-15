@@ -40,12 +40,10 @@ static_assert(sizeof(LocalizerDirectory) == 12, "Invalid LocalizerDirectory size
 
 /* ---------- public code */
 
-_extern _sub_604776(LocalizerDirectory *const);
 _inline LocalizerDirectory::LocalizerDirectory() // 0x604776
 {
     mangled_assert("??0LocalizerDirectory@@AAE@XZ");
     todo("implement");
-    _sub_604776(this);
 }
 
 /* ---------- private code */

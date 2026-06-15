@@ -51,21 +51,16 @@ static_assert(sizeof(GSLobbySessionDesc) == 16, "Invalid GSLobbySessionDesc size
 
 /* ---------- public code */
 
-_extern void _sub_10001F4D(GSLobbySessionDesc *const, unsigned __int32);
 _inline void GSLobbySessionDesc::SetUserData(unsigned __int32) // 0x10001F4D
 {
     mangled_assert("?SetUserData@GSLobbySessionDesc@@QAEXI@Z");
     todo("implement");
-    _sub_10001F4D(this, arg);
 }
 
-_extern unsigned __int32 _sub_10001D6A(GSLobbySessionDesc const *const);
 _inline unsigned __int32 GSLobbySessionDesc::GetUserData() const // 0x10001D6A
 {
     mangled_assert("?GetUserData@GSLobbySessionDesc@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_10001D6A(this);
-    return __result;
 }
 
 /* ---------- private code */
@@ -124,21 +119,16 @@ static_assert(sizeof(GSLobbySessionDesc) == 16, "Invalid GSLobbySessionDesc size
 
 /* ---------- public code */
 
-_extern void _sub_4708D2(GSLobbySessionDesc *const, unsigned __int32);
 _inline void GSLobbySessionDesc::SetUserData(unsigned __int32) // 0x4708D2
 {
     mangled_assert("?SetUserData@GSLobbySessionDesc@@QAEXI@Z");
     todo("implement");
-    _sub_4708D2(this, arg);
 }
 
-_extern unsigned __int32 _sub_46FB1C(GSLobbySessionDesc const *const);
 _inline unsigned __int32 GSLobbySessionDesc::GetUserData() const // 0x46FB1C
 {
     mangled_assert("?GetUserData@GSLobbySessionDesc@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_46FB1C(this);
-    return __result;
 }
 
 /* ---------- private code */

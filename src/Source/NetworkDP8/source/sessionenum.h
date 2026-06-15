@@ -35,22 +35,16 @@ static_assert(sizeof(Net::SessionEnumerator) == 52, "Invalid Net::SessionEnumera
 
 /* ---------- public code */
 
-_extern bool _sub_470EEF(Net::SessionEnumerator const *const, std::back_insert_iterator<std::vector<Net::SessionInfo,std::allocator<Net::SessionInfo> > >);
 _inline bool Net::SessionEnumerator::GetSessionList<std::back_insert_iterator<std::vector<Net::SessionInfo,std::allocator<Net::SessionInfo> > > >(std::back_insert_iterator<std::vector<Net::SessionInfo,std::allocator<Net::SessionInfo> > >) const // 0x470EEF
 {
     mangled_assert("??$GetSessionList@V?$back_insert_iterator@V?$vector@USessionInfo@Net@@V?$allocator@USessionInfo@Net@@@std@@@std@@@std@@@SessionEnumerator@Net@@QBE_NV?$back_insert_iterator@V?$vector@USessionInfo@Net@@V?$allocator@USessionInfo@Net@@@std@@@std@@@std@@@Z");
     todo("implement");
-    bool __result = _sub_470EEF(this, arg);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_471ED1(Net::SessionEnumerator const *const);
 _inline unsigned __int32 Net::SessionEnumerator::GetNumberSession() const // 0x471ED1
 {
     mangled_assert("?GetNumberSession@SessionEnumerator@Net@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_471ED1(this);
-    return __result;
 }
 
 /* ---------- private code */

@@ -105,129 +105,92 @@ _static void PatchCallback(__int32 available, __int32 mandatory, char const *ver
 
 /* ---------- public code */
 
-_extern void _sub_10002485();
 void GSPatcher::StartupHTTP() // 0x10002485
 {
     mangled_assert("?StartupHTTP@GSPatcher@@SGXXZ");
     todo("implement");
-    _sub_10002485();
 }
 
-_extern void _sub_10002480();
 void GSPatcher::ShutdownHTTP() // 0x10002480
 {
     mangled_assert("?ShutdownHTTP@GSPatcher@@SGXXZ");
     todo("implement");
-    _sub_10002480();
 }
 
-_extern char const *_sub_100023A6(GSPatcher::DownloadStatus);
 char const *GSPatcher::GetDownloadStatusString(GSPatcher::DownloadStatus ds) // 0x100023A6
 {
     mangled_assert("?GetDownloadStatusString@GSPatcher@@SGPBDW4DownloadStatus@1@@Z");
     todo("implement");
-    char const * __result = _sub_100023A6(ds);
-    return __result;
 }
 
-_extern char const *_sub_100022DE(GSPatcher::CompletionResult);
 char const *GSPatcher::GetCompletionResultString(GSPatcher::CompletionResult cr) // 0x100022DE
 {
     mangled_assert("?GetCompletionResultString@GSPatcher@@SGPBDW4CompletionResult@1@@Z");
     todo("implement");
-    char const * __result = _sub_100022DE(cr);
-    return __result;
 }
 
-_extern bool _sub_10002280(__int32, char const *, __int32, bool, GSPatcher::CheckCallback &);
 bool GSPatcher::CheckForPatch(__int32 productID, char const *versionUniqueID, __int32 distributionID, bool bBlocking, GSPatcher::CheckCallback &callback) // 0x10002280
 {
     mangled_assert("?CheckForPatch@GSPatcher@@SG_NHPBDH_NAAVCheckCallback@1@@Z");
     todo("implement");
-    bool __result = _sub_10002280(productID, versionUniqueID, distributionID, bBlocking, callback);
-    return __result;
 }
 
-_extern void _sub_10001546(__int32, GHTTPState, char const *, __int32, __int32, __int32, void *);
 void ProgressCallback(__int32 request, GHTTPState state, char const *buffer, __int32 bufferLen, __int32 bytesReceived, __int32 totalSize, void *param) // 0x10001546
 {
-    _sub_10001546(request, state, buffer, bufferLen, bytesReceived, totalSize, param);
 }
 
-_extern GHTTPBool _sub_10001442(__int32, GHTTPResult, char *, __int32, void *);
 GHTTPBool CompletedCallback(__int32 request, GHTTPResult result, char *buffer, __int32 bufferLen, void *param) // 0x10001442
 {
-    GHTTPBool __result = _sub_10001442(request, result, buffer, bufferLen, param);
-    return __result;
 }
 
-_extern _sub_10002245(GSPatcher *const);
 GSPatcher::GSPatcher() // 0x10002245
 {
     mangled_assert("??0GSPatcher@@QAE@XZ");
     todo("implement");
-    _sub_10002245(this);
 }
 
-_extern void _sub_10002259(GSPatcher *const);
 GSPatcher::~GSPatcher() // 0x10002259
 {
     mangled_assert("??1GSPatcher@@QAE@XZ");
     todo("implement");
-    _sub_10002259(this);
 }
 
-_extern GSPatcher &_sub_10002269(GSPatcher *const, GSPatcher const &);
 _inline GSPatcher &GSPatcher::operator=(GSPatcher const &) // 0x10002269
 {
     mangled_assert("??4GSPatcher@@QAEAAV0@ABV0@@Z");
     compiler_generated();
     todo("implement");
-    GSPatcher & __result = _sub_10002269(this, arg);
-    return __result;
 }
 
-_extern void _sub_1000248A(GSPatcher *const);
 void GSPatcher::ThinkHTTP() // 0x1000248A
 {
     mangled_assert("?ThinkHTTP@GSPatcher@@QAEXXZ");
     todo("implement");
-    _sub_1000248A(this);
 }
 
-_extern bool _sub_100022A8(GSPatcher *const, char const *, char const *, GSPatcher::DownloadCallback &);
 bool GSPatcher::DownloadPatch(char const *, char const *, GSPatcher::DownloadCallback &) // 0x100022A8
 {
     mangled_assert("?DownloadPatch@GSPatcher@@QAE_NPBD0AAVDownloadCallback@1@@Z");
     todo("implement");
-    bool __result = _sub_100022A8(this, arg, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_10002422(GSPatcher *const, char const *, GSPatcher::DownloadCallback &);
 bool GSPatcher::GetPatchSize(char const *, GSPatcher::DownloadCallback &) // 0x10002422
 {
     mangled_assert("?GetPatchSize@GSPatcher@@QAE_NPBDAAVDownloadCallback@1@@Z");
     todo("implement");
-    bool __result = _sub_10002422(this, arg, arg);
-    return __result;
 }
 
-_extern void _sub_10002276(GSPatcher *const);
 void GSPatcher::CancelDownload() // 0x10002276
 {
     mangled_assert("?CancelDownload@GSPatcher@@QAEXXZ");
     todo("implement");
-    _sub_10002276(this);
 }
 
 /* ---------- private code */
 
-_extern void _sub_10002453(__int32, __int32, char const *, __int32, char const *, void *);
 _static void PatchCallback(__int32 available, __int32 mandatory, char const *versionName, __int32 fileID, char const *downloadURL, void *param) // 0x10002453
 {
     mangled_assert("PatchCallback");
     todo("implement");
-    _sub_10002453(available, mandatory, versionName, fileID, downloadURL, param);
 }
 #endif

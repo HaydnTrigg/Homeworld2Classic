@@ -81,67 +81,46 @@ static_assert(sizeof(Resource) == 724, "Invalid Resource size");
 
 /* ---------- public code */
 
-_extern bool _sub_6227B5(Resource *const);
 _inline bool Resource::canBeChangedByReactiveFleet() // 0x6227B5
 {
     mangled_assert("?canBeChangedByReactiveFleet@Resource@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_6227B5(this);
-    return __result;
 }
 
-_extern Selection *_sub_5F2384(Resource *const);
 _inline Selection *Resource::getShipsResourcingMe() // 0x5F2384
 {
     mangled_assert("?getShipsResourcingMe@Resource@@QAEPAVSelection@@XZ");
     todo("implement");
-    Selection * __result = _sub_5F2384(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_539FE4(Resource const *const);
 _inline unsigned __int32 Resource::getNumberOfShipsInterested() const // 0x539FE4
 {
     mangled_assert("?getNumberOfShipsInterested@Resource@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_539FE4(this);
-    return __result;
 }
 
-_extern Selection const &_sub_539FEF(Resource const *const);
 _inline Selection const &Resource::getShipsIntertestedInMe() const // 0x539FEF
 {
     mangled_assert("?getShipsIntertestedInMe@Resource@@QBEABVSelection@@XZ");
     todo("implement");
-    Selection const & __result = _sub_539FEF(this);
-    return __result;
 }
 
-_extern ResourceStatic const *_sub_4B0BC3(Resource const *const);
 _inline ResourceStatic const *Resource::getStatic() const // 0x4B0BC3
 {
     mangled_assert("?getStatic@Resource@@QBEPBVResourceStatic@@XZ");
     todo("implement");
-    ResourceStatic const * __result = _sub_4B0BC3(this);
-    return __result;
 }
 
-_extern bool _sub_4B0BDA(Resource *const);
 _inline bool Resource::isDeterministic() // 0x4B0BDA
 {
     mangled_assert("?isDeterministic@Resource@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4B0BDA(this);
-    return __result;
 }
 
-_extern char const *_sub_4B0E3F(Resource *const);
 _inline char const *Resource::saveToken() // 0x4B0E3F
 {
     mangled_assert("?saveToken@Resource@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4B0E3F(this);
-    return __result;
 }
 
 /* ---------- private code */

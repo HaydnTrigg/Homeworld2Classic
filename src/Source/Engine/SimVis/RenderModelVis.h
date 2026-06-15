@@ -86,65 +86,46 @@ static_assert(sizeof(RenderModelVis) == 180, "Invalid RenderModelVis size");
 
 /* ---------- public code */
 
-_extern EffectContainer *_sub_522C95(RenderModelVis *const);
 _inline EffectContainer *RenderModelVis::getEffectContainer() // 0x522C95
 {
     mangled_assert("?getEffectContainer@RenderModelVis@@UAEPAVEffectContainer@@XZ");
     todo("implement");
-    EffectContainer * __result = _sub_522C95(this);
-    return __result;
 }
 
-_extern EffectContainer const *_sub_522C99(RenderModelVis const *const);
 _inline EffectContainer const *RenderModelVis::getEffectContainer() const // 0x522C99
 {
     mangled_assert("?getEffectContainer@RenderModelVis@@UBEPBVEffectContainer@@XZ");
     todo("implement");
-    EffectContainer const * __result = _sub_522C99(this);
-    return __result;
 }
 
-_extern RenderModelScars *_sub_522DEC(RenderModelVis *const);
 _inline RenderModelScars *RenderModelVis::getRenderModelScars() // 0x522DEC
 {
     mangled_assert("?getRenderModelScars@RenderModelVis@@UAEPAVRenderModelScars@@XZ");
     todo("implement");
-    RenderModelScars * __result = _sub_522DEC(this);
-    return __result;
 }
 
-_extern EmitterContainer *_sub_522C9D(RenderModelVis *const);
 _inline EmitterContainer *RenderModelVis::getEmitterContainer() // 0x522C9D
 {
     mangled_assert("?getEmitterContainer@RenderModelVis@@UAEPAVEmitterContainer@@XZ");
     todo("implement");
-    EmitterContainer * __result = _sub_522C9D(this);
-    return __result;
 }
 
-_extern EmitterContainer const *_sub_522CA1(RenderModelVis const *const);
 _inline EmitterContainer const *RenderModelVis::getEmitterContainer() const // 0x522CA1
 {
     mangled_assert("?getEmitterContainer@RenderModelVis@@UBEPBVEmitterContainer@@XZ");
     todo("implement");
-    EmitterContainer const * __result = _sub_522CA1(this);
-    return __result;
 }
 
-_extern void _sub_48D633(RenderModelVis *const);
 _inline void RenderModelVis::hintFowReveal() // 0x48D633
 {
     mangled_assert("?hintFowReveal@RenderModelVis@@QAEXXZ");
     todo("implement");
-    _sub_48D633(this);
 }
 
-_extern _sub_5226CB(RenderModelVis::AdditiveColourInfo *const);
 _inline RenderModelVis::AdditiveColourInfo::AdditiveColourInfo() // 0x5226CB
 {
     mangled_assert("??0AdditiveColourInfo@RenderModelVis@@QAE@XZ");
     todo("implement");
-    _sub_5226CB(this);
 }
 
 /* ---------- private code */

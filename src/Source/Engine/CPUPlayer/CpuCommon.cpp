@@ -157,78 +157,58 @@ extern SaveData const CpuCommon::m_saveData[1]; // 0x79D924
 
 /* ---------- public code */
 
-_extern void _sub_52DBC7(CpuCommon *const, char const *);
 void CpuCommon::aitrace(char const *) // 0x52DBC7
 {
     mangled_assert("?aitrace@CpuCommon@@QAEXPBD@Z");
     todo("implement");
-    _sub_52DBC7(this, arg);
 }
 
-_extern void _sub_52DB25(CpuCommon *const, char const *, ...);
 void CpuCommon::aiprintf(char const *format, ...) // 0x52DB25
 {
     mangled_assert("?aiprintf@CpuCommon@@QAAXPBDZZ");
     todo("implement");
-    _sub_52DB25(this, format, chbuf);
 }
 
-_extern void _sub_52DCCF(vector3 const &, float const, vector4 &, unsigned __int32 const, char const *);
 void drawcircleinspace(vector3 const &pos, float const radius, vector4 &col, unsigned __int32 const divs, char const *framename) // 0x52DCCF
 {
     mangled_assert("?drawcircleinspace@@YGXABVvector3@@MAAVvector4@@IPBD@Z");
     todo("implement");
-    _sub_52DCCF(pos, radius, col, divs, framename);
 }
 
-_extern void _sub_52DBD6(vector3 const &, float const, vector4 &, char const *);
 void drawXinspace(vector3 const &pos, float const radius, vector4 &col, char const *framename) // 0x52DBD6
 {
     mangled_assert("?drawXinspace@@YGXABVvector3@@MAAVvector4@@PBD@Z");
     todo("implement");
-    _sub_52DBD6(pos, radius, col, framename);
 }
 
-_extern void _sub_52DAA3(void *, SaveGameData *, SaveType);
 void CpuCommon::saveFleet(void *objectPtr, SaveGameData *saveGameData, SaveType savetype) // 0x52DAA3
 {
     mangled_assert("?saveFleet@CpuCommon@@CGXPAXPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    _sub_52DAA3(objectPtr, saveGameData, savetype);
 }
 
-_extern void _sub_52DAD4(void *, SaveGameData *);
 void CpuCommon::restoreFleet(void *objectPtr, SaveGameData *saveGameData) // 0x52DAD4
 {
     mangled_assert("?restoreFleet@CpuCommon@@CGXPAXPAVSaveGameData@@@Z");
     todo("implement");
-    _sub_52DAD4(objectPtr, saveGameData);
 }
 
-_extern void _sub_52DEC4(CpuCommon *const);
 void CpuCommon::postRestore() // 0x52DEC4
 {
     mangled_assert("?postRestore@CpuCommon@@UAEXXZ");
     todo("implement");
-    _sub_52DEC4(this);
 }
 
-_extern bool _sub_52DEC5(CpuCommon *const, SaveGameData *);
 bool CpuCommon::restore(SaveGameData *) // 0x52DEC5
 {
     mangled_assert("?restore@CpuCommon@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_52DEC5(this, arg);
-    return __result;
 }
 
-_extern bool _sub_52DF03(CpuCommon *const, SaveGameData *, SaveType);
 bool CpuCommon::save(SaveGameData *, SaveType) // 0x52DF03
 {
     mangled_assert("?save@CpuCommon@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_52DF03(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

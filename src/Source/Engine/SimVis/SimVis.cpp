@@ -121,114 +121,85 @@ _static
 
 /* ---------- public code */
 
-_extern bool _sub_523DA7();
 bool SimVis::startup() // 0x523DA7
 {
     mangled_assert("?startup@SimVis@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_523DA7();
-    return __result;
 }
 
-_extern bool _sub_523D83();
 bool SimVis::shutdown() // 0x523D83
 {
     mangled_assert("?shutdown@SimVis@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_523D83();
-    return __result;
 }
 
-_extern SimVis *_sub_523D26();
 SimVis *SimVis::i() // 0x523D26
 {
     mangled_assert("?i@SimVis@@SGPAV1@XZ");
     todo("implement");
-    SimVis * __result = _sub_523D26();
-    return __result;
 }
 
-_extern _sub_5239EE(SimVis *const);
 SimVis::SimVis() // 0x5239EE
 {
     mangled_assert("??0SimVis@@AAE@XZ");
     todo("implement");
-    _sub_5239EE(this);
 }
 
-_extern void _sub_523A6C(std::_List_buy<SimVisHandler *,std::allocator<SimVisHandler *> > *const);
 _inline std::_List_buy<SimVisHandler *,std::allocator<SimVisHandler *> >::~_List_buy<SimVisHandler *,std::allocator<SimVisHandler *> >() // 0x523A6C
 {
     mangled_assert("??1?$_List_buy@PAVSimVisHandler@@V?$allocator@PAVSimVisHandler@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_523A6C(this);
 }
 
-_extern void _sub_523A87(SimVis::Data *const);
 _inline SimVis::Data::~Data() // 0x523A87
 {
     mangled_assert("??1Data@SimVis@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_523A87(this);
 }
 
-_extern void _sub_523A99(SimVis *const);
 SimVis::~SimVis() // 0x523A99
 {
     mangled_assert("??1SimVis@@AAE@XZ");
     todo("implement");
-    _sub_523A99(this);
 }
 
-_extern _sub_5239D7(SimVis::Data *const);
 _inline SimVis::Data::Data() // 0x5239D7
 {
     mangled_assert("??0Data@SimVis@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5239D7(this);
 }
 
-_extern void _sub_523BFB(SimVis *const, SimVisHandler *);
 void SimVis::addHandler(SimVisHandler *) // 0x523BFB
 {
     mangled_assert("?addHandler@SimVis@@QAEXPAVSimVisHandler@@@Z");
     todo("implement");
-    _sub_523BFB(this, arg);
 }
 
-_extern void _sub_523D54(SimVis *const, SimVisHandler *);
 void SimVis::removeHandler(SimVisHandler *) // 0x523D54
 {
     mangled_assert("?removeHandler@SimVis@@QAEXPAVSimVisHandler@@@Z");
     todo("implement");
-    _sub_523D54(this, arg);
 }
 
-_extern void _sub_523DE0(SimVis *const, Universe const &, Player const *, Camera const &, float const, float const);
 void SimVis::update(Universe const &, Player const *, Camera const &, float const, float const) // 0x523DE0
 {
     mangled_assert("?update@SimVis@@QAEXABVUniverse@@PBVPlayer@@ABVCamera@@MM@Z");
     todo("implement");
-    _sub_523DE0(this, arg, arg, arg, arg, arg);
 }
 
-_extern void _sub_523F0F(SimVis *const, SimVisDisplayData &);
 void SimVis::updateHandlers(SimVisDisplayData &) // 0x523F0F
 {
     mangled_assert("?updateHandlers@SimVis@@IAEXAAVSimVisDisplayData@@@Z");
     todo("implement");
-    _sub_523F0F(this, arg);
 }
 
-_extern void _sub_523C83(SimVis *const, Universe const &, Player const *, Camera const &, float const);
 void SimVis::draw(Universe const &, Player const *, Camera const &, float const) // 0x523C83
 {
     mangled_assert("?draw@SimVis@@QAEXABVUniverse@@PBVPlayer@@ABVCamera@@M@Z");
     todo("implement");
-    _sub_523C83(this, arg, arg, arg, arg);
 }
 
 /* ---------- private code */

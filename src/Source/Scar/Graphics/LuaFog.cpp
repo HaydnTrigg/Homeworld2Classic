@@ -63,69 +63,53 @@ extern char const *LUALIB_FOG; // 0x84332C
 
 /* ---------- public code */
 
-_extern void _sub_727D4B(bool);
 void fogSetActive(bool active) // 0x727D4B
 {
     mangled_assert("?fogSetActive@@YGX_N@Z");
     todo("implement");
-    _sub_727D4B(active);
 }
 
-_extern void _sub_727E0E(float);
 void fogSetStart(float start) // 0x727E0E
 {
     mangled_assert("?fogSetStart@@YGXM@Z");
     todo("implement");
-    _sub_727E0E(start);
 }
 
-_extern void _sub_727DF3(float);
 void fogSetEnd(float end) // 0x727DF3
 {
     mangled_assert("?fogSetEnd@@YGXM@Z");
     todo("implement");
-    _sub_727DF3(end);
 }
 
-_extern void _sub_727DD8(float);
 void fogSetDensity(float density) // 0x727DD8
 {
     mangled_assert("?fogSetDensity@@YGXM@Z");
     todo("implement");
-    _sub_727DD8(density);
 }
 
-_extern void _sub_727D5E(float, float, float, float);
 void fogSetColour(float r, float g, float b, float a) // 0x727D5E
 {
     mangled_assert("?fogSetColour@@YGXMMMM@Z");
     todo("implement");
-    _sub_727D5E(r, g, b, a);
 }
 
-_extern void _sub_727E29(char const *);
 void fogSetType(char const *mode) // 0x727E29
 {
     mangled_assert("?fogSetType@@YGXPBD@Z");
     todo("implement");
-    _sub_727E29(mode);
 }
 
-_extern void _sub_727C94(char const *, float, float);
 void fogAddInterpolator(char const *buf, float length, float target) // 0x727C94
 {
     mangled_assert("?fogAddInterpolator@@YGXPBDMM@Z");
     todo("implement");
-    _sub_727C94(buf, length, target);
 }
 
-_extern void _sub_727983(LuaBinding::ObjInternal4<float,float,float,float,void,LuaBinding::Functor4Free<float,float,float,float,void> > *const);
 _inline LuaBinding::ObjInternal4<float,float,float,float,void,LuaBinding::Functor4Free<float,float,float,float,void> >::~ObjInternal4<float,float,float,float,void,LuaBinding::Functor4Free<float,float,float,float,void> >() // 0x727983
 {
     mangled_assert("??1?$ObjInternal4@MMMMXV?$Functor4Free@MMMMX@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_727983(this);
 }
 
 /* ---------- private code */

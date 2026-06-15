@@ -353,246 +353,187 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_65B14F(LCWatcher *const);
 LCWatcher::LCWatcher() // 0x65B14F
 {
     mangled_assert("??0LCWatcher@@AAE@XZ");
     todo("implement");
-    _sub_65B14F(this);
 }
 
-_extern _sub_65B2BF(LCWatcher::LCWatcherElement *const, LCWatcher::LCWatcherElement const &);
 _inline LCWatcher::LCWatcherElement::LCWatcherElement(LCWatcher::LCWatcherElement const &) // 0x65B2BF
 {
     mangled_assert("??0LCWatcherElement@LCWatcher@@QAE@ABU01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_65B2BF(this, arg);
 }
 
-_extern _sub_65B374(LCWatcher::LCWatcherFilters *const, LCWatcher::LCWatcherFilters const &);
 _inline LCWatcher::LCWatcherFilters::LCWatcherFilters(LCWatcher::LCWatcherFilters const &) // 0x65B374
 {
     mangled_assert("??0LCWatcherFilters@LCWatcher@@QAE@ABU01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_65B374(this, arg);
 }
 
-_extern _sub_65B3BD(LCWatcher::LCWatcherFilters *const);
 _inline LCWatcher::LCWatcherFilters::LCWatcherFilters() // 0x65B3BD
 {
     mangled_assert("??0LCWatcherFilters@LCWatcher@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_65B3BD(this);
 }
 
-_extern void _sub_65B424(LuaBinding::ObjInternal2<unsigned int,char const *,void,LuaBinding::Functor2Free<unsigned int,char const *,void> > *const);
 _inline LuaBinding::ObjInternal2<unsigned int,char const *,void,LuaBinding::Functor2Free<unsigned int,char const *,void> >::~ObjInternal2<unsigned int,char const *,void,LuaBinding::Functor2Free<unsigned int,char const *,void> >() // 0x65B424
 {
     mangled_assert("??1?$ObjInternal2@IPBDXV?$Functor2Free@IPBDX@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_65B424(this);
 }
 
-_extern void _sub_65B43C(std::_List_buy<LCWatcher::LCWatcherElement,std::allocator<LCWatcher::LCWatcherElement> > *const);
 _inline std::_List_buy<LCWatcher::LCWatcherElement,std::allocator<LCWatcher::LCWatcherElement> >::~_List_buy<LCWatcher::LCWatcherElement,std::allocator<LCWatcher::LCWatcherElement> >() // 0x65B43C
 {
     mangled_assert("??1?$_List_buy@ULCWatcherElement@LCWatcher@@V?$allocator@ULCWatcherElement@LCWatcher@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_65B43C(this);
 }
 
-_extern void _sub_65B445(std::_List_buy<LCWatcher::LCWatcherFilters,std::allocator<LCWatcher::LCWatcherFilters> > *const);
 _inline std::_List_buy<LCWatcher::LCWatcherFilters,std::allocator<LCWatcher::LCWatcherFilters> >::~_List_buy<LCWatcher::LCWatcherFilters,std::allocator<LCWatcher::LCWatcherFilters> >() // 0x65B445
 {
     mangled_assert("??1?$_List_buy@ULCWatcherFilters@LCWatcher@@V?$allocator@ULCWatcherFilters@LCWatcher@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_65B445(this);
 }
 
-_extern void _sub_65B48A(LCWatcher *const);
 LCWatcher::~LCWatcher() // 0x65B48A
 {
     mangled_assert("??1LCWatcher@@AAE@XZ");
     todo("implement");
-    _sub_65B48A(this);
 }
 
-_extern void _sub_65B4F6(LCWatcher::LCWatcherElement *const);
 _inline LCWatcher::LCWatcherElement::~LCWatcherElement() // 0x65B4F6
 {
     mangled_assert("??1LCWatcherElement@LCWatcher@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_65B4F6(this);
 }
 
-_extern void _sub_65B515(LCWatcher::LCWatcherFilter *const);
 _inline LCWatcher::LCWatcherFilter::~LCWatcherFilter() // 0x65B515
 {
     mangled_assert("??1LCWatcherFilter@LCWatcher@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_65B515(this);
 }
 
-_extern void _sub_65B51D(LCWatcher::LCWatcherFilters *const);
 _inline LCWatcher::LCWatcherFilters::~LCWatcherFilters() // 0x65B51D
 {
     mangled_assert("??1LCWatcherFilters@LCWatcher@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_65B51D(this);
 }
 
-_extern LCWatcher *_sub_65CB45();
 LCWatcher *LCWatcher::i() // 0x65CB45
 {
     mangled_assert("?i@LCWatcher@@SGPAV1@XZ");
     todo("implement");
-    LCWatcher * __result = _sub_65CB45();
-    return __result;
 }
 
-_extern void _sub_65BF86();
 void LCWatcher::Initialize() // 0x65BF86
 {
     mangled_assert("?Initialize@LCWatcher@@SGXXZ");
     todo("implement");
-    _sub_65BF86();
 }
 
-_extern void _sub_65C32E();
 void LCWatcher::Shutdown() // 0x65C32E
 {
     mangled_assert("?Shutdown@LCWatcher@@SGXXZ");
     todo("implement");
-    _sub_65C32E();
 }
 
-_extern void _sub_65C1FA(LCWatcher *const, char const *);
 void LCWatcher::RmvFilter(char const *) // 0x65C1FA
 {
     mangled_assert("?RmvFilter@LCWatcher@@QAEXPBD@Z");
     todo("implement");
-    _sub_65C1FA(this, arg);
 }
 
-_extern void _sub_65C1B5(LCWatcher *const);
 void LCWatcher::RmvAllFilters() // 0x65C1B5
 {
     mangled_assert("?RmvAllFilters@LCWatcher@@QAEXXZ");
     todo("implement");
-    _sub_65C1B5(this);
 }
 
-_extern void _sub_65B751(LCWatcher *const, LuaConfig *, char const *);
 void LCWatcher::AddFilter(LuaConfig *, char const *) // 0x65B751
 {
     mangled_assert("?AddFilter@LCWatcher@@QAEXPAVLuaConfig@@PBD@Z");
     todo("implement");
-    _sub_65B751(this, arg, arg);
 }
 
-_extern void _sub_65C091(UI::InterfaceElement *, __int32, __int32, unsigned __int32);
 void LCWatcher::OnOk(UI::InterfaceElement *sender, __int32 x, __int32 y, unsigned __int32 button) // 0x65C091
 {
     mangled_assert("?OnOk@LCWatcher@@SGXPAVInterfaceElement@UI@@HHI@Z");
     todo("implement");
-    _sub_65C091(sender, x, y, button);
 }
 
-_extern void _sub_65C5C8(LCWatcher *const);
 void LCWatcher::UpdateActiveFilter() // 0x65C5C8
 {
     mangled_assert("?UpdateActiveFilter@LCWatcher@@AAEXXZ");
     todo("implement");
-    _sub_65C5C8(this);
 }
 
-_extern void _sub_65C071(UI::InterfaceElement *, __int32, __int32, unsigned __int32);
 void LCWatcher::OnCancel(UI::InterfaceElement *sender, __int32 x, __int32 y, unsigned __int32 button) // 0x65C071
 {
     mangled_assert("?OnCancel@LCWatcher@@SGXPAVInterfaceElement@UI@@HHI@Z");
     todo("implement");
-    _sub_65C071(sender, x, y, button);
 }
 
-_extern void _sub_65BE95(LCWatcher *const);
 void LCWatcher::DeActivateScreen() // 0x65BE95
 {
     mangled_assert("?DeActivateScreen@LCWatcher@@AAEXXZ");
     todo("implement");
-    _sub_65BE95(this);
 }
 
-_extern void _sub_65C07F(UI::InterfaceElement *, __int32, __int32, unsigned __int32);
 void LCWatcher::OnClick(UI::InterfaceElement *sender, __int32 x, __int32 y, unsigned __int32 button) // 0x65C07F
 {
     mangled_assert("?OnClick@LCWatcher@@SGXPAVInterfaceElement@UI@@HHI@Z");
     todo("implement");
-    _sub_65C07F(sender, x, y, button);
 }
 
-_extern void _sub_65BCB6(LCWatcher *const, UI::InterfaceElement *);
 void LCWatcher::AssignActiveFilter(UI::InterfaceElement *) // 0x65BCB6
 {
     mangled_assert("?AssignActiveFilter@LCWatcher@@AAEXPAVInterfaceElement@UI@@@Z");
     todo("implement");
-    _sub_65BCB6(this, arg);
 }
 
-_extern void _sub_65BF41(LCWatcher *const, bool);
 void LCWatcher::Display(bool) // 0x65BF41
 {
     mangled_assert("?Display@LCWatcher@@QAEX_N@Z");
     todo("implement");
-    _sub_65BF41(this, arg);
 }
 
-_extern void _sub_65C350(LCWatcher *const);
 void LCWatcher::Update() // 0x65C350
 {
     mangled_assert("?Update@LCWatcher@@QAEXXZ");
     todo("implement");
-    _sub_65C350(this);
 }
 
-_extern void _sub_65BFC2(bool);
 void LCWatcher_Activate(bool on) // 0x65BFC2
 {
     mangled_assert("?LCWatcher_Activate@@YGX_N@Z");
     todo("implement");
-    _sub_65BFC2(on);
 }
 
-_extern void _sub_65BFCD(unsigned __int32, char const *);
 void LCWatcher_AddFilter(unsigned __int32 luaConfig, char const *filter) // 0x65BFCD
 {
     mangled_assert("?LCWatcher_AddFilter@@YGXIPBD@Z");
     todo("implement");
-    _sub_65BFCD(luaConfig, filter);
 }
 
-_extern void _sub_65BFF4(unsigned __int32, char const *);
 void LCWatcher_AddFilterCPUPlayer(unsigned __int32 index, char const *filter) // 0x65BFF4
 {
     mangled_assert("?LCWatcher_AddFilterCPUPlayer@@YGXIPBD@Z");
     todo("implement");
-    _sub_65BFF4(index, filter);
 }
 
-_extern void _sub_65C044(char const *);
 void LCWatcher_RmvFilter(char const *filter) // 0x65C044
 {
     mangled_assert("?LCWatcher_RmvFilter@@YGXPBD@Z");
     todo("implement");
-    _sub_65C044(filter);
 }
 
 /* ---------- private code */

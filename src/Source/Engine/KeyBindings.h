@@ -155,31 +155,22 @@ static_assert(sizeof(KeyBindingList) == 8, "Invalid KeyBindingList size");
 
 /* ---------- public code */
 
-_extern std::_List_const_iterator<std::_List_val<std::_List_simple_types<KeyBinding *> > > _sub_503B04(KeyBindingList const *const);
 _inline std::_List_const_iterator<std::_List_val<std::_List_simple_types<KeyBinding *> > > KeyBindingList::begin() const // 0x503B04
 {
     mangled_assert("?begin@KeyBindingList@@QBE?AV?$_List_const_iterator@V?$_List_val@U?$_List_simple_types@PAVKeyBinding@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_List_const_iterator<std::_List_val<std::_List_simple_types<KeyBinding *> > > __result = _sub_503B04(this);
-    return __result;
 }
 
-_extern std::_List_const_iterator<std::_List_val<std::_List_simple_types<KeyBinding *> > > _sub_503B1C(KeyBindingList const *const);
 _inline std::_List_const_iterator<std::_List_val<std::_List_simple_types<KeyBinding *> > > KeyBindingList::end() const // 0x503B1C
 {
     mangled_assert("?end@KeyBindingList@@QBE?AV?$_List_const_iterator@V?$_List_val@U?$_List_simple_types@PAVKeyBinding@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_List_const_iterator<std::_List_val<std::_List_simple_types<KeyBinding *> > > __result = _sub_503B1C(this);
-    return __result;
 }
 
-_extern bool _sub_66F4DE(KeyBindingList const *const);
 _inline bool KeyBindingList::empty() const // 0x66F4DE
 {
     mangled_assert("?empty@KeyBindingList@@QBE_NXZ");
     todo("implement");
-    bool __result = _sub_66F4DE(this);
-    return __result;
 }
 
 /* ---------- private code */

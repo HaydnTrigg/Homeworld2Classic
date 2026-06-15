@@ -167,28 +167,22 @@ static_assert(sizeof(MixerData) == 3124, "Invalid MixerData size");
 
 /* ---------- public code */
 
-_extern void _sub_10002114(Channel *const);
 _inline void Channel::reset() // 0x10002114
 {
     mangled_assert("?reset@Channel@@QAEXXZ");
     todo("implement");
-    _sub_10002114(this);
 }
 
-_extern _sub_100023D7(StreamChannel *const);
 _inline StreamChannel::StreamChannel() // 0x100023D7
 {
     mangled_assert("??0StreamChannel@@QAE@XZ");
     todo("implement");
-    _sub_100023D7(this);
 }
 
-_extern void _sub_100031CB(StreamChannel *const);
 _inline void StreamChannel::reset() // 0x100031CB
 {
     mangled_assert("?reset@StreamChannel@@QAEXXZ");
     todo("implement");
-    _sub_100031CB(this);
 }
 
 /* ---------- private code */

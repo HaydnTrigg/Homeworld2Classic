@@ -67,38 +67,28 @@ static_assert(sizeof(InstantHit) == 648, "Invalid InstantHit size");
 
 /* ---------- public code */
 
-_extern bool _sub_4A7BCD(InstantHit *const);
 _inline bool InstantHit::isDeterministic() // 0x4A7BCD
 {
     mangled_assert("?isDeterministic@InstantHit@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4A7BCD(this);
-    return __result;
 }
 
-_extern char const *_sub_4A7D3B(InstantHit *const);
 _inline char const *InstantHit::saveToken() // 0x4A7D3B
 {
     mangled_assert("?saveToken@InstantHit@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4A7D3B(this);
-    return __result;
 }
 
-_extern _sub_4A67AB(InstantHit::CollisionInfo *const);
 _inline InstantHit::CollisionInfo::CollisionInfo() // 0x4A67AB
 {
     mangled_assert("??0CollisionInfo@InstantHit@@QAE@XZ");
     todo("implement");
-    _sub_4A67AB(this);
 }
 
-_extern _sub_4A678E(InstantHit::CollisionInfo *const, Sob *, Collision::PointPair const &);
 _inline InstantHit::CollisionInfo::CollisionInfo(Sob *, Collision::PointPair const &) // 0x4A678E
 {
     mangled_assert("??0CollisionInfo@InstantHit@@QAE@PAVSob@@ABUPointPair@Collision@@@Z");
     todo("implement");
-    _sub_4A678E(this, arg, arg);
 }
 
 /* ---------- private code */

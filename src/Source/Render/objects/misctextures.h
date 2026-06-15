@@ -95,22 +95,16 @@ static_assert(sizeof(MiscTextureManager) == 16, "Invalid MiscTextureManager size
 
 /* ---------- public code */
 
-_extern MiscTextureManager *_sub_10086DC0();
 _inline MiscTextureManager *MiscTextureManager::i() // 0x10086DC0
 {
     mangled_assert("?i@MiscTextureManager@@SGPAV1@XZ");
     todo("implement");
-    MiscTextureManager * __result = _sub_10086DC0();
-    return __result;
 }
 
-_extern rndTable *_sub_10086D80(MiscTextureManager *const);
 _inline rndTable *MiscTextureManager::getGL() // 0x10086D80
 {
     mangled_assert("?getGL@MiscTextureManager@@QAEPAUrndTable@@XZ");
     todo("implement");
-    rndTable * __result = _sub_10086D80(this);
-    return __result;
 }
 
 /* ---------- private code */

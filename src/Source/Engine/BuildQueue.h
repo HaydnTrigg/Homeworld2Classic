@@ -169,74 +169,52 @@ static_assert(sizeof(BuildQueue) == 88, "Invalid BuildQueue size");
 
 /* ---------- public code */
 
-_extern std::list<BuildJob *,std::allocator<BuildJob *> > const &_sub_52C137(BuildQueue const *const);
 _inline std::list<BuildJob *,std::allocator<BuildJob *> > const &BuildQueue::getBuildQueue() const // 0x52C137
 {
     mangled_assert("?getBuildQueue@BuildQueue@@QBEABV?$list@PAVBuildJob@@V?$allocator@PAVBuildJob@@@std@@@std@@XZ");
     todo("implement");
-    std::list<BuildJob *,std::allocator<BuildJob *> > const & __result = _sub_52C137(this);
-    return __result;
 }
 
-_extern std::list<UIBuildJob *,std::allocator<UIBuildJob *> > const &_sub_570A52(BuildQueue const *const);
 _inline std::list<UIBuildJob *,std::allocator<UIBuildJob *> > const &BuildQueue::getUIBuildQueue() const // 0x570A52
 {
     mangled_assert("?getUIBuildQueue@BuildQueue@@QBEABV?$list@PAVUIBuildJob@@V?$allocator@PAVUIBuildJob@@@std@@@std@@XZ");
     todo("implement");
-    std::list<UIBuildJob *,std::allocator<UIBuildJob *> > const & __result = _sub_570A52(this);
-    return __result;
 }
 
-_extern void _sub_69789C(BuildQueue *const, BuildType);
 _inline void BuildQueue::toggleQueuePause(BuildType) // 0x69789C
 {
     mangled_assert("?toggleQueuePause@BuildQueue@@QAEXW4BuildType@@@Z");
     todo("implement");
-    _sub_69789C(this, arg);
 }
 
-_extern void _sub_6978AF(BuildQueue *const, BuildType);
 _inline void BuildQueue::toggleUIQueuePause(BuildType) // 0x6978AF
 {
     mangled_assert("?toggleUIQueuePause@BuildQueue@@QAEXW4BuildType@@@Z");
     todo("implement");
-    _sub_6978AF(this, arg);
 }
 
-_extern bool _sub_570A74(BuildQueue const *const, BuildType);
 _inline bool BuildQueue::isUIQueuePaused(BuildType) const // 0x570A74
 {
     mangled_assert("?isUIQueuePaused@BuildQueue@@QBE_NW4BuildType@@@Z");
     todo("implement");
-    bool __result = _sub_570A74(this, arg);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_5D00DD(BuildQueue const *const);
 _inline unsigned __int32 BuildQueue::getNumberOfBuildableItems() const // 0x5D00DD
 {
     mangled_assert("?getNumberOfBuildableItems@BuildQueue@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_5D00DD(this);
-    return __result;
 }
 
-_extern bool _sub_5D0223(BuildQueue *const);
 _inline bool BuildQueue::isDeterministic() // 0x5D0223
 {
     mangled_assert("?isDeterministic@BuildQueue@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_5D0223(this);
-    return __result;
 }
 
-_extern char const *_sub_5D075F(BuildQueue *const);
 _inline char const *BuildQueue::saveToken() // 0x5D075F
 {
     mangled_assert("?saveToken@BuildQueue@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_5D075F(this);
-    return __result;
 }
 
 /* ---------- private code */

@@ -42,31 +42,22 @@ static_assert(sizeof(FamilyList) == 12, "Invalid FamilyList size");
 
 /* ---------- public code */
 
-_extern std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Family> > > _sub_583E7C(FamilyList *const);
 _inline std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Family> > > FamilyList::begin() // 0x583E7C
 {
     mangled_assert("?begin@FamilyList@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@VFamily@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Family> > > __result = _sub_583E7C(this);
-    return __result;
 }
 
-_extern std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Family> > > _sub_5841D6(FamilyList *const);
 _inline std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Family> > > FamilyList::end() // 0x5841D6
 {
     mangled_assert("?end@FamilyList@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@VFamily@@@std@@@std@@@std@@XZ");
     todo("implement");
-    std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Family> > > __result = _sub_5841D6(this);
-    return __result;
 }
 
-_extern unsigned __int32 _sub_4A47C9(FamilyList const *const);
 _inline unsigned __int32 FamilyList::size() const // 0x4A47C9
 {
     mangled_assert("?size@FamilyList@@QBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_4A47C9(this);
-    return __result;
 }
 
 /* ---------- private code */

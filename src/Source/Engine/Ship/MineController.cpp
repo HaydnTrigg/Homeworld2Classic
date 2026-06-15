@@ -39,70 +39,52 @@ extern SaveData const MineController::m_saveData[1]; // 0x78E07C
 
 /* ---------- public code */
 
-_extern _sub_49B91E(MineController *const, SaveGameData *);
 MineController::MineController(SaveGameData *) // 0x49B91E
 {
     mangled_assert("??0MineController@@QAE@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_49B91E(this, arg);
 }
 
-_extern void _sub_49B975(MineController *const);
 void MineController::defaultSettings() // 0x49B975
 {
     mangled_assert("?defaultSettings@MineController@@QAEXXZ");
     todo("implement");
-    _sub_49B975(this);
 }
 
-_extern void _sub_49BA9C(MineController *const);
 void MineController::postRestore() // 0x49BA9C
 {
     mangled_assert("?postRestore@MineController@@UAEXXZ");
     todo("implement");
-    _sub_49BA9C(this);
 }
 
-_extern bool _sub_49BAA1(MineController *const, SaveGameData *);
 bool MineController::restore(SaveGameData *) // 0x49BAA1
 {
     mangled_assert("?restore@MineController@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_49BAA1(this, arg);
-    return __result;
 }
 
-_extern bool _sub_49BAEE(MineController *const, SaveGameData *, SaveType);
 bool MineController::save(SaveGameData *, SaveType) // 0x49BAEE
 {
     mangled_assert("?save@MineController@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_49BAEE(this, arg, arg);
-    return __result;
 }
 
-_extern _sub_49B936(MineController *const);
 MineController::MineController() // 0x49B936
 {
     mangled_assert("??0MineController@@QAE@XZ");
     todo("implement");
-    _sub_49B936(this);
 }
 
-_extern void _sub_49B948(MineController *const);
 MineController::~MineController() // 0x49B948
 {
     mangled_assert("??1MineController@@UAE@XZ");
     todo("implement");
-    _sub_49B948(this);
 }
 
-_extern void _sub_49B976(MineController *const, float);
 void MineController::doBehaviour(float) // 0x49B976
 {
     mangled_assert("?doBehaviour@MineController@@UAEXM@Z");
     todo("implement");
-    _sub_49B976(this, arg);
 }
 
 /* ---------- private code */

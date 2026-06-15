@@ -40,46 +40,34 @@ static_assert(sizeof(OneShotState) == 28, "Invalid OneShotState size");
 
 /* ---------- public code */
 
-_extern _sub_53FFAB(OneShotState *const, CpuSquadGroup &);
 _inline OneShotState::OneShotState(CpuSquadGroup &) // 0x53FFAB
 {
     mangled_assert("??0OneShotState@@QAE@AAVCpuSquadGroup@@@Z");
     todo("implement");
-    _sub_53FFAB(this, arg);
 }
 
-_extern void _sub_540089(OneShotState *const);
 _inline OneShotState::~OneShotState() // 0x540089
 {
     mangled_assert("??1OneShotState@@QAE@XZ");
     todo("implement");
-    _sub_540089(this);
 }
 
-_extern unsigned __int32 _sub_5400BF(OneShotState const *const);
 _inline unsigned __int32 OneShotState::GetType() const // 0x5400BF
 {
     mangled_assert("?GetType@OneShotState@@UBEIXZ");
     todo("implement");
-    unsigned __int32 __result = _sub_5400BF(this);
-    return __result;
 }
 
-_extern void _sub_5400F5(OneShotState *const, SquadronList &);
 _inline void OneShotState::ReIssue(SquadronList &) // 0x5400F5
 {
     mangled_assert("?ReIssue@OneShotState@@UAEXAAVSquadronList@@@Z");
     todo("implement");
-    _sub_5400F5(this, arg);
 }
 
-_extern __int32 _sub_5401D8(OneShotState const *const);
 _inline __int32 OneShotState::getSubState() const // 0x5401D8
 {
     mangled_assert("?getSubState@OneShotState@@UBEHXZ");
     todo("implement");
-    __int32 __result = _sub_5401D8(this);
-    return __result;
 }
 
 /* ---------- private code */

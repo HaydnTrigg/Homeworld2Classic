@@ -157,13 +157,10 @@ static_assert(sizeof(MadsSystem) == 1, "Invalid MadsSystem size");
 
 /* ---------- public code */
 
-_extern bool _sub_606D56(MadState *const);
 _inline bool MadState::isDeterministic() // 0x606D56
 {
     mangled_assert("?isDeterministic@MadState@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_606D56(this);
-    return __result;
 }
 
 /* ---------- private code */

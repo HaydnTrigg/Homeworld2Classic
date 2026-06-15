@@ -67,13 +67,10 @@ static_assert(sizeof(UI::Movie) == 1160, "Invalid UI::Movie size");
 
 /* ---------- public code */
 
-_extern float _sub_5914FC(UI::Movie const *const);
 _inline float UI::Movie::GetPrevAlpha() const // 0x5914FC
 {
     mangled_assert("?GetPrevAlpha@Movie@UI@@QBEMXZ");
     todo("implement");
-    float __result = _sub_5914FC(this);
-    return __result;
 }
 
 /* ---------- private code */

@@ -59,57 +59,40 @@ static_assert(sizeof(CircleStrafeAttackStyle) == 148, "Invalid CircleStrafeAttac
 
 /* ---------- public code */
 
-_extern void _sub_6AF081(CircleStrafeStatic *const);
 _inline CircleStrafeStatic::~CircleStrafeStatic() // 0x6AF081
 {
     mangled_assert("??1CircleStrafeStatic@@UAE@XZ");
     todo("implement");
-    _sub_6AF081(this);
 }
 
-_extern AttackStyle::AttackStyleType _sub_6AF0F6(CircleStrafeAttackStyle const *const);
 _inline AttackStyle::AttackStyleType CircleStrafeAttackStyle::GetType() const // 0x6AF0F6
 {
     mangled_assert("?GetType@CircleStrafeAttackStyle@@UBE?AW4AttackStyleType@AttackStyle@@XZ");
     todo("implement");
-    AttackStyle::AttackStyleType __result = _sub_6AF0F6(this);
-    return __result;
 }
 
-_extern bool _sub_6AF109(CircleStrafeAttackStyle *const);
 _inline bool CircleStrafeAttackStyle::doesAttackStyleDictateTargetPoint() // 0x6AF109
 {
     mangled_assert("?doesAttackStyleDictateTargetPoint@CircleStrafeAttackStyle@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6AF109(this);
-    return __result;
 }
 
-_extern CircleStrafeStatic const *_sub_6AF205(CircleStrafeAttackStyle const *const);
 _inline CircleStrafeStatic const *CircleStrafeAttackStyle::getStaticInfo() const // 0x6AF205
 {
     mangled_assert("?getStaticInfo@CircleStrafeAttackStyle@@IBEPBVCircleStrafeStatic@@XZ");
     todo("implement");
-    CircleStrafeStatic const * __result = _sub_6AF205(this);
-    return __result;
 }
 
-_extern bool _sub_6AF219(CircleStrafeAttackStyle *const);
 _inline bool CircleStrafeAttackStyle::isDeterministic() // 0x6AF219
 {
     mangled_assert("?isDeterministic@CircleStrafeAttackStyle@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6AF219(this);
-    return __result;
 }
 
-_extern char const *_sub_6AF2FC(CircleStrafeAttackStyle *const);
 _inline char const *CircleStrafeAttackStyle::saveToken() // 0x6AF2FC
 {
     mangled_assert("?saveToken@CircleStrafeAttackStyle@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6AF2FC(this);
-    return __result;
 }
 
 /* ---------- private code */

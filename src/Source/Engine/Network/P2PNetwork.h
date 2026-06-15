@@ -95,21 +95,16 @@ static_assert(sizeof(P2PNetwork) == 128, "Invalid P2PNetwork size");
 
 /* ---------- public code */
 
-_extern __int32 _sub_4F948D(P2PNetwork const *const);
 _inline __int32 P2PNetwork::GetNumberFramesQueued() const // 0x4F948D
 {
     mangled_assert("?GetNumberFramesQueued@P2PNetwork@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_4F948D(this);
-    return __result;
 }
 
-_extern _sub_5BDD29(P2PNetwork::Packet *const);
 _inline P2PNetwork::Packet::Packet() // 0x5BDD29
 {
     mangled_assert("??0Packet@P2PNetwork@@QAE@XZ");
     todo("implement");
-    _sub_5BDD29(this);
 }
 
 /* ---------- private code */

@@ -186,31 +186,22 @@ static_assert(sizeof(CaptureCommandStaticInfo) == 12, "Invalid CaptureCommandSta
 
 /* ---------- public code */
 
-_extern bool _sub_6A9EB2(CaptureCommand *const);
 _inline bool CaptureCommand::isDeterministic() // 0x6A9EB2
 {
     mangled_assert("?isDeterministic@CaptureCommand@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_6A9EB2(this);
-    return __result;
 }
 
-_extern char const *_sub_6AA097(CaptureCommand *const);
 _inline char const *CaptureCommand::saveToken() // 0x6AA097
 {
     mangled_assert("?saveToken@CaptureCommand@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_6AA097(this);
-    return __result;
 }
 
-_extern float _sub_6A9E82(CaptureCommandStaticInfo const *const);
 _inline float CaptureCommandStaticInfo::getLatchOffset() const // 0x6A9E82
 {
     mangled_assert("?getLatchOffset@CaptureCommandStaticInfo@@QBEMXZ");
     todo("implement");
-    float __result = _sub_6A9E82(this);
-    return __result;
 }
 
 /* ---------- private code */

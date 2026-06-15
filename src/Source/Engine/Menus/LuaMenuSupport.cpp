@@ -263,278 +263,205 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_58CCA0(UI::LuaScopedGuard *const);
 _inline UI::LuaScopedGuard::LuaScopedGuard() // 0x58CCA0
 {
     mangled_assert("??0LuaScopedGuard@UI@@QAE@XZ");
     todo("implement");
-    _sub_58CCA0(this);
 }
 
-_extern void _sub_58CCC2(LuaBinding::ObjInternal0<bool,LuaBinding::Functor0Free<bool> > *const);
 _inline LuaBinding::ObjInternal0<bool,LuaBinding::Functor0Free<bool> >::~ObjInternal0<bool,LuaBinding::Functor0Free<bool> >() // 0x58CCC2
 {
     mangled_assert("??1?$ObjInternal0@_NV?$Functor0Free@_N@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_58CCC2(this);
 }
 
-_extern void _sub_58CCC8(LuaBinding::ObjInternal2<char const *,int,bool,LuaBinding::Functor2Free<char const *,int,bool> > *const);
 _inline LuaBinding::ObjInternal2<char const *,int,bool,LuaBinding::Functor2Free<char const *,int,bool> >::~ObjInternal2<char const *,int,bool,LuaBinding::Functor2Free<char const *,int,bool> >() // 0x58CCC8
 {
     mangled_assert("??1?$ObjInternal2@PBDH_NV?$Functor2Free@PBDH_N@LuaBinding@@@LuaBinding@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_58CCC8(this);
 }
 
-_extern void _sub_58CD0F(UI::LuaScopedGuard *const);
 _inline UI::LuaScopedGuard::~LuaScopedGuard() // 0x58CD0F
 {
     mangled_assert("??1LuaScopedGuard@UI@@QAE@XZ");
     todo("implement");
-    _sub_58CD0F(this);
 }
 
-_extern _sub_58CC5F(UI::LuaMenuSupportLib *const);
 _inline UI::LuaMenuSupportLib::LuaMenuSupportLib() // 0x58CC5F
 {
     mangled_assert("??0LuaMenuSupportLib@UI@@QAE@XZ");
     todo("implement");
-    _sub_58CC5F(this);
 }
 
-_extern void _sub_58CCCE(UI::LuaMenuSupportLib *const);
 _inline UI::LuaMenuSupportLib::~LuaMenuSupportLib() // 0x58CCCE
 {
     mangled_assert("??1LuaMenuSupportLib@UI@@UAE@XZ");
     todo("implement");
-    _sub_58CCCE(this);
 }
 
-_extern bool _sub_58D547(UI::LuaMenuSupportLib *const, LuaConfig &);
 _inline bool UI::LuaMenuSupportLib::Register(LuaConfig &) // 0x58D547
 {
     mangled_assert("?Register@LuaMenuSupportLib@UI@@UAE_NAAVLuaConfig@@@Z");
     todo("implement");
-    bool __result = _sub_58D547(this, arg);
-    return __result;
 }
 
-_extern bool _sub_58CDBE(UI::LuaMenuSupportLib *const, LuaConfig &);
 _inline bool UI::LuaMenuSupportLib::DeRegister(LuaConfig &) // 0x58CDBE
 {
     mangled_assert("?DeRegister@LuaMenuSupportLib@UI@@UAE_NAAVLuaConfig@@@Z");
     todo("implement");
-    bool __result = _sub_58CDBE(this, arg);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern bool _sub_58D374(char const *, __int32);
 _static bool UI::Profile_SetMissionsComplete(char const *campaign, __int32 mission) // 0x58D374
 {
     mangled_assert("UI::Profile_SetMissionsComplete");
     todo("implement");
-    bool __result = _sub_58D374(campaign, mission);
-    return __result;
 }
 
-_extern bool _sub_58D3DA(char const *, __int32);
 _static bool UI::Profile_SetSingleMissionComplete(char const *campaign, __int32 mission) // 0x58D3DA
 {
     mangled_assert("UI::Profile_SetSingleMissionComplete");
     todo("implement");
-    bool __result = _sub_58D3DA(campaign, mission);
-    return __result;
 }
 
-_extern bool _sub_58D437();
 _static bool UI::Profile_UnlockMovies() // 0x58D437
 {
     mangled_assert("UI::Profile_UnlockMovies");
     todo("implement");
-    bool __result = _sub_58D437();
-    return __result;
 }
 
-_extern bool _sub_58D434();
 _static bool UI::Profile_UnlockAll() // 0x58D434
 {
     mangled_assert("UI::Profile_UnlockAll");
     todo("implement");
-    bool __result = _sub_58D434();
-    return __result;
 }
 
-_extern void _sub_58CED1(UI::InterfaceElement *);
 _static void UI::FE_ExitToMainMenu_Yes(UI::InterfaceElement *yes) // 0x58CED1
 {
     mangled_assert("UI::FE_ExitToMainMenu_Yes");
     todo("implement");
-    _sub_58CED1(yes);
 }
 
-_extern void _sub_58CE66();
 _static void UI::FE_ExitToMainMenu() // 0x58CE66
 {
     mangled_assert("UI::FE_ExitToMainMenu");
     todo("implement");
-    _sub_58CE66();
 }
 
-_extern void _sub_58CF79(UI::InterfaceElement *);
 _static void UI::FE_ExitToWindows_Yes(UI::InterfaceElement *btn) // 0x58CF79
 {
     mangled_assert("UI::FE_ExitToWindows_Yes");
     todo("implement");
-    _sub_58CF79(btn);
 }
 
-_extern void _sub_58CF0E();
 _static void UI::FE_ExitToWindows() // 0x58CF0E
 {
     mangled_assert("UI::FE_ExitToWindows");
     todo("implement");
-    _sub_58CF0E();
 }
 
-_extern void _sub_58D1D8(UI::InterfaceElement *);
 _static void UI::FE_RestartGame_Yes(UI::InterfaceElement *e) // 0x58D1D8
 {
     mangled_assert("UI::FE_RestartGame_Yes");
     todo("implement");
-    _sub_58D1D8(e);
 }
 
-_extern void _sub_58D15C(bool);
 _static void UI::FE_RestartGame(bool confirm) // 0x58D15C
 {
     mangled_assert("UI::FE_RestartGame");
     todo("implement");
-    _sub_58D15C(confirm);
 }
 
-_extern void _sub_58D307();
 _static void UI::FE_SaveGameScreen() // 0x58D307
 {
     mangled_assert("UI::FE_SaveGameScreen");
     todo("implement");
-    _sub_58D307();
 }
 
-_extern void _sub_58D028();
 _static void UI::FE_LoadGameScreen() // 0x58D028
 {
     mangled_assert("UI::FE_LoadGameScreen");
     todo("implement");
-    _sub_58D028();
 }
 
-_extern void _sub_58D316();
 _static void UI::FE_SaveGameScreen_Campaign() // 0x58D316
 {
     mangled_assert("UI::FE_SaveGameScreen_Campaign");
     todo("implement");
-    _sub_58D316();
 }
 
-_extern void _sub_58D037();
 _static void UI::FE_LoadGameScreen_Campaign() // 0x58D037
 {
     mangled_assert("UI::FE_LoadGameScreen_Campaign");
     todo("implement");
-    _sub_58D037();
 }
 
-_extern void _sub_58D05D();
 _static void UI::FE_LoadGameScreen_RecordedGame() // 0x58D05D
 {
     mangled_assert("UI::FE_LoadGameScreen_RecordedGame");
     todo("implement");
-    _sub_58D05D();
 }
 
-_extern void _sub_58D2DE(UI::InterfaceElement *);
 _static void UI::FE_Retire_Yes(UI::InterfaceElement *yesButton) // 0x58D2DE
 {
     mangled_assert("UI::FE_Retire_Yes");
     todo("implement");
-    _sub_58D2DE(yesButton);
 }
 
-_extern void _sub_58D262(char const *);
 _static void UI::FE_Retire(char const *luaOnAccept) // 0x58D262
 {
     mangled_assert("UI::FE_Retire");
     todo("implement");
-    _sub_58D262(luaOnAccept);
 }
 
-_extern void _sub_58CFB6(UI::InterfaceElement *);
 _static void UI::FE_FinalTutorial_Yes(UI::InterfaceElement *e) // 0x58CFB6
 {
     mangled_assert("UI::FE_FinalTutorial_Yes");
     todo("implement");
-    _sub_58CFB6(e);
 }
 
-_extern void _sub_58D06C();
 _static void UI::FE_NextTutorial() // 0x58D06C
 {
     mangled_assert("UI::FE_NextTutorial");
     todo("implement");
-    _sub_58D06C();
 }
 
-_extern __int32 _sub_58D002();
 _static __int32 UI::FE_GetCurrentPlayerIndex() // 0x58D002
 {
     mangled_assert("UI::FE_GetCurrentPlayerIndex");
     todo("implement");
-    __int32 __result = _sub_58D002();
-    return __result;
 }
 
-_extern void _sub_58D33C(bool);
 _static void UI::FE_TaskbarIgnoreProfilePhase(bool b) // 0x58D33C
 {
     mangled_assert("UI::FE_TaskbarIgnoreProfilePhase");
     todo("implement");
-    _sub_58D33C(b);
 }
 
-_extern void _sub_58DAAC();
 _static void UI::UI_StartGameWithSelectedLevel() // 0x58DAAC
 {
     mangled_assert("UI::UI_StartGameWithSelectedLevel");
     todo("implement");
-    _sub_58DAAC();
 }
 
-_extern void _sub_58CFF3();
 _static void UI::FE_FocusOnLastEvent() // 0x58CFF3
 {
     mangled_assert("UI::FE_FocusOnLastEvent");
     todo("implement");
-    _sub_58CFF3();
 }
 
-_extern void _sub_58DBA6();
 _static void UI::UI_SubtitleNarrow() // 0x58DBA6
 {
     mangled_assert("UI::UI_SubtitleNarrow");
     todo("implement");
-    _sub_58DBA6();
 }
 
-_extern void _sub_58DBB5();
 _static void UI::UI_SubtitleWide() // 0x58DBB5
 {
     mangled_assert("UI::UI_SubtitleWide");
     todo("implement");
-    _sub_58DBB5();
 }
 #endif

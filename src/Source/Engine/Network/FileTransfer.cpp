@@ -325,38 +325,28 @@
 
 /* ---------- public code */
 
-_extern _sub_5BC880(FileDownload *const, unsigned __int32, MessageFileHeader const *);
 FileDownload::FileDownload(unsigned __int32, MessageFileHeader const *) // 0x5BC880
 {
     mangled_assert("??0FileDownload@@QAE@IPBUMessageFileHeader@@@Z");
     todo("implement");
-    _sub_5BC880(this, arg, arg);
 }
 
-_extern bool _sub_5BC992(FileDownload *const, MessageFileChunk const *);
 bool FileDownload::Update(MessageFileChunk const *) // 0x5BC992
 {
     mangled_assert("?Update@FileDownload@@QAE_NPBUMessageFileChunk@@@Z");
     todo("implement");
-    bool __result = _sub_5BC992(this, arg);
-    return __result;
 }
 
-_extern _sub_5BC8F0(FileUpload *const, unsigned __int32, unsigned __int32, std::vector<unsigned char,std::allocator<unsigned char> > &);
 FileUpload::FileUpload(unsigned __int32, unsigned __int32, std::vector<unsigned char,std::allocator<unsigned char> > &) // 0x5BC8F0
 {
     mangled_assert("??0FileUpload@@QAE@IIAAV?$vector@EV?$allocator@E@std@@@std@@@Z");
     todo("implement");
-    _sub_5BC8F0(this, arg, arg, arg);
 }
 
-_extern bool _sub_5BC9F3(FileUpload *const, Net::Session *);
 bool FileUpload::Update(Net::Session *) // 0x5BC9F3
 {
     mangled_assert("?Update@FileUpload@@QAE_NPAVSession@Net@@@Z");
     todo("implement");
-    bool __result = _sub_5BC9F3(this, arg);
-    return __result;
 }
 
 /* ---------- private code */

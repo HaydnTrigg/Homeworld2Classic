@@ -52,22 +52,16 @@ static_assert(sizeof(NebulaGroup) == 108, "Invalid NebulaGroup size");
 
 /* ---------- public code */
 
-_extern bool _sub_4C13F3(NebulaGroup *const);
 _inline bool NebulaGroup::isDeterministic() // 0x4C13F3
 {
     mangled_assert("?isDeterministic@NebulaGroup@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_4C13F3(this);
-    return __result;
 }
 
-_extern char const *_sub_4C148B(NebulaGroup *const);
 _inline char const *NebulaGroup::saveToken() // 0x4C148B
 {
     mangled_assert("?saveToken@NebulaGroup@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4C148B(this);
-    return __result;
 }
 
 /* ---------- private code */

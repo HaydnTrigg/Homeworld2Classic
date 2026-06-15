@@ -42,79 +42,59 @@ extern std::list<MultiplierContainer *,std::allocator<MultiplierContainer *> > M
 
 /* ---------- public code */
 
-_extern void _sub_4F1FFD(MultiplierContainer *const);
 void MultiplierContainer::cleanTemporaryMultipliers() // 0x4F1FFD
 {
     mangled_assert("?cleanTemporaryMultipliers@MultiplierContainer@@QAEXXZ");
     todo("implement");
-    _sub_4F1FFD(this);
 }
 
-_extern _sub_4F1D6A(MultiplierContainer *const);
 MultiplierContainer::MultiplierContainer() // 0x4F1D6A
 {
     mangled_assert("??0MultiplierContainer@@QAE@XZ");
     todo("implement");
-    _sub_4F1D6A(this);
 }
 
-_extern void _sub_4F1DE9(std::_List_buy<MultiplierContainer *,std::allocator<MultiplierContainer *> > *const);
 _inline std::_List_buy<MultiplierContainer *,std::allocator<MultiplierContainer *> >::~_List_buy<MultiplierContainer *,std::allocator<MultiplierContainer *> >() // 0x4F1DE9
 {
     mangled_assert("??1?$_List_buy@PAVMultiplierContainer@@V?$allocator@PAVMultiplierContainer@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4F1DE9(this);
 }
 
-_extern void _sub_4F1E04(MultiplierContainer *const);
 MultiplierContainer::~MultiplierContainer() // 0x4F1E04
 {
     mangled_assert("??1MultiplierContainer@@UAE@XZ");
     todo("implement");
-    _sub_4F1E04(this);
 }
 
-_extern void _sub_4F1FDD();
 void MultiplierContainer::cleanAllTemporaryMultipliers() // 0x4F1FDD
 {
     mangled_assert("?cleanAllTemporaryMultipliers@MultiplierContainer@@SGXXZ");
     todo("implement");
-    _sub_4F1FDD();
 }
 
-_extern void _sub_4F1F70(MultiplierContainer *const, MultiplierType, float);
 void MultiplierContainer::addTemporaryMultiplier(MultiplierType, float) // 0x4F1F70
 {
     mangled_assert("?addTemporaryMultiplier@MultiplierContainer@@QAEXW4MultiplierType@@M@Z");
     todo("implement");
-    _sub_4F1F70(this, arg, arg);
 }
 
-_extern void _sub_4F20B3(MultiplierContainer *const);
 void MultiplierContainer::postRestore() // 0x4F20B3
 {
     mangled_assert("?postRestore@MultiplierContainer@@UAEXXZ");
     todo("implement");
-    _sub_4F20B3(this);
 }
 
-_extern bool _sub_4F20C2(MultiplierContainer *const, SaveGameData *);
 bool MultiplierContainer::restore(SaveGameData *) // 0x4F20C2
 {
     mangled_assert("?restore@MultiplierContainer@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_4F20C2(this, arg);
-    return __result;
 }
 
-_extern bool _sub_4F2100(MultiplierContainer *const, SaveGameData *, SaveType);
 bool MultiplierContainer::save(SaveGameData *, SaveType) // 0x4F2100
 {
     mangled_assert("?save@MultiplierContainer@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_4F2100(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */

@@ -116,71 +116,52 @@ extern unsigned __int32 MPeekVMMapSmall(MPeekSmallChunk *buf, unsigned __int32 b
 
 /* ---------- public code */
 
-_extern _sub_100022C0(MemPoolSmall *const, char const *);
 MemPoolSmall::MemPoolSmall(char const *) // 0x100022C0
 {
     mangled_assert("??0MemPoolSmall@@QAE@PBD@Z");
     todo("implement");
-    _sub_100022C0(this, arg);
 }
 
-_extern void _sub_100023C0(MemPoolSmall *const);
 MemPoolSmall::~MemPoolSmall() // 0x100023C0
 {
     mangled_assert("??1MemPoolSmall@@QAE@XZ");
     todo("implement");
-    _sub_100023C0(this);
 }
 
-_extern _sub_10002280(MemPoolSmall *const, MemPoolSmall const &);
 MemPoolSmall::MemPoolSmall(MemPoolSmall const &) // 0x10002280
 {
     mangled_assert("??0MemPoolSmall@@QAE@ABV0@@Z");
     todo("implement");
-    _sub_10002280(this, arg);
 }
 
-_extern MemPoolSmall &_sub_10002550(MemPoolSmall *const, MemPoolSmall const &);
 MemPoolSmall &MemPoolSmall::operator=(MemPoolSmall const &) // 0x10002550
 {
     mangled_assert("??4MemPoolSmall@@QAEAAV0@ABV0@@Z");
     todo("implement");
-    MemPoolSmall & __result = _sub_10002550(this, arg);
-    return __result;
 }
 
-_extern void *_sub_10002830(MemPoolSmall *const, unsigned __int32);
 void *MemPoolSmall::Alloc(unsigned __int32) // 0x10002830
 {
     mangled_assert("?Alloc@MemPoolSmall@@QAEPAXI@Z");
     todo("implement");
-    void * __result = _sub_10002830(this, arg);
-    return __result;
 }
 
-_extern void _sub_10002BB0(MemPoolSmall *const, void *, unsigned __int32);
 void MemPoolSmall::Free(void *, unsigned __int32) // 0x10002BB0
 {
     mangled_assert("?Free@MemPoolSmall@@QAEXPAXI@Z");
     todo("implement");
-    _sub_10002BB0(this, arg, arg);
 }
 
-_extern void _sub_10003020(MemPoolSmall *const);
 void MemPoolSmall::Shrink() // 0x10003020
 {
     mangled_assert("?Shrink@MemPoolSmall@@QAEXXZ");
     todo("implement");
-    _sub_10003020(this);
 }
 
-_extern unsigned __int32 _sub_10002DE0(MPeekSmallChunk *, unsigned __int32);
 unsigned __int32 MPeekVMMapSmall(MPeekSmallChunk *buf, unsigned __int32 bufsize) // 0x10002DE0
 {
     mangled_assert("?MPeekVMMapSmall@@YGIPAUMPeekSmallChunk@@I@Z");
     todo("implement");
-    unsigned __int32 __result = _sub_10002DE0(buf, bufsize);
-    return __result;
 }
 
 /* ---------- private code */

@@ -81,12 +81,10 @@ static_assert(sizeof(SaveData) == 32, "Invalid SaveData size");
 
 /* ---------- public code */
 
-_extern void _sub_469FF0(Saveable *const);
 _inline Saveable::~Saveable() // 0x469FF0
 {
     mangled_assert("??1Saveable@@UAE@XZ");
     todo("implement");
-    _sub_469FF0(this);
 }
 
 /* ---------- private code */

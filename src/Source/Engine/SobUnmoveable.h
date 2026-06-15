@@ -51,31 +51,22 @@ static_assert(sizeof(SobUnmoveable) == 528, "Invalid SobUnmoveable size");
 
 /* ---------- public code */
 
-_extern bool _sub_4B1ED1(SobUnmoveable *const, float);
 _inline bool SobUnmoveable::update(float) // 0x4B1ED1
 {
     mangled_assert("?update@SobUnmoveable@@UAE_NM@Z");
     todo("implement");
-    bool __result = _sub_4B1ED1(this, arg);
-    return __result;
 }
 
-_extern bool _sub_4B2B7B(SobUnmoveable *const);
 _inline bool SobUnmoveable::isDeterministic() // 0x4B2B7B
 {
     mangled_assert("?isDeterministic@SobUnmoveable@@MAE_NXZ");
     todo("implement");
-    bool __result = _sub_4B2B7B(this);
-    return __result;
 }
 
-_extern char const *_sub_4B2C1D(SobUnmoveable *const);
 _inline char const *SobUnmoveable::saveToken() // 0x4B2C1D
 {
     mangled_assert("?saveToken@SobUnmoveable@@MAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_4B2C1D(this);
-    return __result;
 }
 
 /* ---------- private code */

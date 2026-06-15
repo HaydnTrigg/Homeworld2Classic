@@ -116,78 +116,58 @@ _static
 
 /* ---------- public code */
 
-_extern _sub_60AD37(NavLightStatic *const);
 NavLightStatic::NavLightStatic() // 0x60AD37
 {
     mangled_assert("??0NavLightStatic@@QAE@XZ");
     todo("implement");
-    _sub_60AD37(this);
 }
 
-_extern void _sub_60AEFD(NavLightStatic *const);
 NavLightStatic::~NavLightStatic() // 0x60AEFD
 {
     mangled_assert("??1NavLightStatic@@QAE@XZ");
     todo("implement");
-    _sub_60AEFD(this);
 }
 
-_extern _sub_60AD44(NavLights *const, SobWithMesh *);
 NavLights::NavLights(SobWithMesh *) // 0x60AD44
 {
     mangled_assert("??0NavLights@@QAE@PAVSobWithMesh@@@Z");
     todo("implement");
-    _sub_60AD44(this, arg);
 }
 
-_extern void _sub_60AF0D(NavLights *const);
 NavLights::~NavLights() // 0x60AF0D
 {
     mangled_assert("??1NavLights@@QAE@XZ");
     todo("implement");
-    _sub_60AF0D(this);
 }
 
-_extern void _sub_60B32A(NavLights *const, float const);
 void NavLights::setPower(float const) // 0x60B32A
 {
     mangled_assert("?setPower@NavLights@@QAEXM@Z");
     todo("implement");
-    _sub_60B32A(this, arg);
 }
 
-_extern void _sub_60B350(NavLights *const, float const, bool const);
 void NavLights::update(float const, bool const) // 0x60B350
 {
     mangled_assert("?update@NavLights@@QAEXM_N@Z");
     todo("implement");
-    _sub_60B350(this, arg, arg);
 }
 
-_extern float _sub_60B1DB(NavLights const *const, NavLightStyle const *, float, float);
 float NavLights::getLightStatus(NavLightStyle const *, float, float) const // 0x60B1DB
 {
     mangled_assert("?getLightStatus@NavLights@@QBEMPBVNavLightStyle@@MM@Z");
     todo("implement");
-    float __result = _sub_60B1DB(this, arg, arg, arg);
-    return __result;
 }
 
-_extern void _sub_60AFB0(bool);
 void NavLights::EnablePointLight(bool bEnable) // 0x60AFB0
 {
     mangled_assert("?EnablePointLight@NavLights@@SGX_N@Z");
     todo("implement");
-    _sub_60AFB0(bEnable);
 }
 
-_extern bool _sub_60AFBC();
 bool NavLights::IsPointLightEnabled() // 0x60AFBC
 {
     mangled_assert("?IsPointLightEnabled@NavLights@@SG_NXZ");
     todo("implement");
-    bool __result = _sub_60AFBC();
-    return __result;
 }
 
 /* ---------- private code */

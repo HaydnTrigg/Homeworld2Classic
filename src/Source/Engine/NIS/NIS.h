@@ -172,67 +172,46 @@ static_assert(sizeof(NIS) == 324, "Invalid NIS size");
 
 /* ---------- public code */
 
-_extern float _sub_54B989(NISEvent const *const);
 _inline float NISEvent::getTime() const // 0x54B989
 {
     mangled_assert("?getTime@NISEvent@@QBEMXZ");
     todo("implement");
-    float __result = _sub_54B989(this);
-    return __result;
 }
 
-_extern NISScript *_sub_54B96F(NIS *const);
 _inline NISScript *NIS::getScript() // 0x54B96F
 {
     mangled_assert("?getScript@NIS@@QAEPAVNISScript@@XZ");
     todo("implement");
-    NISScript * __result = _sub_54B96F(this);
-    return __result;
 }
 
-_extern bool _sub_5529BA(NIS *const);
 _inline bool NIS::isPaused() // 0x5529BA
 {
     mangled_assert("?isPaused@NIS@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_5529BA(this);
-    return __result;
 }
 
-_extern matrix3 const &_sub_54D35C(NIS const *const);
 _inline matrix3 const &NIS::getRootCoordSys() const // 0x54D35C
 {
     mangled_assert("?getRootCoordSys@NIS@@QBEABVmatrix3@@XZ");
     todo("implement");
-    matrix3 const & __result = _sub_54D35C(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_54D360(NIS const *const);
 _inline vector3 const &NIS::getRootPosition() const // 0x54D360
 {
     mangled_assert("?getRootPosition@NIS@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_54D360(this);
-    return __result;
 }
 
-_extern float _sub_5564A7(NIS const *const);
 _inline float NIS::getTotalRenderTime() const // 0x5564A7
 {
     mangled_assert("?getTotalRenderTime@NIS@@QBEMXZ");
     todo("implement");
-    float __result = _sub_5564A7(this);
-    return __result;
 }
 
-_extern float _sub_54D364(NIS const *const);
 _inline float NIS::getTotalTime() const // 0x54D364
 {
     mangled_assert("?getTotalTime@NIS@@QBEMXZ");
     todo("implement");
-    float __result = _sub_54D364(this);
-    return __result;
 }
 
 /* ---------- private code */

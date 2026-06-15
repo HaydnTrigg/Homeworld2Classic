@@ -60,109 +60,76 @@ static_assert(sizeof(SampleBase) == 64, "Invalid SampleBase size");
 
 /* ---------- public code */
 
-_extern bool _sub_6C6A90(SampleBase *const);
 _inline bool SampleBase::GetLooping() // 0x6C6A90
 {
     mangled_assert("?GetLooping@SampleBase@@QAE_NXZ");
     todo("implement");
-    bool __result = _sub_6C6A90(this);
-    return __result;
 }
 
-_extern void _sub_6BEC6A(SampleBase *const, long);
 _inline void SampleBase::SetSize(long) // 0x6BEC6A
 {
     mangled_assert("?SetSize@SampleBase@@QAEXJ@Z");
     todo("implement");
-    _sub_6BEC6A(this, arg);
 }
 
-_extern long _sub_6C6B55(SampleBase *const);
 _inline long SampleBase::GetSize() // 0x6C6B55
 {
     mangled_assert("?GetSize@SampleBase@@QAEJXZ");
     todo("implement");
-    long __result = _sub_6C6B55(this);
-    return __result;
 }
 
-_extern void _sub_6BEC4C(SampleBase *const, void *);
 _inline void SampleBase::SetData(void *) // 0x6BEC4C
 {
     mangled_assert("?SetData@SampleBase@@QAEXPAX@Z");
     todo("implement");
-    _sub_6BEC4C(this, arg);
 }
 
-_extern void *_sub_6BEB39(SampleBase *const);
 _inline void *SampleBase::SampleData() // 0x6BEB39
 {
     mangled_assert("?SampleData@SampleBase@@QAEPAXXZ");
     todo("implement");
-    void * __result = _sub_6BEB39(this);
-    return __result;
 }
 
-_extern long _sub_6C6A88(SampleBase *const);
 _inline long SampleBase::GetLoopCount() // 0x6C6A88
 {
     mangled_assert("?GetLoopCount@SampleBase@@QAEJXZ");
     todo("implement");
-    long __result = _sub_6C6A88(this);
-    return __result;
 }
 
-_extern long _sub_6C6A8C(SampleBase *const);
 _inline long SampleBase::GetLoopRandom() // 0x6C6A8C
 {
     mangled_assert("?GetLoopRandom@SampleBase@@QAEJXZ");
     todo("implement");
-    long __result = _sub_6C6A8C(this);
-    return __result;
 }
 
-_extern long _sub_6BE48F(SampleBase *const);
 _inline long SampleBase::GetLoopStart() // 0x6BE48F
 {
     mangled_assert("?GetLoopStart@SampleBase@@QAEJXZ");
     todo("implement");
-    long __result = _sub_6BE48F(this);
-    return __result;
 }
 
-_extern long _sub_6BE48B(SampleBase *const);
 _inline long SampleBase::GetLoopEnd() // 0x6BE48B
 {
     mangled_assert("?GetLoopEnd@SampleBase@@QAEJXZ");
     todo("implement");
-    long __result = _sub_6BE48B(this);
-    return __result;
 }
 
-_extern void _sub_6BEC56(SampleBase *const, long);
 _inline void SampleBase::SetFileOffset(long) // 0x6BEC56
 {
     mangled_assert("?SetFileOffset@SampleBase@@QAEXJ@Z");
     todo("implement");
-    _sub_6BEC56(this, arg);
 }
 
-_extern long _sub_6C6A78(SampleBase *const);
 _inline long SampleBase::GetFileOffset() // 0x6C6A78
 {
     mangled_assert("?GetFileOffset@SampleBase@@QAEJXZ");
     todo("implement");
-    long __result = _sub_6C6A78(this);
-    return __result;
 }
 
-_extern long _sub_6C6B59(SampleBase *const);
 _inline long SampleBase::GetStartPoint() // 0x6C6B59
 {
     mangled_assert("?GetStartPoint@SampleBase@@QAEJXZ");
     todo("implement");
-    long __result = _sub_6C6B59(this);
-    return __result;
 }
 
 /* ---------- private code */

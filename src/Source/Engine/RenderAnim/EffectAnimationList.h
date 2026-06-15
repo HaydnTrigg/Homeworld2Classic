@@ -68,55 +68,40 @@ static_assert(sizeof(EffectAnimationList) == 24, "Invalid EffectAnimationList si
 
 /* ---------- public code */
 
-_extern void _sub_5185E5(EffectAnimationList::StateUpdate *const);
 _inline EffectAnimationList::StateUpdate::~StateUpdate() // 0x5185E5
 {
     mangled_assert("??1StateUpdate@EffectAnimationList@@UAE@XZ");
     todo("implement");
-    _sub_5185E5(this);
 }
 
-_extern bool _sub_518EBA(EffectAnimationList::StateUpdate *const, EffectAnimation const &, AnimEventContext *);
 _inline bool EffectAnimationList::StateUpdate::start(EffectAnimation const &, AnimEventContext *) // 0x518EBA
 {
     mangled_assert("?start@StateUpdate@EffectAnimationList@@UAE_NABVEffectAnimation@@PAVAnimEventContext@@@Z");
     todo("implement");
-    bool __result = _sub_518EBA(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_518F1A(EffectAnimationList::StateUpdate *const, EffectAnimation const &, AnimEventContext *);
 _inline bool EffectAnimationList::StateUpdate::stop(EffectAnimation const &, AnimEventContext *) // 0x518F1A
 {
     mangled_assert("?stop@StateUpdate@EffectAnimationList@@UAE_NABVEffectAnimation@@PAVAnimEventContext@@@Z");
     todo("implement");
-    bool __result = _sub_518F1A(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_518FF2(EffectAnimationList::StateUpdate *const, EffectAnimation const &, AnimEventContext *, float, float);
 _inline bool EffectAnimationList::StateUpdate::update(EffectAnimation const &, AnimEventContext *, float, float) // 0x518FF2
 {
     mangled_assert("?update@StateUpdate@EffectAnimationList@@UAE_NABVEffectAnimation@@PAVAnimEventContext@@MM@Z");
     todo("implement");
-    bool __result = _sub_518FF2(this, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern _sub_518539(EffectAnimationList::StateUpdate *const);
 _inline EffectAnimationList::StateUpdate::StateUpdate() // 0x518539
 {
     mangled_assert("??0StateUpdate@EffectAnimationList@@IAE@XZ");
     todo("implement");
-    _sub_518539(this);
 }
 
-_extern _sub_515D23(EffectAnimationList::AnimationInstance *const, float, EffectAnimation const *);
 _inline EffectAnimationList::AnimationInstance::AnimationInstance(float, EffectAnimation const *) // 0x515D23
 {
     mangled_assert("??0AnimationInstance@EffectAnimationList@@QAE@MPBVEffectAnimation@@@Z");
     todo("implement");
-    _sub_515D23(this, arg, arg);
 }
 
 /* ---------- private code */

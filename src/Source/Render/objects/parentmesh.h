@@ -165,73 +165,52 @@ static_assert(sizeof(ParentMesh) == 124, "Invalid ParentMesh size");
 
 /* ---------- public code */
 
-_extern void _sub_100318C0(ParentMesh *const);
 _inline void ParentMesh::clearSubMeshes() // 0x100318C0
 {
     mangled_assert("?clearSubMeshes@ParentMesh@@QAEXXZ");
     todo("implement");
-    _sub_100318C0(this);
 }
 
-_extern bool _sub_10032890(ParentMesh *const, bool);
 _inline bool ParentMesh::setIdentityTransform(bool) // 0x10032890
 {
     mangled_assert("?setIdentityTransform@ParentMesh@@UAE_N_N@Z");
     todo("implement");
-    bool __result = _sub_10032890(this, arg);
-    return __result;
 }
 
-_extern void _sub_100312B0(ParentMesh *const, SubMesh *);
 _inline void ParentMesh::addGoblin(SubMesh *) // 0x100312B0
 {
     mangled_assert("?addGoblin@ParentMesh@@QAEXPAVSubMesh@@@Z");
     todo("implement");
-    _sub_100312B0(this, arg);
 }
 
-_extern __int32 _sub_10032660(ParentMesh const *const);
 _inline __int32 ParentMesh::numGoblins() const // 0x10032660
 {
     mangled_assert("?numGoblins@ParentMesh@@QBEHXZ");
     todo("implement");
-    __int32 __result = _sub_10032660(this);
-    return __result;
 }
 
-_extern SubMesh *_sub_100322F0(ParentMesh *const, __int32);
 _inline SubMesh *ParentMesh::getGoblin(__int32) // 0x100322F0
 {
     mangled_assert("?getGoblin@ParentMesh@@QAEPAVSubMesh@@H@Z");
     todo("implement");
-    SubMesh * __result = _sub_100322F0(this, arg);
-    return __result;
 }
 
-_extern SubMesh const *_sub_10032300(ParentMesh const *const, __int32);
 _inline SubMesh const *ParentMesh::getGoblin(__int32) const // 0x10032300
 {
     mangled_assert("?getGoblin@ParentMesh@@QBEPBVSubMesh@@H@Z");
     todo("implement");
-    SubMesh const * __result = _sub_10032300(this, arg);
-    return __result;
 }
 
-_extern void _sub_10032880(ParentMesh *const, bool);
 _inline void ParentMesh::setHasAlphaShader(bool) // 0x10032880
 {
     mangled_assert("?setHasAlphaShader@ParentMesh@@UAEX_N@Z");
     todo("implement");
-    _sub_10032880(this, arg);
 }
 
-_extern bool _sub_10032410(ParentMesh const *const);
 _inline bool ParentMesh::hasAlphaShader() const // 0x10032410
 {
     mangled_assert("?hasAlphaShader@ParentMesh@@UBE_NXZ");
     todo("implement");
-    bool __result = _sub_10032410(this);
-    return __result;
 }
 
 /* ---------- private code */

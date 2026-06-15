@@ -79,113 +79,82 @@ static_assert(sizeof(DynamicPoint) == 188, "Invalid DynamicPoint size");
 
 /* ---------- public code */
 
-_extern void _sub_48739B(DynamicPoint *const, vector3 const &, bool);
 _inline void DynamicPoint::SetOffset(vector3 const &, bool) // 0x48739B
 {
     mangled_assert("?SetOffset@DynamicPoint@@QAEXABVvector3@@_N@Z");
     todo("implement");
-    _sub_48739B(this, arg, arg);
 }
 
-_extern void _sub_48A8EE(DynamicPoint *const, vector3 const &);
 _inline void DynamicPoint::SetHeading(vector3 const &) // 0x48A8EE
 {
     mangled_assert("?SetHeading@DynamicPoint@@QAEXABVvector3@@@Z");
     todo("implement");
-    _sub_48A8EE(this, arg);
 }
 
-_extern void _sub_48A918(DynamicPoint *const, vector3 const &);
 _inline void DynamicPoint::SetUp(vector3 const &) // 0x48A918
 {
     mangled_assert("?SetUp@DynamicPoint@@QAEXABVvector3@@@Z");
     todo("implement");
-    _sub_48A918(this, arg);
 }
 
-_extern void _sub_69B8BA(DynamicPoint *const, vector3 const &);
 _inline void DynamicPoint::SetLeft(vector3 const &) // 0x69B8BA
 {
     mangled_assert("?SetLeft@DynamicPoint@@QAEXABVvector3@@@Z");
     todo("implement");
-    _sub_69B8BA(this, arg);
 }
 
-_extern void _sub_4B6FC5(DynamicPoint *const, matrix3 const &);
 _inline void DynamicPoint::SetMatrix(matrix3 const &) // 0x4B6FC5
 {
     mangled_assert("?SetMatrix@DynamicPoint@@QAEXABVmatrix3@@@Z");
     todo("implement");
-    _sub_4B6FC5(this, arg);
 }
 
-_extern SobID _sub_657A7A(DynamicPoint const *const);
 _inline SobID DynamicPoint::getSobID() const // 0x657A7A
 {
     mangled_assert("?getSobID@DynamicPoint@@QBE?AVSobID@@XZ");
     todo("implement");
-    SobID __result = _sub_657A7A(this);
-    return __result;
 }
 
-_extern vector3 const &_sub_50AC51(DynamicPoint const *const);
 _inline vector3 const &DynamicPoint::getOffset() const // 0x50AC51
 {
     mangled_assert("?getOffset@DynamicPoint@@QBEABVvector3@@XZ");
     todo("implement");
-    vector3 const & __result = _sub_50AC51(this);
-    return __result;
 }
 
-_extern void _sub_6B1465(DynamicPoint *const, bool);
 _inline void DynamicPoint::setForceZeroVelocity(bool) // 0x6B1465
 {
     mangled_assert("?setForceZeroVelocity@DynamicPoint@@QAEX_N@Z");
     todo("implement");
-    _sub_6B1465(this, arg);
 }
 
-_extern void _sub_4B6FEF(DynamicPoint *const, vector3 const &);
 _inline void DynamicPoint::setVelocity(vector3 const &) // 0x4B6FEF
 {
     mangled_assert("?setVelocity@DynamicPoint@@QAEXABVvector3@@@Z");
     todo("implement");
-    _sub_4B6FEF(this, arg);
 }
 
-_extern DynamicPoint::PointType _sub_657C0B(DynamicPoint *const);
 _inline DynamicPoint::PointType DynamicPoint::getType() // 0x657C0B
 {
     mangled_assert("?getType@DynamicPoint@@QAE?AW4PointType@1@XZ");
     todo("implement");
-    DynamicPoint::PointType __result = _sub_657C0B(this);
-    return __result;
 }
 
-_extern void _sub_48D9CF(DynamicPoint *const);
 _inline void DynamicPoint::invalidate() // 0x48D9CF
 {
     mangled_assert("?invalidate@DynamicPoint@@AAEXXZ");
     todo("implement");
-    _sub_48D9CF(this);
 }
 
-_extern bool _sub_5EC4EB(DynamicPoint *const);
 _inline bool DynamicPoint::isDeterministic() // 0x5EC4EB
 {
     mangled_assert("?isDeterministic@DynamicPoint@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_5EC4EB(this);
-    return __result;
 }
 
-_extern char const *_sub_5EC562(DynamicPoint *const);
 _inline char const *DynamicPoint::saveToken() // 0x5EC562
 {
     mangled_assert("?saveToken@DynamicPoint@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_5EC562(this);
-    return __result;
 }
 
 /* ---------- private code */

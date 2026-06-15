@@ -85,22 +85,16 @@ static_assert(sizeof(LuaRuleSystem) == 8, "Invalid LuaRuleSystem size");
 
 /* ---------- public code */
 
-_extern char const *_sub_70F941(LuaRuleSystem *const);
 _inline char const *LuaRuleSystem::saveToken() // 0x70F941
 {
     mangled_assert("?saveToken@LuaRuleSystem@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_70F941(this);
-    return __result;
 }
 
-_extern bool _sub_70F88D(LuaRuleSystem *const);
 _inline bool LuaRuleSystem::isDeterministic() // 0x70F88D
 {
     mangled_assert("?isDeterministic@LuaRuleSystem@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_70F88D(this);
-    return __result;
 }
 
 /* ---------- private code */

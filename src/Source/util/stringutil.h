@@ -17,13 +17,10 @@ extern _inline char *memStringDupe(char const *toCopy);
 
 /* ---------- public code */
 
-_extern char *_sub_100BCE40(char const *);
 _inline char *memStringDupe(char const *toCopy) // 0x100BCE40
 {
     mangled_assert("?memStringDupe@@YGPADPBD@Z");
     todo("implement");
-    char * __result = _sub_100BCE40(toCopy);
-    return __result;
 }
 
 /* ---------- private code */

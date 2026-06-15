@@ -60,20 +60,16 @@ static_assert(sizeof(UI::QueueListBoxItem) == 1472, "Invalid UI::QueueListBoxIte
 
 /* ---------- public code */
 
-_extern void _sub_5820C2(UI::QueueListBoxItem *const, UI::QueueListBoxItemType);
 _inline void UI::QueueListBoxItem::SetType(UI::QueueListBoxItemType) // 0x5820C2
 {
     mangled_assert("?SetType@QueueListBoxItem@UI@@QAEXW4QueueListBoxItemType@2@@Z");
     todo("implement");
-    _sub_5820C2(this, arg);
 }
 
-_extern void _sub_581F55(UI::QueueListBoxItem *const, SobID const &);
 _inline void UI::QueueListBoxItem::SetBuildShip(SobID const &) // 0x581F55
 {
     mangled_assert("?SetBuildShip@QueueListBoxItem@UI@@QAEXABVSobID@@@Z");
     todo("implement");
-    _sub_581F55(this, arg);
 }
 
 /* ---------- private code */

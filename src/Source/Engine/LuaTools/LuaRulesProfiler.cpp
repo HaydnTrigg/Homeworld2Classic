@@ -55,63 +55,49 @@ extern bool LuaRulesProfiler::m_running; // 0x847648
 
 /* ---------- public code */
 
-_extern _sub_5CBADA(LuaRulesProfiler::LuaRulesProfilerElement *const, LuaRulesProfiler::LuaRulesProfilerElement const &);
 _inline LuaRulesProfiler::LuaRulesProfilerElement::LuaRulesProfilerElement(LuaRulesProfiler::LuaRulesProfilerElement const &) // 0x5CBADA
 {
     mangled_assert("??0LuaRulesProfilerElement@LuaRulesProfiler@@QAE@ABU01@@Z");
     compiler_generated();
     todo("implement");
-    _sub_5CBADA(this, arg);
 }
 
-_extern void _sub_5CBB86(std::_List_buy<LuaRulesProfiler::LuaRulesProfilerElement,std::allocator<LuaRulesProfiler::LuaRulesProfilerElement> > *const);
 _inline std::_List_buy<LuaRulesProfiler::LuaRulesProfilerElement,std::allocator<LuaRulesProfiler::LuaRulesProfilerElement> >::~_List_buy<LuaRulesProfiler::LuaRulesProfilerElement,std::allocator<LuaRulesProfiler::LuaRulesProfilerElement> >() // 0x5CBB86
 {
     mangled_assert("??1?$_List_buy@ULuaRulesProfilerElement@LuaRulesProfiler@@V?$allocator@ULuaRulesProfilerElement@LuaRulesProfiler@@@std@@@std@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5CBB86(this);
 }
 
-_extern void _sub_5CBBA1(LuaRulesProfiler::LuaRulesProfilerElement *const);
 _inline LuaRulesProfiler::LuaRulesProfilerElement::~LuaRulesProfilerElement() // 0x5CBBA1
 {
     mangled_assert("??1LuaRulesProfilerElement@LuaRulesProfiler@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5CBBA1(this);
 }
 
-_extern void _sub_5CBEC9();
 void LuaRulesProfiler::PreUpdate() // 0x5CBEC9
 {
     mangled_assert("?PreUpdate@LuaRulesProfiler@@SGXXZ");
     todo("implement");
-    _sub_5CBEC9();
 }
 
-_extern void _sub_5CBF11(char const *, float);
 void LuaRulesProfiler::Update(char const *ruleName, float timer) // 0x5CBF11
 {
     mangled_assert("?Update@LuaRulesProfiler@@SGXPBDM@Z");
     todo("implement");
-    _sub_5CBF11(ruleName, timer);
 }
 
-_extern void _sub_5CBDD2(float);
 void LuaRulesProfiler::PostUpdate(float totalTime) // 0x5CBDD2
 {
     mangled_assert("?PostUpdate@LuaRulesProfiler@@SGXM@Z");
     todo("implement");
-    _sub_5CBDD2(totalTime);
 }
 
-_extern void _sub_5CBC92();
 void LuaRulesProfiler::Display() // 0x5CBC92
 {
     mangled_assert("?Display@LuaRulesProfiler@@SGXXZ");
     todo("implement");
-    _sub_5CBC92();
 }
 
 /* ---------- private code */

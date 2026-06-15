@@ -71,36 +71,28 @@ static_assert(sizeof(PartialRenderState) == 272, "Invalid PartialRenderState siz
 
 /* ---------- public code */
 
-_extern _sub_492CB1(PartialRenderState *const);
 _inline PartialRenderState::PartialRenderState() // 0x492CB1
 {
     mangled_assert("??0PartialRenderState@@QAE@XZ");
     todo("implement");
-    _sub_492CB1(this);
 }
 
-_extern void _sub_492D79(PartialRenderState *const);
 _inline PartialRenderState::~PartialRenderState() // 0x492D79
 {
     mangled_assert("??1PartialRenderState@@QAE@XZ");
     todo("implement");
-    _sub_492D79(this);
 }
 
-_extern void _sub_4952F9(PartialRenderState *const);
 _inline void PartialRenderState::getCurrentState() // 0x4952F9
 {
     mangled_assert("?getCurrentState@PartialRenderState@@QAEXXZ");
     todo("implement");
-    _sub_4952F9(this);
 }
 
-_extern void _sub_495F62(PartialRenderState *const);
 _inline void PartialRenderState::restoreState() // 0x495F62
 {
     mangled_assert("?restoreState@PartialRenderState@@QAEXXZ");
     todo("implement");
-    _sub_495F62(this);
 }
 
 /* ---------- private code */

@@ -333,322 +333,239 @@ _static
 
 /* ---------- public code */
 
-_extern void _sub_5AADC1(UI::Statistics::StatsImpl *const);
 void UI::Statistics::StatsImpl::InitStatPlayers() // 0x5AADC1
 {
     mangled_assert("?InitStatPlayers@StatsImpl@Statistics@UI@@QAEXXZ");
     todo("implement");
-    _sub_5AADC1(this);
 }
 
-_extern _sub_5AA303(UI::Statistics::StatEntry *const, UI::Statistics::StatEntry const &);
 _inline UI::Statistics::StatEntry::StatEntry(UI::Statistics::StatEntry const &) // 0x5AA303
 {
     mangled_assert("??0StatEntry@Statistics@UI@@QAE@ABU012@@Z");
     compiler_generated();
     todo("implement");
-    _sub_5AA303(this, arg);
 }
 
-_extern _sub_5AA380(UI::Statistics::StatEntry *const);
 _inline UI::Statistics::StatEntry::StatEntry() // 0x5AA380
 {
     mangled_assert("??0StatEntry@Statistics@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5AA380(this);
 }
 
-_extern UI::Statistics::StatsTab _sub_5AB1E2(UI::Statistics::StatsImpl *const, LuaConfig &);
 UI::Statistics::StatsTab UI::Statistics::StatsImpl::LoadStatsTab(LuaConfig &) // 0x5AB1E2
 {
     mangled_assert("?LoadStatsTab@StatsImpl@Statistics@UI@@QAE?AUStatsTab@23@AAVLuaConfig@@@Z");
     todo("implement");
-    UI::Statistics::StatsTab __result = _sub_5AB1E2(this, arg);
-    return __result;
 }
 
-_extern bool _sub_5AC2A0(UI::Statistics::StatsImpl *const, UI::NewTextLabel *, unsigned __int32, char const *, wchar_t const *);
 bool UI::Statistics::StatsImpl::SetStat(UI::NewTextLabel *, unsigned __int32, char const *, wchar_t const *) // 0x5AC2A0
 {
     mangled_assert("?SetStat@StatsImpl@Statistics@UI@@QAE_NPAVNewTextLabel@3@IPBDPB_W@Z");
     todo("implement");
-    bool __result = _sub_5AC2A0(this, arg, arg, arg, arg);
-    return __result;
 }
 
-_extern void _sub_5AC358(UI::Statistics::StatsImpl *const, UI::Statistics::StatsTab const &);
 void UI::Statistics::StatsImpl::SetTab(UI::Statistics::StatsTab const &) // 0x5AC358
 {
     mangled_assert("?SetTab@StatsImpl@Statistics@UI@@QAEXABUStatsTab@23@@Z");
     todo("implement");
-    _sub_5AC358(this, arg);
 }
 
-_extern void _sub_5ABF6C(UI::Statistics::StatsImpl *const);
 void UI::Statistics::StatsImpl::SetGlobalStats() // 0x5ABF6C
 {
     mangled_assert("?SetGlobalStats@StatsImpl@Statistics@UI@@QAEXXZ");
     todo("implement");
-    _sub_5ABF6C(this);
 }
 
-_extern void _sub_5AAA58(UI::Statistics::StatsImpl *const);
 void UI::Statistics::StatsImpl::DumpStats() // 0x5AAA58
 {
     mangled_assert("?DumpStats@StatsImpl@Statistics@UI@@QAEXXZ");
     todo("implement");
-    _sub_5AAA58(this);
 }
 
-_extern void _sub_5AC522(UI::Statistics::StatsImpl *const, LuaConfig &, unsigned __int32, char const *);
 void UI::Statistics::StatsImpl::WriteStat(LuaConfig &, unsigned __int32, char const *) // 0x5AC522
 {
     mangled_assert("?WriteStat@StatsImpl@Statistics@UI@@QAEXAAVLuaConfig@@IPBD@Z");
     todo("implement");
-    _sub_5AC522(this, arg, arg, arg);
 }
 
-_extern void _sub_5AA9C8(UI::Statistics::StatsImpl *const);
 void UI::Statistics::StatsImpl::ClearAllStats() // 0x5AA9C8
 {
     mangled_assert("?ClearAllStats@StatsImpl@Statistics@UI@@QAEXXZ");
     todo("implement");
-    _sub_5AA9C8(this);
 }
 
-_extern void _sub_5AB641(UI::InterfaceElement *);
 void UI::Statistics::StatsImpl::OnBackClicked(UI::InterfaceElement *sender) // 0x5AB641
 {
     mangled_assert("?OnBackClicked@StatsImpl@Statistics@UI@@SGXPAVInterfaceElement@3@@Z");
     todo("implement");
-    _sub_5AB641(sender);
 }
 
-_extern void _sub_5ABF45(UI::InterfaceElement *);
 void UI::Statistics::StatsImpl::OnTabButton(UI::InterfaceElement *tabButton) // 0x5ABF45
 {
     mangled_assert("?OnTabButton@StatsImpl@Statistics@UI@@SGXPAVInterfaceElement@3@@Z");
     todo("implement");
-    _sub_5ABF45(tabButton);
 }
 
-_extern void _sub_5ABF23(UI::InterfaceElement *);
 void UI::Statistics::StatsImpl::OnReplayClicked(UI::InterfaceElement *sender) // 0x5ABF23
 {
     mangled_assert("?OnReplayClicked@StatsImpl@Statistics@UI@@SGXPAVInterfaceElement@3@@Z");
     todo("implement");
-    _sub_5ABF23(sender);
 }
 
-_extern void _sub_5ABF34(UI::InterfaceElement *);
 void UI::Statistics::StatsImpl::OnSaveRecordingClicked(UI::InterfaceElement *sender) // 0x5ABF34
 {
     mangled_assert("?OnSaveRecordingClicked@StatsImpl@Statistics@UI@@SGXPAVInterfaceElement@3@@Z");
     todo("implement");
-    _sub_5ABF34(sender);
 }
 
-_extern void _sub_5ABD18(UI::InterfaceElement *);
 void UI::Statistics::StatsImpl::OnMainMenuClicked(UI::InterfaceElement *sender) // 0x5ABD18
 {
     mangled_assert("?OnMainMenuClicked@StatsImpl@Statistics@UI@@SGXPAVInterfaceElement@3@@Z");
     todo("implement");
-    _sub_5ABD18(sender);
 }
 
-_extern void _sub_5ABD1B(UI::InterfaceElement *);
 void UI::Statistics::StatsImpl::OnNewGameClicked(UI::InterfaceElement *sender) // 0x5ABD1B
 {
     mangled_assert("?OnNewGameClicked@StatsImpl@Statistics@UI@@SGXPAVInterfaceElement@3@@Z");
     todo("implement");
-    _sub_5ABD1B(sender);
 }
 
-_extern _sub_5AA3C1(UI::Statistics *const, char const *);
 UI::Statistics::Statistics(char const *) // 0x5AA3C1
 {
     mangled_assert("??0Statistics@UI@@QAE@PBD@Z");
     todo("implement");
-    _sub_5AA3C1(this, arg);
 }
 
-_extern _sub_5AA47E(UI::Statistics::StatsImpl *const);
 _inline UI::Statistics::StatsImpl::StatsImpl() // 0x5AA47E
 {
     mangled_assert("??0StatsImpl@Statistics@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5AA47E(this);
 }
 
-_extern _sub_5AA54A(UI::Statistics::StatsTab *const, UI::Statistics::StatsTab const &);
 _inline UI::Statistics::StatsTab::StatsTab(UI::Statistics::StatsTab const &) // 0x5AA54A
 {
     mangled_assert("??0StatsTab@Statistics@UI@@QAE@ABU012@@Z");
     compiler_generated();
     todo("implement");
-    _sub_5AA54A(this, arg);
 }
 
-_extern _sub_5AA597(UI::Statistics::StatsTab *const);
 _inline UI::Statistics::StatsTab::StatsTab() // 0x5AA597
 {
     mangled_assert("??0StatsTab@Statistics@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5AA597(this);
 }
 
-_extern void _sub_5AA5E0(UI::Statistics::StatEntry *const);
 _inline UI::Statistics::StatEntry::~StatEntry() // 0x5AA5E0
 {
     mangled_assert("??1StatEntry@Statistics@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5AA5E0(this);
 }
 
-_extern void _sub_5AA619(UI::Statistics *const);
 UI::Statistics::~Statistics() // 0x5AA619
 {
     mangled_assert("??1Statistics@UI@@UAE@XZ");
     todo("implement");
-    _sub_5AA619(this);
 }
 
-_extern void _sub_5AA63C(UI::Statistics::StatsImpl *const);
 _inline UI::Statistics::StatsImpl::~StatsImpl() // 0x5AA63C
 {
     mangled_assert("??1StatsImpl@Statistics@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5AA63C(this);
 }
 
-_extern void _sub_5AA6B5(UI::Statistics::StatsTab *const);
 _inline UI::Statistics::StatsTab::~StatsTab() // 0x5AA6B5
 {
     mangled_assert("??1StatsTab@Statistics@UI@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_5AA6B5(this);
 }
 
-_extern UI::NewTextLabel &_sub_5AA7A7(UI::NewTextLabel *const, UI::NewTextLabel const &);
 _inline UI::NewTextLabel &UI::NewTextLabel::operator=(UI::NewTextLabel const &) // 0x5AA7A7
 {
     mangled_assert("??4NewTextLabel@UI@@QAEAAV01@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    UI::NewTextLabel & __result = _sub_5AA7A7(this, arg);
-    return __result;
 }
 
-_extern UI::RadioButton &_sub_5AA7DA(UI::RadioButton *const, UI::RadioButton const &);
 _inline UI::RadioButton &UI::RadioButton::operator=(UI::RadioButton const &) // 0x5AA7DA
 {
     mangled_assert("??4RadioButton@UI@@QAEAAV01@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    UI::RadioButton & __result = _sub_5AA7DA(this, arg);
-    return __result;
 }
 
-_extern UI::RadioItem &_sub_5AA821(UI::RadioItem *const, UI::RadioItem const &);
 _inline UI::RadioItem &UI::RadioItem::operator=(UI::RadioItem const &) // 0x5AA821
 {
     mangled_assert("??4RadioItem@UI@@QAEAAV01@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    UI::RadioItem & __result = _sub_5AA821(this, arg);
-    return __result;
 }
 
-_extern UI::TextButton &_sub_5AA836(UI::TextButton *const, UI::TextButton const &);
 _inline UI::TextButton &UI::TextButton::operator=(UI::TextButton const &) // 0x5AA836
 {
     mangled_assert("??4TextButton@UI@@QAEAAV01@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    UI::TextButton & __result = _sub_5AA836(this, arg);
-    return __result;
 }
 
-_extern UI::UISignal &_sub_5AA899(UI::UISignal *const, UI::UISignal const &);
 _inline UI::UISignal &UI::UISignal::operator=(UI::UISignal const &) // 0x5AA899
 {
     mangled_assert("??4UISignal@UI@@QAEAAV01@ABV01@@Z");
     compiler_generated();
     todo("implement");
-    UI::UISignal & __result = _sub_5AA899(this, arg);
-    return __result;
 }
 
-_extern void _sub_5ABF20(UI::Statistics *const, LuaConfig &);
 void UI::Statistics::OnPreLoad(LuaConfig &) // 0x5ABF20
 {
     mangled_assert("?OnPreLoad@Statistics@UI@@MAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_5ABF20(this, arg);
 }
 
-_extern void _sub_5AB655(UI::Statistics *const, LuaConfig &);
 void UI::Statistics::OnLoad(LuaConfig &) // 0x5AB655
 {
     mangled_assert("?OnLoad@Statistics@UI@@MAEXAAVLuaConfig@@@Z");
     todo("implement");
-    _sub_5AB655(this, arg);
 }
 
-_extern void _sub_5ABD31(UI::Statistics *const);
 void UI::Statistics::OnPostLoad() // 0x5ABD31
 {
     mangled_assert("?OnPostLoad@Statistics@UI@@MAEXXZ");
     todo("implement");
-    _sub_5ABD31(this);
 }
 
-_extern void _sub_5AB5B2(UI::Statistics *const, bool);
 void UI::Statistics::OnActivate(bool) // 0x5AB5B2
 {
     mangled_assert("?OnActivate@Statistics@UI@@MAEX_N@Z");
     todo("implement");
-    _sub_5AB5B2(this, arg);
 }
 
-_extern void _sub_5AC022(UI::Statistics *const, UI::Statistics::LastGameRubric);
 void UI::Statistics::SetLastGameRubric(UI::Statistics::LastGameRubric) // 0x5AC022
 {
     mangled_assert("?SetLastGameRubric@Statistics@UI@@QAEXW4LastGameRubric@12@@Z");
     todo("implement");
-    _sub_5AC022(this, arg);
 }
 
-_extern UI::Statistics *_sub_5AADBB();
 UI::Statistics *UI::Statistics::GetScreen() // 0x5AADBB
 {
     mangled_assert("?GetScreen@Statistics@UI@@SGPAV12@XZ");
     todo("implement");
-    UI::Statistics * __result = _sub_5AADBB();
-    return __result;
 }
 
-_extern void _sub_5AC51D(UI::Statistics *const, unsigned __int32);
 void UI::Statistics::Update(unsigned __int32) // 0x5AC51D
 {
     mangled_assert("?Update@Statistics@UI@@UAEXI@Z");
     todo("implement");
-    _sub_5AC51D(this, arg);
 }
 
-_extern wchar_t const *_sub_5AADA7(UI::Statistics *const);
 wchar_t const *UI::Statistics::GetNoTimeKilledString() // 0x5AADA7
 {
     mangled_assert("?GetNoTimeKilledString@Statistics@UI@@QAEPB_WXZ");
     todo("implement");
-    wchar_t const * __result = _sub_5AADA7(this);
-    return __result;
 }
 
 /* ---------- private code */

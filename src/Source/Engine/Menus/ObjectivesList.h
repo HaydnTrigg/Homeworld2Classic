@@ -46,13 +46,10 @@ static_assert(sizeof(UI::ObjectivesList) == 444, "Invalid UI::ObjectivesList siz
 
 /* ---------- public code */
 
-_extern UI::ObjectivesList *_sub_57768C();
 _inline UI::ObjectivesList *UI::ObjectivesList::GetScreen() // 0x57768C
 {
     mangled_assert("?GetScreen@ObjectivesList@UI@@SGPAV12@XZ");
     todo("implement");
-    UI::ObjectivesList * __result = _sub_57768C();
-    return __result;
 }
 
 /* ---------- private code */

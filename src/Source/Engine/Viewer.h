@@ -76,74 +76,54 @@ static_assert(sizeof(Viewer) == 964, "Invalid Viewer size");
 
 /* ---------- public code */
 
-_extern void _sub_652514(CameraDistanceTask *const);
 _inline CameraDistanceTask::~CameraDistanceTask() // 0x652514
 {
     mangled_assert("??1CameraDistanceTask@@UAE@XZ");
     todo("implement");
-    _sub_652514(this);
 }
 
-_extern void _sub_6529E8(CameraDistanceTask *const, CameraOrbitTarget *);
 _inline void CameraDistanceTask::attachCamera(CameraOrbitTarget *) // 0x6529E8
 {
     mangled_assert("?attachCamera@CameraDistanceTask@@QAEXPAVCameraOrbitTarget@@@Z");
     todo("implement");
-    _sub_6529E8(this, arg);
 }
 
-_extern void _sub_6529F2(Viewer *const, CameraOrbitTarget *);
 _inline void Viewer::attachCamera(CameraOrbitTarget *) // 0x6529F2
 {
     mangled_assert("?attachCamera@Viewer@@QAEXPAVCameraOrbitTarget@@@Z");
     todo("implement");
-    _sub_6529F2(this, arg);
 }
 
-_extern void _sub_4FA875(Viewer *const, Player *);
 _inline void Viewer::attachPlayer(Player *) // 0x4FA875
 {
     mangled_assert("?attachPlayer@Viewer@@QAEXPAVPlayer@@@Z");
     todo("implement");
-    _sub_4FA875(this, arg);
 }
 
-_extern Selection *_sub_44977A(Viewer *const);
 _inline Selection *Viewer::getRenderList() // 0x44977A
 {
     mangled_assert("?getRenderList@Viewer@@QAEPAVSelection@@XZ");
     todo("implement");
-    Selection * __result = _sub_44977A(this);
-    return __result;
 }
 
-_extern Selection *_sub_523D22(Viewer *const);
 _inline Selection *Viewer::getRetiredRenderList() // 0x523D22
 {
     mangled_assert("?getRetiredRenderList@Viewer@@QAEPAVSelection@@XZ");
     todo("implement");
-    Selection * __result = _sub_523D22(this);
-    return __result;
 }
 
-_extern bool _sub_652B97(Saveable * const);
 _inline bool Viewer::isDeterministic() // 0x652B97
 {
     mangled_assert("?isDeterministic@Viewer@@UAE_NXZ");
     // __shifted(Viewer, 48);
     todo("implement");
-    bool __result = _sub_652B97(this);
-    return __result;
 }
 
-_extern char const *_sub_652C7C(Saveable * const);
 _inline char const *Viewer::saveToken() // 0x652C7C
 {
     mangled_assert("?saveToken@Viewer@@UAEPBDXZ");
     // __shifted(Viewer, 48);
     todo("implement");
-    char const * __result = _sub_652C7C(this);
-    return __result;
 }
 
 /* ---------- private code */

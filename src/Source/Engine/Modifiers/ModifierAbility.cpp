@@ -93,28 +93,22 @@
 
 /* ---------- public code */
 
-_extern _sub_56DF1D(ModifierAbility *const, AbilityType, InfluenceType, float, bool);
 ModifierAbility::ModifierAbility(AbilityType, InfluenceType, float, bool) // 0x56DF1D
 {
     mangled_assert("??0ModifierAbility@@QAE@W4AbilityType@@W4InfluenceType@@M_N@Z");
     todo("implement");
-    _sub_56DF1D(this, arg, arg, arg, arg);
 }
 
-_extern void _sub_56DF4F(ModifierAbility *const);
 ModifierAbility::~ModifierAbility() // 0x56DF4F
 {
     mangled_assert("??1ModifierAbility@@UAE@XZ");
     todo("implement");
-    _sub_56DF4F(this);
 }
 
-_extern void _sub_56DF7C(ModifierAbility const *const, Ship *, float);
 void ModifierAbility::applyEffectTo(Ship *, float) const // 0x56DF7C
 {
     mangled_assert("?applyEffectTo@ModifierAbility@@MBEXPAVShip@@M@Z");
     todo("implement");
-    _sub_56DF7C(this, arg, arg);
 }
 
 /* ---------- private code */

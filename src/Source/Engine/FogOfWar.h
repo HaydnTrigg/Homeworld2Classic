@@ -33,12 +33,10 @@ static_assert(sizeof(FogOfWar) == 1, "Invalid FogOfWar size");
 
 /* ---------- public code */
 
-_extern void _sub_7165D8();
 _inline void FogOfWar::forceUpdate() // 0x7165D8
 {
     mangled_assert("?forceUpdate@FogOfWar@@SGXXZ");
     todo("implement");
-    _sub_7165D8();
 }
 
 /* ---------- private code */

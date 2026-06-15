@@ -62,46 +62,34 @@ static_assert(sizeof(UI::TextTableCell) == 1040, "Invalid UI::TextTableCell size
 
 /* ---------- public code */
 
-_extern void _sub_68F282(UI::TableCell *const);
 _inline UI::TableCell::~TableCell() // 0x68F282
 {
     mangled_assert("??1TableCell@UI@@UAE@XZ");
     todo("implement");
-    _sub_68F282(this);
 }
 
-_extern UI::InterfaceElement *_sub_68F67E(UI::TableCell *const);
 _inline UI::InterfaceElement *UI::TableCell::clone() // 0x68F67E
 {
     mangled_assert("?clone@TableCell@UI@@UAEPAVInterfaceElement@2@XZ");
     todo("implement");
-    UI::InterfaceElement * __result = _sub_68F67E(this);
-    return __result;
 }
 
-_extern void _sub_6868DE(UI::TableCell *const, UI::Table *);
 _inline void UI::TableCell::SetParentTable(UI::Table *) // 0x6868DE
 {
     mangled_assert("?SetParentTable@TableCell@UI@@QAEXPAVTable@2@@Z");
     todo("implement");
-    _sub_6868DE(this, arg);
 }
 
-_extern void _sub_68F28D(UI::TextTableCell *const);
 _inline UI::TextTableCell::~TextTableCell() // 0x68F28D
 {
     mangled_assert("??1TextTableCell@UI@@UAE@XZ");
     todo("implement");
-    _sub_68F28D(this);
 }
 
-_extern UI::InterfaceElement *_sub_68F6B8(UI::TextTableCell *const);
 _inline UI::InterfaceElement *UI::TextTableCell::clone() // 0x68F6B8
 {
     mangled_assert("?clone@TextTableCell@UI@@UAEPAVInterfaceElement@2@XZ");
     todo("implement");
-    UI::InterfaceElement * __result = _sub_68F6B8(this);
-    return __result;
 }
 
 /* ---------- private code */

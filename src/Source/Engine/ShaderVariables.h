@@ -74,13 +74,10 @@ extern _inline unsigned long shaderVarGetKey(ShaderVariables v);
 
 /* ---------- public code */
 
-_extern unsigned long _sub_4795B7(ShaderVariables);
 _inline unsigned long shaderVarGetKey(ShaderVariables v) // 0x4795B7
 {
     mangled_assert("?shaderVarGetKey@@YGKW4ShaderVariables@@@Z");
     todo("implement");
-    unsigned long __result = _sub_4795B7(v);
-    return __result;
 }
 
 /* ---------- private code */

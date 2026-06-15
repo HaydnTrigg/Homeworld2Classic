@@ -272,318 +272,230 @@ extern SaveData const Missile::m_saveData[13]; // 0x78C3F8
 
 /* ---------- public code */
 
-_extern _sub_486976(Missile *const, char const *, SobWithMesh *, WeaponStatic const *, WeaponTargetInfo const &, Player *);
 Missile::Missile(char const *, SobWithMesh *, WeaponStatic const *, WeaponTargetInfo const &, Player *) // 0x486976
 {
     mangled_assert("??0Missile@@QAE@PBDPAVSobWithMesh@@PBVWeaponStatic@@ABVWeaponTargetInfo@@PAVPlayer@@@Z");
     todo("implement");
-    _sub_486976(this, arg, arg, arg, arg, arg);
 }
 
-_extern void _sub_486E8C(GameEvent_Combat *const);
 _inline GameEvent_Combat::~GameEvent_Combat() // 0x486E8C
 {
     mangled_assert("??1GameEvent_Combat@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_486E8C(this);
 }
 
-_extern void _sub_486E93(Missile *const);
 Missile::~Missile() // 0x486E93
 {
     mangled_assert("??1Missile@@UAE@XZ");
     todo("implement");
-    _sub_486E93(this);
 }
 
-_extern void _sub_486F1D(WeaponTargetInfo *const);
 _inline WeaponTargetInfo::~WeaponTargetInfo() // 0x486F1D
 {
     mangled_assert("??1WeaponTargetInfo@@UAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_486F1D(this);
 }
 
-_extern void _sub_487C7D(Missile *const, WeaponTargetInfo &);
 void Missile::findNewPointOnTarget(WeaponTargetInfo &) // 0x487C7D
 {
     mangled_assert("?findNewPointOnTarget@Missile@@AAEXAAVWeaponTargetInfo@@@Z");
     todo("implement");
-    _sub_487C7D(this, arg);
 }
 
-_extern void _sub_48722C(Missile *const);
 void Missile::RemoveAllSimData() // 0x48722C
 {
     mangled_assert("?RemoveAllSimData@Missile@@IAEXXZ");
     todo("implement");
-    _sub_48722C(this);
 }
 
-_extern void _sub_487268(Missile *const);
 void Missile::RemoveFromSimulation() // 0x487268
 {
     mangled_assert("?RemoveFromSimulation@Missile@@MAEXXZ");
     todo("implement");
-    _sub_487268(this);
 }
 
-_extern void _sub_487278(Missile *const, vector3 const);
 void Missile::SetInitialGoal(vector3 const) // 0x487278
 {
     mangled_assert("?SetInitialGoal@Missile@@QAEXVvector3@@@Z");
     todo("implement");
-    _sub_487278(this, arg);
 }
 
-_extern _sub_48689B(CompareShipsByMissilePriority *const, Missile *);
 _inline CompareShipsByMissilePriority::CompareShipsByMissilePriority(Missile *) // 0x48689B
 {
     mangled_assert("??0CompareShipsByMissilePriority@@QAE@PAVMissile@@@Z");
     todo("implement");
-    _sub_48689B(this, arg);
 }
 
-_extern _sub_4868ED(Selection::MinElementCompare *const);
 _inline Selection::MinElementCompare::MinElementCompare() // 0x4868ED
 {
     mangled_assert("??0MinElementCompare@Selection@@QAE@XZ");
     compiler_generated();
     todo("implement");
-    _sub_4868ED(this);
 }
 
-_extern bool _sub_487096(CompareShipsByMissilePriority const *const, Sob const &, Sob const &);
 bool CompareShipsByMissilePriority::Compare(Sob const &, Sob const &) const // 0x487096
 {
     mangled_assert("?Compare@CompareShipsByMissilePriority@@UBE_NABVSob@@0@Z");
     todo("implement");
-    bool __result = _sub_487096(this, arg, arg);
-    return __result;
 }
 
-_extern bool _sub_488BA3(Missile *const, float);
 bool Missile::update(float) // 0x488BA3
 {
     mangled_assert("?update@Missile@@UAE_NM@Z");
     todo("implement");
-    bool __result = _sub_488BA3(this, arg);
-    return __result;
 }
 
-_extern bool _sub_4873B3(Sob const *, void *);
 bool accurate(Sob const *sob, void *vData) // 0x4873B3
 {
     mangled_assert("?accurate@@YG_NPBVSob@@PAX@Z");
     todo("implement");
-    bool __result = _sub_4873B3(sob, vData);
-    return __result;
 }
 
-_extern bool _sub_48819F(Missile *const, float);
 bool Missile::mineUpdate(float) // 0x48819F
 {
     mangled_assert("?mineUpdate@Missile@@AAE_NM@Z");
     todo("implement");
-    bool __result = _sub_48819F(this, arg);
-    return __result;
 }
 
-_extern bool _sub_488494(Missile *const, float);
 bool Missile::missileUpdate(float) // 0x488494
 {
     mangled_assert("?missileUpdate@Missile@@AAE_NM@Z");
     todo("implement");
-    bool __result = _sub_488494(this, arg);
-    return __result;
 }
 
-_extern void _sub_48741A(Missile *const, Sob *);
 void Missile::checkSpawnWeaponFire(Sob *) // 0x48741A
 {
     mangled_assert("?checkSpawnWeaponFire@Missile@@AAEXPAVSob@@@Z");
     todo("implement");
-    _sub_48741A(this, arg);
 }
 
-_extern void _sub_48768A(Missile *const, Sob *);
 void Missile::checkSubMunitions(Sob *) // 0x48768A
 {
     mangled_assert("?checkSubMunitions@Missile@@AAEXPAVSob@@@Z");
     todo("implement");
-    _sub_48768A(this, arg);
 }
 
-_extern void _sub_488AF5(Missile *const);
 void Missile::stop() // 0x488AF5
 {
     mangled_assert("?stop@Missile@@AAEXXZ");
     todo("implement");
-    _sub_488AF5(this);
 }
 
-_extern Sob *_sub_487E7F(Missile *const, Selection const &);
 Sob *Missile::getBestTarget(Selection const &) // 0x487E7F
 {
     mangled_assert("?getBestTarget@Missile@@AAEPAVSob@@ABVSelection@@@Z");
     todo("implement");
-    Sob * __result = _sub_487E7F(this, arg);
-    return __result;
 }
 
-_extern void _sub_487CDE(Missile *const);
 void Missile::flyStraight() // 0x487CDE
 {
     mangled_assert("?flyStraight@Missile@@AAEXXZ");
     todo("implement");
-    _sub_487CDE(this);
 }
 
-_extern void _sub_487DB7(Missile *const, WeaponTargetInfo const &);
 void Missile::flyToTarget(WeaponTargetInfo const &) // 0x487DB7
 {
     mangled_assert("?flyToTarget@Missile@@AAEXABVWeaponTargetInfo@@@Z");
     todo("implement");
-    _sub_487DB7(this, arg);
 }
 
-_extern Missile *_sub_487F01(Missile *const);
 Missile *Missile::getMissilePtr() // 0x487F01
 {
     mangled_assert("?getMissilePtr@Missile@@QAEPAV1@XZ");
     todo("implement");
-    Missile * __result = _sub_487F01(this);
-    return __result;
 }
 
-_extern float _sub_487F3F(Missile *const);
 float Missile::getSobDieTime() // 0x487F3F
 {
     mangled_assert("?getSobDieTime@Missile@@UAEMXZ");
     todo("implement");
-    float __result = _sub_487F3F(this);
-    return __result;
 }
 
-_extern bool _sub_488E41(Missile *const, float);
 bool Missile::updateTimeOfDeath(float) // 0x488E41
 {
     mangled_assert("?updateTimeOfDeath@Missile@@UAE_NM@Z");
     todo("implement");
-    bool __result = _sub_488E41(this, arg);
-    return __result;
 }
 
-_extern void _sub_488745(Missile *const, Camera const *);
 void Missile::render(Camera const *) // 0x488745
 {
     mangled_assert("?render@Missile@@UAEXPBVCamera@@@Z");
     todo("implement");
-    _sub_488745(this, arg);
 }
 
-_extern void _sub_48876A(Missile *const, Camera const *, MeshRenderProxy &);
 void Missile::render(Camera const *, MeshRenderProxy &) // 0x48876A
 {
     mangled_assert("?render@Missile@@UAEXPBVCamera@@AAVMeshRenderProxy@@@Z");
     todo("implement");
-    _sub_48876A(this, arg, arg);
 }
 
-_extern float _sub_487EF7(Missile *const);
 float Missile::getMainEngineUsage() // 0x487EF7
 {
     mangled_assert("?getMainEngineUsage@Missile@@UAEMXZ");
     todo("implement");
-    float __result = _sub_487EF7(this);
-    return __result;
 }
 
-_extern bool _sub_487F7C(Missile *const, Sob *, vector3 const &, vector3 const &);
 bool Missile::hitsSob(Sob *, vector3 const &, vector3 const &) // 0x487F7C
 {
     mangled_assert("?hitsSob@Missile@@QAE_NPAVSob@@ABVvector3@@1@Z");
     todo("implement");
-    bool __result = _sub_487F7C(this, arg, arg, arg);
-    return __result;
 }
 
-_extern Ship *_sub_487F04(Missile const *const);
 Ship *Missile::getOwnerShip() const // 0x487F04
 {
     mangled_assert("?getOwnerShip@Missile@@QBEPAVShip@@XZ");
     todo("implement");
-    Ship * __result = _sub_487F04(this);
-    return __result;
 }
 
-_extern _sub_4868F6(Missile *const, SaveGameData *);
 Missile::Missile(SaveGameData *) // 0x4868F6
 {
     mangled_assert("??0Missile@@QAE@PAVSaveGameData@@@Z");
     todo("implement");
-    _sub_4868F6(this, arg);
 }
 
-_extern void _sub_487C28(Missile *const);
 void Missile::defaultSettings() // 0x487C28
 {
     mangled_assert("?defaultSettings@Missile@@QAEXXZ");
     todo("implement");
-    _sub_487C28(this);
 }
 
-_extern void _sub_4886C6(Missile *const);
 void Missile::postRestore() // 0x4886C6
 {
     mangled_assert("?postRestore@Missile@@UAEXXZ");
     todo("implement");
-    _sub_4886C6(this);
 }
 
-_extern void _sub_486825(void *, SaveGameData *, SaveType);
 void Missile::saveWeaponStatic(void *objectPtr, SaveGameData *saveGameData, SaveType savetype) // 0x486825
 {
     mangled_assert("?saveWeaponStatic@Missile@@CGXPAXPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    _sub_486825(objectPtr, saveGameData, savetype);
 }
 
-_extern void _sub_486828(void *, SaveGameData *);
 void Missile::loadWeaponStatic(void *objectPtr, SaveGameData *saveGameData) // 0x486828
 {
     mangled_assert("?loadWeaponStatic@Missile@@CGXPAXPAVSaveGameData@@@Z");
     todo("implement");
-    _sub_486828(objectPtr, saveGameData);
 }
 
-_extern bool _sub_48893E(Missile *const, SaveGameData *);
 bool Missile::restore(SaveGameData *) // 0x48893E
 {
     mangled_assert("?restore@Missile@@UAE_NPAVSaveGameData@@@Z");
     todo("implement");
-    bool __result = _sub_48893E(this, arg);
-    return __result;
 }
 
-_extern bool _sub_48898B(Missile *const, SaveGameData *, SaveType);
 bool Missile::save(SaveGameData *, SaveType) // 0x48898B
 {
     mangled_assert("?save@Missile@@UAE_NPAVSaveGameData@@W4SaveType@@@Z");
     todo("implement");
-    bool __result = _sub_48898B(this, arg, arg);
-    return __result;
 }
 
 /* ---------- private code */
 
-_extern void _sub_48720A(MeshInstance *);
 _static void InitializeMeshInstanceCache(MeshInstance *instance) // 0x48720A
 {
     mangled_assert("InitializeMeshInstanceCache");
     todo("implement");
-    _sub_48720A(instance);
 }
 #endif

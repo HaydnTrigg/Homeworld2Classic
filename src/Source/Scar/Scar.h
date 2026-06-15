@@ -117,31 +117,22 @@ static_assert(sizeof(Scar) == 104, "Invalid Scar size");
 
 /* ---------- public code */
 
-_extern LuaConfig *_sub_5564A3(Scar const *const);
 _inline LuaConfig *Scar::getState() const // 0x5564A3
 {
     mangled_assert("?getState@Scar@@QBEPAVLuaConfig@@XZ");
     todo("implement");
-    LuaConfig * __result = _sub_5564A3(this);
-    return __result;
 }
 
-_extern char const *_sub_72766F(Scar *const);
 _inline char const *Scar::saveToken() // 0x72766F
 {
     mangled_assert("?saveToken@Scar@@UAEPBDXZ");
     todo("implement");
-    char const * __result = _sub_72766F(this);
-    return __result;
 }
 
-_extern bool _sub_7275C0(Scar *const);
 _inline bool Scar::isDeterministic() // 0x7275C0
 {
     mangled_assert("?isDeterministic@Scar@@UAE_NXZ");
     todo("implement");
-    bool __result = _sub_7275C0(this);
-    return __result;
 }
 
 /* ---------- private code */
