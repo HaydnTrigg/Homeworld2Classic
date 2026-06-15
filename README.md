@@ -1,5 +1,4 @@
 # Homeworld 2 Classic [![Build Status]][actions] [![Code Progress]][progress] [![Data Progress]][progress] [![Discord Badge]][discord]
-=============
 
 [Build Status]: https://github.com/HaydnTrigg/Homeworld2Classic/actions/workflows/build.yml/badge.svg
 [actions]: https://github.com/HaydnTrigg/Homeworld2Classic/actions/workflows/build.yml
