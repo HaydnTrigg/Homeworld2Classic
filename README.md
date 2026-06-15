@@ -1,6 +1,16 @@
 # Homeworld 2 Classic
+[![Build Status]][actions] [![Code Progress]][progress] [![Data Progress]][progress] [![Discord Badge]][discord]
+=============
 
-## DevRelease
+[Build Status]: https://github.com/HaydnTrigg/Homeworld2Classic/actions/workflows/build.yml/badge.svg
+[actions]: https://github.com/HaydnTrigg/Homeworld2Classic/actions/workflows/build.yml
+[Code Progress]: https://decomp.dev/HaydnTrigg/Homeworld2Classic.svg?mode=shield&measure=code&label=Code
+[Data Progress]: https://decomp.dev/HaydnTrigg/Homeworld2Classic.svg?mode=shield&measure=data&label=Data
+[progress]: https://decomp.dev/HaydnTrigg/Homeworld2Classic
+[Discord Badge]: https://img.shields.io/badge/Discord-PC/Xbox%20Decompilation-blue?color=%237289DA&logo=discord&logoColor=%23FFFFFF
+[discord]: https://discord.gg/v3xcYgHvNZ
+
+A work-in-progress decompilation of Homeworld 2.
 
 ![Matching](https://github.com/HaydnTrigg/Homeworld2Classic/raw/refs/heads/workflow-reports/images/DevRelease-objdiff-matching.svg)
 ![Console.dll](https://github.com/HaydnTrigg/Homeworld2Classic/raw/refs/heads/workflow-reports/images/DevRelease-objdiff-Console.dll.svg)
