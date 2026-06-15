@@ -11,8 +11,9 @@
     "cflags": {
         "decomp": {
             "flags": [
+                "-DHW2C_EXE",
                 "-DDECOMP",
-                "-I$(SOURCE_ROOT)"
+                "\"-I$(SOURCE_ROOT)\""
             ]
         },
         "common": {
@@ -25,7 +26,9 @@
                 "-fexceptions",
                 "-ffunction-sections",
                 "-fno-stack-protector",
-                "-fno-common"
+                "-fno-common",
+                "\"-I$(SOURCE_ROOT)/src/src/shared/cross\"",
+                "\"-I$(SOURCE_ROOT)/src/src/Foreign\""
             ]
         },
         "HW2C_Exe": {
@@ -36,8 +39,9 @@
     "cxxflags": {
         "decomp": {
             "flags": [
+                "-DHW2C_EXE",
                 "-DDECOMP",
-                "-I$(SOURCE_ROOT)"
+                "\"-I$(SOURCE_ROOT)\""
             ]
         },
         "common": {
@@ -52,8 +56,9 @@
                 "-fexceptions",
                 "-ffunction-sections",
                 "-fno-stack-protector",
-                //"-fomit-frame-pointer",
-                "-fno-common"
+                "-fno-common",
+                "\"-I$(SOURCE_ROOT)/src/src/shared/cross\"",
+                "\"-I$(SOURCE_ROOT)/src/src/Foreign\""
             ]
         },
         "HW2C_Exe": {
@@ -64,8 +69,9 @@
     "objcflags": {
         "decomp": {
             "flags": [
+                "-DHW2C_EXE",
                 "-DDECOMP",
-                "-I$(SOURCE_ROOT)"
+                "\"-I$(SOURCE_ROOT)\""
             ]
         },
         "common": {
